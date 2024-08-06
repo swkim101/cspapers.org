@@ -59,6 +59,17 @@ const usenix = [
   }))
 ]
 
+const osdi = [
+  ...seq(18, 25).map(y => ({
+    year: `20${y}`,
+    venue: "osdi",
+    url: `https://www.usenix.org/conference/osdi${y}/technical-sessions`,
+    unitQs: "article.node-paper",
+    titleQs: "h2",
+    absQs: ["div.content > div > div.group-schedule-accordion"],
+  }))
+]
+
 const ccs = [
   {
     year: 2018,
@@ -130,5 +141,5 @@ const sp = [
 ]
 
 module.exports = [
-  ...sp
+  ...osdi
 ]
