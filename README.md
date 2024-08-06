@@ -46,6 +46,7 @@ Poor conference filter:
 
 * Pagination
 * Add more papers
+* Term aliasing
 
 PR is welcome
 
