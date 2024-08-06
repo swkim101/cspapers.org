@@ -36,7 +36,7 @@ const crawl = async (loc = defaultLoc) => {
       acc
     , null)
     if (!abstract) {
-      errors = [...errors, new Error(`cannot find abstrct for ${loc.url} ${title} ${loc.absQs}`)]
+      errors = [...errors, new Error(`no abstract for ${loc.url} ${title} ${loc.absQs}`)]
     }
     papers = [
       ...papers,
@@ -75,7 +75,7 @@ resourse.map(async (r) => {
   papers.map(async (p) => {
     const err = await save(r.year, r.venue, p.title, p.abstract)
     if (err) {
-      console.error("failed to save ", err)
+      console.log(`failed to save ${r.title} ${err}`)
     }
   })
 })

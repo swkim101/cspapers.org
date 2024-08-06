@@ -47,6 +47,26 @@ const ndss = [
   }
 ]
 
+const usenix = [
+  // ...seq(18, 21).map(y => ({
+  //   year: `20${y}`,
+  //   venue: "usenix",
+  //   url: `https://www.usenix.org/conference/usenixsecurity${y}/technical-sessions`,
+  //   unitQs: "article.node-paper",
+  //   titleQs: "h2",
+  //   absQs: ["div.content > div > div.group-schedule-accordion"],
+  // }),
+  ...seq(18, 25).map(y => ({
+    year: `20${y}`,
+    venue: "usenix",
+    url: `https://www.usenix.org/conference/usenixsecurity${y}/technical-sessions`,
+    unitQs: "article.node-paper",
+    titleQs: "h2",
+    absQs: ["div.content > div > div.group-schedule-accordion"],
+  }))
+]
+
 module.exports = [
-  ...ndss
+  // ...ndss
+  ...usenix
 ]
