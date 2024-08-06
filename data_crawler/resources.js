@@ -181,6 +181,19 @@ const sp = [
   }))
 ]
 
+
+const acl = [
+  {
+    year: 2024,
+    venue: "acl",
+    url: `https://2024.aclweb.org/program/main_conference_papers`,
+    unitQs: "section.page__content > ul > li",
+    titleQs: "strong",
+    // no abs found
+    absQs: [],
+  }
+]
+
 module.exports = [
-  ...atc
+  ...acl
 ]
