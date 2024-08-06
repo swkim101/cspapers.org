@@ -48,14 +48,6 @@ const ndss = [
 ]
 
 const usenix = [
-  // ...seq(18, 21).map(y => ({
-  //   year: `20${y}`,
-  //   venue: "usenix",
-  //   url: `https://www.usenix.org/conference/usenixsecurity${y}/technical-sessions`,
-  //   unitQs: "article.node-paper",
-  //   titleQs: "h2",
-  //   absQs: ["div.content > div > div.group-schedule-accordion"],
-  // }),
   ...seq(18, 25).map(y => ({
     year: `20${y}`,
     venue: "usenix",
@@ -66,7 +58,56 @@ const usenix = [
   }))
 ]
 
+const ccs = [
+  {
+    year: 2018,
+    venue: "ccs",
+    url: `https://www.sigsac.org/ccs/CCS2018/accepted/papers/`,
+    unitQs: "article.status-publish > div > table > tbody > tr",
+    titleQs: "td",
+    // no abs found
+    absQs: [],
+  },
+  {
+    year: 2019,
+    venue: "ccs",
+    url: `https://sigsac.org/ccs/CCS2019/index.php/program/accepted-papers/`,
+    unitQs: "article.status-publish > div > table > tbody > tr",
+    titleQs: "td",
+    // no abs found
+    absQs: [],
+  },
+  {
+    year: 2020,
+    venue: "ccs",
+    url: `https://www.sigsac.org/ccs/CCS2020/accepted-papers.html`,
+    unitQs: "div.papers-item",
+    titleQs: "div > b",
+    // no abs found
+    absQs: [],
+  },
+  ...seq(2022, 2023).map(y => ({
+    year: y,
+    venue: "ccs",
+    url: `https://www.sigsac.org/ccs/CCS${y}/program/accepted-papers.html`,
+    unitQs: "tr",
+    titleQs: "td",
+    // no abs found
+    absQs: [],
+  })),
+  {
+    year: 2023,
+    venue: "ccs",
+    // ccs2023 rendering requires js. fetch() cannot do this.
+    url: `./data_crawler/raw/ACM CCS 2023.htm`,
+    unitQs: "div#acceptPaper > div",
+    titleQs: "div > h4",
+    // no abs found
+    absQs: [],
+  }
+]
+
 module.exports = [
   // ...ndss
-  ...usenix
+  // ...ccs
 ]

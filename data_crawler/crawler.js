@@ -4,6 +4,7 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 const pick = (n = 0, arr = []) => arr.filter((_, i) => i < n)
+const nop = () => {}
 
 const defaultLoc = {
   year: 0,
@@ -13,14 +14,47 @@ const defaultLoc = {
   titleQs: "",
   absQs: [""],
 }
+
+const getHtml = async (url = "") => {
+  if (url.startsWith("http")) {
+    return getHtmlFetch(url)
+  } else if (url.startsWith("./")) {
+    return getFileFetch(url)
+  } else {
+    return ["", new Error("undefined url type ", url)]
+  }
+}
+
+const getHtmlFetch = async (url = "") => {
+  const res = await fetch(url)
+  if (!res.ok) {
+    return ["", new Error(`${res.statusText} ${url}`)]
+  }
+  const html = await res.text()
+  return [html, null]
+}
+
+const getFileFetch = async (url = "") => {
+  try {
+    const html = await fs.readFile(url, { encoding: "utf-8" })
+    return [html, null]
+  } catch (err) {
+    return ["", new Error(`${err}`)]
+  }
+}
+
 // Data Paper = Paper title abstract
 // crawl :: Locator -> ([Paper] -> [error])
 const crawl = async (loc = defaultLoc) => {
-  const res = await fetch(loc.url)
-  if (!res.ok) { return [[], [new Error(`${res.statusText} ${loc.url}`)]]}
-  const html = await res.text()
+  const [html, err] = await getHtml(loc.url)
+  if (err !== null) {
+    return [[], [err]]
+  }
   const document = (new JSDOM(html)).window.document
   const units = document.querySelectorAll(loc.unitQs)
+  if (units.length === 0) {
+    return [[], [new Error(`no unit ${loc.unitQs} ${loc.url}`)]]
+  }
 
   let papers = []
   let errors = []
@@ -35,7 +69,7 @@ const crawl = async (loc = defaultLoc) => {
       unit.querySelector(cur)?.textContent?.trim() :
       acc
     , null)
-    if (!abstract) {
+    if (!abstract && 0 < loc.absQs.length) {
       errors = [...errors, new Error(`no abstract for ${loc.url} ${title} ${loc.absQs}`)]
     }
     papers = [
@@ -53,6 +87,10 @@ const save = async (year = 0, venue = "", title = "", abstract = "") => {
   // const fs = {
   //   mkdir: console.log,
   //   writeFile: console.log,
+  // }
+  // const fs = {
+  //   mkdir: nop,
+  //   writeFile: nop,
   // }
   const newTitle = title.replaceAll("/", " ")
   let err = await fs.mkdir(`data/${year}/${venue}`, { recursive: true })
@@ -75,7 +113,7 @@ resourse.map(async (r) => {
   papers.map(async (p) => {
     const err = await save(r.year, r.venue, p.title, p.abstract)
     if (err) {
-      console.log(`failed to save ${r.title} ${err}`)
+      console.log(`failed to save ${p.title} ${err}`)
     }
   })
 })
