@@ -70,6 +70,13 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	if isWord(req.Query) {
 		qs := fmt.Sprintf("/.*%v.*/", strings.ToLower(req.Query))
 		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
+	} else {
+		lower := strings.ToLower((req.Query))
+		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(lower), "title"))
+		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(lower), "abstract"))
+		for _, word := range strings.Fields(lower) {
+			keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(word))
+		}
 	}
 	keyword := bleve.NewDisjunctionQuery(keywordQuery...)
 
