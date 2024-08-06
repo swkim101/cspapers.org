@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./docs' react-scripts build",
+    "build": "BUILD_PATH='./docs' react-scripts build && cp .github/CNAME ./docs",
     "do": "node",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
