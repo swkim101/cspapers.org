@@ -1,0 +1,10 @@
+Mobile-application fingerprinting of network traffic is a valuable tool for many security solutions as it provides insights into the apps active on a network.
+Unfortunately, existing techniques require prior knowledge of apps to be able to recognize them.
+However, mobile environments are constantly evolving, i.e., apps are regularly installed, updated, and uninstalled.
+Therefore, it is infeasible for existing fingerprinting approaches to cover all apps that may appear on a network.
+Moreover, most mobile traffic is encrypted, shows similarities with other apps, e.g., due to common libraries or the use of content delivery networks, and depends on user input, further complicating the fingerprinting process.
+As a solution, we propose FlowPrint, an unsupervised approach for creating mobile app fingerprints from (encrypted) network traffic.
+We automatically find temporal correlations among destination-related features of network traffic and use these correlations to generate app fingerprints.
+As this approach is unsupervised, we are able to fingerprint previously unseen apps, something that existing techniques fail to achieve.
+We evaluate our approach for both Android and iOS in the setting of app recognition where we achieve an accuracy of 89.2%, outperforming state-of-the-art solutions by 39.0%.
+In addition, we show that our approach can detect previously unseen apps with a precision of 93.5%, detecting 72.3% of apps within the first five minutes of communication.
