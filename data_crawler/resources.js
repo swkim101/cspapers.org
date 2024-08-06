@@ -47,6 +47,7 @@ const ndss = [
   }
 ]
 
+/* I love this consistency of Usenix */
 const usenix = [
   ...seq(18, 25).map(y => ({
     year: `20${y}`,
@@ -107,7 +108,27 @@ const ccs = [
   }
 ]
 
+const sp = [
+  ...seq(2018, 2023).map(y => ({
+    year: y,
+    venue: "sp",
+    url: `https://www.ieee-security.org/TC/SP${y}/program.html`,
+    unitQs: "div > div.list-group-item",
+    titleQs: "b",
+    // no abs provided
+    absQs: [],
+  })),
+  ...seq(2023, 2025).map(y => ({
+    year: y,
+    venue: "sp",
+    url: `https://sp${y}.ieee-security.org/program.html`,
+    unitQs: "div > div.list-group-item",
+    titleQs: "b",
+    // no abs provided
+    absQs: [],
+  }))
+]
+
 module.exports = [
-  // ...ndss
-  // ...ccs
+  ...sp
 ]
