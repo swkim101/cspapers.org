@@ -70,6 +70,17 @@ const osdi = [
   }))
 ]
 
+const atc = [
+  ...seq(18, 25).map(y => ({
+    year: `20${y}`,
+    venue: "atc",
+    url: `https://www.usenix.org/conference/atc${y}/technical-sessions`,
+    unitQs: "article.node-paper",
+    titleQs: "h2",
+    absQs: ["div.content > div > div.group-schedule-accordion"],
+  }))
+]
+
 const ccs = [
   {
     year: 2018,
@@ -171,5 +182,5 @@ const sp = [
 ]
 
 module.exports = [
-  ...sosp
+  ...atc
 ]
