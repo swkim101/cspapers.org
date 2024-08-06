@@ -108,7 +108,8 @@ function App() {
   return (
     <div className='p-2'>
       <div className='mb-2'>
-        <b>cspapers.org: computer science papers indexed</b>
+        <b>cspapers.org: computer science papers indexed </b>
+        <a rel="noreferrer" target="_blank" href="https://github.com/swkim101/cspapers.org">( GitHub )</a>
       </div>
       <form onSubmit={e => submit(e)}>
         <input value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
