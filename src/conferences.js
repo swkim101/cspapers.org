@@ -1,9 +1,9 @@
 /* add new conferences here */
 const edges = [
   ["All Areas", "AI"],
-  
-  ["AI", "The Web & information retrieval"],
-  ["The Web & information retrieval", "WWW"],
+
+  ["AI", "Natural language processing"],
+  ["Natural language processing", "ACL"],
 
   ["All Areas", "Systems"],
 
