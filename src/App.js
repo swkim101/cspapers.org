@@ -10,12 +10,13 @@ import { ASCE, DATE, SCORE } from './const';
 const seq = (start, end, step = 1) => Array.from({ length: end - start }, (_, i) => start + i * step)
 const isEven = n => n % 2 === 0
 const currentYear = (new Date()).getFullYear()
+const minYear = 2018
 
 function App() {
   const [showConferenceFilter, setShowConferenceFilter] = useState(true)
   const [unfolded, setUnfolded] = useState([])
   const [data, setData] = useState([])
-  const [yearFrom, setYearFrom] = useState(currentYear - 5)
+  const [yearFrom, setYearFrom] = useState(minYear)
   const [yearTo, setYearTo] = useState(currentYear + 1)
   const [venue, setVenue] = useState([])
   const [orderBy, setOrderBy] = useState(SCORE)
@@ -120,13 +121,13 @@ function App() {
         <span>From </span>
         <select value={yearFrom} onChange={e => setYearFrom(e.target.value)}>
           {
-            seq(2010, currentYear+2).reverse().map(e => <option key={e} value={e}>{e}</option>)
+            seq(minYear, currentYear+2).reverse().map(e => <option key={e} value={e}>{e}</option>)
           }
         </select>
         <span> to </span>
         <select value={yearTo} onChange={e => setYearTo(e.target.value)}>
           {
-            seq(2010, currentYear+2).reverse().map(e => <option key={e} value={e} onClick={e => setYearTo(e.target.value)}>{e}</option>)
+            seq(minYear, currentYear+2).reverse().map(e => <option key={e} value={e} onClick={e => setYearTo(e.target.value)}>{e}</option>)
           }
         </select>
         <span> order by [</span>

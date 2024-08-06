@@ -20,7 +20,7 @@ const defaultRequest = {
   orderBy: SCORE,
   ascending: false,
   venue: [],
-  yearFrom: 2014,
+  yearFrom: 2018,
   yearTo: 2024,
   skip: 0,
   take: 20,
