@@ -1,6 +1,8 @@
 # cspapers.org
 
-An index for computer science papers.
+Search engine for computer science papers.
+
+Indexes title and abstract. Paper contents and authors are ***not*** indexed.
 
 ## How to add papers
 
