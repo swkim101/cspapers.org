@@ -117,3 +117,7 @@ body {
 .bg-gray-100 {
   background-color: #f3f4f6;
 }
+
+.pre-line {
+  white-space:pre-line;
+}

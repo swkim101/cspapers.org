@@ -122,10 +122,11 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 }
 
 func insert(req *types.InsertRequest) error {
+	idx := req.ToIndex()
 	req.Title = strings.ToLower(req.Title)
 	req.Venue = strings.ToLower(req.Venue)
 	req.Abstract = strings.ToLower(req.Abstract)
-	return index.Index(req.ToIndex(), req)
+	return index.Index(idx, req)
 }
 
 func isWord(s string) bool {

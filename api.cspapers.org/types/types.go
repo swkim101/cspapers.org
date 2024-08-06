@@ -46,7 +46,7 @@ type SearchRequest struct {
 }
 
 func (p *Paper) ToIndex() string {
-	return path.Join(fmt.Sprint(p.Year), p.Venue, p.Title)
+	return path.Join(fmt.Sprint(p.Year), strings.ToLower(p.Venue), p.Title)
 }
 
 func Decompose(i Index) (year uint32, venue string, title string, err error) {
