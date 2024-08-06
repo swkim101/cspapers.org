@@ -1,0 +1,23 @@
+The prosperity of AI and edge computing has pushed more and more well-trained
+DNN models to be deployed on third-party edge devices to compose mission-critical
+applications. This necessitates protecting model confidentiality at untrusted devices, and
+using a co-located accelerator
+(e.g., GPU) to speed up model inference locally. Recently, the community has sought
+to improve the security with CPU trusted execution
+environments (TEE). However, existing solutions either
+run an entire model in TEE, suffering from extremely high
+inference latency, or take a partition-based approach to handcraft partial model via parameter obfuscation techniques to run on an untrusted
+GPU, achieving lower inference latency at the expense of both the integrity of
+partitioned computations outside TEE and accuracy of obfuscated parameters.
+We propose SOTER, the first system that can achieve model confidentiality, integrity,
+low inference latency and high accuracy in the partition-based approach. Our key
+observation is that there is often an \textit{associativity} property among many
+inference operators in DNN models. Therefore, SOTER
+automatically transforms a major fraction of associative operators into
+\textit{parameter-morphed}, thus \textit{confidentiality-preserved} operators
+to execute on untrusted GPU, and fully restores the execution results to accurate results with associativity in TEE. Based on these steps, SOTER further designs an
+\textit{oblivious fingerprinting} technique to
+safely detect integrity breaches of morphed operators outside TEE to ensure correct executions of inferences.
+Experimental results on six prevalent models in the three most popular categories
+show that, even with stronger model protection, SOTER achieves comparable performance with partition-based
+baselines while retaining the same high accuracy as insecure inference.

@@ -1,0 +1,9 @@
+Over the past two decades, the number of RFCs related to email and its security has exploded from below 100 to nearly 500.
+This embedded the Simple Mail Transfer Protocol (SMTP) into a tree of interdependent and delivery-relevant standards. In this paper, we investigate how far real-world deployments keep up with this increasing complexity of delivery- and security options.
+To gain an in-depth picture of email delivery apart from the giants in the ecosystem (Gmail, Outlook, etc.), we engage people to send emails to eleven differently configured target domains.
+Our measurements allow us to evaluate core aspects of email delivery, including security features, DNS configuration, and IP version support on the sending side across different types of providers.
+We find that novel technologies are often insufficiently supported, even by large providers.
+For example, while 65.4\% of email providers can resolve hosts via IPv6, only 44.3\% can also deliver emails via IPv6.
+Concerning security features, we observe that less than half (41.5\%) of all providers rely on DNSSEC validating resolvers, and encryption is mostly opportunistic, with 89.7\% of providers accepting invalid certificates.
+TLSA, as a DNS-based certificate verification method, is only used by 31.7\% of the providers in our study.
+Finally, we turned our eye to the impact modern standards have on unsolicited bulk email (SPAM). We found that greylisting is effective, reducing the SPAM volume by roughly half while not impacting regular delivery. However, and interestingly, SPAM delivery currently seems to focus on plaintext IPv4 connections, making IPv6-only, TLS-enforcing inbound email servers a more effective anti-SPAM measure – even though it also means rejecting a major portion of legitimate emails.

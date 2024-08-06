@@ -1,0 +1,25 @@
+Mixed precision training uses a mixture of full and lower
+precisions for neural network (NN) training. Applying mixed
+precision must cast tensors in NN from float32 (FP32) to
+float16 (FP16) or vice versa. The existing strategy greedily
+applies FP16 to performance-critical operations without quantifying
+and considering the casting cost. However, we reveal
+that the casting cost can take more than 21% of NN operation
+execution time, and in some cases surpasses the performance
+benefit of using low precision. In this paper, we introduce
+Campo, a tool that improves performance of mixed-precision
+NN training with the awareness of casting costs. Campo is
+built upon performance modeling that predicts the casting
+cost and operation performance with low precision, and introduces
+a cost-aware graph rewriting strategy. Campo is
+user-transparent, and enables high performance NN training
+using mixed precision without training accuracy loss. Evaluating
+Campo with six NN models, we show that compared to
+TensorFlow using TF_AMP (a state-of-the-art performance
+optimizer for mixed precision training from Nvidia), Campo
+improves training throughput by 20.8% on average (up to
+24.5%) on RTX 2080 Ti GPU and by 20.9% on average
+(up to 23.4%) on V100 GPU, without training accuracy loss.
+Because of using the cost-aware mixed precision training,
+Campo also improves energy efficiency by 21.4% on average
+(up to 24.2%), compared to TensorFlow using TF_AMP.
