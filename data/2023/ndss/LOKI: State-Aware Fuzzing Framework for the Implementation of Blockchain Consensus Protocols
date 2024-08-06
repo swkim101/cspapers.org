@@ -1,0 +1,5 @@
+Blockchain consensus protocols are responsible for coordinating the nodes to make agreements on the transaction results.
+Their implementation bugs, including
+memory-related and consensus logic vulnerabilities, may pose serious threats.
+Fuzzing is a promising technique for protocol vulnerability detection.
+However, existing fuzzers cannot deal with complex consensus states of distributed nodes, thus generating a large number of useless packets, inhibiting their effectiveness in reaching the deep logic of consensus protocols.

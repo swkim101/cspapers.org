@@ -1,0 +1,1 @@
+ROS2 is a popular publish/subscribe based middleware that allows developers to build and deploy a wide-variety of distributed robotics applications. Unfortunately, ROS2 offers applications poor control over how their data is consumed by downstream applications.

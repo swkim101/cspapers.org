@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #003;
+  font-size: 14px;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.ms-2 {
+  margin-inline-start: 0.5rem; /* 8px */
+}
+
+.mr-1 {
+  margin-right: 0.25rem; /* 4px */
+}
+.mr-2 {
+  margin-right: 0.5rem; /* 8px */
+}
+
+.ml-1 {
+  margin-left: 0.25rem; /* 4px */
+}
+
+.ml-2 {
+  margin-left: 0.5rem; /* 8px */
+}
+
+.ml-3 {
+  margin-left: 0.75rem; /* 12px */
+}
+
+.ml-4 {
+  margin-left: 1rem; /* 16px */
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem; /* 4px */
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem; /* 8px */
+}
+
+.mt-2 {
+  margin-top: 0.5rem; /* 8px */
+}
+
+.p-1 {
+  padding: 0.25rem; /* 4px */
+}
+
+.p-2 {
+  padding-left: 0.5rem; /* 8px */
+}
+
+.w-2 {
+  width: 0.5rem; /* 8px */
+}
+
+.h-2 {
+  height: 0.5rem; /* 8px */
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.initial {
+  display: initial;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-280 {
+  width: 280px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.w--280 {
+  width: calc(100% - 280px);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}

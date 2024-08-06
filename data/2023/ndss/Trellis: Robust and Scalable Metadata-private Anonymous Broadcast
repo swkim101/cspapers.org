@@ -1,0 +1,7 @@
+Trellis is a mix-net based anonymous broadcast
+system with cryptographic security guarantees. Trellis can be used
+to anonymously publish documents or communicate with other
+users, all while assuming full network surveillance. In Trellis,
+users send messages through a set of servers in successive rounds.
+The servers mix and post the messages to a public bulletin board,
+hiding which users sent which messages.

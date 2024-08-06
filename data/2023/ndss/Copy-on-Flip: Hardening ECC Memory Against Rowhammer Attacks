@@ -1,0 +1,4 @@
+Despite nearly decade-long mitigation efforts in academia and industry, the
+community is yet to find a practical solution to the Rowhammer vulnerability.
+Comprehensive software mitigations require complex changes to commodity systems, yielding significant run-time overhead and deterring practical
+adoption. Hardware mitigations, on the other hand, have generally grown more robust and efficient, but are difficult to deploy on commodity systems. Until recently, ECC memory implemented by the memory controller on server platforms seemed to provide the best of both worlds: use hardware features already on commodity systems to efficiently turn Rowhammer into a denial-of-service attack vector. Unfortunately, researchers have recently shown that attackers can perform one-bit-at-a-time memory templating and mount ECC-aware Rowhammer attacks.
