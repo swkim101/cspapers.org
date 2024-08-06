@@ -1,0 +1,30 @@
+Inter-job dependencies pervade shared data analytics
+infrastructures (so-called ``data lakes''), as jobs
+read output files written by previous jobs,
+yet are often invisible to current cluster schedulers.
+Jobs are submitted one-by-one, without indicating dependencies,
+and the scheduler considers them independently based on
+priority, fairness, etc.
+This paper analyzes hidden inter-job dependencies in a 50k+ node
+analytics cluster at Microsoft, based on job and data provenance logs,
+finding that nearly 80% of all jobs depend on at least one other job.
+Yet, even in a business-critical setting,
+we see jobs that fail because they depend on not-yet-completed jobs,
+jobs that depend on jobs of lower priority, and other difficulties
+with hidden inter-job dependencies.
+The Wing dependency profiler analyzes job and data provenance
+logs to find hidden inter-job dependencies, characterizes them,
+and provides improved guidance to a cluster scheduler.
+Specifically, for the 68% of jobs (in the analyzed data~lake) that
+exhibit their dependencies in a recurring fashion, Wing
+predicts the impact of a pending job on subsequent jobs and user downloads,
+and uses that information to refine valuation of that job by the scheduler.
+In simulations driven by real job logs, we find that a traditional
+YARN scheduler that uses Wing-provided valuations in place of
+user-specified priorities extracts more value (in terms of
+successful dependent jobs and user downloads) from a heavily-loaded
+cluster.
+By relying completely on Wing for guidance, YARN can
+achieve nearly 100% of value at constrained
+cluster capacities, almost 2x that achieved by using
+the user-provided job priorities.
