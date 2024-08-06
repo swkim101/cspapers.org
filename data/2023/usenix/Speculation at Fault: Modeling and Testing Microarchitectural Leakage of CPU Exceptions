@@ -1,0 +1,7 @@
+Microarchitectural leakage models provide effective tools to prevent vulnerabilities such as Spectre and Meltdown via secure co-design: For software, they provide a foundation for secure compilation and verification; for hardware, they provide a target specification to test and verify against.
+
+Unfortunately, existing leakage models are severely limited: None of them covers CPU exceptions, which are essential to implement security abstractions such as virtualization and memory protection, and which are the source of critical vulnerabilities such as Meltdown, MDS, and Foreshadow.
+
+In this paper, we provide the first leakage models for CPU exceptions, together with new tools for testing black-box CPUs against them. We run extensive experiments and successively refine these models, until we precisely capture the leakage for a representative subset of exceptions on four different x86 microarchitectures.
+
+In the process, we contradict, refine, and corroborate a large number of findings from prior work, and we uncover three novel transient leaks affecting stores to non-canonical addresses, stores to read-only memory, and divisions by zero.

@@ -1,0 +1,5 @@
+A large number of memory corruption vulnerabilities, e.g., heap overflow and use after free (UAF), could only be exploited in specific heap layouts via techniques like heap feng shui. To pave the way for automated exploit generation (AEG), automated heap layout manipulation is demanded.
+
+In this paper, we present a novel solution MAZE to manipulate proof-of-concept (POC) samples' heap layouts. It first identifies heap layout primitives (i.e., input fragments or code snippets) available for users to manipulate the heap. Then, it applies a novel Dig & Fill algorithm, which models the problem as a Linear Diophantine Equation and solves it deterministically, to infer a primitive operation sequence that is able to generate target heap layout.
+
+We implemented a prototype of MAZE based on the analysis engine S2E, and evaluated it on the PHP, Python and Perl interpreters and a set of CTF (capture the flag) programs, as well as a large micro-benchmark. Results showed that MAZE could generate expected heap layouts for over 90% of them.

@@ -1,0 +1,10 @@
+Several hundred papers have been written over the last few years proposing defenses to adversarial examples (test-time evasion attacks on machine learning classifiers). In this setting, a defense is a model that is not easily fooled by such adversarial examples. Unfortunately, most proposed defenses to adversarial examples are quickly broken.
+
+This talk surveys the ways in which defenses to adversarial examples have been broken in the past, and what lessons we can learn from these breaks. Beginning with a discussion of common evaluation pitfalls when performing the initial analysis, I then provide recommendations for how we can perform more thorough defense evaluations. I conclude by comparing how evaluations are performed in this relatively new research direction and how evaluations are performed in existing long-standing fields in security.
+
+                    
+          Nicholas Carlini, Research Scientist, Google Research
+            
+  
+  
+    Nicholas Carlini is a research scientist at Google Brain. He analyzes the security and privacy of machine learning, for which he has received best paper awards at IEEE S&P and ICML. He graduated with his PhD from the the University of California, Berkeley in 2018.
