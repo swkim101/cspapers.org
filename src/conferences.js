@@ -1,17 +1,22 @@
 /* add new conferences here */
 const edges = [
   ["All Areas", "AI"],
+  
+  ["AI", "The Web & information retrieval"],
+  ["The Web & information retrieval", "WWW"],
+
   ["All Areas", "Systems"],
-  ["AI", "Artificial intelligence"],
-  ["Artificial intelligence", "AAAI"],
-  ["Artificial intelligence", "IJCAI"],
-  ["AI", "Computer vision"],
-  ["Computer vision", "CVPR"],
+
   ["Systems", "Computer security"],
   ["Computer security", "NDSS"],
   ["Computer security", "Usenix"],
   ["Computer security", "SP"],
   ["Computer security", "CCS"],
+
+  ["Systems", "Operating systems"],
+  ["Operating systems", "OSDI"],
+  ["Operating systems", "SOSP"],
+  ["Operating systems", "ATC"],
 ]
 
 
