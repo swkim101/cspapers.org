@@ -47,6 +47,7 @@ function App() {
 
   useEffect(() => {
     const a = new URLSearchParams(window.location.hash.replace("#", ""));
+    setVenue(conferences.flatten(conferences.tree))
     for (let [k, v] of a.entries()) {
       switch (k) {
         case 'yearFrom':
