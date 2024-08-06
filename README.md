@@ -34,7 +34,7 @@ npm run start
 
 try: http://localhost:8000/?query=fuzzing&yearFrom=2014&yearTo=2024&skip=0&take=20
 
-## Why not Google scholar
+## Why not Google Scholar
 
 Poor conference filter:
 
@@ -51,12 +51,12 @@ PR is welcome
 
 ## Acknowlegement
 
-Refered csrankings.org for organizing conferences.
+Referred to csrankings.org for organizing conferences.
 
 ## Disclaimer
 
 cspapers.org is served as implemented in this repository. I do not modify source code or data in and after distributions.  
-As shown in the source code, cspapers.org does not collect user data, such as search history and IP address. However, Cloudflare and fly.io do this for pricing and security purpose.  
-I personally own stock (less than \$10k) of Cloudflare and I hope they will be profited so I can be rich. This is why I buy a domain name from Cloudflare - that will add ~10$ per year to net sales.  
+The source code shows that cspapers.org does not collect user data, such as search history and IP address. However, Cloudflare and fly.io do this for pricing and security purposes.  
+I personally own stock (less than 10k) of Cloudflare, and I hope they will have profit so I can be rich. This is why I bought a domain name from Cloudflare - that will add ~10$ per year to net sales.  
 cspapers.org uses fly.io because it is the cheapest server. It costs ~2$ per month with 1 core and 256MB RAM. I am always willing to migrate to a cheaper one. Suggestion is welcome.  
 Each conference site provides origins of titles and abstracts of papers.
