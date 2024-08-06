@@ -32,7 +32,52 @@ docker run -it server
 npm run start
 ```
 
-try: http://localhost:8000/?query=fuzzing&yearFrom=2014&yearTo=2024&skip=0&take=20
+try: http://localhost:8000/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0&take=20
+
+## Query
+
+Curl https://cspaper-org.fly.dev works:
+
+```bash
+$ curl 'https://cspaper-org.fly.dev/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0&take=20'
+[1]+  Done                    curl https://cspaper-org.fly.dev/?query=bluetooth
+{"total":10,"skip":0,"take":0,"data":[{"title":"BLUFFS: Bluetooth Forward and Future Secrecy Attacks and Defenses","year":2023,"venue":"ccs","index":"2023/ccs/BLUFFS: Bluetooth Forward and Future Secrecy Attacks and 
+(...)
+```
+
+### Request fields
+
+All fields are required.
+
+| Field    | Type    | Description  |
+| -------- | ------- | ------------ |
+| query    | String  | find relative documents |
+| yearFrom | Int     | must be satisfied. inclusive. |
+| yearTo   | Int     | must be satisfied. inclusive. |
+| venue    | String, String, ...  | find papers in (venue A or venue B or ...) |
+| orderBy  | ENUM("score", "date")  | order by relevance or published date |
+| ascending  | Boolean | return in an ascending order if true |
+| skip  | Int | WIP. For pagination |
+| take  | Int | WIP. For pagination |
+
+### Response fields
+
+| Field    | Type    | Description  |
+| -------- | ------- | -----------  |
+| total    | Int  | total number of index matched |
+| skip    | Int  | WIP. For pagination |
+| take    | Int  | WIP. For pagination |
+| data    | [SearchResult]  |  See below |
+
+SearchResult Fields:
+
+| Field    | Type    | Description |
+| -------- | ------- | ------------ |
+| title    | Int  | paper title |
+| year     | Int  | published year |
+| venue    | String  | published venue |
+| index    | String  | pointer to an abstract |
+| score    | Float  | query-relevance score |
 
 ## Why not Google Scholar
 
