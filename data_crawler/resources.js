@@ -119,6 +119,36 @@ const ccs = [
   }
 ]
 
+const sosp = [
+  {
+    year: 2019,
+    venue: "sosp",
+    url: `https://sosp19.rcs.uwaterloo.ca/program.html`,
+    unitQs: "table > tbody > tr > td",
+    titleQs: "strong > a",
+    // no abs found
+    absQs: [],
+  },
+  {
+    year: 2021,
+    venue: "sosp",
+    url: `https://sosp2021.mpi-sws.org/program.html`,
+    unitQs: "table > tbody > tr > td",
+    titleQs: "strong > a",
+    // no abs found
+    absQs: [],
+  },
+  {
+    year: 2023,
+    venue: "sosp",
+    url: `https://sosp2023.mpi-sws.org/accepted.html`,
+    unitQs: "div.welcome > div",
+    titleQs: "p > b",
+    // no abs found
+    absQs: [],
+  }
+]
+
 const sp = [
   ...seq(2018, 2023).map(y => ({
     year: y,
@@ -141,5 +171,5 @@ const sp = [
 ]
 
 module.exports = [
-  ...osdi
+  ...sosp
 ]
