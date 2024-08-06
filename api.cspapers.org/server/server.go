@@ -40,7 +40,10 @@ func runServer(cfg *serverConfig) {
 
 	http.HandleFunc(prefix, handle(cfg))
 	log.Printf("running on %v:%v%v", cfg.Host, cfg.Port, prefix)
-	http.ListenAndServe(port, nil)
+	err = http.ListenAndServe(port, nil)
+	if err != nil {
+		log.Fatalf("%v", err)
+	}
 }
 
 func handle(cfg *serverConfig) func(http.ResponseWriter, *http.Request) {
