@@ -12,6 +12,7 @@ const isEven = n => n % 2 === 0
 const currentYear = (new Date()).getFullYear()
 
 function App() {
+  const [showConferenceFilter, setShowConferenceFilter] = useState(true)
   const [unfolded, setUnfolded] = useState([])
   const [data, setData] = useState([])
   const [yearFrom, setYearFrom] = useState(currentYear - 5)
@@ -143,13 +144,16 @@ function App() {
         <input checked={!ascending} onChange={() => setAscending(false)} name="order" type="radio" id="desc" />
         <span>]</span>
       </div>
-      <div className='flex'>
-        <div className='w--280 overflow-hidden'>
+      <div className='flex flex-column-560'>
+        <div className={showConferenceFilter && 'w--280 w-100-560'} >
           {
             data.map(e => <Paper key={e.title} props={e} />)
           }
         </div>
-        <div className='w-280'>
+        { showConferenceFilter || <div onClick={() => setShowConferenceFilter(true)} className='pointer underline mb-2'>Show conferences</div> }
+        <div className={showConferenceFilter ? 'w-280' : 'none'}>
+          <div onClick={() => setShowConferenceFilter(false)} className='pointer underline mb-2 none-560'>Hide conferences</div>
+          <div></div>
           {conferences.tree.name} [ <span onClick={() => setVenue([])} className='underline pointer'>off</span> | <span onClick={() => setVenue(conferences.flatten(conferences.tree))} className='underline pointer'>on</span> ]
           {
             conferences.tree.children.map(d1 =>
@@ -180,9 +184,9 @@ function App() {
                     )}
                   </div>
                 )}
-
               </div>)
           }
+          <hr />
         </div>
       </div>
     </div>

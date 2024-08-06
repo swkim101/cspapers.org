@@ -121,3 +121,21 @@ body {
 .pre-line {
   white-space:pre-line;
 }
+
+@media screen and (max-width: 560px) {
+  .flex-column-560 {
+    flex-direction: column-reverse;
+  }
+  .none-560 {
+    display: initial;
+  }
+  .w-100-560 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .none-560 {
+    display: none;
+  }
+}
