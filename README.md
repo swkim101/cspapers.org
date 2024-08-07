@@ -8,6 +8,14 @@ Indexes title and abstract. Paper contents and authors are ***not*** indexed.
 
 If you would like to add some papers, please add them in `data/` and make a PR. Once it is merged, CD/CI will reindex and distribute automatically.
 
+### Current Index
+
+Indexed 
+* 2018 - current: USENIX SEC[^1], NDSS[^1], OSDI[^1], ATC[^1], CCS, IEEE SP, SOSP
+* 2024: ASPLOS[^1], ACL
+
+[^1]: Abstract is indexed.
+
 ## How to run local
 
 Install dependencies
@@ -93,7 +101,7 @@ Poor conference filter:
 
 * Pagination
 * Add more papers
-* Term aliasing
+* Term aliasing (e.g., uaf = use-after-free)
 
 PR is welcome
 
