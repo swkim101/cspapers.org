@@ -13,9 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "BUILD_PATH='./docs' react-scripts build && cp .github/CNAME ./docs",
-    "do": "node",
     "crawl": "node ./data_crawler/crawler.js",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

@@ -1,17 +1,11 @@
-import './App.css';
-
 import * as api from './api';
 import conferences from './conferences';
 
 import { useEffect, useState } from 'react';
-import Paper from './Paper';
-import { ASCE, DATE, SCORE } from './const';
-import ConferenceTree from './ConferenceTree';
-
-const seq = (start, end, step = 1) => Array.from({ length: end - start }, (_, i) => start + i * step)
-
-const CURRENT_YEAR = (new Date()).getFullYear()
-const MIN_YEAR = 2018
+import Paper from './components/Paper';
+import ConferenceTree from './components/ConferenceTree';
+import { seq } from './functional';
+import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE } from './const';
 
 function App() {
   const [showConferenceFilter, setShowConferenceFilter] = useState(true)

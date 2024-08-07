@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
-import conferences from './conferences';
-
-const isEven = n => n % 2 === 0
+import conferences from '../conferences';
+import { isEven } from '../functional';
 
 const defaultProps = {
   onChange: (_ = []) => { }

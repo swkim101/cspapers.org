@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './Paper.css';
+import { getAbstract } from '../api';
 
 const defaultProps = {
   title: '',
@@ -8,8 +8,6 @@ const defaultProps = {
   index: '',
   score: '',
 }
-
-const abstractPath = "https://raw.githubusercontent.com/swkim101/cspapers.org/main/data/"
 function Paper({ props = defaultProps }) {
   const [collapsed, setCollapsed] = useState(true)
   const [abstract, setAbstract] = useState('')
@@ -21,9 +19,13 @@ function Paper({ props = defaultProps }) {
     if (abstract !== '') {
       return
     }
-    fetch(`${abstractPath}/${props.year}/${props.venue.toLowerCase()}/${props.title}`)
-      .then(e => {
-        e.text().then(e => setAbstract(e))
+    getAbstract(props.year, props.venue, props.title)
+      .then(([abs, err]) => {
+        if (err) {
+          setAbstract("failed to retreive an abstract: ", err)
+        } else {
+          setAbstract(abs)
+        }
       })
 
   }, [collapsed, abstract])

@@ -1,9 +1,7 @@
-import { SCORE } from './const'
-
-const API_HOST = /development/i.test(process.env.NODE_ENV) ? 'http://localhost:8000' : 'https://cspaper-org.fly.dev'
-
-
 /* see api.cspapers.org/types/types.go */
+
+import { ABSTRACT_URL, API_HOST } from "./const";
+
 /*
 type SearchRequest struct {
 	Query     string  `json:"query"`
@@ -17,7 +15,7 @@ type SearchRequest struct {
 */
 const defaultRequest = {
   query: '',
-  orderBy: SCORE,
+  orderBy: global.SCORE,
   ascending: false,
   venue: [],
   yearFrom: 2018,
@@ -62,6 +60,18 @@ const marshal = (req = defaultRequest) => {
   return `/?${q.toString()}`
 }
 
+// getAbstract :: Int -> String -> String -> (String, Error)
+const getAbstract = async (year = 0, venue = "", title = "") => {
+  try {
+    const res = await fetch(`${ABSTRACT_URL}/${year}/${venue.toLowerCase()}/${title}`)
+    const text = await res.text()
+    return [text, null]
+  } catch(err) {
+    return ["", err]
+  }
+}
+
 export {
-  search
+  search,
+  getAbstract,
 }
