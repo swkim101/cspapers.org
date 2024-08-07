@@ -64,6 +64,11 @@ const marshal = (req = defaultRequest) => {
 const getAbstract = async (year = 0, venue = "", title = "") => {
   try {
     const res = await fetch(`${ABSTRACT_URL}/${year}/${venue.toLowerCase()}/${title}`)
+    if (res.status === 404) {
+      return ["", null]  
+    } else if (!res.ok) {
+      return ["", new Error(`${res.status} ${res.statusText}`)]
+    }
     const text = await res.text()
     return [text, null]
   } catch(err) {

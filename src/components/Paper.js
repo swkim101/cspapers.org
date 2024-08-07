@@ -11,12 +11,14 @@ const defaultProps = {
 function Paper({ props = defaultProps }) {
   const [collapsed, setCollapsed] = useState(true)
   const [abstract, setAbstract] = useState('')
+  const [isAbsLoaded, setIsAbsLoaded] = useState(false)
+  const venueUpper = props.venue.toUpperCase()
 
   useEffect(() => {
-    if (collapsed === true) {
+    if (collapsed) {
       return
     }
-    if (abstract !== '') {
+    if (isAbsLoaded) {
       return
     }
     getAbstract(props.year, props.venue, props.title)
@@ -26,26 +28,30 @@ function Paper({ props = defaultProps }) {
         } else {
           setAbstract(abs)
         }
+        setIsAbsLoaded(true)
       })
+  }, [collapsed])
 
-  }, [collapsed, abstract])
-
-  props.venue = props.venue.toUpperCase()
   return (
     <div className="mb-2">
       <div>
         <span className='pointer underline mr-2' onClick={() => setCollapsed(!collapsed)}>
           <span>{collapsed ? '► ' : '▼ '}</span>
-          [{props.venue} {props.year}] {props.title}
+          [{venueUpper} {props.year}] {props.title}
         </span>
         <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>
           [Google scholar]
         </a>
       </div>
       <pre className={collapsed ? 'none' : 'initial pre-line'}>
-        {abstract === "" ? <>No abstract indexed. See <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>
-          Google scholar
-        </a></> : abstract}
+        {
+          isAbsLoaded ?
+            abstract ||
+            <>No abstract indexed. See <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>
+              Google scholar
+            </a></> :
+            "...fetching"
+        }
       </pre>
     </div>
   )
