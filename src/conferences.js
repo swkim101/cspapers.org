@@ -49,9 +49,9 @@ const buildTree1Depth = (edges = [], parent = "") => ({
 
 // flatten :: Tree -> [string]
 const flatten = (tree) =>
-  tree.children.reduce((acc, cur) => 
+  tree.children.reduce((acc, cur) =>
     cur.children ? [...acc, ...flatten(cur)] : [...acc, cur.name]
-  , [])
+    , [])
 
 const conferences = {
   tree: buildTree(edges, "All Areas"),
