@@ -72,6 +72,8 @@ function App() {
     }
   }, [])
   useEffect(() => {
+    if (query === "")
+      return
     search()
   }, [query,
     yearFrom,
