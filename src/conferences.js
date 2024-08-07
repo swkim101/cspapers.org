@@ -17,6 +17,7 @@ const edges = [
   ["Operating systems", "OSDI"],
   ["Operating systems", "SOSP"],
   ["Operating systems", "ATC"],
+  ["Operating systems", "ASPLOS"],
 ]
 
 
