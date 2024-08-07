@@ -114,5 +114,5 @@ Referred to csrankings.org for organizing conferences.
 cspapers.org is served as implemented in this repository. I do not modify source code or data in and after distributions.  
 The source code shows that cspapers.org does not collect user data, such as search history and IP address. However, Cloudflare and fly.io do this for pricing and security purposes.  
 I personally own stock (less than 10k) of Cloudflare, and I hope they will have profit so I can be rich. This is why I bought a domain name from Cloudflare - that will add ~10$ per year to net sales.  
-cspapers.org uses fly.io because it is the cheapest server. It costs ~2$ per month with 1 core and 256MB RAM. I am always willing to migrate to a cheaper one. Suggestion is welcome.  
+cspapers.org uses fly.io because it is the cheapest server. It costs 3.19$ per month with 1 core and 512MB RAM in the Virginia region. I am always willing to migrate to a cheaper one. Suggestion is welcome.  
 Each conference site provides origins of titles and abstracts of papers.
