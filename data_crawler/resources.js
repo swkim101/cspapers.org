@@ -194,6 +194,17 @@ const acl = [
   }
 ]
 
+const asplos = [
+  {
+    year: 2024,
+    venue: "asplos",
+    url: `https://www.asplos-conference.org/asplos2024/main-program/abstracts/index.html#1A`,
+    unitQs: "tr",
+    titleQs: "td > strong",
+    absQs: ["td"],
+  }
+]
+
 module.exports = [
-  ...acl
+  ...asplos
 ]
