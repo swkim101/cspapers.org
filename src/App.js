@@ -19,7 +19,6 @@ function App() {
   const [orderBy, setOrderBy] = useState(SCORE)
   const [ascending, setAscending] = useState(false)
   const [query, setQuery] = useState('')
-  const [total, setTotal] = useState(0)
 
   const submit = (e) => {
     e.preventDefault()
@@ -41,7 +40,6 @@ function App() {
     const [res, err] = await api.search(req)
     if (!err) {
       setData(res.data || [])
-      setTotal(res.total)
       window.location.hash = new URLSearchParams(req).toString()
     }
   }
@@ -97,7 +95,6 @@ function App() {
       <form onSubmit={e => submit(e)}>
         <input value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
         <input type="submit" value="search" />
-        <span>matched {total} results</span>
       </form>
       <div className='mb-2'>
         <span>From </span>
