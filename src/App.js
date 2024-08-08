@@ -7,6 +7,8 @@ import ConferenceTree from './components/ConferenceTree';
 import { seq } from './functional';
 import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE } from './const';
 
+
+
 function App() {
   /**
    * @type {[[api.SearchResponseUnit], React.Dispatch<React.SetStateAction<[api.SearchResponseUnit]>>]}
@@ -93,7 +95,7 @@ function App() {
         <a rel="noreferrer" target="_blank" href="https://github.com/swkim101/cspapers.org">( GitHub )</a>
       </div>
       <form onSubmit={e => submit(e)}>
-        <input value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
+        <input autoFocus value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
         <input type="submit" value="search" />
       </form>
       <div className='mb-2'>
