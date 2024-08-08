@@ -22,3 +22,5 @@ yarn-error.log*
 
 db.cspapers.org/
 rawdata/
+
+gemini_api_key

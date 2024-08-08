@@ -4,32 +4,47 @@ Search engine for computer science papers.
 
 Indexes title and abstract. Paper contents and authors are ***not*** indexed.
 
-## How to add papers
-
-If you would like to add some papers, please add them in `data/` and make a PR. Once it is merged, CD/CI will reindex and distribute automatically.
-
-### Current Index
+## Current Index
 
 Indexed 
 * 2018 - current: USENIX SEC[^1], NDSS[^1], OSDI[^1], ATC[^1], CCS, IEEE SP, SOSP
 * 2024: ASPLOS[^1], ACL
 
-[^1]: Abstract is indexed.
+[^1]: Abstract is indexed from conference website.
+
+## How to add new conferences/papers
+
+Add an abstract in `./data/<year>/<venue>/<papertitle>`.  
+If the venue is new, add venue in `./src/conferences.js`.
+
+PR is welcome.
 
 ## How to run local
 
 Install dependencies
 ```bash
 npm install
+
+# For serving data directory.
+sudo npm install http-server -g
 ```
 
 Build and run
 
 ```bash
-# generate index db
-go run api.cspapers.org/index -debug
-# run server
-go run api.cspapers.org/server -debug
+# generate index db. It takes ~15min.
+go run ./api.cspapers.org/index -debug
+# run index server
+go run ./api.cspapers.org/server -debug
+```
+
+```bash
+# serve data directory
+cd data
+http-server -p 3001 --cors
+```
+
+```bash
 # run web
 npm run start
 ```
@@ -89,6 +104,19 @@ SearchResult Fields:
 | index    | String  | pointer to an abstract |
 | score    | Float  | query-relevance score |
 
+
+## Data corectness
+
+A cralwer collects paper data from conference websites. (see ./data_crawler) The crawler somtimes confuse paper talk and keynote talk (and others). So, search results sometime contains *not* papers (see [3b6c738](https://github.com/swkim101/cspapers.org/commit/3b6c7386b685b72a18cb4074aa69a71570d50134)). The Google scholar button can help verifying this. Also, reporting wrong index is welcome.
+
+The crawler can collect data only if the conference website provides it. However, some confereces do not provide abstracts in their website. So, how can we get an abstract with only its title?
+
+Using GPT- or Gemini-like service is not an answer. They cannot gives us an abstract as-is due to the copyright. Instead, they regenerate an abstract, and shows inacceptable performance as shown.
+
+![alt text](image-1.png)
+
+They think Bluetooth SoK paper "will help to raise awareness of the importance of protecting our historical heritage", which is totally wrong. This makes wrong indexing, leading to bad search results.
+
 ## Why not Google Scholar
 
 Poor conference filter:
@@ -101,6 +129,7 @@ Poor conference filter:
 
 * Pagination
 * Add more papers
+* Add abstract
 * Term aliasing (e.g., uaf = use-after-free)
 
 PR is welcome
