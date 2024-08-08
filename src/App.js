@@ -8,14 +8,18 @@ import { seq } from './functional';
 import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE } from './const';
 
 function App() {
-  const [showConferenceFilter, setShowConferenceFilter] = useState(true)
+  /**
+   * @type {[[api.SearchResponseUnit], React.Dispatch<React.SetStateAction<[api.SearchResponseUnit]>>]}
+   */
   const [data, setData] = useState([])
+  const [showConferenceFilter, setShowConferenceFilter] = useState(true)
   const [yearFrom, setYearFrom] = useState(MIN_YEAR)
   const [yearTo, setYearTo] = useState(CURRENT_YEAR + 1)
   const [venue, setVenue] = useState([])
   const [orderBy, setOrderBy] = useState(SCORE)
   const [ascending, setAscending] = useState(false)
   const [query, setQuery] = useState('')
+  const [total, setTotal] = useState(0)
 
   const submit = (e) => {
     e.preventDefault()
@@ -37,6 +41,7 @@ function App() {
     const [res, err] = await api.search(req)
     if (!err) {
       setData(res.data || [])
+      setTotal(res.total)
       window.location.hash = new URLSearchParams(req).toString()
     }
   }
@@ -92,6 +97,7 @@ function App() {
       <form onSubmit={e => submit(e)}>
         <input value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
         <input type="submit" value="search" />
+        <span>matched {total} results</span>
       </form>
       <div className='mb-2'>
         <span>From </span>
@@ -124,7 +130,7 @@ function App() {
       <div className='flex flex-column-560'>
         <div className={showConferenceFilter && 'w--280 w-100-560'} >
           {
-            data.map(e => <Paper key={e.title} props={e} />)
+            data.map(e => <Paper key={e.title} {...e} />)
           }
         </div>
         {showConferenceFilter || <div onClick={() => setShowConferenceFilter(true)} className='pointer underline mb-2'>Show conferences</div>}

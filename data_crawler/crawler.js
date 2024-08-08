@@ -6,16 +6,29 @@ const { JSDOM } = jsdom;
 const pick = (n = 0, arr = []) => arr.filter((_, i) => i < n)
 const nop = () => {}
 
-const defaultLoc = {
-  year: 0,
-  venue: "",
-  url: "",
-  unitQs: "",
-  titleQs: "",
-  absQs: [""],
-}
+/**
+ * @typedef {{
+ *  year: number,
+ *  venue: string,
+ *  url: string,
+ *  unitQs: string, // query string encompassing both title and abstract
+ *  titleQs: string,
+ *  absQs: [string],
+ * }} ConferenceInfo
+ * 
+ * @typedef {{
+ *   title: string,
+ *   year:  number,
+ *   venue: string,
+ * }} Paper
+ */
 
-const getHtml = async (url = "") => {
+/**
+ * Get HTML from an http server or local directory
+ * @param {string} url 
+ * @returns {Promise<[string, Error | null ]>} HTML string
+ */
+const getHtml = async (url) => {
   if (url.startsWith("http")) {
     return getHtmlFetch(url)
   } else if (url.startsWith("./")) {
@@ -25,6 +38,10 @@ const getHtml = async (url = "") => {
   }
 }
 
+/**
+ * @param {string} url 
+ * @returns {Promise<[string, Error | null ]>} HTML string
+ */
 const getHtmlFetch = async (url = "") => {
   const res = await fetch(url)
   if (!res.ok) {
@@ -34,6 +51,10 @@ const getHtmlFetch = async (url = "") => {
   return [html, null]
 }
 
+/**
+ * @param {string} url 
+ * @returns {Promise<[string, Error | null ]>} HTML string
+ */
 const getFileFetch = async (url = "") => {
   try {
     const html = await fs.readFile(url, { encoding: "utf-8" })
@@ -43,34 +64,35 @@ const getFileFetch = async (url = "") => {
   }
 }
 
-// Data Paper = Paper title abstract
-// crawl :: Locator -> ([Paper] -> [error])
-const crawl = async (loc = defaultLoc) => {
-  const [html, err] = await getHtml(loc.url)
+/**
+ * Get papers from conference information
+ * @param {ConferenceInfo} conference 
+ * @returns {Promise<[[Paper], [Error]]>}
+ */
+const crawl = async (conference) => {
+  const [html, err] = await getHtml(conference.url)
   if (err !== null) {
     return [[], [err]]
   }
   const document = (new JSDOM(html)).window.document
-  const units = document.querySelectorAll(loc.unitQs)
+  const units = document.querySelectorAll(conference.unitQs)
   if (units.length === 0) {
-    return [[], [new Error(`no unit ${loc.unitQs} ${loc.url}`)]]
+    return [[], [new Error(`no unit ${conference.unitQs} ${conference.url}`)]]
   }
 
   let papers = []
   let errors = []
   for (let unit of units) {
-    const title = unit.querySelector(loc.titleQs)?.textContent?.trim()
+    const title = unit.querySelector(conference.titleQs)?.textContent?.trim()
     if (!title) { 
-      errors = [...errors, new Error(`cannot find title for ${loc.url} ${loc.titleQs}`)]
+      errors = [...errors, new Error(`cannot find title for ${conference.url} ${conference.titleQs}`)]
       continue
     }
-    const abstract = loc.absQs.reduce((acc, cur) =>
-      acc === null ?
-      unit.querySelector(cur)?.textContent?.trim() :
-      acc
+    const abstract = conference.absQs.reduce((acc, cur) =>
+      acc || unit.querySelector(cur)?.textContent?.trim()
     , null)
-    if (!abstract && 0 < loc.absQs.length) {
-      errors = [...errors, new Error(`no abstract for ${loc.url} ${title} ${loc.absQs}`)]
+    if (!abstract && 0 < conference.absQs.length) {
+      errors = [...errors, new Error(`no abstract for ${conference.url} ${title} ${conference.absQs}`)]
     }
     papers = [
       ...papers,
@@ -82,8 +104,15 @@ const crawl = async (loc = defaultLoc) => {
   return [papers, errors]
 };
 
-// crawl :: year -> venue -> title -> abstract -> error
-const save = async (year = 0, venue = "", title = "", abstract = "") => {
+/**
+ * 
+ * @param {number} year 
+ * @param {string} venue 
+ * @param {string} title 
+ * @param {string} abstract 
+ * @returns {Promise<Error | null>}
+ */
+const save = async (year, venue, title, abstract) => {
   // const fs = {
   //   mkdir: console.log,
   //   writeFile: console.log,

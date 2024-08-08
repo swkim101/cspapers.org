@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react';
 import conferences from '../conferences';
 import { isEven } from '../functional';
 
-const defaultProps = {
-  onChange: (_ = []) => { }
-}
-function ConferenceTree(props = defaultProps) {
+/**
+ * 
+ * @param {{ onChange: (venue: [string]) => void }} props 
+ * @returns 
+ */
+function ConferenceTree(props) {
   const [venue, setVenue] = useState(conferences.flatten(conferences.tree))
   const [unfolded, setUnfolded] = useState([])
 

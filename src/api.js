@@ -1,42 +1,40 @@
-/* see api.cspapers.org/types/types.go */
-
 import { ABSTRACT_URL, API_HOST } from "./const";
 
-/*
-type SearchRequest struct {
-	Query     string  `json:"query"`
-	OrderBy   float32 `json:"orderBy"`
-	Ascending bool    `json:"ascending"`
-	YearFrom  uint32  `json:"yearFrom"`
-	YearTo    uint32  `json:"yearTo"`
-	Skip      uint32  `json:"skip"`
-	Take      uint32  `json:"take"`
-}
-*/
-const defaultRequest = {
-  query: '',
-  orderBy: global.SCORE,
-  ascending: false,
-  venue: [],
-  yearFrom: 2018,
-  yearTo: 2024,
-  skip: 0,
-  take: 20,
-}
-/*
-type SearchResponse struct {
-	Total int                   `json:"total"`
-	Skip  uint32                `json:"skip"`
-	Take  uint32                `json:"take"`
-	Data  []*SearchResponseUnit `json:"data"`
-}
+/**
+ * See api.cspapers.org/types/types.go
+ * @typedef {{
+ *   query:     string,
+ *   orderBy:   string,
+ *   ascending: bool,
+ *   yearFrom:  number,
+ *   yearTo:    number,
+ *   skip:      number,
+ *   take:      number,
+ * }} SearchRequest
+ * 
+ * @typedef {{
+ *   total: number,
+ *   skip:  number,
+ *   take:  number,
+ *   data:  [SearchResponseUnit],
+ * }} SearchResponse
+ * 
+ * @typedef {{
+ *   title: string,
+ *   year:  number,
+ *   venue: string,
+ *   index: string,
+ *   score: number,
+ * }} SearchResponseUnit
+ * 
+ */
 
-type SearchResponseUnit struct {
-	Paper
-	Index string  `json:"index"`
-	Score float64 `json:"score"`
-}
-*/
+
+/**
+ * 
+ * @param {SearchRequest} req 
+ * @returns {[SearchResponse, Error | null ]}
+ */
 const search = async (req) => {
   try {
     const res = await fetch(API_HOST + marshal(req))
@@ -54,29 +52,38 @@ const search = async (req) => {
   }
 }
 
-// marshal :: SearchRequest -> QueryString
-const marshal = (req = defaultRequest) => {
+/**
+ * Convert SearchRequest to a query string
+ * @param {SearchRequest} req 
+ * @returns {string} QueryString
+ */
+const marshal = (req) => {
   const q = new URLSearchParams(req)
   return `/?${q.toString()}`
 }
 
-// getAbstract :: Int -> String -> String -> (String, Error)
-const getAbstract = async (year = 0, venue = "", title = "") => {
+/**
+ * 
+ * @param {number} year
+ * @param {string} venue 
+ * @param {string} title 
+ * @returns {[string, Error | null ]} abstract
+ */
+const getAbstract = async (year, venue, title) => {
   try {
     const res = await fetch(`${ABSTRACT_URL}/${year}/${venue.toLowerCase()}/${title}`)
     if (res.status === 404) {
-      return ["", null]  
+      return ["", null]
     } else if (!res.ok) {
       return ["", new Error(`${res.status} ${res.statusText}`)]
     }
     const text = await res.text()
     return [text, null]
-  } catch(err) {
+  } catch (err) {
     return ["", err]
   }
 }
 
 export {
-  search,
-  getAbstract,
-}
+  getAbstract, search
+};

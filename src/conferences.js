@@ -22,8 +22,12 @@ const edges = [
   ["Operating systems", "ASPLOS"],
 ]
 
-// Return leaves only
-// flatten :: Tree -> [string]
+/**
+ * Return leaves's names.
+ * @typedef {{ name: string, children: [Tree] }} Tree
+ * @param {Tree} tree
+ * @returns {string}
+ */
 const flatten = (tree) =>
   tree.children.reduce((acc, cur) =>
     cur.children ? [...acc, ...flatten(cur)] : [...acc, cur.name]

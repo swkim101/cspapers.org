@@ -1,9 +1,28 @@
+/**
+ * Return a sequence from start to end, including start and excluding end.
+ * @param {number} start 
+ * @param {number} end 
+ * @param {number} step 
+ * @returns {[number]}
+ */
 const seq = (start, end, step = 1) => Array.from({ length: end - start }, (_, i) => start + i * step)
 const notN = (n, i) => n !== i
 const not2020 = i => notN(2020, i)
 
-// Data Locator = Locator Int   String String String  String   [String]
-//                        ^year ^url   ^venue ^unitQS ^titleQS ^absQS and (Spares)
+/**
+ * @typedef {{
+*  year: number,
+*  venue: string,
+*  url: string,
+*  unitQs: string, // query string encompassing both title and abstract
+*  titleQs: string,
+*  absQs: [string],
+* }} ConferenceInfo
+*/
+
+/**
+ * @type {[ConferenceInfo]}
+ */
 const ndss = [
   {
     year: 2018,
@@ -48,6 +67,9 @@ const ndss = [
 ]
 
 /* I love this consistency of Usenix */
+/**
+ * @type {[ConferenceInfo]}
+ */
 const usenix = [
   ...seq(18, 25).map(y => ({
     year: `20${y}`,
@@ -59,6 +81,9 @@ const usenix = [
   }))
 ]
 
+/**
+ * @type {[ConferenceInfo]}
+ */
 const osdi = [
   ...seq(18, 25).map(y => ({
     year: `20${y}`,
@@ -70,6 +95,9 @@ const osdi = [
   }))
 ]
 
+/**
+ * @type {[ConferenceInfo]}
+ */
 const atc = [
   ...seq(18, 25).map(y => ({
     year: `20${y}`,
@@ -81,6 +109,9 @@ const atc = [
   }))
 ]
 
+/**
+ * @type {[ConferenceInfo]}
+ */
 const ccs = [
   {
     year: 2018,
@@ -130,6 +161,9 @@ const ccs = [
   }
 ]
 
+/**
+ * @type {[ConferenceInfo]}
+ */
 const sosp = [
   {
     year: 2019,
@@ -160,6 +194,9 @@ const sosp = [
   }
 ]
 
+/**
+ * @type {[ConferenceInfo]}
+ */
 const sp = [
   ...seq(2018, 2023).map(y => ({
     year: y,
@@ -181,7 +218,9 @@ const sp = [
   }))
 ]
 
-
+/**
+ * @type {[ConferenceInfo]}
+ */
 const acl = [
   {
     year: 2024,
@@ -194,6 +233,9 @@ const acl = [
   }
 ]
 
+/**
+ * @type {[ConferenceInfo]}
+ */
 const asplos = [
   {
     year: 2024,

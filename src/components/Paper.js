@@ -1,14 +1,12 @@
 import { useEffect, useState } from 'react';
 import { getAbstract } from '../api';
 
-const defaultProps = {
-  title: '',
-  year: 0,
-  venue: '',
-  index: '',
-  score: '',
-}
-function Paper({ props = defaultProps }) {
+/**
+ * 
+ * @param {{ year: number, venue: string, title: string }} props
+ * @returns 
+ */
+function Paper(props) {
   const [collapsed, setCollapsed] = useState(true)
   const [abstract, setAbstract] = useState('')
   const [isAbsLoaded, setIsAbsLoaded] = useState(false)

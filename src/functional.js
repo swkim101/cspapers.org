@@ -3,7 +3,16 @@ export const isEven = n => n % 2 === 0
 
 export const fst = ([a, _]) => a
 export const snd = ([_, a]) => a
-export const buildTree = (edges = [], root = "") => {
+
+/**
+ * Build tree from edges.
+ * @typedef {{ name: string, children: [Tree] }} Tree
+ * @typedef { [ parent: string, child: string ]} Edge
+ * @param {[Edge]} edges
+ * @param {string} root
+ * @returns {Tree}
+ */
+export const buildTree = (edges, root) => {
   const [adjacent, notAdjacent] = edges.reduce(
     (acc, cur) => fst(cur) === root ?
       [[...fst(acc), cur], snd(acc)] :
