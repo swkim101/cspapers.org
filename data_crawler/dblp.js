@@ -44,6 +44,15 @@ const regularUrls = [
   ["conf/rss/rss", "rss"],
   ["conf/icra/icra", "icra"],
   ["conf/iros/iros", "iros"],
+  ["conf/iclr/iclr", "iclr"],
+  ["conf/icml/icml", "icml"],
+  ["conf/aaai/aaai", "aaai"],
+  ["conf/ijcai/ijcai", "ijcai"],
+  ["conf/emnlp/emnlp", "emnlp"],
+  ["conf/naacl/naacl", "naacl"],
+  ["conf/nips/neurips", "neurips"],
+  ["conf/sigir/sigir", "sigir"],
+  ["conf/cvpr/cvpr", "cvpr"],  
 ]
 
 /**

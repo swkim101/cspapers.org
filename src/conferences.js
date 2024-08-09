@@ -4,10 +4,25 @@ import { buildTree } from "./functional"
 const edges = [
   ["All Areas", "AI"],
 
+  ["AI", "Artificial intelligence"],
+  ["Artificial intelligence", "AAAI"],
+  ["Artificial intelligence", "IJCAI"],
+
+  ["AI", "Computer vision"],
+  ["Computer vision", "CVPR"],
+
+  ["AI", "Machine learning"],
+  ["Machine learning", "ICLR"],
+  ["Machine learning", "ICML"],
+  ["Machine learning", "NeurIPS"],
+
   ["AI", "Natural language processing"],
   ["Natural language processing", "ACL"],
+  ["Natural language processing", "EMNLP"],
+  ["Natural language processing", "NAACL"],
 
   ["AI", "The Web & information retrieval"],
+  ["The Web & information retrieval", "SIGIR"],
   ["The Web & information retrieval", "WWW"],
 
   ["All Areas", "Systems"],

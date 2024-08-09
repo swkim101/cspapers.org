@@ -6,9 +6,9 @@ Indexes title and abstract. Paper contents and authors are ***not*** indexed.
 
 ## Current Index
 
-Indexed 
-* Full (2018 - 2023): USENIX SEC, NDSS, OSDI, ATC, CCS, IEEE SP, SOSP, FSE, ASE, ICSE, ISSTA, EuroSys, WWW
-* Partial: ACL 2024, PLDI 2018-2022
+Titles and abstracts in 2018-2023  
+Some 2024 papers (see ./data/2024)  
+Partially indexed: PLDI 2018-2022  
 
 ## How to add new conferences/papers
 
@@ -126,8 +126,7 @@ Poor conference filter:
 ## Todo
 
 * Pagination
-* Add more papers
-* Add more abstract
+* Add PL papers
 * Term aliasing (e.g., uaf = use-after-free)
 
 PR is welcome
