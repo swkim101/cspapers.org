@@ -1,0 +1,11 @@
+Learned databases, or AI4DB techniques, have rapidly developed in the last decade. Deploying machine learning (ML) and AI4DB algorithms into actual databases is the gold standard to examine their performance in practice. However, due to the complexity of database systems, the difference between ML and DB programming paradigms, and the diversity of ML models, the tasks of developing and deploying AI4DB algorithms into databases are prohibitively difficult. Most previous works focus on specific AI4DB algorithms and ML models whose deployment requires close cooperation between ML and DB developers and heavy engineering cost.
+ 
+ In this paper, we design and implement PilotScope, an AI4DB middleware with a programming model that largely reduces such difficulties. With a novel abstraction of AI4DB algorithms for,
+ e.g.
+ , knob tuning and query optimization, PilotScope consists of two classes of components,
+ AI4DB drivers
+ and
+ DB interactors
+ , with different programming paradigms and roles in AI4DB tasks. ML developers focus on designing and implementing AI4DB drivers, which are algorithmic workflows that collect statistics from databases, train ML models, make decisions and optimize databases using learned models. AI4DB drivers interact with databases via DB interactors (
+ e.g.
+ , for collecting data and enforcing actions in databases). DB developers focus on implementing these interactors on one or more database engines, with the interaction details hindered from ML developers. PilotScope supports a variety of AI4DB tasks, and the implementation of an AI4DB algorithm on PilotScope can be deployed in different databases with only minimum modifications. PilotScope is effective in benchmarking these AI4DB algorithms in real-world scenarios. We hope that PilotScope could significantly accelerate iterating AI4DB research and make AI4DB techniques truly applicable in production.

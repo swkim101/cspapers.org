@@ -1,0 +1,1 @@
+F-IVM is a system for real-time analytics such as machine learning applications over training datasets defined by queries over fast-evolving relational databases. We will demonstrate F-IVM for three such applications: model selection, Chow-Liu trees, and ridge linear regression.

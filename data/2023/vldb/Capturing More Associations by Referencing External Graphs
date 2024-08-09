@@ -1,0 +1,41 @@
+
+ This paper studies association rule discovery in a graph
+ G
+ 1
+ by referencing an external graph
+ G
+ 2
+ with overlapping information. The objective is to enrich
+ G
+ 1
+ with relevant properties and links from
+ G
+ 2
+ . As a testbed, we consider Graph Association Rules (GARs). We propose a notion of graph joins to enrich
+ G
+ 1
+ by aligning entities across
+ G
+ 1
+ and
+ G
+ 2
+ . We also introduce a graph filtering method to support graph joins, by fetching only the data of
+ G
+ 2
+ that pertains to the entities of
+ G
+ 1
+ , to reduce noise and the size of the fused data. Based on these we develop a parallel algorithm to discover GARs across
+ G
+ 1
+ and
+ G
+ 2
+ . Moreover, we provide an incremental GAR discovery algorithm in response to updates to
+ G
+ 1
+ and
+ G
+ 2
+ . We show that both algorithms guarantee to reduce parallel runtime when given more processors. Better yet, the incremental algorithm is bounded relative to the batch one. Using real-life and synthetic data, we empirically verify that the methods improve the accuracy of association analyses by 30.4% on average, and scale well with large graphs.
