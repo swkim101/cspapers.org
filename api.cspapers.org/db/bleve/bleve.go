@@ -30,7 +30,17 @@ func ctor(connStr string, debug bool) (err error) {
 		index, err = bleve.Open(connStr)
 	} else if errors.Is(err, os.ErrNotExist) {
 		/* if not exist */
+		abstractFieldMapping := bleve.NewTextFieldMapping()
+		abstractFieldMapping.Analyzer = "standard"
+		titleFieldMapping := bleve.NewTextFieldMapping()
+		titleFieldMapping.Analyzer = "standard"
+
+		documentMapping := bleve.NewDocumentMapping()
+		documentMapping.AddFieldMappingsAt("abstract", abstractFieldMapping)
+		documentMapping.AddFieldMappingsAt("title", titleFieldMapping)
+
 		mapping := bleve.NewIndexMapping()
+		mapping.AddDocumentMapping("paper", documentMapping)
 		index, err = bleve.New(connStr, mapping)
 	}
 	if flagDebug {
@@ -66,15 +76,14 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	/* title like <query> or abstract like <query> */
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
-	keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(strings.ToLower(req.Query)))
+	keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(req.Query))
 	if isWord(req.Query) {
-		qs := fmt.Sprintf("/.*%v.*/", strings.ToLower(req.Query))
+		qs := fmt.Sprintf("/.*%v.*/", req.Query)
 		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
 	} else {
-		lower := strings.ToLower((req.Query))
-		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(lower), "title"))
-		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(lower), "abstract"))
-		for _, word := range strings.Fields(lower) {
+		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(req.Query), "title"))
+		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(req.Query), "abstract"))
+		for _, word := range strings.Fields(req.Query) {
 			keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(word))
 		}
 	}
@@ -123,16 +132,13 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	}
 
 	return &types.SearchResponse{
-		Total: len(data),
+		Total: int(searchResults.Total),
 		Data:  data,
 	}
 }
 
 func insert(req *types.InsertRequest) error {
 	idx := req.ToIndex()
-	req.Title = strings.ToLower(req.Title)
-	req.Venue = strings.ToLower(req.Venue)
-	req.Abstract = strings.ToLower(req.Abstract)
 	return index.Index(idx, req)
 }
 
