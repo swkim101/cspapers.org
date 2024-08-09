@@ -13,7 +13,7 @@ Indexed
 ## How to add new conferences/papers
 
 Add an abstract in `./data/<year>/<venue>/<papertitle>`.  
-If the venue is new, add venue in `./src/conferences.js`.
+If the venue is new, add the venue in `./src/conferences.js`.
 
 PR is welcome.
 
@@ -30,7 +30,7 @@ sudo npm install http-server -g
 Build and run
 
 ```bash
-# generate index db. It takes ~15min.
+# generate index db. It takes ~15 minutes.
 go run ./api.cspapers.org/index -debug
 # run index server
 go run ./api.cspapers.org/server -debug
@@ -103,17 +103,17 @@ SearchResult Fields:
 | score    | Float  | query-relevance score |
 
 
-## Data source and corectness
+## Data source and correctness
 
 There are two data sources:
-* (farely accurate) https://dblp.org + https://www.semanticscholar.org/
+* (fairly accurate) https://dblp.org + https://www.semanticscholar.org/
 * conference site, e.g., https://www.usenix.org/conference/usenixsecurity24/fall-accepted-papers
 
-The crawler sometimes misses paper from the first source if semantic scholar returns nothing (see ./data_crawler/failed.json).
+The crawler sometimes misses paper from the first source if semantic scholar returns nothing (see ./data_crawler/failed.json). So, some papers are *not* indexed and never show up in the results. We can manually add this.
 
-For the second source, the crawler somtimes confuse paper talk and keynote talk (and others). So, search results sometime contains *not* papers (see [3b6c738](https://github.com/swkim101/cspapers.org/commit/3b6c7386b685b72a18cb4074aa69a71570d50134)). The Google scholar button can help verifying this.
+For the second source, the crawler sometimes confuses paper talk and keynote talk (and others). So, search results sometimes contain *not* papers (see [3b6c738](https://github.com/swkim101/cspapers.org/commit/3b6c7386b685b72a18cb4074aa69a71570d50134)). The Google scholar button can help to verify this.
 
-Reporting wrong index is always welcome.
+Reporting the wrong index is always welcome.
 
 ## Why not Google Scholar
 
@@ -138,8 +138,8 @@ Referred to csrankings.org for organizing conferences.
 
 ## Disclaimer
 
-cspapers.org is served as implemented in this repository. I do not modify source code or data in and after distributions.  
+cspapers.org is served as implemented as is in this repository. I do not modify source code or data in and after distributions.  
 The source code shows that cspapers.org does not collect user data, such as search history and IP address. However, Cloudflare and fly.io do this for pricing and security purposes.  
-I personally own stock (less than 10k) of Cloudflare, and I hope they will have profit so I can be rich. This is why I bought a domain name from Cloudflare - that will add ~10$ per year to net sales.  
-cspapers.org uses fly.io because it is the cheapest server. It costs 3.19$ per month with 1 core and 512MB RAM in the Virginia region. I am always willing to migrate to a cheaper one. Suggestion is welcome.  
+I personally own stock (less than 10k) of Cloudflare, and I hope they will profit so I can be rich. This is why I bought a domain name from Cloudflare—that will add ~ $10 per year to net sales.  
+cspapers.org uses fly.io because it is the cheapest server. It costs $3.19 per month with 1 core and 512MB RAM in the Virginia region. I am always willing to migrate to a cheaper one. Suggestions are welcome.  
 Each conference site provides origins of titles and abstracts of papers.
