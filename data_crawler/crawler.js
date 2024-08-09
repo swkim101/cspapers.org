@@ -6,7 +6,9 @@ const { JSDOM } = jsdom;
 
 const pick = (n = 0, arr = []) => arr.filter((_, i) => i < n)
 
-const UNIT = "li.inproceedings"
+const toFilePath = (year, venue, title) => `data/${year}/${venue}/${title.replaceAll("/", " ")}`
+
+const UNIT = 'li[itemtype="http://schema.org/ScholarlyArticle"]'
 const TITLE = "cite > span.title" // trailing . should be removed.
 const DOI = "nav > ul > li > div.body > ul > li.ee > a"
 const KEY = fsSync.readFileSync('./secret/semantics_scolar', { encoding: 'utf-8' })
@@ -26,7 +28,7 @@ const urlToDoi = (url = "") => url.replace("https://doi.org/", "")
 const crawlDblp = async (url) => {
   const res = await fetch(url)
   if (!res.ok) {
-    return [{}, [new Error(`${url} responses ${res.status}`)]]
+    return [{}, [new Error(`3 - ${url} responses ${res.status}`)]]
   }
   const html = await res.text()
   if (html.length < 10) {
@@ -63,7 +65,7 @@ const crawlDblp = async (url) => {
 /**
  * 
  * @param {string} paperid - can be doi, paper id, ...
- * @return {[{ title: string, abstract: string | null }, number | null ]}
+ * @return {[{ title: string, abstract: string | null }, number ]}
  */
 const crawlDoi = async (paperid) => {
   const endp = `https://api.semanticscholar.org/graph/v1/paper/${paperid}?fields=title,abstract`
@@ -75,26 +77,26 @@ const crawlDoi = async (paperid) => {
   return [{
     title: json.title,
     abstract: json.abstract,
-  }, null]
+  }, res.status]
 };
 
 /**
  * 
  * @param {string} title 
- * @return {[doi, Error | null ]}
+ * @return {[doi, number ]}
  */
 const crawlIdByTitle = async (title) => {
   const endp = `https://api.semanticscholar.org/graph/v1/paper/search?query=${title}&limit=1`
   const res = await fetch(endp, { headers })
   if (!res.ok) {
-    return [{}, new Error(`${title} responses ${res.status}`)]
+    return [{}, res.status]
   }
   const json = await res.json()
   if (json.total === 0) {
-    return [{ title, abstract: null }, null]
+    return [{ title, abstract: null }, res.status]
   }
 
-  return [json.data[0].paperId, null]
+  return [json.data[0].paperId, res.status]
 }
 
 /**
@@ -131,8 +133,7 @@ const save = async (year, venue, title, abstract) => {
   //   mkdir: nop,
   //   writeFile: nop,
   // }
-  const newTitle = title.replaceAll("/", " ")
-  const filepath = `data/${year}/${venue}/${newTitle}`
+  const filepath = toFilePath(year, venue, title)
   let err = await fs.mkdir(`data/${year}/${venue}`, { recursive: true })
   if (err !== undefined) { return err }
 
@@ -156,6 +157,10 @@ const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, m
   let dblpQ = dblp.map(e => e)
   let semanticsScolarQ = []
   let succeed = 0
+  
+  while (199 < dblpQ.length) {
+    dblpQ.pop()
+  }
 
   const runDblp = async () => {
     // Skip if semantics scholar q is large.
@@ -174,8 +179,7 @@ const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, m
 
     papers
     .filter(({ title, doi }) => {
-      const newTitle = title.replaceAll("/", " ")
-      const filepath = `data/${conference.year}/${conference.name}/${newTitle}`
+      const filepath = toFilePath(conference.year, conference.name, title)
       return !exists(filepath) || isEmpty(filepath)
     })
     .map(({ title, doi }) =>
@@ -194,54 +198,75 @@ const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, m
 
     // get semantic scholar ID and re-queue
     if (!doi) {
-      const [id, err] = await crawlIdByTitle(title)
-      if (err !== null) {
-        console.log(err)
-        failed.push([title, doi])
-      }
-      semanticsScolarQ = [
-        { year, name, title, doi: id },
-        ...semanticsScolarQ
-      ]
-      return
-    }
-
-    const [paper, statusCode] = await crawlDoi(doi)
-
-    if (statusCode !== null) {
-      console.log(`${doi} responses ${statusCode}`)
+      const [id, statusCode] = await crawlIdByTitle(title)
       switch (statusCode) {
-      // cannot find paper by DOI. Try semantic scholar ID
-      case 404:
-        console.log("404 requeue ", title)
+      case 200:
+        console.log("200 requeue ", title)
         semanticsScolarQ = [
-          { year, name, title, doi: null },
+          { year, name, title, doi: id },
           ...semanticsScolarQ
         ]
         break;
-
-      // Too frequent requests. Just requeue.
       case 429:
+        // too many requets. requeue
         console.log("429 requeue ", title)
         semanticsScolarQ = [
           { year, name, title, doi },
           ...semanticsScolarQ
         ]
         break;
-
       default:
         failed.push([title, doi])
       }
       return
     }
+
+    const [paper, statusCode] = await crawlDoi(doi)
+    switch (statusCode) {
+    case 200:
+      break;
+    // cannot find paper by DOI. Try semantic scholar ID
+    case 404:
+      console.log("404 requeue ", title)
+      semanticsScolarQ = [
+        { year, name, title, doi: null },
+        ...semanticsScolarQ
+      ]
+      return
+
+    // Too frequent requests. Just requeue.
+    case 429:
+      console.log("429 requeue ", title)
+      semanticsScolarQ = [
+        { year, name, title, doi },
+        ...semanticsScolarQ
+      ]
+      return
+
+    default:
+      failed.push([title, doi])
+      return
+    }
+    
     {
-      /* filter latex */
-      const goodTitle = paper.title.includes("\\documentclass") ? title : paper.title
-      const err = await save(year, name, goodTitle, paper.abstract || "")
-      if (err !== null) {
+      try {
+        if (title !== paper.title) {
+          console.error(`title mismatch ${paper.title} -> ${title}`)
+          const filepath = toFilePath(year, name, paper.title)
+          if (exists(filepath)) {
+            const newFilePath = toFilePath(year, name, title)
+            fsSync.renameSync(filepath, newFilePath)
+          }
+        }
+        const err = await save(year, name, title, paper.abstract || "")
+        if (err !== null) {
+          failed.push([title, doi])
+        } else {
+          succeed += 1
+        }
+      } catch (e) {
+        console.error(e)
         failed.push([title, doi])
-      } else {
-        succeed += 1
       }
     }
   }

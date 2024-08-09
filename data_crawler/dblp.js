@@ -6,6 +6,7 @@
  * @returns { [number] }
  */
 const seq = (start, end, step = 1) => Array.from({ length: Math.floor((end - start)/step) }, (_, i) => start + i * step)
+const notN = (n, i) => n !== i
 
 /**
  * @typedef {
@@ -38,7 +39,7 @@ const regularUrls = [
   ["conf/stoc/stoc", "stoc"],
   ["conf/lics/lics", "lics"],
   ["conf/chi/chi", "chi"],
-  ["conf/usit/usit", "usit"],
+  ["conf/uist/uist", "uist"],
   ["conf/sigecom/sigecom", "ec"],
   ["conf/wine/wine", "wine"],
   ["conf/rss/rss", "rss"],
@@ -49,7 +50,6 @@ const regularUrls = [
   ["conf/aaai/aaai", "aaai"],
   ["conf/ijcai/ijcai", "ijcai"],
   ["conf/emnlp/emnlp", "emnlp"],
-  ["conf/naacl/naacl", "naacl"],
   ["conf/nips/neurips", "neurips"],
   ["conf/sigir/sigir", "sigir"],
   ["conf/cvpr/cvpr", "cvpr"],  
@@ -70,7 +70,40 @@ const regulars = regularUrls.map(([url, name]) =>
  * @type {[ Venue ]}
  */
 const irregulars = [
-  ...seq(2018, 2024).map(year => ({
+  ...seq(12, 18)
+  .map(vol => ({
+    name: "vldb",
+    year: vol + 2006,
+    url: `https://dblp.org/db/journals/pvldb/pvldb${vol}.html`
+  })),
+  ...seq(2018, 2023)
+  .map(year => ({
+    name: "sigmod",
+    year,
+    url: `https://dblp.org/db/conf/sigmod/sigmod${year}.html`
+  })),
+  ...seq(2018, 2020)
+  .filter(year => notN(2020, year) && notN(2023, year))
+  .map(year => ({
+    name: "naacl",
+    year,
+    url: `https://dblp.org/db/conf/naacl/naacl${year}-1.html`
+  })),
+  ...seq(2020, 2024)
+  .filter(year => notN(2020, year) && notN(2023, year))
+  .map(year => ({
+    name: "naacl",
+    year,
+    url: `https://dblp.org/db/conf/naacl/naacl${year}.html`
+  })),
+  {
+    name: "acl",
+    year: 2020,
+    url: `https://dblp.org/db/conf/acl/acl2020.html`
+  },
+  ...seq(2021, 2024)
+  .filter(year => notN(2020, year))
+  .map(year => ({
     name: "acl",
     year,
     url: `https://dblp.org/db/conf/acl/acl${year}-1.html`
@@ -99,7 +132,7 @@ const irregulars = [
       url: `https://dblp.org/db/conf/crypto/crypto${year}-${vol}.html`
     })
   )).flat(),
-  ...seq(1, 9).map(vol =>({
+  ...seq(1, 8).map(vol =>({
     name: "eurocrypt",
     year: 2024,
     url: `https://dblp.org/db/conf/eurocrypt/eurocrypt2024-${vol}.html`

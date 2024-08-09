@@ -36,6 +36,10 @@ const edges = [
   ["Computer security", "SP"],
   ["Computer security", "CCS"],
 
+  ["Systems", "Databases"],
+  ["Databases", "SIGMOD"],
+  ["Databases", "VLDB"],
+
   ["Systems", "Mobile computing"],
   ["Mobile computing", "MobiCom"],
   ["Mobile computing", "MobiSys"],

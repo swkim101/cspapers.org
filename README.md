@@ -4,11 +4,7 @@ Search engine for computer science papers.
 
 Indexes title and abstract. Paper contents and authors are ***not*** indexed.
 
-## Current Index
-
-Titles and abstracts in 2018-2023  
-Some 2024 papers (see ./data/2024)  
-Partially indexed: PLDI 2018-2022  
+Indexed from 2018 - 2024 (partial).
 
 ## How to add new conferences/papers
 
