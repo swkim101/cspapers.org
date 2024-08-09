@@ -7,6 +7,9 @@ const edges = [
   ["AI", "Natural language processing"],
   ["Natural language processing", "ACL"],
 
+  ["AI", "The Web & information retrieval"],
+  ["The Web & information retrieval", "WWW"],
+
   ["All Areas", "Systems"],
 
   ["Systems", "Computer security"],
@@ -20,6 +23,17 @@ const edges = [
   ["Operating systems", "SOSP"],
   ["Operating systems", "ATC"],
   ["Operating systems", "ASPLOS"],
+  ["Operating systems", "EuroSYS"],
+
+  ["Systems", "Software engineering"],
+  ["Software engineering", "FSE"],
+  ["Software engineering", "ICSE"],
+  ["Software engineering", "ASE"],
+  ["Software engineering", "ISSTA"],
+
+  ["Systems", "Programming languages"],
+  ["Programming languages", "PLDI"],
+  
 ]
 
 /**

@@ -7,13 +7,12 @@ import ConferenceTree from './components/ConferenceTree';
 import { seq } from './functional';
 import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE } from './const';
 
-
-
 function App() {
   /**
    * @type {[[api.SearchResponseUnit], React.Dispatch<React.SetStateAction<[api.SearchResponseUnit]>>]}
    */
   const [data, setData] = useState([])
+  const [total, setTotal] = useState(0)
   const [showConferenceFilter, setShowConferenceFilter] = useState(true)
   const [yearFrom, setYearFrom] = useState(MIN_YEAR)
   const [yearTo, setYearTo] = useState(CURRENT_YEAR + 1)
@@ -42,6 +41,7 @@ function App() {
     const [res, err] = await api.search(req)
     if (!err) {
       setData(res.data || [])
+      setTotal(res.total)
       window.location.hash = new URLSearchParams(req).toString()
     }
   }
@@ -97,6 +97,7 @@ function App() {
       <form onSubmit={e => submit(e)}>
         <input autoFocus value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
         <input type="submit" value="search" />
+        <span> - {total} resulsts </span>
       </form>
       <div className='mb-2'>
         <span>From </span>
