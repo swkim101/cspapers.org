@@ -7,10 +7,8 @@ Indexes title and abstract. Paper contents and authors are ***not*** indexed.
 ## Current Index
 
 Indexed 
-* 2018 - current: USENIX SEC[^1], NDSS[^1], OSDI[^1], ATC[^1], CCS, IEEE SP, SOSP
-* 2024: ASPLOS[^1], ACL
-
-[^1]: Abstract is indexed from conference website.
+* Full (2018 - 2023): USENIX SEC, NDSS, OSDI, ATC, CCS, IEEE SP, SOSP, FSE, ASE, ICSE, ISSTA, EuroSys, WWW
+* Partial: ACL 2024, PLDI 2018-2022
 
 ## How to add new conferences/papers
 
@@ -105,17 +103,17 @@ SearchResult Fields:
 | score    | Float  | query-relevance score |
 
 
-## Data corectness
+## Data source and corectness
 
-A cralwer collects paper data from conference websites. (see ./data_crawler) The crawler somtimes confuse paper talk and keynote talk (and others). So, search results sometime contains *not* papers (see [3b6c738](https://github.com/swkim101/cspapers.org/commit/3b6c7386b685b72a18cb4074aa69a71570d50134)). The Google scholar button can help verifying this. Also, reporting wrong index is welcome.
+There are two data sources:
+* (farely accurate) https://dblp.org + https://www.semanticscholar.org/
+* conference site, e.g., https://www.usenix.org/conference/usenixsecurity24/fall-accepted-papers
 
-The crawler can collect data only if the conference website provides it. However, some confereces do not provide abstracts in their website. So, how can we get an abstract with only its title?
+The crawler sometimes misses paper from the first source if semantic scholar returns nothing (see ./data_crawler/failed.json).
 
-Using GPT- or Gemini-like service is not an answer. They cannot gives us an abstract as-is due to the copyright. Instead, they regenerate an abstract, and shows inacceptable performance as shown.
+For the second source, the crawler somtimes confuse paper talk and keynote talk (and others). So, search results sometime contains *not* papers (see [3b6c738](https://github.com/swkim101/cspapers.org/commit/3b6c7386b685b72a18cb4074aa69a71570d50134)). The Google scholar button can help verifying this.
 
-![alt text](image-1.png)
-
-They think Bluetooth SoK paper "will help to raise awareness of the importance of protecting our historical heritage", which is totally wrong. This makes wrong indexing, leading to bad search results.
+Reporting wrong index is always welcome.
 
 ## Why not Google Scholar
 
@@ -129,7 +127,7 @@ Poor conference filter:
 
 * Pagination
 * Add more papers
-* Add abstract
+* Add more abstract
 * Term aliasing (e.g., uaf = use-after-free)
 
 PR is welcome
