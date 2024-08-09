@@ -1,0 +1,1 @@
+In this demo paper, we assess the performance of using mid-air gestures for web browsing. We built a Google Chrome extension to interface with the Leap Motion controller (LMC). In our user study evaluation, this interaction method is adequate for basic actions, but limitations arise when performing complex gestures.
