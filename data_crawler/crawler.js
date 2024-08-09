@@ -235,7 +235,9 @@ const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, m
       return
     }
     {
-      const err = await save(year, name, paper.title, paper.abstract || "")
+      /* filter latex */
+      const goodTitle = paper.title.includes("\\documentclass") ? title : paper.title
+      const err = await save(year, name, goodTitle, paper.abstract || "")
       if (err !== null) {
         failed.push([title, doi])
       } else {
