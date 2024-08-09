@@ -63,13 +63,13 @@ const crawlDblp = async (url) => {
 /**
  * 
  * @param {string} paperid - can be doi, paper id, ...
- * @return {[{ title: string, abstract: string | null }, Error | null ]}
+ * @return {[{ title: string, abstract: string | null }, number | null ]}
  */
 const crawlDoi = async (paperid) => {
   const endp = `https://api.semanticscholar.org/graph/v1/paper/${paperid}?fields=title,abstract`
   const res = await fetch(endp, { headers })
   if (!res.ok) {
-    return [{}, new Error(`${paperid} responses ${res.status}`)]
+    return [{}, res.status]
   }
   const json = await res.json()
   return [{
@@ -192,7 +192,7 @@ const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, m
     if (semanticsScolarQ.length === 0) { return; }
     const { year, name, title, doi } = semanticsScolarQ.pop()
 
-    // get doi and re-queue
+    // get semantic scholar ID and re-queue
     if (!doi) {
       const [id, err] = await crawlIdByTitle(title)
       if (err !== null) {
@@ -206,11 +206,32 @@ const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, m
       return
     }
 
-    const [paper, err] = await crawlDoi(doi)
+    const [paper, statusCode] = await crawlDoi(doi)
 
-    if (err !== null) {
-      console.log(err)
-      failed.push([title, doi])
+    if (statusCode !== null) {
+      console.log(`${doi} responses ${statusCode}`)
+      switch (statusCode) {
+      // cannot find paper by DOI. Try semantic scholar ID
+      case 404:
+        console.log("404 requeue ", title)
+        semanticsScolarQ = [
+          { year, name, title, doi: null },
+          ...semanticsScolarQ
+        ]
+        break;
+
+      // Too frequent requests. Just requeue.
+      case 429:
+        console.log("429 requeue ", title)
+        semanticsScolarQ = [
+          { year, name, title, doi },
+          ...semanticsScolarQ
+        ]
+        break;
+
+      default:
+        failed.push([title, doi])
+      }
       return
     }
     {

@@ -12,17 +12,24 @@ const edges = [
 
   ["All Areas", "Systems"],
 
+  ["Systems", "Computer architecture"],
+  ["Computer architecture", "ASPLOS"],
+
   ["Systems", "Computer security"],
   ["Computer security", "NDSS"],
   ["Computer security", "Usenix"],
   ["Computer security", "SP"],
   ["Computer security", "CCS"],
 
+  ["Systems", "Mobile computing"],
+  ["Mobile computing", "MobiCom"],
+  ["Mobile computing", "MobiSys"],
+  ["Mobile computing", "SenSys"],
+
   ["Systems", "Operating systems"],
   ["Operating systems", "OSDI"],
   ["Operating systems", "SOSP"],
   ["Operating systems", "ATC"],
-  ["Operating systems", "ASPLOS"],
   ["Operating systems", "EuroSYS"],
 
   ["Systems", "Software engineering"],
@@ -33,7 +40,36 @@ const edges = [
 
   ["Systems", "Programming languages"],
   ["Programming languages", "PLDI"],
+
+  ["All Areas", "Theory"],
+
+  ["Theory", "Algorithms & complexity"],
+  ["Algorithms & complexity", "FOCS"],
+  ["Algorithms & complexity", "SODA"],
+  ["Algorithms & complexity", "STOC"],
+
+  ["Theory", "Cryptography"],
+  ["Cryptography", "CRYPTO"],
+  ["Cryptography", "EuroCrypt"],
+
+  ["Theory", "Logic & verification"],
+  ["Logic & verification", "LICS"],
+
+  ["All Areas", "Interdisciplinary Areas"],
+
+  ["Interdisciplinary Areas", "Economics & computation"],
+  ["Economics & computation", "EC"],
+  ["Economics & computation", "WINE"],
   
+  ["Interdisciplinary Areas", "Human-computer interaction"],
+  ["Human-computer interaction", "CHI"],
+  ["Human-computer interaction", "UbiComp"],
+  ["Human-computer interaction", "UIST"],
+
+  ["Interdisciplinary Areas", "Robotics"],
+  ["Robotics", "ICRA"],
+  ["Robotics", "IROS"],
+  ["Robotics", "RSS"],
 ]
 
 /**
