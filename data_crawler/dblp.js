@@ -26,7 +26,6 @@ const regularUrls = [
   ["conf/usenix/usenix", "atc"],
   ["conf/asplos/asplos", "asplos"],
   ["conf/sigsoft/fse", "fse"],
-  ["conf/osdi/osdi", "osdi"],
   ["conf/kbse/ase", "ase"],
   ["conf/icse/icse", "icse"],
   ["conf/issta/issta", "issta"],
@@ -49,12 +48,23 @@ const regulars = regularUrls.map(([url, name]) =>
  * @type {[ Venue ]}
  */
 const irregulars = [
-  seq(2017, 2024, 2).map(year => ({
+  {
+    name: "osdi",
+    year: 2018,
+    url: `https://dblp.org/db/conf/osdi/osdi2018.html`
+  },
+  // osdi 2019 does not exist
+  ...seq(2020, 2024).map(year => ({
+    name: "osdi",
+    year,
+    url: `https://dblp.org/db/conf/osdi/osdi${year}.html`
+  })),
+  ...seq(2017, 2024, 2).map(year => ({
     name: "sosp",
     year,
     url: `https://dblp.org/db/conf/sosp/sosp${year}.html`
   })),
-  seq(2018, 2023).map(year => ({
+  ...seq(2018, 2023).map(year => ({
     name: "pldi",
     year,
     url: `https://dblp.org/db/conf/pldi/pldi${year}.html`
@@ -64,7 +74,7 @@ const irregulars = [
   //   year: volume + 2015,
   //   url: `https://dblp.org/journals/pacmpl/pacmpl${volume}.html.html`
   // }))
-].flat()
+]
 
 module.exports = [
   ...regulars,

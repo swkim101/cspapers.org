@@ -231,7 +231,7 @@ const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, m
 
     console.log(`dblp ${dblpQ.length} scholar ${semanticsScolarQ.length} succeed ${succeed} failed ${failed.length}`)
     fsSync.writeFileSync("./data_crawler/failed.json", JSON.stringify(failed, null, 2))
-    if (semanticsScolarQ.length === 0) {
+    if (dblpQ.length === 0) {
       // 10 sec room
       await sleep(10_000)
       if (semanticsScolarQ.length === 0 && dblpQ.length === 0) {
