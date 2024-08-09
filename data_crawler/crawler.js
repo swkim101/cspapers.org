@@ -1,111 +1,121 @@
-const resourse = require('./resources');
+const dblp = require('./dblp');
 const fs = require('fs/promises')
+const fsSync = require('fs')
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 const pick = (n = 0, arr = []) => arr.filter((_, i) => i < n)
-const nop = () => {}
 
-/**
- * @typedef {{
- *  year: number,
- *  venue: string,
- *  url: string,
- *  unitQs: string, // query string encompassing both title and abstract
- *  titleQs: string,
- *  absQs: [string],
- * }} ConferenceInfo
- * 
- * @typedef {{
- *   title: string,
- *   year:  number,
- *   venue: string,
- * }} Paper
- */
+const UNIT = "li.inproceedings"
+const TITLE = "cite > span.title" // trailing . should be removed.
+const DOI = "nav > ul > li > div.body > ul > li.ee > a"
+const KEY = fsSync.readFileSync('./secret/semantics_scolar', { encoding: 'utf-8' })
 
-/**
- * Get HTML from an http server or local directory
- * @param {string} url 
- * @returns {Promise<[string, Error | null ]>} HTML string
- */
-const getHtml = async (url) => {
-  if (url.startsWith("http")) {
-    return getHtmlFetch(url)
-  } else if (url.startsWith("./")) {
-    return getFileFetch(url)
-  } else {
-    return ["", new Error("undefined url type ", url)]
-  }
+const headers = {
+  'x-api-key': KEY
 }
 
+const isDoi = (str = "") => str.startsWith("https://doi.org/")
+const urlToDoi = (url = "") => url.replace("https://doi.org/", "")
+
 /**
+ * 
  * @param {string} url 
- * @returns {Promise<[string, Error | null ]>} HTML string
+ * @return {Promise <[[ { title: string, doi: string | null }], Error | null]>}
  */
-const getHtmlFetch = async (url = "") => {
+const crawlDblp = async (url) => {
   const res = await fetch(url)
   if (!res.ok) {
-    return ["", new Error(`${res.statusText} ${url}`)]
+    return [{}, [new Error(`${url} responses ${res.status}`)]]
   }
   const html = await res.text()
-  return [html, null]
-}
-
-/**
- * @param {string} url 
- * @returns {Promise<[string, Error | null ]>} HTML string
- */
-const getFileFetch = async (url = "") => {
-  try {
-    const html = await fs.readFile(url, { encoding: "utf-8" })
-    return [html, null]
-  } catch (err) {
-    return ["", new Error(`${err}`)]
-  }
-}
-
-/**
- * Get papers from conference information
- * @param {ConferenceInfo} conference 
- * @returns {Promise<[[Paper], [Error]]>}
- */
-const crawl = async (conference) => {
-  const [html, err] = await getHtml(conference.url)
-  if (err !== null) {
-    return [[], [err]]
+  if (html.length < 10) {
+    return [{}, [new Error(`wrong html returned ${html}`)]]
   }
   const document = (new JSDOM(html)).window.document
-  const units = document.querySelectorAll(conference.unitQs)
+  const units = document.querySelectorAll(UNIT)
   if (units.length === 0) {
-    return [[], [new Error(`no unit ${conference.unitQs} ${conference.url}`)]]
+    return [[], [new Error(`no unit ${UNIT} ${url}`)]]
   }
 
-  let papers = []
+  let ret = []
   let errors = []
-  for (let unit of units) {
-    const title = unit.querySelector(conference.titleQs)?.textContent?.trim()
-    if (!title) { 
-      errors = [...errors, new Error(`cannot find title for ${conference.url} ${conference.titleQs}`)]
+  for (unit of units) {
+    const title = unit.querySelector(TITLE)?.textContent?.trim()
+    if (!title) {
+      errors.push(new Error(`cannot find title for ${conference.url} ${TITLE}`))
       continue
     }
-    const abstract = conference.absQs.reduce((acc, cur) =>
-      acc || unit.querySelector(cur)?.textContent?.trim()
-    , null)
-    if (!abstract && 0 < conference.absQs.length) {
-      errors = [...errors, new Error(`no abstract for ${conference.url} ${title} ${conference.absQs}`)]
-    }
-    papers = [
-      ...papers,
-    {
-      title,
-      abstract: abstract || ""
-    }]
+    const doiurl = unit.querySelector(DOI)?.getAttribute("href") || ""
+    const doi = isDoi(doiurl) ? urlToDoi(doiurl) : ""
+
+    const newTitle = title.replace(/\.$/, "")
+
+    ret.push({
+      title: newTitle,
+      doi,
+    })
   }
-  return [papers, errors]
+
+  return [ret, errors]
 };
 
 /**
  * 
+ * @param {string} paperid - can be doi, paper id, ...
+ * @return {[{ title: string, abstract: string | null }, Error | null ]}
+ */
+const crawlDoi = async (paperid) => {
+  const endp = `https://api.semanticscholar.org/graph/v1/paper/${paperid}?fields=title,abstract`
+  const res = await fetch(endp, { headers })
+  if (!res.ok) {
+    return [{}, new Error(`${paperid} responses ${res.status}`)]
+  }
+  const json = await res.json()
+  return [{
+    title: json.title,
+    abstract: json.abstract,
+  }, null]
+};
+
+/**
+ * 
+ * @param {string} title 
+ * @return {[doi, Error | null ]}
+ */
+const crawlIdByTitle = async (title) => {
+  const endp = `https://api.semanticscholar.org/graph/v1/paper/search?query=${title}&limit=1`
+  const res = await fetch(endp, { headers })
+  if (!res.ok) {
+    return [{}, new Error(`${title} responses ${res.status}`)]
+  }
+  const json = await res.json()
+  if (json.total === 0) {
+    return [{ title, abstract: null }, null]
+  }
+
+  return [json.data[0].paperId, null]
+}
+
+/**
+ * 
+ * @param {string} path 
+ * @return {boolean}
+ */
+const isEmpty = path => {
+  const stat = fsSync.statSync(path)
+  return stat.size === 0
+}
+
+/**
+ * 
+ * @param {string} path 
+ * @return {boolean}
+ */
+const exists = (path) => fsSync.existsSync(path)
+
+/**
+ * No overwrite. Save only if the file is empty
  * @param {number} year 
  * @param {string} venue 
  * @param {string} title 
@@ -122,28 +132,115 @@ const save = async (year, venue, title, abstract) => {
   //   writeFile: nop,
   // }
   const newTitle = title.replaceAll("/", " ")
+  const filepath = `data/${year}/${venue}/${newTitle}`
   let err = await fs.mkdir(`data/${year}/${venue}`, { recursive: true })
   if (err !== undefined) { return err }
-  err = await fs.writeFile(`data/${year}/${venue}/${newTitle}`, abstract)
-  if (err !== undefined) { return err }
-  
+
+  if (!exists(filepath) || isEmpty(filepath)) {
+    err = await fs.writeFile(filepath, abstract)
+    if (err !== undefined) { return err }
+  }
+
   return null
 }
 
+/**
+ * sleep msec
+ * @param {msec} msec
+ * @returns 
+ */
+const sleep = async (msec) => await new Promise(resolve => setTimeout(resolve, msec));
+
 (async () => {
-resourse.map(async (r) => {
-  const [papers, errs] = await crawl(r)
-  // 
-  if (0 < errs.length) {
-    console.log(`${errs.length} errors in crawling ${r.url}`)
-    console.log("show some: ")
-    pick(3, errs).map(e => console.log(e))
-  }
-  papers.map(async (p) => {
-    const err = await save(r.year, r.venue, p.title, p.abstract)
-    if (err) {
-      console.log(`failed to save ${p.title} ${err}`)
+  let failed = []
+  let dblpQ = dblp.map(e => e)
+  let semanticsScolarQ = []
+  let succeed = 0
+
+  const runDblp = async () => {
+    // Skip if semantics scholar q is large.
+    if (20 < semanticsScolarQ.length) {
+      return
     }
-  })
-})
+    // confernce := <- dblpQ
+    if (dblpQ.length === 0) { return; }
+    const conference = dblpQ.pop()
+
+    const [papers, errs] = await crawlDblp(conference.url)
+    if (0 < errs.length) {
+      console.error(`${errs.length} errors in ${conference.url}. Pick 3:`)
+      console.error(pick(3, errs))
+    }
+
+    papers
+    .filter(({ title, doi }) => {
+      const newTitle = title.replaceAll("/", " ")
+      const filepath = `data/${conference.year}/${conference.name}/${newTitle}`
+      return !exists(filepath) || isEmpty(filepath)
+    })
+    .map(({ title, doi }) =>
+      // semanticsScolarQ <- { title, doi }
+      semanticsScolarQ = [
+        { year: conference.year, name: conference.name, title, doi },
+        ...semanticsScolarQ
+      ]
+    )
+  }
+
+  const runSemanticScholar = async () => {
+    // paper := <- semanticsScolarQ
+    if (semanticsScolarQ.length === 0) { return; }
+    const { year, name, title, doi } = semanticsScolarQ.pop()
+
+    // get doi and re-queue
+    if (!doi) {
+      const [id, err] = await crawlIdByTitle(title)
+      if (err !== null) {
+        console.log(err)
+        failed.push([title, doi])
+      }
+      semanticsScolarQ = [
+        { year, name, title, doi: id },
+        ...semanticsScolarQ
+      ]
+      return
+    }
+
+    const [paper, err] = await crawlDoi(doi)
+
+    if (err !== null) {
+      console.log(err)
+      failed.push([title, doi])
+      return
+    }
+    {
+      const err = await save(year, name, paper.title, paper.abstract || "")
+      if (err !== null) {
+        failed.push([title, doi])
+      } else {
+        succeed += 1
+      }
+    }
+  }
+
+  const dblpWorker = setInterval(runDblp, 3000);
+  const semanticScholarWorker = setInterval(runSemanticScholar, 1050);
+
+  while (true) {
+    await sleep(3000)
+
+    console.log(`dblp ${dblpQ.length} scholar ${semanticsScolarQ.length} succeed ${succeed} failed ${failed.length}`)
+    fsSync.writeFileSync("./data_crawler/failed.json", JSON.stringify(failed, null, 2))
+    if (semanticsScolarQ.length === 0) {
+      // 10 sec room
+      await sleep(10_000)
+      if (semanticsScolarQ.length === 0 && dblpQ.length === 0) {
+        // all queues are empty
+        clearInterval(dblpWorker)
+        clearInterval(semanticScholarWorker)
+        console.log(JSON.stringify(failed, null, 2))
+        process.exit(0)
+      }
+    }
+  }
 })();
