@@ -1,0 +1,1 @@
+We describe an online approach to SMT solver selection using nearest neighbor classification and runtime estimation. We implement and evaluate our approach with MedleySolver, finding that it makes nearly optimal selections and evaluates a dataset of queries three times faster than any indivdual solver.

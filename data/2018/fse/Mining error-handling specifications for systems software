@@ -1,0 +1,1 @@
+This paper presents a technique for mining error-handling specifications from systems software. It presents a static analysis for detecting error handlers in low-level code, and it shows how function synonyms can be used to mine for error-handling specifications with only a few supporting examples.

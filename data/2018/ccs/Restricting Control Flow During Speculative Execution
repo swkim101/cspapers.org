@@ -1,0 +1,1 @@
+Speculative execution is one of the key techniques that modern processors use to boost performance. However, recent research shows that speculative execution can be used to steal sensitive data. We present a software-based solution to mitigate Spectre attacks by restricting the control flow of speculatively-executed instructions.
