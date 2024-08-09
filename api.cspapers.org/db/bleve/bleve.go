@@ -83,8 +83,17 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	} else {
 		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(req.Query), "title"))
 		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(req.Query), "abstract"))
-		for _, word := range strings.Fields(req.Query) {
-			keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(word))
+		for idx, word := range strings.Fields(req.Query) {
+			// heuristic. magic number 3.
+			if 3 < len(word) {
+				keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(word))
+			} else {
+				keywordQuery = append(keywordQuery, bleve.NewMatchQuery(word))
+			}
+			if 0 < idx {
+				// qs := fmt.Sprintf("/%v.*/", word)
+				keywordQuery = append(keywordQuery, bleve.NewPrefixQuery(word))
+			}
 		}
 	}
 	keyword := bleve.NewDisjunctionQuery(keywordQuery...)
