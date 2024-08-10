@@ -25,3 +25,4 @@ rawdata/
 
 secret/
 data_crawler/failed.json
+test.py
