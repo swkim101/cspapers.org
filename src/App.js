@@ -92,9 +92,6 @@ function App() {
 
   return (
     <div className='p-2'>
-      <pre>
-{JSON.stringify(data.map(e => e.title))}
-      </pre>
       <div className='mb-2'>
         <b>cspapers.org: computer science papers indexed </b>
         <a rel="noreferrer" target="_blank" href="https://github.com/swkim101/cspapers.org">( GitHub )</a>
