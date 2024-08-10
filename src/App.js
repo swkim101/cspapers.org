@@ -14,7 +14,7 @@ function App() {
   const [data, setData] = useState([])
   const [total, setTotal] = useState(0)
   const [duration, setDuration] = useState(0)
-  const [showConferenceFilter, setShowConferenceFilter] = useState(true)
+  const [showFilter, setShowFilter] = useState(true)
   const [yearFrom, setYearFrom] = useState(MIN_YEAR)
   const [yearTo, setYearTo] = useState(CURRENT_YEAR + 1)
   const [venue, setVenue] = useState([])
@@ -77,10 +77,17 @@ function App() {
           console.error("unknwon field ", k)
       }
     }
+    if (window.screen.width < 560) {
+      setShowFilter(false)
+    }
   }, [])
   useEffect(() => {
-    if (query === "")
+    if (query === "") {
+      setData([])
+      setDuration(0)
+      setTotal(0)
       return
+    }
     search()
   }, [query,
     yearFrom,
@@ -101,7 +108,11 @@ function App() {
         <input type="submit" value="search" />
         <span className='text-gray-400'> - {total} resulsts ({duration / 1000} seconds) </span>
       </form>
-      <div className='mb-2'>
+      <div
+        onClick={() => setShowFilter(!showFilter)}
+        className={`pointer underline mb-2 ${!showFilter || "none-560"}`}
+      >{showFilter ? "Hide" : "Show"} filters</div>
+      <div className={`mb-2 ${showFilter || "none"}`}>
         <span>From </span>
         <select value={yearFrom} onChange={e => setYearFrom(e.target.value)}>
           {
@@ -130,14 +141,12 @@ function App() {
         <span>]</span>
       </div>
       <div className='flex flex-column-560'>
-        <div className={showConferenceFilter && 'w--280 w-100-560'} >
+        <div className={showFilter && 'w--280 w-100-560'} >
           {
             data.map((e, idx) => <Paper key={`${e.title}-${e.score}-${idx}`} {...e} />)
           }
         </div>
-        {showConferenceFilter || <div onClick={() => setShowConferenceFilter(true)} className='pointer underline mb-2'>Show conferences</div>}
-        <div className={showConferenceFilter ? 'w-280' : 'none'}>
-          <div onClick={() => setShowConferenceFilter(false)} className='pointer underline mb-2 none-560'>Hide conferences</div>
+        <div className={showFilter ? 'w-280' : 'none'}>
           <ConferenceTree onChange={e => setVenue(e)}/>
           <hr />
         </div>
