@@ -49,7 +49,6 @@ const regularUrls = [
   ["conf/icml/icml", "icml"],
   ["conf/aaai/aaai", "aaai"],
   ["conf/ijcai/ijcai", "ijcai"],
-  ["conf/emnlp/emnlp", "emnlp"],
   ["conf/sigir/sigir", "sigir"],
   ["conf/cvpr/cvpr", "cvpr"],  
 ]
@@ -69,6 +68,19 @@ const regulars = regularUrls.map(([url, name]) =>
  * @type {[ Venue ]}
  */
 const irregulars = [
+  ...seq(2018, 2024)
+  .fillter(year => ![2019, 2020, 2021].includes())
+  .map(year => ({
+    name: "emnlp",
+    year,
+    url: `https://dblp.org/db/conf/emnlp/emnlp${year}.html`
+  })),
+  ...seq(2019, 2022)
+  .map(year => ({
+    name: "emnlp",
+    year,
+    url: `https://dblp.org/db/conf/emnlp/emnlp${year}.html`
+  })),
   ...seq(2020, 2024)
   .map(year => ({
     name: "neurips",
@@ -205,6 +217,6 @@ const irregulars = [
 ]
 
 module.exports = [
-  ...regulars,
   ...irregulars,
+  ...regulars,
 ]

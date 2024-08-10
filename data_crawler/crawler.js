@@ -198,7 +198,7 @@ const stat = {
     console.log(`${stat.currentVenue} dblpQ.len ${dblpQ.length} scholarQ.len ${semanticsScolarQ.length} Ok ${perSec(stat.semantic200Cnt)}/s saved ${stat.saved} (${perSec(stat.saved)}/s) notSaved ${stat.notSaved} (${perSec(stat.notSaved)}/s) stat.failed ${stat.failed.length} requeue ${stat.reqCnt} (${perSec(stat.reqCnt)}/s) titleMismtachCnt ${stat.titleMismtachCnt} (${perSec(stat.titleMismtachCnt)}/s) noabs ${stat.noAbstractCnt} (${perSec(stat.noAbstractCnt)})`)
   }
   
-  while (198 < dblpQ.length) {
+  while (181 < dblpQ.length) {
     dblpQ.pop()
   }
 
@@ -273,7 +273,7 @@ const stat = {
     const [paper, statusCode] = await crawlDoi(doi)
     switch (statusCode) {
     case 200:
-      if ((!paper.abstract || 3 < levenshtein(paper.title, title)) && isDoi(doi)) {
+      if ((!paper.abstract || 10 < levenshtein(paper.title, title)) && isDoi(doi)) {
         /* semantic scholar found paper by DOI, however, suspect that the
         content might be wrong for some reasons. Retry with a title */
         stat.reqCnt += 1
