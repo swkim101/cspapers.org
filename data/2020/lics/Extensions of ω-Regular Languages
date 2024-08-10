@@ -1,0 +1,1 @@
+We consider extensions of monadic second-order logic over ω-words, which are obtained by adding one language that is not ω-regular. We show that if the added language L has a neutral letter, then the resulting logic is necessarily undecidable. A corollary is that the ω-regular languages are the only decidable Boolean-closed full trio over ω-words.

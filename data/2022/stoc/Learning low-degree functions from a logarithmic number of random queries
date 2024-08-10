@@ -1,0 +1,1 @@
+We prove that every bounded function f:{−1,1}n→[−1,1] of degree at most d can be learned with L2-accuracy ε and confidence 1−δ from log(n/δ) ε−d−1 Cd3/2√logd random queries, where C>1 is a universal finite constant.

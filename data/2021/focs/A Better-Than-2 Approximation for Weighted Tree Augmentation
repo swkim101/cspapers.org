@@ -1,0 +1,1 @@
+We present an approximation algorithm for Weighted Tree Augmentation with approximation factor 1 + $\ln 2+\varepsilon < 1.7$. This is the first algorithm beating the longstanding factor of 2, which can be achieved through many standard techniques. −

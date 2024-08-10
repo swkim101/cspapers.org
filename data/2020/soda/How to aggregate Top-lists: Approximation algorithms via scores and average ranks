@@ -1,0 +1,7 @@
+A top-list is a possibly incomplete ranking of elements: only a subset of the elements are ranked, with all unranked elements tied for last. Top-list aggregation, a generalization of the well-known rank aggregation problem, takes as input a collection of top-lists and aggregates them into a single complete ranking, aiming to minimize the number of upsets (pairs ranked in opposite order in the input and in the output). In this paper, we give simple approximation algorithms for top-list aggregation. 
+* We generalize the footrule algorithm for rank aggregation. 
+* Using inspiration from approval voting, we define the score of an element as the frequency with which it is ranked, i.e. appears in an input top-list. We reinterpret Ailon's RepeatChoice algorithm for top-list aggregation using the score of an element and its average rank given that it is ranked. 
+* Using average ranks, we generalize and analyze Borda's algorithm for rank aggregation. 
+* We design a simple 2-phase variant of the Generalized Borda's algorithm, roughly sorting by scores and breaking ties by average ranks. 
+* We then design another 2-phase variant in which in order to break ties we use, as a black box, the Mathieu-Schudy PTAS for rank aggregation, yielding a PTAS for top-list aggregation. 
+* Finally, we discuss the special case in which all input lists have constant length.

@@ -1,0 +1,2 @@
+In this paper, we study a general semi-random version of the planted independent set problem in a model initially proposed by Feige and Kilian, which has a large proportion of adversarial edges. 
+We give a new deterministic algorithm that finds a list of independent sets, one of which, with high probability, is the planted one, provided that the planted set has size $k=\Omega(n^{2/3})$. This improves on Feige and Kilian's original randomized algorithm, which with high probability recovers an independent set of size at least $k$ when $k=\alpha n$ where $\alpha$ is a constant.

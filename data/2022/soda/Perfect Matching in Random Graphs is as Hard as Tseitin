@@ -1,0 +1,11 @@
+We study the complexity of proving that a sparse random regular graph on an
+odd number of vertices does not have a perfect matching, and related problems
+involving each vertex being matched some pre-specified number of times. We show
+that this requires proofs of degree $\Omega(n / \log n)$ in the Polynomial
+Calculus (over fields of characteristic $\ne 2$) and Sum-of-Squares proof
+systems, and exponential size in the bounded-depth Frege proof system. This
+resolves a question by Razborov asking whether the Lov\'asz-Schrijver proof
+system requires $n^\delta$ rounds to refute these formulas for some $\delta >
+0$. The results are obtained by a worst-case to average-case reduction of these
+formulas relying on a topological embedding theorem which may be of independent
+interest.

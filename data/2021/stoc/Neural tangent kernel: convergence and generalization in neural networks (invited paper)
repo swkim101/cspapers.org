@@ -1,0 +1,1 @@
+The Neural Tangent Kernel is a new way to understand the gradient descent in deep neural networks, connecting them with kernel methods. In this talk, I'll introduce this formalism and give a number of results on the Neural Tangent Kernel and explain how they give us insight into the dynamics of neural networks during training and into their generalization features.

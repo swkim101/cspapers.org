@@ -1,0 +1,4 @@
+We develop a new algorithmic technique that allows to transfer some constant time approximation algorithms for general graphs into random order streaming algorithms. We illustrate our technique by proving that in random order streams with probability at least $2/3$, 
+$\bullet$ the number of connected components of $G$ can be approximated up to an additive error of $\varepsilon n$ using $(\frac{1}{\varepsilon})^{O(1/\varepsilon^3)}$ space, 
+$\bullet$ the weight of a minimum spanning tree of a connected input graph with integer edges weights from $\{1,\dots,W\}$ can be approximated within a multiplicative factor of $1+\varepsilon$ using $\big(\frac{1}{\varepsilon}\big)^{\tilde O(W^3/\varepsilon^3)}$ space, 
+$\bullet$ the size of a maximum independent set in planar graphs can be approximated within a multiplicative factor of $1+\varepsilon$ using space $2^{(1/\varepsilon)^{(1/\varepsilon)^{\log^{O(1)} (1/\varepsilon)}}}$.
