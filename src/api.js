@@ -15,6 +15,7 @@ import { ABSTRACT_URL, API_HOST } from "./const";
  * @typedef {{
  *   total: number,
  *   skip:  number,
+ *   duration:  number, // msec, spent on searching
  *   take:  number,
  *   data:  [SearchResponseUnit],
  * }} SearchResponse

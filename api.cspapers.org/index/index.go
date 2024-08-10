@@ -32,15 +32,15 @@ func runIndex(cfg *indexConfig) {
 	if err != nil {
 		panic(err)
 	}
+	defer cfg.dbimpl.Dtor()
 	root := cfg.Target
 
 	filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
 		if d.IsDir() {
+			log.Debugf("add %v", path)
 			return nil
 		}
-		log.Debugf("add %v", path)
 		index := strings.TrimPrefix(path, cfg.Target+string(os.PathSeparator))
-		log.Debugf("trim %v", index)
 		year, venue, title, err := types.Decompose(types.Index(index))
 		if err != nil {
 			log.Printf("parse error %v %v %v", year, err, path)
@@ -60,7 +60,6 @@ func runIndex(cfg *indexConfig) {
 			},
 			Abstract: string(blob),
 		})
-
 		return nil
 	})
 }

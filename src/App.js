@@ -13,6 +13,7 @@ function App() {
    */
   const [data, setData] = useState([])
   const [total, setTotal] = useState(0)
+  const [duration, setDuration] = useState(0)
   const [showConferenceFilter, setShowConferenceFilter] = useState(true)
   const [yearFrom, setYearFrom] = useState(MIN_YEAR)
   const [yearTo, setYearTo] = useState(CURRENT_YEAR + 1)
@@ -42,6 +43,7 @@ function App() {
     if (!err) {
       setData(res.data || [])
       setTotal(res.total)
+      setDuration(res.duration)
       window.location.hash = new URLSearchParams(req).toString()
     }
   }
@@ -90,6 +92,9 @@ function App() {
 
   return (
     <div className='p-2'>
+      <pre>
+{JSON.stringify(data.map(e => e.title))}
+      </pre>
       <div className='mb-2'>
         <b>cspapers.org: computer science papers indexed </b>
         <a rel="noreferrer" target="_blank" href="https://github.com/swkim101/cspapers.org">( GitHub )</a>
@@ -97,7 +102,7 @@ function App() {
       <form onSubmit={e => submit(e)}>
         <input autoFocus value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
         <input type="submit" value="search" />
-        <span> - {total} resulsts </span>
+        <span className='text-gray-400'> - {total} resulsts ({duration / 1000} seconds) </span>
       </form>
       <div className='mb-2'>
         <span>From </span>

@@ -22,10 +22,11 @@ type Paper struct {
 }
 
 type SearchResponse struct {
-	Total int                   `json:"total"`
-	Skip  uint32                `json:"skip"`
-	Take  uint32                `json:"take"`
-	Data  []*SearchResponseUnit `json:"data"`
+	Total    int                   `json:"total"`
+	Duration int                   `json:"duration"`
+	Skip     uint32                `json:"skip"`
+	Take     uint32                `json:"take"`
+	Data     []*SearchResponseUnit `json:"data"`
 }
 
 type SearchResponseUnit struct {

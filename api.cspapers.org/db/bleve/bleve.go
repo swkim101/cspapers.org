@@ -14,12 +14,14 @@ import (
 )
 
 func init() {
-	dbimpl.Register("bleve", ctor, search, insert)
+	dbimpl.Register("bleve", ctor, dtor, search, insert)
 }
 
 var (
 	index     bleve.Index
 	flagDebug bool
+	reqChan   chan *types.InsertRequest
+	batchDone chan bool
 )
 
 func ctor(connStr string, debug bool) (err error) {
@@ -51,7 +53,16 @@ func ctor(connStr string, debug bool) (err error) {
 			log.Debugf("%v", string(b))
 		}
 	}
+	reqChan = make(chan *types.InsertRequest)
+	batchDone = make(chan bool)
+	go batchInsert()
 	return err
+}
+
+func dtor() error {
+	close(reqChan)
+	<-batchDone
+	return nil
 }
 
 func search(req *types.SearchRequest) *types.SearchResponse {
@@ -81,19 +92,21 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 		qs := fmt.Sprintf("/.*%v.*/", req.Query)
 		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
 	} else {
-		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(req.Query), "title"))
-		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(strings.Fields(req.Query), "abstract"))
-		for idx, word := range strings.Fields(req.Query) {
+		words := strings.Fields(req.Query)
+		lastWord := words[len(words)-1]
+		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(words, "title"))
+		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(words, "abstract"))
+		for _, word := range words {
 			// heuristic. magic number 3.
 			if 3 < len(word) {
 				keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(word))
 			} else {
 				keywordQuery = append(keywordQuery, bleve.NewMatchQuery(word))
 			}
-			if 0 < idx {
-				// qs := fmt.Sprintf("/%v.*/", word)
-				keywordQuery = append(keywordQuery, bleve.NewPrefixQuery(word))
-			}
+		}
+		if 2 < len(lastWord) {
+			// qs := fmt.Sprintf("/%v.*/", word)
+			keywordQuery = append(keywordQuery, bleve.NewPrefixQuery(lastWord))
 		}
 	}
 	keyword := bleve.NewDisjunctionQuery(keywordQuery...)
@@ -141,14 +154,41 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	}
 
 	return &types.SearchResponse{
-		Total: int(searchResults.Total),
-		Data:  data,
+		Total:    int(searchResults.Total),
+		Duration: int(searchResults.Took.Milliseconds()),
+		Data:     data,
+	}
+}
+
+func batchInsert() {
+	batch := index.NewBatch()
+	batchSize := 10000
+
+	for i := 0; true; i++ {
+		req, more := <-reqChan
+		if more {
+			idx := req.ToIndex()
+			batch.Index(idx, req)
+		}
+		if i == batchSize || !more {
+			log.Debugf("spool batch len %v", i)
+			err := index.Batch(batch)
+			if err != nil {
+				log.Fatalf("%v", err)
+			}
+			i = 0
+			batch.Reset()
+		}
+		if !more {
+			batchDone <- true
+		}
 	}
 }
 
 func insert(req *types.InsertRequest) error {
-	idx := req.ToIndex()
-	return index.Index(idx, req)
+	reqChan <- req
+	return nil
+	// return index.Index(idx, req)
 }
 
 func isWord(s string) bool {

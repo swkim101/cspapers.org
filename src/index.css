@@ -7,6 +7,10 @@ body {
   font-size: 14px;
 }
 
+.text-gray-400 {
+  color: rgb(156 163 175);
+}
+
 .inline-flex {
   display: inline-flex;
 }
