@@ -135,7 +135,7 @@ function App() {
       <div className='flex flex-column-560'>
         <div className={showConferenceFilter && 'w--280 w-100-560'} >
           {
-            data.map(e => <Paper key={e.title} {...e} />)
+            data.map((e, idx) => <Paper key={`${e.title}-${e.score}-${idx}`} {...e} />)
           }
         </div>
         {showConferenceFilter || <div onClick={() => setShowConferenceFilter(true)} className='pointer underline mb-2'>Show conferences</div>}
