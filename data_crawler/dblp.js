@@ -20,6 +20,19 @@ const notN = (n, i) => n !== i
  * @type {[ [string, string ]]} - dblp url, conference name
  */
 const regularUrls = [
+  ["conf/iclr/iclr", "iclr"],
+  ["conf/icml/icml", "icml"],
+  ["conf/aaai/aaai", "aaai"],
+  ["conf/ijcai/ijcai", "ijcai"],
+  ["conf/sigir/sigir", "sigir"],
+  ["conf/cvpr/cvpr", "cvpr"],
+  ["conf/chi/chi", "chi"],
+  ["conf/uist/uist", "uist"],
+  ["conf/sigecom/sigecom", "ec"],
+  ["conf/wine/wine", "wine"],
+  ["conf/rss/rss", "rss"],
+  ["conf/icra/icra", "icra"],
+  ["conf/iros/iros", "iros"],
   ["conf/sp/sp", "sp"],
   ["conf/ndss/ndss", "ndss"],
   ["conf/ccs/ccs", "ccs"],
@@ -38,19 +51,6 @@ const regularUrls = [
   ["conf/soda/soda", "soda"],
   ["conf/stoc/stoc", "stoc"],
   ["conf/lics/lics", "lics"],
-  ["conf/chi/chi", "chi"],
-  ["conf/uist/uist", "uist"],
-  ["conf/sigecom/sigecom", "ec"],
-  ["conf/wine/wine", "wine"],
-  ["conf/rss/rss", "rss"],
-  ["conf/icra/icra", "icra"],
-  ["conf/iros/iros", "iros"],
-  ["conf/iclr/iclr", "iclr"],
-  ["conf/icml/icml", "icml"],
-  ["conf/aaai/aaai", "aaai"],
-  ["conf/ijcai/ijcai", "ijcai"],
-  ["conf/sigir/sigir", "sigir"],
-  ["conf/cvpr/cvpr", "cvpr"],  
 ]
 
 /**
@@ -69,7 +69,7 @@ const regulars = regularUrls.map(([url, name]) =>
  */
 const irregulars = [
   ...seq(2018, 2024)
-  .fillter(year => ![2019, 2020, 2021].includes())
+  .filter(year => ![2019, 2020, 2021].includes())
   .map(year => ({
     name: "emnlp",
     year,

@@ -71,7 +71,7 @@ const crawlDblp = async (url) => {
  */
 const crawlDoi = async (paperid) => {
   const endp = `https://api.semanticscholar.org/graph/v1/paper/${paperid}?fields=title,abstract`
-  const res = await fetch(endp, { headers })
+  const res = await fetch(endp, { headers, signal: AbortSignal.timeout(20_000) })
   if (!res.ok) {
     return [{}, res.status]
   }
@@ -93,7 +93,7 @@ const crawlDoi = async (paperid) => {
 const crawlIdByTitle = async (title) => {
   const endp = `https://api.semanticscholar.org/graph/v1/paper/search?query=${title}&limit=1`
   try {
-    const res = await fetch(endp, { headers })
+    const res = await fetch(endp, { headers, signal: AbortSignal.timeout(20_000) })
     if (!res.ok) {
       return [null, res.status]
     }
@@ -134,9 +134,9 @@ const exists = (path) => fsSync.existsSync(path)
  * @param {string} venue 
  * @param {string} title 
  * @param {string} abstract 
- * @returns {Promise<void>}
+ * @returns {void}
  */
-const save = async (year, venue, title, abstract) => {
+const save = (year, venue, title, abstract) => {
   // const fs = {
   //   mkdir: console.log,
   //   writeFile: console.log,
@@ -150,12 +150,9 @@ const save = async (year, venue, title, abstract) => {
   }
   try {
     const filepath = toFilePath(year, venue, title)
-    let err = await fs.mkdir(`data/${year}/${venue}`, { recursive: true })
-    if (err !== undefined) { throw err }
-
+    fsSync.mkdirSync(`data/${year}/${venue}`, { recursive: true })
     if (!exists(filepath) || (isEmpty(filepath) && abstract !== "")) {
-      err = await fs.writeFile(filepath, abstract)
-      if (err !== undefined) { throw err }
+      fsSync.writeFileSync(filepath, abstract)
       stat.saved += 1
     } else {
       stat.notSaved += 1
@@ -198,7 +195,7 @@ const stat = {
     console.log(`${stat.currentVenue} dblpQ.len ${dblpQ.length} scholarQ.len ${semanticsScolarQ.length} Ok ${perSec(stat.semantic200Cnt)}/s saved ${stat.saved} (${perSec(stat.saved)}/s) notSaved ${stat.notSaved} (${perSec(stat.notSaved)}/s) stat.failed ${stat.failed.length} requeue ${stat.reqCnt} (${perSec(stat.reqCnt)}/s) titleMismtachCnt ${stat.titleMismtachCnt} (${perSec(stat.titleMismtachCnt)}/s) noabs ${stat.noAbstractCnt} (${perSec(stat.noAbstractCnt)})`)
   }
   
-  while (181 < dblpQ.length) {
+  while (293 < dblpQ.length) {
     dblpQ.pop()
   }
 
@@ -245,7 +242,7 @@ const stat = {
       case 200:
         if (id === null) {
           // we can't get abstract
-          await save(year, name, title, "")
+          save(year, name, title, "")
           return
         } else {
           stat.reqCnt += 1
@@ -315,7 +312,7 @@ const stat = {
         fsSync.renameSync(filepath, newFilePath)
       }
     }
-    await save(year, name, title, paper.abstract || "")
+    save(year, name, title, paper.abstract || "")
   }
 
   const dblpWorker = setInterval(runDblp, 3000);
