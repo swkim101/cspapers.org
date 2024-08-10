@@ -2,6 +2,7 @@ const dblp = require('./dblp');
 const fs = require('fs/promises')
 const fsSync = require('fs')
 const jsdom = require("jsdom");
+const levenshtein = require('js-levenshtein');
 const { JSDOM } = jsdom;
 
 const pick = (n = 0, arr = []) => arr.filter((_, i) => i < n)
@@ -17,7 +18,8 @@ const headers = {
   'x-api-key': KEY
 }
 
-const isDoi = (str = "") => str.startsWith("https://doi.org/")
+const isDoiUrl = (str = "") => str.startsWith("https://doi.org/")
+const isDoi = (str = "") => /^10\.\d{4,9}\/[-._;()/:A-Z0-9]+$/i.test(str)
 const urlToDoi = (url = "") => url.replace("https://doi.org/", "")
 
 /**
@@ -49,7 +51,7 @@ const crawlDblp = async (url) => {
       continue
     }
     const doiurl = unit.querySelector(DOI)?.getAttribute("href") || ""
-    const doi = isDoi(doiurl) ? urlToDoi(doiurl) : ""
+    const doi = isDoiUrl(doiurl) ? urlToDoi(doiurl) : ""
 
     const newTitle = title.replace(/\.$/, "")
 
@@ -90,19 +92,23 @@ const crawlDoi = async (paperid) => {
  */
 const crawlIdByTitle = async (title) => {
   const endp = `https://api.semanticscholar.org/graph/v1/paper/search?query=${title}&limit=1`
-  const res = await fetch(endp, { headers })
-  if (!res.ok) {
-    return [{}, res.status]
-  }
-  if (res.status === 200) {
-    stat.semantic200Cnt += 1
-  }
-  const json = await res.json()
-  if (json.total === 0) {
-    return [null, res.status]
-  }
+  try {
+    const res = await fetch(endp, { headers })
+    if (!res.ok) {
+      return [null, res.status]
+    }
+    if (res.status === 200) {
+      stat.semantic200Cnt += 1
+    }
+    const json = await res.json()
+    if (json.total === 0) {
+      return [null, res.status]
+    }
 
-  return [json.data[0].paperId, res.status]
+    return [json.data[0].paperId, res.status]
+  } catch(e) {
+    return [null, 408]
+  }
 }
 
 /**
@@ -153,8 +159,10 @@ const save = async (year, venue, title, abstract) => {
       stat.saved += 1
     } else {
       stat.notSaved += 1
+      stat.failed.push({ title, doi: "", error: "no abstract found"})
     }
   } catch (e) {
+    console.log(new Error(`${title} ${abstract}`))
     stat.notSaved += 1
     stat.failed.push({ title, doi: "unknown", error: e.toString()})
   }
@@ -190,7 +198,7 @@ const stat = {
     console.log(`${stat.currentVenue} dblpQ.len ${dblpQ.length} scholarQ.len ${semanticsScolarQ.length} Ok ${perSec(stat.semantic200Cnt)}/s saved ${stat.saved} (${perSec(stat.saved)}/s) notSaved ${stat.notSaved} (${perSec(stat.notSaved)}/s) stat.failed ${stat.failed.length} requeue ${stat.reqCnt} (${perSec(stat.reqCnt)}/s) titleMismtachCnt ${stat.titleMismtachCnt} (${perSec(stat.titleMismtachCnt)}/s) noabs ${stat.noAbstractCnt} (${perSec(stat.noAbstractCnt)})`)
   }
   
-  while (222 < dblpQ.length) {
+  while (198 < dblpQ.length) {
     dblpQ.pop()
   }
 
@@ -202,6 +210,7 @@ const stat = {
     // confernce := <- dblpQ
     if (dblpQ.length === 0) { return; }
     const conference = dblpQ.pop()
+    console.log(conference)
     stat.currentVenue = `${conference.year}/${conference.name}`
 
     const [papers, errs] = await crawlDblp(conference.url)
@@ -232,28 +241,29 @@ const stat = {
     // get semantic scholar ID and re-queue
     if (!doi) {
       const [id, statusCode] = await crawlIdByTitle(title)
-      if (id === null) {
-        // we have no abstract
-        await save(year, name, title, "")
-
-        return
-      }
       switch (statusCode) {
       case 200:
-        stat.reqCnt += 1
-        semanticsScolarQ = [
-          { year, name, title, doi: id },
-          ...semanticsScolarQ
-        ]
-        break;
+        if (id === null) {
+          // we can't get abstract
+          await save(year, name, title, "")
+          return
+        } else {
+          stat.reqCnt += 1
+          // give a priority
+          semanticsScolarQ = [
+            ...semanticsScolarQ,
+            { year, name, title, doi: id },
+          ]
+          return;
+        }
       case 429:
-        // too many requets. requeue
+        // too many requets. requeue w/ priority
         stat.reqCnt += 1
         semanticsScolarQ = [
-          { year, name, title, doi: id },
-          ...semanticsScolarQ
+          ...semanticsScolarQ,
+          { year, name, title, doi: null },
         ]
-        break;
+        return
       default:
         stat.failed.push({title, doi, error: `crawlIdByTitle returned ${statusCode}`})
       }
@@ -263,13 +273,23 @@ const stat = {
     const [paper, statusCode] = await crawlDoi(doi)
     switch (statusCode) {
     case 200:
+      if ((!paper.abstract || 3 < levenshtein(paper.title, title)) && isDoi(doi)) {
+        /* semantic scholar found paper by DOI, however, suspect that the
+        content might be wrong for some reasons. Retry with a title */
+        stat.reqCnt += 1
+        semanticsScolarQ = [
+          ...semanticsScolarQ,
+          { year, name, title, doi: null },
+        ]
+        return  
+      }
       break;
     case 404:
       // cannot find paper by DOI. Try semantic scholar ID
       stat.reqCnt += 1
       semanticsScolarQ = [
+        ...semanticsScolarQ,
         { year, name, title, doi: null },
-        ...semanticsScolarQ
       ]
       return
 
@@ -277,8 +297,8 @@ const stat = {
     case 429:
       stat.reqCnt += 1
       semanticsScolarQ = [
+        ...semanticsScolarQ,
         { year, name, title, doi },
-        ...semanticsScolarQ
       ]
       return
 
@@ -295,7 +315,7 @@ const stat = {
         fsSync.renameSync(filepath, newFilePath)
       }
     }
-    await save(year, name, title, "")
+    await save(year, name, title, paper.abstract || "")
   }
 
   const dblpWorker = setInterval(runDblp, 3000);

@@ -74,7 +74,7 @@ const irregulars = [
     name: "neurips",
     year,
     url: `https://dblp.org/db/conf/nips/neurips${year}.html`
-  })),,
+  })),
   ...seq(2018, 2020)
   .map(year => ({
     name: "neurips",
