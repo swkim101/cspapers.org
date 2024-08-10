@@ -36,8 +36,18 @@ import { ABSTRACT_URL, API_HOST } from "./const";
  * @param {SearchRequest} req 
  * @returns {[SearchResponse, Error | null ]}
  */
+let lastlyCalledAt = 0;
+/*
+App() can invoke multiple fetch() in parallel, however,
+is interestd the latest search() result. 
+So, search() shares and update the timestamp of latest call.
+Using this, search() returns only if the latest call timestamp
+matches with the current context's call timestamp.
+*/
 const search = async (req) => {
+  const calledAt = Date.now()
   try {
+    lastlyCalledAt = calledAt
     const res = await fetch(API_HOST + marshal(req))
     if (!res.ok) {
       throw new Error(`Response status: ${res.status}`);
@@ -46,9 +56,23 @@ const search = async (req) => {
     if (json === null) {
       throw new Error(`response data is null`);
     }
-    return [json, false]
+
+    /* mimicking atomic compare-and-swap */
+    const lastlyCalledAtAfterFetch = lastlyCalledAt
+    lastlyCalledAt = calledAt === lastlyCalledAt ? 0 : lastlyCalledAt
+    /* mimicking atomic compare-and-swap */
+
+    if (lastlyCalledAtAfterFetch === calledAt) {
+      // we are the latest call
+      return [json, false]
+    } else {
+      return [{}, new Error(`Later call exists`)]
+    }
   } catch (error) {
     console.error(error)
+    /* mimicking atomic compare-and-swap */
+    lastlyCalledAt = calledAt === lastlyCalledAt ? 0 : lastlyCalledAt
+    /* mimicking atomic compare-and-swap */
     return [{}, error]
   }
 }
