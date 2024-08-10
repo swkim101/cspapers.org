@@ -1,0 +1,2 @@
+We propose a reduction for non-convex optimization that can (1) turn an stationary-point finding algorithm into an local-minimum finding one, and (2) replace the Hessian-vector product computations with only gradient computations. It works both in the stochastic and the deterministic settings, without hurting the algorithm's performance. 
+As applications, our reduction turns Natasha2 into a first-order method without hurting its performance. It also converts SGD, GD, SCSG, and SVRG into algorithms finding approximate local minima, outperforming some best known results.
