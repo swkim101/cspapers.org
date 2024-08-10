@@ -88,7 +88,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
 	keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(req.Query))
-	if isWord(req.Query) {
+	if isWord(req.Query) && 3 < len(req.Query) {
 		qs := fmt.Sprintf("/.*%v.*/", req.Query)
 		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
 	} else {
@@ -162,7 +162,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 
 func batchInsert() {
 	batch := index.NewBatch()
-	batchSize := 10000
+	batchSize := 1000
 
 	for i := 0; true; i++ {
 		req, more := <-reqChan
