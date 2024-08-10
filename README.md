@@ -84,6 +84,7 @@ All fields are required.
 | Field    | Type    | Description  |
 | -------- | ------- | -----------  |
 | total    | Int  | total number of index matched |
+| duration    | Int  | time spent on searching in msec |
 | skip    | Int  | WIP. For pagination |
 | take    | Int  | WIP. For pagination |
 | data    | [SearchResult]  |  See below |
@@ -123,6 +124,7 @@ Poor conference filter:
 
 * Pagination
 * Add PL papers
+* distinguish terms and stop tokens, e.g., 'Controller Area Network (CAN)' and 'can (be able to)',
 * Term aliasing (e.g., uaf = use-after-free)
 
 PR is welcome
