@@ -1,0 +1,18 @@
+
+ The optimization of select-project-join (SPJ) queries entails two major challenges: (i) finding a good join order and (ii) selecting the best-fitting physical join operator for each single join within the chosen join order. Previous work mainly focuses on the computation of a good join order, but leaves open to which extent the physical join operator selection accounts for plan quality. Our analysis using different query optimizers indicates that physical join operator selection is crucial and that none of the investigated query optimizers reaches the full potential of optimal operator selections. To unlock this potential, we propose
+ TONIC
+ , a novel cardinality estimation-free extension for generic SPJ query optimizers in this paper.
+ TONIC
+ follows a
+ learning-based
+ approach and revises operator decisions for arbitrary join paths based on learned query feedback. To continuously capture and reuse optimal operator selections, we introduce a lightweight yet powerful
+ Query Execution Plan Synopsis
+ (
+ QEP-S
+ ). In comparison to related work,
+ TONIC
+ enables transparent planning decisions with consistent performance improvements. Using two real-life benchmarks, we demonstrate that extending existing optimizers with
+ TONIC
+ substantially reduces query response times with a
+ cumulative
+ speedup of up to 2.8x.

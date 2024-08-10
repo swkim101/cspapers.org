@@ -1,0 +1,25 @@
+
+ Detecting niches of polarization in social media is a first step towards deploying mitigation strategies and avoiding radicalization. In this paper, we model polarization niches as close-knit dense communities of users, which are under the influence of some well-known sources of misinformation, and isolated from authoritative information sources. Based on this intuition we define the problem of finding a subgraph that maximizes a combination of (
+ i
+ ) density, (
+ ii
+ ) proximity to a small set of nodes
+ A
+ (named
+ Attractors
+ ), and (
+ iii
+ ) distance from another small set of nodes
+ R
+ (named
+ Repulsers
+ ).
+ 
+ 
+ Deviating from the bulk of the literature on detecting polarization, we do not exploit text mining or sentiment analysis, nor we track the propagation of information: we only exploit the network structure and the background knowledge about the sets
+ A
+ and
+ R
+ , which are given as input. We build on recent algorithmic advances in supermodular maximization to provide an iterative greedy algorithm, dubbed
+ Down in the Hollow
+ (dith), that converges fast to a near-optimal solution. Thanks to a novel theoretical upper bound, we are able to equip dith with a practical device that allows to terminate as soon as a solution with a user-specified approximation factor is found, making our algorithm very efficient in practice. Our experiments on very large networks confirm that our algorithm always returns a solution with an approximation factor better or equal to the one specified by the user, and it is scalable. Our case-studies in polarized settings, confirm the usefulness of our algorithmic primitive in detecting polarization niches.

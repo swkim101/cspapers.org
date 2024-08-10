@@ -1,0 +1,20 @@
+
+ Data-driven machine learning has become ubiquitous. A marketplace for machine learning models connects data owners and model buyers, and can dramatically facilitate data-driven machine learning applications. In this paper, we take a formal data marketplace perspective and propose the first en
+ D
+ -to-end mod
+ e
+ l m
+ a
+ rketp
+ l
+ ace with diff
+ e
+ rential p
+ r
+ ivacy (
+ Dealer
+ ) towards answering the following questions:
+ How to formulate data owners' compensation functions and model buyers' price functions? How can the broker determine prices for a set of models to maximize the revenue with arbitrage-free guarantee, and train a set of models with maximum Shapley coverage given a manufacturing budget to remain competitive
+ ? For the former, we propose compensation function for each data owner based on Shapley value and privacy sensitivity, and price function for each model buyer based on Shapley coverage sensitivity and noise sensitivity. Both privacy sensitivity and noise sensitivity are measured by the level of differential privacy. For the latter, we formulate two optimization problems for model pricing and model training, and propose efficient dynamic programming algorithms. Experiment results on the real chess dataset and synthetic datasets justify the design of
+ Dealer
+ and verify the efficiency and effectiveness of the proposed algorithms.

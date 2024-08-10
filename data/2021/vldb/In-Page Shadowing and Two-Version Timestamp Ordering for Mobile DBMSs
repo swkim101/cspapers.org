@@ -1,0 +1,6 @@
+
+ Increasing the concurrency level in mobile database systems has not received much attention, mainly because the concurrency requirements of mobile workloads has been regarded to be low. Contrary to popular belief, mobile workloads require higher concurrency. In this work, we propose novel journaling and concurrency mechanisms for mobile DBMSs, both of which build upon one common concept -
+ In-Page Shadowing
+ (IPS). We design and implement a novel In-Page Shadowing recovery method for SQLite to resolve the journaling of journal anomaly, which is known to quadruple the I/O traffic in mobile devices. IPS unions the previous and the next versions of a database page in the same physical page. Using the consolidated two versions of database page, we design
+ Two-Version Timestamp-Ordering
+ (2VTO) protocol that enables non-blocking reads as in multi-version concurrency control, but reduces the garbage collection overhead. Designed with mobile environments in mind, IPS and 2VTO are high-performant and resource-efficient transactional solutions. Our performance study shows that IPS and 2VTO outperform state-of-the-art logging methods and an optimistic concurrency control protocol for real mobile workloads.

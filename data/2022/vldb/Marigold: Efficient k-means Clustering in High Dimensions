@@ -1,0 +1,10 @@
+
+ How can we efficiently and scalably cluster high-dimensional data? The
+ k
+ -means algorithm clusters data by iteratively reducing intra-cluster Euclidean distances until convergence. While it finds applications from recommendation engines to image segmentation, its application to high-dimensional data is hindered by the need to repeatedly compute Euclidean distances among points and centroids. In this paper, we propose Marigold (
+ k
+ -means for high-dimensional data), a scalable algorithm for
+ k
+ -means clustering in high dimensions. Marigold prunes distance calculations by means of (i) a tight distance-bounding scheme; (ii) a stepwise calculation over a multiresolution transform; and (iii) exploiting the triangle inequality. To our knowledge, such an arsenal of pruning techniques has not been hitherto applied to
+ k
+ -means. Our work is motivated by time-critical Angle-Resolved Photoemission Spectroscopy (ARPES) experiments, where it is vital to detect clusters among high-dimensional spectra in real time. In a thorough experimental study with real-world data sets we demonstrate that Marigold efficiently clusters high-dimensional data, achieving approximately one order of magnitude improvement over prior art.

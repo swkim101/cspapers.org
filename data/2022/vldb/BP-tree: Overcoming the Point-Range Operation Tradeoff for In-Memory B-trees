@@ -1,0 +1,19 @@
+B-trees are the go-to data structure for in-memory indexes in databases and storage systems. B-trees support both point operations (i.e., inserts and finds) and range operations (i.e., iterators and maps). However, there is an inherent tradeoff between point and range operations since the optimal node size for point operations is much smaller than the optimal node size for range operations. Existing implementations use a relatively small node size to achieve fast point operations at the cost of range operation throughput.
+ 
+ We present the
+ 
+ BP-tree
+ 
+ , a variant of the B-tree, that overcomes the decades-old point-range operation tradeoff in traditional B-trees. In the BP-tree, the leaf nodes are much larger in size than the internal nodes to support faster range scans. To avoid any slowdown in point operations due to large leaf nodes, we introduce a new insert-optimized array called the
+ 
+ buffered partitioned array
+ 
+ (BPA) to efficiently organize data in leaf nodes. The BPA supports fast insertions by delaying ordering the keys in the array. This results in much faster range operations and faster point operations at the same time in the BP-tree.
+ 
+ Our experiments show that on 48 hyperthreads, on workloads generated from the Yahoo! Cloud Serving Benchmark (YCSB), the BP-tree supports similar or faster point operation throughput (between .94×-1.2× faster) compared to Masstree and OpenBw-tree, two state-of-the-art in-memory key-value (KV) stores. On a YCSB workload with short scans, the BP-tree is about 7.4× faster than Masstree and 1.6× faster than OpenBw-tree. Furthermore, we extend the YCSB to add large range workloads, commonly found in database applications, and show that the BP-tree is 30× faster than Masstree and 2.5× faster than OpenBw-tree.
+ 
+ We also provide a reference implementation for a concurrent B
+ +
+ -tree and find that the BP-tree supports faster (between 1.03×-1.2× faster) point operations when compared to the best-case configuration for B
+ +
+ -trees for point operations while supporting similar performance (about .95× as fast) on short range operations and faster (about 1.3× faster) long range operations.

@@ -1,0 +1,18 @@
+
+ Many real-world graphs, e.g., social networks, biological networks, knowledge graphs, naturally come with edge-labels, with different labels representing different relationships between nodes. On such edge-labeled graphs, an important query is the
+ label-constrained reachability (LCR)
+ query, where we are given a source
+ s
+ , a target
+ t
+ , a label set ψ, and the goal is to check if there exists any path
+ P
+ from
+ s
+ to
+ t
+ such that labels of edges on
+ P
+ all belong to ψ. Existing indexing schemes for LCR queries still focus on static graphs, despite the fact that many edge-labeled graphs are dynamic in nature.
+ 
+ Motivated by the limitations of existing solutions, we present a study on how to effectively maintain the indexing scheme on dynamic graphs. Our proposed approach is based on the state-of-the-art 2-hop index for LCR queries. In this paper, we present efficient algorithms for updating the index structure in response to dynamic edge insertions/deletions and demonstrate the correctness of our update algorithms. Following that, we present that adopting a query-friendly but update-unfriendly indexing scheme results in surprisingly superb query/update efficiency and outperforms those update-friendly ones. We analyze and demonstrate that the query-friendly indexing scheme actually achieves the same time complexity as those of update-friendly ones. Finally, we present the batched update algorithms where the updates may include multiple edge insertions/deletions. Extensive experiments show the effectiveness of the proposed update algorithms, query-friendly indexing scheme, and batched update algorithms.

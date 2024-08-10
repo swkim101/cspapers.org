@@ -1,0 +1,42 @@
+
+ Given a set
+ V
+ , the problem of
+ unconstrained submodular maximization with modular costs (USM-MC)
+ asks for a subset
+ S
+ ⊆
+ V
+ that maximizes
+ f
+ (
+ S
+ ) -
+ c
+ (
+ S
+ ), where
+ f
+ is a non-negative, monotone, and submodular function that gauges the utility of
+ S
+ , and
+ c
+ is a non-negative and modular function that measures the cost of
+ S.
+ This problem finds applications in numerous practical scenarios, such as profit maximization in viral marketing on social media.
+ 
+ 
+ This paper presents ROI-Greedy, a polynomial time algorithm for USM-MC that returns a solution
+ S
+ satisfying [EQUATION], where
+ S
+ *
+ is the optimal solution to USM-MC. To our knowledge, ROI-Greedy is the first algorithm that provides such a strong approximation guarantee. In addition, we show that this worst-case guarantee is
+ tight
+ , in the sense that no polynomial time algorithm can ensure [EQUATION], for any ϵ > 0. Further, we devise a non-trivial extension of ROI-Greedy to solve the profit maximization problem, where the precise value of
+ f
+ (
+ S
+ ) for any set
+ S
+ is unknown and can only be approximated via sampling. Extensive experiments on benchmark datasets demonstrate that ROI-Greedy significantly outperforms competing methods in terms of the tradeoff between efficiency and solution quality.

@@ -1,0 +1,8 @@
+
+ In scientific computing and data science disciplines, it is often necessary to share application workflows and repeat results. Current tools containerize application workflows, and share the resulting container for repeating results. These tools, due to containerization, do improve sharing of results. However, they do not improve the efficiency of replay. In this paper, we present the multiversion replay problem, which arises when multiple versions of an application are containerized, and each version must be replayed to repeat results. To avoid executing each version separately, we develop
+ CHEX
+ , which checkpoints program state and determines when it is permissible to reuse program state across versions. It does so using system call-based execution lineage. Our capability to identify common computations across versions enables us to consider optimizing replay using an in-memory cache, based on a checkpoint-restore-switch system. We show the multiversion replay problem is NP-hard, and propose efficient heuristics for it.
+ CHEX
+ reduces overall replay time by sharing common computations but avoids storing a large number of checkpoints. We demonstrate that
+ CHEX
+ maintains lightweight package sharing, and improves the total time of multiversion replay by 50% on average.

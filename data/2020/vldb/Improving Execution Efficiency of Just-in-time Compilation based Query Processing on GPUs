@@ -1,0 +1,12 @@
+
+ In recent years, we have witnessed significant efforts to improve the performance of Online Analytical Processing (OLAP) on graphics processing units (GPUs). Most existing studies have focused on improving memory efficiency since memory stalls can play an essential role in query processing performance on GPUs. Motivated by the recent rise of just-in-time (JIT) compilation in query processing, we investigate whether and how we can further improve query processing performance on GPU. Specifically, we study the execution of state-of-the-art JIT compile-based query processing systems. We find that thanks to advanced techniques such as database compression and JIT compilation, memory stalls are
+ no longer
+ the most significant bottleneck. Instead, current JIT compile-based query processing encounters
+ severe under-utilization of GPU hardware
+ due to divergent execution and degraded parallelism arising from resource contention. To address these issues, we propose a JIT compile-based query engine named
+ Pyper
+ to improve GPU utilization during query execution. Specifically, Pyper has two new operators,
+ Shuffle
+ and
+ Segment
+ , for query plan transformation, which can be plugged into a physical query plan in order to reduce divergent execution and resolve resource contention, respectively. To determine the insertion points for these two operators, we present an analytical model that helps insert Shuffle and Segment operators into a query plan in a cost-based manner. Our experiments show that 1) the analytical analysis of divergent execution and resource contention helps to improve the accuracy of the cost model, 2) Pyper significantly outperforms other GPU query engines on TPC-H and SSB queries.

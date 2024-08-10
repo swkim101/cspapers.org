@@ -1,0 +1,9 @@
+
+ A fundamental building block in any graph algorithm is a
+ graph container -
+ - a data structure used to represent the graph. Ideally, a graph container enables efficient access to the underlying graph, has low space usage, and supports updating the graph efficiently. In this paper, we conduct an extensive empirical evaluation of graph containers designed to support running algorithms on large graphs. To our knowledge, this is the first
+ apples-to-apples
+ comparison of graph containers rather than overall systems, which include confounding factors such as differences in algorithm implementations and infrastructure.
+ 
+ We measure the running time of 10 highly-optimized algorithms across over 20 different containers and 10 graphs. Somewhat surprisingly, we find that the average algorithm running time does not differ much across containers, especially those that support dynamic updates. Specifically, a simple container based on an off-the-shelf B-tree is only 1.22× slower on average than a highly optimized static one. Moreover, we observe that simplifying a graph-container Application Programming Interface (API) to only a few simple functions incurs a mere 1.16× slowdown compared to a complete API. Finally, we also measure batch-insert throughput in dynamic-graph containers for a full picture of their performance.
+ To perform the benchmarks, we introduce BYO, a unified framework that standardizes evaluations of graph-algorithm performance across different graph containers. BYO extends the Graph Based Benchmark Suite (Dhulipala et al. 18), a state-of-the-art graph algorithm benchmark, to easily plug into different dynamic graph containers and enable fair comparisons between them on a large suite of graph algorithms. While several graph algorithm benchmarks have been developed to date, to the best of our knowledge, BYO is the first system designed to benchmark graph containers.

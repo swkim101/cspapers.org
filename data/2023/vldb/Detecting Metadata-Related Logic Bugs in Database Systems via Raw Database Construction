@@ -1,0 +1,16 @@
+
+ Database Management Systems (DBMSs) are widely used to efficiently store and retrieve data. DBMSs usually support various metadata, e.g., integrity constraints for ensuring data integrity and indexes for locating data. DBMSs can further utilize these metadata to optimize query evaluation. However, incorrect metadata-related optimizations can introduce metadata-related logic bugs, which can cause a DBMS to return an incorrect query result for a given query. In this paper, we propose a general and effective testing approach,
+ Raw database construction
+ (Radar), to detect metadata-related logic bugs in DBMSs. Given a database
+ db
+ containing some metadata, Radar first constructs a raw database
+ rawDb
+ , which wipes out the metadata in
+ db
+ and contains the same data as
+ db.
+ Since
+ db
+ and
+ rawDb
+ have the same data, they should return the same query result for a given query. Any inconsistency in their returned query results indicates a metadata-related logic bug. To effectively detect metadata-related logic bugs, we further propose a metadata-oriented testing optimization strategy to focus on testing previously unseen metadata, thus detecting more metadata-related logic bugs quickly. We implement and evaluate Radar on five widely-used DBMSs, and have detected 42 bugs, of which 38 have been confirmed as new bugs and 16 have been fixed by DBMS developers.

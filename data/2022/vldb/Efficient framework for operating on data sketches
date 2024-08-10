@@ -1,0 +1,13 @@
+We study the problem of analyzing massive data streams based on concise data sketches. Recently, a number of papers have investigated how to estimate the results of set-theory operations based on sketches. In this paper we present a framework that allows to estimate the result of any sequence of set-theory operations.
+ 
+ The starting point for our solution is the solution from 2021. Compared to this solution, the newly presented sketching algorithm is much more computationally efficient as it requires on average
+ O
+ (log
+ n
+ ) rather than
+ O
+ (
+ n
+ ) comparisons for
+ n
+ stream elements. We also show that the estimator dedicated to sketches proposed in that reference solution is, in fact, a maximum likelihood estimator.

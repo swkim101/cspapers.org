@@ -1,0 +1,12 @@
+
+ Natural language to SQL (NL2SQL) techniques provide a convenient interface to access databases, especially for non-expert users, to conduct various data analytics. Existing methods often employ either a rule-base approach or a deep learning based solution. The former is hard to generalize across different domains. Though the latter generalizes well, it often results in queries with syntactic or semantic errors, thus may be even not executable. In this work, we bridge the gap between the two and design a new framework to significantly improve both accuracy and runtime. In particular, we develop a novel
+ CatSQL
+ sketch, which constructs a template with slots that initially serve as placeholders, and tightly integrates with a deep learning model to fill in these slots with meaningful contents based on the database schema. Compared with the widely used sequence-to-sequence-based approaches, our sketch-based method does not need to generate keywords which are boilerplates in the template, and can achieve better accuracy and run much faster. Compared with the existing sketch-based approaches, our
+ CatSQL
+ sketch is more general and versatile, and can leverage the values already filled in on certain slots to derive the rest ones for improved performance. In addition, we propose the
+ Semantics Correction
+ technique, which is the first that leverages database domain knowledge in a deep learning based NL2SQL solution.
+ Semantics Correction
+ is a post-processing routine, which checks the initially generated SQL queries by applying rules to identify and correct semantic errors. This technique significantly improves the NL2SQL accuracy. We conduct extensive evaluations on both single-domain and cross-domain benchmarks and demonstrate that our approach significantly outperforms the previous ones in terms of both accuracy and throughput. In particular, on the state-of-the-art NL2SQL benchmark Spider, our
+ CatSQL
+ prototype outperforms the best of the previous solutions by 4 points on accuracy, while still achieving a throughput up to 63 times higher.

@@ -1,0 +1,17 @@
+Stream processing is widely used for real-time data processing and decision-making, leading to tens of thousands of streaming jobs deployed in ByteDance cloud. Since those streaming jobs usually run for several days or longer and the input workloads vary over time, they usually face diverse runtime issues such as processing lag and varying failures. This requires runtime management to resolve such runtime issues automatically. However, designing a runtime management service on the ByteDance scale is challenging. In particular, the service has to concurrently manage cluster-wide streaming jobs in a scalable and extensible manner. Furthermore, it should also be able to manage diverse streaming jobs effectively.
+ 
+ To this end, we propose
+ StreamOps
+ to enable cloud-native runtime management for streaming jobs in ByteDance.
+ StreamOps
+ has three main designs to address the challenges. 1) To allow for scalability,
+ StreamOps
+ is running as a standalone lightweight control plane to manage cluster-wide streaming jobs. 2) To enable extensible runtime management,
+ StreamOps
+ abstracts control policies to identify and resolve runtime issues. New control policies can be implemented with a detect-diagnose-resolve programming paradigm. Each control policy is also configurable for different streaming jobs according to the performance requirements. 3) To mitigate processing lag and handling failures effectively,
+ StreamOps
+ features three control policies, i.e., auto-scaler, straggler detector, and job doctor, that are inspired by state-of-the-art research and production experiences at ByteDance. In this paper, we introduce the design decisions we made and the experiences we learned from building
+ StreamOps.
+ We evaluate
+ StreamOps
+ in our production environment, and the experiment results have further validated our system design.

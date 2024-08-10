@@ -1,0 +1,10 @@
+
+ There has been a recent effort in applying differential privacy on memory access patterns to enhance data privacy. This is called differential obliviousness. Differential obliviousness is a promising direction because it provides a principled trade-off between performance and desired level of privacy. To date, it is still an open question whether differential obliviousness can speed up database processing with respect to full obliviousness. In this paper, we present the design and implementation of
+ Adore: A
+ set of
+ D
+ ifferentially
+ O
+ blivious
+ RE
+ lational database operators. Adore includes selection with projection, grouping with aggregation, and foreign key join. We prove that they satisfy the notion of differential obliviousness. Our differentially oblivious operators have reduced cache complexity, runtime complexity, and output size compared to their state-of-the-art fully oblivious counterparts. We also demonstrate that our implementation of these differentially oblivious operators can outperform their state-of-the-art fully oblivious counterparts by up to 7.4X.

@@ -1,0 +1,12 @@
+
+ With the proliferation of mobile devices and location-based services, increasingly massive volumes of geo-tagged data are becoming available. This data typically also contains non-location information. We study how to use such information to characterize a region and then how to find a region of the same size and with the most similar characteristics. This functionality enables a user to identify regions that share characteristics with a user-supplied region that the user is familiar with and likes. More specifically, we formalize and study a new problem called the attribute-aware similar region search (
+ ASRS
+ ) problem. We first define so-called composite aggregators that are able to express aspects of interest in terms of the information associated with a user-supplied region. When applied to a region, an aggregator captures the region's relevant characteristics. Next, given a query region and a composite aggregator, we propose a novel algorithm called
+ DS-Search
+ to find the most similar region of the same size. Unlike any previous work on region search,
+ DS-Search
+ repeatedly discretizes and splits regions until an split region either satisfies a drop condition or it is guaranteed to not contribute to the result. In addition, we extend
+ DS-Search
+ to solve the
+ ASRS
+ problem approximately. Finally, we report on extensive empirical studies that offer insight into the efficiency and effectiveness of the paper's proposals.

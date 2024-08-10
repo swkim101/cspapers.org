@@ -1,0 +1,6 @@
+
+ In this paper, we study anomalous trajectory detection, which aims to extract abnormal movements of vehicles on the roads. This important problem, which facilitates understanding of traffic behavior and detection of taxi fraud, is challenging due to the varying traffic conditions at different times and locations. To tackle this problem, we propose the
+ deep
+ -probabilistic-based time-dependent anomaly detection algorithm (
+ DeepTEA
+ ). This method, which employs deep-learning methods to obtain time-dependent outliners from a huge volume of trajectories, can handle complex traffic conditions and detect outliners accurately. We further develop a fast and approximation version of DeepTEA, in order to capture abnormal behaviors in real-time. Compared with state-of-the-art solutions, our method is 17.52% more accurate than seven competitors on average, and can handle millions of trajectories.

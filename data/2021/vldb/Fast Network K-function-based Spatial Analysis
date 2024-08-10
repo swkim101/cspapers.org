@@ -1,0 +1,16 @@
+
+ Network
+ K
+ -function has been the de facto operation for analyzing point patterns in spatial networks, which is widely used in many communities, including geography, ecology, transportation science, social science, and criminology. To analyze a location dataset, domain experts need to generate a network
+ K
+ -function plot that involves computing multiple network
+ K
+ -functions. However, network
+ K
+ -function is a computationally expensive operation that is not feasible to support large-scale datasets, let alone to generate a network
+ K
+ -function plot. To handle this issue, we develop two efficient algorithms, namely count augmentation (CA) and neighbor sharing (NS), which can reduce the worst-case time complexity for computing network
+ K
+ -functions. In addition, we incorporate the advanced shortest path sharing (ASPS) approach into these two methods to further lower the worst-case time complexity for generating network
+ K
+ -function plots. Experiment results on four large-scale location datasets (up to 7.33 million data points) show that our methods can achieve up to 165.85x speedup compared with the state-of-the-art methods.

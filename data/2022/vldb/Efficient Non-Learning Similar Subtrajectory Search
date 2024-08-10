@@ -1,0 +1,15 @@
+
+ Similar subtrajectory search is a finer-grained operator that can better capture the similarities between one query trajectory and a portion of a data trajectory than the traditional similar trajectory search, which requires that the two checking trajectories are similar in their entirety. Many real applications (e.g., trajectory clustering and trajectory join) utilize similar subtrajectory search as a basic operator. It is considered that the time complexity is
+ O
+ (
+ mn
+ 2
+ ) for exact algorithms to solve the similar subtrajectory search problem under most trajectory distance functions in the existing studies, where
+ m
+ is the length of the query trajectory and
+ n
+ is the length of the data trajectory. In this paper, to the best of our knowledge, we are the first to propose an exact algorithm to solve the similar subtrajectory search problem in
+ O
+ (
+ mn
+ ) time for most of widely used trajectory distance functions (e.g., WED, DTW, ERP, EDR and Frechet distance). Through extensive experiments on three real datasets, we demonstrate the efficiency and effectiveness of our proposed algorithms.

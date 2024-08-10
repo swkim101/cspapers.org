@@ -1,0 +1,16 @@
+
+ Multi-Constraint Shortest Path (
+ MCSP
+ ) generalizes the classic shortest path from single to multiple criteria such that more personalized needs can be satisfied. However,
+ MCSP
+ query is essentially a high-dimensional skyline problem and thus time-consuming to answer. Although the current
+ Forest Hop Labeling (FHL)
+ index can answer
+ MCSP
+ efficiently, it takes a long time to construct and lacks the flexibility to handle arbitrary criteria combinations. In this paper, we propose a skyline-cube-based
+ FHL
+ index that can handle the flexible
+ MCSP
+ efficiently. Firstly, we analyze the relation between low and high-dimensional skyline paths theoretically and use a cube to organize them hierarchically. After that, we propose methods to derive the high-dimensional path from the lower ones, which can adapt to the flexible scenario naturally and reduce the expensive high dimensional path concatenation. Then we introduce efficient methods for both single and multi-hop cube concatenations and propose pruning methods to further alleviate the computation. Finally, we improve the
+ FHL
+ structure with lower height for faster construction and query. Experiments on real-life road networks demonstrate the superiority of our method over the state-of-the-art.

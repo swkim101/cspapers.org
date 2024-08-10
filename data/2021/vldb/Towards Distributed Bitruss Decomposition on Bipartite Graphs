@@ -1,0 +1,18 @@
+
+ Mining cohesive subgraphs on bipartite graphs is an important task. The
+ k
+ -bitruss is one of many popular cohesive subgraph models, which is the maximal subgraph where each edge is contained in at least
+ k
+ butterflies. The bitruss decomposition problem is to find all
+ k
+ -bitrusses for
+ k
+ ≥ 0. Dealing with large graphs is often beyond the capability of a single machine due to its limited memory and computational power, leading to a need for efficiently processing large graphs in a distributed environment. However, all current solutions are for a single machine and a centralized environment, where processors can access the graph or auxiliary indexes randomly and globally. It is difficult to directly deploy such algorithms on a shared-nothing model. In this paper, we propose distributed algorithms for bitruss decomposition. We first propose SC-HBD as the baseline, which uses
+ H
+ -function to define bitruss numbers and computes them iteratively to a fix point in parallel. We then introduce a subgraph-centric peeling method SC-PBD, which peels edges in batches over different
+ butterfly complete subgraphs.
+ We then introduce local indexes on each fragment, study the
+ butterfly-aware edge partition
+ problem including its hardness, and propose an effective partitioner. Finally we present the
+ bitruss butterfly-complete
+ subgraph concept, and divide and conquer DC-BD method with optimization strategies. Extensive experiments show the proposed methods solve graphs with 30 trillion butterflies in 2.5 hours, while existing parallel methods under shared-memory model fail to scale to such large graphs.

@@ -1,0 +1,13 @@
+Most cloud service providers offer limited data privacy guarantees, discouraging clients from using them for managing their sensitive data. Cloud providers may use servers with Trusted Execution Environments (TEEs) to protect outsourced data, while supporting remote querying. However, TEEs may leak access patterns and allow communication volume attacks, enabling an honest-but-curious cloud provider to learn sensitive information. Oblivious algorithms can be used to completely hide data access patterns, but their high overhead could render them impractical. To alleviate the latter, the notion of Differential Obliviousness (DO) has been recently proposed. DO applies differential privacy (DP) on access patterns while hiding the communication volume of intermediate and final results; it does so by trading some level of privacy for efficiency.
+ 
+ We present Doquet:
+ D
+ ifferentially
+ O
+ blivious Range and Join
+ Que
+ ries with Private Data Struc
+ t
+ ures, a framework for DO outsourced database systems. Doquet is the first approach that supports private data structures, indices, selection, foreign key join, many-to-many join, and their composition select-join in a
+ realistic
+ TEE setting, even when the accesses to the private memory can be eavesdropped on by the adversary. We prove that the algorithms in Doquet satisfy differential obliviousness. Furthermore, we implemented Doquet and tested it on a machine having a second generation of Intel SGX (TEE); the results show that Doquet offers up to an order of magnitude speedup in comparison with other fully oblivious and differentially oblivious approaches.

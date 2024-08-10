@@ -1,0 +1,8 @@
+
+ Managing massive trajectory data from various moving objects has always been a demanding task. A desired trajectory data system should be versatile in its supported query types and distance functions, of low storage cost, and be consistently efficient on processing trajectory data of different properties. Unfortunately, none of the existing systems can meet the above three criteria at the same time. To this end, we propose VRE, a
+ v
+ ersatile,
+ r
+ obust, and
+ e
+ conomical trajectory data system.VRE separates the storage from the processing. In the storage layer, we propose a novel segment-based storage model that takes advantage of the strengths of both point-based and trajectory-based storage models. VRE supports these three storage models and ten storage schemas upon them. With the secondary index, VRE reduces the storage cost up to 3x. In the processing layer, we first propose a two-stage processing framework and a pushdown strategy to alleviate full trajectory transmission cost. Then, we design a unified pruning strategy for five widely used trajectory distance functions and numerous tailored processing algorithms for five advanced queries. Extensive experiments are conducted to verify the design choice and efficiency of VRE, from which we present some key insights that are crucial to both VRE and future trajectory system's design.

@@ -1,0 +1,8 @@
+
+ Given an undirected graph and a number of vertex groups, the
+ group Steiner trees
+ problem is to find a tree such that (i) this tree contains at least one vertex in each vertex group; and (ii) the sum of vertex and edge weights in this tree is minimized. Solving this problem is useful in various scenarios, ranging from social networks to knowledge graphs. Most existing work focuses on solving this problem in vertex-unweighted graphs, and not enough work has been done to solve this problem in graphs with both vertex and edge weights. Here, we develop several algorithms to address this issue. Initially, we extend two algorithms from vertex-unweighted graphs to vertex- and edge-weighted graphs. The first one has no approximation guarantee, but often produces good solutions in practice. The second one has an approximation guarantee of |Γ| - 1, where |Γ| is the number of vertex groups. Since the extended (|Γ| - 1)-approximation algorithm is too slow when all vertex groups are large, we develop two new (|Γ| - 1)-approximation algorithms that overcome this weakness. Furthermore, by employing a dynamic programming approach, we develop another (|Γ| -
+ h
+ + 1)-approximation algorithm, where
+ h
+ is a parameter between 2 and |Γ|. Experiments show that, while no algorithm is the best in all cases, our algorithms considerably outperform the state of the art in many scenarios.

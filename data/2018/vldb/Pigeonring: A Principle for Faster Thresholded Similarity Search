@@ -1,0 +1,10 @@
+
+ The pigeonhole principle states that if
+ n
+ items are contained in
+ m
+ boxes, then at least one box has no more than
+ n/m
+ items. It is utilized to solve many data management problems, especially for thresholded similarity searches. Despite many pigeonhole principle-based solutions proposed in the last few decades, the condition stated by the principle is weak. It only constrains the number of items in a single box. By organizing the boxes in a ring, we propose a new principle, called the pigeonring principle, which constrains the number of items in multiple boxes and yields stronger conditions.
+ 
+ To utilize the new principle, we focus on problems defined in the form of identifying data objects whose similarities or distances to the query is constrained by a threshold. Many solutions to these problems utilize the pigeonhole principle to find candidates that satisfy a filtering condition. By the new principle, stronger filtering conditions can be established. We show that the pigeonhole principle is a special case of the new principle. This suggests that all the pigeonhole principle-based solutions are possible to be accelerated by the new principle. A universal filtering framework is introduced to encompass the solutions to these problems based on the new principle. Besides, we discuss how to quickly find candidates specified by the new principle. The implementation requires only minor modifications on top of existing pigeonhole principle-based algorithms. Experimental results on real datasets demonstrate the applicability of the new principle as well as the superior performance of the algorithms based on the new principle.

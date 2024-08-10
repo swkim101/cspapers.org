@@ -1,0 +1,27 @@
+
+ Persistent memory (PM) promises near-DRAM performance as well as data persistency. Recently, a new feature called eADR is available on the 2
+ 
+ nd
+ 
+ generation Intel Optane PM with the 3
+ 
+ rd
+ 
+ generation Intel Xeon Scalable Processors. eADR ensures that data stored within the CPU caches will be flushed to PM upon the power failure. Thus, in eADR-enabled PM systems, the globally visible data is considered persistent, and explicit data flushes are no longer necessary. The emergence of eADR presents unique opportunities to build lock-free data structures and unleash the full potential of PM.
+ 
+ 
+ In this paper, we propose NBTree, a lock-free PM-friendly B
+ +
+ -Tree, to deliver high scalability and low PM overhead. To our knowledge, NBTree is the first persistent index designed for eADR-enabled PM systems. To achieve lock-free, NBTree uses atomic primitives to serialize leaf node operations. Moreover, NBTree proposes four novel techniques to enable lock-free access to the leaf during structural modification operations (SMO), including
+ three-phase SMO, sync-on-write, sync-on-read
+ , and
+ cooperative SMO.
+ For inner node operations, we develop a
+ shift-aware search
+ algorithm to resolve read-write conflicts. To reduce PM overhead, NBTree decouples the leaf nodes into a metadata layer and a key-value layer. The metadata layer is stored in DRAM, along with the inner nodes, to reduce PM accesses. NBTree also adopts
+ log-structured insert
+ and
+ in-place update/delete
+ to improve cache utilization. Our evaluation shows that NBTree achieves up to 11X higher throughput and 43X lower 99% tail latency than state-of-the-art persistent B
+ +
+ -Trees under YCSB workloads.

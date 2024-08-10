@@ -1,0 +1,11 @@
+
+ Order-preserving encryption (OPE) allows efficient comparison operations over encrypted data and thus is popular in encrypted databases. However, most existing OPE schemes are vulnerable to inference attacks as they leak plaintext frequency. To this end, some
+ frequency-hiding
+ order-preserving encryption (FH-OPE) schemes are proposed and claim to prevent the leakage of frequency. FH-OPE schemes are considered an important step towards mitigating inference attacks.
+ 
+ 
+ Unfortunately, there are still vulnerabilities in all existing FH-OPE schemes. In this work, we revisit the security of all existing FH-OPE schemes. We are the first to demonstrate that plaintext frequency hidden by them is recoverable. We present three ciphertext-only attacks named
+ frequency-revealing attacks
+ to recover plaintext frequency. We evaluate our attacks in three real-world datasets. They recover over 90% of plaintext frequency hidden by any existing FH-OPE scheme. With frequency revealed, we also show the potentiality to apply inference attacks on existing FH-OPE schemes.
+ 
+ Our findings highlight the limitations of current FH-OPE schemes. Our attacks demonstrate that achieving frequency-hiding requires addressing the leakages of both non-uniform ciphertext distribution and insertion orders of ciphertexts, even though the leakage of insertion orders is always ignored in OPE.

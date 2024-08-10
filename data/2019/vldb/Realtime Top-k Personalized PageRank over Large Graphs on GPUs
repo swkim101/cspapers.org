@@ -1,0 +1,37 @@
+
+ Given a graph
+ G
+ , a source node
+ s
+ ∈
+ G
+ and a positive integer
+ k
+ , a top-
+ k Personalized PageRank (PPR)
+ query returns the
+ k
+ nodes with the highest PPR values with respect to
+ s
+ , where the PPR of a node
+ v
+ measures its relevance from the perspective of source
+ s.
+ Top-
+ k
+ PPR processing is a fundamental task in many important applications such as web search, social networks, and graph analytics. This paper aims to answer such a query in
+ realtime
+ , i.e., within less than 100ms, on an Internet-scale graph with billions of edges. This is far beyond the current state of the art, due to the immense computational cost of processing a PPR query. We achieve this goal with a novel algorithm kPAR, which utilizes the massive parallel processing power of GPUs.
+ 
+ 
+ The main challenge in designing a GPU-based PPR algorithm lies in that a GPU is mainly a
+ parallel computation
+ device, whereas PPR processing involves graph traversals and value propagation operations, which are inherently
+ sequential
+ and
+ memory-bound.
+ Existing scalable PPR algorithms are mostly described as single-thread CPU solutions that are resistant to parallelization. Further, they usually involve complex data structures which do not have efficient adaptations on GPUs. kPAR overcomes these problems via both novel algorithmic designs (namely,
+ adaptive forward push
+ and
+ inverted random walks
+ ) and system engineering (e.g., load balancing) to realize the potential of GPUs. Meanwhile, kPAR provides rigorous guarantees on both result quality and worst-case efficiency. Extensive experiments show that kPAR is usually 10x faster than parallel adaptations of existing methods. Notably, on a billion-edge Twitter graph, kPAR answers a top-1000 PPR query in 42.4 milliseconds.

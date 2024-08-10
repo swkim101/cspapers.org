@@ -1,0 +1,6 @@
+
+ Motivated by performance optimization of large-scale graph processing systems that distribute the graph across multiple machines, we consider the balanced graph partitioning problem. Compared to most of the previous work, we study the
+ multi-dimensional
+ variant in which balance according to multiple weight functions is required. As we demonstrate by experimental evaluation, such multi-dimensional balance is essential for achieving performance improvements for typical distributed graph processing workloads.
+ 
+ We propose a new scalable technique for the multidimensional balanced graph partitioning problem. It is based on applying randomized projected gradient descent to a non-convex continuous relaxation of the objective. We show how to implement the new algorithm efficiently in both theory and practice utilizing various approaches for the projection step. Experiments with large-scale graphs containing up to hundreds of billions of edges indicate that our algorithm has superior performance compared to the state of the art.

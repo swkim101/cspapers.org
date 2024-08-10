@@ -1,0 +1,18 @@
+
+ Local differential privacy
+ (
+ LDP
+ ) is a strong privacy standard that has been adopted by popular software systems, including Chrome, iOS, MacOS, and Windows. The main idea is that each individual perturbs their own data locally, and only submits the resulting noisy version to a data aggregator. Although much effort has been devoted to computing various types of aggregates and building machine learning applications under LDP, research on fundamental perturbation mechanisms has not achieved significant improvement in recent years. Towards a more refined result utility, existing works in the literature mainly focus on improving the
+ worst-case
+ guarantee. However, this approach does not necessarily promise a better
+ average
+ performance given the fact that the data in practice obey a certain distribution, which is not known beforehand.
+ 
+ 
+ In this paper, we propose the
+ advanced adaptive additive
+ (
+ AAA
+ ) mechanism, which is a distribution-aware approach that addresses the average utility and tackles the classical
+ mean estimation
+ problem. AAA is carried out in a two-step approach: first, as the global data distribution is not available beforehand, the data aggregator selects a random subset of individuals to compute a (noisy) quantized data descriptor; then, in the second step, the data aggregator collects data from the remaining individuals, which are perturbed in a distribution-aware fashion. The perturbation involved in the latter step is obtained by solving an optimization problem, which is formulated with the data descriptor obtained in the former step and the desired properties of task-determined utilities. We provide rigorous privacy proofs and utility analyses, as well as extensive experiments comparing AAA with state-of-the-art mechanisms. The evaluation results demonstrate that the AAA mechanism consistently outperforms existing solutions with a clear margin in terms of result utility, on a wide range of privacy constraints and real-world and synthetic datasets.

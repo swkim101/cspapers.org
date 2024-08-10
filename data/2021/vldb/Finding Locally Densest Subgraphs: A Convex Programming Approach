@@ -1,0 +1,6 @@
+
+ Finding the densest subgraph (DS) from a graph is a fundamental problem in graph databases. The DS obtained, which reveals closely related entities, has been found to be useful in various application domains such as e-commerce, social science, and biology. However, in a big graph that contains billions of edges, it is desirable to find more than one subgraph cluster that are not necessarily the densest, yet they reveal closely-related vertices. In this paper, we study the locally densest subgraph (LDS), a recently-proposed variant of DS. An LDS is a subgraph which is the densest among the "local neighbors". Given a graph
+ G
+ , a number of LDS's can be returned, which reflect different dense regions of
+ G
+ and thus give more information than DS. The existing LDS solution suffers from low efficiency. We thus develop a convex-programming-based solution that enables powerful pruning. Extensive experiments on seven real large graph datasets show that our proposed algorithm is up to four orders of magnitude faster than the state-of-the-art.

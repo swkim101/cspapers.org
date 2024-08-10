@@ -1,0 +1,6 @@
+
+ Given a temporal weighted graph that consists of a potentially endless stream of updates, we are interested in finding density bursting subgraphs (DBS for short), where a DBS is a subgraph that accumulates its density at the fastest speed. Online DBS detection enjoys many novel applications. At the same time, it is challenging since the time duration of a DBS can be arbitrarily long but a limited size storage can buffer only up to a certain number of updates. To tackle this problem, we observe the critical decomposability of DBSs and show that a DBS with a long time duration can be decomposed into a set of indecomposable DBSs with equal or larger burstiness. We further prove that the time duration of an indecomposable DBS is upper bounded and propose an efficient method
+ TopkDBSOL
+ to detect indecomposable DBSs in an online manner. Extensive experiments demonstrate the effectiveness, efficiency and scalability of
+ TopkDBSOL
+ in detecting significant DBSs from temporal graphs in real applications.

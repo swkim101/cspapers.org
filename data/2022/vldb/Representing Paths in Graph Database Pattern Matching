@@ -1,0 +1,9 @@
+
+ Modern graph database query languages such as GQL, SQL/PGQ, and their academic predecessor G-Core promote paths to first-class citizens in the sense that their pattern matching facility can return
+ paths
+ , as opposed to only nodes and edges. This is challenging for database engines, since graphs can have a large number of paths between a given node pair, which can cause huge intermediate results in query evaluation.
+ 
+ 
+ We introduce the concept of
+ path multiset representations (PMRs)
+ , which can represent multisets of paths exponentially succinctly and therefore bring significant advantages for representing intermediate results. We give a detailed theoretical analysis that shows that they are especially well-suited for representing results of regular path queries and extensions thereof involving counting, random sampling, and unions. Our experiments show that they drastically improve scalability for regular path query evaluation, with speedups of several orders of magnitude.

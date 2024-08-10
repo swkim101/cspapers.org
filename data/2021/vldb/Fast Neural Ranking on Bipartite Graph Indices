@@ -1,0 +1,6 @@
+
+ Neural network based ranking has been widely adopted owing to its powerful capacity in modeling complex relationships (e.g., users and items, questions and answers). Online neural network ranking, i.e., the so called
+ fast neural ranking,
+ is considered a challenging task because neural network measures are in general non-convex and asymmetric. Traditional approximate near neighbor (ANN) search which typically focuses on metric ranking measures, is not applicable to these complex measures. To tackle this challenge, in this paper, we propose to construct
+ BipartitE Graph INdices (BEGIN)
+ for fast neural ranking. BEGIN contains two types of nodes: base/searching objects and sampled queries. The edges connecting these types of nodes are constructed via the neural network ranking measure. The proposed algorithm is a natural extension from traditional search on graph methods and is more suitable for fast neural ranking. Experiments demonstrate the effectiveness and efficiency of the proposed method.

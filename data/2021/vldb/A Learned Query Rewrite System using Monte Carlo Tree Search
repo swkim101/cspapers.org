@@ -1,0 +1,8 @@
+
+ Query rewrite transforms a SQL query into an equivalent one but with higher performance. However, SQL rewrite is an NP-hard problem, and existing approaches adopt heuristics to rewrite the queries. These heuristics have two main limitations. First, the order of applying different rewrite rules significantly affects the query performance. However, the search space of all possible rewrite orders grows exponentially with the number of query operators and rules and it is rather hard to find the optimal rewrite order. Existing methods apply a pre-defined order to rewrite queries and will fall in a local optimum. Second, different rewrite rules have different benefits for different queries. Existing methods work on single plans but cannot effectively estimate the benefits of rewriting a query. To address these challenges, we propose a
+ policy tree
+ based query rewrite framework, where the root is the input query and each node is a rewritten query from its parent. We aim to explore the tree nodes in the
+ policy tree
+ to find the optimal rewrite query. We propose to use
+ Monte Carlo Tree Search
+ to explore the policy tree, which navigates the policy tree to efficiently get the optimal node. Moreover, we propose a learning-based model to estimate the expected performance improvement of each rewritten query, which guides the tree search more accurately. We also propose a parallel algorithm that can explore the tree search in parallel in order to improve the performance. Experimental results showed that our method significantly outperformed existing approaches.

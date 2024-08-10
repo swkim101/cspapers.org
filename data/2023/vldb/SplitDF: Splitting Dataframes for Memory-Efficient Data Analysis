@@ -1,0 +1,6 @@
+
+ Dataframe is a popular construct in data analysis libraries that offers a tabular view of the data. However, data within a dataframe often has redundancy, which can lead to high memory utilization of data analysis libraries. Inspired by the process of normalization in relational database systems, we propose a technique called
+ splitting
+ that can be applied to tabular data to reduce redundancy. Splitting involves performing lossless join decomposition by explicitly adding joining keys, and unlike normalization, splitting can be applied to tabular data without the need to perform functional dependency discovery. A
+ split
+ dataframe provides the same unified tabular view to the data, while internally operating on split data to improve memory efficiency. We develop SplitDF, an implementation of split dataframes in Ibis for DuckDB backend, which enables data analysis on split data with minimal changes to the Ibis API. Generation of split tabular data is automated using an algorithm SplitGen implemented in Velox. In our analysis involving ten handwritten notebooks running on SplitDF, we observe a reduction in memory usage of 19--61% when operating on split data as compared to operating on original data.

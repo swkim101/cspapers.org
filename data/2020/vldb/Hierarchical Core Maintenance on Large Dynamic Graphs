@@ -1,0 +1,12 @@
+
+ The model of
+ k
+ -core and its decomposition have been applied in various areas, such as social networks, the world wide web, and biology. A graph can be decomposed into an elegant
+ k
+ -core hierarchy to facilitate cohesive subgraph discovery and network analysis. As many real-life graphs are fast evolving, existing works proposed efficient algorithms to maintain the coreness value of every vertex against structure changes. However, the maintenance of the
+ k
+ -core hierarchy in existing studies is not complete because the connections among different
+ k
+ -cores in the hierarchy are not considered. In this paper, we study hierarchical core maintenance which is to compute the
+ k
+ -core hierarchy incrementally against graph dynamics. The problem is challenging because the change of hierarchy may be large and complex even for a slight graph update. In order to precisely locate the area affected by graph dynamics, we conduct in-depth analyses on the structural properties of the hierarchy, and propose well-designed local update techniques. Our algorithms significantly outperform the baselines on runtime by up to 3 orders of magnitude, as demonstrated on 10 real-world large graphs.

@@ -1,0 +1,20 @@
+
+ Modern data estates are spread across data located on premises, on the edge and in one or more public clouds, spread across various sources like multiple relational databases, file and storage systems, and no-SQL systems, both operational and analytic; this phenomenon is referred to as
+ data sprawl.
+ Data administrators who wish to enforce compliance across the entire organization have to inventory their data, identify what parts of it are sensitive, and govern the sensitive data appropriately --- across the entirety of their sprawling data estate. Today, governance of data is completely siloed; each of the data subsystems has its own (and varied) governance features. Policies applied to sensitive data are applied piece-meal by iterating over all the data sources in a custom language specific to each source. This makes data governance cumbersome, error-prone (because a given policy must be manually enforced across different subsystems, inconsistencies can easily arise), and expensive.
+ 
+ 
+ This paper presents
+ Microsoft Purview
+ , a service for unified governance of the entire data estate of an organization from a single central pane of glass. The Purview service consists of three parts: (1) a
+ Data Map
+ or
+ metadata catalog
+ that is populated by automated scanning of data sources in the organization, (2) a system to store and manage sensitivity
+ classification
+ of data, and (3) a
+ policy
+ system that enables data security officers to author and implement policies that span the entire organization, e.g., a policy that says, "Non-full-time employees should be denied access to data classified as PII (Personally Identifiable Information.")
+ 
+ Purview transforms data governance across a complex data estate by offering the ability to govern centrally and automating data discovery, classification and policy enforcement. While other commercial catalog systems also build a global catalog, Purview is unique in its support for policies. It is also distinguished by covering both structured and unstructured data, thanks to its deep integration with Office 365 and its governance framework; indeed, "Microsoft Purview" represents a new unified offering that combines Office 365 governance and what was formerly a service for governing structured data called "Azure Purview".
+ By integrating with Office 365's Rights Management Service, Purview offers central governance over structured data stored in databases and stores, reports in systems such as Power BI, as well as document data stored in Office 365. The Purview vision is to make the metadata in the Data Map increasingly richer through further automation and curation support and to use this 360 degree view of the data estate to support a wide range of governance policies, ranging from access control to lifecycle management (e.g., retention, deletion, restricting data movement). This paper covers the design and implementation challenges in building the Purview service for Attribute-Based Access Control (ABAC) policies, focusing specifically on a detailed description of its integration with Azure SQL Database. We illustrate the power of unifying Office 365 governance with structured data governance through Purview policies that enforce consistent access control even as data flows between Office 365 and structured data engines like Azure SQL Database. We also describe the results of our empirical evaluation of the performance overheads imposed by Purview.

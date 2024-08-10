@@ -1,0 +1,6 @@
+
+ Mining time series motifs is a fundamental, yet expensive task in exploratory data analytics. In this paper, we therefore propose a fast method to find the top-
+ k
+ motifs with probabilistic guarantees. Our probabilistic approach is based on Locality Sensitive Hashing and allows to prune most of the distance computations, leading to huge speedups. We improve on a straightforward application of LSH to time series data by developing a
+ self-tuning
+ algorithm that adapts to the data distribution. Furthermore, we include several optimizations to the algorithm, reducing redundant computations and leveraging the structure of time series data to speed up LSH computations. We prove the correctness of the algorithm and provide bounds to the cost of the basic operations it performs. An experimental evaluation shows that our algorithm is able to tackle time series of one billion points on a single CPU-based machine, performing orders of magnitude faster than the GPU-based state of the art.

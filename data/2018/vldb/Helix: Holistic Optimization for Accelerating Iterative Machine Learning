@@ -1,0 +1,18 @@
+
+ Machine learning workflow development is a process of trial-and-error: developers
+ iterate
+ on workflows by testing out small modifications until the desired accuracy is achieved. Unfortunately, existing machine learning systems focus narrowly on model training---a small fraction of the overall development time---and neglect to address iterative development. We propose H
+ elix
+ , a machine learning system that
+ optimizes the execution across iterations
+ ---intelligently caching and reusing, or recomputing intermediates as appropriate. H
+ elix
+ captures a wide variety of application needs within its Scala DSL, with succinct syntax defining unified processes for data preprocessing, model specification, and learning. We demonstrate that the reuse problem can be cast as a M
+ ax
+ -F
+ low
+ problem, while the caching problem is NP-H
+ ard
+ . We develop effective lightweight heuristics for the latter. Empirical evaluation shows that H
+ elix
+ is not only able to handle a wide variety of use cases in one unified workflow but also much faster, providing run time reductions of up to 19x over state-of-the-art systems, such as DeepDive or KeystoneML, on four real-world applications in natural language processing, computer vision, social and natural sciences.

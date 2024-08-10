@@ -1,0 +1,6 @@
+
+ Stream frequency measurements are fundamental in many data stream applications such as financial data trackers, intrusion-detection systems, and network monitoring. Typically, recent data items are more relevant than old ones, a notion we can capture through a
+ sliding window
+ abstraction. This paper considers a generalized sliding window model that supports stream frequency queries over an interval given at
+ query time.
+ This enables drill-down queries, in which we can examine the behavior of the system in finer and finer granularities. For this model, we asymptotically improve the space bounds of existing work, reduce the update and query time to a constant, and provide deterministic solutions. When evaluated over real Internet packet traces, our fastest algorithm processes items 90--250 times faster, serves queries at least 730 times quicker and consumes at least 40% less space than the best known method.

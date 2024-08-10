@@ -1,0 +1,15 @@
+
+ Predictive autoscaling is a key enabler for optimizing cloud resource allocation in Alibaba Cloud's computing platforms, which dynamically adjust the
+ Elastic Compute Service
+ (ECS) instances based on predicted user demands to ensure Quality of Service (QoS). However, user demands in the cloud are often highly complex, with high
+ uncertainty
+ and
+ scale-sensitive
+ temporal dependencies, thus posing great challenges for accurate prediction of future demands. These in turn make autoscaling challenging---autoscaling needs to properly account for demand uncertainty while maintaining a reasonable trade-off between two contradictory factors, i.e., low instance running costs vs. low QoS violation risks.
+ 
+ 
+ To address the above challenges, we propose a novel predictive autoscaling framework
+ MagicScaler
+ , consisting of a Multi-scale attentive Gaussian process based predictor and an uncertainty-aware scaler. First, the predictor carefully bridges the best of two successful prediction methodologies---multi-scale attention mechanisms, which are good at capturing complex, multi-scale features, and stochastic process regression, which can quantify prediction uncertainty, thus achieving accurate demand prediction with quantified uncertainty. Second, the scaler takes the quantified future demand uncertainty into a judiciously designed loss function with stochastic constraints, enabling flexible trade-off between running costs and QoS violation risks. Extensive experiments on three clusters of Alibaba Cloud in different Chinese cities demonstrate the effectiveness and efficiency of
+ MagicScaler
+ , which outperforms other commonly adopted scalers, thus justifying our design choices.

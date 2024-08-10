@@ -1,0 +1,6 @@
+
+ State-of-the-art Entity Matching (EM) approaches rely on transformer architectures, such as
+ BERT
+ , for generating highly contex-tualized embeddings of terms. The embeddings are then used to predict whether pairs of entity descriptions refer to the same real-world entity. BERT-based EM models demonstrated to be effective, but act as black-boxes for the users, who have limited insight into the motivations behind their decisions.
+ 
+ In this paper, we perform a multi-facet analysis of the components of pre-trained and fine-tuned BERT architectures applied to an EM task. The main findings resulting from our extensive experimental evaluation are (1) the fine-tuning process applied to the EM task mainly modifies the last layers of the BERT components, but in a different way on tokens belonging to descriptions of matching / non-matching entities; (2) the special structure of the EM datasets, where records are pairs of entity descriptions is recognized by BERT; (3) the pair-wise semantic similarity of tokens is not a key knowledge exploited by BERT-based EM models.

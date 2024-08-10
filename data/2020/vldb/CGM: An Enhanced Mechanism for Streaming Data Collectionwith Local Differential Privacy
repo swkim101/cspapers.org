@@ -1,0 +1,15 @@
+
+ Local differential privacy (LDP) is a well-established privacy protection scheme for collecting sensitive data, which has been integrated into major platforms such as iOS, Chrome, and Windows. The main idea is that each individual randomly perturbs her data on her local device, and only uploads the noisy version to an untrusted data aggregator. This paper focuses on the collection of streaming data consisting of regular updates,
+ e.g.
+ , daily app usage. Such streams, when aggregated over a large population, often exhibit strong
+ autocorrelations
+ ,
+ e.g.
+ , the average usage of an app usually does not change dramatically from one day to the next. To our knowledge, this property has been largely neglected in existing LDP mechanisms. Consequently, data collected with current LDP methods often exhibit unrealistically violent fluctuations due to the added noise, drowning the overall trend, as shown in our experiments.
+ 
+ 
+ This paper proposes a novel
+ correlated Gaussian mechanism
+ (
+ CGM
+ ) for enforcing (ϵ, δ)-LDP on streaming data collection, which reduces noise by exploiting public-known autocorrelation patterns of the aggregated data. This is done through non-trivial modifications to the core of the underlying Gaussian Mechanism; in particular, CGM injects temporally correlated noise, computed through an optimization program that takes into account the given autocorrelation pattern, data value range, and utility metric. CGM comes with formal proof of correctness, and consumes negligible computational resources. Extensive experiments using real datasets from different application domains demonstrate that CGM achieves consistent and significant utility gains compared to the baseline method of repeatedly running the underlying one-shot LDP mechanism.

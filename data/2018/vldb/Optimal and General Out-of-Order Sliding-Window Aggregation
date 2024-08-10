@@ -1,0 +1,26 @@
+
+ Sliding-window aggregation derives a user-defined summary of the most-recent portion of a data stream. For in-order streams, each window change can be handled in
+ O
+ (1) time even when the aggregation operator is not invertible. But streaming data often arrive inherently out-of-order, e.g., due to clock drifts and communication delays. For such streams, prior work resorted to latency-prone buffering or spent
+ O
+ (log
+ n
+ ) time for every window change, where n is the instantaneous window size. This paper presents FiBA, a novel real-time sliding window aggregation algorithm that optimally handles streams of varying degrees of out-of-orderness. FiBA is as general as the state-of-the-art and supports variable-sized windows. An insert or evict takes amortized
+ O
+ (log
+ d
+ ) time, where
+ d
+ is the distance of the change to the window's boundary. This means
+ O
+ (1) time for in-order arrivals and nearly
+ O
+ (1) time for slightly out-of-order arrivals, tending to
+ O
+ (log
+ n
+ ) time for the most severely out-of-order arrivals. We also prove a matching lower bound, showing optimality. At its heart, the algorithm combines and extends finger searching, lazy rebalancing, and position-aware partial aggregates. Further, FiBA can answer range queries that aggregate subwindows for window sharing. Finally, our experiments show that FiBA performs well in practice and conforms to the theoretical findings, with significantly higher throughput than
+ O
+ (log
+ n
+ ) algorithms.

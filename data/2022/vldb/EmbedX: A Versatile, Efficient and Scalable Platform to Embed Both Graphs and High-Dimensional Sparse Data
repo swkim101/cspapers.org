@@ -1,0 +1,9 @@
+
+ In modern online services, it is of growing importance to process web-scale
+ graph data
+ and
+ high-dimensional sparse data
+ together into embeddings for downstream tasks, such as recommendation, advertisement, prediction, and classification. There exist learning methods and systems for either high-dimensional sparse data or graphs, but not both.
+ 
+ There is an urgent need in industry to have a system to efficiently process both types of data for higher business value, which however, is challenging. The data in Tencent contains billions of samples with sparse features in very high dimensions, and graphs are also with billions of nodes and edges. Moreover, learning models often perform expensive operations with high computational costs. It is difficult to store, manage, and retrieve massive sparse data and graph data together, since they exhibit different characteristics.
+ We present EmbedX, an industrial distributed learning framework from Tencent, which is versatile and efficient to support embedding on both graphs and high-dimensional sparse data. EmbedX consists of distributed server layers for graph and sparse data management, and optimized parameter and graph operators, to efficiently support 4 categories of methods, including deep learning models on high-dimensional sparse data, network embedding methods, graph neural networks, and in-house developed joint learning models on both types of data. Extensive experiments on massive Tencent data and public data demonstrate the superiority of EmbedX. For instance, on a Tencent dataset with 1.3 billion nodes, 35 billion edges, and 2.8 billion samples with sparse features in 1.6 billion dimension, EmbedX performs an order of magnitude faster for training and our joint models achieve superior effectiveness. EmbedX is deployed in Tencent. A/B test on real use cases further validates the power of EmbedX. EmbedX is implemented in C++ and open-sourced at https://github.com/Tencent/embedx.

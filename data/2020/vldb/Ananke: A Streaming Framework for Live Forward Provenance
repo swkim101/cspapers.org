@@ -1,0 +1,9 @@
+Data streaming enables online monitoring of large and continuous event streams in Cyber-Physical Systems (CPSs). In such scenarios, fine-grained backward provenance tools can connect streaming query results to the source data producing them, allowing analysts to study the dependency/causality of CPS events. While CPS monitoring commonly produces many events, backward provenance does not help prioritize event inspection since it does not specify if an event's provenance could still contribute to future results.
+ 
+ To cover this gap, we introduce
+ Ananke
+ , a framework to extend any fine-grained backward provenance tool and deliver a live bipartite graph of fine-grained forward provenance. With
+ Ananke
+ , analysts can prioritize the analysis of provenance data based on whether such data is still potentially being processed by the monitoring queries. We prove our solution is correct, discuss multiple implementations, including one leveraging streaming APIs for parallel analysis, and show
+ Ananke
+ results in small overheads, close to those of existing tools for fine-grained backward provenance.

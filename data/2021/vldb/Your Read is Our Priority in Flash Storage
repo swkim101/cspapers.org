@@ -1,0 +1,13 @@
+
+ When replacing a dirty victim page upon page miss, the conventional buffer managers flush the dirty victim first to the storage before reading the missing page. This
+ read-after-write
+ (RAW) protocol, unfortunately, causes the
+ read stall
+ problem on flash storage; because of the asymmetric I/O speed and parallelism in flash storage, the clean frames are quickly consumed, so the read for the missing page often has to wait for the slow write to complete and for the frame to be clean due to the
+ resource conflict
+ for the same buffer frame. RAW will thus make the performance-critical synchronous reads often blocked by writes, severely worsening transaction throughput and latency. In addition, its strict I/O ordering will make flash storage with abundant parallelism under-utilized.
+ 
+ 
+ To avoid read stalls in the DBMS buffer, we propose RW (
+ fused read and write
+ ) as a new storage interface. Using RW on read stall, the buffer manager can issue both read and write requests at once to the storage. Then, once the dirty page is copied to the storage buffer, it can immediately serve the read. In addition, to resolve read stalls in the flash storage buffer, we propose R-Buf, where the read buffer is separated from the write buffer so that reads can proceed at no stall. RW and R-Buf, working at different layers, complement each other when used together. We prototype RW and R-Buf on a real Cosmos+ OpenSSD board. Evaluation results show that RW alone improves TPC-C throughput over RAW by 3.2x and, combined with R-Buf, does by 3.9x. In addition, we demonstrate that R-Buf effectively mitigates the I/O interference in multi-tenancy.

@@ -1,0 +1,28 @@
+
+ Temporal graphs are ubiquitous. Mining communities that are bursting in a period of time is essential for seeking real emergency events in temporal graphs. Unfortunately, most previous studies on community mining in temporal networks ignore the bursting patterns of communities. In this paper, we study the problem of seeking bursting communities in a temporal graph. We propose a novel model, called the (
+ l
+ , δ)-maximal bursting core, to represent a bursting community in a temporal graph. Specifically, an (
+ l
+ , δ)-maximal bursting core is a temporal subgraph in which each node has an average degree no less than δ in a time segment with length no less than
+ l.
+ To compute the (
+ l
+ , δ)-maximal bursting core, we first develop a novel dynamic programming algorithm that can reduce time complexity of calculating the segment density from
+ O
+ (|
+ T
+ |)
+ 2
+ to
+ O
+ (|
+ T
+ |). Then, we propose an efficient updating algorithm which can update the segment density in
+ O
+ (
+ l
+ ) time. In addition, we develop an efficient algorithm to enumerate all (
+ l
+ , δ)-maximal bursting cores that are not dominated by the others in terms of
+ l
+ and δ. The results of extensive experiments on 9 real-life datasets demonstrate the effectiveness, efficiency and scalability of our algorithms.

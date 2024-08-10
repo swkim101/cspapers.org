@@ -1,0 +1,4 @@
+
+ This paper presents a thorough evaluation of the existing methods that accelerate Lloyd's algorithm for fast
+ k
+ -means clustering. To do so, we analyze the pruning mechanisms of existing methods, and summarize their common pipeline into a unified evaluation framework UniK. UniK embraces a class of well-known methods and enables a fine-grained performance breakdown. Within UniK, we thoroughly evaluate the pros and cons of existing methods using multiple performance metrics on a number of datasets. Furthermore, we derive an optimized algorithm over UniK, which effectively hybridizes multiple existing methods for more aggressive pruning. To take this further, we investigate whether the most efficient method for a given clustering task can be automatically selected by machine learning, to benefit practitioners and researchers.

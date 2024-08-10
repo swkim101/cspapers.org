@@ -1,0 +1,12 @@
+
+ Modern
+ Internet of Things
+ (
+ IoT
+ ) applications generate massive amounts of time-stamped data, much of it in the form of discrete, symbolic sequences. In this work, we present a new system called TOP that deTects Outlier Patterns from these sequences. To solve the fundamental limitation of existing pattern mining semantics that miss outlier patterns hidden inside of larger frequent patterns, TOP offers new pattern semantics based on
+ contextual patterns
+ that distinguish the
+ independent occurrence
+ of a pattern from its occurrence as part of its super-pattern. We present efficient algorithms for the mining of this new class of contextual patterns. In particular, in contrast to the bottom-up strategy for state-of-the-art pattern mining techniques, our top-down
+ Reduce
+ strategy piggy backs pattern detection with the detection of the context in which a pattern occurs. Our approach achieves linear time complexity in the length of the input sequence. Effective optimization techniques such as context-driven search space pruning and inverted index-based outlier pattern detection are also proposed to further speed up contextual pattern mining. Our experimental evaluation demonstrates the effectiveness of TOP at capturing meaningful outlier patterns in several real-world IoT use cases. We also demonstrate the efficiency of TOP, showing it to be up to 2 orders of magnitude faster than adapting state-of-the-art mining to produce this new class of contextual outlier patterns, allowing us to scale outlier pattern mining to large sequence datasets.

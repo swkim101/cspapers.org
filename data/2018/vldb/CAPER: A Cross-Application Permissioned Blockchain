@@ -1,0 +1,12 @@
+
+ Despite recent intensive research, existing blockchain systems do not adequately address all the characteristics of distributed applications. In particular, distributed applications collaborate with each other following service level agreements (SLAs) to provide different services. While collaboration between applications, e.g., cross-application transactions, should be
+ visible
+ to all applications, the internal data of each application, e.g, internal transactions, might be
+ confidential
+ . In this paper, we introduce
+ CAPER
+ , a permissioned blockchain system to support both internal and cross-application transactions of collaborating distributed applications. In CAPER, the blockchain ledger is formed as a
+ directed acyclic graph
+ where each application accesses and maintains only its own
+ view
+ of the ledger including its internal and all cross-application transactions. CAPER also introduces three consensus protocols to globally order cross-application transactions between applications with different internal consensus protocols. The experimental results reveal the efficiency of CAPER in terms of performance and scalability.

@@ -1,0 +1,18 @@
+
+ The higher-order structure cohesive subgraph mining is an important operator in many graph analysis tasks. Recently, the colorful
+ h
+ -star core model has been proposed as an effective alternative to
+ h
+ -clique based cohesive subgraph models, in consideration of both efficiency and utilities in many practical applications. The existing peeling algorithms for colorful
+ h
+ -star core decomposition are to iteratively delete a node with the minimum colorful
+ h
+ -star degree. Hence, these methods are inherently sequential and suffer from two limitations: low parallelism and inefficiency for dynamic graphs. To enable high-performance colorful
+ h
+ -star core decomposition in large-scale graphs, we propose highly parallelizable local algorithms based on a novel concept of colorful
+ h
+ -star
+ n
+ -order H-index and conduct thorough analyses for its properties. Moreover, three optimizations have been developed to further improve the convergence performance. Based on our local algorithm and its optimized variants, we can efficiently maintain colorful
+ h
+ -star cores in dynamic graphs. Furthermore, we design lower and upper bounds for core numbers to facilitate identifying unaffected nodes in presence of graph updates. Extensive experiments conducted on 14 large real-world datasets with billions of edges demonstrate that our proposed algorithms achieve a 10 times faster convergence speed and a three orders of magnitude speedup when handling graph changes.

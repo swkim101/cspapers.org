@@ -1,0 +1,8 @@
+
+ Regular simple path query (RPQ) is one of the fundamental operators in graph analytics. In an RPQ, the input is a graph, a source node and a regular expression. The goal is to identify all nodes that are connected to the source through a simple path whose label sequence satisfies the given regular expression. The regular expression acts as a formal specification of the search space that is of interest to the user. Although regular expressions have high expressive power, they act as barrier to non-technical users. Furthermore, to fully realize the power of regular expressions, the user must be familiar with the domain of the graph dataset. In this study, we address this bottleneck by bridging RPQs with the
+ query-by-example
+ paradigm. More specifically, we ask the user for an exemplar pair that characterizes the paths of interest, and the regular expression is automatically inferred from this exemplar. This novel problem introduces several new challenges. How do we infer the regex? Given that answering RPQs is NP-hard, how do we scale to large graphs? We address these challenges through a unique combination of
+ Biermann and Feldman's algorithm
+ with
+ NFA-guided random walks with restarts.
+ Extensive experiments on multiple real, million-scale datasets establish that RQuBE is at least 3 orders of magnitude faster than baseline strategies with an average accuracy in excess of 90%.

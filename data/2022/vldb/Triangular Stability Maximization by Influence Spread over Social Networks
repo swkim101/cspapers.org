@@ -1,0 +1,20 @@
+
+ In many real-world applications such as social network analysis and online advertising/marketing, one of the most important and popular problems is called
+ influence maximization
+ (IM), which finds a set of
+ k
+ seed users that maximize the expected number of influenced user nodes. In practice, however, maximizing the number of influenced nodes may be far from satisfactory for real applications such as opinion promotion and collective buying. In this paper, we explore the importance of
+ stability
+ and
+ triangles
+ in social networks, and formulate a novel problem in the influence spread scenario, named
+ triangular stability maximization
+ , over social networks, and generalize it to a
+ general triangle influence maximization
+ problem, which is proved to be NP-hard. We develop an efficient
+ reverse influence sampling
+ (RIS) based framework for the triangle IM with theoretical guarantees. To enable unbiased estimators, it demands probabilistic sampling of triangles, that is, sampling triangles according to their probabilities. We propose an
+ edge-based triple sampling
+ approach, which is exactly equivalent to probabilistic sampling and avoids costly triangle enumeration and materialization. We also design several pruning and reduction techniques, as well as a cost-model-guided heuristic algorithm. Extensive experiments and a case study over real-world graphs confirm the effectiveness of our proposed algorithms and the superiority of
+ triangular stability maximization
+ and triangle influence maximization.

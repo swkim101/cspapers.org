@@ -1,0 +1,13 @@
+
+ Influence maximization (IM)
+ is a fundamental task in social network analysis. Typically, IM aims at selecting a set of seeds for the network that influences the maximum number of individuals. Motivated by practical applications, in this paper we focus on an IM variant, where the
+ owner
+ of multiple
+ competing products
+ wishes to select seeds for each product so that the
+ collective influence
+ across all products is maximized. To capture the competing diffusion processes, we introduce an
+ Awareness-to-Influence
+ (AtI) model. In the first phase, awareness about each product propagates in the social graph unhindered by other competing products. In the second phase, a user adopts the most preferred product among those encountered in the awareness phase. To compute the seed sets, we propose GCW, a game-theoretic framework that views the various products as agents, which compete for influence in the social graph and selfishly select their individual strategy. We show that AtI exhibits monotonicity and submodularity; importantly, GCW is a
+ monotone utility game.
+ This allows us to develop an efficient best-response algorithm, with quality guarantees on the collective utility. Our experimental results suggest that our methods are effective, efficient, and scale well to large social networks.

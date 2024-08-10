@@ -1,0 +1,23 @@
+
+ This paper studies scaling out/in to cope with load surges. Given a graph
+ G
+ that is vertex-partitioned and distributed across
+ n
+ processors, it is to add (resp. remove)
+ k
+ processors and re-distribute
+ G
+ across
+ n
+ +
+ k
+ (resp.
+ n
+ -
+ k
+ ) processors such that the load among the processors is balanced, and its replication factor and migration cost are minimized.
+ 
+ 
+ We show that this tri-criteria optimization problem is intractable, even when
+ k
+ is a constant and when either load balancing or minimum migration is not required. Nonetheless, we propose two parallel solutions to dynamic scaling. One consists of approximation algorithms by extending consistent hashing. Given a load balancing factor above a lower bound, the algorithms guarantee provable bounds on both replication factor and migration cost. The other is a generic scaling scheme. Given any existing vertex-partitioner VP of users' choice, it adaptively scales VP in and out such that it incurs minimum migration cost, and ensures balance and replication factors within a bound relative to that of VP. Using real-life and synthetic graphs, we experimentally verify the efficiency, effectiveness and scalability of the solutions.

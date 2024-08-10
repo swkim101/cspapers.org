@@ -1,0 +1,4 @@
+
+ In practice, differentially private data releases are designed to support a variety of applications. A data release is fit for use if it meets target accuracy requirements for each application. In this paper, we consider the problem of answering linear queries under differential privacy subject to per-query accuracy constraints. Existing practical frameworks like the matrix mechanism do not provide such fine-grained control (they optimize
+ total
+ error, which allows some query answers to be more accurate than necessary, at the expense of other queries that become no longer useful). Thus, we design a fitness-for-use strategy that adds privacy-preserving Gaussian noise to query answers. The covariance structure of the noise is optimized to meet the fine-grained accuracy requirements while minimizing the cost to privacy.

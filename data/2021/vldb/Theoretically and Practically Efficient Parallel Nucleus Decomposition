@@ -1,0 +1,6 @@
+
+ This paper studies the nucleus decomposition problem, which has been shown to be useful in finding dense substructures in graphs. We present a novel parallel algorithm that is efficient both in theory and in practice. Our algorithm achieves a work complexity matching the best sequential algorithm while also having low depth (parallel running time), which significantly improves upon the only existing parallel nucleus decomposition algorithm (Sariyüce
+ et al.
+ , PVLDB 2018). The key to the theoretical efficiency of our algorithm is a new lemma that bounds the amount of work done when peeling cliques from the graph, combined with the use of a theoretically-efficient parallel algorithms for clique listing and bucketing. We introduce several new practical optimizations, including a new multi-level hash table structure to store information on cliques space-efficiently and a technique for traversing this structure cache-efficiently. On a 30-core machine with two-way hyper-threading on real-world graphs, we achieve up to a 55x speedup over the state-of-the-art parallel nucleus decomposition algorithm by Sariyüce
+ et al.
+ , and up to a 40x self-relative parallel speedup. We are able to efficiently compute larger nucleus decompositions than prior work on several million-scale graphs for the first time.

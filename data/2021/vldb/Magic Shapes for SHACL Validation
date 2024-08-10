@@ -1,0 +1,25 @@
+
+ A key prerequisite for the successful adoption of the Shapes Constraint Language (SHACL)---the W3C standardized constraint language for RDF graphs---is the availability of automated tools that efficiently validate targeted constraints (known as
+ shapes graphs
+ ) over possibly very large RDF graphs. There are already significant efforts to produce optimized engines for SHACL validation, but they focus on restricted fragments of SHACL. For
+ unrestricted
+ SHACL, that is SHACL with unrestricted recursion and negation, there is no validator beyond a proof-of-concept prototype, and existing techniques are inherently incompatible with the
+ goal-driven
+ approaches being pursued by existing validators. Instead they require a
+ global
+ computation on the entire data graph that is not only computationally very costly, but also brittle, and can easily result in validation failures due to conflicts that are irrelevant to the validation targets.
+ 
+ 
+ To address these challenges, we present a 'magic' transformation---based on Magic Sets as known from Logic Programming---that transforms a SHACL shapes graph
+ S
+ into a new shapes graph
+ S'
+ whose validation considers only the relevant neighbourhood of the targeted nodes. The new
+ S'
+ is equivalent to
+ S
+ whenever there are no conflicts between the constraints and the data, and in case the validation of
+ S
+ fails due to conflicts that are irrelevant to the target,
+ S'
+ may still admit a lazy, target-oriented validation. We implement the algorithm and run preliminary experiments, showing our approach can be a stepping stone towards validators for full SHACL, and that it can significantly improve the performance of the only prototype validator that currently supports full recursion and negation.

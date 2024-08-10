@@ -1,0 +1,70 @@
+
+ When analyzing confidential data through a privacy filter, a data scientist often needs to decide which queries will best support their intended analysis. For example, an analyst may wish to study noisy two-way marginals in a dataset produced by a mechanism M
+ 1
+ . But, if the data are relatively sparse, the analyst may choose to examine noisy one-way marginals, produced by a mechanism M
+ 2
+ , instead. Since the choice of whether to use M
+ 1
+ or M
+ 2
+ is data-dependent, a typical differentially private workflow is to first split the privacy loss budget
+ ρ
+ into two parts:
+ ρ
+ 1
+ and
+ ρ
+ 2
+ , then use the first part
+ ρ
+ 1
+ to determine which mechanism to use, and the remainder
+ ρ
+ 2
+ to obtain noisy answers from the chosen mechanism. In a sense, the first step seems wasteful because it takes away part of the privacy loss budget that could have been used to make the query answers more accurate.
+ 
+ 
+ In this paper, we consider the question of whether the choice between M
+ 1
+ and M
+ 2
+ can be performed without wasting any privacy loss budget. For linear queries, we propose a method for decomposing M
+ 1
+ and M
+ 2
+ into three parts: (1) a mechanism M
+ *
+ that captures their shared information, (2) a mechanism M′1 that captures information that is specific to M
+ 1
+ , (3) a mechanism M′2 that captures information that is specific to M
+ 2
+ . Running M
+ *
+ and M′
+ 1
+ together is completely equivalent to running M
+ 1
+ (both in terms of query answer accuracy and total privacy cost
+ ρ
+ ). Similarly, running M
+ *
+ and M′
+ 2
+ together is completely equivalent to running M
+ 2
+ .
+ 
+ 
+ Since M
+ *
+ will be used no matter what, the analyst can use its output to decide whether to subsequently run
+ M
+ ′
+ 1
+ (thus recreating the analysis supported by M
+ 1
+ )or M′
+ 2
+ (recreating the analysis supported by M
+ 2
+ ), without wasting privacy loss budget.

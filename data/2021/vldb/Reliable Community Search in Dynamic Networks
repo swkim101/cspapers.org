@@ -1,0 +1,10 @@
+
+ Searching for local communities is an important research problem that supports advanced data analysis in various complex networks, such as social networks, collaboration networks, cellular networks, etc. The evolution of such networks over time has motivated several recent studies to identify local communities in dynamic networks. However, these studies only utilize the aggregation of disjoint structural information to measure the quality and ignore the reliability of the communities in a continuous time interval. To fill this research gap, we propose a novel (θ,
+ k
+ )-
+ core
+ reliable community (CRC) model in the weighted dynamic networks, and define the problem of
+ most reliable community search
+ that couples the desirable properties of connection strength, cohesive structure continuity, and the maximal member engagement. To solve this problem, we first develop a novel edge filtering based online CRC search algorithm that can effectively filter out the trivial edge information from the networks while searching for a
+ reliable
+ community. Further, we propose an index structure, Weighted Core Forest-Index (WCF-index), and devise an index-based dynamic programming CRC search algorithm, that can prune a large number of insignificant intermediate results and support efficient query processing. Finally, we conduct extensive experiments systematically to demonstrate the efficiency and effectiveness of our proposed algorithms on eight real datasets under various experimental settings.

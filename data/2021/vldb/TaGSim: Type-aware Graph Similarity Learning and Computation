@@ -1,0 +1,14 @@
+
+ Computing similarity between graphs is a fundamental and critical problem in graph-based applications, and one of the most commonly used graph similarity measures is graph edit distance (GED), defined as the minimum number of graph edit operations that transform one graph to another. Existing GED solutions suffer from severe performance issues due in particular to the NP-hardness of exact GED computation. Recently, deep learning has shown early promise for GED approximation with high accuracy and low computational cost. However, existing methods treat GED as a global, coarse-grained graph similarity value, while neglecting the type-specific transformative impacts incurred by different types of graph edit operations, including node insertion/deletion, node relabeling, edge insertion/deletion, and edge relabeling. In this paper, we propose a
+ type-aware
+ graph similarity learning and computation framework, TaGSim
+ (T
+ ype
+ -a
+ ware
+ G
+ raph
+ Sim
+ ilarity), that estimates GED in a fine-grained approach
+ w.r.t.
+ different graph edit types. Specifically, for each type of graph edit operations, TaGSim models its unique transformative impacts upon graphs, and encodes them into high-quality, type-aware graph embeddings, which are further fed into type-aware neural networks for accurate GED estimation. Extensive experiments on five real-world datasets demonstrate the effectiveness and efficiency of TaGSim, which significantly outperforms state-of-the-art GED solutions.

@@ -1,0 +1,16 @@
+
+ Temporal community search is an important task in graph analysis, which has been widely used in many practical applications. However, existing methods suffer from two major defects: (i) they only require that the target result contains the query vertex
+ q
+ , leading to the temporal proximity between
+ q
+ and other vertices being ignored. Thus, they may find many temporal irrelevant vertices (these vertices are called query-drifted vertices) concerning
+ q
+ for satisfying their objective functions; (ii) their methods are NP-hard, incurring high costs for exact solutions or compromised qualities for approximate/heuristic algorithms. In this paper, we propose a new problem named query-centered temporal community search to overcome these limitations. Specifically, we first present a novel concept of Time-Constrained Personalized PageRank to characterize the temporal proximity between
+ q
+ and other vertices. Then, we introduce a model called
+ β
+ -temporal proximity core, which can seamlessly combine temporal proximity and structural cohesiveness. Subsequently, our problem is formulated as an optimization task that finds a
+ β
+ -temporal proximity core with the largest
+ β.
+ We theoretically prove that our problem can circumvent these query-drifted vertices. To solve our problem, we first devise an exact and near-linear time greedy removing algorithm that iteratively removes unpromising vertices. To improve efficiency, we then design an approximate two-stage local search algorithm with bound-based pruning techniques. Finally, extensive experiments on eight real-life datasets and nine competitors show the superiority of the proposed solutions.

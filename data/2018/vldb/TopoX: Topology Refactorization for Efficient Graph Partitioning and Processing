@@ -1,0 +1,10 @@
+
+ Traditional graph partitioning methods attempt to both minimize communication cost and guarantee load balancing in computation. However, the skewed degree distribution of natural graphs makes it difficult to simultaneously achieve the two objectives. This paper proposes
+ topology refactorization
+ (TR), a topology-aware method allowing graph-parallel systems to separately handle the two objectives: refactorization is mainly focused on reducing communication cost, and partitioning is mainly targeted for balancing the load. TR transforms a skewed graph into a more communication-efficient topology through
+ fusion
+ and
+ fission
+ , where the fusion operation organizes a set of neighboring low-degree vertices into a super-vertex, and the fission operation splits a high-degree vertex into a set of sibling sub-vertices.
+ 
+ Based on TR, we design an efficient graph-parallel system (TopoX) which pipelines refactorization with partitioning to both reduce communication cost and balance computation load. Prototype evaluation shows that TopoX outperforms state-of-the-art PowerLyra by up to 78.5% (from 37.2%) on real-world graphs and is significantly faster than other graph-parallel systems, while only introducing small refactorization overhead and memory consumption.

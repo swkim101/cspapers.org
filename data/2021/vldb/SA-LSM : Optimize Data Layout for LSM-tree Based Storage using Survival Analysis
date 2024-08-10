@@ -1,0 +1,13 @@
+
+ A significant fraction of data in cloud storage is rarely accessed, referred to as
+ cold data.
+ Accurately identifying and efficiently managing cold data on cost-effective storages is one of the major challenges for cloud providers, which balances between reducing the cost and improving the system performance. To this end, we propose
+ SA-LSM
+ to use (S)urvival (A)nalysis for Log-Structure Merge Tree (LSM-tree) key-value (KV) stores. Conventionally, the data layout of LSM-tree is determined jointly by the write and the compaction operations. However, this process by default does not fully utilize the access information of data records, leading to a suboptimal data layout that negatively impacts the system performance.
+ SA-LSM
+ utilizes the survival analysis, a statistical learning algorithm commonly used in biostatistics, to optimize the data layout.
+ 
+ 
+ When put into perspective of LSM-tree with proper adoptions,
+ SA-LSM
+ can accurately predict cold data using the historical semantic information and access traces. As a concrete realization, we implement our proposal in X-Engine, a commercial-strength open-source LSM-tree storage engine. To make the deployment more flexible, we also design a non-intrusive architecture that offloads CPU-intensive work, e.g., model training and inference, to an external service. Extensive experiments on real-world workloads show that it can decrease the tail latency by up to 78.9% compared to the state-of-the-art techniques. The generality of this approach and the significant performance improvement show great potentials in a variety of related applications.

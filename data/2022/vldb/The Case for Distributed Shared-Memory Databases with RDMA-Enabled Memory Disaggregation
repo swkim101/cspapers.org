@@ -1,0 +1,4 @@
+
+ Memory disaggregation (MD) allows for scalable and elastic data center design by separating compute (CPU) from memory. With MD, compute and memory are no longer coupled into the same server box. Instead, they are connected to each other via ultra-fast networking such as RDMA. MD can bring many advantages, e.g., higher memory utilization, better independent scaling (of compute and memory), and lower cost of ownership. This paper makes the case that MD can fuel the next wave of innovation on database systems. We observe that MD revives the great debate of "shared what" in the database community. We envision that
+ distributed shared-memory databases (DSM-DB, for short)
+ - that have not received much attention before - can be promising in the future with MD. We present a list of challenges and opportunities that can inspire next steps in system design making the case for DSM-DB.
