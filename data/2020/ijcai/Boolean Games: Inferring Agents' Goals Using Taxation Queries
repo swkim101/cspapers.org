@@ -1,0 +1,19 @@
+In Boolean games, each agent controls a set of Boolean variables 
+
+and has a goal represented by a propositional formula. We study
+
+inference problems in Boolean games assuming the presence of a
+
+PRINCIPAL who has the ability to control the agents and impose
+
+taxation schemes. Previous work used taxation schemes to guide a
+
+game towards certain equilibria. We present algorithms that show
+
+how taxation schemes can also be used to infer agents' goals. We
+
+present experimental results to demonstrate the efficacy our
+
+algorithms. We also consider goal inference when only limited
+
+information is available in response to a query.

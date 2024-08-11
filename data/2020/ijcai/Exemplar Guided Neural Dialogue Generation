@@ -1,0 +1,17 @@
+Humans benefit from previous experiences when taking actions.
+
+Similarly, related examples from the training data also provide exemplary information for neural dialogue models when responding to a given input message.
+
+However, effectively fusing such exemplary information into dialogue generation is non-trivial: useful exemplars are required to be not only literally-similar, but also topic-related with the given context.
+
+Noisy exemplars impair the neural dialogue models understanding the conversation topics and even corrupt the response generation.
+
+To address the issues, we propose an exemplar guided neural dialogue generation model where exemplar responses are retrieved in terms of both the text similarity and the topic proximity through a two-stage exemplar retrieval model.
+
+In the first stage, a small subset of conversations is retrieved from a training set given a dialogue context. 
+
+These candidate exemplars are then finely ranked regarding the topical proximity to choose the best-matched exemplar response. 
+
+To further induce the neural dialogue generation model consulting the exemplar response and the conversation topics more faithfully, we introduce a multi-source sampling mechanism to provide the dialogue model with both local exemplary semantics and global topical guidance during decoding.
+
+Empirical evaluations on a large-scale conversation dataset show that the proposed approach significantly outperforms the state-of-the-art in terms of both the quantitative metrics and human evaluations.

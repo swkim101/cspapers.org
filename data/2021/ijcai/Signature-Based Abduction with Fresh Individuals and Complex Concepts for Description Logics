@@ -1,0 +1,25 @@
+Given a knowledge base and an observation as a set of facts,
+
+ABox abduction aims at computing a hypothesis that, when added to the
+
+knowledge base, is sufficient to entail the observation. In signature-based
+
+ABox abduction, the hypothesis is further required to use only names from a
+
+given set. This form of abduction has applications such as diagnosis, KB
+
+repair, or explaning missing entailments. It is possible that hypotheses for
+
+a given observation only exist if we admit the use of fresh individuals
+
+and/or complex concepts built from the given signature, something most
+
+approaches for ABox abduction so far do not allow or only allow
+
+with restrictions. In this paper, we investigate the computational complexity
+
+of this form of abduction---allowing either fresh individuals, complex concepts,
+
+or both---for various description logics, and give size bounds on the hypotheses
+
+if they exist.

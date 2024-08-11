@@ -1,0 +1,9 @@
+The Non-dominated Sorting Genetic Algorithm II (NSGA-II) is the most prominent multi-objective evolutionary algorithm for real-world applications.
+
+While it performs evidently well on bi-objective optimization problems, empirical studies suggest that it is less effective when applied to problems with more than two objectives. A recent mathematical runtime analysis confirmed this observation by proving the NGSA-II for an exponential number of iterations misses a constant factor of the Pareto front of the simple 3-objective OneMinMax problem.
+
+
+
+In this work, we provide the first mathematical runtime analysis of the NSGA-III, a refinement of the NSGA-II aimed at better handling more than two objectives.
+
+We prove that the NSGA-III with sufficiently many reference points - a small constant factor more than the size of the Pareto front, as suggested for this algorithm - computes the complete Pareto front of the 3-objective OneMinMax benchmark in an expected number of O(n log n) iterations. This result holds for all population sizes (that are at least the size of the Pareto front). It shows a drastic advantage of the NSGA-III over the NSGA-II on this benchmark. The mathematical arguments used here and in the previous work on the NSGA-II suggest that similar findings are likely for other benchmarks with three or more objectives.

@@ -1,0 +1,51 @@
+This paper introduces a novel Robust Regression
+
+(RR) model, named Sinkhorn regression, which
+
+imposes Sinkhorn distances on both loss function
+
+and regularization. Traditional RR methods target
+
+at searching for an element-wise loss function
+
+(e.g., Lp-norm) to characterize the errors such that
+
+outlying data have a relatively smaller influence on
+
+the regression estimator. Due to the neglect of the
+
+geometric information, they often lead to the suboptimal
+
+results in the practical applications. To
+
+address this problem, we use a cross-bin distance
+
+function, i.e., Sinkhorn distances, to capture the geometric
+
+knowledge of real data. Sinkhorn distances
+
+is invariant in movement, rotation and zoom. Thus,
+
+our method is more robust to variations of data
+
+than traditional regression models. Meanwhile, we
+
+leverage Kullback-Leibler divergence to relax the
+
+proposed model with marginal constraints into its
+
+unbalanced formulation to adapt more types of features.
+
+In addition, we propose an efficient algorithm
+
+to solve the relaxed model and establish its
+
+complete statistical guarantees under mild conditions.
+
+Experiments on the five publicly available
+
+microarray data sets and one mass spectrometry
+
+data set demonstrate the effectiveness and robustness
+
+of our method.

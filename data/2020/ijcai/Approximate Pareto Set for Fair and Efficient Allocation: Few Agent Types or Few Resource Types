@@ -1,0 +1,7 @@
+In fair division of indivisible goods, finding an allocation that satisfies fairness and efficiency simultaneously is highly desired but
+
+computationally hard. We solve this problem approximately in polynomial time by modeling it as a bi-criteria optimization problem
+
+that can be solved efficiently by determining an approximate Pareto set of bounded size. We focus on two criteria: max-min fairness and
+
+utilitarian efficiency, and study this problem for the setting when there are only a few item types or a few agent types. We show in both cases that one can construct an approximate Pareto set in time polynomial in the input size, either by designing a dynamic programming scheme, or a linear-programming algorithm. Our techniques strengthen known methods and can be potentially applied to other notions of fairness and efficiency as well.

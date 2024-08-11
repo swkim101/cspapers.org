@@ -1,0 +1,9 @@
+A flexible communication protocol is necessary to build a decentralized multiagent system whose member agents are not coupled to each other's decision making.
+
+Information-based protocol languages capture a protocol in terms of causality and integrity constraints based on the information exchanged by the agents. Thus, they enable highly flexible enactments in which the agents proceed asynchronously and messages may be arbitrarily reordered. However, the existing semantics for such languages can produce a large number of protocol enactments, which makes verification of a protocol property intractable.
+
+
+
+This paper formulates a protocol semantics declaratively via inference rules that determine when a message emission or reception becomes enabled during an enactment, and its effect on the local state of an agent.
+
+The semantics enables heuristics for determining when alternative extensions of a current enactment would be equivalent, thereby helping produce parsimonious models and yielding improved protocol verification methods.

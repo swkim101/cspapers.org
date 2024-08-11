@@ -1,0 +1,15 @@
+Causal discovery, the task of automatically constructing a causal model from data, is of major significance across the sciences.
+
+Evaluating the performance of causal discovery algorithms should ideally involve comparing the inferred models to ground-truth models available for benchmark datasets, which in turn requires a notion of distance between causal models.
+
+While such distances have been proposed previously, they are limited by focusing on graphical properties of the causal models being compared.
+
+Here, we overcome this limitation by defining distances derived from the causal distributions induced by the models, rather than exclusively from their graphical structure.
+
+Pearl and Mackenzie [2018] have arranged the properties of causal models in a hierarchy called the ``ladder of causation'' spanning three rungs: observational, interventional, and counterfactual.
+
+Following this organization, we introduce a hierarchy of three distances, one for each rung of the ladder.
+
+Our definitions are intuitively appealing as well as efficient to compute approximately.
+
+We put our causal distances to use by benchmarking standard causal discovery systems on both synthetic and real-world datasets for which ground-truth causal models are available.

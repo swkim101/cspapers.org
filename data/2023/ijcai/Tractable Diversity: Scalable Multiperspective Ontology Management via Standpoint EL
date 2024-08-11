@@ -1,0 +1,5 @@
+The tractability of the lightweight description logic EL has allowed for the construction of large and widely used ontologies that support semantic interoperability. However, comprehensive domains with a broad user base are often at odds with strong axiomatisations otherwise useful for inferencing, since these are usually context dependent and subject to diverging perspectives.
+
+
+
+In this paper we introduce Standpoint EL, a multi-modal extension of EL that allows for the integrated representation of domain knowledge relative to diverse, possibly conflicting standpoints (or contexts), which can be hierarchically organised and put in relation to each other. We establish that Standpoint EL still exhibits EL's favourable PTime standard reasoning, whereas introducing additional features like empty standpoints, rigid roles, and nominals makes standard reasoning tasks intractable.

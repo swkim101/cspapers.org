@@ -1,0 +1,35 @@
+Decentralized online planning can be an attractive paradigm for cooperative 
+
+multi-agent systems, due to improved scalability and robustness.
+
+A key difficulty of such approach lies in making accurate
+
+predictions about the decisions of other agents. 
+
+In this paper, we present a trainable online decentralized planning algorithm
+
+based on decentralized Monte Carlo Tree Search, combined with
+
+models of teammates learned from previous episodic runs. 
+
+By only allowing one agent to adapt its models at a time, 
+
+under the assumption of ideal policy approximation,
+
+successive iterations of our method are guaranteed to improve joint
+
+policies, and eventually lead to convergence to a Nash equilibrium. 
+
+We test the efficiency of the algorithm by performing experiments 
+
+in several scenarios of the spatial task
+
+allocation environment introduced in [Claes et al., 2015]. We show that
+
+deep learning and convolutional neural networks can be employed
+
+to produce accurate policy approximators which exploit the spatial features of the
+
+problem, and that the proposed algorithm improves over the baseline
+
+planning performance for particularly challenging domain configurations.

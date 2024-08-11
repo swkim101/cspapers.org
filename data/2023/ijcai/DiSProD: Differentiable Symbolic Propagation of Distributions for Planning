@@ -1,0 +1,33 @@
+The paper introduces DiSProD, an online planner developed for
+
+environments with probabilistic transitions in continuous state and
+
+action spaces. DiSProD builds a symbolic graph that captures the
+
+distribution of future trajectories, conditioned on a given policy,
+
+using independence assumptions and approximate propagation of
+
+distributions. The symbolic graph provides a differentiable
+
+representation of the policy's value, enabling efficient gradient-based
+
+optimization for long-horizon search. The propagation of approximate
+
+distributions can be seen as an aggregation of many trajectories, making
+
+it well-suited for dealing with sparse rewards and stochastic
+
+environments. An extensive experimental evaluation compares DiSProD to
+
+state-of-the-art planners in discrete-time planning and real-time
+
+control of robotic systems. The proposed method improves over existing
+
+planners in handling stochastic environments, sensitivity to search
+
+depth, sparsity of rewards, and large action spaces. Additional
+
+real-world experiments demonstrate that DiSProD can control ground
+
+vehicles and surface vessels to successfully navigate around obstacles.

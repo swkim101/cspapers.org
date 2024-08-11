@@ -1,0 +1,3 @@
+Goal-conditioned reinforcement learning (GCRL), related to a set of complex RL problems, trains an agent to achieve different goals under particular scenarios. Compared to the standard RL solutions that learn a policy solely depending on the states or observations, GCRL additionally requires the agent to make decisions according to different goals.
+
+In this survey, we provide a comprehensive overview of the challenges and algorithms for GCRL. Firstly, we answer what the basic problems are studied in this field. Then, we explain how goals are represented and present how existing solutions are designed from different points of view. Finally, we make the conclusion and discuss potential future prospects that recent researches focus on.

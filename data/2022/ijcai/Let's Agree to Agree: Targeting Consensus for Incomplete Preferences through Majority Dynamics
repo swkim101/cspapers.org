@@ -1,0 +1,27 @@
+We study settings in which agents with incomplete
+
+preferences need to make a collective decision. We
+
+focus on a process of majority dynamics where issues
+
+are addressed one at a time and undecided
+
+agents follow the opinion of the majority. We assess
+
+the effects of this process on various consensus
+
+notions—such as the Condorcet winner—and show
+
+that in the worst case, myopic adherence to the majority
+
+damages existing consensus; yet, simulation
+
+experiments indicate that the damage is often mild.
+
+We also examine scenarios where the chair of the
+
+decision process can control the existence (or the
+
+identity) of consensus, by determining the order in
+
+which the issues are discussed.

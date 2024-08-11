@@ -1,0 +1,7 @@
+Bucket Elimination (BE) is a universal inference scheme that can solve most tasks over probabilistic and deterministic graphical models exactly.
+
+However, it often requires exponentially high levels of memory (in the induced-width) preventing its execution. In the spirit of exploiting Deep Learning for inference tasks, in this paper, we will use neural networks to approximate BE.
+
+The resulting Deep Bucket Elimination (DBE) algorithm is developed for computing the partition function.
+
+We provide a proof-of-concept empirically using instances from several different benchmarks, showing that DBE can be a more accurate approximation than current state-of-the-art approaches for approximating BE (e.g. the mini-bucket schemes), especially when problems are sufficiently hard.

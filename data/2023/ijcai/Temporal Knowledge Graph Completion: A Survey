@@ -1,0 +1,15 @@
+Knowledge graph completion (KGC) predicts missing links and is crucial for real-life knowledge graphs, which widely suffer from incompleteness.
+
+KGC methods assume a knowledge graph is static, but that may lead to inaccurate prediction results because many facts in the knowledge graphs change over time.
+
+Emerging methods have recently shown improved prediction results by further incorporating the temporal validity of facts; namely, temporal knowledge graph completion (TKGC).
+
+With this temporal information, TKGC methods explicitly learn the dynamic evolution of the knowledge graph that KGC methods fail to capture.
+
+In this paper, for the first time, we comprehensively summarize the recent advances in TKGC research.
+
+First, we detail the background of TKGC, including the preliminary knowledge, benchmark datasets, and evaluation metrics.
+
+Then, we summarize existing TKGC methods based on how the temporal validity of facts is used to capture the temporal dynamics.
+
+Finally, we conclude the paper and present future research directions of TKGC.

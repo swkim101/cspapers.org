@@ -1,0 +1,13 @@
+In recent years there has been an increasing interest in extending Dung's framework to facilitate the knowledge representation and reasoning process.
+
+In this paper, we present an extension of Abstract Argumentation Framework (AF) that allows for the representation of preferences over arguments' truth values (3-valued preferences).
+
+For instance, we can express a preference stating that extensions where argument a is false (i.e. defeated) are preferred to extensions where argument b is false.
+
+Interestingly, such a framework generalizes the well-known Preference-based AF with no additional cost in terms of computational complexity for most of the classical argumentation semantics.
+
+Then, we further extend AF by considering both (3-valued) preferences and 3-valued constraints, that is constraints of the form \varphi \Rightarrow v or v \Rightarrow \varphi, where \varphi is a logical formula and v is a 3-valued truth value.
+
+After investigating the complexity of the resulting framework,as both constraints and preferences may represent subjective knowledge of agents,
+
+we extend our framework by considering multiple agents and study the complexity of deciding acceptance of arguments in this context.

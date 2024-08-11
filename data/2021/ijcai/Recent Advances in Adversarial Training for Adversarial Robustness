@@ -1,0 +1,11 @@
+Adversarial training is one of the most effective approaches for deep learning models to defend against adversarial examples.
+
+Unlike other defense strategies, adversarial training aims to enhance the robustness of models intrinsically.
+
+During the past few years, adversarial training has been studied and discussed from various aspects, which deserves a comprehensive review.
+
+For the first time in this survey, we systematically review the recent progress on adversarial training for adversarial robustness with a novel taxonomy.
+
+Then we discuss the generalization problems in adversarial training from three perspectives and highlight the challenges which are not fully tackled.
+
+Finally, we present potential future directions.

@@ -1,0 +1,3 @@
+Collective decisions among human and artificial agents can be enhanced by allowing for more interaction among decision-makers and by letting them express more information about their preferences.
+
+In this paper I present ongoing research on two settings: iterative voting, which repeatedly applies a voting rule until decision-makers converge to an outcome, and delegative voting on multiple issues.

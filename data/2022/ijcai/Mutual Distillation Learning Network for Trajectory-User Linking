@@ -1,0 +1,7 @@
+Trajectory-User Linking (TUL), which links trajectories to users who generate them, has been a challenging problem due to the sparsity in check-in mobility data. Existing methods ignore the utilization of historical data or rich contextual features in check-in data, resulting in poor performance for TUL task. 
+
+In this paper, we propose a novel Mutual distillation learning network to solve the TUL problem for sparse check-in mobility data, named MainTUL. 
+
+Specifically, MainTUL is composed of a Recurrent Neural Network (RNN) trajectory encoder that models sequential patterns of input trajectory and a temporal-aware Transformer trajectory encoder that captures long-term time dependencies for the corresponding augmented historical trajectories. 
+
+Then, the knowledge learned on historical trajectories is transferred between the two trajectory encoders to guide the learning of both encoders to achieve mutual distillation of information. Experimental results on two real-world check-in mobility datasets demonstrate the superiority of \model against state-of-the-art baselines. The source code of our model is available at https://github.com/Onedean/MainTUL.

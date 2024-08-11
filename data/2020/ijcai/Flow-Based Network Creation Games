@@ -1,0 +1,9 @@
+Network Creation Games(NCGs) model the creation of decentralized communication networks like the Internet. In such games strategic agents corresponding to network nodes selfishly decide with whom to connect to optimize some objective function. Past research intensively analyzed models where the agents strive for a central position in the network. This models agents optimizing the network for low-latency applications like VoIP. However, with today's abundance of streaming services it is important to ensure that the created network can satisfy the increased bandwidth demand. To the best of our knowledge, this natural problem of the decentralized strategic creation of networks with sufficient bandwidth has not yet been studied. 
+
+
+
+We introduce Flow-Based NCGs where the selfish agents focus on bandwidth instead of latency. In essence, budget-constrained agents create network links to maximize their minimum or average network flow value to all other network nodes. Equivalently, this can also be understood as agents who create links to increase their connectivity and thus also the robustness of the network.
+
+
+
+For this novel type of NCG we prove that pure Nash equilibria exist, we give a simple algorithm for computing optimal networks, we show that the Price of Stability is 1 and we prove an (almost) tight bound of 2 on the Price of Anarchy. Last but not least, we show that our models do not admit a potential function.

@@ -1,0 +1,15 @@
+Learning to order events at discourse-level is a crucial text understanding task.
+
+Despite many efforts for this task, the current state-of-the-art methods rely heavily on manually designed features, which are costly to produce and are often specific to tasks/domains/datasets.
+
+In this paper, we propose a new graph perspective on the task, which does not require complex feature engineering but can assimilate global features and learn inter-dependencies effectively.
+
+Specifically, in our approach, each document is considered as a temporal graph, in which the nodes and edges represent events and event-event relations respectively.
+
+In this sense, the temporal ordering task corresponds to constructing edges for an empty graph.
+
+To train our model, we design a graph mask pre-training mechanism, which can learn inter-dependencies of temporal relations by learning to recover a masked edge following graph topology.
+
+In the testing stage, we design an certain-first strategy based on model uncertainty, which can decide the prediction orders and reduce the risk of error propagation.
+
+The experimental results demonstrate that our approach outperforms previous methods consistently and can meanwhile maintain good global consistency.

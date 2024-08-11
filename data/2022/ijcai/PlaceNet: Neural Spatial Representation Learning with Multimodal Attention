@@ -1,0 +1,11 @@
+Spatial representation capable of learning a myriad of environmental features is a significant challenge for natural spatial understanding of mobile AI agents.
+
+Deep generative models have the potential of discovering rich representations of observed 3D scenes.
+
+However, previous approaches have been mainly evaluated on simple environments, or focused only on high-resolution rendering of small-scale scenes, hampering generalization of the representations to various spatial variability.
+
+To address this, we present PlaceNet, a neural representation that learns through random observations in a self-supervised manner, and represents observed scenes with triplet attention using visual, topographic, and semantic cues.
+
+We evaluate the proposed method on a large-scale multimodal scene dataset consisting of 120 million indoor scenes, and show that PlaceNet successfully generalizes to various environments with lower training loss, higher image quality and structural similarity of predicted scenes, compared to a competitive baseline model.
+
+Additionally, analyses of the representations demonstrate that PlaceNet activates more specialized and larger numbers of kernels in the spatial representation, capturing multimodal spatial properties in complex environments.

@@ -1,0 +1,27 @@
+Local search is a popular technique to solve combinatorial
+
+optimization problems efficiently. To escape local minima one generally uses
+
+metaheuristics or try to design large neighborhoods around the current best
+
+solution. A somewhat more black box approach consists in using an
+
+optimization solver to explore a large neighborhood. This is the
+
+large-neighborhood search (LNS) idea that we reuse in this work. We
+
+introduce a generic neighborhood exploration algorithm based on restricted
+
+decision diagrams (DD) constructed from the current best
+
+solution. We experiment DD-LNS on two sequencing problems: the
+
+traveling salesman problem with time windows (TSPTW) and a production
+
+planning problem (DLSP). Despite its simplicity, DD-LNS is competitive with
+
+the state-of-the-art MIP approach on DLSP. It is able to improve the
+
+best known solutions of some standard instances for TSPTW and even to prove 
+
+the optimality of quite a few other instances.

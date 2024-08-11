@@ -1,0 +1,1 @@
+This study proposes solving scheduling problems in industrial applications using the decomposition approach. The proposed model has been built using Multi-shot Answer Set Programming with Difference Logic. We tested our model with some benchmark instances and the results showed that our model is comparable to Constraint Programming to other heuristics in the literature.

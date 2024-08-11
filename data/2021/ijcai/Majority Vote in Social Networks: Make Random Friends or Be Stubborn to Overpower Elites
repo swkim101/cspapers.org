@@ -1,0 +1,13 @@
+Consider a graph G, representing a social network. Assume that initially each node is colored either black or white, which corresponds to a positive or negative opinion regarding a consumer product or a technological innovation. In the majority model, in each round all nodes simultaneously update their color to the most frequent color among their connections.
+
+
+
+Experiments on the graph data from the real world social networks (SNs) suggest that if all nodes in an extremely small set of high-degree nodes, often referred to as the elites, agree on a color, that color becomes the dominant color at the end of the process. We propose two countermeasures that can be adopted by individual nodes relatively easily and guarantee that the elites will not have this disproportionate power to engineer the dominant output color. The first countermeasure essentially requires each node to make some new connections at random while the second one demands the nodes to be more reluctant towards changing their color (opinion). We verify their effectiveness and correctness both theoretically and experimentally.
+
+
+
+We also investigate the majority model and a variant of it when the initial coloring is random on the real world SNs and several random graph models. In particular, our results on the Erdős-Rényi, and regular random graphs confirm or support several theoretical findings or conjectures by the prior work regarding the threshold behavior of the process.
+
+
+
+Finally, we provide theoretical and experimental evidence for the existence of a poly-logarithmic bound on the expected stabilization time of the majority model.

@@ -1,0 +1,1 @@
+Extensions of Dung’s Argumentation Framework (AF) include the class of Recursive Bipolar AFs (Rec-BAFs), i.e. AFs with recursive attacks and supports. We show that a Rec-BAF \Delta can be translated into a logic program P_\Delta so that the extensions of \Delta under different semantics coincide with subsets of the partial stable models of P_\Delta.

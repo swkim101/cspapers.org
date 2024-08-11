@@ -1,0 +1,7 @@
+This paper addresses the challenge of online generalization in tree search. We propose Multiple Estimator Monte Carlo Tree Search (ME-MCTS), with a two-fold contribution: first, we introduce a formalization of online generalization that can represent existing techniques such as "history heuristics", "RAVE", or "OMA" -- contextual action value estimators or abstractors that generalize across specific contexts. Second, we incorporate recent advances in estimator averaging that enable guiding search by combining the online action value estimates of any number of such abstractors or similar types of action value estimators.
+
+Unlike previous work, which usually proposed a single abstractor for either the selection or the rollout phase of MCTS simulations, our approach focuses on the combination of multiple estimators and applies them to all move choices in MCTS simulations. As the MCTS tree itself is just another value estimator -- unbiased, but without abstraction -- this blurs the traditional distinction between action choices inside and outside of the MCTS tree.
+
+Experiments with three abstractors in four board games show significant improvements of ME-MCTS over MCTS using only a single abstractor, both for MCTS with random rollouts as well as for MCTS with static evaluation functions.
+
+While we used deterministic, fully observable games, ME-MCTS naturally extends to more challenging settings.

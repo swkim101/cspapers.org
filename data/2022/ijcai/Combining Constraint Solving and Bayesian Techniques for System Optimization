@@ -1,0 +1,7 @@
+Application domains of Bayesian optimization include optimizing black-box functions or very complex functions.
+
+The functions we are interested in describe complex real-world systems applied in industrial settings.
+
+Even though they do have explicit representations, standard optimization techniques fail to provide validated solutions and correctness guarantees for them.
+
+In this paper we present a combination of Bayesian optimization and SMT-based constraint solving to achieve safe and stable solutions with optimality guarantees.

@@ -1,0 +1,25 @@
+Recent years have witnessed the emerging success of leveraging syntax graphs for the target sentiment classification task.
+
+However, we discover that existing syntax-based models suffer from two issues:
+
+noisy information aggregation and loss of distant correlations.
+
+In this paper, we propose a novel model termed Neural Subgraph Explorer, which 
+
+(1) reduces the noisy information via pruning target-irrelevant nodes on the syntax graph;
+
+(2) introduces beneficial first-order connections between the target and its related words into the obtained graph.
+
+Specifically, we design a multi-hop actions score estimator to evaluate the value of each word regarding the specific target.
+
+The discrete action sequence is sampled through Gumble-Softmax and then used for both of the syntax graph and the self-attention graph.
+
+To introduce the first-order connections between the target and its relevant words, the two pruned graphs are merged.
+
+Finally, graph convolution is conducted on the obtained unified graph to update the hidden states.
+
+And this process is stacked with multiple layers.
+
+To our knowledge, this is the first attempt of target-oriented syntax graph pruning in this task.
+
+Experimental results demonstrate the superiority of our model, which achieves new state-of-the-art performance.

@@ -1,0 +1,7 @@
+We introduce a multi-agent, dynamic extension of abstract argumentation frameworks (AFs), strongly inspired by epistemic logic, where agents have only
+
+partial information about the conflicts between arguments. These frameworks can be used to model a variety of situations. For instance, those in which
+
+agents have bounded logical resources and therefore fail to spot some of the actual attacks, or those where some arguments are not explicitly and fully
+
+stated (enthymematic argumentation). Moreover, we include second-order knowledge and common knowledge of the attack relation in our structures (where the latter accounts for the state of the debate), so as to reason about different kinds of persuasion and about strategic features. This version of multi-agent AFs, as well as their updates with public announcements of attacks (more concretely, the effects of these updates on the acceptability of an argument) can be described using S5-PAL, a well-known dynamic-epistemic logic. We also discuss how to extend our proposal to capture arbitrary higher-order attitudes and uncertainty.

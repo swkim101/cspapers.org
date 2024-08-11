@@ -1,0 +1,3 @@
+A standard Variational Autoencoder, with a Euclidean latent space, is structurally incapable of capturing topological properties of certain datasets. To remove topological obstructions, we introduce Diffusion Variational Autoencoders (DeltaVAE) with arbitrary (closed) manifolds as a latent space. A Diffusion Variational Autoencoder uses transition kernels of Brownian motion on the manifold. In particular, it uses properties of the Brownian motion to implement the reparametrization trick and fast approximations to the KL divergence. 
+
+We show that the DeltaVAE is indeed capable of capturing topological properties for datasets with a known underlying latent structure derived from generative processes such as rotations and translations.

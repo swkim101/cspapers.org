@@ -1,0 +1,15 @@
+We investigate opinion dynamics in a fully-connected system, consisting of n agents, where one of the opinions, called correct, represents a piece of information to disseminate.
+
+One source agent initially holds the correct opinion and remains with this opinion throughout the execution. The goal of the remaining agents is to quickly agree on this correct opinion. At each round, one agent chosen uniformly at random is activated: unless it is the source, the agent pulls the opinions of l random agents and then updates its opinion according to some rule.
+
+We consider a restricted setting, in which agents have no memory and they only revise their opinions on the basis of those of the agents they currently sample.
+
+This setting encompasses very popular opinion dynamics, such as the voter model and best-of-k majority rules.
+
+
+
+Qualitatively speaking, we show that lack of memory prevents efficient convergence. Specifically, we prove that any dynamics requires Omega(n^2) expected time, even under a strong version of the model in which activated agents have complete access to the current configuration of the entire system, i.e., the case l=n. Conversely, we prove that the simple voter model (in which l=1) correctly solves the problem, while almost matching the aforementioned lower bound.
+
+
+
+These results suggest that, in contrast to symmetric consensus problems (that do not involve a notion of correct opinion), fast convergence on the correct opinion using stochastic opinion dynamics may require the use of memory.

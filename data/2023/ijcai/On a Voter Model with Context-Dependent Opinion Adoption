@@ -1,0 +1,5 @@
+Opinion diffusion is a crucial phenomenon in social networks, often underlying the way in which a collection of agents develops a consensus on relevant decisions. Voter models are well-known theoretical models to study opinion spreading in social networks and structured populations. Their simplest version assumes that an updating agent will adopt the opinion of a neighboring agent chosen at random. These models allow us to study, for example, the probability that a certain opinion will fixate into a consensus opinion, as well as the expected time it takes for a consensus opinion to emerge.
+
+
+
+Standard voter models are oblivious to the opinions held by the agents involved in the opinion adoption process. We propose and study a context-dependent opinion spreading process on an arbitrary social graph, in which the probability that an agent abandons opinion a in favor of opinion b depends on both a and b. We discuss the relations of the model with existing voter models and then derive theoretical results for both the fixation probability and the expected consensus time for two opinions, for both the synchronous and the asynchronous update models.

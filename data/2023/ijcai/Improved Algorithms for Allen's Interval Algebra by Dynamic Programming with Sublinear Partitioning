@@ -1,0 +1,7 @@
+Allen's interval algebra is one of the most well-known calculi in qualitative temporal reasoning with numerous applications in artificial intelligence. Very recently, there has been a surge of improvements in the fine-grained complexity of NP-hard reasoning tasks in this algebra, which has improved the running time from the naive 2^O(n^2) to O*((1.0615n)^n), and even faster algorithms are known for unit intervals and the case when we a bounded number of overlapping intervals.
+
+Despite these improvements the best known lower bound is still only 2^o(n) under the exponential-time hypothesis and major improvements in either direction seemingly require fundamental advances in computational complexity.
+
+In this paper we propose a novel framework for solving NP-hard qualitative reasoning problems which we refer to as dynamic programming with sublinear partitioning.
+
+ Using this technique we obtain a major improvement of O*((cn/log(n))^n) for Allen's interval algebra. To demonstrate that the technique is applicable to further problem domains we apply it to a problem in qualitative spatial reasoning, the cardinal direction calculus, and solve it in O*((cn/log(n))^(2n/3)) time. Hence, not only do we significantly advance the state-of-the-art for NP-hard qualitative reasoning problems, but obtain a novel algorithmic technique that is likely applicable to many problems where 2^O(n) time algorithms are unlikely.

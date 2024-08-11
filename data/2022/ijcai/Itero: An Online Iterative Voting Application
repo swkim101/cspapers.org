@@ -1,0 +1,3 @@
+Iterative voting allows a group of agents to take a collective decision in a dynamic fashion: a series of plurality elections are staged, making the relative scores of the candidates public after each round. Voters can thus adjust their ballots at each step until the process converges (or a maximal number of steps is reached). 
+
+Research in computational social choice has shown that this method has the potential of reaching good-quality decisions while at the same time being easy to explain to voters. This paper presents our implementation of iterative voting on a voting platform accessible on the web.

@@ -1,0 +1,5 @@
+System monitoring and anomaly detection is a crucial task in daily operation. With the rapid development of cyber-physical systems and IT systems, multiple sensors get involved to represent the system state from different perspectives, which inspires us to detect anomalies considering feature dependence relationship among sensors instead of focusing on individual sensor's behavior. In this paper, we propose a novel Graph Relational Learning Network (GReLeN) to detect multivariate time series anomalies from the perspective of between-sensor dependence relationship learning. 
+
+Variational AutoEncoder (VAE) serves as the overall framework for feature extraction and system representation. Graph Neural Network (GNN) and stochastic graph relational learning strategy are also imposed to capture the between-sensor dependence. Then a composite anomaly metric is established with the learned dependence structure explicitly. 
+
+The experiments on four real-world datasets show our superiority in detection accuracy, anomaly diagnosis, and model interpretation.

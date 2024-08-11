@@ -1,0 +1,7 @@
+The power of norms in both human societies and sociotechnical systems arises from the facts that (1) societal norms, including laws and policies, characterize acceptable behavior in high-level terms and (2) they are not hard controls and can be deviated from. Thus, the design of responsibly autonomous agents faces an essential tension: these agents must both (1) respect applicable norms and (2) deviate from those norms when blindly following them may lead to diminished outcomes.
+
+
+
+We propose a conceptual foundation for norm deviation. As a guiding framework, we adopt Habermas's theory of communicative action comprising objective, subjective, and practical validity claims regarding the suitability of deviation.
+
+Our analysis thus goes beyond previous studies of norm deviation and yields reasoning guidelines uniting norms and values by which to develop responsible agents.

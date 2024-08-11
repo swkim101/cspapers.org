@@ -1,0 +1,17 @@
+Online forum that gathers participants together to solve the common issues that they are facing is considered as a promising application of utilizing collective intelligence to solve complicated real-world problems.
+
+To facilitate the discussions in online forum to proceed smoothly and to build consensus efficiently, human facilitators are introduced into the system.
+
+With the increasing sophistication of online forum, human facilitators related problems such as human bias and restricted scale become critical.
+
+Therefore, it is critical to explore approaches to support human facilitators in conducting facilitation.
+
+However, most of the existing facilitation support techniques only support predefined facilitation tasks that could be defined by static rules.
+
+In this research, we aim to explore potential solutions for supporting the human facilitators to conduct facilitation in online forum.
+
+As the first step, we have proposed a case-based reasoning (CBR)-based framework that targets support facilitation by utilizing past successful facilitation experience.
+
+Currently, our work is focusing on the specific facilitation task of detecting influential user in the online forum.
+
+In the future work, we are planning to propose approaches of solving other specific facilitation tasks such as measuring the level of agreement and encouraging participants to reach a consensus.

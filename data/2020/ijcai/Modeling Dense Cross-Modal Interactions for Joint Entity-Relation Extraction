@@ -1,0 +1,9 @@
+Joint extraction of entities and their relations benefits from the close interaction between named entities and their relation information. Therefore, how
+
+to effectively model such cross-modal interactions is critical for the final performance. Previous works have used simple methods such as label-feature concatenation to perform coarse-grained semantic fusion among cross-modal instances, but fail to capture fine-grained correlations over token and label
+
+spaces, resulting in insufficient interactions. In this paper, we propose a deep Cross-Modal Attention Network (CMAN) for joint entity and relation extraction. The network is carefully constructed by stacking multiple attention units in depth to fully model dense interactions over token-label spaces, in which two basic attention units are proposed to explicitly capture fine-grained correlations across
+
+different modalities (e.g., token-to-token and labelto-token). Experiment results on CoNLL04 dataset show that our model obtains state-of-the-art results by achieving 90.62% F1 on entity recognition and 72.97% F1 on relation classification. In ADE dataset, our model surpasses existing approaches by
+
+more than 1.9% F1 on relation classification. Extensive analyses further confirm the effectiveness of our approach.

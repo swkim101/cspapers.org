@@ -1,0 +1,9 @@
+Prompts have been shown to be an effective method to adapt a frozen Pretrained Language Model (PLM) to perform well on downstream tasks. Prompts can be represented by a human-engineered word sequence or by a learned continuous embedding.
+
+In this work, we investigate conditional and compositional differentiable prompting.
+
+We propose a new model, Prompt Production System (ProPS), which learns to transform task instructions or input metadata, into continuous prompts that elicit task-specific outputs from the PLM.
+
+Our model uses a modular network structure based on our neural formulation of Production Systems, which allows the model to learn discrete rules -- neural functions that learn to specialize in transforming particular prompt input patterns, making it suitable for compositional transfer learning and few-shot learning.
+
+We present extensive empirical and theoretical analysis and show that ProPS consistently surpasses other PLM adaptation techniques, and often improves upon fully fine-tuned models, on compositional generalization tasks, controllable summarization and multilingual translation, while needing fewer trainable parameters.
