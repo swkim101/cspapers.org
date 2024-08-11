@@ -1,0 +1,1 @@
+At-home exercise monitoring is vital to applications like rehabilitative care and physical therapy. In this work, we use millimeter-wave signal reflections to assess the exercise, where we classify the exercise type by designing a supervised deep learning model, and estimate the number of repetitions by leveraging phase information embedded in the reflections.

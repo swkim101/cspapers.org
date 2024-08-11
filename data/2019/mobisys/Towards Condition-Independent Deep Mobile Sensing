@@ -1,0 +1,1 @@
+Deep mobile sensing applications are suffering from various individual conditions in the wild. We propose a meta-learned adaptation technique to adapt to a target condition with a few labeled data. We evaluate our system on a public dataset and it outperforms baselines.

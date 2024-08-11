@@ -1,0 +1,1 @@
+Machine learning has a lot of potential when applied to time series sensor data, yet a lot of this potential is currently not utilized, due to privacy concerns of parties in charge of this data. In this work I want to apply privacy-preserving techniques to machine learning for time series data, in order to unleash the dormant potential of this type of data.

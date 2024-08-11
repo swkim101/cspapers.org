@@ -1,0 +1,1 @@
+Today's GPS navigators have difficulty determining altitude such as whether a car is under or on an overpass. In this paper, we show how to use the barometers, which come with off-the-shelf smartphones, to improve vertical positioning accuracy. We will present performance testing results from different real road scenarios to show the feasibility of the proposed method.

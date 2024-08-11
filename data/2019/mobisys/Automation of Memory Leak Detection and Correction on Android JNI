@@ -1,0 +1,1 @@
+As many people use smartphones, many Android applications are being developed and distributed. They are usually written in Java, including C legacy libraries through Java native interface (JNI). To execute these applications written in Java, a virtual machine (VM) is required. For Android, Google's own Dalvic VM had been used, and recently Android Runtime (ART) is being used.

@@ -1,0 +1,1 @@
+We design a flexible data plane to integrate SDN and ENFV to manage complex network services for future mobile services. We build our prototype and show its feasibility in terms of latency and throughput by using mobile edge computing as an example use case in a realistic mobile networking testbed.
