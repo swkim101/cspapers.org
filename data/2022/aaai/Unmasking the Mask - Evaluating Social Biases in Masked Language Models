@@ -1,0 +1,9 @@
+Masked Language Models (MLMs) have shown superior performances in numerous downstream Natural Language Processing (NLP) tasks.
+ Unfortunately, MLMs also demonstrate significantly worrying levels of social biases.
+ We show that the previously proposed evaluation metrics for quantifying the social biases in MLMs are problematic due to the following reasons:
+ (1) prediction accuracy of the masked tokens itself tend to be low in some MLMs,
+ which leads to unreliable evaluation metrics, and 
+ (2) in most downstream NLP tasks, masks are not used; therefore prediction of the mask is not directly related to them, and 
+ (3) high-frequency words in the training data are masked more often, introducing noise due to this selection bias in the test cases.
+ Therefore, we propose All Unmasked Likelihood (AUL), a bias evaluation measure that predicts all tokens in a test case given the MLM embedding of the unmasked input and AUL with Attention weights (AULA) to evaluate tokens based on their importance in a sentence.
+ Our experimental results show that the proposed bias evaluation measures accurately detect different types of biases in MLMs, and unlike AUL and AULA, previously proposed measures for MLMs systematically overestimate the measured biases and are heavily influenced by the unmasked tokens in the context.

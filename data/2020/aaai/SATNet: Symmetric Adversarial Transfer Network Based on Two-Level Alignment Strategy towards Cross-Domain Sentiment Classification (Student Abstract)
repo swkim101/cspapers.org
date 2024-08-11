@@ -1,0 +1,1 @@
+In recent years, domain adaptation tasks have attracted much attention, especially, the task of cross-domain sentiment classification (CDSC). In this paper, we propose a novel domain adaptation method called Symmetric Adversarial Transfer Network (SATNet). Experiments on the Amazon reviews dataset demonstrate the effectiveness of SATNet.

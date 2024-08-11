@@ -1,0 +1,4 @@
+We propose a market-inspired bidding scheme for the assignment of paper reviews in large academic conferences. We provide an analysis of the incentives of reviewers during the bidding phase, when reviewers have both private costs and some information about the demand for each paper; and their goal is to obtain the best possible k papers for a predetermined k. 
+
+We show that by assigning `budgets' to reviewers and a `price' for every paper that is (roughly) proportional to its demand, the best response of a reviewer is to bid sincerely, i.e., on her most favorite papers, and match the budget even when it is not enforced. This game-theoretic analysis is based on a simple, prototypical assignment algorithm.
+We show via extensive simulations on bidding data from real conferences, that our bidding scheme would substantially improve both the bid distribution and the resulting assignment.

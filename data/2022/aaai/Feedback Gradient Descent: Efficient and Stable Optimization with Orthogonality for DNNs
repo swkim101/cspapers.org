@@ -1,0 +1,7 @@
+The optimization with orthogonality has been shown useful in training deep neural networks (DNNs). 
+ To impose orthogonality on DNNs, both computational efficiency and stability are important.
+ However, existing methods utilizing Riemannian optimization or hard constraints can only ensure stability while those using soft constraints can only improve efficiency.
+ In this paper, we propose a novel method, named Feedback Gradient Descent (FGD), to our knowledge, the first work showing high efficiency and stability simultaneously.
+ FGD induces orthogonality based on the simple yet indispensable Euler discretization of a continuous-time dynamical system on the tangent bundle of the Stiefel manifold.
+ In particular, inspired by a numerical integration method on manifolds called Feedback Integrators, we propose to instantiate it on the tangent bundle of the Stiefel manifold for the first time.
+ In our extensive image classification experiments, FGD comprehensively outperforms the existing state-of-the-art methods in terms of accuracy, efficiency, and stability.

@@ -1,0 +1,8 @@
+Open Set Domain Adaptation (OSDA) is a challenging domain adaptation setting which allows the existence of unknown classes on the target domain.
+Although existing OSDA methods are good at classifying samples of known classes, they ignore the classification ability for the unknown samples, making them unbalanced OSDA methods.
+To alleviate this problem, we propose a balanced OSDA methods which could recognize the unknown samples while maintain high classification performance for the known samples.
+Specifically, to reduce the domain gaps, we first project the features to a hyperspherical latent space.
+In this space, we propose to bound the centroid deviation angles to not only increase the intra-class compactness but also enlarge the inter-class margins.
+With the bounded centroid deviation angles, we employ the statistical Extreme Value Theory to recognize the unknown samples that are misclassified into known classes.
+In addition, to learn better centroids, we propose an improved centroid update strategy based on sample reweighting and adaptive update rate to cooperate with centroid alignment.
+Experimental results on three OSDA benchmarks verify that our method can significantly outperform the compared methods and reduce the proportion of the unknown samples being misclassified into known classes.

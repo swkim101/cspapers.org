@@ -1,0 +1,6 @@
+Argument structure elaborates the relation among claims and premises. 
+Previous works in persuasiveness prediction do not consider this relation in their architectures. 
+To take argument structure information into account, this paper proposes an approach to persuasiveness prediction with a novel graph-based neural network model, called heterogeneous argument attention network (HARGAN).
+By jointly training on the persuasiveness and stance of the replies, our model achieves the state-of-the-art performance on the ChangeMyView (CMV) dataset for the persuasiveness prediction task.
+Experimental results show that the graph setting enables our model to aggregate information across multiple paragraphs effectively.
+In the meanwhile, our stance prediction auxiliary task enables our model to identify the viewpoint of each party, and helps our model perform better on the persuasiveness prediction.

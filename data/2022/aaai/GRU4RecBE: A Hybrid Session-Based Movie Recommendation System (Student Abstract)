@@ -1,0 +1,1 @@
+We present a novel movie recommendation system, GRU4RecBE, which extends the GRU4Rec architecture with rich item features extracted by the pre-trained BERT model. GRU4RecBE outperforms state-of-the-art session-based models over the benchmark MovieLens 1m and MovieLens 20m datasets.

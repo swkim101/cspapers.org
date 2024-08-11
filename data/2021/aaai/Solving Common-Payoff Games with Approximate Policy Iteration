@@ -1,0 +1,8 @@
+For artificially intelligent learning systems to have widespread applicability in real-world settings, it is important that they be able to operate decentrally.
+Unfortunately, decentralized control is difficult---computing even an epsilon-optimal joint policy is a NEXP complete problem.
+Nevertheless, a recently rediscovered insight---that a team of agents can coordinate via common knowledge---has given rise to algorithms capable of finding optimal joint policies in small common-payoff games.
+The Bayesian action decoder (BAD) leverages this insight and deep reinforcement learning to scale to games as large as two-player Hanabi.
+However, the approximations it uses to do so prevent it from discovering optimal joint policies even in games small enough to brute force optimal solutions.
+This work proposes CAPI, a novel algorithm which, like BAD, combines common knowledge with deep reinforcement learning.
+However, unlike BAD, CAPI prioritizes the propensity to discover optimal joint policies over scalability.
+While this choice precludes CAPI from scaling to games as large as Hanabi, empirical results demonstrate that, on the games to which CAPI does scale, it is capable of discovering optimal joint policies even when other modern multi-agent reinforcement learning algorithms are unable to do so.

@@ -1,0 +1,6 @@
+Reinforcement learning (RL) agents empowered by deep neural networks have been considered a feasible solution to automate control functions in a cyber-physical system. 
+ In this work, we consider an RL-based agent and address the issue of learning via continual interaction with a time-varying dynamic system modeled as a non-stationary Markov decision process (MDP). 
+ We view such a non-stationary MDP as a time series of conventional MDPs that can be parameterized by hidden variables. To infer the hidden parameters, we present a task decomposition method that exploits CycleGAN-based structure learning. 
+ This method enables the separation of time-variant tasks from a non-stationary MDP, establishing the task decomposition embedding specific to time-varying information. 
+ To mitigate the adverse effect due to inherent noises of task embedding, we also leverage continual learning on sequential tasks by adapting the orthogonal gradient descent scheme with a sliding window.
+ Through various experiments, we demonstrate that our approach renders the RL agent adaptable to time-varying dynamic environment conditions, outperforming other methods including state-of-the-art non-stationary MDP algorithms.

@@ -1,0 +1,12 @@
+The key challenge of co-saliency detection is to extract discriminative features to distinguish the common salient foregrounds from backgrounds in a group of relevant images. In
+this paper, we propose a new co-saliency detection framework
+which includes two strategies to improve the discriminative ability of the features. Specifically, on one hand, we segment
+each image to semantic superpixel clusters as well as generate
+different scales/sizes of images for each input image by the
+VGG-16 model. Different scales capture different patterns of
+the images. As a result, multi-scale images can capture various patterns among all images by many kinds of perspectives. Second, we propose a new method of Graph Convolutional Network (GCN) to fine-tune the multi-scale features,
+aiming at capturing the common information among the features from all scales and the private or complementary information for the feature of each scale. Moreover, the proposed
+GCN method jointly conducts multi-scale feature fine-tune,
+graph learning, and feature learning in a unified framework.
+We evaluated our method on three benchmark data sets, compared to state-of-the-art co-saliency detection methods. Experimental results showed that our method outperformed all
+comparison methods in terms of different evaluation metrics.

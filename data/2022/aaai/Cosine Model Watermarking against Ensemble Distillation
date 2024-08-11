@@ -1,0 +1,6 @@
+Many model watermarking methods have been developed to prevent valuable deployed commercial models from being stealthily stolen by model distillations.
+ However, watermarks produced by most existing model watermarking methods can be easily evaded by ensemble distillation, because averaging the outputs of multiple ensembled models can significantly reduce or even erase the watermarks.
+ In this paper, we focus on tackling the challenging task of defending against ensemble distillation.
+ We propose a novel watermarking technique named CosWM to achieve outstanding model watermarking performance against ensemble distillation.
+ CosWM is not only elegant in design, but also comes with desirable theoretical guarantees.
+ Our extensive experiments on public data sets demonstrate the excellent performance of CosWM and its advantages over the state-of-the-art baselines.

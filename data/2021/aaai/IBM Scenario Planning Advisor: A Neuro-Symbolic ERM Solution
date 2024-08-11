@@ -1,0 +1,25 @@
+Scenario Planning is a commonly used Enterprise Risk Management
+(ERM) technique to help decision makers with longterm
+plans by considering multiple alternative futures. It is
+typically a manual, highly labor intensive process involving
+dozens of experts and hundreds to thousands of person-hours.
+We previously introduced a Scenario Planning Advisor prototype
+(Sohrabi et al. 2018a,b) that focuses on generating
+scenarios quickly based on expert-developed models. We
+present the evolution of that prototype into a full-scale, cloud deployed
+ERM solution that: (i) can automatically (through
+NLP) create models from authoritative documents such as
+books, reports and articles, such that what typically took hundreds
+to thousands of person-hours can now be achieved in
+minutes to hours; (ii) can gather news and other feeds relevant
+to forces in the risk models and group them into storylines
+without any other user input; (iii) can generate scenarios
+at scale, starting with dozens of forces of interest from models
+with thousands of forces in seconds; (iv) provides interactive
+visualizations of scenario and force model graphs, including
+a full model editor in the browser.
+The SPA solution is deployed under a non-commercial
+use license at https://spa-service.draco.res.ibm.com
+and includes a user guide to help new users get
+started. A video demonstration is available at
+https://www.youtube.com/watch?v=IaX3d37NUl8.

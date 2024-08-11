@@ -1,0 +1,5 @@
+Dung’s Argumentation Framework (AF) has been extended in several directions, including the possibility of representing unquantified uncertainty about the existence of arguments and attacks.
+The framework resulting from such an extension is called incomplete AF (iAF). In this paper, we first introduce three new satisfaction problems named totality, determinism and functionality, and investigate their computational complexity for both AF and iAF under several semantics.
+We also investigate the complexity of credulous and skeptical acceptance in iAF under semi-stable semantics—a problem left open in the literature.
+We then show that any iAF can be rewritten into an equivalent one where either only (unattacked) arguments or only attacks are uncertain. 
+Finally, we relate iAF to probabilistic argumentation framework, where uncertainty is quantified.

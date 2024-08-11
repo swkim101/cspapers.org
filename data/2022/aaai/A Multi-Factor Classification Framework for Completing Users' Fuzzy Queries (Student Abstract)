@@ -1,0 +1,1 @@
+Intent identification is the key technology in dialogue system. However, not all online queries are clear or complete. To identify users' intents from those fuzzy queries accurately, this paper proposes a multi-factor classification framework on the query level. Experimental results on our online serving system JIMI demonstrate the effectiveness of our proposed framework.

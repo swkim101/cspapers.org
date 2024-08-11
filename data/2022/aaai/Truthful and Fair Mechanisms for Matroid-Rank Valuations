@@ -1,0 +1,7 @@
+We study the problem of allocating indivisible goods among strategic agents. We focus on settings wherein monetary transfers are not available and each agent's private valuation is a submodular function with binary marginals, i.e., the agents' valuations are matroid-rank functions. In this setup, we establish a notable dichotomy between two of the most well-studied fairness notions in discrete fair division; specifically, between envy-freeness up to one good (EF1) and maximin shares (MMS). 
+
+First, we show that a known Pareto-efficient mechanism is group strategy-proof for finding EF1 allocations, under matroid-rank valuations. The group strategy-proofness guarantee strengthens an existing result that establishes truthfulness (individually for each agent) in the same context. Our result also generalizes prior work from binary additive valuations to the matroid-rank case. 
+
+Next, we establish that an analogous positive result cannot be achieved for MMS, even when considering truthfulness on an individual level. Specifically, we prove that, for matroid-rank valuations, there does not exist a truthful mechanism that is index oblivious, Pareto efficient, and maximin fair. 
+
+For establishing our results, we develop a characterization of truthful mechanisms for matroid-rank functions. This characterization in fact holds for a broader class of valuations (specifically, holds for binary XOS functions) and might be of independent interest.

@@ -1,0 +1,18 @@
+Answer set programming (ASP) is a popular declarative programming paradigm
+ with a wide range of applications in artificial intelligence. Oftentimes,
+ when modeling an AI problem with ASP, and in particular when we are interested
+ beyond simple search for optimal solutions, an actual solution, differences
+ between solutions, or number of solutions of the ASP program matter. For
+ example, when a user aims to identify a specific answer set according to her
+ needs, or requires the total number of diverging solutions to comprehend
+ probabilistic applications such as reasoning in medical domains. Then, there
+ are only certain problem specific and handcrafted encoding techniques
+ available to navigate the solution space of ASP programs, which is oftentimes
+ not enough. In this paper, we propose a formal and general framework for
+ interactive navigation toward desired subsets of answer sets analogous to
+ faceted browsing. Our approach enables the user to explore the solution space
+ by consciously zooming in or out of sub-spaces of solutions at a certain
+ configurable pace. We illustrate that weighted faceted navigation is
+ computationally hard. Finally, we provide an implementation of our approach
+ that demonstrates the feasibility of our framework for incomprehensible
+ solution spaces.

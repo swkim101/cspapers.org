@@ -1,0 +1,10 @@
+We expand the literature on the price of anarchy (PoA) of simultaneous item auctions by considering settings with correlated values; we do this via the fundamental economic model of interdependent values (IDV).
+ It is well-known that in multi-item settings with private values, correlated values can lead to bad PoA, which can be polynomially large in the number of agents~n.
+ In the more general model of IDV, we show that the PoA can be polynomially large even in single-item settings.
+ On the positive side, we identify a natural condition on information dispersion in the market, which enables good PoA guarantees. 
+ Under this condition, we show that for single-item settings, the PoA of standard mechanisms degrades gracefully.
+ For settings with multiple items we show a separation between two domains: 
+ If there are more buyers, we devise a new simultaneous item auction with good PoA, under limited information asymmetry.
+ To the best of our knowledge, this is the first positive PoA result for correlated values in multi-item settings.
+ The main technical difficulty in establishing this result is that the standard tool for establishing PoA results --- the smoothness framework --- is unsuitable for IDV settings, and so we must introduce new techniques to address the unique challenges imposed by such settings.
+ In the domain of more items, we establish impossibility results even for surprisingly simple scenarios.

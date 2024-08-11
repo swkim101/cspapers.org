@@ -1,0 +1,7 @@
+For personalized ranking models, the well-calibrated probability of an item being preferred by a user has great practical value.
+ While existing work shows promising results in image classification, probability calibration has not been much explored for personalized ranking.
+ In this paper, we aim to estimate the calibrated probability of how likely a user will prefer an item.
+ We investigate various parametric distributions and propose two parametric calibration methods, namely Gaussian calibration and Gamma calibration.
+ Each proposed method can be seen as a post-processing function that maps the ranking scores of pre-trained models to well-calibrated preference probabilities, without affecting the recommendation performance.
+ We also design the unbiased empirical risk minimization framework that guides the calibration methods to learning of true preference probability from the biased user-item interaction dataset.
+ Extensive evaluations with various personalized ranking models on real-world datasets show that both the proposed calibration methods and the unbiased empirical risk minimization significantly improve the calibration performance.
