@@ -1,0 +1,7 @@
+This work demonstrates a writing assistant system that provides high level advice for Chinese scientific writing. 
+
+Cross-lingual approaches are investigated to analyze the information structure of a given Chinese abstract and retrieve useful knowledge in the related work written in both English and Chinese.
+
+To the best of our knowledge, this is the first study on Chinese information structure identification. 
+
+Without the need of labeled Chinese data, our novel model is capable of dealing with Chinese instances by acquiring language-invariant knowledge from the labeled English data. Adversarial learning is employed to enhance the cross-lingual sentence representation.

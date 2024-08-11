@@ -1,0 +1,9 @@
+Recent CNN-based saliency models have achieved excellent performance on public datasets, but most are sensitive to distortions from noise or compression. In this paper, we propose an end-to-end generic salient object segmentation model called
+
+Metric Expression Network (MEnet) to overcome this drawback. We construct a topological metric space where the implicit metric is determined by a deep network. In this latent space, we can group pixels within an observed image semantically into
+
+two regions, based on whether they are in a salient region or a non-salient region in the image. We carry out all feature extractions at the pixel level, which makes the output boundaries of the salient object finely-grained. Experimental results show
+
+that the proposed metric can generate robust salient maps that allow for object segmentation. By testing the method on several public benchmarks, we show that the performance of MEnet achieves excellent results. We also demonstrate that the proposed
+
+method outperforms previous CNN-based methods on distorted images.

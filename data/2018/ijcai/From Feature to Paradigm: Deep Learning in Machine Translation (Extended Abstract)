@@ -1,0 +1,7 @@
+In the last years, deep learning algorithms have highly revolutionized several areas including speech, image and natural language processing. The specific field of Machine Translation (MT) has not remained invariant. Integration of deep learning in MT varies from re-modeling existing features into standard statistical systems to the development of a new architecture. Among the different neural networks, research works use feed-forward neural networks, recurrent neural networks and the encoder-decoder schema. These architectures are able to tackle challenges as having low-resources or morphology variations.
+
+
+
+This extended abstract focuses on describing the foundational works on the neural MT approach; mentioning its strengths and weaknesses; and including an analysis of the corresponding challenges and future work. The full manuscript [Costa-jussà, 2018] describes, in addition, how these neural networks have been integrated to enhance different aspects and models from statistical MT, including language modeling, word alignment, translation, reordering, and rescoring; and on describing the new neural MT approach together with recent approaches on using subword, characters and training with multilingual
+
+languages, among others.

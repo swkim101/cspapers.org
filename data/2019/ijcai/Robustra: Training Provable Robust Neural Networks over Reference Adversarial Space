@@ -1,0 +1,7 @@
+Machine learning techniques, especially deep neural networks (DNNs), have been widely adopted in various applications. However, DNNs are recently found to be vulnerable against adversarial examples, i.e., maliciously perturbed inputs that can mislead the models to make arbitrary prediction errors.
+Empirical defenses have been studied, but many of them can be adaptively attacked again. 
+Provable defenses provide provable error bound of DNNs, while such bound so far is far from satisfaction. 
+To address this issue, in this paper, we present our approach named Robustra for effectively improving the provable error bound of DNNs. 
+We leverage the adversarial space of a reference model as the feasible region to solve the min-max game between the attackers and defenders. 
+We solve its dual problem by linearly approximating the attackers' best strategy and utilizing the monotonicity of the slack variables introduced by the reference model.
+The evaluation results show that our approach can provide significantly better provable adversarial error bounds on MNIST and CIFAR10 datasets, compared to the state-of-the-art results. In particular, bounded by L^infty, with epsilon = 0.1, on MNIST we reduce the error bound from 2.74% to 2.09%; with epsilon = 0.3, we reduce the error bound from 24.19% to 16.91%.

@@ -1,0 +1,1 @@
+We propose an axiomatization of PageRank. Specifically, we introduce five simple axioms—Foreseeability, Outgoing Homogeneity, Monotonicity, Merging, and Dummy Node—and show that PageRank is the only centrality measure that satisfies all of them. Our axioms give a new conceptual and theoretical underpinnings of PageRank and show how it differs from other centralities.

@@ -1,0 +1,27 @@
+Distributed word embeddings have shown superior performances in numerous Natural Language Processing (NLP) tasks.
+
+However, their performances vary significantly across different tasks,
+
+implying that the word embeddings learnt by those methods capture complementary aspects of lexical semantics.
+
+Therefore, we believe that it is important to combine the existing word embeddings to produce more accurate and complete
+
+meta-embeddings of words.
+
+For this purpose, we propose an unsupervised locally linear meta-embedding learning method that takes 
+
+pre-trained word embeddings as the input, and produces more accurate meta embeddings.
+
+Unlike previously proposed meta-embedding learning methods that learn a global projection over all words in a vocabulary,
+
+our proposed method is sensitive to the differences in local neighbourhoods of the individual source word embeddings. 
+
+Moreover, we show that vector concatenation, a previously proposed highly competitive baseline
+
+approach for integrating word embeddings, can be derived as a special case of the proposed method.
+
+Experimental results on semantic similarity, word analogy, relation classification, and short-text classification tasks show that our
+
+meta-embeddings to significantly outperform prior methods in several benchmark datasets,
+
+establishing a new state of the art for meta-embeddings.

@@ -1,0 +1,18 @@
+The conflict-driven clause learning (CDCL) paradigm has revolutionized
+SAT solving over the last two decades. Extending this approach to
+pseudo-Boolean (PB) solvers doing 0-1 linear programming holds the
+promise of further exponential improvements in theory, but
+intriguingly such gains have not materialized in practice. Also
+intriguingly, most PB extensions of CDCL use not the division rule in
+cutting planes as defined in [Cook et al., '87] but instead the
+so-called saturation rule. To the best of our knowledge, there has
+been no study comparing the strengths of division and saturation in
+the context of conflict-driven PB learning, when all linear
+combinations of inequalities are required to cancel variables.
+We show that PB solvers with division instead of saturation can be
+exponentially stronger. In the other direction, we prove that
+simulating a single saturation step can require an exponential number
+of divisions. We also perform some experiments to see whether these
+phenomena can be observed in actual solvers. Our conclusion is that a
+careful combination of division and saturation seems to be crucial to
+harness more of the power of cutting planes.

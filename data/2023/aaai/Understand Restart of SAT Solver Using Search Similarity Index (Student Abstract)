@@ -1,0 +1,5 @@
+SAT solvers are widely used to solve many industrial problems because of their high performance, which is achieved by various heuristic methods.
+Understanding why these methods are effective is essential to improving them. One approach to this is analyzing them using qualitative measurements.
+In our previous study, we proposed search similarity index (SSI), a metric to quantify the similarity between searches. SSI significantly improved the performance of the parallel SAT solver.
+Here, we apply SSI to analyze the effect of restart, a key SAT solver technique.
+Experiments using SSI reveal the correlation between the difficulty of instances and the search change effect by restart, and the reason behind the effectiveness of the state-of-the-art restart method is also explained.

@@ -1,0 +1,7 @@
+The dueling bandits problem is an online learning framework where learning happens ``on-the-fly'' through preference feedback, i.e., from comparisons between a pair of actions. Unlike conventional online learning settings that require absolute feedback for each action, the dueling bandits framework assumes only the presence of (noisy) binary feedback about the relative quality of each pair of actions. The dueling bandits problem is well-suited for modeling settings that elicit subjective or implicit human feedback, which is typically more reliable in preference form. 
+
+In this survey, we review recent results in the theories, algorithms, and applications of the dueling bandits problem.
+
+As an emerging domain, the theories and algorithms of dueling bandits have been intensively studied during the past few years. We provide an overview of recent advancements, including algorithmic advances and applications.
+
+We discuss extensions to standard problem formulation and novel application areas, highlighting key open research questions in our discussion.

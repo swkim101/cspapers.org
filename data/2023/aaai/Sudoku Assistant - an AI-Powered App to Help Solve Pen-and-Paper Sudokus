@@ -1,0 +1,2 @@
+The Sudoku Assistant app is an AI assistant that uses a combination of machine learning and constraint programming techniques, to interpret and explain a pen-and-paper Sudoku scanned with a smartphone.
+Although the demo is about Sudoku, the underlying techniques are equally applicable to other constraint solving problems like timetabling, scheduling, and vehicle routing.

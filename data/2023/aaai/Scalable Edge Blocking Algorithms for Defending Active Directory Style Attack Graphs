@@ -1,0 +1,9 @@
+Active Directory (AD) is the default security management system for Windows domain networks. An AD environment naturally describes an attack graph where nodes represent computers/accounts/security groups, and edges represent existing accesses/known exploits that allow the attacker to gain access from one node to another. Motivated by practical AD use cases, we study a Stackelberg game between one attacker and one defender. There are multiple entry nodes for the attacker to choose from and there is a single target (Domain Admin). Every edge has a failure rate. The attacker chooses the attack path with the maximum success rate. The defender can block a limited number of edges (i.e., revoke accesses) from a set of blockable edges, limited by budget. The defender's aim is to minimize the attacker's success rate.
+
+We exploit the tree-likeness of practical AD graphs to design scalable algorithms. We propose two novel methods that combine theoretical fixed parameter analysis and practical optimisation techniques.
+
+For graphs with small tree widths, we propose a tree decomposition based dynamic program. We then propose a general method for converting tree decomposition based dynamic programs to reinforcement learning environments, which leads to an anytime algorithm that scales better, but loses the optimality guarantee.
+
+For graphs with small numbers of non-splitting paths (a parameter we invent specifically for AD graphs), we propose a kernelization technique that significantly downsizes the model, which is then solved via mixed-integer programming.
+
+Experimentally, our algorithms scale to handle synthetic AD graphs with tens of thousands of nodes.

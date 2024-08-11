@@ -1,0 +1,11 @@
+We study the problem of binary classification from the point of
+view of learning convex polyhedra in Hilbert spaces, to which
+one can reduce any binary classification problem. The problem
+of learning convex polyhedra in finite-dimensional spaces is
+sufficiently well studied in the literature. We generalize this
+problem to that in a Hilbert space and propose an algorithm
+for learning a polyhedron which correctly classifies at least
+1 − ε of the distribution, with a probability of at least 1 − δ,
+where ε and δ are given parameters. Also, as a corollary, we
+improve some previous bounds for polyhedral classification
+in finite-dimensional spaces.

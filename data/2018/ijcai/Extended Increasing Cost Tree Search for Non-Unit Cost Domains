@@ -1,0 +1,39 @@
+Multi-agent pathfinding (MAPF) has applications
+
+in navigation, robotics, games and planning. Most
+
+work on search-based optimal algorithms for
+
+MAPF has focused on simple domains with unit
+
+cost actions and unit time steps. Although these
+
+constraints keep many aspects of the algorithms
+
+simple, they also severely limit the domains that
+
+can be used. In this paper we introduce a new definition
+
+of the MAPF problem for non-unit cost and
+
+non-unit time step domains along with new multiagent
+
+state successor generation schemes for these
+
+domains. Finally, we define an extended version
+
+of the increasing cost tree search algorithm (ICTS)
+
+for non-unit costs, with two new sub-optimal variants
+
+of ICTS: epsilon-ICTS and w-ICTS. Our experiments
+
+show that higher quality sub-optimal solutions
+
+are achievable in domains with finely discretized
+
+movement models in no more time than
+
+lower-quality, optimal solutions in domains with
+
+coarsely discretized movement models.

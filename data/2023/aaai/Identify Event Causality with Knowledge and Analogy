@@ -1,0 +1,20 @@
+Event causality identification (ECI) aims to identify the
+causal relationship between events, which plays a crucial role
+in deep text understanding. Due to the diversity of real-world
+causality events and difficulty in obtaining sufficient training
+data, existing ECI approaches have poor generalizability and
+struggle to identify the relation between seldom seen events.
+In this paper, we propose to utilize both external knowledge
+and internal analogy to improve ECI. On the one hand, we
+utilize a commonsense knowledge graph called ConceptNet
+to enrich the description of an event sample and reveal the
+commonalities or associations between different events. On
+the other hand, we retrieve similar events as analogy exam-
+ples and glean useful experiences from such analogous neigh-
+bors to better identify the relationship between a new event
+pair. By better understanding different events through exter-
+nal knowledge and making an analogy with similar events, we
+can alleviate the data sparsity issue and improve model gener-
+alizability. Extensive evaluations on two benchmark datasets
+show that our model outperforms other baseline methods by
+around 18% on the F1-value on average

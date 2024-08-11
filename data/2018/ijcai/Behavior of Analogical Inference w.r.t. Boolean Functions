@@ -1,0 +1,21 @@
+It has been observed that a particular form of analogical inference, based on analogical proportions,
+
+yields competitive results in classification tasks.
+
+Using the algebraic normal form of Boolean functions, it has been shown that analogical prediction
+
+is always exact iff the labeling function is affine.
+
+We point out that affine functions are also meaningful when using another view of analogy. We address the accuracy of analogical inference for arbitrary Boolean functions and show that if a function
+
+is epsilon-close to an affine function, then the probability
+
+of making a wrong prediction is upper bounded by
+
+4 epsilon. This result is confirmed by an empirical study
+
+showing that the upper bound is tight. It highlights
+
+the specificity of analogical inference,
+
+also characterized in terms of the Hamming distance.

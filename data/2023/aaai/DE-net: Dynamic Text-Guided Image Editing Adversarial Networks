@@ -1,0 +1,6 @@
+Text-guided image editing models have shown remarkable results. However, there remain two problems. First, they employ fixed manipulation modules for various editing requirements (e.g., color changing, texture changing, content adding and removing), which results in over-editing or insufficient editing. Second, they do not clearly distinguish between text-required and text-irrelevant parts, which leads to inaccurate editing.
+To solve these limitations, we propose:
+(i) a Dynamic Editing Block (DEBlock) that composes different editing modules dynamically for various editing requirements.
+(ii) a Composition Predictor (Comp-Pred), which predicts the composition weights for DEBlock according to the inference on target texts and source images.
+(iii) a Dynamic text-adaptive Convolution Block (DCBlock) that queries source image features to distinguish text-required parts and text-irrelevant parts.
+Extensive experiments demonstrate that our DE-Net achieves excellent performance and manipulates source images more correctly and accurately.

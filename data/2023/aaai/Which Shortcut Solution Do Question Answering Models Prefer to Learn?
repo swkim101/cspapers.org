@@ -1,0 +1,10 @@
+Question answering (QA) models for reading comprehension tend to exploit spurious correlations in training sets and thus learn shortcut solutions rather than the solutions intended by QA datasets.
+QA models that have learned shortcut solutions can achieve human-level performance in shortcut examples where shortcuts are valid, but these same behaviors degrade generalization potential on anti-shortcut examples where shortcuts are invalid.
+Various methods have been proposed to mitigate this problem, but they do not fully take the characteristics of shortcuts themselves into account.
+We assume that the learnability of shortcuts, i.e., how easy it is to learn a shortcut, is useful to mitigate the problem.
+Thus, we first examine the learnability of the representative shortcuts on extractive and multiple-choice QA datasets.
+Behavioral tests using biased training sets reveal that shortcuts that exploit answer positions and word-label correlations are preferentially learned for extractive and multiple-choice QA, respectively.
+We find that the more learnable a shortcut is, the flatter and deeper the loss landscape is around the shortcut solution in the parameter space.
+We also find that the availability of the preferred shortcuts tends to make the task easier to perform from an information-theoretic viewpoint.
+Lastly, we experimentally show that the learnability of shortcuts can be utilized to construct an effective QA training set; the more learnable a shortcut is, the smaller the proportion of anti-shortcut examples required to achieve comparable performance on shortcut and anti-shortcut examples.
+We claim that the learnability of shortcuts should be considered when designing mitigation methods.

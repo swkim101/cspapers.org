@@ -1,0 +1,11 @@
+Face aging and rejuvenation is to predict the face of a person at different ages. While tremendous progress have been made in this topic, there are two central problems remaining largely unsolved: 1)
+
+the majority of prior works requires sequential training data, which is very rare in real scenarios, and 2) how to simultaneously render aging face and preserve personality.
+
+To tackle these issues, in this paper, we develop a novel dual conditional GAN (DCGAN) mechanism, which enables face aging and rejuvenation to be trained from multiple sets of unlabeled face images with different ages.
+
+In our architecture, the primal conditional GAN transforms a face image to other ages based on the age condition, while the dual conditional GAN learns to invert the task.
+
+Hence a loss function that accounts for the reconstruction error of images can preserve the personal identity, while the discriminators on the generated images learn the transition patterns (e.g., the shape and texture changes between age groups) and guide the generation of age-specific photo-realistic faces.
+
+Experimental results on two publicly dataset demonstrate the appealing performance of the proposed framework by comparing with the state-of-the-art methods.

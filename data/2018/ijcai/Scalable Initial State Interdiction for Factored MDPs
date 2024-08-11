@@ -1,0 +1,5 @@
+We propose a novel Stackelberg game model of MDP interdiction in which the defender modifies the initial state of the planner, who then responds
+
+by computing an optimal policy starting with that state. We first develop a novel approach for MDP interdiction in factored state space that allows the defender to modify the initial state. The resulting approach can be computationally expensive for large factored MDPs. To address this, we develop several interdiction algorithms that leverage variations of reinforcement learning using both linear and non-linear function approximation. Finally, we extend the interdiction framework to consider a Bayesian interdiction problem in which the interdictor is uncertain about some of the planner's initial state features.
+
+Extensive experiments demonstrate the effectiveness of our approaches.

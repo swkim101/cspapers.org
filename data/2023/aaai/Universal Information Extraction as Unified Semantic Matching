@@ -1,0 +1,6 @@
+The challenge of information extraction (IE) lies in the diversity of label schemas and the heterogeneity of structures.
+Traditional methods require task-specific model design and rely heavily on expensive supervision, making them difficult to generalize to new schemas.
+In this paper, we decouple IE into two basic abilities, structuring and conceptualizing, which are shared by different tasks and schemas.
+Based on this paradigm, we propose to universally model various IE tasks with Unified Semantic Matching (USM) framework, which introduces three unified token linking operations to model the abilities of structuring and conceptualizing.
+In this way, USM can jointly encode schema and input text, uniformly extract substructures in parallel, and controllably decode target structures on demand.
+Empirical evaluation on 4 IE tasks shows that the proposed method achieves state-of-the-art performance under the supervised experiments and shows strong generalization ability in zero/few-shot transfer settings.

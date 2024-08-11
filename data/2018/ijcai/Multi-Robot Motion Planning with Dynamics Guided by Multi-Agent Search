@@ -1,0 +1,21 @@
+This paper presents an effective multi-robot motion planner that
+
+enables each robot to reach its desired location while avoiding
+
+collisions with the other robots and the obstacles. The approach takes
+
+into account the differential constraints imposed by the underlying
+
+dynamics of each robot and generates dynamically-feasible motions that
+
+can be executed in the physical world. The crux of the approach is
+
+the sampling-based expansion of a motion tree in the continuous state
+
+space of all the robots guided by multi-agent search over a discrete
+
+abstraction. Experiments using vehicle models with nonlinear dynamics
+
+operating in complex environments show significant speedups over
+
+related work.

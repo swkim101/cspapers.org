@@ -1,0 +1,5 @@
+Kidney Exchange is an approach to donor kidney transplantation where patients with incompatible donors swap kidneys to receive a compatible kidney. Since it was first put forward in 1986, increasing amount of people have gotten a life-saving kidney with the popularity of Kidney Exchange, as patients have more opportunities to get saved in this way. This growth is making the problem of optimally matching patients to donors more difficult to solve. The central problem, indeed, is the NP-hard problem to find the largest vertex-disjoint packing of cycles and chains in a graph that represents the compatibility between patients and donors, where due to the human resource limitation we may have constraints on the maximum length of cycles and chains. This paper mainly contributes to algorithms from theory for this problem with and without length constraints (restricted and free versions). We give:
+
+1. A single-exponential exact algorithm based on subset convolution for the two versions;
+
+2. An FPT algorithm for the free version with parameter being the number of vertex ``types'' in the graph.

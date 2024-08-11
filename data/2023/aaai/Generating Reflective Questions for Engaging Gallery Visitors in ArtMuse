@@ -1,0 +1,8 @@
+Human guides in museums and galleries are professionally trained to stimulate informal 
+learning in visitors by asking low-risk, open-ended reflective questions
+that enable them to
+focus on specific features of artifacts, 
+relate to prior experiences, and elicit curiosity as well as further thought. We present ArtMuse, our AI-powered chatbot for asking reflective questions in context of paintings. Our reflective question generation model in ArtMuse
+was trained by applying a
+novel combination of existing models for
+extractive question answering and open-domain chitchat. User evaluation studies indicate that we are able to generate fluent and specific reflective questions for paintings that are highly-engaging.

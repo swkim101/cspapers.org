@@ -1,0 +1,2 @@
+Crowdsourcing and weak supervision offer methods to efficiently label large datasets. Our work builds on existing weak supervision models to accommodate ordinal target classes, in an effort to recover ground truth from weak, external labels.
+We define a parameterized factor function and show that our approach improves over other baselines.

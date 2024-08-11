@@ -1,0 +1,6 @@
+Hashing can compress high-dimensional data into compact binary codes, while preserving the similarity, to facilitate efficient retrieval and storage.
+However, when retrieving using an extremely short length hash code learned by the existing methods, the performance cannot be guaranteed because of
+severe information loss. To address this issue, in this study, we propose a novel supervised short-length hashing (SSLH). In this proposed SSLH, mutual reconstruction between the short-length hash codes and original features are performed to reduce semantic loss. Furthermore, to enhance the robustness
+and accuracy of the hash representation, a robust estimator term is added to fully utilize the label information. Extensive experiments conducted on four
+image benchmarks demonstrate the superior performance of the proposed SSLH with short-length hash codes. In addition, the proposed SSLH outperforms
+the existing methods, with long-length hash codes. To the best of our knowledge, this is the first linear-based hashing method that focuses on both short and long-length hash codes for maintaining high precision.

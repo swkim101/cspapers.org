@@ -1,0 +1,5 @@
+Weighted model integration (WMI) extends weighted model counting (WMC) to the integration of functions over mixed discrete-continuous probability spaces. It has shown tremendous promise for solving inference problems in graphical models and probabilistic programs. Yet, state-of-the-art tools for WMI are generally limited either by the range of amenable theories, or in terms of performance. To address both limitations, we propose the use of extended algebraic decision diagrams (XADDs) as a compilation language for WMI.
+
+Aside from tackling typical WMI problems, XADDs also enable partial WMI yielding parametrized solutions. To overcome the main roadblock of XADDs -- the computational cost of integration -- we formulate a novel and powerful exact symbolic dynamic programming (SDP) algorithm that seamlessly handles Boolean, integer-valued and real variables, and is able to effectively cache partial computations, unlike its predecessor. Our empirical results demonstrate that these contributions can lead to a significant computational reduction 
+
+over existing probabilistic inference algorithms.

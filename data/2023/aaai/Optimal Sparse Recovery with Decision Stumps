@@ -1,0 +1,8 @@
+Decision trees are widely used for their low computational cost, good
+ predictive performance, and ability to assess the importance of features.
+ Though often used in practice for feature selection, the theoretical
+ guarantees of these methods are not well understood. We here obtain a tight
+ finite sample bound for the feature selection problem in linear regression
+ using single-depth decision trees. We examine the statistical properties of
+ these "decision stumps" for the recovery of the s active features from p
+ total features, where s

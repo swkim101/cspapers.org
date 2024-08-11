@@ -1,0 +1,6 @@
+Physics-informed neural networks (PINNs) have effectively been demonstrated in solving forward and inverse differential equation problems,
+but they are still trapped in training failures when the target functions to be approximated exhibit high-frequency or multi-scale features.
+In this paper, we propose to employ implicit stochastic gradient descent (ISGD) method to train PINNs for improving the stability of training process.
+We heuristically analyze how ISGD overcome stiffness in the gradient flow dynamics of PINNs, especially for problems with multi-scale solutions.
+We theoretically prove that for two-layer fully connected neural networks with large hidden nodes, randomly initialized ISGD converges to a globally optimal solution for the quadratic loss function.
+Empirical results demonstrate that ISGD works well in practice and compares favorably to other gradient-based optimization methods such as SGD and Adam, while can also effectively address the numerical stiffness in training dynamics via gradient descent.

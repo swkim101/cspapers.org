@@ -1,0 +1,8 @@
+Building ``always-on'' robots to be deployed over extended periods of time in real human environments is challenging for several reasons. 
+Some fundamental questions that arise in the process include: 
+1) How can the robot reconcile unexpected differences between its observations and its outdated map of the world? 
+2) How can we scalably test robots for long-term autonomy?
+3) Can a robot learn to predict its own failures, and their corresponding causes?
+4) When the robot fails and is unable to recover autonomously, can it utilize partially specified, approximate human corrections to overcome its failures?
+We summarize our research towards addressing all of these questions. 
+We present 1) Episodic non-Markov Localization to maintain the belief of the robot's location while explicitly reasoning about unmapped observations; 2) a 1,000km challenge to test for long-term autonomy; 3) feature-based and learning-based approaches to predicting failures; and 4) human-in-the-loop SLAM to overcome robot mapping errors, and SMT-based robot transition repair to overcome state machine failures.

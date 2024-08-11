@@ -1,0 +1,21 @@
+Nowadays, people publish a lot of natural language texts on social media.
+
+Socialized word embeddings (SWE) has been proposed to deal with two phenomena of language use: everyone has his/her own personal characteristics of language use and socially connected users are likely to use language in similar ways.
+
+We observe that the spread of language use is transitive. 
+
+Namely, one user can affect his/her friends and the friends can also affect their friends. 
+
+However, SWE modeled the transitivity implicitly.
+
+The social regularization in SWE only applies to one-hop neighbors and thus users outside the one-hop social circle will not be affected directly. 
+
+In this work, we adopt random walk methods to generate paths on the social graph to model the transitivity explicitly. 
+
+Each user on a path will be affected by his/her adjacent user(s) on the path.
+
+Moreover, according to the update mechanism of SWE, fewer friends a user has, fewer update opportunities he/she can get. 
+
+Hence, we propose a biased random walk method to provide these users with more update opportunities. 
+
+Experiments show that our random walk based social regularizations perform better on sentiment classification.

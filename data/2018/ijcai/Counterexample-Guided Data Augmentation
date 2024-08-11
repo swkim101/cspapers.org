@@ -1,0 +1,25 @@
+We present a novel framework for augmenting data sets for
+
+machine learning based on counterexamples. Counterexamples
+
+are misclassified examples that have 
+
+important properties for retraining and improving the model.
+
+Key components of our framework include a \textit{counterexample generator},
+
+which produces data items that are misclassified by the model and
+
+error tables, a novel data
+
+structure that stores information pertaining to misclassifications.
+
+Error tables can be used to explain the model's
+
+vulnerabilities and are used to efficiently generate counterexamples for augmentation.
+
+We show the efficacy of the proposed framework by comparing it
+
+to classical augmentation techniques on a case study of object detection in autonomous
+
+driving based on deep neural networks.
