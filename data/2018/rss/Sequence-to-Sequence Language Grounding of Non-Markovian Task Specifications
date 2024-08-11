@@ -1,0 +1,1 @@
+A method includes enabling a robot to learn a mapping between English language commands and Linear Temporal Logic (LTL) expressions, wherein neural sequence-to-sequence learning models are employed to infer a LTL sequence corresponding to a given natural language command.

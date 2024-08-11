@@ -1,0 +1,1 @@
+In a misspecified social learning setting, agents are condescending if they perceive their peers as having private information that is of lower quality than it is in reality. Applying this to a standard sequential model, we show that outcomes improve when agents are mildly condescending. In contrast, too much condescension leads to worse outcomes, as does anti-condescension.
