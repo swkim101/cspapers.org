@@ -1,0 +1,4 @@
+
+ 
+ Automatically scoring metaphor novelty has been largely unexplored, but could be of benefit to a wide variety of NLP applications. We introduce a large, publicly available metaphor novelty dataset to stimulate research in this area, and propose a regression-based approach to automatically score the novelty of potential metaphors that are expressed as word pairs. We additionally investigate which types of features are most useful for this task, and show that our approach outperforms baseline metaphor novelty scoring and standard metaphor detection approaches on this task.
+ 

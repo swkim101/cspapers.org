@@ -1,0 +1,4 @@
+
+ 
+ We show that the problem of finding an approximate Nash equilibrium with a polynomial precision is PPAD-hard even for two-player sparse win-lose games (i.e., games with {0,1}-entries such that each row and column of the two n×n payoff matrices have at most O(log n) many ones). The proof is mainly based on a new class of prototype games called Chasing Games, which we think is of independent interest in understanding the complexity of Nash equilibrium.
+ 

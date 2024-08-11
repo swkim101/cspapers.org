@@ -25,7 +25,8 @@ const regularUrls = [
   ["conf/aaai/aaai", "aaai"],
   ["conf/ijcai/ijcai", "ijcai"],
   ["conf/sigir/sigir", "sigir"],
-  ["conf/cvpr/cvpr", "cvpr"],
+  // ["conf/cvpr/cvpr", "cvpr"],
+
   ["conf/chi/chi", "chi"],
   ["conf/uist/uist", "uist"],
   ["conf/sigecom/sigecom", "ec"],

@@ -1,0 +1,4 @@
+
+ 
+ We introduce a novel perception-action-learning system for mobile social-service robots. The state-of-the-art deep learning techniques were incorporated into each module which significantly improves the performance in solving social service tasks. The system not only demonstrated fast and robust performance in a homelike environment but also achieved the highest score in the RoboCup2017@Home Social Standard Platform League (SSPL) held in Nagoya, Japan.
+ 

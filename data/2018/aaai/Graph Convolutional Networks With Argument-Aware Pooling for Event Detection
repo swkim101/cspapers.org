@@ -1,0 +1,4 @@
+
+ 
+ The current neural network models for event detection have only considered the sequential representation of sentences. Syntactic representations have not been explored in this area although they provide an effective mechanism to directly link words to their informative context for event detection in the sentences. In this work, we investigate a convolutional neural network based on dependency trees to perform event detection. We propose a novel pooling method that relies on entity mentions to aggregate the convolution vectors. The extensive experiments demonstrate the benefits of the dependency-based convolutional neural networks and the entity mention-based pooling method for event detection. We achieve the state-of-the-art performance on widely used datasets with both perfect and predicted entity mentions.
+ 

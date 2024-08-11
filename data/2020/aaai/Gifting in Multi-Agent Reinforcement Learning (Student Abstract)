@@ -1,0 +1,1 @@
+This work performs a first study on multi-agent reinforcement learning with deliberate reward passing between agents. We empirically demonstrate that such mechanics can greatly improve the learning progression in a resource appropriation setting and provide a preliminary discussion of the complex effects of gifting on the learning dynamics.

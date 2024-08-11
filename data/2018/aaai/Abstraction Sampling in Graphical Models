@@ -1,0 +1,4 @@
+
+ 
+ We present a new sampling scheme for approximating hard to compute queries over graphical models, such as computing the partition function. The scheme builds upon exact algorithms that traverse a weighted directed state-space graph representing a global function over a graphical model (e.g., probability distribution). With the aid of an abstraction function and randomization, the state space can be compacted (trimmed) to facilitate tractable computation, yielding a Monte Carlo estimate that is unbiased. We present the general idea and analyze its properties analytically and empirically.
+ 

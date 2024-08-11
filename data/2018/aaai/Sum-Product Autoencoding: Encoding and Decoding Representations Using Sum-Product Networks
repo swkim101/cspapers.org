@@ -1,0 +1,4 @@
+
+ 
+ Sum-Product Networks (SPNs) are a deep probabilistic architecture that up to now has been successfully employed for tractable inference. Here, we extend their scope towards unsupervised representation learning: we encode samples into continuous and categorical embeddings and show that they can also be decoded back into the original input space by leveraging MPE inference. We characterize when this Sum-Product Autoencoding (SPAE) leads to equivalent reconstructions and extend it towards dealing with missing embedding information. Our experimental results on several multi-label classification problems demonstrate that SPAE is competitive with state-of-the-art autoencoder architectures, even if the SPNs were never trained to reconstruct their inputs.
+ 

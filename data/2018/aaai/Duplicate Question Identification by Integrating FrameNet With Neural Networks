@@ -1,0 +1,4 @@
+
+ 
+ There are two major problems in duplicate question identification, namely lexical gap and essential constituents matching. Previous methods either design various similarity features or learn representations via neural networks, which try to solve the lexical gap but neglect the essential constituents matching. In this paper, we focus on the essential constituents matching problem and use FrameNet-style semantic parsing to tackle it. Two approaches are proposed to integrate FrameNet parsing with neural networks. An ensemble approach combines a traditional model with manually designed features and a neural network model. An embedding approach converts frame parses to embeddings, which are combined with word embeddings at the input of neural networks. Experiments on Quora question pairs dataset demonstrate that the ensemble approach is more effective and outperforms all baselines.
+ 

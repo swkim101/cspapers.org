@@ -1,0 +1,4 @@
+
+ 
+ Recently, width-based planning methods have been shown to yield state-of-the-art results in the Atari 2600 video games. For this, the states were associated with the (RAM) memory states of the simulator. In this work, we consider the same planning problem but using the screen instead. By using the same visual inputs, the planning results can be compared with those of humans and learning methods. We show that the planning approach, out of the box and without training, results in scores that compare well with those obtained by humans and learning methods, and moreover, by developing an episodic, rollout version of the IW(k) algorithm, we show that such scores can be obtained in almost real time.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We present approaches to handle diverse assignments in multi-cycle assignment problems. The goal is to assign a task to different agents in each cycle, such that all possible combinations are made over time. Our method combines the original profit value, that is to be optimized by the assignment problem with an additional assignment preference. By merging both, we steer the optimization towards diverse assignments without large trade-offs in the original profits.
+ 

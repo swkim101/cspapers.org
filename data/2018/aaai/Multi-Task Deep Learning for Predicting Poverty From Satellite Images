@@ -1,0 +1,4 @@
+
+ 
+ Estimating economic and developmental parameters such as poverty levels of a region from satellite imagery is a challenging problem that has many applications. We propose a two step approach to predict poverty in a rural region from satellite imagery. First, we engineer a multi-task fully convolutional deep network for simultaneously predicting the material of roof, source of lighting and source of drinking water from satellite images. Second, we use the predicted developmental statistics to estimate poverty. Using full-size satellite imagery as input, and without pre-trained weights, our models are able to learn meaningful features including roads, water bodies and farm lands, and achieve a performance that is close to the optimum. In addition to speeding up the training process, the multi-task fully convolutional model is able to discern task specific and independent feature representations.
+ 

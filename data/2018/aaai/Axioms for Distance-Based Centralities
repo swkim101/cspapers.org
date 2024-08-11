@@ -1,0 +1,4 @@
+
+ 
+ We study the class of distance-based centralities that consists of centrality measures that depend solely on distances to other nodes in the graph. This class encompasses a number of centrality measures, including the classical Degree and Closeness Centralities, as well as their extensions: the Harmonic, Reach and Decay Centralities. We axiomatize the class of distance-based centralities and study what conditions are imposed by the axioms proposed in the literature. Building upon our analysis, we propose the class of additive distance-based centralities and pin-point properties which combined with the axiomatic characterization of the whole class uniquely characterize a number of centralities from the literature.
+ 

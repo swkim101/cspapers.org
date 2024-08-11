@@ -1,0 +1,4 @@
+
+ 
+ We consider single-agent, two-agent turn-taking and cooperative security games with Inverse Geodesic Length (IGL) as utility metric. We focus on the single-agent vertex deletion problem corresponding to IGL called MinIGL. Specifically, given a graph G, a budget k and a target inverse geodesic length T, does there exist a subset of vertices S of size k such that by deleting S the graph induced on the remaining vertices in G has IGL at most T. We cite our recently published work to report the results on the computational and parameterized complexity of MinIGL. Furthermore, we briefly state the problems we are interested to study in future.
+ 

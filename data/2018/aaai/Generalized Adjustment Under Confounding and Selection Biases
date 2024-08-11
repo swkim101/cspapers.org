@@ -1,0 +1,4 @@
+
+ 
+ Selection and confounding biases are the two most common impediments to the applicability of causal inference methods in large-scale settings. We generalize the notion of backdoor adjustment to account for both biases and leverage external data that may be available without selection bias (e.g., data from census). We introduce the notion of adjustment pair and present complete graphical conditions for identifying causal effects by adjustment. We further design an algorithm for listing all admissible adjustment pairs in polynomial delay, which is useful for researchers interested in evaluating certain properties of some admissible pairs but not all (common properties include cost, variance, and feasibility to measure). Finally, we describe a statistical estimation procedure that can be performed once a set is known to be admissible, which entails different challenges in terms of finite samples.
+ 

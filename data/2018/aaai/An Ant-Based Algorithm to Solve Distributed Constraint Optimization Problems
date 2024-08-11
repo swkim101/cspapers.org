@@ -1,0 +1,4 @@
+
+ 
+ As an important population-based algorithm, ant colony optimization (ACO) has been successfully applied into various combinatorial optimization problems. However, much existing work in ACO focuses on solving centralized problems. In this paper, we present a novel algorithm that takes the power of ants to solve Distributed Constraint Optimization Problems (DCOPs), called ACO_DCOP. In ACO_DCOP, a new mechanism that captures local benefits is proposed to compute heuristic factors and a new method that considers the cost structure of DCOPs is proposed to compute pheromone deltas appropriately. Moreover, pipelining technique is introduced to make full use of the computational capacity and improve the efficiency. In our theoretical analysis, we prove that ACO_DCOP is an anytime algorithm. Our empirical evaluation indicates that ACO_DCOP is able to find solutions of equal or significantly higher quality than state-of-the-art DCOP algorithms.
+ 

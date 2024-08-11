@@ -1,0 +1,4 @@
+
+ 
+ Our work extends Juba’s formulation of learning abductive reasoning from examples, in which both the relative plausibility of various explanations, as well as which explanations are valid, are learned directly from data. We extend the formulation to consider partially observed examples, along with declarative background knowledge about the missing data. We show that it is possible to use implicitly learned rules together with the explicitly given declarative knowledge to support hypotheses in the course of abduction. We observe that when a small explanation exists, it is possible to obtain a much-improved guarantee in the challenging exception-tolerant setting.
+ 

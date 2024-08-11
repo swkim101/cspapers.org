@@ -1,0 +1,4 @@
+
+ 
+ Community question answering aims at choosing the most appropriate answer for a given question, which is important in many NLP applications. Previous neural network-based methods consider several different aspects of information through calculating attentions. These different kinds of attentions are always simply summed up and can be seen as a ``single view", causing severe information loss. To overcome this problem, we propose a Multi-View Fusion Neural Network, where each attention component generates a ``view'' of the QA pair and a fusion RNN integrates the generated views to form a more holistic representation.    In this fusion RNN method, a filter gate  collects  important information of  input and directly adds it to the output, which borrows the idea of residual networks.    Experimental results on the WikiQA and SemEval-2016 CQA datasets demonstrate that our proposed model outperforms the state-of-the-art methods.
+ 

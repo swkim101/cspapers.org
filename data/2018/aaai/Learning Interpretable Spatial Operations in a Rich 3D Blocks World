@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we study the problem of mapping natural language instructions to complex spatial actions in a 3D blocks world. We first introduce a new dataset that pairs complex 3D spatial operations to rich natural language descriptions that require complex spatial and pragmatic interpretations such as “mirroring”, “twisting”, and “balancing”. This dataset, built on the simulation environment of Bisk, Yuret, and Marcu (2016), attains language that is significantly richer and more complex, while also doubling the size of the original dataset in the 2D environment with 100 new world configurations and 250,000 tokens. In addition, we propose a new neural architecture that achieves competitive results while automatically discovering an inventory of interpretable spatial operations (Figure 5).  
+ 

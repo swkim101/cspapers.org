@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we revisit the large-scale constrained linear regression problem and propose faster methods based on some recent developments in sketching and optimization. Our algorithms combine (accelerated) mini-batch SGD with a new method called two-step preconditioning to achieve an approximate solution with a time complexity lower than that of the state-of-the-art techniques for the low precision case. Our idea can also be extended to the high precision case, which gives an alternative implementation to the Iterative Hessian Sketch (IHS) method with significantly improved time complexity. Experiments on benchmark and synthetic datasets suggest that our methods indeed outperform existing ones considerably in both the low and high precision cases.
+ 

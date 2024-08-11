@@ -1,0 +1,4 @@
+
+ 
+ Social-based recommender systems have been recently proposed by incorporating social relations of users to alleviate sparsity issue of user-to-item rating data and to improve recommendation performance. Many of these social-based recommender systems linearly combine the multiplication of social features between users. However, these methods lack the ability to capture complex and intrinsic non-linear features from social relations. In this paper, we present a deep neural network based model to learn non-linear features of each user from social relations, and to integrate into probabilistic matrix factorization for rating prediction problem. Experiments demonstrate the advantages of the proposed method over state-of-the-art social-based recommender systems.
+ 

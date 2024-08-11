@@ -1,0 +1,4 @@
+
+ 
+ With super-resolution optical microscopy, it is now possible to observe molecular mechanisms. The quality of the obtained images vary a lot depending on the samples and the imaging parameters. Moreover, evaluating this quality is a difficult task. In this work, we want to learn the quality function from scores provided by experts. We propose the use of a deep network that output a quality score for a given image. A user study evaluate the quality of the predictions against human expert scores.
+ 

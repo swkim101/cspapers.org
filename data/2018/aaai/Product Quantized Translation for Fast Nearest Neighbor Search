@@ -1,0 +1,4 @@
+
+ 
+ This paper proposes a simple nearest neighbor search algorithm, which provides the exact solution in terms of the Euclidean distance efficiently. Especially, we present an interesting approach to improve the speed of nearest neighbor search by proper translations of data and query although the task is inherently invariant to the Euclidean transformations. The proposed algorithm aims to eliminate nearest neighbor candidates effectively using their distance lower bounds in nonlinear embedded spaces, and further improves the lower bounds by transforming data and query through product quantized translations. Although our framework is composed of simple operations only, it achieves the state-of-the-art performance compared to existing nearest neighbor search techniques, which is illustrated quantitatively using various large-scale benchmark datasets in different sizes and dimensions.
+ 

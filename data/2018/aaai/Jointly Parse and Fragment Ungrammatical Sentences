@@ -1,0 +1,4 @@
+
+ 
+ This paper is about detecting incorrect arcs in a dependency parse for sentences that contain grammar mistakes. Pruning these arcs results in well-formed parse fragments that can still be useful for downstream applications. We propose two automatic methods that jointly parse the ungrammatical sentence and prune the incorrect arcs: a parser retrained on a parallel corpus of ungrammatical sentences with their corrections, and a sequence-to-sequence method. Experimental results show that the proposed strategies are promising for detecting incorrect syntactic dependencies as well as incorrect semantic dependencies.
+ 

@@ -28,7 +28,7 @@ const urlToDoi = (url = "") => url.replace("https://doi.org/", "")
  * @return {Promise <[[ { title: string, doi: string | null }], Error | null]>}
  */
 const crawlDblp = async (url) => {
-  const res = await fetch(url)
+  const res = await fetch(url, { signal: AbortSignal.timeout(30_000) })
   if (!res.ok) {
     return [{}, [new Error(`3 - ${url} responses ${res.status}`)]]
   }
@@ -71,18 +71,22 @@ const crawlDblp = async (url) => {
  */
 const crawlDoi = async (paperid) => {
   const endp = `https://api.semanticscholar.org/graph/v1/paper/${paperid}?fields=title,abstract`
-  const res = await fetch(endp, { headers, signal: AbortSignal.timeout(20_000) })
-  if (!res.ok) {
-    return [{}, res.status]
+  try {
+    const res = await fetch(endp, { headers, signal: AbortSignal.timeout(20_000) })
+    if (!res.ok) {
+      return [{}, res.status]
+    }
+    if (res.status === 200) {
+      stat.semantic200Cnt += 1
+    }
+    const json = await res.json()
+    return [{
+      title: json.title,
+      abstract: json.abstract,
+    }, res.status]
+  } catch(e) {
+    return [null, 408]
   }
-  if (res.status === 200) {
-    stat.semantic200Cnt += 1
-  }
-  const json = await res.json()
-  return [{
-    title: json.title,
-    abstract: json.abstract,
-  }, res.status]
 };
 
 /**
@@ -195,7 +199,7 @@ const stat = {
     console.log(`${stat.currentVenue} dblpQ.len ${dblpQ.length} scholarQ.len ${semanticsScolarQ.length} Ok ${perSec(stat.semantic200Cnt)}/s saved ${stat.saved} (${perSec(stat.saved)}/s) notSaved ${stat.notSaved} (${perSec(stat.notSaved)}/s) stat.failed ${stat.failed.length} requeue ${stat.reqCnt} (${perSec(stat.reqCnt)}/s) titleMismtachCnt ${stat.titleMismtachCnt} (${perSec(stat.titleMismtachCnt)}/s) noabs ${stat.noAbstractCnt} (${perSec(stat.noAbstractCnt)})`)
   }
   
-  while (293 < dblpQ.length) {
+  while (140 < dblpQ.length) {
     dblpQ.pop()
   }
 

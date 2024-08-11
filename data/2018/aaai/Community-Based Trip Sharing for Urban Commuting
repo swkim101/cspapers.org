@@ -1,0 +1,4 @@
+
+ 
+ This paper explores Community-Based Trip Sharing which uses the structure of communities and commuting patterns to optimize car or ride sharing for urban communities. It introduces the Commuting Trip Sharing Problem (CTSP) and proposes an optimization approach to maximize trip sharing. The optimization method, which exploits trip clustering, shareability graphs, and mixed-integer programming, is applied to a dataset of 9000 daily commuting trips from a mid-size city. Experimental results show that community-based trip sharing reduces daily car usage by up to 44%, thus producing significant environmental and traffic benefits and reducing parking pressure. The results also indicate that daily flexibility in pairing cars and passengers has significant impact on the benefits of the approach, revealing new insights on commuting patterns and trip sharing.
+ 

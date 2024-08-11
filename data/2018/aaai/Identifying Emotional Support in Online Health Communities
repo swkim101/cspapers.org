@@ -1,0 +1,4 @@
+
+ 
+ Extracting emotional support in Online Health Communities provides insightful information about patients’ emotional states. Current computational approaches to identifying emotional messages, i.e., messages that contain emotional support, are typically based on a set of handcrafted features. In this paper, we show that high-level and abstract features derived from a combination of convolutional neural networks (CNN) with Long Short Term Memory (LSTM) networks can be successfully employed for emotional message identification and can obviate the need for handcrafted features.
+ 

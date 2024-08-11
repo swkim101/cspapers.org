@@ -1,0 +1,1 @@
+We introduce a novel technique to achieve non-discrimination in machine learning without sacrificing convexity and probabilistic interpretation. We also propose a new notion of fairness for machine learning called the weighted proportional fairness and show that our technique satisfies this subjective fairness criterion.

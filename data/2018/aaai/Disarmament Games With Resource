@@ -1,0 +1,4 @@
+
+ 
+ A paper by Deng and Conitzer in AAAI'17 introduces disarmament games, in which players alternatingly commit not to play certain pure strategies. However, in practice, disarmament usually does not consist in removing a strategy, but rather in removing a resource (and doing so rules out all the strategies in which that resource is used simultaneously). In this paper, we introduce a model of disarmament games in which resources, rather than strategies, are removed. We prove NP-completeness of several formulations of the problem of achieving desirable outcomes via disarmament. We then study the case where resources can be fractionally removed, and prove a result analogous to the folk theorem that all desirable outcomes can be achieved. We show that we can approximately achieve any desirable outcome in a polynomial number of rounds, though determining whether a given outcome can be obtained in a given number of rounds remains NP-complete.
+ 

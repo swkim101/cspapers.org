@@ -1,0 +1,4 @@
+
+ 
+ The Simple Temporal Problem (STP) is a fundamental temporal reasoning problem and has recently been extended to the Multiagent Simple Temporal Problem (MaSTP). In this paper we present a novel approach that is based on enforcing arc-consistency (AC) on the input (multiagent) simple temporal network. We show that the AC-based approach is sufficient for solving both the STP and MaSTP and provide efficient algorithms for them. As our AC-based approach does not impose new constraints between agents, it does not violate the privacy of the agents and is superior to the state-of-the-art approach to MaSTP. Empirical evaluations on diverse benchmark datasets also show that our AC-based algorithms for STP and MaSTP are significantly more efficient than existing approaches.
+ 

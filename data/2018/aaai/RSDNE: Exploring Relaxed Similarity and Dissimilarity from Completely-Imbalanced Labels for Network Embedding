@@ -1,0 +1,4 @@
+
+ 
+ Network embedding, aiming to project a network into a low-dimensional space, is increasingly becoming a focus of network research. Semi-supervised network embedding takes advantage of labeled data, and has shown promising performance. However, existing semi-supervised methods would get unappealing results in the completely-imbalanced label setting where some classes have no labeled nodes at all. To alleviate this, we propose a novel semi-supervised network embedding method, termed Relaxed Similarity and Dissimilarity Network Embedding (RSDNE). Specifically, to benefit from the completely-imbalanced labels, RSDNE guarantees both intra-class similarity and inter-class dissimilarity in an approximate way. Experimental results on several real-world datasets demonstrate the superiority of the proposed method.
+ 

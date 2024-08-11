@@ -1,0 +1,4 @@
+
+ 
+ For years, recursive neural networks (RvNNs) have been shown to be suitable for representing text into fixed-length vectors and achieved good performance on several natural language processing tasks. However, the main drawback of RvNNs is that they require structured input, which makes data preparation and model implementation hard. In this paper, we propose Gumbel Tree-LSTM, a novel tree-structured long short-term memory architecture that learns how to compose task-specific tree structures only from plain text data efficiently. Our model uses Straight-Through Gumbel-Softmax estimator to decide the parent node among candidates dynamically and to calculate gradients of the discrete decision. We evaluate the proposed model on natural language inference and sentiment analysis,  and show that our model outperforms or is at least comparable to previous models. We also find that our model converges significantly faster than other models.
+ 

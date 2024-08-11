@@ -1,0 +1,4 @@
+
+ 
+ Named Entity Typing (NET) is valuable for many natural language processing tasks, such as relation extraction, question answering, knowledge base population, and co-reference resolution. Classical NET targeted a few coarse-grained types, but the task has expanded to sets of hundreds of types in recent years. Existing work in NET assumes that the target types are specified in advance, and that hand-labeled examples of each type are available. In this work, we introduce the task of Open Named Entity Typing (ONET), which is NET when the set of target types is not known in advance. We propose a neural network architecture for ONET, called OTyper, and evaluate its ability to tag entities with types not seen in training. On the benchmark FIGER(GOLD) dataset, OTyper achieves a weighted AUC-ROC score of 0.870 on unseen types, substantially outperforming pattern- and embedding-based baselines.
+ 

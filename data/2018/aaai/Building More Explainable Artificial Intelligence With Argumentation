@@ -1,0 +1,4 @@
+
+ 
+ Currently, much of machine learning is opaque, just like a "black box." However, in order for humans to understand, trust and effectively manage the emerging AI systems, an AI needs to be able to explain its decisions and conclusions. In this paper, I propose an argumentation-based approach to explainable AI, which has the potential to generate more comprehensive explanations than existing approaches.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we aim at tackling the problem of dynamic user profiling in the context of streams of short texts. Profiling users' expertise in such context is more challenging than in the case of long documents in static collection as it is difficult to track users' dynamic expertise in streaming sparse data. To obtain better profiling performance, we propose a streaming profiling algorithm (SPA). SPA first utilizes the proposed user expertise tracking topic model (UET) to track the changes of users' dynamic expertise and then utilizes the proposed streaming keyword diversification algorithm (SKDA) to produce top-k diversified keywords for profiling users' dynamic expertise at a specific point in time. Experimental results validate the effectiveness of the proposed algorithms.
+ 

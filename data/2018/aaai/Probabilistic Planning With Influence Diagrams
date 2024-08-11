@@ -1,0 +1,4 @@
+
+ 
+ Graphical models provide a powerful framework for reasoning under uncertainty, and an influence diagram (ID) is a graphical model of a sequential decision problem that maximizes the total expected utility of a non-forgetting agent. Relaxing the regular modeling assumptions, an ID can be flexibly extended to general decision scenarios involving a limited memory agent or multi-agents. The approach of probabilistic planning with IDs is expected to gain computational leverage by exploiting the local structure as well as representation flexibility of influence diagram frameworks. My research focuses on graphical model inference for IDs and its application to probabilistic planning, targeting online MDP/POMDP planning as testbeds in the evaluation.
+ 

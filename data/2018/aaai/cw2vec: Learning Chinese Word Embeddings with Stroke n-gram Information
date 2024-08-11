@@ -1,0 +1,4 @@
+
+ 
+ We propose cw2vec, a novel method for learning Chinese word embeddings. It is based on our observation that exploiting stroke-level information is crucial for improving the learning of Chinese word embeddings. Specifically, we design a minimalist approach to exploit such features, by using stroke n-grams, which capture semantic and morphological level information of Chinese words. Through qualitative analysis, we demonstrate that our model is able to extract semantic information that  cannot be captured by existing methods. Empirical results on the word similarity, word analogy, text classification and named entity recognition tasks show that the proposed approach consistently outperforms state-of-the-art approaches such as word-based word2vec and GloVe, character-based CWE, component-based JWE and pixel-based GWE.
+ 

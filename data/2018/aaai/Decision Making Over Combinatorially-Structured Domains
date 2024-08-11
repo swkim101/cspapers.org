@@ -1,0 +1,4 @@
+
+ 
+ We consider a scenario where a user must make a set of correlated decisions and we propose a computational modeling of the deliberation process. We assume the user compactly expresses her preferences via soft constraints. We consider a sequential procedure that uses Decision Field Theory to model the decision making on each variable. We test this procedure on randomly generated tree-shaped Fuzzy Constraint Satisfaction Problems. Our preliminary results showed that the time increases almost in the number of nodes. This is promising in terms of modeling decision over exponentially large domains. In the future, we plan to compare our results non-sequential approach and with behavioral data to asses our approach both in terms of modeling human decision making over complex domains, and adopting DFT as a means of incorporating a form of uncertainty into the soft constraint formalism.
+ 

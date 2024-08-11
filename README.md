@@ -110,6 +110,19 @@ The crawler sometimes misses paper from the first source if semantic scholar ret
 
 For the second source, the crawler sometimes confuses paper talk and keynote talk (and others). So, search results sometimes contain *not* papers (see [3b6c738](https://github.com/swkim101/cspapers.org/commit/3b6c7386b685b72a18cb4074aa69a71570d50134)). The Google scholar button can help to verify this.
 
+Also, semantic scholar somtimes shows different for web and api calls as shown below.
+
+```
+$ curl https://api.semanticscholar.org/graph/v1/paper/b0db907d372e2776a0c9e963a291e100033534a7?fields=title,abstract
+{'paperId': 'b0db907d372e2776a0c9e963a291e100033534a7', 'title': 'A correlation study between automated program repair and test-suite metrics', 'abstract': None}
+```
+
+However,https://www.semanticscholar.org/paper/A-correlation-study-between-automated-program-and-Yi-Tan/b0db907d372e2776a0c9e963a291e100033534a7 has an abstract ("Automated program repair is increas...")
+
+Most ICSE 2018 papers have this issue.
+
+Further, a crawler somtimes confuses posters and full papers. So, search results can contain posters.
+
 Reporting the wrong index is always welcome.
 
 ## Why not Google Scholar
