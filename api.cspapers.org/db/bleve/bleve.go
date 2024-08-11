@@ -88,6 +88,8 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
 	keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(req.Query))
+	boostingQuery := bleve.NewQueryStringQuery(fmt.Sprintf("title:%v^5", req.Query))
+	keywordQuery = append(keywordQuery, boostingQuery)
 	if isWord(req.Query) && 3 < len(req.Query) {
 		qs := fmt.Sprintf("/.*%v.*/", req.Query)
 		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
@@ -115,6 +117,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 
 	log.Debugf("%v", req.Query)
 	search := bleve.NewSearchRequest(query)
+	search.Size = 20
 	sortBy := ""
 	switch req.OrderBy {
 	case "score":
