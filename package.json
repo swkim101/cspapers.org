@@ -6,7 +6,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "js-levenshtein": "^1.1.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1"
@@ -15,6 +14,7 @@
     "start": "react-scripts start",
     "build": "BUILD_PATH='./docs' react-scripts build && cp .github/CNAME ./docs",
     "crawl": "node ./data_crawler/crawler.js",
+    "tool:dupcheck": "node ./data_tools/title_dup_check.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "js-levenshtein": "^1.1.6",
     "jsdom": "^24.1.1"
   }
 }
