@@ -44,7 +44,7 @@ function ConferenceTree(props) {
 
   return (
     <div>
-      {conferences.tree.name} (2018-2024) [ <span onClick={() => setVenue([])} className='underline pointer'>off</span> | <span onClick={() => setVenue(conferences.flatten(conferences.tree))} className='underline pointer'>on</span> ]
+      {conferences.tree.name} (2018-) [ <span onClick={() => setVenue([])} className='underline pointer'>off</span> | <span onClick={() => setVenue(conferences.flatten(conferences.tree))} className='underline pointer'>on</span> ]
       {
         conferences.tree.children.map(d1 =>
           <div key={d1.name}>
@@ -67,7 +67,7 @@ function ConferenceTree(props) {
                   />
                 </div>
                 {isUnfolded(d2.name) && d2.children.map((d3, idx) =>
-                  <div key={d3.name} className={`flex justify-between ${isEven(idx) && "bg-gray-100"}`}>
+                  <div key={d3.name} className={`flex justify-between ${isEven(idx) ? "bg-gray-100" : undefined}`}>
                     <label htmlFor={d3.name}>{d3.name}{comments[d3.name]}</label>
                     <input checked={venue.includes(d3.name)} onChange={e => addOrDelVenue(d3.name, e.target.checked)} type="checkbox" id={d3.name} />
                   </div>
@@ -77,7 +77,6 @@ function ConferenceTree(props) {
           </div>)
       }
       <hr />
-      <span className='text-gray-400 text-xs'>last update Aug. 12, 2024</span>
     </div>
   )
 }
