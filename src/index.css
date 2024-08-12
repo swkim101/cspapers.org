@@ -7,6 +7,8 @@ body {
   font-size: 14px;
 }
 
+/* Some styles are from https://tailwindcss.com/ */
+
 .text-gray-400 {
   color: rgb(156 163 175);
 }
@@ -146,4 +148,14 @@ body {
   .none-560 {
     display: none;
   }
+}
+
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
 }

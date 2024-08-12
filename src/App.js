@@ -187,7 +187,6 @@ function App() {
         </div>
         <div className={showFilter ? 'w-280' : 'none'}>
           <ConferenceTree onChange={e => setVenue(e)}/>
-          <hr />
         </div>
       </div>
     </div>

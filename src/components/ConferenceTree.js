@@ -76,6 +76,8 @@ function ConferenceTree(props) {
             )}
           </div>)
       }
+      <hr />
+      <span className='text-gray-400 text-xs'>last update Aug. 12, 2024</span>
     </div>
   )
 }
