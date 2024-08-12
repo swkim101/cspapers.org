@@ -167,11 +167,12 @@ function App() {
       </div>
       <div className='flex flex-column-560'>
         <div className={showFilter && 'w--280 w-100-560'} >
+          <div className={(data.length === 0 && query !== "") ? undefined : "none"}>no result</div>
           {
             data.map((e, idx) => <Paper key={`${e.title}-${e.score}-${idx}`} {...e} />)
           }
           <hr />
-          <div>
+          <div className={0 === total ? "none" : undefined}>
             page ({skip / 20 + 1} / {Math.ceil(total / 20)}): <span
               className={0 < skip ? "initial mt-2 text-blue underline pointer" : "none" }
               onClick={() => setSkip(0)}
