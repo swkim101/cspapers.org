@@ -1,5 +1,5 @@
 import * as api from './api';
-import conferences from './conferences';
+import { conferences } from './conferences';
 
 import { useEffect, useState } from 'react';
 import Paper from './components/Paper';
@@ -40,7 +40,7 @@ function App() {
       take: 20,
     }
     const [res, err] = await api.search(req)
-    if (!err) {
+    if (!err ) {
       setData(res.data || [])
       setTotal(res.total)
       setDuration(res.duration)

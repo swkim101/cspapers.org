@@ -58,6 +58,7 @@ const edges = [
   ["Software engineering", "ISSTA"],
 
   ["Systems", "Programming languages"],
+  ["Programming languages", "PACMPL"],
   ["Programming languages", "PLDI"],
 
   ["All Areas", "Theory"],
@@ -91,6 +92,11 @@ const edges = [
   ["Robotics", "RSS"],
 ]
 
+const comments = {
+  "PLDI": "(2018 - 2022)",
+  "SOSP": "(2017 - 2023), biyearly",
+}
+
 /**
  * Return leaves's names.
  * @typedef {{ name: string, children: [Tree] }} Tree
@@ -107,4 +113,7 @@ const conferences = {
   flatten,
 }
 
-export default conferences
+export {
+  conferences,
+  comments
+}
