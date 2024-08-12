@@ -207,5 +207,5 @@ func insert(req *types.InsertRequest) error {
 }
 
 func isWord(s string) bool {
-	return len(strings.Split(s, " ")) == 1
+	return len(strings.Fields(s)) == 1
 }
