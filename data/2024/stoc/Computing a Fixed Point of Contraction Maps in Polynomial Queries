@@ -1,0 +1,1 @@
+We give an algorithm for finding an є-fixed point of a contraction map f:[0,1]k↦[0,1]k under the ℓ∞-norm with query complexity O (k2log(1/є ) ).
