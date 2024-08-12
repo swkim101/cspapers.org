@@ -95,6 +95,8 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	/* title like <query> or abstract like <query> */
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
+	/* remove multiple whitespaces between words, otherwise, a syntax error occurs. */
+	req.Query = strings.Join(strings.Fields(req.Query), " ")
 	req.Query = escape(req.Query)
 	boostingTitle := bleve.NewQueryStringQuery(fmt.Sprintf("title:%v^5", req.Query))
 	absMatch := bleve.NewQueryStringQuery(fmt.Sprintf("abstract:%v", req.Query))
