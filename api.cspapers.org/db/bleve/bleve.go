@@ -87,12 +87,12 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	/* title like <query> or abstract like <query> */
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
-	keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(req.Query))
-	boostingQuery := bleve.NewQueryStringQuery(fmt.Sprintf("title:%v^5", req.Query))
-	keywordQuery = append(keywordQuery, boostingQuery)
+	boostingTitle := bleve.NewQueryStringQuery(fmt.Sprintf("title:%v^5", req.Query))
+	absMatch := bleve.NewQueryStringQuery(fmt.Sprintf("abstract:%v", req.Query))
+	keywordQuery = append(keywordQuery, boostingTitle)
+	keywordQuery = append(keywordQuery, absMatch)
 	if isWord(req.Query) && 3 < len(req.Query) {
-		qs := fmt.Sprintf("/.*%v.*/", req.Query)
-		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
+		keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(req.Query))
 	} else {
 		words := strings.Fields(req.Query)
 		lastWord := words[len(words)-1]
@@ -103,7 +103,10 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 			if 3 < len(word) {
 				keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(word))
 			} else {
-				keywordQuery = append(keywordQuery, bleve.NewMatchQuery(word))
+				qsTitle := fmt.Sprintf("title:%v^2", word)
+				qsAbs := fmt.Sprintf("abstract:%v", word)
+				keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
+				keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
 			}
 		}
 		if 2 < len(lastWord) {
