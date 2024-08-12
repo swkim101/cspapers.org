@@ -63,7 +63,7 @@ body {
 }
 
 .p-2 {
-  padding-left: 0.5rem; /* 8px */
+  padding: 0.5rem; /* 8px */
 }
 
 .w-2 {
@@ -136,6 +136,10 @@ body {
   .w-100-560 {
     width: 100%;
   }
+}
+
+.text-blue {
+  color: #06c;
 }
 
 @media screen and (min-width: 560px) {

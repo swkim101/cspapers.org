@@ -34,7 +34,7 @@ function Paper(props) {
     <div className="mb-2">
       <div>
         <span className='pointer underline mr-2' onClick={() => setCollapsed(!collapsed)}>
-          <span>{collapsed ? '► ' : '▼ '}</span>
+          <span className="text-blue">{collapsed ? '► ' : '▼ '}</span>
           [{venueUpper} {props.year}] {props.title}
         </span>
         <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>

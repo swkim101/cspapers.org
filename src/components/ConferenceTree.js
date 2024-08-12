@@ -54,7 +54,7 @@ function ConferenceTree(props) {
               <div key={d2.name}>
                 <div className="flex justify-between">
                   <span>
-                    <span className='pointer underline' onClick={() => toggleUnfolded(d2.name)}>
+                    <span className='pointer underline text-blue' onClick={() => toggleUnfolded(d2.name)}>
                       {isUnfolded(d2.name) ? "▼ " : "► "}
                     </span>
                     <label htmlFor={d2.name}> {d2.name}</label>

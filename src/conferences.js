@@ -93,6 +93,7 @@ const edges = [
 ]
 
 const comments = {
+  "ACL": "(long)",
   "PLDI": "(2018 - 2022)",
   "SOSP": "(2017 - 2023), biyearly",
 }
