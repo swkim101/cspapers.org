@@ -1,0 +1,44 @@
+const prefix = 'https://dblp.org/db/conf'
+const names = [
+  "iclr",
+  "icml",
+  "aaai",
+  "ijcai",
+  "sigir",
+  "cvpr",
+  "naacl",
+  "sigmod",
+  "emnlp",
+  "chi",
+  "uist",
+  "wine",
+  "rss",
+  "icra",
+  "iros",
+  "icse",
+  "issta",
+  "eurosys",
+  "www",
+  "mobisys",
+  "mobicom",
+  "sensys",
+  "focs",
+  "soda",
+  "stoc",
+  "lics",
+  "osdi",
+  "sp",
+  "ndss",
+  "ccs",
+]
+
+
+const venues = names.map((name) => ({
+    name,
+    year: 2024,
+    crawler: "dblp-common",
+    url: `${prefix}/${name}/${name}2024.html`,
+  })
+)
+
+module.exports = venues

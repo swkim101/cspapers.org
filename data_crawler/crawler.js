@@ -188,7 +188,10 @@ const stat = {
 };
 
 (async () => {
-  let dblpQ = dblp.map(e => e)
+  const yearFlag = process.argv[2] || "2018-2023"
+  const seek = +process.argv[3] || 99999
+  // let dblpQ = dblp.map(e => e)
+  let dblpQ = require(`./venues/${yearFlag}`).map(e => e)
   let semanticsScolarQ = []
   const start = process.hrtime();
 
@@ -199,7 +202,7 @@ const stat = {
     console.log(`${stat.currentVenue} dblpQ.len ${dblpQ.length} scholarQ.len ${semanticsScolarQ.length} Ok ${perSec(stat.semantic200Cnt)}/s saved ${stat.saved} (${perSec(stat.saved)}/s) notSaved ${stat.notSaved} (${perSec(stat.notSaved)}/s) stat.failed ${stat.failed.length} requeue ${stat.reqCnt} (${perSec(stat.reqCnt)}/s) titleMismtachCnt ${stat.titleMismtachCnt} (${perSec(stat.titleMismtachCnt)}/s) noabs ${stat.noAbstractCnt} (${perSec(stat.noAbstractCnt)})`)
   }
   
-  while (140 < dblpQ.length) {
+  while (seek < dblpQ.length) {
     dblpQ.pop()
   }
 
