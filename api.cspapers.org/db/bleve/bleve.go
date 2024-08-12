@@ -105,7 +105,9 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	keywordQuery = append(keywordQuery, absMatch)
 	keywordQuery = append(keywordQuery, mq)
 	if isWord(req.Query) && 3 < len(req.Query) {
-		keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(req.Query))
+		fq := bleve.NewFuzzyQuery(req.Query)
+		fq.SetFuzziness(2)
+		keywordQuery = append(keywordQuery, fq)
 	} else {
 		words := strings.Fields(req.Query)
 		lastWord := words[len(words)-1]
@@ -114,7 +116,9 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 		for _, word := range words {
 			// heuristic. magic number 3.
 			if 3 < len(word) {
-				keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(word))
+				fq := bleve.NewFuzzyQuery(word)
+				fq.SetFuzziness(2)
+				keywordQuery = append(keywordQuery, fq)
 			} else {
 				qsTitle := fmt.Sprintf("title:%v^2", word)
 				qsAbs := fmt.Sprintf("abstract:%v", word)
