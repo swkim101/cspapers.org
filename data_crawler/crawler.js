@@ -39,7 +39,7 @@ const crawlDblp = async (url) => {
   const document = (new JSDOM(html)).window.document
   const units = document.querySelectorAll(UNIT)
   if (units.length === 0) {
-    return [[], [new Error(`no unit ${UNIT} ${url}`)]]
+    return [{}, [new Error(`no unit ${UNIT} ${url}`)]]
   }
 
   let ret = []
@@ -189,7 +189,7 @@ const stat = {
 
 (async () => {
   const yearFlag = process.argv[2] || "2018-2023"
-  const seek = +process.argv[3] || 99999
+  const seek = +process.argv[3] || 291
   // let dblpQ = dblp.map(e => e)
   let dblpQ = require(`./venues/${yearFlag}`).map(e => e)
   let semanticsScolarQ = []
@@ -221,6 +221,11 @@ const stat = {
     if (0 < errs.length) {
       console.error(`${errs.length} errors in ${conference.url}. Pick 3:`)
       console.error(pick(3, errs))
+    }
+
+    if (papers.filter === undefined) {
+      stat.failed.push(`${conference.url} not found`)
+      return
     }
 
     papers

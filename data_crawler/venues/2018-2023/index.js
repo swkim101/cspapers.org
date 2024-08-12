@@ -202,7 +202,7 @@ const irregulars = [
   .map(year => ({
     name: "emnlp",
     year,
-    url: `https://dblp.org/db/conf/emnlp/emnlp${year}.html`
+    url: `https://dblp.org/db/conf/emnlp/emnlp${year}-1.html`
   })),
   ...seq(2, 8).map(vol => ({
     name: "pacmpl",
