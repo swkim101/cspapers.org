@@ -1,0 +1,1 @@
+Constructing road networks manually is a time consuming and labor-intensive process. This paper proposes a new method to iteratively construct road networks using reinforcement learning from a combined tensor-based representation of satellite image and GPS trajectory data.

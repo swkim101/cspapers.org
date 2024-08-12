@@ -1,0 +1,10 @@
+Image registration plays a crucial role in histological image analysis, encompassing tasks like multi-modality fusion and disease grading. 
+Traditional registration methods optimize objective functions for each image pair, yielding reliable accuracy but demanding heavy inference burdens.
+Recently, learning-based registration methods utilize networks to learn the optimization process during training and apply a one-step forward process during testing. 
+While these methods offer promising registration performance with reduced inference time, they remain sensitive to appearance variances and local structure changes commonly encountered in histological image registration scenarios.
+In this paper, for the first time, we propose a novel test-time adaptation method for histological image registration, aiming to improve the generalization ability of learning-based methods. 
+Specifically, we design two operations, style guidance and shape guidance, for the test-time adaptation process. 
+The former leverages style representations encoded by feature statistics to address the issue of appearance variances, while the latter incorporates shape representations encoded by HOG features to improve registration accuracy in regions with structural changes.
+Furthermore, we consider the continuity of the model during the test-time adaptation process.
+Different from the previous methods initialized by a given trained model, we introduce a smoothing strategy to leverage historical models for better generalization. 
+We conduct experiments with several representative learning-based backbones on the public histological dataset, demonstrating the superior registration performance of our test-time adaptation method.

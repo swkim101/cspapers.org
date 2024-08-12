@@ -1,0 +1,8 @@
+Recently, the paradigm of pre-training and fine-tuning graph neural networks has been intensively studied and applied in a wide range of graph mining tasks. 
+Its success is generally attributed to the structural consistency between pre-training and downstream datasets, which, however, does not hold in many real-world scenarios. 
+Existing works have shown that the structural divergence between pre-training and downstream graphs significantly limits the transferability when using the vanilla fine-tuning strategy. This divergence leads to model overfitting on pre-training graphs and causes difficulties in capturing the structural properties of the downstream graphs. 
+In this paper, we identify the fundamental cause of structural divergence as the discrepancy of generative patterns between the pre-training and downstream graphs.
+Furthermore, we propose G-Tuning to preserve the generative patterns of downstream graphs. 
+Given a downstream graph G, the core idea is to tune the pre-trained GNN so that it can reconstruct the generative patterns of G, the graphon W.
+However, the exact reconstruction of a graphon is known to be computationally expensive. To overcome this challenge, we provide a theoretical analysis that establishes the existence of a set of alternative graphons called graphon bases for any given graphon. By utilizing a linear combination of these graphon bases, we can efficiently approximate W. This theoretical finding forms the basis of our model, as it enables effective learning of the graphon bases and their associated coefficients.
+Compared with existing algorithms, G-Tuning demonstrates consistent performance improvement in 7 in-domain and 7 out-of-domain transfer learning experiments.

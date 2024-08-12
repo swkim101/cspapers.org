@@ -1,0 +1,7 @@
+Multi-label classification is an arduous problem given the complication in label correlation. Whilst sharing a common goal with contrastive learning in utilizing correlations for representation learning, how to better leverage label information remains challenging. 
+Previous endeavors include extracting label-level presentations or mapping labels to an embedding space, overlooking the correlation between multiple labels. 
+It exhibits a great ambiguity in determining positive samples with different extent of label overlap between samples and integrating such relations in loss functions. 
+In our work, we propose Multi-Label Supervised Contrastive learning (MulSupCon) with a novel contrastive loss function to adjust weights based on how much overlap one sample shares with the anchor. 
+By analyzing gradients, we explain why our method performs better under multi-label circumstances. 
+To evaluate, we conduct direct classification and transfer learning on several multi-label datasets, including widely-used image datasets such as MS-COCO and NUS-WIDE.
+Validation indicates that our method outperforms the traditional multi-label classification method and shows a competitive performance when comparing to other existing approaches.

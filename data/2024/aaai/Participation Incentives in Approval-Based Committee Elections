@@ -1,0 +1,16 @@
+In approval-based committee (ABC) voting, the goal is to
+choose a subset of predefined size of the candidates based on
+the voters’ approval preferences over the candidates. While
+this problem has attracted significant attention in recent years,
+the incentives for voters to participate in an election for a
+given ABC voting rule have been neglected so far. This paper
+is thus the first to explicitly study this property, typically called
+participation, for ABC voting rules. In particular, we show
+that all ABC scoring rules even satisfy group participation,
+whereas most sequential rules severely fail participation. We
+furthermore explore several escape routes to the impossibility
+for sequential ABC voting rules: we prove for many sequential
+rules that (i) they satisfy participation on laminar profiles, (ii)
+voters who approve none of the elected candidates cannot
+benefit by abstaining, and (iii) it is NP-hard for a voter to
+decide whether she benefits from abstaining

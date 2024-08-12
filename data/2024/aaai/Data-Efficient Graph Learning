@@ -1,0 +1,1 @@
+My research strives to develop fundamental graph-centric learning algorithms to reduce the need for human supervision in low-resource scenarios. The focus is on achieving effective and reliable data-efficient learning on graphs, which can be summarized into three facets: (1) graph weakly-supervised learning; (2) graph few-shot learning; and (3) graph self-supervised learning.

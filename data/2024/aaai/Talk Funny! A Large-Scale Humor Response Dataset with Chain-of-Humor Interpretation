@@ -1,0 +1,6 @@
+Humor is a crucial part of human communication. Understanding humor and generating humorous responses in dialogue can provide natural and empathic human-computer interactions.
+However, most existing pre-trained language models (PLMs) perform unsatisfactorily in humor generation.
+On one hand, the serious shortage of humor corpus and datasets pose challenges for constructing models that can understand and generate humorous expressions. On the other hand, humor generation relies on rich knowledge and commonsense, which is often tacit and unspoken.
+In this paper, we construct the largest Chinese Explainable Humor Response Dataset to date with chain-of-humor and humor mind map annotations, which can be used to comprehensively evaluate as well as improve the humorous response ability of PLMs.
+We further design humor-related auxiliary tasks to further enhance PLMs' humorous response performance.
+Extensive evaluations demonstrate that our proposed dataset and auxiliary tasks effectively help PLMs to generate humorous responses, laying the groundwork for future humor research.

@@ -1,0 +1,7 @@
+We introduce squared neural Poisson point processes (SNEPPPs) by parameterising the intensity function by the squared norm of a two layer neural network.
+When the hidden layer is fixed and the second layer has a single neuron, our approach resembles previous uses of squared Gaussian process or kernel methods, but allowing the hidden layer to be learnt allows for additional flexibility.
+In many cases of interest, the integrated intensity function admits a closed form and can be computed in quadratic time in the number of hidden neurons.
+We enumerate a far more extensive number of such cases than has previously been discussed.
+Our approach is more memory and time efficient than naive implementations of squared or exponentiated kernel methods or Gaussian processes.
+Maximum likelihood and maximum a posteriori estimates in a reparameterisation of the final layer of the intensity function can be obtained by solving a (strongly) convex optimisation problem using projected gradient descent. 
+We demonstrate SNEPPPs on real, and synthetic benchmarks, and provide a software implementation.

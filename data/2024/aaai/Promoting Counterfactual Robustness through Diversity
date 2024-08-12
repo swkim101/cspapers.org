@@ -1,0 +1,12 @@
+Counterfactual explanations shed light on the decisions of black-box models by explaining
+how an input can be altered to obtain a favourable decision from the model (e.g., when a loan application has been rejected).
+However, as noted recently, counterfactual explainers may lack robustness in the sense that a minor change
+in the input can cause a major change in the explanation. This can cause confusion on the user side and
+open the door for adversarial attacks. In this paper, we study some sources of non-robustness. 
+While there are fundamental reasons for why an explainer that returns a single counterfactual cannot be
+robust in all instances, we show that some interesting robustness guarantees can be given by reporting 
+multiple rather than a single counterfactual. Unfortunately, the number of counterfactuals that need to
+be reported for the theoretical guarantees to hold can be prohibitively large. We therefore propose an approximation
+algorithm that uses a diversity criterion to select a feasible number of most relevant explanations and study its robustness empirically. Our experiments indicate that our method improves the
+state-of-the-art in generating robust explanations, while maintaining other desirable properties
+and providing competitive computational performance.

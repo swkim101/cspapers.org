@@ -1,0 +1,11 @@
+Contrastive Language-Image Pretraining (CLIP) model has exhibited remarkable efficacy in establishing cross-modal connections between texts and images, yielding impressive
+performance across a broad spectrum of downstream applications through fine-tuning. However, for generalization tasks, the current fine-tuning methods for CLIP, such as CoOp and
+CoCoOp, demonstrate relatively low performance on some fine-grained datasets. We recognize the underlying reason is that these previous methods only projected global features
+into the prompt, neglecting the various visual concepts, such as colors, shapes, and sizes, which are naturally transferable
+across domains and play a crucial role in generalization tasks. To address this issue, in this work, we propose
+Concept-Guided Prompt Learning (CPL) for vision-language models. Specifically, we leverage the well-learned knowledge
+of CLIP to create a visual concept cache to enable conceptguided prompting. In order to refine the text features, we further
+develop a projector that transforms multi-level visual features into text features. We observe that this concept-guided
+prompt learning approach is able to achieve enhanced consistency between visual and linguistic modalities. Extensive
+experimental results demonstrate that our CPL method significantly improves generalization capabilities compared to
+the current state-of-the-art methods.

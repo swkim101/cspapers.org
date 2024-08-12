@@ -1,0 +1,10 @@
+Notions of transition invariants and closure certificates have seen recent use in the formal verification of controlled dynamical systems against \omega-regular properties.
+Unfortunately, existing approaches face limitations in two directions.
+First, they require a closed-form mathematical expression representing the model of the system.
+Such an expression may be difficult to find, too complex to be of any use, or unavailable due to security or privacy constraints.
+Second, finding such invariants typically rely on optimization techniques such as sum-of-squares (SOS) or satisfiability modulo theory (SMT) solvers.
+This restricts the classes of systems that need to be formally verified.
+To address these drawbacks, we introduce a notion of neural closure certificates.
+We present a data-driven algorithm that trains a neural network to represent a closure certificate.
+Our approach is formally correct under some mild assumptions, i.e., one is able to formally show that the unknown system satisfies the \omega-regular property of interest if a neural closure certificate can be computed.
+Finally, we demonstrate the efficacy of our approach with relevant case studies.

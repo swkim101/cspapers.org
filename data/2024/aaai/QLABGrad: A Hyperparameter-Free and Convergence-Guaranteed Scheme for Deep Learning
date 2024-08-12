@@ -1,0 +1,18 @@
+The learning rate is a critical hyperparameter for deep learning
+tasks since it determines the extent to which the model
+parameters are adjusted during the learning course. However,
+the choice of learning rates typically depends on empirical
+judgment, which may not result in satisfactory outcomes
+without intensive try-and-error experiments. In this
+study, we propose a novel learning rate adaptation scheme
+called QLABGrad. Without any user-specified hyperparameter,
+QLABGrad automatically determines the learning rate by
+optimizing the quadratic loss approximation-based (QLAB)
+function for a given gradient descent direction, where only
+one extra forward propagation is required. We theoretically
+prove the convergence of QLABGrad under the smooth Lipschitz
+condition on the loss function. Experiment results on
+multiple architectures, including MLP, CNN, and ResNet, on
+MNIST, CIFAR10, and ImageNet datasets, demonstrate that
+QLABGrad outperforms widely adopted schemes for deep
+learning.
