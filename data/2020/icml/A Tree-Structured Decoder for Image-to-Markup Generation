@@ -1,0 +1,17 @@
+Recent encoder-decoder approaches typically employ string decoders to convert images into serialized strings for image-to-markup. However, 
+for tree-structured representational markup, string 
+representations can hardly cope with the structural complexity. In this work, we first show 
+via a set of toy problems that string decoders 
+struggle to decode tree structures, especially as 
+structural complexity increases, we then propose 
+a tree-structured decoder that specifically aims 
+at generating a tree-structured markup. Our decoders works sequentially, where at each step a 
+child node and its parent node are simultaneously 
+generated to form a sub-tree. This sub-tree is consequently used to construct the final tree structure 
+in a recurrent manner. Key to the success of our 
+tree decoder is twofold, (i) it strictly respects the 
+parent-child relationship of trees, and (ii) it explicitly outputs trees as oppose to a linear string. 
+Evaluated on both math formula recognition and 
+chemical formula recognition, the proposed tree 
+decoder is shown to greatly outperform strong 
+string decoder baselines.

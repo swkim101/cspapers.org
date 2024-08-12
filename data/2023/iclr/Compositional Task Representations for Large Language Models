@@ -1,0 +1,1 @@
+Large language models have shown a remarkable cross-task generalization ability. Most prior works assumed that prompts effectively extract knowledge from language models to facilitate generalization to new tasks. This perspective led to numerous studies on improving prompts. In contrast, we introduce a new perspective, compositional generalization

@@ -1,0 +1,1 @@
+We introduce the Wasserstein transform, a method for enhancing and denoising datasets defined on general metric spaces. The construction draws inspiration from Optimal Transportation ideas. We establish precise connections with the mean shift family of algorithms and establish the stability of both our method and mean shift under data perturbation.

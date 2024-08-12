@@ -1,0 +1,1 @@
+or EMA and manifests better adaptation to different stages of training. We further design a parallel framework for large-scale training with efﬁciency in memory and computation. Extensive experiments demonstrate the superior performance of TWA on benchmark computer vision tasks with various architectures.
