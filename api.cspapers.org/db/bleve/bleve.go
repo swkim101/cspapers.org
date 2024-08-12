@@ -65,6 +65,14 @@ func dtor() error {
 	return nil
 }
 
+func escape(str string) string {
+	target := "\\+-=&|><!(){}[]^\"~*?:/ "
+	for _, c := range target {
+		str = strings.ReplaceAll(str, string(c), "\\"+string(c))
+	}
+	return str
+}
+
 func search(req *types.SearchRequest) *types.SearchResponse {
 	/* 2014 - 2024 */
 	yearFrom := bleve.NewQueryStringQuery(fmt.Sprintf("year:>=%v", req.YearFrom))
@@ -87,10 +95,13 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	/* title like <query> or abstract like <query> */
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
+	req.Query = escape(req.Query)
 	boostingTitle := bleve.NewQueryStringQuery(fmt.Sprintf("title:%v^5", req.Query))
 	absMatch := bleve.NewQueryStringQuery(fmt.Sprintf("abstract:%v", req.Query))
+	mq := bleve.NewMatchPhraseQuery(req.Query)
 	keywordQuery = append(keywordQuery, boostingTitle)
 	keywordQuery = append(keywordQuery, absMatch)
+	keywordQuery = append(keywordQuery, mq)
 	if isWord(req.Query) && 3 < len(req.Query) {
 		keywordQuery = append(keywordQuery, bleve.NewFuzzyQuery(req.Query))
 	} else {

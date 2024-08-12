@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
+	"slices"
 	"strconv"
 	"strings"
 
@@ -65,23 +66,38 @@ func unmarshal(query url.Values) (*types.SearchRequest, error) {
 	/* any idea other than reflection? */
 	yearFrom, err := strconv.ParseUint(query.Get("yearFrom"), 10, 32)
 	if err != nil {
+		log.Debugf("yearFrom %v", yearFrom)
 		return nil, err
 	}
 	yearTo, err := strconv.ParseUint(query.Get("yearTo"), 10, 32)
 	if err != nil {
+		log.Debugf("yearTo %v", yearTo)
 		return nil, err
 	}
 	skip, err := strconv.ParseUint(query.Get("skip"), 10, 32)
 	if err != nil {
+		log.Debugf("skip %v", skip)
 		return nil, err
+	}
+	venue := strings.Split(query.Get("venue"), ",")
+	for _, v := range venue {
+		if !isValidVenue(v) {
+			return nil, fmt.Errorf("invalid venue %v", v)
+		}
 	}
 	return &types.SearchRequest{
 		Query:     query.Get("query"),
 		OrderBy:   query.Get("orderBy"),
 		Ascending: query.Get("ascending") == "true",
-		Venue:     strings.Split(query.Get("venue"), ","),
+		Venue:     venue,
 		YearFrom:  uint32(yearFrom),
 		YearTo:    uint32(yearTo),
 		Skip:      uint32(skip),
 	}, nil
+}
+
+var validVenue = []string{"AAAI", "IJCAI", "CVPR", "ICLR", "ICML", "NeurIPS", "ACL", "EMNLP", "NAACL", "SIGIR", "WWW", "ASPLOS", "NDSS", "Usenix", "SP", "CCS", "SIGMOD", "VLDB", "MobiCom", "MobiSys", "SenSys", "OSDI", "SOSP", "ATC", "EuroSYS", "FSE", "ICSE", "ASE", "ISSTA", "PACMPL", "PLDI", "FOCS", "SODA", "STOC", "CRYPTO", "EuroCrypt", "LICS", "EC", "WINE", "CHI", "UbiComp", "UIST", "ICRA", "IROS", "RSS"}
+
+func isValidVenue(venue string) bool {
+	return slices.Contains(validVenue, venue)
 }
