@@ -26,7 +26,7 @@ sudo npm install http-server -g
 Build and run
 
 ```bash
-# generate index db. It takes ~15 minutes.
+# generate index db. takes up to 10mins.
 go run ./api.cspapers.org/index -debug
 # run index server
 go run ./api.cspapers.org/server -debug
@@ -76,8 +76,7 @@ All fields are required.
 | venue    | String, String, ...  | find papers in (venue A or venue B or ...) |
 | orderBy  | ENUM("score", "date")  | order by relevance or published date |
 | ascending  | Boolean | return in an ascending order if true |
-| skip  | Int | WIP. For pagination |
-| take  | Int | WIP. For pagination |
+| skip  | Int | skip first # results. For pagination |
 
 ### Response fields
 
@@ -85,8 +84,7 @@ All fields are required.
 | -------- | ------- | -----------  |
 | total    | Int  | total number of index matched |
 | duration    | Int  | time spent on searching in msec |
-| skip    | Int  | WIP. For pagination |
-| take    | Int  | WIP. For pagination |
+| skip    | Int  | Skipped # results. For pagination |
 | data    | [SearchResult]  |  See below |
 
 SearchResult Fields:
@@ -135,8 +133,6 @@ Poor conference filter:
 
 ## Todo
 
-* Pagination
-* Add PL papers
 * distinguish terms and stop tokens, e.g., 'Controller Area Network (CAN)' and 'can (be able to)',
 * Term aliasing (e.g., uaf = use-after-free)
 

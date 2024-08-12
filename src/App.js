@@ -12,6 +12,7 @@ function App() {
    * @type {[[api.SearchResponseUnit], React.Dispatch<React.SetStateAction<[api.SearchResponseUnit]>>]}
    */
   const [data, setData] = useState([])
+  const [skip, setSkip] = useState(0)
   const [total, setTotal] = useState(0)
   const [duration, setDuration] = useState(0)
   const [showFilter, setShowFilter] = useState(true)
@@ -28,6 +29,13 @@ function App() {
     search()
   }
 
+  const next = () => {
+    setSkip(skip + 20)
+  }
+  const prev = () => {
+    setSkip(Math.max(0, skip - 20))
+  }
+
   const search = async () => {
     const req = {
       query,
@@ -36,8 +44,7 @@ function App() {
       venue,
       orderBy,
       ascending,
-      skip: 0,
-      take: 20,
+      skip,
     }
     const [res, err] = await api.search(req)
     if (!err ) {
@@ -73,6 +80,9 @@ function App() {
             setVenue(v.split(','))
           }
           break;
+        case 'skip':
+          setSkip(v)
+          break
         default:
           console.error("unknwon field ", k)
       }
@@ -95,7 +105,22 @@ function App() {
     venue,
     orderBy,
     ascending,
+    skip,
   ])
+
+  useEffect(() => {
+    setSkip(0)
+  }, [query,
+    yearFrom,
+    yearTo,
+    venue,
+    orderBy,
+    ascending,
+  ])
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [skip])
 
   return (
     <div className='p-2'>
@@ -145,6 +170,19 @@ function App() {
           {
             data.map((e, idx) => <Paper key={`${e.title}-${e.score}-${idx}`} {...e} />)
           }
+          <hr />
+          <div>
+            page ({skip / 20 + 1} / {Math.ceil(total / 20)}): <span
+              className={0 < skip ? "initial mt-2 text-blue underline pointer" : "none" }
+              onClick={() => setSkip(0)}
+            >first</span> | <span
+              className={20 <= skip ? "initial mt-2 text-blue underline pointer" : "none" }
+              onClick={() => prev()}
+            >prev</span> | <span
+              className={skip < total - 20 ? "initial mt-2 text-blue underline pointer" : "none" }
+              onClick={() => next()}
+            >next</span>
+          </div>
         </div>
         <div className={showFilter ? 'w-280' : 'none'}>
           <ConferenceTree onChange={e => setVenue(e)}/>

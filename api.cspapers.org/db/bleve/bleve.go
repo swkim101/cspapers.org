@@ -107,7 +107,6 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 			}
 		}
 		if 2 < len(lastWord) {
-			// qs := fmt.Sprintf("/%v.*/", word)
 			keywordQuery = append(keywordQuery, bleve.NewPrefixQuery(lastWord))
 		}
 	}
@@ -116,8 +115,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	query := bleve.NewConjunctionQuery(year, venue, keyword)
 
 	log.Debugf("%v", req.Query)
-	search := bleve.NewSearchRequest(query)
-	search.Size = 20
+	search := bleve.NewSearchRequestOptions(query, 20, int(req.Skip), false)
 	sortBy := ""
 	switch req.OrderBy {
 	case "score":
@@ -159,6 +157,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	return &types.SearchResponse{
 		Total:    int(searchResults.Total),
 		Duration: int(searchResults.Took.Milliseconds()),
+		Skip:     req.Skip,
 		Data:     data,
 	}
 }
@@ -191,7 +190,6 @@ func batchInsert() {
 func insert(req *types.InsertRequest) error {
 	reqChan <- req
 	return nil
-	// return index.Index(idx, req)
 }
 
 func isWord(s string) bool {

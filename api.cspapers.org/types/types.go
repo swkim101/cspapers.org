@@ -25,7 +25,6 @@ type SearchResponse struct {
 	Total    int                   `json:"total"`
 	Duration int                   `json:"duration"`
 	Skip     uint32                `json:"skip"`
-	Take     uint32                `json:"take"`
 	Data     []*SearchResponseUnit `json:"data"`
 }
 
@@ -43,7 +42,6 @@ type SearchRequest struct {
 	YearFrom  uint32   `json:"yearFrom"`
 	YearTo    uint32   `json:"yearTo"`
 	Skip      uint32   `json:"skip"`
-	Take      uint32   `json:"take"`
 }
 
 func (p *Paper) ToIndex() string {

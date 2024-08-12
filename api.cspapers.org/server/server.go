@@ -75,10 +75,6 @@ func unmarshal(query url.Values) (*types.SearchRequest, error) {
 	if err != nil {
 		return nil, err
 	}
-	take, err := strconv.ParseUint(query.Get("take"), 10, 32)
-	if err != nil {
-		return nil, err
-	}
 	return &types.SearchRequest{
 		Query:     query.Get("query"),
 		OrderBy:   query.Get("orderBy"),
@@ -87,6 +83,5 @@ func unmarshal(query url.Values) (*types.SearchRequest, error) {
 		YearFrom:  uint32(yearFrom),
 		YearTo:    uint32(yearTo),
 		Skip:      uint32(skip),
-		Take:      uint32(take),
 	}, nil
 }

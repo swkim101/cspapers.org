@@ -9,14 +9,12 @@ import { ABSTRACT_URL, API_HOST } from "./const";
  *   yearFrom:  number,
  *   yearTo:    number,
  *   skip:      number,
- *   take:      number,
  * }} SearchRequest
  * 
  * @typedef {{
  *   total: number,
  *   skip:  number,
  *   duration:  number, // msec, spent on searching
- *   take:  number,
  *   data:  [SearchResponseUnit],
  * }} SearchResponse
  * 
