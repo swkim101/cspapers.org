@@ -47,7 +47,7 @@ function App() {
       skip,
     }
     const [res, err] = await api.search(req)
-    if (!err ) {
+    if (!err || query === "") {
       setData(res.data || [])
       setTotal(res.total)
       setDuration(res.duration)
