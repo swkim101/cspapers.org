@@ -14,7 +14,7 @@
     "start": "react-scripts start",
     "build": "BUILD_PATH='./docs' react-scripts build && cp .github/CNAME ./docs",
     "crawl": "node ./data_crawler/crawler.js",
-    "tool:dupcheck": "node ./data_tools/title_dup_check.js",
+    "test:dupcheck": "node ./test/title_dup_check.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

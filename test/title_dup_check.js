@@ -42,7 +42,7 @@ const walk = async (dir, callback) => {
 (async () => {
   await walk("data", async (title, dir) => {
     /* todo */
-    if (title.includes("?") || title.includes("“")) { return }
+    // if (title.includes("?") || title.includes("“")) { return }
     const [res, err] = await api.search(req(title))
     if (err) { 
       console.log(err)
@@ -56,7 +56,7 @@ const walk = async (dir, callback) => {
       return
     }
     const sus = res.data.filter(d => levenshtein(d.title, title) < 4)
-    if (0 < sus.length) {
+    if (1 < sus.length) {
       fs.appendFileSync("duplicates", JSON.stringify(sus, null, 2) + ",\n")
     }
   })
