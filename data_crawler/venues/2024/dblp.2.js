@@ -8,8 +8,8 @@ const names = [
   ["neurips", (year) => `${prefix}/conf/nips/neurips${year}.html`],
   ["ubicomp", (year) => `${prefix}/conf/huc/ubicomp${year}.html`],
   ["acl", (year) => `${prefix}/conf/acl/acl${year}-1.html`],
-  ["vldb", (year) => `${prefix}/journals/pvldb/pvldb${year-2006}.html`]
-  ["pacmpl", (year) => `${prefix}/journals/pacmpl/pacmpl${year-2016}.html`]
+  ["vldb", (year) => `${prefix}/journals/pvldb/pvldb${year-2006}.html`],
+  ["pacmpl", (year) => `${prefix}/journals/pacmpl/pacmpl${year-2016}.html`],
 ]
 
 const venues = names.map(([name, fn]) => ({
