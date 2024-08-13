@@ -84,7 +84,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	venueQuery := []query.Query{}
 	for _, v := range req.Venue {
 		if v == "" {
-			continue
+			return &types.SearchResponse{}
 		}
 		qs := fmt.Sprintf("venue:%v", strings.ToLower(v))
 		venueQuery = append(venueQuery, bleve.NewQueryStringQuery(qs))
