@@ -1,0 +1,1 @@
+We study the problem of learning-augmented predictive linear quadratic control. Our goal is to design a controller that balances consistency, which measures the competitive ratio when predictions are accurate, and robustness, which bounds the competitive ratio when predictions are inaccurate.

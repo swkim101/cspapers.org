@@ -1,0 +1,1 @@
+In this paper, we present DATC Robust Design Flow (RDF) from logic synthesis to detailed routing. We further include detailed placement and detailed routing tools based on recent EDA research contests. We also demonstrate RDF in a scalable cloud infrastructure. Design methodology and cross-stage optimization research can be conducted via RDF.

@@ -1,0 +1,1 @@
+In this paper, we demonstrate the use of the open-source domain specific language WAL to analyze performance metrics of RISC-V processors. The WAL programs calculate these metrics by evaluating the processors signals while "walking" over the simulation waveform (VCD). The presented WAL programs are flexible and generic, and can be easily adapted to different RISC-V cores.

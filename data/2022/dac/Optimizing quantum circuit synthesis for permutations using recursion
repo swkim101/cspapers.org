@@ -1,0 +1,1 @@
+We describe a family of recursive methods for the synthesis of qubit permutations on quantum computers with limited qubit connectivity. Two objectives are of importance: circuit size and depth. In each case we combine a scalable heuristic with a non-scalable, yet exact, synthesis.

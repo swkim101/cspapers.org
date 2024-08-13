@@ -1,0 +1,1 @@
+In this paper, we present a real-time testbed RTMUSRT to eliminate unpredictable behaviors and improve dependability when empirically evaluating multicore real-time scheduling algorithms. Experimental results are obtained by measuring kernel overheads of RTMUSRT, and demonstrate that RTMUSRT has fewer disturbances in task executions than other existing work.
