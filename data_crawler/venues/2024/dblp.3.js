@@ -13,7 +13,11 @@ const names = [
   [
     "crypto",
     (year) => seq(1, 6).map(vol => `${prefix}/crypto/crypto${year}-${vol}.html`)
-  ],  
+  ],
+  [
+    "sigcse",
+    (year) => seq(1, 3).map(vol => `${prefix}/sigcse/sigcse${year}-${vol}.html`)
+  ],
 ]
 
 const flattenName = year => names.reduce((acc, [name, fn]) =>
@@ -23,7 +27,6 @@ const flattenName = year => names.reduce((acc, [name, fn]) =>
 const venues = flattenName(2024).map(([name, url]) => ({
   name,
   year: 2024,
-  crawler: "dblp-common",
   url,
 }))
 

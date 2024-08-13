@@ -30,6 +30,10 @@ const edges = [
   ["Systems", "Computer architecture"],
   ["Computer architecture", "ASPLOS"],
 
+  ["Systems", "Computer network"],
+  ["Computer network", "SIGCOMM"],
+  ["Computer network", "NSDI"],
+
   ["Systems", "Computer security"],
   ["Computer security", "NDSS"],
   ["Computer security", "Usenix"],
@@ -39,6 +43,24 @@ const edges = [
   ["Systems", "Databases"],
   ["Databases", "SIGMOD"],
   ["Databases", "VLDB"],
+
+  ["Systems", "Design automation"],
+  ["Design automation", "DAC"],
+  ["Design automation", "ICCAD"],
+
+  ["Systems", "High-performance computing"],
+  ["High-performance computing", "HPDC"],
+  ["High-performance computing", "ICS"],
+  ["High-performance computing", "SC"],
+
+  ["Systems", "Measurement & perf. analysis"],
+  ["Measurement & perf. analysis", "IMC"],
+  ["Measurement & perf. analysis", "SIGMETRICS"],
+
+  ["Systems", "Embedded & real-time systems"],
+  ["Embedded & real-time systems", "EMSOFT"],
+  ["Embedded & real-time systems", "RTAS"],
+  ["Embedded & real-time systems", "RTSS"],
 
   ["Systems", "Mobile computing"],
   ["Mobile computing", "MobiCom"],
@@ -76,6 +98,9 @@ const edges = [
   ["Logic & verification", "LICS"],
 
   ["All Areas", "Interdisciplinary Areas"],
+
+  ["Interdisciplinary Areas", "Computer science education"],
+  ["Computer science education", "SIGCSE"],
 
   ["Interdisciplinary Areas", "Economics & computation"],
   ["Economics & computation", "EC"],

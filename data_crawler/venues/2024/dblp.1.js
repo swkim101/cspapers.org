@@ -30,6 +30,18 @@ const names = [
   "sp",
   "ndss",
   "ccs",
+  "sigcomm",
+  "nsdi",
+  "emsoft",
+  "rtas",
+  "rtss",
+  "dac",
+  "iccad",
+  "hpdc",
+  "ics",
+  "sc",
+  "imc",
+  "sigmetrics",
 ]
 
 
