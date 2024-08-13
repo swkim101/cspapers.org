@@ -95,41 +95,33 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	/* title like <query> or abstract like <query> */
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
-	/* remove multiple whitespaces between words, otherwise, a syntax error occurs. */
-	req.Query = strings.Join(strings.Fields(req.Query), " ")
-	req.Query = escape(req.Query)
-	boostingTitle := bleve.NewQueryStringQuery(fmt.Sprintf("title:%v^5", req.Query))
-	absMatch := bleve.NewQueryStringQuery(fmt.Sprintf("abstract:%v", req.Query))
-	mq := bleve.NewMatchPhraseQuery(req.Query)
-	keywordQuery = append(keywordQuery, boostingTitle)
-	keywordQuery = append(keywordQuery, absMatch)
-	keywordQuery = append(keywordQuery, mq)
-	if isWord(req.Query) && 3 < len(req.Query) {
-		fq := bleve.NewFuzzyQuery(req.Query)
-		fq.SetFuzziness(2)
-		keywordQuery = append(keywordQuery, fq)
-	} else {
-		words := strings.Fields(req.Query)
-		lastWord := words[len(words)-1]
-		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(words, "title"))
-		keywordQuery = append(keywordQuery, bleve.NewPhraseQuery(words, "abstract"))
-		for _, word := range words {
-			// heuristic. magic number 3.
-			if 3 < len(word) {
-				fq := bleve.NewFuzzyQuery(word)
-				fq.SetFuzziness(2)
-				keywordQuery = append(keywordQuery, fq)
-			} else {
-				qsTitle := fmt.Sprintf("title:%v^2", word)
-				qsAbs := fmt.Sprintf("abstract:%v", word)
-				keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
-				keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
-			}
-		}
-		if 2 < len(lastWord) {
-			keywordQuery = append(keywordQuery, bleve.NewPrefixQuery(lastWord))
+	words := strings.Fields(req.Query)
+	if len(words) == 0 {
+		// no word to search
+		return &types.SearchResponse{}
+	}
+	for idx, word := range words {
+		words[idx] = escape(word)
+	}
+
+	qs := fmt.Sprintf("title:\"%v\"^2", strings.Join(words, " "))
+	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
+	qs = fmt.Sprintf("abstract:\"%v\"", strings.Join(words, " "))
+	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
+
+	for _, word := range words {
+		// heuristic. magic number 3.
+		qsTitle := fmt.Sprintf("title:%v^2", word)
+		qsAbs := fmt.Sprintf("abstract:%v", word)
+		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
+		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
+		if 4 < len(word) {
+			fq := bleve.NewFuzzyQuery(word)
+			fq.SetFuzziness(2)
+			keywordQuery = append(keywordQuery, fq)
 		}
 	}
+
 	keyword := bleve.NewDisjunctionQuery(keywordQuery...)
 
 	query := bleve.NewConjunctionQuery(year, venue, keyword)
