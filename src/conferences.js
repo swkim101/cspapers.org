@@ -29,6 +29,9 @@ const edges = [
 
   ["Systems", "Computer architecture"],
   ["Computer architecture", "ASPLOS"],
+  ["Computer architecture", "ISCA"],
+  ["Computer architecture", "MICRO"],
+  ["Computer architecture", "HPCA"],
 
   ["Systems", "Computer network"],
   ["Computer network", "SIGCOMM"],

@@ -42,6 +42,9 @@ const names = [
   "sc",
   "imc",
   "sigmetrics",
+  "isca",
+  "micro,",
+  "hpca",
 ]
 
 

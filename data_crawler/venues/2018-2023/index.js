@@ -64,6 +64,9 @@ const regularUrls = [
   ["conf/sc/sc", "sc"],
   ["conf/imc/imc", "imc"],
   ["conf/sigmetrics/sigmetrics", "sigmetrics"],
+  ["conf/isca/isca", "isca"],
+  ["conf/micro/micro", "micro"],
+  ["conf/hpca/hpca", "hpca"],
 ]
 
 /**
@@ -221,10 +224,15 @@ const irregulars = [
     year: vol+2016,
     url: `https://dblp.org/db/journals/pacmpl/pacmpl${vol}.html`,
   })),
-  ...seq(2018, 2023).map(year => ({
+  ...seq(2018, 2022).map(year => ({
     name: "sigcse",
     year,
     url: `https://dblp.org/db/conf/sigcse/sigcse${year}.html`,
+  })),
+  ...seq(1, 3).map(vol => ({
+    name: "sigcse",
+    year: 2022,
+    url: `https://dblp.org/db/conf/sigcse/sigcse2022-${vol}.html`,
   })),
   ...seq(1, 3).map(vol => ({
     name: "sigcse",
