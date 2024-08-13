@@ -1,0 +1,8 @@
+We formulate the problem of eliciting agents' preferences with the goal of finding a Kemeny ranking as a Dueling Bandits problem.
+Here the bandits' arms correspond to alternatives that need to be ranked and the feedback corresponds to a pairwise comparison between alternatives by a randomly sampled agent.
+We consider both sampling with and without replacement, i.e., the possibility to ask the same agent about some comparison multiple times or not.
+
+We find approximation bounds for Kemeny rankings dependant on confidence intervals over estimated winning probabilities of arms. 
+Based on these we state algorithms to find Probably Approximately Correct (PAC) solutions and elaborate on their sample complexity for sampling with or without replacement.
+Furthermore, if all agents' preferences are strict rankings over the alternatives, we provide means to prune confidence intervals and thereby guide a more efficient elicitation. We formulate several adaptive sampling methods that use look-aheads to estimate how much confidence intervals (and thus approximation guarantees) might be tightened. 
+All described methods are compared on synthetic data.
