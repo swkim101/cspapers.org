@@ -22,6 +22,9 @@ function App() {
   const [orderBy, setOrderBy] = useState(SCORE)
   const [ascending, setAscending] = useState(false)
   const [query, setQuery] = useState('')
+  const [isWaiting, setWaiting] = useState(false)
+  const [waitTimerId, setWaitTimerId] = useState(0)
+  const [isError, setError] = useState(false)
 
   const submit = (e) => {
     e.preventDefault()
@@ -46,11 +49,13 @@ function App() {
       ascending,
       skip,
     }
+    setWaiting(true)
     const [res, err] = await api.search(req)
     if (!err || query === "") {
       setData(res.data || [])
       setTotal(res.total)
       setDuration(res.duration)
+      setWaiting(false)
       window.location.hash = new URLSearchParams(req).toString()
     }
   }
@@ -122,6 +127,15 @@ function App() {
     window.scrollTo(0, 0)
   }, [skip])
 
+  useEffect(() => {
+    if (isWaiting) {
+      const timerId = setTimeout(() => setError(true), 5000)
+      setWaitTimerId(timerId) 
+    } else {
+      clearTimeout(waitTimerId)
+    }
+  }, [isWaiting])
+
   return (
     <div className='p-2'>
       <div className='mb-2'>
@@ -129,9 +143,11 @@ function App() {
         <a rel="noreferrer" target="_blank" href="https://github.com/swkim101/cspapers.org">( GitHub )</a>
       </div>
       <form onSubmit={e => submit(e)}>
-        <input autoFocus value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' type="text" placeholder='fuzzing' />
-        <input type="submit" value="search" />
-        <span className='text-gray-400'> - {total} resulsts ({duration / 1000} seconds) </span>
+        <input autoFocus type="search" value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' placeholder='fuzzing' />
+        <input type="submit" value="search" className='mr-2' />
+        <span className={isWaiting ? 'none' : 'text-gray-400'}>- {total} resulsts ({duration / 1000} seconds) </span>
+        <progress className={isWaiting ? undefined : 'none'}></progress>
+        <span className={isError ? undefined : 'none'}>- Too slow? Please consider a refresh </span>
       </form>
       <div
         onClick={() => setShowFilter(!showFilter)}

@@ -36,11 +36,11 @@ import { ABSTRACT_URL, API_HOST } from "./const";
  */
 let lastlyCalledAt = 0;
 /*
-App() can invoke multiple fetch() in parallel, however,
-is interestd the latest search() result. 
-So, search() shares and update the timestamp of latest call.
-Using this, search() returns only if the latest call timestamp
-matches with the current context's call timestamp.
+Use compare-and-exchange to avoid data race.
+Make search() return the result of the latest fetch() *request* only,
+corresponding to the user's latest query.
+Otherwise, the user will see the latest fetch() *response*, that could
+be stale and does not match to the current query.
 */
 const search = async (req) => {
   const calledAt = Date.now()
