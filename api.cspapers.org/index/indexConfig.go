@@ -9,15 +9,15 @@ import (
 
 type indexConfig struct {
 	config.Config
-	Target string `json:"target"`
+	dataDir string `json:"data_dir"`
 
 	dbimpl *dbimpl.Type `json:"-"`
 }
 
 func LoadConfig(file string) (*indexConfig, error) {
 	cfg := &indexConfig{
-		Config: *config.DefaultValues(),
-		Target: "data",
+		Config:  *config.DefaultValues(),
+		dataDir: "data",
 	}
 	err := config.LoadFile(file, cfg)
 	if err != nil {
