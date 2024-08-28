@@ -27,9 +27,9 @@ Build and run
 
 ```bash
 # generate index db. takes up to 10mins.
-go run ./api.cspapers.org/index -debug
+go run ./api.cspapers.org/index -config default.index.config -debug
 # run index server
-go run ./api.cspapers.org/server -debug
+go run ./api.cspapers.org/server -config default.server.config -debug
 ```
 
 ```bash
