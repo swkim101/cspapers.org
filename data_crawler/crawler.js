@@ -186,7 +186,7 @@ const stat = {
 };
 
 (async () => {
-  const yearFlag = process.argv[2] || "2018-2023"
+  const yearFlag = process.argv[2] || "2024"
   const seek = +process.argv[3] || 9999
   // let dblpQ = dblp.map(e => e)
   let dblpQ = require(`./venues/${yearFlag}`).map(e => e)
