@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { conferences, comments } from '../conferences';
+import { useState } from 'react';
+import { comments, conferences } from '../conferences';
 import { isEven } from '../functional';
 
 /**
@@ -8,8 +8,12 @@ import { isEven } from '../functional';
  * @returns 
  */
 function ConferenceTree(props) {
-  const [venue, setVenue] = useState(conferences.flatten(conferences.tree))
+  const [venue, _setVenue] = useState(conferences.flatten(conferences.tree))
   const [unfolded, setUnfolded] = useState([])
+  const setVenue = (venue) => {
+    _setVenue(venue)
+    props.onChange(venue)
+  }
 
   const toggleUnfolded = n => {
     if (isUnfolded(n)) {
@@ -37,10 +41,6 @@ function ConferenceTree(props) {
   }
   const addOrDelVenueList = (name, add) => add ? addVenueList(name) : delVenueList(name)
   const isVenueIncludeAll = (v = []) => v.every(e => venue.includes(e))
-
-  useEffect(() => {
-    props.onChange(venue)
-  }, [venue])
 
   return (
     <div>

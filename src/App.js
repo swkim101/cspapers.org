@@ -23,8 +23,7 @@ function App() {
   const [ascending, setAscending] = useState(false)
   const [query, setQuery] = useState('')
   const [isWaiting, setWaiting] = useState(false)
-  const [waitTimerId, setWaitTimerId] = useState(0)
-  const [isError, setError] = useState(false)
+  const [isTimeoutError, setTimeoutError] = useState(false)
 
   const submit = (e) => {
     e.preventDefault()
@@ -51,6 +50,11 @@ function App() {
     }
     setWaiting(true)
     const [res, err] = await api.search(req)
+
+    /* Safe from parallel execution. See comments in api.search() */
+    if (err.message === 'timeout') {
+      setTimeoutError(true)
+    }
     if (!err || query === "") {
       setData(res.data || [])
       setTotal(res.total)
@@ -96,6 +100,8 @@ function App() {
       setShowFilter(false)
     }
   }, [])
+
+
   useEffect(() => {
     if (query === "") {
       setData([])
@@ -127,15 +133,6 @@ function App() {
     window.scrollTo(0, 0)
   }, [skip])
 
-  useEffect(() => {
-    if (isWaiting) {
-      const timerId = setTimeout(() => setError(true), 5000)
-      setWaitTimerId(timerId) 
-    } else {
-      clearTimeout(waitTimerId)
-    }
-  }, [isWaiting])
-
   return (
     <div className='p-2'>
       <div className='mb-2'>
@@ -147,7 +144,7 @@ function App() {
         <input type="submit" value="search" className='mr-2' />
         <span className={isWaiting ? 'none' : 'text-gray-400'}>- {total} resulsts ({duration / 1000} seconds) </span>
         <progress className={isWaiting ? undefined : 'none'}></progress>
-        <span className={isError ? undefined : 'none'}>- Too slow? Please consider a refresh </span>
+        <span className={isTimeoutError ? undefined : 'none'}>- Too slow? Please consider a refresh </span>
       </form>
       <div
         onClick={() => setShowFilter(!showFilter)}

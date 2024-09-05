@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { getAbstract } from '../api';
 
 /**
@@ -12,8 +12,10 @@ function Paper(props) {
   const [isAbsLoaded, setIsAbsLoaded] = useState(false)
   const venueUpper = props.venue.toUpperCase()
 
-  useEffect(() => {
-    if (collapsed) {
+  const toggleCollapsed = () => {
+    const nextCollapsed = !collapsed
+    setCollapsed(nextCollapsed)
+    if (nextCollapsed) {
       return
     }
     if (isAbsLoaded) {
@@ -28,12 +30,12 @@ function Paper(props) {
         }
         setIsAbsLoaded(true)
       })
-  }, [collapsed])
+  }
 
   return (
     <div className="mb-2">
       <div>
-        <span className='pointer underline mr-2' onClick={() => setCollapsed(!collapsed)}>
+        <span className='pointer underline mr-2' onClick={() => toggleCollapsed()}>
           <span className="text-blue">{collapsed ? '► ' : '▼ '}</span>
           [{venueUpper} {props.year}] {props.title}
         </span>

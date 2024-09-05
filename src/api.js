@@ -37,8 +37,7 @@ import { ABSTRACT_URL, API_HOST } from "./const";
 let lastlyCalledAt = 0;
 /*
 Use compare-and-exchange to avoid data race.
-Make search() return the result of the latest fetch() *request* only,
-corresponding to the user's latest query.
+Make search() return the result of the latest fetch() *request*.
 Otherwise, the user will see the latest fetch() *response*, that could
 be stale and does not match to the current query.
 */
@@ -46,7 +45,7 @@ const search = async (req) => {
   const calledAt = Date.now()
   try {
     lastlyCalledAt = calledAt
-    const res = await fetch(API_HOST + marshal(req))
+    const res = await fetch(API_HOST + marshal(req), { signal: AbortSignal.timeout(5_000) })
     if (!res.ok) {
       throw new Error(`Response status: ${res.status}`);
     }
@@ -61,17 +60,24 @@ const search = async (req) => {
     /* mimicking atomic compare-and-swap */
 
     if (lastlyCalledAtAfterFetch === calledAt) {
-      // we are the latest call
+      /* this context is the latest */
       return [json, false]
     } else {
       return [{}, new Error(`Later call exists`)]
     }
   } catch (error) {
-    console.error(error)
     /* mimicking atomic compare-and-swap */
+    const lastlyCalledAtAfterFetch = lastlyCalledAt
     lastlyCalledAt = calledAt === lastlyCalledAt ? 0 : lastlyCalledAt
     /* mimicking atomic compare-and-swap */
-    return [{}, error]
+
+    if (lastlyCalledAtAfterFetch === calledAt) {
+      /* this context is the latest */
+      return [{}, new Error('timeout')]
+    } else {
+      console.error(error)
+      return [{}, error]
+    }
   }
 }
 
