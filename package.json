@@ -10,6 +10,13 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1"
   },
+  "overrides": {
+    "react-scripts": {
+      "@svgr/webpack": "8.1.0",
+      "typescript": "4.9.5",
+      "postcss": "8.4.38"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "BUILD_PATH='./docs' react-scripts build && cp .github/CNAME ./docs",
