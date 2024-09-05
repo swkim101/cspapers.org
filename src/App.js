@@ -198,7 +198,7 @@ function App() {
             >next</span>
           </div>
           <hr />
-          <div className='text-gray-400 text-xs'>last update Aug. 28, 2024</div>
+          <div className='text-gray-400 text-xs'>last update Sep. 05, 2024</div>
         </div>
         <div className={showFilter ? 'w-280' : 'none'}>
           <ConferenceTree onChange={e => setVenue(e)}/>
