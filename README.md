@@ -55,11 +55,11 @@ try: http://localhost:8000/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS
 
 ## Query
 
-Curl https://cspaper-org.fly.dev works:
+Curl https://api.cspapers.org works:
 
 ```bash
-$ curl 'https://cspaper-org.fly.dev/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0&take=20'
-[1]+  Done                    curl https://cspaper-org.fly.dev/?query=bluetooth
+$ curl 'https://api.cspapers.org/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0&take=20'
+[1]+  Done                    curl https://api.cspapers.org/?query=bluetooth
 {"total":10,"skip":0,"take":0,"data":[{"title":"BLUFFS: Bluetooth Forward and Future Secrecy Attacks and Defenses","year":2023,"venue":"ccs","index":"2023/ccs/BLUFFS: Bluetooth Forward and Future Secrecy Attacks and 
 (...)
 ```
