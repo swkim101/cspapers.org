@@ -53,6 +53,8 @@ func handle(cfg *serverConfig) func(http.ResponseWriter, *http.Request) {
 		req, err := unmarshal(r.URL.Query())
 		if err != nil {
 			log.Debugf("%v", err)
+			w.Write([]byte("<p>Wrong query string. Example: ?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0&take=20</p>"))
+			w.Write([]byte("<p>Also see: https://github.com/swkim101/cspapers.org?tab=readme-ov-file#query</p>"))
 			w.WriteHeader(http.StatusBadRequest)
 			return
 		}
