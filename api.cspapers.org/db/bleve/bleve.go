@@ -104,7 +104,9 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 		words[idx] = escape(word)
 	}
 
-	qs := fmt.Sprintf("title:\"%v\"^2", strings.Join(words, " "))
+	qs := fmt.Sprintf("title:\"%v\"^3", strings.Join(words, ""))
+	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
+	qs = fmt.Sprintf("title:\"%v\"^2", strings.Join(words, " "))
 	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
 	qs = fmt.Sprintf("abstract:\"%v\"", strings.Join(words, " "))
 	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
