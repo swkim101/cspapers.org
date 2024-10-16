@@ -142,9 +142,9 @@ function App() {
       <form onSubmit={e => submit(e)}>
         <input autoFocus type="search" value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' placeholder='fuzzing' />
         <input type="submit" value="search" className='mr-2' />
-        <span className={isWaiting ? 'none' : 'text-gray-400'}>- {total} resulsts ({duration / 1000} seconds) </span>
+        <span className={isWaiting ? 'none' : 'text-gray-400'}>- {total} results ({duration / 1000} seconds) </span>
         <progress className={isWaiting ? undefined : 'none'}></progress>
-        <span className={isTimeoutError ? undefined : 'none'}>- Too slow? Please consider a refresh </span>
+        <span className={isTimeoutError ? undefined : 'none'}>- Too slow? Please consider refresh </span>
       </form>
       <div
         onClick={() => setShowFilter(!showFilter)}
