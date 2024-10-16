@@ -100,6 +100,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 		// no word to search
 		return &types.SearchResponse{}
 	}
+	isSentence := len(words) > 7
 	for idx, word := range words {
 		words[idx] = escape(word)
 	}
@@ -111,16 +112,25 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	qs = fmt.Sprintf("abstract:\"%v\"", strings.Join(words, " "))
 	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
 
-	for _, word := range words {
-		// heuristic. magic number 3.
-		qsTitle := fmt.Sprintf("title:%v^2", word)
-		qsAbs := fmt.Sprintf("abstract:%v", word)
-		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
-		keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
-		if 4 < len(word) {
-			fq := bleve.NewFuzzyQuery(word)
-			fq.SetFuzziness(2)
-			keywordQuery = append(keywordQuery, fq)
+	/* Word-by-word query is expensive. So, a heuristic is here: A user may
+	 * want papers containing a specific sentence, which does not need expensive
+	 * word-by-word query. If the query is long, e.g., containing more than 7
+	 * words, we infer that a user wants a specific sentence, and skip the expensive
+	 * query. This shows 30x faster results.
+	 */
+	if !isSentence {
+		for _, word := range words {
+			qsTitle := fmt.Sprintf("title:%v^2", word)
+			qsAbs := fmt.Sprintf("abstract:%v", word)
+			keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
+			keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
+
+			/* Do not apply fuzziness for short words. Short words could be abbreviations. */
+			if 4 < len(word) {
+				fq := bleve.NewFuzzyQuery(word)
+				fq.SetFuzziness(2)
+				keywordQuery = append(keywordQuery, fq)
+			}
 		}
 	}
 
