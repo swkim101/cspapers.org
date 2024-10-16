@@ -118,7 +118,10 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	 * words, we infer that a user wants a specific sentence, and skip the expensive
 	 * query. This shows 30x faster results.
 	 */
-	if !isSentence {
+	if isSentence {
+		rq := fmt.Sprintf("%v", strings.Join(words, " "))
+		keywordQuery = append(keywordQuery, bleve.NewMatchQuery(rq))
+	} else {
 		for _, word := range words {
 			qsTitle := fmt.Sprintf("title:%v^2", word)
 			qsAbs := fmt.Sprintf("abstract:%v", word)
