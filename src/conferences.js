@@ -10,6 +10,13 @@ const edges = [
 
   ["AI", "Computer vision"],
   ["Computer vision", "CVPR"],
+  ["Computer vision", "ICCV"],
+  ["Computer vision", "ECCV"],
+
+  ["AI", "Data mining"],
+  ["Data mining", "KDD"],
+  ["Data mining", "CIKM"],
+  ["Data mining", "ICDM"],
 
   ["AI", "Machine learning"],
   ["Machine learning", "ICLR"],
