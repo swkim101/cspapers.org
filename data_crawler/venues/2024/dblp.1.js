@@ -45,6 +45,9 @@ const names = [
   "isca",
   "micro,",
   "hpca",
+  "kdd",
+  "cikm",
+  "icdm",
 ]
 
 

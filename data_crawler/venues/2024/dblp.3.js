@@ -18,6 +18,10 @@ const names = [
     "sigcse",
     (year) => seq(1, 3).map(vol => `${prefix}/sigcse/sigcse${year}-${vol}.html`)
   ],
+  [
+    "eccv",
+    (year) => seq(1, 83).map(vol => `${prefix}/eccv/eccv${year}-${vol}.html`)
+  ],
 ]
 
 const flattenName = year => names.reduce((acc, [name, fn]) =>
