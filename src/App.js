@@ -184,7 +184,9 @@ function App() {
           {
             data.map((e, idx) => <Paper key={`${e.title}-${e.score}-${idx}`} {...e} />)
           }
-          <hr />
+          {
+            0 === total ? undefined : <hr />
+          }
           <div className={0 === total ? "none" : undefined}>
             page ({skip / 20 + 1} / {Math.ceil(total / 20)}): <span
               className={0 < skip ? "initial mt-2 text-blue underline pointer" : "none" }
@@ -198,7 +200,7 @@ function App() {
             >next</span>
           </div>
           <hr />
-          <div className='text-gray-400 text-xs'>last update Oct. 10, 2024</div>
+          <div className='text-gray-400 text-xs'>last update Oct. 18, 2024</div>
         </div>
         <div className={showFilter ? 'w-280' : 'none'}>
           <ConferenceTree onChange={e => setVenue(e)}/>
