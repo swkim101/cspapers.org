@@ -39,6 +39,7 @@ func runServer(cfg *serverConfig) {
 	prefix := cfg.Prefix
 	port := fmt.Sprintf(":%v", cfg.Port)
 
+	http.HandleFunc("/robots.txt", robots)
 	http.HandleFunc(prefix, handle(cfg))
 	log.Printf("running on %v:%v%v", cfg.Host, cfg.Port, prefix)
 	err = http.ListenAndServe(port, nil)
@@ -47,6 +48,10 @@ func runServer(cfg *serverConfig) {
 	}
 }
 
+func robots(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte(`User-agent: *
+Disallow: /`))
+}
 func handle(cfg *serverConfig) func(http.ResponseWriter, *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Access-Control-Allow-Origin", "*")
