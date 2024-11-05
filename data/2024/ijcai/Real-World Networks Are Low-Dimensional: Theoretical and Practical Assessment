@@ -1,0 +1,9 @@
+Recent empirical evidence suggests that real-world networks have very low underlying dimensionality. We provide a theoretical explanation for this phenomenon as well as develop a linear-time algorithm for detecting the underlying dimensionality of such networks.
+
+ 
+
+ Our theoretical analysis considers geometric inhomogeneous random graphs (GIRGs), a geometric random graph model, which captures a variety of properties observed in real-world networks. These properties include a heterogeneous degree distribution and non-vanishing clustering coefficient, which is the probability that two random neighbors of a vertex are adjacent. Our first result shows that the clustering coefficient of GIRGs scales inverse exponentially with respect to the number of dimensions d, when the latter is at most logarithmic in n, the number of vertices. Hence, for a GIRG to behave like many real-world networks and have a non-vanishing clustering coefficient, it must come from a geometric space of o(log n) dimensions.
+
+ 
+
+ Our analysis on GIRGs allows us to obtain a linear-time algorithm for determining the dimensionality of a network. Our algorithm bridges the gap between theory and practice, as it comes with a rigorous proof of correctness and yields results comparable to prior empirical approaches, as indicated by our experiments on real-world instances. The efficiency of our algorithm makes it applicable to very large data-sets. We conclude that very low dimensionalities (from 1 to 10) are needed to explain properties of real-world networks.

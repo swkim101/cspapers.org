@@ -1,0 +1,1 @@
+This paper proposes to distinguish four forms of agentive permissions in multiagent settings. The main technical results are the complexity analysis of model checking, the semantic undefinability of modalities that capture these forms of permissions through each other, and a complete logical system capturing the interplay between these modalities.

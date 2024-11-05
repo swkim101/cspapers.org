@@ -1,0 +1,9 @@
+Suppose we are given an integer k and n boxes, labeled 1,2,…,n by an adversary, each containing a single number chosen from an unknown distribution; the n distributions not necessarily identical. We have to choose an order to sequentially open the boxes, and each time we open the next box in this order, we learn the number inside. If we reject a number in a box, the box cannot be recalled. Our goal is to accept k of these numbers, without necessarily opening all boxes, such that the accepted numbers are the k largest numbers in the boxes (thus their sum is maximized). This problem, sometimes called a free order multiple-choice secretary problem, is one of the classic examples of online decision making problems.
+
+
+
+A natural approach to solve such problems is to sample elements in random order; however, as indicated in several sources, e.g., Turan et al. NIST 2015 [35], Bierhorst et al. Nature 2018 [10], pure randomness is hard to get in reality. Thus, pseudorandomness has to be used, with a small entropy. 
+
+
+
+We show that with a very small O(log log n) entropy an almost-optimal approximation of the value of k largest numbers can be selected, with only a polynomially small additive error, for k < log n / log log n. Our solution works for exponentially larger range of parameter k compared to previously known algorithms (STOC 2015 [22]). We also prove a corresponding lower bound on the entropy of optimal (and even close to optimal, with respect to competitive ratio) solutions for this problem of choosing k largest numbers, matching the entropy of our algorithm. No previous lower bound on entropy was known for this problem if k > 1.

@@ -1,0 +1,69 @@
+Automated induction is a powerful method for the validation of
+
+ critical systems. However, the inductive proof process faces major
+
+ challenges: it is undecidable and diverges even with small examples.
+
+
+
+ Previous methods have proposed ad-hoc heuristics to speculate on
+
+ additional lemmas that hopefully stop the divergence. Although these
+
+ methods have succeeded in proving interesting theorems, they have
+
+ significant limitations: in particular, they often fail to find
+
+ appropriate lemmas, and the lemmas they provide may not be valid.
+
+
+
+ We present a new method that allows us to perform inductive proofs
+
+ in conditional theories. This method automatically detects
+
+ divergence in proof traces and derives primal grammars as well as
+
+ new lemmas that schematize the divergent sequence. This new
+
+ construction allows us to break the divergence and complete the
+
+ proof.
+
+
+
+ Our method is presented as a set of inference rules whose soundness
+
+ and refutational completeness have been formally proved. Unlike
+
+ previous methods, our method is fully automated and has no risk of
+
+ over-generalization. Moreover, our technique for capturing and
+
+ schematizing divergence represents the most general decidable
+
+ schematization, with respect to description power, among all known
+
+ schematizations.
+
+
+
+ Our method has been implemented in C++ and successfully proved
+
+ over fifty complex examples that fail with well-known theorem
+
+ provers (e.g., ACL2, Isabelle, PVS, SPIKE) and related methods for
+
+ handling divergence in proofs by induction.
+
+
+
+ Our method represents a significant contribution to the field of
+
+ automated reasoning as it can be integrated with existing automated
+
+ and interactive inductive proof systems to enhance their
+
+ performance. Moreover, it has the potential to substantially reduce
+
+ the time needed for the verification of critical systems.

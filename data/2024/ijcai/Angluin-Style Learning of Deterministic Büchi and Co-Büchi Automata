@@ -1,0 +1,13 @@
+While recently developed Angluin-style learning algorithms for omega-automata have much in common with her classic DFA learning algorithm, there is a huge difference in the cost of the equivalence queries about the target automata.
+
+For omega-regular languages, the target is to learn nondeterministic Buchi automata (NBAs) through the vehicle of Families of DFAs (FDFAs).
+
+While the cost of equivalence queries is usually idealised as constant in learning, it makes a practical difference that the language equivalence checking about the learned NBAs is computationally hard.
+
+
+
+We develop efficient techniques for the cases, where we learn deterministic Buchi automata (DBAs) or deterministic co-Buchi automata (DCAs).
+
+This is based on the observation that some classes of FDFAs can be used to learn DBAs for DBA recognisable languages, rather than having to resort to nondeterministic ones.
+
+We believe that the restriction to DBAs and DCAs in equivalence queries also makes our algorithm more appealing to realistic applications, as the operations are cheap---NL---for DBAs and DCAs.
