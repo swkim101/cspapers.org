@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Paper from './components/Paper';
 import ConferenceTree from './components/ConferenceTree';
 import { seq } from './functional';
-import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE } from './const';
+import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE, LAST_UPDATE } from './const';
 
 function App() {
   /**
@@ -200,7 +200,7 @@ function App() {
             >next</span>
           </div>
           <hr />
-          <div className='text-gray-400 text-xs'>last update Nov. 04, 2024</div>
+          <div className='text-gray-400 text-xs'>{LAST_UPDATE}</div>
         </div>
         <div className={showFilter ? 'w-280' : 'none'}>
           <ConferenceTree onChange={e => setVenue(e)}/>
