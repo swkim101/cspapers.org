@@ -48,6 +48,9 @@ const names = [
   "kdd",
   "cikm",
   "icdm",
+  "asiaccs",
+  "acsac",
+  "eurosp",
 ]
 
 
