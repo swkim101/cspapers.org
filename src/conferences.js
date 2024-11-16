@@ -50,6 +50,11 @@ const edges = [
   ["Computer security", "SP"],
   ["Computer security", "CCS"],
 
+  ["Systems", "Computer security 2"],
+  ["Computer security 2", "ACSAC"],
+  ["Computer security 2", "ASIACCS"],
+  ["Computer security 2", "EUROSP"],
+
   ["Systems", "Databases"],
   ["Databases", "SIGMOD"],
   ["Databases", "VLDB"],
