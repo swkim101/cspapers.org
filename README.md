@@ -14,7 +14,7 @@
 ---
 ## Description
 
-![cspapers.org](https://cspapers.org) is a rapid search engine for computer science papers, which provides very useful features for paper searches.
+[cspapers.org](https://cspapers.org) is a rapid search engine for computer science papers, which provides very useful features for paper searches.
 
 1. It provides a conference filter, which Google Scholar poorly supports.
 2. It provides a year range filter.
@@ -27,7 +27,7 @@
 
 ### On browsers
 
-Go ![cspapers.org](https://cspapers.org)
+Go [cspapers.org](https://cspapers.org)
 
 ![image](https://github.com/user-attachments/assets/486662bc-3715-49f2-b54f-02ecfc2b0d2e)
 
