@@ -91,6 +91,8 @@ function App() {
             setVenue(v.split(','))
           }
           break;
+        case 'must':
+          break;
         case 'skip':
           setSkip(v)
           break
