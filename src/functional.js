@@ -27,6 +27,9 @@ export const buildTree = (edges, root) => {
   return t
 }
 
+export const doubleQuotes = (str = "") =>
+  str.split('"').slice(0, -1).filter((_, idx) => idx % 2 === 1)
+
 const buildTree1Depth = (edges = [], parent = "") => ({
   name: parent,
   children: edges.reduce((acc, cur) => fst(cur) === parent ? [...acc, { name: snd(cur) }] : acc, [])

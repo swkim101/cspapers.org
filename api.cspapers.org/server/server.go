@@ -98,6 +98,7 @@ func unmarshal(query url.Values) (*types.SearchRequest, error) {
 	}
 	return &types.SearchRequest{
 		Query:     query.Get("query"),
+		Must:      strings.Split(query.Get("must"), ","),
 		OrderBy:   query.Get("orderBy"),
 		Ascending: query.Get("ascending") == "true",
 		Venue:     venue,

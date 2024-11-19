@@ -148,8 +148,18 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	}
 
 	keyword := bleve.NewDisjunctionQuery(keywordQuery...)
+	cquery := bleve.NewConjunctionQuery(year, venue, keyword)
 
-	query := bleve.NewConjunctionQuery(year, venue, keyword)
+	query := bleve.NewBooleanQuery()
+	query.AddMust(cquery)
+
+	if len(req.Must) != 0 {
+		for _, word := range req.Must {
+			log.Debugf("must: ", word)
+			q := bleve.NewMatchQuery(word)
+			query.AddMust(q)
+		}
+	}
 
 	log.Debugf("%v", req.Query)
 	search := bleve.NewSearchRequestOptions(query, 20, int(req.Skip), false)

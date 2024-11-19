@@ -42,6 +42,7 @@ type SearchRequest struct {
 	YearFrom  uint32   `json:"yearFrom"`
 	YearTo    uint32   `json:"yearTo"`
 	Skip      uint32   `json:"skip"`
+	Must      []string `json:"must"`
 }
 
 func (p *Paper) ToIndex() string {

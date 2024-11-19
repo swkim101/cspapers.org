@@ -4,8 +4,8 @@ import { conferences } from './conferences';
 import { useEffect, useState } from 'react';
 import Paper from './components/Paper';
 import ConferenceTree from './components/ConferenceTree';
-import { seq } from './functional';
-import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE, LAST_UPDATE } from './const';
+import { seq, doubleQuotes } from './functional';
+import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE, LAST_UPDATE, CITATION } from './const';
 
 function App() {
   /**
@@ -39,6 +39,7 @@ function App() {
   }
 
   const search = async () => {
+    const must = doubleQuotes(query)
     const req = {
       query,
       yearFrom,
@@ -47,6 +48,7 @@ function App() {
       orderBy,
       ascending,
       skip,
+      must,
     }
     setWaiting(true)
     const [res, err] = await api.search(req)

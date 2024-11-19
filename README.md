@@ -77,6 +77,7 @@ All fields are required.
 | orderBy  | ENUM("score", "date")  | order by relevance or published date |
 | ascending  | Boolean | return in an ascending order if true |
 | skip  | Int | skip first # results. For pagination |
+| must    | String, String, ...  | must contain ALL strings |
 
 For venues, see https://github.com/swkim101/cspapers.org/blob/fda911af479c635b03557a79d4fa28aafbec572e/api.cspapers.org/server/server.go#L99
 

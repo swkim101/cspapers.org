@@ -9,6 +9,7 @@ import { ABSTRACT_URL, API_HOST } from "./const";
  *   yearFrom:  number,
  *   yearTo:    number,
  *   skip:      number,
+ *   must: string[]
  * }} SearchRequest
  * 
  * @typedef {{
