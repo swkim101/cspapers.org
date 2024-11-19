@@ -1,130 +1,121 @@
-# cspapers.org
+<h2 align="center">
+  <img src="https://github.com/user-attachments/assets/d7d31c38-520b-4e25-8e9a-87608b354c8f" alt="cspapers.org" />
+</h2>
+<h1 align="center"><a href="https://cspapers.org" target="_blank">cspapers.org</a></h1>
+<h4 align="center">Rapid search engine for Computer Science papers</h4>
 
-Search engine for computer science papers.
+<p align="center">
+  <a href="https://github.com/swkim101/cspapers.org/actions">
+    <img src="https://github.com/swkim101/cspapers.org/actions/workflows/fly.yml/badge.svg"
+         alt="Continuous Deployment">
+  </a>
+</p>
 
-Indexes title and abstract. Paper contents and authors are ***not*** indexed.
+---
+## Description
 
-Indexed from 2018 - 2024 (partial).
+![cspapers.org](https://cspapers.org) is a rapid search engine for computer science papers, which provides very useful features for paper searches.
 
-## How to add new conferences/papers
+1. It provides a conference filter, which Google Scholar poorly supports.
+2. It provides a year range filter.
+3. It supports exact matching and word highlighting. __Try "double quote!"__
+4. It supports corrections using a levenstein distance plus <a href="https://github.com/michmech/lemmatization-lists">lemmatization</a>
+5. We open cspapers.org to the public.
+6. We open api.cspapers.org as well, the backend of cspapers.org. You can use api.cspapers.org for your project.
 
-Add an abstract in `./data/<year>/<venue>/<papertitle>`.  
-If the venue is new, add the venue in `./src/conferences.js`.
+## Usage
 
-PR is welcome.
+### On browsers
 
-## How to run local
+Go ![cspapers.org](https://cspapers.org)
 
-Install dependencies
-```bash
-npm install
+![image](https://github.com/user-attachments/assets/486662bc-3715-49f2-b54f-02ecfc2b0d2e)
 
-# For serving data directory.
-sudo npm install http-server -g
-```
+Just type what you want in the box, or:
 
-Build and run
+1. Choose a year range. It's inclusive.
+2. Choose a sorting method. Relevance or date. We calculate relevance using <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a> in <a href="https://github.com/blevesearch/bleve">bleve</a>
+3. Choose a sorting order. Ascending or descending?
+4. Choose conferences. You can choose a conference by a category or venue.
+5. __use "double quote"__ for exact matching
+6. Scroll down, and select next for paginations
+7. Click a paper title and get an abstract.
 
-```bash
-# generate index db. takes up to 10mins.
-go run ./api.cspapers.org/index -config default.index.config -debug
-# run index server
-go run ./api.cspapers.org/server -config default.server.config -debug
-```
 
-```bash
-# serve data directory
-cd data
-http-server -p 3001 --cors
-```
+### On command line
 
-```bash
-# run web
-npm run start
-```
-
-or
-
-```
-docker build -t server .
-docker run -it server
-npm run start
-```
-
-try: http://localhost:8000/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0&take=20
-
-## Query
-
-Curl https://api.cspapers.org works:
+Do you want to use cspapers in a command line? Use CURL:
 
 ```bash
-$ curl 'https://api.cspapers.org/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0&take=20'
-[1]+  Done                    curl https://api.cspapers.org/?query=bluetooth
-{"total":10,"skip":0,"take":0,"data":[{"title":"BLUFFS: Bluetooth Forward and Future Secrecy Attacks and Defenses","year":2023,"venue":"ccs","index":"2023/ccs/BLUFFS: Bluetooth Forward and Future Secrecy Attacks and 
-(...)
+$ curl 'https://api.cspapers.org/?query=bluetooth&yearFrom=2019&yearTo=2025&venue=NDSS%2CUsenix%2CSP%2CCCS&orderBy=score&ascending=false&skip=0'
+{"total":45,"duration":117,"skip":0,"data":[{"title":"BIAS: Bluetooth Impersonation AttackS","year":2020,"venue":"sp","index":"2020/sp/BIAS: Bluetooth Impersonation AttackS","score":8.824175482299081},{"title":"Method Confusion Attack on Bluetooth Pairing","year":2021,"venue":"sp","index":"2021/sp/Method Confusion Attack on Bluetooth Pairing","score":8.020260180024453},{"title":"Blacktooth: Breaking through the Defense of Bluetooth in Silence","year":2022,"venue":"ccs","index":"2022/ccs/Blacktooth: Breaking through the Defense of Bluetooth in Silence","score":7.9203305079550415},{"title":"Linking Bluetooth LE \u0026 Classic and Implications for Privacy-Preserving Bluetooth-Based Protocols","year":2021,"venue":"sp","index":"2021/sp/Linking Bluetooth LE \u0026 Classic and Implications for Privacy-Preserving Bluetooth-Based Protocols","score":7.77337712762691},{"title":"LIGHTBLUE: Automatic Profile-Aware Debloating of Bluetooth Stacks","year":2021,"venue":"usenix","index":"2021/usenix/LIGHTBLUE: Automatic Profile-Aware Debloating of Bluetooth Stacks","score":7.205307062497967},{"title":"BLUFFS: Bluetooth Forward and Future Secrecy Attacks and Defenses","year":2023,"venue":"ccs","index":"2023/ccs/BLUFFS: Bluetooth Forward and Future Secrecy Attacks and Defenses","score":7.043655050898645},{"title":"Formal Model-Driven Discovery of Bluetooth Protocol Design Vulnerabilities","year":2022,"venue":"sp","index":"2022/sp/Formal Model-Driven Discovery of Bluetooth Protocol Design Vulnerabilities","score":6.650957280334602},{"title":"SoK: The Long Journey of Exploiting and Defending the Legacy of King Harald Bluetooth","year":2024,"venue":"sp","index":"2024/sp/SoK: The Long Journey of Exploiting and Defending the Legacy of King Harald Bluetooth","score":6.55978416347678},{"title":"Blue's Clues: Practical Discovery of Non-Discoverable Bluetooth Devices","year":2023,"venue":"sp","index":"2023/sp/Blue's Clues: Practical Discovery of Non-Discoverable Bluetooth Devices","score":6.411898677112692},{"title":"BadBluetooth: Breaking Android Security Mechanisms via Malicious Bluetooth Peripherals","year":2019,"venue":"ndss","index":"2019/ndss/BadBluetooth: Breaking Android Security Mechanisms via Malicious Bluetooth Peripherals","score":6.206026485875929},{"title":"Finding Traceability Attacks in the Bluetooth Low Energy Specification and Its Implementations","year":2024,"venue":"usenix","index":"2024/usenix/Finding Traceability Attacks in the Bluetooth Low Energy Specification and Its Implementations","score":6.027275683637093},{"title":"Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets","year":2020,"venue":"usenix","index":"2020/usenix/Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets","score":5.947169481187168},{"title":"The KNOB is Broken: Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR EDR","year":2019,"venue":"usenix","index":"2019/usenix/The KNOB is Broken: Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR EDR","score":5.810896576151459},{"title":"Extrapolating Formal Analysis to Uncover Attacks in Bluetooth Passkey Entry Pairing","year":2023,"venue":"ndss","index":"2023/ndss/Extrapolating Formal Analysis to Uncover Attacks in Bluetooth Passkey Entry Pairing","score":5.802666133524476},{"title":"Please Pay Inside: Evaluating Bluetooth-based Detection of Gas Pump Skimmers","year":2019,"venue":"usenix","index":"2019/usenix/Please Pay Inside: Evaluating Bluetooth-based Detection of Gas Pump Skimmers","score":5.763460599273381},{"title":"FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware","year":2020,"venue":"ccs","index":"2020/ccs/FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware","score":5.733829008848415},{"title":"Breaking Secure Pairing of Bluetooth Low Energy Using Downgrade Attacks","year":2020,"venue":"usenix","index":"2020/usenix/Breaking Secure Pairing of Bluetooth Low Energy Using Downgrade Attacks","score":5.673357961609881},{"title":"BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing","year":2022,"venue":"usenix","index":"2022/usenix/BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing","score":5.558591094625656},{"title":"The Bluetooth CYBORG: Analysis of the Full Human-Machine Passkey Entry AKE Protocol","year":2021,"venue":"ndss","index":"2021/ndss/The Bluetooth CYBORG: Analysis of the Full Human-Machine Passkey Entry AKE Protocol","score":5.528599966660929},{"title":"Security and Privacy Analysis of Samsung's Crowd-Sourced Bluetooth Location Tracking System","year":2024,"venue":"usenix","index":"2024/usenix/Security and Privacy Analysis of Samsung's Crowd-Sourced Bluetooth Location Tracking System","score":5.389775223561923}]}
 ```
 
-### Request fields
+Or NodeJS:
 
-All fields are required.
-
-| Field    | Type    | Description  |
-| -------- | ------- | ------------ |
-| query    | String  | find relative documents |
-| yearFrom | Int     | must be satisfied. inclusive. |
-| yearTo   | Int     | must be satisfied. inclusive. |
-| venue    | String, String, ...  | find papers in (venue A or venue B or ...) |
-| orderBy  | ENUM("score", "date")  | order by relevance or published date |
-| ascending  | Boolean | return in an ascending order if true |
-| skip  | Int | skip first # results. For pagination |
-| must    | String, String, ...  | must contain ALL strings |
-
-For venues, see https://github.com/swkim101/cspapers.org/blob/fda911af479c635b03557a79d4fa28aafbec572e/api.cspapers.org/server/server.go#L99
-
-### Response fields
-
-| Field    | Type    | Description  |
-| -------- | ------- | -----------  |
-| total    | Int  | total number of index matched |
-| duration    | Int  | time spent on searching in msec |
-| skip    | Int  | Skipped # results. For pagination |
-| data    | [SearchResult]  |  See below |
-
-SearchResult Fields:
-
-| Field    | Type    | Description |
-| -------- | ------- | ------------ |
-| title    | Int  | paper title |
-| year     | Int  | published year |
-| venue    | String  | published venue |
-| index    | String  | pointer to an abstract |
-| score    | Float  | query-relevance score |
-
-
-## Data source and correctness
-
-There are two data sources:
-* (fairly accurate) https://dblp.org + https://www.semanticscholar.org/
-* conference site, e.g., https://www.usenix.org/conference/usenixsecurity24/fall-accepted-papers
-
-The crawler sometimes misses paper from the first source if semantic scholar returns nothing (see ./data_crawler/failed.json). So, some papers are *not* indexed and never show up in the results. We can manually add this.
-
-For the second source, the crawler sometimes confuses paper talk and keynote talk (and others). So, search results sometimes contain *not* papers (see [3b6c738](https://github.com/swkim101/cspapers.org/commit/3b6c7386b685b72a18cb4074aa69a71570d50134)). The Google scholar button can help to verify this.
-
-Also, semantic scholar somtimes shows different for web and api calls as shown below.
-
-```
-$ curl https://api.semanticscholar.org/graph/v1/paper/b0db907d372e2776a0c9e963a291e100033534a7?fields=title,abstract
-{'paperId': 'b0db907d372e2776a0c9e963a291e100033534a7', 'title': 'A correlation study between automated program repair and test-suite metrics', 'abstract': None}
+```js
+const q = {
+  query:     "bluetooth fuzzing",
+  orderBy:   "score",
+  ascending: false,
+  venue:     ["Usenix", "SP"],
+  yearFrom:  2024,
+  yearTo:    2025,
+  skip:      0,
+  must: ["bluetooth"]
+}
+const qs = new URLSearchParams(q)
+fetch(`https://api.cspapers.org/?${qs}`)
+.then(async (res) => {
+  console.log(await res.json());
+})
 ```
 
-However,https://www.semanticscholar.org/paper/A-correlation-study-between-automated-program-and-Yi-Tan/b0db907d372e2776a0c9e963a291e100033534a7 has an abstract ("Automated program repair is increas...")
+```js
+{
+  total: 5,
+  duration: 16,
+  skip: 0,
+  data: [
+    {
+      title: 'SoK: The Long Journey of Exploiting and Defending the Legacy of King Harald Bluetooth',
+      year: 2024,
+      venue: 'sp',
+      index: '2024/sp/SoK: The Long Journey of Exploiting and Defending the Legacy of King Harald Bluetooth',
+      score: 1.2392758132970945
+    },
+    {
+      title: "To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices",
+      year: 2024,
+      venue: 'sp',
+      index: "2024/sp/To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices",
+      score: 0.6473919808944251
+    },
+    {
+      title: 'Finding Traceability Attacks in the Bluetooth Low Energy Specification and Its Implementations',
+      year: 2024,
+      venue: 'usenix',
+      index: '2024/usenix/Finding Traceability Attacks in the Bluetooth Low Energy Specification and Its Implementations',
+      score: 0.611447165298126
+    },
+    {
+      title: "Security and Privacy Analysis of Samsung's Crowd-Sourced Bluetooth Location Tracking System",
+      year: 2024,
+      venue: 'usenix',
+      index: "2024/usenix/Security and Privacy Analysis of Samsung's Crowd-Sourced Bluetooth Location Tracking System",
+      score: 0.5697451083649359
+    },
+    {
+      title: 'Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices',
+      year: 2024,
+      venue: 'sp',
+      index: '2024/sp/Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices',
+      score: 0.30033476991027963
+    }
+  ]
+}
+```
 
-Most ICSE 2018 papers have this issue.
-
-Further, a crawler somtimes confuses posters and full papers. So, search results can contain posters.
-
-Reporting the wrong index is always welcome.
 
 ## Why not Google Scholar
 
@@ -134,23 +125,17 @@ Poor conference filter:
 
 ¯\\_(ツ)_/¯
 
-## Todo
-
-* distinguish terms and stop tokens, e.g., 'Controller Area Network (CAN)' and 'can (be able to)',
-* Term aliasing (e.g., uaf = use-after-free)
-
-PR is welcome
-
 ## Acknowlegement
 
-Referred to csrankings.org for organizing conferences.
+We referred to csrankings.org for organizing conferences.
 
 Thanks to https://github.com/michmech/lemmatization-lists for lemma data.
 
 ## Disclaimer
 
+We index titles and abstracts. Paper contents and authors are ***not*** indexed. We crawl papers from 2018 - 2024 (partial).
+
 cspapers.org is served as implemented as is in this repository. I do not modify source code or data in and after distributions.  
-The source code shows that cspapers.org does not collect user data, such as search history and IP address. However, Cloudflare and fly.io do this for pricing and security purposes.  
+cspapers.org uses cloudflare for caching and fly.io for serving.  
+cspapers.org does not collect user data, such as search history and IP address. However, Cloudflare and fly.io do this for pricing and security purposes.  
 I personally own stock (less than 10k) of Cloudflare, and I hope they will profit so I can be rich. This is why I bought a domain name from Cloudflare—that will add ~ $10 per year to net sales.  
-cspapers.org uses fly.io because it is the cheapest server. It costs $3.19 per month with 1 core and 512MB RAM in the Virginia region. I am always willing to migrate to a cheaper one. Suggestions are welcome.  
-Each conference site provides origins of titles and abstracts of papers.
