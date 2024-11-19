@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { getAbstract } from '../api';
+import Highlight from './Highlight'
 
 /**
  * 
- * @param {{ year: number, venue: string, title: string }} props
+ * @param {{ year: number, venue: string, title: string, highlight: string[] }} props
  * @returns 
  */
 function Paper(props) {
@@ -37,7 +38,7 @@ function Paper(props) {
       <div>
         <span className='pointer underline mr-2' onClick={() => toggleCollapsed()}>
           <span className="text-blue">{collapsed ? '► ' : '▼ '}</span>
-          [{venueUpper} {props.year}] {props.title}
+          [{venueUpper} {props.year}] <Highlight text={props.title} highlight={props.highlight} />
         </span>
         <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>
           [Google scholar]
@@ -46,7 +47,7 @@ function Paper(props) {
       <pre className={collapsed ? 'none' : 'initial pre-line'}>
         {
           isAbsLoaded ?
-            abstract ||
+            <Highlight text={abstract} highlight={props.highlight} /> ||
             <>No abstract indexed. See <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>
               Google scholar
             </a></> :

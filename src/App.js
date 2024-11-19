@@ -186,7 +186,10 @@ function App() {
         <div className={showFilter && 'w--280 w-100-560'} >
           <div className={(data.length === 0 && query !== "") ? undefined : "none"}>no result</div>
           {
-            data.map((e, idx) => <Paper key={`${e.title}-${e.score}-${idx}`} {...e} />)
+            data.map((e, idx) =>
+              <Paper key={`${e.title}-${e.score}-${idx}`}
+                {...e } highlight={doubleQuotes(query)}
+              />)
           }
           {
             0 === total ? undefined : <hr />

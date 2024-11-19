@@ -7,6 +7,10 @@ body {
   font-size: 14px;
 }
 
+.highlight {
+  background-color: rgb(254 249 195);
+}
+
 /* Some styles are from https://tailwindcss.com/ */
 
 .text-gray-400 {
