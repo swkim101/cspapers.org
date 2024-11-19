@@ -14,6 +14,7 @@ import (
 
 	"github.com/swkim101/cspapers.org/api.cspapers.org/log"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/types"
+	"github.com/swkim101/cspapers.org/api.cspapers.org/wordforms"
 )
 
 var (
@@ -28,6 +29,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	wordforms.LoadLemmas(cfg.Lemma, cfg.LemmaInv)
 	runServer(cfg)
 }
 

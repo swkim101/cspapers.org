@@ -9,9 +9,11 @@ import (
 
 type serverConfig struct {
 	config.Config
-	Host   string `json:"host"`
-	Port   int    `json:"port"`
-	Prefix string `json:"prefix"`
+	Host     string `json:"host"`
+	Port     int    `json:"port"`
+	Prefix   string `json:"prefix"`
+	Lemma    string `json:"lemma"`
+	LemmaInv string `json:"lemmaInv"`
 
 	dbimpl *dbimpl.Type `json:"-"`
 }

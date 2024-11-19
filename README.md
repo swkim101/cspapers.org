@@ -144,6 +144,8 @@ PR is welcome
 
 Referred to csrankings.org for organizing conferences.
 
+Thanks to https://github.com/michmech/lemmatization-lists for lemma data.
+
 ## Disclaimer
 
 cspapers.org is served as implemented as is in this repository. I do not modify source code or data in and after distributions.  

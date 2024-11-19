@@ -1,3 +1,6 @@
+lemmas:
+	go run ./lemmas
+
 index:
 	go run ./api.cspapers.org/index -config default.index.config
 

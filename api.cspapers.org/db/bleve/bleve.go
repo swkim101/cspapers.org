@@ -11,6 +11,7 @@ import (
 	"github.com/swkim101/cspapers.org/api.cspapers.org/db/dbimpl"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/log"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/types"
+	"github.com/swkim101/cspapers.org/api.cspapers.org/wordforms"
 )
 
 func init() {
@@ -133,6 +134,15 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 				fq := bleve.NewFuzzyQuery(word)
 				fq.SetFuzziness(2)
 				keywordQuery = append(keywordQuery, fq)
+			}
+			/* try different word forms */
+			if 3 < len(word) {
+				for _, wf := range wordforms.GetWordForms(word) {
+					qsTitle := fmt.Sprintf("title:%v^2", wf)
+					qsAbs := fmt.Sprintf("abstract:%v", wf)
+					keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
+					keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
+				}
 			}
 		}
 	}
