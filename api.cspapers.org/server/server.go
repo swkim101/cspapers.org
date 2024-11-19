@@ -96,9 +96,15 @@ func unmarshal(query url.Values) (*types.SearchRequest, error) {
 			return nil, fmt.Errorf("invalid venue %v", v)
 		}
 	}
+	mustStr := query.Get("must")
+	must := []string{}
+	if strings.TrimSpace(mustStr) != "" {
+		must = strings.Split(mustStr, ",")
+	}
+
 	return &types.SearchRequest{
 		Query:     query.Get("query"),
-		Must:      strings.Split(query.Get("must"), ","),
+		Must:      must,
 		OrderBy:   query.Get("orderBy"),
 		Ascending: query.Get("ascending") == "true",
 		Venue:     venue,
