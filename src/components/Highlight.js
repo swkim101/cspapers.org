@@ -51,6 +51,9 @@ const split = (text = "", sep = []) => {
  * @returns 
  */
 function Highlight(props) {
+  if (props.highlight.length === 0) {
+    return props.text
+  }
   const parts = split(props.text, props.highlight);
   return parts.map((part, index) =>
     index % 2 === 1 ? (
