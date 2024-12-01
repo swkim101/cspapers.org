@@ -1,0 +1,8 @@
+
+ Compilers are at the core of all computer architecture. Their middle-end and back-end are full of subtle code that is easy to get wrong. At the same time, the consequences of compiler bugs can be severe. Therefore, it is important that we develop techniques to increase our confidence in compiler correctness, and to help find the bugs that inevitably happen. One promising such technique that has successfully found many compiler bugs in the past is
+ randomized differential testing
+ , a fuzzing approach whereby the same program is executed with different compilers or different compiler settings to detect any unexpected differences in behavior. We present
+ Rustlantis
+ , the first fuzzer for the Rust programming language that is able to find new correctness bugs in the official Rust compiler. To avoid having to deal with Rust’s strict type and borrow checker, Rustlantis directly generates MIR, the central IR of the Rust compiler for optimizations. The program generation strategy of Rustlantis is a combination of statically tracking the state of the program, obscuring the program state for the compiler, and
+ decoy blocks
+ to lead optimizations astray. This has allowed us to identify 22 previously unknown bugs in the Rust compiler, most of which have been fixed.

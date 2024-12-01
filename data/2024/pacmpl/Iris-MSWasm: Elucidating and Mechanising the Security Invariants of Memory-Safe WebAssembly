@@ -1,0 +1,9 @@
+WebAssembly offers coarse-grained encapsulation guarantees via its module system, but does not support fine-grained sharing of its linear memory. MSWasm is a recent proposal which extends WebAssembly with fine-grained memory sharing via handles, a type of capability that guarantees spatial and temporal safety, and thus enables an expressive yet safe style of programming with flexible sharing.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper, we formally validate the pen-and-paper design of MSWasm. To do so, we first define MSWasmCert, a mechanisation of MSWasm that makes it a fully-defined, conservative extension of WebAssembly 1.0, including the module system. We then develop Iris-MSWasm, a foundational reasoning framework for MSWasm composed of a separation logic to reason about known code, and a logical relation to reason about unknown, potentially adversarial code. Iris-MSWasm thereby makes explicit a key aspect of the implicit universal contract of MSWasm: robust capability safety. We apply Iris-MSWasm to reason about key use cases of handles, in which the effect of calling an unknown function is bounded by robust capability safety. Iris-MSWasm thus works as a framework to prove complex security properties of MSWasm programs, and provides a foundation to evaluate the language-level guarantees of MSWasm.

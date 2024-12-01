@@ -1,0 +1,17 @@
+Probabilistic model checking (PMC) is a verification technique for analyzing the properties of probabilistic systems. However, existing techniques face challenges in verifying large systems with high accuracy. PMC struggles with state explosion, where the number of states grows exponentially with the size of the system, making large system verification infeasible. While statistical model checking (SMC) avoids PMC’s state explosion problem by using a simulation approach, it suffers from runtime explosion, requiring numerous samples for high accuracy. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To address these limitations in verifying large systems with high accuracy, we present quantum probabilistic model checking (QPMC), the first method leveraging quantum computing for PMC with respect to time-bounded properties. QPMC addresses state explosion by encoding PMC problems into quantum circuits that superpose states within qubits. Additionally, QPMC resolves runtime explosion through Quantum Amplitude Estimation, efficiently estimating the probabilities of specified properties. We prove that QPMC correctly solves PMC problems and achieves a quadratic speedup in time complexity compared to SMC.

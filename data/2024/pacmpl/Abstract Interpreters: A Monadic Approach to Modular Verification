@@ -1,0 +1,17 @@
+We argue that monadic interpreters built as layers of interpretations stacked atop the free monad constitute a promising way to implement and verify abstract interpreters in dependently-typed theories such as the one underlying the Coq proof assistant.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The approach enables modular proofs of soundness of the resulting interpreters. We provide generic abstract control flow combinators proven correct once and for all against their concrete counterpart. We demonstrate how to relate concrete handlers implementing effects to abstract variants of these handlers, essentially capturing the traditional soundness of transfer functions in the context of monadic interpreters. Finally, we provide generic results to lift soundness statements via the interpretation of stateful and failure effects.
+ 
+ 
+ 
+
+ 
+ 
+ 
+We formalize all the aforementioned combinators and theories in Coq, and demonstrate their benefits by implementing and proving correct two illustrative abstract interpreters for a structured imperative language and a toy assembly.

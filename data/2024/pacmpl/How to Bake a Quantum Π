@@ -1,0 +1,6 @@
+
+ We construct a computationally universal quantum programming language
+ Quantum
+ Π from two copies of Π, the internal language of rig groupoids. The first step constructs a pure (measurement-free) term language by interpreting each copy of Π in a generalisation of the category
+ Unitary
+ in which every morphism is “rotated” by a particular angle, and the two copies are amalgamated using a free categorical construction expressed as a computational effect. The amalgamated language only exhibits quantum behaviour for specific values of the rotation angles, a property which is enforced by imposing a small number of equations on the resulting category. The second step in the construction introduces measurements by layering an additional computational effect.

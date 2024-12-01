@@ -1,0 +1,215 @@
+
+ The problem of automatically proving the equality
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of terms over recursive functions and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+inductive data types is challenging,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+as such proofs often require auxiliary lemmas
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+which must themselves be proven.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Previous attempts at lemma discovery compromise
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+on either efficiency or efficacy.
+ Goal-directed
+ approaches
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+are fast but limited in expressiveness,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+as they can only discover auxiliary lemmas which
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+entail their goals.
+ Theory exploration
+ approaches
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+are expressive but inefficient,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+as they exhaustively enumerate candidate lemmas.
+ 
+ 
+ We introduce
+ e-graph guided lemma discovery
+ ,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+a new approach to finding equational proofs
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+that makes theory exploration goal-directed.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We accomplish this by using e-graphs and equality saturation to
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+efficiently construct and compactly represent
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the space of
+ all
+ goal-oriented proofs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This allows us to explore only those auxiliary
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lemmas
+ guaranteed
+ to help make progress
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+on some of these proofs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We implemented our method in a new prover
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+called CCLemma and compared it with three state-of-the-art provers
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+across a variety of benchmarks.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CCLemma performs consistently well on two standard benchmarks
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and additionally solves 50% more problems than the next best tool
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+on a new challenging set.

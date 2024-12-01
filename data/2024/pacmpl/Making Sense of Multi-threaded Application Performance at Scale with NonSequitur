@@ -1,0 +1,33 @@
+Modern multi-threaded systems are highly complex. This makes their behavior difficult to understand. Developers frequently capture behavior in the form of program traces and then manually inspect these traces. Existing tools, however, fail to scale to traces larger than a million events.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper we present an approach to compress multi-threaded traces in order to allow developers to visually explore these traces at scale. Our approach is able to compress traces that contain millions of events down to a few hundred events. We use this approach to design and implement a tool called NonSequitur. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We present three case studies which demonstrate how we used NonSequitur to analyze real-world performance issues with Meta's storage engine RocksDB and MongoDB's storage engine WiredTiger, two complex database backends. We also evaluate NonSequitur with 42 participants on traces from RocksDB and WiredTiger. We demonstrate that, in some cases, participants on average scored 11 times higher when performing performance analysis tasks on large execution traces. Additionally, for some performance analysis tasks, the participants spent on average three times longer with other tools than with NonSequitur.

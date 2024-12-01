@@ -1,0 +1,17 @@
+Hyperproperties relate multiple executions of a program and are useful to express common correctness properties (such as determinism) and security properties (such as non-interference). While there are a number of powerful program logics for the deductive verification of hyperproperties, their automation falls behind. Most existing deductive verification tools are limited to safety properties, but cannot reason about the existence of executions, for instance, to prove the violation of a safety property. Others support more flexible hyperproperties such as generalized non-interference, but have limitations in terms of the programs and proof structures they support.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper, we present the first deductive verification technique for arbitrary hyperproperties over multiple executions of the same program. Our technique automates the generation of verification conditions for Hyper Hoare Logic. Our key insight is that arbitrary hyperproperties and the corresponding proof rules can be encoded into a standard intermediate verification language by representing sets of states of the input program explicitly in the states of the intermediate program. Verification is then automated using an existing SMT-based verifier for the intermediate language. We implement our technique in a tool called Hypra and demonstrate that it can reliably verify complex hyperproperties.

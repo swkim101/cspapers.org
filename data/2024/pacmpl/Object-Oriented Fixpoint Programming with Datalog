@@ -1,0 +1,17 @@
+Modern usages of Datalog exceed its original design purpose in scale and complexity.
+ 
+In particular, Datalog lacks abstractions for code organization and reuse, making programs hard to maintain.
+ 
+Is it possible to exploit abstractions and design patterns from object-oriented programming (OOP) while retaining a Datalog-like fixpoint semantics?
+ 
+To answer this question, we design a new OOP language called OODL with common OOP features: dynamic object allocation, object identity, dynamic dispatch, and mutation.
+ 
+However, OODL has a Datalog-like fixpoint semantics, such that recursive computations iterate until their result becomes stable.
+ 
+We develop two semantics for OODL: a fixpoint interpreter and a compiler that translates OODL to Datalog.
+ 
+Although the side effects found in OOP (object allocation and mutation) conflict with Datalog's fixpoint semantics, we can mostly resolve these incompatibilities through extensions of OODL.
+ 
+Within fixpoint computations, we employ immutable algebraic data structures (e.g. case classes in Scala), rather than relying on object allocation, and we introduce monotonically mutable data types (mono types) to enable a relaxed form of mutation.
+ 
+Our performance evaluation shows that the interpreter fails to solve fixpoint problems efficiently, whereas the compiled code exploits Datalog's semi-naïve evaluation.
