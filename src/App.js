@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Paper from './components/Paper';
 import ConferenceTree from './components/ConferenceTree';
 import { seq, doubleQuotes } from './functional';
-import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE, LAST_UPDATE, CITATION } from './const';
+import { ASCE, CURRENT_YEAR, DATE, MIN_YEAR, SCORE, LAST_UPDATE } from './const';
 
 function App() {
   /**
@@ -89,6 +89,8 @@ function App() {
         case 'venue':
           if (v !== "") {
             setVenue(v.split(','))
+          } else {
+            setVenue([])
           }
           break;
         case 'must':
@@ -143,52 +145,55 @@ function App() {
         <b>cspapers.org: computer science papers indexed </b>
         <a rel="noreferrer" target="_blank" href="https://github.com/swkim101/cspapers.org">( GitHub )</a>
       </div>
-      <form onSubmit={e => submit(e)}>
-        <input autoFocus type="search" value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' placeholder='fuzzing' />
-        <input type="submit" value="search" className='mr-2' />
-        <span className={isWaiting ? 'none' : 'text-gray-400'}>- {total} results ({duration / 1000} seconds) </span>
-        <progress className={isWaiting ? undefined : 'none'}></progress>
-        <span className={isTimeoutError ? undefined : 'none'}>- Too slow? Please consider refresh </span>
-      </form>
-      <div
-        onClick={() => setShowFilter(!showFilter)}
-        className={`pointer underline mb-2 ${!showFilter || "none-560"}`}
-      >{showFilter ? "Hide" : "Show"} filters</div>
-      <div className={`mb-2 ${showFilter || "none"}`}>
-        <span>From </span>
-        <select value={yearFrom} onChange={e => setYearFrom(e.target.value)}>
-          {
-            seq(MIN_YEAR, CURRENT_YEAR + 2).reverse().map(e => <option key={e} value={e}>{e}</option>)
-          }
-        </select>
-        <span> to </span>
-        <select value={yearTo} onChange={e => setYearTo(e.target.value)}>
-          {
-            seq(MIN_YEAR, CURRENT_YEAR + 2).reverse().map(e => <option key={e} value={e} onClick={e => setYearTo(e.target.value)}>{e}</option>)
-          }
-        </select>
-        <span> order by [</span>
-        <label htmlFor="rel">relevance</label>
-        <input checked={orderBy === SCORE} onChange={() => setOrderBy(SCORE)} name="orderBy" type="radio" id="rel" />
-        <span>| </span>
-        <label htmlFor="date">date</label>
-        <input checked={orderBy === DATE} onChange={() => setOrderBy(DATE)} name="orderBy" type="radio" id="date" />
-        <span>]</span>
-        <span> [</span>
-        <label htmlFor="asec">ascending</label>
-        <input checked={ascending} onChange={() => setAscending(true)} name="order" type="radio" id="asec" />
-        <span>|</span>
-        <label htmlFor="desc">descending</label>
-        <input checked={!ascending} onChange={() => setAscending(false)} name="order" type="radio" id="desc" />
-        <span>]</span>
-      </div>
-      <div className='flex flex-column-560'>
-        <div className={showFilter && 'w--280 w-100-560'} >
+      <div className='flex'>
+        <div className={showFilter ? "w--280 w-100-560" : undefined}>
+          <form onSubmit={e => submit(e)}>
+            <input autoFocus type="search" value={query} onChange={e => setQuery(e.target.value)} className='mr-1 mb-1' placeholder='fuzzing' />
+            <input type="submit" value="search" className='mr-2' />
+            <span className={isWaiting ? 'none' : 'text-gray-400'}>- {total} results ({duration / 1000} seconds) </span>
+            <progress className={isWaiting ? undefined : 'none'}></progress>
+            <span className={isTimeoutError ? undefined : 'none'}>- Stuck; Please refresh </span>
+          </form>
+          <div
+            onClick={() => setShowFilter(!showFilter)}
+            className={`pointer underline mb-2 ${!showFilter || "none-560"}`}
+          >{showFilter ? "Hide" : "Show"} filters</div>
+          <div className={`mb-2 ${showFilter || "none"}`}>
+            <span>From </span>
+            <select value={yearFrom} onChange={e => setYearFrom(e.target.value)}>
+              {
+                seq(MIN_YEAR, CURRENT_YEAR + 2).reverse().map(e => <option key={e} value={e}>{e}</option>)
+              }
+            </select>
+            <span> to </span>
+            <select value={yearTo} onChange={e => setYearTo(e.target.value)}>
+              {
+                seq(MIN_YEAR, CURRENT_YEAR + 2).reverse().map(e => <option key={e} value={e} onClick={e => setYearTo(e.target.value)}>{e}</option>)
+              }
+            </select>
+            <span> order by [</span>
+            <label htmlFor="rel">relevance</label>
+            <input checked={orderBy === SCORE} onChange={() => setOrderBy(SCORE)} name="orderBy" type="radio" id="rel" />
+            <span>| </span>
+            <label htmlFor="date">date</label>
+            <input checked={orderBy === DATE} onChange={() => setOrderBy(DATE)} name="orderBy" type="radio" id="date" />
+            <span>]</span>
+            <span> [</span>
+            <label htmlFor="asec">ascending</label>
+            <input checked={ascending} onChange={() => setAscending(true)} name="order" type="radio" id="asec" />
+            <span>|</span>
+            <label htmlFor="desc">descending</label>
+            <input checked={!ascending} onChange={() => setAscending(false)} name="order" type="radio" id="desc" />
+            <span>]</span>
+          </div>
+          <div className={showFilter ? 'w-280 none-560' : 'none'}>
+            <ConferenceTree value={venue} onChange={e => setVenue(e)} />
+          </div>
           <div className={(data.length === 0 && query !== "") ? undefined : "none"}>no result</div>
           {
             data.map((e, idx) =>
               <Paper key={`${e.title}-${e.score}-${idx}`}
-                {...e } highlight={doubleQuotes(query)}
+                {...e} highlight={doubleQuotes(query)}
               />)
           }
           {
@@ -196,21 +201,21 @@ function App() {
           }
           <div className={0 === total ? "none" : undefined}>
             page ({skip / 20 + 1} / {Math.ceil(total / 20)}): <span
-              className={0 < skip ? "initial mt-2 text-blue underline pointer" : "none" }
+              className={0 < skip ? "initial mt-2 text-blue underline pointer" : "none"}
               onClick={() => setSkip(0)}
             >first</span> | <span
-              className={20 <= skip ? "initial mt-2 text-blue underline pointer" : "none" }
+              className={20 <= skip ? "initial mt-2 text-blue underline pointer" : "none"}
               onClick={() => prev()}
             >prev</span> | <span
-              className={skip < total - 20 ? "initial mt-2 text-blue underline pointer" : "none" }
+              className={skip < total - 20 ? "initial mt-2 text-blue underline pointer" : "none"}
               onClick={() => next()}
             >next</span>
           </div>
           <hr />
           <div className='text-gray-400 text-xs'>{LAST_UPDATE}</div>
         </div>
-        <div className={showFilter ? 'w-280' : 'none'}>
-          <ConferenceTree onChange={e => setVenue(e)}/>
+        <div className={showFilter ? 'w-280 show-560' : 'none'}>
+          <ConferenceTree value={venue} onChange={e => setVenue(e)} />
         </div>
       </div>
     </div>

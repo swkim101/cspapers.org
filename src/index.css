@@ -142,6 +142,9 @@ body {
   .w-100-560 {
     width: 100%;
   }
+  .show-560 {
+    display: none;
+  }
 }
 
 .text-blue {
@@ -151,6 +154,9 @@ body {
 @media screen and (min-width: 560px) {
   .none-560 {
     display: none;
+  }
+  .show-560 {
+    display: initial;
   }
 }
 

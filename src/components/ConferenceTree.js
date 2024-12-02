@@ -1,19 +1,23 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { comments, conferences } from '../conferences';
 import { isEven } from '../functional';
 
 /**
  * 
- * @param {{ onChange: (venue: [string]) => void }} props 
+ * @param {{ value: [string], onChange: (venue: [string]) => void }} props 
  * @returns 
  */
 function ConferenceTree(props) {
-  const [venue, _setVenue] = useState(conferences.flatten(conferences.tree))
+  const defaultSelected = conferences.flatten(conferences.tree)
+  const [venue, _setVenue] = useState(defaultSelected)
   const [unfolded, setUnfolded] = useState([])
   const setVenue = (venue) => {
     _setVenue(venue)
     props.onChange(venue)
   }
+  useEffect(() => {
+    _setVenue(props.value)
+  }, [props.value])
 
   const toggleUnfolded = n => {
     if (isUnfolded(n)) {
