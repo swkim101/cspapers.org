@@ -30,3 +30,4 @@ test.py
 
 *.gob
 .venv/
+.vscode/
