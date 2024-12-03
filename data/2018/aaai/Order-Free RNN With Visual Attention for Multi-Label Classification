@@ -1,4 +1,0 @@
-
- 
- We propose a recurrent neural network (RNN) based model for image multi-label classification. Our model uniquely integrates and learning of visual attention and Long Short Term Memory (LSTM) layers, which jointly learns the labels of interest and their co-occurrences, while the associated image regions are visually attended. Different from existing approaches utilize either model in their network architectures, training of our model does not require pre-defined label orders. Moreover, a robust inference process is introduced so that prediction errors would not propagate and thus affect the performance. Our experiments on NUS-WISE and MS-COCO datasets confirm the design of our network and its effectiveness in solving multi-label classification problems.
- 

@@ -1,1 +1,0 @@
-It is well known that solving a (non-convex) quadratic program is NP-hard. We show that the problem remains hard even if we are only looking for a Karush-Kuhn-Tucker (KKT) point, instead of a global optimum. Namely, we prove that computing a KKT point of a quadratic polynomial over the domain [0,1]n is complete for the class CLS = PPAD∩PLS.

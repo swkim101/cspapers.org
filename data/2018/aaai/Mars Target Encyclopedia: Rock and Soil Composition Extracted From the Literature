@@ -1,4 +1,0 @@
-
- 
- We have constructed an information extraction system called the Mars Target Encyclopedia that takes in planetary science publications and extracts scientific knowledge about target compositions. The extracted knowledge is stored in a searchable database that can greatly accelerate the ability of scientists to compare new discoveries with what is already known. To date, we have applied this system to ~6000 documents and achieved 41-56% precision in the extracted information.
- 

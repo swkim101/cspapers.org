@@ -1,4 +1,0 @@
-
- 
- We describe a technique for structured prediction, based on canonical correlation analysis. Our learning algorithm finds two projections for the input and the output spaces that aim at projecting a given input and its correct output into points close to each other. We demonstrate our technique on a language-vision problem, namely the problem of giving a textual description to an "abstract scene".
- 

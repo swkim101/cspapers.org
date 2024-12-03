@@ -1,1 +1,0 @@
-We study the matching problem in the incremental setting, where we are given a sequence of edge insertions and aim at maintaining a near-maximum cardinality matching of the graph with small update time. We present a deterministic algorithm that, for any constant ε > 0, maintains a (1 + ε )- approximate matching with constant amortized update time per insertion.

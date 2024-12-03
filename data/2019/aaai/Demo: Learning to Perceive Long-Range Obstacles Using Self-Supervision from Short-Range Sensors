@@ -1,1 +1,0 @@
-We demonstrate a self-supervised approach which learns to detect long-range obstacles from video: it automatically obtains training labels by associating the camera frames acquired at a given pose to short-range sensor readings acquired at a different pose.

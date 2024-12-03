@@ -1,1 +1,0 @@
-We propose a semantic parsing dataset focused on instruction-driven communication with an agent in the game Minecraft. The dataset consists of 7K human utterances and their corresponding parses. Given proper world state, the parses can be interpreted and executed in game. We report the performance of baseline models, and analyze their successes and failures.

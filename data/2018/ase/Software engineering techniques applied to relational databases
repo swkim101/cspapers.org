@@ -1,1 +1,0 @@
-Relational databases play a central role in software systems. As any software artefact they are subject to software engineering related problems. That apply even more when these databases hold behaviour in the form of stored functions, triggers, etc… The purpose of this article is to present a research plan to handle this problematic.

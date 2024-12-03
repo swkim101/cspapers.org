@@ -1,6 +1,0 @@
-Fuzzy c-means (FCM) is a generalization of the classical k-means clustering algorithm to the case where an observation can belong to several clusters at the same time.
-The algorithm was previously observed to have initialization problems when the number of desired clusters or the number of dimensions of the data are high.
-We have tested FCM against clustering problems with functional data, generated from stationary Gaussian processes, and thus in principle infinite-dimensional.
-We observed that when the data is more functional in nature, which can be obtained by tuning the length-scale parameter of the Gaussian process, the aforementioned problems do not appear.
-This not only indicates that FCM is suitable as a clustering method for functional data, but also illustrates how functional data differs from traditional multivariate data.
-In addition this seems to suggest a qualitative way to measure the latent dimensionality of the functional distribution itself.

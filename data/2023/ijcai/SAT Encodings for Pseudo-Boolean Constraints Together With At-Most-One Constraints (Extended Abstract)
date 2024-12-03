@@ -1,9 +1,0 @@
-When solving a combinatorial problem using propositional satisfiability (SAT), the encoding of the constraints is of vital importance.
-
-Pseudo-Boolean (PB) constraints appear frequently in a wide variety of problems. When PB constraints occur together with at-most-one (AMO) constraints over the same variables, they can be combined into PB(AMO) constraints.
-
-In this paper we present new encodings for PB(AMO) constraints.
-
-Our experiments show that these encodings can be substantially smaller than those of PB constraints and allow many more instances to be solved within a time limit.
-
-We also observed that there is no single overall winner among the considered encodings, but efficiency of each encoding may depend on PB(AMO) characteristics such as the magnitude of coefficient values.

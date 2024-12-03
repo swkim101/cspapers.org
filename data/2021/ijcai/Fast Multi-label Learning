@@ -1,5 +1,0 @@
-Embedding approaches have become one of the most pervasive techniques for multi-label classification. However, the training process of embedding methods usually involves a complex quadratic or semidefinite programming problem, or the model may even involve an NP-hard problem. Thus, such methods are prohibitive on large-scale applications. More importantly, much of the literature has already shown that the binary relevance (BR) method is usually good enough for some applications.
-
-Unfortunately, BR runs slowly due to its linear dependence on the size of the input data. The goal of this paper is to provide a simple method, yet with provable guarantees, which can achieve competitive performance without a complex training
-
-process. To achieve our goal, we provide a simple stochastic sketch strategy for multi-label classification and present theoretical results from both algorithmic and statistical learning perspectives. Our comprehensive empirical studies corroborate our theoretical findings and demonstrate the superiority of the proposed methods.

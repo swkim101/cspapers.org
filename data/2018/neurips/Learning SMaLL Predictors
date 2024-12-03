@@ -1,1 +1,0 @@
-We present a new machine learning technique for training small resource-constrained predictors. Our algorithm, the Sparse Multiprototype Linear Learner (SMaLL), is inspired by the classic machine learning problem of learning $k$-DNF Boolean formulae. We present a formal derivation of our algorithm and demonstrate the benefits of our approach with a detailed empirical study.

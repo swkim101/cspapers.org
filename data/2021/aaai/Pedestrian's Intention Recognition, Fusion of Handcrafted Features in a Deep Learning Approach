@@ -1,5 +1,0 @@
-The safety of vulnerable road users (VRU) is a major concern for both advanced driver assistance systems (ADAS) and autonomous vehicle manufacturers. To guarantee people safety
-on roads, autonomous vehicles must be able to detect the presence of pedestrians, track them, and predict their intention to cross the road. Most of the earlier work on pedestrian intention recognition focused on using either handcrafted features or an end-to-end deep learning approach. In this project, we investigate the impact of fusing handcrafted features
-with auto learned features by using a two-stream neural network architecture. Our results show that the combined approach improves the performance. Furthermore, the proposed
-method achieved very good results on the JAAD dataset. Depending on whether we considered the immediate frames before the crossing or only half a second before that point, we
-received prediction accuracy of 91%, and 84%, respectively.

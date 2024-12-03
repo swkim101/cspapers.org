@@ -1,5 +1,0 @@
-In this paper, we present a novel attack against authorship attribution of source code. 
-We exploit that recent attribution methods rest on machine learning and thus can be deceived by adversarial examples of source code. Our attack performs a series of semantics-preserving  code transformations that mislead learning-based attribution but appear  plausible to a developer.
-The attack is guided by Monte-Carlo tree search that enables us to  operate in the discrete domain of source code.
-In an empirical evaluation with source code from 204 programmers, we demonstrate that our attack has a substantial effect on two recent attribution methods, whose accuracy drops from over 88% to 1% under attack. Furthermore, we show that our attack can imitate the coding style of developers with high accuracy and thereby induce false attributions.
-We conclude that current approaches for authorship attribution are inappropriate for practical application and there is a need for resilient analysis techniques.

@@ -1,1 +1,0 @@
-The control of a catoptric (mirror-based) surface is decomposed hierarchically. The positioning control of individual mirrors is handled by low-level controllers for each drive motor, and the overall control decisions are guided by a Markov decision process.

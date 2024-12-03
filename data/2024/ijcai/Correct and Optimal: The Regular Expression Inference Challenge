@@ -1,7 +1,0 @@
-We propose regular expression inference (REI) as a challenge for code/language modelling, and the wider machine learning community. REI is a supervised machine learning (ML) and program optimisation task, and poses the problem of finding minimal regular expressions from examples: Given two finite sets of strings P and N and a cost function cost(·), the task is to generate an expression r that accepts all strings in P and rejects all strings in N , while no other such expression r′ exists with cost(r′) < cost(r).
-
-REI has advantages as a challenge problem: (i) regular expressions are well-known, widely used, and a natural idealisation of code; (ii) REI’s asymptotic worst-case complexity is well understood; (iii) REI has a small number of easy to understand parameters (e.g. P or N cardinality, string lengths of examples, or the cost function); this lets us easily finetune REI-hardness; (iv) REI, with its emphasis on optimisation, is an unsolved problem for deep learning based ML.
-
-Recently, an REI solver was implemented on GPUs, using program synthesis techniques. This enabled, for the first time, fast generation of minimal regular expressions for complex REI instances. Building on this advance, we generate and publish the first large-scale datasets for REI, and devise and evaluate several initial heuristic and machine learning baselines.
-
-We invite the community to participate and explore ML methods that learn to solve REI problems. We believe that progress in REI directly translates to progress in code/language modelling.

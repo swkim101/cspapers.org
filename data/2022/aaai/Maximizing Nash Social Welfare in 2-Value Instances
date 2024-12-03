@@ -1,3 +1,0 @@
-We consider the problem of maximizing the Nash social welfare when allocating a set G of indivisible goods to a set N of agents. We study instances, in which all agents have 2-value additive valuations: The value of every agent for every good is either p or q, where p and q are integers and p2. 
- 
-In terms of approximation, we present positive and negative results for general p and q. We show that our algorithm obtains an approximation ratio of at most 1.0345. Moreover, we prove that the problem is APX-hard, with a lower bound of 1.000015 achieved at p/q = 4/5.

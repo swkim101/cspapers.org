@@ -1,1 +1,0 @@
-In this paper we present a semantics for a linear algebraic lambda-calculus based on realizability. This semantics characterizes a notion of unitarity in the system, answering a long standing issue. We derive from the semantics a set of typing rules for a simply-typed linear algebraic lambda-calculus, and show how it extends both to classical and quantum lambda-calculi.

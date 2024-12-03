@@ -1,1 +1,0 @@
-Complex systems across various domains can be naturally modeled as signed networks with positive and negative edges. In this work, we design a new class of signage models and show how to select the model parameters that best fit real-world datasets using maximum likelihood.

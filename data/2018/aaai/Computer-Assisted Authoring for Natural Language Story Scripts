@@ -1,4 +1,0 @@
-
- 
- In order to assist scriptwriters during the process of story-writing, we have developed a system that can extract information from natural language stories, and allow for story-centric as well as character-centric reasoning. These inferencing capabilities are exposed to the user through intuitive querying systems, allowing the scriptwriter to ask the system questions about story and character information. We introduce knowledge bytes as atoms of information and demonstrate that the system can parse text into a stream of knowledge bytes and use these mentioned reasoning capabilities through logical reasoning.
- 

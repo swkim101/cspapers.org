@@ -1,6 +1,0 @@
-A 6-hour early detection of sepsis leads to a significant increase in the chance of surviving it.
-Previous sepsis early detection studies have focused on improving the performance of supervised learning algorithms while ignoring the potential correlation in data mining, and there was no reliable method to deal with the problem of incomplete data.
-In this paper, we proposed the Denoising Transformer AutoEncoder (DTAE) for the first time combining transformer and unsupervised learning. 
-DTAE can learn the correlation of the features required for early detection of sepsis without the label. 
-This method can effectively solve the problems of data sparsity and noise and discover the potential correlation of features by adding DTAE enhancement module without modifying the existing algorithms.
-Finally, the experimental results show that the proposed method improves the existing algorithms and achieves the best results of early detection.

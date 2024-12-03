@@ -1,3 +1,0 @@
-Model-reconciliation explanation is a popular framework for generating explanations for planning problems. While the framework has been extended to multiple settings since its introduction for classical planning problems, there is little agreement on the computational complexity of generating minimal model reconciliation explanations in the basic setting. In this paper, we address this lacuna by introducing a decision-version of the model-reconciliation explanation generation problem
-
-and we show that it is Sigma-2-P Complete.

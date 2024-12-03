@@ -1,4 +1,0 @@
-
- 
- How to robustly and accurately extract articulated skeletons from point set sequences captured by a single consumer-grade depth camera still remains to be an unresolved challenge to date. To address this issue, we propose a novel, unsupervised approach consisting of three contributions (steps): (i) a non-rigid point set registration algorithm to first build one-to-one point correspondences among the frames of a sequence; (ii) a skeletal structure extraction algorithm to generate a skeleton with reasonable numbers of joints and bones; (iii) a skeleton joints estimation algorithm to achieve accurate joints. At the end, our method can produce a quality articulated skeleton from a single 3D point sequence corrupted with noise and outliers. The experimental results show that our approach soundly outperforms state of the art techniques, in terms of both visual quality and accuracy.
- 

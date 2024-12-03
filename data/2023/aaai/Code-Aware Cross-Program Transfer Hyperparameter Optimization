@@ -1,8 +1,0 @@
-Hyperparameter tuning is an essential task in automatic machine learning and big data management. 
-To accelerate tuning, many recent studies focus on augmenting BO, the primary hyperparameter tuning strategy, by transferring information from other tuning tasks.
-However, existing studies ignore program similarities in their transfer mechanism, thus they are sub-optimal in cross-program transfer when tuning tasks involve different programs. 
-This paper proposes CaTHPO, a code-aware cross-program transfer hyperparameter optimization framework, which makes three improvements. 
-(1) It learns code-aware program representation in a self-supervised manner to give an off-the-shelf estimate of program similarities. 
-(2) It adjusts the surrogate and AF in BO based on program similarities, thus the hyperparameter search is guided by accumulated information across similar programs. 
-(3) It presents a safe controller to dynamically prune undesirable sample points based on tuning experiences of similar programs. 
-Extensive experiments on tuning various recommendation models and Spark applications have demonstrated that CatHPO can steadily obtain better and more robust hyperparameter performances within fewer samples than state-of-the-art competitors.

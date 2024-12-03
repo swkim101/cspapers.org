@@ -1,4 +1,0 @@
-
- 
- Worldwide, conservation agencies employ rangers to protect conservation areas from poachers. However, agencies lack the manpower to have rangers effectively patrol these vast areas frequently. While past work has modeled poachers’ behavior so as to aid rangers in planning future patrols, those models’ predictions were not validated by extensive field tests. In my thesis, I present a spatio-temporal model that predicts poaching threat levels and results from a five-month field test in Uganda’s Queen Elizabeth Protected Area (QEPA). To my knowledge, this is the first time that a predictive model has been evaluated through such an extensive field test in this domain. These field test will be extended to another park in Uganda, Murchison Fall Protected Area, shortly. Main goals of my thesis are to develop the best performing model in terms of speed and accuracy and use such model to generate efficient and feasible patrol routes for the park rangers.
- 

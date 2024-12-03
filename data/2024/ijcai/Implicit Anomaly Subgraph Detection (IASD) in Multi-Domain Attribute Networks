@@ -1,3 +1,0 @@
-Anomaly subgraph detection is a vital task in various real applications. However, with the advancement of AI technology, it faces new challenges: 1) Anomaly features are often deeply hidden within large datasets, and 2) Anomaly detection approaches are required to unveil the mechanisms behind anomaly generation.
-
-Our study focuses on detecting hidden anomaly subgraphs within big data and offering improved explanations for the root cause of anomalies by integrating multi-domain datasets.

@@ -1,5 +1,0 @@
-In this work, we treat web interoperability in terms of interchanging ontologies (as knowledge models) within user-centred ontology engineering environments, involving visual and serialised representations of ontologies.
-
-To do this, we deal with the tool interoperability problem by re-using an enough expressive ontology-driven metamodel, named KF, proposed as a bridge for interchanging both knowledge models.
-
-We provide an extensible web framework, named crowd 2.0, unifying the standard conceptual data modelling languages for generating OWL 2 ontologies from semantic visualisations. Visual models are designed as UML, ER or ORM 2 diagrams, represented as KF instances, and finally, formalised as DL-based models. Reasoning results may be newly incorporated into the shared KF instance to be visualised in any of the provided languages.

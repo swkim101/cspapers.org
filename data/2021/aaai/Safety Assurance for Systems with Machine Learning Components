@@ -1,2 +1,0 @@
-The use of machine learning components in safety-critical systems creates reliability concerns. My thesis focuses on developing algorithms to address these concerns.
-Because the assurance of a safety-critical system generally requires multiple types of validation, my research takes three directions: safe deep learning algorithms, formal verification of neural networks, and adaptive testing methods.

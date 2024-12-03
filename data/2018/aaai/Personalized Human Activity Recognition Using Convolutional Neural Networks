@@ -1,4 +1,0 @@
-
- 
- A major barrier to the personalized Human Activity Recognition using wearable sensors is that the performance of the recognition model drops significantly upon adoption of the system by new users or changes in physical/behavioral status of users. Therefore, the model needs to be retrained by collecting new labeled data in the new context. In this study, we develop a transfer learning framework using convolutional neural networks to build a personalized activity recognition model with minimal user supervision.
- 

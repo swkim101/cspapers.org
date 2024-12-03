@@ -1,6 +1,0 @@
-In multi-agent path finding, it is usually
-assumed that planning is performed centrally and
-that the destinations of the agents are common
-knowledge. We will drop both assumptions and analyze under which conditions it can be guaranteed
-that the agents reach their respective destinations
-using implicitly coordinated plans without communication.

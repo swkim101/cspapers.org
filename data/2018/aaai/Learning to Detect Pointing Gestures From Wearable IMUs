@@ -1,4 +1,0 @@
-
- 
- We propose a learning-based system for detecting when a user performs a pointing gesture, using data acquired from IMU sensors, by means of a 1D convolutional neural network. We quantitatively evaluate the resulting detection accuracy, and discuss an application to a human-robot interaction task where pointing gestures are used to guide a quadrotor landing.
- 

@@ -1,4 +1,0 @@
-
- 
- This paper studies the problem of linking string mentions from web tables in one language to the corresponding named entities in a knowledge base written in another language, which we call the cross-lingual table linking task. We present a joint statistical model to simultaneously link all mentions that appear in one table. The framework is based on neural networks, aiming to bridge the language gap by vector space transformation and a coherence feature that captures the correlations between entities in one table. Experimental results report that our approach improves the accuracy of cross-lingual table linking by a relative gain of 12.1%. Detailed analysis of our approach also shows a positive and important gain brought by the joint framework and coherence feature.
- 

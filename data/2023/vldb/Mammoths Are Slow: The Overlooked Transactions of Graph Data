@@ -1,4 +1,0 @@
-
- This paper argues for better concurrency control to support
- mammoth transactions
- , which read and write to many items. While these requests are prevalent on graph data, few systems support them efficiently. Currently, developers must make the uncomfortable choice between accepting dismal performance or abandoning transactional semantics. Applications deserve better: we believe that inherent graph properties provide a path forward to designing efficient concurrency control that preserves strong isolation.

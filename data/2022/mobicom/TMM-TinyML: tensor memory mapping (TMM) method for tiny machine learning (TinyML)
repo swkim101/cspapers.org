@@ -1,1 +1,0 @@
-TinyML: Tiny in size, big in impact! In this paper, we present a Tensor Memory Mapping (TMM) method, which can accurately calculate the on-device execution memory consumed by a range of ML and TinyML models during execution on small central processing units (CPUs), microcontroller units (MCUs), and single board computers (SBCs).

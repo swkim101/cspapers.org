@@ -1,4 +1,0 @@
-
- 
- In recent years, skeleton based action recognition is becoming an increasingly attractive alternative to existing video-based approaches, beneficial from its robust and comprehensive 3D information. In this paper, we explore an unsupervised representation learning approach for the first time to capture the long-term global motion dynamics in skeleton sequences. We design a conditional skeleton inpainting architecture for learning a fixed-dimensional representation, guided by additional adversarial training strategies. We quantitatively evaluate the effectiveness of our learning approach on three well-established action recognition datasets. Experimental results show that our learned representation is discriminative for classifying actions and can substantially reduce the sequence inpainting errors.
- 

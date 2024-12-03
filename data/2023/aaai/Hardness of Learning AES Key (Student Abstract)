@@ -1,1 +1,0 @@
-We show hardness of learning AES key from pairs of ciphertexts under the assumption of computational closeness of AES to pairwise independence. The latter is motivated by a recent result on statistical closeness of AES to pairwise independence.

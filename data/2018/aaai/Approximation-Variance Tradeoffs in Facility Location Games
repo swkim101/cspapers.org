@@ -1,4 +1,0 @@
-
- 
- We revisit the well-studied problem of constructing strategyproof approximation mechanisms for facility location games, but offer a fundamentally new perspective by considering risk averse designers. Specifically, we are interested in the tradeoff between a randomized strategyproof mechanism's approximation ratio, and its variance (which has long served as a proxy for risk). When there is just one facility, we observe that the social cost objective is trivial, and derive the optimal tradeoff with respect to the maximum cost objective. When there are multiple facilities, the main challenge is the social cost objective, and we establish a surprising impossibility result: under mild assumptions, no smooth approximation-variance tradeoff exists. We also discuss the implications of our work for computational mechanism design at large.
- 

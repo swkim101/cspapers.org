@@ -1,4 +1,0 @@
-
- 
- Determining the number of clusters is important but challenging, especially for data of high dimension. In this paper, we propose Deep Embedding Determination (DED), a method that can solve jointly for the unknown number of clusters and feature extraction. DED first combines the virtues of the convolutional autoencoder and the t-SNE technique to extract low dimensional embedded features. Then it determines the number of clusters using an improved density-based clustering algorithm. Our experimental evaluation on image datasets shows significant improvement over state-of-the-art methods and robustness with respect to hyperparameter settings.
- 

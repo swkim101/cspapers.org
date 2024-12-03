@@ -1,6 +1,0 @@
-
- Parametricity states that polymorphic functions behave the same regardless of how they are instantiated. When developing polymorphic programs, Wadler’s free theorems can serve as
- free specifications
- , which can turn otherwise partial specifications into total ones, and can make otherwise realizable specifications
- unrealizable
- . This is of particular interest to the field of program synthesis, where the unrealizability of a specification can be used to prune the search space. In this paper, we focus on the interaction between parametricity, input-output examples, and sketches. Unfortunately, free theorems introduce universally quantified functions that make automated reasoning difficult. Container morphisms provide an alternative representation for polymorphic functions that captures parametricity in a more manageable way. By using a translation to the container setting, we show how reasoning about the realizability of polymorphic programs with input-output examples can be automated.

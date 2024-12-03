@@ -1,4 +1,0 @@
-Sound event detection aims to identify the sound events in the audio recordings, whose applications seem to be evident in our daily life, such as the surveillance and monitoring applications.
-In this paper, we present a novel framework for the detection task, by combining using several improvements.
-To compress the model efficiently while retaining the detection accuracy, the self-distillation paradigm is employed to improve offline training. To empower the machines with the ability of uncertainty estimation, the Monte Carlo dropout is used in our framework. Moreover, the inference data augmentation strategy is utilized to improve the robustness of the detection task.
-Lastly, we present an interactive interface, which can be used to visualize the detection and the uncertainty for the prediction. We hope our tool can be helpful for practical machine listening.

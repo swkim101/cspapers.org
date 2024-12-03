@@ -1,1 +1,0 @@
-We model multistage competition in supply chains by a sequential game theoretical model in a network. We show the uniqueness of equilibrium for series parallel networks and provide a linear time algorithm to compute the equilibrium. We study the impact of the network structure on the firms' payoffs, the total trade flow, and the overall social welfare.

@@ -1,3 +1,0 @@
-We introduce an efficient and tight layer-based semidefinite relaxation for verifying local robustness of neural networks. The improved tightness is the result of the combination between semidefinite relaxations and linear cuts. We obtain a computationally efficient method by decomposing the semidefinite formulation into
-
-layerwise constraints. By leveraging on chordal graph decompositions, we show that the formulation here presented is provably tighter than current approaches. Experiments on a set of benchmark networks show that the approach here proposed enables the verification of more instances compared to other relaxation methods. The results also demonstrate that the SDP relaxation here proposed is one order of magnitude faster than previous SDP methods.

@@ -1,5 +1,0 @@
-Voting is a crucial methodology for eliciting and combining agents' preferences and information across many applications. Just as there are numerous voting rules exhibiting different properties, we also see many different voting systems. In this paper we investigate how different voting systems perform as a function of the characteristics of the underlying voting population and social network. In particular, we compare direct democracy, liquid democracy, and sortition in a ground truth voting context.
-
-
-
-Through simulations -- using both real and artificially generated social networks -- we illustrate how voter competency distributions and levels of direct participation affect group accuracy differently in each voting mechanism. Our results can be used to guide the selection of a suitable voting system based on the characteristics of a particular voting setting.

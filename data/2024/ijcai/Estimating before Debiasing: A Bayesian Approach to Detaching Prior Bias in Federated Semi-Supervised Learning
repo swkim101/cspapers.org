@@ -1,7 +1,0 @@
-Federated Semi-Supervised Learning (FSSL) leverages both labeled and unlabeled data on clients to collaboratively train a model. 
-
-In FSSL, the heterogeneous data can introduce prediction bias into the model, causing the model's prediction to skew towards some certain classes. 
-
-Existing FSSL methods primarily tackle this issue by enhancing consistency in model parameters or outputs. However, as the models themselves are biased, merely constraining their consistency is not sufficient to alleviate prediction bias. In this paper, we explore this bias from a Bayesian perspective and demonstrate that it principally originates from label prior bias within the training data. Building upon this insight, we propose a debiasing method for FSSL named FedDB. FedDB utilizes the Average Prediction Probability of Unlabeled Data (APP-U) to approximate the biased prior. During local training, FedDB employs APP-U to refine pseudo-labeling through Bayes' theorem, thereby significantly reducing the label prior bias. Concurrently, during the model aggregation, FedDB uses APP-U from participating clients to formulate unbiased aggregate weights, thereby effectively diminishing bias in the global model. 
-
-Experimental results show that FedDB can surpass existing FSSL methods. The code is available at https://github.com/GuogangZhu/FedDB.

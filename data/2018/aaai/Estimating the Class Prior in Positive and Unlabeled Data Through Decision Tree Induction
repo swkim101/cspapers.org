@@ -1,4 +1,0 @@
-
- 
- For tasks such as medical diagnosis and knowledge base completion, a classifier may only have access to positive and unlabeled examples, where the unlabeled data consists of both positive and negative examples. One way that enables learning from this type of data is knowing the true class prior. In this paper, we propose a simple yet effective method for estimating the class prior, by estimating the probability that a positive example is selected to be labeled. Our key insight is that subdomains of the data give a lower bound on this probability. This lower bound gets closer to the real probability as the ratio of labeled examples increases. Finding such subsets can naturally be done via top-down decision tree induction. Experiments show that our method makes estimates which are equivalently accurate as those of the state of the art methods, and is an order of magnitude faster.
- 

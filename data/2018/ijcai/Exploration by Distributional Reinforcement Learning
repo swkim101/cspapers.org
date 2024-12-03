@@ -1,1 +1,0 @@
-We propose a framework based on distributional reinforcement learning and recent attempts to combine Bayesian parameter updates with deep reinforcement learning. We show that our proposed framework conceptually unifies multiple previous methods in exploration. We also derive a practical algorithm that achieves efficient exploration on challenging control tasks.

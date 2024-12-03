@@ -1,9 +1,0 @@
-Hyperparameter optimization (HPO) is important to leverage the full potential of machine learning (ML). 
-In practice, users are often interested in multi-objective (MO) problems, i.e., optimizing potentially conflicting objectives, like accuracy and energy consumption.
-To tackle this, the vast majority of MO-ML algorithms return a Pareto front of non-dominated machine learning models to the user.
-Optimizing the hyperparameters of such algorithms is non-trivial as evaluating a hyperparameter configuration entails evaluating the quality of the resulting Pareto front. 
-In literature, there are known indicators that assess the quality of a Pareto front (e.g., hypervolume, R2) by quantifying different properties (e.g., volume, proximity to a reference point). However, choosing the indicator that leads to the desired Pareto front might be a hard task for a user. In this paper, we propose a human-centered interactive HPO approach tailored towards multi-objective ML leveraging preference learning to extract desiderata from users that guide the optimization.
-Instead of relying on the user guessing the most suitable indicator for their needs, our approach automatically learns an appropriate indicator.
-Concretely, we leverage pairwise comparisons of distinct Pareto fronts to learn such an appropriate quality indicator.
-Then, we optimize the hyperparameters of the underlying MO-ML algorithm towards this learned indicator using a state-of-the-art HPO approach.
-In an experimental study targeting the environmental impact of ML, we demonstrate that our approach leads to substantially better Pareto fronts compared to optimizing based on a wrong indicator pre-selected by the user, and performs comparable in the case of an advanced user knowing which indicator to pick.

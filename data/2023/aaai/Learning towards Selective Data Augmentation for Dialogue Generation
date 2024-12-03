@@ -1,8 +1,0 @@
-As it is cumbersome and expensive to acquire a huge amount of data for training neural dialog models, data augmentation is proposed to effectively utilize existing training samples.
-However, current data augmentation techniques on the dialog generation task mostly augment all cases in the training dataset without considering the intrinsic attributes between different cases.
-We argue that not all cases are beneficial for augmentation task, and the cases suitable for augmentation should obey the following two attributes: 
-(1) low-quality (the dialog model cannot generate a high-quality response for the case),
-(2) representative (the case should represent the property of the whole dataset).
-Herein, we explore this idea by proposing a Selective Data Augmentation framework (SDA) for the response generation task.
-SDA employs a dual adversarial network to select the lowest quality and most representative data points for augmentation in one stage. 
-Extensive experiments conducted on two publicly available datasets, i.e., DailyDialog and OpenSubtitles, show that our framework can improve the response generation performance with respect to various metrics

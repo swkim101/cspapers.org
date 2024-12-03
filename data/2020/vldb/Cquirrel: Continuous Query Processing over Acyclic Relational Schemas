@@ -1,1 +1,0 @@
-We will demonstrate Cquirrel, a continuous query processing engine built on top of Flink. Cquirrel assumes a relational schema where the foreign-key constraints form a directed acyclic graph

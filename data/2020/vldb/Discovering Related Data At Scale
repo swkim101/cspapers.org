@@ -1,6 +1,0 @@
-
- Analysts frequently require data from multiple sources for their tasks, but finding these sources is challenging in exabyte-scale data lakes. In this paper, we address this problem for our enterprise's data lake by using machine-learning to identify related data sources. Leveraging queries made to the data lake over a month, we build a
- relevance model
- that determines whether two columns across two data streams are related or not. We then use the model to find relations at scale across tens of millions of column-pairs and thereafter construct a
- data relationship graph
- in a scalable fashion, processing a data lake that has 4.5 Petabytes of data in approximately 80 minutes. Using manually labeled datasets as ground-truth, we show that our techniques show improvements of at least 23% when compared to state-of-the-art methods.

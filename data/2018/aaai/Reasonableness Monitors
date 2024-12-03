@@ -1,4 +1,0 @@
-
- 
- As we move towards autonomous machines responsible for making decisions previously entrusted to humans, there is an immediate need for machines to be able to explain their behavior and defend the reasonableness of their actions. To implement this vision, each part of a machine should be aware of the behavior of the other parts that they cooperate with. Each part must be able to explain the observed behavior of those neighbors in the context of the shared goal for the local community. If such an explanation cannot be made, it is evidence that either a part has failed (or was subverted) or the communication has failed. The development of reasonableness monitors is work towards generalizing that vision, with the intention of developing a system-construction methodology that enhances both robustness and security, at runtime (not static compile time), by dynamic checking and explaining of the behaviors of parts and subsystems for reasonableness in context.
- 

@@ -1,7 +1,0 @@
-Vertical Federated Learning (VFL) is a solution increasingly used by companies with the same user group but differing features, enabling them to collaboratively train a machine learning model. 
-VFL ensures that clients exchange intermediate results extracted by their local models, without sharing raw data. 
-However, in practice, VFL encounters several challenges, such as computational and communication overhead, privacy leakage risk, and adversarial attack. 
-Our study reveals that the usage of floating-point (FP) numbers is a common factor causing these issues, as they can be redundant and contain too much information. 
-To address this, we propose a new architecture called rounding layer, which converts intermediate results to integers. 
-Our theoretical analysis and empirical results demonstrate the benefits of the rounding layer in reducing computation and memory overhead, providing privacy protection, preserving model performance, and mitigating adversarial attacks. 
-We hope this paper inspires further research into novel architectures to address practical issues in VFL.

@@ -1,9 +1,0 @@
-We study the problem of fairly and efficiently allocating indivisible chores among agents with additive disutility functions. We consider the widely used envy-based fairness properties of EF1 and EFX in conjunction with the efficiency property of fractional Pareto-optimality (fPO). Existence (and computation) of an allocation that is simultaneously EF1/EFX and fPO are challenging open problems, and we make progress on both of them. We show the existence of an allocation that is
-
-- EF1 + fPO, when there are three agents,
-
-- EF1 + fPO, when there are at most two disutility functions,
-
-- EFX + fPO, for three agents with bivalued disutility functions.
-
-These results are constructive, based on strongly polynomial-time algorithms. We also investigate non-existence and show that an allocation that is EFX+fPO need not exist, even for two agents.

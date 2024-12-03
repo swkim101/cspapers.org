@@ -1,5 +1,0 @@
-We investigate the following many-to-one stable matching problem with diversity constraints (SMTI-DIVERSE): Given a set of students and a set of colleges which have preferences over each other, where the students have overlapping types, and the colleges each have a total capacity as well as quotas for individual types (the diversity constraints), is there a matching satisfying all diversity constraints such that no unmatched student-college pair has an incentive to deviate? 
-
-
-
-SMTI-DIVERSE is known to be NP-hard. However, as opposed to the NP-membership claims in the literature [Aziz et al., AAMAS 2019; Huang,SODA 2010], we prove that it is beyond NP: it is complete for the complexity class Σ^P_2. In addition, we provide a comprehensive analysis of the problem’s complexity from the viewpoint of natural restrictions to inputs and obtain new algorithms for the problem.

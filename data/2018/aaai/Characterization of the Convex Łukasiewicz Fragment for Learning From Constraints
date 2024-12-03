@@ -1,4 +1,0 @@
-
- 
- This paper provides a theoretical insight for the integration of logical constraints into a learning process. In particular it is proved that a fragment of the Łukasiewicz logic yields a set of convex constraints. The fragment is enough expressive to include many formulas of interest such as Horn clauses. Using the isomorphism of Łukasiewicz formulas and McNaughton functions, logical constraints are mapped to a set of linear constraints once the predicates are grounded on a given sample set. In this framework, it is shown how a collective classification scheme can be formulated as a quadratic programming problem, but the presented theory can be exploited in general to embed logical constraints into a learning process. The proposed approach is evaluated on a classification task to show how the use of the logical rules can be effective to improve the accuracy of a trained classifier.
- 

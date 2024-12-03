@@ -1,7 +1,0 @@
-Local explanation methods highlight the input tokens that have a considerable impact on the outcome of classifying the document at hand. For example, the Anchor algorithm applies a statistical analysis of the sensitivity of the classifier to changes in the token. Aggregating local explanations over a dataset provides a global explanation of the model.
-Such aggregation aims to detect words with the most impact, giving valuable insights about the model, like what it has learned in training and which adversarial examples expose its weaknesses.
-However, standard aggregation methods bear a high computational cost:
-a naive implementation applies a costly algorithm to each token of each document, and hence, it is infeasible for a simple user running in the scope of a short analysis session. 
-
-We devise techniques for accelerating the global aggregation of the Anchor algorithm. Specifically, our goal is to compute a set of top-k words with the highest global impact according to different aggregation functions. Some of our techniques are lossless and some are lossy.
-We show that for a very mild loss of quality, we are able to accelerate the computation by up to 30 times, reducing the computation from hours to minutes. We also devise and study a probabilistic model that accounts for noise in the Anchor algorithm and diminishes the bias toward words that are frequent yet low in impact.

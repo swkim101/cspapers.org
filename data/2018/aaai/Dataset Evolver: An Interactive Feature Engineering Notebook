@@ -1,4 +1,0 @@
-
- 
- We present DATASET EVOLVER, an interactive Jupyter notebook-based tool to support data scientists perform feature engineering for classification tasks. It provides users with suggestions on new features to construct, based on automated feature engineering algorithms. Users can navigate the given choices in different ways, validate the impact, and selectively accept the suggestions. DATASET EVOLVER is a pluggable feature engineering framework where several exploration strategies could be added. It currently includes meta-learning based exploration and reinforcement learning based exploration. The suggested features are constructed using well-defined mathematical functions and are easily interpretable. Our system provides a mixed-initiative system of a user being assisted by an automated agent to efficiently and effectively solve the complex problem of feature engineering. It reduces the effort of a data scientist from hours to minutes.
- 

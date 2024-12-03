@@ -1,4 +1,0 @@
-
- 
- Due to the limited natural water resources and the increase in population, managing water consumption is becoming an increasingly important subject worldwide. In this paper, we present and compare different machine learning models that are able to predict water demand for Central Indiana. The models are developed for two different time scales: daily and monthly. The input features for the proposed model include weather conditions (temperature, rainfall, snow), social features (holiday, median income), date (day of the year, month), and operational features (number of customers, previous water demand levels). The importance of these input features as accurate predictors is investigated. The results show that daily and monthly models based on recurrent neural networks produced the best results with an average error in prediction of 1.69% and 2.29%, respectively for 2016. These models achieve a high accuracy with a limited set of input features.
- 

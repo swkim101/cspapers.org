@@ -1,1 +1,0 @@
-We introduce a dynamic logic with parallel composition and two kinds of nondeterministic composition, exclusive and inclusive. We show PSPACE completeness of both the model checking and the satisfiability problem and apply our logic to sequential and parallel classical planning where actions have conditional effects.

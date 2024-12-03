@@ -1,7 +1,0 @@
-In this paper we study the fine-grained complexity of finding exact and approximate solutions to problems in P. Our main contribution is showing reductions from exact to approximate solution for a host of such problems. 
-As one (notable) example, we show that the Closest-LCS-Pair problem (Given two sets of strings $A$ and $B$, compute exactly the maximum $\textsf{LCS}(a, b)$ with $(a, b) \in A \times B$) is equivalent to its approximation version (under near-linear time reductions, and with a constant approximation factor). More generally, we identify a class of problems, which we call BP-Pair-Class, comprising both exact and approximate solutions, and show that they are all equivalent under near-linear time reductions. 
-Exploring this class and its properties, we also show: 
-$\bullet$ Under the NC-SETH assumption (a significantly more relaxed assumption than SETH), solving any of the problems in this class requires essentially quadratic time. 
-$\bullet$ Modest improvements on the running time of known algorithms (shaving log factors) would imply that NEXP is not in non-uniform $\textsf{NC}^1$. 
-$\bullet$ Finally, we leverage our techniques to show new barriers for deterministic approximation algorithms for LCS. 
-At the heart of these new results is a deep connection between interactive proof systems for bounded-space computations and the fine-grained complexity of exact and approximate solutions to problems in P. In particular, our results build on the proof techniques from the classical IP = PSPACE result.

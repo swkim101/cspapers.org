@@ -1,4 +1,0 @@
-
- 
- With the exponential increase in the number of images that are shared online every day, the development of effective and efficient learning methods for image privacy prediction has become crucial. Prior works have used as features automatically derived object tags from images' content and manually annotated user tags. However, we believe that in addition to objects, the scene context obtained from images’ content can improve the performance of privacy prediction. Hence, we propose to uncover scene-based tags from images' content using convolutional neural networks. Experimental results on a Flickr dataset show that the scene tags and object tags complement each other and yield the best performance when used in combination with user tags.
- 

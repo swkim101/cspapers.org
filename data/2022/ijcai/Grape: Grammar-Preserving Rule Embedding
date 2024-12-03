@@ -1,5 +1,0 @@
-Word embedding has been widely used in various areas to boost the performance of the neural models. However, when processing context-free languages, embedding grammar rules with word embedding loses two types of information. One is the structural relationship between the grammar rules, and the other one is the content information of the rule definition.
-
-In this paper, we make the first attempt to learn a grammar-preserving rule embedding. We first introduce a novel graph structure to represent the context-free grammar. Then, we apply a Graph Neural Network (GNN) to extract the structural information and use a gating layer to integrate content information. 
-
-We conducted experiments on six widely-used benchmarks containing four context-free languages. The results show that our approach improves the accuracy of the base model by 0.8 to 6.4 percentage points. Furthermore, Grape also achieves 1.6 F1 score improvement on the method naming task which shows the generality of our approach.

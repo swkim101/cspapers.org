@@ -1,4 +1,0 @@
-
- 
- We propose a novel fully-automated approach towards inducing multilingual taxonomies from Wikipedia. Given an English taxonomy, our approach first leverages the interlanguage links of Wikipedia to automatically construct training datasets for the isa relation in the target language. Character-level classifiers are trained on the constructed datasets, and used in an optimal path discovery framework to induce high-precision, high-coverage taxonomies in other languages. Through experiments, we demonstrate that our approach significantly outperforms the state-of-the-art, heuristics-heavy approaches for six languages. As a consequence of our work, we release presumably the largest and the most accurate multilingual taxonomic resource spanning over 280 languages.
- 

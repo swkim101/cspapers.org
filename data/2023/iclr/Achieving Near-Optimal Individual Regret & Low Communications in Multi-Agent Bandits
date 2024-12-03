@@ -1,1 +1,0 @@
-Cooperative multi-agent multi-armed bandits ( CMA2B ) study how distributed agents cooperatively play the same multi-armed bandit game. Most existing CMA2B works focused on maximizing the group performance of all agents—the accumulation of all agents’ individual performance (i

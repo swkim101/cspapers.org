@@ -1,7 +1,0 @@
-Neural-symbolic computing has now become the subject of interest of both academic and industry research laboratories. 
-
-Graph Neural Networks (GNNs) have been widely used in relational and symbolic domains, with widespread application of GNNs in combinatorial optimization, constraint satisfaction, relational reasoning and other scientific domains.
-
-The need for improved explainability, interpretability and trust of AI systems in general demands principled methodologies, as suggested by neural-symbolic computing. 
-
-In this paper, we review the state-of-the-art on the use of GNNs as a model of neural-symbolic computing. This includes the application of GNNs in several domains as well as their relationship to current developments in neural-symbolic computing.

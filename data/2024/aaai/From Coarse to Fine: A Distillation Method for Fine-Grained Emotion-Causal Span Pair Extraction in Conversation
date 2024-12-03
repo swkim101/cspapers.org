@@ -1,7 +1,0 @@
-We study the problem of extracting emotions and the causes behind these emotions in conversations.
-Existing methods either tackle them separately or jointly model them at the coarse-grained level of emotions (fewer emotion categories) and causes (utterance-level causes). 
-In this work, we aim to jointly extract more fine-grained emotions and causes.
-We construct a fine-grained dataset FG-RECCON, includes 16 fine-grained emotion categories and span-level causes.
-To further improve the fine-grained extraction performance, we propose to utilize the casual discourse knowledge in a knowledge distillation way.
-Specifically, the teacher model learns to predict causal connective words between utterances, and then guides the student model in identifying both the fine-grained emotion labels and causal spans.
-Experimental results demonstrate that our distillation method achieves state-of-the-art performance on both RECCON and FG-RECCON dataset.

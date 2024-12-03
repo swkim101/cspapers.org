@@ -1,4 +1,0 @@
-
- 
- We address the problem of approximating a matrix by the linear combination of a column sparse matrix and a low rank matrix. Two variants of a heuristic search algorithm are described. The first produces an optimal solution but may be slow, as these problems are believed to be NP-hard. The second is much faster, but only guarantees a suboptimal solution. The quality of the approximation and the optimality criterion can be specified in terms of unitarily invariant norms.
- 

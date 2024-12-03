@@ -1,4 +1,0 @@
-
- 
- Generating texts from structured data (e.g., a table) is important for various natural language processing tasks such as question answering and dialog systems. In recent studies, researchers use neural language models and encoder-decoder frameworks for table-to-text generation. However, these neural network-based approaches typically do not model the order of content during text generation. When a human writes a summary based on a given table, he or she would probably consider the content order before wording. In this paper, we propose an order-planning text generation model, where order information is explicitly captured by link-based attention. Then a self-adaptive gate combines the link-based attention with traditional content-based attention. We conducted experiments on the WikiBio dataset and achieve higher performance than previous methods in terms of BLEU, ROUGE, and NIST scores; we also performed ablation tests to analyze each component of our model.
- 

@@ -1,4 +1,0 @@
-
- 
- Committee scoring rules form an important class of multiwinner voting rules. As computing winning committees under such rules is generally intractable, in this paper we investigate efficient heuristics for this task. We design two novel heuristics for computing approximate results of multiwinner elections under arbitrary committee scoring rules; notably, one of these heuristics uses concepts from cooperative game theory. We then provide an experimental evaluation of our heuristics (and two others, known from the literature): we compare the scores of the committees output by our algorithms to the scores of the optimal committees, and also use the two-dimensional Euclidean domain to compare the visual representations of the outputs of our algorithms.
- 

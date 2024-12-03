@@ -1,4 +1,0 @@
-
- 
- In the Multiagent Connected Path Planning problem (MCPP), a team of agents moving in a graph-represented environment must plan a set of start-goal joint paths which ensures global connectivity at each time step, under some communication model. The decision version of this problem asking for the existence of a plan that can be executed in at most a given number of steps is claimed to be NP-complete in the literature. The NP membership proof, however, is not detailed. In this paper, we show that, in fact, even deciding whether a feasible plan exists is a PSPACE-complete problem. Furthermore, we present three algorithms adopting different search paradigms, and we empirically show that they may efficiently obtain a feasible plan, if any exists, in different settings.
- 

@@ -1,3 +1,0 @@
-In this work, we present SenTag, a lightweight web-based tool focused on semantic annotation of textual documents. The platform allows multiple users to work on a corpus of documents. 
-The tool enables to tag a corpus of documents through an intuitive and easy-to-use user interface that adopts the Extensible Markup Language (XML) as output format. The main goal of the application is two-fold: facilitating the tagging process and reducing or avoiding errors in the output documents. 
-It allows also to identify arguments and other entities that are used to build an arguments graph. It is also possible to assess the level of agreement of annotators working on a corpus of text.

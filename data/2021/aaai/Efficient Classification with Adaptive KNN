@@ -1,3 +1,0 @@
-In this paper, we propose an adaptive kNN method for classification, in which different k are selected for different test samples. Our selection rule is easy to implement since it is completely adaptive and does not require any knowledge of
-the underlying distribution. The convergence rate of the risk of this classifier to the Bayes risk is shown to be minimax optimal for various settings. Moreover, under some special assumptions, the convergence rate is especially fast and does
-not decay with the increase of dimensionality.

@@ -1,8 +1,0 @@
-Multi kernel learning (MKL) is a representative supervised multi-view learning method widely applied in multi-modal and multi-view applications.
-MKL aims to classify data by integrating complementary information from predefined kernels.
-Although existing MKL methods achieve promising performance, they fail to consider the tradeoff between diversity and classification accuracy of kernels, preventing further improvement of classification performance.
-In this paper, we tackle this problem by generating a number of high-quality base learning kernels and selecting a kernel subset with maximum pairwise diversity and minimum generalization errors.
-We first formulate this idea as a nonconvex quadratic integer programming problem.
-Then we transform this nonconvex problem into a convex optimization problem and prove it is equivalent to a semidefinite relaxation problem, which a semidefinite-based branch-and-bound algorithm can quickly solve.
-Experimental results on the real-world datasets demonstrate the superiority of the proposed method.
-The results also show that our method works for the support vector machine (SVM) classifier and other state-of-the-art kernel classifiers.

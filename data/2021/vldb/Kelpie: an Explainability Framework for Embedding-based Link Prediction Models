@@ -1,6 +1,0 @@
-
- The latest generations of Link Prediction (LP) models rely on embeddings to tackle incompleteness in Knowledge Graphs, achieving great performance at the cost of interpretability. Their opaqueness limits the trust that users can place in them, hindering their adoption in real-world applications. We have recently introduced Kelpie, an explainability framework tailored specifically for embedding-based LP models. Kelpie can be applied to any embedding-based LP model, and supports two explanation scenarios that we have called
- necessary
- and
- sufficient.
- In this demonstration we showcase Kelpie's capability to explain the predictions of models based on vastly different architectures on the 5 major datasets in literature.

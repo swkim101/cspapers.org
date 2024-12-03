@@ -1,4 +1,0 @@
-
- 
- We present the solution of a century-old problem known as Schur Number Five: What is the largest (natural) number n such that there exists a five-coloring of the positive numbers up to n without a monochromatic solution of the equation a + b = c? We obtained the solution, n = 160, by encoding the problem into propositional logic and applying massively parallel satisfiability solving techniques on the resulting formula. We also constructed and validated a proof of the solution to increase trust in the correctness of the multi-CPU-year computations. The proof is two petabytes in size and was certified using a formally verified proof checker, demonstrating that any result by satisfiability solvers---no matter how large---can now be validated using highly trustworthy systems.
- 

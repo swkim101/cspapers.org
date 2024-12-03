@@ -1,7 +1,0 @@
-In this paper we study the Hospitals/Residents problem with Couples (HRC), where a solution is a stable matching or a report that none exists. 
-
-We present a novel polynomial-time algorithm that can find a near-feasible stable matching (adjusting the hospitals' capacities by at most 1) in an HRC instance where the couples' preferences are sub-responsive (i.e., if one member switches to a better hospital, than the couple also improves if the new pair is also acceptable) and sub-complete (i.e., each pair of hospitals that are individually acceptable to both members are jointly acceptable for the couple) by reducing it to an instance of the Stable Fixtures problem. We also present a polynomial-time algorithm for HRC in a sub-responsive, sub-complete instance that is a Dual Market, or where all couples are one of several possible types. 
-
-Our polynomial-time solvability results greatly expand the class of known tractable instances of HRC.
-
-We complement our algorithms with several hardness results. We show that HRC with sub-responsive and sub-complete couples is NP-hard, even with other strong restrictions. We also show that HRC with a Dual Market is NP-hard under several simultaneous restrictions.

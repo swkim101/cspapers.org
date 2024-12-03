@@ -1,7 +1,0 @@
-Fair division of indivisible goods is a very well-studied problem. The goal of this problem is to distribute $m$ goods to $n$ agents in a "fair" manner, where every agent has a valuation for each subset of goods. We assume general valuations. 
-Envy-freeness is the most extensively studied notion of fairness. However, envy-free allocations do not always exist when goods are indivisible. The notion of fairness we consider here is "envy-freeness up to any good" (EFX) where no agent envies another agent after the removal of any single good from the other agent's bundle. It is not known if such an allocation always exists even when $n=3$. 
-We show there is always a partition of the set of goods into $n+1$ subsets $(X_1,\ldots,X_n,P)$ where for $i \in [n]$, $X_i$ is the bundle allocated to agent $i$ and the set $P$ is unallocated (or donated to charity) such that we have$\colon$ 
-1) envy-freeness up to any good, 
-2) no agent values $P$ higher than her own bundle, and 
-3) fewer than $n$ goods go to charity, i.e., $|P| < n$ (typically $m \gg n$). 
-Our proof is constructive. When agents have additive valuations and $\lvert P \rvert$ is large (i.e., when $|P|$ is close to $n$), our allocation also has a good maximin share (MMS) guarantee. Moreover, a minor variant of our algorithm also shows the existence of an allocation which is $4/7$ groupwise maximin share (GMMS): this is a notion of fairness stronger than MMS. This improves upon the current best bound of $1/2$ known for an approximate GMMS allocation.

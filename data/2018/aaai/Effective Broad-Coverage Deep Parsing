@@ -1,4 +1,0 @@
-
- 
- Current semantic parsers either compute shallow representations over a wide range of input, or deeper representations in very limited domains. We describe a system that provides broad-coverage, deep semantic parsing designed to work in any domain using a core domain-general lexicon, ontology and grammar. This paper discusses how this core system can be customized for a particularly challenging domain, namely reading research papers in biology. We evaluate these customizations with some ablation experiments
- 

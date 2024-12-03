@@ -1,5 +1,0 @@
-Determining the optimal sample complexity of PAC learning in the realizable setting was a central open problem in learning theory for decades. Finally, seminal work by Hanneke gave an algorithm with a provably optimal sample complexity. His algorithm is based on a careful and structured sub-sampling of the training data and then returning a majority vote among hypotheses trained on each of the sub-samples. While being a very exciting theoretical result, it has not had much impact in practice, in part due to inefficiency, since it constructs a polynomial number of sub-samples of the training data, each of linear size.
-
-
-
-In this work, we prove the surprising result that the practical and classic heuristic bagging (a.k.a. bootstrap aggregation), due to Breiman, is in fact also an optimal PAC learner. Bagging pre-dates Hanneke's algorithm by twenty years and is taught in most undergraduate machine learning courses. Moreover, we show that it only requires a logarithmic number of sub-samples to reach optimality.

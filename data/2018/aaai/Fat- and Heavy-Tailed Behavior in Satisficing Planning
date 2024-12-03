@@ -1,4 +1,0 @@
-
- 
- In this work, we study the runtime distribution of satisficing planning in ensembles of random planning problems and in multiple runs of a randomized heuristic search on a single planning instance. Using common heuristic functions (such as FF) and six benchmark problem domains from the IPC, we find a heavy-tailed behavior, similar to that found in CSP and SAT. We investigate two notions of constrainedness, often used in the modeling of planning problems, and show that the heavy-tailed behavior tends to appear in relatively relaxed problems, where the required effort is, on average, low. Finally, we show that as with randomized restarts in CSP and SAT solving, recent search enhancements that incorporate randomness in the search process can help mitigate the effect of the heavy tail.
- 

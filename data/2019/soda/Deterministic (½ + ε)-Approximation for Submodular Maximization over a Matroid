@@ -1,1 +1,0 @@
-We study the problem of maximizing a monotone submodular function subject to a matroid constraint and present a deterministic algorithm that achieves (1/2 + e)-approximation for the problem. This algorithm is the first deterministic algorithm known to improve over the 1/2-approximation ratio of the classical greedy algorithm proved by Nemhauser, Wolsely and Fisher in 1978.

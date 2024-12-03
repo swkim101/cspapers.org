@@ -1,5 +1,0 @@
-In a delegation problem, a principal P with commitment power tries to pick one out of n options. Each option is drawn independently from a known distribution. Instead of inspecting the options herself, P delegates the information acquisition to a rational and self-interested agent A. After inspection, A proposes one of the options, and P can accept or reject. In this paper, we study a natural online variant of delegation, in which the agent searches through the options in an online fashion. How can we design algorithms for P that approximate the utility of her best option in hindsight?
-
-
-
-We show that P can obtain a Θ(1/n)-approximation and provide more fine-grained bounds independent of n based on two parameters. If the ratio of maximum and minimum utility for A is bounded by a factor α, we obtain an Ω(log log α / log α)-approximation algorithm and show that this is best possible. If P cannot distinguish options with the same value for herself, we show that ratios polynomial in 1/α cannot be avoided. If the utilities of P and A for each option are related by a factor β, we obtain an Ω(1 / log β)-approximation, and O(log log β / log β) is best possible.

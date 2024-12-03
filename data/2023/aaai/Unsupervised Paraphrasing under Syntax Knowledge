@@ -1,8 +1,0 @@
-The soundness of syntax is an important issue for the paraphrase generation task. 
-Most methods control the syntax of paraphrases by embedding the syntax and semantics in the generation process, which cannot guarantee the syntactical correctness of the results. 
-Different from them, in this paper we investigate the structural patterns of word usages termed as the word composable knowledge and integrate it into the paraphrase generation to control the syntax in an explicit way.
-This syntax knowledge is pretrained on a large corpus with the dependency relationships and formed as the probabilistic functions on the word-level syntactical soundness.
-For the sentence-level correctness, we design a hierarchical syntax structure loss to quantitatively verify the syntactical soundness of the paraphrase against the given dependency template. 
-Thus, the generation process can select the appropriate words with consideration on both semantics and syntax. 
-The proposed method is evaluated on a few paraphrase datasets.
-The experimental results show that the quality of paraphrases by our proposed method outperforms the compared methods, especially in terms of syntax correctness.

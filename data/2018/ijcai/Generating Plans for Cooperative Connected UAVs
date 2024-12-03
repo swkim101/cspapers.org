@@ -1,1 +1,0 @@
-We present a tool for graph coverage with a fleet of UAVs. The UAVs must achieve the coverage of an area under the constraint of staying connected with the base, where the mission supervisor starts the plan. With an OpenStreetMap interface, the user is able to choose a specific location on which the mission needs to be generated and observes the resulting plan being executed.

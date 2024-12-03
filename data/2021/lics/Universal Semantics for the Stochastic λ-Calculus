@@ -1,1 +1,0 @@
-We define sound and adequate denotational and operational semantics for the stochastic lambda calculus. These two semantic approaches build on previous work that used an explicit source of randomness to reason about higher-order probabilistic programs.

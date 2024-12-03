@@ -1,4 +1,0 @@
-
- 
- Generally in Reinforcement Learning the goal, or reward signal, is given by the environment and cannot be controlled by the agent. We propose to introduce an intrinsic motivation module that will select a reward function for the agent to learn to achieve. We will use a Universal Value Function Approximator, that takes as input both the state and the parameters of this reward function as the goal to predict the value function (or action-value function) to generalize across these goals. This module will be trained to generate goals such that the agent's learning is maximized. Thus, this is also a method for automatic curriculum learning.
- 

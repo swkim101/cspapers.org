@@ -1,5 +1,0 @@
-A common approach for solving planning problems is to model them in a formal language such as the Planning Domain Definition Language (PDDL), and then use an appropriate PDDL planner. 
-Several algorithms for learning PDDL models from observations have been proposed but plans created with these learned models may not be sound. 
-We propose two algorithms for learning PDDL models that are guaranteed to be safe to use even when given observations that include partially observable states. 
-We analyze these algorithms theoretically, characterizing the sample complexity each algorithm requires to guarantee probabilistic completeness. 
-We also show experimentally that our algorithms are often better than FAMA, a state-of-the-art PDDL learning algorithm.

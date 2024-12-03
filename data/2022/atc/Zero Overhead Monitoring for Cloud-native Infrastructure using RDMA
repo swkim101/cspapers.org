@@ -1,9 +1,0 @@
-Cloud services have recently undergone a major shift from monolithic designs to microservices running on the cloud-native infrastructure, where monitoring systems are widely deployed to ensure the service level agreement (SLA).
-Nevertheless, the traditional monitoring system no longer fulfills the demands of cloud-native monitoring, which is observed from our practical experience in Alibaba cloud.
-Specifically, the monitor occupies resources (e.g., CPU) of the monitored infrastructure, disturbing services running on it. For example, enabling monitor causes jitters/declines of online services in Alibaba's ''double eleven'' shopping festival with high loads.
-On the other hand, the quality of service (QoS) of monitoring itself, which is vital to track and ensure SLA, is not guaranteed with the high loaded system.
-In this paper, we design and implement a novel monitoring system, named Zero, for cloud-native monitoring.
-First, Zero achieves zero overhead to collect raw metrics from the monitored hosts using \textit{one-sided} remote direct memory access (RDMA) operations, thus avoiding any interferences to cloud services.
-Second, Zero adopts receiver-driven model to collect monitoring metrics with high QoS, where credit-based flow control and hybrid I/O model are proposed to mitigate network congestion/interference and CPU bottlenecks.
-Zero has been deployed and evaluated in Alibaba cloud.
-Deployment results show that Zero achieves no CPU occupation at the monitored host and supports 1 sim 10k hosts with 0.1 sim 1s sampling interval using single thread for network I/O.

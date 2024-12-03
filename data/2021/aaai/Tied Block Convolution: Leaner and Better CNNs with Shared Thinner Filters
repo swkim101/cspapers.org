@@ -1,7 +1,0 @@
-Convolution is the main building block of a convolutional neural network (CNN). We observe that an optimized CNN often has highly correlated filters as the number of channels increases with depth, reducing the expressive power of feature representations. 
-
-We propose Tied Block Convolution (TBC) that shares the same thinner filter over equal blocks of channels and produces multiple responses with a single filter. The concept of TBC can also be extended to group convolution and fully connected layers, and can be applied to various backbone networks and attention modules.
-
-Our extensive experimentation on classification, detection, instance segmentation, and attention demonstrates that TBC is consistently leaner and significantly better than standard convolution and group convolution. On attention, with 64 times fewer parameters, our TiedSE performs on par with the standard SE. 
-
-On detection and segmentation, TBC can effectively handle highly overlapping instances, whereas standard CNNs often fail to accurately aggregate information in the presence of occlusion and result in multiple redundant partial object proposals. By sharing filters across channels, TBC reduces correlation and delivers a sizable gain of 6% in the average precision for object detection on MS-COCO when the occlusion ratio is 80%.

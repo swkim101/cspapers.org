@@ -1,3 +1,0 @@
-The performance of state-of-the-art algorithms is highly dependent on their parameter values, and choosing the right configuration can make the difference between solving a problem in a few minutes or hours. Automated algorithm configurators have shown their efficiency on a wide range of applications. However, they still encounter limitations when confronted to a large number of parameters to tune or long algorithm running time.
-
-We believe that there is untapped knowledge that can be gathered from the elements of the configuration problem, such as the default value in the configuration space, the source code of the algorithm, and the distribution of the problem instances at hand. We aim at utilising this knowledge to improve algorithm configurators.

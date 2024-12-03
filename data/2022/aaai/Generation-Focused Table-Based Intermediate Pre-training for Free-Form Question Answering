@@ -1,9 +1,0 @@
-Question answering over semi-structured tables has attracted significant attention in the NLP community.
- However, most of the existing work focus on questions that can be answered with short-form answer, i.e. the answer is often a table cell or aggregation of multiple cells. 
- This can mismatch with the intents of users who want to ask more complex questions that require free-form answers such as explanations. 
- To bridge the gap, most recently, pre-trained sequence-to-sequence language models such as T5 are used for generating free-form answers based on the question and table inputs. 
- However, these pre-trained language models have weaker encoding abilities over table cells and schema. 
- To mitigate this issue, in this work, we present an intermediate pre-training framework, Generation-focused Table-based Intermediate Pre-training (GENTAP), that jointly learns representations of natural language questions and tables.
- GENTAP learns to generate via two training objectives to enhance the question understanding and table representation abilities for complex questions. 
- Based on experimental results, models that leverage GENTAP framework outperform the existing baselines on FETAQA benchmark. 
- The pre-trained models are not only useful for free-form question answering, but also for few-shot data-to-text generation task, thus showing good transfer ability by obtaining new state-of-the-art results.

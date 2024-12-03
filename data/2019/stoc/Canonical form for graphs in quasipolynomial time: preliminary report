@@ -1,1 +1,0 @@
-We outline how to turn the author's quasipolynomial-time graph isomorphism test into a construction of a canonical form within the same time bound. The proof involves a nontrivial modification of the central symmetry-breaking tool, the construction of a canonical relational structure of logarithmic arity on the ideal domain based on local certificates.

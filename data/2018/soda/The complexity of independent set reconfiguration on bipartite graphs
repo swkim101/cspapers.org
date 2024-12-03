@@ -1,1 +1,0 @@
-We settle the complexity of the Independent Set Reconfiguration problem on bipartite graphs under all three commonly studied reconfiguration models. We show that under the token jumping or token addition/removal model, the problem is NP-complete. For the token sliding model, we show that the problem remains PSPACE-complete.

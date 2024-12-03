@@ -1,4 +1,0 @@
-
- 
- We analyze the K-armed bandit problem where the reward for each arm is a noisy realization based on an observed context under mild nonparametric assumptions.We attain tight results for top-arm identification and a sublinear regret of Õ(T1+D/(2+D), where D is the context dimension, for a modified UCB algorithm that is simple to implement. We then give global intrinsic dimension dependent and ambient dimension independent regret bounds. We also discuss recovering topological structures within the context space based on expected bandit performance and provide an extension to infinite-armed contextual bandits. Finally, we experimentally show the improvement of our algorithm over existing approaches for both simulated tasks and MNIST image classification.
- 

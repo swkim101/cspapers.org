@@ -1,7 +1,0 @@
-Quantitative trading and investment decision making are intricate financial tasks that rely on accurate stock selection.
-Despite advances in deep learning that have made significant progress in the complex and highly stochastic stock prediction problem, modern solutions face two significant limitations. 
-They do not directly optimize the target of investment in terms of profit, and treat each stock as independent from the others, ignoring the rich signals between related stocks' temporal price movements.
-Building on these limitations, we reformulate stock prediction as a learning to rank problem and propose STHAN-SR, a neural hypergraph architecture for stock selection.
-The key novelty of our work is the proposal of modeling the complex relations between stocks through a hypergraph and a temporal Hawkes attention mechanism to tailor a new spatiotemporal attention hypergraph network architecture to rank stocks based on profit by jointly modeling stock interdependence and the temporal evolution of their prices.
-Through experiments on three markets spanning over six years of data, we show that STHAN-SR significantly outperforms state-of-the-art neural stock forecasting methods.
-We validate our design choices through ablative and exploratory analyses over STHAN-SR's spatial and temporal components and demonstrate its practical applicability.

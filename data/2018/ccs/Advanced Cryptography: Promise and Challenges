@@ -1,1 +1,0 @@
-I will discuss "advanced cryptography", namely cryptographic techniques beyond communication security, including things like zero knowledge, secure multi-party computation, homomorphic encryption, and the like. I will make the case that advanced cryptography is (a) needed, (b) fast enough to be useful, and (c) Not "generally usable" yet.

@@ -1,4 +1,0 @@
-
- 
- In this study we consider the problem of outlier detection with multiple co-evolving time series data. To capture both the temporal dependence and the inter-series relatedness, a multi-task non-parametric model is proposed, which can be extended to data with a broader exponential family distribution by adopting the notion of Bregman divergence. Albeit convex, the learning problem can be hard as the time series accumulate. In this regards, an efficient randomized block coordinate descent (RBCD) algorithm is proposed. The model and the algorithm is tested with a real-world application, involving outlier detection and event analysis in power distribution networks with high resolution multi-stream measurements. It is shown that the incorporation of inter-series relatedness enables the detection of system level events which would otherwise be unobservable with traditional methods.
- 

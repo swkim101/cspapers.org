@@ -1,4 +1,0 @@
-
- 
- We study the complexity of bribery in a network-based rating system, where individuals are connected in a social network and an attacker, typically a service provider, can influence their rating and increase the overall profit. We derive a number of algorithmic properties of this framework, in particular we show that establishing the existence of an optimal manipulation strategy for the attacker is NP-complete, even with full knowledge of the underlying network structure.
- 

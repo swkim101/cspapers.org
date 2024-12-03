@@ -1,5 +1,0 @@
-Long range forecasts are the starting point of many decision support systems that need to draw inference from high-level aggregate patterns on forecasted values. State of the art time-series forecasting methods are either subject to concept drift on long-horizon forecasts, or fail to accurately predict coherent and accurate high-level aggregates.
-
-
-
-In this work, we present a novel probabilistic forecasting method that produces forecasts that are coherent in terms of base level and predicted aggregate statistics. We achieve the coherency between predicted base-level and aggregate statistics using a novel inference method based on KL-divergence that can be solved efficiently in closed form. We show that our method improves forecast performance across both base level and unseen aggregates post inference on real datasets ranging three diverse domains. (Project URL)

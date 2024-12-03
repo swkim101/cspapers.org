@@ -1,4 +1,0 @@
-
- 
- To reduce the dependence on labeled data, there have been increasing research efforts on learning visual classifiers by exploiting web images. One issue that limits their performance is the problem of polysemy. To solve this problem, in this work, we present a novel framework that solves the problem of polysemy by allowing sense-specific diversity in search results. Specifically, we first discover a list of possible semantic senses to retrieve sense-specific images. Then we merge visual similar semantic senses and prune noises by using the retrieved images. Finally, we train a visual classifier for each selected semantic sense and use the learned sense-specific classifiers to distinguish multiple visual senses. Extensive experiments on classifying images into sense-specific categories and re-ranking search results demonstrate the superiority of our proposed approach.
- 

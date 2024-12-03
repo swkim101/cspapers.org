@@ -1,4 +1,0 @@
-Classical planning considers a given task and searches for a plan to solve it. Some tasks are harder to solve than others. We can measure the 'hardness' of a task with the novelty width and the correlation complexity. In this work, we compare these measures.
-Additionally, we introduce the river measure, a new measure that is based on potential heuristics and therefore similar to the correlation complexity but also comparable to the novelty width.
-We show that the river measure is upper bounded by the correlation complexity and by the novelty width +1. 
-Furthermore, we show that we can convert a planning task with a polynomial blowup of the task size to ensure that a heuristic of dimension 2 exists that gives rise to backtrack-free search.

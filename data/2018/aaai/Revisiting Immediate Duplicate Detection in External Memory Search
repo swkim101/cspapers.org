@@ -1,4 +1,0 @@
-
- 
- External memory search algorithms store the open and closed lists in secondary memory (e.g., hard disks) to augment limited internal memory. To minimize expensive random access in hard disks, these algorithms typically employ delayed duplicate detection (DDD), at the expense of processing more nodes than algorithms using immediate duplicate detection (IDD). Given the recent ubiquity of solid state drives (SSDs), we revisit the use of IDD in external memory search. We propose segmented compression, an improved IDD method that significantly reduces the number of false positive access into secondary memory. We show that A*-IDD, an external search variant of A* that uses segmented compression-based IDD, significantly improves upon previous open-addressing based IDD. We also show that A*-IDD can outperform DDD-based A* on some domains in domain-independent planning.
- 

@@ -1,6 +1,0 @@
-
- Effective supervised training of modern machine learning models often requires large labelled training datasets, which could be prohibitively costly to acquire for many practical applications. Research addressing this problem has sought ways to leverage
- weak supervision
- sources, such as the user-defined heuristic labelling functions used in the
- data programming
- paradigm, which are cheaper and easier to acquire. Automatic generation of these functions can make data programming even more efficient and effective. However, existing approaches rely on initial supervision in the form of small labelled datasets or interactive user feedback. In this paper, we propose Witan, an algorithm for generating labelling functions without any initial supervision. This flexibility affords many interaction modes, including unsupervised dataset exploration before the user even defines a set of classes. Experiments in binary and multi-class classification demonstrate the efficiency and classification accuracy of Witan compared to alternative labelling approaches.

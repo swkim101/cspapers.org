@@ -1,4 +1,0 @@
-
- 
- Previous work in machine learning and statistics commonly focuses on building models that capture the vast majority of data, possibly ignoring a segment of the population as outliers. By contrast, we may be interested in finding a segment of the population for which we can find a linear rule capable of achieving more accurate predictions. We give an efficient algorithm for the conditional linear regression task, which is the joint task of identifying a significant segment of the population, described by a k-DNF, along with its linear regression fit.
- 

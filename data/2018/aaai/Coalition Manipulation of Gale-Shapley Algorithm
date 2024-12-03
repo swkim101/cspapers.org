@@ -1,4 +1,0 @@
-
- 
- It is well-known that the Gale-Shapley algorithm is not truthful for all agents. Previous studies in this category concentrate on manipulations using incomplete preference lists by a single woman and by the set of all women. Little is known about manipulations by a subset of women. In this paper, we consider manipulations by any subset of women with arbitrary preferences. We show that a strong Nash equilibrium of the induced manipulation game always exists among the manipulators and the equilibrium outcome is unique and Pareto-dominant. In addition, the set of matchings achievable by manipulations has a lattice structure. We also examine the super-strong Nash equilibrium in the end.
- 

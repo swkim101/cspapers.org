@@ -1,6 +1,0 @@
-We introduce the tree sampling divergence (TSD), an information-theoretic metric for assessing the quality of the hierarchical clustering of a graph. 
-Any hierarchical clustering of a graph can be represented as a tree whose nodes correspond to clusters of the graph. The TSD is the Kullback-Leibler divergence between two probability distributions over the nodes of this tree: those induced respectively by sampling at random edges and node pairs of the graph. 
-A fundamental property of the proposed metric is that it is interpretable in terms of graph reconstruction. Specifically, it quantifies the ability to reconstruct the graph from the tree in terms of information loss. In particular, the TSD is maximum when perfect reconstruction is feasible, i.e., when the graph has a complete hierarchical structure.
-Another key property of TSD is that it applies to any tree, not necessarily binary. 
-In particular, the TSD can be used to compress a binary tree while minimizing the information loss in terms of graph reconstruction, so as to get a compact representation of the hierarchical structure of a graph. 
-We illustrate the behavior of TSD compared to existing metrics on experiments based on both synthetic and real datasets.

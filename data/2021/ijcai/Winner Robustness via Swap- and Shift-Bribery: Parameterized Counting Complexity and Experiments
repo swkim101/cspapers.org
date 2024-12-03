@@ -1,1 +1,0 @@
-We study the parameterized complexity of counting variants of Swap- and Shift-Bribery, focusing on the parameterizations by the number of swaps and the number of voters. Facing several computational hardness results, using sampling we show experimentally that Swap-Bribery offers a new approach to the robustness analysis of elections.

@@ -1,4 +1,0 @@
-
- 
- The minimum weighted vertex cover (MWVC) problem is a well known combinatorial optimization problem with important applications. This paper introduces a novel local search algorithm called NuMWVC for MWVC based on three ideas. First, four reduction rules are introduced during the initial construction phase. Second, the configuration checking with aspiration is proposed to reduce cycling problem. Moreover, a self-adaptive vertex removing strategy is proposed to save time.
- 

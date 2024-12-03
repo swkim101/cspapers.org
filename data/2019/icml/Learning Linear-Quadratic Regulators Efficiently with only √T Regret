@@ -1,1 +1,0 @@
-We present the first computationally-efficient algorithm with $\widetilde O(\sqrt{T})$ regret for learning in Linear Quadratic Control systems with unknown dynamics. By that, we resolve an open question of Abbasi-Yadkori and Szepesv\'ari (2011) and Dean, Mania, Matni, Recht, and Tu (2018).

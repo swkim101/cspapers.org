@@ -1,5 +1,0 @@
-Description Logics (DLs) support so-called anonymous objects, which significantly contribute to the expressiveness of these KR languages, but also cause substantial computational challenges. This paper investigates reasoning about upper bounds on predicate sizes for ontologies written in the expressive
-
-DL ALCHOIQ extended with closed predicates. We describe a procedure based on integer programming that allows us to decide the existence of upper bounds on the cardinality of some predicate in the models of a given ontology in a data-independent way. Our results yield a promising supporting tool for constructing higher quality ontologies, and provide a new way to push the decidability frontiers. To wit, we define a new safety condition for Datalog-based
-
-queries over DL ontologies, while retaining decidability of query entailment.

@@ -1,1 +1,0 @@
-We obtain tight minimax rates for the problem of distributed estimation of discrete distributions under communication constraints, where n users observing m samples each can broadcast only ¸ bits. Our main result is a tight characterization (up to logarithmic factors) of the error rate as a function of m , ¸ , the domain size

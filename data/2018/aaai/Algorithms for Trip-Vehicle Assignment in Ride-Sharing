@@ -1,4 +1,0 @@
-
- 
- We investigate the ride-sharing assignment problem from an algorithmic resource allocation point of view. Given a number of requests with source and destination locations, and a number of available car locations, the task is to assign cars to requests with two requests sharing one car. We formulate this as a combinatorial optimization problem, and show that it is NP-hard. We then design an approximation algorithm which guarantees to output a solution with at most 2.5 times the optimal cost. Experiments are conducted showing that our algorithm actually has a much better approximation ratio (around 1.2) on synthetically generated data.
- 

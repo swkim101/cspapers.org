@@ -1,4 +1,0 @@
-
- 
- There are well known cases of Quantified Boolean Formulas (QBFs) that have short winning strategies (Skolem/Herbrand functions) but that are hard to solve by nowadays solvers. This paper argues that a solver benefits from generalizing a set of individual wins into a strategy. This idea is realized on top of the competitive RAReQS algorithm by utilizing machine learning, which enables learning shorter strategies. The implemented prototype QFUN has won the first place in the non-CNF track of the most recent QBF competition.
- 

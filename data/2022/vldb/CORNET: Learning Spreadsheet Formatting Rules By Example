@@ -1,6 +1,0 @@
-
- Data management and analysis tasks are often carried out using spreadsheet software. A popular feature in most spreadsheet platforms is the ability to define data-dependent formatting rules. These rules can express actions such as
- "color red all entries in a column that are negative"
- or
- "bold all rows not containing error or failure".
- Unfortunately, users who want to exercise this functionality need to manually write these conditional formatting (CF) rules. We introduce Cornet, a system that automatically learns such conditional formatting rules from user examples. Cornet takes inspiration from inductive program synthesis and combines symbolic rule enumeration, based on semi-supervised clustering and iterative decision tree learning, with a neural ranker to produce accurate conditional formatting rules. In this demonstration, we show Cornet in action as a simple add-in to Microsoft's Excel. After the user provides one or two formatted cells as examples, Cornet generates formatting rule suggestions for the user to apply to the spreadsheet.

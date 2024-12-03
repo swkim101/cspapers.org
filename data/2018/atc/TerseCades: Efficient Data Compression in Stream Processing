@@ -1,5 +1,0 @@
-This work is the first systematic investigation of stream processing with data compression: we have not only identified a set of factors that influence the benefits and overheads of compression, but have also demonstrated that compression can be effective for stream processing, both in the ability to process in larger windows
-and in throughput. This is done through a series of (i) optimizations on a stream engine itself to remove major sources of inefficiency, which leads to an order-of-magnitude improvement in throughput (ii) optimizations
-to reduce the cost of (de)compression, including hardware acceleration, and (iii) a new technique that allows direct execution on compressed data, that leads to a further 50% improvement in throughout. Our evaluation is
-performed on several real-world scenarios in cloud analytics and troubleshooting, with both microbenchmarks
-and production stream processing systems.

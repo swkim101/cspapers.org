@@ -1,4 +1,0 @@
-
- 
- In this paper, we propose a Discriminative Semi-Supervised Feature Selection (DSSFS) method. In this method, a ε-dragging technique is introduced to the Rescaled Linear Square Regression in order to enlarge the distances between different classes. An iterative method is proposed to simultaneously learn the regression coefficients, ε-draggings matrix and predicting the unknown class labels. Experimental results show the superiority of DSSFS.
- 

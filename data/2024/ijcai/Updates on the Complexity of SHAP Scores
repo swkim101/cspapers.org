@@ -1,5 +1,0 @@
-SHAP scores represent one of the most widely used methods of explainability by feature attribution, as illustrated by the explainable AI tool SHAP.
-
-A number of recent works studied the computational complexity of the exact computation of SHAP scores, covering a comprehensive range of families of classifiers.
-
-This paper refines some of the existing complexity claims, including families of classifiers for which the computation of SHAP scores is computationally hard and those for which there exist polynomial-time algorithms.

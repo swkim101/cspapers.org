@@ -1,4 +1,0 @@
-
- 
- Autonomous vehicles are quickly becoming an important part of human society for transportation, monitoring, agriculture, and other applications. In these applications, there is a fundamental tradeoff between safety and efficiency that is especially salient when the autonomous vehicles interact directly with humans. A key to maintaining safety without sacrificing efficiency is dealing with uncertainty properly so that robots can be assertive when it is appropriate and careful in dangerous situations. The research that will be presented in my thesis uses the partially observable Markov decision process framework to approach this challenge, exploring several applications and proposing a new solution approach that is able to handle continuous action and observation spaces, a qualitative improvement over current methods.
- 

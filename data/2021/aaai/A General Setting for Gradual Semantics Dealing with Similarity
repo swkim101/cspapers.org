@@ -1,7 +1,0 @@
-The paper discusses theoretical foundations that describe principles and processes involved in defining semantics that deal with similarity between arguments. 
-Such semantics compute the strength of an argument on the basis of the strengths of its attackers, similarities between those attackers, and an initial weight ascribed to the argument. 
-
-We define a semantics by three functions: an adjustment function that updates the strengths of attackers on the basis of their similarities, an aggregation function that computes the strength of the group of attackers, 
-and an influence function that evaluates the impact of the group on the argument's initial weight. 
-We propose intuitive constraints for the three functions and key rationality principles for semantics, and show how the former lead to the satisfaction of the latter. Then, we propose a broad family of semantics whose instances satisfy the principles. 
-Finally, we analyse the existing adjustment functions and show that they violate some properties, then we propose novel ones and use them for generalizing h-Categorizer.

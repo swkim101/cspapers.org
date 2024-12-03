@@ -1,1 +1,0 @@
-We revisit classical problems about searching in totally monotone matrices, which have many applications in computational geometry and other areas. In a companion paper, we gave new (near-)linear-time algorithms for a number of such problems. In the present paper, we describe new subquadratic results for more basic problems, including the following:

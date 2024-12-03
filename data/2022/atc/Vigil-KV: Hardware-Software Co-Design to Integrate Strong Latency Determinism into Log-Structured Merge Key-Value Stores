@@ -1,5 +1,0 @@
-We propose \emph{Vigil-KV}, a hardware and software co-designed framework that eliminates long-tail latency almost perfectly by introducing strong latency determinism.
-To make Get latency deterministic, Vigil-KV first enables a predictable latency mode (PLM) interface on a real datacenter-scale NVMe SSD, having knowledge about the nature of the underlying flash technologies.
-Vigil-KV at the system-level then hides the non-deterministic time window (associated with SSD's internal tasks and/or write services) by internally scheduling the different device states of PLM across multiple physical functions.
-Vigil-KV further schedules compaction/flush operations and client requests being aware of PLM's restrictions thereby integrating strong latency determinism into LSM KVs.
-We implement Vigil-KV upon a 1.92TB NVMe SSD prototype and Linux 4.19.91, but other LSM KVs can adopt its concept. We evaluate diverse Facebook and Yahoo scenarios with Vigil-KV, and the results show that Vigil-KV can reduce the tail latency of a baseline KV system by 3.19 times while reducing the average latency by 34%, on average.

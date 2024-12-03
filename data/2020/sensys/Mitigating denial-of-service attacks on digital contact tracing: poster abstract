@@ -1,1 +1,0 @@
-Due to the COVID-19 pandemic, many researchers have proposed privacy-preserving smartphone proximity tracing. Current projects, based on ephemeral IDs, are vulnerable to DoS attacks. In this paper, we present BlindSignedIDs that can be verified in-place through a TESLA server. We will demonstrate our BlindSignedIDs can effectively mitigate such DoS attacks.

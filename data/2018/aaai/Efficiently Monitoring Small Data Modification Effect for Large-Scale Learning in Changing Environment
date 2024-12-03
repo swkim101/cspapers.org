@@ -1,4 +1,0 @@
-
- 
- We study large-scale machine learning problems in changing environments where a small part of the dataset is modified, and the effect of the data modification must be monitored in order to know how much the modification changes the optimal model. When the entire dataset is large, even if the amount of the data modification is fairly small, the computational cost for re-training the model would be prohibitively large. In this paper, we propose a novel method, called the optimal solution bounding (OSB), for monitoring such a data modification effect on the optimal model by efficiently evaluating (without actually re-training) it. The proposed method provides bounds on the unknown optimal model with the cost proportional only to the size of the data modification.
- 

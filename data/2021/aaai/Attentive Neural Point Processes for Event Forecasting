@@ -1,5 +1,0 @@
-Event sequence, where each event is associated with a marker and a timestamp, is increasingly ubiquitous in various applications. Accordingly, event forecasting emerges to be a crucial problem, which aims to predict the next event based on the historical sequence. 
-In this paper, we propose ANPP, an Attentive Neural Point Processes framework to solve this problem. In comparison with state-of-the-art methods like recurrent marked temporal point processes,
-ANPP leverages the time-aware self-attention mechanism to explicitly model the influence between every pair of historical events, resulting in more accurate predictions of events and better interpretation ability.
-Extensive experiments on one synthetic and four real-world datasets demonstrate that ANPP can achieve significant performance gains against state-of-the-art methods for predictions of both timings and markers.
-To facilitate future research, we release the codes and datasets at https://github.com/guyulongcs/AAAI2021\_ANPP.

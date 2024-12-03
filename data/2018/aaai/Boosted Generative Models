@@ -1,4 +1,0 @@
-
- 
- We propose a novel approach for using unsupervised boosting to create an ensemble of generative models, where models are trained in sequence to correct earlier mistakes. Our meta-algorithmic framework can leverage any existing base learner that permits likelihood evaluation, including recent deep expressive models. Further, our approach allows the ensemble to include discriminative models trained to distinguish real data from model-generated data. We show theoretical conditions under which incorporating a new model in the ensemble will improve the fit and empirically demonstrate the effectiveness of our black-box boosting algorithms on density estimation, classification, and sample generation on benchmark datasets for a wide range of generative models.
- 

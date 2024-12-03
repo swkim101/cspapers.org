@@ -1,8 +1,0 @@
-Graph neural networks have been widely used to represent 3D molecules, which capture molecular attributes and geometric information through various message-passing mechanisms.
-This study proposes a novel quaternion message-passing (QMP) module that can be plugged into many existing 3D molecular representation models and enhance their power for distinguishing molecular conformations.
-In particular, our QMP module represents the 3D rotations between one chemical bond and its neighbor bonds as a quaternion sequence. 
-Then, it aggregates the rotations by the chained Hamilton product of the quaternions. 
-The real part of the output quaternion is invariant to the global 3D rotations of molecules but sensitive to the local torsions caused by twisting bonds, providing discriminative information for training molecular conformation representation models. 
-In theory, we prove that considering these features enables invariant GNNs to distinguish the conformations caused by bond torsions. 
-We encapsulate the QMP module with acceleration, so combining existing models with the QMP requires merely one-line code and little computational cost. 
-Experiments on various molecular datasets show that plugging our QMP module into existing invariant GNNs leads to consistent and significant improvements in molecular conformation representation and downstream tasks.

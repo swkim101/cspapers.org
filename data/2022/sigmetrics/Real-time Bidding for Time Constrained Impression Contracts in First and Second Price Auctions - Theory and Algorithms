@@ -1,1 +1,0 @@
-We study an optimal bidding and allocation problem that builds upon the earlier work of [4]. The model we study is of interest in online real-time advertising where the demand of a large number of advertisers is aggregated by an intermediary who bids in the advertising auction market on their behalf. This intermediary is referred to as a Demand Side Platform (DSP).

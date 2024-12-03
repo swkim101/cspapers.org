@@ -1,4 +1,0 @@
-
- 
- In this paper, we are interested in designing small CNNs by decoupling the convolution along the spatial and channel domains. Most existing decoupling techniques focus on approximating the filter matrix through decomposition. In contrast, we provide a two-step interpretation of the standard convolution from the filter at a single location to all locations, which is exactly equivalent to the standard convolution. Motivated by the observations in our decoupling view, we propose an effective approach to relax the sparsity of the filter in spatial aggregation by learning a spatial configuration, and reduce the redundancy by reducing the number of intermediate channels. Our approach achieves comparable classification performance with the standard uncoupled convolution, but with a smaller model size over CIFAR-100, CIFAR-10 and ImageNet.
- 

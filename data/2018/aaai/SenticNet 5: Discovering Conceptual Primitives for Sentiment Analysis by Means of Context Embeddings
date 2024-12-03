@@ -1,4 +1,0 @@
-
- 
- With the recent development of deep learning, research in AI has gained new vigor and prominence. While machine learning has succeeded in revitalizing many research fields, such as computer vision, speech recognition, and medical diagnosis, we are yet to witness impressive progress in natural language understanding. One of the reasons behind this unmatched expectation is that, while a bottom-up approach is feasible for pattern recognition, reasoning and understanding often require a top-down approach. In this work, we couple sub-symbolic and symbolic AI to automatically discover conceptual primitives from text and link them to commonsense concepts and named entities in a new three-level knowledge representation for sentiment analysis. In particular, we employ recurrent neural networks to infer primitives by lexical substitution and use them for grounding common and commonsense knowledge by means of multi-dimensional scaling.
- 

@@ -1,1 +1,0 @@
-We have developed a hands-on digital forensic lab to investigate the Morris Worm attack. In the poster, after the attack, we demonstrate a systematic approach to reconstructing the attack scenario by analyzing the worm's running processes, the networking communication used by running processes, and metadata of the files left on victims' machines.

@@ -1,9 +1,0 @@
-
- With the rapid development of blockchain, the concept of decentralized applications (DApps), built upon smart contracts, has attracted much attention in academia and industry. However, significant issues
- w.r.t.
- system throughput, transaction confidentiality, and the security guarantee of the DApp transaction execution and order correctness hinder the border adoption of blockchain DApps.
- 
- 
- To address these issues, we propose L2chain, a novel blockchain framework aiming to scale the system through a layer-2 network where DApps process transactions in the layer-2 network and only the system state digest, acting as the state integrity proof, is maintained on-chain. To achieve high performance, we introduce the split-execute-merge (SEM) transaction processing workflow with the help of the RSA accumulator, allowing DApps to lock and update a part of the state digest in parallel. We also design a witness cache mechanism for DApp executors to reduce the transaction processing latency. To fulfill confidentiality, we leverage the trusted execution environment (TEE) for DApps to execute encrypted transactions off-chain. To ensure transaction execution and order correctness, we propose a two-step execution process for DApps to prevent attacks (
- i.e.
- , rollback attacks) from subverting the state transition. Extensive experiments have demonstrated that L2chain can achieve 1.5X to 42.2X and 7.1X to 8.9X throughput improvements in permissioned and permissionless settings respectively.

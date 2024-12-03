@@ -1,4 +1,0 @@
-
- Software organizations are increasingly incorporating machine learning (ML) into their product offerings, driving a need for new data management tools. Many of these tools facilitate the initial development of ML applications, but sustaining these applications post-deployment is difficult due to lack of real-time feedback (i.e., labels) for predictions and silent failures that could occur at any component of the ML pipeline (e.g., data distribution shift or anomalous features). We propose a new type of data management system that offers end-to-end
- observability
- , or visibility into complex system behavior, for deployed ML pipelines through assisted (1) detection, (2) diagnosis, and (3) reaction to ML-related bugs. We describe new research challenges and suggest preliminary solution ideas in all three aspects. Finally, we introduce an example architecture for a "bolt-on" ML observability system, or one that wraps around existing tools in the stack.

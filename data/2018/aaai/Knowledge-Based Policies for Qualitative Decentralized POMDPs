@@ -1,4 +1,0 @@
-
- 
- Qualitative Decentralized Partially Observable Markov Decision Problems (QDec-POMDPs) constitute a very general class of decision problems. They involve multiple agents, decentralized execution, sequential decision, partial observability, and uncertainty. Typically, joint policies, which prescribe to each agent an action to take depending on its full history of (local) actions and observations, are huge, which makes it difficult to store them onboard, at execution time, and also hampers the computation of joint plans. We propose and investigate a new representation for joint policies in QDec-POMDPs, which we call Multi-Agent Knowledge-Based Programs (MAKBPs), and which uses epistemic logic for compactly representing conditions on histories. Contrary to standard representations, executing an MAKBP requires reasoning at execution time, but we show that MAKBPs can be exponentially more succinct than any reactive representation.
- 

@@ -1,1 +1,0 @@
-Intuitionistic Propositional Logic is complete w.r.t. Kripke semantics: if a formula is not intuitionistically valid, then there exists a finite Kripke model falsifying it. The problem of obtaining concise models has been scarcely investigated in the literature. We present a procedure to generate minimal models in the number of worlds relying on Answer Set Programming (ASP).

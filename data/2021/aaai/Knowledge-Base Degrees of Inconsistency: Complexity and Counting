@@ -1,8 +1,0 @@
-Description logics (DLs) are knowledge representation languages that are used in the field of artificial intelligence (AI).
-A common technique is to query DL knowledge bases, e.g., by Boolean Datalog queries, and ask for entailment. 
-But real world knowledge-bases are often obtained by combining data from various sources. 
-This, inherently, might result in certain inconsistencies (with respect to a given query) and requires to estimate a degree of inconsistency before using a knowledge-base.
-In this paper, we provide a complexity analysis of fixed-domain non-entailment (NE) on Datalog programs for well-established families of knowledge bases (KBs).
-We exhibit a detailed complexity map for the decision cases, counting and projected counting, which may serve as a quantitative measure for inconsistency of a KB with respect to a query.
-Our results show that NE is natural for the second, third, and fourth level of the polynomial (counting) hierarchy depending on the type of the studied query (stratified, normal, disjunctive) and one level higher for the projected versions.
-Further, we show fixed-parameter tractability by bounding the treewidth, provide a constructive algorithm, and show its theoretical limitation in terms of conditional lower bounds.

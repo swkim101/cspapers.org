@@ -1,5 +1,0 @@
-Human beings can quickly adapt to
-environmental changes by leveraging learning experience. 
-However, adapting deep neural networks to dynamic environments by machine learning algorithms remains a challenge.
-To better understand this issue, we study the problem of continual domain adaptation, where the model is presented with a labelled source domain and a sequence of unlabelled target domains. The obstacles in this problem are both domain shift and catastrophic forgetting. We propose Gradient Regularized Contrastive Learning (GRCL) to solve the obstacles.
-At the core of our method, gradient regularization plays two key roles: (1) enforcing the gradient not to harm the discriminative ability of source features which can, in turn, benefit the adaptation ability of the model to target domains; (2) constraining the gradient not to increase the classification loss on old target domains, which enables the model to preserve the performance on old target domains when adapting to an in-coming target domain. Experiments on Digits, DomainNet and Office-Caltech benchmarks demonstrate the strong performance of our approach when compared to the state-of-the-art.

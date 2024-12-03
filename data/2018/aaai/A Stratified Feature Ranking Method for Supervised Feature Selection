@@ -1,4 +1,0 @@
-
- 
- Most feature selection methods usually select the highest rank features which may be highly correlated with each other. In this paper, we propose a Stratified Feature Ranking (SFR) method for supervised feature selection. In the new method, a Subspace Feature Clustering (SFC) is proposed to identify feature clusters, and a stratified feature ranking method is proposed to rank the features such that the high rank features are lowly correlated. Experimental results show the superiority of SFR.
- 

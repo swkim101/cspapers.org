@@ -1,7 +1,0 @@
-We present a novel non-iterative learnable method for partial-to-partial 3D shape registration.
-The partial alignment task is extremely complex, as it jointly tries to match between points, and identify which points do not appear in the corresponding shape, causing the solution to be non-unique and ill-posed in most cases. 
-
-Until now, two main methodologies have been suggested to solve this problem: sample a subset of points that are likely to have correspondences, or perform soft alignment between the point clouds and try to avoid a match to an occluded part. These heuristics work when the partiality is mild or when the transformation is small but fails for severe occlusions, or when outliers are present.
-We present a unique approach named Confidence Guided Distance Network (CGD-net), where we fuse learnable similarity between point embeddings and spatial distance between point clouds, inducing an optimized solution for the overlapping points while ignoring parts that only appear in one of the shapes.
-The point feature generation is done by a self-supervised architecture that repels far points to have different embeddings, therefore succeeds to align partial views of shapes, even with excessive internal symmetries, or acute rotations.
-We compare our network to recently presented learning-based and axiomatic methods and report a fundamental boost in performance.

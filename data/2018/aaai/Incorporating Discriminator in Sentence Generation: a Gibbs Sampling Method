@@ -1,4 +1,0 @@
-
- 
- Generating plausible and fluent sentence with desired properties has long been a challenge. Most of the recent works use recurrent neural networks (RNNs) and their variants to predict following words given previous sequence and target label. In this paper, we propose a novel framework to generate constrained sentences via Gibbs Sampling. The candidate sentences are revised and updated iteratively, with sampled new words replacing old ones. Our experiments show the effectiveness of the proposed method to generate plausible and diverse sentences.
- 

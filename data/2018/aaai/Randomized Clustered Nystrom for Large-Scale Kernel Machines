@@ -1,4 +1,0 @@
-
- 
- The Nystrom method is a popular technique for generating low-rank approximations of kernel matrices that arise in many machine learning problems. The approximation quality of the Nystrom method depends crucially on the number of selected landmark points and the selection procedure. In this paper, we introduce a randomized algorithm for generating landmark points that is scalable to large high-dimensional data sets. The proposed method performs K-means clustering on low-dimensional random projections of a data set and thus leads to significant savings for high-dimensional data sets. Our theoretical results characterize the tradeoffs between accuracy and efficiency of the proposed method. Moreover, numerical experiments on classification and regression tasks demonstrate the superior performance and efficiency of our proposed method compared with existing approaches.
- 

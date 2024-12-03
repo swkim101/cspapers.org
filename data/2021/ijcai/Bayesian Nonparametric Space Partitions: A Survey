@@ -1,5 +1,0 @@
-Bayesian nonparametric space partition (BNSP) models provide a variety of strategies for partitioning a D-dimensional space into a set of blocks, such that
-
-the data within the same block share certain kinds of homogeneity. BNSP models are applicable to many areas, including regression/classification trees, random feature construction, and relational modelling. This survey provides the first comprehensive review of this subject.
-
-We explore the current progress of BNSP research through three perspectives: (1) Partition strategies, where we review the various techniques for generating partitions and discuss their theoretical foundation, `self-consistency'; (2) Applications, where we detail the current mainstream usages of BNSP models and identify some potential future applications; and (3) Challenges, where we discuss current unsolved problems and possible avenues for future research.

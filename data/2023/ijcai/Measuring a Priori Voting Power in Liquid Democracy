@@ -1,7 +1,0 @@
-We introduce new power indices to measure the a priori voting power of voters in liquid democracy elections where an underlying network restricts delegations. We argue that our power indices are natural extensions of the standard Penrose-Banzhaf index in simple voting games.
-
-We show that computing the criticality of a voter is #P-hard even in weighted games with weights polynomially-bounded in the size of the instance.
-
-However, for specific settings, such as when the underlying network is a bipartite or complete graph, recursive formulas can compute these indices for weighted voting games in pseudo-polynomial time.
-
-We highlight their theoretical properties and provide numerical results to illustrate how restricting the possible delegations can alter voters' voting power.

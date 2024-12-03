@@ -1,7 +1,0 @@
-Many planning, scheduling or multi-dimensional packing problems involve the design of subtle logical combinations of temporal or spatial constraints. 
- On the one hand, the precise modelling of these constraints, which are formulated in various relation algebras, entails a number of possible logical combinations and requires expertise in constraint-based modelling.
- On the other hand, active constraint acquisition (CA) has been used successfully to support non-experienced users in learning conjunctive constraint networks through the generation of a sequence of queries. 
- In this paper, we propose GEACQ, which stands for Generic Qualitative Constraint Acquisition, an active CA method that learns qualitative constraints 
- via the concept of qualitative queries.
- GEACQ combines qualitative queries with time-bounded path consistency (PC) and background knowledge propagation to acquire the qualitative constraints of any scheduling or packing problem.
- We prove soundness, completeness and termination of GEACQ by exploiting the jointly exhaustive and pairwise disjoint property of qualitative calculus and we give an experimental evaluation that shows (i) the efficiency of our approach in learning temporal constraints and, (ii) the use of GEACQ on real scheduling instances.

@@ -1,9 +1,0 @@
-Consider a set of voters V, represented by a multiset in a metric space (X,d). The voters have to reach a decision - a point in X. A choice p∈ X is called a β-plurality point for V, if for any other choice q∈ X it holds that |{v∈ V ∣  β⋅ d(p,v)≤ d(q,v)}| ≥|V|/2 . In other words, at least half of the voters ``prefer'' over q, when an extra factor of β is taken in favor of p.
-
-For β=1, this is equivalent to Condorcet winner, which rarely exists. The concept of β-plurality was suggested by Aronov, de Berg, Gudmundsson, and Horton [SoCG 2020] as a relaxation of the Condorcet criterion. 
-
-Denote by β*(X,d) the value sup{ β ∣  every finite multiset V in X admits a β-plurality point}}.
-The parameter β* determines the amount of relaxation required in order to reach a stable decision.
-Aronov et al. showed that for the Euclidean plane β*(ℝ2,\|⋅\|2)=√3/2 , and more generally, for d-dimensional Euclidean space, 1/√d ≤ β*(ℝd,\|⋅\|2)≤√3/2 .
-
-In this paper, we show that 0.557≤ β*(ℝd,\|⋅\|2) for any dimension d (notice that 1/√d

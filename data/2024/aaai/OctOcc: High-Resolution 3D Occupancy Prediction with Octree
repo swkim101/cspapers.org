@@ -1,9 +1,0 @@
-3D semantic occupancy has garnered considerable attention due to its abundant structural information encompassing the entire scene in autonomous driving.
-However, existing 3D occupancy prediction methods contend with the constraint of low-resolution 3D voxel features arising from the limitation of computational memory.
-To address this limitation and achieve a more fine-grained representation of 3D scenes, we propose OctOcc, a novel octree-based approach for 3D semantic occupancy prediction. 
-OctOcc is conceptually rooted in the observation that the vast majority of 3D space is left unoccupied. 
-Capitalizing on this insight, we endeavor to cultivate memory-efficient high-resolution 3D occupancy predictions by mitigating superfluous cross-attentions. 
-Specifically, we devise a hierarchical octree structure that selectively generates finer-grained cross-attentions solely in potentially occupied regions.
-Extending our inquiry beyond 3D space, we identify analogous redundancies within another side of cross attentions, 2D images.
-Consequently, a 2D image feature filtering network is conceived to expunge extraneous regions.
-Experimental results demonstrate that the proposed OctOcc significantly outperforms existing methods on nuScenes and SemanticKITTI datasets with limited memory consumption.

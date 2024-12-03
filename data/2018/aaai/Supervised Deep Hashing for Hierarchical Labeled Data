@@ -1,4 +1,0 @@
-
- 
- Recently, hashing methods have been widely used in large-scale image retrieval. However, most existing supervised hashing methods do not consider the hierarchical relation of labels,which means that they ignored the rich semantic information stored in the hierarchy. Moreover, most of previous works treat each bit in a hash code equally, which does not meet the scenario of hierarchical labeled data. To tackle the aforementioned problems, in this paper, we propose a novel deep hashing method, called supervised hierarchical deep hashing (SHDH), to perform hash code learning for hierarchical labeled data. Speciﬁcally, we deﬁne a novel similarity formula for hierarchical labeled data by weighting each level, and design a deep neural network to obtain a hash code for each data point. Extensive experiments on two real-world public datasets show that the proposed method outperforms the state-of-the-art baselines in the image retrieval task.
- 

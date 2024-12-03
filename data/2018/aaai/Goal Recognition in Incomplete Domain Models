@@ -1,4 +1,0 @@
-
- 
- Recent approaches to goal recognition have progressively relaxed the assumptions about the amount and correctness of domain knowledge and available observations, yielding accurate and efficient algorithms. These approaches, however, assume completeness and correctness of the domain theory against which their algorithms match observations: this is too strong for most real-world domains. In this work, we develop a goal recognition technique capable of recognizing goals using incomplete (and possibly incorrect) domain theories.
- 

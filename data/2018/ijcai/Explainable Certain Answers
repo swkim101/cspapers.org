@@ -1,7 +1,0 @@
-When a dataset is not fully specified and can represent many possible worlds, one commonly answers queries by computing certain answers to them. A natural way of defining certainty is to say that an answer is certain if it is consistent with query answers in all possible worlds, and is furthermore the most informative answer with this property. However, the existence and complexity of such answers is not yet well understood even for relational databases. Thus in applications one tends to use different notions, essentially the intersection of query answers in possible worlds. However, justification of such notions has long been questioned. This leads to two problems: are certain answers based on informativeness feasible in applications? and can a clean justification be provided for intersection-based notions?
-
-
-
-Our goal is to answer both. For the former, we show that such answers may not exist, or be very large, even in simple cases of querying
-
-incomplete data. For the latter, we add the concept of explanations to the notion of informativeness: it shows not only that one object is more informative than the other, but also says why this is so. This leads to a modified notion of certainty: explainable certain answers. We present a general framework for reasoning about them, and show that for open and closed world relational databases, they are precisely the common intersection-based notions of certainty.

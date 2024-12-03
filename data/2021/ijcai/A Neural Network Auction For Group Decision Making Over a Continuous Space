@@ -1,5 +1,0 @@
-We propose a system for conducting an auction over locations in a continuous space. It enables participants to express their preferences over possible choices of location in the space, selecting the location that maximizes the total utility of all agents. We prevent agents from tricking the system into selecting a location that improves their individual utility at the expense of others by using a pricing rule that gives agents no incentive to misreport their true preferences.
-
-
-
-The system queries participants for their utility in many random locations, then trains a neural network to approximate the preference function of each participant. The parameters of these neural network models are transmitted and processed by the auction mechanism, which composes these into differentiable models that are optimized through gradient ascent to compute the final chosen location and charged prices.

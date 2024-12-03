@@ -1,1 +1,0 @@
-We present a top-down lower-bound method for depth-4 boolean circuits. In particular, we give a new proof of the well-known result that the parity function requires depth-4 circuits of size exponential in $n^{1 / 3}$. Our proof is an application of robust sunflowers and block unpredictability.

@@ -1,1 +1,0 @@
-Similarity search is an important and challenging problem that is typically modeled as nearest neighbor search in high dimensional space, where objects are represented as high dimensional vectors and their (dis)similarity is evaluated using a distance measure such as the Euclidean distance.

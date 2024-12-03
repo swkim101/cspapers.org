@@ -1,1 +1,0 @@
-We propose a MOTIF-driven contrastive framework to pretrain a graph neural network in a self-supervised manner so that it can automatically mine motifs from large graph datasets. Our framework achieves state-of-the-art results on various graph-level downstream tasks with few labels, like molecular property prediction.

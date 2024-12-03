@@ -1,8 +1,0 @@
-Gradient-based adversarial training is widely used in improving the robustness of neural networks, while it cannot be easily adapted to natural language processing tasks since the embedding space is discrete.
-In natural language processing fields, virtual adversarial training is introduced since texts are discrete and cannot be perturbed by gradients directly. 
-Alternatively, virtual adversarial training, which generates perturbations on the embedding space, is introduced in NLP tasks.
-Despite its success, existing virtual adversarial training methods generate perturbations roughly constrained by Frobenius normalization balls.
-To craft fine-grained perturbations, we propose a Token-Aware Virtual Adversarial Training method.
-We introduce a token-level accumulated perturbation vocabulary to initialize the perturbations better and use a token-level normalization ball to constrain these perturbations pertinently.
-Experiments show that our method improves the performance of pre-trained models such as BERT and ALBERT in various tasks by a considerable margin.
-The proposed method improves the score of the GLUE benchmark from 78.3 to 80.9 using BERT model and it also enhances the performance of sequence labeling and text classification tasks.

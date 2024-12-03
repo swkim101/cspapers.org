@@ -1,4 +1,0 @@
-
- 
- Zero-shot learning aims to classify unseen image categories by learning a visual-semantic embedding space. In most cases, the traditional methods adopt a separated two-step pipeline that extracts image features are utilized to learn the embedding space. It leads to the lack of specific structural semantic information of image features for zero-shot learning task. In this paper, we propose an end-to-end trainable Deep Semantic Structural Constraints model to address this issue. The proposed model contains the Image Feature Structure constraint and the Semantic Embedding Structure constraint, which aim to learn structure-preserving image features and endue the learned embedding space with stronger generalization ability respectively. With the assistance of semantic structural information, the model gains more auxiliary clues for zero-shot learning. The state-of-the-art performance certifies the effectiveness of our proposed method.
- 

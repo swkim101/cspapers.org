@@ -1,5 +1,0 @@
-We study the problem of online learning with human feedback in the human-in-the-loop machine translation, in which the human translators revise the machine-generated translations and then the corrected translations are used to improve the neural machine translation (NMT) system. However, previous methods require online model updating or additional translation memory networks to achieve high-quality performance, making them inflexible and inefficient in practice.
- In this paper, we propose a novel non-parametric online learning method without changing the model structure.
- This approach introduces two k-nearest-neighbor (KNN) modules: one module memorizes the human feedback, which is the correct sentences provided by human translators, 
- while the other balances the usage of the history human feedback and original NMT models adaptively. 
- Experiments conducted on EMEA and JRC-Acquis benchmarks demonstrate that our proposed method obtains substantial improvements on translation accuracy and achieves better adaptation performance with less repeating human correction operations.

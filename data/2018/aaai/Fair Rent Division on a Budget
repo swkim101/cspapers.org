@@ -1,4 +1,0 @@
-
- 
- The standard approach to fair rent division assumes that agents have quasi-linear utilities, and seeks allocations that are envy free; it underlies an algorithm that is widely used in practice. However, this approach does not take budget constraints into account, and, therefore, may assign agents to rooms they cannot afford. By contrast, we design a polynomial-time algorithm that takes budget constraints as part of its input; it determines whether there exist envy-free allocations that satisfy the budget constraints, and, if so, computes one that optimizes an additional criterion of justice. In particular, this gives a polynomial-time implementation of the budget-constrained maximin solution, where the maximization objective is the minimum utility of any agent. We show that, like its non-budget-constrained counterpart, this solution is unique in terms of utilities (when it exists), and satisfies additional desirable properties.
- 

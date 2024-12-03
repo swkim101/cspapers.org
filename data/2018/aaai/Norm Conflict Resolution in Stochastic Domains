@@ -1,4 +1,0 @@
-
- 
- Artificial agents will need to be aware of human moral and social norms, and able to use them in decision-making. In particular, artificial agents will need a principled approach to managing conflicting norms, which are common in human social interactions. Existing logic-based approaches suffer from normative explosion and are typically designed for deterministic environments; reward-based approaches lack principled ways of determining which normative alternatives exist in a given environment. We propose a hybrid approach, using Linear Temporal Logic (LTL) representations in Markov Decision Processes (MDPs), that manages norm conflicts in a systematic manner while accommodating domain stochasticity. We provide a proof-of-concept implementation in a simulated vacuum cleaning domain.
- 

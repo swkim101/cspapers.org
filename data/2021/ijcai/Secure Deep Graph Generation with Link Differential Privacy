@@ -1,7 +1,0 @@
-Many data mining and analytical tasks rely on the abstraction of networks (graphs) to summarize relational structures among individuals (nodes). Since relational data are often sensitive, we aim to seek effective approaches to generate utility-preserved yet privacy-protected structured data.
-
-In this paper, we leverage the differential privacy (DP) framework to formulate and enforce rigorous privacy constraints on deep graph generation models, with a focus on edge-DP to guarantee individual link privacy.
-
-In particular, we enforce edge-DP by injecting designated noise to the gradients of a link reconstruction based graph generation model, while ensuring data utility by improving structure learning with structure-oriented graph discrimination.
-
-Extensive experiments on two real-world network datasets show that our proposed DPGGAN model is able to generate graphs with effectively preserved global structure and rigorously protected individual link privacy.

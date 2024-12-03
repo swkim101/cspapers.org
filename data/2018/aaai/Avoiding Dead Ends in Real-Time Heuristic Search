@@ -1,4 +1,0 @@
-
- 
- Many systems, such as mobile robots, need to be controlled in real time. Real-time heuristic search is a popular on-line planning paradigm that supports concurrent planning and execution. However,existing methods do not incorporate a notion of safety and we show that they can perform poorly in domains that contain dead-end states from which a goal cannot be reached. We introduce new real-time heuristic search methods that can guarantee safety if the domain obeys certain properties. We test these new methods on two different simulated domains that contain dead ends, one that obeys the properties and one that does not. We find that empirically the new methods provide good performance. We hope this work encourages further efforts to widen the applicability of real-time planning.
- 

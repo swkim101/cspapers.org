@@ -1,7 +1,0 @@
-Transformer-based architectures brought a breeze of change to Word Sense Disambiguation (WSD), improving models' performances by a large margin.
-The fast development of new approaches has been further encouraged by a well-framed evaluation suite for English, which has allowed their performances to be kept track of and compared fairly.
-However, other languages have remained largely unexplored, as testing data are available for a few languages only and the evaluation setting is rather matted.
-In this paper, we untangle this situation by proposing XL-WSD, a cross-lingual evaluation benchmark for the WSD task featuring sense-annotated development and test sets in 18 languages from six different linguistic families, together with language-specific silver training data.
-We leverage XL-WSD datasets to conduct an extensive evaluation of neural and knowledge-based approaches, including the most recent multilingual language models. 
-Results show that the zero-shot knowledge transfer across languages is a promising research direction within the WSD field, especially when considering low-resourced languages where large pre-trained multilingual models still perform poorly. 
-We make the evaluation suite and the code for performing the experiments available at https://sapienzanlp.github.io/xl-wsd/.

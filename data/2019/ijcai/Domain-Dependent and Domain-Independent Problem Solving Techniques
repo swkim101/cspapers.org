@@ -1,6 +1,0 @@
-Heuristic search is a general problem-solving method. Some heuristic search algorithms, like the well-known A* algorithm, are domain-independent, in the sense that their knowledge of the problem at-hand is limited to the (1) initial state, (2) state transition operators and their costs, (3) goal-test function, 
-and (4) black-box heuristic function that estimates the value of a state. 
-Prominent examples are A* and Weighted A*. 
-Other heuristic search algorithms are domain-dependent, that is, customized to solve problems from a specific domain. 
-A well-known example is conflict-directed A*, which is specifically designed to solve model-based diagnosis problems. 
-In this paper, we review our recent advancements in both domain-independent and domain-dependent heuristic search, and outline several challenging open questions.

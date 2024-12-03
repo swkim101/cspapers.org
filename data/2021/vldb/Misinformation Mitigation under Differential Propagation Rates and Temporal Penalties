@@ -1,8 +1,0 @@
-
- We propose an information propagation model that captures important temporal aspects that have been well observed in the dynamics of fake news diffusion, in contrast with the diffusion of truth. The model accounts for differential propagation rates of truth and misinformation and for user reaction times. We study a time-sensitive variant of the
- misinformation mitigation
- problem, where
- k
- seeds are to be selected to activate a truth campaign so as to minimize the number of users that adopt misinformation propagating through a social network. We show that the resulting objective is non-submodular and employ a sandwiching technique by defining submodular upper and lower bounding functions, providing data-dependent guarantees. In order to enable the use of a reverse sampling framework, we introduce a weighted version of reverse reachability sets that captures the associated differential propagation rates and establish a key equivalence between weighted set coverage probabilities and mitigation with respect to the sandwiching functions. Further, we propose an offline reverse sampling framework that provides (1 - 1/
- e
- - ϵ)-approximate solutions to our bounding functions and introduce an importance sampling technique to reduce the sample complexity of our solution. Finally, we show how our framework can provide an anytime solution to the problem. Experiments over five datasets show that our approach outperforms previous approaches and is robust to uncertainty in the model parameters.

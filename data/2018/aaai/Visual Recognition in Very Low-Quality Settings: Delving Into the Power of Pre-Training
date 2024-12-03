@@ -1,4 +1,0 @@
-
- 
- Visual recognition from very low-quality images is an extremely challenging task with great practical values. While deep networks have been extensively applied to low-quality image restoration and high-quality image recognition tasks respectively, few works have been done on the important problem of recognition from very low-quality images.This paper presents a degradation-robust pre-training approach on improving deep learning models towards this direction. Extensive experiments on different datasets validate the effectiveness of our proposed method.
- 

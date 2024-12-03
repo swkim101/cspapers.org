@@ -1,3 +1,0 @@
-We present simple algorithms for batched stochastic multi-armed bandit and batched stochastic linear bandit problems. We prove bounds for their expected regrets that improve and extend the best known regret bounds of Gao, Han, Ren, and Zhou (NeurIPS 2019), for any number of batches.
-In particular, our algorithms in both settings achieve the optimal expected regrets by using only a logarithmic number of batches. 
-We also study the batched adversarial multi-armed bandit problem for the first time and provide the optimal regret, up to logarithmic factors, of any algorithm with predetermined batch sizes.

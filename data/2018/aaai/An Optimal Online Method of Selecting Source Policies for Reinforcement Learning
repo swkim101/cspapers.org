@@ -1,4 +1,0 @@
-
- 
- Transfer learning significantly accelerates the reinforcement learning process by exploiting relevant knowledge from previous experiences. The problem of optimally selecting source policies during the learning process is of great importance yet challenging. There has been little theoretical analysis of this problem. In this paper, we develop an optimal online method to select source policies for reinforcement learning. This method formulates online source policy selection as a multi-armed bandit problem and augments Q-learning with policy reuse. We provide theoretical guarantees of the optimal selection process and convergence to the optimal policy. In addition, we conduct experiments on a grid-based robot navigation domain to demonstrate its efficiency and robustness by comparing to the state-of-the-art transfer learning method.
- 

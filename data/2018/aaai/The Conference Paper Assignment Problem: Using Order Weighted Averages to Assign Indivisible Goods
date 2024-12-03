@@ -1,4 +1,0 @@
-
- 
- We propose a novel mechanism for solving the assignment problem when we have a two sided matching problem with preferences from one side (the agents/reviewers) over the other side (the objects/papers) and both sides have capacity constraints. The assignment problem is a fundamental in both computer science and economics with application in many areas including task and resource allocation. Drawing inspiration from work in multi-criteria decision making and social choice theory we use order weighted averages (OWAs), a parameterized class of mean aggregators, to propose a novel and flexible class of algorithms for the assignment problem. We show an algorithm for finding an SUM-OWA assignment in polynomial time, in contrast to the NP-hardness of finding an egalitarian assignment. We demonstrate through empirical experiments that using SUM-OWA assignments can lead to high quality and more fair assignments.
- 

@@ -1,7 +1,0 @@
-Maximum satisfiability (MaxSat) solving is an active area of research motivated by numerous successful applications to solving
-
-NP-hard combinatorial optimization problems. One of the most successful approaches for solving MaxSat instances from real world domains
-
-are the so called implicit hitting set (IHS) solvers. IHS solvers decouple MaxSat solving into separate core-extraction (i.e. reasoning) and optimization steps which are tackled by a Boolean satisfiability (SAT) and an integer linear programming (IP) solver, respectively. While the approach shows state-of-the-art performance on many industrial instances,
-
-it is known that there exists instances on which IHS solvers need to extract an exponential number of cores before terminating. Motivated by the simplest of these problematic instances, we propose abstract cores, a compact representation for a potentially exponential number of regular cores. We demonstrate how to incorporate abstract core reasoning into the IHS algorithm and report on an empirical evaluation demonstrating, that including abstract cores into a state-of-the-art IHS solver improves its performance enough to surpass the best performing solvers of the 2019 MaxSat Evaluation.

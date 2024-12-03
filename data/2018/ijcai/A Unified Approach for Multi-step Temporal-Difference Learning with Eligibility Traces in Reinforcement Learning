@@ -1,5 +1,0 @@
-Recently, a new multi-step temporal learning algorithm Q(σ) unifies n-step Tree-Backup (when σ = 0) and 
-
-n-step Sarsa (when σ = 1) by introducing a sampling parameter σ. However, similar to other multi-step 
-
-temporal-difference learning algorithms, Q(σ) needs much memory consumption and computation time. Eligibility trace is an important mechanism to transform the off-line updates into efficient on-line ones which consume less memory and computation time. In this paper, we combine the original Q(σ) with eligibility traces and propose a new algorithm, called Qπ(σ,λ), where λ is trace-decay parameter. This new algorithm unifies Sarsa(λ) (when σ = 1) and Qπ (λ) (when σ = 0). Furthermore, we give an upper error bound of Qπ(σ,λ) policy evaluation algorithm. We prove that Qπ (σ, λ) control algorithm converges to the optimal value function exponentially. We also empirically compare it with conventional temporal-difference learning methods. Results show that, with an intermediate value of σ, Qπ(σ,λ) creates a mixture of the existing algorithms which learn the optimal value significantly faster than the extreme end (σ = 0, or 1).

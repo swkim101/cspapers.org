@@ -1,1 +1,0 @@
-We propose a differentiable successive halving method of relaxing the top-k operator, rendering gradient-based optimization possible. The need to perform softmax iteratively on the entire vector of scores is avoided using a tournament-style selection. As a result, a much better approximation of top-k and lower computational cost is achieved compared to the previous approach.

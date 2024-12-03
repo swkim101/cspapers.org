@@ -1,9 +1,0 @@
-Formal verification of neural networks is a challenging problem due to the complexity and nonlinearity of neural networks.
- It has been shown that polynomial zonotopes can tightly enclose the output set of a neural network.
- Unfortunately, the tight enclosure comes with additional complexity in the set representation,
- thus, rendering subsequent operations expensive to compute, such as computing interval bounds and intersection checking.
- To address this issue, we present a novel approach to restructure a polynomial zonotope to tightly enclose the original polynomial zonotope
- while drastically reducing its complexity.
- The restructuring is achieved by relaxing the exponents of the dependent factors of polynomial zonotopes and finding an appropriate approximation error.
- We demonstrate the applicability of our approach on output sets of neural networks,
- where we obtain tighter results in various subsequent operations, such as order reduction, zonotope enclosure, and range bounding.

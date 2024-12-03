@@ -1,1 +1,0 @@
-Network Demultiplexer (Net-Demux) is an essential hardware unit in multiple NoCs for traffic distribution between the NoC networks. This paper proposes a novel idea of the placement of Net-Demux at the control plane of switch allocator of the router to improve static power and energy efficiency as compared to conventional data plane placement at the Network Interface (NI).

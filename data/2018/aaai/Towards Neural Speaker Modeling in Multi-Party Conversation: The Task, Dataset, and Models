@@ -1,4 +1,0 @@
-
- 
- In this paper, we address the problem of speaker classification in multi-party conversation, and collect massive data to facilitate research in this direction. We further investigate temporal-based and content-based models of speakers, and propose several hybrids of them. Experiments show that speaker classification is feasible, and that hybrid models outperform each single component.
- 

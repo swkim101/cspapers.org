@@ -1,2 +1,0 @@
-We hypothesize that deep network classifications of complex scenes can be explained using sets of relevant objects.
-We employ beam search and singular value decomposition to generate local and global explanations that summarize the deep model's interpretation of a class.

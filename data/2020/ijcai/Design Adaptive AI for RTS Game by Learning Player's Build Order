@@ -1,3 +1,0 @@
-Digital games have proven to be valuable simulation environments for plan and goal recognition. Though, goal recognition is a hard problem, especially in the field of digital games where players unintentionally achieve goals through exploratory actions, abandon goals with little warning, or adopt new goals based upon recent or prior events.
-
-In this paper, a method using simulation and bayesian programming to infer the player's strategy in a Real-Time-Strategy game (RTS) is described, as well as how we could use it to make more adaptive AI for this kind of game and thus make more challenging and entertaining games for the players.

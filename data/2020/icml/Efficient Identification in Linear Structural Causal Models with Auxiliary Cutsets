@@ -1,1 +1,0 @@
-We develop a a new polynomial-time algorithm for identiﬁcation of structural coefﬁcients in linear causal models that subsumes previous state-of-the-art methods, unifying several disparate approaches to identiﬁcation in this setting. Building on these results, we develop a procedure for identifying total causal effects in linear systems.

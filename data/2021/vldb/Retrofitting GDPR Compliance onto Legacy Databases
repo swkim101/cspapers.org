@@ -1,7 +1,0 @@
-
- New privacy laws like the European Union's General Data Protection Regulation (GDPR) require database administrators (DBAs) to identify all information related to an individual on request,
- e.g.
- , to return or delete it. This requires time-consuming manual labor today, particularly for legacy schemas and applications.
- 
- In this paper, we investigate what it takes to provide mostly-automated tools that assist DBAs in GDPR-compliant data extraction for legacy databases. We find that a combination of techniques is needed to realize a tool that works for the databases of real-world applications, such as web applications, which may violate strict normal forms or encode data relationships in bespoke ways. Our tool, GDPRizer, relies on foreign keys, query logs that identify implied relationships, data-driven methods, and coarse-grained annotations provided by the DBA to extract an individual's data.
- In a case study with three popular web applications, GDPRizer achieves 100% precision and 96--100% recall. GDPRizer saves work compared to hand-written queries, and while manual verification of its outputs is required, GDPRizer simplifies privacy compliance.

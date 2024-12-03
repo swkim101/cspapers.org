@@ -1,1 +1,0 @@
-The design of algorithms for political redistricting generally takes one of two approaches: optimize an objective such as compactness or, drawing on fair division, construct a protocol whose outcomes guarantee partisan fairness. We aim for the best of both worlds by optimizing an objective subject to a binary fairness constraint.

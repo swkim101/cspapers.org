@@ -1,1 +1,0 @@
-We propose a logic of directions for points (LD) over 2D Euclidean space, which formalises primary direction relations east (E), west (W), and indeterminate east/west (Iew), north (N), south (S) and indeterminate north/south (Ins). We provide a sound and complete axiomatisation of it, and prove that its satisfiability problem is NP-complete.

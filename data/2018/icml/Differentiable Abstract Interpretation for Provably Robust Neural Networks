@@ -1,1 +1,0 @@
-We introduce a scalable method for training robust neural networks based on abstract interpretation. We present several abstract transformers which balance efﬁciency with precision and show these can be used to train large neural networks that are certiﬁably robust to adversarial perturbations.

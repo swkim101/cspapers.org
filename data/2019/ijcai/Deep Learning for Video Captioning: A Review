@@ -1,6 +1,0 @@
-Deep learning has achieved great successes in solving specific artificial intelligence problems recently.
-Substantial progresses are made on Computer Vision (CV) and Natural Language Processing (NLP).
-As a connection between the two worlds of vision and language, video captioning is the task of producing a natural-language utterance (usually a sentence) that describes the visual content of a video. The task is naturally decomposed into two sub-tasks. 
-One is to encode a video via a thorough understanding and learn visual representation. The other is caption generation, which decodes the learned representation into a sequential sentence, word by word.
-In this survey, we first formulate the problem of video captioning, then review state-of-the-art methods categorized by their emphasis on vision or language, and followed by a summary of standard datasets and representative approaches.
-Finally, we highlight the challenges which are not yet fully understood in this task and present future research directions.

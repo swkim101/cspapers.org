@@ -1,5 +1,0 @@
-Recent research has shown a growing interest in per-instance differential privacy (pDP), highlighting the fact that each data instance within a dataset may incur distinct levels of privacy loss.
-However, conventional additive noise mechanisms apply identical noise to all query outputs, thereby deteriorating data statistics.
-In this study, we propose an instance-wise Laplace mechanism, which adds non-identical Laplace noises to the query output for each data instance.
-A challenge arises from the complex interaction of additive noise, where the noise introduced to individual instances impacts the pDP of other instances, adding complexity and resilience to straightforward solutions.
-To tackle this problem, we introduce an instance-wise Laplace mechanism algorithm via deep reinforcement learning and validate its ability to better preserve data statistics on a real dataset, compared to the original Laplace mechanism.

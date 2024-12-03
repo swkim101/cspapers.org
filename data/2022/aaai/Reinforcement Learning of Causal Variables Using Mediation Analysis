@@ -1,6 +1,0 @@
-We consider the problem of acquiring causal representations and concepts in a reinforcement learning setting. 
- Our approach defines a causal variable as being both manipulable by a policy, and able to predict the outcome. 
- We thereby obtain a parsimonious causal graph in which interventions occur at the level of policies.
- The approach avoids defining a generative model of the data, prior pre-processing, or learning the transition kernel of the Markov decision process. 
- Instead, causal variables and policies are determined by maximizing a new optimization target inspired by mediation analysis, which differs from the expected return. 
- The maximization is accomplished using a generalization of Bellman's equation which is shown to converge, and the method finds meaningful causal representations in a simulated environment.

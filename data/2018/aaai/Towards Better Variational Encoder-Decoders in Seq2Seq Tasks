@@ -1,4 +1,0 @@
-
- 
- Variational encoder-decoders have shown promising results in seq2seq tasks. However, the training process is known difficult to be controlled because latent variables tend to be ignored while decoding. In this paper, we thoroughly analyze the reason behind this training difficulty, compare different ways of alleviating it and propose a new framework that helps significantly improve the overall performance.
- 

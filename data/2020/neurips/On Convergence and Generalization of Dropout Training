@@ -1,1 +1,0 @@
-We study dropout in two-layer neural networks with rectified linear unit (ReLU) activations. Under mild overparametrization and assuming that the limiting kernel can separate the data distribution with a positive margin, we show that dropout training with logistic loss achieves $\epsilon$-suboptimality in test error in $O(1/\epsilon)$ iterations.

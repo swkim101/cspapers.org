@@ -1,4 +1,0 @@
-
- 
- In the context of SAT solvers, Shatter is a popular tool for symmetry breaking on CNF formulas. Nevertheless, little has been said about its use in the context of AllSAT problems. AllSAT has gained much popularity in recent years due to its many applications in domains like model checking, data mining, etc. One example of a particularly transparent application of AllSAT to other fields of computer science is computational Ramsey theory. In this paper we study the effect of incorporating Shatter to the workflow of using Boolean formulas to generate all possible edge colorings of a graph avoiding prescribed monochromatic subgraphs. We identify two drawbacks in the naïve use of Shatter to break the symmetries of Boolean formulas encoding Ramsey-type problems for graphs.
- 

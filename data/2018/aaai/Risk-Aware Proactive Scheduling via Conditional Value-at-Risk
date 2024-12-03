@@ -1,4 +1,0 @@
-
- 
- In this paper, we consider the challenging problem of riskaware proactive scheduling with the objective of minimizing robust makespan. State-of-the-art approaches based on probabilistic constrained optimization lead to Mixed Integer Linear Programs that must be heuristically approximated. We optimize the robust makespan via a coherent risk measure, Conditional Value-at-Risk (CVaR). Since traditional CVaR optimization approaches assuming linear spaces does not suit our problem, we propose a general branch-and-bound framework for combinatorial CVaR minimization. We then design an approximate complete algorithm, and employ resource reasoning to enable constraint propagation for multiple samples. Empirical results show that our algorithm outperforms state-of-the-art approaches with higher solution quality.
- 

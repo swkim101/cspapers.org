@@ -1,5 +1,0 @@
-Rendering of complex scenes from software such as Blender is time consuming, but corresponding auxiliary data such as depth or object segmentation maps are relatively fast to generate. The auxiliary data also provides a wealth of information for tasks such as optical flow prediction.
-
-In this paper we present the QuickRender dataset, a collection of procedurally generated scenes rendered into over 5,000 sequential image triplets along with accompanying auxiliary data. The goal of this dataset is to provide a diversity of scenes and motion while maintaining realistic behaviours. A sample application using this dataset to perform single image super resolution is also presented.
-
-The dataset and related source code can be found at https://github.com/MP-mtroyal/MetaSRGAN.

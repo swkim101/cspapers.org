@@ -1,8 +1,0 @@
-
- Distributed data management systems use state Machine Replication (SMR) to provide fault tolerance. The SMR algorithm enables Byzantine Fault-Tolerant (BFT) protocols to guarantee safety and liveness despite the malicious failure of nodes. However, SMR does not prevent the adversarial manipulation of the order of transactions, where the order assigned by a malicious leader differs from the order in that transactions are received from clients. While
- order-fairness
- has been recently studied in a few protocols, such protocols rely on synchronized clocks, suffer from liveness issues, or incur significant performance overhead. This paper presents
- Rashnu
- , a high-performance fair ordering protocol. Rashnu is motivated by the fact that fair ordering among two transactions is needed only when both transactions access a shared resource. Based on this observation, we define the notion of
- data-dependent order fairness
- where replicas capture only the order of data-dependent transactions and the leader uses these orders to propose a dependency graph that represents fair ordering among transactions. Replicas then execute transactions using the dependency graph, resulting in the parallel execution of independent transactions. We implemented a prototype of Rashnu where our experimental evaluation reveals the low overhead of providing order-fairness in Rashnu.

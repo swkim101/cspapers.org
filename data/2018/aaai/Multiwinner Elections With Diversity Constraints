@@ -1,4 +1,0 @@
-
- 
- We develop a model of multiwinner elections that combines performance-based measures of the quality of the committee (such as, e.g., Borda scores of the committee members) with diversity constraints. Specifically, we assume that the candidates have certain attributes (such as being a male or a female, being junior or senior, etc.) and the goal is to elect a committee that, on the one hand, has as high a score regarding a given performance measure, but that, on the other hand, meets certain requirements (e.g., of the form "at least 30% of the committee members are junior candidates and at least 40% are females"). We analyze the computational complexity of computing winning committees in this model, obtaining polynomial-time algorithms (exact and approximate) and NP-hardness results. We focus on several natural classes of voting rules and diversity constraints.
- 

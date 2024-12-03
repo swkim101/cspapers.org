@@ -1,5 +1,0 @@
-Sum-Product Networks (SPNs) are expressive probabilistic models that provide exact, tractable inference. They achieve this efficiency by making use of local independence. 
-
-On the other hand, mixtures of exchangeable variable models (MEVMs) are a class of tractable probabilistic models that make use of exchangeability of discrete random variables to render inference tractable. Exchangeability, which arises naturally in relational domains, has not been considered for efficient representation and inference in SPNs yet.
-
-The contribution of this paper is a novel probabilistic model which we call Exchangeability-Aware Sum-Product Networks (XSPNs). It contains both SPNs and MEVMs as special cases, and combines the ability of SPNs to efficiently learn deep probabilistic models with the ability of MEVMs to efficiently handle exchangeable random variables. We introduce a structure learning algorithm for XSPNs and empirically show that they can be more accurate than conventional SPNs when the data contains repeated, interchangeable parts.

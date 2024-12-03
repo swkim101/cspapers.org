@@ -1,8 +1,0 @@
-
- We study federated unlearning, a novel problem to eliminate the impact of specific clients or data points on the global model learned via federated learning (FL). This problem is driven by the right to be forgotten and the privacy challenges in FL. We introduce a new framework for exact federated unlearning that meets two essential criteria:
- communication efficiency
- and
- exact unlearning provability.
- To our knowledge, this is the first work to tackle both aspects coherently. We start by giving a rigorous definition of
- exact
- federated unlearning, which guarantees that the unlearned model is statistically indistinguishable from the one trained without the deleted data. We then pinpoint the key property that enables fast exact federated unlearning: total variation (TV) stability, which measures the sensitivity of the model parameters to slight changes in the dataset. Leveraging this insight, we develop a TV-stable FL algorithm called FATS, which modifies the classical FedAvg algorithm for TV Stability and employs local SGD with periodic averaging to lower the communication round. We also design efficient unlearning algorithms for FATS under two settings: client-level and sample-level unlearning. We provide theoretical guarantees for our learning and unlearning algorithms, proving that they achieve exact federated unlearning with reasonable convergence rates for both the original and unlearned models. We empirically validate our framework on 6 benchmark datasets, and show its superiority over state-of-the-art methods in terms of accuracy, communication cost, computation cost, and unlearning efficacy.

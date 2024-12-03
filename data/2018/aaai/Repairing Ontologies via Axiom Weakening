@@ -1,4 +1,0 @@
-
- 
- Ontology engineering is a hard and error-prone task, in which small changes may lead to errors, or even produce an inconsistent ontology. As ontologies grow in size, the need for automated methods for repairing inconsistencies while preserving as much of the original knowledge as possible increases. Most previous approaches to this task are based on removing a few axioms from the ontology to regain consistency. We propose a new method based on weakening these axioms to make them less restrictive, employing the use of refinement operators. We introduce the theoretical framework for weakening DL ontologies, propose algorithms to repair ontologies based on the framework, and provide an analysis of the computational complexity. Through an empirical analysis made over real-life ontologies, we show that our approach preserves significantly more of the original knowledge of the ontology than removing axioms.
- 

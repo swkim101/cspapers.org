@@ -1,5 +1,0 @@
-We study the problem of finding low-cost Fair Clusterings in data where each data point may belong to many protected groups. Our work significantly generalizes the seminal work of Chierichetti this http URL. (NIPS 2017) as follows. 
-- We allow the user to specify the parameters that define fair representation. More precisely, these parameters define the maximum over- and minimum under-representation of any group in any cluster. 
-- Our clustering algorithm works on any $\ell_p$-norm objective (e.g. $k$-means, $k$-median, and $k$-center). Indeed, our algorithm transforms any vanilla clustering solution into a fair one incurring only a slight loss in quality. 
-- Our algorithm also allows individuals to lie in multiple protected groups. In other words, we do not need the protected groups to partition the data and we can maintain fairness across different groups simultaneously. 
-Our experiments show that on established data sets, our algorithm performs much better in practice than what our theoretical results suggest.

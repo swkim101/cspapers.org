@@ -1,5 +1,0 @@
-Deep Neural Networks (DNNs) are popular machine learning models which have found successful application in many different domains across computer science.
-
-Nevertheless, providing formal guarantees on the behaviour of neural networks is hard and therefore their reliability in safety-critical domains is still a concern.
-
-Verification and repair emerged as promising solutions to address this issue. In the following, I will present some of my recent efforts in this area.

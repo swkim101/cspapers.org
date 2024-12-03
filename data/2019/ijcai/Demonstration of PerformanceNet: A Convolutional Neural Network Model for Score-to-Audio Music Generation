@@ -1,9 +1,0 @@
-We present in this paper PerformacnceNet, a neural network model we proposed recently to achieve
-score-to-audio music generation. The model learns
-to convert a music piece from the symbolic domain
-to the audio domain, assigning performance-level
-attributes such as changes in velocity automatically
-to the music and then synthesizing the audio. The
-model is therefore not just a neural audio synthesizer, but an AI performer that learns to interpret a
-musical score in its own way. The code and sample outputs of the model can be found online at
-https://github.com/bwang514/PerformanceNet.

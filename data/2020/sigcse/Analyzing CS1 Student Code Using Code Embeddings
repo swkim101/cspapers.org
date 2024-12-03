@@ -1,1 +1,0 @@
-We present a machine learning model to obtain vector representations of student code submissions for a CS1 programming problem. These vectorembeddings can be used to compare code, cluster code submissions, and identify errors. We hope to use these embeddings to identify conceptual misunderstandings in student code.

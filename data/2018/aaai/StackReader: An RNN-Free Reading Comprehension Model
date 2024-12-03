@@ -1,4 +1,0 @@
-
- 
- Machine comprehension of text is the problem to answer a query based on a given context. Many existing systems use RNN-based units for contextual modeling linked with some attention mechanisms. In this paper, however, we propose StackReader, an end-to-end neural network model, to solve this problem, without recurrent neural network (RNN) units and its variants. This simple model is based solely on attention mechanism and gated convolutional neural network. Experiments on SQuAD have shown to have relatively high accuracy with a significant decrease in training time.
- 

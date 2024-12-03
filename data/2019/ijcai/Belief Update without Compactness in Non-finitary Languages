@@ -1,3 +1,0 @@
-The main paradigms of belief change require the background logic to be Tarskian and finitary. 
-We look at belief update when the underlying logic is not necessarily finitary. 
-We show that in this case the classical construction for KM update does not capture all the rationality postulates for KM belief update. Indeed, this construction, being fully characterised by a subset of the KM update postulates, is weaker. We explore the reason behind this, and subsequently provide an alternative constructive accounts of belief update which is characterised by the full set of KM postulates in this more general framework.

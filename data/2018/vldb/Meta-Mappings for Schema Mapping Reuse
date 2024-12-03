@@ -1,6 +1,0 @@
-
- The definition of mappings between heterogeneous schemas is a critical activity of any database application. Existing tools provide high level interfaces for the discovery of correspondences between elements of schemas, but schema mappings need to be manually specified every time from scratch, even if the scenario at hand is similar to one that has already been addressed. The problem is that schema mappings are precisely defined over a pair of schemas and cannot directly be reused on different scenarios. We tackle this challenge by generalizing schema mappings as
- meta-mappings:
- formalisms that describe transformations between generic data structures called
- meta-schemas.
- We formally characterize schema mapping reuse and explain how meta-mappings are able to: (i) capture enterprise knowledge from previously defined schema mappings and (ii) use this knowledge to suggest new mappings. We develop techniques to infer meta-mappings from existing mappings, to organize them into a searchable repository, and to leverage the repository to propose to users mappings suitable for their needs. We study effectiveness and efficiency in an extensive evaluation over real-world scenarios and show that our system can infer, store, and search millions of meta-mappings in seconds.

@@ -1,1 +1,0 @@
-In this work, we study a dynamic multi-armed bandit (MAB) problem, where the expected reward of each arm evolves over time following an auto-regressive model. We present an algorithm whose per-round regret upper bound almost matches the regret lower bound, and numerically demonstrate its efficacy in adapting to the changing environment.

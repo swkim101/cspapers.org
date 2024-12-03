@@ -1,5 +1,0 @@
-Recent techniques for analyzing sports precisely has stimulated various approaches to improve player performance and fan engagement.
-However, existing approaches are only able to evaluate offline performance since testing in real-time matches requires exhaustive costs and cannot be replicated.
-To test in a safe and reproducible simulator, we focus on turn-based sports and introduce a badminton environment by simulating rallies with different angles of view and designing the states, actions, and training procedures.
-This benefits not only coaches and players by simulating past matches for tactic investigation, but also researchers from rapidly evaluating their novel algorithms.
-Our code is available at https://github.com/wywyWang/CoachAI-Projects/tree/main/Strategic%20Environment.

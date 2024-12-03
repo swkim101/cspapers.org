@@ -1,1 +1,0 @@
-In this paper, we look back at the evolution of Yahoo!’s geo-replicated cloud data store from a research project called PNUTS to a globally deployed production system called Sherpa, share some of the lessons learned along the way, and finally, compare PNUTS with current operational cloud stores.

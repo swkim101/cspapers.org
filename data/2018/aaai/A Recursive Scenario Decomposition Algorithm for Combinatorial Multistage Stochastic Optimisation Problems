@@ -1,4 +1,0 @@
-
- 
- Stochastic programming is concerned with decision making under uncertainty, seeking an optimal policy with respect to a set of possible future scenarios. This paper looks at multistage decision problems where the uncertainty is revealed over time. First, decisions are made with respect to all possible future scenarios. Secondly, after observing the random variables, a set of scenario specific decisions is taken. Our goal is to develop algorithms that can be used as a back-end solver for high-level modeling languages. In this paper we propose a scenario decomposition method to solve multistage stochastic combinatorial decision problems recursively. Our approach is applicable to general problem structures, utilizes standard solving technology and is highly parallelizable. We provide experimental results to show how it efficiently solves benchmarks with hundreds of scenarios.
- 

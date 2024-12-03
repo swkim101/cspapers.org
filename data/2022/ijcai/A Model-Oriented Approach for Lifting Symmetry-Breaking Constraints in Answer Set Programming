@@ -1,3 +1,0 @@
-Writing correct models for combinatorial problems is relatively straightforward; however, they must be efficient to be usable with instances producing many solution candidates. 
-
-In this work, we aim to automatically generalise the discarding of symmetric solutions of Answer Set Programming instances, improving the efficiency of the programs with first-order constraints derived from propositional symmetry-breaking constraints.

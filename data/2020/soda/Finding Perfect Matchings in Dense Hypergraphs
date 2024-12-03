@@ -1,1 +1,0 @@
-We show that for any integers k ≥ 3 and c ≥ 0 there is a polynomial-time algorithm, that given any n -vertex k -uniform hypergraph H with minimum codegree at least n / k − c , ﬁnds either a perfect matching in H or a certiﬁcate that no perfect matching exists.

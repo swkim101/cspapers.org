@@ -1,8 +1,0 @@
-Affinity Propagation (AP) is a fundamental algorithm to identify clusters included in data objects.
-Given a similarities among objects, it iteratively performs message updates between all data object pairs until convergence.
-Although AP yields a higher clustering quality compared with other methods, it is computationally expensive.
-Hence, it has difficulty handling massive datasets that include numerous data objects.
-This is because the message updates require a quadratic cost of the number of data objects.
-Here, we propose a novel fast algorithm, ScaleAP, which outputs the same clusters as AP but within a shorter computation time.
-ScaleAP dynamically excludes unnecessary message updates without sacrificing its clustering accuracy.
-Our extensive evaluations demonstrate that ScaleAP outperforms existing AP algorithms in terms of running time by up to two orders of magnitude.

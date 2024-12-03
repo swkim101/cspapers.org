@@ -1,1 +1,0 @@
-This extended abstract discusses our first attempt in revealing the deployment and usage of Segment Routing with MPLS as forwarding plane (Sr-Mpls), in a large European ISP. To do so, we study a longitudinal traceroute like dataset. Early results show that Sr-Mpls is mainly used in interworking with classic MPLS tunnels.

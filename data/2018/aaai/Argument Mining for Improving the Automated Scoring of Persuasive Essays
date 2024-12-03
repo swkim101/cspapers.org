@@ -1,4 +1,0 @@
-
- 
- End-to-end argument mining has enabled the development of new automated essay scoring (AES) systems that use argumentative features (e.g., number of claims, number of support relations) in addition to traditional legacy features (e.g., grammar, discourse structure) when scoring persuasive essays. While prior research has proposed different argumentative features as well as empirically demonstrated their utility for AES, these studies have all had important limitations. In this paper we identify a set of desiderata for evaluating the use of argument mining for AES, introduce an end-to-end argument mining system and associated argumentative feature sets, and present the results of several studies that both satisfy the desiderata and demonstrate the value-added of argument mining for scoring persuasive essays.
- 

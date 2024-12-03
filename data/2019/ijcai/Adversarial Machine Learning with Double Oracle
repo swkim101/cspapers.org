@@ -1,1 +1,0 @@
-We aim to improve the general adversarial machine learning solution by introducing the double oracle idea from game theory, which is commonly used to solve a sequential zero-sum game, where the adversarial machine learning problem can be formulated as a zero-sum minimax problem between learner and attacker.

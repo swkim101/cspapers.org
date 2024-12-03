@@ -1,1 +1,0 @@
-We study oblivious random access machine (ORAM) simulation, in cloud computing environments where a thin client outsources her data to a server using O(1)-sized messages.

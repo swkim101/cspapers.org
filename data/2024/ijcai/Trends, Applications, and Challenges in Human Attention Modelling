@@ -1,3 +1,0 @@
-Human attention modelling has proven, in recent years, to be particularly useful not only for understanding the cognitive processes underlying visual exploration, but also for providing support to artificial intelligence models that aim to solve problems in various domains, including image and video processing, vision-and-language applications, and language modelling. This survey offers a reasoned overview of recent efforts to integrate human attention mechanisms into contemporary deep learning models and discusses future research directions and challenges.
-
-For a comprehensive overview of the ongoing research, refer to our dedicated repository available at https://github.com/aimagelab/awesome-human-visual-attention.

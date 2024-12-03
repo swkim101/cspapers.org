@@ -1,6 +1,0 @@
-
- Users have the right to consent to the use of their data, but current methods are limited to very coarse-grained expressions of consent, as "opt-in/opt-out" choices for certain uses. In this paper we identify the need for fine-grained consent management and formalize how to express and manage user consent and personal contracts of data usage in relational databases. Unlike privacy approaches, our focus is not on preserving confidentiality against an adversary, but rather cooperate with a
- trusted
- service provider to abide by user preferences in an algorithmic way. Our approach enables data owners to express the intended data usage in formal specifications, that we call
- consent constraints
- , and enables a service provider that wants to honor these constraints, to automatically do so by filtering query results that violate consent; rather than both sides relying on "terms of use" agreements written in natural language. We provide formal foundations (based on provenance), algorithms (based on unification and query rewriting), connections to data privacy, and complexity results for supporting consent in databases. We implement our framework in an open source RDBMS, and provide an evaluation against the most relevant privacy approach using the TPC-H benchmark, and on a real dataset of ICU data.

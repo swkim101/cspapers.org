@@ -1,4 +1,0 @@
-
- 
- We study multi-turn response generation in chatbots where a response is generated according to a conversation context.   Existing work has modeled the hierarchy of the context, but does not pay enough attention to the fact that words and utterances in the context are differentially important. As a result, they may lose important information in context and generate irrelevant responses. We propose a hierarchical recurrent attention network (HRAN) to model both the hierarchy and the importance variance in a unified framework. In HRAN, a hierarchical attention mechanism attends to important parts within and among utterances with word level attention and utterance level attention respectively.
- 

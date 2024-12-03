@@ -1,6 +1,0 @@
-
- 
- 
-Quantified Boolean logic results from adding operators to Boolean logic for existentially and universally quantifying variables. This extends the reach of Boolean logic by enabling a variety of applications that have been explored over the decades. The existential quantification of literals (variable states) and its applications have also been studied in the literature. In this paper, we complement this by introducing and studying universal literal quantification and its applications, particularly to explainable AI. We also provide a novel semantics for quantification, discuss the interplay between variable/literal and existential/universal quantification, and identify some classes of Boolean formulas and circuits on which quantification can be done efficiently. Literal quantification is more fine-grained than variable quantification as the latter can be defined in terms of the former, leading to a refinement of quantified Boolean logic with literal quantification as its primitive. 
- 
- 

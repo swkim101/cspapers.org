@@ -1,1 +1,0 @@
-In this paper, we study the collaborative learning model, which concerns the tradeoff between parallelism and communication overhead in multi-agent multi-armed bandits. For regret minimization in multi-armed bandits, we present the first set of tradeoffs between the number of rounds of communication between the agents and the regret of the collaborative learning process.

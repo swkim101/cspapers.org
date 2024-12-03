@@ -1,4 +1,0 @@
-
- 
- We address the issue of quantitatively assessing the severity of inconsistencies in nonmonotonic frameworks. While measuring inconsistency in classical logics has been investigated for some time now, taking the nonmonotonicity into account poses new challenges. In order to tackle them, we focus on the structure of minimal strongly kb-inconsistent subsets of a knowledge base kb---a generalization of minimal inconsistency to arbitrary, possibly nonmonotonic, frameworks. We propose measures based on this notion and investigate their behavior in a nonmonotonic setting by revisiting existing rationality postulates, analyzing the compliance of the proposed measures with these postulates, and by investigating their computational complexity.
- 

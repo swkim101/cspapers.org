@@ -1,9 +1,0 @@
-Autonomous intersection management has the potential to reduce road traffic congestion and energy consumption. To realize this potential, efficient algorithms are needed. 
-
-However, most existing studies locally optimize one intersection at a time, and this can cause negative externalities on the traffic network as a whole.
-
-Here, we focus on coordinating multiple intersections,
-
-and formulate the problem as a distributed constraint optimisation problem (DCOP). We consider three utility design approaches that trade off efficiency and fairness.
-
-Our polynomial-time algorithm for coordinating multiple intersections reduces the traffic delay by about 41 percentage points compared to independent single intersection management approaches.

@@ -1,4 +1,0 @@
-
- 
- Despite the vast amount of research related to Chinese typo detection, we still lack a publicly available benchmark dataset for evaluation. Furthermore, no precise evaluation schema for Chinese typo detection has been defined. In response to these problems: (1) we release a benchmark dataset to assist research on Chinese typo correction; (2) we present an evaluation schema which was adopted in our NLPTEA 2017 Shared Task on Chinese Spelling Check; and (3) we report new improvements to our Chinese typo detection system ACT.
- 

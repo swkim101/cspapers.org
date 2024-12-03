@@ -1,1 +1,0 @@
-Centralized systems in the Internet of Things---be it local middleware or cloud-based services---fail to fundamentally address privacy of the collected data. We propose an architecture featuring secure multiparty computation at its core in order to realize data processing systems which already incorporate support for privacy protection in the architecture.

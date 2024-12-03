@@ -1,1 +1,0 @@
-In this paper, we propose a new feature extraction method called hvnLBP-TOP for video-based sentiment analysis. Furthermore, we use principal component analysis (PCA) and bidirectional long short term memory (bi-LSTM) for dimensionality reduction and classification. We achieved an average recognition accuracy of 71.1% on the MOUD dataset and 63.9% on the CMU-MOSI dataset.

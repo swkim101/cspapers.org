@@ -1,4 +1,0 @@
-
- 
- This work performs verb sense induction and clustering based on observed syntactic distributions in a large corpus. VerbNet is a hierarchical clustering of verbs and a useful semantic resource. We address the main drawbacks of VerbNet, by proposing a Bayesian model to build VerbNet-like clusters automatically and with full coverage. Relative to the prior state of the art, we improve accuracy on verb sense induction by over 20% absolute F1. We then propose a new model, inspired by the positive pointwise mutual information (PPMI). Our PPMI-based mixture model permits an extremely efficient sampler, while improving performance. Our best model shows a 4.5% absolute F1 improvement over the best non-PPMI model, with over an order of magnitude less computation time. Though this model is inspired by clustering verb senses, it may be applicable in other situations where multiple items are being sampled as a group.
- 

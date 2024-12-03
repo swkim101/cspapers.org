@@ -1,4 +1,0 @@
-
- 
- Given a pre-trained CNN without any testing samples, this paper proposes a simple yet effective method to diagnose feature representations of the CNN. We aim to discover representation flaws caused by potential dataset bias. More specifically, when the CNN is trained to estimate image attributes, we mine latent relationships between representations of different attributes inside the CNN. Then, we compare the mined attribute relationships with ground-truth attribute relationships to discover the CNN's blind spots and failure modes due to dataset bias. In fact, representation flaws caused by dataset bias cannot be examined by conventional evaluation strategies based on testing images, because testing images may also have a similar bias. Experiments have demonstrated the effectiveness of our method.
- 

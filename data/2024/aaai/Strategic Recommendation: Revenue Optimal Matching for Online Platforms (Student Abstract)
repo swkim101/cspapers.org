@@ -1,3 +1,0 @@
-We consider a platform in a two-sided market with unit-supply sellers and unit-demand buyers. Each buyer can transact with a subset of sellers it knows off platform and another seller that the platform recommends. Given the choice of sellers, transactions and prices form a competitive equilibrium. The platform selects one seller for each buyer, and charges a fixed percentage of prices to all transactions that it recommends. The platform seeks to maximize total revenue.
-
-We show that the platform's problem is NP-hard, even when each buyer knows at most two buyers off platform. Finally, when each buyer values all sellers equally and knows only one buyer off platform, we provide a polynomial time algorithm that optimally solves the problem.

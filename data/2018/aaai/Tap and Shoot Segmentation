@@ -1,4 +1,0 @@
-
- 
- We present a new segmentation method that leverages latent photographic information available at the moment of taking pictures. Photography on a portable device is often done by tapping to focus before shooting the picture. This tap-and-shoot interaction for photography not only specifies the region of interest but also yields useful focus/defocus cues for image segmentation. However, most of the previous interactive segmentation methods address the problem of image segmentation in a post-processing scenario without considering the action of taking pictures. We propose a learning-based approach to this new tap-and-shoot scenario of interactive segmentation. The experimental results on various datasets show that, by training a deep convolutional network to integrate the selection and focus/defocus cues, our method can achieve higher segmentation accuracy in comparison with existing interactive segmentation methods.
- 

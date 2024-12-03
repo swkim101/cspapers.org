@@ -1,5 +1,0 @@
-This work presents Z-Mask, an effective and deterministic strategy to improve the adversarial robustness of convolutional networks against physically-realizable adversarial attacks.
-The presented defense relies on specific Z-score analysis performed on the internal network features to detect and mask the pixels corresponding to adversarial objects in the input image. To this end, spatially contiguous activations are examined in shallow and deep layers to suggest potential adversarial regions. Such proposals are then aggregated through a multi-thresholding mechanism.
-The effectiveness of Z-Mask is evaluated with an extensive set of experiments carried out on models for semantic segmentation and object detection. The evaluation is performed with both digital patches added to the input images and printed patches in the real world.
-The results confirm that Z-Mask outperforms the state-of-the-art methods in terms of detection accuracy and overall performance of the networks under attack.
-Furthermore, Z-Mask preserves its robustness against defense-aware attacks, making it suitable for safe and secure AI applications.

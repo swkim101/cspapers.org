@@ -1,6 +1,0 @@
-
- Deep learning accelerators efficiently train over vast and growing amounts of data, placing a newfound burden on commodity networks and storage devices. A common approach to conserve bandwidth involves resizing or compressing data prior to training. We introduce
- Progressive Compressed Records
- (PCRs), a data format that uses compression to reduce the overhead of fetching and transporting data, effectively reducing the training time required to achieve a target accuracy. PCRs deviate from previous storage formats by combining progressive compression with an efficient storage layout to view a single dataset at multiple fidelities---all without adding to the total dataset size. We implement PCRs and evaluate them on a range of datasets, training tasks, and hardware architectures. Our work shows that: (i) the amount of compression a dataset can tolerate exceeds 50% of the original encoding for many DL training tasks; (ii) it is possible to automatically and efficiently select appropriate compression levels for a given task; and (iii) PCRs enable tasks to readily access compressed data at runtime---
- utilizing as little as half the training bandwidth
- and thus potentially doubling training speed.

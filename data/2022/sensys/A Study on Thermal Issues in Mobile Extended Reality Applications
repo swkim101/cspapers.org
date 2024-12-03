@@ -1,1 +1,0 @@
-In this work, we show the severity of the thermal issue in mobile Extended Reality (XR) applications. We implement three XR applications and run the applications on a mobile device. We compare the device temperature running benchmark and XR applications. We find that long-term multi-DNN inference execution is the main cause of the thermal issue.

@@ -1,4 +1,0 @@
-
- 
- We describe an intelligent context-aware conversational system that incorporates screen context information to service multimodal user requests. Screen content is used for disambiguation of utterances that refer to screen objects and for enabling the user to act upon screen objects using voice commands. We propose a deep learning architecture that jointly models the user utterance and the screen and incorporates detailed screen content features. Our model is trained to optimize end to end semantic accuracy across contextual and non-contextual functionality, therefore learns the desired behavior directly from the data. We show that this approach outperforms a rule-based alternative, and can be extended in a straightforward manner to new contextual use cases. We perform detailed evaluation of contextual and non-contextual use cases and show that our system displays accurate contextual behavior without degrading the performance of non-contextual user requests.
- 

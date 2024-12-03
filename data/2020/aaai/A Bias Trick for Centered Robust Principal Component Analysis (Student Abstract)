@@ -1,1 +1,0 @@
-Outlier based Robust Principal Component Analysis (RPCA) requires centering of the non-outliers. We show a “bias trick” that automatically centers these non-outliers. Using this bias trick we obtain the first RPCA algorithm that is optimal with respect to centering.

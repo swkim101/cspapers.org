@@ -1,5 +1,0 @@
-Assigning tasks to service providers is a frequent procedure across various applications. Often the tasks arrive dynamically while the service providers remain static. Preventing task rejection caused by service provider overload is of utmost significance.
-
-To ensure a positive experience in relevant applications for both service providers and tasks, fairness must be considered. 
-
-To address the issue, we model the problem as an online matching within a bipartite graph and tackle two minimax problems: one focuses on minimizing the highest waiting time of a task, while the other aims to minimize the highest workload of a service provider. We show that the second problem can be expressed as a linear program and thus solved efficiently while maintaining a reasonable approximation to the objective of the first problem. We developed novel methods that utilize the two minimax problems. We conducted extensive simulation experiments using real data and demonstrated that our novel heuristics, based on the linear program, performed remarkably well.

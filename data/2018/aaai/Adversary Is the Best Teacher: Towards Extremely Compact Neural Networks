@@ -1,4 +1,0 @@
-
- 
- With neural networks rapidly becoming deeper, there emerges a need for compact models. One popular approach for this is to train small student networks to mimic larger and deeper teacher models, rather than directly learn from the training data. We propose a novel technique to train student-teacher networks without directly providing label information to the student. However, our main contribution is to learn how to learn from the teacher by a unique strategy---having the student compete with a discriminator.
- 

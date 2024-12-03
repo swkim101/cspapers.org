@@ -1,1 +1,0 @@
-We present a binary architecture with 60% fewer parameters and 50% fewer operations during inference compared to the current state of the art for keyword spotting (KWS) applications at the cost of 3.4% accuracy. We construct convolutional filters on-the-fly using orthogonal binary codes and results in a compact architecture that would fit in devices with less than 30kB of memory.

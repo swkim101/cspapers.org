@@ -1,1 +1,0 @@
-The paper proposes a data-centred approach to reasoning about the interplay between trust and beliefs. At its core, is the modality "under the assumption that one dataset is trustworthy, another dataset informs a belief in a statement". The main technical result is a sound and complete logical system capturing the properties of this modality.

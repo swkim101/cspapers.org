@@ -1,9 +1,0 @@
-We study formal languages which are capable of fully expressing quantitative probabilistic reasoning and do-calculus reasoning for causal effects, from a computational complexity perspective.
-
-We focus on satisfiability problems whose instance formulas allow expressing many tasks in probabilistic and causal inference.
-
-The main contribution of this work is establishing the exact computational complexity of these satisfiability problems.
-
-We introduce a new natural complexity class, named succ∃R, which can be viewed as a succinct variant of the well-studied class ∃R, and show that these problems are complete for succ∃R.
-
-Our results imply even stronger limitations on the use of algorithmic methods for reasoning about probabilities and causality than previous state-of-the-art results that rely only on the NP- or ∃R-completeness of the satisfiability problems for some restricted languages.

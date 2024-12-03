@@ -1,5 +1,0 @@
-We study the problem of fair and efficient allocation of a set of indivisible chores to agents with additive cost functions. We consider the popular fairness notion of envy-freeness up to one good (EF1) with the efficiency notion of Pareto-optimality (PO). While it is known that EF1+PO allocations exists and can be computed in pseudo-polynomial time in the case of goods, the same problem is open for chores.
- 
- Our first result is a strongly polynomial-time algorithm for computing an EF1+PO allocation for bivalued instances, where agents have (at most) two disutility values for the chores. To the best of our knowledge, this is the first non-trivial class of chores to admit an EF1+PO allocation and an efficient algorithm for its computation. 
- 
- We also study the problem of computing an envy-free (EF) and PO allocation for the case of divisible chores. While the existence of EF+PO allocation is known via competitive equilibrium with equal incomes, its efficient computation is open. Our second result shows that for bivalued instances, an EF+PO allocation can be computed in strongly polynomial-time.

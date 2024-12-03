@@ -1,5 +1,0 @@
-Concurrency control algorithms are key determinants of the performance of in-memory databases. Existing algorithms are designed to work well for certain workloads. For example, optimistic concurrency control (OCC) is better than two-phase-locking (2PL) under low contention, while the converse is true under high contention.
-
-To adapt to different workloads, prior works mix or switch between a few known algorithms using manual insights or simple heuristics.  We propose a learning-based framework that instead explicitly optimizes concurrency control via offline training to maximize performance. Instead of choosing among a small number of known algorithms, our approach searches in a "policy space" of fine-grained actions, resulting in novel algorithms that can outperform existing algorithms by specializing to a given workload.
-
-We build Polyjuice based on our learning framework and evaluate it against several existing algorithms. Under different configurations of TPC-C and TPC-E, Polyjuice can achieve throughput numbers higher than the best of existing algorithms by 15% to 56%.

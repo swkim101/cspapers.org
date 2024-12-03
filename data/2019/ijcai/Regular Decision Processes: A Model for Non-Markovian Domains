@@ -1,4 +1,0 @@
-We introduce and study Regular Decision Processes (RDPs), a new, compact, factored model for domains with non-Markovian dynamics and rewards. 
-In RDPs, transition and reward functions are specified using formulas in linear dynamic logic over finite traces, a language with the expressive power of regular expressions. 
-This allows specifying complex dependence on the past using intuitive and compact formulas, and provides a model that generalizes MDPs and k-order MDPs. 
-RDPs can also approximate POMDPs without having to postulate the existence of hidden variables, and, in principle, can be learned from observations only. 

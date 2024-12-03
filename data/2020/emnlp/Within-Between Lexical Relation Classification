@@ -1,1 +1,0 @@
-We propose the novel Within-Between Relation model for recognizing lexical-semantic relations between words. Our model integrates relational and distributional signals, forming an effective sub-space representation for each relation. We show that the proposed model is competitive and outperforms other baselines, across various benchmarks.

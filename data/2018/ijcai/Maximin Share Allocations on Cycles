@@ -1,6 +1,0 @@
-
- 
- 
-The problem of fair division of indivisible goods is a fundamental problem of resource allocation in multi-agent systems, also studied extensively in social choice. Recently, the problem was generalized to the case when goods form a graph and the goal is to allocate goods to agents so that each agent’s bundle forms a connected subgraph. For the maximin share fairness criterion, researchers proved that if goods form a tree, an allocation offering each agent a bundle of at least her maximin share value always exists. Moreover, it can be found in polynomial time. In this paper we consider the problem of maximin share allocations of goods on a cycle. Despite the simplicity of the graph, the problem turns out to be significantly harder than its tree version. We present cases when maximin share allocations of goods on cycles exist and provide in this case results on allocations guaranteeing each agent a certain fraction of her maximin share. We also study algorithms for computing maximin share allocations of goods on cycles. 
- 
- 

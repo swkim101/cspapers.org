@@ -1,4 +1,0 @@
-
- 
- To learn a deep generative model of multimodal data, we propose a multimodal Poisson gamma belief network (mPGBN) that tightly couple the data of different modalities at multiple hidden layers. The mPGBN unsupervisedly extracts a nonnegative latent representation using an upward-downward Gibbs sampler. It imposes sparse connections between different layers, making it simple to visualize the generative process and the relationships between the latent features of different modalities. Our experimental results on bi-modal data consisting of images and tags show that the mPGBN can easily impute a missing modality and hence is useful for both image annotation and retrieval. We further demonstrate that the mPGBN achieves state-of-the-art results on unsupervisedly extracting latent features from multimodal data.
- 

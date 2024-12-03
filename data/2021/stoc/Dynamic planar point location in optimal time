@@ -1,1 +1,0 @@
-In this paper we describe a fully-dynamic data structure that supports point location queries in a connected planar subdivision with n edges. Our data structure uses O(n) space, answers queries in O(logn) time, and supports updates in O(logn) time. Our solution is based on a data structure for vertical ray shooting queries that supports queries and updates in O(logn) time.

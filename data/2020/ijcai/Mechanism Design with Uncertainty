@@ -1,3 +1,0 @@
-My research is summarized as mechanism design with uncertainty. Traditional mechanism design focuses on static environments where all the (possibly probabilistic) information about the agents are observable by the mechanism designer. In practice, however, it is possible that the set of participating agents
-
-and/or some of teheir actions are not observable a priori. We therefore focused on various kinds of uncertainty in mechanism design and developed/analyzed several market mechanisms that incentivise agents to behave in a sincere way.

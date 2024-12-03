@@ -1,1 +1,0 @@
-We propose a novel algorithm to passively learn deterministic Timed Automata from events sequences associated with the delay occurring between them. This algorithm produces models that are more specific than State-of-the-Art algorithms and that has a better identification of the temporal constraints applying on the systems.

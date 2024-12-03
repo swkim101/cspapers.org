@@ -1,9 +1,0 @@
-Powerful domain-independent planners have been developed to solve various types of planning problems. 
-These planners often require a model of the acting agent's actions, given in some planning domain description language. 
-Yet obtaining such an action model is a notoriously hard task. 
-This task is even more challenging in mission-critical domains, where a trial-and-error approach to learning how to act is not an option. 
-In such domains, the action model used to generate plans must be safe, in the sense that plans generated with it must be applicable and achieve their goals. 
-Learning safe action models for planning has been recently explored for domains in which states are sufficiently described with Boolean variables. 
-In this work, we go beyond this limitation and propose the NSAM algorithm. 
-NSAM runs in time that is polynomial in the number of observations and, under certain conditions, is guaranteed to return safe action models. 
-We analyze its worst-case sample complexity, which may be intractable for some domains. Empirically, however, NSAM can quickly learn a safe action model that can solve most problems in the domain.

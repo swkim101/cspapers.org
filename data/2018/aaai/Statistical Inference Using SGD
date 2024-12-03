@@ -1,4 +1,0 @@
-
- 
- We present a novel method for frequentist statistical inference in M-estimation problems, based on stochastic gradient descent (SGD) with a fixed step size: we demonstrate that the average of such SGD sequences can be used for statistical inference, after proper scaling. An intuitive analysis using the Ornstein-Uhlenbeck process suggests that such averages are asymptotically normal. To show the merits of our scheme, we apply it to both synthetic and real data sets, and demonstrate that its accuracy is comparable to classical statistical methods, while requiring potentially far less computation.
- 

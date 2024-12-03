@@ -1,5 +1,0 @@
-We investigate the existence and computation of fair and efficient allocations of indivisible chores to agents with additive preferences. We consider the popular envy-based fairness notions of envy-freeness up to one chore (EF1) and the efficiency notion of Pareto-optimality (PO).
-
-
-
-The existence of an allocation of chores that is simultaneously EF1 and PO is regarded a major open problem in discrete fair division. We show that an EF1 and PO allocation can be computed in polynomial time for certain structured instances. These results comprise the first non-trivial positive results for the problem and reveal insights towards settling the problem in its full generality.

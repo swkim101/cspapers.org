@@ -1,9 +1,0 @@
-We introduce and study various models for satisfying electrical energy demands of prosumers in a microgrid, while optimizing their costs.
-
-Each prosumer has individual demands of electrical energy, which can vary day-by-day, and which they can satisfy by either generating electrical energy through a self-operated mini power plant like a solar panel, through buying from an external energy provider, such as the main grid or by trading with other prosumers.
-
-Our models take into account two key aspects motivated by real-life scenarios: first, we consider a daily volatility of prices for buying and selling the energy, and second, the possibility to store the self-generated energy in a battery of finite capacity to be either self-consumed or sold to other prosumers in the future.
-
-We provide a thorough complexity analysis, as well as efficient algorithms, so that prosumers can minimize their overall cost over the entire time horizon. As a byproduct, we also solve a new, generalized version of the KNAPSACK problem which may be of independent interest. 
-
-We complement our theoretical findings by extensive experimental evaluations on realistic data sets.

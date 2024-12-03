@@ -1,3 +1,0 @@
-The concept of local consistency – making global deductions from local infeasibility – is central to constraint programming. When reasoning about NP-complete constraints, however, since achieving a ``complete'' form of local consistency is often considered too hard, we need other tools to design and analyze propagation algorithms.
-
-In this paper, we argue that NP-complete constraints are an essential part of constraint programming, that designing dedicated methods has lead to, and will bring, significant breakthroughs, and that we need to carefully investigate methods to deal about a necessarily incomplete inference. In particular, we advocate the use of fixed-parameter tractability and kernelization to this purpose.

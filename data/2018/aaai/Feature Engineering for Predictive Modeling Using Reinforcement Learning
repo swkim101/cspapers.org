@@ -1,4 +1,0 @@
-
- 
- Feature engineering is a crucial step in the process of predictive modeling. It involves the transformation of given feature space, typically using mathematical functions, with the objective of reducing the modeling error for a given target. However, there is no well-defined basis for performing effective feature engineering. It involves domain knowledge, intuition, and most of all, a lengthy process of trial and error. The human attention involved in overseeing this process significantly influences the cost of model generation. We present a new framework to automate feature engineering. It is based on performance driven exploration of a transformation graph, which systematically and compactly captures the space of given options. A highly efficient exploration strategy is derived through reinforcement learning on past examples.
- 

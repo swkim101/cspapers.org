@@ -1,6 +1,0 @@
-
- Dataset discovery can be performed using search (with a query or keywords) to find relevant data. However, the result of this discovery can be overwhelming to explore. Existing navigation techniques mostly focus on linkage graphs that enable navigation from one data set to another based on similarity or joinability of attributes. However, users often do not know which data set to start the navigation from. RONIN proposes an alternative way to navigate by building a
- hierarchical structure
- on a collection of data sets: the user navigates between groups of data sets in a hierarchical manner to narrow down to the data of interest. We demonstrate RONIN, a tool that enables user exploration of a data lake by seamlessly integrating the two common modalities of discovery: data set search and navigation of a hierarchical structure. In RONIN, a user can perform a keyword search or joinability search over a data lake, then, navigate the result using a hierarchical structure, called an
- organization
- , that is created on the fly. While navigating an organization, the user may switch to the search mode, and back to navigation on an organization that is updated based on search. This integration of search and navigation provides great power in allowing users to find and explore interesting data in a data lake.

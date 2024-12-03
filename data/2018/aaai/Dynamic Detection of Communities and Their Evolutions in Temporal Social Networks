@@ -1,4 +1,0 @@
-
- 
- In this paper, we propose a novel community detection model, which explores the dynamic community evolutions in temporal social networks by modeling temporal affiliation strength between users and communities. Instead of transforming dynamic networks into static networks, our model utilizes normal distribution to estimate the change of affiliation strength more concisely and comprehensively. Extensive quantitative and qualitative evaluation on large social network datasets shows that our model achieves improvements in terms of prediction accuracy and reveals distinctive insight about evolutions of temporal social networks.
- 

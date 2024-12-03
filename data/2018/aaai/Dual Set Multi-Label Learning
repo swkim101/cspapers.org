@@ -1,4 +1,0 @@
-
- 
- In this paper, we propose a new learning framework named dual set multi-label learning, where there are two sets of labels, and an object has one and only one positive label in each set. Compared to general multi-label learning, the exclusive relationship among labels within the same set, and the pairwise inter-set label relationship are much more explicit and more likely to be fully exploited. To handle such kind of problems, a novel boosting style algorithm with model-reuse and distribution adjusting mechanisms is proposed to make the two label sets help each other. In addition, theoretical analyses are presented to show the superiority of learning from dual label sets to learning directly from all labels. To empirically evaluate the performance of our approach, we conduct experiments on two manually collected real-world datasets along with an adapted dataset. Experimental results validate the effectiveness of our approach for dual set multi-label learning.
- 

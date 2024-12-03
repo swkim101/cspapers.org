@@ -1,4 +1,0 @@
-
- 
- It is challenging to directly apply text classification models without much feature engineering on domain-specific use cases, and expect the state of art performance. Much more so when the number of classes is large. Convolutional Neural Network (CNN or Con-vNet) has attracted much in text mining due to its effectiveness in automatic feature extraction from text. In this paper, we compare traditional and deep learning approaches for automatic categorization of IT tickets in a real-world production ticketing system. Experimental results demonstrate the good potential of CNN models in our task.
- 

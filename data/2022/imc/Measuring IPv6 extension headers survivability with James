@@ -1,1 +1,0 @@
-This extended abstract introduces James, a new tool for measuring how IPv6 Extension Headers (IPv6 EHs) are processed in the network. James sends specially crafted Paris traceroute packets between a set of controlled vantage points. Early measurement results show that IPv6 EHs may be dropped in the network, depending on their type and the size of the Extension Header.

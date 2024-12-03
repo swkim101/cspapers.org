@@ -1,1 +1,0 @@
-In this paper, we propose a novel problem, named rational (alpha, beta)-core detection in attribute bipartite graphs (RCD-ABG), which retrieves the connected (alpha, beta)-core with the largest rational score. A basic greedy framework with an optimized strategy is developed and extensive experiments are conducted to evaluate the performance of the techniques.

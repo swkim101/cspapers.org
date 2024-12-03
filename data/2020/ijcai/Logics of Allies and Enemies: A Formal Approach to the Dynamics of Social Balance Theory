@@ -1,1 +1,0 @@
-We combine social balance theory with temporal logic to obtain a Logic of Allies and Enemies (LAE), which formally describes the likely changes to a social network due to social pressure. We demonstrate how the rich language of LAE can be used to describe various interesting concepts, and show that both model checking and validity checking are PSPACE-complete.

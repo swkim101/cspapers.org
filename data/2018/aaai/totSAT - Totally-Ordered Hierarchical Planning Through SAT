@@ -1,4 +1,0 @@
-
- 
- In this paper, we propose a novel SAT-based planning approach for hierarchical planning by introducing the SAT-based planner totSAT for the class of totally-ordered HTN planning problems. We use the same general approach as SAT planning for classical planning does: bound the problem, translate the problem into a formula, and if the formula is not satisfiable, increase the bound. In HTN planning, a suitable bound is the maximum depth of decomposition. We show how totally-ordered HTN planning problems can be translated into a SAT formula, given this bound. Furthermore, we have conducted an extensive empirical evaluation to compare our new planner against state-of-the-art HTN planners. It shows that our technique outperforms any of these systems.
- 

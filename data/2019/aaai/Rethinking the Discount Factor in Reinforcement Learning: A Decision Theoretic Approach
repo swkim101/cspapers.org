@@ -1,1 +1,0 @@
-Reinforcement learning (RL) agents have traditionally been tasked with maximizing the value function of a Markov decision process (MDP), either in continuous settings, with fixed discount factor γ

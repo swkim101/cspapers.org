@@ -1,5 +1,0 @@
-Multi-agent task allocation in physical environments with spatial and temporal constraints, are hard problems that are relevant in many realistic applications. A task allocation algorithm based on Fisher market clearing (FMC_TA), that can be performed either centrally or distributively, has been shown to produce high quality allocations in comparison to both centralized and distributed state of the art incomplete optimization algorithms. However, the algorithm is synchronous and therefore depends on perfect communication between agents.
-
-
-
-We propose FMC_ATA, an asynchronous version of FMC_TA, which is robust to message latency and message loss. In contrast to the former version of the algorithm, FMC_ATA allows agents to identify dynamic events and initiate the generation of an updated allocation. Thus, it is more compatible for dynamic environments. We further investigate the conditions in which the distributed version of the algorithm is preferred over the centralized version. Our results indicate that the proposed asynchronous distributed algorithm produces consistent results even when the communication level is extremely poor.

@@ -1,6 +1,0 @@
-Field archeologists are called upon to identify potsherds, for which they rely on their professional experience and on reference works.
-We have developed a recognition method starting from images captured on site, which relies on the shape of the sherd's fracture outline. 
-The method sets up a new target for deep-learning, integrating information from points along inner and outer surfaces to learn about shapes. 
-Training the classifiers required tackling multiple challenges that arose on account of our working with real-world archeological data: paucity of labeled data; extreme imbalance between instances of different categories; and the need to avoid neglecting rare classes and to take note of minute distinguishing features of some classes. 
-The scarcity of training data was overcome by using synthetically-produced virtual potsherds and by employing multiple data-augmentation techniques. 
-A novel form of training loss allowed us to overcome classification problems caused by under-populated classes and inhomogeneous distribution of discriminative features.

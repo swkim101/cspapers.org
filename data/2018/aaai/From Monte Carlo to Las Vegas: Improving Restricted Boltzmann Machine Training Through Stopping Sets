@@ -1,4 +1,0 @@
-
- 
- We propose a Las Vegas transformation of Markov Chain Monte Carlo (MCMC) estimators of Restricted Boltzmann Machines (RBMs). We denote our approach Markov Chain Las Vegas (MCLV). MCLV gives statistical guarantees in exchange for random running times. MCLV uses a stopping set built from the training data and has maximum number of Markov chain steps K (referred as MCLV-K). We present a MCLV-K gradient estimator (LVS-K) for RBMs and explore the correspondence and differences between LVS-K and Contrastive Divergence (CD-K), with LVS-K significantly outperforming CD-K training RBMs over the MNIST dataset, indicating MCLV to be a promising direction in learning generative models.
- 

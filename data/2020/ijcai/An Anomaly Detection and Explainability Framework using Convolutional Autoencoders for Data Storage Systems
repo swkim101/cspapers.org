@@ -1,7 +1,0 @@
-Anomaly detection in data storage systems is a challenging problem due to the high dimensional sequential data involved, and lack of labels.
-
-The state of the art for automating anomaly detection in these systems typically relies on hand crafted rules and thresholds which mainly allow to distinguish between normal and abnormal behavior of each indicator in isolation.
-
-In this work we present an end-to-end framework based on convolutional autoencoders which not only allows for anomaly detection on multivariate time series data, but also provides explainability. This is done by identifying similar historic anomalies and extracting the most influential indicators. These are then presented to relevant personnel such as system designers and architects, or to support engineers for further analysis.
-
-We demonstrate the application of this framework along with an intuitive interactive web interface which was developed for data storage system anomaly detection. We discuss how this framework along with its explainability aspects enables support engineers to effectively tackle abnormal behaviors, all while allowing for crucial feedback.

@@ -1,7 +1,0 @@
-To trace the copyright of deep neural networks, an owner can embed its identity information into its model as a watermark.
-The capacity of the watermark quantify the maximal volume of information that can be verified from the watermarked model.
-Current studies on capacity focus on the ownership verification accuracy under ordinary removal attacks and fail to capture the relationship between robustness and fidelity.
-This paper studies the capacity of deep neural network watermarks from an information theoretical perspective.
-We propose a new definition of deep neural network watermark capacity analogous to channel capacity, analyze its properties, and design an algorithm that yields a tight estimation of its upper bound under adversarial overwriting.
-We also propose a universal non-invasive method to secure the transmission of the identity message beyond capacity by multiple rounds of ownership verification. 
-Our observations provide evidence for neural network owners and defenders that are curious about the tradeoff between the integrity of their ownership and the performance degradation of their products.

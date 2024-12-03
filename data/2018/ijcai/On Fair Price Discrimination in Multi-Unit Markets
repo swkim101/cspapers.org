@@ -1,5 +1,0 @@
-Discriminatory pricing policies, even if at first glance can be perceived as unfair, are widespread. In fact, pricing differences for the same item among different national markets are common, or forms of discrimination based on the time of purchase, like in tickets' sales.
-
-In this work we propose a framework for capturing the setting of ``fair'' discriminatory pricing and study its application to multi-unit markets, in which many copies of the same item are on sale. Our model is able to incorporate the fundamental discrimination settings proposed in the literature, by expressing individual buyers constraints for assigning prices by means of a social relationship graph, modeling the information that each buyer can acquire about the prices assigned to the other buyers.
-
-After pointing out the positive effects of fair price discrimination, we investigate the computational complexity of maximizing the social welfare and the revenue in these markets, providing hardness and approximation results under various assumptions on the buyers valuations and on the social graph topology.

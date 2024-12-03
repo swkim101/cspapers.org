@@ -1,5 +1,0 @@
-Consolidation-disruption index (CD index) is a new metric for qualitatively measuring the contribution of a patent or a research paper. 
-
-We embark on the study of the complexity of the CD index manipulation problems, which model scenarios where scholars seek to enhance the CD indices of their papers through the merging, addition, or deletion of papers. 
-
-We show that these problems are generally computationally hard, even when restricted to very realistic special cases. Specifically, we analyze how various parameters influence the parameterized complexity of these problems.

@@ -1,6 +1,0 @@
-
- Functions in functional languages have a single elimination form — application — and cannot be compared, hashed, or subjected to other non-application operations. These operations can be approximated via defunctionalization: functions are replaced with first-order data and calls are replaced with invocations of a dispatch function. Operations such as comparison may then be implemented for these first-order data to approximate e.g. deduplication of continuations in algorithms such as unbounded searches. Unfortunately, this encoding is tedious, imposes a maintenance burden, and obfuscates the affected code. We introduce an alternative in
- intensional functions
- , a language feature which supports the definition of non-application operations in terms of a function’s definition site and closure-captured values. First-order data operations may be defined on intensional functions without burdensome code transformation. We give an operational semantics and type system and prove their formal properties. We further define
- intensional monads
- , whose Kleisli arrows are intensional functions, enabling monadic values to be similarly subjected to additional operations.

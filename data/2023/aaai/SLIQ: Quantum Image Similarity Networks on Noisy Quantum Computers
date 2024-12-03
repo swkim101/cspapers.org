@@ -1,9 +1,0 @@
-Exploration into quantum machine learning has grown
-tremendously in recent years due to the ability of quantum
-computers to speed up classical programs. However, these ef-
-forts have yet to solve unsupervised similarity detection tasks
-due to the challenge of porting them to run on quantum com-
-puters. To overcome this challenge, we propose SLIQ, the
-first open-sourced work for resource-efficient quantum sim-
-ilarity detection networks, built with practical and effective
-quantum learning and variance-reducing algorithms.

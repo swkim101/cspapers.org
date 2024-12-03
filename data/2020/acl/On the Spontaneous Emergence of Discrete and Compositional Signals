@@ -1,1 +1,0 @@
-We propose a general framework to study language emergence through signaling games with neural agents. Using a continuous latent space, we are able to (i) train using backpropagation, (ii) show that discrete messages nonetheless naturally emerge. We explore whether categorical perception effects follow and show that the messages are not compositional.

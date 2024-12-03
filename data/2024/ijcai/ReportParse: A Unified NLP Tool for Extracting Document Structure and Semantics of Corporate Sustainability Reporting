@@ -1,7 +1,0 @@
-We introduce ReportParse, a Python-based tool designed to parse corporate sustainability reports.
-
-It combines document structure analysis with natural language processing (NLP) models to extract sustainability-related information from the reports.
-
-We also provide easy-to-use web and command interfaces.
-
-The tool is expected to aid researchers and analysts in evaluating corporate commitment to and management of sustainability efforts.

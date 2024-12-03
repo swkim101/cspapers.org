@@ -1,9 +1,0 @@
-Hawkes processes have been shown to be efficient in modeling bursty
-sequences in a variety of applications, such as finance and social network activity analysis.
-Traditionally, these models parameterize each process independently and assume that
-the history of each point process can be fully observed.
-Such models could however be inefficient or even prohibited in certain real-world
-applications, such as in the field of education, where such assumptions are violated. 
-Motivated by the problem of detecting and predicting student procrastination in students Massive Open Online Courses (MOOCs) with missing and partially observed data, in this work, we propose a novel personalized Hawkes process model (RCHawkes-Gamma) that discovers meaningful student behavior clusters by jointly learning all partially observed processes simultaneously, without relying on auxiliary features.
-Our experiments on both synthetic and real-world education datasets show that RCHawkes-Gamma can effectively recover student clusters and their temporal procrastination dynamics, resulting in better predictive performance of future student activities.
-Our further analyses of the learned parameters and their association with student delays show that the discovered student clusters unveil meaningful representations of various procrastination behaviors in students.

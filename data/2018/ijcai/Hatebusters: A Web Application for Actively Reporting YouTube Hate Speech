@@ -1,3 +1,0 @@
-Hatebusters is a web application for actively reporting YouTube hate speech, aiming to establish an online community of volunteer citizens. Hatebusters searches YouTube for videos with potentially hateful comments, scores their comments with a classifier trained on human-annotated data and presents users those comments with the highest probability of being hate speech. It also employs gamification elements, such as achievements and leaderboards, to drive user engagement.
-
- 

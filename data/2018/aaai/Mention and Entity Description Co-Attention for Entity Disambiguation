@@ -1,4 +1,0 @@
-
- 
- For the task of entity disambiguation, mention contexts and entity descriptions both contain various kinds of information content while only a subset of them are helpful for disambiguation. In this paper, we propose a type-aware co-attention model for entity disambiguation, which tries to identify the most discriminative words from mention contexts and most relevant sentences from corresponding entity descriptions simultaneously. To bridge the semantic gap between mention contexts and entity descriptions, we further incorporate entity type information to enhance the co-attention mechanism. Our evaluation shows that the proposed model outperforms the state-of-the-arts on three public datasets. Further analysis also confirms that both the co-attention mechanism and the type-aware mechanism are effective.
- 

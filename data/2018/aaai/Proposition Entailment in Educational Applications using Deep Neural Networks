@@ -1,4 +1,0 @@
-
- 
- To have a more meaningful impact, educational applications need to significantly improve the way feedback is offered to teachers and students. We propose two methods for determining propositional-level entailment relations between a reference answer and a student's response. Both methods, one using hand-crafted features and an SVM and the other using word embeddings and deep neural networks, achieve significant improvements over a state-of-the-art system and two alternative approaches.
- 

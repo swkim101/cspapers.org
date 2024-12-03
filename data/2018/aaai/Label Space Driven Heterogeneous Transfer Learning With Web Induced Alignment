@@ -1,4 +1,0 @@
-
- 
- Heterogeneous Transfer Learning (HTL) algorithms leverage knowledge from a heterogeneous source domain to perform a task in a target domain. We present a novel HTL algorithm that works even where there are no shared features, instance correspondences and further, the two domains do not have identical labels. We utilize the label relationships via web-distance to align the data of the domains in the projected space, while preserving the structure of the original data.
- 

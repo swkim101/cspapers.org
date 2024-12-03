@@ -1,4 +1,0 @@
-
- 
- We propose a hierarchical extension to hidden Markov model (HMM) under the Bayesian framework to overcome its limited model capacity. The model parameters are treated as random variables whose distributions are governed by hyperparameters. Therefore the variation in data can be modeled at both instance level and distribution level. We derive a novel learning method for estimating the parameters and hyperparameters of our model based on adversarial learning framework, which has shown promising results in generating photorealistic images and videos. We demonstrate the benefit of the proposed method on human motion capture data through comparison with both state-of-the-art methods and the same model that is learned by maximizing likelihood. The first experiment on reconstruction shows the model's capability of generalizing to novel testing data. The second experiment on synthesis shows the model's capability of generating realistic and diverse data.
- 

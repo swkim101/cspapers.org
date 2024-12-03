@@ -1,4 +1,0 @@
-We introduce two new extensions to the beam search algorithm based on conformal predictions (CP) to produce sets of sequences with theoretical coverage guarantees. 
-The first method is very simple and proposes dynamically-sized subsets of beam search results but, unlike typical CP proceedures, has an upper bound on the achievable guarantee depending on a post-hoc calibration measure. 
-Our second algorithm introduces the conformal set prediction procedure as part of the decoding process, producing a variable beam width which adapts to the current uncertainty. 
-While more complex, this procedure can achieve coverage guarantees selected a priori. We provide marginal coverage bounds as well as calibration-conditional guarantees for each method, and evaluate them empirically on a selection of tasks drawing from natural language processing and chemistry.

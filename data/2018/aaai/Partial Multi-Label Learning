@@ -1,4 +1,0 @@
-
- 
- It is expensive and difficult to precisely annotate objects with multiple labels. Instead, in many real tasks, annotators may roughly assign each object with a set of candidate labels. The candidate set contains at least one but unknown number of ground-truth labels, and is usually adulterated with some irrelevant labels. In this paper, we formalize such problems as a new learning framework called partial multi-label learning (PML). To solve the PML problem, a confidence value is maintained for each candidate label to estimate how likely it is a ground-truth label of the instance. On one hand, the relevance ordering of labels on each instance is optimized by minimizing a rank loss weighted by the confidences; on the other hand, the confidence values are optimized by further exploiting structure information in feature and label spaces.Experimental results on various datasets show that the proposed approach is effective for solving PML problems.
- 

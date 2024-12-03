@@ -1,7 +1,0 @@
-Domain adaptation aims to leverage source domain knowledge to predict target domain labels. Most domain adaptation methods tackle a single-source, single-target scenario, whereas source and target domain data can often be subdivided into data from different distributions in real-life applications (e.g., when the distribution of the collected data changes with time). However, such subdomains are rarely given and should be discovered automatically. 
- To this end, some recent domain adaptation works seek separations of hidden subdomains, w.r.t. a known or fixed number of subdomains. 
- In contrast, this paper introduces a new subdomain combination method that leverages a variable number of subdomains. 
- Precisely, we propose to use an inter-subdomain divergence maximization criterion to exploit hidden subdomains. 
- Besides, our proposition stands in a target-to-source domain adaptation scenario, where one exploits a pre-trained source model as a black box; thus, the proposed method is model-agnostic.
- By providing interpretability at two complementary levels (transformation and subdomain levels), our method can also be easily interpreted by practitioners with or without machine learning backgrounds.
- Experimental results over two fraud detection datasets demonstrate the efficiency of our method.

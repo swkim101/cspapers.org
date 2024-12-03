@@ -1,4 +1,0 @@
-
- 
- Classical model-based partitional clustering algorithms, such ask-means or mixture of Gaussians, provide only loose and indirect control over the size of the resulting clusters. In this work, we present a family of probabilistic clustering models that can be steered towards clusters of desired size by providing a prior distribution over the possible sizes, allowing the analyst to fine-tune exploratory analysis or to produce clusters of suitable size for future down-stream processing.Our formulation supports arbitrary multimodal prior distributions, generalizing the previous work on clustering algorithms searching for clusters of equal size or algorithms designed for the microclustering task of finding small clusters. We provide practical methods for solving the problem, using integer programming for making the cluster assignments, and demonstrate that we can also automatically infer the number of clusters.
- 

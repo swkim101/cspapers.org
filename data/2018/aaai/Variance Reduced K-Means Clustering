@@ -1,4 +1,0 @@
-
- 
- It is challenging to perform k-means clustering on a large scale dataset efficiently. One of the reasons is that k-means needs to scan a batch of training data to update the cluster centers at every iteration, which is time-consuming. In the paper, we propose a variance reduced k-mean VRKM, which outperforms the state-of-the-art method, and obtain 4× speedup for large-scale clustering. The source code is available on https://github.com/YaweiZhao/VRKM_sofia-ml.
- 

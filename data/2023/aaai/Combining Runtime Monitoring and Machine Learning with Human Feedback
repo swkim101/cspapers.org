@@ -1,5 +1,0 @@
-State-of-the-art machine-learned controllers for autonomous systems demonstrate unbeatable performance in scenarios known from training. However, in evolving environments---changing weather or unexpected anomalies---, safety and interpretability remain the greatest challenges for autonomous systems to be reliable and are the urgent scientific challenges.
-
-Existing machine-learning approaches focus on recovering lost performance but leave the system open to potential safety violations. Formal methods address this problem by rigorously analysing a smaller representation of the system but they rarely prioritize performance of the controller. 
-
-We propose to combine insights from formal verification and runtime monitoring with interpretable machine-learning design for guaranteeing reliability of autonomous systems.

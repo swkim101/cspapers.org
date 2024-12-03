@@ -1,1 +1,0 @@
-In tracking of time-varying low-rank models of time-varying matrices, we present a method robust to both uniformly-distributed measurement noise and arbitrarily-distributed “sparse” noise. In theory, we bound the tracking error. In practice, our use of randomised coordinate descent is scalable and allows for encouraging results on changedetection.net, a benchmark.

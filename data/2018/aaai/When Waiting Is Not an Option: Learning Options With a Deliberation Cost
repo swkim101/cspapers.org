@@ -1,4 +1,0 @@
-
- 
- Recent work has shown that temporally extended actions (options) can be learned fully end-to-end as opposed to being specified in advance. While the problem of how to learn options is increasingly well understood, the question of what good options should be has remained elusive. We formulate our answer to what good options should be in the bounded rationality framework (Simon, 1957) through the notion of deliberation cost. We then derive practical gradient-based learning algorithms to implement this objective. Our results in the Arcade Learning Environment (ALE) show increased performance and interpretability.
- 

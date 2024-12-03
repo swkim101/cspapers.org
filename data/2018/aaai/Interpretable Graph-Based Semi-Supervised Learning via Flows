@@ -1,4 +1,0 @@
-
- 
- In this paper, we consider the interpretability of the foundational Laplacian-based semi-supervised learning approaches on graphs. We introduce a novel flow-based learning framework that subsumes the foundational approaches and additionally provides a detailed, transparent, and easily understood expression of the learning process in terms of graph flows. As a result, one can visualize and interactively explore the precise subgraph along which the information from labeled nodes flows to an unlabeled node of interest. Surprisingly, the proposed framework avoids trading accuracy for interpretability, but in fact leads to improved prediction accuracy, which is supported both by theoretical considerations and empirical results. The flow-based framework guarantees the maximum principle by construction and can handle directed graphs in an out-of-the-box manner.
- 

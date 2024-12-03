@@ -1,3 +1,0 @@
-Federated learning (FL) has gained significant attention recently as a privacy-enhancing tool to jointly train a machine learning model by multiple participants. 
-The prior work on FL has mostly studied how to protect label privacy during model training. However, model evaluation in FL might also lead to the potential leakage of private label information.
-In this work, we propose an evaluation algorithm that can accurately compute the widely used AUC (area under the curve) metric when using the label differential privacy (DP) in FL. Through extensive experiments, we show our algorithms can compute accurate AUCs compared to the ground truth. The code is available at https://github.com/bytedance/fedlearner/tree/master/example/privacy/DPAUC

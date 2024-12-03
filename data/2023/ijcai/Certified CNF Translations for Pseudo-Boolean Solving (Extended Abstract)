@@ -1,5 +1,0 @@
-The dramatic improvements in Boolean satisfiability (SAT) solving since the turn of the millennium have made it possible to leverage conflict-driven clause learning (CDCL) solvers for many combinatorial problems in academia and industry, and the use of proof logging has played a crucial role in increasing the confidence that the results these solvers produce are correct. However, the fact that SAT proof logging is performed in conjunctive normal form (CNF) clausal format means that it has not been possible to extend guarantees of correctness to the use of SAT solvers for more expressive combinatorial paradigms, where the first step is an unverified translation of the input to CNF.
-
-
-
-In this work, we show how cutting-planes-based reasoning can provide proof logging for solvers that translate pseudo-Boolean (a.k.a. 0-1 integer linear) decision problems to CNF and then run CDCL. We are hopeful that this is just a first step towards providing a unified proof logging approach that will extend to maximum satisfiability (MaxSAT) solving and pseudo-Boolean optimization in general.

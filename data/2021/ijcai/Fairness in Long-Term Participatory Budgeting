@@ -1,5 +1,0 @@
-Participatory Budgeting (PB) processes are usually designed to span several years, with referenda for new budget allocations taking place regularly. This paper presents a first formal framework for long-term PB, based on a sequence of budgeting problems as main input. We introduce a theory of fairness for this setting, focusing on three main concepts that apply to types (groups) of voters:
-
-(i) achieving equal welfare for all types, (ii) minimizing inequality of welfare (as measured by the Gini coefficient), and (iii) achieving equal welfare in the long run.
-
-We investigate under which conditions these criteria can be satisfied, and analyze the computational complexity of verifying whether they hold.

@@ -1,4 +1,0 @@
-
- 
- Neural network models are capable of generating extremely natural sounding conversational interactions.  However, these models have been mostly applied to casual scenarios (e.g., as “chatbots”) and have yet to demonstrate they can serve in more useful conversational applications. This paper presents a novel, fully data-driven, and knowledge-grounded neural conversation model aimed at producing more contentful responses.  We generalize the widely-used Sequence-to-Sequence (Seq2Seq) approach by conditioning responses on both conversation history and external “facts”, allowing the model to be versatile and applicable in an open-domain setting.  Our approach yields significant improvements over a competitive Seq2Seq baseline. Human judges found that our outputs are significantly more informative.
- 

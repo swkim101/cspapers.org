@@ -1,7 +1,0 @@
-We investigate the existence of fair and efficient allocations of indivisible chores to asymmetric agents who have unequal entitlements or weights. We consider the fairness notion of weighted envy-freeness up to one chore (wEF1) and the efficiency notion of Pareto-optimality (PO). The existence of EF1 and PO allocations of chores to symmetric agents is a major open problem in discrete fair division, and positive results are known only for certain structured instances. In this paper, we study this problem for a more general setting of asymmetric agents and show that an allocation that is wEF1 and PO exists and can be computed in polynomial time for instances with:
-
-- Three types of agents where agents with the same type have identical preferences but can have different weights. 
-
-- Two types of chores
-
-For symmetric agents, our results establish that EF1 and PO allocations exist for three types of agents and also generalize known results for three agents, two types of agents, and two types of chores. Our algorithms use a weighted picking sequence algorithm as a subroutine; we expect this idea and our analysis to be of independent interest.

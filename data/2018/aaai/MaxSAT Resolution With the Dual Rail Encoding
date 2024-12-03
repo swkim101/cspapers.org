@@ -1,4 +1,0 @@
-
- 
- Conflict-driven clause learning (CDCL) is at the core of the success of modern SAT solvers. In terms of propositional proof complexity, CDCL has been shown as strong as general resolution. Improvements to SAT solvers can be realized either by improving existing algorithms, or by exploiting proof systems stronger than CDCL. Recent work proposed an approach for solving SAT by reduction to Horn MaxSAT. The proposed reduction coupled with MaxSAT resolution represents a new proof system, DRMaxSAT, which was shown to enable polynomial time refutations of pigeonhole formulas, in contrast with either CDCL or general resolution. This paper investigates the DRMaxSAT proof system, and shows that DRMaxSAT p-simulates general resolution, that AC0-Frege+PHP p-simulates DRMaxSAT, and that DRMaxSAT can not p-simulate AC0-Frege+PHP or the cutting planes proof system.
- 

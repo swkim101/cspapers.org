@@ -1,4 +1,0 @@
-
- 
- The technique called splitting sets has been proven useful in simplifying the investigation of Answer Set Programming (ASP). In this paper, we investigate the splitting set theorem for LPMLN that is a new extension of ASP created by combining the ideas of ASP and Markov Logic Networks (MLN). Firstly, we extend the notion of splitting sets to LPMLN programs and present the splitting set theorem for LPMLN. Then, the use of the theorem for simplifying several LPMLN inference tasks is illustrated. After that, we give two parallel approaches for solving LPMLN programs via using the theorem. The preliminary experimental results show that these approaches are alternative ways to promote an LPMLN solver.
- 

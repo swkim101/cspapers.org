@@ -1,1 +1,0 @@
-In this paper, we propose to use Schedule Abstraction Graphs (SAGs) to determine exact worst-case latency of packets at an egress port of an Ethernet TSN switch with Time-aware Shapers (TASs). We briefly sketch how to apply the existing SAG framework in a TSN context and extend the framework with FIFO-queues and TASs.

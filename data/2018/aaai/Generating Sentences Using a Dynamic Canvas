@@ -1,4 +1,0 @@
-
- 
- We introduce the Attentive Unsupervised Text (W)riter (AUTR), which is a word level generative model for natural language. It uses a recurrent neural network with a dynamic attention and canvas memory mechanism to iteratively construct sentences. By viewing the state of the memory at intermediate stages and where the model is placing its attention, we gain insight into how it constructs sentences. We demonstrate that AUTR learns a meaningful latent representation for each sentence, and achieves competitive log-likelihood lower bounds whilst being computationally efficient. It is effective at generating and reconstructing sentences, as well as imputing missing words.
- 

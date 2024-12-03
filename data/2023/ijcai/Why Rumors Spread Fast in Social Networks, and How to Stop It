@@ -1,9 +1,0 @@
-We study a rumor spreading model where individuals are connected via a network structure. Initially, only a small subset of the individuals are spreading a rumor. Each individual who is connected to a spreader, starts spreading the rumor with some probability as a function of their trust in the spreader, quantified by the Jaccard similarity index. Furthermore, the probability that a spreader diffuses the rumor decreases over time until they fully lose their interest and stop spreading.
-
-
-
-We focus on determining the graph parameters which govern the magnitude and pace that the rumor spreads in this model. We prove that for the rumor to spread to a sizable fraction of the individuals, the network needs to enjoy ``strong'' expansion properties and most nodes should be in ``well-connected'' communities. Both of these characteristics are, arguably, present in real-world social networks up to a certain degree, shedding light on the driving force behind the extremely fast spread of rumors in social networks.
-
-
-
-Furthermore, we formulate a large range of countermeasures to cease the spread of a rumor. We introduce four fundamental criteria which a countermeasure ideally should possess. We evaluate all the proposed countermeasures by conducting experiments on real-world social networks such as Facebook and Twitter. We conclude that our novel decentralized countermeasures (which are executed by the individuals) generally outperform the previously studied centralized ones (which need to be imposed by a third entity such as the government).

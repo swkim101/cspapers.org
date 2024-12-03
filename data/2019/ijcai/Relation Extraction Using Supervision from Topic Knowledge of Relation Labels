@@ -1,6 +1,0 @@
-Explicitly exploring the semantics of a relation is significant for high-accuracy relation extraction, which is, however, not fully studied in previous work.
- In this paper, we mine the topic knowledge of a relation to explicitly represent the semantics of this relation, and model relation extraction as a matching problem.
- That is, the matching score between a sentence and a candidate relation is predicted for an entity pair.
- To this end, we propose a deep matching network to precisely model the semantic similarity between a sentence-relation pair.
- Besides, the topic knowledge also allows us to derive the importance information of samples as well as two knowledge-guided negative sampling strategies in the training process.
- We conduct extensive experiments to evaluate the proposed framework and observe improvements in AUC of 11.5% and max F1 of 5.4% over the baselines with state-of-the-art performance.

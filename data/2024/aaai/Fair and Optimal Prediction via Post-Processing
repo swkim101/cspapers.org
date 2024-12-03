@@ -1,1 +1,0 @@
-In this talk I will discuss our recent work on characterizing the inherent tradeoff between fairness and accuracy in both classification and regression problems. I will also present a post-processing algorithm that derives optimal fair predictors from Bayes score functions.

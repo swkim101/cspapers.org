@@ -1,4 +1,0 @@
-
- 
- This abstract proposes a time series anomaly detector which 1) makes no assumption about the underlying mechanism of anomaly patterns, 2) refrains from the cumbersome work of threshold setting for good anomaly detection performance under specific scenarios, and 3) keeps evolving with the growth of anomaly detection experience. Essentially, the anomaly detector is powered by the Recurrent Neural Network (RNN) and adopts the Reinforcement Learning (RL) method to achieve the self-learning process. Our initial experiments demonstrate promising results of using the detector in network time series anomaly detection problems.
- 

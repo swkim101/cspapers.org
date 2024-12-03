@@ -1,7 +1,0 @@
-Ridesharing has great potential to improve transportation efficiency while reducing congestion and pollution. To realize this potential, mechanisms are needed that allocate vehicles optimally and provide the right incentives to riders. However, many existing approaches consider restricted settings (e.g.,
-
-only one rider per vehicle
-
-or a common origin for all riders). Moreover,
-
-naive applications of standard approaches, such as the Vickrey-Clarke-Groves or greedy mechanisms, cannot achieve a polynomial-time, truthful, individually rational and budget balanced mechanism. To address this, we formulate a general ridesharing problem and apply mechanism design to develop a novel mechanism which satisfies all four properties and whose social cost is within 8.6% of the optimal on average.

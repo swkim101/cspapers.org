@@ -1,7 +1,0 @@
-In recent years, significant progress has been made in the field of protein function prediction with the development of various machine-learning approaches.
-However, most existing methods formulate the task as a multi-classification problem, i.e. assigning predefined labels to proteins.
-In this work, we propose a novel approach, Prot2Text, which predicts a protein's function in a free text style, moving beyond the conventional binary or categorical classifications.
-By combining Graph Neural Networks(GNNs) and Large Language Models(LLMs), in an encoder-decoder framework, our model effectively integrates diverse data types including protein sequence, structure, and textual annotation and description.
-This multimodal approach allows for a holistic representation of proteins' functions, enabling the generation of detailed and accurate functional descriptions.
-To evaluate our model, we extracted a multimodal protein dataset from SwissProt, and demonstrate empirically the effectiveness of Prot2Text.
-These results highlight the transformative impact of multimodal models, specifically the fusion of GNNs and LLMs, empowering researchers with powerful tools for more accurate function prediction of existing as well as first-to-see proteins.

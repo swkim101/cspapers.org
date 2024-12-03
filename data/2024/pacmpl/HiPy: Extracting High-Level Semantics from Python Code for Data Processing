@@ -1,7 +1,0 @@
-Data science workloads frequently include Python code, but Python's dynamic nature makes efficient execution hard. Traditional approaches either treat Python as a black box, missing out on optimization potential, or are limited to a narrow domain. However, a deep and efficient integration of user-defined Python code into data processing systems requires extracting the semantics of the entire Python code.
- 
-
- 
-In this paper, we propose a novel approach for extracting the high-level semantics by transforming general Python functions into program generators that generate a statically-typed IR when executed.
- 
-The extracted IR then allows for high-level, domain-specific optimizations and the generation of efficient C++ code. With our prototype implementation, HiPy, we achieve single-threaded speedups of 2-20x for many workloads. Furthermore, HiPy is also capable of accelerating Python code in other domains like numerical data, where it can sometimes even outperform specialized compilers.

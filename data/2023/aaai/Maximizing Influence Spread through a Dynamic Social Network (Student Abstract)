@@ -1,5 +1,0 @@
-Modern social networks are dynamic in their nature; a new connections are appearing and old connections are disappearing all the time. However, in our algorithmic and complexity studies, we usually model social networks as static graphs.
-
-In this paper, we propose a new paradigm for the study of the well-known Target Set Selection problem, which is a fundamental problem in viral marketing and the spread of opinion through social networks. In particular, we use temporal graphs to capture the dynamic nature of social networks.
-
-We show that the temporal interpretation is, unsurprisingly, NP-complete in general. Then, we study computational complexity of this problem for multiple restrictions of both the threshold function and the underlying graph structure and provide multiple hardness lower-bounds.

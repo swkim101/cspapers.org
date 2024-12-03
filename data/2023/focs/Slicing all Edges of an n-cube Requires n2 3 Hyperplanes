@@ -1,1 +1,0 @@
-Consider the n-cube graph with vertices $\{-1,1\}^{n}$ and edges connecting vertices with Hamming distance 1. How many hyperplanes in $\mathbb{R}^{n}$ are needed in order to dissect all edges? We show that at least $\widetilde{\Omega}(n^{2/3})$ are needed, which improves the previous bound of $\Omega(n^{0.51})$ by Yehuda and Yehudayoff.

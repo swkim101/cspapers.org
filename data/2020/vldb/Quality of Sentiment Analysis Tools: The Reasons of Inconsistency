@@ -1,6 +1,0 @@
-
- In this paper, we present a comprehensive study that evaluates six state-of-the-art sentiment analysis tools on five public datasets, based on the quality of predictive results in the presence of semantically equivalent documents, i.e., how consistent existing tools are in predicting the polarity of documents based on paraphrased text. We observe that sentiment analysis tools exhibit
- intra-tool inconsistency
- , which is the prediction of different polarity for semantically equivalent documents by the same tool, and
- inter-tool inconsistency
- , which is the prediction of different polarity for semantically equivalent documents across different tools. We introduce a heuristic to assess the data quality of an augmented dataset and a new set of metrics to evaluate tool inconsistencies. Our results indicate that tool inconsistencies is still an open problem, and they point towards promising research directions and accuracy improvements that can be obtained if such inconsistencies are resolved.

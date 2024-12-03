@@ -1,4 +1,0 @@
-
- 
- We investigate the issues of undergraduate on-time graduation with respect to subject proficiencies through the lens of representation learning, training a student vector embeddings from a dataset of 8 years of course enrollments. We compare the per-semester student representations of a cohort of undergraduate Integrative Biology majors to those of graduated students in subject areas involved in their degree requirements. The result is an embedding rich in information about the relationships between majors and pathways taken by students which encoded enough information to improve prediction accuracy of on-time graduation to 95%, up from a baseline of 87.3%. Challenges to preparation of the data for student vectorization and sourcing of validation sets for optimization are discussed.
- 

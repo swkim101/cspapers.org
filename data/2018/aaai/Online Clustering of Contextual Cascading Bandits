@@ -1,4 +1,0 @@
-
- 
- We consider a new setting of online clustering of contextual cascading bandits, an online learning problem where the underlying cluster structure over users is unknown and needs to be learned from a random prefix feedback. More precisely, a learning agent recommends an ordered list of items to a user, who checks the list and stops at the first satisfactory item, if any. We propose an algorithm of CLUB-cascade for this setting and prove an n-step regret bound of order O(√n). Previous work corresponds to the degenerate case of only one cluster, and our general regret bound in this special case also significantly improves theirs. We conduct experiments on both synthetic and real data, and demonstrate the effectiveness of our algorithm and the advantage of incorporating online clustering method.
- 

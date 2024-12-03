@@ -1,5 +1,0 @@
-This paper introduces a novel approach for topic modeling utilizing latent codebooks from Vector-Quantized Variational Auto-Encoder~(VQ-VAE), discretely encapsulating the rich information of the pre-trained embeddings such as the pre-trained language model.
-From the novel interpretation of the latent codebooks and embeddings as conceptual bag-of-words, we propose a new generative topic model called Topic-VQ-VAE~(TVQ-VAE) which inversely generates the original documents related to the respective latent codebook.
-The TVQ-VAE can visualize the topics with various generative distributions including the traditional BoW distribution and the autoregressive image generation.
-Our experimental results on document analysis and image generation demonstrate that TVQ-VAE effectively captures the topic context which reveals the underlying structures of the dataset and supports flexible forms of document generation.
-Official implementation of the proposed TVQ-VAE is available at https://github.com/clovaai/TVQ-VAE.

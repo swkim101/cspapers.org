@@ -1,6 +1,0 @@
-
- This paper presents Odyssey, a novel
- distributed
- data-series processing framework that efficiently addresses the critical challenges of exhibiting good speedup and ensuring high scalability in data series processing by taking advantage of the full computational capacity of modern distributed systems comprised of multi-core servers. Odyssey addresses a number of challenges in designing efficient and highly-scalable
- distributed
- data series index, including efficient scheduling, and load-balancing without paying the prohibitive cost of moving data around. It also supports a flexible partial replication scheme, which enables Odyssey to navigate through a fundamental trade-off between data scalability and good performance during query answering. Through a wide range of configurations and using several real and synthetic datasets, our experimental analysis demonstrates that Odyssey achieves its challenging goals.

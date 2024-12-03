@@ -1,5 +1,0 @@
-We consider the problem of learning a one-hidden-layer neural network: we assume the input $x\in \mathbb{R}^d$ is from Gaussian distribution and the label $y = a^\top \sigma(Bx) + \xi$, where $a$ is a nonnegative vector in $\mathbb{R}^m$ with $m\le d$, $B\in \mathbb{R}^{m\times d}$ is a full-rank weight matrix, and $\xi$ is a noise vector. We first give an analytic formula for the population risk of the standard squared loss and demonstrate that it implicitly attempts to decompose a sequence of low-rank tensors simultaneously. 
-Inspired by the formula, we design a non-convex objective function $G(\cdot)$ whose landscape is guaranteed to have the following properties: 1. All local minima of $G$ are also global minima. 
-2. All global minima of $G$ correspond to the ground truth parameters. 
-3. The value and gradient of $G$ can be estimated using samples. 
-With these properties, stochastic gradient descent on $G$ provably converges to the global minimum and learn the ground-truth parameters. We also prove finite sample complexity result and validate the results by simulations.

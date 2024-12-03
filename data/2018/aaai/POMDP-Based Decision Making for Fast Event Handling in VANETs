@@ -1,4 +1,0 @@
-
- 
- Malicious vehicle agents broadcast fake information about traffic events and thereby undermine the benefits of vehicle-to-vehicle communication in vehicular ad-hoc networks (VANETs). Trust management schemes addressing this issue do not focus on effective/fast decision making in reacting to traffic events. We propose a Partially Observable Markov Decision Process (POMDP) based approach to balance the trade-off between information gathering and exploiting actions resulting in faster responses. Our model copes with malicious behavior by maintaining it as part of a small state space, thus is scalable for large VANETs. We also propose an algorithm to learn model parameters in a dynamic behavior setting. Experimental results demonstrate that our model can effectively balance the decision quality and response time while still being robust to sophisticated malicious attacks.
- 

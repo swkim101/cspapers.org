@@ -1,8 +1,0 @@
-
- In this work, we demonstrate CaJaDE (Context-Aware Join-Augmented Deep Explanations), a system that explains query results by augmenting provenance with contextual information from other related tables in the database. Given two query results whose difference the user wants to understand, we enumerate possible ways of joining the
- provenance
- (i.e., contributing input tuples) of these two query results with tuples from other relevant tables in the database that were
- not
- used in the query. We use patterns to concisely explain the difference between the
- augmented provenance
- of the two query results. CaJaDE, through a comprehensive UI, enables the user to formulate questions and explore explanations interactively.

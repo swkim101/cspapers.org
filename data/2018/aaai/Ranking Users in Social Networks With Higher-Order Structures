@@ -1,4 +1,0 @@
-
- 
- PageRank has been widely used to measure the authority or the influence of a user in social networks. However, conventional PageRank only makes use of edge-based relations, ignoring higher-order structures captured by motifs, subgraphs consisting of a small number of nodes in complex networks. In this paper, we propose a novel framework, motif-based PageRank (MPR), to incorporate higher-order structures into conventional PageRank computation. We conduct extensive experiments in three real-world networks, i.e., DBLP, Epinions, and Ciao, to show that MPR can significantly improve the effectiveness of PageRank for ranking users in social networks. In addition to numerical results, we also provide detailed analysis for MPR to show how and why incorporating higher-order information works better than PageRank in ranking users in social networks.
- 

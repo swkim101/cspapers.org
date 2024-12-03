@@ -1,4 +1,0 @@
-
- 
- We consider a graph of interconnected agents implementing a common policy and each playing a bandit problem with identical reward distributions. We restrict the information propagated in the graph such that agents can uniquely observe each other's actions. We propose an extension of the Upper Confidence Bound (UCB) algorithm to this setting and empirically demonstrate that our solution improves the performance over UCB according to multiple metrics and within various graph configurations.
- 

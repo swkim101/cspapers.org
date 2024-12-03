@@ -1,4 +1,0 @@
-
- 
- In this work, we present a Multi-Channel deep convolutional Pyramid Person Matching Network (MC-PPMN) based on the combination of the semantic-components and the color-texture distributions to address the problem of person re-identification. In particular, we learn separate deep representations for semantic-components and color-texture distributions from two person images and then employ pyramid person matching network (PPMN) to obtain correspondence representations. These correspondence representations are fused to perform the re-identification task. Further, the proposed framework is optimized via a unified end-to-end deep learning scheme. Extensive experiments on several benchmark datasets demonstrate the effectiveness of our approach against the state-of-the-art literature, especially on the rank-1 recognition rate.
- 

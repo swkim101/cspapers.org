@@ -1,4 +1,0 @@
-
- 
- Agents that can learn new tasks through interactive instruction can utilize goal information to search for and learn flexible policies. This approach can be resilient to variations in initial conditions or issues that arise during execution. However, if a task is not easily formulated as achieving a goal or if the agent lacks sufficient domain knowledge for planning, other methods are required. We present a hybrid approach to interactive task learning that can learn both goal-oriented and procedural tasks, and mixtures of the two, from human natural language instruction. We describe this approach, go through two examples of learning tasks, and outline the space of tasks that the system can learn. We show that our approach can learn a variety of goal-oriented and procedural tasks from a single example and is robust to different amounts of domain knowledge.
- 

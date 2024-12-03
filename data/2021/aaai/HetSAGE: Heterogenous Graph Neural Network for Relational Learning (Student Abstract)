@@ -1,9 +1,0 @@
-This paper aims to bridge this gap between neuro-symbolic learning (NSL) and
-graph neural networks (GNN) approaches and provide a comparative study. We
-argue that the natural evolution of NSL leads to GNNs, while the logic
-programming foundations of NSL can bring powerful tools to improve the way 
-information is represented and pre-processed for the GNN. In order to make
-this comparison, we propose HetSAGE, a GNN architecture that can efficiently
-deal with the resulting heterogeneous graphs that represent typical NSL
-learning problems. We show that our approach
-outperforms the state-of-the-art on 3 NSL tasks: CORA, MUTA188 and MovieLens.

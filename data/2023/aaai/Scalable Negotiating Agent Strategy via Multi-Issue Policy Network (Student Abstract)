@@ -1,4 +1,0 @@
-Previous research on the comprehensive negotiation strategy using deep reinforcement learning (RL) has scalability issues of not performing effectively in the large-sized domains.
-We improve negotiation strategy via deep RL by considering an issue-based represented deep policy network to deal with multi-issue negotiation.
-The architecture of the proposed learning agent considers the characteristics of multi-issue negotiation domains and policy-based learning.
-We demonstrate that proposed method achieve equivalent or higher utility than existing negotiation agents in the large-sized domains.

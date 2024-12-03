@@ -1,1 +1,0 @@
-In this paper, we report on the ongoing development of POET, the first foundational and automated response-time analysis tool. The certificates produced by POET are short, readable, and fully commented Coq files that can be machine-checked in (usually) minutes.

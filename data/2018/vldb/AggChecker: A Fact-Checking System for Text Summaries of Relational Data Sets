@@ -1,1 +1,0 @@
-We demonstrate AggChecker, a novel tool for verifying textual summaries of relational data sets. The system automatically veriﬁes natural language claims about numerical aggregates against the underlying raw data. The system incorporates a combination of natural language processing, information retrieval, machine learning

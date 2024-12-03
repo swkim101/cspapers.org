@@ -1,1 +1,0 @@
-In this demonstration, we present Hike's sticker recommendation system, which helps users choose the right sticker to substitute the next message that they intend to send in a chat. We describe how the system addresses the issue of numerous orthographic variations for chat messages and operates under 20 milliseconds with low CPU and memory footprint on device.

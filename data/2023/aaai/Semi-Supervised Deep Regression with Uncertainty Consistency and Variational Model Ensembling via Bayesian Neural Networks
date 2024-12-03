@@ -1,8 +1,0 @@
-Deep regression is an important problem with numerous applications. These range from computer vision tasks such as age estimation from photographs, to medical tasks such as ejection fraction estimation from echocardiograms for disease tracking.
-Semi-supervised approaches for deep regression are notably under-explored compared to classification and segmentation tasks, however. 
-Unlike classification tasks, which rely on thresholding functions for generating class pseudo-labels, regression tasks use real number target predictions directly as pseudo-labels, making them more sensitive to prediction quality.
-In this work, we propose a novel approach to semi-supervised regression, namely Uncertainty-Consistent Variational Model Ensembling (UCVME), which improves training by generating high-quality pseudo-labels and uncertainty estimates for heteroscedastic regression.
-Given that aleatoric uncertainty is only dependent on input data by definition and should be equal for the same inputs, we present a novel uncertainty consistency loss for co-trained models.
-Our consistency loss significantly improves uncertainty estimates and allows higher quality pseudo-labels to be assigned greater importance under heteroscedastic regression. 
-Furthermore, we introduce a novel variational model ensembling approach to reduce prediction noise and generate more robust pseudo-labels. We analytically show our method generates higher quality targets for unlabeled data and further improves training. 
-Experiments show that our method outperforms state-of-the-art alternatives on different tasks and can be competitive with supervised methods that use full labels. Code is available at https://github.com/xmed-lab/UCVME.

@@ -1,9 +1,0 @@
-Accurate completion of archaeological artifacts is a critical aspect in several archaeological studies, including documentation of variations in style, inference of chronological and ethnic groups, and trading routes trends, among many others. However, most available pottery is fragmented, leading to missing textural and morphological cues.
-
-Currently, the reassembly and completion of fragmented ceramics is a daunting and time-consuming task, done almost exclusively by hand, which requires the physical manipulation of the fragments.
-
-To overcome the challenges of manual reconstruction, reduce the materials' exposure and deterioration, and improve the quality of reconstructed samples, we present IberianVoxel, a novel 3D Autoencoder Generative Adversarial Network (3D AE-GAN) framework tested on an extensive database with complete and fragmented references.
-
-We generated a collection of 1001 3D voxelized samples and their fragmented references from Iberian wheel-made pottery profiles. The fragments generated are stratified into different size groups and across multiple pottery classes.
-
-Lastly, we provide quantitative and qualitative assessments to measure the quality of the reconstructed voxelized samples by our proposed method and archaeologists' evaluation.

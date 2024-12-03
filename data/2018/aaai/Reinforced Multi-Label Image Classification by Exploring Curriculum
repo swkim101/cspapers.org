@@ -1,4 +1,0 @@
-
- 
- Humans and animals learn much better when the examples are not randomly presented but organized in a meaningful order which illustrates gradually more concepts, and gradually more complex ones. Inspired by this curriculum learning mechanism, we propose a reinforced multi-label image classification approach imitating human behavior to label image from easy to complex. This approach allows a reinforcement learning agent to sequentially predict labels by fully exploiting image feature and previously predicted labels. The agent discovers the optimal policies through maximizing the long-term reward which reflects prediction accuracies. Experimental results on PASCAL VOC2007 and 2012 demonstrate the necessity of reinforcement multi-label learning and the algorithm’s effectiveness in real-world multi-label image classification tasks.
- 

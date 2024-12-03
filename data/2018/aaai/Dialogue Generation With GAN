@@ -1,4 +1,0 @@
-
- 
- This paper presents a Generative Adversarial Network (GAN) to model multiturn dialogue generation, which trains a latent hierarchical recurrent encoder-decoder simultaneously with a discriminative classifier that make the prior approximate to the posterior. Experiments show that our model achieves better results.
- 

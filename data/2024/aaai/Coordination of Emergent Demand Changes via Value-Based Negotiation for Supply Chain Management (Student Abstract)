@@ -1,4 +1,0 @@
-We propose an automated negotiation for a reinforcement learning agent to adapt the agent to unexpected situations such as demand changes in supply chain management (SCM).
-Existing studies that consider reinforcement learning and SCM assume a centralized environment where the coordination of chain components is hierarchical rather than through negotiations between agents.
-This study focused on a negotiation agent that considered the value function of reinforcement learning for SCM as its utility function in automated negotiation.
-We demonstrated that the proposed approach could avoid inventory shortages under increased demand requests from the terminal customer.

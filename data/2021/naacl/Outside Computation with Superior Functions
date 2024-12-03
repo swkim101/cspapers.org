@@ -1,1 +1,0 @@
-We show that a general algorithm for efficient computation of outside values under the minimum of superior functions framework proposed by Knuth (1977) would yield a sub-exponential time algorithm for SAT, violating the Strong Exponential Time Hypothesis (SETH).

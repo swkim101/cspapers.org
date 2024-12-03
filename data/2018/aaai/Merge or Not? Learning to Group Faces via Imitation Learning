@@ -1,4 +1,0 @@
-
- 
- Face grouping remains a challenging problem despite the remarkable capability of deep learning approaches in learning face representation. In particular, grouping results can still be egregious given profile faces and a large number of uninteresting faces and noisy detections. Often, a user needs to correct the erroneous grouping manually. In this study, we formulate a novel face grouping framework that learns clustering strategy from ground-truth simulated behavior. This is achieved through imitation learning (a.k.a apprenticeship learning or learning by watching) via inverse reinforcement learning (IRL). In contrast to existing clustering approaches that group instances by similarity, our framework makes sequential decision to dynamically decide when to merge two face instances/groups driven by short- and long-term rewards. Extensive experiments on three benchmark datasets show that our framework outperforms unsupervised and supervised baselines.
- 

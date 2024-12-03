@@ -1,4 +1,0 @@
-
- 
- Document-based Question Answering (DBQA) in Natural Language Processing (NLP) is important but difficult because of the long document and the complex question. Most of previous deep learning methods mainly focus on the similarity computation between two sentences. However, DBQA stems from the reading comprehension in some degree, which is originally used to train and test people's ability of reading and logical thinking. Inspired by the strategy of doing reading comprehension tests, we propose a unified model based on the human-like reading strategy. The unified model contains three major encoding layers that are consistent to different steps of the reading strategy, including the basic encoder, combined encoder and hierarchical encoder. We conduct extensive experiments on both the English WikiQA dataset and the Chinese dataset, and the experimental results show that our unified model is effective and yields state-of-the-art results on WikiQA dataset.
- 

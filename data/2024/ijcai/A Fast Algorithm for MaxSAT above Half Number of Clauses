@@ -1,3 +1,0 @@
-We study the following parameterization of the MaxSAT problem: Given a CNF formula F with m clauses, decide whether at least m/2 + μ clauses in F could be satisfied,
-
-where μ is the excess of the number of satisfied clauses over the trivial lower bound m/2 and is taken as the parameter. This perspective is known as the "above guarantee" parameterization. Since its introduction by Mahajan and Raman [1999], the analysis of parameterization above guarantee has become a highly active and fruitful line of research. In this paper, we develop a new algorithm with runtime O*(2.1479^μ), significantly improving the previous best upper bound O*(5.4064^μ) for this important problem. Here, the O* notation omits polynomial factors.

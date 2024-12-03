@@ -1,3 +1,0 @@
-In the last few years, we have been witnessing the increasing deployment of machine learning-based systems, which act as black boxes whose behaviour is hidden to end-users. As a side-effect, this contributes to increasing the need for explainable methods and tools to support the coordination between humans and ML models towards collaborative decision-making. In this paper, we demonstrate ContrXT, a novel tool that computes the differences in the classification logic of two distinct trained models, reasoning on their symbolic representation through Binary Decision Diagrams.
-
-ContrXT is available as a pip package and API.

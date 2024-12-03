@@ -1,5 +1,0 @@
-The complexity of the probabilistic counterparts of the verification and acceptance problems is investigated over probabilistic Abstract Argumentation Frameworks (prAAFs), in a setting more general
-than the literature, where the complexity has been characterized only under independence between arguments/defeats.
-The complexity of these problems is shown to depend on the semantics of the extensions, the way of encoding the prAAF, and the correlations between arguments/defeats.
-In this regard, in order to study the impact of different correlations between arguments/defeats on the complexity, a new form of prAAF is introduced, called gen.
-It is based on the well-known paradigm of world-set sets, and it allows the correlations to be easily distinguishable.

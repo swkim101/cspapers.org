@@ -1,3 +1,0 @@
-The Condorcet criterion (CC) is a classical and well-accepted criterion for voting. Unfortunately, it is incompatible with many other desiderata including participation (PAR), half-way monotonicity (HM), Maskin monotonicity (MM), and strategy-proofness (SP). Such incompatibilities are often known as impossibility theorems, and are proved by worst-case analysis. Previous work has investigated the likelihood for these impossibilities to occur under certain models, which are often criticized of being unrealistic.
-
-We strengthen previous work by proving the first set of semi-random impossibilities for voting rules to satisfy CC and the more general, group versions of the four desiderata: for any sufficiently large number of voters n, any size of the group 1

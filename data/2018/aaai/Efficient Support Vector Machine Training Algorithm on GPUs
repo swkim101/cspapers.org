@@ -1,4 +1,0 @@
-
- 
- Support Vector Machines (SVMs) are popular for many machine learning tasks. With rapid growth of dataset size, the high cost of training limits the wide use of SVMs. Several SVM implementations on GPUs have been proposed to accelerate SVMs. However, they support only classification (SVC) or regression (SVR). In this work, we propose a simple and effective SVM training algorithm on GPUs which can be used for SVC, SVR and one-class SVM. Initial experiments show that our implementation outperforms existing ones. We are in the process of encapsulating our algorithm into an easy-to-use library which has Python, R and MATLAB interfaces.
- 

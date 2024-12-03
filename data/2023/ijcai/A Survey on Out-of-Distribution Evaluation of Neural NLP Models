@@ -1,5 +1,0 @@
-Adversarial robustness, domain generalization and dataset biases are three active lines of research contributing to out-of-distribution (OOD) evaluation on neural NLP models.
-
-
-
-However, a comprehensive, integrated discussion of the three research lines is still lacking in the literature. This survey will 1) compare the three lines of research under a unifying definition; 2) summarize their data-generating processes and evaluation protocols for each line of research; and 3) emphasize the challenges and opportunities for future work.

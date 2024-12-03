@@ -1,1 +1,0 @@
-This demo abstract introduces a new light-weight programming language koa which is suitable for blockchain system design and implementation. In this abstract, the basic features of koa are introduced including working system (with playground), architecture, and virtual machine operations. Rum-time execution of software implemented by koa will be presented during the session.

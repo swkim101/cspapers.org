@@ -1,4 +1,0 @@
-
- 
- Using a graphical discrete dynamical system to model a networked social system, the problem of inferring the behavior of the system can be formulated as the problem of learning the local functions of the dynamical system. We investigate the problem assuming an active form of interaction with the system through queries. We consider two classes of local functions (namely, symmetric and threshold functions) and two interaction modes, namely batch mode (where all the queries must be submitted together) and adaptive mode (where the set of queries submitted at a stage may rely on the answers received to previous queries). We develop complexity results and efficient heuristics that produce query sets under both query modes. We demonstrate the performance of our heuristics through experiments on over 20 well-known networks.
- 

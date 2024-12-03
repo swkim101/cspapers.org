@@ -1,7 +1,0 @@
-Alternating-time temporal logic (ATL*) is a well-established framework for formal reasoning about multi-agent systems. 
-However, while ATL* can reason about the strategic ability of agents (e.g., some coalition A can ensure that a goal is reached eventually), we cannot compare multiple strategic interactions, nor can we require multiple agents to follow the same strategy. 
-For example, we cannot state that coalition A can reach a goal sooner (or more often) than some other coalition A'. 
-In this paper, we propose HyperATL*_S, an extension of ATL* in which we can (1) compare the outcome of multiple strategic interactions w.r.t. a hyperproperty, i.e., a property that refers to multiple paths at the same time, and (2) enforce that some agents share the same strategy.
-We show that HyperATL*_S is a rich specification language that captures important AI-related properties that were out of reach of existing logics. 
-We prove that model checking of HyperATL*_S on concurrent game structures is decidable.
-We implement our model-checking algorithm in a tool we call HyMASMC and evaluate it on a range of benchmarks.

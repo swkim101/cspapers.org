@@ -1,4 +1,0 @@
-
- 
- We present an interactive guided activity to introduce supervised learning by training a deep neural network (treated as a black box) to recognize "rock paper scissors" hand gestures from unconstrained images. The audience is actively involved in acquiring a varied and representative dataset, on which the rest of the activity is based. Covered concepts include the training/evaluation split, classifier evaluation, baseline accuracy, overfitting, generalization, data augmentation.
- 

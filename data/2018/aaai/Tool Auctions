@@ -1,4 +1,0 @@
-
- 
- We introduce tool auctions, a novel market mechanism for constructing a cost-efficient assembly line for producing a desired set of products from a given set of goods and tools. Such tools can be used to transform one type of good into a different one. We then study the computational complexity of tool auctions in detail, using methods from both classical and parameterized complexity theory. While solving such auctions is intractable in general, just as for the related frameworks of combinatorial and mixed auctions, we are able to identify several special cases of practical interest where designing efficient algorithms is possible.
- 

@@ -1,4 +1,0 @@
-
- 
- In this paper, we study the problem of facial attribute learning. In particular, we propose a Face Recognition guided facial Attribute classification Network, called FR-ANet. All the attributes share low-level features, while high-level features are specially learned for attribute groups. Further, to utilize the identity information, high-level features are merged to perform face identity recognition. The experimental results on CelebA and LFWA datasets demonstrate the promise of the FR-ANet.
- 

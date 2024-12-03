@@ -1,1 +1,0 @@
-This paper presents Kinetic Energy Difference (KED) as a metric for collision proximity. The calculation of KED for differentially driven robots is explained, along with an example obstacle avoidance algorithm that utilizes it. This example algorithm is computationally efficient and simulations show that it is capable of guiding robots with slow dynamics through narrow corridors.

@@ -1,1 +1,0 @@
-Devices to support social distancing must be energy-efficient and accurate. Bluetooth Low Energy (BLE) meets the first criteria but falls short on the latter. Ultra-wideband (UWB) measures distances with <10 cm error but with relatively high consumption. Therefore, we built Janus, a dual-radio protocol that uses the strengths of each.

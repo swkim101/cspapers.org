@@ -1,7 +1,0 @@
-Reliably detecting attacks in a given set of inputs is of high practical relevance because of the vulnerability of neural networks to adversarial examples.
-
-These altered inputs create a security risk in applications with real-world consequences, such as self-driving cars, robotics and financial services.
-
-We propose an unsupervised method for detecting adversarial attacks in inner layers of autoencoder (AE) networks by maximizing a non-parametric measure of anomalous node activations. 
-
-Previous work in this space has shown AE networks can detect anomalous images by thresholding the reconstruction error produced by the final layer. Furthermore, other detection methods rely on data augmentation or specialized training techniques which must be asserted before training time. In contrast, we use subset scanning methods from the anomalous pattern detection domain to enhance detection power without labeled examples of the noise, retraining or data augmentation methods. In addition to an anomalous “score” our proposed method also returns the subset of nodes within the AE network that contributed to that score. This will allow future work to pivot from detection to visualisation and explainability. Our scanning approach shows consistently higher detection power than existing detection methods across several adversarial noise models and a wide range of perturbation strengths.

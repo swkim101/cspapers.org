@@ -1,4 +1,0 @@
-
- 
- Dependence is an important concept for many tasks in artificial intelligence. A task can be executed more efficiently by discarding something independent from the task. In this paper, we propose two novel notions of dependence in propositional logic: formula-formula dependence and formula forgetting. The first is a relation between formulas capturing whether a formula depends on another one, while the second is an operation that returns the strongest consequence independent of a formula. We also apply these two notions in two well-known issues: belief update and conservative extension. Firstly, we define a new update operator based on formula-formula dependence. Furthermore, we reduce conservative extension to formula forgetting.
- 

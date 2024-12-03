@@ -1,4 +1,0 @@
-
- 
- Counting the linear extensions of a given partial order is a #P-complete problem that arises in numerous applications. For polynomial-time approximation, several Markov chain Monte Carlo schemes have been proposed; however, little is known of their efficiency in practice. This work presents an empirical evaluation of the state-of-the-art schemes and investigates a number of ideas to enhance their performance. In addition, we introduce a novel approximation scheme, adaptive relaxation Monte Carlo (ARMC), that leverages exact exponential-time counting algorithms. We show that approximate counting is feasible up to a few hundred elements on various classes of partial orders, and within this range ARMC typically outperforms the other schemes.
- 

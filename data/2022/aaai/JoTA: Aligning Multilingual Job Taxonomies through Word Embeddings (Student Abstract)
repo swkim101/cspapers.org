@@ -1,3 +1,0 @@
-We propose JoTA (Job Taxonomy Alignment), a domain-independent, knowledge-poor method for automatic taxonomy alignment of lexical taxonomies via word embeddings. JoTA associates all the leaf terms of the origin taxonomy to one or many concepts in the destination one, employing a scoring function, which merges the score of a hierarchical method and the score of a classification task.
-JoTA is developed in the context of an EU Grant aiming at bridging the national taxonomies of EU countries towards the European Skills, Competences, Qualifications and Occupations taxonomy (ESCO) through AI.
-The method reaches a 0.8 accuracy on recommending top-5 occupations and a wMRR of 0.72.

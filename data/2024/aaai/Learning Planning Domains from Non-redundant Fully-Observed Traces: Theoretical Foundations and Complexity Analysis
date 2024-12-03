@@ -1,8 +1,0 @@
-Domain learning is the task of finding an action model that can explain given observed plan executions, so-called traces. 
-It allows us to automate the identification of actions' preconditions and effects instead of relying on hand-modeled expert knowledge. 
-While previous research has put forth various techniques and covers multiple planning formalisms, the theoretical foundations of domain learning are still in their infancy.
- 
-We investigate the most basic setting, that is grounded classical planning without negative preconditions or conditional effects with full observability of the state variables. 
-The given traces are assumed to be justified in the sense that either no single action or no set of actions can be removed without violating correctness of the plan. 
-Furthermore, we might be given additional constraints in the form of a propositional logical formula. 
-We show the consequences of these assumptions for the computational complexity of identifying a satisfactory planning domain.

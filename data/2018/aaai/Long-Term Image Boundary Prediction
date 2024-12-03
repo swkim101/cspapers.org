@@ -1,4 +1,0 @@
-
- 
- Boundary estimation in images and videos has been a very active topic of research, and organizing visual information into boundaries and segments is believed to be a corner stone of visual perception. While prior work has focused on estimating boundaries for observed frames, our work aims at predicting boundaries of future unobserved frames. This requires our model to learn about the fate of boundaries and corresponding motion patterns---including a notion of "intuitive physics." We experiment on natural video sequences along with synthetic sequences with deterministic physics-based and agent-based motions. While not being our primary goal, we also show that fusion of RGB and boundary prediction leads to improved RGB predictions.
- 

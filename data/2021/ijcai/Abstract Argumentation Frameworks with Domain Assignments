@@ -1,5 +1,0 @@
-Argumentative discourse rarely consists of opinions whose claims apply universally. As with logical statements, an argument applies to specific objects in the universe or relations among them, and may have exceptions. In this paper, we propose
-
-an argumentation formalism that allows associating arguments with a domain of application. Appropriate semantics are given, which formalise the notion of partial argument acceptance, i.e. the set of objects or relations that an argument can be applied
-
-to. We show that our proposal is in fact equivalent to the standard Argumentation Frameworks of Dung, but allows a more intuitive and compact expression of some core concepts of commonsense and non-monotonic reasoning, such as the scope of an argument, exceptions, relevance and others.

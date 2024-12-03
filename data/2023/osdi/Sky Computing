@@ -1,8 +1,0 @@
-Technology ecosystems often undergo significant transformations as they mature. For example, telephony, the Internet, and PCs all started with a single provider, but each is now served by a competitive market that uses comprehensive technology standards to provide compatibility. In this talk, I will present our view on how the cloud ecosystem, only fifteen years old, could evolve as it matures, and discuss our early results and experience in this endeavor.
-
-                    
-          Ion Stoica, University of California, Berkeley
-            
-  
-  
-    Ion Stoica is a Professor in the EECS Department at the University of California at Berkeley, where he holds the Xu Bao Chancellor's Chair and is leading Sky Computing Lab. He is currently doing research on cloud computing and AI systems. Current and past work includes Ray, Apache Spark, Apache Mesos, Tachyon, Chord DHT, and Dynamic Packet State (DPS). He is an ACM Fellow, Honorary Member of the Romanian Academy of Sciences, and has received numerous awards, including the Mark Weiser Award (2019), SIGOPS Hall of Fame Award (2015), and several "Test of Time" awards. He also co-founded several companies, including Anyscale (2019), Databricks (2013), and Conviva (2006).

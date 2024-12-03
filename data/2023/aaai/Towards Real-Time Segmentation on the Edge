@@ -1,6 +1,0 @@
-The research in real-time segmentation mainly focuses on desktop GPUs. 
-However, autonomous driving and many other applications rely on real-time segmentation on the edge, and current arts are far from the goal. 
-In addition, recent advances in vision transformers also inspire us to re-design the network architecture for dense prediction task. 
-In this work, we propose to combine the self attention block with lightweight convolutions to form new building blocks, and employ latency constraints to search an efficient sub-network. 
-We train an MLP latency model based on generated architecture configurations and their latency measured on mobile devices, so that we can predict the latency of subnets during search phase. 
-To the best of our knowledge, we are the first to achieve over 74% mIoU on Cityscapes with semi-real-time inference (over 15 FPS) on mobile GPU from an off-the-shelf phone.

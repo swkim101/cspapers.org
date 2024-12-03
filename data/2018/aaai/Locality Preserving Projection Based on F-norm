@@ -1,4 +1,0 @@
-
- 
- Locality preserving projection (LPP) is a well-known method for dimensionality reduction in which the neighborhood graph structure of data is preserved. Traditional LPP employ squared F-norm for distance measurement. This may exaggerate more distance errors, and result in a model being sensitive to outliers. In order to deal with this issue, we propose two novel F-norm-based models, termed as F-LPP and F-2DLPP, which are developed for vector-based and matrix-based data, respectively. In F-LPP and F-2DLPP, the distance of data projected to a low dimensional space is measured by F-norm. Thus it is anticipated that both methods can reduce the influence of outliers. To solve the F-norm-based models, we propose an iterative optimization algorithm, and give the convergence analysis of algorithm. The experimental results on three public databases have demonstrated the effectiveness of our proposed methods.
- 

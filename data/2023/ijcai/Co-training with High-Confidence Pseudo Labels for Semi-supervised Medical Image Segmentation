@@ -1,9 +1,0 @@
-Consistency regularization and pseudo labeling-based semi-supervised methods perform co-training using the pseudo labels from multi-view inputs. However, such co-training models tend to converge early to a consensus, degenerating to the self-training ones, and produce low-confidence pseudo labels from the perturbed inputs during training.
-
- To address these issues, we propose an Uncertainty-guided Collaborative Mean-Teacher (UCMT) for semi-supervised semantic segmentation with the high-confidence pseudo labels. Concretely, UCMT consists of two main components: 1) collaborative mean-teacher (CMT) for encouraging model disagreement and performing co-training between the sub-networks, and 2) uncertainty-guided region mix (UMIX) for manipulating the input images according to the uncertainty maps of CMT and facilitating CMT to produce high-confidence pseudo labels.
-
- Combining the strengths of UMIX with CMT, UCMT can retain model disagreement and enhance the quality of pseudo labels for the co-training segmentation.
-
- Extensive experiments on four public medical image datasets including 2D and 3D modalities demonstrate the superiority of UCMT over the state-of-the-art.
-
- Code is available at: https://github.com/Senyh/UCMT.

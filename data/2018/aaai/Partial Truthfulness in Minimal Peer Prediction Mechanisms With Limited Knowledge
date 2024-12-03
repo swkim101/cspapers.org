@@ -1,4 +1,0 @@
-
- 
- We study minimal single-task peer prediction mechanisms that have limited knowledge about agents' beliefs. Without knowing what agents' beliefs are or eliciting additional information, it is not possible to design a truthful mechanism in a Bayesian-Nash sense. We go beyond truthfulness and explore equilibrium strategy profiles that are only partially truthful. Using the results from the multi-armed bandit literature, we give a characterization of how inefficient these equilibria are comparing to truthful reporting. We measure the inefficiency of such strategies by counting the number of dishonest reports that any minimal knowledge-bounded mechanism must have. We show that the order of this number is θ(log n), where n is the number of agents, and we provide a peer prediction mechanism that achieves this bound in expectation.
- 

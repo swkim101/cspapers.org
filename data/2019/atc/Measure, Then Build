@@ -1,8 +1,0 @@
-This talk will discuss an approach to systems research based upon an iterative, empirically-driven approach, loosely known as "measure, then build." By first carefully analyzing the state of the art, one can learn what the real problems in today's systems are;  by then designing and implementing new systems to solve  said problems, one can ensure that one's work is both relevant and important. The talk will draw on examples in research done at the University of Wisconsin-Madison over nearly two decades, including research into Linux file systems, enterprise storage, key-value storage systems, and distributed systems.
-
-                    
-          Remzi Arpaci-Dusseau, University of Wisconsin—Madison
-            
-  
-  
-    Remzi Arpaci-Dusseau is the Grace Wahba professor of Computer Sciences at UW-Madison. He co-leads a research group with Professor Andrea Arpaci-Dusseau. Together, they have graduated 24 Ph.D. students and won numerous best-paper awards; many of their innovations are used by commercial systems. For their work, Andrea and Remzi received the 2018 ACM-SIGOPS Weiser award for "outstanding leadership, innovation, and impact in storage and computer systems research." Remzi has won the SACM Professor-of-the-Year award six times, the Rosner "Excellent Educator" award, and the Chancellor's Distinguished Teaching Award. Andrea and Remzi's operating systems book (www.ostep.org) is downloaded millions of times yearly and used at numerous institutions worldwide.

@@ -1,4 +1,0 @@
-
- 
- TD(0) is one of the most commonly used algorithms in reinforcement learning. Despite this, there is no existing finite sample analysis for TD(0) with function approximation, even for the linear case. Our work is the first to provide such results. Existing convergence rates for Temporal Difference (TD) methods apply only to somewhat modified versions, e.g., projected variants or ones where stepsizes depend on unknown problem parameters. Our analyses obviate these artificial alterations by exploiting strong properties of TD(0). We provide convergence rates both in expectation and with high-probability. The two are obtained via different approaches that use relatively unknown, recently developed stochastic approximation techniques.
- 

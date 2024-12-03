@@ -1,4 +1,0 @@
-
- 
- The state of the art in bidirectional search has changed significantly a very short time period; we now can answer questions about unidirectional and bidirectional search that until very recently we were unable to answer. This paper is designed to provide an accessible overview of the recent research in bidirectional search in the context of the broader efforts over the last 50 years. We give particular attention to new theoretical results and the algorithms they inspire for optimal and near-optimal node expansions when finding a shortest path.
- 

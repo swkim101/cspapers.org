@@ -1,1 +1,0 @@
-We give a pseudorandom generator that fools m-facet polytopes over {0,1}n with seed length polylog(m) · log(n). The previous best seed length had superlinear dependence on m. An immediate consequence is a deterministic quasipolynomial time algorithm for approximating the number of solutions to any {0,1}-integer program.

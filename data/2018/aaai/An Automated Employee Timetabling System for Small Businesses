@@ -1,4 +1,0 @@
-
- 
- Employee scheduling is one of the most difficult challenges facing any small business owner. The problem becomes more complex when employees with different levels of seniority indicate preferences for specific roles in certain shifts and request flexible work hours outside of the standard eight-hour block. Many business owners and managers, who cannot afford (or choose not to use) commercially-available timetabling apps, spend numerous hours creating sub-optimal schedules by hand, leading to low staff morale. In this paper, we explain how two undergraduate students generalized the Nurse Scheduling Problem to take into account multiple roles and flexible work hours, and implemented a user-friendly automated timetabler based on a four-dimensional integer linear program. This system has been successfully deployed at two businesses in our community, each with 20+ employees: a coffee shop and a health clinic.
- 

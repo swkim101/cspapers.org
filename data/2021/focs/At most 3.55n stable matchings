@@ -1,1 +1,0 @@
-We improve the upper bound for the maximum possible number of stable matchings among <tex>$n$</tex> jobs and <tex>$n$</tex> applicants from 131072<sup>n</sup>+ O(1) to 3.55<sup>n</sup>+ O(1). To establish this bound, we state a novel formulation of a certain entropy bound that is easy to apply and may be of independent interest in counting other combinatorial objects.

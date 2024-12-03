@@ -1,5 +1,0 @@
-The current leading 6D object pose estimation methods rely heavily on annotated real data, which is highly costly to acquire. To overcome this, many works have proposed to introduce computer-generated synthetic data.
-However, bridging the gap between the synthetic and real data remains a severe problem.
-Images depicting different levels of realism/semantics usually have different transferability between the synthetic and real domains.
-Inspired by this observation, we introduce an approach, SD-Pose, that explicitly decomposes the input image into multi-level semantic representations and then combines the merits of each representation to bridge the domain gap.
-Our comprehensive analyses and experiments show that our semantic decomposition strategy can fully utilize the different domain similarities of different representations, thus allowing us to outperform the state of the art on modern 6D object pose datasets without accessing any real data during training.

@@ -1,1 +1,0 @@
-The interplay between machine learning and security is becoming more prominent. New applications using machine learning also bring new security risks. Here, we show it is possible to reverse-engineer the inputs to a neural network with only a single-shot side-channel measurement assuming the attacker knows the neural network architecture being used.

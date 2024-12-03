@@ -1,5 +1,0 @@
-For the fundamental problem of fairly dividing a set of indivisible items among agents, envy-freeness up to any item (EFX) and maximin fairness (MMS) are arguably the most compelling fairness concepts proposed till now. Unfortunately, despite significant efforts over the past few years, whether EFX allocations always exist is still an enigmatic open problem, let alone their efficient computation. Furthermore, today we know that MMS allocations are not always guaranteed to exist. These facts weaken the usefulness of both EFX and MMS, albeit their appealing conceptual characteristics.
-
-
-
-We propose two alternative fairness concepts—called epistemic EFX (EEFX) and minimum EFX value fairness (MXS)---inspired by EFX and MMS. For both, we explore their relationships to well-studied fairness notions and, more importantly, prove that EEFX and MXS allocations always exist and can be computed efficiently for additive valuations. Our results justify that the new fairness concepts are excellent alternatives to EFX and MMS.

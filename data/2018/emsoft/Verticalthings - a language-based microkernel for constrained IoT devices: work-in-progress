@@ -1,1 +1,0 @@
-A programming language that provides the functions of a secure microkernel is proposed for embedded and IoT applications. Towards this purpose, a type system based on the capability model is proposed, in which resource classes are abstracted as capability classes. Our language enables static analysis of key properties including safety, security, power, and timing considerations.

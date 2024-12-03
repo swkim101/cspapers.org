@@ -1,1 +1,0 @@
-We introduce a novel technique to identify three spectra representing the three primary materials in a hyperspectral image of a scene. We accomplish this using a modified autoencoder. Further research will be conducted to verify the accuracy of these spectra.

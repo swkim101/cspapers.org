@@ -1,4 +1,0 @@
-
- 
- How can we find patterns and anomalies in peta-scale graphs? Even recently proposed graph mining systems fail in processing peta-scale graphs. In this work, we propose PegasusN, a scalable and versatile graph mining system that runs on Hadoop and Spark. To handle enormous graphs, PegasusN provides and seamlessly integrates efficient algorithms for various graph mining operations: graph structure analyses, subgraph enumeration, graph generation, and graph visualization. PegasusN quickly processes extra-large graphs that other systems cannot handle.
- 

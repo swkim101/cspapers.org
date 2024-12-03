@@ -1,5 +1,0 @@
-TSNE and UMAP are popular dimensionality reduction algorithms due to their speed and interpretable low-dimensional embeddings. Despite their popularity, however, little work has been done to study their full span of differences. We theoretically and experimentally evaluate the space of parameters in the TSNE and UMAP algorithms and observe that a single one -- the normalization -- is responsible for switching between them. This, in turn, implies that a majority of the algorithmic differences can be toggled without affecting the embeddings. We discuss the implications this has on several theoretic claims behind UMAP, as well as how to reconcile them with existing TSNE interpretations.
-
-
-
-Based on our analysis, we provide a method (GDR) that combines previously incompatible techniques from TSNE and UMAP and can replicate the results of either algorithm. This allows our method to incorporate further improvements, such as an acceleration that obtains either method's outputs faster than UMAP. We release improved versions of TSNE, UMAP, and GDR that are fully plug-and-play with the traditional libraries.

@@ -1,6 +1,0 @@
-Logical reasoning tasks over symbols, such as learning arithmetic operations and computer program evaluations, have become challenges to deep learning.
-In particular, even state-of-the-art neural networks fail to achieve \textit{out-of-distribution} (OOD) generalization of symbolic reasoning tasks, whereas humans can easily extend learned symbolic rules.
-To resolve this difficulty, we propose a neural sequence-to-grid (seq2grid) module, an input preprocessor that automatically segments and aligns an input sequence into a grid.
-As our module outputs a grid via a novel differentiable mapping, any neural network structure taking a grid input, such as ResNet or TextCNN, can be jointly trained with our module in an end-to-end fashion.
-Extensive experiments show that neural networks having our module as an input preprocessor achieve OOD generalization on various arithmetic and algorithmic problems including number sequence prediction problems, algebraic word problems, and computer program evaluation problems while other state-of-the-art sequence transduction models cannot.
-Moreover, we verify that our module enhances TextCNN to solve the bAbI QA tasks without external memory.

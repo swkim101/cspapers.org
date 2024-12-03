@@ -1,4 +1,0 @@
-This demonstration paper presents i-Parser, a novel development kit that produces high-performance semantic parsers. 
-i-Parser converts training graphs into sequences written in a context-free language, then our proposed model learns to generate the sequences. 
-With interactive configuration and visualization, users can easily build their own parsers. 
-Benchmark results of i-Parser showed high performances of various parsing tasks in natural language processing.

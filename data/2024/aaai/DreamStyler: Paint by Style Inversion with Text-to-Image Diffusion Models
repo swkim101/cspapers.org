@@ -1,7 +1,0 @@
-Recent progresses in large-scale text-to-image models have yielded remarkable accomplishments, finding various applications in art domain.
-However, expressing unique characteristics of an artwork (e.g. brushwork, colortone, or composition) with text prompts alone may encounter limitations due to the inherent constraints of verbal description.
-To this end, we introduce DreamStyle, a novel framework designed for artistic image synthesis, proficient in both text-to-image synthesis and style transfer.
-DreamStyle optimizes a multi-stage textual embedding with a context-aware text prompt, resulting in prominent image quality.
-In addition, with content and style guidance, DreamStyle exhibits flexibility to accommodate a range of style references.
-Experimental results demonstrate its superior performance across multiple scenarios, suggesting its promising potential in artistic product creation.
-Project page: https://nmhkahn.github.io/dreamstyler/

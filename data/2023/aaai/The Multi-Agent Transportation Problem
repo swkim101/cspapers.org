@@ -1,4 +1,0 @@
-We introduce the multi-agent transportation (MAT) problem, where agents have to transport containers from their starting positions to their designated goal positions. Movement takes place in a common environment where collisions between agents and between containers must be avoided.
-In contrast to other frameworks such as multi-agent pathfinding (MAPF) or multi-agent pickup and delivery (MAPD), the agents are allowed to separate from the containers at any time, which can reduce the makespan and also allows for plans in scenarios that are unsolvable otherwise.
-We present a complexity analysis establishing the problem's NP-completeness and show how the problem can be reduced to a sequence of SAT problems when optimizing for makespan.
-A MAT solver is empirically evaluated with regard to varying input characteristics and movement constraints and compared to a MAPD solver that utilizes conflict-based search (CBS).

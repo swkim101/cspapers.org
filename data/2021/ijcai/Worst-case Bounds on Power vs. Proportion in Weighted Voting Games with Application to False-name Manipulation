@@ -1,5 +1,0 @@
-Weighted voting games are applicable to a wide variety of multi-agent settings. They
-
-enable the formalization of power indices which quantify the coalitional power of players. We take a novel approach to the study of the power of big vs.~small players in these games. We model small (big) players as having single (multiple) votes. The aggregate relative power of big players is measured w.r.t.~their votes proportion.
-
-For this ratio, we show small constant worst-case bounds for the Shapley-Shubik and the Deegan-Packel indices. In sharp contrast, this ratio is unbounded for the Banzhaf index. As an application, we define a false-name strategic normal form game where each big player may split its votes between false identities, and study its various properties. Together our results provide foundations for the implications of players' size, modeled as their ability to split, on their relative power.

@@ -1,3 +1,0 @@
-The issue of describing in a formal way solving algorithms in various fields such as Propositional Satisfiability (SAT), Quantified SAT, Satisfiability Modulo Theories, Answer Set Programming (ASP), and Constraint ASP, has been relatively recently solved employing abstract solvers.
-
-In this paper we deal with cautious reasoning tasks in ASP, and design, implement and test novel abstract solutions, borrowed from backbone computation in SAT. By employing abstract solvers, we also formally show that the algorithms for solving cautious reasoning tasks in ASP are strongly related to those for computing backbones of Boolean formulas. Some of the new solutions have been implemented in the ASP solver WASP, and tested.

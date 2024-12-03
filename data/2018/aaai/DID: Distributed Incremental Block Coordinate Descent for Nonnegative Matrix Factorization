@@ -1,4 +1,0 @@
-
- 
- Nonnegative matrix factorization (NMF) has attracted much attention in the last decade as a dimension reduction method in many applications. Due to the explosion in the size of data, naturally the samples are collected and stored distributively in local computational nodes. Thus, there is a growing need to develop algorithms in a distributed memory architecture. We propose a novel distributed algorithm, called distributed incremental block coordinate descent (DID), to solve the problem. By adapting the block coordinate descent framework, closed-form update rules are obtained in DID. Moreover, DID performs updates incrementally based on the most recently updated residual matrix. As a result, only one communication step per iteration is required. The correctness, efficiency, and scalability of the proposed algorithm are verified in a series of numerical experiments.
- 

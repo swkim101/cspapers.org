@@ -1,1 +1,0 @@
-We show that approximate graph colouring is not solved by constantly many levels of the lift-and-project hierarchy for the combined basic linear programming and affine integer programming relaxation. The proof involves a construction of tensors whose fixed-dimensional projections are equal up to reflection and satisfy a sparsity condition, which may be of independent interest.

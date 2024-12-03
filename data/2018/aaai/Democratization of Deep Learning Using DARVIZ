@@ -1,4 +1,0 @@
-
- 
- With an abundance of research papers in deep learning, adoption and reproducibility of existing works becomes a challenge. To make a DL developer life easy, we propose a novel system, DARVIZ, to visually design a DL model using a drag-and-drop framework in an platform agnostic manner. The code could be automatically generated in both Caffe and Keras. DARVIZ could import (i) any existing Caffe code, or (ii) a research paper containing a DL design; extract the design, and present it in visual editor.
- 

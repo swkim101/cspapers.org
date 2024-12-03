@@ -1,8 +1,0 @@
-
- Data imputation has been extensively explored to solve the missing data problem. The dramatically rising volume of missing data makes the training of imputation models computationally infeasible in real-life scenarios. In this paper, we propose an efficient and effective data imputation system with
- influence functions
- , named EDIT, which quickly trains a parametric imputation model with representative samples under imputation accuracy guarantees. EDIT mainly consists of two modules, i.e., an
- imputation influence evaluation
- (IIE) module and a
- representative sample selection
- (RSS) module. IIE leverages the influence functions to estimate the effect of (in)complete samples on the prediction result of parametric imputation models. RSS builds a minimum set of the high-effect samples to satisfy a user-specified imputation accuracy. Moreover, we introduce a weighted loss function that drives the parametric imputation model to pay more attention on the high-effect samples. Extensive experiments upon ten state-of-the-art imputation methods demonstrate that, EDIT adopts only about 5% samples to speed up the model training by 4x in average with more than 11% accuracy gain.

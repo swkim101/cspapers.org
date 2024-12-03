@@ -1,4 +1,0 @@
-
- 
- In many real-world applications, learning a classifier with false-positive rate under a specified tolerance is appealing. Existing approaches either introduce prior knowledge dependent label cost or tune parameters based on traditional classifiers, which are of limitation in methodology since they do not directly incorporate the false-positive rate tolerance. In this paper, we propose a novel scoring-thresholding approach, tau-False Positive Learning (tau-FPL) to address this problem. We show that the scoring problem which takes the false-positive rate tolerance into accounts can be efficiently solved in linear time, also an out-of-bootstrap thresholding method can transform the learned ranking function into a low false-positive classifier. Both theoretical analysis and experimental results show superior performance of the proposed tau-FPL over the existing approaches.
- 

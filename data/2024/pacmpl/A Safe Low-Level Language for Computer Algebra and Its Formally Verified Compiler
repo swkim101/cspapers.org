@@ -1,5 +1,0 @@
-This article describes a programming language for writing low-level libraries for computer algebra systems. Such libraries (GMP, BLAS/LAPACK, etc) are usually written in C, Fortran, and Assembly, and
- 
- 
- 
-make heavy use of arrays and pointers. The proposed language, halfway between C and Rust, is designed to be safe and to ease the deductive verification of programs, while being low-level enough to be suitable for this kind of computationally intensive applications. This article also describes a compiler for this language, based on CompCert. The safety of the language has been formally proved using the Coq proof assistant, and so has the property of semantics preservation for the compiler. While the language is not yet feature-complete, this article shows what it entails to design a new domain-specific programming language along its formally verified compiler.

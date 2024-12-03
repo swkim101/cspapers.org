@@ -1,4 +1,0 @@
-
- 
- In this research work, we develop a state-of-art model for identifying sentiment in Hindi-English code-mixed language. We introduce new phonemic sub-word units for Hindi-English code-mixed text along with a hierarchical deep learning model which uses these sub-word units for predicting sentiment. The results indicate that the model yields a significant increase in accuracy as compared to other models.
- 

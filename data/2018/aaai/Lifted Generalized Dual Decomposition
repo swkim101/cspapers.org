@@ -1,4 +1,0 @@
-
- 
- Many real-world problems, such as Markov Logic Networks (MLNs) with evidence, can be represented as a highly symmetric graphical model perturbed by additional potentials. In these models, variational inference approaches that exploit exact model symmetries are often forced to ground the entire problem, while methods that exploit approximate symmetries (such as by constructing an over-symmetric approximate model) offer no guarantees on solution quality. In this paper, we present a method based on a lifted variant of the generalized dual decomposition (GenDD) for marginal MAP inference which provides a principled way to exploit symmetric sub-structures in a graphical model. We develop a coarse-to-fine inference procedure that provides any-time upper bounds on the objective. The upper bound property of GenDD provides a principled way to guide the refinement process, providing good any-time performance and eventually arriving at the ground optimal solution.
- 

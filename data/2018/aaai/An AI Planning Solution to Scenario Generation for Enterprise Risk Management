@@ -1,4 +1,0 @@
-
- 
- Scenario planning is a commonly used method by companies to develop their long-term plans. Scenario planning for risk management puts an added emphasis on identifying and managing emerging risk. While a variety of methods have been proposed for this purpose, we show that applying AI planning techniques to devise possible scenarios provides a unique advantage for scenario planning. Our system, the Scenario Planning Advisor (SPA), takes as input the relevant information from news and social media, representing key risk drivers, as well as the domain knowledge and generates scenarios that explain the key risk drivers and describe the alternative futures. To this end, we provide a characterization of the problem, knowledge engineering methodology, and transformation to planning. Furthermore, we describe the computation of the scenarios, lessons learned, and the feedback received from the pilot deployment of the SPA system in IBM.
- 

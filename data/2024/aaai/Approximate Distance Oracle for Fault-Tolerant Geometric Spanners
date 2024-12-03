@@ -1,7 +1,0 @@
-In this paper, we present approximate distance and shortest-path oracles for fault-tolerant Euclidean spanners motivated by the routing problem in real-world road networks.
-A fault-tolerant Euclidean spanner for a set of points in Euclidean space is a graph
-in which, despite the deletion of small number of any points, the distance between any two points in the damaged graph is an approximation of their Euclidean distance. 
-Given a fault-tolerant Euclidean spanner and a small approximation factor, 
-our data structure allows us to compute an approximate distance between two points in the damaged spanner in constant time when a query involves any two points and a small set of failed points. 
-Additionally, by incorporating additional data structures, we can return a path itself in time almost linear in the length of the returned path. 
-Both data structures require near-linear space.

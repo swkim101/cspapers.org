@@ -1,4 +1,0 @@
-
- 
- Abstract Dialectical Frameworks (ADFs) generalize Dung's argumentation frameworks allowing various relationships among arguments to be expressed in a systematic way. We further generalize ADFs so as to accommodate arbitrary acceptance degrees for the arguments. This makes ADFs applicable in domains where both the initial status of arguments and their relationship are only insufficiently specified by Boolean functions. We define all standard ADF semantics for the weighted case, including grounded, preferred and stable semantics. We illustrate our approach using acceptance degrees from the unit interval and show how other valuation structures can be integrated. In each case it is sufficient to specify how the generalized acceptance conditions are represented by formulas, and to specify the information ordering underlying the characteristic ADF operator. We also present complexity results for problems related to weighted ADFs.
- 

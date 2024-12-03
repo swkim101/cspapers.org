@@ -1,7 +1,0 @@
-In an era where machine learning permeates every facet of human existence, and data evolves incessantly, the application of machine learning models transcends mere data processing. It involves navigating constant changes exemplified by the phenomenon of concept drift, which often affects model performance.
-
-These drifts can be recurrent due to the cyclic nature of the underlying data generation processes, which could be influenced by recurrent phenomena such as weather and time of the day. 
-
-Stream Learning on data streams with recurrent concept drifts attempts to learn from such streams of data.
-
-The survey underscores the significance of the field and its practical applications, delving into nuanced definitions of machine learning for data streams afflicted by recurrent concept drifts. It explores diverse methodological approaches, elucidating their key design components. Additionally, it examines various evaluation techniques, benchmark datasets, and available software tailored for simulating and analysing data streams with recurrent concept drifts. Concluding, the survey offers insights into potential avenues for future research in the field.

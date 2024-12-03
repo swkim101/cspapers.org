@@ -1,5 +1,0 @@
-The Resource-Constrained Project Scheduling Problem (RCPSP) and its extension via activity modes (MRCPSP) are well-established scheduling frameworks that have found numerous applications in a broad range of settings related to artificial intelligence. Unsurprisingly, the problem of finding a suitable schedule in these frameworks is known to be NP-complete; however, aside from a few results for special cases, we have lacked an in-depth and comprehensive understanding of the complexity of the problems from the viewpoint of natural restrictions of the considered instances.
-
-
-
-In the first part of our paper, we develop new algorithms and give hardness-proofs in order to obtain a detailed complexity map of (M)RCPSP that settles the complexity of all 1024 considered variants of the problem defined in terms of explicit restrictions of natural parameters of instances. In the second part, we turn to implicit structural restrictions defined in terms of the complexity of interactions between individual activities. In particular, we show that if the treewidth of a graph which captures such interactions is bounded by a constant, then we can solve MRCPSP in polynomial time.

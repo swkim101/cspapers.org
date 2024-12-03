@@ -1,1 +1,0 @@
-Many traditional approaches to constructing confidence intervals for randomized experiments with binary outcomes are based on a binomial model for the outcome distribution. However, the assumptions underlying the binomial model are highly problematic in typical experimental designs [Robins 1988].

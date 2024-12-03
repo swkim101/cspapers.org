@@ -1,4 +1,0 @@
-
- 
- Thymio is a small, inexpensive, mass-produced mobile robot with widespread use in primary and secondary education. In order to make it more versatile and effectively use it in later educational stages, including university levels, we have expanded Thymio's capabilities by adding off-the-shelf hardware and open software components. The resulting robot, that we call Mighty Thymio, provides additional sensing functionalities, increased computing power, networking, and full ROS integration. We present the architecture of Mighty Thymio and show its application in advanced educational activities.
- 

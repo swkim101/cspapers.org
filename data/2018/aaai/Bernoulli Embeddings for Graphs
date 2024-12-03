@@ -1,4 +1,0 @@
-
- 
- Just as semantic hashing can accelerate information retrieval, binary valued embeddings can significantly reduce latency in the retrieval of graphical data. We introduce a simple but effective model for learning such binary vectors for nodes in a graph. By imagining the embeddings as independent coin flips of varying bias, continuous optimization techniques can be applied to the approximate expected loss. Embeddings optimized in this fashion consistently outperform the quantization of both spectral graph embeddings and various learned real-valued embeddings, on both ranking and pre-ranking tasks for a variety of datasets.
- 

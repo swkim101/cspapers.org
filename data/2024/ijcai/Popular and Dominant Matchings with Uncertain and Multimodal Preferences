@@ -1,9 +1,0 @@
-We study the Popular Matching (PM) problem in multiple models, where the preferences of the agents in the instance may change or may be unknown or uncertain. In particular, we study an Uncertainty model, where each agent has a possible set of preference lists, a Multilayer model, where there are layers of preference profiles, and a Robust popularity model, where any agent may move some other agents up or down some places in his preference list. Our goal is always to find a matching that is popular in any possible preference profile.
-
-
-
-We study both one-sided (only one class of the agents have preferences) and two-sided bipartite markets. In the one-sided model, we show that all our problems can be solved in polynomial time by utilizing the structure of popular matchings. We also obtain nice structural results. With two-sided preferences, we show that all three above models lead to NP-hard questions for popular matchings. By using the connection between dominant matchings and stable matchings, we show that in the robust and uncertainty models, a certainly dominant matching in all possible preference profiles can be found in polynomial time, whereas in the multilayer model, the problem remains NP-hard for dominant matchings too. 
-
-
-
-We also answer an open question about d-robust stable matchings.

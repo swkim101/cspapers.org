@@ -1,1 +1,0 @@
-In this work, we proposed a DDI detection method based on molecular structures using graph convolutional networks and deep sets. We proposed a more discriminative convolutional layer compared to conventional GCN and achieved permutation invariant prediction without losing the capability of capturing complicated interactions.

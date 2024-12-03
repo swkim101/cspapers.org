@@ -1,4 +1,0 @@
-
- 
- Teaching a computer to play video games has generally been seen as a reasonable benchmark for developing new AI techniques. In recent years, extensive research has been completed to develop reinforcement learning (RL) algorithms to play various Atari 2600 games, resulting in new applications of algorithms such as Deep Q-Learning or Policy Gradient that outperform humans. However, games from Super Nintendo Entertainment System (SNES) are far more complicated than Atari 2600 games as many of these state-of-the-art algorithms still struggle to perform on this platform. In this paper, we present a new platform to research algorithms on SNES games and investigate NeuroEvolution of Augmenting Topologies (NEAT) as a possible approach to develop algorithms that outperform humans in SNES games.
- 

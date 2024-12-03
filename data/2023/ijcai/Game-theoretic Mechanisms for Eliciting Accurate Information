@@ -1,5 +1,0 @@
-Artificial Intelligence often relies on information obtained from others through crowdsourcing, federated learning, or data markets. It is crucial to ensure that this data is accurate. Over the past 20 years, a variety of incentive mechanisms have been developed that use game theory to reward the accuracy of contributed data. These techniques are applicable to many settings where AI uses contributed data.
-
-
-
-This survey categorizes the different techniques and their properties, and shows their limits and tradeoffs. It identifies open issues and points to possible directions to address these.

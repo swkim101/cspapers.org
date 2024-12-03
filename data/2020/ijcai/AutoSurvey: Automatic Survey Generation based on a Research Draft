@@ -1,5 +1,0 @@
-This work presents AutoSurvey, an intelligent system that performs literature survey and generates a summary specific to a research draft. 
-
-A neural model for information structure analysis is employed for extracting fine-grained information from the abstracts of previous work, and a novel evolutionary multi-source summarization model is proposed for generating the summary of related work. 
-
-This system is extremely used for both academic and educational purposes.

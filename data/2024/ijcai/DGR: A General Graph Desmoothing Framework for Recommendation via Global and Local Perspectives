@@ -1,7 +1,0 @@
-Graph Convolutional Networks (GCNs) have become pivotal in recommendation systems for learning user and item embeddings by leveraging the user-item interaction graph's node information and topology. However, these models often face the famous over-smoothing issue, leading to indistinct user and item embeddings and reduced personalization. Traditional desmoothing methods in GCN-based systems are model-specific, lacking a universal solution. This paper introduces a novel, model-agnostic approach named Desmoothing Framework for GCN-based Recommendation Systems (DGR). It effectively addresses over-smoothing on general GCN-based recommendation models by considering both global and local perspectives. Specifically, 
-
-we first introduce vector perturbations during each message passing layer to penalize the tendency of node embeddings approximating overly to be similar with the guidance of the global topological structure. Meanwhile, we further develop a tailored-design loss term for the readout embeddings to preserve the local collaborative relations between users and their neighboring items. 
-
-In particular, items that exhibit a high correlation with neighboring items are also incorporated to enhance the local topological information.
-
-To validate our approach, we conduct extensive experiments on 5 benchmark datasets based on 5 well-known GCN-based recommendation models, demonstrating the effectiveness and generalization of our proposed framework. Our code is available at https://github.com/me-sonandme/DGR.

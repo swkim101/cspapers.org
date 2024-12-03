@@ -1,6 +1,0 @@
-
- In data science problems, understanding the data is a crucial first step. However, it can be challenging and time intensive for a data scientist who is not an expert in that domain. Several downstream tasks such as feature engineering and data curation depend on the understanding of data semantics. In this demonstration, we present,
- ADE (Automated Data Explanation)
- , a novel system that uses
- maximum likelihood estimation approach
- through ensembles for automatically labeling and explaining relational data by taking advantage of openly available semantic knowledge bases, webtables and Wikipedia. It helps a user to understand concepts of various columns and their relationships, an abstract summary about the overall data, and additional context not present in the data. It reduces the need for cumbersome search queries or expert consultation and can also receive inputs or corrections from a user, making it a mixed-initiative automation system.

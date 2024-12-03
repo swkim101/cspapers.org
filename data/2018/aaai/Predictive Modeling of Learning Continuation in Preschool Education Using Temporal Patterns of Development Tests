@@ -1,4 +1,0 @@
-
- 
- Learning analytics applies data analysis techniques to learning data in order to support students’ learning processes and to improve the quality of education. Despite the increasing attention to learning analytics for higher education, it has not been fully addressed in primary and preschool education. In this research, we apply learning analytics to preschool education to predict the continuation of learning of preschool children. Based on our hypothesis that temporal patterns in the assessment scores of development tests are effective features for prediction, we extract the temporal patterns using time-series clustering, and use them as the features of prediction models. The experimental results using a real preschool education dataset show that the use of the temporal patterns improves the predictive accuracy of future continuation of study.
- 

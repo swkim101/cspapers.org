@@ -1,9 +1,0 @@
-Collaborative privacy-preserving planning (CPPP) is a multi-agent planning task in which agents need to achieve a common set of goals without revealing certain private information. CPPP has gained attention in recent years as an important sub area of multi agent planning, presenting new challenges to the planning community.
-
-In this paper we describe recent advancements, and outline open problems and future directions in this field. 
-
-
-
-We begin with describing different models of privacy, such as weak and strong privacy, agent privacy, and cardinality preserving privacy. We then discuss different solution approaches, focusing on the two prominent methods --- joint creation of a global coordination scheme first, followed by independent planning to extend the global scheme with private actions; and collaborative local planning where agents communicate information concerning their planning process.
-
-In both cases a heuristic is needed to guide the search process. We describe several adaptations of well known classical planning heuristic to CPPP, focusing on the difficulties in computing the heuristic without disclosing private information.

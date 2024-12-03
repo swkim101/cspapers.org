@@ -1,5 +1,0 @@
-There has been a great deal of recent interest in binarized neural networks, especially because of their explainability. At the same time, automatic differentiation algorithms such as backpropagation fail for binarized neural networks, which limits their applicability. 
-We show that binarized neural networks admit a tame representation
-by reformulating the problem of training binarized neural networks as a subadditive dual of a mixed-integer program, which we show to have nice properties. This makes it possible to use the framework of Bolte et al. for implicit differentiation, which offers the possibility for practical implementation of backpropagation in the context of binarized neural networks. 
-
-This approach could also be used for a broader class of mixed-integer programs, beyond the training of binarized neural networks, as encountered in symbolic approaches to AI and beyond.

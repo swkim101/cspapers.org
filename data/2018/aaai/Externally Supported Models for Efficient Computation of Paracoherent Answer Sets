@@ -1,4 +1,0 @@
-
- 
- Answer Set Programming (ASP) is a well-established formalism for nonmonotonic reasoning.While incoherence, the non-existence of answer sets for some programs, is an important feature of ASP, it has frequently been criticised and indeed has some disadvantages, especially for query answering.Paracoherent semantics have been suggested as a remedy, which extend the classical notion of answer sets to draw meaningful conclusions also from incoherent programs. In this paper we present an alternative characterization of the two major paracoherent semantics in terms of (extended) externally supported models. This definition uses a transformation of ASP programs that is more parsimonious than the classic epistemic transformation used in recent implementations.A performance comparison carried out on benchmarks from ASP competitions shows that the usage of the new transformation brings about performance improvements that are independent of the underlying algorithms.
- 

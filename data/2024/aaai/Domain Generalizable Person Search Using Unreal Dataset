@@ -1,6 +1,0 @@
-Collecting and labeling real datasets to train the person search networks not only requires a lot of time and effort, but also accompanies privacy issues. 
-The weakly-supervised and unsupervised domain adaptation methods have been proposed to alleviate the labeling burden for target datasets, however, their generalization capability is limited. 
-We introduce a novel person search method based on the domain generalization framework, that uses an automatically labeled unreal dataset only for training but is applicable to arbitrary unseen real datasets. 
-To alleviate the domain gaps when transferring the knowledge from the unreal source dataset to the real target datasets, we estimate the fidelity of person instances which is then used to train the end-to-end network adaptively. 
-Moreover, we devise a domain-invariant feature learning scheme to encourage the network to suppress the domain-related features.
-Experimental results demonstrate that the proposed method provides the competitive performance to existing person search methods even though it is applicable to arbitrary unseen datasets without any prior knowledge and re-training burdens.

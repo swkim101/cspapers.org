@@ -1,4 +1,0 @@
-
- 
- This paper proposes and evaluates Memory-Augmented Monte Carlo Tree Search (M-MCTS), which provides a new approach to exploit generalization in online real-time search. The key idea of M-MCTS is to incorporate MCTS with a memory structure, where each entry contains information of a particular state. This memory is used to generate an approximate value estimation by combining the estimations of similar states. We show that the memory based value approximation is better than the vanilla Monte Carlo estimation with high probability under mild conditions. We evaluate M-MCTS in the game of Go. Experimental results show that M-MCTS outperforms the original MCTS with the same number of simulations.
- 

@@ -1,4 +1,0 @@
-
- 
- This paper presents a novel approach for optical character recognition (OCR) on acceleration and to avoid underfitting by text. Previously proposed OCR models typically take much time in the training phase and require large amount of labelled data to avoid underfitting. In contrast, our method does not require such condition. This is a challenging task related to transferring the character sequential relationship from text to OCR. We build a model based on transductive transfer learning to achieve domain adaptation from text to image. We thoroughly evaluate our approach on different datasets, including a general one and a relatively small one. We also compare the performance of our model with the general OCR model on different circumstances. We show that (1) our approach accelerates the training phase 20-30% on time cost; and (2) our approach can avoid underfitting while model is trained on a small dataset.
- 

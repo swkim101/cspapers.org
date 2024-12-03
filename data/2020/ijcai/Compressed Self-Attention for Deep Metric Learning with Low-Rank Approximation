@@ -1,7 +1,0 @@
-In this paper, we apply self-attention (SA) mechanism to boost the performance of deep metric learning. However, due to the pairwise similarity measurement, the cost of storing and manipulating the complete attention maps makes it infeasible for large inputs. To solve this problem, we propose
-
-a compressed self-attention with low-rank approximation (CSALR) module, which significantly reduces the computation and memory costs without
-
-sacrificing the accuracy. In CSALR, the original attention map is decomposed into a landmark attention map and a combination coefficient map with
-
-a small number of landmark feature vectors sampled from the input feature map by average pooling. Thanks to the efficiency of CSALR, we can apply CSALR to high-resolution shallow convolutional layers and implement a multi-head form of CSALR, which further boosts the performance. We evaluate the proposed CSALR on person reidentification which is a typical metric learning task. Extensive experiments shows the effectiveness and efficiency of CSALR in deep metric learning and its superiority over the baselines.

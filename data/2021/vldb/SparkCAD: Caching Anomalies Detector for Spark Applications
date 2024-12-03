@@ -1,6 +1,0 @@
-
- Developers of Apache Spark applications can accelerate their workloads by caching suitable intermediate results in memory and reusing them rather than recomputing them all over again every time they are needed. However, as scientific workflows are becoming more complex, application developers are becoming more prone to making wrong caching decisions, which we refer to as
- caching anomalies
- , that lead to poor performance. We present and give a demonstration of
- Spark Caching Anomalies Detector (SparkCAD)
- , a developer decision support tool that visualizes the logical plan of Spark applications and detects caching anomalies.

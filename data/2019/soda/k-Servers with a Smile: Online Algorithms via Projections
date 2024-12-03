@@ -1,1 +1,0 @@
-We consider the $k$-server problem on trees and HSTs. We give an algorithms based on %the convex-programming primitive of Bregman projections. This algorithm has a competitive ratios that match some of the recent results given by Bubeck et al. (STOC 2018), whose algorithm was based on mirror-descent-based continuous dynamics prescribed via a differential inclusion.

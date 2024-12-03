@@ -1,5 +1,0 @@
-In this paper, we consider the problem of computing the barycenter of a set of probability distributions under the Sinkhorn divergence. 
-This problem has recently found applications across various domains, including graphics, learning, and vision, as it provides a meaningful mechanism to aggregate knowledge. 
-Unlike previous approaches which directly operate in the space of probability measures, we recast the Sinkhorn barycenter problem as an instance of unconstrained functional optimization and develop a novel functional gradient descent method named Sinkhorn Descent (SD). 
-We prove that SD converges to a stationary point at a sublinear rate, and under reasonable assumptions, we further show that it asymptotically finds a global minimizer of the Sinkhorn barycenter problem. Moreover, by providing a mean-field analysis, we show that SD preserves the weak convergence of empirical measures. 
-Importantly, the computational complexity of SD scales linearly in the dimension $d$ and we demonstrate its scalability by solving a $100$-dimensional Sinkhorn barycenter problem.

@@ -1,6 +1,0 @@
-
- Byzantine consensus is a critical component in many
- permissioned
- Blockchains and distributed ledgers. We propose a new paradigm for designing BFT protocols called DQBFT that addresses three major performance and scalability challenges that plague past protocols: (i) high communication costs to reach geo-distributed agreement, (ii) uneven resource utilization hampering performance, and (iii) performance degradation under varying node and network conditions and high-contention workloads. Specifically, DQBFT divides consensus into two parts: 1) durable command replication without a global order, and 2) consistent global ordering of commands across all replicas. DQBFT achieves this by decentralizing the heavy task of replicating commands while centralizing the ordering process.
- 
- Under the new paradigm, we develop a new protocol, Destiny that uses a combination of three techniques to achieve high performance and scalability: using a trusted subsystem to decrease consensus's quorum size, using threshold signatures to attain linear communication costs, reducing client communication. Our evaluations on 300-replica geo-distributed deployment reveal that DQBFT protocols achieve significant performance gains over prior art: ≈3x better throughput and ≈50% better latency.

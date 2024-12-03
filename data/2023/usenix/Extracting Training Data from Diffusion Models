@@ -1,8 +1,0 @@
-Image diffusion models such as DALL-E 2, Imagen, and Stable Diffusion have attracted significant attention due to their ability to generate high-quality synthetic images. In this work, we show that diffusion models memorize individual images from their training data and emit them at generation time. With a generate-and-filter pipeline, we extract over a thousand training examples from state-of-the-art models, ranging from photographs of individual people to trademarked company logos. We also train hundreds of diffusion models in various settings to analyze how different modeling and data decisions affect privacy. Overall, our results show that diffusion models are much less private than prior generative models such as GANs, and that mitigating these vulnerabilities may require new advances in privacy-preserving training.
-
-                    
-          Nicolas Carlini, Research Scientist, Google Research
-            
-  
-  
-    Nicholas Carlini is a research scientist at Google Brain. He analyzes the security and privacy of machine learning, for which he has received best paper awards at IEEE S&P and ICML. He graduated with his PhD from the the University of California, Berkeley in 2018.

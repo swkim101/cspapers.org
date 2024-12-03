@@ -1,4 +1,0 @@
-
- 
- Typically, neural conversation systems generate replies based on the sequence-to-sequence (seq2seq) model. seq2seq tends to produce safe and universal replies, which suffers from the lack of diversity and information. Determinantal Point Processes (DPPs) is a probabilistic model defined on item sets, which can select the items with good diversity and quality. In this paper, we investigate the diversity issue in two different aspects, namely query-level and system-level diversity. We propose a novel framework which organically combines seq2seq model with Determinantal Point Processes (DPPs). The new framework achieves high quality in generated reply and significantly improves the diversity among them. Experiments show that our model achieves the best performance among various baselines in terms of both quality and diversity.
- 

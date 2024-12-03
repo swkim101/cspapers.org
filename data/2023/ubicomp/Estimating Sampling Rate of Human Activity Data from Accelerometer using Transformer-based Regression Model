@@ -1,1 +1,0 @@
-We propose a method to estimate the sampling frequency from only the 3-axis acceleration data. The proposed method calculates the absolute difference between two consecutive samples, creates a histogram, and constructs a Transformer-based regression model.

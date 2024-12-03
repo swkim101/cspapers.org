@@ -1,8 +1,0 @@
-We study the enumeration of answers to ontology-mediated queries
-when the ontology is formulated in a description logic that supports
-functional roles and the query is a CQ. In particular, we show that
-enumeration is possible with linear preprocessing and constant delay
-when a certain extension of the CQ (pertaining to functional roles)
-is acyclic and free-connex acyclic. This holds both for complete answers and
-for partial answers. We provide matching lower bounds for the
-case where the query is self-join free.

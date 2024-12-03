@@ -1,1 +1,0 @@
-To recommend relevant merchandises for seasonal retail events, we rely on item retrieval from marketplace inventory. With feedback to expand query scope, we discuss keyword expansion candidate selection using word embedding similarity, and an enhanced tf-idf formula for expanded words in search ranking.

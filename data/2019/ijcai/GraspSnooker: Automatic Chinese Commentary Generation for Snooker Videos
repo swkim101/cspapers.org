@@ -1,1 +1,0 @@
-We demonstrate a web-based software system, GraspSnooker, which is able to automatically generate Chinese text commentaries for snooker game videos. It consists of a video analyzer, a strategy predictor and a commentary generator. As far as we know, it is the first attempt on snooker commentary generation, which might be helpful for snooker learners to understand the game.

@@ -1,7 +1,0 @@
-We study Stackelberg security game (SSG) with multiple defenders, where heterogeneous defenders need to allocate security resources to protect a set of targets against a strategic attacker. 
-In such games, coordination and cooperation between the defenders can increase their ability to protect their assets, but the heterogeneous preferences of the self-interested defenders often make such cooperation very difficult. 
-In this paper, we approach the problem from the perspective of cooperative game theory and study coalition formation among the defenders.
-Our main contribution is a number of algorithmic results for the computation problems that arise in this model.
-We provide a poly-time algorithm for computing a solution in the core of the game and show that all of the elements in the core are Pareto efficient.
-We show that the problem of computing the entire core is NP-hard and then delve into a special setting where the size of a coalition is limited up to some threshold. 
-We analyse the parameterized complexity of deciding if a coalition structure is in the core under this special setting, and provide a poly-time algorithm for computing successful deviation strategies for a given coalition.

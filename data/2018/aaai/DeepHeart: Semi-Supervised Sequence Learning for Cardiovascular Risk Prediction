@@ -1,4 +1,0 @@
-
- 
- We train and validate a semi-supervised, multi-task LSTM on 57,675 person-weeks of data from off-the-shelf wearable heart rate sensors, showing high accuracy at detecting multiple medical conditions, including diabetes (0.8451), high cholesterol (0.7441), high blood pressure (0.8086), and sleep apnea (0.8298). We compare two semi-supervised training methods, semi-supervised sequence learning and heuristic pretraining, and show they outperform hand-engineered biomarkers from the medical literature. We believe our work suggests a new approach to patient risk stratification based on cardiovascular risk scores derived from popular wearables such as Fitbit, Apple Watch, or Android Wear.
- 

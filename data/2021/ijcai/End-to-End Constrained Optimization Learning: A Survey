@@ -1,3 +1,0 @@
-This paper surveys the recent attempts at leveraging machine learning to solve constrained optimization problems. It focuses on surveying the work on integrating combinatorial solvers and optimization methods with machine learning architectures.
-
-These approaches hold the promise to develop new hybrid machine learning and optimization methods to predict fast, approximate, solutions to combinatorial problems and to enable structural logical inference. This paper presents a conceptual review of the recent advancements in this emerging area.

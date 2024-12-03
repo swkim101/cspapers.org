@@ -1,4 +1,0 @@
-
- 
- In this paper, we propose a unified framework and an algorithm for the problem of group recommendation where a fixed number of items or alternatives can be recommended to a group of users. The problem of group recommendation arises naturally in many real world contexts, and is closely related to the budgeted social choice problem studied in economics. We frame the group recommendation problem as choosing a subgraph with the largest group consensus score in a completely connected graph defined over the item affinity matrix. We propose a fast greedy algorithm with strong theoretical guarantees, and show that the proposed algorithm compares favorably to the state-of-the-art group recommendation algorithms according to commonly used relevance and coverage performance measures on benchmark dataset.
- 

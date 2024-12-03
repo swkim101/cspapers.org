@@ -1,6 +1,0 @@
-
- Kernel density visualization (KDV) has been the de facto method in many spatial analysis tasks, including ecological modeling, crime hotspot detection, traffic accident hotspot detection, and disease outbreak detection. In these tasks, domain experts usually generate multiple KDVs with different bandwidth values. However, generating a single KDV, let alone multiple KDVs, is time-consuming. In this paper, we develop a share-and-aggregate framework, namely SAFE, to reduce the time complexity of generating multiple KDVs given a set of bandwidth values. On the other hand, domain experts can specify bandwidth values on the fly. To tackle this issue, we further extend SAFE and develop the exact method SAFE
- all
- and the 2-approximation method SAFE
- exp
- which reduce the time complexity under this setting. Experimental results on four large-scale datasets (up to 4.33M data points) show that these three methods achieve at least one-order-of-magnitude speedup for generating multiple KDVs in most of the cases without degrading the visualization quality.

@@ -1,4 +1,0 @@
-
- 
- Can student behavior be anticipated in real-time so that an intelligent tutor system can adapt its content to keep the student engaged? Current methods detect affective states of students during learning session to determine their engagement levels but apply the learning in next session in the form of intervention policies and tutor responses. However, if students' imminent behavioral action could be anticipated from their affective states in real-time, this could lead to much more responsive intervention policies by the tutor and assist in keeping the student engaged in an activity, thereby increasing tutor efficacy as well as student engagement levels. In this paper we explore if there exist any links between a student's affective states and his/her imminent behavior action in RoboTutor, an intelligent tutor system for children to learn math, reading and writing. We then exploit our findings to develop a real-time student behavior prediction module.
- 

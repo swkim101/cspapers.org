@@ -1,9 +1,0 @@
-In polymatrix coordination games, each player x is a node of a graph and must select an action in her strategy set. Nodes are playing separate bimatrix games with their neighbors in the graph. Namely, the utility of x is given by the preference she has for her action plus, for each neighbor y, a payoff which strictly depends on the mutual actions played by x and y.
-
-
-
-We propose the new class of distance polymatrix coordination games, properly generalizing polymatrix coordination games, in which the overall utility of player x further depends on the payoffs arising by mutual actions of players v,z that are the endpoints of edges at any distance h<d from x, for a fixed threshold value d≤n. In particular, the overall utility of player x is the sum of all the above payoffs, where each payoff is proportionally discounted by a factor depending on the distance h of the corresponding edge.
-
-
-
-Under the above framework, which is a natural generalization that is well-suited for capturing positive community interactions, we study the social inefficiency of equilibria resorting to standard measures of Price of Anarchy and Price of Stability. Namely, we provide suitable upper and lower bounds for the aforementioned quantities, both for bounded-degree and general graphs.

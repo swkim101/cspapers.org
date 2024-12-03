@@ -1,6 +1,0 @@
-Reward machines are an established tool for dealing with reinforcement learning problems in which rewards are sparse and depend on complex sequences of actions.
- However, existing algorithms for learning reward machines assume an overly idealized setting where rewards have to be free of noise.
- To overcome this practical limitation, we introduce a novel type of reward machines, called stochastic reward machines, and an algorithm for learning them.
- Our algorithm, based on constraint solving, learns minimal stochastic reward machines from the explorations of a reinforcement learning agent.
- This algorithm can easily be paired with existing reinforcement learning algorithms for reward machines and guarantees to converge to an optimal policy in the limit.
- We demonstrate the effectiveness of our algorithm in two case studies and show that it outperforms both existing methods and a naive approach for handling noisy reward functions.

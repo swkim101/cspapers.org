@@ -1,6 +1,0 @@
-This paper introduces the design, development, and deployment of a Virtual Driving Instructor (VDI) for enhanced driver education. 
-The VDI provides personalized, real-time feedback to students in a driving simulator, addressing some of the limitations of traditional driver instruction. 
-Employing a hybrid AI system, the VDI combines rule-based agents, learning-based agents, knowledge graphs, and Bayesian networks to assess and monitor student performance in a comprehensive manner. 
-Implemented in multiple simulators at a driving school in Norway, the system aims to leverage AI and driving simulation to improve both the learning experience and the efficiency of instruction. 
-Initial feedback from students has been largely positive, highlighting the effectiveness of this integration while also pointing to areas for further improvement. 
-This work marks a significant stride in infusing technology into driver education, offering a scalable and efficient approach to instruction.

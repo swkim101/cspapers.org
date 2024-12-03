@@ -1,4 +1,0 @@
-The proliferation of consumer IoT products in our daily lives has raised the need for secure device authentication and access control.
-Unfortunately, these resource-constrained devices typically use token-based authentication, which is vulnerable to token compromise attacks that allow attackers to impersonate the devices and perform malicious operations by stealing the access token.
-Using hardware fingerprints to secure their authentication is a promising way to mitigate these threats.
-However, once attackers have stolen some hardware fingerprints (e.g., via MitM attacks), they can bypass the hardware authentication by training a machine learning model to mimic fingerprints or reusing these fingerprints to craft forge requests.

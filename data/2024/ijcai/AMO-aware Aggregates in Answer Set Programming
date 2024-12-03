@@ -1,7 +1,0 @@
-Aggregates such as sum and count are among the most frequently used linguistic extensions of Answer Set Programming (ASP).
-
-At-most-one (AMO) constraints are a specific form of aggregates that excludes the simultaneous truth of multiple elements in a set.
-
-This article unleashes a powerful propagation strategy in case groups of elements in an aggregate are also involved in AMO constraints.
-
-In fact, the combined knowledge given by aggregates and AMO constraints significantly increases the effectiveness of search space pruning, resulting in sensible performance gains.

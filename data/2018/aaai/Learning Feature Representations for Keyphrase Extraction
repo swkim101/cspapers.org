@@ -1,4 +1,0 @@
-
- 
- In supervised approaches for keyphrase extraction, a candidate phrase is encoded with a set of hand-crafted features and machine learning algorithms are trained to discriminate keyphrases from non-keyphrases. Although the manually-designed features have shown to work well in practice, feature engineering is a difficult process that requires expert knowledge and normally does not generalize well. In this paper, we present SurfKE, a feature learning framework that exploits the text itself to automatically discover patterns that keyphrases exhibit. Our model represents the document as a graph and automatically learns feature representation of phrases. The proposed model obtains remarkable improvements in performance over strong baselines.
- 

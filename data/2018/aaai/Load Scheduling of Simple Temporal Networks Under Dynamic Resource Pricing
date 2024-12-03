@@ -1,4 +1,0 @@
-
- 
- We study load scheduling of simple temporal networks (STNs) under dynamic pricing of resources. We are given a set of processes and a set of simple temporal constraints between their execution times, i.e., an STN. Each process uses a certain amount of resource for execution. The unit price of the resource is a function of time, f(t). The goal is to find a schedule of a given STN that trades off makespan minimization against cost minimization within a user-specified suboptimality bound. We provide a polynomial-time algorithm for solving the load scheduling problem when f(t) is piecewise constant. This has important applications in many real-world domains including the smart home and smart grid domains. We then study the dependency of the unit price of the resource on time as well as the total demand at that time. This leads to a further characterization of tractable, NP-hard, and conjectured tractable cases.
- 

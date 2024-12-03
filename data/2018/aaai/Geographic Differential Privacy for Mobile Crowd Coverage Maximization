@@ -1,4 +1,0 @@
-
- 
- For real-world mobile applications such as location-based advertising and spatial crowdsourcing, a key to success is targeting mobile users that can maximally cover certain locations in a future period. To find an optimal group of users, existing methods often require information about users' mobility history, which may cause privacy breaches. In this paper, we propose a method to maximize mobile crowd's future location coverage under a guaranteed location privacy protection scheme. In our approach, users only need to upload one of their frequently visited locations, and more importantly, the uploaded location is obfuscated using a geographic differential privacy policy. We propose both analytic and practical solutions to this problem. Experiments on real user mobility datasets show that our method significantly outperforms the state-of-the-art geographic differential privacy methods by achieving a higher coverage under the same level of privacy protection.
- 

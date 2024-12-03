@@ -1,6 +1,0 @@
-Distributed systems are hard to design and implement correctly. Recent work has tried to
-use formal verification techniques to provide rigorous correctness guarantees. These works
-present a hard choice, though. One must either opt for the power of refinement-based approaches
-like IronFleet and Verdi, at the cost of large amounts of manual effort; or choose the more
-automated approach of I4, IC3PO, SWISS and DistAI which give up the ability to prove refinement and the power and scalability that come with it.
-We propose an alternative approach, Sift, that combines the power of refinement with the ability to automate proofs. Sift is a two-tier methodology that uses a new technique, refinement-guided automation, to leverage automation in a refinement proof and a divide-and-conquer technique to split a system into more refinement layers when necessary. This combination advances the frontier of what systems can be proven correct using a high degree of automation. Contrary to what was possible before, our evaluation shows that our novel approach allows us to prove the correctness of a number of systems with little manual effort, and to extend our proofs to include not just the protocols, but also an executable distributed implementation of these systems.

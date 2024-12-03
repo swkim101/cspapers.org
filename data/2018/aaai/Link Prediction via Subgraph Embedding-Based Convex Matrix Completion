@@ -1,4 +1,0 @@
-
- 
- Link prediction is of fundamental importance in network science and machine learning. Early methods consider only simple topological features, while subsequent supervised approaches typically rely on human-labeled data and feature engineering. In this work, we present a new representation learning-based approach called SEMAC that jointly exploits fine-grained node features as well as the overall graph topology. In contrast to the SGNS or SVD methods espoused in previous representation-based studies, our model represents nodes in terms of subgraph embeddings acquired via a form of convex matrix completion to iteratively reduce the rank, and thereby, more effectively eliminate noise in the representation. Thus, subgraph embeddings and convex matrix completion are elegantly integrated into a novel link prediction framework. Experimental results on several datasets show the effectiveness of our method compared to previous work.
- 

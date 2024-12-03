@@ -1,9 +1,0 @@
-Solving (mixed) integer (linear) programs, (M)I(L)Ps for short, is a fundamental optimisation task with a wide range of applications in artificial intelligence and computer science in general. While hard in general, recent years have brought about vast progress for solving structurally restricted, (non-mixed) ILPs: n-fold, tree-fold, 2-stage stochastic and multi-stage stochastic programs admit efficient algorithms, and all of these special cases are subsumed by the class of ILPs of small treedepth.
-
-In this paper, we extend this line of work to the mixed case, by showing an algorithm solving MILP in time f(a,d)poly(n), where a is the largest coefficient of the constraint matrix, d is its treedepth, and n is the number of variables.
-
-This is enabled by proving bounds on the denominators (fractionality) of the vertices of bounded-treedepth (non-integer) linear programs. We do so by carefully analysing the inverses of invertible sub-matrices of the constraint matrix. This allows us to afford scaling up the mixed program to the integer grid, and applying the known methods for integer programs.
-
-We then trace the limiting boundary of our "bounded fractionality" approach both in terms of going beyond MILP (by allowing non-linear objectives) as well as its usefulness for generalising other important known tractable classes of ILP. On the positive side, we show that our result can be generalised from MILP to MIP with piece-wise linear separable convex objectives with integer breakpoints. On the negative side, we show that going even slightly beyond such objectives or considering other natural related tractable classes of ILP leads to unbounded fractionality.
-
-Finally, we show that restricting the structure of only the integral variables in the constraint matrix does not yield tractable special cases.

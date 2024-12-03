@@ -1,4 +1,0 @@
-
- 
- We introduce a novel model-agnostic system that explains the behavior of complex models with high-precision rules called anchors, representing local, "sufficient" conditions for predictions. We propose an algorithm to efficiently compute these explanations for any black-box model with high-probability guarantees. We demonstrate the flexibility of anchors by explaining a myriad of different models for different domains and tasks. In a user study, we show that anchors enable users to predict how a model would behave on unseen instances with less effort and higher precision, as compared to existing linear explanations or no explanations.
- 
