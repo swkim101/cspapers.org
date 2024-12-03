@@ -131,9 +131,25 @@ We referred to csrankings.org for organizing conferences.
 
 Thanks to https://github.com/michmech/lemmatization-lists for lemma data.
 
+All data is from to Semantic Schoalr. Thank you.
+
+If this is helpful, consider to cite Semantic Scholar:
+```
+@misc{https://doi.org/10.48550/arxiv.2301.10140,
+ title = {The Semantic Scholar Open Data Platform},
+ author = {Kinney, Rodney and Anastasiades, Chloe and Authur, Russell and Beltagy, Iz and Bragg, Jonathan and Buraczynski, Alexandra and Cachola, Isabel and Candra, Stefan and Chandrasekhar, Yoganand and Cohan, Arman and Crawford, Miles and Downey, Doug and Dunkelberger, Jason and Etzioni, Oren and Evans, Rob and Feldman, Sergey and Gorney, Joseph and Graham, David and Hu, Fangzhou and Huff, Regan and King, Daniel and Kohlmeier, Sebastian and Kuehl, Bailey and Langan, Michael and Lin, Daniel and Liu, Haokun and Lo, Kyle and Lochner, Jaron and MacMillan, Kelsey and Murray, Tyler and Newell, Chris and Rao, Smita and Rohatgi, Shaurya and Sayre, Paul and Shen, Zejiang and Singh, Amanpreet and Soldaini, Luca and Subramanian, Shivashankar and Tanaka, Amber and Wade, Alex D. and Wagner, Linda and Wang, Lucy Lu and Wilhelm, Chris and Wu, Caroline and Yang, Jiangjiang and Zamarron, Angele and Van Zuylen, Madeleine and Weld, Daniel S.},
+ publisher = {arXiv},
+ year = {2023},
+ doi = {10.48550/ARXIV.2301.10140},
+ url = {https://arxiv.org/abs/2301.10140},
+ }
+```
+
 ## Disclaimer
 
-We index titles and abstracts. Paper contents and authors are ***not*** indexed. We crawl papers from 2018 - 2024 (partial).
+We index titles and abstracts. Paper contents and authors are ***not*** indexed.
+
+All data is from Semantic Scholar Dataset: https://api.semanticscholar.org/api-docs/datasets
 
 cspapers.org is served as implemented as is in this repository. I do not modify source code or data in and after distributions.  
 cspapers.org uses cloudflare for caching and fly.io for serving.  
