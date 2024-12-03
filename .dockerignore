@@ -23,7 +23,7 @@ build
 **/yarn-debug.log*
 **/yarn-error.log*
 
-**/index
+index/**
 **/data
 **/.vscode
 fly.toml

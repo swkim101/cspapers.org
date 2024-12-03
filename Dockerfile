@@ -1,14 +1,15 @@
 FROM golang:1.22 AS build
-WORKDIR /src
+WORKDIR /
 COPY . .
 RUN make lemmas -B
 RUN make server -B
 
 FROM alpine:latest
 WORKDIR /
-COPY --from=build /src/server /server
+COPY --from=build /server /server
 COPY ./default.server.config /default.server.config
-COPY --from=build /src/lemma.gob /lemma.gob
-COPY --from=build /src/lemmaInv.gob /lemmaInv.gob
+COPY ./db.cspapers.org /db.cspapers.org
+COPY --from=build /lemma.gob /lemma.gob
+COPY --from=build /lemmaInv.gob /lemmaInv.gob
 CMD ["/server", "-config", "/default.server.config"]
 EXPOSE 8000
