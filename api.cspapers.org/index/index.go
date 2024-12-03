@@ -89,6 +89,9 @@ func indexTitle(filename string, reqChan chan *types.InsertRequest) {
 		if !ok {
 			log.Fatalf("unknown venue id %v in %v", line.VenueId, string(dat))
 		}
+		if alias, ok := venueAlias[venue]; ok {
+			venue = alias
+		}
 		reqChan <- &types.InsertRequest{
 			Paper: types.Paper{
 				Title: line.Title,
