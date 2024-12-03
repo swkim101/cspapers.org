@@ -37,10 +37,14 @@ func ctor(connStr string, debug bool) (err error) {
 		abstractFieldMapping.Analyzer = "standard"
 		titleFieldMapping := bleve.NewTextFieldMapping()
 		titleFieldMapping.Analyzer = "standard"
+		yearMapping := bleve.NewNumericFieldMapping()
+		venueMapping := bleve.NewKeywordFieldMapping()
 
 		documentMapping := bleve.NewDocumentMapping()
 		documentMapping.AddFieldMappingsAt("abstract", abstractFieldMapping)
 		documentMapping.AddFieldMappingsAt("title", titleFieldMapping)
+		documentMapping.AddFieldMappingsAt("year", yearMapping)
+		documentMapping.AddFieldMappingsAt("venue", venueMapping)
 
 		mapping := bleve.NewIndexMapping()
 		mapping.AddDocumentMapping("paper", documentMapping)
@@ -174,24 +178,32 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 		sortBy = "-" + sortBy
 	}
 	search.SortBy([]string{sortBy})
+	search.Fields = []string{"year", "venue", "title"}
 	searchResults, err := index.Search(search)
 	if err != nil {
 		log.Printf("%v", err)
 		return &types.SearchResponse{}
 	}
-	log.Debugf("%v", searchResults)
+	log.Debugf("searchResults %v", searchResults)
 	data := []*types.SearchResponseUnit{}
 	for _, v := range searchResults.Hits {
-		year, venue, title, err := types.Decompose(types.Index(v.ID))
-		if err != nil {
-			log.Printf("err in decomposing %v, %v", v.ID, err)
-			continue
+		year, ok := v.Fields["year"].(float64)
+		if !ok {
+			log.Fatalf("year")
+		}
+		venue, ok := v.Fields["venue"].(string)
+		if !ok {
+			log.Fatalf("venue")
+		}
+		title, ok := v.Fields["title"].(string)
+		if !ok {
+			log.Fatalf("title")
 		}
 		data = append(data, &types.SearchResponseUnit{
 			Index: v.ID,
 			Score: v.Score,
 			Paper: types.Paper{
-				Year:  year,
+				Year:  uint32(year),
 				Venue: venue,
 				Title: title,
 			},
@@ -213,8 +225,7 @@ func batchInsert() {
 	for i := 0; true; i++ {
 		req, more := <-reqChan
 		if more {
-			idx := req.ToIndex()
-			batch.Index(idx, req)
+			batch.Index(req.Index, req)
 		}
 		if i == batchSize || !more {
 			log.Debugf("spool batch len %v", i)
@@ -234,8 +245,4 @@ func batchInsert() {
 func insert(req *types.InsertRequest) error {
 	reqChan <- req
 	return nil
-}
-
-func isWord(s string) bool {
-	return len(strings.Fields(s)) == 1
 }

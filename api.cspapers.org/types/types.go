@@ -1,17 +1,8 @@
 package types
 
-import (
-	"fmt"
-	"os"
-	"path"
-	"strconv"
-	"strings"
-)
-
-type Index string
-
 type InsertRequest struct {
 	Paper
+	Index    string
 	Abstract string `json:"abstract"`
 }
 
@@ -43,18 +34,4 @@ type SearchRequest struct {
 	YearTo    uint32   `json:"yearTo"`
 	Skip      uint32   `json:"skip"`
 	Must      []string `json:"must"`
-}
-
-func (p *Paper) ToIndex() string {
-	return path.Join(fmt.Sprint(p.Year), strings.ToLower(p.Venue), p.Title)
-}
-
-func Decompose(i Index) (year uint32, venue string, title string, err error) {
-	s := string(i)
-	p := strings.Split(s, string(os.PathSeparator))
-	year64, err := strconv.ParseInt(p[0], 10, 32)
-	if err != nil {
-		return 0, "", "", err
-	}
-	return uint32(year64), p[1], p[2], nil
 }
