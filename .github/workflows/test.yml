@@ -22,4 +22,6 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - name: Display Go version
-        run: go test api.cspapers.org/wordforms/wordforms_test.go 
+        run: |
+          make lemmas
+          go test api.cspapers.org/wordforms/wordforms_test.go 
