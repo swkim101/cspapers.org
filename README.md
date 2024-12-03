@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/swkim101/cspapers.org/actions">
-    <img src="https://github.com/swkim101/cspapers.org/actions/workflows/fly.yml/badge.svg"
+    <img src="https://github.com/swkim101/cspapers.org/actions/workflows/test.yml/badge.svg"
          alt="Continuous Deployment">
   </a>
 </p>

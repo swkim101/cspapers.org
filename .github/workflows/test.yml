@@ -2,6 +2,7 @@ name: Test api.cspapers.org
 on:
   push:
     paths:
+      - '.github/workflows/test.yml'
       - 'api.cspapers.org/**'
       - 'go.mod'
       - 'go.sum'
@@ -23,5 +24,5 @@ jobs:
           go-version: ${{ matrix.go-version }}
       - name: Display Go version
         run: |
-          make lemmas
+          make lemmas -B
           go test api.cspapers.org/wordforms/wordforms_test.go 
