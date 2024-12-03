@@ -1,0 +1,4 @@
+
+ 
+ Convolutional neural networks (CNNs) have achieved impressive performance in a wide range of computer vision areas. However, the application on mobile devices remains intractable due to the high computation complexity. In this demo, we propose the Quantized CNN (Q-CNN), an efficient framework for CNN models, to fulfill efficient and accurate image classification on mobile devices. Our Q-CNN framework dramatically accelerates the computation and reduces the storage/memory consumption, so that mobile devices can independently run an ImageNet-scale CNN model. Experiments on the ILSVRC-12 dataset demonstrate 4~6x speed-up and 15~20x compression, with merely one percentage drop in the classification accuracy. Based on the Q-CNN framework, even mobile devices can accurately classify images within one second.
+ 

@@ -1,0 +1,1 @@
+We integrate PropBank semantic role labels to an existing statistical parsing model producing richer output. We show conclusive results on joint learning and inference of syntactic and semantic representations.

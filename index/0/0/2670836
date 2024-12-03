@@ -1,0 +1,1 @@
+Semantic attachment is provided by FOL as a means for associating model values (i.e. LISP code) to symbols of a first order language. This paper presents an algorithm that automatically generates semantic attachments in FOL and discusses the advantages deriving from its use.

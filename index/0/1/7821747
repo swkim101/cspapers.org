@@ -1,0 +1,1 @@
+Individual utterances often serve multiple communicative purposes in dialogue. We present a data-driven approach for identification of multiple dialogue acts in single utterances in the context of dialogue systems with limited training data. Our approach results in significantly increased understanding of user intent, compared to two strong baselines.

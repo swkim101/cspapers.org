@@ -1,0 +1,1 @@
+In this paper we propose a trainable method for extracting Chinese entity names and their relations. We view the entire problem as series of classification problems and employ memory-based learning (MBL) to resolve them. Preliminary results show that this method is efficient, flexible and promising to achieve better performance than other existing methods.

@@ -1,0 +1,2 @@
+The interpretation of a machine instruction requires fetching the instruction, decoding the instruction, and then executing it. In addition, if the instruction requires one or more operands, their addresses must be generated and the operands fetched. A large number of processors have been designed to perform some or all of these functions simultaneously on successive instructions.
+ These pipelined processor architectures would appear to permit the decoding of a new instruction each machine cycle.

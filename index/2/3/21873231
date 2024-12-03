@@ -1,0 +1,1 @@
+We propose Thrifty Interconnection Network (TIN), where the network links are activated and de-activated dynamically to save power with little or no overhead by using inherent system events to overlap the link activation or de-activation time. Our simulation results on a set of real world HPC workload traces show on average 35% network power reduction.

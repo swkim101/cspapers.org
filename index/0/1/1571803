@@ -1,0 +1,1 @@
+We present a prototype system, SPIDER, developed at AT&T Labs-Research, which supports flexible string attribute value matching in large databases. We discuss the design principles on which SPIDER is based, describe the basic techniques encompassed by the tool and provide a description of the demo.

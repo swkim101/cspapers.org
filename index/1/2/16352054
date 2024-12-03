@@ -1,0 +1,4 @@
+
+ 
+ Recently, a new language AC(C) was proposed to integrate answer set programming (ASP) and constraint logic programming (CLP). In this paper, we show that temporally expressive planning problems in PDDL2.1 can be translated into AC(C) and solved using AC(C) solvers. Compared with existing approaches, the new approach puts less restrictions on the planning problems and is easy to extend with new features like PDDL axioms. It can also leverage the inference engine for AC(C) which has the potential to exploit the best reasoning mechanisms developed in the ASP, SAT and CP communities.
+ 

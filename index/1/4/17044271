@@ -1,0 +1,4 @@
+
+ 
+ There has been growing interest in stochastic methods to natural language generation (NLG). While most NLG pipelines separate morphological generation and syntactic linearization, the two tasks are closely related. In this paper, we study joint morphological generation and linearization, making use of word order and inflections information for both tasks and reducing error propagation. Experiments show that the joint method significantly outperforms a strong pipelined baseline (by 1.1 BLEU points). It also achieves the best reported result on the Generation Challenge 2011 shared task.
+ 

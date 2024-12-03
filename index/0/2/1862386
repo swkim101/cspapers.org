@@ -1,0 +1,1 @@
+In this paper, we propose a model to integrate term dependencies. Different from previous studies, each pair of terms is assigned a different weight of dependency according to their utility to IR. The experiments show that our model can significantly outperform the previous dependency models using fixed weights.

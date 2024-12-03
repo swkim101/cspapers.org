@@ -1,0 +1,1 @@
+We demonstrate a working system that utilizes an eventual consistent reliability model for wireless light control application. Initial results using only resource limited nodes, such as the popular mote platform, are promising; we achieve great end-to-end reliability for light control, with latency well within human-time scale.

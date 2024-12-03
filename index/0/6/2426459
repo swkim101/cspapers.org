@@ -1,0 +1,1 @@
+This paper describes a new design rule checking system for LSI mask patterns. Major features of the system are a relatively small computing time needed, even for very large circuits (e.g. 10,000 elements), wide applications to a variety of fabrication processes, due to its functional flexibility, and minimized spurious errors.

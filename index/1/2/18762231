@@ -1,0 +1,1 @@
+We present a randomized algorithm which uses <italic>O</italic>(<italic>n</italic>(log <italic>n</italic>)<supscrpt>1/3</supscrpt>) expected comparisons to verify that a given partial order holds on <italic>n</italic> elements from an unknown total order.

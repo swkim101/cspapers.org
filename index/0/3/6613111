@@ -1,0 +1,1 @@
+This paper describes an interactive system for editing of printed circuit layout designs. Each editing operation is dynamically checked against a set of user-defined design rules to assure that the resulting design is valid.

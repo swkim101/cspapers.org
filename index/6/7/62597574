@@ -1,0 +1,1 @@
+We develop a systolic design rule checker (SDRC) for rectilinear geometries. This SDRC reports all width and spacing violations. It is expected to result in a significant speed up of the design rule check phase of chip design.

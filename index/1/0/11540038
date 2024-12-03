@@ -1,0 +1,4 @@
+
+ 
+ For the problem of allocating resources among multiple strategic agents, the well-known Vickrey-Clarke-Groves (VCG) mechanism is efficient, strategy-proof, and it never incurs a deficit. However, in general, under the VCG mechanism, payments flow out of the system of agents, which reduces the agents' utilities. VCG redistribution mechanisms aim to return as much of the VCG payments as possible back to the agents, without affecting the desirable properties of the VCG mechanism. Most previous research on VCG redistribution mechanisms has focused on settings with homogeneous items and/or settings with unit-demand agents. In this paper, we study VCG redistribution mechanisms in the more general setting of combinatorial auctions. We show that when the gross substitutes condition holds, we are able to design mechanisms that guarantee to redistribute a large fraction of the VCG payments.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose principled weight learning algorithms for Markov logic networks that can easily scale to much larger datasets and application domains than existing algorithms. The main idea in our approach is to use approximate counting techniques to substantially reduce the complexity of the most computation intensive sub-step in weight learning: computing the number of groundings of a first-order formula that evaluate to true given a truth assignment to all the random variables. We derive theoretical bounds on the performance of our new algorithms and demonstrate experimentally that they are orders of magnitude faster and achieve the same accuracy or better than existing approaches.
+ 

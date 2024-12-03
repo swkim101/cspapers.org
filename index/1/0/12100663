@@ -1,0 +1,4 @@
+
+ 
+ In this paper we consider the problem of finding a good policy given some batch data.We propose a new approach, LAM-API, that first builds a so-called linear action model (LAM) from the data and then uses the learned model and the collected data in approximate policy iteration (API) to find a good policy.A natural choice for the policy evaluation step in this algorithm is to use least-squares temporal difference (LSTD) learning algorithm.Empirical results on three benchmark problems show that this particular instance of LAM-API performs competitively as compared with LSPI, both from the point of view of data and computational efficiency.
+ 

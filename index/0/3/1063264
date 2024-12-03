@@ -1,0 +1,1 @@
+We present CarmelTC, a novel hybrid text classification approach for automatic essay grading. Our evaluation demonstrates that the hybrid CarmelTC approach outperforms two "bag of words" approaches, namely LSA and a Naive Bayes, as well as a purely symbolic approach.

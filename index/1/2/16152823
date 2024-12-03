@@ -1,0 +1,1 @@
+This paper introduces a method for extracting fine-grained class labels ( “countries with double taxation agreements with india” ) from Web search queries. The class labels are more numerous and more diverse than those produced by current extraction methods. Also extracted are representative sets of instances (singapore, united kingdom) for the class labels.

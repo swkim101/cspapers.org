@@ -1,0 +1,4 @@
+
+ 
+ The field of multi-robot coordination, specifically robot formation control, is rapidly expanding, with many applications proposed. In our previous work, we considered the problem of establishing and maintaining a formation of robots given an already connected network. We now propose a distributed auction-based method to autonomously initialize and reorganize the network structure of a formation of robots.
+ 

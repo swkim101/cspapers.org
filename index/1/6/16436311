@@ -1,0 +1,1 @@
+We explore in this paper a practicably interesting mining task to retrieve frequent itemsets with memory constraint. As opposed to most previous works that concentrate on improving the mining efficiency or on reducing the memory size by best effort, we first attempt to constrain the upper memory size that can be utilized by mining frequent itemsets in this paper.

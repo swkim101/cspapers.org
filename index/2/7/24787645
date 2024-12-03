@@ -1,0 +1,1 @@
+We demonstrate ELISA-EDL, a state-of-the-art re-trainable system to extract entity mentions from low-resource languages, link them to external English knowledge bases, and visualize locations related to disaster topics on a world heatmap. We make all of our data sets, resources and system training and testing APIs publicly available for research purpose.

@@ -1,0 +1,1 @@
+A key issue for interactive robots is smooth and natural motion. When robots are tele-operated, e.g. for tele-presence or during “Wizard of Oz” style studies, this requires an intuitive and responsive control interface. Furthermore, this interface should not interfere with perceiving the robot's sensors.

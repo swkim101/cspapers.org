@@ -1,0 +1,1 @@
+It is shown that, unless P&equil;NP, local search algorithms for the Traveling Salesman Problem having polynomial time complexity per iteration will generate solutions arbitrarily far from the optimal. The Traveling Salesman Problem is also shown to be NP-Complete even if its instances are restricted to be realizable by a set of points on the Euclidean plane.

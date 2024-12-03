@@ -1,0 +1,1 @@
+We introduce the posterior probabilistic clustering (PPC), which provides a rigorous posterior probability interpretation for Nonnegative Matrix Factorization (NMF) and removes the uncertainty in clustering assignment. Furthermore, PPC is closely related to probabilistic latent semantic indexing (PLSI).

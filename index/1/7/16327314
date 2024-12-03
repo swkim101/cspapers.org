@@ -1,0 +1,3 @@
+Introduce Forecastable Component Analysis (ForeCA), a novel dimension reduction technique for temporally dependent signals. Based on a new forecastability measure, ForeCA finds an optimal transformation to separate a multivariate time series into a forecastable and an orthogonal white noise space. I present a converging algorithm with a fast eigenvector solution. Applications to financial and macro-economic time series show that ForeCA can successfully discover informative structure, which can be used for forecasting as well as classification. 
+ 
+The R package ForeCA accompanies this work and is publicly available on CRAN.

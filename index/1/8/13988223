@@ -1,0 +1,4 @@
+
+ 
+ Symbolic search using BDDs usually saves huge amounts of memory, while in some domains its savings are moderate at best. It is an open problem to determine if BDDs work well for a certain domain. Motivated by finding evidences for BDD growths for state space search, in this paper we are concerned with symbolic search in the domain of Connect Four. We prove that there is a variable ordering for which the set of all possible states – when continuing after a terminal state has been reached – can be represented by polynomial sized BDDs, whereas the termination criterion leads to an exponential number of nodes in the BDD given any variable ordering.
+ 

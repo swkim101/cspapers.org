@@ -1,0 +1,1 @@
+We present a model and methodology for learning paraphrastic sentence embeddings directly from bitext, removing the time-consuming intermediate step of creating para-phrase corpora. Further, we show that the resulting model can be applied to cross lingual tasks where it both outperforms and is orders of magnitude faster than more complex state-of-the-art baselines.

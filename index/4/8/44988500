@@ -1,0 +1,4 @@
+
+ 
+ Empirical evaluations of DCOP algorithms are typically done in simulation and under the assumption that the communication times between all pairs of agents are identical, which is unrealistic in many real-world applications. In this abstract, we incorporate non-uniform communication times in the default DCOP model and propose heuristics that exploit these communication times to speed up DCOP algorithms that operate on pseudo-trees.
+ 

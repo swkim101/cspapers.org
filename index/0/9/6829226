@@ -1,0 +1,5 @@
+While the availability of platform-independent code on the Internet is increasing, third-party code rarely exhibits all of the features desired by end users. Unfortunately, developers cannot foresee and provide for all possible extensions. 
+ 
+In this paper, we describe load-time transformation, a stage in the program development lifecycle in which classes are modified at load time according to user-supplied directives. This allows the users to select transformations that add new features, customize the implementation of existing features, and apply the changes to all classes in the environment. 
+ 
+The Java Object Instrumentation Environment (JOIE) is a toolkit for constructing transformations of Java classes. An enhanced class loader calls user-supplied transformers that specify rules for transforming target classes. We describe some applications of load-time transformation, including extending the Java environment, integrating classes with specialized environments, and adding functionality directly to classes.

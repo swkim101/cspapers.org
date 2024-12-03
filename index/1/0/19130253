@@ -1,0 +1,23 @@
+Selecting and remembering secure passwords puts a high cognitive burden 
+on the user, which has adverse effects on usability and security. 
+Authentication schemes based on implicit memory can relieve the user of 
+the burden of actively remembering a secure password. In this paper, we 
+propose a new authentication scheme (MooneyAuth) that relies on 
+implicitly remembering the content of previously seen Mooney images. 
+These images are thresholded two-tone images derived from images 
+containing single objects. Our scheme has two phases: In the enrollment 
+phase, a user is presented with Mooney images, their corresponding 
+original images, and labels. This creates an implicit link between the 
+Mooney image and the object in the user's memory that serves as the 
+authentication secret. In the authentication phase, the user has to 
+label a set of Mooney images, a task that gets performed with 
+substantially fewer mistakes if the images have been seen in the 
+enrollment phase. We applied an information-theoretical approach to 
+compute the eligibility of the user, based on which images were labeled 
+correctly. This new dynamic scoring is substantially better than 
+previously proposed static scoring by considering the surprisal of the 
+observed events. We built a prototype and performed three experiments 
+with 230 and 70 participants over the course of 264 and 21 days, 
+respectively. We show that MooneyAuth outperforms current implicit 
+memory-based schemes, and demonstrates a promising new approach for 
+fallback authentication procedures on the Web.

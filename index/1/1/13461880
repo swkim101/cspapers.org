@@ -1,0 +1,1 @@
+Caching the results of frequent query patterns can improve the performance of query evaluation. This paper describes a 2-pass mining algorithm called 2PXMiner to discover frequent XML query patterns. We design 3 data structures to expedite the mining process. Experiments results indicate that 2PXMiner is both efficient and scalable.

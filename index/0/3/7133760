@@ -1,0 +1,1 @@
+Concurrency control has received considerable attention in multidatabase systems because of their characteristics such as heterogeneity and autonomy. Particulary, various concurrency control protocols have been developped in the litterature. In this paper, we present a protocol that guarantees the two level serializability criterion and built up according to the topdown approach.

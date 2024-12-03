@@ -1,0 +1,4 @@
+
+ 
+ Nystrom approximation is an effective approach to accelerate the computation of kernel matrices in many kernel methods. In this paper, we consider the Nystrom approximation for sparse kernel methods. Instead of relying on the low-rank assumption of the original kernels, which sometimes does not hold in some applications, we take advantage of the restricted eigenvalue condition, which has been proved to be robust for sparse kernel methods. Based on the restricted eigenvalue condition, we have provided not only the approximation bound for the original kernel matrix but also the recovery bound for the sparse solutions of sparse kernel regression. In addition to the theoretical analysis, we also demonstrate the good performance of the Nystrom approximation for sparse kernel regression on real world data sets.
+ 

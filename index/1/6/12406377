@@ -1,0 +1,4 @@
+
+ 
+ In this work we give a first tractability analysis of Compressed Path Databases, space efficient oracles used to very quickly identify the first arc on a shortest path. We study the complexity of computing an optimal compressed path database for general directed and undirected graphs. We find that in both cases the problem is NP-complete. We also show that, for graphs which can be decomposed along articulalion points, the problem can be decomposed into independent parts, with a corresponding reduction in its level of difficulty. In particular, this leads to simple and tractable algorithms which yield optimal compression results for trees.
+ 

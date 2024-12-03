@@ -1,7 +1,0 @@
-
- Tuning a database system to achieve optimal performance on a given workload is a long-standing problem in the database community. A number of recent works have leveraged ML-based approaches to guide the sampling of large parameter spaces (hundreds of tuning knobs) in search for high performance configurations. Looking at Microsoft production services operating millions of databases,
- sample efficiency emerged as a crucial requirement
- to use tuners on diverse workloads.
- 
- This motivates our investigation in LlamaTune, a tuner design that leverages domain knowledge to improve the sample efficiency of existing optimizers. LlamaTune employs an automated dimensionality reduction technique based on randomized projections, a biased-sampling approach to handle special values for certain knobs, and knob values bucketization, to reduce the size of the search space. LlamaTune compares favorably with the state-of-the-art optimizers across a diverse set of workloads. It identifies the best performing configurations with up to 11X fewer workload runs, and reaching up to 21% higher throughput. We also show that benefits from LlamaTune generalize across both BO-based and RL-based optimizers, as well as different DBMS versions.
- While the journey to perform database tuning at cloud-scale remains long, LlamaTune goes a long way in making automatic DBMS tuning practical at scale.

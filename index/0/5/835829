@@ -1,0 +1,4 @@
+
+ 
+ Auctions are promising decentralized methods for teams of agents to allocate and re-allocate tasks among themselves in dynamic, partially known and time-constrained domains with positive or negative synergies among tasks. Auction-based coordination systems are easy to understand, simple to implement and broadly applicable. They promise to be efficient both in communication (since agents communicate only essential summary information) and in computation (since agents compute their bids in parallel). Artificial intelligence research has explored auction-based coordination systems since the early work on contract networks, mostly from an experimental perspective. This overview paper describes our recent progress towards creating a framework for the design and analysis of cooperative auctions for agent coordination.
+ 

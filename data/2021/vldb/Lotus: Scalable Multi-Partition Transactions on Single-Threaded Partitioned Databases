@@ -1,7 +1,0 @@
-This paper revisits the H-Store/VoltDB concurrency control scheme for partitioned main-memory databases, which we term run-to-completion-single-thread (RCST), with an eye toward improving its poor performance on multi-partition (MP) workloads. The original scheme focused on maximizing single partition (SP) performance, producing results in millions of transactions per second on modest clusters, but at the expense of dismal MP performance. In this paper, we show that original RCST algorithms be made to dramatically improve MP performance with very limited impact on SP performance. That makes RCST superior to popular optimistic and pessimistic schemes without optimizations for batch execution, including OCC and 2PL, on a wide range of multi-node workloads with up to 60% throughput improvement.
- 
- Our second contribution is to propose a multiplexed-execution-single-thread (MEST) algorithm based on RCST to amortize the network stalls from MP transactions over a
- batch
- of MP transactions. This scheme delivers up to 21X higher throughput for SP transactions and comparable MP throughput compared to state-of-the-art distributed deterministic concurrency control algorithms that are optimized for batch execution. Finally, our MEST scheme offers dramatically superior performance when
- straggler
- transactions are present in the workload. Our conclusion is that the H-Store/VoltDB concurrency control scheme can be dramatically improved and dominates state-of-the-art algorithms over a variety of MP workloads.

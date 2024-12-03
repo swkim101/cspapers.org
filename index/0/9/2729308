@@ -1,0 +1,1 @@
+In this paper, we introduce WPML (WebProfiles Markup Language) for expressing user-context preferences information in the Web. Using WPML a service provider can negotiate and obtain user-related information to personalise service experience without explicit manual configuration by the user, while preserving his privacy using P3P.

@@ -1,0 +1,4 @@
+
+ 
+ We contribute a learning from demonstration approach for robots to acquire skills from multi-modal high-dimensional data. Both latent representations and associations of different modalities are proposed to be jointly learned through an adapted variational auto-encoder. The implementation and results are demonstrated in a robotic handwriting scenario, where the visual sensory input and the arm joint writing motion are learned and coupled. We show the latent representations successfully construct a task manifold for the observed sensor modalities. Moreover, the learned associations can be exploited to directly synthesize arm joint handwriting motion from an image input in an end-to-end manner. The advantages of learning associative latent encodings are further highlighted with the examples of inferring upon incomplete input images. A comparison with alternative methods demonstrates the superiority of the present approach in these challenging tasks.
+ 

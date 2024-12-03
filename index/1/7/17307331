@@ -1,0 +1,4 @@
+
+ 
+ This paper investigates algorithms to automatically adapt the learning rate of neural networks (NNs). Starting with stochastic gradient descent, a large variety of learning methods has been proposed for the NN setting. However, these methods are usually sensitive to the initial learning rate which has to be chosen by the experimenter. We investigate several features and show how an adaptive controller can adjust the learning rate without prior knowledge of the learning problem at hand.
+ 

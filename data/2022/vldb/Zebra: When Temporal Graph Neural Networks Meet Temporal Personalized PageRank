@@ -1,6 +1,0 @@
-
- Temporal graph neural networks (T-GNNs) are state-of-the-art methods for learning representations over dynamic graphs. Despite the superior performance, T-GNNs still suffer from high computational complexity caused by the tedious recursive temporal message passing scheme, which hinders their applicability to large dynamic graphs. To address the problem, we build the theoretical connection between the temporal message passing scheme adopted by T-GNNs and the temporal random walk process on dynamic graphs. Our theoretical analysis indicates that it would be possible to select a few influential temporal neighbors to compute a target node's representation without compromising the predictive performance. Based on this finding, we propose to utilize T-PPR, a parameterized metric for estimating the influence score of nodes on evolving graphs. We further develop an efficient single-scan algorithm to answer the top-
- k
- T-PPR query with rigorous approximation guarantees. Finally, we present Zebra, a scalable framework that accelerates the computation of T-GNN by directly aggregating the features of the most prominent temporal neighbors returned by the top-
- k
- T-PPR query. Extensive experiments have validated that Zebra can be up to two orders of magnitude faster than the state-of-the-art T-GNNs while attaining better performance.

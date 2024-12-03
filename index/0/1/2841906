@@ -1,0 +1,4 @@
+
+ 
+ One of the better studied properties for operators in judgment aggregation is independence, which essentially dictates that the collective judgment on one issue should not depend on the individual judgments given on some other issue(s) in the same agenda. Independence, although considered a desirable property, is too strong, because together with mild additional conditions it implies dictatorship. We propose here a weakening of independence, named agenda separability: a judgment aggregation rule satisfies it if, whenever the agenda is composed of several independent sub-agendas, the resulting collective judgment sets can be computed separately for each sub-agenda and then put together. We show that this property is discriminant, in the sense that among judgment aggregation rules so far studied in the literature, some satisfy it and some do not. We briefly discuss the implications of agenda separability on the computation of judgment aggregation rules.
+ 

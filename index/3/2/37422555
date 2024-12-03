@@ -1,0 +1,7 @@
+In this paper, we will first prqpase a new organization of processors and memories for hardware realization of the relational join operation. Algorithmic analysis of the time complexity of the join operation shows that it is linear in the cardinalities of the source, target and result relations which is optimal. 
+ 
+Queueing analysis of the join operation is also used to arrive at closed-form equations for various design parameters such as the sizes of the memories associated with the processors. It is seen that in order to perform joins at a rate commensurate with the output rate of relational tuples, the memories associated with the processors in the hardware must satisfy certain constraints of speed and size. The various constraints and their order of importance are clearly indicated. 
+ 
+We also show how to select an optimum chip design for the join operation, where the design is considered optimal if it gives the best performance for a certain fixed cost. This method may be employed by database machine designers in order to arrive at the optimal values for (1) the number of processors on a chip, and (2) the sizes of the memories to be placed on a chip. 
+ 
+Due to the length of the paper, it is not possible to describe the extensions of this method to perform inequality joins and m-way joins. We also exclude a favorable comparison of this method with other schemes proposed for some other database machines. However, the reader may obtain detailed expositions on the extensions and comparative study in the References[9].

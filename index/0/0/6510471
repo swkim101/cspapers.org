@@ -1,0 +1,1 @@
+We are currently extending the rewrite system laboratory REVE to handle associative-commutative operators. In particular, we are incorporating a set of rules for Boolean algebra that provides a refutationally-complete theorem prover and a new programming paradigm. To that end, we describe methods for proving termination of associative-commutative systems.

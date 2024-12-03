@@ -1,0 +1,1 @@
+Large-scale PC clusters, such as ACSI Lightning with 2,816 processors and the AIST supercluster with more than 3,000 processors, have been constructed. Although software distributed shared memory (S-DSM) provides an attractive parallel programming model, almost all S-DSM systems proposed are only useful on a cluster of less than or equal to 16 nodes. They lack scalability.

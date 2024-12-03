@@ -1,0 +1,4 @@
+
+ 
+ Training robots about the objects in their environment requires a multimodal correlation of features extracted from visual and linguistic sources.  This work abstracts the task of collecting multimodal training data for object and feature learning by encapsulating it in an interactive game, I Spy, played between human players and robots.  It introduces the concept of the game, briefly describes its methodology, and finally presents an evaluation of the game's performance and its appeal to human players.
+ 

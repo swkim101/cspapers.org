@@ -1,0 +1,7 @@
+We propose a general dual-fitting technique for analyzing online scheduling algorithms in the unrelated machines setting where the objective function involves weighted flow-time, and we allow the machines of the on-line algorithm to have (1 + e)-extra speed than the offline optimum (the so-called speed augmentation model). Typically, such algorithms are analyzed using non-trivial potential functions which yield little insight into the proof technique. We propose that one can often analyze such algorithms by looking at the dual (or Lagrangian dual) of the linear (or convex) program for the corresponding scheduling problem, and finding a feasible dual solution as the on-line algorithm proceeds. As representative cases, we get the following results: 
+ 
+• For the problem of minimizing weighted flow-time, we give an O (1/e)-competitive greedy algorithm. This is an improvement by a factor of 1/e on the competitive ratio of the greedy algorithm of Chadha-Garg-Kumar-Muralidhara. 
+ 
+• For the problem of minimizing weighted lk norm of flow-time, we show that a greedy algorithm gives an O (1/e)-competitive ratio. This marginally improves the result of Im and Moseley. 
+ 
+• For the problem of minimizing weighted flow-time plus energy, and when the energy function f(s) is equal to sγ, γ > 1, we show that a natural greedy algorithm is O(γ2)-competitive. Prior to our work, such a result was known for the related machines setting only (Gupta-Krishnaswamy-Pruhs).

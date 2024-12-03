@@ -1,0 +1,3 @@
+Arby is a software system or higher order language for writing expert systems to do diagnosis in electronic systems. 
+ 
+As such, it is similar to EMYCIN (Van Melle 1982) in application, but quite different in design. It is rule-based to an extent, but the rules are written in predicate calculus. It resembles Caduceus (Pople 1977) in its mechanisms for refining and combining hypotheses.

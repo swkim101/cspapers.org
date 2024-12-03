@@ -1,9 +1,0 @@
-Deploying large-scale Transformer models under the conventional pre-train-then-fine-tune paradigm is impractical for multi-task serving, because a full model copy for each downstream task must be maintained, quickly exhausting the storage budget.
-Recent algorithmic advances in Parameter-Efficient Transformers (PETs) have shown enormous potential to mitigate the storage overhead.
-They share the pre-trained model among tasks and only fine-tune a small portion of task-specific parameters.
-Unfortunately, existing serving systems neither have flexible PET task management mechanisms nor can efficiently serve queries to different tasks in batches.
-Therefore, we propose PetS, the first unified framework for multi-task PETs serving.
-Specifically, different PET tasks are expressed by a unified representation in the same framework, which enables flexible PET tasks management.
-Based on the unified representation, we design a specialized PET inference engine to batch different tasks' queries together and execute them with task-agnostic shared operators and task-specific PET operators.
-To further improve system throughput, we propose a coordinated batching strategy to deal with arbitrary input queries. We also develop a PET operator scheduling strategy to exploit parallelism between PET tasks.
-Comprehensive experiments on Edge/Desktop/Server GPUs demonstrate that  PetS supports up to 25 times more concurrent tasks and improves the serving throughput by 1.53 times and 1.63 times on Desktop and Server GPUs, respectively.

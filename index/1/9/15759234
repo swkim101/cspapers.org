@@ -1,0 +1,1 @@
+The W3C Web Cryptography API is the standard API for accessing cryptographic primitives in Javascript-based environments. We describe the motivations behind the creation of the W3C Web Cryptography API and give a high-level overview with motivating use-cases while addressing objections.

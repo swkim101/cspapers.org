@@ -1,0 +1,4 @@
+
+ 
+ We study methods to specify preferences among subsets of a set (auniverse). The methods we focus on are of two types. The first one assumes the universe comes with a preference relation on its elements and attempts to lift that relation to subsets of the universe. That approach has limited expressivity but results in orderings that capture interesting general preference principles. The second method consists of developing formalisms allowing the user to specify "atomic" improvements, and generating from them preferences on the powerset of the universe. We show that the particular formalism we propose is expressive enough to capture the lifted preference relations of the first approach, and generalizes propositional CP-nets. We discuss the importance of domain-independent methods for specifying preferences on sets for knowledge representation formalisms, selecting the formalism of argumentation frameworks as an illustrative example.
+ 

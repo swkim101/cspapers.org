@@ -1,0 +1,1 @@
+This paper contains several results yielding pairs of problems which don't help each other's solution, and therefore which may be said to be complex for “different reasons.” Statements are formalized and results proved within Blum complexity theory, generalized to relative algorithms. The approach is fairly intuitive; all details appear in [1] and [2].

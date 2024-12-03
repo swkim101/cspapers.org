@@ -1,0 +1,4 @@
+
+ 
+ We present an approach to incentivising monitoring for norm violations in open multi-agent systems such as Wikipedia. In such systems, there is no crisp definition of a norm violation; rather, it is a matter of judgement whether an agent's behaviour conforms to generally accepted standards of behaviour. Agents may legitimately disagree about borderline cases. Using ideas from scrip systems and peer prediction, we show how to design a mechanism that incentivises agents to monitor each other's behaviour for norm violations. The mechanism keeps the probability of undetected violations (submissions that the majority of the community would consider not conforming to standards) low, and is robust against collusion by the monitoring agents.
+ 

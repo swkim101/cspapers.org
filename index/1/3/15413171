@@ -1,0 +1,4 @@
+
+ 
+ In some applications, such as bioinformatics, social network analysis, and computational criminology, it is desirable to find compact clusters formed by a (very) small portion of objects in a large data set. Since such clusters are comprised of a small number of objects, they are extraordinary and anomalous with respect to the entire data set. This specific type of clustering task cannot be solved well by the conventional clustering methods since generally those methods try to assign most of the data objects into clusters. In this paper, we model this novel and application-inspired task as the problem of mining cohesive anomalies. We propose a general framework and a principled approach to tackle the problem. The experimental results on both synthetic and real data sets verify the effectiveness and efficiency of our approach.
+ 

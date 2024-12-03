@@ -1,0 +1,3 @@
+We give the first optimal solution to a standard problem in computational geometry: three-dimensional halfspace range reporting. We show that n points in 3-d can be stored in a linear-space data structure so that all k points inside a query halfspace can be reported in O(log n + k) time. The data structure can be built in O(n log n) expected time. The previous methods with optimal query time required superlinear (O(n log log n)) space. 
+ 
+We also mention consequences, for example, to higher dimensions and to external-memory data structures. As an aside, we partially answer another open question concerning the crossing number in Matousek's shallow partition theorem in the 3-d case (a tool used in many known halfspace range reporting methods).

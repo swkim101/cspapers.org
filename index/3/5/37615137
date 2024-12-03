@@ -1,0 +1,4 @@
+
+ 
+ We propose to predict the personalized emotion perceptions of images for each viewer. Different factors that may influence emotion perceptions, including visual content, social context, temporal evolution, and location influence are jointly investigated via the presented rolling multi-task hypergraph learning. For evaluation, we set up a large scale image emotion dataset from Flickr, named Image-Emotion-Social-Net, with over 1 million images and about 8,000 users. Experiments conducted on this dataset demonstrate the superiority of the proposed method, as compared to state-of-the-art.
+ 

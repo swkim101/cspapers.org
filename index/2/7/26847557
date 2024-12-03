@@ -1,0 +1,2 @@
+A simulator is presented that allows a student to quickly write a demand paging memory management system. The simulator provides a job stream, support routines (such as read a page into memory), extensive error checking and debugging, and performance evaluation.
+ This simulator is intended for a first course in operating systems to acquaint a student with the mechanics involved in demand paging or a second course where more time would be spent developing and evaluating page removal algorithms and job scheduling algorithms.

@@ -1,0 +1,1 @@
+This paper describes a method for automatic translation of functional into structural descriptions for Boolean recurrence systems. The solution of a recurrence system is accomplished by a network that requires at most four different types of cells. Given any Boolean recurrence of any order, the cell generator module defines the Boolean equations of these cells.

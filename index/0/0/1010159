@@ -1,0 +1,4 @@
+
+ 
+ Understanding when and how computational complexity can be used to protect elections against different manipulative actions has been a highly active research area over the past two decades. A recent body of work, however, has shown that many of the NP-hardness shields, previously obtained, vanish when the electorate has single-peaked or nearly single-peaked preferences. In light of these results, we investigate whether it is possible to reimpose NP-hardness shields for such electorates by allowing the voters to specify partial preferences instead of insisting they cast complete ballots. In particular, we show that in single-peaked and nearly single-peaked electorates, if voters are allowed to submit top-truncated ballots, then the complexity of manipulation and bribery for many voting rules increases from being in P to being NP-complete.
+ 

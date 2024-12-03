@@ -1,0 +1,22 @@
+It is our great pleasure to welcome you to the 2nd Smart Energy Grid Security (SEGS) Workshop. SEGS 2014 aims to foster innovative research and discussion about smart energy grid security and privacy challenges, approaches, and solutions. SEGS'14 takes places in Scottsdale, Arizona, in conjunction with ACM CCS 2014. 
+ 
+In the last year, the digitalization of the power grids has been pushed further, with an increasing number of countries engaging in large scale rollouts of smart grid components. While the topic of security is getting more attention, we still face insufficient understanding and communication between the electricity sector and the security community. Given the long lifetime of the systems deployed now, and the fact that the first large scale attacks have already been seen, increasing this communication and working towards applicable solutions is more important than ever before. 
+ 
+In spite of the growing number of events and conferences focusing on the digital grid, the gap in the security research community specially addressing smart grids is still wide, and many of the systems rolled out now have a wealth of unaddressed security issues. This workshop aims to fill that void and encourage more research into the area of smart grid security by providing a forum for security researchers to present their work. This workshop serves as an opportunity to foster collaboration between the power industry and the ACM CCS research community. 
+ 
+The scope of the workshop encompasses all aspects of the smart grid, including distribution, transmission, generation, metering, e-mobility, and integration of distributed energy resources. SEGS publications offer perspectives from both academia and industry, and present novel research on theoretical and practical aspects of smart grid security and privacy, including design, analysis, experimentation, and fielded systems. SEGS also aims for the integration of other communities, such as law, economics, and HCI, which present these communities' perspectives on technological issues. We hope that the workshop will provide the participants with the opportunity to share ideas and practical experience, and will result in progress towards more resilient power systems. 
+ 
+TOPICS OF INTEREST The SEGS Workshop focuses on the following topics: 
+Smart grid architectures and models 
+Smart grid networks and communication 
+Security and dependability in safetycritical, real-time systems 
+Data protection and privacy 
+Grid management 
+Trust and assurance 
+Intrusion detection and monitoring on smart grids 
+Algorithms and protocols for critical infrastructures 
+Risk and threat analysis 
+Smartgrid standards, testing, andcertification 
+Testbeds and field trials 
+Usability and legal issues on grid security 
+Cloud computing and smart grids

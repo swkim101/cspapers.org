@@ -1,0 +1,1 @@
+We show how to estimate (1) the number of functions that can be implemented by a particular network architecture, (2) how much analog precision is needed in the connections in the network, and (3) the number of training examples the network must see before it can be expected to form reliable generalizations.

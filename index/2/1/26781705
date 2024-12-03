@@ -1,0 +1,4 @@
+
+ 
+ Semi-supervised domain adaptation (SDA) is a typical setting when we face the problem of domain adaptation in real applications. How to effectively utilize the unlabeled data is an important issue in SDA. Previous work requires access to the source data to measure the data distribution mismatch, which is ineffective when the size of the source data is relatively large. In this paper, we propose a new paradigm, called Generalized Distillation Semi-supervised Domain Adaptation (GDSDA). We show that without accessing the source data, GDSDA can effectively utilize the unlabeled data to transfer the knowledge from the source models. Then we propose GDSDA-SVM which uses SVM as the base classifier and can efficiently solve the SDA problem. Experimental results show that GDSDA-SVM can effectively utilize the unlabeled data to transfer the knowledge between different domains under the SDA setting.
+ 

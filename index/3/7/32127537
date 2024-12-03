@@ -1,0 +1,4 @@
+
+ 
+ General Game Playing (GGP) agents must be capable of playing a wide variety of games skillfully. Monte-Carlo Tree Search (MCTS) has proven an effective reasoning mechanism for this challenge, as is reflected by its popularity among designers of GGP agents. Providing GGP agents with the knowledge relevant to the game at hand in real time is, however, a challenging task. In this paper we propose two enhancements for MCTS in the context of GGP, aimed at improving the effectiveness of the simulations in real time based on in-game statistical feedback. The first extension allows early termination of lengthy and uninformative simulations while the second improves the action-selection strategy when both explored and unexplored actions are available. The methods are empirically evaluated in a state-of-the-art GGP agent and shown to yield an overall significant improvement in playing strength.
+ 

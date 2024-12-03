@@ -1,0 +1,1 @@
+A Datalog program can be translated into a system of fixpoint equations of relational algebra; this paper studies how such a system can be solved and optimized for a particular query. The paper presents a structured approach to optimization, by identifying several optimization steps and by studying solution methods for each step.

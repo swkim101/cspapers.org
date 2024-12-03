@@ -1,0 +1,1 @@
+Object properties are often based on their contexts, and contexts can be nested to form complex context-dependent information. Existing data models cannot naturally and directly represent such context-dependent information. In this paper, we propose a novel mechanism called context constructor in an object-oriented framework to solve this problem.

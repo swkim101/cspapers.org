@@ -1,0 +1,4 @@
+
+ 
+ In classification problem, we assume that the samples around the class boundary are more likely to be incorrectly annotated than others, and propose boundary-conditional class noise (BCN). Based on the BCN assumption, we use unnormalized Gaussian and Laplace distributions to directly model how class noise is generated, in symmetric and asymmetric cases. In addition, we demonstrate that Logistic regression and Probit regression can also be reinterpreted from this class noise perspective, and compare them with the proposed models. The empirical study shows that, the proposed asymmetric models overall outperform the benchmark linear models, and the asymmetric Laplace-noise model achieves the best performance among all.
+ 

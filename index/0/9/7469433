@@ -1,0 +1,3 @@
+We consider the dictionary problem in external memory and improve the update time of the well-known buffer tree by roughly a logarithmic factor. For any λ ≥ max{lg lg n, logM/B (n/B)}, we can support updates in time O(λ/B) and queries in sublogarithmic time, O(logλ n). We also present a lower bound in the cell-probe model showing that our data structure is optimal. 
+ 
+In the RAM, hash tables have been use to solve the dictionary problem faster than binary search for more than half a century. By contrast, our data structure is the first to beat the comparison barrier in external memory. Ours is also the first data structure to depart convincingly from the indivisibility paradigm.

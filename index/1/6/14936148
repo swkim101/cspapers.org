@@ -1,0 +1,1 @@
+This paper explores the claims that TCP Vegas [2] both uses network bandwidth more efficiently and achieves higher network throughput than TCP Reno [6]. It explores how link bandwidth, network buffer capacity, TCP receiver acknowledgment algorithm, and degree of network congestion affect the relative performance of Vegas and Reno.

@@ -1,0 +1,5 @@
+We show that the problem of finding an optimal schedule for a set of jobs is polynomial complete even in the following two restricted cases.
+ (1) All jobs require one time unit.
+ (2) All jobs require one or two time units, and there are only two processors.
+ As a consequence, the general preemptive scheduling problem is also polynomial complete.
+ These results are tantamount to showing that the scheduling problems mentioned are intractable.

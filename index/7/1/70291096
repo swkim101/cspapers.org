@@ -1,0 +1,10 @@
+Understanding the generalization properties of deep learning models is critical for 
+successful applications, especially in the regimes where the number of training 
+samples is limited. We study the generalization properties of deep neural networks 
+via the empirical Rademacher complexity and show that it is easier to control the 
+complexity of convolutional networks compared to general fully connected networks. 
+In particular, we justify the usage of small convolutional kernels in deep 
+networks as they lead to a better generalization error. Moreover, we propose a 
+representation based regularization method that allows to decrease the generalization 
+error by controlling the coherence of the representation. Experiments on the 
+MNIST dataset support these foundations.

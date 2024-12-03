@@ -1,0 +1,5 @@
+This volume contains the papers presented at the second annual ACM Workshop on Security and Privacy in Medical and Home-Care Systems (SPIMACS), sponsored by ACM SIGSAC and held in conjunction with the 17th ACM Conference on Computer and Communications Security (CCS). This half-day workshop brought together a diverse group of professionals to discuss the research challenges of protecting patients and medical data. 
+ 
+Each submission received at least four reviews from the PC members, and we selected the best three papers for our opening session. The papers included here explore weaknesses in the certification process for Electronic Health Records; propose a vulnerability taxonomy for implanted medical devices; and present a security analysis of an Electronic Patient Dossier system in the Netherlands. 
+ 
+In addition to research papers, the workshop included a panel focusing on the interdisciplinary aspects of research, practice, and policy work in technology and health care. This research discussion will continue to evolve in the future, and we hope that these proceedings will help shape future research agendas on health privacy and security.

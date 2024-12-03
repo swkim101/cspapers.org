@@ -1,0 +1,1 @@
+This paper is a concise guide for developers who want to port an existing language to Web browsers, about what to do and what not to. It is based on the various experiments that have been led in the OCaml language community. In particular, it exhibits how reusing the underlying virtual machine and bytecode associated to the language can come of great help in this task

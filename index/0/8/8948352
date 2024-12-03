@@ -1,0 +1,4 @@
+
+ 
+ While there has been much research into using selectional preferences for word sense disambiguation (WSD), much difficulty has been encountered. To facilitate study into this difficulty and aid in WSD in general, a database of the selectional preferences of non-pertainym prenomial adjectives extracted from the Google Web 1T 5-gram Corpus is proposed. A variety of methods for computing the preferences of each adjective over a set of noun categories from WordNet have been evaluated via simulated disambiguation of pseudohomonyms. The best method of these involves computing for each noun category the ratio of single-word common (i.e. not proper) noun lemma types which can co-occur with a given adjective to the number of single-word common noun lemmata whose estimated frequency is greater than a threshold based on the frequency of the adjective. The database produced by this procedure will be made available to the public.
+ 

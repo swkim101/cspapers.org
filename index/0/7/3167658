@@ -1,0 +1,4 @@
+
+ 
+ We introduce the problem Max#SAT, an extension of model counting (#SAT). Given a formula over sets of variables X, Y, and Z, the Max#SAT problem is to maximize over the variables X the number of assignments to Y that can be extended to a solution with some assignment to Z. We demonstrate that Max#SAT has applications in many areas, showing how it can be used to solve problems in probabilistic inference (marginal MAP), planning, program synthesis, and quantitative information flow analysis. We also give an algorithm which by making only polynomially many calls to an NP oracle can approximate the maximum count to within any desired multiplicative error. The NP queries needed are relatively simple, arising from recent practical approximate model counting and sampling algorithms, which allows our technique to be effectively implemented with a SAT solver. Through several experiments we show that our approach can be successfully applied to interesting problems.
+ 

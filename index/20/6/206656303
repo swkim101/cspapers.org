@@ -1,0 +1,1 @@
+We present an O(lg lg n)-competitive online binary search tree, improving upon the best previous (trivial) competitive ratio of O(lg n). This is the first major progress on Sleator and Tarjan's dynamic optimality conjecture of 1985 that O(1)-competitive binary search trees exist.

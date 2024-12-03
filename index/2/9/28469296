@@ -1,0 +1,4 @@
+
+ 
+ Sentiment word identification is a fundamental work in numerous applications of sentiment analysis and opinion mining, such as review mining, opinion holder finding, and twitter classification. In this paper, we propose an optimization model with L1 regularization, called ISOMER, for identifying the sentiment words from the corpus. Our model can employ both seed words and documents with sentiment labels, different from most existing researches adopting seed words only. The L1 penalty in the objective function yields a sparse solution since most candidate words have no sentiment. The experiments on the real datasets show that ISOMER outperforms the classic approaches, and that the lexicon learned by ISOMER can be effectively adapted to document-level sentiment analysis.
+ 

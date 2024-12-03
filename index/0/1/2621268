@@ -1,0 +1,4 @@
+
+ 
+ Unsupervised neural networks, such as restricted Boltzmann machines (RBMs) and deep belief networks (DBNs), are powerful tools for feature selection and pattern recognition tasks. We demonstrate that overfitting occurs in such models just as in deep feedforward neural networks, and discuss possible regularization methods to reduce overfitting. We also propose a "partial" approach to improve the efficiency of Dropout/DropConnect in this scenario, and discuss the theoretical justification of these methods from model convergence and likelihood bounds. Finally, we compare the performance of these methods based on their likelihood and classification error rates for various pattern recognition data sets.
+ 

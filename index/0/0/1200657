@@ -1,0 +1,4 @@
+
+ 
+ The use of the Monte Carlo playouts as an evaluation function has proved to be a viable, general technique for searching intractable game spaces. This facilitate the use of statistical techniques like Monte Carlo Tree Search (MCTS), but is also known to require significant processing overhead. We seek to improve the quality of information extracted from the Monte Carlo playout in three ways. Firstly, by nesting the evaluation function inside another evaluation function; secondly, by measuring and utilising the depth of the playout; and thirdly, by incorporating pruning strategies that eliminate unnecessary searches and avoid traps. Our experimental data, obtained on a variety of two-player games from past General Game Playing (GGP) competitions and others, demonstrate the usefulness of these techniques in a Nested Player when pitted against a standard, optimised UCT player.
+ 

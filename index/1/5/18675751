@@ -1,0 +1,7 @@
+This paper presents a theory of generalized temporal reasoning. We focus on the related problems of 
+ 
+1. Temporal Projection—determining all the facts true in a chronicle, given a partial description of that chronicle, and 
+ 
+2. Explanation—figuring out what went wrong if an unexpected outcome occurs. 
+ 
+We present a non-monotonic temporal logic based on the notion that actions only happen if they are motivated. We demonstrate that this theory handles generalized temporal projection correctly, and in particular, solves the Yale Shooting Problem and a related class of problems. We then show how our model lends itself to a very natural characterization of the concept of an adequate explanation for an unexpected outcome.

@@ -1,0 +1,4 @@
+
+ 
+ Automated topic identification is an essential component invarious information retrieval and knowledge representationtasks such as automated summary generation, categorization search and document indexing. In this paper, we present the Wikitop system to automatically generate topic trees from the input text by performing hierarchical classification using the Wikipedia Category Network (WCN). Our preliminary results over a collection of 125 articles are encouraging and show potential of a robust methodology for automated topic tree generation.
+ 

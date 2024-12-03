@@ -1,0 +1,6 @@
+
+ 
+ 
+Some game-theoretic solution concepts such as the Shapley value and the Banzhaf index have recently gained popularity as measures of node centrality in networks. While this direction of research is promising, the computational problems that surround it are challenging and have largely been left open. To date there are only a few positive results in the literature, which show that some game-theoretic extensions of degree-, closeness- and betweenness-centrality measures are computable in polynomial time, i.e., without the need to enumerate the exponential number of all possible coalitions. In this article, we show that these results can be extended to a much larger class of centrality measures that are based on a family of solution concepts known as semivalues. The family of semivalues includes, among others, the Shapley value and the Banzhaf index. To this end, we present a generic framework for defining game-theoretic network centralities and prove that all centrality measures that can be expressed in this framework are computable in polynomial time. Using our framework, we present a number of new and polynomial-time computable game-theoretic centrality measures. 
+ 
+ 

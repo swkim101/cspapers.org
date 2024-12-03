@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we formulate a new problem related to the well-known influence maximization in the context of computational advertising. Our new problem considers allocating marketing channels (e.g., TV, newspaper, and websites) to advertisers from the view point of a match maker, which was not taken into account in previous studies on the influence maximization. The objective of the problem is to find an allocation such that each advertiser can influence some given number of customers while the slots of marketing channels are limited. We propose an algorithm based on the Lagrangian decomposition. We empirically show that our algorithm computes better quality solutions than existing algorithms, scales up to graphs of 10M vertices, and performs well particularly in a parallel environment.
+ 

@@ -1,0 +1,5 @@
+The Missile Systems Group of Hughes Aircraft Company has defined the need for an LSI design capability that can produce very rapid designs of large digital and hybrid processors. These processor designs are characterized by:
+ 100,000 gates/processor
+ 10.000 gates/chip
+ 10 LSI chips/processor
+ The goal for this LSI design capability is to be able to design and fabricate a system in 12 months elapsed time, with half of that time allocated to design and half allocated for mask making, chip processing, testing, and system integration (figure 1). A computer aided design system named VISTA (VLsI Simulation Test and Artwork) is currently being developed to answer this LSI design need (figure 2). One aspect of this design system is the modeling and simulation facility that supports hierarchical design.

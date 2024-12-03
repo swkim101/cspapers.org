@@ -1,0 +1,3 @@
+The layout of large multilayer printed wiring boards is a very complex and time-consuming process. The routing portion of the task in particular is difficult because of the number of connections to complete, the number of routing layers which can be used simultaneously and the large size and uniformity of the routing surfaces. The problem is generally well beyond the scope of a designer to grasp as a whole.
+ Automatic techniques for routing are important functions therefore in the multilayer layout process. A good deal of work has been done in the field. [1-5]
+ In this paper we will review a previous technique, describe some of its shortcomings, and present a new and more powerful method which has been successfully employed.

@@ -1,0 +1,1 @@
+Abstract We develop a probabilistic polynomial time algorithm which on input a polynomial g(x1,..., xn) over GF[2], ϵ and δ, outputs an approximation to the number of zeroes of g with relative error at most ϵ with probability at least 1 − δ.

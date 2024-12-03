@@ -1,0 +1,1 @@
+A compositional temporal logic proof system for the specification and verification of concurrent programs is presented. Versions of the system are developed for shared variables and communication based programming languages that include procedures.

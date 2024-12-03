@@ -1,0 +1,9 @@
+In order to relate machine learning problems we argue that we need to 
+be able to articulate what is meant by a single machine learning problem. By 
+attempting to name the various aspects of a learning problem we hope to clarify 
+ways in which learning problems might be related to each other. We tentatively put 
+forward a proposal for an anatomy of learning problems that will serve as scaffolding 
+for posing questions about relations. After surveying the way learning problems are 
+discussed in a range of repositories and services. We then argue that the terms 
+used to describe problems to better understand a range of viewpoints within 
+machine learning ranging from the theoretical to the practica

@@ -1,0 +1,4 @@
+
+ 
+ In multi-robot task allocation problems with in-schedule dependencies, tasks with high costs have a large influence on the total time required for a team of robots to complete all tasks. We reduce this influence by calculating a novel task cost dispersion value that measures robots' collective preference for each task. By modifying the winner determination phase of sequential single-item auctions, our approach inspects the bids for every task to identify tasks which robots collectively consider to be high cost and ensures these tasks are allocated prior to other tasks.Our empirical results show this method provides a significant reduction in the total time required to complete all tasks.
+ 

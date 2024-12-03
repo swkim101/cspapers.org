@@ -1,0 +1,1 @@
+We describe an incremental unsupervised procedure to learn words from transcribed continuous speech. The algorithm is based on a conservative and traditional statistical model, and results of empirical tests show that it is competitive with other algorithms that have been proposed recently for this task.

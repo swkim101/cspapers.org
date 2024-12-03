@@ -1,0 +1,4 @@
+
+ 
+ We introduce a sealed bid auction of a single item in which the winner is chosen at random among the highest k bidders according to a fixed probability distribution, and the price for the chosen winner is the Vickrey-Clarke-Groves price. We call such an auction a cascade auction. Our analysis suggests that this type of auction may give higher revenues compared to second price auction in cases of collusion.
+ 

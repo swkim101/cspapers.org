@@ -1,0 +1,4 @@
+
+ 
+ We consider multiple teams of heterogeneous robots, where each team is given a feasible task to complete in its workspace on its own, and where teams are allowed to transfer robots between each other. We study the problem of finding a coordination of robot transfers between teams to ensure an optimal global plan (with minimum makespan) so that all tasks can be completed as soon as possible by helping each other. We propose to solve this problem using answer set programming.
+ 

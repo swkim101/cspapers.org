@@ -1,0 +1,1 @@
+Ranking function performance reached a plateau in 1994. The reason for this is investigated. First the performance of BM25 is measured as the proportion of queries satisfied on the first page of 10 results -- it performs well. The performance is then compared to human performance. They perform comparably. The conclusion is there isn't much room for ranking function improvement.

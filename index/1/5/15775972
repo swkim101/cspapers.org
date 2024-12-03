@@ -1,0 +1,1 @@
+ACP is a fully implemented constraint propagation system that computes numeric intervals for variables [Davis, 1987] along with an ATMS label [de Kleer, 1986a] for each such interval. The system is built within a "focused" ATMS architecture [Forbus and de Kleer, 1988, Dressler and Farquhar, 1989] and incorporates a variety of techniques to improve efficiency.

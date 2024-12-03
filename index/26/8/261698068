@@ -1,0 +1,3 @@
+Search-Based Software Testing (SBST) is the application of optimizing search techniques (for example, Genetic Algorithms) to solve problems in software testing. SBST is used to generate test data, prioritize test cases, minimize test suites, reduce human oracle cost, verify software models, test service-orientated architectures, construct test suites for interaction testing, and validate real-time properties. 
+ 
+The objectives of this workshop are to bring together researchers and industrial practitioners from SBST and the wider software engineering community to share experience and provide directions for future research, and to encourage the use of search techniques to combine aspects of testing with other aspects of the software engineering lifecycle.

@@ -1,0 +1,1 @@
+One of the most popular and fast methods of generating "random" sequence are linear congruential generators. This paper discusses the predictability of the sequence given only a constant proportion /spl alpha/ of the leading bits of the first few numbers generated. We show that the rest of the sequence is predictable in polynomial time, almost always, provided /spl alpha/ > 2/5.

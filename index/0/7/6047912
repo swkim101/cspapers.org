@@ -1,0 +1,1 @@
+A cascade of mix servers is a crucial part of e-voting protocols and other schemes which aim for user's anonymity. We present kleptographic attacks on such cascades. In order to show interesting consequences, we focus on a cascade used as a building block of a Prêt à Voter e-voting protocol. However, the attacks might be generalized to any cascade of probabilistic mix servers.

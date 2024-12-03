@@ -1,0 +1,1 @@
+In this paper we describe a new approach to the problem of path planning with moving obstacles. Our approach is based on the maneuvering board method commonly used for nautical navigation. We have extended this method to handle cases where obstacles may maneuver at any time and where knowledge of the position and velocity of the obstacles may be uncertain.

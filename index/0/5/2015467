@@ -1,0 +1,1 @@
+Minimal Recursion Semantics (MRS) is the standard formalism used in large-scale HPSG grammars to model underspecified semantics. We present the first provably efficient algorithm to enumerate the readings of MRS structures, by translating them into normal dominance constraints.

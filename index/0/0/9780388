@@ -1,0 +1,7 @@
+Computer security depends heavily on the strength of cryptographic algorithms. Thus, cryptographic key search is often THE search problem for many governments and corporations. 
+ 
+In the recent years, AI search techniques have achieved notable successes in solving "real world" problems. Following a recent result which showed that the properties of the U.S. Data Encryption Standard can be encoded in propositional logic, this paper advocates the use of cryptographic key search as a benchmark for propositional reasoning and search. Benchmarks based on the encoding of cryptographic algorithms optimally share the features of "real world" and random problems. 
+ 
+In this paper, two state-of-the-art AI search algorithms, Walk-SAT by Kautz & Selman and Rel-SAT by Bayardo & Schrag, have been tested on the encoding of the Data Encryption Standard, to see whether they are up the task, and we discuss what lesson can be learned from the analysis on this benchmark to improve SAT solvers. 
+ 
+New challenges in this field conclude the paper.

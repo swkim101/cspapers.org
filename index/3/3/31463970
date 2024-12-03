@@ -1,0 +1,1 @@
+This paper describes a CMOS artificial neuron. The circuit is directly derived from the voltage-gated channel model of neural membrane, has low power dissipation, and small layout geometry. The principal motivations behind this work include a desire for high performance, more accurate neuron emulation, and the need for higher density in practical neural network implementations.

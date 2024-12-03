@@ -1,0 +1,1 @@
+At present, the sensor node platforms from different vendors cannot easily interoperate with each other due to their heterogeneous programming environments, communication stacks and data management protocols. In this work, we develop a sensor network virtualization framework that will enable the seamless interoperability and scalability of heterogeneous sensor node platforms.

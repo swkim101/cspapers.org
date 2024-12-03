@@ -1,0 +1,4 @@
+
+ 
+ Existing studies show that extracting a complete keyphrase candidate set is the first and crucial step to extract high quality keyphrases from documents. Based on a common sense that words do not repeatedly appear in an effective keyphrase, we propose a novel algorithm named KCSP for document-specific keyphrase candidate search using sequential pattern mining with gap constraints, which only needs to scan a document once and automatically specifies appropriate gap constraints for words without users’ participation. The experimental results confirm that it helps improve the quality of keyphrase extraction.
+ 

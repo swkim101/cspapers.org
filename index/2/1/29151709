@@ -1,0 +1,4 @@
+
+ 
+ Matrix completion as a common problem in many application domains has received increasing attention in the machine learning community. Previous matrix completion methods have mostly focused on exploiting the matrix low-rank property to recover missing entries. Recently, it has been noticed that side information that describes the matrix items can help to improve the matrix completion performance. In this paper, we propose a novel matrix completion approach that exploits side information within a principled co-embedding framework. This framework integrates a low-rank matrix factorization model and a label embedding based prediction model together to derive a convex co-embedding formulation with nuclear norm regularization. We develop a fast proximal gradient descent algorithm to solve this co-embedding problem. The effectiveness of the proposed approach is demonstrated on two types of real world application problems.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Lasso is a popular method for high-dimensional variable selection, but it hinges on a tuning parameter that is difficult to calibrate in practice. In this study, we introduce TREX, an alternative to Lasso with an inherent calibration to all aspects of the model. This adaptation to the entire model renders TREX an estimator that does not require any calibration of tuning parameters. We show that TREX can outperform cross-validated Lasso in terms of variable selection and computational efficiency. We also introduce a bootstrapped version of TREX that can further improve variable selection. We illustrate the promising performance of TREX both on synthetic data and on two biological data sets from the fields of genomics and proteomics.
+ 

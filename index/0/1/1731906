@@ -1,0 +1,17 @@
+We give highly efficient algorithms, and almost matching lower bounds, for a range of basic statistical problems that involve testing and estimating the L1 (total variation) distance between two k-modal distributions p and q over the discrete domain {1,..., n}. More precisely, we consider the following four problems: given sample access to an unknown k-modal distribution p, 
+ 
+Testing identity to a known or unknown distribution: 
+ 
+1. Determine whether p = q (for an explicitly given k-modal distribution q) versus p is e-far from q; 
+ 
+2. Determine whether p = q (where q is available via sample access) versus p is e-far from q; 
+ 
+Estimating L1 distance ("tolerant testing") against a known or unknown distribution: 
+ 
+3. Approximate dTV(p, q) to within additive e where q is an explicitly given k-modal distribution q; 
+ 
+4. Approximate dTV(p, q) to within additive e where q is available via sample access. 
+ 
+For each of these four problems we give sub-logarithmic sample algorithms, and show that our algorithms have optimal sample complexity up to additive poly(k) and multiplicative polylog log n + polylogk factors. Our algorithms significantly improve the previous results of [BKR04], which were for testing identity of distributions (items (1) and (2) above) in the special cases k = 0 (monotone distributions) and k = 1 (unimodal distributions) and required O((log n)3) samples. 
+ 
+As our main conceptual contribution, we introduce a new reduction-based approach for distribution-testing problems that lets us obtain all the above results in a unified way. Roughly speaking, this approach enables us to transform various distribution testing problems for k-modal distributions over {1,..., n} to the corresponding distribution testing problems for unrestricted distributions over a much smaller domain {1,..., e} where e = O(k log n).

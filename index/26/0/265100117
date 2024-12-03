@@ -1,0 +1,1 @@
+In this work, we deal with a relatively new statistical tool in machine learning: the estimation of the ratio of two probability densities, or density ratio estimation for short. As a side piece of research that gained its own traction, we also tackle the task of parameter selection in learning algorithms based on kernel methods.

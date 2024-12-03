@@ -1,0 +1,4 @@
+
+ 
+ In social networks, the leave of critical users may significantly break network engagement, i.e., lead a large number of other users to drop out. A popular model to measure social network engagement is k-core, the maximal induced subgraph in which every vertex has at least k neighbors. To identify critical users for social network engagement, we propose the collapsed k-core problem: given a graph G, a positive integer k and a budget b, we aim to find b vertices in G such that the deletion of the b vertices leads to the smallest k-core. We prove the problem is NP-hard. Then, an efficient algorithm is proposed, which significantly reduces the number of candidate vertices to speed up the computation. Our comprehensive experiments on 9 real-life social networks demonstrate the effectiveness and efficiency of our proposed method.
+ 

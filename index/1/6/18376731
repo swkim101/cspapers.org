@@ -1,0 +1,3 @@
+This paper describes a system that learns the rules of pronunciation inductively. It begins with a set of 26 rules for single-letter pronunciation. Individual words are presented to it, and the system uses its rule set to hypothesise a pronunciation. This is compared with a dictionary pronunciation, and if any part of the pronunciation is incorrect new rules are created to handle the word as an exception condition. 
+ 
+These rules are checked for similarity with others already produced, and where suitable a "general" rule is produced to deal with two or more created rules. The effect is to produce rules that are more and more general, and these approach the general pronunciation rule sets that have been produced manually by other workers.

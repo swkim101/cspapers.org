@@ -1,0 +1,4 @@
+
+ 
+ Goal recognition design involves the offline analysis of goal recognition models by formulating measures that assess the ability to perform goal recognition within a model and finding efficient ways to compute and optimize them. In this work we present goal recognition design for non-optimal agents, which extends previous work by accounting for agents that behave non-optimally either intentionally or naıvely. The analysis we present includes a new generalized model for goal recognition design and the worst case distinctiveness (wcd) measure. For two special cases of sub-optimal agents we present methods for calculating the wcd, part of which are based on novel compilations to classical planning problems. Our empirical evaluation shows the proposed solutions to be effective in computing and optimizing the wcd.
+ 

@@ -1,0 +1,3 @@
+This paper presents a method for developing object-oriented distributed applications using the C++ and DCE technologies. The core of this package is a DCE IDL-to-C++ compiler and a set of C++ classes providing easy access to DCE functionality. 
+ 
+Using this approach we were able to develop more object-oriented distributed applications, and saw a significant decrease in application code size. This contributed to an increase in developer productivity and code maintainability.

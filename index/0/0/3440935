@@ -1,0 +1,4 @@
+
+ 
+ Compared to conventional cars, electric vehicles still suffer from a considerably shorter cruising range. Combined with the sparsity of battery loading stations, the complete transition to E-mobility still seems a long way to go. In this paper, we consider the problem of placing as few loading stations as possible such that on any shortest path there are enough to guarantee sufficient energy supply. This means, that EV owners no longer have to plan their trips ahead incorporating loading station locations, and are no longer forced to accept long detours to reach their destinations. We show how to model this problem and introduce heuristics which provide close-to-optimal solutions even in large road networks.
+ 

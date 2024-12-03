@@ -1,0 +1,4 @@
+
+ 
+ Activity planning for missions such as the Mars Exploration Rover mission presents many technical challenges, including oversubscription, consideration of time, concurrency, resources, preferences, and uncertainty. These challenges have all been addressed by the research community to varying degrees, but significant technical hurdles still remain. In addition, the integration of these capabilities into a single planning engine remains largely unaddressed. However, I argue that there is a deeper set of issues that needs to be considered -- namely the integration of planning into an iterative process that begins before the goals, objectives, and preferences are fully defined. This introduces a number of technical challenges for planning, including the ability to more naturally specify and utilize constraints on the planning process, the ability to generate multiple qualitatively different plans, and the ability to provide deep explanation of plans.
+ 

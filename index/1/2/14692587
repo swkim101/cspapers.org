@@ -1,0 +1,4 @@
+
+ 
+ Pathfinding in uniform-cost grid environments is a problem commonly found in application areas such as robotics and video games. The state-of-the-art is dominated by hierarchical pathfinding algorithms which are fast and have small memory overheads but usually return suboptimal paths. In this paper we present a novel search strategy, specific to grids, which is fast, optimal and requires no memory overhead. Our algorithm can be described as a macro operator which identifies and selectively expands only certain nodes in a grid map which we call jump points. Intermediate nodes on a path connecting two jump points are never expanded. We prove that this approach always computes optimal solutions and then undertake a thorough empirical analysis, comparing our method with related works from the literature. We find that searching with jump points can speed up A* by an order of magnitude and more and report significant improvement over the current state of the art.
+ 

@@ -1,0 +1,3 @@
+Adaptive Ridge is a special form of Ridge regression, balancing the quadratic penalization on each parameter of the model. It was shown to be equivalent to Lasso (least absolute shrinkage and selection operator), in the sense that both procedures produce the same estimate. Lasso can thus be viewed as a particular quadratic penalizer. 
+ 
+From this observation, we derive a fixed point algorithm to compute the Lasso solution. The analogy provides also a new hyper-parameter for tuning effectively the model complexity. We finally present a series of possible extensions of lasso performing sparse regression in kernel smoothing, additive modeling and neural net training.

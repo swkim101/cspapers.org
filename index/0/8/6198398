@@ -1,0 +1,4 @@
+
+ 
+ Utilizing attributes for visual recognition has attracted increasingly interest because attributes can effectively bridge the semantic gap between low-level visual features and high-level semantic labels. In this paper, we propose a novel method for learning predictable and discriminative attributes. Specifically, we require the learned attributes can be reliably predicted from visual features, and discover the inherent discriminative structure of data. In addition, we propose to exploit the intra-category locality of data to overcome the intra-category variance in visual data. We conduct extensive experiments on Animals with Attributes (AwA) and Caltech256 datasets, and the results demonstrate that the proposed method achieves state-of-the-art performance.
+ 

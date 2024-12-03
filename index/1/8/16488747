@@ -1,0 +1,1 @@
+Many computer systems employ dynamic power management (DPM) to maximize power efficiency. DPM offers great opportunities, but deploying it carries significant risks if the DPM scheme is not completely verified. We propose architecting the DPM scheme such that it can be formally verified regardless of the size of the system.

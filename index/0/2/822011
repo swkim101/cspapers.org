@@ -1,0 +1,1 @@
+We give an O(n log3 n) approximation scheme for Steiner forest in planar graphs, improving on the previous approximation scheme for this problem, which runs in O(nf(e)) time.

@@ -1,0 +1,17 @@
+Objective 
+ 
+The aim of this one-day workshop is to bring together researchers who are interested in optimizing database performance on modern computing infrastructure by designing new data management techniques and tools. 
+ 
+Topics of Interest 
+ 
+The continued evolution of computing hardware and infrastructure imposes new challenges and bottlenecks to program performance. As a result, traditional database architectures that focus solely on I/O optimization increasingly fail to utilize hardware resources efficiently. CPUs with superscalar out-of-order execution, simultaneous multi-threading, multi-level memory hierarchies, and future storage hardware (such as flash drives) impose a great challenge to optimizing database performance. 
+ 
+Consequently, exploiting the characteristics of modern hardware has become an important topic of database systems research. The goal is to make database systems adapt automatically to the sophisticated hardware characteristics, thus maximizing performance transparently to applications. To achieve this goal, the data management community needs interdisciplinary collaboration with computer architecture, compiler and operating systems researchers. This involves rethinking traditional data structures, query processing algorithms, and database software architectures to adapt to the advances in the underlying hardware infrastructure. 
+ 
+Paper Selection 
+ 
+The seven papers included in the workshop were chosen by the program committee from among sixteen high-quality submissions, following a review process in which each paper received at least three reviews. Based on the reviews, one paper was selected by the workshop chairs as the recipient of the "Best Paper" award. This year, the award goes to "Wimpy Node Clusters: What About Non-Wimpy Workloads?", by Willis Lang (University of Wisconsin); Jignesh M. Patel (University of Wisconsin); Srinath Shankar (Microsoft Corp.) . 
+ 
+Workshop Program 
+ 
+Eight technical papers were presented at the workshop. The workshop also featured a keynote talk by Evangelos Eleftheriou, IBM Fellow, IBM Zurich Lab. Additionally, the workshop included a panel on current challenges in cloud storage, moderated by Anastasia Ailamaki.

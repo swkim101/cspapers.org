@@ -1,0 +1,1 @@
+Several measures of complexity of a regular expression are defined. (Star height and number of alphabetical symbols are two of them.) Upper and lower estimates for the complexities of expressions for certain standard sets (e.g. the set of all paths on a complete graph) are derived.

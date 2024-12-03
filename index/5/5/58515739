@@ -1,0 +1,1 @@
+This paper describes the Common Lisp system that BBN is developing for its Butterfly™ multiprocessor. The BBN Butterfly™ is a shared memory multiprocessor which may contain up to 256 processor nodes. The system provides a shared heap, parallel garbage collector, and window based I/O system. The future construct is used to specify parallelism.

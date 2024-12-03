@@ -1,0 +1,4 @@
+
+ 
+ This paper addresses the task of unsupervised feature learning for three-dimensional occupancy mapping, as a way to segment higher-level structures based on raw unorganized point cloud data. In particular, we focus on detecting planar surfaces, which are common in most structured or semi-structured environments. This segmentation is then used to minimize the amount of parameters necessary to properly create a 3D occupancy model of the surveyed space, thus increasing computational speed and decreasing memory requirements. As the 3D modeling tool, an extension to Hilbert Maps was selected, since it naturally uses a feature-based representation of the environment to achieve real-time performance. Experiments conducted in simulated and real large-scale datasets show a substantial gain in performance, while decreasing the amount of stored information by orders of magnitude without sacrificing accuracy.
+ 

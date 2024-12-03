@@ -1,0 +1,19 @@
+This position paper argues that the Baldwin effect is widely 
+misunderstood by the evolutionary computation community. The 
+misunderstandings appear to fall into two general categories. 
+Firstly, it is commonly believed that the Baldwin effect is
+concerned with the synergy that results when there is an evolving 
+population of learning individuals. This is only half of the story. 
+The full story is more complicated and more interesting. The Baldwin 
+effect is concerned with the costs and benefits of lifetime 
+learning by individuals in an evolving population. Several 
+researchers have focussed exclusively on the benefits, but there 
+is much to be gained from attention to the costs. This paper explains 
+the two sides of the story and enumerates ten of the costs and 
+benefits of lifetime learning by individuals in an evolving population.
+Secondly, there is a cluster of misunderstandings about the relationship
+between the Baldwin effect and Lamarckian inheritance of acquired 
+characteristics. The Baldwin effect is not Lamarckian. A Lamarckian
+algorithm is not better for most evolutionary computing problems than 
+a Baldwinian algorithm. Finally, Lamarckian inheritance is not a
+better model of memetic (cultural) evolution than the Baldwin effect.

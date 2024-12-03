@@ -1,0 +1,3 @@
+DADO is a parallel tree-structured machine designed to provide highly significant performance improvements in the execution of large Production Systems. The DADO machine comprises a large (on the order of a hundred thousand) set of processing elements (PE's), each containing its own processor, a small amount (2K bytes, in the current design) of local random access memory, and a specialized I/O switch. The PE's are interconnected to form a complete binary tree. 
+ 
+This paper describes a general procedure for the parallel execution of production systems on the DADO machine, and outlines in general terms how this procedure can be extended to include commutative and multiple, independent production systems.

@@ -1,0 +1,7 @@
+Analogies between Pattern Recognition and Statistacal Communication Theory are pointed out. With the relative entropy between the "ideal attribute" and "heuristic attribute" sets as an index of performance, optimum selection of possible heuristic operators resuJ ts in a recognition decision in probabilitty, with t he smallest possi ble average number of tests during a "sequential analysis". 
+ 
+On the other hand, a computer gencration of quasi-optimal operators may be done based on numerical attributes using the same entropy index of performance. 
+ 
+Experimental results are presented : Optimal operator choice is demonstrated for recognition of handwri tten capital letter words and for vocoder speech recogniti on. 
+ 
+Computer buildi ng of quasi-optimal operators Is shown for digitized images. They are limited to first level linear numerical operators.

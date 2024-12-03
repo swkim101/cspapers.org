@@ -1,0 +1,1 @@
+We give a randomized algorithm that sorts on an N node network with constant valence in 0(log N) time. More particularly the algorithm sorts N items on an N node cube-connected cycles graph and for some constant k for all large enough &agr; it terminates within k&agr; log N time with probability at least 1−N−&agr;.

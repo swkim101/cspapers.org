@@ -1,6 +1,0 @@
-
- Multi-stage programming has been used in a wide variety of domains to eliminate the tension between abstraction and performance. However, the interaction of multi-stage programming features with features for programming-in-the-large remains understudied, hindering the full integration of multi-stage programming support into existing languages, and limiting the effective use of staging in large programs. We take steps to remedy the situation by studying the extension of MacoCaml, a recent OCaml extension that supports compile-time code generation via
- macros
- and
- quotations
- , with module functors, the key mechanism in OCaml for assembling program components into larger units. We discuss design choices related to evaluation order, formalize our calculus via elaboration, and show that the design enjoys key metatheoretical properties: syntactic type soundness, elaboration soundness, and phase distinction. We believe that this study lays a foundation for the continued exploration and implementation of the OCaml macro system.

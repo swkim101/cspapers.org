@@ -1,0 +1,4 @@
+
+ 
+ In case of a plan failure, plan-repair is a more promising solution than replanning from scratch. The effectiveness of plan-repair depends on knowledge of which plan action failed and why. Therefore, in this paper, we propose an Extended Spectrum Based Diagnosis approach that efficiently pinpoints failed actions. Unlike Model Based Diagnosis (MBD), it does not require the fault models and behavioral descriptions of actions. Our approach first computes the likelihood of an action being faulty and subsequently proposes optimal probe locations to refine the diagnosis. We also exploit knowledge of plan steps that are instances of the same plan operator to optimize the selection of the most informative diagnostic probes. In this paper, we only focus on diagnostic aspect of plan-repair process.
+ 

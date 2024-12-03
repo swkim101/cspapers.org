@@ -1,0 +1,1 @@
+We consider a multidimensional variant of the balls-and-bins problem, where balls correspond to random D-dimensional 0-1 vectors. This variant is motivated by a problem in load balancing documents for distributed search engines. We demonstrate the utility of the power of two choices in this domain.

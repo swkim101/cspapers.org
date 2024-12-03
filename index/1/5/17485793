@@ -1,0 +1,1 @@
+We propose a novel mathematical formulation for the holistic scene understanding problem and transform it from the discrete into the continuous domain. The problem can then be modeled with a nonlinear continuous factor graph, and the MAP solution is found via least squares optimization. We evaluate our method on the realistic NYU2 dataset.

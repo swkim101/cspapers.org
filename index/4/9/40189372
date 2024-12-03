@@ -1,0 +1,5 @@
+A System is presented for constructing array-manipulating programs from given specifications. The system accepts high level specifications and produces recursive programs in an Algol-like language. 
+ 
+Restriction to a specific domain and use of powerful techniques such as first-order matching or generalization make our system very efficient. It has been implemented in LISP on a small computer and has been tested for a large number of examples. 
+ 
+The general techniques we use, are briefly discussed and the synthesis of one program produced is presented.

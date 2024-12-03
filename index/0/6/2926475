@@ -1,0 +1,1 @@
+Statistical aggregate properties (e.g. mean, maximum, mode) have not previously been thought to "inherit" between sets. But they do in a weak sense, and a collection of such "weak" information can be combined in a rule-based architecture to get stronger information.

@@ -1,0 +1,1 @@
+Planning collision-free paths for multiple robots traversing a shared space is a problem that grows combinatorially with the number of robots. The naive centralised approach soon becomes intractable for even a moderate number of robots. Decentralised approaches, such as prioritised planning, are much faster but lack completeness.

@@ -1,0 +1,9 @@
+@ 
+ 
+with probability at least 1−δ > 2/3, for some p e {1, 2}. For p = 2, it was recently shown that this is possible with m = O(1/ek log log(n/k)), while nonadaptively it requires Θ(1/ek log(n/k)). It is also known that even adaptively, it takes m = Ω(k/e) for p = 2. For p = 1, there is a non-adaptive upper bound of O(1/√ek log n). We show: 
+ 
+• For p = 2, m = Ω(log log n). This is tight for k = O(1) and constant e, and shows that the log log n dependence is correct. 
+ 
+• If the measurement vectors are chosen in R "rounds", then m = Ω(R log1/R n). For constant e, this matches the previously known upper bound up to an O(1) factor in R. 
+ 
+• For p = 1, m = Ω(k/(√e·log k/e)). This shows that adaptivity cannot improve more than logarithmic factors, providing the analogue of the m = Ω(k/e) bound for p = 2.

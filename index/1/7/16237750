@@ -1,0 +1,1 @@
+In this paper we extend the cube-pruned dependency parsing framework of Zhang et al. (2012; 2013) by forcing inference to maintain both label and structural ambiguity. The resulting parser achieves state-ofthe-art accuracies, in particular on datasets with a large set of dependency labels.

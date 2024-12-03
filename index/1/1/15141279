@@ -1,0 +1,4 @@
+The Cognition and Programming Group at Yale University is engaged in two complementary efforts:
+ 1. exploring the programming process empirically, paying special attention to the knowledge and strategies which expert and non-experts employ, and
+ 2. building computer-based environments which aid novices learning to program.
+ In this extended abstract we will focus on the empirical strand of our research program; in particular, we will describe an experimental technique we have just begun to use to more carefully study what it is that expert and novice programmers do—and don't—know. In [19, 20, 22, 18, 7] we describe additional empirical studies, while [21] describes MENO-II, our intelligent programming tutor for Pascal.

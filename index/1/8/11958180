@@ -1,0 +1,1 @@
+In this paper we describe a method to learn parameters which govern pedestrian motion by observing video data. Our learning framework is based on variational mode learning and allows us to efficiently optimize a continuous pedestrian cost model. We show that this model can be trained on automatic tracking results, and provides realistic and accurate pedestrian motions.

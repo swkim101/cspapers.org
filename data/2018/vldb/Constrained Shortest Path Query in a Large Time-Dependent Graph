@@ -1,4 +1,0 @@
-
- The constrained shortest path (CSP) query over static graphs has been extensively studied, since it has wide applications in transportation networks, telecommunication networks and etc. Such networks are dynamic and evolve over time, being modeled as
- time-dependent graphs.
- Therefore, in this paper, we study the CSP query over a large time-dependent graph. Specifically, we study the point CSP (PCSP) query and interval CSP (ICSP) query. We formally prove that it is NP-complete to process a PCSP query and at least EXPSPACE to answer an ICSP query. We propose approximate sequential algorithms to answer the PCSP and ICSP queries efficiently. We also develop parallel algorithms for the queries that guarantee to scale with big time-dependent graphs. Using real-life graphs, we experimentally verify the efficiency and scalability of our algorithms.

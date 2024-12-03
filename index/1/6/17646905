@@ -1,0 +1,1 @@
+This demo presents our experiences in developing a joystick for videogames that uses RFID backscattering for battery-free operation. Specifically, we develop a system to gather data from a wireless and battery-less joystick, named JoyTag, while it interacts with a videogame console. Our system enables consumers to use JoyTag at every moment without caring about charging.

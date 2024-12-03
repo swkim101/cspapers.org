@@ -1,0 +1,4 @@
+
+ 
+ This paper develops an efficient online algorithm for learning multiple consecutive tasks based on the K-SVD algorithm for sparse dictionary optimization. We first derive a batch multi-task learning method that builds upon K-SVD, and then extend the batch algorithm to train models online in a lifelong learning setting. The resulting method has lower computational complexity than other current lifelong learning algorithms while maintaining nearly identical model performance. Additionally, the proposed method offers an alternate formulation for lifelong learning that supports both task and feature similarity matrices.
+ 

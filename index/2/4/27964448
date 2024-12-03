@@ -1,0 +1,1 @@
+A technique for structuring FORTRAN programs is reviewed, and a preprocessor is described which converts pure structured code into standard FORTRAN. It is claimed that structured FORTRAN is generally easier to read and write than unstructured FORTRAN. Actual examples are given of structured FORTRAN and results of preprocessing.

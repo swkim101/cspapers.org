@@ -1,0 +1,5 @@
+Statistical data frequently includes outliers; these can distort the results of estimation procedures and optimization problems. For this reason, loss functions which deemphasize the effect of outliers are widely used by statisticians. However, there are relatively few algorithmic results about clustering with outliers. 
+ 
+For instance, the k-median with outliers problem uses a loss function [EQUATION] (x) which is equal to the minimum of a penalty h, and the least distance between the data point x and a center ci. The loss-minimizing choice of {c1,..., ck} is an outlier-resistant clustering of the data. This problem is also a natural special case of the k-median with penalties problem considered by [Charikar, Khuller, Mount and Narasimhan SODA'01]. 
+ 
+The essential challenge that arises in these optimization problems is data reduction for the weighted k-median problem. We solve this problem, which was previously solved only in one dimension ([Har-Peled FSTTCS'06], [Feldman, Fiat and Sharir FOCS'06]). As a corollary, we also achieve improved data reduction for the k-line-median problem.

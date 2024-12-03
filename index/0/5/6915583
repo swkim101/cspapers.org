@@ -1,0 +1,4 @@
+
+ 
+ Temperature Discovery Search (TDS) is a forward search method for computing or approximating the temperature of a combinatorial game. Temperature and mean are important concepts in combinatorial game theory, which can be used to develop efficient algorithms for playing well in a sum of subgames. A new algorithm TDS+ with five enhancements of TDS is developed, which greatly speeds up both exact and approximate versions of TDS. Means and temperatures can be computed faster, and fixed-time approximations which are important for practical play can be computed with higher accuracy than before.
+ 

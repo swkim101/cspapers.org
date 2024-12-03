@@ -1,0 +1,1 @@
+A Critical Path Delay Check System for designing computers is described. It calculates the critical path delay between the start and end points. It can be used in the early stage of design when, for example, the location of the components on a plug-in card has not yet been determined. Some algorithms for predicting delays are also introduced.

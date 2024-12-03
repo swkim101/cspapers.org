@@ -1,0 +1,1 @@
+We describe an approach to goal decomposition for a certain class of Markov decision processes (MDPs). An abstraction mechanism is used to generate abstract MDPs associated with different objectives, and several methods for merging the policies for these different objectives are considered. In one t echnique, causal (least-commitment) structures are generated for

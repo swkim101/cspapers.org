@@ -1,0 +1,1 @@
+This paper proposes a novel Geo-IR ranking method that realizes effective searches that emphasize the user's immediate surroundings. It assesses the extent implied by place names in documents and then emphasizes place names that are highly specific in terms of identifying locations.

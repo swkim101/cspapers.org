@@ -1,0 +1,21 @@
+In the data, supplied to the 1979 DAC panel on <underline>VLSI and CAD in the 80's</underline>, was a steeply rising curve showing the number of transistors per chip plotted against year of introduction. This plot, by Bill Lattin of Intel, passed one million in 1983 and would reach ten million by 1985. Translated to circuits, this would mean 10<superscrpt>5</superscrpt> circuits by 1983, 10<supscrpt>6</supscrpt> circuits by 1985.
+ The 1979 DAC panel presented the following collection of ideas for attacking this problem:
+ Some of the increased circuit count will be swallowed up by <underline>redundant implementation</underline> in order to improve the chip yield.
+ There will be only a few of these large chips designed and they will be <underline>general purpose units</underline>.
+ To avoid expensive checking runs there will be <underline>more synthesis</underline> and <underline>less analysis</underline>.
+ These chips will be designed with <underline>higher level languages</underline> to cut design time and avoid the mindboggling mass of detailed circuits.
+ <underline>Hierarchical design techniques</underline> will be used for the same reason.
+ The chip will be made up of <underline>standard design elements</underline>-registers, PLA's and ROM control logic.
+ There will be <underline>little random logic</underline>.
+ There will be lots of memory available on the chip such as <underline>64K of RAM</underline>.
+ Using the broad definition of VLSI as between 50,000 and 500,000 logic circuits the 1980 DAC panel will continue the debate on this Design Automation problem. A spectrum of positions still exists:
+ Silicon usage versus design time.
+ Standard cells versus gate arrays versus random logic.
+ Few general purpose miniprocessors versus many special purpose ones.
+ Optimistic DA tool developers versus pessimistic users.
+ Total automation versus assistance only.
+ Design integrity versus designer freedom.
+ Practical versus impossible.
+ Evolution versus revolution.
+ The panel members were asked to submit a short position paper and prepare a five minute explanation of their views. They were also asked to respond to thirteen questions with a simple YES or NO answer. Their answers reflect their own personal opinions and are not necessarily those of their companies. Most of these questions cannot be answered with one word but to establish a starting point for debate the panelists were requested to pick the YES or NO answer that is <underline>most</underline> right.
+ Since computer storage can obviously gobble up all the circuits per chip we can produce in the 80's, the following list of questions on these issues will refer to chips that contain 50,000 to 500,000 logic circuits <underline>beyond</underline> the RAM storage.

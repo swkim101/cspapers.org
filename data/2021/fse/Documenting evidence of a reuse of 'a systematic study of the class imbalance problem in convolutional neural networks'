@@ -1,1 +1,0 @@
-We report here the reuse of oversampling, and modifications to the basic approach, used in a recent TSE ’21 paper by YedidaMenzies. The method reused is the oversampling technique studied by Buda et al. These methods were studied in the SE domain (specifically, for defect prediction), and extended by Yedida & Menzies.

@@ -1,0 +1,1 @@
+We describe a novel mechanism called Reservoir Counting for application in online Locality Sensitive Hashing. This technique allows for significant savings in the streaming setting, allowing for maintaining a larger number of signatures, or an increased level of approximation accuracy at a similar memory footprint.

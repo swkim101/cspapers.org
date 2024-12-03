@@ -1,0 +1,4 @@
+
+ 
+ Ordinal regression is an important research topic in machine learning. It aims to automatically determine the implied rating of a data item on a fixed, discrete rating scale. In this paper, we present a novel ordinal regression approach via manifold learning, which is capable of uncovering the embedded nonlinear structure of the data set according to the observations in the highdimensional feature space. By optimizing the order information of the observations and preserving the intrinsic geometry of the data set simultaneously, the proposed algorithm provides the faithful ordinal regression to the new coming data points. To offer more general solution to the data with natural tensor structure, we further introduce the multilinear extension of the proposed algorithm, which can support the ordinal regression of high order data like images. Experiments on various data sets validate the effectiveness of the proposed algorithm as well as its extension.
+ 

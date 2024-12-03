@@ -1,0 +1,8 @@
+This paper presents a short description of some of the methods and tools used in the TRIDENT Fire Control Software development. Use of a Program Design Language (PDL), use of a High Order Language (HOL) for programming, and the use of a SCHEMA approach to software debug are some of the highlights.
+ This paper will discuss the TRIDENT Fire Control System software development effort, stressing Software Engineering concepts being used. Specific points that will be mentioned are:
+ 1. parallel computer - operating system development
+ 2. use of prototypes/planned updates
+ 3. structured design method
+ 4. use of a higher order language
+ 5. software test concepts
+ 6. configuration control/V & V effort

@@ -1,0 +1,1 @@
+A transmitter sends packets over a local area network to a receiver. The receiver has a finite amount of storage capacity for buffering messages. A sliding window protocol is employed to insure all packets are delivered without error in order of arrival. Mean throughput rate and packet delay statistics are studied as a function of model parameters. Simulation data are presented.

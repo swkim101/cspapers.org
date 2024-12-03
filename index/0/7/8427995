@@ -1,0 +1,4 @@
+
+ 
+ Recent enhancements to greedy best-first search (GBFS) improve performance by occasionally adopting a non-greedy node expansion policy, resulting in more exploratory behavior. However, previous exploratory mechanisms do not address exploration within the space sharing the same heuristic estimate (plateau) and the search bias in a breadth direction. In this abstract, we briefly describe two modes of exploration (diversification), which work inter-(across) and intra-(within) plateau, and also introduce IP-diversification, a method combining Minimum Spanning Tree and randomization, which addresses “breadth”-bias instead of the “depth”-bias addressed by the existing methods.
+ 

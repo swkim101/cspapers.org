@@ -1,0 +1,5 @@
+This work uses an alignment approach for classifying objects according to their shape similarity. Previous alignment methods were mostly limited to the recognition of specific rigid objects, allowing only for rigid transformations between the model and the viewed object. The current work extends previous alignment schemes in two main directions: extending the set of allowed transformations between the model and the viewed object, and using structural aspects of the internal models, namely, their part decomposition. 
+ 
+The compensating transformation is divided into two parts. The first, rough alignment, compensates (approximately) for changes in viewpoint and is derived by matching tangen tial points on the silhouette of the model and the viewed object. The second, the adjustment transformation, is derived by matching local features-discontinuities of the contour orientation and curvature. 
+ 
+Principal aspects of the scheme suggested here are also relevant for the recognition of flexible objects.

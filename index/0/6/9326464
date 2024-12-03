@@ -1,0 +1,1 @@
+We present the implementation and experiments of a Web switch that transforms a cluster-based Web system (Web cluster) with best-effort management policies into a system that gives guaranteed performance to different classes of users and applications.

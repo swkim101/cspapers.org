@@ -1,0 +1,7 @@
+Chapman's paper, "Planning for Conjunctive Goals," has been widely acknowledged for its contribution toward understanding the nature of nonlinear (partial-order) planning, and it has been one of the bases of later work by others—but it is not free of problems. This paper addresses some problems involving modal truth and the Modal Truth Criterion (MTC). Our results are as follows: 
+ 
+1. Even though modal duality is a fundamental axiom of classical modal logics, it does not hold for modal truth in Chapman's plans; i.e., "necessarily p" is not equivalent to "not possibly p." 
+ 
+2. Although the MTC for necessary truth is correct, the MTC for possible truth is incorrect: it provides necessary but insufficient conditions for ensuring possible truth. Furthermore, even though necessary truth can be determined in polynomial time, possible truth is NP-hard. 
+ 
+3. If we rewrite the MTC to talk about modal conditional truth (i.e., modal truth conditional on executability) rather than modal truth, then both the MTC for necessary conditional truth and the MTC for possible conditional truth are correct; and both can be computed in polynomial time.

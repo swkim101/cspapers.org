@@ -1,0 +1,1 @@
+An algorithm is proposed for automation of the prefilter design step of Horowitz's quantitative feedback theory (QFT) to robust feedback system synthesis. The proposed algorithm uses interval global optimization techniques to give an 'optimal' (to a user specified accuracy) minimum phase prefilter. The proposed algorithm is demonstrated on a QFT benchmark example

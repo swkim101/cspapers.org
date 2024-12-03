@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of embedding entities and relations of knowledge bases into low-dimensional continuous vector spaces (distributed representations). Unlike most existing approaches, which are primarily efficient for modelling pairwise relations between entities, we attempt to explicitly model both pairwise relations and long-range interactions between entities, by interpreting them as linear operators on the low-dimensional embeddings of the entities. Therefore, in this paper we introduces Path-Ranking to capture the long-range interactions of knowledge graph and at the same time preserve the pairwise relations of knowledge graph; we call it 'structured embedding via pairwise relation and long-range interactions' (referred to as SePLi). Comparing with the-state-of-the-art models, SePLi achieves better performances of embeddings.
+ 

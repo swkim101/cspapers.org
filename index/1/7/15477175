@@ -1,0 +1,4 @@
+
+ 
+ Online forums contain interactive and semantically related discussions on various questions. Extracted question-answer archive is invaluable knowledge, which can be used to improve Question Answering services. In this paper, we address the problem of Question Suggestion, which targets at suggesting questions that are semantically related to a queried question. Existing bag-of-words approaches suffer from the shortcoming that they could not bridge the lexical chasm between semantically related questions. Therefore, we present a new framework to suggest questions, and propose the Topicenhanced Translation-based Language Model (TopicTRLM) which fuses both the lexical and latent semantic knowledge. Extensive experiments have been conducted with a large real world data set. Experimental results indicate our approach is very effective and outperforms other popular methods in several metrics.
+ 

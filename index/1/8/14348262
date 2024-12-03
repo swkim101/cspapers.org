@@ -1,0 +1,1 @@
+The problem of reconstructing a procedure from traces of its behavior is considered. A representation for procedures, including backtracking procedures, is described and a definition of a trace or protocol is presented. Algorithms for the construction of a procedure from a set of traces and for its correction using additional traces are described.

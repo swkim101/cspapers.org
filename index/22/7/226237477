@@ -1,0 +1,8 @@
+Diagnostic datasets that can detect biased models are an important prerequisite for bias reduction within natural language processing.
+However, undesired patterns in the collected data can make such tests incorrect.
+For example, if the feminine subset of a gender-bias-measuring coreference resolution dataset contains sentences with a longer average distance between the pronoun and the correct candidate, an RNN-based model may perform worse on this subset due to long-term dependencies.
+In this work, we introduce a theoretically grounded method for weighting test samples to cope with such patterns in the test data.
+We demonstrate the method on the GAP dataset for coreference resolution.
+We annotate GAP with spans of all personal names and show that examples in the female subset contain more personal names and a longer distance between pronouns and their referents, potentially affecting the bias score in an undesired way.
+Using our weighting method, we find the set of weights on the test instances that should be used for coping with these correlations, 
+and we re-evaluate 16 recently released coreference models.

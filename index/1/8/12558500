@@ -1,0 +1,1 @@
+We present our work on the identification of opinions and its components: the source, the topic and the message. We describe a rule-based system for which we achieved a recall of 74% and a precision of 94%. Experimentation with machine-learning techniques for the same task is currently underway.

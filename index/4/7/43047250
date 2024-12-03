@@ -1,0 +1,4 @@
+
+ 
+ My thesis addresses the problem of planning under teammate behavior uncertainty by introducing the concept of intentional multiagent communication within ad hoc teams. In partially observable multiagent domains, agents much share information regarding aspects of the environment such that uncertainty is reduced across the team, permitting better coordination. Similarly, we consider how communication may be utilized within ad hoc teams to resolve behavioral uncertainty. Transmitting intentional messages allows agents to adjust predictions of a teammate's individual course of action. In short, an ad hoc agent coordinating with an unknown teammate can identify uncertainties within its own predictive model of teammate behavior then request the appropriate policy information, allowing the agent to adapt its personal plan. The main contribution of this work is the characterization of the interaction between learning, communication, and planning in ad hoc teams.
+ 

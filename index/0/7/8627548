@@ -1,0 +1,1 @@
+We describe a method for removing the effect of confounders in order to reconstruct a latent quantity of interest. The method, referred to as half-sibling regression, is inspired by recent work in causal inference using additive noise models. We provide a theoretical justification and illustrate the potential of the method in a challenging astronomy application.

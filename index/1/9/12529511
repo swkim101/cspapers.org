@@ -1,0 +1,4 @@
+
+ 
+ There are very few reasoners which combine natural deduction and subsumption reasoning, and there are none which do so while supporting concurrency. Inference Graphs are a graph-based inference mechanism using an expressive first-order logic, capable of subsumption and natural deduction reasoning using concurrency. Evaluation of concurrency characteristics on a combination natural deduction and subsumption reasoning problem has shown linear speedup with the number of processors.
+ 

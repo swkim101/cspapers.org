@@ -1,0 +1,10 @@
+The paper reports on a design methodology and an experimental CAD system, named Caddie, based on this methodology. Caddie supports specification, analysis and synthesis of objects that can be described as communicating processes, e.g. electronic circuits, sequential networks, digital processors and programs. Basic ideas behind Caddie are:
+ - top-down hierarchical design. Specifications are broken down hierarchically by stepwise refinement
+ - integrated design. Design objects from different design phases are described in the same formalism. This technique allows universal design operations.
+ - formal systems with varying descriptive and decisive powers are exploited
+ - incremental design. Parts can be modified separately without effect on other parts.
+ - interactive design, i.e. the designer can interact with the design tools in real time
+ Caddie is implemented in Concurrent-lisp, an extension of lisp supporting concurrent programming. Automatic programming tools have been used in the implementation. Caddie consists of
+ - an interactive parallel programming environment
+ - automatic design procedures
+ - a run-time system for execution of design objects (real-time and branching or exhaustive simulation)

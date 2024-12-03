@@ -1,0 +1,1 @@
+This paper describes a program for interactive layout of printed circuit boards (PCB) with fixed holes. The wires may be drawn as a rough sketch and will be cleaned-up conforming to the specified clearance and wire width. Also included is on-line check of spacing and crossing.

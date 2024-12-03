@@ -1,0 +1,4 @@
+
+ 
+ Stochastic blockmodel (SBM) enables us to decompose and analyze an exploratory network without a priori knowledge about its intrinsic structure. However, the task of effectively and efficiently learning a SBM from a large-scale network is still challenging due to the high computational cost of its model selection and parameter estimation. To address this issue, we present a novel SBM learning algorithm referred to as BLOS (BLOckwise Sbm learning). Distinct from the literature, the model selection and parameter estimation of SBM are concurrently, rather than alternately, executed in BLOS by embedding the minimum message length criterion into a block-wise EM algorithm, which greatly reduces the time complexity of SBM learning without losing learning accuracy and modeling flexibility. Its effectiveness and efficiency have been tested through rigorous comparisons with the state-of-the-art methods on both synthetic and real-world networks.
+ 

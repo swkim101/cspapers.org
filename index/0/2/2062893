@@ -1,0 +1,4 @@
+
+ 
+ Decentralized agent groups typically require complex mechanisms to accomplish coordinated tasks. In contrast, biological systems can achieve intelligent group behaviors with each agent performing simple sensing and actions. We summarize our recent papers on a biologically-inspired control framework for multi-agent tasks that is based on a simple and iterative control law. We theoretically analyze important aspects of this decentralized approach, such as the convergence and scalability, and further demonstrate how this approach applies to real-world applications with a diverse set of multi-agent applications. These results provide a deeper understanding of the contrast between centralized and decentralized algorithms in multi-agent tasks and autonomous robot control.
+ 

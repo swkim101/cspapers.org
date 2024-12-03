@@ -1,0 +1,4 @@
+
+ 
+ We address the problem of predicting the expected opinion share over a social network at a target time from the opinion diffusion data under the value-weighted voter model with multiple opinions. The value update algorithm ensures that it converges to a correct solution and the share prediction results outperform a simple linear extrapolation approximation when the available data is limited. We further show in an extreme case of complete network that the opinion with the highest value eventually takes over, and the expected share prediction problem with uniform opinion value is not well-defined and any opinion can win.
+ 

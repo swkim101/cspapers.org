@@ -1,0 +1,4 @@
+
+ 
+ Partial MaxSAT (PMS) is a generalization to SAT and MaxSAT. Many real world problems can be encoded into PMS in a more natural and compact way than SAT and MaxSAT. In this paper, we propose new ideas for local search for PMS, which mainly rely on the distinction between hard and soft clauses. We use these ideas to develop a local search PMS algorithm called {\it Dist}. Experimental results on PMS benchmarks from MaxSAT Evaluation 2013 show that {\it Dist} significantly outperforms state-of-the-art PMS algorithms, including both local search algorithms and complete ones, on random and crafted benchmarks. For the industrial benchmark, {\it Dist} dramatically outperforms previous local search algorithms and is comparable with complete algorithms.
+ 

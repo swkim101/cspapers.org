@@ -1,0 +1,3 @@
+Nondeterminism is one of the most elusive concepts in computing.
+ In this paper we direct our efforts towards viewing nondeterminism as an additional resource at the disposal of time or space bounded Turing machine computations and study the classes of languages acceptable by these machines with restricted amounts of nondeterminism.
+ One motivation for this study comes from the observation that for many of the well-known NP-complete problems, if n' is the length of the input, an algorithm exists requiring a total number of moves which is polynomial in n, but the number of nondeterministic moves is only linear in n.

@@ -1,0 +1,4 @@
+
+ 
+ Minimal explanations of infeasibility find a wide range of uses. In the Boolean domain, these are referred to as Minimal Unsatisfiable Subsets (MUSes). In some settings, one needs to enumerate MUSes of a Boolean formula. Most often the goal is to enumerate all MUSes. In cases where this is computationally infeasible, an alternative is to enumerate some MUSes. This paper develops a novel approach for partial enumeration of MUSes, that complements existing alternatives. If the enumeration of all MUSes is viable, then existing alternatives represent the best option. However, for formulas where the enumeration of all MUSes is unrealistic, our approach provides a solution for enumerating some MUSes within a given time bound. The experimental results focus on formulas for which existing solutions are unable to enumerate MUSes, and shows that the new approach can in most cases enumerate a non-negligible number of MUSes within a given time bound.
+ 

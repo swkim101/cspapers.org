@@ -1,0 +1,3 @@
+The CAN system for automatic understanding of LISP programs is presented. When applied on a LISP program, CAN needs no assertion about what the program is intended to do. CAN's general task is to associate e meaning to a program, from which it is able to diagnose semantic properties (unused portions of code, undefinitions, underused programs, classes Of data for which evaluation of an expression never terminates), and to exhibit deep semantic properties. 
+ 
+CAN's underlying theory is the conceptual calculus, based on the clausal form of predicate logic. It involves two main ideas : - an Induction principle specially adapted to program understanding (as opposed to program verification). - An extension of unificetion to equation solving.

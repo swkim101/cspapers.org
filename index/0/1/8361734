@@ -1,0 +1,2 @@
+We argue that a parallel processing course should be offered to undergraduate computer science majors. A major component of such a course should be a series of programming laboratories where the student can investigate the strengths and weaknesses of different parallel architectures. The student should design and debug parallel algorithms on the different parallel models.
+We propose a cost effective solution to the teaching of the course which uses simulators and Transputer-based parallel accelerators in a personal computer or workstation environment.

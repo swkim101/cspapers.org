@@ -1,0 +1,4 @@
+
+ 
+ The result of forgetting some predicates in a first-order sentence may not exist in the sense that it might not be captured by any first-order sentences. This, indeed, severely restricts the usage of forgetting in applications. To address this issue, we propose a notion called $k$-forgetting, also called bounded forgetting in general, for any fixed number $k$. We present several equivalent characterizations of bounded forgetting and show that the result of bounded forgetting, on one hand, can always be captured by a single first-order sentence, and on the other hand, preserves the information that we are concerned with.
+ 

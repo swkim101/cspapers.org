@@ -1,0 +1,1 @@
+The paper describes a language based on the paradigm of Production Systems. The novel aspects of the proposal are the possibility of augmenting Production Systems with demons able to monitor the visit of the search space, and the integration of Production Systems with Abstract Data Types and traditional functional programming.

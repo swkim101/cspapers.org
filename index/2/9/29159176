@@ -1,0 +1,4 @@
+
+ 
+ We propose an end-to-end deep network for video super-resolution. Our network is composed of a spatial component that encodes intra-frame visual patterns, a temporal component that discovers inter-frame relations, and a reconstruction component that aggregates information to predict details. We make the spatial component deep, so that it can better leverage spatial redundancies for rebuilding high-frequency structures. We organize the temporal component in a bidirectional and multi-scale fashion, to better capture how frames change across time. The effectiveness of the proposed approach is highlighted on two datasets, where we observe substantial improvements relative to the state of the arts.
+ 

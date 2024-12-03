@@ -1,0 +1,1 @@
+High-speed engines for logic programming have been the target of much recent research. Here, we present a high-level hardware design and its custom data formats for directly performing a subset of logic resolution. This design uses parallelism in unifying arguments and substituting variable bindings which is distinct from the widely discussed OR and AND parallelism.

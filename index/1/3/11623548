@@ -1,0 +1,1 @@
+In this paper, we present a novel approach for medical synonym extraction. We aim to integrate the term embedding with the medical domain knowledge for healthcare applications. One advantage of our method is that it is very scalable. Experiments on a dataset with more than 1M term pairs show that the proposed approach outperforms the baseline approaches by a large margin.

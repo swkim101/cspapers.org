@@ -1,0 +1,1 @@
+fourier analysis Fourier analysis consists in decomposing a signal into projections on subspaces that are stable under translations. Example: Fourier series For ek(x) = e2iπkx, the space Cek is stable under translations Ta : f 7→ f(· − a) for all a ∈ R/Z. Fourier coefficient f̂(k) is defined by f̂(k) = ⟨f, ek⟩ = ∫ 1 0 f(x)e2iπkxdx

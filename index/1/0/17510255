@@ -1,0 +1,3 @@
+This paper describes a method for maintaining the relationships between temporal intervals in a hierarchical manner using constraint propagation techniques. The representation includes a notion of the present moment (i.e., "now"), and allows one to represent intervals that may extend indefinitely into the past/future. 
+ 
+This research was supported in part by the National Science Foundation under Grant Number IST-80-12418, and in part by the Office of Naval Research under Grant Number N00014-80-O0197.

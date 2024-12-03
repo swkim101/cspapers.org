@@ -1,0 +1,4 @@
+
+ 
+ Multi-instance learning, as other machine learning tasks, also suffers from the curse of dimensionality. Although dimensionality reduction methods have been investigated for many years, multi-instance dimensionality reduction methods remain untouched. On the other hand, most algorithms in multi- instance framework treat instances in each bag as independently and identically distributed samples, which fails to utilize the structure information conveyed by instances in a bag. In this paper, we propose a multi-instance dimensionality reduction method, which treats instances in each bag as non-i.i.d. samples. We regard every bag as a whole entity and define a bag margin objective function. By maximizing the margin of positive and negative bags, we learn a subspace to obtain more salient representation of original data. Experiments demonstrate the effectiveness of the proposed method.
+ 

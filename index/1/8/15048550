@@ -1,0 +1,1 @@
+We demonstrate machine learning augmented Open Shortest Path First (OSPF) routing which infers Shared Risk Groups (SRG) from link failure history. For an initial link failure matching an SRG, it predicts subsequent link state advertisements corresponding with that SRG, improving convergence and recovery times during multiple network failures.

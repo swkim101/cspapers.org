@@ -1,0 +1,4 @@
+
+ 
+ Automatic caption generation is a key research field in the machine learning community. However, most of the current research is performed on English caption generation ignoring other languages like Arabic and Persian. In this paper, we propose a novel technique leveraging the heavy influence of root words in Arabic to automatically generate captions in Arabic. Fragments of the images are associated with root words and deep belief network pre-trained using Restricted Boltzmann Machines are used to extract words associated with image. Finally, dependency tree relations are used to generate sentence-captions by using the dependency on root words. Our approach is robust and attains BLEU-1 score of 34.8.
+ 

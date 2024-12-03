@@ -1,0 +1,1 @@
+We introduce a new method for flow size estimation, the Optimised Flow Sampled Sketch, which combines the optimal properties of Flow Sampling with the computational advantages of a counter array sketch. Using Fisher Information as a definitive basis of comparison, we show that it is superior to alternatives in both model and traffic based comparisons.

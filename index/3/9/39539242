@@ -1,0 +1,3 @@
+We present the SNAC method of encoding Knowledge In a polynomial function. The most common use for such a function r. to evaluate competing alternatives in a problem solving situation. The SNAC method was discovered during research on a program that plays backgammon. It has resulted in highly consistent, skilled performance, and has made adding new knowledge very easy. This has resulted in large performance increments in the backgammon program. 
+ 
+We show how to create sensitive evaluation functions and how to avoid stability problems in non-linear functions. We also demonstrate two effects, not previously found in the literature: the suicide construction, and the blemish effect.

@@ -1,0 +1,1 @@
+In this paper we describe a teleoperation system, which controls a semi-autonomous 7 degrees-of-freedom robot arm equipped with a five-finger hand via a myo armband, utilizing the gyroscope and EMG sensor data. An object manipulation scenario including grasping and object moving are used to pre-evaluate the benefits of such a setup.

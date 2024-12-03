@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of manipulating elections via cloning candidates. In our model, a manipulator can replace each candidate c by one or more clones, i.e., new candidates that are so similar to c that each voter simply replaces c in his vote with the block of c's clones. The outcome of the resulting election may then depend on how each voter orders the clones within the block. We formalize what it means for a cloning manipulation to be successful (which turns out to be a surprisingly delicate issue), and, for a number of prominent voting rules, characterize the preference profiles for which a successful cloning manipulation exists. We also consider the model where there is a cost associated with producing each clone, and study the complexity of finding a minimum-cost cloning manipulation. Finally, we compare cloning with the related problem of control via adding candidates.
+ 

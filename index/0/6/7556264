@@ -1,0 +1,4 @@
+
+ 
+ The fairness notion of maximin share (MMS) guarantee underlies a deployed algorithm for allocating indivisible goods under additive valuations. Our goal is to understand when we can expect to be able to give each player his MMS guarantee. Previous work has shown that such an MMS allocation may not exist, but the counterexample requires a number of goods that is exponential in the number of players; we give a new construction that uses only a linear number of goods. On the positive side, we formalize the intuition that these counterexamples are very delicate by designing an algorithm that provably finds an MMS allocation with high probability when valuations are drawn at random.
+ 

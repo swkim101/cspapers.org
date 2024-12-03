@@ -1,0 +1,9 @@
+For A, B ⊂ Rd, |A| + |B| = n, let a e A have a demand da e Z+ and b e B have a supply sb e Z+, [EQUATION] = U and let d(.,.) be a distance function. Suppose the diameter of A ∪ B is Δ under d(.,.), and e > 0 is a parameter. We present an algorithm that in O((n√Ulog2 n + U log U)Φ(n) log(ΔU/e)) time computes a solution to the transportation problem on A, B which is within an additive error e from the optimal solution. Here Φ(n) is the query and update time of a dynamic weighted nearest neighbor data structure under distance function d(.,.). Note that the (1/e) appears only in the log term. As among various consequences we obtain, 
+ 
+• For A, B ⊂ Rd and for the case where d(.,.) is a metric, an e-approximation algorithm for the transportation problem in O((n√U log2 n + U log U)Φ(n) log (U/e)) time. 
+ 
+• For A, B ⊂ [Δ]d and the L1 and L∞ distance, exact algorithm for computing an optimal bipartite matching of A, B that runs in O(n3/2 log d+O(1) n log Δ) time. 
+ 
+• For A, B ⊂ [Δ]2 and RMS distance, exact algorithm for computing an optimal bipartite matching of A, B that runs in O(n3/2+δ log Δ) time, for an arbitrarily small constant δ > 0. 
+ 
+For point sets, A, B ⊂ [Δ]d, for the Lp norm and for 0 < α, β < 1, we present a randomized dynamic data structure that maintains a partial solution to the transportation problem under insertions and deletions of points in which at least (1 − α)U of the demands are satisfied and whose cost is within (1 + β) of that of the optimal (complete) solution to the transportation problem with high probability. The insertion, deletion and update times are O(poly(log(nΔ)/αβ)), provided U = nO(1).

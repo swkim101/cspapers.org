@@ -1,0 +1,4 @@
+
+ 
+ The need of handling semantic heterogeneity of resources is a key problem of the Semantic Web. State of the art techniques for ontology matching are the key technology for addressing this issue. However, they only partially exploit the natural lan- guage descriptions of ontology entities and they are mostly unable to find correspondences between entities having dif- ferent logical types (e.g. mapping properties to classes). We introduce a novel approach aimed at finding correspondences between ontology entities according to the intensional mean- ing of their models, hence abstracting from their logical types. Lexical linked open data and frame semantics play a crucial role in this proposal. We argue that this approach may lead to a step ahead in the state of the art of ontology matching, and positively affect related applications such as question an- swering and knowledge reconciliation.
+ 

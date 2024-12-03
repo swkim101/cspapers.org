@@ -1,0 +1,7 @@
+We use some ideas from the theory of Lie groups and Lie algebras to study the problem of recovering rigid motion from a time varying picture. We are able to avoid the problem of finding corresponding points by considering only what can be determined from picture point values and their time derivative. We do not assume that we can track individual points in the image, nor that we are given any of their velocities (i.e., the optic (low). Among our results arc: 
+ 
+The 6 point df/dt theorem, showing that generically the values of df/dt at 6 points of the monochrome image/are necessary and sufficient to specify the motion of a given object. 
+ 
+The 2-color theorem for optic flow, which states that the optic flow vector is uniquely specified at a generic point of the image if there arc 2 or more color dimensions. 
+ 
+Also, we get the color version of the 6 point theorem, the 2 colors, 3 points corollary, which reduces the number of points required to 3, if there are at least 2 color dimensions.

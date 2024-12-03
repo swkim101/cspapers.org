@@ -1,0 +1,4 @@
+
+ 
+ We study time-consistency of optimization problems, where we say that an optimization problem is time-consistent if its optimal solution, or the optimal policy for choosing actions, does not depend on when the optimization problem is solved. Time-consistency is a minimal requirement on an optimization problem for the decisions made based on its solution to be rational. We show that the return that we can gain by taking "optimal" actions selected by solving a time-inconsistent optimization problem can be surely dominated by that we could gain by taking "suboptimal" actions. We establish sufficient conditions on the objective function and on the constraints for an optimization problem to be time-consistent. We also show when the sufficient conditions are necessary. Our results are relevant in stochastic settings particularly when the objective function is a risk measure other than expectation or when there is a constraint on a risk measure.
+ 

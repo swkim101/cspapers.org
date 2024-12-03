@@ -1,0 +1,4 @@
+
+ 
+ In timeseries classification, shapelets are subsequences of timeseries with high discriminative power. Existing methods perform a combinatorial search for shapelet discovery. Even with speedup heuristics such as pruning, clustering, and dimensionality reduction, the search remains computationally expensive. In this paper, we take an entirely different approach and reformulate the shapelet discovery task as a numerical optimization problem. In particular, the shapelet positions are learned by combining the generalized eigenvector method and fused lasso regularizer to encourage a sparse and blocky solution. Extensive experimental results show that the proposed method is orders of magnitudes faster than the state-of-the-art shapelet-based methods, while achieving comparable or even better classification accuracy.
+ 

@@ -1,0 +1,5 @@
+We present an algorithm for computing a <i>d</i>-dimensional subspace of the row space of a matrix. For an <i>n</i> x <i>n</i> matrix <i>A</i> with <i>m</i> nonzero entries and with <i>rank(A)</i> ≥ <i>d</i> the algorithm generates a <i>d</i> x <i>n</i> matrix with full row rank and which is a subspace of <i>Rows(A)</i>. If <i>rank(A)</i> < <i>d</i> the algorithm generates a <i>rank(A)</i> x <i>n</i> row-equivalent matrix. The running time of the algorithm is
+ [EQUATION]
+ where ω < 2.376 is the matrix multiplication exponent. An immediate corollary of the algorithm is the construction of a row-reduced equivalent matrix of <i>A</i>, and hence the computation of <i>rank(A)</i>, in time
+ [EQUATION]
+ We note that the running time is sub-quadratic if <i>d</i> < (<i>n</i><sup>2</sup>/<i>m</i>)<sup>0.528</sup>.

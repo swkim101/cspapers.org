@@ -1,0 +1,4 @@
+
+ 
+ With the rapid development of signed social networks in which therelationships between two nodes can be either positive (indicatingrelations such as like) or negative (indicating relations such asdislike), producing a personalized ranking list with positive linkson the top and negative links at the bottom is becoming anincreasingly important task. To accomplish it, we propose ageneralized AUC (GAUC) to quantify the ranking performance ofpotential links (including positive, negative, and unknown statuslinks) in partially observed signed social networks. In addition, wedevelop a novel link recommendation algorithm by directly optimizingthe GAUC loss. We conduct experimental studies based upon Wikipedia,MovieLens, and Slashdot; our results demonstrate the effectivenessand the efficiency of the proposed approach.
+ 

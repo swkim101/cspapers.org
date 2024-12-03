@@ -1,0 +1,4 @@
+
+ 
+ Word2Vec recently popularized dense vector word representations as fixed-length features for machine learning algorithms and is in widespread use today. In this paper we investigate one of its core components, Negative Sampling, and propose efficient distributed algorithms that allow us to scale to vocabulary sizes of more than 1 billion unique words and corpus sizes of more than 1 trillion words.
+ 

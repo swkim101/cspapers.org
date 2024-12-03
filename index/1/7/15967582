@@ -1,0 +1,1 @@
+We introduce arc-lh, a new algorithm for improvement of ANN classifier performance, which measures the importance of patterns by aggregated network output errors. On several artificial benchmark problems, this algorithm compares favorably with other resample and combine techniques.

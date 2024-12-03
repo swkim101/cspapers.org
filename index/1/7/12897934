@@ -1,0 +1,5 @@
+In marketing planning, advertisers seek to maximize the number of customers by allocating given budgets to each media channel effectively. The budget allocation problem with a bipartite influence model captures this scenario; however, the model is problematic because it assumes there is only one advertiser in the market. In reality, there are many advertisers which are in conflict of advertisement; thus we must extend the model for such a case. 
+ 
+By extending the budget allocation problem with a bipartite influence model, we propose a gametheoretic model problem that considers many advertisers. By simulating our model, we can analyze the behavior of a media channel market, e.g., we can estimate which media channels are allocated by an advertiser, and which customers are influenced by an advertiser. 
+ 
+Our model has many attractive features. First, our model is a potential game; therefore, it has a pure Nash equilibrium. Second, any Nash equilibrium of our game has 2-optimal social utility, i.e., the price of anarchy is 2. Finally, the proposed model can be simulated very efficiently; thus it can be used to analyze large markets.

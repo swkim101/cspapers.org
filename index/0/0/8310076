@@ -1,0 +1,4 @@
+
+ 
+ Table constraints are very useful for modeling combinatorial constrained problems, and thus play an important role in Constraint Programming (CP). During the last decade, many algorithms have been proposed for enforcing the property known as Generalized Arc Consistency (GAC) on such constraints. A state-of-the art GAC algorithm called Compact-Table (CT), which has been recently proposed, significantly outperforms all previously proposed algorithms. In this paper, we extend this algorithm in order to deal with both short supports and negative tables, i.e., tables that contain universal values and conflicts. Our experimental results show the interest of using this fast general algorithm. 
+ 

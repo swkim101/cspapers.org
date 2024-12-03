@@ -1,0 +1,7 @@
+Thematic analysis is best manifested by contrasting collocations1 such as "shipping pacemakers" vs. "shipping departments". While in the first pair, the pacemakers are being shipped, in the second one, the departments are probably engaged in some shipping activity, but are not being shipped. 
+ 
+Text pre-processors, intended to inject corpus-based intuition into the parsing process, must adequately distinguish between such cases. Although statistical tagging [Church et al., 1989; Meteer et al., 1991; Brill, 1992; Cutting et al., 1992] has attained impressive results overall, the analysis of multiple-contentword strings (i.e., collocations) has presented a weakness, and caused accuracy degradation. 
+ 
+To provide acceptable coverage (i.e., 90% of collocations), a tagger must have accessible a large database (i.e., 250,000 pairs) of individually analyzed collocations. Consequently, training must be based on a corpus ranging well over 50 million words. Since such a large corpus does not exist in a tagged form, training must be from raw corpus. 
+ 
+In this paper we present an algorithm for text tagging based on thematic analysis. The algorithm yields high-accuracy results. We provide empirical results: The program NLcp (NL corpus processing) acquired a 250,000 thematic-relation database through the 85- million word Wall-Street Journal Corpus. It was tested over the Tipster 66,000-word Joint-Venture corpus.

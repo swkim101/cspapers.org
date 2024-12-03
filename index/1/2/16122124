@@ -1,0 +1,1 @@
+Separation logic holds the promise of supporting scalable formal reasoning for pointer programs. Here we consider proof automation for separation logic. In particular we propose an approach to automating partial correctness proofs for recursive procedures. Our proposal is based upon proof planning and proof patching via assertion refinement

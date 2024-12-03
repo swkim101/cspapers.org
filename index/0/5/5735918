@@ -1,0 +1,1 @@
+The phone attitude is an essential input to many smartphone applications. Based on in-depth understanding of the nature of the MEMS gyroscope and other IMU sensors, we propose A3 - an accurate and automatic attitude detector for commodity smartphones. In the demo, we show the performance of our attitude tracking algorithm and its usability in attitude-based mobile applications.

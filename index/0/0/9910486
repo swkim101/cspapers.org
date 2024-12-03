@@ -1,0 +1,1 @@
+This paper introduces a new method for identifying candidate phrasal terms (also known as multiword units) which applies a nonparametric, rank-based heuristic measure. Evaluation of this measure, the mutual rank ratio metric, shows that it produces better results than standard statistical measures when applied to this task.

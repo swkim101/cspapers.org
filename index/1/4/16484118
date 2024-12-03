@@ -1,0 +1,1 @@
+Off-the-shelf (OTS) components are increasingly used in application areas with high dependability requirements. We propose a general approach to developing protective wrappers, in order to integrate OTS items with the rest of the system without reducing the system dependability.

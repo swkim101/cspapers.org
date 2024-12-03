@@ -1,0 +1,4 @@
+
+ 
+ Many recent algorithms for approximate model counting are based on a reduction to combinatorial searches over random subsets of the space defined by parity or XOR constraints. Long parity constraints (involving many variables) provide strong theoretical guarantees but are computationally difficult. Short parity constraints are easier to solve but have weaker statistical properties. It is currently not known how long these parity constraints need to be. We close the gap by providing matching necessary and sufficient conditions on the required asymptotic length of the parity constraints. Further, we provide a new family of lower bounds and the first non-trivial upper bounds on the model count that are valid for arbitrarily short XORs. We empirically demonstrate the effectiveness of these bounds on model counting benchmarks and in a Satisfiability Modulo Theory (SMT) application motivated by the analysis of contingency tables in statistics.
+ 

@@ -1,0 +1,1 @@
+We introduce several methods of combining feature selectors for text classification. Results from a large investigation of these combinations are summarized. Easily constructed combinations of feature selectors are shown to improve peak R-precision and F1 at statistically significant levels.

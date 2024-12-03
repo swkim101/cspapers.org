@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of fair division of a heterogeneous resource among strategic players. Given a divisible heterogeneous cake, we wish to divide the cake among n players in a way that meets the following criteria: (I) every player(weakly) prefers his allocated cake to any other player’s share (such notion is known as envy-freeness), (II) the mechanism is strategy-proof (truthful), and (III) the number of cuts made on the cake is minimal. We provide methods, namely expansion process and expansion process with unlocking, for dividing the cake under different assumptions on the valuation functions of the players.
+ 

@@ -1,0 +1,1 @@
+Medusa [3, 6] is a distributed stream processing system based on the Aurora single-site stream processing engine [1]. We demonstrate how Medusa handles time-varying load spikes and provides high availability in the face of network partitions. We demonstrate Medusa in the context of Borealis, a second generation stream processing engine based on Aurora and Medusa.

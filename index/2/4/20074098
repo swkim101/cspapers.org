@@ -1,0 +1,1 @@
+In the hierarchical layout of rectangular blocks, the routing area naturally breaks into a set of adjacent rectangles. These rectangles can be used as a basis for both loose routing and the final track assignment. The paper explores some ways of structuring the required data. More details about generalized Lee routing, and practical results are left for verbal presentation.

@@ -1,0 +1,5 @@
+We give two algorithms computing representative families of linear and uniform matroids and demonstrate how to use representative families for designing single-exponential parameterized and exact exponential time algorithms. The applications of our approach include 
+- LONGEST DIRECTED CYCLE 
+- MINIMUM EQUIVALENT GRAPH (MEG) 
+- Algorithms on graphs of bounded treewidth 
+-k-PATH, k-TREE, and more generally, k-SUBGRAPH ISOMORPHISM, where the k-vertex pattern graph is of constant treewidth.

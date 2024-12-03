@@ -1,0 +1,4 @@
+
+ 
+ We present new algorithms for learning Bayesian networks from data with missing values using a data augmentation approach. An exact Bayesian network learning algorithm is obtained by recasting the problem into a standard Bayesian network learning problem without missing data. As expected, the exact algorithm does not scale to large domains. We build on the exact method to create an approximate algorithm using a hill-climbing technique. This algorithm scales to large domains so long as a suitable standard structure learning method for complete data is available. We perform a wide range of experiments to demonstrate the benefits of learning Bayesian networks with such new approach.
+ 

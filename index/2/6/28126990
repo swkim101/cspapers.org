@@ -1,0 +1,4 @@
+
+ 
+ In supervised machine learning, model performance can decrease significantly when the distribution generating the new data varies from the distribution that generated the training data. One of the situations is covariate shift which happens a lot when labeled training data is missing, hard to get access to or very expensive to uniformly collect. All (probabilistic) classifiers will suffer from covariate shift. This motivates our research. Generally, we try to answer this question: how can we deal with covariate shift and generate predictions that are robust and reliable? We propose to develop a general framework for classification under covariate shift that is robust, flexible and accurate.
+ 

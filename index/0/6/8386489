@@ -1,0 +1,4 @@
+
+ 
+ Real-time heuristic search algorithms that precompute search space-specific databases have demonstrated exceptional performance in video-game pathfinding. We discuss the first steps towards extending these algorithms to other search spaces that also benefit from the real-time property. We present our initial progress in characterizing the performance of current algorithms based on the features of a search space, and discuss future directions of this research.
+ 

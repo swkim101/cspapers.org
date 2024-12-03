@@ -1,6 +1,0 @@
-
- Though data cleaning systems have earned great success and wide spread in both academia and industry, they fall short when trying to clean spatial data. The main reason is that state-of-the-art data cleaning systems mainly rely on functional dependency rules where there is sufficient co-occurrence of value pairs to learn that a certain value of an attribute leads to a corresponding value of another attribute. However, for spatial attributes that represent locations, there is very little chance that two records would have the same exact coordinates, and hence co-occurrence is unlikely to exist. This paper presents Sparcle (SPatially-AwaRe CLEaning); a novel framework that injects spatial awareness into the core engine of rule-based data cleaning systems through two main concepts: (1)
- Spatial Neighborhood
- , where co-occurrence is relaxed to be within a certain spatial proximity rather than same exact value, and (2)
- Distance Weighting
- , where records are given different weights of whether they satisfy a dependency rule, based on their relative distance. Experimental results using a real deployment of Sparcle inside a state-of-the-art data cleaning system, and real and synthetic datasets, show that Sparcle significantly boosts the accuracy of data cleaning systems when dealing with spatial data.

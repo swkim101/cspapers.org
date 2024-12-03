@@ -1,9 +1,0 @@
-
- Query formulation is increasingly performed by systems that need to guess a user's intent (e.g. via spoken word interfaces). But how can a user know that the computational agent is returning answers to the "right" query? More generally, given that relational queries can become pretty complicated,
- how can we help users understand existing relational queries
- , whether human-generated or automatically generated? Now seems the right moment to revisit a topic that predates the birth of the relational model: developing visual metaphors that help users understand relational queries.
- 
- 
- This lecture-style tutorial surveys the key
- visual metaphors developed for visual representations of relational expressions.
- We will survey the history and state-of-the art of relationally-complete diagrammatic representations of relational queries, discuss the key visual metaphors developed in over a century of investigating diagrammatic languages, and organize the landscape by mapping their used visual alphabets to the syntax and semantics of Relational Algebra (RA) and Relational Calculus (RC).

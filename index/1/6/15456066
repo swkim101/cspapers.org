@@ -1,0 +1,4 @@
+
+ 
+ Kaczmarz algorithm is an efficient iterative algorithm to solve overdetermined consistent system of linear equations. During each updating step, Kaczmarz chooses a hyperplane based on an individual equation and projects the current estimate for the exact solution onto that space to get a new estimate.Many vairants of Kaczmarz algorithms are proposed on how to choose better hyperplanes.Using the property of randomly sampled data in high-dimensional space,we propose an accelerated algorithm based on clustering information to improve block Kaczmarz and Kaczmarz via Johnson-Lindenstrauss lemma. Additionally, we theoretically demonstrate convergence improvement on block Kaczmarz algorithm.
+ 

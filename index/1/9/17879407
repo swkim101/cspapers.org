@@ -1,0 +1,1 @@
+CSP Laboratory is a software environment for students of parallel programming. It provides tools and facilities to experiment with, tes~ and anrdyse CSP descriptions (prototypes) of parallel systems. The analysis includes automatic detection of deadlocks and unsafe behaviors of CSP processes.

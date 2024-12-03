@@ -1,0 +1,1 @@
+Stochastic Dual Coordinate Ascent is a popular method for solving regularized loss minimization for the case of convex losses. We describe variants of SDCA that do not require explicit regularization and do not rely on duality. We prove linear convergence rates even if individual loss functions are non-convex, as long as the expected loss is strongly convex.

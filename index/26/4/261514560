@@ -1,0 +1,5 @@
+This paper considers the improvements that could result from basing future computing environments on specification languages rather than programming languages. Our goal is to identify those capabilities which will significantly enhance the user's ability to benefit from the computing environment. 
+ 
+We have identified five such capabilities: Search. Coordination, Automation, Evolution, and Inter-User Interactions. They will be directly supported by the computing environment. Hence, each represents a "freedom" that users will enjoy without having to program them (i.e., be concerned with the details of how they are achieved). They form both the conceptual and the practical basis for this computing environment. 
+ 
+A prototype computing environment has been built which supports the first three of these capabilities and which supports a simple but real service.

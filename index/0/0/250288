@@ -1,0 +1,3 @@
+Distributed database management is a newly developed and rapidly growing sub-field of database management technology. Distributed database management is an attractive approach to solving the data management needs of many organizations because it permits the database system to act conceptually as a centralized system, while physically mirroring the geographic distribution of organizations in today's world. 
+ 
+This paper presents an overview of several key technical problems that must be overcome in developing general purpose distributed database management systems, and surveys current r&d efforts aimed at overcoming these problems.

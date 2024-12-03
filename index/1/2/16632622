@@ -1,0 +1,3 @@
+The problem of scheduling a set of partially ordered tasks on a nonpreemptive multiprocessor system of identical processors assuming that the execution time of some tasks can vary within a set of known values is studied in an effort to construct a more realistic static schedule.
+A new heuristic algorithm (CP/MISF/TD) based on task duplication is proposed. The effectiveness of the algorithm is proved by comparing the results obtained for a wide variety of task graphs with the ones obtained by applying the classical list scheduling algorithms which consider fixed time tasks.
+Keywords: Static scheduling, List scheduling, Heuristic algorithms, Task duplication, Multiprocessor systems.

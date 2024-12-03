@@ -1,0 +1,1 @@
+This paper describes the TNO action recognition system that was used to generate the results for our submission to the competition track of the THUMOS ’13 challenge at ICCV ’13. This system deploys only the STIP features that were provided on the website of the challenge. A bag-offeatures model is extended with three novelties.

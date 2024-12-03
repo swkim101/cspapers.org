@@ -1,0 +1,1 @@
+We describe a procedure which finds a hierarchical clustering by hill-climbing. The cost function we use is a hierarchical extension of the k-means cost; our local moves are tree restructurings and node reorderings. We show these can be accomplished efficiently, by exploiting special properties of squared Euclidean distances and by using techniques from scheduling algorithms.

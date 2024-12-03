@@ -1,0 +1,4 @@
+
+ 
+ People go to fortune tellers in hopes of learning things about their future. A future career path is one of the topics most frequently discussed. But rather than rely on "black arts" to make predictions, in this work we scientifically and systematically study the feasibility of career path prediction from social network data. In particular, we seamlessly fuse information from multiple social networks to comprehensively describe a user and characterize progressive properties of his or her career path. This is accomplished via a multi-source learning framework with fused lasso penalty, which jointly regularizes the source and career-stage relatedness. Extensive experiments on real-world data confirm the accuracy of our model.
+ 

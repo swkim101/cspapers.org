@@ -1,0 +1,1 @@
+Author(s): Eppstein, David | Abstract: Improving on a recent breakthrough of Sharir, we show how to find two circular disks of minimum radius covering a set of points in the Euclidean plane, in randomized expected time O(n log^2 n).

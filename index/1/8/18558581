@@ -1,0 +1,4 @@
+
+ 
+ Supervised dimensionality reduction has shown great advantages in finding predictive subspaces. Previous methods rarely consider the popular maximum margin principle and are prone to overfitting to usually small training data, especially for those under the maximum likelihood framework. In this paper, we present a posterior-regularized Bayesian approach to combine Principal Component Analysis (PCA) with the max-margin learning. Based on the data augmentation idea for max-margin learning and the probabilistic interpretation of PCA, our method can automatically infer the weight and penalty parameter of max-margin learning machine, while finding the most appropriate PCA subspace simultaneously under the Bayesian framework. We develop a fast mean-field variational inference algorithm to approximate the posterior. Experimental results on various classification tasks show that our method outperforms a number of competitors.
+ 

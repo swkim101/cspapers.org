@@ -1,0 +1,1 @@
+We present an approach to semi-supervised learning based on an exponential family characterization. Our approach generalizes previous work on coupled priors for hybrid generative/discriminative models. Our model is more flexible and natural than previous approaches. Experimental results on several data sets show that our approach also performs better in practice.

@@ -1,0 +1,4 @@
+
+ 
+ HEX-programs extend of answer-set programs (ASP) with ex-ternal sources. In previous work, notions of equivalence ofASP programs under extensions have been developed. Mostwell-known are strong equivalence, which is given for pro-grams P and Q if P ∪ R and Q ∪ R have the same answersets for arbitrary programs R, and uniform equivalence, whichis given if this is guaranteed for sets R of facts. More fine-grained approaches exist, which restrict the set of atoms inthe added program R. In this paper we provide a characteriza-tion of equivalence of HEX -programs. Since well-known ASPextensions (e.g. constraint ASP) amount to special cases ofHEX , the results are interesting beyond the particular formal-ism. Based on this, we further characterize inconsistency ofprograms wrt. program extensions. We then discuss possibleapplications of the results for algorithms improvements.
+ 

@@ -1,0 +1,1 @@
+A modiﬁcation of a reparameterisation of IBM Model 2 is presented, which makes the model more ﬂexible, and able to model a preference for aligning to words to either the right or left, and take into account POS tags on the target side of the corpus. We show that this extension has a very small impact on training times, while obtaining better alignments in terms of BLEU scores.

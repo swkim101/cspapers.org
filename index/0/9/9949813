@@ -1,0 +1,4 @@
+
+ 
+ Controlling for selection and confounding biases are two of the most challenging problems that appear in data analysis in the empirical sciences as well as in artificial intelligence tasks. The combination of previously studied methods for each of these biases in isolation is not directly applicable to certain non-trivial cases in which selection and confounding biases are simultaneously present. In this paper, we tackle these instances non-parametrically and in full generality. We provide graphical and algorithmic conditions for recoverability of interventional distributions for when selection and confounding biases are both present. Our treatment completely characterizes the class of causal effects that are recoverable in Markovian models, and is suffi- cient for Semi-Markovian models.
+ 

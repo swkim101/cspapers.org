@@ -1,0 +1,1 @@
+A wide variety of applications require access to multiple heterogeneous, distributed data sources. By transparently integrating such diverse data sources, underlying differences in DBMSs, languages, and data models can be hidden and users can use a single data model and a single high-level query language to access the unified data through a global schema.

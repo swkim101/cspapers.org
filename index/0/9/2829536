@@ -1,0 +1,1 @@
+We present a method for automatic determiner selection, based on an existing language model. We train on the Penn Tree-bank and also use additional data from the North American News Text Corpus. Our results are a significant improvement over previous best.

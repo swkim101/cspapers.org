@@ -1,0 +1,4 @@
+
+ 
+ Event causality knowledge is indispensable for intelligent natural language understanding. The problem is that any method for extracting event causalities from text is insufficient; it is likely that some event causalities that we can recognize in this world are not written in a corpus, no matter its size. We propose a method of hypothesizing unseen event causalities from known event causalities extracted from the web by the semantic relations between nouns. For example, our method can hypothesize "deploy a security camera" -> "avoid crimes" from "deploy a mosquito net" -> "avoid malaria" through semantic relation . Our experiments show that, from 2.4 million event causalities extracted from the web, our method generated more than 300,000 hypotheses, which were not in the input, with 70% precision. We also show that our method outperforms a state-of-the-art hypothesis generation method.
+ 

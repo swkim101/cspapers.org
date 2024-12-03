@@ -1,0 +1,1 @@
+The PI system has been implemented with the ability to reason in both directions. This is combined with truth maintenance, dependency directed backtracking, and time-varying contexts to permit modelling dynamic situations. Credibility is propagated in a semantic network, and the belief transfer factors can be modified by the system, unlike previous systems for inexact reasoning.

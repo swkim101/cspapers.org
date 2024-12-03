@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a novel method to select the most informativesubset of features, which has little redundancy andvery strong discriminating power. Our proposed approach automaticallydetermines the optimal number of features and selectsthe best subset accordingly by maximizing the averagepairwise informativeness, thus has obvious advantage overtraditional filter methods. By relaxing the essential combinatorialoptimization problem into the standard quadratic programmingproblem, the most informative feature subset canbe obtained efficiently, and a strategy to dynamically computethe redundancy between feature pairs further greatly acceleratesour method through avoiding unnecessary computationsof mutual information. As shown by the extensive experiments,the proposed method can successfully select the mostinformative subset of features, and the obtained classificationresults significantly outperform the state-of-the-art results onmost test datasets.
+ 

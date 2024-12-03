@@ -1,0 +1,16 @@
+Certifying the output of tools solving complex problems so as to ensure
+the correctness of the results they provide is of tremendous importance.
+Despite being widespread for SAT-solvers, this level of exigence has
+not yet percolated for tools solving more complex tasks, such as model
+counting or knowledge compilation. In this paper, the focus is laid on a
+general family of top-down Decision-DNNF compilers. We explain how those
+compilers can be tweaked so as to output certifiable Decision-DNNF
+circuits, which are mainly standard Decision-DNNF circuits decorated by
+annotations serving as certificates. We describe a polynomial-time
+checker for testing whether a given CNF formula is equivalent or not to
+a given certifiable Decision-DNNF circuit. Finally, leveraging a
+modified version of the compiler d4 for generating certifiable
+Decision-DNNF circuits and an implementation of the checker, we present
+the results of an empirical evaluation that has been conducted for
+assessing how large are in practice certifiable Decision-DNNF circuits,
+and how much time is needed to compute and to check such circuits.

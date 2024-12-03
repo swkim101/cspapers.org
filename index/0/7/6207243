@@ -1,0 +1,4 @@
+
+ 
+ We have found that some messages of BnB-ADOPT are redundant. Removing most of those redundant messages we obtain BnB-ADOPT+, which achieves the optimal solution and terminates. In practice, BnB-ADOPT+ causes substantial reductions on communication costs with respect to the original algorithm.
+ 

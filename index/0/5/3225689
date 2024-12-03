@@ -1,0 +1,5 @@
+This paper describes an experiment in Ada design and some of the lessons learned from it.
+ The experiment itself involved redesigning and reimplementing portions of an existing communication system. The paper compares the project team's design, based on traditional top-down structured design methods, with an alternative design based on information hiding.
+ The project was intended to monitor how a typical industrial software team might adapt to using Ada on realistic embedded application projects. Just as important, however, were the insights gained on how to use Ada in system design.
+ Although the team used virtually every novel feature of Ada, they produced a design remarkably similar to that produced by the original implementors of the system, who used Fortran and Assembler.
+ Thus, the major problem in using Ada appears to be one of education. It is not enough merely to teach the Ada language itself. Instead, one must stress the methodology—information hiding—that Ada supports.

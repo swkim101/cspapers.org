@@ -1,0 +1,4 @@
+
+ 
+ We present a novel extension of normal form games that we call biased games. In these games, a player's utility is influenced by the distance between his mixed strategy and a given base strategy. We argue that biased games capture important aspects of the interaction between software agents. Our main result is that biased games satisfying certain mild conditions always admit an equilibrium. We also tackle the computation of equilibria in biased games.
+ 

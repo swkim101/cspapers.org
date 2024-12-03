@@ -1,0 +1,1 @@
+We present fully abstract encodings of the call-byname λ-calculus into HOcore, a minimal higher-order process calculus with no name restriction. We consider several equivalences on the λ-calculus side—normal-form bisimilarity, applicative bisimilarity, and contextual equivalence—that we internalize into abstract machines in order to prove full abstraction.

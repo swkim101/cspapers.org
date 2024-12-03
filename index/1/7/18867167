@@ -1,0 +1,4 @@
+
+ 
+ Argumentation can be viewed as a process of generating explanations. However, existing argumentation semantics are developed for identifying acceptable arguments within a set, rather than giving concrete justifications for them. In this work, we propose a new argumentation semantics, related admissibility, designed for giving explanations to arguments in both Abstract Argumentation and Assumption-based Argumentation. We identify different types of explanations defined in terms of the new semantics. We also give a correct computational counterpart for explanations using dispute forests.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Parsing human into semantic parts is crucial to human-centric analysis. In this paper, we propose a human parsing pipeline that uses pose cues, e.g., estimates of human joint locations, to provide pose-guided segment proposals for semantic parts. These segment proposals are ranked using standard appearance cues, deep-learned semantic feature, and a novel pose feature called pose-context. Then these proposals are selected and assembled using an And-Or graph to output a parse of the person. The And-Or graph is able to deal with large human appearance variability due to pose, choice of clothing, etc. We evaluate our approach on the popular Penn-Fudan pedestrian parsing dataset, showing that it significantly outperforms the state of the art, and perform diagnostics to demonstrate the effectiveness of different stages of our pipeline.
+ 

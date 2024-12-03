@@ -1,0 +1,1 @@
+This paper describes two design patterns that are powerful tools to help teach how semaphores are used to solve synchronization problems. The patterns are general enough to be used with many different types of problems, yet are simple enough for students to understand and apply effectively.

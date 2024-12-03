@@ -1,0 +1,4 @@
+
+ 
+ Following their monolingual counterparts, bilingual word embeddings are also on the rise. As a major application task, word translation has been relying on the nearest neighbor to connect embeddings cross-lingually. However, the nearest neighbor strategy suffers from its inherently local nature and fails to cope with variations in realistic bilingual word embeddings. Furthermore, it lacks a mechanism to deal with many-to-many mappings that often show up across languages. We introduce Earth Mover's Distance to this task by providing a natural formulation that translates words in a holistic fashion, addressing the limitations of the nearest neighbor. We further extend the formulation to a new task of identifying parallel sentences, which is useful for statistical machine translation systems, thereby expanding the application realm of bilingual word embeddings. We show encouraging performance on both tasks.
+ 

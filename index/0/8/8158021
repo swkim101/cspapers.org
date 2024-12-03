@@ -1,0 +1,4 @@
+
+ 
+ In constraint solving, a critical bottleneck is the formulation of aneffective constraint model of an input problem. The Conjure system describedin this paper, a substantial step forward over prototype versions of Conjurepreviously reported, makes a valuable contribution to the automation ofconstraint modelling by automatically producing constraint models from theirspecifications in the abstract constraint specification language Essence. Aset of rules is used to refine an abstract specification into a concreteconstraint model. We demonstrate that this set of rules is readily extensibleto increase the space of possible constraint models Conjure can produce. Ourempirical results confirm that Conjure can reproduce successfully the kernelsof the constraint models of 32 benchmark problems found in the literature.
+ 

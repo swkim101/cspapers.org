@@ -1,0 +1,3 @@
+We present an efficient algorithm for solving a linear system arising from the 1-Laplacian corresponding to a collapsible simplicial complex with a known collapsing sequence. When combined with a result of Chillingworth, our algorithm is applicable to convex simplicial complexes embedded in R3. The running time of our algorithm is nearly-linear in the size of the complex and is logarithmic on its numerical properties. 
+ 
+Our algorithm is based on projection operators and combinatorial steps for transferring between them. The former relies on decomposing flows into circulations and potential flows using fast solvers for graph Laplacians, and the latter relates Gaussian elimination to topological properties of simplicial complexes.

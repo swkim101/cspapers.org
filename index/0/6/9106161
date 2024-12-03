@@ -1,0 +1,1 @@
+Hypertree-decomposition is the most general approach in the literature for identifying tractable computation problems encoded as hypergraphs. We show how the heuristic branch-decomposition approach for ordinary graphs of [Cook and Seymour, 2003] can be used for the heuristic construction of hypertree-decompositions.

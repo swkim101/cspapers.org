@@ -1,0 +1,1 @@
+When two threads access a shared variable, at least one thread writes, and there is no ordering of the accesses, a data race occurs. We deal with the problem of data-race detection. We present a JVM agent that monitors the application and reports data races as soon as they occur. The agent was evaluated on Java2Demo for which it reported more than 2500 data races.

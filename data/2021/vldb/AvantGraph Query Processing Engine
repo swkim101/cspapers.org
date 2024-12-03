@@ -1,4 +1,0 @@
-
- We demonstrate AvantGraph, a graph query processing engine developed by the Database group at TU Eindhoven. Designed for efficient processing of
- both
- subgraph matching and navigational graph queries, AvantGraph encompasses innovation in three key areas: the planner, the cardinality estimator, and the execution engine. We present demonstration scenarios covering a wide range of workloads across diverse domains which (1) provides deep insights into the core challenges of complex graph query processing and (2) showcases corresponding critical optimizations via "under-the-hood" operational insights of AvantGraph's key components.

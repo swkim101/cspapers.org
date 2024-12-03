@@ -1,0 +1,4 @@
+
+ 
+ In many applications, training data is provided in the form of related datasets obtained from several sources, which typically affects the sample distribution. The learned classification models, which are expected to perform well on similar data coming from new sources, often suffer due to bias introduced by what we call `spurious' samples -- those due to source characteristics and not representative of any other part of the data. As standard outlier detection and robust classification usually fall short of determining groups of spurious samples, we propose a procedure which identifies the common structure across datasets by minimizing a multi-dataset divergence metric, increasing accuracy for new datasets.
+ 

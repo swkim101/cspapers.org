@@ -1,0 +1,1 @@
+This paper introduces a serious security problem that people believe has been fixed, but which is still very much existing and evolving, namely evasions. We describe how protocols can still be misused to fool network security devices, such as intrusion prevention systems.

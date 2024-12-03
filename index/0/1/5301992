@@ -1,0 +1,3 @@
+Training statistical models to detect non-native sentences requires a large corpus of non-native writing samples, which is often not readily available. This paper examines the extent to which machine-translated (MT) sentences can substitute as training data. 
+ 
+Two tasks are examined. For the native vs non-native classification task, non-native training data yields better performance; for the ranking task, however, models trained with a large, publicly available set of MT data perform as well as those trained with non-native data.

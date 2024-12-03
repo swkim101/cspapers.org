@@ -1,0 +1,19 @@
+This paper investigates the use and extension
+of text retrieval and clustering techniques for event
+detection. The task is to automatically detect novel
+events from a temporally-ordered stream of news stories,
+either retrospectively or as the stories arrive. We applied
+hierarchical and non-hierarchical document clustering algorithms
+to a corpus of 15,836 stories, focusing on the
+exploitation of both content and temporal information.
+We found the resulting cluster hierarchies highly informative
+for retrospective detection of previously unidentified
+events, effectively supporting both query-free and
+query-driven retrieval. We also found that temporal distribution
+patterns of document clusters provide useful
+information for improvement in both retrospective detection
+and on-line detection of novel events. In an
+evaluation using manually labelled events to judge the
+system-detected events, we obtained a result of 82% in
+the Fl measure for retrospective detection, and a Fl
+value of 42% for on-line detection.

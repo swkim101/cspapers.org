@@ -1,0 +1,1 @@
+What local action can agents take, without the benefit of global knowledge, to produce the best global solution? Many dynamic distributed systems can be modeled using techniques from distributed constraint reasoning, however, existing work in the distributed constraint reasoning community does not address the true dynamism inherent in many real-world systems.

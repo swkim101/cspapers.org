@@ -1,0 +1,5 @@
+Text Mining is about the task of searching useful knowledge in a natural language document. 
+Given the cost of a (full) morpho-syntactic analysis of a textual database, specially when the linguistic rules are not respected, most text mining techniques process without using the linguistic structure of those documents. 
+ 
+In this paper, we show how the Grammatical Induction can help extract the (partial) structure of the sublanguages used in a text. 
+We present the practical contribution of the Grammatical Induction by reporting an Information Extraction process applied to a fragmented announcement corpus.

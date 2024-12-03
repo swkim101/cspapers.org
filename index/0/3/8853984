@@ -1,0 +1,4 @@
+
+ 
+ We present an instance-based, online method for learning action models in unanticipated, relational domains. Our algorithm memorizes pre- and post-states of transitions an agent encounters while experiencing the environment, and makes predictions by using analogy to map the recorded transitions to novel situations. Our algorithm is implemented in the Soar cognitive architecture, integrating its task-independent episodic memory module and analogical reasoning implemented in procedural memory. We evaluate this algorithm’s prediction performance in a modified version of the blocks world domain and the taxi domain. We also present a reinforcement learning agent that uses our model learning algorithm to significantly speed up its convergence to an optimal policy in the modified blocks world domain.
+ 

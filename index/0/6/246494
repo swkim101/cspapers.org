@@ -1,0 +1,3 @@
+We study the problem of embedding metric spaces into low dimensional lp spaces while faithfully preserving distances from each point to its k nearest neighbors. We show that any metric space can be embedded into [EQUATION] with k-local distortion of O ((log k)/p). We also show that any ultrametric can be embedded into [EQUATION] with k-local distortion 1 + e. 
+ 
+Our embedding results have immediate applications to local Distance Oracles. We show how to preprocess a graph in polynomial time to obtain a data structure of O(nk1/t log2 k) bits, such that distance queries from any node to its k nearest neighbors can be answered with stretch O(t).

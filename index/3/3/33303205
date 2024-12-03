@@ -1,0 +1,1 @@
+Decoding complexity focus: decoding problem for natural language tasks y * = arg max y f (y) motivation: • richer model structure often leads to improved accuracy • exact decoding for complex models tends to be intractable Decoding tasks many common problems are intractable to decode exactly

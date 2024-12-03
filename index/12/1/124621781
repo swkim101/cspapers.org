@@ -1,0 +1,23 @@
+A seminal result of Thomassen [40] says that there are only finitely many 6-color-critical graphs for the bounded genus graphs. This result is no longer true if we consider K3,k-minor-free graphs. K3,k-minor-free graphs are a significant generalization of bounded-genus graphs. They also contain infinitely many t-color-critical graphs for all t with k + 2 ≥ t ≥ 4. 
+ 
+Motivated by this fact, we first show that if G is 6-color-critical 4-connected K3,k-minor-free graphs, then G has tree-width at most g(k) for some function g of k. This allows us to show the following algorithmic result, which is of independent interest. 
+ 
+For a 4-connected graph G and any k, there is an O(n3) algorithm to test whether or not G is 5-colorable. 
+ 
+Note that testing the 3-colorability of K3,k-minor-free graphs is NP-complete, and testing the 4-colorability of them would require a significant generalization of the Four Color Theorem (because K3,3-minor-free graphs are essentially planar). Testing the 5-colorability of bounded genus graphs can be done in polynomial time, as shown by Thomassen [40]. Thus our result can be viewed as a strengthening of the bounded genus case. 
+ 
+We then investigate minimal forbidden minors in non-5-colorable K3,k-minor-free graphs. Such a graph may exist, as K6 shows. However, we prove the following result. 
+ 
+There is a computable constant f(k) such that every minimal forbidden minor in non-5-colorable K3,k-minor-free graphs has at most f(k) vertices. 
+ 
+Our proof of the above result implies the following algorithmic result, which is of independent interest. 
+ 
+For a graph G and any k, there is an O(n3) algorithm to output one of the following: 
+ 
+1. a 5-coloring of G, or 
+ 
+2. a K3,k-minor of G, or 
+ 
+3. a minor R of G of order at most f(k) (f(k) comes from the above theorem) such that R does not have a K3,k-minor nor is 5-colorable. 
+ 
+Let us emphasis that the chromatic number in our main results does NOT depend on the graph K3,k that we are going to exclude as a minor. This is a big contrast with the algorithmic result of Hadwiger's conjecture [21].

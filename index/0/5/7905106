@@ -1,0 +1,4 @@
+
+ 
+ We propose a new class of computationally fast algorithms to find close to optimal policy for Markov Decision Processes (MDP) with large finite horizon T.The main idea is that instead of planning until the time horizon T, we plan only up to a truncated horizon H << T and use an estimate of the true optimal value function as the terminal value. Our approach of finding the terminal value function is to learn a mapping from an MDP to its value function by solving many similar MDPs during a training phase and fit a regression estimator. We analyze the method by providing an error propagation theorem that shows the effect of various sources of errors to the quality of the solution. We also empirically validate this approach in a real-world application of designing an energy management system for Hybrid Electric Vehicles with promising results.
+ 

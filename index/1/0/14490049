@@ -1,0 +1,4 @@
+
+ 
+ A Simple Temporal Network with Uncertainty (STNU) is a structure for representing and reasoning about temporal constraints in domains where some temporal durations are not controlled by the executor. The most important property of an STNU is whether it is dynamically controllable (DC) whether there exists a strategy for executing the controllable time-points that guarantees that all constraints will be satisfied no matter how the uncontrollable durations turn out. This paper provides a novel mapping from STNUs to Timed Game Automata (TGAs) that: (1) explicates the deep theoretical relationships between STNUs and TGAs; and (2) enables the memoryless strategies generated from the TGA to be transformed into equivalent STNU execution strategies that reduce the real-time computational burden for the executor. The paper formally proves that the STNU-to-TGA encoding properly captures the execution semantics of STNUs.
+ 

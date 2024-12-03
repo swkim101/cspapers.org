@@ -1,8 +1,0 @@
-
- Cluster managers play a crucial role in data centers by distributing workloads among infrastructure resources. Declarative Cluster Management (DCM) is a new cluster management architecture that enables users to express placement policies declaratively using SQL-like queries. This paper presents our experiences in scaling this architecture from moderate-sized enterprise clusters (10
- 2
- - 10
- 3
- nodes) to hyperscale clusters (10
- 4
- nodes) via query optimization techniques. First, we formally specify the syntax and semantics of DCM's declarative language, C-SQL, a SQL variant used to express constraint optimization problems. We showcase how constraints on the desired state of the cluster system can be succinctly represented as C-SQL programs, and how query optimization techniques like incremental view maintenance and predicate pushdown can enhance the execution of C-SQL programs. We evaluate the effectiveness of our optimizations through a case study of building Kubernetes schedulers using C-SQL. Our optimizations demonstrated an almost 3000× speed up in database latency and reduced the size of optimization problems by as much as 1/300 of the original, without affecting the quality of the scheduling solutions.

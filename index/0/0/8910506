@@ -1,0 +1,1 @@
+We address the problem of query segmentation: given a keyword query submitted to a search engine, the task is to group the keywords into phrases, if possible. Previous approaches to the problem achieve good segmentation performance on a gold standard but are fairly intricate. Our method is easy to implement and comes with a comparable accuracy.

@@ -1,8 +1,0 @@
-
- Low-dimensional representations, or
- embeddings
- , of a graph's nodes facilitate several practical data science and data engineering tasks. As such embeddings rely, explicitly or implicitly, on a similarity measure among nodes, they require the computation of a quadratic similarity matrix, inducing a tradeoff between space complexity and embedding quality. To date, no graph embedding work combines (i) linear space complexity, (ii) a nonlinear transform as its basis, and (iii) nontrivial quality guarantees. In this paper we introduce FREDE (
- FREquent Directions Embedding
- ), a graph embedding based on matrix sketching that combines those three desiderata. Starting out from the observation that embedding methods aim to preserve the covariance among the rows of a similarity matrix, FREDE iteratively improves on quality while individually processing rows of a nonlinearly transformed PPR similarity matrix derived from a state-of-the-art graph embedding method and provides,
- at any iteration
- , column-covariance approximation guarantees in due course almost indistinguishable from those of the optimal approximation by SVD. Our experimental evaluation on variably sized networks shows that FREDE performs almost as well as SVD and competitively against state-of-the-art embedding methods in diverse data science tasks, even when it is based on as little as 10% of node similarities.

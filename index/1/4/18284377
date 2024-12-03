@@ -1,0 +1,1 @@
+Pearl's probabilistic causal model has been used in many domains to reason about causality. Pearl's treatment of actions is very diffewnt from the way actions are represented explicitly in action languages. In this paper we show how to encode Pearl's probabilistic causal model in the action language PAL thus relating this two distinct approaches to reasoning about actions.

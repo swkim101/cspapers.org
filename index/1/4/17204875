@@ -1,0 +1,4 @@
+
+ 
+ Trust has been used to replace or complement rating-based similarity in recommender systems, to improve the accuracy of rating prediction. However, people trusting each other may not always share similar preferences. In this paper, we try to fill in this gap by decomposing the original single-aspect trust information into four general trust aspects, i.e. benevolence, integrity, competence, and predictability, and further employing the support vector regression technique to incorporate them into the probabilistic matrix factorization model for rating prediction in recommender systems. Experimental results on four datasets demonstrate the superiority of our method over the state-of-the-art approaches.
+ 

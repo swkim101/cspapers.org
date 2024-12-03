@@ -1,0 +1,1 @@
+Au implementation of priority queues is presented that supports the operations MAKEQUEUE, FINDMIN, INSERT, MELD and DECREASEKEY in worst case time O(1) and DELETEMIN and DELETE in worst case time O(logn). The space requirement is linear. The data structure presented is the first achieving this worst case performance.

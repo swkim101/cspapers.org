@@ -1,0 +1,4 @@
+
+ 
+ Label reduction is a technique for simplifying families of labeled transition systems by dropping distinctions between certain transition labels. While label reduction is critical to the efficient computation of merge-and-shrink heuristics, current theory only permits reducing labels in a limited number of cases. We generalize this theory so that labels can be reduced in every intermediate abstraction of a merge-and-shrink tree. This is particularly important for efficiently computing merge-and-shrink abstractions based on non-linear merge strategies. As a case study, we implement a non-linear merge strategy based on the original work on merge-and-shrink heuristics in model checking by Dräger et al.
+ 

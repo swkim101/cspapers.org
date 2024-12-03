@@ -1,0 +1,1 @@
+Scaling AI algorithms to large problems requires that these algorithms work together to harness their respective strengths. We introduce a method of automatically constructing HHMMs using the output of a sequential data-mining algorithm and sequential prediction algorithm. We present the theory of this technique and demonstrate results using the MavHome intelligent environment.

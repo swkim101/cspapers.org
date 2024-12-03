@@ -1,0 +1,1 @@
+An approach is described for supplying selectional restrictions to parsers in natural language interfaces (NLIs) to databases by extracting the selectional restrictions from semantic descriptions of those NLIs. Automating the process of finding selectional restrictions reduces NLI development time and may avoid errors introduced by hand-coding selectional restrictions.

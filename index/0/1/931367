@@ -1,0 +1,1 @@
+In this paper, we study the problem of stream reasoning and propose a reasoning approach over large amounts of RDF data, which uses graphics processing units (GPU) to improve the performance. First, we show how the problem of stream reasoning can be reduced to a temporal reasoning problem. Then, we describe a number of algorithms to perform stream reasoning with GPUs.

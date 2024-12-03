@@ -1,0 +1,4 @@
+
+ 
+ Model minimization in Factored Markov Decision Processes (FMDPs) is concerned with finding the most compact partition of the state space such that all states in the same block are action-equivalent. This is an important problem because it can potentially transform a large FMDP into an equivalent but much smaller one, whose solution can be readily used to solve the original model. Previous model minimization algorithms are iterative in nature, making opaque the relationship between the input model and the output partition. We demonstrate that given a set of well-defined concepts and operations on partitions, we can express the model minimization problem in an analytic fashion. The theoretical results developed can be readily applied to solving problems such as estimating the size of the minimum partition, refining existing algorithms, and so on.
+ 

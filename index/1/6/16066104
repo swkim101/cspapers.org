@@ -1,0 +1,3 @@
+Most case-based reasoning systems have used a single "best" or "most similar" case as the basis for a solution. For many problems, however, there is no single exact solution. Rather, there is a range of acceptable answers. We use cases not only as a basis for a solution, but also to indicate the boundaries within which a solution can be found. We solve problems by choosing some point within those boundaries. 
+ 
+In this paper, I discuss this use of cases with illustrations from CHIRON, a system T have implemented in the domain of personal income tax planning.

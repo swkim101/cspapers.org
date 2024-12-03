@@ -1,0 +1,4 @@
+
+ 
+ Heuristic search is a technique used pervasively in the fieldsof artificial intelligence, automated planning and operations research to solve a wide range of problems from planning military deployments to planning tasks for a robot that must clean a messy kitchen. An automated agent can use heuristic search to construct a plan that, when executed, will achieve a desired task. The search algorithm explores different sequences of actions that the agent can execute, looking for a sequence that will lead it to a desired goal state. In many situations, an agent is given a task that it would like to solve as quickly as possible. The agent must allocate its time between searching for the actions that will achieve the task and actually executing them. We call this problem planning under time pressure.
+ 

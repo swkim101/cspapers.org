@@ -1,0 +1,8 @@
+We obtain a number of lower bounds on the running time of algorithms solving problems on graphs of bounded treewidth. We prove the results under the Strong Exponential Time Hypothesis of Impagliazzo and Paturi. In particular, assuming that SAT cannot be solved in (2 - ∈)<sup><i>n</i></sup><i>m</i><sup><i>O</i>(1)</sup> time, we show that for any ∈ > 0;
+ • Independent Set cannot be solved in time (2 − ε)<sup>tw(<i>G</i>)</sup> |<i>V</i>(<i>G</i>)|<sup><i>O</i>(1)</sup>,
+ • Dominating Set cannot be solved in time (3 − ε)<sup>tw(<i>G</i>)</sup> |<i>V</i>(<i>G</i>)|<sup><i>O</i>(1)</sup>,
+ • Max Cut cannot be solved in time (2 − ε)<sup>tw(<i>G</i>)</sup> |<i>V</i>(<i>G</i>)|<sup><i>O</i>(1)</sup>,
+ • Odd Cycle Transversal cannot be solved in time (3 − ε)<sup>tw(<i>G</i>)</sup> |<i>V</i>(<i>G</i>)|<sup><i>O</i>(1)</sup>,
+ • For any <i>q</i> ≥ 3, <i>q</i>-Coloring cannot be solved in time (<i>q</i> − ε)<sup>tw(<i>G</i>)</sup> |<i>V</i>(<i>G</i>)|<sup><i>O</i>(1)</sup>,
+ • Partition Into Triangles cannot be solved in time (2 − ε)<sup>tw(<i>G</i>)</sup> |<i>V</i>(<i>G</i>)|<sup><i>O</i>(1)</sup>.
+ Our lower bounds match the running times for the best known algorithms for the problems, up to the ε in the base.

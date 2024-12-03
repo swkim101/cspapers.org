@@ -1,0 +1,1 @@
+In this paper a new technique to handle complex Markov models is presented. This method is based on a description using stochastic automatas and is dedicated to distributed algorithms modelling. One example of a mutual exclusion algorithm in a distributed environment is extensively analysed. The mathematical analysis is based on tensor algebra for matrices.

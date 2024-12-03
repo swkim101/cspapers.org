@@ -1,0 +1,3 @@
+The current technology lets a DA system handle the data on various design levels such that pure logical, logical and physical and pure physical information are mixedly used on a PCB design.
+ The design process has not been uniformly carried out, such that the simulation of digital system, the routing and a PCB and a unit design has been carried out at the same time, and made the operation and the management be more difficult and complicated. Therefore, only extention of traditional DA systems tends to be difficult to cope with these situations.
+ We have studied these problems and developed Engineering Data Management System - EDMS - so as to be open-ended general purpose DA system which can meet with the future innovation of the technology.

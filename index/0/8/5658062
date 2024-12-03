@@ -1,0 +1,4 @@
+
+ 
+ Sentence compression is one of the most challenging tasks in natural language processing,which may be of increasing interest to many applicationssuch as abstractive summarization and text simplification for mobile devices.In this paper, we present a novel sentence compression model based on first-order logic, using Markov Logic Network.Sentence compression is formulated as a word/phrase deletion problem in this model.By taking advantage of first-order logic, the proposed method is able to incorporate local linguistic features and to capture global dependencies between word deletion operations. Experiments on both written and spoken corpora show that our approach produces competitive performance against the state-of-the-art methods in terms of manual evaluation measures such as importance, grammaticality, and overall quality.
+ 

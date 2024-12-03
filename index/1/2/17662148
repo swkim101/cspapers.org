@@ -1,0 +1,4 @@
+
+ 
+ We report on a project aiming at developing a system that solves a wide range of math problems written in natural language. In the system, formal analysis of natural language semantics is coupled with automated reasoning technologies including computer algebra, using logic as their common language. We have developed a prototype system that accepts as its input a linguistically annotated problem text. Using the prototype system as a reference point, we analyzed real university entrance examination problems from the viewpoint of end-to-end automated reasoning. Further, evaluation on entrance exam mock tests revealed that an optimistic estimate of the system’s performance already matches human averages on a few test sets.
+ 

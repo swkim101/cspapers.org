@@ -1,0 +1,4 @@
+
+ 
+ We propose a modular reinforcement learning algorithm which decomposes a Markov decision process into independent modules. Each module is trained using Sarsa(lambda). We introduce three algorithms for forming global policy from modules policies, and demonstrate our results using a 2D grid world.
+ 

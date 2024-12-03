@@ -1,0 +1,3 @@
+This paper is about rule-based problem solving. It has a motto: The less a rule can do, the better the effects of using it can be predicted. 
+ 
+This motto suggests the key to obtaining coherent behavior by avoiding exponential behavior (combinatorial explosion) in a problem solving program for the domain of synthesizing numerical computer programs from their non-procedural specifications

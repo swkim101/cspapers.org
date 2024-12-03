@@ -1,0 +1,4 @@
+
+ 
+ As autonomous agents proliferate in the real world, both in software and robotic settings, they will increasingly need to band together for cooperative activities with previously unfamiliar teammates. In such ad hoc team settings, team strategies cannot be developed a priori. Rather, an agent must be prepared to cooperate with many types of teammates: it must collaborate without pre-coordination. This paper challenges the AI community to develop theory and to implement prototypes of ad hoc team agents. It defines the concept of ad hoc team agents, specifies an evaluation paradigm, and provides examples of possible theoretical and empirical approaches to challenge. The goal is to encourage progress towards this ambitious, newly realistic, and increasingly important research goal.
+ 

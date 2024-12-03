@@ -1,0 +1,4 @@
+
+ 
+ Automatic semantic annotation of structured data enables unsupervised integration of data from heterogeneous sources but is difficult to perform accurately due to the presence of many numeric fields and proper-noun fields that do not allow reference-based approaches and the absence of natural language text that prevents the use of language-based approaches. In addition, several of these semantic types have multiple heterogeneous representations, while sharing syntactic structure with other types. In this work, we propose a new approach to use conditional random fields (CRFs) to perform semantic annotation of structured data that takes advantage of the structure and labels of the tokens for higher accuracy of field labeling, while still allowing the use of exact inference techniques. We compare our approach with a linear-CRF based model that only labels fields and also with a regular-expression based approach.
+ 

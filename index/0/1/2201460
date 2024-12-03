@@ -1,0 +1,1 @@
+We study the query complexity of approximate notions of Nash equilibrium in games with a large number of players n and a constant number of actions m. Our main result states that even for constant ε, the query complexity of an ε-well-supported Nash equilibrium is exponential in n.

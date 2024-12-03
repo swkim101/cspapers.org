@@ -1,0 +1,1 @@
+In our approach to the Programming Languages course, formal models are integrated as a thread that pervades the course, rather than as a one of many topics that is introduced and then dropped. In this paper we present a simplified version of the formal semantics used. We then show how this model is implemented using the object-oriented, functional and logic paradigms.

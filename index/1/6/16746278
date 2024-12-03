@@ -1,0 +1,4 @@
+
+ 
+ In this paper we introduce the Target Oriented Network Intelligence Collection (TONIC) problem, which is the problem of finding profiles in a social network that contain information about a given target via automated crawling. We formalize TONIC as a search problem and a best-first approach is proposed for solving it.Several heuristics are presented to guide this search.These heuristics are based on the topology of the currently known part of the social network.The efficiency of the proposed heuristics and the effect of the graph topology on their performance is experimentally evaluated on the Google+ social network.
+ 

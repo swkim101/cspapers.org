@@ -1,0 +1,5 @@
+A solution to the Yale shooting problem has been previously proposed that uses so-called non-normal defaults. This approach produces a single extension. One disadvantage, however, is that new conflicting information causes the extension to collapse. 
+ 
+In this paper we propose a new formal counterpart to the intuitive notion of a reasonable set of beliefs. The new formalization reduces to the previous one when there are no conflicts. However, when fresh conflicting information is added, instead of collapsing it produces a revised interpretation similar to that obtained by dependency-directed backtracking in a truth maintenance system. 
+ 
+Consideration of the relationship to relevance logic motivates the development of a new formalism for default reasoning, called Defeasible Logic, which behaves like Autoepistemic Logic, but may be more intuitive.

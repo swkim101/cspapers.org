@@ -1,0 +1,1 @@
+In this paper, we propose a new paper ranking algorithm that gives a high rank to papers which is credited by other authoritative papers or published in premier conferences or journals. Also, the proposed algorithm solves a problem that recent papers are rated poorly due to few citations.

@@ -1,0 +1,1 @@
+In this paper we present our activities towards a Thai Speech-to-Speech translation system. We investigated in the design and implementation of a prototype system. For this purpose we carried out research on bootstrapping a Thai speech recognition system, developing a translation component, and building an initial Thai synthesis system using our existing tools.

@@ -1,0 +1,1 @@
+It is shown that there is no “partial algorithm” (effective procedure that may fail to terminate) by which, given a context free grammar, one can always find an unambiguous context free grammar generating the same language if such an unambiguous grammar exists. The argument turns on the degree of unsolvability of the inherent ambiguity problem for context free languages.

@@ -1,0 +1,1 @@
+We have implemented a browser companion called PadPrints that dynamically builds a graphical history-map of visited web pages. PadPrints relies on Pad++, a zooming user interface (ZUI) development substrate, to display the history-map. PadPrints functions in conjunction with a traditional web browser but without requiring any browser modifications.

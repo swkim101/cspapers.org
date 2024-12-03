@@ -1,0 +1,7 @@
+Our aim is to clarify which nonmonotonic consequence relation λ Δ it given by a set Δ of "supernormal" defaults, i.e. defaults of the form (true : δ)/δ 
+ 
+There are in fact a number of proposals for λ Δ (e.g. the skeptical and the credulous semantics). In this paper we look at the space of all possible default semantics and try to characterize the known ones by their properties, especially the valid deduction rules. 
+ 
+For instance, it seems reasonable to require that any useful semantics should coincide with the original CWA if this is consistent. We might also want to allow proofs by case analysis. Then we get the skeptical semantics (assuming some other very natural deduction rules). 
+ 
+Our results are in fact completeness proofs for "natural deduction systems" based on different default semantics.

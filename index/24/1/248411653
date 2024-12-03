@@ -1,0 +1,1 @@
+We propose HARE, a SPARQL query engine that encompasses human-machine query processing to augment the completeness of query answers. We empirically assessed the effectiveness of HARE on 50 SPARQL queries over DBpedia. Experimental results clearly show that our solution accurately enhances answer completeness.

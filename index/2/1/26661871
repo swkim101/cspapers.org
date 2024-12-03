@@ -1,0 +1,4 @@
+
+ 
+ We investigated Parameterized Poker Squares to approximate an optimal game playing agent. We organized our inquiry along three dimensions: partial hand representation, search algorithms, and partial hand utility learning. For each dimension we implemented and evaluated several designs, among which we selected the best strategies to use for BeeMo, our final product. BeeMo uses a parallel flat Monte-Carlo search. The search is guided by a heuristic based on hand patterns utilities, which are learned through an iterative improvement method involving Monte-Carlo simulations and optimized greedy search.
+ 

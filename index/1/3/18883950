@@ -1,0 +1,4 @@
+
+ 
+ One challenge of link prediction in online social networks is the large scale of many such networks. The measures used by existing work lack a computational consideration in the large scale setting. We propose the notion of social distance in a multi-dimensional form to measure the closeness among a group of people in Microblogs. We proposed a fast hashing approach called Locality-sensitive Social Distance Hashing (LSDH), which works in an unsupervised setup and performs approximate near neighbor search without high-dimensional distance computation. Experiments were applied over a Twitter dataset and the preliminary results testified the effectiveness of LSDH in predicting the likelihood of future associations between people.
+ 

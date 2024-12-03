@@ -1,0 +1,3 @@
+High frequency foreign exchange data can be decomposed into three components: the inventory effect component, the surprise information (news) component and the regular information component. The presence of the inventory effect and news can make analysis of trends due to the diffusion of information (regular information component) difficult. 
+ 
+We propose a neural-net-based, independent component analysis to separate high frequency foreign exchange data into these three components. Our empirical results show that our proposed multi-effect decomposition can reveal the intrinsic price behavior.

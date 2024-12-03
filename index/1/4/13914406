@@ -1,0 +1,4 @@
+
+ 
+ We present a new game-theoretic framework in which Bayesian players with bounded rationality engage in a Markov game and each has private but incomplete information regarding other players' types. Instead of utilizing Harsanyi's abstract types and a common prior, we construct intentional player types whose structure is explicit and induces a {\em finite-level} belief hierarchy. We characterize an equilibrium in this game and establish the conditions for existence of the equilibrium. The computation of finding such equilibria is formalized as a constraint satisfaction problem and its effectiveness is demonstrated on two cooperative domains.
+ 

@@ -1,0 +1,1 @@
+Algorithms are presented for creating new widgets by example. The basic model is one of an editable picture which can be mapped to control information. The mappings are learned from examples. The set of possible maps is readily extensible.

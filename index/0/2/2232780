@@ -1,0 +1,4 @@
+
+ 
+ Stackelberg security games (SSGs) have been deployed in a number of real-world domains. One key challenge in these applications is the assessment of attacker payoffs, which may not be perfectly known. Previous work has studied SSGs with uncertain payoffs modeled by interval uncertainty and provided maximin-based robust solutions. In contrast, in this work we propose the use of the less conservative minimax regret decision criterion for such payoff-uncertain SSGs and present the first algorithms for computing minimax regret for SSGs. We also address the challenge of preference elicitation, using minimax regret to develop the first elicitation strategies for SSGs. Experimental results validate the effectiveness of our approaches.
+ 

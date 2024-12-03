@@ -1,0 +1,7 @@
+Music transcription is a significant problem in machine perception. The system discussed in this paper, MANA. takes as input either the sound of a recorded performance, or data captured using a musical keyboard. It produces conventional musical notation as output. It has successfully handled pieces ranging from 18th-century piano music to improvisations on conga drums, in the Afro-Cuban style. 
+ 
+The paper describes the key ideas and techniques found in the temporal analysis component of MANA, the goal of which is to assign a rhythmic value to each note played. 
+ 
+Perception seems to result from the interplay of sensory evidence and pre-existing mental structures, data-driven agents pitted against model-driven agents in the formation of hypotheses that seem tolerable to our prejudices and not too distant from the data. To this first order view one must add a second order one, which allows the system to notice patterns among partially elaborated hypotheses, and to use these patterns to alter confidence ratings, according to "peer pressure" rules. 
+ 
+Concerning the use of multiple criteria for hypothesis evaluation and pruning, which necessary in the context of perception systems, it is argued that the use of partial orders over multi-dimensional spaces of natural criteria yield more robust methods that approaches based on combining criteria down to scalars.

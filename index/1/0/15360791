@@ -1,0 +1,4 @@
+
+ 
+ In the context of question-answering systems, there are several strategies for scoring candidate answers to definition queries including centroid vectors, bi-term and context language models. These techniques use only positive examples (i.e., descriptions) when building their models. In this work, a maximum entropy based extension is proposed for context language models so as to account for regularities across non-descriptions mined from web-snippets. Experiments show that this extension outperforms other strategies increasing the precision of the top five ranked answers by more than 5%. Results suggest that web-snippets are a cost-efficient source of non-descriptions, and that some relationships extracted from dependency trees are effective to mine for candidate answer sentences.
+ 

@@ -1,0 +1,1 @@
+Cosine Pivoted Document Length Normalization has reached a point of stability where many researchers indiscriminately apply a specific value of 0.2 regardless of the collection. Our efforts, however, demonstrate that applying this specific value without tuning for the document collection degrades average precision by as much as 20%.

@@ -1,0 +1,6 @@
+Let WRAM [PRAM] be a parallel computer with p processors (RAM's) which share a common memory and are allowed simultaneous reads and writes [only simultaneous reads]. The only type of simultaneous writes allowed is a simultaneous AND: several processors may write O simultaneously into the same memory cell. Let t be the time bound of the computer. We design below families of parallel algorithms that solve the string matching problem with inputs of size n (n is the sum of lengths of the pattern and the text) and have the following performance in terms of p, t and n:
+ 1. For WRAM: pt &equil; O(n) for for p ≤ n/log n.
+ 2. For PRAM: pt &equil; O(n) for P ≤ n/log2n.
+ 3. For WRAM: t &equil; constant for p &equil; nl+ε and any ε > O.
+ 4. For WRAM: t &equil; O(log n/log log n) for p &equil; n.
+ Similar families are also obtained for the problem of finding all initial palindromes of a given string.

@@ -1,0 +1,1 @@
+DCPS (the Distributed Connectionist Production System) is a neural network with complex dynamical properties. Visualizing the energy landscapes of some of its component modules leads to a better intuitive understanding of the model, and suggests ways in which its dynamics can be controlled in order to improve performance on difficult cases.

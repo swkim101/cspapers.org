@@ -1,0 +1,4 @@
+
+ 
+ Easy-first, a search-based structured prediction approach, has been applied to many NLP tasks including dependency parsing and coreference resolution. This approach employs a learned greedy policy (action scoring function) to make easy decisions first, which constrains the remaining decisions and makes them easier. We formulate greedy policy learning in the Easy-first approach as a novel non-convex optimization problem and solve it via an efficient Majorization Minimizatoin (MM) algorithm. Results on within-document coreference and cross-document joint entity and event coreference tasks demonstrate that the proposed approach achieves statistically significant performance improvement over existing training regimes for Easy-first and is less susceptible to overfitting.
+ 

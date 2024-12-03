@@ -1,0 +1,4 @@
+
+ 
+ The ability to discover the effects of actions and apply this knowledge during goal-oriented action selection is a fundamental requirement of embodied intelligent agents. In our ongoing work, we hope to demonstrate the utility of learned control models for whole-body mobile manipulation. In this short paper we discuss preliminary work on learning a forward model of the dynamics of a balancing robot exploring simple arm movements. This model is then used to construct whole-body control strategies for regulating state variables using arm motion.
+ 

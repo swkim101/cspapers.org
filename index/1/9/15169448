@@ -1,0 +1,4 @@
+
+ 
+ We propose an indexing scheme for top-k shortest-path distance queries on graphs, which is useful in a wide range of important applications such as network-aware search and link prediction. While considerable effort has been made for efficiently answering standard (top-1) distance queries, none of previous methods can be directly extended for top-k distance queries. We propose a new framework for top-k distance queries based on 2-hop cover and then present an efficient indexing algorithm based on the simple but effective recent notion of pruned landmark labeling. Extensive experimental results on real social and web graphs show the scalability, efficiency and robustness of our method. Moreover, we demonstrate the usefulness of top-k distance queries through an application to link prediction.
+ 

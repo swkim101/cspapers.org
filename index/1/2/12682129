@@ -1,0 +1,1 @@
+Traditionally, Source Code Management (SCM) tools rely on the source code being text. In Projectional Editing (PE), however, the source code is an opaque model, rendering traditional SCM support ineffective. In this work we present an effective approach to enabling SCM for PE.

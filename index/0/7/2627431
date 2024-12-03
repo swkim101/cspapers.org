@@ -1,0 +1,4 @@
+
+ 
+ We study the complexity of exchanging probabilistic data between ontology-based probabilistic databases. We consider the Datalog+/- family of languages as ontology and ontology mapping languages, and we assume different compact encodings of the probabilities of the probabilistic source databases via Boolean events. We provide an extensive complexity analysis of the problem of deciding the existence of a probabilistic (universal) solution for a given probabilistic source database relative to a (probabilistic) data exchange problem for the different languages considered.
+ 

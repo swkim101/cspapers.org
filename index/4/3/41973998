@@ -1,0 +1,4 @@
+
+ 
+ Courses in artificial intelligence and related topics often cover methods for reasoning under uncertainty, decision theory, and game theory. However, these methods can seem very abstract when students first encounter them, and they are often taught using simple “toy” problems. Our goal is to help students to operationalize this knowledge by designing sophisticated autonomous agents that must make complex decisions in games that capture their interest. We describe a tournament-based pedagogy that we have used in two different courses with two different games based on current research topics in artificial intelligence to engage students in designing agents that use strategic reasoning. Many students find this structure very engaging, and we find that students develop a deeper understanding of the abstract strategic reasoning concepts introduced in the courses.
+ 

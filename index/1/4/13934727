@@ -1,0 +1,90 @@
+NP = PCP(log n, 1) and
+related results crucially depend upon the close connection
+between the probability with which a function passes a
+low degree test and the
+distance of this function to the nearest degree
+d polynomial. In this paper
+we study a test proposed by Rubinfeld and Sudan [30]. The
+strongest previously known connection for this test states that
+a function passes the test with probability δ for some δ >
+7/8 iff the function has agreement ≈ δ with a polynomial of
+degree d. We present a new,
+and surprisingly strong, analysis which shows that the preceding
+statement is true for arbitrarily small ≈, provided the field
+size is polynomially larger than d/δ. The analysis uses a
+version of Hilbert
+irreducibility, a tool of algebraic geometry.As a consequence we obtain an alternate construction for
+the following proof system: A constant prover 1-round proof
+system for NP languages in which the verifier uses
+O(log n) random bits, receives answers of
+size O(log
+n) bits, and has an error
+probability of at most 
+% MathType!Translator!2!1!AMS LaTeX.tdl!TeX -- AMS-LaTeX!
+% MathType!MTEF!2!1!+-
+% feaafeart1ev1aaatCvAUfeBSn0BKvguHDwzZbqefeKCPfgBGuLBPn
+% 2BKvginnfarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvgu
+% HDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbnr
+% fifHhDYfgasaacH8qrps0lbbf9q8WrFfeuY-Hhbbf9v8qqaqFr0xc9
+% pk0xbba9q8WqFfea0-yr0RYxir-Jbba9q8aq0-yq-He9q8qqQ8frFv
+% e9Fve9Ff0dmeaabaqaciGacaGaaeqabaWaaqaafaaakeaacaaIYaWa
+% aWbaaSqabeaacqGHsislciGGSbGaai4BaiaacEgadaahaaadbeqaai
+% aaigdacqGHsislcqGHiiIZaaWccaWGUbaaaaaa!4CB1!$$
+2^{{ - \log ^{{1 - \in }} n}} 
+$$. Such a proof system,
+which implies the NP-hardness of approximating Set Cover to
+within Ω(log n) factors, has
+already been obtained by Raz and Safra [29]. Raz and Safra
+obtain their result by giving a strong analysis, in the sense
+described above, of a new low-degree test that they
+present.A second consequence of our analysis is a self
+tester/corrector for any buggy program that (supposedly)
+computes a polynomial over a finite field. If the program is
+correct only on δ fraction of inputs where 
+% MathType!Translator!2!1!AMS LaTeX.tdl!TeX -- AMS-LaTeX!
+% MathType!MTEF!2!1!+-
+% feaafeart1ev1aaatCvAUfeBSn0BKvguHDwzZbqefeKCPfgBGuLBPn
+% 2BKvginnfarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvgu
+% HDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbnr
+% fifHhDYfgasaacH8qrps0lbbf9q8WrFfeuY-Hhbbf9v8qqaqFr0xc9
+% pk0xbba9q8WqFfea0-yr0RYxir-Jbba9q8aq0-yq-He9q8qqQ8frFv
+% e9Fve9Ff0dmeaabaqaciGacaGaaeqabaWaaqaafaaakeaacqaH0oaz
+% cqGH9aqpcaaIXaGaai4lamaaemaabaGaamOraaGaay5bSlaawIa7am
+% aaCaaaleqabaGaeyicI4maaOGaeSOAI0JaaGimaiaac6cacaaI1aaa
+% aa!50F9!$$
+\delta = 1/{\left| F \right|}^{ \in } \ll 0.5
+$$, then the
+tester/corrector determines δ and generates 
+% MathType!Translator!2!1!AMS LaTeX.tdl!TeX -- AMS-LaTeX!
+% MathType!MTEF!2!1!+-
+% feaafeart1ev1aaatCvAUfeBSn0BKvguHDwzZbqefeKCPfgBGuLBPn
+% 2BKvginnfarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvgu
+% HDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbnr
+% fifHhDYfgasaacH8qrps0lbbf9q8WrFfeuY-Hhbbf9v8qqaqFr0xc9
+% pk0xbba9q8WqFfea0-yr0RYxir-Jbba9q8aq0-yq-He9q8qqQ8frFv
+% e9Fve9Ff0dmeaabaqaciGacaGaaeqabaWaaqaafaaakeaacaWGpbWa
+% aeWaaeaadaWcaaqaaiaaigdaaeaacqaH0oazaaaacaGLOaGaayzkaa
+% aaaa!4880!$$
+O{\left( {\frac{1}
+{\delta }} \right)}
+$$ values for every input,
+such that one of them is the correct output. In fact, our
+results yield something stronger: Given the buggy program, we
+can construct 
+
+% MathType!Translator!2!1!AMS LaTeX.tdl!TeX -- AMS-LaTeX!
+% MathType!MTEF!2!1!+-
+% feaafeart1ev1aaatCvAUfeBSn0BKvguHDwzZbqefeKCPfgBGuLBPn
+% 2BKvginnfarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvgu
+% HDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbnr
+% fifHhDYfgasaacH8qrps0lbbf9q8WrFfeuY-Hhbbf9v8qqaqFr0xc9
+% pk0xbba9q8WqFfea0-yr0RYxir-Jbba9q8aq0-yq-He9q8qqQ8frFv
+% e9Fve9Ff0dmeaabaqaciGacaGaaeqabaWaaqaafaaakeaacaWGpbWa
+% aeWaaeaadaWcaaqaaiaaigdaaeaacqaH0oazaaaacaGLOaGaayzkaa
+% aaaa!4880!$$
+O{\left( {\frac{1}
+{\delta }} \right)}
+$$ randomized programs such that one of them is
+correct on every input, with high probability. Such a strong
+self-corrector is a useful tool in complexity theory—with some
+applications known.

@@ -1,0 +1,3 @@
+In many problem domains, an action may be taken by an expert, which, due to new inferences or a changing domain situation, should be retracted. To this end, an effective problem solver will need to use some kind of validity-maintenance system, so that it can gracefully recover from invalid previous decisions. 
+ 
+Unfortunately, the standard IF/THEN paradigm often used to encode expert behavior does not readily allow the expression and processing of this validity knowledge. We present a new extension to that rule paradigm which can be used to augment production-rule-based systems with validity maintenance capabilities, and demonstrate a straightforward algorithm for its interpretation.

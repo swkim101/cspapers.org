@@ -1,0 +1,4 @@
+
+ 
+ Finding a subset of users to statistically represent the original social network is a fundamental issue in Social Network Analysis (SNA). The problem has not been extensively studied in existing literature. In this paper, we present a formal definition of the problem of \textbf{sampling representative users} from social network. We propose two sampling models and theoretically prove their NP-hardness. To efficiently solve the two models, we present an efficient algorithm with provable approximation guarantees. Experimental results on two datasets show that the proposed models for sampling representative users significantly outperform (+6\%-23\% in terms of Precision@100) several alternative methods using authority or structure information only. The proposed algorithms are also effective in terms of time complexity. Only a few seconds are needed to sampling ~300 representative users from a network of 100,000 users.All data and codes are publicly available.
+ 

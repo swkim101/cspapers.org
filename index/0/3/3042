@@ -1,0 +1,4 @@
+
+ 
+ In this paper we describe asprin, a general, flexible, and extensible framework for handling preferences among the stable models of a logic program. We show how complex preference relations can be specified through user-defined preference types and their arguments. We describe how preference specifications are handled internally by so-called preference programs, which are used for dominance testing. We also give algorithms for computing one, or all, optimal stable models of a logic program. Notably, our algorithms depend on the complexity of the dominance tests and make use of multi-shot answer set solving technology.
+ 

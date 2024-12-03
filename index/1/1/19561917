@@ -1,0 +1,17 @@
+A data-driven identification of dynamical systems 
+requiring only minimal prior knowledge 
+is promising whenever no analytically derived 
+model structure is available, e.g., from first principles 
+in physics. However, meta-knowledge on 
+the system’s behavior is often given and should 
+be exploited: Stability as fundamental property 
+is essential when the model is used for controller 
+design or movement generation. Therefore, this 
+paper proposes a framework for learning stable 
+stochastic systems from data. We focus on 
+identifying a state-dependent coefficient form of 
+the nonlinear stochastic model which is globally 
+asymptotically stable according to probabilistic 
+Lyapunov methods. We compare our approach 
+to other state of the art methods on real-world 
+datasets in terms of flexibility and stability.

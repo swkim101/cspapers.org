@@ -1,0 +1,1 @@
+How does misspecifying prior smoothness assumptions about the target function affect the performance of Bayesian optimization routines? We show that misspecifying smoothness leads to an increase in regret, that this effect gets worse in higher dimensions, and that it remains substantial even if hyper-parameters are optimized.

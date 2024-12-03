@@ -1,0 +1,4 @@
+
+ 
+ In this paper, a new convex matching pursuit scheme is proposed for tackling large-scale sparse coding and subset selection problems. In contrast with current matching pursuit algorithms such as subspace pursuit (SP), the proposed algorithm has a convex formulation and guarantees that the objective value can be monotonically decreased. Moreover, theoretical analysis and experimental results show that the proposed method achieves better scalability while maintaining similar or better decoding ability compared with state-of-the-art methods on large-scale problems.
+ 

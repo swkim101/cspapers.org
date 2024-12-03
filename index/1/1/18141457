@@ -1,0 +1,3 @@
+Dynamic vnodes make the UNIX kernel responsive to a varying demand for vnodes, without a need to rebuild the kernel. It also optimizes the usage of memory by deallocating excess vnodes. This paper describes the design and implementation of dynamic vnodes in DEC OSF/1 V3.0. The focus is on the vnode deallocation logic in a Symmetric Multi-Processing environment. 
+ 
+Deallocation of vnodes differs from the familiar concept of dynamically allocated data structures in the following ways: the legacy name-cache design implicitly assumes that vnodes are never deallocated, and the vnode free-list needs to cache unused vnodes effectively.

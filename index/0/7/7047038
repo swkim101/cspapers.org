@@ -1,0 +1,1 @@
+Synchronous Tree Adjoining Grammars can be used for Machine Translation. However, translating a free order language such as Korean to English is complicated. I present a mechanism to translate scrambled Korean sentences into English by combining the concepts of Multi-Component TAGs (MC-TAGs) and Synchronous TAGs (STAGs).

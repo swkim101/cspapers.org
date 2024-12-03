@@ -1,0 +1,15 @@
+This paper proposes the use of optical flow from 
+a moving robot to provide force feedback to 
+an operator’s joystick to facilitate collision free 
+teleoperation. Optical flow is measured by a 
+pair of wide angle cameras on board the vehicle 
+and used to generate a virtual environmental 
+force that is reflected to the user through 
+the joystick, as well as feeding back into the 
+control of the vehicle. We show that the proposed 
+control is dissipative and prevents the 
+vehicle colliding with the environment as well 
+as providing the operator with a natural feel 
+for the remote environment. Experimental results 
+are provided on the InsectBot holonomic 
+vehicle platform.

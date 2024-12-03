@@ -1,0 +1,1 @@
+In this paper, we demonstrate an Interactive Machine Translation interface, that assists human translators with on-the-fly hints and suggestions. This makes the end-to-end translation process faster, more efficient and creates high-quality translations. We augment the OpenNMT backend with a mechanism to accept the user input and generate conditioned translations.

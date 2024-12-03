@@ -1,0 +1,4 @@
+
+ 
+ Manipulation, bribery, and control are well-studied ways of changing the outcome of an election. Many voting systems are, in the general case, computationally resistant to some of these manipulative actions. However when restricted to single-peaked electorates, these systems suddenly become easy to manipulate. Recently, Faliszewski, Hemaspaandra, and Hemaspaandra studied the complexity of dishonest behavior in nearly single-peaked electorates. These are electorates that are not single-peaked but close to it according to some distance measure. In this paper we introduce several new distance measures regarding single-peakedness. We prove that determining whether a given profile is nearly single-peaked is NP-complete in many cases. For one case we present a polynomial-time algorithm. Furthermore, we explore the relations between several notions of nearly single-peakedness.
+ 

@@ -1,0 +1,1 @@
+Two physical objects cannot occupy the same space at the same time.Simulated physical objects do not naturally obey this constraint.Instead, we must detect when two objects have collided---we mustperform collision detection. This work presents a simplevoxel-based collision detection algorithm, an efficient parallelimplementation of the algorithm, and performance results.

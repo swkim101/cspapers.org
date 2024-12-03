@@ -1,0 +1,1 @@
+Active learning efficiently hones in on the decision boundary between relevant and irrelevant documents, but in the process can miss entire clusters of relevant documents, yielding classifiers with low recall. In this paper, we propose a method to increase active learning recall by constraining sampling to a document subset rich in relevant examples.

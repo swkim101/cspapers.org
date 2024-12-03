@@ -1,0 +1,1 @@
+By exploiting the relationship which exists between the Gaussian image and gradient space, the two representations can be utilized in conjunction to facilitate the interpretation of a set of surface normals. The projection of the Gaussian image onto a plane can provide clear traces which quickly yield general knowledge of the underlying surface.

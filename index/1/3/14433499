@@ -1,0 +1,6 @@
+Flight control for commercial aircraft has to fulfil stringent requirements.
+ This paper describes first the main lines of the system development process in order to situate the software validation problem which is only a part of the whole validation exercise.
+ The appropriate methods and tools used in the different software development stages are then presented.
+ A great deal of our attention was in the software analysis stage (preliminary design) for which a software decomposition approach, a software integration strategy and a managerial procedure was developed.
+ Real-time testing also deserved a great deal of effort. A full set of real-time facilities was created around our airborne computer (UMP 7800) which is a software oriented machine whose essential features are roughly described in the paper. Special emphasis is given to a hardware device (TRACE) connected to the computer bus which is capable to check and record critical numerical data and program paths.
+ Finally some quantitative evaluation of the methodologies we use are given based on some of our avionics projects.

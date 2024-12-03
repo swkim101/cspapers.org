@@ -1,0 +1,4 @@
+
+ 
+ Machine reading is a relatively new field that features computer programs designed to read flowing text and extract fact assertions expressed by the narrative content. This task involves two core technologies: natural language processing (NLP) and information extraction (IE). In this paper we describe a machine reading system that we have developed within a cognitive architecture. We show how we have integrated into the framework several levels of knowledge for a particular domain, ideas from cognitive semantics and construction grammar, plus tools from prior NLP and IE research. The result is a system that is capable of reading and interpreting complex and fairly idiosyncratic texts in the family history domain. We describe the architecture and performance of the system. After presenting the results from several evaluations that we have carried out, we summarize possible future directions.
+ 

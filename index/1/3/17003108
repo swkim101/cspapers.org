@@ -1,0 +1,4 @@
+
+ 
+ Existing clustering methods can be roughly classified into two categories: generative and discriminative approaches. Generative clustering aims to explain the data and thus is adaptive to the underlying data distribution; discriminative clustering, on the other hand, emphasizes on finding partition boundaries. In this paper, we take the advantages of both models by coupling the two paradigms through feature mapping derived from linearizing Bayesian classifiers. Such the feature mapping strategy maps nonlinear boundaries of generative clustering to linear ones in the feature space where we explicitly impose the maximum entropy principle. We also propose the unified probabilistic framework, enabling solvers using standard techniques. Experiments on a variety of datasets bear out the notable benefit of our method in terms of adaptiveness and robustness.
+ 

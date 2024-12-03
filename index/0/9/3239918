@@ -1,0 +1,4 @@
+
+ 
+ Singleton-based consistencies have been shown to dramatically improve the performance of constraint solvers on some difficult instances. However, they are in general too expensive to be applied exhaustively during the whole search. In this paper, we focus on partition-one-AC, a singleton-based consistency which, as opposed to singleton arc consistency, is able to prune values on all variables when it performs singleton tests on one of them. We propose adaptive variants of partition-one-AC that do not necessarily run until having proved the fixpoint. The pruning can be weaker than the full version but the computational effort can be significantly reduced. Our experiments show that adaptive Partition-one-AC can obtain significant speed-ups over arc consistency and over the full version of partition-one-AC.
+ 

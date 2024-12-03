@@ -1,0 +1,5 @@
+Disjunctive logic programming (DLP) with stable model semantics is a powerful nonmonotonic formalism for knowledge representation and reasoning. Reasoning with DLP is harder than with normal (V-free) logic programs; liecause stable model checking - deciding whether a given model is a stable model of a propositional DLP program is co-NP-complete, while it is polynomial for normal logic programs. 
+ 
+This paper proposes a new transformation ΓM(P) which reduces stable model checking to UNSAT - i.e., to deciding whether a given CNF formula is unsatisfiable. Thus, the stability of a model AI for a program P can be verified by calling a Satisfiability Checker on the CNF formula ΓM(P). The transformation is parsimonious and efficiently computable, as it runs in logarithmic space. Moreover, the size of the generated CNF formula never exceeds the size of the input. 
+ 
+The proposed approach to stable model checking lias been implemented in a DLP system, and a number of experiments and benchmarks have been run.

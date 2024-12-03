@@ -1,0 +1,18 @@
+Clinical evaluation of frailty in the elderly is the 
+first step to decide the degree of assistance they require. This 
+evaluation is usually performed once and for all by filling 
+standard forms with macro-information about standing and 
+walking abilities. Advances in robotics make it possible to 
+turn a standard assistance device into an augmented device. 
+The existing tests could then be enriched by a new set of 
+daily measured criteria derived from the daily use of standard 
+assistance devices. This paper surveys existing Smart Walker 
+to figure out whether they can be used for gait monitoring 
+and frailty evaluation, focusing on the user-system interaction. 
+Biomechanical gait analysis methods are presented and compared 
+to robotics system designs, to highlight their convergences 
+and differences. On the one hand, monitoring devices try to 
+estimate accurately biomechanical features, whereas, on the 
+other hand, walking assistance and fall prevention do not 
+systematically rely on an accurate human model and prefer 
+heuristics on the user-robot state.

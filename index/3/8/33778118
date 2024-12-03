@@ -1,0 +1,3 @@
+A model of auditory temporal recall based on correlographic recording and Interrogation by convolution is presented. Complex tree and loop structured memory sequences can be recorded, with selective recall based on fragmentary cues. The sequences are "remembered" by proceeding through a recorded net of associations until the coherence of the retrieved signals falls to a sufficiently low level. This indicates no further significant recall is possible without an additional external cue. 
+ 
+A computer simulation of this model using digitised speech has produced variable-length and cyclic sound-segment recall from fragmentary cues.

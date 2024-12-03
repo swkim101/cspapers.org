@@ -1,0 +1,2 @@
+Computational Indistinguishability Logic (CIL) is a logic for reasoning about cryptographic primitives in computational models. It captures reasoning patterns that are common in provable security, such as simulations and reductions. CIL is sound for the standard model, but also supports reasoning in the random oracle and other idealized models.
+ We illustrate the benefits of CIL by formally proving the security of the probabilistic signature scheme (PSS).

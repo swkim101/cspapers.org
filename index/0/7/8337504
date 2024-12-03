@@ -1,0 +1,4 @@
+
+ 
+ The problem of influence maximization, i.e., mining top-k influential nodes from a social network such that the spread of influence in the network is maximized, is NP-hard. Most of the existing algorithms for the prob- lem are based on greedy algorithm. Although greedy algorithm can achieve a good approximation, it is computational expensive. In this paper, we propose a totally different approach based on Simulated Annealing(SA) for the influence maximization problem. This is the first SA based algorithm for the problem. Additionally, we propose two heuristic methods to accelerate the con- vergence process of SA, and a new method of comput- ing influence to speed up the proposed algorithm. Experimental results on four real networks show that the proposed algorithms run faster than the state-of-the-art greedy algorithm by 2-3 orders of magnitude while being able to improve the accuracy of greedy algorithm.
+ 

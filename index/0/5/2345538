@@ -1,0 +1,1 @@
+The three traditional database data models (relational, network and hierarchical) fail to satisfy certain "real world" database problems, particularly in large engineering applications. A Hybrid relational/network data model is proposed based on certain requirements of an example Design Automation (CAD/CAM) application.

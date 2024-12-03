@@ -1,0 +1,4 @@
+
+ 
+ Collusion is the practice of two or more parties deliberately cooperating to the detriment of others. While such behavior may be desirable in certain circumstances, in many it is considered dishonest and unfair. If agents otherwise hold strictly to the established rules, though, collusion can be challenging to police. In this paper, we introduce an automatic method for collusion detection in sequential games. We achieve this through a novel object, called a collusion table, that captures the effects of collusive behavior, i.e., advantage to the colluding parties, without assuming any particular pattern of behavior. We show the effectiveness of this method in the domain of poker, a popular game where collusion is prohibited.
+ 

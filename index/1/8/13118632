@@ -1,0 +1,3 @@
+In this paper, a system is described that can understand a plot of a story on reference to both image and linguistic information. As input, a series of line drawings with colors and narrations in English concerning to these drawings are given to the system. 
+ 
+It searches the objects suggested to be in the scene by the narrations, finding relations among them, making the world model by using its world knowledge. Its reference to those drawings makes it easy for system to analize complicated structures in the narration sentences such as those of prepositions, and guides the process reasoning about the CD representation using rules and demons. At the end of this paper, a result on QA will be shown.

@@ -1,0 +1,1 @@
+We present the results of a community detection analysis of the Wikipedia graph. Distinct communities in Wikipedia contain semantically closely related articles. The central topic of a community can be identified using PageRank. Extracted communities can be organized hierarchically similar to manually created Wikipedia category structure.

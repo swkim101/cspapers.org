@@ -1,0 +1,4 @@
+
+ 
+ Large scale ontology applications require efficient and robust description logic (DL) reasoning services. Expressive DLs usually have very high worst case complexity while tractable DLs are restricted in terms of expressive power. This brings a new challenge: can users use expressive DLs to build their ontologies and still enjoy the efficient services as in tractable languages. In this paper, we present a soundness preserving approximate reasoning framework for TBox reasoning in OWL2-DL. The ontologies are encoded into EL++ with additional data structures. A tractable algorithm is presented to classify such approximation by realizing more and more inference patterns. Preliminary evaluation shows that our approach can classify existing benchmarks in large scale efficiently with a high recall.
+ 

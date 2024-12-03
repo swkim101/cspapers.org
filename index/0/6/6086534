@@ -1,0 +1,1 @@
+We propose a novel method to predict accurately trust relationships of a target user even if he/she does not have much interaction information. The proposed method considers positive, implicit, and negative information of all users in a network based on belief propagation to predict trust relationships of a target user.

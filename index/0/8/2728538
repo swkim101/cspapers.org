@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of constructing a symbolic description of a continuous, low-level environment for use in planning. We show that symbols that can represent the preconditions and effects of an agent's actions are both necessary and sufficient for high-level planning. This eliminates the symbol design problem when a representation must be constructed in advance, and in principle enables an agent to autonomously learn its own symbolic representations. The resulting representation can be converted into PDDL, a canonical high-level planning representation that enables very fast planning.
+ 

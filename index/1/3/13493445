@@ -1,0 +1,2 @@
+The combined problem of the communication network design and resource allocation is studied for Distributed Data Processing (DDP) networks. The reliability measure for a distributed data processing system is used in order to enhance network reliability.
+ A model is proposed to determine an optimal DDP network and to allocate resources that maximize the reliability measure of the network, The model takes into consideration network topology, resource avaliability and channel capacity. It is shown that the model may be represented by a linear programming model.

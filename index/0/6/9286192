@@ -1,0 +1,18 @@
+A string of recent attacks against the global public 
+key infrastructure (PKI) has brought to light weaknesses in the 
+certification authority (CA) system. In response, the CA/Browser 
+Forum, a consortium of certification authorities and browser 
+vendors, published in 2011 a set of requirements applicable to all 
+certificates intended for use on the Web and issued after July 1st, 
+2012, following the successful adoption of the extended validation 
+guidelines in 2007. We evaluate the actual level of adherence to 
+the CA/Browser Forum guidelines over time, as well as the impact 
+of each violation, by inspecting a large collection of certificates 
+gathered from Web crawls. We further refine our analysis by 
+automatically deriving profile templates that characterize the 
+makeup of certificates per issuer. By integrating these templates 
+with violation statistics, we are able to depict the practices of 
+certification authorities worldwide, and thus to monitor the PKI 
+and proactively detect major violations. Our method also provides 
+new means of assessing the trustworthiness of SSL certificates 
+used on the Web.

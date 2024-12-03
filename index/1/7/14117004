@@ -1,0 +1,3 @@
+This paper describes a computer-based system for consultation in the diagnosis and therapy of glaucoma. The reasoning procedures interpret the findings of a particular patient in terms of a causal-associational network (CASNET) model that characterizes the pathophysiological mechanisms and clinical course of treated and untreated diseases. 
+ 
+The major new features of this CASNET/glaucoma program are: a) generation of detailed and medically acceptable interpretations from a qualitative model of glaucoma; b) reasoning about detailed follow-up management of a patient; c) incorporation of alternative expert opinions about subjects under debate; and d) its testing and updating by a collaborative computer-based network of glaucoma researchers.

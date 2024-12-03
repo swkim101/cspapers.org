@@ -1,0 +1,3 @@
+Standard knowledge representation languages are seriously lacking an explicit formal semantic specification. This may cause considerable trouble when applied to large amounts of rapidly changing data. 
+ 
+Based on an abstract data type view of knowledge representation languages a formal definition of a frame data model is presented in terms of a denotational semantics approach using a subset of META-IV. After introducing some basic concepts of the model several semantic integrity constraints are outlined which ultimately lead to the formulation of a set of operations in the frame data model.

@@ -1,0 +1,1 @@
+This paper presents two types of buzzer-quiz answering systems that can predict the answer from only part of a question and then proposes a method to estimate the accuracy of the answers for each system by using the internal scores of each model.

@@ -1,0 +1,4 @@
+
+ 
+ Real world data is usually generated over multiple time periods associated with multiple labels, which can be represented as multiple labeled tensor sequences. These sequences are linked together, sharing some common features while exhibiting their own unique features. Conventional tensor factorization techniques are limited to extract either common or unique features, but not both simultaneously. However, both types of these features are important in many machine learning systems as they inherently affect the systems' performance. In this paper, we propose a novel supervised tensor factorization technique which simultaneously extracts ordered common and unique features. Classification results using features extracted by our method on CIFAR-10 database achieves significantly better performance over other factorization methods, illustrating the effectiveness of the proposed technique.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Multidimensional Scaling (MDS) is a classic technique that seeks vectorial representations for data points, given the pairwise distances between them. In recent years, data are usually collected from diverse sources or have multiple heterogeneous representations. However, how to do multidimensional scaling on multiple input distance matrices is still unsolved to our best knowledge. In this paper, we first define this new task formally. Then, we propose a new algorithm called Multi-View Multidimensional Scaling (MVMDS) by considering each input distance matrix as one view. The proposed algorithm can learn the weights of views (i.e., distance matrices) automatically by exploring the consensus information and complementary nature of views. Experimental results on synthetic as well as real datasets demonstrate the effectiveness of MVMDS. We hope that our work encourages a wider consideration in many domains where MDS is needed.
+ 

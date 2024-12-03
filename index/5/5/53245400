@@ -1,0 +1,1 @@
+This paper establishes a connection between NMF and PLSA on multi-way data, called NTF and T-PLSA respectively. Two types of T-PLSA models are proven to be equivalent to non-negative PARAFAC and non-negative Tucker3. This paper also shows that by running NTF and T-PLSA alternatively, they can jump out of each other's local minima and achieve a better clustering solution.

@@ -1,0 +1,3 @@
+In the contemporary autonomous systems the role of complex interactions such as (possibly relaxed) dialogues is increasing significantly. In this paper we provide a paraconsistent and paracomplete implementation of inquiry dialogue under realistic assumptions regarding availability and quality of information. Various strategies for dealing with unsure and inconsistent information are analyzed. The corresponding dialogue outcomes are further evaluated against the (paraconsistent and paracomplete) distributed beliefs of the group. 
+ 
+A specific 4-valued logic underpins the presented framework. Thanks to the qualities of the implementation tool: a rule-based query language 4QL, our solution is both expressive and tractable.

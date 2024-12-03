@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose an interpretation of active learning from a pure algebraic view and combine it with semi-supervised manifold learning. The proposed active manifold learning algorithm aims to learn the low-dimensional parameter space of the manifold with high accuracy from smartly labeled samples. We demonstrate that this problem is equivalent to a condition number minimization problem of the alignment matrix. Focusing on this problem, we first give a theoretical upper bound for the solution. Then we develop a heuristic but effective sample selection algorithm with the help of the Gershgorin circle theorem. We investigate the rationality, the feasibility, the universality and the complexity of the proposed method and demonstrate that our method yields encouraging active learning results.
+ 

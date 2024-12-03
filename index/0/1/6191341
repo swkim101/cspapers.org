@@ -1,0 +1,1 @@
+We prove that except possibly for small exceptional sets, discrete-time analog neural nets are globally observable, i.e. all their corrupted pseudo-orbits on computer simulations actually reflect the true dynamical behavior of the network. Locally finite discrete (boolean) neural networks are observable without exception.

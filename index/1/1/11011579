@@ -1,0 +1,3 @@
+In this paper, we show how we conceive the proof of theorems by sructural induction. Our aim is to facilitate the proof of the theorems which can lead, in a context of automatic theorem proving, to very lengthy (or even impossible) proofs. 
+ 
+We use a very simple tool, the i-matching or induction-matching, which allows us, on the one hand to define an original procedure of generalization, and on the other hand to define an original way of generating lemmas.

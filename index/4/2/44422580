@@ -1,0 +1,5 @@
+At the Betriebsforschungsinstitut, a data base system named DB/MASTER is under development, the major design objectives of which are:
+ - independence from the quantity of data,
+ - capability to manage data with highly complex structures,
+ - adaptability to a variety of problems, and
+ - portability to a number of different computers.

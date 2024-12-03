@@ -1,0 +1,1 @@
+In this work we introduce the rst self-stabilizing end-to-end communication protocol, and the most ee-cient known self-stabilizing network reset protocol. We use a simple method of local checking and correction , by which distributed protocols can be made self-stabilizing without the use of unbounded counters .

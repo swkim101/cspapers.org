@@ -1,0 +1,1 @@
+The inferencing task of figuring out words from context is implemented in the presence of a large database of world knowledge. The program does not require interaction with the user, but rather uses internal parser expectations and knowledge embodied in scripts to figure out likely definitions for unknown words, and to create context-specific definitions for such words.

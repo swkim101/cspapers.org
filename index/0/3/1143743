@@ -1,0 +1,16 @@
+In October of '86, the Internet had the first of what became a series of 'congestion collapses'. During this period, the data throughput from LBL to UC Berkeley (sites separated by 400 yards and three IMP hops) dropped from 32 Kbps to 40 bps. Mike Karels<supscrpt>1</supscrpt> and I were fascinated by this sudden factor-of-thousand drop in bandwidth and embarked on an investigation of why things had gotten so bad. We wondered, in particular, if the 4.3BSD (Berkeley UNIX) TCP was mis-behaving or if it could be tuned to work better under abysmal network conditions. The answer to both of these questions was “yes”.
+Since that time, we have put seven new algorithms into the 4BSD TCP:<list><item>round-trip-time variance estimation
+</item><item>exponential retransmit timer backoff
+</item><item>slow-start
+</item><item>more aggressive receiver ack policy
+</item><item>dynamic window sizing on congestion
+</item><item>Karn's clamped retransmit backoff
+</item><item>fast retransmit Our measurements and the reports of beta testers suggest that the final product is fairly good at dealing with congested conditions on the Internet.
+</item></list>
+This paper is a brief description of (<italic>i</italic>) - (<italic>v</italic>) and the rationale behind them. (<italic>vi</italic>) is an algorithm recently developed by Phil Karn of Bell Communications Research, described in [KP87]. (<italic>viii</italic>) is described in a soon-to-be-published RFC.
+Algorithms (<italic>i</italic>) - (<italic>v</italic>) spring from one observation: The flow on a TCP connection (or ISO TP-4 or Xerox NS SPP connection) should obey a 'conservation of packets' principle. And, if this principle were obeyed, congestion collapse would become the exception rather than the rule. Thus congestion control involves finding places that violate conservation and fixing them.
+By 'conservation of packets' I mean that for a connection 'in equilibrium', i.e., running stably with a full window of data in transit, the packet flow is what a physicist would call 'conservative': A new packet isn't put into the network until an old packet leaves. The physics of flow predicts that systems with this property should be robust in the face of congestion. Observation of the Internet suggests that it was not particularly robust. Why the discrepancy?
+There are only three ways for packet conservation to fail:<list><item>The connection doesn't get to equilibrium, or
+</item><item>A sender injects a new packet before an old packet has exited, or
+</item><item>The equilibrium can't be reached because of resource limits along the path. In the following sections, we treat each of these in turn.
+</item></list>

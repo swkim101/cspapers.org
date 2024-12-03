@@ -1,0 +1,1 @@
+Design automation of electronic systems is generally separated into a number of distinct areas of effort. Breuer [1] has divided design automation into the areas of logic synthesis, gate simulation, partitioning, placement, routing, and fault detection and diagnosis. While this separation may not be complete or entirely accurate, these functions generally must be performed.

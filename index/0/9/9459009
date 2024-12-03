@@ -1,0 +1,1 @@
+An optical interconnect is proposed for multiprocessor systems, of both the tightly and loosely coupled types. This interconnect solves the problem of contention for memory and interconnect in the tightly coupled case, and the problem of network bottleneck in the loosely coupled case.

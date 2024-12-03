@@ -1,0 +1,5 @@
+A modest exception allowing inheritance reasoner is presented. The reasoner allows restricted, but semantically well founded, defeasible property inheritance. Furthermore, it gives a well defined and easily understood semantic interpretation to all of the assertions encoded in it. 
+ 
+The semantics allows a knowledge engineer to decide what knowledge can be encoded in the system, and gives him understandable formal guarantees about the quality of the conclusions that will be generated. For this reason the system is a more practical, usable inheritance reasoner than others that have appeared in the literature. The system has been fully implemented in a short (< 75 lines) Prolog program which executes all the examples presented, among others. 
+ 
+Furthermore, although the system performs a restricted form of inheritance reasoning it can still represent and solve most of the inheritance "puzzles" that have appeared in the literature, including the recent heterogeneous inheritance problems.

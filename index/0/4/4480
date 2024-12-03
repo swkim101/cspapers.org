@@ -1,0 +1,1 @@
+Boosting is a machine learning algorithm that is not well known in computational linguistics. We apply it to part-of-speech tagging and prepositional phrase attachment. Performance is very encouraging. We also show how to improve data quality by using boosting to identify annotation errors.

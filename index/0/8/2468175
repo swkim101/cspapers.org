@@ -1,0 +1,3 @@
+Given a string S[1·s n], the suffix selection problemis to find the kth lexicographically smallest amongst the n suffixes S[i·s n], for i=1,...,n. In particular, the fundamental question is if selection can be performed more efficiently than sorting all the suffixes.
+ If one considered n numbers, they can be sorted using Θ(n log n) comparisonsand the classical result from 70's is that selection can be done using O(n) comparisons. Thus selection is provably more efficient than sorting, for n numbers.
+ Suffix sorting can be done using Θ(n log n) comparisons, but does suffix selection need suffix sorting? We settle this fundamental problem by presenting an optimal, deterministic algorithm for suffix selection using O(n) comparisons.

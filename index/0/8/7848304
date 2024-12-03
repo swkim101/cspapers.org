@@ -1,0 +1,1 @@
+This note discusses the representation for actions and plans being developed as part of the current planning research at SRI. Described is a method for uniformly representing actions that can take place both in the domain and during planning. The representation accommodates descriptions of abstract (hypothetical) objects.

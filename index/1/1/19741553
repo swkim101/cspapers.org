@@ -1,0 +1,1 @@
+A structure enjoys the Herbrand property if, whenever it satisfies an equality between some terms, these terms are unifiable. On such structures the expressive power of equalities becomes trivial, as their semantic satisfiability is reduced to a purely syntactic check.

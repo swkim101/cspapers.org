@@ -1,8 +1,0 @@
-
- Outlier detection (OD) is a key machine learning task for finding rare and deviant data samples, with many time-critical applications such as fraud detection and intrusion detection. In this work, we propose TOD, the first tensor-based system for efficient and scalable outlier detection on distributed multi-GPU machines. A key idea behind TOD is decomposing complex OD applications into a small collection of basic tensor algebra operators. This decomposition enables TOD to accelerate OD computations by leveraging recent advances in deep learning infrastructure in both hardware and software. Moreover, to deploy memory-intensive OD applications on modern GPUs with limited on-device memory, we introduce two key techniques. First,
- provable quantization
- speeds up OD computations and reduces its memory footprint by automatically performing specific floating-point operations in lower precision while provably guaranteeing no accuracy loss. Second, to exploit the aggregated compute resources and memory capacity of multiple GPUs, we introduce
- automatic batching
- , which decomposes OD computations into small batches for both sequential execution on a single GPU and parallel execution across multiple GPUs.
- 
- TOD supports a diverse set of OD algorithms. Evaluation on 11 real-world and 3 synthetic OD datasets shows that TOD is on average 10.9X faster than the leading CPU-based OD system PyOD (with a maximum speedup of 38.9X), and can handle much larger datasets than existing GPU-based OD systems. In addition, TOD allows easy integration of new OD operators, enabling fast prototyping of emerging and yet-to-discovered OD algorithms.

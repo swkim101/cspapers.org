@@ -1,0 +1,4 @@
+
+ 
+ With the development of Web 2.0, many users express their opinions online. This paper is concerned with the classification of social emotions on varied-scale datasets. Different from traditional models which weight training documents equally, the concept of emotional entropy is proposed to estimate the weight and tackle the issue of noisy documents. The topic assignment is also used to distinguish different emotional senses of the same word. Experimental evaluations using different data sets validate the effectiveness of the proposed social emotion classification model.
+ 

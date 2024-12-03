@@ -1,0 +1,4 @@
+
+ 
+ In this study, we investigate expected CP decomposition — a special case of CP decomposition in which a tensor to be decomposed is given as the sum or average of tensor samples X(t) for t = 1,...,T. To determine this decomposition, we develope stochastic-gradient-descent-type algorithms with four appealing features: efficient memory use, ability to work in an online setting, robustness of parameter tuning, and simplicity. Our theoretical analysis show that the solutions do not diverge to infinity for any initial value or step size. Experimental results confirm that our algorithms significantly outperform all existing methods in terms of accuracy. We also show that they can successfully decompose a large tensor, containing billion-scale nonzero elements.
+ 

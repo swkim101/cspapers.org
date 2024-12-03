@@ -1,0 +1,4 @@
+An interactive system of design and documentation aids called COPES' (Customer Optimized Product Engineering System) is discussed with respect to its application to printed circuit board assemblies. The COPES system features an integrated set of software including a schematic editor, a placement and routing package, report generators, a file storage facility plus simulation and testing systems. 
+ The COPES system is implemented on an IBM 370/168 and a DEC PDP 11/70 with storage tubes for interactive graphics work. 
+ The paper discusses the system concepts and operational experience in bringing the COPES system to production use.
+ The prime emphasis in the paper is the development and application of the COPES system from a user point of view. A summary of current results is presented with an indication of future development of the system.

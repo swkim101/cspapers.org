@@ -1,0 +1,7 @@
+In the area of parameterized complexity, to cope with NP-Hard problems, we introduce a parameter k besides the input size n, and we aim to design algorithms (called FPT algorithms) that run in O(f(k)nd) time for some function f(k) and constant d. Though FPT algorithms have been successfully designed for many problems, typically they are not sufficiently fast because of huge f(k) and d. 
+ 
+In this paper, we give FPT algorithms with small f(k) and d for many important problems including Odd Cycle Transversal and Almost 2-SAT. More specifically, we can choose f(k) as a single exponential (4k) and d as one, that is, linear in the input size. To the best of our knowledge, our algorithms achieve linear time complexity for the first time for these problems. 
+ 
+To obtain our algorithms for these problems, we consider a large class of integer programs, called BIP2. Then we show that, in linear time, we can reduce BIP2 to Vertex Cover Above LP preserving the parameter k, and we can compute an optimal LP solution for Vertex Cover Above LP using network flow. 
+ 
+Then, we perform an exaustive search by fixing half-integral values in the optimal LP solution for Vertex Cover Above LP. A bottleneck here is that we need to recompute an LP optimal solution after branching. To address this issue, we exploit network flow to update the optimal LP solution in linear time.

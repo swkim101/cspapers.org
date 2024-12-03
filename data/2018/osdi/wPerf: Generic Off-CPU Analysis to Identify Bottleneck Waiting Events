@@ -1,5 +1,0 @@
-This paper tries to identify waiting events that limit the maximal throughput of a multi-threaded application. To achieve this goal, we not only need to understand an event's impact on threads waiting for this event (i.e., local impact), but also need to understand whether its impact can reach other threads that are involved in request processing (i.e., global impact). 
-
-To address these challenges, wPerf computes the local impact of a waiting event with a technique called cascaded re-distribution; more importantly, wPerf builds a wait-for graph to compute whether such impact can indirectly reach other threads. By combining these two techniques, wPerf essentially tries to identify events with large impacts on all threads.
-
-We apply wPerf to a number of open-source multi-threaded applications. By following the guide of wPerf, we are able to improve their throughput by up to 4.83$\times$. The overhead of recording waiting events at runtime is about 5.1% on average.

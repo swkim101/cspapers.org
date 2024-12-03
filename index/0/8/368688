@@ -1,0 +1,4 @@
+
+ 
+ Non-negative tensor factorization (NTF) has attracted great attention in the machine learning community. In this paper, we extend traditional non-negative tensor factorization into a supervised discriminative decomposition, referred as Supervised Non-negative Tensor Factorization with Maximum-Margin Constraint(SNTFM2). SNTFM2 formulates the optimal discriminative factorization of non-negative tensorial data as a coupled least-squares optimization problem via a maximum-margin method. As a result, SNTFM2 not only faithfully approximates the tensorial data by additive combinations of the basis, but also obtains a strong generalization power to discriminative analysis (in particularfor classification in this paper). The experimental results show the superiority of our proposed model over state-of-the-art techniques on both toy and real world data sets.
+ 

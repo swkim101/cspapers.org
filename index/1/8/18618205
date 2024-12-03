@@ -1,0 +1,4 @@
+
+ 
+ Maintaining and pursuing multiple goals over varying time scales is an important ability for artificial agents in many cognitive architectures. Goals that remain suspended for long periods, however, are prone to be forgotten. This paper presents a class of preemptive strategies that allow agents to selectively retain goals in memory and to recover forgotten goals. Preemptive strategies work by retrieving and rehearsing goals at triggers, which are either periodic or are predictive of the opportunity to act. Since cognitive architectures contain common hierarchies of memory systems and share similar forgetting mechanisms, these strategies work across multiple architectures. We evaluate their effectiveness in a simulated mobile robot controlled by Soar, and demonstrate how preemptive strategies can be adapted to different environments and agents.
+ 

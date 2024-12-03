@@ -1,0 +1,1 @@
+Under-determined dynamical systems are those that need additional information in order to produce simulation traces. This information may correspond to initial conditions, parameter values or dynamic external influences. The paper discusses this issue and surveys some common approaches to reconcile this fact with the practice of simulation.

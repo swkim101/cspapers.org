@@ -1,0 +1,1 @@
+We propose DisCord, an opportunistic protocol for neighbor discovery and data exchange coordination in sensor networks. DisCord allows multiple low-end nodes within radio range to discover each other, self-organize into a network, and exchange data in an autonomous fashion. DisCord can successfully cope with node mobility and unstable network dynamics.

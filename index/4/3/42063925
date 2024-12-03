@@ -1,0 +1,7 @@
+A modified version of PHR-resolution comprising negative hyper-resolution and paramodulation is introduced to reduce the search of statements that contain transitive relations. 
+ 
+Let R be a symbol of transitive relation and let a nucleus contain the literal tRp, and let a factor of an electron be of the form C V nt, Rt2. Moreover let us suppose that tU=t, U, where U is a simultaneous most general unifier for the corresponding clash. Then the resolvent of this clash contains the subclause (C V pRt2)U. This rule of deduction is said to Be TPHR-rule. 
+ 
+It is shown that TPHR-resolution is complete. More precisely, it is shown that the empty clause a can be deduced from a set G of clauses which contains the axiom of transitivity Tr for the relation R by using PHR - resolution iff can be deduced from the set G-{Tr} by using TPHR"-resolution. 
+ 
+The efficiency of the use of TPHR-rule is illustrated by examples.

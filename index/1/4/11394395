@@ -1,0 +1,4 @@
+
+ 
+ Document clustering has been applied in web information retrieval, which facilitates users’ quick browsing by organizing retrieved results into different groups. Meanwhile, a tree-like hierarchical structure is wellsuited for organizing the retrieved results in favor of web users. In this regard, we introduce a new method for hierarchical clustering of web snippets by exploiting a phrase-based document index. In our method, a hierarchy of web snippets is built based on phrases instead of all snippets, and the snippets are then assigned to the corresponding clusters consisting of phrases. We show that, as opposed to the traditional hierarchical clustering, our method not only presents meaningful cluster labels but also improves clustering performance.
+ 

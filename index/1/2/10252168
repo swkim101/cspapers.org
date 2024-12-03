@@ -1,0 +1,1 @@
+This paper describes a multi-defect real time (MRT) diagnostic algorithm that doesn't require fault simulation. This algorithm makes deterministic decisions that direct a single pin probe to as many nodes as are required to diagnose all “unrelated” (based on course-effect) defects to the lowest repairable or replaceable units.

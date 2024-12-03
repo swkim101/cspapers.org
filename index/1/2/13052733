@@ -1,0 +1,1 @@
+In this paper, we examine noisy radio (broadcast) networks in which every bit transmitted has a certain probability of being flipped. Each processor has some initial input bit, and the goal is to compute a function of these input bits. In this model, we show a protocol to compute any threshold function using only a linear number of transmissions.

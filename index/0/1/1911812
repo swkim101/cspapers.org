@@ -1,0 +1,5 @@
+IPEM, for Integrated Planning, Execution and Monitoring, provides a simple, clear and well defined framework to integrate these processes. Representation integration is achieved by naturally incorporating execution and monitoring information into [Chapman, 1987] tweak's partial plan representation. Control integration is obtained by using a production system architecture where IF-THEN rules, referred to as flaws and fixes, specify partial plan transformations. Conflict resolution is done using a scheduler that embodies the current problem solving strategy. 
+ 
+Since execution and plan elaboration operations have been designed to be independently applicable, and execution of an action is a scheduling decision like any other, the framework effectively supports interleaving of planning and execution (IPE). This renders a local ability to replan after both unexpected events and execution failure. 
+ 
+The framework has served as the basis for an implemented hierarchical, nonlinear planning and execution system that has been tested on numerous examples, on various domains, and has shown to be reliable and robust.

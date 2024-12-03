@@ -1,0 +1,4 @@
+
+ 
+ Given a set of axis-parallel n-dimensional boxes, the q-intersection is defined as the smallest box encompassing all the points that belong to at least q boxes. Computing the q-intersection is a combinatorial problem that allows us to handle robust parameter estimation with a numerical constraint programming approach. The q-intersection can be viewed as a filtering operator for soft constraints that model measurements subject to outliers. This paper highlights the equivalence of this operator with the search of q-cliques in a graph whose boxicity is bounded by the number of variables in the constraint network. We present a computational study of the q-intersection. We also propose a fast heuristic and a sophisticated exact q-intersection algorithm. First experiments show that our exact algorithm outperforms the existing one while our heuristic performs an efficient filtering on hard problems.
+ 

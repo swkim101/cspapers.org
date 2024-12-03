@@ -1,0 +1,1 @@
+We announce new CMOS synapse circuits using only three and four MOSFETs/synapse. Neural states are asynchronous pulse streams, upon which arithmetic is performed directly. Chips implementing over 100 fully programmable synapses are described and projections to networks of hundreds of neurons are made.

@@ -1,0 +1,1 @@
+This paper presents a hierarchical topic model that simultaneously captures topics and author's interests. Our proposal, the Author Interest Topic model (AIT), introduces a latent variable with a separate probability distribution over topics into each document. Experiments on a research paper corpus show that the AIT is useful as a generative model.

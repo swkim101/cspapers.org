@@ -1,0 +1,4 @@
+
+ 
+ The formalism of multi-objective influence diagrams has recently been developed for modeling and solving sequential decision problems under uncertainty and multiple objectives. Since utility values representing the decision maker's preferences are only partially ordered (e.g., by the Pareto order) we no longer have a unique maximal value of expected utility, but a set of them. Computing the set of maximal values of expected utility and the corresponding policies can be computationally very challenging. In this paper, we consider alternative notions of optimality, one of the most important one being the notion of possibly optimal, namely optimal in at least one scenario compatible with the inter-objective tradeoffs. We develop a variable elimination algorithm for computing the set of possibly optimal expected utility values, prove formally its correctness, and compare variants of the algorithm experimentally.
+ 

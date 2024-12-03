@@ -1,0 +1,1 @@
+In this paper, we present a novel frequent generalized pattern mining algorithm, called GP-Close, for mining generalized associations from RDF metadata. To solve the over-generalization problem encountered by existing methods, GP-Close employs the notion of emphgeneralization closure for systematic over-generalization reduction.

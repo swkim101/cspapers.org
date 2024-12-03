@@ -1,0 +1,4 @@
+
+ 
+ Robotic tactile recognition aims at identifying target objects or environments from tactile sensory readings. The advancement of unsupervised feature learning and biological tactile sensing inspire us proposing the model of 3T-RTCN that performs spatio-temporal feature representation and fusion for tactile recognition. It decomposes tactile data into spatial and temporal threads, and incorporates the strength of randomized tiling convolutional networks. Experimental evaluations show that it outperforms some state-of-the-art methods with a large margin regarding recognition accuracy, robustness, and fault-tolerance; we also achieve an order-of-magnitude speedup over equivalent networks with pretraining and finetuning. Practical suggestions and hints are summarized in the end for effectively handling the tactile data.
+ 

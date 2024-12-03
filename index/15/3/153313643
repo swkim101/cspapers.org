@@ -1,0 +1,1 @@
+In this work, we analyze content and structure of the Twitter trending topic #cuentalo with the purpose of providing a visualization of the movement. A supervised learning methodology is used to train the classifying algorithms with hand-labeled observations. The methodology allows us to classify each tweet according to its role in the movement.

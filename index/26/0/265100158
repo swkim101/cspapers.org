@@ -1,0 +1,1 @@
+This paper introduces the SEQ BIN meta-constraint with a polytime algorithm achieving generalized arc-consistency. SEQ BIN can be used for encoding counting constraints such as CHANGE, SMOOTH, or INCREASING NVALUE. For all of them the time and space complexity is linear in the sum of domain sizes, which improves or equals the best known results of the literature.

@@ -1,0 +1,1 @@
+Cumulative training margin distributions for AdaBoost versus our "Direct Optimization Of Margins" (DOOM) algorithm. The dark curve is AdaBoost, the light curve is DOOM. DOOM sacrifices significant training error for improved test error (horizontal marks on margin = 0 line).

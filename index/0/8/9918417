@@ -1,0 +1,1 @@
+We present a probabilistic public key cryptosystem which is secure unless the worst case of the following lattice problem can be solved in polynomial time: “Find the shortest nonzero vector in an n dimensional lattice L where the shortest vector v is unique in the sense that any other vector whose length is at most n’ [lullis parallel to v.”

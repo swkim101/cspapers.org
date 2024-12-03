@@ -1,0 +1,4 @@
+
+ 
+ To solve combinatorial problems, Constraint Programming builds high-level models that expose much of the structure of the problem. The distinctive driving force of Constraint Programming has been this direct access to problem structure. This has been key to the design of powerful filtering algorihms but we could do much more. Considering the set of solutions to each constraint as a multivariate discrete distribution opens the door to more structure-revealing computations that may significantly change this solving paradigm. As a result we could improve our ability to solve combinatorial problems and our understanding of the structure of practical problems.
+ 

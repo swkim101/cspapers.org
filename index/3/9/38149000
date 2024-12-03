@@ -1,0 +1,4 @@
+
+ 
+ Most description logics (DL) query languages allow instance retrieval from an ABox. However, SPARQL is a schema query language allowing access to the TBox (in addition to the ABox). Moreover, its entailment regimes enable to take into account knowledge inferred from knowledge bases in the query answering process. This provides a new perspective for the containment problem. In this paper, we study the containment of SPARQL queries over OWL EL axioms under entailment. OWL EL is the language used by many large scale ontologies and is based on EL++. The main contribution is a novel approach to rewriting queries using SPARQL property paths and the μ-calculus in order to reduce containment test under entailment into validity check in the μ-calculus.
+ 

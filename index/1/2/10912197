@@ -1,0 +1,2 @@
+This work presents the preliminary results of a project oriented to the design and VLSI implementation of a Prolog interpreter. Even if the interpretative approach is being considered an inefficient way to execute high level languages when compared to that of compilation, declarative languages with embedded extralogical instructions would require the use of direct execution.
+Hardware interpreters have two serious problems: execution speed and lack of flexibility. Recent computer architecture and VLSI technology help us to overcome these drawbacks.

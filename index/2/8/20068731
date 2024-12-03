@@ -1,0 +1,1 @@
+The evolution and structure of the IBM Corporate-Wide physical design data language, GL/1 (Graphics Language / One), is discussed. The need for a common graphics interface for communication among various design automation programs is demonstrated. At IBM, the same format is used from physical layout to mask generation for integrated circuit and printed circuit board designs.

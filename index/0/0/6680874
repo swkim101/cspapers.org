@@ -1,0 +1,4 @@
+
+ 
+ Latent tree analysis seeks to model the correlations amonga set of random variables using a tree of latent variables. It was proposed as an improvement to latent class analysis—a method widely used in social sciences and medicine to identify homogeneous subgroups in a population. It provides new and fruitful perspectives on a number of machine learningareas, including cluster analysis, topic detection, and deep probabilistic modeling. This paper gives an overview of the research on latent tree analysis and various ways it is used inpractice.
+ 

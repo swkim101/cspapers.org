@@ -1,0 +1,1 @@
+In this paper, we present a password stretching method using user specific salts. Our scheme takes similar time to stretch a password as recent password stretching algorithms, but the complexity of a pre-computation attack increases by 10^8 times and the storage required to store the pre-computation result increases by 10^8 times.

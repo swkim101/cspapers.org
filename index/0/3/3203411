@@ -1,0 +1,1 @@
+We show that response time computation for rate-monotonic,preemptive scheduling of periodic tasks is NP-hard under Turing reductions. More precisely, we show that the response time of a task cannot be approximated within any constant factor, unless P=NP.

@@ -1,0 +1,4 @@
+
+ 
+ Being one of the most effective methods, Alternating Direction Method (ADM) has been extensively studied in numerical analysis for solving linearly constrained convex program. However, there are few studies focusing on the convergence property of ADM under nonconvex framework though it has already achieved well-performance on applying to various nonconvex tasks. In this paper, a linearized algorithm with penalization is proposed on the basis of ADM for solving nonconvex and nonsmooth optimization. We start from analyzing the convergence property for the classical constrained problem with two variables and then establish a similar result for multi-block case. To demonstrate the effectiveness of our proposed algorithm, experiments with synthetic and real-world data have been conducted on specific applications in signal and image processing.
+ 

@@ -1,0 +1,1 @@
+This paper describes a Turbo Pascal program that explicitly emulates a Turbo Prolog program. The intended purpose of the Pascal program is to relate important implementation details of Prolog to concepts in a conventional programming language.

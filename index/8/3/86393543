@@ -1,0 +1,7 @@
+Welcome to the First International Workshop on Software Protection (SPRO 2015), co-located with the International Conference on Software Engineering (ICSE 2015) held at Florence (Italy), the 19th of May 2015. 
+ 
+Software Protection aims to mitigate Man-At-The-End (MATE) attacks, such as reverse engineering, software piracy, and software tampering; more in general, software protection research aims at developing algorithms that protect the integrity of data and software applications deployed on untrusted devices. 
+ 
+Software Protection has always been a necessity since software has become a commercial product, and it is an area of growing importance in software security, which has recently evolved from a set of disparate technical tricks into a proper research field. 
+ 
+The goal of SPRO workshop is to bring together researchers and industrial practitioners both from software protection and the wider software engineering community, in order to increase the synergies between the different research areas of software protection and software engineering.

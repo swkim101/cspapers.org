@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a framework for motion planning with dynamics as hybrid search over the continuous space of feasible motions and the discrete space of a low-dimensional workspace decomposition. Each step of the hybrid search consists of expanding a frontier of regions in the discrete space using cost heuristics as guide followed by sampling-based motion planning to expand a tree of feasible motions in the continuous space to reach the frontier. The approach is geared towards robots with many degrees-of-freedom (DOFs), nonlinear dynamics, and nonholonomic constraints, which make it difficult to follow discrete-search paths to the goal, and hence require a tight coupling of motion planning and discrete search. Comparisons to related work show significant computational speedups.
+ 

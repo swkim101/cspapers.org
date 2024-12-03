@@ -1,0 +1,2 @@
+Applications, assumptions and properties of the maximum entropy principle are discussed. The maximum entropy principle integrates prior estimates of relevance with the observed distribution of term combinations. The result may be a reordering of the segments of a database, compared to a naive estimate. Numerical examples obtained by solution of the non-linear equations for the dual variables are presented and discussed.
+* Supported in part by the National Science Foundation under grant IST-8318630.

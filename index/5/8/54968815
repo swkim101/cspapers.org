@@ -1,0 +1,27 @@
+Mobility assistance robots (MARs) provide support 
+to elderly or patients during walking. The design of a safe 
+and intuitive assistance behavior is one of the major challenges 
+in this context. Here we present work on two modes of physical 
+Human-Robot interaction; one where the human in is direct 
+contact with the MAR, e.g. by holding some handles, and the 
+other where the human releases the handles whilst the MAR 
+has to follow him/her from the front, i.e. contactless. 
+For the first mode, we present an integrated approach 
+for the context-specific, on-line adaptation of the assistance 
+level of a rollator-type MAR by gain-scheduling of low-level 
+robot control parameters. A human-inspired decision-making 
+model, the Drift-Diffusion Model, is introduced as the key 
+principle to gain-schedule parameters and with this to adapt 
+the provided robot assistance in order to achieve a human-like 
+assistive behavior. The MAR is designed to provide a) cognitive 
+assistance to help the user follow a desired path as well as 
+b) sensorial assistance to avoid collisions with obstacles while 
+allowing for an intentional approach of them. 
+For the second mode, an intention-based assistive controller 
+for allowing the robot to follow a human while moving in the 
+front is analysed. This task is particularly challenging in indoor 
+environments, as there are situations that are undecidable, 
+namely in junctions. We describe a novel local kinodynamic 
+planner which concurrently detects discrete routes and continuous 
+motion paths. An intention recognition algorithm is also 
+detailed, along with tests in a T-Junction.

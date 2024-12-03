@@ -1,0 +1,4 @@
+
+ 
+ This paper focuses on LTL on finite traces (LTLf) for which satisfiability is known to be PSPACE-complete. However, little is known about the computational properties of fragments of LTLf. In this paper we fill this gap and make the following contributions. First, we identify several LTLf fragments for which the complexity of satisfiability drops to NP-complete or even P, by considering restrictions on the temporal operators and Boolean connectives being allowed. Second, we study a semantic variant of LTLf, which is of interest in the domain of business processes, where models have the property that precisely one propositional variable evaluates true at each time instant. Third, we introduce a reasoner for LTLf and compare its performance with the state of the art.
+ 

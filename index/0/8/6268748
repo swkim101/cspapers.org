@@ -1,0 +1,1 @@
+In this paper, we consider a way to represent contact center applications as a set of multiple XML documents written in different markups including VoiceXML and CCXML. Applications can comprise a dialog with IVR, call routing and agent scripting functionalities. We also consider ways how such applications can be executed in run-time contact center environment.

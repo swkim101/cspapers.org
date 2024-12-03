@@ -1,0 +1,4 @@
+
+ 
+ My research focuses on developing innovative ways to control Heating, Ventilation, and Air Conditioning (HVAC) and schedule occupancy flows in smart buildings to reduce our ecological footprint (and energy bills). We look at the potential for integrating building operations with room booking and meeting scheduling. Specifically, we improve on the effectiveness of energy-aware room-booking and occupancy scheduling approaches, by allowing the scheduling decisions to rely on an explicit model of the building's occupancy-based HVAC control. From computational standpoint, this is a challenging topic as HVAC models are inherently non-linear non-convex, and occupancy scheduling models additionally introduce discrete variables capturing the time slot and location at which each activity is scheduled. The mechanism needs to tradeoff minimizing energy cost against addressing occupancy thermal comfort and control feasibility in a highly dynamic and uncertain system.
+ 

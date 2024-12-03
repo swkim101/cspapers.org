@@ -1,0 +1,4 @@
+
+ 
+ Bayesian matrix completion has been studied based on a low-rank matrix factorization formulation with promising results. However, little work has been done on Bayesian matrix completion based on the more direct spectral regularization formulation. We fill this gap by presenting a novel Bayesian matrix completion method based on spectral regularization. In order to circumvent the difficulties of dealing with the orthonormality constraints of singular vectors, we derive a new equivalent form with relaxed constraints, which then leads us to design an adaptive version of spectral regularization feasible for Bayesian inference. Our Bayesian method requires no parameter tuning and can infer the number of latent factors automatically. Experiments on synthetic and real datasets demonstrate encouraging results on rank recovery and collaborative filtering, with notably good results for very sparse matrices.
+ 

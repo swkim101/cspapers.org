@@ -1,0 +1,1 @@
+In this paper we describe a novel approach to build hypermedia-driven Web APIs based on Linked Data technologies such as JSON-LD. We also present the result of implementing a first prototype featuring both a RESTful Web API and a generic API client. To the best of our knowledge, no comparable integrated system to develop Linked Data-based APIs exists.

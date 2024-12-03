@@ -1,0 +1,1 @@
+We study PCA as a stochastic optimization problem and propose a novel stochastic approximation algorithm which we refer to as "Matrix Stochastic Gradient" (MSG), as well as a practical variant, Capped MSG. We study the method both theoretically and empirically.

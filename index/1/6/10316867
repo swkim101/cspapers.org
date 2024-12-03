@@ -1,0 +1,3 @@
+This paper proposes an Encryption Scheme that possess the following property : An adversary, who knows the encryption algorithm and is given the cyphertext, cannot obtain any information about the clear-text.
+ Any implementation of a Public Key Cryptosystem, as proposed by Diffie and Hellman in [8], should possess this property.
+ Our Encryption Scheme follows the ideas in the number theoretic implementations of a Public Key Cryptosystem due to Rivest, Shamir and Adleman [13], and Rabin [12].

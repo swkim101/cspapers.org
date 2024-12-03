@@ -1,0 +1,1 @@
+We examine questions of optimality and domination in repeated stage games where one or both players may draw their strategies only from (perhaps different ) computationally bounded sets. We also consider optimality and domination when bounded convergence rates of the infinite payoff. We develop a notion of a “grace period” to handle the problem of vengeful strategies.

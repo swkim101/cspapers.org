@@ -1,4 +1,0 @@
-
- This errata article discusses and corrects a minor error in our work published in VLDB 2019. The discrepancy specifically pertains to Algorithms 3 and 4. The algorithms presented in the paper are biased towards a
- commit
- decision in a specific failure scenario. We explain the error using an example before correcting the algorithm.

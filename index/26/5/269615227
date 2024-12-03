@@ -1,0 +1,1 @@
+We consider an open-loop trajectory planning problem for linear systems with bound constraints originating from saturations or physical limitations. Using an algebraic approach and results on positive polynomials, we show that this control problem can be cast into a constrained polynomial interpolation problem admitting a convex linear matrix inequality (LMI) formulation

@@ -1,0 +1,4 @@
+
+ 
+ Nanson's and Baldwin's voting rules selecta winner by successively eliminatingcandidates with low Borda scores. We showthat these rules have a number of desirablecomputational properties. In particular,with unweighted votes, it isNP-hard to manipulate either rule with one manipulator, whilstwith weighted votes, it isNP-hard to manipulate either rule with a small number ofcandidates and a coalition of manipulators.As only a couple of other voting rulesare known to be NP-hard to manipulatewith a single manipulator, Nanson'sand Baldwin's rules appearto be particularly resistant to manipulation from a theoretical perspective.We also propose a number of approximation methodsfor manipulating these two rules.Experiments demonstrate that both rules areoften difficult to manipulate in practice.These results suggest that elimination stylevoting rules deserve further study.
+ 

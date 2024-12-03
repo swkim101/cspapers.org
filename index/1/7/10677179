@@ -1,0 +1,3 @@
+There is a need for highly redundant manipulators to work in complex, cluttered environments. Our goal is to plan paths for such manipulators efficiently. 
+ 
+The path planning problem has been shown to be PSP ACE-complete in terms of the number of degrees of freedom (DOF) of the manipulator. We present a method which overcomes the complexity with a strong heuristic: utilizing redundancy by means of a continuous manipulator model. The continuous model allows us to change the complexity of the problem from a function of both the DOF of the manipulator (believed to be exponential) and the complexity of the environment (polynomial), to a polynomial function of the complexity of the environment only.

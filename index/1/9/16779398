@@ -1,0 +1,1 @@
+This paper describes a student operating system project, MPX-PC, that can be implemented on an IBM PC-compatible computer. Seven modules make up the project, with the seventh module being the completion of a “stand-alone” student multiprogramming operating system. The project is implemented in Turbo C.

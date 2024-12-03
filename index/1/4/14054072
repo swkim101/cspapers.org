@@ -1,0 +1,3 @@
+Java supports format strings, but their use is error prone because: Java’s type system does not find any but the most trivial mistakes, Java’s format methods fail silently, and for- mat methods are often executed infrequently. 
+ This paper presents the Format String Checker that is based on the format string type system presented in [3]. The Format String Checker guarantees that calls to Java’s Formatter API will not throw exceptions. 
+ We evaluate the Format String Checker on 6 large and well-maintained open-source projects. Format string bugs are common in practice (we found 104 bugs), and the an- notation burden on the user of our type system is low (on average, for every bug found, only 1.0 annotations need to be written).

@@ -1,0 +1,1 @@
+This paper explores the intersection between microservices and Multi-Agent Systems (MAS), introducing the notion of a new approach to building MAS known as Multi-Agent MicroServices (MAMS). Our approach is illustrated through a worked example of a Vickrey Auction implemented as a microservice.

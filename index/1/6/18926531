@@ -1,0 +1,4 @@
+
+ 
+ The problem of checking the consistency of spatial calculi that contain both unknown and known entities (constants, i.e., real geometries) has recently been studied. Until now, all the approaches are theoretical and no implementation has been proposed. In this paper we present the first reasoner that takes as input RCC-5 or RCC-8 networks with variables and constants and decides their consistency. We investigate the performance of the reasoner experimentally using real-world networks and show that we can achieve significantly better times by geometry simplification and parallelization.
+ 

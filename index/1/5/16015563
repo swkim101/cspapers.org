@@ -1,0 +1,4 @@
+MAX CUT is the problem of partitioning the vertices of a graph into two sets, maximizing the number of edges joining these sets. This problem is NP-hard. Goemans and Williamson proposed an algorithm that first uses a semidefinite programming relaxation of MAX CUT to embed the vertices of the graph on the surface of an n dimensional sphere, and then uses a random hyperplane to cut the sphere in two, giving a cut of the graph. They show that the expected number of edges in the random cut is at least α \cdot sdp, where α \simeq 0.87856 and sdp is the value of the semidefinite program.
+This manuscript shows the following results:
+1. The integrality ratio of the semidefinite program is α. The previously known bound on theintegrality ratio was roughly 0.8845.
+2. In the presence of the so called “triangle constraints”, the integrality ratio is no better than roughly 0.891. The previously known bound was above 0.95.

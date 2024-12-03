@@ -1,0 +1,1 @@
+I propose a representation formalism and algorithms to be used in a new language generation mechanism for text-to-text applications. The generation process is driven by both text-specific information encoded via probability distributions over words and phrases derived from the input text, and general language knowledge captured by n-gram and syntactic language models.

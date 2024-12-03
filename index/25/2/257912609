@@ -1,0 +1,22 @@
+
+ In this paper we fully describe the trajectory of gradient flow over two-layer diagonal linear networks for the regression setting in the limit of vanishing initialisation. We show that the limiting flow successively jumps from a saddle of the training loss to another until reaching the minimum 
+ 
+ 
+ 
+ 
+ ℓ
+ 1
+ 
+ 
+ 
+ -norm solution. We explicitly characterise the visited saddles as well as the jump times through a recursive algorithm reminiscent of the LARS algorithm used for computing the Lasso path. Starting from the zero vector, coordinates are successively activated until the minimum 
+ 
+ 
+ 
+ 
+ ℓ
+ 1
+ 
+ 
+ 
+ -norm solution is recovered, revealing an incremental learning. Our proof leverages a convenient arc-length time-reparametrisation which enables to keep track of the transitions between the jumps. Our analysis requires negligible assumptions on the data, applies to both under and overparametrised settings and covers complex cases where there is no monotonicity of the number of active coordinates. We provide numerical experiments to support our findings.

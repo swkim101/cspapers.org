@@ -1,0 +1,3 @@
+The purpose of this paper is to study the fundamental mechanism humans use in argumentation and its role in different major approaches to commonsense reasoning in AI and logic programming. We present three novel results: We develop a theory for argumentation in which the acceptability of arguments is precisely defined. We show that logic programming and nonmonotonic reasoning in AI are different forms of argumentation. We show that argumentation can be viewed as a special form of logic programming with negation as failure. 
+ 
+This result introduces a general method for generating metainterpreters for argumentation systems.

@@ -1,0 +1,3 @@
+This is a summary of the methods and results of a longer paper of the same name which will appear elsewhere. 
+ 
+The main result is that an automatic theorem proving system consisting of resolution, paramodulation, factoring, equality reversal, simplification and subsumption removal is complete in first-order logic with equality. When restricted to sets of equality units, the resulting system is very much like the Knuth-Bendix procedure. The completeness of resolution and paramodulation without the functionally reflexive axioms is a corollary. The methods used are based upon the familiar ideas of reduction and semantic trees, and should be helpful in showing that other theorem proving systems with equality are complete.

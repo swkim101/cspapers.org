@@ -1,9 +1,0 @@
-There has been a growing interest in using GPU to accelerate data analytics due to its massive parallelism and high memory bandwidth. The main constraint of using GPU for data analytics is the limited capacity of GPU memory.
- 
- Heterogeneous CPU-GPU query execution is a compelling approach to mitigate the limited GPU memory capacity and PCIe bandwidth. However, the design space of heterogeneous CPU-GPU query execution has not been fully explored. We aim to improve state-of-the-art CPU-GPU data analytics engine by optimizing
- data placement
- and
- heterogeneous query execution.
- First, we introduce a semantic-aware fine-grained caching policy which takes into account various aspects of the workload such as query semantics, data correlation, and query frequency when determining data placement between CPU and GPU. Second, we introduce a heterogeneous query executor which can fully exploit data in both CPU and GPU and coordinate query execution at a fine granularity. We integrate both solutions in Mordred, our novel hybrid CPU-GPU data analytics engine.
- 
- Evaluation on the Star Schema Benchmark shows that the semantic-aware caching policy can outperform the best traditional caching policy by up to 3x. Compared to existing GPU DBMSs, Mordred can outperform by an order of magnitude.

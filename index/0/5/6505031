@@ -1,0 +1,1 @@
+The logic Diagnostic Algorithm is a real-time procedure that analyzes the failure responses of a logic assembly under test, and automatically directs a monitor probe to selected accessible points on the logic assembly to gather additional information. Deterministic conclusions are reached after one or more iterations of probing to locate the error to the lowest replaceable unit.

@@ -1,0 +1,1 @@
+A class of external schemas derivable from a tree structured main schema is identified. It is shown that the properties of this class of schemas permit the construction of a processing interface such that predicates defined on an external schema can be evaluated in an occurrence structure disciplined by the main schema.

@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we will present a unified view for LDA. We will (1) emphasize that standard LDA solutions are not unique, (2) propose several new LDA formulations: St-orthonormal LDA, Sw-orthonormal LDA and orthogonal LDA which have unique solutions, and (3) show that with St-orthonormal LDA and Sw-orthonormal LDA formulations, solutions to all four major LDA objective functions are identical. Furthermore, we perform an indepth analysis to show that the LDA sometimes performs poorly due to over-fitting, i.e., it picks up PCA dimensions with small eigenvalues. From this analysis, we propose a stable LDA which uses PCA first to reduce to a small PCA subspace and do LDA in the subspace.
+ 

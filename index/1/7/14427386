@@ -1,0 +1,3 @@
+Effective logic simulation programs must consider device propagation delays to be bounded values. This requires that the logic devices be simulated by models which use a multi-valued logical algebra.
+ A quinary algebra is developed and employed in special algorithms which not only accurately predict the behavior of a logic circuit for all values of delay, but also detect the possibility of latent hazards and race conditions.
+ A sample problem is simulated, and conclusions drawn.

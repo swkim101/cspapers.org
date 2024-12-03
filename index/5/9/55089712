@@ -1,0 +1,34 @@
+Single System Image, as a distributed operating system for nodes in computer 
+clusters has become a widely adopted clustering solution due to its complete 
+transparency of the resource management and ease of use. An important design 
+consideration for this environment is the load allocation and balancing which is 
+usually handled by an automatic process migration daemon. Thus, the 
+implementation of such mechanism becomes an important design consideration in 
+the distributed operating system. 
+There is an essential need for a benchmark framework for the Single System Image 
+clusters due to the wide range of implementation and the need for identifying the 
+performance and behaviour of the system. The benchmark framework will enable the 
+researchers to investigate both relative behaviour and performance of the Single 
+System Image clusters, as well as provides the ability to compare such systems. In this work, a carefully designed benchmark framework had been proposed to study 
+and evaluate the performance of the load balancing single system image. The 
+performance metrics, which takes into account the speed, nodes, network, and 
+behaviour of the system, were formulated. The benchmark framework allows the 
+determination of the performance degradation factors associated with system 
+implementation and configuration. This framework has been utilized to assess the 
+performance characteristics of an existing and successful Open Source load 
+balancing SSI system, OpenMosix. The benchmark framework provides an 
+understanding of how the SSI system responds under varying conditions and 
+manages to characterize the limitation of the information dissemination algorithm of 
+OpenMosix. The information dissemination daemon had also been improved. The 
+performance of the improved strategy had been validated by comparing it with the 
+original system. Finally, the results from the tests were combined into a single figure 
+of the performance behaviour. 
+The experimental results obtained from the benchmark framework showed that the 
+numbers of nodes affect the performance of the SSI cluster; this could be regarded as 
+an important factor of performance decaying. The number of nodes can affect the 
+performance by adding extra costs including, but not limited to, network traffic, load 
+balancing time, and overhead. The performance of any SSI cluster can be enhanced 
+by improving any or all of the above factors. The improved load balancing strategy 
+shows a visible performance gain with more than five nodes. At eight nodes, a gain 
+of nearly 50 seconds runtime, 16.13 speedup, and 12.27 % efficiency have been 
+successfully achieved.

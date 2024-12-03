@@ -1,0 +1,1 @@
+This paper discusses the functional level logic simulation techniques used in the FANSIM3 simulator. The data structures for function evaluation and the algorithms used to simulate functional models are presented. The methods used to simulate datapaths and bussed signals are also discussed. Specific results, based on a year's experience with the simulator, are presented.

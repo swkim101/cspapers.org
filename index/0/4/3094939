@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present a constrained co-clustering approach for clustering textual documents. Our approach combines the benefits of information-theoretic co-clustering and constrained clustering. We use a two-sided hidden Markov random field (HMRF) to model both the document and word constraints. We also develop an alternating expectation maximization (EM) algorithm to optimize the constrained co-clustering model. We have conducted two sets of experiments on a benchmark data set: (1) using human-provided category labels to derive document and word constraints for semi-supervised document clustering, and (2) using automatically extracted named entities to derive document constraints for unsupervised document clustering. Compared to several representative constrained clustering and co-clustering approaches, our approach is shown to be more effective for high-dimensional, sparse text data.
+ 

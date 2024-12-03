@@ -1,0 +1,1 @@
+Existing single-machine based graph engines do not leverage the characteristic of social networks following the power-law degree distribution. We propose a new graph engine tailored for processing and analyzing large-scale social networks efficiently by exploiting the power-law degree property

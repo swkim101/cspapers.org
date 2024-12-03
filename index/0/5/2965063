@@ -1,0 +1,3 @@
+This paper presents a system that simulates the emergence of realistic vowel systems in a population of agents that try to imitate each other as well as possible. The agents start with no knowledge of the sound system at all. Although none of the agents has a global view of the language, and none of the agents does explicit optimization, a coherent vowel system emerges that happens to be optimal for acoustic distinctiveness. 
+ 
+The results presented here fit in and confirm the theory of Luc Steels [Steels 1995, 1997, 1998] that views languages as a complex dynamic system and the origins of language as the result of self-organization and cultural evolution.

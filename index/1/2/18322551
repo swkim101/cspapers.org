@@ -1,0 +1,1 @@
+We study computational complexity of the maximum independent set problem on graphs of bounded vertex degree. In general, this problem is NP-hard. However, under certain restrictions it becomes polynomial-time solvable. We identify three graph properties to which the complexity of the problem is sensible.

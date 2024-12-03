@@ -1,0 +1,4 @@
+
+ 
+ The exponential growth of online social networks has inspired us to tackle the problem of individual user attributes inference from the Big Data perspective. It is well known that various social media networks exhibit different aspects of user interactions, and thus represent users from diverse points of view. In this preliminary study, we make the first step towards solving the significant problem of personality profiling from multiple social networks. Specifically, we tackle the task of relationship prediction, which is closely related to our desired problem. Experimental results show that the incorporation of multi-source data helps to achieve better prediction performance as compared to single-source baselines.
+ 

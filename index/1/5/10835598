@@ -1,0 +1,1 @@
+This paper proposes a hierarchical text categorization (TC) approach to encoding free-text clinical notes with ICD-9-CM codes. Preliminary experimental result on the 2007 Computational Medicine Challenge data shows a hierarchical TC system has achieved a micro-averaged F1 value of 86.6, which is comparable to the performance of state-of-the-art flat classification systems.

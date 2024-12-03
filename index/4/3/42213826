@@ -1,0 +1,1 @@
+A compiler for the production system used in a rule-based consultation system is described. This compiler produces machine code which performs antecedent or data-driven inference In an efficient manner. Timing results and some limitations of the compiler are discussed.

@@ -1,0 +1,11 @@
+The objective of this paper is to present a method for the computer representation of empirically derived causal relationships (CR's). This method draws on the theory of multivariate linear models and path analysis. The method is contrasted with the predicate calculus based methods used by most researchers in artificial Intelligence. 
+ 
+The representation presented here has been used to store information on medical CR's derived empirically from a large clinical database by a computer program called RX. The principal emphasis in the representation is on capturing the intensities and variances of effects and the variation in the effects across a patient population. Once incorporated into RX's knowledge base, this information is subsequently used by RX in determining the validity of other CR's. 
+ 
+The representation uses a directed graph formalism in which the nodes are frames and the arcs contain seven descriptive features of individual CR's: intensity, distribution, direction, mathematical form, setting, validity, and evidence. 
+ 
+Because natural systems (such as the human body) are inherently probabilistic, linear models are useful in representing causal flow in them. Knowledge of natural systems is fundamentally probabilistic because of 1) Irreducible indeterminism in their component processes, 2) difficulties in accurately measuring all relevant variables, 3) variation among individuals in a population, and 4) inadequate scientific theory. 
+ 
+The principal objective of this paper is to present a method for the computer representation of causal relationships relevant to clinical medicine. The representation presented here is used to store information on clinical causal relationships in the medical knowledge base of a large computer program called RX. 
+ 
+In this brief report I will touch on the following topics: 1) the objectives and methods of the RX Project, 2) the character istics of the tasks that RX performs that Influence the admissible forms of representation for causal relationships, 3) the method of representation, and 4) a comparison of this method with the work of other AI researchers.

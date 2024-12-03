@@ -1,0 +1,1 @@
+In this paper, a new frequency domain approach of a functional filter for singular delayed systems is proposed. Constant time delay is present in both state and input vectors. The frequency domain solution is based on polynomial approach using MFD tools and a numerical example is given to prove the effectiveness of our proposed algorithm.

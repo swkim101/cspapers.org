@@ -1,0 +1,4 @@
+
+ 
+ Timed Failure Propagation Graphs (TFPGs) are a formalism used in industry to describe failure propagation in a dynamic partially observable system. TFPGs are commonly used to perform model-based diagnosis. As in any model-based diagnosis approach, however, the quality of the diagnosis strongly depends on the quality of the model. Approaches to certify the quality of the TFPG are limited and mainly rely on testing. In this work we address this problem by leveraging efficient Satisfiability Modulo Theories (SMT) engines to perform exhaustive reasoning on TFPGs. We apply model-checking techniques to certify that a given TFPG satisfies (or not) a property of interest. Moreover, we discuss the problem of refinement and diagnosability testing and empirically show that our technique can be used to efficiently solve them.
+ 

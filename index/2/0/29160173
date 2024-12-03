@@ -1,0 +1,4 @@
+
+ 
+ Many idiomatic expressions can be interpreted literally or figuratively, depending on the context in which they occur. Developing an appropriate computational model of the context is crucial for automatic idiom usage recognition. While many existing methods incorporate some elements of context, they have not sufficiently captured the interactions between the linguistic properties of idiomatic expressions and the representations of the context. In this paper we perform an in-depth exploration of the role of representations of the context for idiom usage recognition; we highlight the advantages and limitations of different representation choices in existing methods in terms of known linguistic properties of idioms; we then propose a supervised ensemble method that selects representations adaptively for different idioms. Experimental result suggests that the proposed method performs better for a wider range of idioms than previous methods.
+ 

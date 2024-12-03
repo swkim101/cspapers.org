@@ -1,0 +1,7 @@
+One of the remarkable things about human information processing is the way we store and retrieve information. The human associative memory is a device that has been only rather crudely approximated with computers inflexibility, self-modifiability, and complexity of associations. 
+ 
+In this paper, we descria computer language, AMPPL-II, which stimulates a machine with an extensive, variables size associative memory and parallel processing capability. It was to be made fairly machine-independent and is, therfore, embedded in a high-level algerabic language. The version outlined here is built as an extension of SLIP (Symmetric List Processing Language), itself being embedded in FORTRAN IV. 
+ 
+The expected range of applicability of AMPPL-II covers a rather wide area. Candides in the non-numerical field are game playing, picture processing and image identification, encoding-decoding, simulation of cognitive behavior, multikey information retrieval, language analysis, sorting, merging, collating, query systems, and so on. Numerical applications would be matrix calculations, solution of partial differential equations, computation of auto- and cross-correlation functions, signal correction, etc. 
+ 
+Stimulated by this language, new computational techniques and algorithms may, hopefully, be developed. These, on one hand, and technological advances, on the other, may render the hardware implementaion of an AMPPL-like machine economical.

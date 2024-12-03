@@ -1,0 +1,1 @@
+In this article we propose a novel sorting algorithm based on comparing the arithmetic mean with each item in the list. Running cost analysis and results obtained after various implementations are also provided with the intention of comparing the efficiency of the proposed mechanism with other existing sorting methodologies.

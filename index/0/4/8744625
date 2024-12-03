@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we extend the progression semantics for first-order disjunctive logic programs and show that it coincides with the stable model semantics. Based on it, we further show how disjunctive answer set programming is related to Satisfiability Modulo Theories.
+ 

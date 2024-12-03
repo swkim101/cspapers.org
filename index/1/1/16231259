@@ -1,0 +1,7 @@
+A Computer Aided Design (CAD) system for bipolar logic LSI based on master-slice method, has been developed.
+ During every phase of designing LSI, various errors are prone to occur. These errors are mostly detected after having actually manufacturing the LSI.
+ The main purpose of this CAD system is as follows:
+ 1. Error-free design.
+ 2. Lower design cost.
+ 3. Shorter design cycles.
+ This paper mainly describes two systems, one for correction patterns of interconnected terminals and the other for design verification of corrected patterns.

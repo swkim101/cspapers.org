@@ -1,0 +1,4 @@
+
+ 
+ The smoothness hypothesis is critical for graph-based semi-supervised learning. This paper defines local smoothness, based on which a new algorithm, Reliable Label Inference via Smoothness Hypothesis (ReLISH), is proposed. ReLISH has produced smoother labels than some existing methods for both labeled and unlabeled examples. Theoretical analyses demonstrate good stability and generalizability of ReLISH. Using real-world datasets, our empirical analyses reveal that ReLISH is promising for both transductive and inductive tasks, when compared with representative algorithms, including Harmonic Functions, Local and Global Consistency, Constraint Metric Learning, Linear Neighborhood Propagation, and Manifold Regularization.
+ 

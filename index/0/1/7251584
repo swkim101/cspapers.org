@@ -1,0 +1,1 @@
+In terms of both speed and memory consumption, graph unification remains the most expensive component of unification-based grammar parsing. We present a technique to reduce the memory usage of unification algorithms considerably, without increasing execution times. Also, the proposed algorithm is thread-safe, providing an efficient algorithm for parallel processing as well.

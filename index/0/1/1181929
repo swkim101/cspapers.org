@@ -1,0 +1,1 @@
+VERIFY is a PROLOG program that attempts to prove the correctness of a digital design. It does so by showing that the behavior inferred from the interconnection of its parts and their behaviors is equivalent to the specified behavior. It has successfully verified large designs involving many thousands of transistors.

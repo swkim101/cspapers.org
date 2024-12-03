@@ -1,0 +1,1 @@
+This paper presents Adaptive Web Search (AWS), a novel search technique that combines personalized, social, and real-time collaborative search. Preliminary empirical results from a small sample suggest that an AWS prototype built on WAMP platform using Yahoo! Web Search API generates more relevant results and allows faster discovery of information.

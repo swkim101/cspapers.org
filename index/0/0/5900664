@@ -1,0 +1,4 @@
+
+ 
+ Flexibility in agent scheduling increases the resilience of temporal plans in the face of new constraints. However,current metrics of flexibility ignore domain knowledge about how such constraints might arise in practice, e.g., due to the uncertain duration of a robot’s transitiontime from one location to another. Probabilistic temporalplanning accounts for actions whose uncertain durations can be modeled with probability density functions. We introduce a new metric called robustness that measures the likelihood of success for probabilistic temporalplans. We show empirically that in multi-robot planning,robustness may be a better metric for assessing the quality of temporal plans than flexibility, thus reframing many popular scheduling optimization problems.
+ 

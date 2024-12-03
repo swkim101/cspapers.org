@@ -1,0 +1,1 @@
+An analysis is presented of infeasible paths found in the NAG library of numerical algorithms. The construction of program paths designed to maximise structural testing measures is shown to be impossible without taking infeasibilities into account. Methods for writing programs which do not contain infeasible paths are also discussed.

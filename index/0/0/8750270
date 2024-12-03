@@ -1,0 +1,4 @@
+
+ 
+ Resampling techniques such as bagging are often used in supervised learning to produce more accurate classifiers. In this work, we show that multiple-instance learning admits a different form of resampling, which we call "shuffling." In shuffling, we resample instances in such a way that the resulting bags are likely to be correctly labeled. We show that resampling results in both a reduction of bag label noise and a propagation of additional informative constraints to a multiple-instance classifier. We empirically evaluate shuffling in the context of multiple-instance classification and multiple-instance active learning and show that the approach leads to significant improvements in accuracy.
+ 

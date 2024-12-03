@@ -1,0 +1,1 @@
+This paper discusses the need for an algorithmic language for writing behavioral descriptions of digital computer processors and proposes an Algol-like candidate. It also discusses programs that simulate and automatically implement processors described in the language.

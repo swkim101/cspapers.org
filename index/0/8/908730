@@ -1,0 +1,1 @@
+We present performance measurement results for a parallel SQL based information retrieval system implemented on a PC cluster system. We used the Web-TREC dataset under a left-deep query execution plan. We achieved satisfactory speed up.

@@ -1,0 +1,4 @@
+
+ 
+ We present a probabilistic model for learning from dynamic relational data, wherein the observed interactions among networked nodes are modeled via the Bernoulli Poisson link function, and the underlying network structure are characterized by nonnegative latent node-group memberships, which are assumed to be gamma distributed. The latent memberships evolve according to Markov processes.The optimal number of latent groups can be determined by data itself. The computational complexity of our method scales with the number of non-zero links, which makes it scalable to large sparse dynamic relational data. We present batch and online Gibbs sampling algorithms to perform model inference. Finally, we demonstrate the model's performance on both synthetic and real-world datasets compared to state-of-the-art methods.
+ 

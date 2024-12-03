@@ -1,0 +1,4 @@
+
+ 
+ We investigate the task of inferring conversational dependencies between messages in one-on-one online chat, which has become one of the most popular forms of customer service. We propose a novel probabilistic classifier that leverages conversational, lexical and semantic information. The approach is evaluated empirically on a set of customer service chat logs from a Chinese e-commerce website. It outperforms heuristic baselines.
+ 

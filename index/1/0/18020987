@@ -1,0 +1,4 @@
+
+ 
+ Stochastic gradient descent (SGD) and its variants have attracted much attention in machine learning due to their efficiency and effectiveness for optimization. To handle large-scale problems, researchers have recently proposed several lock-free strategy based parallel SGD (LF-PSGD) methods for multi-core systems. However, existing works have only proved the convergence of these LF-PSGD methods for convex problems. To the best of our knowledge, no work has proved the convergence of the LF-PSGD methods for non-convex problems. In this paper, we provide the theoretical proof about the convergence of two representative LF-PSGD methods, Hogwild! and AsySVRG, for non-convex problems. Empirical results also show that both Hogwild! and AsySVRG are convergent on non-convex problems, which successfully verifies our theoretical results.
+ 

@@ -1,0 +1,5 @@
+We propose ODPOP, a new distributed algorithm for open multiagent combinatorial optimization that feature unbounded domains (Faltings & Macho-Gonzalez 2005). The ODPOP algorithm explores the same search space as the dynamic programming algorithm DPOP (Petcu & Faltings 2005b) or ADOPT (Modi et at. 2005). but does so in an incremental, best-first fashion suitable for open problems. 
+ 
+ODPOP has several advantages over DPOP. First, it uses messages whose size only grows linearly with the treewidth of the problem. Second, by letting agents explore values in a best-first order, it avoids incurring always the worst case complexity as DPOP, and on average it saves a significant amount of computation and information exchange. 
+ 
+To show the merits of our approach, we report on experiments with practically sized distributed meeting scheduling problems on a multiagent system.

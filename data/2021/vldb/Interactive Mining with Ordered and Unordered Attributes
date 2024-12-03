@@ -1,9 +1,0 @@
-There are various queries proposed to assist users in finding their favorite tuples from a dataset with the help of user interaction. Specifically, they interact with a user by asking questions. Each question presents two tuples, which are selected from the dataset based on the user's answers to the previous questions, and asks the user to select the one s/he prefers. Following the user feedback, the user preference is learned implicitly, and the best tuple w.r.t. the learned preference is returned. However, existing queries only consider datasets with ordered attributes (e.g., price), where there exists a trivial order on the attribute values. In practice, a dataset can also be described by unordered attributes, where there is no consensus about the order of the attribute values. For example, the size of a laptop is an unordered attribute. One user might favor a large size because s/he could enjoy a large screen, while another user may prefer a small size for portability. In this paper, we study how to find a user's favorite tuple from the dataset that has both ordered and unordered attributes by interacting with the user.
- 
- We study our problem progressively. First, we look into a special case in which the dataset is described by one ordered and one unordered attributes. We present algorithm
- DI
- that is asymptotically optimal in terms of the number of questions asked. Then, we dig into the general case in which the dataset has several ordered and unordered attributes. We propose two algorithms
- BS
- and
- EDI
- that have provable performance guarantees and perform well empirically. Experiments were conducted on synthetic and real datasets, showing that our algorithms outperform existing algorithms in the number of questions asked and the execution time. Under typical settings, our algorithms ask up to 10 times fewer questions and take several orders of magnitude less time than existing algorithms.

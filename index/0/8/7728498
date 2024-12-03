@@ -1,0 +1,4 @@
+
+ 
+ Recently, a new convex formulation of IBM Model 2 was introduced. In this paper we develop the theory further and introduce a class of convex relaxations for latent variable models which include IBM Model 2. When applied to IBM Model 2, our relaxation class subsumes the previous relaxation as a special case. As proof of concept, we study a new relaxation of IBM Model 2 which is simpler than the previous algorithm: the new relaxation relies on the use of nothing more than a multinomial EM algorithm, does not require the tuning of a learning rate, and has some favorable comparisons to IBM Model 2 in terms of F-Measure. The ideas presented could be applied to a wide range of NLP and machine learning problems.
+ 

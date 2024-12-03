@@ -1,0 +1,1 @@
+We define the direction of knowledge, and what it means to extend that direction. A special case is function inversion, and we give three algorithms for function inversion. Their performance on non-trivial problems and their shortcomings are demonstrated. All algorithms are implemented in Prolog.

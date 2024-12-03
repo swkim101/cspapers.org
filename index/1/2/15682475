@@ -1,0 +1,4 @@
+
+ 
+ We study the envy-free allocation of indivisible goods between two players. Our novel setting includes an option to sell each good for a fraction of the minimum value any player has for the good. To rigorously quantify the efficiency gain from selling, we reason about the price of envy-freeness of allocations of sellable goods — the ratio between the maximum social welfare and the social welfare of the best envy-free allocation. We show that envy-free allocations of sellable goods are significantly more efficient than their unsellable counterparts.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We present new methods to efficiently answer complex queries overbiomedical ontologies and databases considering the relevant partsof these knowledge resources, and to generate shortest explanationsto justify these answers. Both algorithms rely on the high-levelrepresentation and efficient solvers of Answer Set Programming. Weapply these algorithms to find answers and explanations to some complexqueries related to drug discovery, over PharmGKB, DrugBank, BioGrid, CTD and Sider.
+ 

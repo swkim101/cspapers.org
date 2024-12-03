@@ -1,0 +1,4 @@
+
+ 
+ We present a computational method to generate explanations to answers of complex queries over biomedical ontologies and databases, using the high-level representation and efficient automated reasoners of Answer Set Programming. We show the applicability of our approach with some queries related to drug discovery over PHARMGKB, DRUGBANK, BIOGRID, CTD and SIDER.
+ 

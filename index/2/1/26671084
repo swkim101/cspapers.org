@@ -1,0 +1,1 @@
+This paper investigates several refinements of a generic tabular parser for Tree Adjoining Grammars. The resulting parser is simpler and more efficient in practice, even though the worst case complexity is not optimal.

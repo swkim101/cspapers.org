@@ -1,0 +1,1 @@
+We introduce a new data compression method for efficient data gathering in hierarchical sensor networks. Our proposed method compresses sensor data sequences by decomposing them into local patterns and weight variables using Singular Value Decomposition (SVD). Our proposed method can achieve efficient data gathering for environmental monitoring.

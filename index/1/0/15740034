@@ -1,0 +1,1 @@
+We present a caching method that significantly reduces the cost of subnetwork evaluation during switchlevel simulation. The method speeds up switch-level simulation by as much as a factor of two while encurring a reasonable space penalty that is linearly related to the netlist size.

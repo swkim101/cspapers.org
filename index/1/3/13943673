@@ -1,0 +1,1 @@
+We present a sensor network that monitors a hallway. It consists of 180 load sensors connected to 30 wireless sensor nodes, where the setup is of extremely low cost and easily transferred to other settings. Our network serves as a testbed for in-network data processing algorithms, for which it is highly suitable due to the many correlated sensors.

@@ -1,0 +1,4 @@
+
+ 
+ Our research aims at building interactive robots and agents that can expand their knowledge by interacting with human users. In this paper, we focus on learning goal-oriented tasks from situated interactive instructions. Learning the structure of novel tasks and how to execute them is a challenging computational problem requiring the agent to acquire a variety of knowledge including goal definitions and hierarchical control information. We frame acquisition of novel tasks as an explanation-based learning (EBL) problem and propose an interactive learning variant of EBL for a robotic agent. We show that our approach can exploit information in situated instructions along with the domain knowledge to demonstrate fast generalization on several tasks. The knowledge acquired transfers across structurally similar tasks. Finally, we show that our approach seamlessly combines agent-driven exploration with instructions for mixed-initiative learning.
+ 

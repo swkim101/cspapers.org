@@ -1,0 +1,2 @@
+The techniques to be described in this paper are generally applicable to any time domain, parallel fault, digital logic simulation system. The particular implementation was done on the CC-TEGAS3 system and quoted results are from this system.
+ The first technique to be considered provides accuracy of fault simulation when using assignable nominal delays for different element types. The second technique provides for handling fault induced activity in a network, in such a way as to considerably reduce the amount of simulation time required.

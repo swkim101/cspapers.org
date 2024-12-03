@@ -1,0 +1,2 @@
+Network partition is among the hardest failure types in a distributed system even if all processors and links are of fail-stop type. We address the transaction commitment problem in a partitioned distributed database. It is assumed that partitions are detectable. The approach taken is conservative - that is, the same transaction cannot be committed by one site and aborted by another.
+A new and very general formal model of protocols operating in a partitioned system is introduced and protocols more efficient than the existing ones are constructed.

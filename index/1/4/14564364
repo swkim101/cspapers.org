@@ -1,0 +1,1 @@
+We explore the use of the orthographic syllable, a variable-length consonant-vowel sequence, as a basic unit of translation between related languages which use abugida or alphabetic scripts. We show that orthographic syllable level translation significantly outperforms models trained over other basic units (word, morpheme and character) when training over small parallel corpora.

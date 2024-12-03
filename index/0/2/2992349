@@ -1,0 +1,4 @@
+
+ 
+ We present the initial stage of our research on Learning from Demonstration algorithms. We have implemented an algorithm based on Confident Execution, one of the components of the Confidence-Based Autonomy algorithm developed by Chernova and Veloso. Our preliminary experiments were conducted first in simulation and then using a Sony AIBO ERS-7 robot. So far, our robot has been able to learn crude navigation strategies, despite limited trials. We are currently working on improving our implementation by including additional features that describe more broadly the state of the agent. Our long term goal is to incorporate Learning from Demonstration techniques in our HRTeam (human/multi-robot) framework.
+ 

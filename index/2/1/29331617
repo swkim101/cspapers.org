@@ -1,0 +1,1 @@
+We prove that RSA least significant bit is 1/2 + (1/[logc N]) secure, for any constant c (where N is the RSA modulus). This means that an adversary, given the ciphertext, cannot guess the least sigiiilicatnt bit of the plaintext with probability better than 1/2 + (1/[logc N]), unless he can break RSA.

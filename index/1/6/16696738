@@ -1,0 +1,1 @@
+We examine different tag ranking strategies for constructing tag clouds to represent collections of tagged objects. The proposed methods are based on random walk on graphs, diversification, and rank aggregation, and they are empirically evaluated on a data set of tagged images from Flickr.

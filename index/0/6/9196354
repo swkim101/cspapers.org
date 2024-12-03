@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a semi-automated methodology for generating geometric proof problems of the kind found in a high-school curriculum. We formalize the notion of a geometry proof problem and describe an algorithm for generating such problems over a user-provided figure. Our experimental results indicate that our problem generation algorithm can effectively generate proof problems in elementary geometry. On a corpus of 110 figures taken from popular geometry textbooks, our system generated an average of about 443 problems per figure in an average time of 4.7 seconds per figure.
+ 

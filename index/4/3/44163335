@@ -1,0 +1,1 @@
+We present the first neural poetry translation system. Unlike previous works that often fail to produce any translation for fixed rhyme and rhythm patterns, our system always translates a source text to an English poem. Human evaluation of the translations ranks the quality as acceptable 78.2% of the time.

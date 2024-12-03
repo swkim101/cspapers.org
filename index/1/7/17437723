@@ -1,0 +1,6 @@
+The NOMAD system is a documentary database interrogration system based on a symbolico-connectionist approach.
+NOMAD makes use of the synthesis capabilities and flexibility inherent in this type of approach to increase its processing power as compared as compared to existing systems while proposing new operating modes directly accessible to a large number of users:
+•NOMAD manages multiple synthetic type views on its documentary contents in the form of neural topographies acting as case-memories as well as elaborated thematic browsing tools.
+•NOMAD manages a session memory based on the neural model of the novelty detector with the following three functions: cumulative recording of user need, managing user contradictions and proposing new orientations.
+•NOMAD also has extended learning capabilities, enabling it to improve its performance in the long term.
+In the introduction of this article, we justify the modelling choices made for NOMAD. The system will then be described in detailed, stressing the new possibilities regarding help in query formulation and improvement in retrieval performance. The evaluation campaign and the numerous evolution perspectives provided by the model are described in the final section.

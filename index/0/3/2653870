@@ -1,0 +1,1 @@
+We consider a class of non-linear mixed integer programs with n integer variables and k continuous variables. Solving instances from this class to optimality is an NP-hard problem. We show that for the cases with k ≤ 2, every optimal solution is integral. In strong contrast to this, for every k ≥ 3 there exist instances where every optimal solution takes non-integral values.

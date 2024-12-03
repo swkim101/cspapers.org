@@ -1,0 +1,7 @@
+The purpose of this paper is to establish the following result.
+ Theorem 3.1. Let L be a language. The following are equivalent:
+ (i) L is accepted by a nondeterministic multipushdown acceptor which operates in such a way that in every accepting computation each pushdown store makes at most a bounded number of reversals and which runs in linear time;
+ (ii) L is accepted by a nondeterministic multipushdown acceptor which operates in such a way that in every accepting computation each pushdown store makes at most one reversal and which runs in real time;
+ (iii) L is the length-preservlng homomorphie image of the intersection of some finite number of linear context-free languages;
+ (iv) L is accepted by a nondeterministlc acceptro with three pushdown stores which operates in such a way that in every computation each pushdown store makes at most one reversal and which rmls in real time;
+ (v) L is the length-preservlng homomorphic image of the intersection of three linear context-free languages.

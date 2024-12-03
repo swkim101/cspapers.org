@@ -1,7 +1,0 @@
-Groupjoins, the combined execution of a join and a subsequent group by, are common in analytical queries, and occur in about 1/8 of the queries in TPC-H and TPC-DS. While they were originally invented to improve performance, efficient parallel execution of groupjoins can be limited by contention, which limits their usefulness in a many-core system. Having an efficient implementation of groupjoins is highly desirable, as groupjoins are not only used to fuse group by and join but are also introduced by the unnesting component of the query optimizer to avoid nested-loops evaluation of aggregates. Furthermore, the query optimizer needs be able to reason over the result of aggregation in order to schedule it correctly. Traditional selectivity and cardinality estimations quickly reach their limits when faced with computed columns from nested aggregates, which leads to poor cost estimations and thus, suboptimal query plans.
- 
- In this paper, we present techniques to efficiently estimate, plan, and execute groupjoins and nested aggregates. We propose two novel techniques,
- aggregate estimates
- to predict the result distribution of aggregates, and
- parallel groupjoin execution
- for a scalable execution of groupjoins. The resulting system has significantly better estimates and a contention-free evaluation of groupjoins, which can speed up some TPC-H queries up to a factor of 2.

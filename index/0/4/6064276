@@ -1,0 +1,1 @@
+This paper investigates when a 2 degree-of-freedom PRRRP closed-chain system with a single actuator is both strongly accessible and feedback linearizable. It is demonstrated that for certain choices of mass distribution and addition of springs, an under-actuated 2 DOF PRRRP system is static feedback linearizable, i.e., also differentially flat.

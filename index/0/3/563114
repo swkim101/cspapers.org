@@ -1,0 +1,2 @@
+Searching online databases requires an information retrieval strategy formalized in the EURISKO expert system. This search strategy is based on different kinds of planning: at the highest level a plan orders a linear and hierarchical planning for the request interrogation and a dynamic planning for the request modification.
+The recent development of the system has allowed to supply some new judgements on this approach.

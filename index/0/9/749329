@@ -1,0 +1,4 @@
+
+ 
+ Infinite SVM (iSVM) is a Dirichlet process (DP) mixture of large-margin classifiers. Though flexible in learning nonlinear classifiers and discovering latent clustering structures, iSVM has a difficult inference task and existing methods could hinder its applicability to large-scale problems. This paper presents a small-variance asymptotic analysis to derive a simple and efficient algorithm, which monotonically optimizes a max-margin DP-means (M2DPM) problem, an extension of DP-means for both predictive learning and descriptive clustering. Our analysis is built on Gibbs infinite SVMs, an alternative DP mixture of large-margin machines, which admits a partially collapsed Gibbs sampler without truncation by exploring data augmentation techniques. Experimental results show that M2DPM runs much faster than similar algorithms without sacrificing prediction accuracies.
+ 

@@ -1,0 +1,7 @@
+The APE (Automatic Programming Expert) system constructs executable and efficient programs from • algebraic specifications of abstract data types, and • abstract algorithms given as conditional term-rewrite-rule-systems with term', built up from operation symbols of the abstract data types involved. 
+ 
+The APE is an experimental system devised to develop methods for codifying a rather broad extent of programming knowledge required to construct implementations of data types and algorthms. 
+ 
+For data type specifications, the APF admits hidden operations, conditional axioms, and parameterized data types. The APE automatically implements algebraic: specifications of all commonly known data types in terms of clusters of INTFRLISP-functions. The APL constructs executable implementations of a variety of sorting and searching algorithms. 
+ 
+As an experimental prototype, the API demonstrates that a knowledge-based programming paradig provides a useful tool for partially automating an important phase of software development.

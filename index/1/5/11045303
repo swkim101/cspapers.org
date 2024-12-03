@@ -1,0 +1,1 @@
+We propose a semi-heuristic dynamic capacity allocation algorithm. Benchmarked by simulation against the Binary Linear Programming solution, our proposed algorithm, with polynomial complexity order, resulted in a satisfactory performance in terms of achievable capacity, and also in terms of packet mean sojourn time.

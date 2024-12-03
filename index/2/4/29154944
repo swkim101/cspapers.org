@@ -1,0 +1,4 @@
+
+ 
+ Patients in intensive care units (ICU) are acutely ill and have the highest mortality rates for hospitalized patients. Predictive models and planning system could forecast and guide interventions to prevent the hazardous deterioration of patients’ physiologies, thereby giving the opportunity of employing machine learning and inference to assist with the care of ICU patients. We report on the construction of a prediction pipeline that estimates the probability of death by inferring rates of hazard over time, based on patients’ physiological measurements. The inferred model provided the contribution of each variable and information about the influence of sets of observations on the overall risks and expected trajectories of patients.
+ 

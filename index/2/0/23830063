@@ -1,0 +1,4 @@
+This presentation describes the Design Automation System (DAS-2) used in designing FACOM 230-series computers (such as FACOM 230-60, one of Japan's largest computers).
+ Greatly assisting designers, DAS-2 lightens their workload in logic design, packaging design, and wiring design. It also provides manufacturing data required for automatic production and inspection.
+ This Design Automation System consists primarily of FACOM 230-50 programs, and contains some FACOM 230-60 and 270-20 programs.
+ This presentation deals chiefly with automatic logic diagram printing, automatic packaging design, wiring design, logic card function tests.

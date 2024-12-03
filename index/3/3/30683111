@@ -1,0 +1,1 @@
+We present a method that exploits unannotated corpora for compensating the paucity of annotated training data on the chunking and tagging tasks. It collects and compresses feature frequencies from a large unannotated corpus for use by linear classifiers. Experiments on two tasks show that it consistently produces significant performance improvements.

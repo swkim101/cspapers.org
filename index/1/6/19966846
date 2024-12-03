@@ -1,0 +1,6 @@
+
+ 
+ 
+Algorithmic Crowdsourcing (AC) is an emerging field in which computational methods are proposed to automate cer- tain aspects of crowdsourcing. A number of AC methods have proposed recently in an attempt to address this problem. However, existing AC approaches are based on highly simplified models of worker behaviour which limit their practical applicability. To make efficient utilization of human resources for crowdsourcing tasks, the following tech- nical challenges remain open: Fairness of the solution, temporal changes in behaviour, optimizing wellbeing, and non-compliance by users.  For AI researchers to propose effective solutions to these challenges, labelled datasets reflecting various aspects of human decision-making related to task allocation in crowd-sourcing are needed. We construct an anonymized dataset based on player behavior trajectories captured by a multiagent game platform - Agile Manage. It allows players to demonstrate their task delegation strategies under different scenarios based on key characteristics involved in crowdsourcing task allocation. The game adopts implicit human computation  in which players contribute data which are valuable for research through informal games. 
+ 
+ 

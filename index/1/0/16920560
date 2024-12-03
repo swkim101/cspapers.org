@@ -1,0 +1,4 @@
+
+ 
+ In many probabilistic planning scenarios, a system’s behavior needs to not only maximize the expected utility but also obey certain restrictions. This paper presents Saturated Path-Constrained Markov Decision Processes (SPC MDPs), a new MDP type for planning under uncertainty with deterministic model-checking constraints, e.g., "state s must be visited befores s'", "the system must end up in s", or "the system must never enter s". We present a mathematical analysis of SPCMDPs, showing that although SPC MDPs generally have no optimal policies, every instance of this class has an epsilon-optimal randomized policy for any > 0. We propose a dynamic programming-based algorithm for finding such policies, and empirically demonstrate this algorithm to be orders of magnitude faster than its next-best alternative.
+ 

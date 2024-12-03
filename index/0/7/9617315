@@ -1,0 +1,3 @@
+The communication loops analyzed here provide an economical way of attaching many different terminals to a IBM 4331 host processor which may be several kilometers away.
+ As a first step of the investigation protocol overhead is derived. It consists of request and transmission headers and the associated acknowledgements as defined by the System Network Architecture. Additional overhead is due to the physical layer protocols of the Synchronous Data Link Control including lower level confirmation frames.
+ The next step is to describe the performance characteristics of the loop attachment hardware, primarily consisting of the external loop station adapters for local and teleprocessing connections and the loop adapter processor.

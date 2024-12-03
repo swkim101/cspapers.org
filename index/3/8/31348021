@@ -1,0 +1,1 @@
+Relevant domain features are used for the representation of knowledge in production rules and for the description of examples for rule induction programs. A concept acquisition CCAS, induces domain concepts for the description of middle-game positions in chess, and uses quantitative measures of information content for validating the acquired concepts.

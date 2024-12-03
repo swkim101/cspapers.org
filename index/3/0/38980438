@@ -1,0 +1,4 @@
+
+ 
+ We extend the precedence constraints contexts heuristic (hpcc) to a temporal and numeric setting, and propose rules to account precedence constraints among comparison variables and logical variables. Experimental results on benchmark domains show that our extension has the potential to lead to better plan quality than that with the heuristic proposed by Eyerich and others.
+ 

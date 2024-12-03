@@ -1,0 +1,4 @@
+
+ 
+ Symbolic search with BDDs has shown remarkable performance for cost-optimal deterministic planning by exploiting a succinct representation and exploration of state sets. In this paper we enhance BDD-based planning by applying a combination of domain-independent search techniques: the optimization of the variable ordering in the BDD by approximating the linear arrangement problem, pattern selection for improved construction of search heuristics in form of symbolic partial pattern databases, and a decision procedure for the amount of bidirection in the symbolic search process.
+ 

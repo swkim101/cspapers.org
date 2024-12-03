@@ -1,0 +1,1 @@
+A large number of VLSI implementations of neural network models have been reported. The diversity of these implementations is noteworthy. This paper attempts to put a group of representative VLSI implementations in perspective by comparing and contrasting them. Design trade-offs are discussed and some suggestions for the direction of future implementation efforts are made.

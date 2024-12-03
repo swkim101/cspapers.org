@@ -1,0 +1,4 @@
+
+ 
+ We consider an active search problem in intensionally specified structured spaces. The ultimate goal in this setting is to discover structures from structurally different partitions of a fixed but unknown target class. An example of such a process is that of computer-aided de novo drug design. In the past 20 years several Monte Carlo search heuristics have been developed for this process. Motivated by these hand-crafted search heuristics, we devise a Metropolis--Hastings sampling scheme where the acceptance probability is given by a probabilistic surrogate of the target property, modeled with a max entropy conditional model. The surrogate model is updated in each iteration upon the evaluation of a selected structure. The proposed approach is consistent and the empirical evidence indicates that it achieves a large structural variety of discovered targets.
+ 

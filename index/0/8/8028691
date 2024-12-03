@@ -1,0 +1,1 @@
+User-generated passwords tend to be memorable, but not secure. A random, computergenerated 60-bit string is much more secure. However, users cannot memorize random 60bit strings. In this paper, we investigate methods for converting arbitrary bit strings into English word sequences (both prose and poetry), and we study their memorability and other properties.

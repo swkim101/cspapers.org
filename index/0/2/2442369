@@ -1,0 +1,1 @@
+In this paper, we study several probabilistic models of inverted file information retrieval systems. In particular, the portion of the system which performs the tasks of list accessing and merging is modeled. The average response times of the system for three different methods of managing the disk access and merge processor queues are discussed.

@@ -1,0 +1,3 @@
+In order to deal with over-constrained Constraint Satisfaction Problems, various extensions of the CSP framework have been considered by taking into account costs, uncertainties, preferences, priorities...Each extension uses a specific mathematical operator (+, max...) to aggregate constraint violations. 
+ 
+In this paper, we consider a simple algebraic framework, related to Partial Constraint Satisfaction, which subsumes most of these proposals and use it to characterize existing proposals in terms of rationality and computational complexity. We exhibit simple relationships between these proposals, try to extend some traditional CSP algorithms and prove that some of these extensions may be computationally expensive.

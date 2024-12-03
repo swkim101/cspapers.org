@@ -1,0 +1,1 @@
+The parallel derivative of a set of strings is introduced. Given a serial, repetition-free parallel program schema, its closure is constructed by taking parallel derivatives of its set of computations. The construction resembles the construction of a state diagram from a regular expression by means of derivatives.

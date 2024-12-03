@@ -1,0 +1,1 @@
+I propose AspectJML, a simple and practical aspect-oriented extension to JML. It supports the specification of crosscutting contracts for Java code in a modular way while keeping the benefits of a design by contract language, like documentation and modular reasoning.

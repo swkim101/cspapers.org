@@ -1,0 +1,1 @@
+The topological field model is commonly used to describe the regularities in German word order. In this work, we show that topological fields can be predicted reliably using sequence labeling and that the predicted field labels can inform a transitionbased dependency parser.

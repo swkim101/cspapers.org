@@ -1,0 +1,9 @@
+A protocol and algorithm are given in which bridges in an extended Local Area Network of arbitrary topology compute, in a distributed fashion, an acyclic spanning subset of the network.
+The algorithm converges in time proportional to the diameter of the extended LAN, and requires a very small amount of memory per bridge, and communications bandwidth per LAN, independent of the total number of bridges or the total number of links in the network.
+Algorhyme
+<italic>I think that I shall never see A graph more lovely than a tree.</italic>
+<italic>A tree whose crucial property Is loop-free connectivity.</italic>
+<italic>A tree which must be sure to span So packets can reach every LAN.</italic>
+<italic>First the Root must be selected By ID it is elected.</italic>
+<italic>Least cost paths from Root are traced. In the tree these paths are placed.</italic>
+<italic>A mesh is made by folks like me Then bridges find a spanning tree.</italic>

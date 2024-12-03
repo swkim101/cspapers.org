@@ -1,0 +1,14 @@
+MOTIVATION
+Building an accurate protein classification system depends critically upon choosing a good representation of the input sequences of amino acids. Recent work using string kernels for protein data has achieved state-of-the-art classification performance. However, such representations are based only on labeled data--examples with known 3D structures, organized into structural classes--whereas in practice, unlabeled data are far more plentiful.
+
+
+RESULTS
+In this work, we develop simple and scalable cluster kernel techniques for incorporating unlabeled data into the representation of protein sequences. We show that our methods greatly improve the classification performance of string kernels and outperform standard approaches for using unlabeled data, such as adding close homologs of the positive examples to the training data. We achieve equal or superior performance to previously presented cluster kernel methods and at the same time achieving far greater computational efficiency.
+
+
+AVAILABILITY
+Source code is available at www.kyb.tuebingen.mpg.de/bs/people/weston/semiprot. The Spider matlab package is available at www.kyb.tuebingen.mpg.de/bs/people/spider.
+
+
+SUPPLEMENTARY INFORMATION
+www.kyb.tuebingen.mpg.de/bs/people/weston/semiprot.

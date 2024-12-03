@@ -1,0 +1,4 @@
+
+ 
+ Search in general, and heuristic search in particular, is at the heart of many Artificial Intelligence algorithms and applications. There is now a growing and active community devoted to the empirical and theoretical study of heuristic search algorithms, thanks to the successful application of search-based algorithms to areas such as robotics, domain-independent planning, optimization, and computer games. In this extended abstract we highlight recent efforts in understanding suboptimal search algorithms, as well as ensembles of heuristics and algorithms. The result of these efforts are meta-reasoning methods which are applied to orchestrate the different components of modern search algorithms. Finally, we mention recent innovative applications of search that demonstrate the relevance of the field to general AI.
+ 

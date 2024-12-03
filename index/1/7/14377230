@@ -1,0 +1,25 @@
+It is generally challenging to tell apart malware 
+from benign applications. To make this decision, human analysts 
+are frequently interested in runtime values: targets of reflective 
+method calls, URLs to which data is sent, target telephone 
+numbers of SMS messages, and many more. However, obfuscation 
+and string encryption, used by malware as well as goodware, often 
+not only render human inspections, but also static analyses ineffective. In addition, malware frequently tricks dynamic analyses 
+by detecting the execution environment emulated by the analysis 
+tool and then refraining from malicious behavior. 
+In this work we therefore present HARVESTER, an approach 
+to fully automatically extract runtime values from Android 
+applications. HARVESTER is designed to extract values even from 
+highly obfuscated state-of-the-art malware samples that obfuscate 
+method calls using reflection, hide sensitive values in native code, 
+load code dynamically and apply anti-analysis techniques. The 
+approach combines program slicing with code generation and 
+dynamic execution. 
+Experiments on 16,799 current malware samples show that 
+HARVESTER fully automatically extracts many sensitive values, 
+with perfect precision. The process usually takes less than three 
+minutes and does not require human interaction. In particular, 
+it goes without simulating UI inputs. Two case studies further 
+show that by integrating the extracted values back into the app, 
+HARVESTER can increase the recall of existing static and dynamic 
+analysis tools such as FlowDroid and TaintDroid.

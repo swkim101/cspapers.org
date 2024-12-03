@@ -1,0 +1,7 @@
+Many sorted logics can allow an increase in deductive efficiency by eliminating useless branches of the search space, but are usually formulated so that their expressive power is severely limited. 
+ 
+The many sorted logic described here is unusual in that the quantifiers are unsorted; the restriction on the range of a quantified variable derives from the argument positions of the function and predicate symbols that it occupies; associated with every non-logical symbol is a sorting function which describes how its sort varies with the sorts of its inputs; polymorphic functions and predicates are thus easily expressible and statements usually requiring several assertions may be compactly expressed by a single assertion. 
+ 
+The sort structure may be an arbitrary lattice. Increased expressiveness is obtained by allowing the sort of a term to be a more general sort than the sort of the argument position it occupies. Furthermore, by allowing three boolean sorts (representing 'true', 'false' and 'either true or false'), it is sometimes possible to detect that a formula is contradictory or tautologous without resort to general inference rules. 
+ 
+Inference rules for a resolution based system are discussed; these can be proved to be both sound and complete.

@@ -1,0 +1,9 @@
+Given n wireless transceivers located in a plane, a fundamental problem in wireless communications is to construct a strongly connected digraph on them such that the constituent links can be scheduled in fewest possible time slots, assuming the SINR model of interference. 
+ 
+In this paper, we provide an algorithm that connects an arbitrary point set in O(log n) slots, improving on the previous best bound of O(log2 n) due to Moscibroda. This is complemented with a super-constant lower bound on our approach to connectivity. An important feature is that the algorithms allow for bi-directional (half-duplex) communication. 
+ 
+One implication of this result is an improved bound of Ω(1/log n) on the worst-case capacity of wireless networks, matching the best bound known for the extensively studied average-case. 
+ 
+We explore the utility of oblivious power assignments, and show that essentially all such assignments result in a worst case bound of Ω(n) slots for connectivity. This rules out a recent claim of a O(log n) bound using oblivious power. On the other hand, using our result we show that O(min(log Δ, log n · (log n + log log Δ))) slots suffice, where Δ is the ratio between the largest and the smallest links in a minimum spanning tree of the points. 
+ 
+Our results extend to the related problem of minimum latency aggregation scheduling, where we show that aggregation scheduling with O(log n) latency is possible, improving upon the previous best known latency of O(log3 n). We also initiate the study of network design problems in the SINR model beyond strong connectivity, obtaining similar bounds for biconnected and k-edge connected structures.

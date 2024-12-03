@@ -1,0 +1,1 @@
+In recent experiments, array privatization played a critical role in successful parallelization of several real programs. This paper presents compiler algorithms for the program analysis for this transformation. The paper also addresses issues in the implementation.

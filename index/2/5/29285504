@@ -1,0 +1,1 @@
+Network software speed is not increasing as rapidly as that of work-station CPUs. The goal of this study is to determine how various components of network software contribute to this bottleneck. In this extended abstract, we summarize the performance of TCPIP and UDPIP networking software for the DECstation 5000/200 workstations connected by an FDDI LAN.

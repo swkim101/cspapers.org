@@ -1,0 +1,1 @@
+We study the classic binary search problem, with a delay between query and answer. For all constant delays, we give upper and lower bounds, matching up to an additive constant.

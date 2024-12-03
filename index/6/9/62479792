@@ -1,0 +1,18 @@
+One of the major challenges in action generation for robotics and in the
+understanding of human motor control is to learn the "building blocks of move-
+ment generation," or more precisely, motor primitives. Recently, Ijspeert et al.
+[1, 2] suggested a novel framework how to use nonlinear dynamical systems as
+motor primitives. While a lot of progress has been made in teaching these mo-
+tor primitives using supervised or imitation learning, the self-improvement by
+interaction of the system with the environment remains a challenging problem.
+In this poster, we evaluate different reinforcement learning approaches can be
+used in order to improve the performance of motor primitives. For pursuing this
+goal, we highlight the difficulties with current reinforcement learning methods,
+and line out how these lead to a novel algorithm which is based on natural policy
+gradients [3]. We compare this algorithm to previous reinforcement learning
+algorithms in the context of dynamic motor primitive learning, and show that
+it outperforms these by at least an order of magnitude.
+We demonstrate the efficiency of the resulting reinforcement learning method
+for creating complex behaviors for automous robotics. The studied behaviors
+will include both discrete, finite tasks such as baseball swings, as well as complex
+rhythmic patterns as they occur in biped locomotion.

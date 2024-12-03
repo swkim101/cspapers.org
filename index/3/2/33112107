@@ -1,0 +1,2 @@
+The mix of nodes within heterogeneous embedded networks typically includes some highly specialized, numerically oriented nodes particularly adept at efficient manipulation of regularly structured, multi-element array operands. Such “Array Processing” (AP) nodes usually serve other more general-purpose (GP) nodes.
+Local node-level control of each AP is maintained by a microcoded AP-resident executive program (APX). The APX is carefully microcoded and tuned to minimize overhead incurred by the computation-or-throughput-intensive tasks using or sharing AP resources.

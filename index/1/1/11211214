@@ -1,0 +1,1 @@
+In this paper, we develop a computational learning framework to build a hierarchy of 11 consumer photo categories for semantic retrieval. Two levels of visual semantics are learned for image content and image category statistically. We evaluate the average precisions at top retrieved photos on 2400 heterogeneous consumer photos with very good result.

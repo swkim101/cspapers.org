@@ -1,0 +1,4 @@
+
+ 
+ The presence of non-symmetric evidence has been a barrier for the application of lifted inference since the evidence destroys the symmetry of the first-order probabilistic model. In the extreme case, if distinct soft evidence is obtained about each individual object in the domain then, often, all current exact lifted inference methods reduce to traditional inference at the ground level. However, it is of interest to ask whether the symmetry of the model itself before evidence is obtained can be exploited. We present new results showing that this is, in fact, possible. In particular, we show that both exact maximum a posteriori (MAP) and marginal inference can be lifted for the case of distinct soft evidence on a unary Markov Logic predicate. Our methods result in efficient procedures for MAP and marginal inference for a class of graphical models previously thought to be intractable.
+ 

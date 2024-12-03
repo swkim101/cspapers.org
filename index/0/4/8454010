@@ -1,0 +1,4 @@
+
+ 
+ Boolean functions in Answer Set Programming have proven a useful modelling tool. They are usually specified by means of aggregates or external atoms. A crucial step in computing answer sets for logic programs containing Boolean functions is verifying whether partial interpretations satisfy a Boolean function for all possible values of its undefined atoms. In this paper, we develop a new methodology for showing when such checks can be done in deterministic polynomial time. This provides a unifying view on all currently known polynomial-time decidability results, and furthermore identifies promising new classes that go well beyond the state of the art. Our main technique consists of using an ordering on the atoms to significantly reduce the necessary number of model checks. For many standard aggregates, we show how this ordering can be automatically obtained.
+ 

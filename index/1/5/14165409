@@ -1,0 +1,1 @@
+We show that any L<sub>1</sub> embedding of the transportation cost (a.k.a. Earthmover) metric on probability measures supported on the grid {0,1,..., n}<sup>2</sup> sube Ropf<sup>2</sup> incurs distortion Omega(radic;(log n)). We also use Fourier analytic techniques to construct a simple L<sub>1</sub> embedding of this space which has distortion O(log n)

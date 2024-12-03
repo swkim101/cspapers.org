@@ -1,0 +1,1 @@
+Shapley's discounted stochastic games, Everett's recursive games and Gillette's undiscounted stochastic games are classical models of game theory describing two-player zero-sum games of potentially infinite duration. We describe algorithms for exactly solving these games. When the number of positions of the game isbconstant, our algorithms run in polynomial time.

@@ -1,0 +1,1 @@
+Maintaining environmental stability in a dynamic system is a difficult challenge. In your living room, when you set your thermostat to 68 degrees the actual temperature cycles above and below 68 degrees. We attempt to use a Recurrent Neural Network (RNN) in an Aquarium Control System that reduces such environmental swings.

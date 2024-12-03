@@ -1,0 +1,4 @@
+
+ 
+ We describe an optimization-based approach for automatically creating well-edited movies from a 3D animation. While previous work has mostly focused on the problem of placing cameras to produce nice-looking views of the action, the problem of cutting and pasting shots from all available cameras has never been addressed extensively. In this paper, we review the main causes of editing errors in literature and propose an editing model relying on a minimization of such errors. We make a plausible semi-Markov assumption, resulting in a dynamic programming solution which is computationally efficient. We also show that our method can generate movies with different editing rhythms and validate the results through a user study. Combined with state-of-the-art cinematography, our approach therefore promises to significantly extend the expressiveness and naturalness of virtual movie-making.
+ 

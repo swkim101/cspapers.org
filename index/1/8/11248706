@@ -1,0 +1,4 @@
+
+ 
+ In computer vision, a complex entity such as an image or video is often represented as a set of instance vectors, which are extracted from different parts of that entity. Thus, it is essential to design a representation to encode information in a set of instances robustly. Existing methods such as FV and VLAD are designed based on a generative perspective, and their performances fluctuate when difference types of instance vectors are used (i.e., they are not robust). The proposed D3 method effectively compares two sets as two distributions, and proposes a directional total variation distance (DTVD) to measure their dissimilarity. Furthermore, a robust classifier-based method is proposed to estimate DTVD robustly, and to efficiently represent these sets. D3 is evaluated in action and image recognition tasks. It achieves excellent robustness, accuracy and speed.
+ 

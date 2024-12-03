@@ -1,0 +1,4 @@
+
+ 
+ Causal graphs, such as directed acyclic graphs (DAGs) and partial ancestral graphs (PAGs), represent causal relationships among variables in a model. Methods exist for learning DAGs and PAGs from data and for converting DAGs to PAGs. However, these methods only output a single causal graph consistent with the independencies/dependencies (the Markov equivalence class M) estimated from the data. However, many distinct graphs may be consistent with M, and a data modeler may wish to select among these using domain knowledge. In this paper, we present a method that makes this possible. We introduce PAG2ADMG, the first method for enumerating all causal graphs consistent with M, under certain assumptions. PAG2ADMG converts a given PAG into a set of acyclic directed mixed graphs (ADMGs). We prove the correctness of the approach and demonstrate its efficiency relative to brute-force enumeration.
+ 

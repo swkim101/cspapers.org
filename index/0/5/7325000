@@ -1,0 +1,1 @@
+The performance evaluation process for a massively parallel distributed memory SIMD computer is described generally. The performance in basic computation, grid communication, and computation with grid communication is analyzed. A practical performance evaluation and analysis study is done for the Connection Machine 2 and conclusions about its performance are drawn.

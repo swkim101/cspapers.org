@@ -1,0 +1,1 @@
+This paper describes a method for mobile robot obstacle avoidance. In this approach, there will De no path planning stage. Instead, a decision making based on approximate reasoning is used. We will also discuss the distributed controller architecture that has been developed for the vehicle test bed.

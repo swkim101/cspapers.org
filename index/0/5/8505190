@@ -1,0 +1,1 @@
+It is shown that the rank of a matrix over an arbitrary field can be computed inO(log2n) time using a polynomial number of processors.

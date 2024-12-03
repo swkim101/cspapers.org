@@ -1,0 +1,4 @@
+
+ 
+ Lazy Clause Generation (LCG) solvers dominate the current constraint programming competitions. These solvers successfully combine systematic propagation based search, global constraints and conflict clause learning from SAT solving into a hybrid approach. My research project extends the LCG methodology by using a mix of eager and lazy encodings and a richer set of constraint decompositions. Global Constraints exhibit a whole hierarchy of different decomposition into more basic constraints. In our work we want to take advantage of such hierarchies and identify criteria on how constraints could be decomposed before and during search.
+ 

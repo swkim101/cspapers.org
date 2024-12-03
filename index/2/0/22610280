@@ -1,0 +1,4 @@
+
+ 
+ Existential rules, a family of expressive ontology languages, inherit desired expressive and reasoning properties from both description logics and logic programming. On the other hand, forgetting is a well studied operation for ontology reuse, obfuscation and analysis. Yet it is challenging to establish a theory of forgetting for existential rules. In this paper, we lay the foundation for a theory of forgetting for existential rules by developing a novel notion of unfolding. In particular, we introduce a definition of forgetting for existential rules in terms of query answering and provide a characterisation of forgetting by the unfolding. A result of forgetting may not be expressible in existential rules, and we then capture the expressibility of forgetting by a variant of boundedness. While the expressibility is undecidable in general, we identify a decidable fragment. Finally, we provide an algorithm for forgetting in this fragment.
+ 

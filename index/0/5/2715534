@@ -1,0 +1,4 @@
+
+ 
+ Recently a logic programming language AC was proposed by Mellarkod et al. (2008) to integrate answer set programming (ASP) and constraint logic programming. Similarly, Gebser et al. (2009) proposed a CLINGCON language integrating ASP and finite domain constraints. These languages allow new efficient inference algorithms that combine traditional ASP procedures and other methods in constraint programming. In this paper we show that a transition system introduced by Nieuwenhuis et al. (2006) to model SAT solvers can be extended to model the "hybrid" Acsolver algorithm by Mellarkod et al. developed for simple AC programs and the Clingcon algorithm by Gebser et al. for clingcon programs. We define weakly-simple programs and show how the introduced transition systems generalize the Acsolver and Clingcon algorithms to such programs. Finally, we state the precise relation between AC and CLINGCON languages and the Acsolver and Clingcon algorithms.
+ 

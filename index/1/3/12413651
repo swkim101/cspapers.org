@@ -1,0 +1,3 @@
+Steinwart was the first to prove universal consistency of support vector machine classification. His proof analyzed the 'standard' support vector machine classifier, which is restricted to binary classification problems. In contrast, recent analysis has resulted in the common belief that several extensions of SVM classification to more than two classes are inconsistent. 
+ 
+Countering this belief, we prove the universal consistency of the multi-class support vector machine by Crammer and Singer. Our proof extends Steinwart's techniques to the multi-class case.

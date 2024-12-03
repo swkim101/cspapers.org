@@ -1,0 +1,1 @@
+This paper demonstrates the use of a single forward facing camera for obstacle avoidance on a quadrotor. We train a CNN for estimating depth from a single image. The depth map is then fed to a behaviour arbitration based control algorithm that steers the quadrotor away from obstacles. We conduct experiments with simulated and real drones in a variety of environments.

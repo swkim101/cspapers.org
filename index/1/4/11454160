@@ -1,0 +1,4 @@
+
+ 
+ When learning from instances whose output labels may be partial, the problem of knowing which of these output labels should be made precise to improve the accuracy of predictions arises. This problem can be seen as the intersection of two tasks: the one of learning from partial labels and the one of active learning, where the goal is to provide the labels of additional instances to improve the model accuracy. In this paper, we propose querying strategies of partial labels for the well-known K-nn classifier. We propose different criteria of increasing complexity, using among other things the amount of ambiguity that partial labels introduce in the K-nn decision rule. We then show that our strategies usually outperform simple baseline schemes, and that more complex strategies provide a faster improvement of the model accuracies.
+ 

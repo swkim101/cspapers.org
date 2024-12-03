@@ -1,0 +1,1 @@
+We show how unification can be used to specify the semantic interpretation of natural-language expressions, including problematical constructions involving long-distance dependencies. We also sketch a theoretical foundation for unification-based semantic interpretation, and compare the unification-based approach with more conventional techniques based on the lambda calculus.

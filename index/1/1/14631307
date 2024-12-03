@@ -1,0 +1,4 @@
+
+ 
+ Determinantal point process (DPP) is an important probabilistic model that has extensive applications in artificial intelligence. The exact sampling algorithm of DPP requires the full eigenvalue decomposition of the kernel matrix which has high time and space complexities. This prohibits the applications of DPP from large-scale datasets. Previous work has applied the Nystrom method to speedup the sampling algorithm of DPP, and error bounds have been established for the approximation. In this paper we employ the matrix ridge approximation (MRA) to speedup the sampling algorithm of DPP, showing that our approach MRA-DPP has stronger error bound than the Nystrom-DPP. In certain circumstances our MRA-DPP is provably exact, whereas the Nystrom-DPP is far from the ground truth. Finally, experiments on several real-world datasets show that our MRA-DPP is more accurate than the other approximation approaches.
+ 

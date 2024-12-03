@@ -1,0 +1,7 @@
+This paper describes the central features of a system designed for the management of large amounts of application specific knowledge. The Knowledge Manager(KM-I) employs distinct software and hardware processors to implement: 
+ 
+A file of general knowledge and an associated reasoning engine 
+ 
+A file of specific knowledge and an associated searching engine 
+ 
+We present our reasons for believing why this can be an effective strategy for realizing many practical knowledge based/expert system applications that lie in a large overlapping area between practical AI and advanced data management technology. We then outline the major features and components of the system and discuss the range of intended applications.

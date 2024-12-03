@@ -1,0 +1,1 @@
+In this paper three algorithms for Molecular Dynamics simulation suitable for vector computers are reviewed and timings presented. The algorithms were tested on the ETA 10-P and IBM 3090/150E/VF supercomputers and compared against the INTEL 80386/80387 and MC 68020/68881 based microcomputers.

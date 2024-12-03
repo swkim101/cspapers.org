@@ -1,0 +1,4 @@
+
+ 
+ Programmers are loathe to interrupt their workflow to document their design rationale, leading to frequent errors when software is modified — often much later and by different programmers. A Programmer’s Assistant could interact with the programmer to capture and preserve design rationale, in a natural way that would make rationale capture "cost less than it's worth", and could also detect common flaws in program design. Such a programmer’s assistant was not practical when it was first proposed decades ago, but advances over the years make now the time to revisit the concept, as our prototype shows.
+ 

@@ -1,0 +1,3 @@
+The paper presents the results of research concerning the stability of an evolutionary process for randomly growing digital structures. The computer model for the mutated genotype case is considered. The genotype (in the models the set of rules for growth) changes in a random environmentally unoriented way, whereas the environment assumed as random, finite and repetitive in a cyclic way is disturbed. Prom the experiments it follows that stability could be achieved in a heuristic way after mutation of the genotype and disturbances in the environment without the built-in information concerning stability. 
+ 
+The model, results obtained from the computer and an interpretation of these results are presented.

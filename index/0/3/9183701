@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we explore the potential of geo-social media to construct location-based interest profiles to uncover the hidden relationships among disparate locations. Through an investigation of millions of geo-tagged Tweets, we construct a per-city interest model based on fourteen high-level categories (e.g., technology, art, sports). These interest models support the discovery of related locations that are connected based on these categorical perspectives (e.g., college towns or vacation spots) but perhaps not on the individual tweet level. We then connect these city-based interest models to underlying demographic data. By building multivariate multiple linear regression (MMLR) and neural network (NN) models we show how a location's interest profile may be estimated based purely on its demographics features.
+ 

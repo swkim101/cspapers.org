@@ -1,0 +1,4 @@
+
+ 
+ We formulate an approach to multiagent metareasoning that uses organizational design to focus each agent's reasoning on the aspects of its local problem that let it make the most worthwhile contributions to joint behavior. By employing the decentralized Markov decision process framework, we characterize an organizational design problem that explicitly considers the quantitative impact that a design has on both the quality of the agents' behaviors and their reasoning costs. We describe an automated organizational design process that can approximately solve our organizational design problem via incremental search, and present techniques that efficiently estimate the incremental impact of a candidate organizational influence. Our empirical evaluation confirms that our process generates organizational designs that impart a desired metareasoning regime upon the agents.
+ 

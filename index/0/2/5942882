@@ -1,0 +1,1 @@
+We extend the popular entity grid representation for local coherence modeling. The grid abstracts away information about the entities it models; we add discourse prominence, named entity type and coreference features to distinguish between important and unimportant entities. We improve the best result for WSJ document discrimination by 6%.

@@ -1,0 +1,4 @@
+We consider packet-switching network as a queueing system with constant service times: that means that the lengths of the packets are equal. We study such a network by isolating a particular path, that we consider as a tandem system of queueing. Two aspects of the question will be examined:
+ 1 - The study of the response time of such a system
+ 2 - The study of the throughput of such a system when introducing the notion of time-out for each packet.
+ The results we obtained show that when neglecting the interferences between paths the response time is independent of the order of the stations. The control policy we examined prove the necessity to have a limited memorisation capacity at each node of a packet-switching network. These results confirm the intuitive options taken in a network like CYCLADES.

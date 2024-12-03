@@ -1,0 +1,4 @@
+
+ 
+ Plan recognition is a form of abductive reasoning that involves inferring plans that best explain sets of observed actions. Most existing approaches to plan recognition and other abductive tasks employ either purely logical methods that donot handle uncertainty, or purely probabilistic methods thatdo not handle structured representations. To overcome these limitations, this paper introduces an approach to abductive reasoning using a ﬁrst-order probabilistic logic, speciﬁcally Markov Logic Networks (MLNs). It introduces several novel techniques for making MLNs efﬁcient and effective for abduction. Experiments on three plan recognition datasets showthe beneﬁt of our approach over existing methods.
+ 

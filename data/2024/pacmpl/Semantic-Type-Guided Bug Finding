@@ -1,6 +1,0 @@
-
- In recent years, there has been an increased interest in tools that establish
- incorrectness
- rather than correctness of program properties. In this work we build on this approach by developing a novel methodology to prove incorrectness of
- semantic typing
- properties of functional programs, extending the incorrectness approach to the model theory of functional program typing. We define a semantic type refuter which refutes semantic typings for a simple functional language. We prove our refuter is co-recursively enumerable, and that it is sound and complete with respect to a semantic typing notion. An initial implementation is described which uses symbolic evaluation to efficiently find type errors over a functional language with a rich type system.

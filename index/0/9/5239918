@@ -1,0 +1,1 @@
+A new formalism for building network models in Prolog is proposed. It is based on a new semantic interpretation of the Prolog variables and clauses, which are used to represent the network links and nodes respectively. The problem of attributed graph model of polyhedral objects is used as an application area, where the proposed methods are examined.

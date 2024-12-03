@@ -1,0 +1,4 @@
+
+ 
+ Stable Marriage (SM) is a well-known matching problem, where the aim is to match a set of men and women. The resulting matching must satisfy two properties: there is no unassigned person and there are no other assignments where two people of opposite gender prefer each other to their current assignments. We propose a new version of SM called as Robust Stable Marriage (RSM) by combining stability and robustness. We define robustness by introducing (a,b)-supermatches, which has been inspired by (a,b)-supermodels. An (a,b)-supermatch is a stable matching, where if at most a pairs want to break up, it is possible to find another stable matching by breaking at most b other pairs.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ People collaborate in carrying out such complex activities as treating patients, co-authoring documents and developing software. While technologies such as Dropbox and Github enable groups to work in a distributed manner, coordinating team members' individual activities poses significant challenges. In this paper, we formalize the problem of "information sharing in loosely-coupled extended-duration teamwork." We develop a new representation, Mutual Influence Potential Networks (MIP-Nets), to model collaboration patterns and dependencies among activities, and an algorithm, MIP-DOI, that uses this representation to reason about information sharing.
+ 

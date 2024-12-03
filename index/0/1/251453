@@ -1,0 +1,7 @@
+In distributed combinatorial optimization problems, dynamic programming algorithms like DPOP ([Petcu and Faltings, 2005]) require only a linear number of messages, thus generating low communication overheads. However, DPOP's memory requirements are exponential in the induced width of the constraint graph, which may be prohibitive for problems with large width. 
+ 
+We present MB-DPOP, a new hybrid algorithm that can operate with bounded memory. In areas of low width, MB-DPOP operates like standard DPOP (linear number of messages). Areas of high width are explored with bounded propagations using the idea of cycle-cuts [Dechter, 2003]. 
+ 
+We introduce novel DFS-based mechanisms for determining the cycle-cutset, and for grouping cycle-cut nodes into clusters. We use caching ([Darwiche, 2001]) between clusters to reduce the complexity to exponential in the largest number of cycle cuts in a single cluster. 
+ 
+We compare MB-DPOP with ADOPT [Modi et al., 2005], the current state of the art in distributed search with bounded memory. MB-DPOP consistently outperforms ADOPT on 3 problem domains, with respect to 3 metrics, providing speedups of up to 5 orders of magnitude.

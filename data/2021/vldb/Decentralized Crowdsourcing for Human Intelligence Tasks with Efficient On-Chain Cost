@@ -1,6 +1,0 @@
-
- Crowdsourcing for Human Intelligence Tasks (HIT) has been widely used to crowdsource human knowledge, such as image annotation for machine learning. We use a public blockchain to play the role of traditional centralized HIT systems, such that the blockchain deals with cryptocurrency payments and acts as a trustworthy judge to resolve disputes between a worker and a requester in a decentralized setting, preventing false-reporting and free-riding. Our approach neither uses expensive cryptographic tools, such as zero-knowledge proofs, nor sends the worker's answers to the blockchain. Compared with prior works, our approach significantly reduces on-chain cost: it only requires O(1) on-chain storage and O(log
- N
- ) smart contract computation, where
- N
- is the question number of a HIT. Additionally, our approach uses known answers or gold standards to determine the worker's answer quality. To motivate the requester to use honest known answers, the requester cannot learn the worker's answers if the answer quality does not meet the requirement. We further provide formal security definitions for our decentralized HIT and prove security of our construction.

@@ -1,0 +1,4 @@
+
+ 
+ We consider an infinite mixture model of Gaussian processes that share mixture components between non-local clusters in data. Meeds and Osindero (2006) use a single Dirichlet process prior to specify a mixture of Gaussian processes using an infinite number of experts. In this paper, we extend this approach to allow for experts to be shared non-locally across the input domain. This is accomplished with a hierarchical double Dirichlet process prior, which builds upon a standard hierarchical Dirichlet process by incorporating local parameters that are unique to each cluster while sharing mixture components between them. We evaluate the model on simulated and real data, showing that sharing Gaussian process components non-locally can yield effective and useful models for richly clustered non-stationary, non-linear data.
+ 

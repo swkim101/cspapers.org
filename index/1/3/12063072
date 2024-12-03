@@ -1,0 +1,9 @@
+This paper describes the tests made on chunking methods used for
+plagiarism detection. The result of the tests makes it possible to
+decide on the best fitting chunking method for a given
+application. For example, overlapping word chunking is good for
+a grammar analyzer or for small databases, sentence chunking
+suits best for finding quoted texts, hashed breakpoint chunking is
+the fastest method therefore advisable for search in big set of
+documents, or if more reliability is needed overlapping hashed
+breakpoint chunking can be used as well.

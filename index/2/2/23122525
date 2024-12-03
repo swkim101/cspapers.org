@@ -1,0 +1,3 @@
+This session is composed of three tutorial talks on program verification. No written versions of the talks were prepared since the material is already available in the literature. However, an abstract and brief bibliography is given below for each talk.
+ These tutorials are an attempt to expose enough of the technical material of program verification that the audience can begin to develop their own opinion on the issues.
+ This talk concentrates on the general concepts and definitions of the inductive assertion method for correctness proofs. The following questions will be answered: What is an assertion, an inductive assertion, a verification condition? Which aspects are mechanical, which require intelligent invention? What is the role and character of a theorem prover?

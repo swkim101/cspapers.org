@@ -1,0 +1,4 @@
+
+ 
+ Supply Chain Formation (SCF) is the process of determining the participants in a supply chain, who will exchange what with whom, and the terms of the exchanges. Decentralized SCF appears as a highly intricate task because agents only possess local information and have limited knowledge about the capabilities of other agents. The decentralized SCF problem has been recently cast as an optimization problem that can be efficiently approximated using max-sum loopy belief propagation. Along this direction, in this paper we propose a novel encoding of the problem into a binary factor graph (containing only binary variables) as well as an alternative algorithm. We empirically show that our approach allows to significantly increase scalability, hence allowing to form supply chains in market scenarios with a large number of participants and high competition.
+ 

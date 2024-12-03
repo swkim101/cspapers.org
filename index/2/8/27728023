@@ -1,0 +1,4 @@
+
+ 
+ This paper overviews our application of state-of-the-art automated planning algorithms to real mobile robots performing an autonomous construction task, a domain in which robots are prone to faults.  We describe how embracing these faults leads to better representations and smarter planning, allowing robots with limited precision to avoid catastrophic failures and succeed in intricate constructions.
+ 

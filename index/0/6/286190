@@ -1,0 +1,4 @@
+
+ 
+ The design of the best economic mechanism for Sponsored Search Auctions (SSAs) is a central task in computational mechanism design/game theory. Two open questions concern (i) the adoption of user models more accurate than the currently used one and (ii) the choice between Generalized Second Price auction (GSP) and Vickrey–Clark–Groves mechanism (VCG). In this paper, we provide some contributions to answer these questions. We study Price of Anarchy (PoA) and Price of Stability (PoS) over social welfare and auctioneer’s revenue of GSP w.r.t. the VCG when the users follow the famous cascade model. Furthermore, we provide exact, randomized, and approximate algorithms, showing that in real–world settings (Yahoo! Webscope A3 dataset, 10 available slots) optimal allocations can be found in less than 1s with up to 1,000 ads, and can be approximated in less than 20ms even with more than 1,000 ads with an average accuracy greater than 99%.
+ 

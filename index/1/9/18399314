@@ -1,0 +1,4 @@
+
+ 
+ The paper introduces a novel technique for improving the performance and scalability of best-first progression-based conformant planners. The technique is inspired by different well-known techniques from classical planning, such as landmark and stratification. Its most salient feature is that it is relatively cheap to implement yet quite effective when applicable. The effectiveness of the proposed technique is demonstrated by the development of new conformant planners by integrating the technique in various state-of-the-art conformant planners and an extensive experimental evaluation of the new planners using benchmarks collected from various sources. The result shows that the technique can be applied in several benchmarks and helps improve both performance and scalability of conformant planners.
+ 

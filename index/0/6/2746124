@@ -1,0 +1,4 @@
+
+ 
+ The Word-RAM is a model of computation that takes into account the capacity of a computer to manipulate a word of w bits with a single instruction. Many modern constraint solvers use a bitset data structure to encode the values contained in the variable domains. Using the algorithmic techniques developed for the Word-RAM, we propose new filtering algorithms that can prune Opwq values from a domain in a single instruction. Experiments show that on a processor with w = 64, the new filtering algorithms that enforce domain consis- tency on the constraints A + B = C, |A - B| = C and ALL-DIFFERENT can offer a speed up of a factor 10.
+ 

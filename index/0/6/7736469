@@ -1,0 +1,4 @@
+
+ 
+ We present a domain-independent approach to reference resolution that allows a robotic or virtual agent to resolve references to entities (e.g., objects and locations) found in open worlds when the information needed to resolve such references is distributed among multiple heterogeneous knowledge bases in its architecture. An agent using this approach can combine information from multiple sources without the computational bottleneck associated with centralized knowledge bases. The proposed approach also facilitates “lazy constraint evaluation”, i.e., verifying properties of the referent through different modalities only when the information is needed. After specifying the interfaces by which a reference resolution algorithm can request information from distributed knowledge bases, we present an algorithm for performing open-world reference resolution within that framework, analyze the algorithm’s performance, and demonstrate its behavior on a simulated robot.
+ 

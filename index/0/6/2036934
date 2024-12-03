@@ -1,0 +1,9 @@
+This paper presents an outline on the design of an expert system aimed at helpingdecision makers to operate flood control dams and to plan civil defense in flood prone. 
+ 
+The problem is first described and the need for an expert system is justified by the complexity of land use in the area as well as the difficulty to use simulation models on time for prediction of damages and for the analysis of the best control decisions.The expert system can synthesize the results of previous analysis with the models and the criteria of experts and it can be used on real time linked with an information system including rain intensity data and water levels at control points. 
+ 
+The contents of the data base of the information system,and the general specification of the different types of rules are presented. 
+ 
+Finally, the general methodology for the definition of the rules based on the artificial experience created by a program of runs of the differents models for representation of hydraulic behavior is discussed. 
+ 
+The project is now under study by the Spanish Ministry of Public Works.

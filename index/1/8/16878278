@@ -1,0 +1,4 @@
+
+ 
+ We introduce the task of identifying information-dense texts,which report important factual information in direct, succinct manner. We describe a procedure that allows us to label automatically a large training corpus of New York Times texts.We train a classifier based on lexical, discourse and unlexicalized syntactic features and test its performance on a set of manually annotated articles from business, U.S. international relations, sports and science domains. Our results indicate that the task is feasible and that both syntactic and lexicalfeatures are highly predictive for the distinction. We observe considerable variation of prediction accuracy across domains and find that domain-specific models are more accurate.
+ 

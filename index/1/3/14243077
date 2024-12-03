@@ -1,0 +1,1 @@
+This paper describes newly developed techniques suitable for logic verification and fault simulation of digital systems which are mainly composed of LSI's and MSI's. A simulator employing such techniques has been implemented, and has shown definite advantages over existing simulators.

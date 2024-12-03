@@ -1,0 +1,4 @@
+
+ 
+ Previous research in Artificial Intelligence has identified the possibility of simplifying planning problems via the identification and exploitation of symmetries. We advance the state of the art in algorithms that exploit symmetry in planning problems by generalizing previous approaches, and applying symmetry reductions to state-based planners. We suggest several algorithms for symmetry exploitation in state-based search, but also provide a comprehensive view through which additional algorithms can be developed and fine-tuned. We evaluate our approach to symmetry exploitation on instances from previous planning competitions, and demonstrate that our algorithms significantly improve the solution time of instances with symmetries.
+ 

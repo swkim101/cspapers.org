@@ -1,0 +1,4 @@
+
+ 
+ The Zero-suppressed Sentential Decision Diagram (ZSDD) is a recentlydiscovered tractable representation of Boolean functions. ZSDD subsumes theZero-suppressed Binary Decision Diagram (ZDD) as a strict subset, andsimilar to ZDD, it can perform several useful operations like model countingand Apply operations. We propose a top-down compilation algorithmfor ZSDD that represents sets of specific graph substructures, e.g.,matchings and simple paths of a graph. We experimentally confirm that theproposed algorithm is faster than other construction methods includingbottom-up methods and top-down methods for ZDDs, and the resulting ZSDDsare smaller than ZDDs representing the same graph substructures. We alsoshow that the size constructed ZSDDs can be bounded by the branch-width of thegraph. This bound is tighter than that of ZDDs.
+ 

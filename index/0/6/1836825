@@ -1,0 +1,1 @@
+In this paper we give the first self-testers and checkers for polynomials over rational and integer domains. We also show significantly stronger bounds on the efficiency of a simple modification of the algorithm for self-testing polynomials over finite fields given in [8].

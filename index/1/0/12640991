@@ -1,0 +1,4 @@
+
+ 
+ Multilabel classification is a central problem in many areas of data analysis, including text and multimedia categorization, where individual data objects need to be assigned multiple labels. A key challenge in these tasks is to learn a classifier that can properly exploit label correlations without requiring exponential enumeration of label subsets during training or testing. We investigate novel loss functions for multilabel training within a large margin framework---identifying a simple alternative that yields improved generalization while still allowing efficient training. We furthermore show how covariances between the label models can be learned simultaneously with the classification model itself, in a jointly convex formulation, without compromising scalability. The resulting combination yields state of the art accuracy in multilabel webpage classification.
+ 

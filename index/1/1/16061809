@@ -1,0 +1,4 @@
+
+ 
+ We describe a new sound and complete method forcompiling contingent planning problems with sensingactions into classical planning. Our method encodesconditional plans within a linear, classicalplan. This allows our planner, MPSR, to reasonabout multiple future outcomes of sensing actions,and makes it less susceptible to dead-ends. MPRS,however, generates very large classical planningproblems. To overcome this, we use an incompletevariant of the method, based on state sampling,within an online replanner. On most currentdomains, MPSR finds plans faster, although itsplans are often longer. But on a new challengingvariant of Wumpus with dead-ends, it finds smallerplans, faster, and scales much better.
+ 

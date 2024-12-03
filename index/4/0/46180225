@@ -1,0 +1,4 @@
+
+ 
+ Goal Recognition Design (GRD) is the problem of designing a domain in a way that will allow easy identification of agents' goals. This work extends the original GRD problem to the Plan Recognition Design (PRD) problem which is the task of designing a domain using plan libraries in order to facilitate fast identification of an agent's plan. While GRD can help to explain faster which goal the agent is trying to achieve, PRD can help in faster understanding of how the agent is going to achieve its goal. We define a new measure that quantifies the worst-case distinctiveness of a given planning domain, propose a method to reduce it in a given domain and show the reduction of this new measure in three domains from the literature.
+ 

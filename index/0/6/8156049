@@ -1,0 +1,1 @@
+ITTAP is a testability analysis program developed at the ITT-LSI technology center. In this paper we describe a testability measure for the test length and discuss the use of the selective trace concept for testability calculations. It is shown that ITTAP provides an order of magnitude improvement in run time over existing programs like SCOAP.

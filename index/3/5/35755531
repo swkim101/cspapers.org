@@ -1,0 +1,1 @@
+There has been debate about whether OO should, or even can, be taught first in CS1 (using Java). We claim that OO can be taught successfully, provided certain principles are followed. These principles lead to the requirement of an appropriate model for classes and objects, which we provide.

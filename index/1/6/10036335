@@ -1,0 +1,4 @@
+
+ 
+ We present the first probabilistic model to capture all levels of the Minsky Frame structure, with the goal of corpus-based induction of scenario definitions. Our model unifies prior efforts in discourse-level modeling with that of Fillmore's related notion of frame, as captured in sentence-level, FrameNet semantic parses; as part of this, we resurrect the coupling among Minsky's frames, Schank's scripts and Fillmore's frames, as originally laid out by those authors. Empirically, our approach yields improved scenario representations, reflected quantitatively in lower surprisal and more coherent latent scenarios.
+ 

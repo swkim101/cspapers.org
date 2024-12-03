@@ -1,0 +1,3 @@
+Given two permutations σ and π, the Permutation Pattern problem asks if σ is a subpattern of π. We show that the problem can be solved in time 2O(e2loge). n, where e = |σ| and n = |π|. In other words, the problem is fixed-parameter tractable parameterized by the size of the subpattern to be found. 
+ 
+We introduce a novel type of decompositions for permutations and a corresponding width measure. We present a linear-time algorithm that either finds σ as a subpattern of π, or finds a decomposition of π whose width is bounded by a function of |σ|. Then we show how to solve the Permutation Pattern problem in linear time if a bounded-width decomposition is given in the input.

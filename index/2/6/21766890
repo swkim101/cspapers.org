@@ -1,0 +1,4 @@
+
+ 
+ We present a feature selection method for solving sparse regularization problem, which hasa composite regularization of $\ell_p$ norm and $\ell_{\infty}$ norm.We use proximal gradient method to solve this \L1inf operator problem, where a simple but efficient algorithm is designed to minimize a relatively simple objective function, which contains a vector of $\ell_2$ norm and $\ell_\infty$ norm. Proposed method brings some insight for solving sparsity-favoring norm, andextensive experiments are conducted to characterize the effect of varying $p$ and to compare with other approaches on real world multi-class and multi-label datasets.
+ 

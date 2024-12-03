@@ -1,0 +1,4 @@
+
+ 
+ Utilizing trajectories for modeling human mobility often involves extracting descriptive features for each individual, a procedure heavily based on experts' knowledge. In this work, our objective is to minimize human involvement and exploit the power of community in learning `features' for individuals from their location traces. We propose a probabilistic graphical model that learns distribution of latent concepts, named motifs, from anonymized sequences of user locations. To handle variation in user activity level, our model learns motif distributions from sequence-level location co-occurrence of all users. To handle the big variation in location popularity, our model uses an asymmetric prior, conditioned on per-sequence features. We evaluate the new representation in a link prediction task and compare our results to those of baseline approaches.
+ 

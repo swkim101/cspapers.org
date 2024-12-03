@@ -1,0 +1,4 @@
+
+ 
+ When to make a decision is a key question in decision making problems characterized by uncertainty. In this paper we deal with decision making in environments where the information arrives dynamically. We address the tradeoff between waiting and stopping strategies. On the one hand, waiting to obtain more information reduces the uncertainty, but it comes with a cost. On the other hand, stopping and making a decision based on an expected utility, decreases the cost of waiting, but the decision is made based on uncertain information. In this paper, we prove that computing the optimal time to make a decision that guarantees the optimal utility is NP-hard. We propose a pessimistic approximation that guarantees an optimal decision when the recommendation is to wait. We empirically evaluate our algorithm and show that the quality of the decision is near-optimal and much faster than the optimal algorithm.
+ 

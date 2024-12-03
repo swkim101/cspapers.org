@@ -1,0 +1,1 @@
+We propose a Web search site called "Cyclone", in which a user can retrieve encyclopedic term descriptions on the Web. Cyclone searches the Web for headwords and page fragments describing the headwords. High-quality page fragments are selected as term descriptions and are classified into domains. The number of current headwords is over 700,000.

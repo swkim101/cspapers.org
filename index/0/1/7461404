@@ -1,0 +1,4 @@
+
+ 
+ People constantly apply acquired knowledge to new learning tasks, but machines almost never do. Research on transfer learning attempts to address this dissimilarity. Working within this area, we report on a procedure that learns and transfers constraints in the context of inductive process modeling, which we review. After discussing the role of constraints in model induction, we describe the learning method, MISC, and introduce our metrics for assessing the cost and benefit of transferred knowledge. The reported results suggest that cross-domain transfer is beneficial in the scenarios that we investigated, lending further evidence that this strategy is a broadly effective means for increasing the efficiency of learning systems. We conclude by discussing the aspects of inductive process modeling that encourage effective transfer, by reviewing related strategies, and by describing future research plans for constraint induction and transfer learning.
+ 

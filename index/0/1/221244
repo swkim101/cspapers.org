@@ -1,0 +1,4 @@
+
+ 
+ The action programming language GOLOG has been found useful for the control of autonomous agents such as mobile robots. In scenarios like these, tasks are often open-ended so that the respective control programs are non-terminating. Before deploying such programs on a robot, it is often desirable to verify that they meet certain requirements. For this purpose, Claßen and Lakemeyer recently introduced algorithms for the verification of temporal properties of GOLOG programs. However, given the expressiveness of GOLOG, their verification procedures are not guaranteed to terminate. In this paper, we show how decidability can be obtained by suitably restricting the underlying base logic, the effect axioms for primitive actions, and the use of actions within GOLOG programs. Moreover, we show that dropping any of these restrictions immediately leads to undecidability of the verification problem.
+ 

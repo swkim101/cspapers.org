@@ -1,0 +1,4 @@
+
+ 
+ Residuality plays an essential role for learning finite automata. While residual deterministic and non-deterministic automata have been understood quite well, fundamental questions concerning alternating automata (AFA) remain open. Recently, Angluin, Eisenstat, and Fisman (2015) have initiated a systematic study of residual AFAs and proposed an algorithm called AL* – an extension of the popular L* algorithm – to learn AFAs. Based on computer experiments they have conjectured that AL* produces residual AFAs, but have not been able to give a proof. In this paper we disprove this conjecture by constructing a counterexample. As our main positive result we design an efficient learning algorithm, named AL** and give a proof that it outputs residual AFAs only. In addition, we investigate the succinctness of these different FA types in more detail.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ For non-expert users, a textual query is the most popular and simple means for communicating with a retrieval or question answering system.However, there is a risk of receiving queries which do not match with the background knowledge.Query expansion and query rewriting are solutions for this problem but they are in danger of potentially yielding a large number of irrelevant words, which in turn negatively influences runtime as well as accuracy.In this paper, we propose a new method for automatic rewriting input queries on graph-structured RDF knowledge bases.We employ a Hidden Markov Model to determine the most suitable derived words from linguistic resources.We introduce the concept of triple-based co-occurrence for recognizing co-occurred words in RDF data.This model was bootstrapped with three statistical distributions.Our experimental study demonstrates the superiority of the proposed approach to the traditional n-gram model.
+ 

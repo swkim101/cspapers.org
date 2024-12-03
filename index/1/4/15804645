@@ -1,0 +1,4 @@
+
+ 
+ CMDragons 2015 is the champion of the RoboCup Small Size League of autonomous robot soccer. The team won all of its six games, scoring a total of 48 goals and conceding 0. This unprecedented dominant performance is the result of various features, but we particularly credit our novel offense multi-robot coordination. This paper thus presents our Selectively Reactive Coordination (SRC) algorithm, consisting of two layers: A coordinated opponent-agnostic layer enables the team to create its own plans, setting the pace of the game in offense. An individual opponent-reactive action selection layer enables the robots to maintain reactivity to different opponents. We demonstrate the effectiveness of our coordination through results from RoboCup 2015, and through controlled experiments using a physics-based simulator and an automated referee.
+ 

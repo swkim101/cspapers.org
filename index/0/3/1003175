@@ -1,0 +1,4 @@
+
+ 
+ In this paper we develop an algorithm to find the k-best equivalence classes of Bayesian networks. Our algorithm is capable of finding much more best DAGs than the previous algorithm that directly finds the k-best DAGs (Tian, He and Ram 2010). We demonstrate our algorithm in the task of Bayesian model averaging. Empirical results show that our algorithm significantly outperforms the k-best DAG algorithm in both time and space to achieve the same quality of approximation. Our algorithm goes beyond the maximum-a-posteriori (MAP) model by listing the most likely network structures and their relative likelihood and therefore has important applications in causal structure discovery.
+ 

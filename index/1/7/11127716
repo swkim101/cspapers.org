@@ -1,0 +1,4 @@
+
+ 
+ We provide an approach to estimate trust between agents from their interactions. Our approach takes a probabilistic model of trust founded on commitments. We assume commitments to estimate trust because a commitment describes what an agent may expect of another. Therefore, the satisfaction or violation of a commitment provides a natural basis for determining how much to trust another agent. We evaluate our approach empirically. In one study, 30 subjects read emails extracted from the Enron dataset augmented with some synthetic emails to capture commitment operations missing in the Enron corpus. The subjects estimated trust between each pair of communicating participants. We trained model parameters for each subject with respect to our automated analysis of the emails, showing that our trained parameters yield a lower prediction error of a subject's trust rating given automatically inferred commitments than fixed parameters.
+ 

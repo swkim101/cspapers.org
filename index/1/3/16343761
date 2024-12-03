@@ -1,0 +1,6 @@
+
+ 
+ 
+Character-based and word-based methods are two different solutions for Chinese word segmentation, the former exploiting sequence labeling models over characters and the latter using word-level features. Neural models have been exploited for character-based Chinese word segmentation, giving high accuracies by making use of external character embeddings, yet requiring less feature engineering. In this paper, we study a neural model for word-based Chinese word segmentation, by replacing the manually-designed discrete features with neural features in a transition-based word segmentation framework. Experimental results demonstrate that word features lead to comparable performance to the best systems in the literature, and a further combination of discrete and neural features obtains top accuracies on several benchmarks. 
+ 
+ 

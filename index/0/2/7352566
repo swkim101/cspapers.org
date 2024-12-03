@@ -1,0 +1,1 @@
+We study the minimum interval deletion problem, which asks for the removal of a set of at most k vertices to make a graph of n vertices into an interval graph. We present a parameterized algorithm of runtime 10k ⋅ nO(1) for this problem—that is, we show that the problem is fixed-parameter tractable.

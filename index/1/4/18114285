@@ -1,0 +1,4 @@
+In this work a novel algorithm, named DOLPHIN, for detecting distance-based outliers is presented.
+ The proposed algorithm performs only two sequential scans of the dataset. It needs to store into main memory a portion of the dataset, to efficiently search for neighbors and early prune inliers. The strategy pursued by the algorithm allows to keep this portion very small. Both theoretical justification and empirical evidence that the size of the stored data amounts only to a few percent of the dataset are provided.
+ Another important feature of DOLPHIN is that the memory-resident data are indexed by using a suitable proximity search approach. This allows to search for nearest neighbors looking only at a small subset of the main memory stored data.
+ Temporal and spatial cost analysis show that the novel algorithm achieves both near linear CPU and I/O cost. DOLPHIN has been compared with state of the art methods, showing that it outperforms existing ones.

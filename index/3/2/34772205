@@ -1,0 +1,4 @@
+
+ 
+ Many NLP applications rely on the existence ofsimilarity measures over text data.Although word vector space modelsprovide good similarity measures between words,phrasal and sentential similarities derived from compositionof individual words remain as a difficult problem.In this paper, we propose a new method of ofnon-linear similarity learning for semantic compositionality.In this method, word representations are learnedthrough the similarity learning of sentencesin a high-dimensional space with kernel functions.On the task of predicting the semantic similarity oftwo sentences (SemEval 2014, Task 1),our method outperforms linear baselines,feature engineering approaches,recursive neural networks,and achieve competitive results with long short-term memory models.
+ 

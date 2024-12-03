@@ -1,0 +1,4 @@
+
+ 
+ A Chinese character embedded in different compound words may carry different meanings. In this paper, we aim at semantical clustering of a given family of morphologically related Chinese words. In Experiment 1, we employed linguistic features at the word, syntactic, semantic, and contextual levels in aggregated computational linguistics methods to handle the clustering task. In Experiment 2, we recruited adults and children to perform the clustering task. Experimental results indicate that our computational model achieved a similar level of performance as children.
+ 

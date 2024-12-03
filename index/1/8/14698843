@@ -1,0 +1,1 @@
+The TAGE predictor is often considered as state-of-the-art in conditional branch predictors proposed by academy. In this paper, we first present directions to reduce the hardware implementation cost of TAGE. Second we show how to further reduce the misprediction rate of TAGE through augmenting it with small side predictors.

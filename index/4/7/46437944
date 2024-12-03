@@ -1,0 +1,1 @@
+We describe a planner that works on the description of a multi-path environment and generates a conditional plan. The resulting plan is guaranteed to fulfill its goal whatever path of the description the environment follows during the plan execution.

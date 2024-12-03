@@ -1,0 +1,11 @@
+The goal of sparse recovery is to recover a k-sparse signal x e Rn from (possibly noisy) linear measurements of the form y = Ax, where A e Rmxn describes the measurement process. Standard results in compressive sensing show that it is possible to recover the signal x from m = O(k log(n/k)) measurements, and that this bound is tight. The framework of model-based compressive sensing [BCDH10] overcomes the lower bound and reduces the number of measurements further to O(k) by limiting the supports of x to a subset M of the (nk) possible supports. This has led to many measurement-efficient algorithms for a wide variety of signal models, including block-sparsity and tree-sparsity. 
+ 
+Unfortunately, extending the framework to other, more general models has been stymied by the following obstacle: for the framework to apply, one needs an algorithm that, given a signal x, solves the following optimization problem exactly: 
+ 
+[EQUATION] 
+ 
+(here x[n]\Ω denotes the projection of x on coordinates not in Ω). However, an approximation algorithm for this optimization task is not sufficient. Since many problems of this form are not known to have exact polynomial-time algorithms, this requirement poses an obstacle for extending the framework to a richer class of models. 
+ 
+In this paper, we remove this obstacle and show how to extend the model-based compressive sensing framework so that it requires only approximate solutions to the aforementioned optimization problems. Interestingly, our extension requires the existence of approximation algorithms for both the maximization and the minimization variants of the optimization problem. 
+ 
+Further, we apply our framework to the Constrained Earth Mover's Distance (CEMD) model introduced in [SHI13], obtaining a sparse recovery scheme that uses significantly less than O(k log(n/k)) measurements. This is the first non-trivial theoretical bound for this model, since the validation of the approach presented in [SHI13] was purely empirical. The result is obtained by designing a novel approximation algorithm for the maximization version of the problem and proving approximation guarantees for the minimization algorithm described in [SHI13].

@@ -1,0 +1,6 @@
+Increased use of Very Large Scale Integration (VLSI) for the fabrication of digital circuits has led to increased interest in complexity results on the inherent VLSI difficulty of various problems. Lower bounds have been obtained for problems such as integer multiplication [1,2], matrix multiplication [7], sorting [8], and discrete Fourier transform [9], all within VLSI models similar to one originally developed by Thompson [8,9]. The lower bound results all pertain to a space-time trade-off measure that arises naturally within this model.
+ In this paper, we extend the model and the class of functions for which non-trivial bounds can be proved.
+ In Section 2, we give a more general model than has been proposed previously. In Section 3 we show how to reduce the derivation of lower bounds within the model to a problem in distributed computing
+ In Section 4, we consider lower bounds for a number of predicates: n-input, l-output functions (as contrasted with the n-input, n-output functions which have been studied previously).
+ In Section 5, we show that previous lower bound results (for n-input, n-output functions) also apply even when the model is extended to allow nondeterminism, randomness, and multiple arrivials.
+ Finally, the full details of the results presented here will appear in the final version of this paper.

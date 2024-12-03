@@ -1,0 +1,1 @@
+A new method for transformation from SA/RT to SDL has been developed. The method consists of a hybrid modelling language, serving as a bridge between the two expression techniques, together with a set of transformation rules and guidelines. This paper shows how SA/RT can serve as a front-end extension to SDL and that a rule based transformation is both feasible and practical.

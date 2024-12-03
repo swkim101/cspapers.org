@@ -1,0 +1,1 @@
+The key limiting factor in graphical model inference and learning is the complexity of the partition function. We thus ask the question: what are the most general conditions under which the partition function is tractable? The answer leads to a new kind of deep architecture, which we call sum-product networks (SPNs) and will present in this abstract.

@@ -1,0 +1,1 @@
+This paper proposes a statistical model for defining string similarity. The proposed model is based on hidden Markov model and defines string similarity as the combination of similarities of substrings. The proposed model has an advantage that the similarity is flexibly defined and complex parameters for the similarity are learnable from training data.

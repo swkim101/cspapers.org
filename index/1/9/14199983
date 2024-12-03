@@ -1,0 +1,4 @@
+
+ 
+ In some voting situations, some new candidates may show up in the course of the process. In this case, we may want to determine which of the initial candidates are possible winners, given that a fixed number k of new candidates will be added. Focusing on scoring rules, we give complexity results for the above possible winner problem.
+ 

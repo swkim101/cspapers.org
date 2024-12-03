@@ -1,0 +1,9 @@
+A new Prolog/Lisp type programming language called Qute is introduced. Qute computes (partial) recursive functions on the domain S of symbolic expressions in the sense of Sato[3], Sato and Hagiya[4]. 
+ 
+Qute amalgamates Prolog and Lisp in a natural way. Any expression that is meaningful to Qute is either a Prolog expression or a Lisp expression and a Prolog (Lisp) expression is handled by the Prolog (Lisp, resp.) part of Qute. Moreover, the Prolog-part and the Lisp-part calls each other recursively. 
+ 
+Compared with the traditional Lisp symbolic expressions, our symbolic expressions are mathematically much neater and yet constitute a richer domain. Qute is a theoretically well-founded language defined on this domain of symbolic expressions. 
+ 
+Many interesting features of Qute are described in this paper. 
+ 
+Qute has been implemented on VAX/UNIX and is used to develop a programming system for proving properties of our domain of symbolic expressions.

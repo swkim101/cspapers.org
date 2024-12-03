@@ -1,0 +1,1 @@
+Submodular maximization generalizes many important problems including Max Cut in directed/undirected graphs and hypergraphs, certain constraint satisfaction problems and maximum facility location problems. Unlike the problem of minimizing submodular functions, the problem of maximizing submodular functions is NP-hard.

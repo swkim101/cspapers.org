@@ -1,0 +1,4 @@
+
+ 
+ We address the problem of making single-point decisions in large partially observable games, where players interleave observation, deliberation, and action.  We present information set generation as a key operation needed to reason about games in this way.  We show how this operation can be used to implement an existing decision-making algorithm.  We develop a constraint satisfaction algorithm for performing information set generation and show that it scales better than the existing depth-first search approach on multiple non-trivial games.
+ 

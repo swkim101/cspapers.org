@@ -1,0 +1,1 @@
+. We introduce a new method for proving explicit upper bounds on the VC Dimension of general functional basis networks, and prove as an application, for the (cid:12)rst time, the VC Dimension of analog neural networks with the sigmoid activation function (cid:27)(y) = 1=1+e (cid:0)y to be bounded by a quadratic polynomial in the number of programmable parameters.

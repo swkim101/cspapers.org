@@ -1,0 +1,4 @@
+
+ 
+ Confidence-weighted (CW) learning is a successful online learning paradigm which maintains a Gaussian distribution over classifier weights and adopts a covariancematrix to represent the uncertainties of the weight vectors. However, there are two deficiencies in existing full CW learning paradigms, these being the sensitivity to irrelevant features, and the poor scalability to high dimensional data due to the maintenance of the covariance structure. In this paper, we begin by presenting an online-batch CW learning scheme, and then present a novel paradigm to learn sparse CW classifiers. The proposed paradigm essentially identifies feature groups and naturally builds a block diagonal covariance structure, making it very suitable for CW learning over very high-dimensional data.Extensive experimental results demonstrate the superior performance of the proposed methods over state-of-the-art counterparts on classification and feature selection tasks.
+ 

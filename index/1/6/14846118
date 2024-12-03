@@ -1,0 +1,1 @@
+A failed test reveals a potential bug in the tested code. Developers need to understand which parts of the test are relevant to the failure before they start bug-fixing.

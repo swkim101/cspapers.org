@@ -1,0 +1,1 @@
+In this paper, we present a method based on document probes to quantify and diagnose topic structure, distinguishing topics as monolithic, structured, or diffuse. The method also yields a structure analysis that can be used directly to optimize filter (classifier) creation. Preliminary results illustrate the predictive value of the approach on TREC/Reuters-96 topics.

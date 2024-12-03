@@ -1,0 +1,4 @@
+
+ 
+ This paper introduces a novel framework for generating pictorial storylines for given topics from text and image data on the Internet. Unlike traditional text summarization and timeline generation systems, the proposed framework combines text and image analysis and delivers a storyline containing textual, pictorial, and structural information to provide a sketch of the topic evolution. A key idea in the framework is the use of an approximate solution for the dominating set problem. Given a collection of topic-related objects consisting of images and their text descriptions, a weighted multi-view graph is first constructed to capture the contextual and temporal relationships among these objects. Then the objects are selected by solving the minimum-weighted connected dominating set problem defined on this graph. Comprehensive experiments on real-world data sets demonstrate the effectiveness of the proposed framework.
+ 

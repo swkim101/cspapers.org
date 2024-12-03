@@ -1,0 +1,1 @@
+We show that 4-universal hashing can be implemented efficiently using tabulated 4-universal hashing for characters, gaining a factor of 5 in speed over the fastest existing methods. We also consider generalization to k-universal hashing, and as a prime application, we consider the approximation of the second moment of a data stream.

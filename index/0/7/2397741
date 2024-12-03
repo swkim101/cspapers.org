@@ -1,0 +1,4 @@
+
+ 
+ The fact that birds have feathers and ice is cold seems trivially true. Yet, most machine-readable sources of knowledge either lack such common sense facts entirely or have only limited coverage. Prior work on automated knowledge base construction has largely focused on relations between named entities and on taxonomic knowledge, while disregarding common sense properties. In this paper, we show how to gather large amounts of common sense facts from Web n-gram data, using seeds from the ConceptNet collection. Our novel contributions include scalable methods for tapping onto Web-scale data and a new scoring model to determine which patterns and facts are most reliable. The experimental results show that this approach extends ConceptNet by many orders of magnitude at comparable levels of precision.
+ 

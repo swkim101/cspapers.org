@@ -1,0 +1,4 @@
+
+ 
+ Social events are events that occur between people where at least one person is aware of the other and of the event taking place. Extracting social events can play an important role in a wide range of applications, such as the construction of social network. In this paper, we introduce the task of social event extraction for tweets, an important source of fresh events. One main challenge is the lack of information in a single tweet, which is rooted in the short and noise-prone nature of tweets. We propose to collectively extract social events from multiple similar tweets using a novel factor graph, to harvest the redundance in tweets, i.e., the repeated occurrences of a social event in several tweets. We evaluate our method on a human annotated data set, and show that it outperforms all baselines, with an absolute gain of 21% in F1.
+ 

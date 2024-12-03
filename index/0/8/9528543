@@ -1,0 +1,4 @@
+
+ 
+ We propose a neural network approach to price EU call options that significantly outperforms some existing pricing models and comes with guarantees that its predictions are economically reasonable. To achieve this, we introduce a class of gated neural networks that automatically learn to divide-and-conquer the problem space for robust and accurate pricing. We then derive instantiations of these networks that are 'rational by design' in terms of naturally encoding a valid call option surface that enforces no arbitrage principles. This integration of human insight within data-driven learning provides significantly better generalisation in pricing performance due to the encoded inductive bias in the learning, guarantees sanity in the model's predictions, and provides econometrically useful byproduct such as risk neutral density.
+ 

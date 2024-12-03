@@ -1,0 +1,4 @@
+
+ 
+ A significant challenge to make learning techniques more suitable for general purpose use in AI is to move beyond i) complete supervision, ii) low dimensional data and iii) a single label per instance. Solving this challenge would allow making predictions for high dimensional large dataset with multiple (but possibly incomplete) labelings. While other work has addressed each of these problems separately, in this paper we show how to address them together, namely the problem of semi-supervised dimension reduction for multi-labeled classification, SSDR-MC. To our knowledge this is the first paper that attempts to address all challenges together. In this work, we study a novel joint learning framework which performs optimization for dimension reduction and multi-label inference in semi-supervised setting. The experimental results validate the performance of our approach, and demonstrate the effectiveness of connecting dimension reduction and learning.
+ 

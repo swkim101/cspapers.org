@@ -1,0 +1,1 @@
+zero-day, exploitable prototype pollution vulnerabilities. We verify that 48 vulnerabilities further lead to XSS, 736 to cookie manipulations, and 830 to URL manipulations. We reported all the ﬁndings to website maintainers and so far 185 vulnerable websites have already been patched.

@@ -1,0 +1,1 @@
+Pervasive and oblivious interference makes modular reasoning about concurrent programs difficult. This work presents Panini, a concurrent programming model with sparse and cognizant interference that enables modular reasoning.

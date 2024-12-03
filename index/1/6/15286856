@@ -1,0 +1,3 @@
+The method of showing a problem NP-complete by polynomial reduction is one of the most elegant and productive in our theory ([ 1 ], [ 3 ]). It is a means of providing compelling evidence that a problem in NP is not in P. In this paper we will demonstrate new methods for showing this.
+ Our methods, based on a new notion of reducibility (gamma-reducibility) are apparently of more general applicability than that of polynomial reduction and are intended to be of practical value to researchers in the field.
+ We use our methods to “demonstrate” (i.e., give compelling evidence) that some natural problems in NP which are not known to be NP-complete are, nonetheless, not in P.

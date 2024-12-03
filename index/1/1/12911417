@@ -1,0 +1,1 @@
+In the process of VLSI design, specifications are often changed. It is desirable that such changes will not lead to a very different design so that a large part of engineering effort can be preserved. We consider synthesis algorithms for handling such engineering changes. Given a synthesized network, our algorithm modifies it minimally to realize a new specification.

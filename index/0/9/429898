@@ -1,0 +1,1 @@
+Scheme translation is used to compare the abilities of languages obtained by augmenting recursion schemes with lists, markers, and functional values. It is shown that the first two additions make orthogonal contributions to the language's power. Theorems 4 and 5 appear to be new results.

@@ -1,0 +1,1 @@
+This paper presents a strongly polynomial algorithm for submodular function minimization using only additions, subtractions, comparisons, and oracle calls for function values.

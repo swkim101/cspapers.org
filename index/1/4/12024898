@@ -1,0 +1,4 @@
+
+ 
+ We propose probabilistic models for predicting future classifiers given labeled data with timestamps collected until the current time. In some applications, the decision boundary changes over time. For example, in spam mail classification, spammers continuously create new spam mails to overcome spam filters, and therefore, the decision boundary that classifies spam or non-spam can vary. Existing methods require additional labeled and/or unlabeled data to learn a time-evolving decision boundary. However, collecting these data can be expensive or impossible. By incorporating time-series models to capture the dynamics of a decision boundary, the proposed model can predict future classifiers without additional data. We developed two learning algorithms for the proposed model on the basis of variational Bayesian inference. The effectiveness of the proposed method is demonstrated with experiments using synthetic and real-world data sets.
+ 

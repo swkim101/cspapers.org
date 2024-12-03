@@ -1,0 +1,1 @@
+This paper describes a method of checking the spacing between elements (pads, etch, ground plane, etc.) on printed wiring boards. The etch paths are constrained to be straight line segments but not necessarily orthogonal ones. The process involves treating the lines representing the etch as vectors. Closeness is determined from the dot and cross products of line segment vectors.

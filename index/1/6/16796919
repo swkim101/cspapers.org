@@ -1,0 +1,2 @@
+This paper presents a rapid prototyping methodology for the carrying out of control systems in which high level Petri nets provide the common framework to integrate the main phases of software development: specification, validation, performance evaluation, implementation.
+Petri nets are shown to be translatable into Ada program structures concerning processes and their synchronizations.

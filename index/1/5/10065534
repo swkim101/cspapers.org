@@ -1,0 +1,4 @@
+
+ 
+ In this paper we investigate the application of natural gradient descent to Bellman error based reinforcement learning algorithms. This combination is interesting because natural gradient descent is invariant to the parameterization of the value function. This invariance property means that natural gradient descent adapts its update directions to correct for poorly conditioned representations. We present and analyze quadratic and linear time natural temporal difference learning algorithms, and prove that they are covariant. We conclude with experiments which suggest that the natural algorithms can match or outperform their non-natural counterparts using linear function approximation, and drastically improve upon their non-natural counterparts when using non-linear function approximation.
+ 

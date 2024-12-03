@@ -1,0 +1,1 @@
+Stemming can improve retrieval accuracy, but stemmers are language-specific. Character n-gram tokenization achieves many of the benefits of stemming in a language independent way, but its use incurs a performance penalty. We demonstrate that selection of a single n-gram as a pseudo-stem for a word can be an effective and efficient language-neutral approach for some languages.

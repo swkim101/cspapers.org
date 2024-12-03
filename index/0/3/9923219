@@ -1,0 +1,1 @@
+Both probabilistic context-free grammars (PCFGs) and shift-reduce probabilistic pushdown automata (PPDAs) have been used for language modeling and maximum likelihood parsing. We investigate the precise relationship between these two formalisms, showing that, while they define the same classes of probabilistic languages, they appear to impose different inductive biases.

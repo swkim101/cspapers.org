@@ -1,0 +1,4 @@
+
+ 
+ Understanding biological pathways is an important activity in the biological domain for drug development. Due to the parallelism and complexity inherent in pathways, computer models that can answer queries about pathways are needed. A researcher may ask `what-if' questions comparing alternate scenarios, that require deeper understanding of the underlying model. In this paper, we present overview of such a system we developed and an English-like high level language to express pathways and queries. Our language is inspired by high level action and query languages and it uses Petri Net execution semantics.
+ 

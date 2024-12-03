@@ -1,0 +1,5 @@
+In this paper, we describe a programming language based on constraints. Unlike former approaches, its interpreter propagates sets of possible values (rather than single values) through a network of constraints. During the propagation process, the value sets are filtered to obtain consistent subsets, or new values are computed for the undetermined variables from the set of given variables. 
+ 
+Constraint relations can be described in several ways. Finite relations can be represented straightforwardly by enumerating their extensions. Infinite relations can be described intensionally by patterns. More complex relations can be represented by constraint networks and hierarchies of constraint networks. Several control strategics are provided which compute local consistency as well as globally consistent solutions. 
+ 
+It is sketched how to realize a compiler for the language, which optimizes constraint descriptions at definition time. As a result, combinatorical explosion can be reduced, depending on the number of variables used in a constraint description.

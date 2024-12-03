@@ -1,0 +1,1 @@
+Following a dependency-based framework that admits no intermediate phrasal nodes and allows no crossing of syntactic dependency links, we discuss how Chinese sentences are analysed and annotated using an SGML-based scheme. Issues related to tolerance of errors at various levels of analysis and compatibility with other syntactic frameworks are addressed.

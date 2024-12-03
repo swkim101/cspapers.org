@@ -1,0 +1,1 @@
+We consider the problems of finding minimum P-edge connected and P-vertex connected subgraphs in a given graph. These problems are NP-hard. We provide better techniques to lower bound the size of the minimum subgraphs. This allows us to achieve approximation factors of a and $ respectively, thereby improving on existing algorithms that achieve

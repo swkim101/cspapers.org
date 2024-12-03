@@ -1,0 +1,4 @@
+
+ 
+ Many search and security games played on a graph can be modeled as normal-form zero-sum games with strategies consisting of sequences of actions. The size of the strategy space provides a computational challenge when solving these games. This complexity is tackled either by using the compact representation of sequential strategies and linear programming, or by incremental strategy generation of iterative double-oracle methods. In this paper, we present novel hybrid of these two approaches: compact-strategy double-oracle (CS-DO) algorithm that combines the advantages of the compact representation with incremental strategy generation. We experimentally compare CS-DO with the standard approaches and analyze the impact of the size of the support on the performance of the algorithms. Results show that CS-DO dramatically improves the convergence rate in games with non-trivial support
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of learning deep representation when target labels are available. In this paper, we show that there exists intrinsic relationship between target coding and feature representation learning in deep networks. Specifically, we found that distributed binary acode with error correcting capability is more capable of encouraging discriminative features, in comparison tothe 1-of-K coding that is typically used in supervised deep learning. This new finding reveals additional benefit of using error-correcting code for deep model learning,apart from its well-known error correcting property. Extensive experiments are conducted on popular visual benchmark datasets.
+ 

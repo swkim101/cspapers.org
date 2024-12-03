@@ -1,0 +1,4 @@
+
+ 
+ Face hallucination method is proposed to generate high-resolution images from low-resolution ones for better visualization. However, conventional hallucination methods are often designed for controlled settings and cannot handle varying conditions of pose, resolution degree, and blur. In this paper, we present a new method of face hallucination, which can consistently improve the resolution of face images even with large appearance variations. Our method is based on a novel network architecture called Bi-channel Convolutional Neural Network (Bi-channel CNN). It extracts robust face representations from raw input by using deep convolutional network, then adaptively integrates two channels of information (the raw input image and face representations) to predict the high-resolution image. Experimental results show our system outperforms the prior state-of-the-art methods.
+ 

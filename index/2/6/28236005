@@ -1,0 +1,4 @@
+
+ 
+ Linear submodular bandits has been proven to be effective in solving the diversification and feature-based exploration problems in retrieval systems. Concurrently, many web-based applications, such as news article recommendation and online ad placement, can be modeled as budget-limited problems. However, the diversification problem under a budget constraint has not been considered. In this paper, we first introduce the budget constraint to linear submodular bandits as a new problem called the linear submodular bandits with a knapsack constraint. We then define an alpha-approximation unit-cost regret considering that submodular function maximization is NP-hard. To solve this problem, we propose two greedy algorithms based on a modified UCB rule. We then prove these two algorithms with different regret bounds and computational costs. We also conduct a number of experiments and the experimental results confirm our theoretical analyses.
+ 

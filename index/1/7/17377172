@@ -1,0 +1,1 @@
+The outline and the application results of a computer aided logic design system which combines automatic translation of TTL SSI/MSI logic into gate array logic, human intervention, auxiliary logic simulation, and automatic documentation are described. Automaic translation of logic circuit is done by macro expansion technique coupled with redundant logic reduction procedures.

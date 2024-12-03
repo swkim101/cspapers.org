@@ -1,0 +1,1 @@
+A spelling program using a hierarchically organized file seems to be promising, since it can correct more than common typing mistakes. However, its speed of detecting spelling errors in the inputs is rather slow. Here some techniques of modifying the program to improve the speed are presented.

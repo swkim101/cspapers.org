@@ -1,0 +1,4 @@
+
+ 
+ Efficient reasoning in large knowledge bases is an important problem for AI systems. Hand-optimization of reasoning becomes impractical as KBs grow, and impossible as knowledge is automatically added via knowledge capture or machine learning. This paper describes a method for automatic extraction of axioms for efficient inference over large knowledge bases, given a set of query types and information about the types of facts in the KB currently as well as what might be learned. We use the highly right skewed distribution of predicate connectivity in large knowledge bases to prune intractable regions of the search space. We show the efficacy of these techniques via experiments using queries from a learning by reading system. Results show that these methods lead to an order of magnitude improvement in time with minimal loss in coverage.
+ 

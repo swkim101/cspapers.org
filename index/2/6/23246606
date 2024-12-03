@@ -1,0 +1,4 @@
+
+ 
+ Human choice is complex in two ways. First, human choice often shows complex dependency on available alternatives. Second, human choice is often made after examining complex items such as images. The recently proposed choice model based on the restricted Boltzmann machine (RBM choice model) has been proved to represent three typical phenomena of human choice, which addresses the first complexity. We extend the RBM choice model to a deep choice model (DCM) to deal with the features of items, which are ignored in the RBM choice model. We then use deep learning to extract latent features from images and plug those latent features as input to the DCM. Our experiments show that the DCM adequately learns the choice that involves both of the two complexities in human choice.
+ 

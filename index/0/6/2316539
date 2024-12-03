@@ -1,0 +1,4 @@
+
+ 
+ We study Refer-to-as relations as a new type of semanticknowledge. Compared to the much studied Is-a relation,which concerns factual taxonomy knowledge, Refer-to-as relationsaim to address pragmatic semantic knowledge. Forexample, a “penguin” is a “bird” from a taxonomy point ofview, but people rarely refer to a “penguin” as a “bird” invernacular use. This observation closely relates to the entrylevelcategorization studied in Prototype Theory in Psychology.We posit that Refer-to-as relations can be learned fromdata, and that both textual and visual information would behelpful in inferring the relations. By integrating existing lexicalstructure knowledge with language statistics and visualsimilarities, we formulate a collective inference approach tomap all object names in an encyclopedia to commonly usednames for each object. Our contributions include a new labeleddata set, the inference and optimization approach, andthe computed mappings and similarities.
+ 

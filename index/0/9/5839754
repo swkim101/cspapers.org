@@ -1,0 +1,1 @@
+Faults in some sensor networks are likely to be localized. The conventional metric of fault-tolerance - connectivity of the network graph - fails to capture any notion of locality. This research introduces a new metric - <i><b>region-based connectivity</b></i> - that incorporates the notion of locality.

@@ -1,0 +1,1 @@
+Under the assumption that each pair of participants can communicate secretly, we show that any reasonable multiparty protocol can be achieved if at least 2n/3 of the participants are honest. The secrecy achieved is unconditional. It does not rely on any assumption about computational intractability.

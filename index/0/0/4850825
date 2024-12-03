@@ -1,0 +1,12 @@
+We consider the following problem, which is called the <i>odd cycles transversal problem</i>.
+ <b>Input:</b> A graph <i>G</i> and an integer <i>k</i>.
+ <b>Output:</b> A vertex set <i>X</i> ∈ <i>V(G)</i> with |<i>X</i>| ≤ <i>k</i> such that <i>G</i> -- <i>X</i> is bipartite.
+ We present an <i>O(mα(m, n</i>)) time algorithm for this problem for any fixed <i>k</i>, where <i>n, m</i> are the number of vertices and the number of edges, respectively, and the function α(<i>m, n</i>) is the inverse of the Ackermann function (see by Tarjan [38]).
+ This improves the time complexity of the algorithm by Reed, Smith and Vetta [29] who gave an <i>O(nm</i>) time algorithm for this problem. Our algorithm also implies the edge version of the problem, i.e, there is an edge set <i>X</i>' ε <i>E(G</i>) such that <i>G</i> -- <i>X</i>' is bipartite.
+ Using this algorithm and the recent result in [16], we give an <i>O(mα(m, n</i>) + <i>n</i> log <i>n</i>) algorithm for the following problem for any fixed <i>k:</i>
+ <b>Input:</b> A graph <i>G</i> and an integer <i>k</i>.
+ <b>Output:</b> Determine whether or not there is a half-integral <i>k</i> disjoint odd cycles packing, i.e, <i>k</i> odd cycles <i>C</i><sub>1</sub>,..., <i>C</i><sub><i>k</i></sub> in <i>G</i> such that each vertex is on at most two of these odd cycles.
+ This improves the time complexity of the algorithm by Reed, Smith and Vetta [29] who gave an <i>O(n</i><sup>3</sup>) time algorithm for this problem.
+ We also give a much simpler and much shorter proof for the following result by Reed [28].
+ The Erdős-Pósa property holds for the half-integral disjoint odd cycles packing problem. I.e. either <i>G</i> has a half-integral <i>k</i> disjoint odd cycles packing or <i>G</i> has a vertex set <i>X</i> of order at most <i>f (k</i>) such that <i>G</i> -- <i>X</i> is bipartite for some function <i>f</i> of <i>k</i>.
+ Note that the Erdős-Pósa property does not hold for odd cycles in general.

@@ -1,0 +1,3 @@
+It all began in Colossus, with a code-breaking machine that was one of the first known examples of a shift register. During the ages, the shift registers demonstrated their capacity to be the heart of any digital system. Now the applications are well-known as well in cryptography (Rijndael Algorithm) as in error correcting and in wireless communication systems. 
+ 
+This paper contains an analysis of functioning for Linear Feedback Shift Register and Multiple Input-output Shift Register using grade 4 irreducible polynomials. Three kinds of scheme for implementation of a LFSR were analyzed and a formula that linked the results was verified.

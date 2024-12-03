@@ -1,0 +1,1 @@
+A program is described which infers certain recursive LISP programs from single example input-output pairs Synthesized programs may recur in more than one argument, and may involve the synthesis of auxiliary functions An actual user session with the program, called EXAMPLE, is presented, and the operation of the program and its important heuristics are outlined.

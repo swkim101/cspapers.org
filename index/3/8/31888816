@@ -1,0 +1,1 @@
+This paper investigates the sensibility of the interval type-2 fuzzy c-regression algorithm to noise and outliers. To overcome this problem, a modified version of this algorithm is presented. The consequences parameters of local models are estimated using the weighted recursive least squares method. This approach is tested and validated using two examples.

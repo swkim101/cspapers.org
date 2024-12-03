@@ -1,0 +1,11 @@
+This paper presents some fundamental properties of a statistical organizer that are considered from the view point of system organization and organizing capability. The system performance is evaluated by means of the concept of the information processing capacity under the assumption that the pattern is distributed according to the multivariate normal distribution. 
+ 
+In the two-category problem, the typical statistical organizer, the Bayes organizer and the regression organizer show the same organizing capability in the first-stage approximation and the information processing capacity becomes 1 for each case. 
+ 
+The organizing capability of the organizer depends upon the information which is uthzed for the system organization. 
+ 
+The relationships among them are analyzed theoretically, and if the system is organized by the combination of subcovarlance matrices of rank N (1 = l s) obtained by the samples, the information processing capacity is reduced to max (N 1 / N) (I- ls-). 
+ 
+The relation of the organizing capability between the linear organizer and the nonlinear organizer is obtained theoretically for some cases. 
+ 
+The same considerations are also applied to the typical R category organizers and the information processing capacity becomes R if R times weighting elements arc adopted. Several kinds of the computer simulations are obtained to check the theoretical results. These results coincide well with the theoretical ones.

@@ -1,0 +1,1 @@
+This paper describes a new algorithm for searching games which is conceptually simple, space efficient, and analytically tractable. It possesses optimal asymptotic properties and may offer practical advantages over α-β for deep searches.

@@ -1,0 +1,1 @@
+We present an approach to augment test suites with automatically generated integration test cases. Our approach utilizes existing test cases to direct generation towards producing complex object interactions and execution sequences that have not been observed before.

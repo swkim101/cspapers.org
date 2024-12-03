@@ -1,0 +1,4 @@
+
+ 
+ We propose a new method for transferring a policy from a source task to a target task in model-based reinforcement learning. Our work is motivated by scenarios where a robotic agent operates in similar but challenging environments, such as hospital wards, differentiated by structural arrangements or obstacles, such as furniture. We address problems that require fast responses adapted from incomplete, prior knowledge of the agent in new scenarios. We present an efficient selective exploration strategy that maximally reuses the source task policy. Reuse efficiency is effected through identifying sub-spaces that are different in the target environment, thus limiting the exploration needed in the target task. We empirically show that SEAPoT performs better in terms of jump starts and cumulative average rewards, as compared to existing state-of-the-art policy reuse methods.
+ 

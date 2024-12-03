@@ -1,0 +1,4 @@
+
+ 
+ In many real world applications, the number of examples to learn from is plentiful, but we can only obtain limited information on each individual example. We study the possibilities of efficient, provably correct, large-scale learning in such settings. The main theme we would like to establish is that large amounts of examples can compensate for the lack of full information on each individual example. The type of partial information we consider can be due to inherent noise or from constraints on the type of interaction with the data source. In particular, we describe and analyze algorithms for budgeted learning, in which the learner can only view a few attributes of each training example, and algorithms for learning kernel-based predictors, when individual examples are corrupted by random noise.
+ 

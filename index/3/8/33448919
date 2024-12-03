@@ -1,0 +1,1 @@
+The global EDF scheduling of sporadic task systems upon uniform multiprocessor platforms is studied. A sufficient schedulability test is presented and proved correct. It is shown that this test generalizes the previously-known exact uniprocessor, and sufficient identical multiprocessor, EDF- schedulability tests.

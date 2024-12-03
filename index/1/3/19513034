@@ -1,0 +1,4 @@
+
+ 
+ Branching heuristics based on counting solutions in constraints have been quite good at guiding search  to solve constraint satisfaction problems. But do they perform as well for constraint optimization problems? We propose an adaptation of counting-based search for optimization, show how to modify solution density computation for some of the most frequently-occurring constraints, and empirically evaluate its performance on several benchmark problems.
+ 

@@ -1,0 +1,1 @@
+With the help of numerical examples, we describe new fixed-order robust controller design functions implemented in version 3.0 of the polynomial toolbox for Matlab. The functions use convex optimization over linear matrix inequalities (LMIs) solved with the SeDuMi solver

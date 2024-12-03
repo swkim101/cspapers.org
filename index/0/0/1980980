@@ -1,0 +1,3 @@
+One of the challenges in implementing a portable kernel is finding good abstractions for semantically-similar operations which often have very machine-dependent implementations. This is especially important on modern machines which share common architectural features, e.g. the PCI bus. 
+ 
+This paper describes why a machine-independent DMA mapping abstraction is needed, the design considerations for such an abstraction, and the implementation of this abstraction in the NetBSD/alpha and NetBSD/i386 kernels.

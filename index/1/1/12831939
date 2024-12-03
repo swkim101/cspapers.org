@@ -1,0 +1,4 @@
+
+ 
+ This paper presents an extension of the cascading Indian buffet process (CIBP) intended to learning arbitrary directed acyclic graph structures as opposed to the CIBP, which is limited to purely layered structures. The extended cascading Indian buffet process (eCIBP) essentially consists in adding an extra sampling step to the CIBP to generate connections between non-consecutive layers. In the context of graphical model structure learning, the proposed approach allows learning structures having an unbounded number of hidden random variables and automatically selecting the model complexity. We evaluated the extended process on multivariate density estimation and structure identification tasks by measuring the structure complexity and predictive performance. The results suggest the extension leads to extracting simpler graphs without scarifying predictive precision.
+ 

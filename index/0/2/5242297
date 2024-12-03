@@ -1,0 +1,3 @@
+This paper's principal goal is to provide a discussion on issues raised by the coexistence in a semantic data model of (i) An object-oriented framework including the notions of token, class and property as well as the IS-A and INSTANCE-OF relations; (ii) Transactions that can cause state changes; (iii) Special (null) values such as "unknown", "nothing" and "inconsistent". 
+ 
+The paper presents a number of postulates that need to be satisfied by a database defined in forms of such features for its definition to be well-formed. The discussion uses as starting point TAXIS, a language for the design of interactive applications systems which offers all three types of features.

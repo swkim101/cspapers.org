@@ -1,0 +1,1 @@
+In this paper, we present QUALEX, a system and algorithm for generating first-order qualitative causal graphs for tutorial purposes based on de Kleer and Brown's qualitative modeling theory. QUALEX is embedded in a constructive simulation environment called Heart Works which teaches hydraulics principles about the cardio-vascular system to first year college biology students.

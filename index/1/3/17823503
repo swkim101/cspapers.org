@@ -1,0 +1,4 @@
+
+ 
+ We present a simple set of algorithms based on Thompson Sampling for stochastic bandit problems with graph feedback. Thompson Sampling is generally applicable, without the need to construct complicated upper confidence bounds. As we show in this paper, it has excellent performance in problems with graph feedback, even when the graph structure itself is unknown and/or changing. We provide theoretical guarantees on the Bayesian regret of the algorithm, as well as extensive experi- mental results on real and simulated networks. More specifically, we tested our algorithms on power law, planted partitions and Erdo's–Rényi graphs, as well as on graphs derived from Facebook and Flixster data and show that they clearly outperform related methods that employ upper confidence bounds.
+ 

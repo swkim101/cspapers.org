@@ -1,0 +1,4 @@
+
+ 
+ We develop a new approach for a pre-disaster planning problem which consists in computing an optimal investment plan to strengthen a transportation network, given that a future disaster probabilistically destroys links in the network. We show how the problem can be formulated as a non-linear integer program and devise an AI algorithm to solve it. In particular, we introduce a new type of extreme resource constraint and develop a practically efficient propagation algorithm for it. Experiments show several orders of magnitude improvements over existing approaches, allowing us to close an existing real-world benchmark and to solve to optimality other, more challenging benchmarks.
+ 

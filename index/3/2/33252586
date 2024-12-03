@@ -1,0 +1,4 @@
+
+ 
+ Landmark heuristics are perhaps the most accurate current known admissible heuristics for optimal planning. A disjunctive action landmark can be seen a form of at-least-one constraint on the actions it contains. In many domains, some critical propositions have to be established for a number of times.Propositional landmarks are too weak to express this kind of constraints.In this paper, we propose to generalize landmarks to multi-valued landmarks to represent the more general cardinality constraints. We present a class of local multi-valued landmarks that can be efficiently extracted from propositional landmarks.By encoding multi-valued landmarks into CNF formulas, we can also use SAT solvers to systematically extract multi-valued landmarks.Experiment evaluations show that multi-valued landmark based heuristics are more close to $h^*$ andcompete favorably with the state-of-the-art of admissible landmark heuristics on benchmark domains.
+ 

@@ -1,0 +1,1 @@
+In an ad-hoc retrieval task, the query is usually short and the user expects to find the relevant documents in the first several result pages. We explored the possibilities of using Wikipedia's articles as an external corpus to expand ad-hoc queries. Results show promising improvements over measures that emphasize on weak queries.

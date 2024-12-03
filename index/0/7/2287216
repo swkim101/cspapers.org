@@ -1,0 +1,4 @@
+
+ 
+ Events are typically composed of a sequence of subevents. Predicting a future subevent of an event is of great importance for many real-world applications. Most previous work on event prediction relied on hand-crafted features and can only predict events that already exist in the training data. In this paper, we develop an end-to-end model which directly takes the texts describing previous subevents as input and automatically generates a short text describing a possible future subevent. Our model captures the two-level sequential structure of a subevent sequence, namely, the word sequence for each subevent and the temporal order of subevents. In addition, our model incorporates the topics of the past subevents to make context-aware prediction of future subevents. Extensive experiments on a real-world dataset demonstrate the superiority of our model over several state-of-the-art methods.
+ 

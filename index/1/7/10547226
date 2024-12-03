@@ -1,0 +1,3 @@
+In this paper we show how traditional hardware trap handlers can be generalized into an efficient vehicle for conditional branches. These ideas are being used in a VLSI processor under design.
+Conditional branches are often a major bottleneck in scheduling microinstructions on a horizontally microcoded machine. Several tests and conditional branches are frequently ready for scheduling simultaneously, but only one test and branch is possible in a given cycle.
+The trap facility is traditionally treated as an interrupt scheme for the notification of exceptional conditions. In this paper we study how the role of the trap mechanism may be expanded to include the parallel evaluation of arbitrary user-specified tests, and the concomitant performance benefits.

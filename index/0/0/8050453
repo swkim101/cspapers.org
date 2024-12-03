@@ -1,0 +1,4 @@
+
+ 
+ This paper addresses the task of trajectory cost prediction, a new learning task for trajectories. The goal of this task is to predict the cost for an arbitrary (possibly unknown) trajectory, based on a set of previous trajectory-cost pairs. A typical example of this task is travel-time prediction on road networks. The main technical challenge here is to infer the costs of trajectories including links with no or little passage history. To tackle this, we introduce a weight propagation mechanism over the links, and show that the problem can be reduced to a simple form of kernel ridge regression. We also show that this new formulation leads us to a unifying view, where a natural choice of the kernel is suggested to an existing kernel-based alternative.
+ 

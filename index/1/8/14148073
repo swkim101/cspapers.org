@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a novel approach to inductive process modeling, the task of constructing a quantitative account of dynamical behavior from time-series data and background knowledge. We review earlier work on this topic, noting its reliance on methods that evaluate entire model structures and use repeated simulation to estimate parameters, which together make severe computational demands. In response, we present an alternative method for process model induction that assumes each process has a rate, that this rate is determined by an algebraic expression, and that changes due to a process are directly proportionalto its rate. We describe RPM, an implemented system that incorporates these ideas, and we report analyses and experiments that suggest it scales well to complex domains and data sets. In closing, we discuss related research and outline ways to extend the framework.
+ 

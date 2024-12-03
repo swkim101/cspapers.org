@@ -1,0 +1,6 @@
+Dynamic connectivity is one of the most fundamental problems in dynamic graph
+algorithms. We present a randomized Las Vegas dynamic connectivity data
+structure with $O(\log n(\log\log n)^2)$ amortized expected update time and
+$O(\log n/\log\log\log n)$ worst case query time, which comes very close to the
+cell probe lower bounds of Patrascu and Demaine (2006) and Patrascu and Thorup
+(2011).

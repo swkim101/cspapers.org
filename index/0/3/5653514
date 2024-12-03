@@ -1,0 +1,1 @@
+We describe the semantic enrichment of journal articles with chemical structures and biomedical ontology terms using Oscar, a program for chemical named entity recognition (NER). We describe how Oscar works and how it can been adapted for general NER. We discuss its implementation in a real publishing workflow and possible applications for enriched articles.

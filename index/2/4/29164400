@@ -1,0 +1,4 @@
+
+ 
+ Geospatial data is at the core of the Semantic Web, of which the largest knowledge base contains more than 30 billions facts. Reasoning on these large amounts of geospatial data requires efficient methods for the computation of links between the resources contained in these knowledge bases. In this paper, we present Radon – efficient solution for the discovery of topological relations between geospatial resources according to the DE9-IM standard. Our evaluation shows that we outperform the state of the art significantly and by several orders of magnitude.
+ 

@@ -1,0 +1,1 @@
+Cognitive robotics is an approach to robot programming that draws inspiration from ideas in cognitive science, such as visual routines (Ullman 1984), dual-coding representations (Paivio 1986), and perceivable affordances (Gibson 1977; 1979). We have implemented primitives based on these ideas as part of Tekkotsu, an open source application development framework for the Sony AIBO.

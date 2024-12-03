@@ -1,0 +1,6 @@
+Benefiting from the sequence-level knowledge distillation, the Non-Autoregressive Transformer (NAT) achieves great success in neural machine translation tasks. 
+However, existing knowledge distillation has side effects, such as propagating errors from the teacher to NAT students, which may limit further improvements of NAT models and are rarely discussed in existing research.
+In this paper, we introduce selective knowledge distillation by introducing an NAT evaluator to select NAT-friendly targets that are of high quality and easy to learn.
+In addition, we introduce a simple yet effective progressive distillation method to boost NAT performance. 
+Experiment results on multiple WMT language directions and several representative NAT models show that our approach can realize a flexible trade-off between the quality and complexity of training data for NAT models, achieving strong performances.
+Further analysis shows that distilling only 5% of the raw translations can help an NAT outperform its counterpart trained on raw data by about 2.4 BLEU.

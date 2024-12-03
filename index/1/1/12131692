@@ -1,0 +1,3 @@
+Multi-context systems (MCS) represent contextual information flow. We show that the semantics of an MCS is completely determined by the information that is obtained when simulating the MCS, in such a way that a minimal amount of information is deduced at each step of the simulation. 
+ 
+In MCS, the acquisition of new information is based on the presence of other information only. We give a generalized account to model situations in which information can be obtained as a result of the absence of other information as well.

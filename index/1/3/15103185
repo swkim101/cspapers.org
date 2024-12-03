@@ -1,0 +1,1 @@
+Several previous works have changed DRAM bank structure to reduce memory access latency and have shown performance improvement. However, changes in the area-optimized DRAM bank can incur large area-overhead. To solve this problem, we propose Multiple Clone Row DRAM (MCR-DRAM), which uses existing DRAM bank structure without any modification.

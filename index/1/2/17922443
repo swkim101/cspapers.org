@@ -1,0 +1,4 @@
+
+ 
+ Monte-Carlo Tree Search, especially UCT and its POMDP version POMCP, have demonstrated excellent performanceon many problems. However, to efficiently scale to large domains one should also exploit hierarchical structure if present. In such hierarchical domains, finding rewarded states typically requires to search deeply; covering enough such informative states very far from the root becomes computationally expensive in flat non-hierarchical search approaches. We propose novel, scalable MCTS methods which integrate atask hierarchy into the MCTS framework, specifically lead-ing to hierarchical versions of both, UCT and POMCP. The new method does not need to estimate probabilistic models of each subtask, it instead computes subtask policies purely sample-based. We evaluate the hierarchical MCTS methods on various settings such as a hierarchical MDP, a Bayesian model-based hierarchical RL problem, and a large hierarchical POMDP.
+ 

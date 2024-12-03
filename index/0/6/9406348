@@ -1,0 +1,1 @@
+In this paper, we propose a semi-supervised framework for learning a weighted Euclidean subspace, where the best clustering can be achieved. Our approach capitalizes on user-constraints and the quality of intermediate clustering results in terms of its structural properties. It uses the clustering algorithm and the validity measure as parameters.

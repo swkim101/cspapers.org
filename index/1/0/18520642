@@ -1,0 +1,10 @@
+This paper describes a FORTRAN IV Laplace transform computer program, various algorithms used in the program, and an error evaluation of various portions of the program. It is a unified, 1000-card program that provides virtually all of the power associated with classical Laplace transform analysis. A further feature of the program is that the systems to be analyzed are described naturally by using Laplace transforms for the coding. An example is that the impedance of a series RLC circuit can be coded as:
+ Z &equil; R + L*S + 1./(C*S)
+ Capabilities of the program are:
+ •Bode plots
+ •Nichols plots
+ •Time response with plotting
+ •Fourier series with plotting
+ •RMS response to white noise inputs
+ •Evaluation of residues
+ The program performs these computations using the complex arithmetic capabilities of FORTRAN IV. The program has been thoroughly debugged and has run successfully on various computer systems. It has been programmed to be run with FORTRAN IV in batch processing and the compiled program requires approximately 16K words of core.

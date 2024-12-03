@@ -1,0 +1,1 @@
+We present a novel cooperative search algorithm for distributed, independent swarm robots. The focus of this paper is three fold: (1) identify fundamental issues associated with searching an area by multiple robots; (2) design a metric to measure the cooperation among multiple robots to complete a search; and (3) propose an effective search algorithm for swarm robots.

@@ -1,0 +1,7 @@
+For an effective Teacher-Student interaction, the Teacher has to maintain a constant understanding of "what is going on" in the Student's mind. When coming to Physics, the Teacher's ability to propose and to relate explanations at different levels of abstraction - as a chains of causal interactions (deep) or as a set of observable phenomena (shallow) - may determine a successful and lasting learning in the Student. 
+ 
+Here, we describe a knowledge representation to be used by the teacher to depict to herself the student's mental model and to tune her future lessons according to the current student comprehension. 
+ 
+Supported by a cognitive theory of children physics learning, we used the system WHY for modeling the evolution of a student's learning as it appeared at the teacher's eyes. Two of WHY's features turned out to be essential: (a) to deal with explanations having different levels of abstraction, and (b) the possibility to continuously evaluate the coherence of the hypothesized learner's model with respect to her explanation. 
+ 
+In the long term, the work's outcome might contribute to the development of teaching assistant systems that support the teacher in identifying "what has to be explained next".

@@ -1,0 +1,1 @@
+This paper focuses on the actuation strategy of an active driving simulator and its validation using experimental driving data. The simulator combines the simulation of both the road characteristics and the vehicle dynamics into a single architecture. The goal is to combine actual road excitation signals with imposed vehicle movements to create a realistic driving experience.

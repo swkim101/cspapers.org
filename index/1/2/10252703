@@ -1,0 +1,4 @@
+
+ 
+ Intelligent item recommendation is a key issue in AI research which enables recommender systems to be more “human-minded” when generating recommendations. However, one of the major features of human — forgetting, has barely been discussed as regards recommender systems. In this paper, we considered people’s forgetting of interest when performing personalized recommendations, and brought forward a personalized framework to integrate interest-forgetting property with Markov model. Multiple implementations of the framework were investigated and compared. The experimental evaluation showed that our methods could significantly improve the accuracy of item recommendation, which verified the importance of considering interest-forgetting in recommendations.
+ 

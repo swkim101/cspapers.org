@@ -1,0 +1,3 @@
+The purpose of this demonstration is to prove that the implementation on a micro computer of a complete version of an A.I. language, PROLOG in our case, is a to day reality. 
+ 
+We present the Apple II version of a complete, portable, Prolog system [I]. The system is implemerited In Candide. a language specially designed to write the Prolog interpreter, This language produces code for a virtual machine Micromegas. It 1r important to notice that such a system could not be implemented on a micro computer without using a floppy-disk virtual memory. We have demonstrated in a previous paper that this approach yields reasonable performance with good relibility.

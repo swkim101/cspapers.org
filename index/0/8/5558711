@@ -1,0 +1,4 @@
+
+ 
+ The Approximate Linear Programming (ALP) approach to value function approximation for MDPs is a parametric value function approximation method, in that it represents the value function as a linear combination of features which are chosen a priori. Choosing these features can be a difficult challenge in itself. One recent effort, Regularized Approximate Linear Programming (RALP), uses L1 regularization to address this issue by combining a large initial set of features with a regularization penalty that favors a smooth value function with few non-zero weights. Rather than using smoothness as a backhanded way of addressing the feature selection problem, this paper starts with smoothness and develops a non-parametric approach to ALP that is consistent with the smoothness assumption. We show that this new approach has some favorable practical and analytical properties in comparison to (R)ALP.
+ 

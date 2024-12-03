@@ -1,0 +1,3 @@
+If an item is accessed frequently enough, it should be main memory resident. For current technology, “frequently enough” means about every five minutes.
+Along a similar vein, one can frequently trade memory space for CPU time. For example, bits can be packed in a byte at the expense of extra instructions to extract the bits. It makes economic sense to spend ten bytes of main memory to save one instruction per second.
+These results depend on current price ratios of processors, memory and disc accesses. These ratios are changing and hence the constants in the rules are changing.

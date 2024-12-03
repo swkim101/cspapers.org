@@ -1,0 +1,5 @@
+One goal of machine discovery is to automate creative tasks from human scientific practice. This paper describes a project to automate in a general manner the theory-driven discovery of reaction pathways in chemistry and biology. We have designed a system - called MECHEM - that proposes credible pathway hypotheses from data ordinarily available to the chemist. MECHEM has been applied to reactions drawn from the history of biochemistry, from recent industrial chemistry as reported in journals, and from organic chemistry textbooks. 
+ 
+The paper first explains the chemical problem and discusses previous AI treatments. Then are presented the architecture of the system, the key algorithmic ideas, and the heuristics used to explore the very large space of chemical pathways. The system's efficacy is demonstrated on a biochemical reaction studied earlier by Kulkarni and Simon in the KEKADA system, and on another reaction from industrial chemistry. 
+ 
+Our project has also resulted in separate novel contributions to chemical knowledge, demonstrating that we have not simplified the task for our convenience, but have addressed its full complexity.

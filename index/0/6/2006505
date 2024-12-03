@@ -1,0 +1,4 @@
+
+ 
+ In Supreme Court parlance and the political science literature, an ideal point positions a justice in a continuous space and can be interpreted as a quantification of the justice's policy preferences. We present an automated approach to infer such ideal points for justices of the US Supreme Court. This approach combines topic modeling over case opinions with the voting (and endorsing) behavior of justices. Furthermore, given a topic of interest, say the Fourth Amendment, the topic model can be optionally seeded with supervised information to steer the inference of ideal points. Application of this methodology over five years of cases provides interesting perspectives into the leaning of justices on crucial issues, coalitions underlying specific topics, and the role of swing justices in deciding the outcomes of cases.
+ 

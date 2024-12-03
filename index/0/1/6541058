@@ -1,0 +1,1 @@
+TOBAC1 is part of a test management system for object-oriented software. A test case browser built under the Smalltalk-80 environment to dejire, manage and execute test cases is introduced. The main benejit of TOBA C is support for regression testing of complex objects. TOBAC is selfadaptable to the structure of an arbitrary complex object.

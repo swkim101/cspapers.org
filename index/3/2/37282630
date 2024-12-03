@@ -1,0 +1,4 @@
+
+ 
+ Entity Resolution (ER) concerns identifying logically equivalent pairs of entities that may be syntactically disparate. Although ER is a long-standing problem in the artificial intelligence community, the growth of Linked Open Data, a collection of semi-structured datasets published and inter-connected on the Web, mandates a new approach. The thesis is that building a viable Entity Resolution solution for serving Big Data needs requires simultaneously resolving challenges of automation, heterogeneity, scalability and domain independence. The dissertation aims to build such a system and evaluate it on real-world datasets published already as Linked Open Data.
+ 

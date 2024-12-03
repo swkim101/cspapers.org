@@ -1,0 +1,4 @@
+
+ 
+ This paper gives an attempt to explore the manifold in the label space for multi-label learning. Traditional label space is logical, where no manifold exists. In order to study the label manifold, the label space should be extended to a Euclidean space. However, the label manifold is not explicitly available from the training examples. Fortunately, according to the smoothness assumption that the points close to each other are more likely to share a label, the local topological structure can be shared between the feature manifold and the label manifold. Based on this, we propose a novel method called ML2, i.e., Multi-Label Manifold Learning, to reconstruct and exploit the label manifold. To our best knowledge, it is one of the first attempts to explore the manifold in the label space in multi-label learning. Extensive experiments show that the performance of multi-label learning can be improved significantly with the label manifold.
+ 

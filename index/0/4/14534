@@ -1,0 +1,2 @@
+The constraint tree provides a uniform framework for representing many loop transformations. It allows us to estimate the performance of several alternative execution methods before committing to any of the transformations.
+We introduce the constraint tree, show how it is built, and demonstrate its use for vectorization and parallel decomposition. We show how unconstrained loops can be moved to reduce the costs of memory accesses.

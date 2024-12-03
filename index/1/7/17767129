@@ -1,0 +1,1 @@
+We present a method for extracting parts of objects from wholes (e.g. "speedometer" from "car"). Given a very large corpus our method finds part words with 55% accuracy for the top 50 words as ranked by the system. The part list could be scanned by an end-user and added to an existing ontology (such as WordNet), or used as a part of a rough semantic lexicon.

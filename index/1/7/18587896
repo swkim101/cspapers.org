@@ -1,0 +1,1 @@
+The problem of searching for a given k-vector among a sorted list of n k-vectors is considered. The binary search is known to be optimal when k is 1. Here an almost optimal algorithm is presented for the 2-dimensional case. Interesting upper and lower bounds are derived for the general problem.

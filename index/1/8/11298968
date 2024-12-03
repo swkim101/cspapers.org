@@ -1,0 +1,4 @@
+
+ 
+ We propose the structured naive Bayes (SNB) classifier, which augments the ubiquitous naive Bayes classifier with structured features. SNB classifiers facilitate the use of complex features, such as combinatorial objects (e.g., graphs, paths and orders) in a general but systematic way. Underlying the SNB classifier is the recently proposed Probabilistic Sentential Decision Diagram (PSDD), which is a tractable representation of probability distributions over structured spaces. We illustrate the utility and generality of the SNB classifier via case studies. First, we show how we can distinguish players of simple games in terms of play style and skill level based purely on observing the games they play. Second, we show how we can detect anomalous paths taken on graphs based purely on observing the paths themselves.
+ 

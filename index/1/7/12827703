@@ -1,0 +1,4 @@
+
+ 
+ We consider dual-role exchange markets, where traders can offer to both buy and sell the same commodity in the exchange but, if they transact, they can only be either a buyer or a seller, which is determined by the market mechanism. To design desirable mechanisms for such exchanges, we show that existing solutions may not be incentive compatible, and more importantly, cause the market maker to suffer a significant deficit. Hence, to combat this problem, following McAfee's trade reduction approach, we propose a new trade reduction mechanism, called balanced trade reduction, that is incentive compatible and also provides flexible trade-offs between efficiency and deficit.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Many models and mechanisms in resource and cost allocation have been developed that are simple and abstract. By means of two case studies, I argue that it is now timely to consider richer models for the fair division of resources and for the allocation of costs. Such models should have features like asynchronicity which reflect more of the true complexity of many fair division and cost allocation problems met in the real world. I suggest that computation can be used in such models to increase both efficiency and fairness of the allocations. As a result, we may be able to do more with fewer resources and greater fairness.
+ 

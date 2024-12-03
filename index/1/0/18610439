@@ -1,0 +1,4 @@
+
+ 
+ The paper investigates the potential of look-ahead in the con-text of AND/OR search in graphical models using the Mini-Bucket heuristic for combinatorial optimization tasks (e.g., MAP/MPE or weighted CSPs). We present and analyze the complexity of computing the residual (a.k.a Bellman update) of the Mini-Bucket heuristic and show how this can be used to identify which parts of the search space are more likely to benefit from look-ahead and how to bound its overhead. We also rephrase the look-ahead computation as a graphical model, to facilitate structure exploiting inference schemes. We demonstrate empirically that augmenting Mini-Bucket heuristics by look-ahead is a cost-effective way of increasing the power of Branch-And-Bound search.
+ 

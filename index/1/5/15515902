@@ -1,0 +1,5 @@
+How do we scale information extraction to the massive size and unprecedented heterogeneity of the Web corpus? Beginning in 2003, our KnowItAll project has sought to extract high-quality knowledge from the Web. 
+ 
+In 2007, we introduced the Open Information Extraction (Open IE) paradigm which eschews hand-labeled training examples, and avoids domain-specific verbs and nouns, to develop unlexicalized, domain-independent extractors that scale to the Web corpus. Open IE systems have extracted billions of assertions as the basis for both common-sense knowledge and novel question-answering systems. 
+ 
+This paper describes the second generation of Open IE systems, which rely on a novel model of how relations and their arguments are expressed in English sentences to double precision/recall compared with previous systems such as TEXTRUNNER and WOE.

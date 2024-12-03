@@ -1,0 +1,1 @@
+We present XBenchMatch, a benchmark which uses as input the result of a schema matching algorithm (set of mappings and/or an integrated schema) and generates statistics about the quality of this input and the performance of the matching tool.

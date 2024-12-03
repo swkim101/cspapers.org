@@ -1,0 +1,1 @@
+The problem of optimal control of a M/M/m queueing system is investigated. As in the M/M/l case the optimum control is shown to be a window type mechanism. The window size L depends on the maximum allowable time delay T and can be explicitly computed. The throughput time delay function of the M/M/m system is briefly discussed.

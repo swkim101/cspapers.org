@@ -1,0 +1,4 @@
+
+ 
+ A helpful teacher can significantly improve the learning rate of a learning agent. Teaching algorithms have been formally studied within the field of Algorithmic Teaching. These give important insights into how a teacher can select the most informative examples while teachinga new concept. However the field has so far focused purely on classification tasks. In this paper we introducea novel method for optimally teaching sequential decision tasks. We present an algorithm that automatically selects the set of most informative demonstrations andevaluate it on several navigation tasks. Next, we explore the idea of using this algorithm to produce instructions for humans on how to choose examples when teaching sequential decision tasks. We present a user study that demonstrates the utility of such instructions.
+ 

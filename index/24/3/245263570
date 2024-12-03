@@ -1,0 +1,1 @@
+This work deals with the design of a Fault Tolerant Control for a non linear uncertain system described by Takagi-Sugeno fuzzy structures using a proportional integral sliding mode observer. The observer convergence conditions are formulated in the form of Linear Matrix Inequalities allowing computing the observer gain.

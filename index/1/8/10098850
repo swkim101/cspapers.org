@@ -1,0 +1,1 @@
+It is described how a timing accurate system for logic and deductive fault simulation can be used in the forward tracing part of the D-algorithm. The logic simulation is used for the forward implication and the verification phases. The deductive fault simulator is used for D-propagation. Some results from executions of the test generation program are presented.

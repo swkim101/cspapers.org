@@ -1,0 +1,4 @@
+
+ 
+ Robotic exploration is an on-line problem in which autonomous mobile robots incrementally discover and map the physical structure of initially unknown environments. Usually, the performance of exploration strategies used to decide where to go next is not compared against the optimal performance obtainable in the test environments, because the latter is generally unknown. In this paper, we present a method to calculate an approximation of the optimal (shortest) exploration path in an arbitrary environment. We consider a mobile robot with limited visibility, discretize a two-dimensional environment with a regular grid, and formulate a search problem for finding the optimal exploration path in the grid, which is solved using A*. Experimental results show the viability of our approach for realistically large environments and its potential for better assessing the performance of on-line exploration strategies.
+ 

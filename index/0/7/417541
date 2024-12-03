@@ -1,0 +1,5 @@
+There has been a lot of work published in recent literature regarding, large database design and application, especially in the area of simultaneous access and multiple concurrent updates. The various published solutions deal generally with either deadlock prevention, or detection and recovery techniques. In contrast, this paper presents considerations for the joint solution of four problems:
+ 1) integrity, (assuring one process does not void the updates of another),
+ 2) deadlock,
+ 3) restartibility, (avoiding the construction of phantom structure), and
+ 4) high efficiency buffering.

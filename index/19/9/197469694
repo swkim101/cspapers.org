@@ -1,0 +1,23 @@
+This article is devoted to constructing equations of motion for Holonomic systems 
+ 
+ using Lagrangian variables. We introduce the form of equations which allow 
+ 
+ for detailed analyses of both linear and non-linear terms of perturbed motion 
+ 
+ equations. Steady motion stability of systems with redundant coordinates is only 
+ 
+ possible in critical cases; e.g. when the characteristic equation has roots whose 
+ 
+ real parts are zero. In this case, it is imperative to analyze the nonlinear terms of 
+ 
+ the characteristic equation to solve stability issues. We suggest a rigorous method 
+ 
+ of solving stability problem for systems with geometric constraints. The method 
+ 
+ is based on analytical mechanics, theory of critical cases, nonlinear stability 
+ 
+ theory, and N.N. Krasovsky’s procedure of solving linear-quadratic problems. This 
+ 
+ grants the ability to make reasonable conclusions regarding system stability and 
+ 
+ calculations and calculate coefficients of the linear stabilizing control

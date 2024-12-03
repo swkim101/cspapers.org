@@ -1,0 +1,4 @@
+
+ 
+ We investigate the limiting behavior of trader wealth and prices in a simple prediction market with a finite set of participants having heterogeneous beliefs. Traders bet repeatedly on the outcome of a binary event with fixed Bernoulli success probability. A class of strategies, including (fractional) Kelly betting and constant relative risk aversion (CRRA) are considered. We show that when traders are willing to risk only a small fraction of their wealth in any period, belief heterogeneity can persist indefinitely; if bets are large in proportion to wealth then only the most accurate belief type survives. The market price is more accurate in the long run when traders with less accurate beliefs also survive. That is, the survival of traders with heterogeneous beliefs, some less accurate than others, allows the market price to better reflect the objective probability of the event in the long run.
+ 

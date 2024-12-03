@@ -1,0 +1,4 @@
+
+ 
+ Most work building on the Stackelberg security games model assumes that the attacker can perfectly observe the defender's randomized assignment of resources to targets. This assumption has been challenged by recent papers, which designed tailor-made algorithms that compute optimal defender strategies for security games with limited surveillance. We analytically demonstrate that in zero-sum security games, lazy defenders, who simply keep optimizing against perfectly informed attackers, are almost optimal against diligent attackers, who go to the effort of gathering a reasonable number of observations. This result implies that, in some realistic situations, limited surveillance may not need to be explicitly addressed.
+ 

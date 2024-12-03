@@ -1,0 +1,4 @@
+
+ 
+ When faced with complex choices, users refine their own preference criteria as they explore the catalogue of options. In this paper we propose an approach to preference elicitation suited for this scenario. We extend Coactive Learning, which iteratively collects manipulative feedback, to optionally query example critiques. User critiques are integrated into the learning model by dynamically extending the feature space. Our formulation natively supports constructive learning tasks, where the option catalogue is generated on-the-fly. We present an upper bound on the average regret suffered bythe learner. Our empirical analysis highlights the promise of our approach.
+ 

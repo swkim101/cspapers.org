@@ -1,7 +1,0 @@
-Persistent memory (PM) is fundamentally changing the way database index structures are built by enabling persistence, high performance, and (near) instant recovery all on the memory bus. Prior work has proposed many techniques to tailor index structure designs for PM, but they were mostly based on volatile DRAM with simulation due to the lack of real PM hardware. Until today is it unclear how these techniques will actually perform on real PM hardware.
- 
- With the recent released Intel Optane DC Persistent Memory, for the first time, this paper provides a comprehensive evaluation of recent persistent index structures. We focus on B
- +
- -Tree-based range indexes and carefully choose four representative index structures for evaluation: wBTree, NV-Tree, BzTree and FPTree. These four tree structures cover a wide, representative range of techniques that are essential building blocks of PM-based index structures. For fair comparison, we used an unified programming model for all trees and developed
- PiBench
- , a benchmarking framework which targets PM-based indexes. Through empirical evaluation using representative workloads, we identify key, effective techniques, insights and caveats to guide the making of future PM-based index structures.

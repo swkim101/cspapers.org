@@ -1,0 +1,4 @@
+
+ 
+ Cognitive agents operating in complex and dynamic domains benefit from significant goal management. Operations on goals include formulation, selection, change, monitoring and delegation in addition to goal achievement. Here we model these operations as transformations on goals. An agent may observe events that affect the agent’s ability to achieve its goals. Hence goal transformations allow unachievable goals to be converted into similar achievable goals. This paper examines an implementation of goal change within a cognitive architecture. We introduce goal transformation at the metacognitive level as well as goal transformation in an automated planner and discuss the costs and benefits of each approach. We evaluate goal change in the MIDCA architecture using a resource-restricted planning domain, demonstrating a performance benefit due to goal operations.
+ 

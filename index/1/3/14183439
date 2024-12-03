@@ -1,0 +1,3 @@
+L-Express is a protocol for Local Area Networks based on a single bus topology. It utilizes a simple and efficient virtual token access scheme which provides ordered and collision-free transmission.
+This paper presents results of measurements performed to investigate in details the behavior of the L-Express protocol under different network speeds, configurations and traffic environments. The measurements are obtained using a mix of simulation and field tests on a network prototype. Voice and integration of voice and data are also taken into account.
+The results indicate a good behavior (compared with Ethernet) for small size networks (500 m) and Low data rates (10 Mb/s) as well as for Large size networks (5000 m) and high data rates (100 Mb/s).

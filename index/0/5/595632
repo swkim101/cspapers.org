@@ -1,0 +1,4 @@
+
+ 
+ A main challenging problem for many machine learning and data mining applications is that the amount of data and features are very large, so that low-rank approximations of original data are often required for efficient computation. We propose new multi-level clustering based low-rank matrix approximations which are comparable and even more compact than Singular Value Decomposition (SVD). We utilize the cluster indicators of data clustering results to form the subspaces, hence our decomposition results are more interpretable. We further generalize our clustering based matrix decompositions to tensor decompositions that are useful in high-order data analysis. We also provide an upper bound for the approximation error of our tensor decomposition algorithm. In all experimental results, our methods significantly outperform traditional decomposition methods such as SVD and high-order SVD.
+ 

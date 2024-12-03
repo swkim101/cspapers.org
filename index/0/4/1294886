@@ -1,0 +1,1 @@
+Verifying security properties of protocols requires developers to manually create protocol-specific intruder models, which could be tedious and error prone. We present Slede, a verification framework for sensor network applications. Key features include automation of: extraction of models, generation and composition of intrusion models, and verification of security properties.

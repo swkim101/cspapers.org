@@ -1,0 +1,4 @@
+
+ 
+ We describe the experimental development of an AI player that adapts to different point systems for Parameterized Poker Squares. After introducing the game and research competition challenge, we describe our static board evaluation utilizing learned evaluations of abstract partial Poker hands. Next, we evaluate various time management strategies and search algorithms. Finally, we show experimentally which of our design decisions most signicantly accounted for observed performance.
+ 

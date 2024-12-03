@@ -1,0 +1,9 @@
+1 Three questions. 
+ 
+• Let G be a d-regular graph on n vertices where 3 ≤ d < n. Perform bond percolation with p = 1/d-1 and let C1 be the largest open cluster. Is E|C1| = O(n2/3)? (This is well known, and sharp, for d = n - 1, the Erdos-Renyi random graph.) 
+ 
+• Let G be an infinite connected graph with maximal degree d. Does simple RW on G always satisfy pt(x, y) ≤ C(d)/√ t? 
+ 
+• Simple RW on {0, 1}k, started uniformly, is a stationary, reversible Markov chain that for t < k/4, escapes at a positive speed (in the l1 metric) from its starting point. 
+ 
+Is there a chain with these properties in the l2 metric? And on a tree?

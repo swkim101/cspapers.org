@@ -1,0 +1,1 @@
+Rainbow is an approach for engineering self-adaptive systems, with run-time, closed-loop control over target systems to monitor, detect, decide, and act on opportunities for system improvement. RAIDE enables adaptation engineers to customize the Rainbow framework, simulate adaptation behavior, and deploy Rainbow run-time components.

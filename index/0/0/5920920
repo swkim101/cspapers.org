@@ -1,0 +1,9 @@
+We revisit the problem of designing strategyproof mechanisms for allocating divisible items among two agents who have linear utilities, where payments are disallowed and there is no prior information on the agents' preferences. The objective is to design strategyproof mechanisms which are competitive against the most efficient (but not strategyproof) mechanism. 
+For the case with two items: 
+(1) We provide a set of sufficient conditions for strategyproofness. 
+(2) We use an analytic approach to derive strategyproof mechanisms which are more competitive than all prior strategyproof mechanisms. 
+(3) We improve the linear-program-based proof of Guo and Conitzer to show new upper bounds on competitive ratios. 
+(4) We provide the first "mathematical" upper bound proof. 
+For the cases with any number of items: 
+(1) We build on the Partial Allocation mechanisms introduced by Cole et al. to design a strategyproof mechanism which is 0.67776-competitive, breaking the 2/3 barrier. 
+(2) We propose a new subclass of strategyproof mechanisms called Dynamical-Increasing-Price mechanisms, where each agent purchases the items using virtual money, and the prices of the items depend on other agents' preferences.

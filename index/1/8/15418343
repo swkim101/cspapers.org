@@ -1,0 +1,1 @@
+We introduce a problem called sequential trial optimization, a generalization of the well studied set cover problem with a new objective function. We give a simple algorithm that achieves a constant factor approximation to this problem. Sequential trial optimization naturally arises in heterogenous search environments such as peer to peer networks.

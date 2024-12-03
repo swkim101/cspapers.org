@@ -1,0 +1,1 @@
+The NP-hard Minimum Common String Partition problem asks whether two strings x and y can each be partitioned into at most k substrings such that both partitions use exactly the same substrings in a different order. We present the first fixed-parameter algorithm for Minimum Common String Partition using only parameter k.

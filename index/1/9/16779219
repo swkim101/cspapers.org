@@ -1,0 +1,1 @@
+In this paper, we prove that the set of sentences parsed by Marcus' parser constitutes a context-free language. The proof is carried out by constructing a deterministic pushdown automaton that recognizes those strings of terminals that are parsed successfully by the Marcus parser.

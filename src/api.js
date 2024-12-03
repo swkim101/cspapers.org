@@ -99,9 +99,9 @@ const marshal = (req) => {
  * @param {string} title 
  * @returns {[string, Error | null ]} abstract
  */
-const getAbstract = async (year, venue, title) => {
+const getAbstract = async (idx) => {
   try {
-    const res = await fetch(`${ABSTRACT_URL}/${year}/${venue.toLowerCase()}/${title}`)
+    const res = await fetch(`${ABSTRACT_URL}/${idx}`)
     if (res.status === 404) {
       return ["", null]
     } else if (!res.ok) {

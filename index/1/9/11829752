@@ -1,0 +1,1 @@
+We design a new learning algorithm for the Set Covering Machine from a PAC-Bayes perspective and propose a PAC-Bayes risk bound which is minimized for classifiers achieving a non trivial margin-sparsity trade-off.

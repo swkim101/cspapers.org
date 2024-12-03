@@ -1,0 +1,1 @@
+We trained a Siamese network with multi-task same/different information on a speech dataset, and found that it was possible to share a network for both tasks without a loss in performance. The first task was to discriminate between two same or different words, and the second was to discriminate between two same or different talkers.

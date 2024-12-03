@@ -1,0 +1,4 @@
+
+ 
+ Many real-world planning problems are oversubscription problems where all goals are not simultaneously achievable and the planner needs to find a feasible subset. We present complexity results for the so-called partial satisfaction and net benefit problems under various restrictions; this extends previous work by van den Briel et al. Our results reveal strong connections between these problems and with classical planning. We also present a method for efficiently compiling oversubscription problems into the ordinary plan existence problem; this can be viewed as a continuation of earlier work by Keyder & Geffner.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ This paper presents the results of developing subjectivity classifiers for Implicit Opinion Question (IOQ) identification. IOQs are defined as opinion questions with no opinion words. An IOQ example is "will the U.S. government pay more attention to the Pacific Rim?" Our analysis on community questions of Yahoo! Answers shows that a large proportion of opinion questions are IOQs. It is thus important to develop techniques to identify such questions. In this research, we first propose an effective framework based on mutual information and sequential pattern mining to construct an opinion lexicon that not only contains opinion words but also patterns. The discovered words and patterns are then combined with a machine learning technique to identify opinion questions. The experimental results on two datasets demonstrate the effectiveness of our approach.
+ 

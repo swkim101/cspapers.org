@@ -1,0 +1,1 @@
+Current tools for computer architecture design lack standard support for multi- and many-core development. We propose using circuit models to describe the multiple processor architecture to motivate a circuit based design approach applied to a computer architecture problem. A test chip with DVFS capable processors is used to explore our ideas through software implementation.

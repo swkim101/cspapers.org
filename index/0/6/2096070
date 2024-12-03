@@ -1,0 +1,4 @@
+
+ 
+ Introspection mechanisms are employed in agent architectures toimprove agent performance. However, there is currently no approach tointrospection that makes automatic adjustments at multiple levels inthe implemented agent system. We introduce our novel multi-levelintrospection framework that can be used to automatically adjustarchitectural configurations based on the introspection results at theagent, infrastructure and component level. We demonstrate the utilityof such adjustments in a concrete implementation on a robot where thehigh-level goal of the robot is used to automatically configure thevision system in a way that minimizes resource consumption whileimproving overall task performance.
+ 

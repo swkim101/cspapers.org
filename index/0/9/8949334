@@ -1,0 +1,1 @@
+One approach advocated in the search for better designed and more reliable operating systems is to base the design on the use of small protection domains. This paper presents empirical evidence to show that, with a suitable architecture, the overheads associated with using small protection domains do not make this an impractical approach.

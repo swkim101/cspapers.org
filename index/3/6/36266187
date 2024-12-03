@@ -1,0 +1,16 @@
+We present a novel probabilistic framework for 
+a hierarchical extension of independent component 
+analysis (ICA), with a particular motivation 
+in neuroscientific data analysis and modeling. 
+The framework incorporates a general subspace 
+pooling with linear ICA-like layers stacked 
+recursively. Unlike related previous models, our 
+generative model is fully tractable: both the likelihood 
+and the posterior estimates of latent variables 
+can readily be computed with analytically 
+simple formulae. The model is particularly simple 
+in the case of complex-valued data since 
+the pooling can be reduced to taking the modulus 
+of complex numbers. Experiments on electroencephalography 
+(EEG) and natural images 
+demonstrate the validity of the method.

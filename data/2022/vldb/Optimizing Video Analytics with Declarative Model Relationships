@@ -1,9 +1,0 @@
-The availability of vast video collections and the accuracy of ML models has generated significant interest in video analytics systems. Since naively processing all frames using expensive models is impractical, researchers have proposed optimizations such as selectively using faster but less accurate models to replace or filter frames for expensive models. However, these optimizations are difficult to apply on queries with multiple predicates and models, as users must manually explore a large optimization space. Without significant systems expertise or time investment, an analyst may manually create an execution plan that is unnecessarily expensive and/or terribly inaccurate.
- 
- We propose
- Relational Hints
- , a declarative interface that allows users to suggest ML model relationships based on domain knowledge. Users can express two key relationships: when a model can replace another (CAN REPLACE) and when a model can be used to filter frames for another (CAN FILTER). We aim to design an interface to express
- model relationships informed by domain specific knowledge
- and define the constraints by which these relationships hold. We then present the
- VIVA video analytics system
- that uses relational hints to optimize SQL queries on video datasets. VIVA automatically selects and validates the hints applicable to the query, generates possible query plans using a formal set of transformations, and finds the best performance plan that meets a user's accuracy requirements. VIVA relieves users from rewriting and manually optimizing video queries as new models become available and execution environments evolve. We evaluate VIVA implemented on top of Spark and show that hints improve performance up to 16.6X without sacrificing accuracy.

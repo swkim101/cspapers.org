@@ -1,0 +1,18 @@
+Many business processes can be described as partial orderings of tasks. We propose a model where each task is performed by one resource leased in a free market and all the resources for the process must be reserved atomically. The main problem we introduce and solve here is as follows: 
+Given: 
+ 
+1. A process composed of tasks to be executed in a specified 
+partial order 
+ 
+2. A set of resource types (people, information, machines) 
+required to execute each task 
+ 
+3. An objective function as a metric for choosing one resource over another 
+ 
+find and select the best resources (specific people, vehicles, computers, etc.) for each task, and commit all the resources for the entire process as an atomic operation, i.e., commit all resources or 
+no resources. 
+ 
+This problem is an abstraction of what we believe will become a typical optimization and agreement problem between consumers and suppliers in electronic commerce for services. We give a solution to the problem in two parts: an algorithm for selecting optimal resources for a business process, and a method (Micro-Option) for achieving an atomic reservation agreement between multiple distributed resources and consumers in a free market environment. 
+ 
+Managing atomic agreements between multiple parties is the 
+key problem for the lease-based free markets for services that we expect would form in the near future. Our Micro-Option method solves this problem for many business processes.

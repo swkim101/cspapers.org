@@ -1,0 +1,4 @@
+
+ 
+ The Approximate Nearest Neighbor (ANN) search problem is important in applications such as information retrieval. Several hashing-based search methods that provide effective solutions to the ANN search problem have been proposed. However, most of these focus on similarity preservation and coding error minimization, and pay little attention to optimizing the precision-recall curve or receiver operating characteristic curve. In this paper, we propose a novel projection-based hashing method that attempts to maximize the precision and recall. We first introduce an uncorrelated component analysis (UCA) by examining the precision and recall, and then propose a UCA-based hashing method. The proposed method is evaluated with a variety of datasets. The results show that UCA-based hashing outperforms state-of-the-art methods, and has computationally efficient training and encoding processes.
+ 

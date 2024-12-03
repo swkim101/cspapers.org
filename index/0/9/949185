@@ -1,0 +1,2 @@
+The efficiency of replacement algorithms in paged virtual-storage systems depends on the locality of memory references. The restructuring of the blocks which compose the program may improve this locality. [HATFIELD and GERALD 71] [MASUDA SHIOTA NOGUCHI and OHKI 74] [FERRARI 76].
+ In confining this restructuring to the link-editing operation, a general and completely automatic solution has been implemented, in the form of a self-adaptative system, on the SIRIS 8 operating system. A reduction of 40 to 70% in the page fault rate has been obtained.

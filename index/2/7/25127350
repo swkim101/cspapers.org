@@ -1,0 +1,7 @@
+Standard cells are now a mainstay of the ASIC industry. They are characterized by a well understood library of cells, each of which has a fixed geometry and, in particular, fixed transistor sizes. Their advantages include ease of use, predictability, and reasonably efficient use of silicon area. They normally require longer processing time than gate-array or sea-of-gates techniques because more fabrication steps are required, but in return provide higher levels of integration because of improved flexibility in placement and routing.
+Recently, a new design method has emerged. This consists of “cell generation” tools that do not depend on a library of predesigned cells, but instead create the cells they need for each job “on the fly.” Advantages include the ability to take any logic circuit directly, without massaging it into an existing cell (or group of cells) or going through the effort of manually adding custom cells. Furthermore, such tools are capable of handling circuits with individually sized transistors, from minimum size up to thousands of microns in channel width. Disadvantages include a larger CAD database (reflecting the additional information), and increased tool complexity.
+This panel will discuss the merits of these two approaches to ASIC design. The panelists are:Herman Beke - Silvar-Lisco
+Anton Domic - Digital Equipment Corporation
+Dwight Hill - AT&T Bell Laboratories
+Jiri Soukup - SDA Systems
+Manfred Weisel - Intel

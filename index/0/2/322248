@@ -1,0 +1,5 @@
+Symmetries abound in nature. Observing symmetries often provides the key to discovering internal structure. In problem solving, observing and reasoning about symmetries is a powerful tool for shifting viewpoints on a problem. 
+ 
+A calculus for reasoning about problem symmetries has been developed, called Invariant Logic. Invariant Logic is partially implemented in STRATA, a system which synthesizes algorithms through problem reformulation. 
+ 
+In STRATA, Invariant Logic is used to reason about generalized problem symmetries for several purposes. The first purpose is as a calculus for generating expressions denoting problem symmetries. The second purpose is problem abstraction - generating abstract problem descriptions which denote models in which the problem symmetries have been collapsed. The third purpose is problem reduction - specializing a problem description by adding constraints in order to realize performance gains.

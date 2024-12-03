@@ -1,0 +1,3 @@
+We propose a new machine architecture for high performance 
+execution of late binding object oriented languages. The two principal mechanisms for attaining this goal are a fast context allocation/access scheme and an instruction translation lookaside buffer. New ideas in this 
+paper include the concept and implementation of abstract instructions, using floating point addresses to solve the small object problem, and a novel context allocation/access mechanism.

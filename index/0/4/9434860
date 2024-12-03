@@ -1,0 +1,4 @@
+
+ 
+ Modern techniques for representing games and computing their Nash equilibria are approaching the point where they can be used to analyze market games. We demonstrate this by showing how the equilibria of different position auction mechanisms can be tractably identified using these techniques. These results enable detailed and quantitative comparisons of the different auction mechanisms — in terms of both efficiency and revenue — under different preference models and equilibrium selection criteria.
+ 

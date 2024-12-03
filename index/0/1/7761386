@@ -1,0 +1,1 @@
+We prove that a monotone circuit of size nd recognizing connectivity y must have depth Q ( (log n )2 / log d). For formulas this implies depth Q((log n)2 / log log n). For polynomial-size circuits the bound becomes Q((log n)z ) which is optimal up to a constant.

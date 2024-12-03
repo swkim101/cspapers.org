@@ -1,0 +1,5 @@
+We introduce a new tabulation-based hashing scheme called "twisted tabulation". It is essentially as simple and fast as simple tabulation, but has some powerful distributional properties illustrating its promise: 
+ 
+(1) If we sample keys with arbitrary probabilities, then with high probability, the number of samples inside any subset is concentrated exponentially. With bounded independence we only get polynomial concentration, and with simple tabulation, we have no good bound even in the basic case of tossing an (unbiased) coin for each key. 
+ 
+(2) With classic hash tables such as linear probing and collision-chaining, a window of B operations takes O(B) time with high probability, for B = Ω(lg n). Good amortized performance over any window of size B is equivalent to guaranteed throughput for an on-line system processing a stream via a buffer of size B (e.g., Internet routers).

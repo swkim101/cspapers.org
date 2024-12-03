@@ -1,0 +1,1 @@
+In this paper we discuss some of the problems in constructing and utilizing loop invariants for For-loops. Another kind of assertion, the loop post-invariant, is offered as an alternative to the loop invariant in designing, documenting and proving the correctness of For-loops.

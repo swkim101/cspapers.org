@@ -1,0 +1,5 @@
+We consider an automated agent that needs to coordinate with a human partner when communication between them is not possible or is undesirable (tactic coordination games). Specifically, we examine situations where an agent and human attempt to coordinate their choices among several alternatives with equivalent utilities. We use machine learning algorithms to help the agent predict human choices in these tactic coordination domains. 
+ 
+Learning to classify general human choices, however, is very difficult. Nevertheless, humans are often able to coordinate with one another in communication-free games, by using focal points, "prominent" solutions to coordination problems. 
+ 
+We integrate focal points into the machine learning process, by transforming raw domain data into a new hypothesis space. This results in classifiers with an improved classification rate and shorter training time. Integration of focal points into learning algorithms also results in agents that are more robust to changes in the environment.

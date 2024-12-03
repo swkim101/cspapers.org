@@ -1,0 +1,1 @@
+Researchers use shared computing clusters to ask interesting questions and wish to maximize their utilization. Currently, optimizations focus on individual programs. We present task fusion to automatically merge multiple tasks into a single task. An example implementation shows fused tasks take 14-90% less time than running the tasks individually.

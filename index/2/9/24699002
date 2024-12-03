@@ -1,0 +1,1 @@
+A published version of Bubblesort is analyzed via correctness arguments and the failure of these arguments leads to the discovery of a subtle bug. A simple change produces a correct version and a not-so-trivial proof of termination completes the total correctness demonstration for the revised algorithm. Several important lessons are extracted from this experience.

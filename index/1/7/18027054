@@ -1,0 +1,1 @@
+I present an approach to avoid functional failures at runtime in component-based application systems. The approach exploits the intrinsic redundancy of components to find workarounds as alternative sequences of operations to avoid a failure. A first Java prototype is presented, and an evaluation plan, as some preliminary results, are discussed.

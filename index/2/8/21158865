@@ -1,0 +1,1 @@
+A class of machines called auxiliary pushdown machines is introduced. Several types of pushdown automata, including stack automata, are characterized in terms of these machines. The computing power of each class of machines in question is characterized in terms of time bounded Turing machines, and corollaries are derived which answer some open questions in the field.

@@ -1,0 +1,4 @@
+
+ 
+ In recent years, social networks have surged in popularity as one of the main applications of the Internet. This has generated great interest in researching these networks by various fields in the scientific community. One key aspect of social network research is identifying important missing information which is not explicitly represented in the network, or is not visible to all. To date, this line of research typically focused on what connections were missing between nodes,or what is termed the "Missing Link Problem." This paper introduces a new Missing Nodes Identification problem where missing members in the social network structure must be identified. Towards solving this problem, we present an approach based on clustering algorithms combined with measures from missing link research. We show that this approach has beneficial results in the missing nodes identification process and we measure its performance in several different scenarios.
+ 

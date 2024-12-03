@@ -1,0 +1,4 @@
+
+ 
+ Graph-based clustering methods perform clustering on a fixed input data graph. If this initial construction is of low quality then the resulting clustering may also be of low quality. Moreover, existing graph-based clustering methods require post-processing on the data graph to extract the clustering indicators. We address both of these drawbacks by allowing the data graph itself to be adjusted as part of the clustering procedure. In particular, our Constrained Laplacian Rank (CLR) method learns a graph with exactly k connected components (where k is the number of clusters). We develop two versions of this method, based upon the L1-norm and the L2-norm, which yield two new graph-based clustering objectives. We derive optimization algorithms to solve these objectives. Experimental results on synthetic datasets and real-world benchmark datasets exhibit the effectiveness of this new graph-based clustering method.
+ 

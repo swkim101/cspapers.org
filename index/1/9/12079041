@@ -1,0 +1,4 @@
+
+ 
+ We create a unified framework for analyzing and synthesizing plans with loops for solving problems with non-deterministic numeric effects and a limited form of partial observability. Three different action models---with deterministic, qualitative non-deterministic and Boolean non-deterministic semantics---are handled using a single abstract representation. We establish the conditions under which the correctness and termination of solutions, represented as abstract policies, can be verified. We also examine the feasibility of learning abstract policies from examples. We demonstrate our techniques on several planning problems and show that they apply to challenging real-world tasks such as doing the laundry with a PR2 robot. These results resolve a number of open questions about planning with loops and facilitate the development of new algorithms and applications.
+ 

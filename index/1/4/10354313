@@ -1,0 +1,4 @@
+
+ 
+ Deciding the outcome of an election when voters have provided only partial orderings over their preferences requires voting rules that accommodate missing data. While existing techniques, including considerable recent work, address missingness through circumvention, we propose the novel application of conventional machine learning techniques to predict the missing components of ballots via latent patterns in the information that voters are able to provide. We show that suitable predictive features can be extracted from the data, and demonstrate the high performance of our new framework on the ballots from many real world elections, including comparisons with existing techniques for voting with partial orderings. Our technique offers a new and interesting conceptualization of the problem, with stronger connections to machine learning than conventional social choice techniques.
+ 

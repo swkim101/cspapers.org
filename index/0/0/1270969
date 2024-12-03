@@ -1,0 +1,5 @@
+Low rank approximation is a fundamental computational primitive widely used in data analysis. In many applications the dataset that the algorithm operates on may contain sensitive information about contributing individuals (e.g. user/movie ratings in the Netflix challenge), motivating the need to design low rank approximation algorithms that preserve privacy of individual entries of the input matrix. 
+ 
+In this paper, we give a polynomial time algorithm that, given a privacy parameter e > 0, for a symmetric matrix A, outputs an e-differentially approximation to the principal eigenvector of A, and then show how this algorithm can be used to obtain a differentially private rank-k approximation. We also provide lower bounds showing that our utility/privacy tradeoff is close to best possible. 
+ 
+While there has been significant progress on this problem recently for a weaker notion of privacy, namely (e, δ)-differential privacy [HR12, BBDS12], our result is the first to achieve (e, 0)-differential privacy guarantees with a near-optimal utility/privacy tradeoff in polynomial time.

@@ -1,0 +1,7 @@
+Verilog HDL was a breakthrough for the hardware design community in 1986. Over the years, the methodology based on the Verilog HDL has been extended with utilities and enhancements. With 0.25- and 0.18 µ processes enabling a system to be packed onto a single integrated circuit (IC), design problems have surfaced that no one could have predicted 13 years ago. As a result, several new design language proposals have been introduced since the last Design Automation Conference (DAC), all claiming to aid system-on-chip (SOC) design. Several claim to improve the designer's ability to efficiently create, implement, and verify SOC designs from architectural specification through functional implementation.
+The panel, comprised of experienced designers and representatives of organizations submitting design language proposals, will debate the various proposals and will try to identify what future trend will accelerate system design.
+Questions and issues to be considered include:What's in store for the future — C, Java, Superlog, HDL or SLDL?
+A comparison of modeling, gate-level and behavioral simulation capabilities of a new design language to current languages/tools/methods
+A comparison of the software development capabilities of a new design language to current languages/tools/methods
+
+A review of the projected design environment of a new design language to current languages/tools/methods.

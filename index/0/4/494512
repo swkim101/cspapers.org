@@ -1,0 +1,3 @@
+The garage innovator creates new web applications which may rocket to popular success - or sink when the flash crowd that arrives melts the web server. In the web context, utility computing provides a path by which the innovator can, with minimal capital, prepare for overwhelming popularity. Many components required for web computing have recently become available as utilities. 
+ 
+We analyze the design space of building a load-balanced system in the context of garage innovation. We present six experiments that inform this analysis by highlighting limitations of each approach. We report our experience with three services we deployed in "garage" style, and with the flash crowds that each drew.

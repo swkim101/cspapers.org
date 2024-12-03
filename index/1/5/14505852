@@ -1,0 +1,1 @@
+In this paper, we discuss on-line estimation strategies that model the optimal value function of a typical optimal control problem. We present a general strategy that uses local corridor solutions obtained via dynamic programming to provide local optimal control sequence training data for a neural architecture model of the optimal value function.

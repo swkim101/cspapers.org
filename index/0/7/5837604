@@ -1,0 +1,3 @@
+Low rank approximation techniques are widespread in pattern recognition research — they include Latent Semantic Analysis (LSA), Probabilistic LSA, Principal Components Analysus (PCA), the Generative Aspect Model, and many forms of bibliometric analysis. All make use of a low-dimensional manifold onto which data are projected. 
+ 
+Such techniques are generally "unsupervised," which allows them to model data in the absence of labels or categories. With many practical problems, however, some prior knowledge is available in the form of context. In this paper, I describe a principled approach to incorporating such information, and demonstrate its application to PCA-based approximations of several data sets.

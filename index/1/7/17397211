@@ -1,0 +1,4 @@
+
+ 
+ We study parameterised verification of robot swarms against temporal-epistemic specifications. We relax some of the significant restrictions assumed in the literature and present a counter abstraction approach that enable us to verify a potentially much smaller abstract model when checking a formula on a swarm of any size. We present an implementation and discuss experimental results obtained for the alpha algorithm for robot swarms.
+ 

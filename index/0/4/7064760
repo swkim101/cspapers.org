@@ -1,0 +1,1 @@
+We present randomized algorithms with a total update time of Õ(m √n) for the problems of decremental single source reachability and decremental strongly connected components on directed graphs. This improves recent breakthrough results of Henzinger, Krinninger and Nanongkai [STOC 14, ICALP 15]. In addition, our algorithms are arguably simpler.

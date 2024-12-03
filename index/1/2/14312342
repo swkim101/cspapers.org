@@ -1,0 +1,1 @@
+AMNESIA is a tool that detects and prevents SQL injection attacks by combining static analysis and runtime monitoring. Empirical evaluation has shown that AMNESIA is both effective and efficient against SQL injection.

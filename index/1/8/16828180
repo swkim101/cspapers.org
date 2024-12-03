@@ -1,0 +1,4 @@
+
+ 
+ The personal stories that people write in their Internet weblogs include a substantial amount of information about the causal relationships between everyday events. In this paper we describe our efforts to use millions of these stories for automated commonsense causal reasoning. Casting the commonsense causal reasoning problem as a Choice of Plausible Alternatives, we describe four experiments that compare various statistical and information retrieval approaches to exploit causal information in story corpora. The top performing system in these experiments uses a simple co-occurrence statistic between words in the causal antecedent and consequent, calculated as the Pointwise Mutual Information between words in a corpus of millions of personal stories.
+ 

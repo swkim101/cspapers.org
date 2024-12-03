@@ -1,0 +1,2 @@
+An automatic programming system is proposed based on the works of Noonan [2] and Jazayeri and Walter [10]. The system may be used to automatically produce text processing programs or to test the specifications for such programs.
+ This is the first of three reports covering, respectively, the background and overview, architecture, and implementation of the system.

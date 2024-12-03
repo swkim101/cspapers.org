@@ -1,0 +1,4 @@
+
+ 
+ Image-based localization is an important problem in robotics and an integral part of visual mapping and navigation systems. An approach to robustly match images to previously recorded ones must be able to cope with seasonal changes especially when it is supposed to work reliably over long periods of time. In this paper, we present a novel approach to visual localization of mobile robots in outdoor environments, which is able to deal with substantial seasonal changes. We formulate image matching as a minimum cost flow problem in a data association graph to effectively exploit sequence information. This allows us to deal with non-matching image sequences that result from temporal occlusions or from visiting new places. We present extensive experimental evaluations under substantial seasonal changes. Our approach achieves accurate matching across seasons and outperforms existing state-of-the-art methods such as FABMAP2 and SeqSLAM.
+ 

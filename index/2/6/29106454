@@ -1,0 +1,7 @@
+A running system is presented which provides powerful support to the user while designing programs. 
+ 
+This system automatically constructs program schemas by decomposition of the datas involved in the specification . Datas are specified with in a knowledge-base as data types having associated decomposition patterns. 
+ 
+The user may combine different data - decomposition strategies with any of its decomposition patterns. So it is possible to build several program schemas for the same problem. 
+ 
+Once a program schema is built the user can instantiate or adapt it by hand. He can also apply the system repetitively until he obtains primitive problems which can be solved directly.

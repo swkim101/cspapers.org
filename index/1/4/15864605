@@ -1,0 +1,4 @@
+
+ 
+ We present a data mining approach for reducing the search space of local search algorithms in large-scale set partitioning problems (SPPs). We construct a k-nearest neighbor graph by extracting variable associations from the instance to be solved, in order to identify promising pairs of flipping variables in the large neighborhood search. We incorporate the search space reduction technique into a 2-flip neighborhood local search algorithm with an efficient incremental evaluation of solutions and an adaptive control of penalty weights. We also develop a 4-flip neighborhood local search algorithm that flips four variables alternately along 4-paths or 4-cycles in the k-nearest neighbor graph. According to computational comparison with the latest solvers, our algorithm performs effectively for large-scale SPP instances with up to 2.57 million variables.
+ 

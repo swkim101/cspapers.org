@@ -1,0 +1,1 @@
+We augment a model of translation based on re-ordering nodes in syntactic trees in order to allow alignments not conforming to the original tree structure, while keeping computational complexity polynomial in the sentence length. This is done by adding a new subtree cloning operation to either tree-to-string or tree-to-tree alignment algorithms.

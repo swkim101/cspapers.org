@@ -1,0 +1,5 @@
+An introductory course (and its successor) in programming should be concerned with three aspects of programming:
+ 1. How to solve problems,
+ 2. How to describe an algorithmic solution to a problem,
+ 3. How to verify that an algorithm is correct.
+ I should like to discuss mainly the first two aspects. The third is just as important, but if the first two are carried out in a systematic fashion, the third is much easier than commonly supposed. (Note that the third step is not “debugging,” because the word “debugging” conveys the impression that errors are alright—that they are a natural phenomenon which, like flies in a house, must be found and swatted. If “debugging” was called “getting rid of one's mistakes,” I'm sure most programmers would change their attitude and work harder at producing a correct program initially.)

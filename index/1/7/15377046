@@ -1,0 +1,4 @@
+
+ 
+ K-flats is a model-based linear manifold clustering algorithm which has been successfully applied in many real-world scenarios. Though some previous works have shown that K-flats doesn’t always provide good performance, little effort has been devoted to analyze its inherent deficiency. In this paper, we address this challenge by showing that the deteriorative performance of K-flats can be attributed to the usual reconstruction error measure and the infinitely extending representations of linear models. Then we propose Localized K-flats algorithm (LKF), which introduces localized representations of linear models and a new distortion measure, to remove confusion among different clusters. Experiments on both synthetic and real-world data sets demonstrate the efficiency of the proposed algorithm. Moreover, preliminary experiments show that LKF has the potential to group manifolds with nonlinear structure.
+ 

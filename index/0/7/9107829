@@ -1,0 +1,1 @@
+We introduce an analytical tool to study the convergence of bidirectional multiagent agreement systems and use it to sharpen the analysis of various natural algorithms, including flocking, opinion consensus, and synchronization systems. We also improve classic bounds about colored random walks and discuss the usefulness of algorithmic proofs.

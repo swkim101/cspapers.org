@@ -1,0 +1,4 @@
+
+ 
+ The principle of counter-transitivity plays a vital role in argumentation. It states that an argument is strong when its attackers are weak, and is weak when its attackers are strong. In this work, we develop a formal theory about the argument ranking semantics based on this principle. Three approaches, quantity-based, quality-based and the unity of them, are defined to implement the principle. Then, we show an iterative refinement algorithm for capturing the ranking on arguments based on the recursive nature of the principle.
+ 

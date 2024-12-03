@@ -1,0 +1,25 @@
+Robots and automation systems have become a 
+valuable partner in several facets of human life: from learning 
+and teaching, to daily working, including health monitoring 
+and assistance. So far, these appealing robot-based applications 
+are restricted to conduct repetitive, yet useful, tasks due to the 
+reduced individual robots’ capabilities in terms of processing 
+and computation. This concern prevents current robots from 
+facing more complex applications related to understanding hu- 
+man beings and perceiving their subtle feelings. Such hardware 
+limitations have been already found in the computer science 
+field. In this domain, they are currently being addressed using 
+a new resource exploitation model coined as cloud computing, 
+which is targeted at enabling massive storage and computation 
+using smartly connected and inexpensive commodity hardware. 
+The purpose of this paper is to propose a cloud-based robotics 
+architecture to effectively develop complex tasks related to 
+hospitalized children assistance. More specifically, this paper 
+presents a multi-agent learning system that combines machine 
+learning and cloud computing using low-cost robots to (1) 
+collect and perceive children status, (2) build a human-readable 
+set of rules related to the child-robot relationship, and (3) 
+improve the children experience during their stay in the hos- 
+pital. Conducted preliminary experiments proof the feasibility 
+of this proposal and encourage practitioners to work towards 
+this direction.

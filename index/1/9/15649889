@@ -1,0 +1,16 @@
+If VLSI RAM densities are to continue to increase, 
+it will undoubtedly be necessary to take 
+the problems associated with "soft errors" much 
+more seriously than has previously been done. In 
+this paper, we propose a methodology for analyzing 
+the effects of soft errors in VLSI RAMS as feature 
+sizes decrease, and for taking corrective action 
+with error-correcting codes. We will take a parametric 
+approach, making several different assumptions 
+about how the error severity will scale as 
+feature size decreases, and our conclusions will 
+be stated relative to the particular assumption 
+made. It is our hope that as more definite information 
+about VLSI error-scaling becomes available, 
+the results of this paper will prove helpful for 
+designers of ultra-dense memories.

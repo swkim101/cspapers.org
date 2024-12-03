@@ -1,0 +1,4 @@
+
+ 
+ The Gibbard-Satterthwaite Theorem asserts that any reasonable voting rule cannot be strategyproof. A large body of research in AI deals with circumventing this theorem via computational considerations; the goal is to design voting rules that are computationally hard, in the worst-case, to manipulate. However, recent work indicates that the prominent voting rules are usually easy to manipulate. In this paper, we suggest a new CS-oriented approach to circumventing Gibbard-Satterthwaite, using randomization and approximation. Specifically, we wish to design strategyproof randomized voting rules that are close, in a standard approximation sense, to prominent score-based (deterministic) voting rules. We give tight lower and upper bounds on the approximation ratio achievable via strategyproof randomized rules with respect to positional scoring rules, Copeland, and Maximin.
+ 

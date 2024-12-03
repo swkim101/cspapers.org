@@ -1,0 +1,4 @@
+
+ 
+ Adding datatypes to ontology-mediated queries (OMQs) often makes query answering hard. As a consequence, the use of datatypes in OWL 2 QL has been severely restricted. In this paper we propose a new, non-uniform, way of analyzing the data-complexity of OMQ answering with datatypes. Instead of restricting the ontology language we aim at a classification of the patterns of datatype atoms in OMQs into those that can occur in non-tractable OMQs and those that only occur in tractable OMQs. To this end we establish a close link between OMQ answering with datatypes and constraint satisfaction problems over the datatypes. In a case study we apply this link to prove a P/coNP-dichotomy for OMQs over DL-Lite extended with the datatype (Q,<=). The proof employs a recent dichotomy result by Bodirsky and Kára for temporal constraint satisfaction problems.
+ 

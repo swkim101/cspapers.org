@@ -1,0 +1,4 @@
+
+ 
+ We present three new ideas for grid-based path-planning algorithms that improve the search speed and quality of the paths found. First, we introduce a new type of database, the Local Distance Database (LDDB), that contains distances between boundary points of a local neighborhood. Second, an LDDB based algorithm is introduced, called Block A*, that calculates the optimal path between start and goal locations given the local distances stored in the LDDB. Third, our experimental results for any-angle path planning in a wide variety of test domains, including real game maps, show that Block A* is faster than both A* and the previously best grid-based any-angle search algorithm, Theta*.
+ 

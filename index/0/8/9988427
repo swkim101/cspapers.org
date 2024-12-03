@@ -1,0 +1,1 @@
+We present CnC-Python (CP), an approach to implicit multicore parallelism based on Intel's Concurrent Collections model. CP enables programmers to achieve task, data and pipeline parallelism in a declarative fashion while only being required to describe the program as a coordination graph with serial Python code for individual nodes.

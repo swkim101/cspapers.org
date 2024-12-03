@@ -1,0 +1,1 @@
+We explore the implications of supporting bags (i.e. multisets) in a data model and associated query language, and present some formal results concerned with the algebraic properties of bags. We extend previous work to provide a formal basis for query optimization and for defining the appropriate semantics for bag operations in data models supporting ba.gs.

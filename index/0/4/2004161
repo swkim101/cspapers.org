@@ -1,0 +1,4 @@
+
+ 
+ In this paper we investigate three different approaches to encoding domain-dependent control knowledge for Answer-Set Planning. Starting with a standard imple- mentation of the action description language B, we add control knowledge expressed in the GOLOG logic pro- gramming language. A naive encoding, following the original definitions of Levesque et al., is shown to scale poorly. We examine two alternative codings based on the transition semantics of ConGOLOG. We show that a speed increase of multiple orders of magnitude can be obtain by compiling the GOLOG program into a finite- state machine representation.
+ 

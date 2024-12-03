@@ -1,0 +1,4 @@
+
+ 
+ We propose in this paper a new interval constraint propagation algorithm, called MOnotonic Hull Consistency (Mohc), that exploits monotonicity of functions. The propagation is standard, but the Mohc-Revise procedure, used to filter/contract the variable domains w.r.t. an individual constraint, uses monotonic versions of the classical HC4-Revise and BoxNarrow procedures. Mohc-Revise appears to be the first adaptive revise procedure ever proposed in (interval) constraint programming.  Also, when a function is monotonic w.r.t. every variable, Mohc-Revise is proven to compute the optimal/sharpest box enclosing all the solutions of the corresponding constraint (hull consistency). Very promising experimental results suggest that Mohc has the potential to become an alternative to the state-of-the-art HC4 and Box algorithms.
+ 

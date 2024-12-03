@@ -1,0 +1,4 @@
+
+ 
+ We propose Tree Sequence Kernel (TSK), which implicitly exhausts the structure features of a sequence of subtrees embedded in the phrasal parse tree. By incorporating the capability of sequence kernel, TSK enriches tree kernel with tree sequence features so that it may provide additional useful patterns for machine learning applications. Two approaches of penalizing the substructures are proposed and both can be accomplished by efficient algorithms via dynamic programming. Evaluations are performed on two natural language tasks, i.e. Question Classification and Relation Extraction. Experimental results suggest that TSK outperforms tree kernel for both tasks, which also reveals that the structure features made up of multiple subtrees are effective and play a complementary role to the single tree structure.
+ 

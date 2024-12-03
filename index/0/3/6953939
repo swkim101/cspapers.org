@@ -1,0 +1,1 @@
+We establish learning rates to the Bayes risk for support vector machines (SVMs) with hinge loss. In particular, for SVMs with Gaussian RBF kernels we propose a geometric condition for distributions which can be used to determine approximation properties of these kernels. Finally, we compare our methods with a recent paper of G. Blanchard et al..

@@ -1,0 +1,4 @@
+
+ 
+ It has been argued that causal rules are necessary for representing both implicit side-effects of actions and action qualifications, and there have been a number different approaches for representing causal rules in the area of formal theoriesof actions. These different approaches in general agree on rules without cycles. However, they differ on causal rules with mutual cyclic dependencies, both in terms of how these rules are supposed to be represented and their semantics. In this paper we show that by adding one more minimization to Lin's circumscriptive causal theory in the situation calculus, we can have a uniform representation of causal rules including those with cyclic dependencies. We also demonstrate that sometimes causal rules can be compiled into logically equivalent successor state axioms even in the presence of cyclical dependencies between fluents.
+ 

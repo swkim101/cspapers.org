@@ -1,0 +1,7 @@
+The ACM SIGMETRICS Conference on Measurement and Modeling of Computer Systems has established itself as a unique forum for discussing the development and application of state-of- the-art computer system analysis techniques. Over the years the conference has achieved a bal- ance of theory and practice that can be contrasted on the one hand to conferences emphasizing computer performance analysis through measurement, and on the other hand to conferences emphasizing the mathematical aspects of computer system modeling. In organizing the program for the 1982 conference we have attempted to continue this tradition. 
+ 
+The 27 papers in the program were selected from among more than 60 submissions, each of which was reviewed by the Program Chairman, two other members of the Program Committee, and at least one external referee. Several papers of special merit were forwarded to the Systems Modeling and Performance Evaluation department of CACM for consideration. Only extended abstracts appear in this Proceedings for the two papers accepted by CACM: 
+ 
+The Aggregate Sewer Method for Analyzing Serialization Delays in Computer Systems;" S.C. Agrawal (Purdue University) and J.P. Buzen (BGS Systems) 
+ 
+Performance Bound Hierarchies for Queueing Networks; Derek L. Eager and Kenneth C. Sevcik (University of Toronto)

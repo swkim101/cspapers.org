@@ -1,0 +1,1 @@
+We consider the complexity of satisfiability and determination of truth in a particular finite structure for different propositional linear temporal logics. We show that both the above problems are NP-complete for the logic with F operator and are PSPACE-complete for the logics with F,X, with U, with U,S,X, and Wolper's extended logic with regular operators [Wo81].

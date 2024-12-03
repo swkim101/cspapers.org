@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of learning sparse structure changes between two Markov networks P and Q. Rather than fitting two Markov networks separately to two sets of data and figuring out their differences, a recent work proposed to learn changes directly via estimating the ratio between two Markov network models.  Such a direct approach was demonstrated to perform excellently in experiments, although its theoretical properties remained unexplored.  In this paper, we give sufficient conditions for successful change detection with respect to the sample size np, nq, the dimension of data m, and the number of changed edges d.
+ 

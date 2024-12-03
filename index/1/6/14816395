@@ -1,0 +1,1 @@
+This paper describes an automatic system for routing the metal connections on integrated circuit chips. The system contains three major sections: global wiring, vertical channel assignment, and horizontal bilateral channel allocation. Since its initial development in 1972, this system has been used successfully at IBM in the physical design of bipolar logic chips.

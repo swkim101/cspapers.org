@@ -1,0 +1,1 @@
+Access policies are hard to express in existing programming languages. However, their accurate expression is a prerequisite for many of today's applications. We propose a new language that uses classes, first-class relationships, and first-class states to express access policies in a more declarative and fine-grained way than existing solutions allow.

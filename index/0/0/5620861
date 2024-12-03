@@ -1,0 +1,4 @@
+
+ 
+ We propose a voted dual averaging method for on- line classification problems with explicit regularization. This method employs the update rule of the regularized dual averaging (RDA) method proposed by Xiao, but only on the subsequence of training examples where a classification error is made. We derive a bound on the number of mistakes made by this method on the training set, as well as its generalization error rate. We also intro- duce the concept of relative strength of regularization, and show how it affects the mistake bound and gener- alization performance. We examine the method using l1-regularization on a large-scale natural language pro- cessing task, and obtained state-of-the-art classification performance with fairly sparse models.
+ 

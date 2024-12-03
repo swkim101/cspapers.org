@@ -1,0 +1,1 @@
+Some previous work has shown the feasibility of Pedestrian Dead Reckoning (PDR) using a mobile phone, but the estimation of length walked is still a big challenge. In this paper, we propose a formula for estimating walking velocity, which can be integrated to get distance.

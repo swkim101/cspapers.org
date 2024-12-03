@@ -1,0 +1,1 @@
+The second-order lambda calculus is a typed expression language with polymorphic functions and abstract data typcs. Several definitions of models for this language have been proposed, each relying on the syntax of terms to characterize closure under explicite definition. This work aims to releive the model theorist of syntactic considerations.

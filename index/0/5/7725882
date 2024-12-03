@@ -1,0 +1,4 @@
+
+ 
+ Kernel-based reinforcement learning (KBRL) is a popular approach to learning non-parametric value function approximations. In this paper, we present structured KBRL, a paradigm for kernel-based RL that allows for modeling independencies in the transition and reward models of problems. Real-world problems often exhibit this structure and can be solved more efficiently when it is modeled. We make three contributions. First, we motivate our work, define a structured backup operator, and prove that it is a contraction. Second, we show how to evaluate our operator efficiently. Our analysis reveals that the fixed point of the operator is the optimal value function in a special factored MDP. Finally, we evaluate our method on a synthetic problem and compare it to two KBRL baselines. In most experiments, we learn better policies than the baselines from an order of magnitude less training data.
+ 

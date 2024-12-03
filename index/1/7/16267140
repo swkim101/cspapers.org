@@ -1,0 +1,1 @@
+We investigate the question of (storage) space - (retrieval) time tradeoff for orthogonal range queries on a static database. Lower bounds on the product of retrieval time and storage space are obtained in the arithmetic and tree models.

@@ -1,0 +1,4 @@
+
+ 
+ In trust systems, unfair rating attacks — where advisors provide ratings dishonestly — influence the accuracy of trust evaluation. A secure trust system should function properly under all possible unfair rating attacks; including dynamic attacks. In the literature, camouflage attacks are the most studied dynamic attacks. But an open question is whether more harmful dynamic attacks exist. We propose random processes to model and measure dynamic attacks. The harm of an attack is influenced by a user's ability to learn from the past. We consider three types of users: blind users, aware users, and general users. We found for all the three types, camouflage attacks are far from the most harmful. We identified the most harmful attacks, under which we found the ratings may still be useful to users.
+ 

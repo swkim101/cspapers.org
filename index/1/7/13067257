@@ -1,0 +1,1 @@
+Mining ordering information from sequence data is an important data mining task. Sequential pattern mining (Agrawal and Srikant, 1995) can be regarded as mining frequent segments of total orders from sequence data. However, sequential patterns are often insufficient to concisely capture the general ordering information.

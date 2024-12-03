@@ -1,0 +1,4 @@
+
+ 
+ Commas and the surrounding sentence structure often express relations that are essential to understanding the meaning of the sentence. This paper proposes a set of relations commas participate in, expanding on previous work in this area, and develops a new dataset annotated with this set of labels. We identify features that are important to achieve a good performance on comma labeling and then develop a machine learning method that achieves high accuracy on identifying comma relations, improving over previous work. Finally, we discuss a variety of possible uses, both as syntactic and discourse-oriented features and constraints for downstream tasks.
+ 

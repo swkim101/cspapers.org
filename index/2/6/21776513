@@ -1,0 +1,4 @@
+
+ 
+ An optimization variant of a problem of path planning for multiple robots is addressed in this work. The task is to find spatial-temporal path for each robot of a group of robots such that each robot can reach its destination by navigating through these paths. In the optimization variant of the problem, there is an additional requirement that the makespan of the solution must be as small as possible. A proof of the claim that optimal path planning for multiple robots is NP‑complete is sketched in this short paper.
+ 

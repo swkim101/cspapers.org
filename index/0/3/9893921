@@ -1,0 +1,5 @@
+In this paper we study the model of e-smoothed k-CNF formulas. Starting from an arbitrary instance F with n variables and m = dn clauses, apply the e-smoothing operation of flipping the polarity of every literal in every clause independently at random with probability e. Keeping e and k fixed, and letting the density d = m/n grow, it is rather easy to see that for d ≥ e-k ln 2, F becomes whp unsatisfiable after smoothing. 
+ 
+We show that a lower density that behaves roughly like e-k+1 suffices for this purpose. We also show that our bound on d is nearly best possible in the sense that there are k-CNF formulas F of slightly lower density that whp remain satisfiable after smoothing. 
+ 
+One consequence of our proof is a new lower bound of Ω(2k/k2) on the density up to which Walksat solves random k-CNFs in polynomial time whp. We are not aware of any previous rigorous analysis showing that Walksat is successful at densities that are increasing as a function of k.

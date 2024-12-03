@@ -1,0 +1,1 @@
+R. Kannan conjectured that every non-deterministic two-way finite automaton can be positionally simulated by a deterministic two-way finite automaton. The conjecture is proved here by reduction to a similar problem about finite semigroups. The method and the result are then generalized to alternating two-way finite automata.

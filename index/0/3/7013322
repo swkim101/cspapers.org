@@ -1,0 +1,4 @@
+
+ 
+ Reputation models depend on the ratings provided by buyers togauge the reliability of sellers in multi-agent based e-commerce environment. However, there is no prevention forthe cases in which a buyer misjudges a seller, and provides a negative rating to an original satisfactory transaction. In this case,how should the seller get his reputation repaired andutility loss recovered? In this work, we propose a mechanism to mitigate the negativeeffect of the misreported ratings. It temporarily inflates the reputation of thevictim seller with a certain value for a period of time. This allows the seller to recover hisutility loss due to lost opportunities caused by the misreported ratings. Experiments demonstrate the necessity and effectiveness of the proposed mechanism.
+ 

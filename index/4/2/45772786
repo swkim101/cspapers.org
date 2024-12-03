@@ -1,0 +1,4 @@
+
+ 
+ We demonstrate an approach to predict latent personal attributes including user demographics, online personality, emotions and sentiments from texts published on Twitter. We rely on machine learning and natural language processing techniques to learn models from user communications. We first examine individual tweets to detect emotions and opinions emanating from them, and then analyze all the tweets published by a user to infer latent traits of that individual. We consider various user properties including age, gender, income, education, relationship status, optimism and life satisfaction. We focus on Ekman’s six emotions: anger, joy, surprise, fear, disgust and sadness. Our work can help social network users to understand how others may perceive them based on how they communicate in social media, in addition to its evident applications in online sales and marketing, targeted advertising, large scale polling and healthcare analytics.
+ 

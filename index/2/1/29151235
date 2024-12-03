@@ -1,0 +1,4 @@
+
+ 
+ In this paper we propose a simple yet efficient method for constrained word deletion to compress sentences, based on top-down greedy local flipping from multiple random initializations. The algorithm naturally integrates various grammatical constraints in the compression process, without using time-consuming integer linear programming solvers. Our formulation suits for any objective function involving arbitrary local score definition. Experimental results show that the proposed method achieves nearly identical performance with explicit ILP formulation while being much more efficient.
+ 

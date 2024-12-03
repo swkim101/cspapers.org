@@ -1,0 +1,1 @@
+We construct an explicit polynomial f(x<sub>1</sub>,..., x<sub>n</sub>), with coefficients in {0, 1}, such that the size of any syntactically multilinear arithmetic circuit computing f is at least Omega{n<sup>4/3</sup> log<sup>2</sup> n} The lower bound holds over any field.

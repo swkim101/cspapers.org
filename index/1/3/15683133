@@ -1,0 +1,1 @@
+A secure computer system based on a capability architecture is described. Abstract types are used to provide separation and the reference monitor function. By providing a trusted path from the user to security critical operations, full discretionary and mandatory access controls are enforced.

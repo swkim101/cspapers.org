@@ -1,0 +1,1 @@
+The parsing problem for arbitrary unification grammars is unsolvable We present a class of unification grammars for whcih the parsing problem is solvable and a parallel parsing algorithm for this class of grammars.

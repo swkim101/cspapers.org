@@ -1,0 +1,1 @@
+Standard approaches to object detection focus on local patches of the image, and try to classify them as background or not. We propose to use the scene context (image as a whole) as an extra source of (global) information, to help resolve local ambiguities. We present a conditional random field for jointly solving the tasks of object detection and scene classification.

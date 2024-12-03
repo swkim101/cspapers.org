@@ -1,0 +1,4 @@
+
+ 
+ General Game Playing is the design of AI systems able to understand the rules of new games and to use such descriptions to play those games effectively. Games with incomplete information have recently been added as anew challenge for general game-playing systems. The only published solutions to this challenge are based on sampling complete information models. In doing so they ground all of the unknown information, thereby making information gathering moves of no value; a well-known criticism of such sampling based systems. We present and analyse a method for escalating reasoning from complete information models to incomplete information models and show how this enables a general game player to correctly value information in incomplete information games. Experimental results demonstrate the success of this technique over standard model sampling.
+ 

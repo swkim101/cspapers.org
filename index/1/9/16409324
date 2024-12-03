@@ -1,0 +1,1 @@
+Basic Time-Sharing is an attempt to systematize the computing principles which should underlie the design of operating systems. These principles emphasize the fundamental separateness of work and resources and the parallelism inherent in the computing process. Primary constructions are described in which all computing activity can be realized.

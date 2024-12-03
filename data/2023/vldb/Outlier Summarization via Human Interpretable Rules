@@ -1,7 +1,0 @@
-Outlier detection is crucial for preventing financial fraud, network intrusions, and device failures. Users often expect systems to automatically summarize and interpret outlier detection results to reduce human effort and convert outliers into actionable insights. However, existing methods fail to effectively assist users in identifying the root causes of outliers, as they only pinpoint data attributes without considering outliers in the same subspace may have different causes.
- 
- To fill this gap, we propose STAIR, which learns concise and human-understandable
- rules
- to summarize and explain outlier detection results with
- finer
- granularity. These rules consider both attributes and associated values. STAIR employs an interpretation-aware optimization objective to generate a small number of rules with minimal complexity for strong interpretability. The learning algorithm of STAIR produces a rule set by iteratively splitting the large rules and is optimal in maximizing this objective in each iteration. Moreover, to effectively handle high dimensional, highly complex data sets that are hard to summarize with simple rules, we propose a localized STAIR approach, called L-STAIR. Taking data locality into consideration, it simultaneously partitions data and learns a set of localized rules for each partition. Our experimental study on many outlier benchmark datasets shows that STAIR significantly reduces the complexity of the rules required to summarize the outlier detection results, thus more amenable for humans to understand and evaluate.

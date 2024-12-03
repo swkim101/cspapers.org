@@ -1,0 +1,11 @@
+The Densest k-subgraph problem (i.e. find a size k subgraph with maximum number of edges), is one of the notorious problems in approximation algorithms. There is a significant gap between known upper and lower bounds for Densest k-subgraph: the current best algorithm gives an a O(n1/4) approximation, while even showing a small constant factor hardness requires significantly stronger assumptions than P ≠ NP. In addition to interest in designing better algorithms, a number of recent results have exploited the conjectured hardness of Densest k-subgraph and its variants. Thus, understanding the approximability of Densest k-subgraph is an important challenge. 
+ 
+In this work, we give evidence for the hardness of approximating Densest k-subgraph within polynomial factors. Specifically, we expose the limitations of strong semidefinite programs from SDP hierarchies in solving Densest k-subgraph. Our results include: 
+ 
+• A lower bound of Ω(n1/4/log3 n) on the integrality gap for Ω(log n/log log n) rounds of the Sherali-Adams relaxation for Densest k-subgraph. This also holds for the relaxation obtained from Sherali-Adams with an added SDP constraint. Our gap instances are in fact Erdos-Renyi random graphs. 
+ 
+• For every e > 0, a lower bound of n2/53−e on the integrality gap of nΩ(e) rounds of the Lasserre SDP relaxation for Densest k-subgraph, and an nΩe(1) gap for n1−e rounds. Our construction proceeds via a reduction from random instances of a certain Max-CSP over large domains. 
+ 
+In the absence of inapproximability results for Densest k-subgraph, our results show that beating a factor of nΩ(1) is a barrier for even the most powerful SDPs, and in fact even beating the best known n1/4 factor is a barrier for current techniques. 
+ 
+Our results indicate that approximating Densest k-subgraph within a polynomial factor might be a harder problem than Unique Games or Small Set Expansion, since these problems were recently shown to be solvable using neΩ(1) rounds of the Lasserre hierarchy, where e is the completeness parameter in Unique Games and Small Set Expansion.

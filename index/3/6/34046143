@@ -1,0 +1,5 @@
+The development of a model of motion control for walking robots is reported. The goal of the project is the elaboration of methods to construct the tree main levels of a control system of the robot's motion and a program complex to realise the robot's behaviour simulation in complex topography. 
+ 
+A notable amount of achievements has been reached by now in developing the model of behaviour control for robots in various " activity areas". Most of the models, however, are, to our mind, too "deterministic". The hope to obtain interesting results in the field with a model based, in a sense, on the principle of "maximum indetenninism" gave rise to the project 'discussed in the present paper. 
+ 
+The corresponding ideology has been almost literally transferred here from the asynchronous programming theory; as to the "walking", it was chosen as a model domain because it offers combination of both general and special problems.

@@ -1,0 +1,1 @@
+We propose a new identity-based signature scheme from Weil pairing or Tate pairing. We prove that the confirmation and denial protocols of our scheme have the completeness and soundness properties. Our scheme is efficient in computation.

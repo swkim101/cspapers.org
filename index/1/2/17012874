@@ -1,0 +1,1 @@
+Very large databases with skewed class distributions and non-uniform cost per error are not uncommon in real-world data mining tasks. We devised a multi-classifier meta-learning approach to address these three issues. Our empirical results from a credit card fraud detection task indicate that the approach can significantly reduce loss due to illegitimate transactions.

@@ -1,0 +1,4 @@
+
+ 
+ We propose a method for recognizing such event causalities as "smoke cigarettes" → "die of lung cancer" using background knowledge taken from web texts as well as original sentences from which candidates for the causalities were extracted. We retrieve texts related to our event causality candidates from four billion web pages by three distinct methods, including a why-question answering system, and feed them to our multi-column convolutional neural networks. This allows us to identify the useful background knowledge scattered in web texts and effectively exploit the identified knowledge to recognize event causalities. We empirically show that the combination of our neural network architecture and background knowledge significantly improves average precision, while the previous state-of-the-art method gains just a small benefit from such background knowledge.
+ 

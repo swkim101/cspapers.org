@@ -1,0 +1,4 @@
+
+ 
+ Network and other computer administrators typically have access to a rich set of logs tracking actions by users. However, they often lack metadata such as user role, age, and gender that can provide valuable context for users' actions. Inferring user attributes automatically has wide ranging implications; among others, for customization (anticipating user needs and priorities), for managing resources (anticipating demand) and for security (interpreting anomalous behavior).
+ 

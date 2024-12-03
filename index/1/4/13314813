@@ -1,0 +1,4 @@
+
+ 
+ The Minimum Sum Coloring Problem (MSCP) is an NP-Hard problem derived from the graph coloring problem (GCP) and has practical applications in different domains such as VLSI design, distributed resource allocation, and scheduling. There exist few exact solutions for MSCP, probably due to its search space much more elusive than that of GCP. On the contrary, much effort is spent in the literature to develop upper and lower bounds for MSCP. In this paper, we borrow a notion called motif, that was used in a recent work for upper bounding the minimum number of colors in an optimal solution of MSCP, to develop a new algebraic lower bound called for MSCP. Experiments on standard benchmarks for MSCP and GCP show that this new lower bound is substantially better than the existing lower bounds for several families of graphs.
+ 

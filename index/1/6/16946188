@@ -1,0 +1,1 @@
+Predictive state representation (PSR), proposed by [Littman et al., 2002; Singh et al., 2004], are a general representation for controlled dynamical systems. We present a sufficient condition under which a linear PSR compresses a POMDP representation.

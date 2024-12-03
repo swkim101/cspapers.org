@@ -1,0 +1,1 @@
+In a general sequential model of computation, no restrictions are placed on the way in which the computation may proceed, except parallel operations are not allowed. We show that in such an unrestricted environment TIME•SPACE&equil;Ω(N<supscrpt>2</supscrpt>/log N) in order to sort N elements, each in the range [1,N<supscrpt>2</supscrpt>].

@@ -1,0 +1,4 @@
+
+ 
+ Answer selection plays a key role in community question answering (CQA). Previous research on answer selection usually ignores the problems of redundancy and noise prevalent in CQA. In this paper, we propose to treat different text segments differently and design a novel attentive interactive neural network (AI-NN) to focus on those text segments useful to answer selection. The representations of question and answer are first learned by convolutional neural networks (CNNs) or other neural network architectures. Then AI-NN learns interactions of each paired segments of two texts. Row-wise and column-wise pooling are used afterwards to collect the interactions. We adopt attention mechanism to measure the importance of each segment and combine the interactions to obtain fixed-length representations for question and answer. Experimental results on CQA dataset in SemEval-2016 demonstrate that AI-NN outperforms state-of-the-art method.
+ 

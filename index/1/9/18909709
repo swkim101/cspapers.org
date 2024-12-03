@@ -1,0 +1,4 @@
+
+ 
+ Decentralized partially observable Markov decision processes (Dec-POMDPs) offer a powerful modeling technique for realistic multi-agent coordination problems under uncertainty. Prevalent solution techniques are centralized and assume prior knowledge of the model. We propose a distributed reinforcement learning approach, where agents take turns to learn best responses to each other’s policies. This promotes decentralization of the policy computation problem, and relaxes reliance on the full knowledge of the problem parameters. We derive the relation between the sample complexity of best response learning and error tolerance. Our key contribution is to show that sample complexity could grow exponentially with the problem horizon. We show empirically that even if the sample requirement is set lower than what theory demands, our learning approach can produce (near) optimal policies in some benchmark Dec-POMDP problems.
+ 

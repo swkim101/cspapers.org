@@ -1,0 +1,1 @@
+We introduce a theoretical notion, strongly related to algebraic independence, which can be applied to the terms of any computable expression to derive a lower bound on the number of additions and subtractions required to compute that expression.

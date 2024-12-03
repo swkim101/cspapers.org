@@ -1,0 +1,4 @@
+
+ 
+ The area of cognitive robotics is often subject to the criticism that the proposals investigated in the literature are too far removed from the kind of continuous uncertainty and noise seen in actual real-world robotics. This paper proposes a new language and an implemented system, called PREGO, based on the situation calculus, that is able to reason effectively about degrees of belief against noisy sensors and effectors in continuous domains. It embodies the representational richness of conventional logic-based action languages, such as context-sensitive successor state axioms, but is still shown to be efficient using a number of empirical evaluations. We believe that PREGO is a powerful framework for exploring real-time reactivity and an interesting bridge between logic and probability for cognitive robotics applications.
+ 

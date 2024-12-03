@@ -1,0 +1,3 @@
+L. A. Zadeh and E. H. Mamdani proposed methods for the fuzzy reasonig in which the antecedent involves a fuzzy conditional inference "If x is A then y is B" with A and B being fuzzy concepts. 
+ 
+This paper points out that the consequences inferred by their methods do not always fit our intuitions, and suggests some new methods which fit our intuitions under several criteria such as modus ponens and modus tollens. This paper also contains the discussion of the fuzzy inferences whose antecedents have fuzzy quantifiers such as "most", "some" and "many" using our new methods for fuzzy conditional inferences.

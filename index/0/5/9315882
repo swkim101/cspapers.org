@@ -1,0 +1,3 @@
+Monte Carlo Go is a promising method to improve the performance of computer Go programs. This approach determines the next move to play based on many Monte Carlo samples. 
+ 
+This paper examines the relative advantages of additional samples and enhancements for Monte Carlo Go. By parallelizing Monte Carlo Go, we could increase sample sizes by two orders of magnitude. Experimental results obtained in 9 × 9 Go show strong evidence that there are trade-offs among these advantages and performance, indicating a way for Monte Carlo Go to go.

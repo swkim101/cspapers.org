@@ -1,0 +1,1 @@
+In this paper we present a novel method for the efficient segmentation of 3D laser range data. The proposed algorithm is based on a radially bounded nearest neighbor strategy and requires only two parameters. It yields deterministic, repeatable results and does not depend on any initialization procedure. The efficiency of the method is verified with synthetic and real 3D data.

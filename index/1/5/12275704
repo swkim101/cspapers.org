@@ -1,0 +1,1 @@
+DiscFinder is a scalable approach for identifying large-scale astronomical structures, such as galaxy clusters, in massive observation and simulation astrophysics datasets. It is designed to operate on datasets with tens of billions of astronomical objects, even in the case when the dataset is much larger than the aggregate memory of compute cluster used for the processing.

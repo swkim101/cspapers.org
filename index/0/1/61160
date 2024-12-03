@@ -1,0 +1,4 @@
+The distributed V kernel is a message-oriented kernel that provides uniform local and network interprocess communication. It is primarily being used in an environment of diskless workstations connected by a high-speed local network to a set of file servers. We describe a performance evaluation of the kernel, with particular emphasis on the cost of network file access. Our results show that over a local network:
+ 1. Diskless workstations can access remote files with minimal performance penalty.
+ 2. The V message facility can be used to access remote files at comparable cost to any well-tuned specialized file access protocol.
+ We conclude that it is feasible to build a distributed system with all network communication using the V message facility even when most of the network nodes have no secondary storage.

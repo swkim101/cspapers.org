@@ -1,0 +1,4 @@
+
+ 
+ Graph clustering or community detection constitutes an important task forinvestigating the internal structure of graphs, with a plethora of applications in several domains. Traditional tools for graph clustering, such asspectral methods, typically suffer from high time and space complexity. In thisarticle, we present CoreCluster, an efficient graph clusteringframework based on the concept of graph degeneracy, that can be used along withany known graph clustering algorithm. Our approach capitalizes on processing thegraph in a hierarchical manner provided by its core expansion sequence, anordered partition of the graph into different levels according to the k-coredecomposition. Such a partition provides a way to process the graph inan incremental manner that preserves its clustering structure, whilemaking the execution of the chosen clustering algorithm much faster due to thesmaller size of the graph's partitions onto which the algorithm operates.
+ 

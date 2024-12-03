@@ -1,0 +1,1 @@
+How does a search engine company decide what ads to display with each query so as to maximize its revenue? This turns out to be a generalization of the online bipartite matching problem. We introduce the notion of a tradeoff revealing LP and use it to derive two optimal algorithms achieving competitive ratios of 1-1/e for this problem.

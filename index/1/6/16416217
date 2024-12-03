@@ -1,0 +1,1 @@
+A humanoid robot working in a household environment with people needs to localize and continuously update the locations of obstacles and manipulable objects. Achieving such system, requires strong perception method to efficiently update the frequently changing environment.

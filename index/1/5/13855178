@@ -1,0 +1,4 @@
+
+ 
+ Compositional semantic aims at constructing the meaning of phrases or sentences according to the compositionality of word meanings. In this paper, we propose to synchronously learn the representations of individual words and extracted high-frequency phrases. Representations of extracted phrases are considered as gold standard for constructing more general operations to compose the representation of unseen phrases. We propose a grammatical type specific model that improves the composition flexibility by adopting vector-tensor-vector operations. Our model embodies the compositional characteristics of traditional additive and multiplicative model. Empirical result shows that our model outperforms state-of-the-art composition methods in the task of computing phrase similarities.
+ 

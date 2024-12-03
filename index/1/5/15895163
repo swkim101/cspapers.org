@@ -1,0 +1,15 @@
+Given a vertex-weighted directed graph G = (V, E) and a set T = {t1, t2, ... tk} of k terminals, the objective of the Strongly Connected Steiner Subgraph (SCSS) problem is to find a vertex set H ⊆ V of minimum weight such that G[H] contains a ti → tj path for each i ≠ j. The problem is NP-hard, but Feldman and Ruhl (FOCS '99; SICOMP '06) gave a novel nO(k) algorithm for the SCSS problem, where n is the number of vertices in the graph and k is the number of terminals. We explore how much easier the problem becomes on planar directed graphs. 
+ 
+• Our main algorithmic result is a 2O(k log k) · nO(√k) algorithm for planar SCSS, which is an improvement of a factor of O(√k) in the exponent over the algorithm of Feldman and Ruhl. 
+ 
+• Our main hardness result is a matching lower bound for our algorithm: we show that planar SCSS does not have an f(k) · no(√k) algorithm for any computable function f, unless the Exponential Time Hypothesis (ETH) fails. 
+ 
+The algorithm eventually relies on the excluded grid theorem for planar graphs, but we stress that it is not simply a straightforward application of treewidth-based techniques: we need several layers of abstraction to arrive to a problem formulation where the speedup due to planarity can be exploited. To obtain the lower bound matching the algorithm, we need a delicate construction of gadgets arranged in a grid-like fashion to tightly control the number of terminals in the created instance. 
+ 
+The following additional results put our upper and lower bounds in context: 
+ 
+• Our 2O(k log k) · nO(√k) algorithm for planar directed graphs can be generalized to graphs excluding a fixed minor. 
+ 
+• In general graphs, we cannot hope for such a dramatic improvement over the nO(k) algorithm of Feldman and Ruhl: assuming ETH, SCSS in general graphs does not have an f(k) · no(k/logk) algorithm for any computable function f. 
+ 
+• Feldman and Ruhl generalized their nO(k) algorithm to the more general Directed Steiner Forest (DSF) problem; here the task is to find a subgraph of minimum weight such that for every source si there is a path to the corresponding terminal ti. We show that that, assuming ETH, there is no f(k) · no(k) time algorithm for DSF on acyclic planar graphs.

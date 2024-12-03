@@ -1,0 +1,1 @@
+In this paper, we propose a decentralized collaborative filtering (CF) approach based on P2P overlay network for the autonomous agents' environment. Experiments show that our approach is more scalable than traditional centralized CF filtering systems and alleviates the sparsity problem in distributed CF.

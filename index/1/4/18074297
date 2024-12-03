@@ -1,0 +1,1 @@
+The problem of breaking an image into meaningful regions is considered. Bayesian decision theory is seen to provide a mechanism for including problem dependent (semantic) information in a general system. Some results are presented which make the computation feasible. A programming system based on these ideas and their application to road scenes is described.

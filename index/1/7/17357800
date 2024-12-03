@@ -1,0 +1,20 @@
+This paper presents a problem-reduction 
+approach to extractive multi-document 
+summarization: we propose a reduction 
+to the problem of scoring individual sentences 
+with their ROUGE scores based on 
+supervised learning. For the summarization, 
+we solve an optimization problem 
+where the ROUGE score of the selected 
+summary sentences is maximized. To this 
+end, we derive an approximation of the 
+ROUGE-N score of a set of sentences, and 
+define a principled discrete optimization 
+problem for sentence selection. Mathematical 
+and empirical evidence suggests 
+that the sentence selection step is solved 
+almost exactly, thus reducing the problem 
+to the sentence scoring task. We perform 
+a detailed experimental evaluation on two 
+DUC datasets to demonstrate the validity 
+of our approach.

@@ -1,0 +1,4 @@
+
+ 
+ Robots are increasingly becoming key players in human-robot teams. To become effective teammates, robots must possess profound understanding of an environment, be able to reason about the desired commands and goals within a specific context, and be able to communicate with human teammates in a clear and natural way. To address these challenges, we have developed an intelligence architecture that combines cognitive components to carry out high-level cognitive tasks, semantic perception to label regions in the world, and a natural language component to reason about the command and its relationship to the objects in the world. This paper describes recent developments using this architecture on a fielded mobile robot platform operating in unknown urban environments. We report a summary of extensive outdoor experiments; the results suggest that a multidisciplinary approach to robotics has the potential to create competent human-robot teams.
+ 

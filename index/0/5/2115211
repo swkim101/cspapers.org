@@ -1,0 +1,7 @@
+The Dempster-Shafer theory gives a solid basis for reasoning applications characterized by uncertainty. A key feature of the theory is that propositions are represented as subsets of a set which represents a hypothesis space. This power set along with the set operations is a Boolean algebra. Can we generalize the theory to cover arbitrary Boolean algebras? We show that the answer is yes. The theory then covers, for example, infinite sets. 
+ 
+The practical advantages of generalization are that increased flexibility of representation is allowed and that the performance of evidence accumulation can be enhanced. 
+ 
+In a previous paper we generalized the Dempster-Shafer orthogonal sum operation to support practical evidence pooling. 
+ 
+In the present paper we provide the theoretical underpinning of that procedure, by systematically considering familiar evidential functions in turn. For each we present a "weaker form" and we look at the relationships between these variations of the functions. The relationships are not so strong as for the conventional functions. However, when we specialize to the familiar case of subsets, we do indeed get the wellknown relationships.

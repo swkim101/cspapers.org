@@ -1,0 +1,1 @@
+In this paper, we focus on MIMO-OFDM systems that simultaneously perform channel estimation, space-time coding and adaptive pre-distortion in order to combat additive noise, multipath fading and nonlinear effect of HPA. The performance improvement is confirmed by simulations. Results show that the proposed MIMO-OFDM scheme is quite robust in simulation environments.

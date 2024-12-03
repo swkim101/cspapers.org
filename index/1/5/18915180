@@ -1,0 +1,3 @@
+In this paper, we explain our notion of context, considering for instance membership in a group as context. We derive 
+a model for context-adaptivity from the well-established one for user-adaptivity proposed by Jameson, and introduce context views as means for facilitating group-based work. Context views aim at identifying the most important elements 
+within an application in a generic way by exploiting context information.

@@ -1,0 +1,1 @@
+We show by means of several examples that robust statistical estimators present an excellent starting point for differentially private estimators. Our algorithms use a new paradigm for differentially private mechanisms, which we call Propose-Test-Release (PTR), and for which we give a formal definition and general composition theorems.

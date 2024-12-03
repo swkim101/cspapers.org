@@ -1,0 +1,4 @@
+
+ 
+ A user-adaptive information visualization system capable of learning models of users and the visualization tasks they perform could provide interventions optimized for helping specific users in specific task contexts. In this paper, we investigate the accuracy of predicting visualization tasks, user performance on tasks, and user traits from gaze data. We show that predictions made with a logistic regression model are significantly better than a baseline classifier, with particularly strong results for predicting task type and user performance. Furthermore, we compare classifiers built with interface-independent and interface-dependent features, and show that the interface-independent features are comparable or superior to interface-dependent ones. Finally, we discuss how the accuracy of predictive models is affected if they are trained with data from trials that had highlighting interventions added to the visualization.
+ 

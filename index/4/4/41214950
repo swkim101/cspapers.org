@@ -1,0 +1,1 @@
+We examine a very simple asynchronous model of parallel computation that assumes the time to compute a task is random, following some probability distribution. The goal of this model is to capture the effects of unexpected delays on processors.

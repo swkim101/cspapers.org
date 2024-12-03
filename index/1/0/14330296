@@ -1,0 +1,5 @@
+In this paper we describe the architecture and design of a new file system, XFS, for Silicon Graphics' IRIX operating system. It is a general purpose file system for use on both workstations and servers. The focus of the paper is on the mechanisms used by XFS to scale capacity and performance in supporting very large file systems. The large file system support includes mechanisms for managing large files, large numbers of files, large directories, and very high performance I/O. 
+ 
+In discussing the mechanisms used for scalability we include both descriptions of the XFS on-disk data structures and analyses of why they were chosen. We discuss in detail our use of B+ trees in place of many of the more traditional linear file system structures. 
+ 
+XFS has been shipping to customers since December of 1994 in a version of IRIX 5.3, and we are continuing to improve its performance and add features in upcoming releases. We include performance results from running on the latest version of XFS to demonstrate the viability of our design.

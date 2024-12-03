@@ -1,0 +1,1 @@
+We consider a generalization, which we call the Shannon switching game on vertices, of a familiar board game called HEX. We show that determining who wins such a game if each player plays perfectly is very hard; in fact, it is as hard as carrying out any polynomial-space-bounded computation. This result suggests that the theory of combinatorial games is difficult.

@@ -1,0 +1,21 @@
+To investigate if a life-cycle model exists for Human-ComputerInterface (HCI) principles and integrate this into coursewaredesign for Computer-Based Training (CBT). To develop a suitablemodel for the design of the user interface looking at ways ofevaluating usability of HCI's for CBT courseware. A model centredupon the use of high quality and creative instructional designembracing the changing technologies coupled with clear principlesof learning and cognitive psychology which enables usabilityevaluation is therefore desirable. The Multimedia InteractiveDesign Aided System (MIDAS) model presented in this paper is aformulation based upon such criteria. The implementation of themodel presented is centred on the following application - Thetraining of pilots and engineers on the braking system of theBritish Aerospace Jetstream Aircraft.
+The multimedia authoring tool used for the implementation isAuthorware Professional, and the courseware application ispresented on a Macintosh environment, which can be converted to aWindows environment. Macromind Director has been used to create theanimation, sound, and graphic windows and imported intoAuthorware.
+<i>The need for a practical method for accessing usabilityof CBT courseware.</i>
+The ultimate aim in producing guidance for well-designed userinterfaces must be to improve usability of the system for the user.However, guidelines rarely concern the <i>needs</i> and<i>requirements</i> imposed on the interface by thetasks which an end-user carries out in a particular context. Inaddition, the presentation of guidelines generally includes verylittle guidance concerning where, when and how to use them, and howto apply them in a particular situation. In CBT coursewareevaluation, guidelines therefore have a limited use as a means ofevaluating the effectiveness of a user interface when carrying outtasks. In order to enable the research findings emerging in thisarea to be applied in assessing usability, a method is needed whichgoes beyond lists of design guidelines, but which utilizes relevantmaterial existing within them.
+The principles presented outline how my research contributes andprovides a better understanding to the development of a newapproach to the evaluation of CBT courseware.
+The method, and the nature of the checklist, enables aninterface to be evaluated by a variety of people, with differingexpertise and backgrounds, including, for example, CBT trainers,developers, interface designers and other experts, and mostimportantly, representative end-users, who may, or will, actuallyuse the system in practice.
+<i>The method does not aim to solve problems, or to enablea quantitative assessment of usability. It provides a means ofidentifying problem areas, of extracting information on problems,difficulties, weaknesses, areas for improvement, etc.</i>
+The evaluation criterion headings are:
+Visual Clarity
+&bull;Consistency
+&bull;Compatibility
+&bull;Informative feedback
+&bull;Explicitness
+&bull;Appropriate functionality
+&bull;Flexibility and control
+&bull;Error prevention and correction
+&bull;User guidance and support
+&bull;System usability
+The results and conclusions drawn from the experimentationcarried out during the past year will be summarised in graphicalform.
+The potential financial benefits of using the method will besummarised.
+Finally a set of Practical guidelines for the production of auser-interface for CBT courseware will be presented, based on theMIDAS model, which will take into account changes to the initialdesign model which have come to light as a result of the evaluationprocess.

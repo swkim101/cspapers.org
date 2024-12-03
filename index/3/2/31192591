@@ -1,0 +1,1 @@
+This invention is a test methodology that immediately retests failed chips to recover false tester reads with no loss of test floor capacity during multiprobe production testing of integrated circuit chips on a wafer. This method retests a chip a second time prior to the multiprobe going to the next chip on the wafer, thus eliminating lost time in repositioning the multiprobe.

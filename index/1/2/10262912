@@ -1,0 +1,1 @@
+WC study the complexity of proving unsatisfiability for random k-CNP formulas with clause density A = m/n where 111 is number of clauses and n is the number of variables. We prove the first nontrivial general upper bound, giving algorithmo that, in particular, for k = 3 produce refutations almost certainly in time 20t”iA). This is polynomial when

@@ -1,0 +1,4 @@
+
+ 
+ Documents from the same domain usually discuss similar topics in a similar order. However, the number of topics and the exact topics discussed in each individual document can vary. In this paper we present a simple topic model that uses generalised Mallows models and incomplete topic orderings to incorporate this ordering regularity into the probabilistic generative process of the new model. We show how to reparameterise the new model so that a point-wise sampling algorithm from the Bayesian word segmentation literature can be used for inference. This algorithm jointly samples not only the topic orders and the topic assignments but also topic segmentations of documents. Experimental results show that our model performs significantly better than the other ordering-based topic models on nearly all the corpora that we used, and competitively with other state-of-the-art topic segmentation models on corpora that have a strong ordering regularity. 
+ 

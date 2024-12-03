@@ -1,0 +1,1 @@
+For every d > 0, let k<inf>d</inf> be the smallest integer k such that d < 2k log k. We prove that the chromatic number of a random graph G(n,d/n) is either k<inf>d</inf> or k<inf>d+1</inf> almost surely. If d ∈ (2k log k - log k, 2k log k) we further prove that the chromatic number almost surely equals k+1.

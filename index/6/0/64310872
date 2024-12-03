@@ -1,0 +1,19 @@
+This volume contains the proceedings of the Eight Workshop on Specification and Verification of Component-Based Systems (SAVCBS 2009), affiliated with the 7th joint meeting of the European Software Engineering Conference (ESEC) and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE). SAVCBS 2009 took place in Amsterdam, Netherlands on August 25, 2009. 
+ 
+SAVCBS is focused on using formal (i.e., mathematical) techniques to establish a foundation for the specification and verification of component-based systems. Specification techniques are urgently needed to support effective reasoning about systems composed from components. Component-based approaches also underscore the need for scaling advanced verification techniques such as extended static analysis and model checking to the size of real systems. The workshop considers formalization of both functional and non-functional behavior (such as performance or reliability). 
+ 
+SAVCBS aims to bring together researchers and practitioners in the areas of component-based software and formal methods to address the open problems in modular specification and verification of systems composed from components. The workshop seeks to bridge the gap between principles and practice on this research area. The intent of bringing participants together at the workshop is to help form a community-oriented understanding of the relevant research problems and to help steer formal methods research in a direction that will address the problems of component-based systems. 
+ 
+The goals of the workshop are to produce: 
+Contacts and discussion among researchers and practitioners, and 
+A web site that will be maintained after the workshop to act as a central clearinghouse for research in this area. 
+ 
+ 
+ 
+We enthusiastically thank the authors of submitted papers; their quality contributions and participation are what make a workshop like SAVCBS successful. We thank the program committee for their careful reading and reviewing of the submissions. Our PC members have expertise in a wide variety of subdisciplines related to specification and verification of component-based systems; they include established research leaders and promising recent Ph.D.s; they come from academia and esteemed research institutes, and hail from all over the world. 
+ 
+We received 5 research paper submissions. All papers were reviewed by 3 PC members. After PC discussions, 4 papers were accepted. 
+ 
+This year's program also includes solutions to a specification and verification challenge problem for Database libraries. The specification challenge was to specify a core subset of a library as JDBC (java.sql) library (in Java) or ODBC (System.Data and/or System.Data.SqlClient) (in Microsoft ADO.NET), and in particular to address either coordination among related objects, the use of complex, multi-dimensional, multi-modal interfaces, or asynchrony. The verification challenge was to verify an adapter from Apache Beehive that implements an Iterator interface in terms of the JDBC ResultSet. Solutions to the challenge problem are available online via http://www.eecs.ucf.edu/SAVCBS/2009. 
+ 
+This year, we are pleased to have a keynote talk by Marielle Stoelinga, University of Twente, Netherlands, and an invited talk by Natasha Sharygina, University of Lugano, Switzerland.

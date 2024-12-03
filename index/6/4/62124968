@@ -1,0 +1,9 @@
+This year marks the sixth year that there has been a KDD workshop on the Predictive Model Markup Language (PMML) and related areas and the fourth year of a broader conference with the theme of Data Mining Standards, Services, and Platforms. 
+ 
+Over the past several years, PMML and related data mining standards have matured to the point that conformance of applications to PMML and interoperability have become relevant for many users and for many applications. The first paper in the proceedings this year addresses this issue. 
+ 
+Applications benefit by employing standards for specific types of data, such as text, images, and other unstructured information, as well as domain specific standards. Two of the papers in the proceedings are concerned with these issues. 
+ 
+Streaming data is becoming more and more important for a variety of applications. One of the papers in the proceedings describes a platform for processing streaming data. 
+ 
+Finally, one of the papers describes an open source PMML-compliant scoring engine.

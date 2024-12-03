@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a novel supervised extension of GPLVM, called Gaussian process latent random field (GPLRF), by enforcing the latent variables to be a Gaussian Markov random field with respect to a graph constructed from the supervisory information.
+ 

@@ -1,0 +1,1 @@
+We describe a new approximation algorithm for solving partially observable MDPs. Our bounded policy iteration approach searches through the space of bounded-size, stochastic finite state controllers, combining several advantages of gradient ascent (efficiency, search through restricted controller space) and policy iteration (less vulnerability to local optima).

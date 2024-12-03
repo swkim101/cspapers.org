@@ -1,0 +1,1 @@
+We solve constraint satisfaction problems through translation to answer set programming (ASP). Our reformulations have the property that unit-propagation in the ASP solver achieves well defined local consistency properties like arc, bound and range consistency. Experiments demonstrate the computational value of this approach.

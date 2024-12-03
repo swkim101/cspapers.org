@@ -1,0 +1,4 @@
+
+ 
+ In AI research, mechanism design is typically used to allocate tasks and resources to agents holding private information about their values for possible allocations. In this context, optimizing payments within the Groves class has recently received much attention, mostly under the assumption that agent's private information is single-dimensional. Our work tackles this problem in multi-parameter domains. Specifically, we develop a generic technique to look for a best Groves mechanism for any given mechanism design problem. Our method is based on partitioning the spaces of agent values and payment functions into regions, on each of which we are able to define a feasible linear payment function. Under certain geometric conditions on partitions of the two spaces this function is optimal. We illustrate our method by applying it to the problem of allocating heterogeneous items.
+ 

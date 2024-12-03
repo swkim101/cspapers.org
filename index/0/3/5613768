@@ -1,0 +1,1 @@
+In [22] we showed that existing single-server computational private information retrieval (PIR) protocols for the purpose of preserving client access patterns leakage are orders of magnitude slower than trivially transferring the entire data sets to the inquiring clients. We thus raised the issue of designing efficient PIR mechanisms in practical set-

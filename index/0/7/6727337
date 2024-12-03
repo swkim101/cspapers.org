@@ -1,0 +1,1 @@
+This paper presents the automatic construction of a Korean WordNet from pre-existing lexical resources. A set of automatic WSD techniques is described for linking Korean words collected from a bilingual MRD to English WordNet synsets. We will show how individual linking provided by each WSD method is then combined to produce a Korean WordNet for nouns.

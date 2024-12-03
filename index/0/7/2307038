@@ -1,0 +1,1 @@
+While providers generally aim to avoid congestion by adequate provisioning, overload can clearly occur on certain network links. In this paper we propose some simple preliminary models for an overloaded link accounting for user impatience and reattempt behavior.

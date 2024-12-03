@@ -1,5 +1,0 @@
-We study classical planning for temporally extended goals expressed in Pure-Past Linear Temporal Logic (PPLTL). 
-PPLTL is as expressive as Linear-time Temporal Logic on finite traces (LTLf), but as shown in this paper, it is computationally much better behaved for planning. 
-Specifically, we show that planning for PPLTL goals can be encoded into classical planning with minimal overhead, introducing only a number of new fluents that is at most linear in the PPLTL goal and no spurious additional actions. 
-Based on these results, we implemented a system called Plan4Past, which can be used along with state-of-the-art classical planners, such as LAMA.
-An empirical analysis demonstrates the practical effectiveness of Plan4Past, showing that a classical planner generally performs better with our compilation than with other existing compilations for LTLf goals over the considered benchmarks.

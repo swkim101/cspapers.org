@@ -1,0 +1,4 @@
+
+ 
+ The vision of populating the world with autonomous systems that reduce human labor and improve safety is gradually becoming a reality. Autonomous systems have changed the way space exploration is conducted and are beginning to transform everyday life with a range of household products. In many areas, however, there are considerable barriers to the deployment of fully autonomous systems. We refer to systems that require some degree of human intervention in order to complete a task as semi-autonomous systems. We examine the broad rationale for semi-autonomy and define basic properties of such systems. Accounting for the human in the loop presents a considerable challenge for current planning techniques. We examine various design choices in the development of semi-autonomous systems and their implications on planning and execution. Finally, we discuss fruitful research directions for advancing the science of semi-autonomy.
+ 

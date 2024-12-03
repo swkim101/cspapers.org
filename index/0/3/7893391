@@ -1,0 +1,1 @@
+A mathematical model for the processes of allocation and compaction is developed. The behavior of the most commonly used compaction algorithm is studied under this model. The relationship between time and space and trade-offs between “conservative” and “non-conservative” compaction algorithms are also investigated.

@@ -1,0 +1,4 @@
+
+ 
+ We examine the inferential complexity of Bayesian networks specified through logical constructs. We first consider simple propositional languages, and then move to relational languages. We examine both the combined complexity of inference (as network size and evidence size are not bounded) and the data complexity of inference (where network size is bounded); we also examine the connection to liftability through domain complexity. Combined and data complexity of several inference problems are presented, ranging from polynomial to exponential classes.
+ 

@@ -1,0 +1,11 @@
+This work considers computationally efficient privacy-preserving data release. We study the task of analyzing a database containing sensitive information about individual participants. Given a set of statistical queries on the data, we want to release approximate answers to the queries while also guaranteeing differential privacy---protecting each participant's sensitive data. 
+ 
+Our focus is on computationally efficient data release algorithms; we seek algorithms whose running time is polynomial, or at least sub-exponential, in the data dimensionality. Our primary contribution is a computationally efficient reduction from differentially private data release for a class of counting queries, to learning thresholded sums of predicates from a related class. 
+ 
+We instantiate this general reduction with algorithms for learning thresholds, obtaining new results for differentially private data release. As two examples, taking {0, 1}d to be the data domain (of dimension d), we obtain differentially private algorithms for: 
+ 
+1. Releasing all k-way conjunction counting queries (or k-way contingency tables). For any given k, the resulting data release algorithm has bounded error as long as the database is of size at least dO [EQUATION] (ignoring the dependence on other parameters). The running time is polynomial in the database size. The best sub-exponential time algorithms known prior to our work required a database of size O (dk/2) [Dwork McSherry Nissim and Smith 2006]. 
+ 
+2. Releasing any family of counting queries that is specified by a constant depth AC0 predicate. This algorithm releases accurate answers to a (1 − γ)-fraction of the queries in the family. For any γ ≥ quasipoly(1/d), the algorithm has bounded error as long as the database is of size at least quasipoly(d) (again ignoring the dependence on other parameters). The running time is quasipoly(d). 
+ 
+The first learning algorithm uses techniques for representing thresholded sums of predicates as low-degree polynomial threshold functions. The second learning algorithm is based on a result of Jackson Klivans and Servedio [JKS 2002], and utilizes Fourier analysis of the database viewed as a function mapping queries to answers.

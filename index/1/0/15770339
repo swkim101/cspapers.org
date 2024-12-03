@@ -1,0 +1,3 @@
+This investigation of machine processing of pictorial data is based on the premise that people can recognize visual objects and describe them well enough so that other individuals can recognize the object from the description. Given a system of linguistic communication between a person and a digital computer, and given that the computer possesses adequate perceptual machinery, many currently refractory problems in pictorial data processing would be open to solution. 
+ 
+This paper describes a computer system which can perceive a limited class of graphical objects, create linguistic descriptions for the objects, and classify objects by comparison with a reference set of descriptions as might be produced in normal human communication.

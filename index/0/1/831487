@@ -1,0 +1,1 @@
+DiPRA (Distributed Practical Reasoning Architecture) implements the main principles of practical reasoning via the distributed action selection paradigm. We introduce and motivate the underlying theoretical and computational peculiarities of DiPRA and we describe its components, also providing as a case study a guards-and-thieves task.

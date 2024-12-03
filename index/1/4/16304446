@@ -1,0 +1,1 @@
+It is important to estimate the friction force in tire-road contact in order to improve the control performance of a vehicle in critical motions. In this paper, an estimation of a friction force is proposed by using a pressure distribution in 3D. Then, an adaptive control for friction compensation is presented to validate the proposed model.

@@ -1,0 +1,4 @@
+
+ 
+ In cooperative multi-agent sequential decision making under uncertainty, agents must coordinate to find an optimal joint policy that maximises joint value. Typical algorithms exploit additive structure in the value function, but in the fully-observable multi-agent MDP (MMDP) setting such structure is not present. We propose a new optimal solver for transition-independent MMDPs, in which agents can only affect their own state but their reward depends on joint transitions. We represent these dependencies compactly in conditional return graphs (CRGs). Using CRGs the value of a joint policy and the bounds on partially specified joint policies can be efficiently computed. We propose CoRe, a novel branch-and-bound policy search algorithm building on CRGs. CoRe typically requires less runtime than available alternatives and finds solutions to previously unsolvable problems.
+ 

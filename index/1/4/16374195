@@ -1,0 +1,1 @@
+We prove the first superlinear lower bound for a concrete decision problem in P on a Turing machine with one work tape and a two-way input tape (also called: off-line 1-tape Turing machine). In particular we show for off-line Turing machines that 2 tapes are better than 1 and that 3 pushdown stores are better than 2 (both in the deterministic and in the nondeterministic case).

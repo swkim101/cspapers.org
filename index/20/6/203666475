@@ -1,0 +1,1 @@
+We investigate the asymptotic efficiency of certain combinatorial networks called halvers, which are basic building blocks of many parallel algorithms. We improve the efficiency of halvers in terms of their depth. The novelty is the use of combinatorial cicuits whose basic units are k-sorter switches.

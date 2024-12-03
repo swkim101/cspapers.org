@@ -1,0 +1,1 @@
+In this paper, we propose a bilingual lexical cohesion trigger model to capture lexical cohesion for document-level machine translation. We integrate the model into hierarchical phrase-based machine translation and achieve an absolute improvement of 0.85 BLEU points on average over the baseline on NIST Chinese-English test sets.

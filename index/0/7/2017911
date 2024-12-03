@@ -1,0 +1,1 @@
+Due to the high popularity of Cross-Site Scripting (XSS) attacks, most major browsers now include or support filters to protect against reflected XSS attacks. Internet Explorer and Google Chrome provide built-in filters, while Firefox supports extensions that provide this functionality. However, these filters all have limitations.

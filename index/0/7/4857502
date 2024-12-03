@@ -1,0 +1,1 @@
+A redesign support framework for complex technical processes is described in this paper. This framework employs a multi-model hierarchical representation of the process to be redesigned together with a case-based reasoning engine that helps us to decide the elements of the process that should be modified. This framework has been tested in the chemical engineering domain.

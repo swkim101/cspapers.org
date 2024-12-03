@@ -1,0 +1,1 @@
+We introduce an efficient, interactive framework—Argviz—for experts to analyze the dynamic topical structure of multi-party conversations. Users inject their needs, expertise, and insights into models via iterative topic refinement. The refined topics feed into a segmentation model, whose outputs are shown to users via multiple coordinated views.

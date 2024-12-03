@@ -1,0 +1,4 @@
+
+ 
+ This paper outlines an online approach for algorithm configuration which uses the power of modern multicore system to evaluate multiple parameters configurations in parallel.
+ 

@@ -1,0 +1,3 @@
+In this paper an algorithm is given for extremum search of an unknown function F(x) when the space of variables taking discrete values is not a metric one. Function values are obtained experimentally. 
+ 
+The given algorithm is based on the idea of adaptive random search. This algorithm has been used for the solution of a number of practical problems for choosing an effective subsystem of dependent features in pattern recognition. It is intended for solving problems which do not correspond to know problems of discrete programming.

@@ -1,0 +1,1 @@
+This talk first gives an overview of an XML project for e-Local Governments, which is under the auspices of MIAC (Ministry of Internal Affairs and Communications) of Japan. This talk then focuses on schema authoring and user interfaces. In particular, the use of four schema languages, namely RELAX NG, W3C XML Schema, DTD, and Schematron, is highlighted.

@@ -1,0 +1,4 @@
+
+ 
+ We study the computational complexity of finding the next most preferred solution in some common formalisms for representing constraints and preferences. The problem is computationally intractable for CSPs, but is polynomial for tree-shaped CSPs and tree-shaped fuzzy CSPs. On the other hand, it is intractable for weighted CSPs, even under restrictions on the constraint graph. For CP-nets, the problem is polynomial when the CP-net is acyclic. This remains so if we add (soft) constraints that are tree-shaped and topologically compatible with the CP-net.
+ 

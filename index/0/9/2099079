@@ -1,0 +1,1 @@
+We present a method to mine strings that are frequent in one database and infrequent in another. The method uses suffix- and lcp-arrays that can be computed extremely fast and space efficiently, and further exhibit a good locality behavior. Experiments with several biologically relevant data sets show that our approach outperforms existing methods in terms of time and space.

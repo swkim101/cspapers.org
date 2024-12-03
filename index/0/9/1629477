@@ -1,0 +1,1 @@
+We compute the regression depth of a <i>k</i>-flat in a set of <i>n</i> points in R<sup><i>d</i></sup>, in time <i>&Ogr;</i>(<i>n</i><sup><i>d</i>-2</sup> + <i>n</i> log <i>n</i>) for 1 ⪇ <i>k</i> ⪇ <i>d</i> - 2. This contrasts with a bound of <i>&Ogr;</i>(<i>n</i><sup><i>d</i>-1</sup> + <i>n</i> log <i>n</i>) when <i>k</i> = 0 or <i>k</i> = <i>d</i> - 1.

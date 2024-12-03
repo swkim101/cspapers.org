@@ -1,0 +1,4 @@
+
+ 
+ Hedonic games are a well-studied model of coalition formation, in which selfish agents are partitioned into disjoint sets, and agents care about the make-up of the coalition they end up in. The computational problem of finding a stable outcome tends to be computationally intractable, even after severely restricting the types of preferences that agents are allowed to report. We investigate a structural way of achieving tractability, by requiring that agents' preferences interact in a well-behaved manner. Precisely, we show that stable outcomes can be found in linear time for hedonic games that satisfy a notion of bounded treewidth and bounded degree.
+ 

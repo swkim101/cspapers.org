@@ -1,0 +1,1 @@
+This paper proposes a counterexample-guided narrowing approach, which mutually refines analyses and testing if (possibly spurious) counterexamples are found. A prototype tool CANAT for checking roundoff errors between floating point and fixed point numbers is reported with preliminary experiments.

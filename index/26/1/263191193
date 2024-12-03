@@ -1,0 +1,1 @@
+The ability to recognize when an agent abandons a plan is an open problem in the plan recognition literature and is a significant problem if these methods are to be applied in real systems. This paper presents an explicit, formal, and implemented solution to the problem of recognizing when an agent has abandoned one of its goals based on a theory of probabilistic model revision.

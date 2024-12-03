@@ -1,0 +1,3 @@
+A complete software system for the automatic design of Emitter Coupled Logic (ECL) LSI circuits is described. It is based on the Standard Cell Array (SCA) principle where pre-designed sub-circuits or cells are placed and tracked on silicon to form the integrated circuit chip.
+ ECL technology, (11 masks, 2 - layer metal) presents many problems not encountered in simpler processes. For example, through-holes may not be created over oxide steps and the high power dissipation of ECL cells makes the distribution of power a critical factor. 
+ This paper describes how the complexity may be turned to advantage, especially in tracking. Examples are presented to show how the various difficulties may be overcome.

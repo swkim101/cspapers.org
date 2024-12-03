@@ -1,0 +1,4 @@
+
+ 
+ We present a novel method for ranking query paraphrases for effective search in community question answering (cQA). The method uses query logs from Yahoo! Search and Yahoo! Answers for automatically extracting a corpus of paraphrases of queries and questions using the query-question click history. Elements of this corpus are automatically ranked according to recall and mean reciprocal rank, and then used for learning two independent learning to rank models (SVMRank), whereby a set of new query paraphrases can be scored according to recall and MRR. We perform several automatic evaluation procedures using cross-validation for analyzing the behavior of various aspects of our learned ranking functions, which show that our method is useful and effective for search in cQA.
+ 

@@ -1,0 +1,1 @@
+A 5/4-approximation algorithm is presented for the minimum cardinality 2-edge-connected spanning subgraph problem in undirected graphs. This improves the previous best approximation ratio of 4/3. It is shown that our ratio is tight with respect to current lower bounds, and any further improvement is possible only if new lower bounds are discovered.

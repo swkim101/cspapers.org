@@ -1,0 +1,1 @@
+The global scheduling of systems that can be modeled as collections of multiple independent recurrent real-time tasks, each represented as a synchronous dataflow graph (SDFG), upon an identical multiprocessor platform is considered. An EDF-based scheduling algorithm is proved optimal under the speedup factor metric, and a speedup-optimal sufficient schedulability test is derived.

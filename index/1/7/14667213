@@ -1,0 +1,4 @@
+
+ 
+ Deductive reasoning and inductive learning are the most common approaches for deriving knowledge. In real world applications when data is dynamic and incomplete, especially those exposed by sensors, reasoning is limited by dynamics of data while learning is biased by data incompleteness. Therefore discovering consistent knowledge from incomplete and dynamic data is a challenging open problem. In our approach the semantics of data is captured through ontologies to empower learning (mining) with (Description Logics) reasoning. Consistent knowledge discovery is achieved by applying generic, significative, representative association semantic rules. The experiments have shown scalable, accurate and consistent knowledge discovery with data from Dublin.
+ 

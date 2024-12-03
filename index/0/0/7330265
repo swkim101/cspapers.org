@@ -1,0 +1,3 @@
+We present and analyze a theoretical model designed to understand and explain the effectiveness of ontologies for learning multiple related tasks from primarily unlabeled data. We present both information-theoretic results as well as efficient algorithms. 
+ 
+We show in this model that an ontology, which specifies the relationships between multiple outputs, in some cases is sufficient to completely learn a classification using a large unlabeled data source.

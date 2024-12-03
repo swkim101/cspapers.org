@@ -1,0 +1,1 @@
+Ownership domain annotations enable obtaining at compile-time the system's execution structure from the annotated program. The execution structure is sound, hierarchical (and thus more scalable) and conveys more design intent than flat object graphs obtained by existing static analyses that do not rely on annotations.

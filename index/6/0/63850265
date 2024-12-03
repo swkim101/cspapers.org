@@ -1,0 +1,1 @@
+This paper presents an implemented, computationally inexpensive technique for disambiguating categories (parts of speech) by exploiting constraints on possible category combinations. Early resolutions of category ambiguities provide a great deal of leverage, simplifying later resolutions of other types of lexical ambiguity.

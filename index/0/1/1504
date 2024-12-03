@@ -1,0 +1,1 @@
+We present two new data structure tools—disjoint set union with bottom-up linking, and pointer-based radix sort—and combine them with bottom-level microtrees to devise the first linear-time pointer-machine algorithms for off-line least common ancestors, minimum spanning tree (MST) verification, randomized MST construction, and computing dominators in a flowgraph.

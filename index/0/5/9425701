@@ -1,0 +1,4 @@
+
+ 
+ We propose a new input perturbation mechanism for publishing a covariance matrix to achieve (epsilon,0)-differential privacy. Our mechanism uses a Wishart distribution to generate matrix noise. In particular, we apply this mechanism to principal component analysis (PCA). Our mechanism is able to keep the positive semi-definiteness of the published covariance matrix. Thus, our approach gives rise to a general publishing framework for input perturbation of a symmetric positive semidefinite matrix. Moreover, compared with the classic Laplace mechanism, our method has better utility guarantee. To the best of our knowledge, the Wishart mechanism is the best input perturbation approach for (epsilon,0)-differentially private PCA. We also compare our work with previous exponential mechanism algorithms in the literature and provide near optimal bound while having more flexibility and less computational intractability.
+ 

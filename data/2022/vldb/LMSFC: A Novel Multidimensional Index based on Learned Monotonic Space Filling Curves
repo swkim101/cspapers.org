@@ -1,6 +1,0 @@
-
- The recently proposed learned indexes have attracted much attention as they can adapt to the actual data and query distributions to attain better search efficiency. Based on this technique, several existing works build up indexes for multi-dimensional data and achieve improved query performance. A common paradigm of these works is to (i) map multi-dimensional data points to a one-dimensional space using a fixed space-filling curve (SFC) or its variant and (ii) then apply the learned indexing techniques. We notice that the first step typically uses a fixed SFC method, such as row-major order and
- z
- -order. It definitely limits the potential of learned multi-dimensional indexes to adapt variable data distributions via different query workloads.
- 
- In this paper, we propose a novel idea of learning a space-filling curve that is carefully designed and actively optimized for efficient query processing. We also identify innovative offline and online optimization opportunities common to SFC-based learned indexes and offer optimal and/or heuristic solutions. Experimental results demonstrate that our proposed method, LMSFC, outperforms state-of-the-art non-learned or learned methods across three commonly used real-world datasets and diverse experimental settings.

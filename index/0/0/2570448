@@ -1,0 +1,4 @@
+
+ 
+ Multi-label learning concerns learning multiple, overlapping, and correlated classes. In this paper, we adapt a recent structured prediction framework called HC-Search for multi-label prediction problems. One of the main advantages of this framework is that its training is sensitive to the loss function, unlike the other multi-label approaches that either assume a specific loss function or require a manual adaptation to each loss function. We empirically evaluate our instantiation of the HC-Search framework along with many existing multi-label learning algorithms on a variety of benchmarks by employing diverse task loss functions. Our results demonstrate that the performance of existing algorithms tends to be very similar in most cases, and that the HC-Search approach is comparable and often better than all the other algorithms across different loss functions.
+ 

@@ -1,0 +1,1 @@
+We present our work towards building a novel distributed n-tuple store by extending the Kademlia DHT [1] algorithm to support n dimensional keys as well as an multi get operator, where some of the dimensions of the "query" key can be left unspecified.

@@ -1,0 +1,1 @@
+We present HPP, a software designed for complex classes of motion planning problems, such as navigation among movable objects, manipulation, contact-rich multiped locomotion, or elastic rods in cluttered environments. HPP is an open-source answer to the lack of a standard framework for these important issues for robotics and graphics communities.

@@ -1,0 +1,4 @@
+
+ 
+ We propose a new deep neural network architecture, TabNet, for table type classification. Table type is essential information for exploring the power of Web tables, and it is important to understand the semantic structures of tables in order to classify them correctly. A table is a matrix of texts, analogous to an image, which is a matrix of pixels, and each text consists of a sequence of tokens. Our hybrid architecture mirrors the structure of tables: its recurrent neural network (RNN) encodes a sequence of tokens for each cell to create a 3d table volume like image data, and its convolutional neural network (CNN) captures semantic features, e.g., the existence of rows describing properties, to classify tables. Experiments using Web tables with various structures and topics demonstrated that TabNet achieved considerable improvements over state-of-the-art methods specialized for table classification and other deep neural network architectures.
+ 

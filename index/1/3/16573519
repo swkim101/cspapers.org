@@ -1,0 +1,4 @@
+A rule for describing the circuit-to-pin relation has been quite useful as an aid to the packaging of electronic components in data processing machines. This rule, which in some circles is referred to as the Rent's Rule, is expressed as XN &equil; aXBr where XB is the number of circuits and XN is the number of pins per package. Historically Rent's Rule was established from experimental data which produced a close to linear pin-to-circuit relation on a log-log plot. In the past, the parameters, a and r, have been chosen within the following ranges depending upon the particular technology used:
+ a, 3.0 to 5.0
+ r, 0.6 to 0.7
+ Previously the actual parameters have been derived experimentally. However, often an approximation of the pin-to-circuit relation before packaging is desired. To develop such an approximation it is assumed that a machine, its particular technology, and a partitioning algorithm which is expressed as a computer program are known.

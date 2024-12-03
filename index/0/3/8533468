@@ -1,0 +1,1 @@
+This paper describes PHORA, a technique for resolving pronominal reference to either individual or abstract entities. It defines processes for evoking abstract referents from discourse and for resolving both demonstrative and personal pronouns. It successfully interprets 72% of test pronouns, compared to 37% for a leading technique without these features.

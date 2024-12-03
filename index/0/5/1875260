@@ -1,0 +1,4 @@
+
+ 
+ The utility of including cyclic flows of control in plans has been long recognized by the planning community. Loops in a plan help increase both its applicability and the compactness of representation. However, progress in finding such plans has been limited largely due to lack of methods for reasoning about the correctness and safety properties of loops of actions. We present an overview of recent results for determining the class of problems that a plan with loops can solve. These methods can be used to direct the construction of a rich new form of generalized plans that solve a desired class of problems.
+ 

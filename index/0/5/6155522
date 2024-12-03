@@ -1,0 +1,1 @@
+In this paper, the authors describe a hierarchical framework for the computation of displacement fields from a sequence of images acquired by a moving camera and containing several moving objects. They also describe a matching algorithm which is consistent with the proposed framework and they represent some experimental results demonstrating the robustness of their approach.

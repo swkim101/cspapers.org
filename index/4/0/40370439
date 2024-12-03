@@ -1,0 +1,5 @@
+An (r, s)-formation is the concatenation of s permutations over an r-letter alphabet. Formation-free sequences are a generalization of standard Davenport-Schinzel sequences (where r = 2) and can be used to obtain good bounds on the extremal function of any forbidden subsequence. More recently, formation-free sequences have been applied to bounding the size of sets of permutations with fixed VC-dimension. 
+ 
+Improving on earlier work by Klazar, Nivasch, and Cibulka and Kyncl, we prove sharp bounds on the length of (r, s)-formation-free sequences, for every r and s, and on sequences avoiding "doubled" (r, s)-formations. 
+ 
+There are two take-away messages from our results. The first is that formation-free sequences are qualitatively different than their Davenport-Schinzel counterparts. They behave similarly when r = 2, or when s ≤ 3, or when s ≥ 4 is even, but are different in all other cases. The second message is that sequences avoiding doubled (r, s)-formations behave just like (r, s)-formation-free sequences, though they are substantially more difficult to analyze.

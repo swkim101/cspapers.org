@@ -1,0 +1,4 @@
+
+ 
+ Motivated by problems such as molecular energy prediction, we derive an (improper) kernel between geometric inputs, that is able to capture the relevant rotational and translation invariances in geometric data. Since many physical simulations based upon geometric data produce derivatives of the output quantity with respect to the input positions, we derive an approach that incorporates derivative information into our kernel learning. We further show how to exploit the low rank structure of the resulting kernel matrices to speed up learning. Finally, we evaluated the method in the context of molecular energy prediction, showing good performance for modeling previously unseen molecular configurations. Integrating the approach into a Bayesian optimization, we show substantial improvement over the state of the art in molecular energy optimization.
+ 

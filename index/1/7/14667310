@@ -1,0 +1,1 @@
+This paper investigates feasibility of device-free indoor localization using single passive receiver. Instead of local wireless nodes sharing one frequency channel, this work leverages multiple ambient FM radio stations. Experimental results demonstrate feasibility of the proposed approach and highlight the role of frequency diversity for passive localization.

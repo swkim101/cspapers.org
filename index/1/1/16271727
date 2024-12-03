@@ -1,0 +1,4 @@
+
+ 
+ There are many diverse domains like academic collaboration, service industry, and movies, where a group of agents are involved in a set of activities through interactions or collaborations to create value. The end result of the value creation process is two pronged: firstly, there is a cumulative value created due to the interactions and secondly, a network that captures the pattern of historical interactions between the agents. In this paper we summarize our efforts towards design and analysis of value creation networks: 1) network representation of interactions and value creations, 2) identify contribution of a node based on values created from various activities, and 3) ranking nodes based on structural properties of interactions and the resulting values. To highlight the efficacy of our proposed algorithms, we present results on IMDB and services industry data.
+ 

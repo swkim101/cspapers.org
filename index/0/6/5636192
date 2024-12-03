@@ -1,0 +1,4 @@
+
+ 
+ Normal form games are one of the most familiar representations for modeling interactions among multiple agent. However, modeling many realistic interactions between agents results in games that are extremely large. In these cases computing standard solutions like Nash equilibrium may be intractable. To overcome this issue the idea of abstraction has been investigated, most prominently in research on computer Poker. Solving a game using abstraction requires using some method to simplify the game before it is analyzed. We study a new variation for solving normal form games using abstraction that is based on finding and solving suitable sub games. We compare this method with several variations of a common type of abstraction based on clustering similar strategies.
+ 

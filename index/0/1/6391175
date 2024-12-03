@@ -1,0 +1,4 @@
+
+ 
+ In this paper we computationally examine how subjective experience may help or harm the decision maker's learning under uncertain outcomes, frames and their interactions. To model subjective experience, we propose the "experienced-utility function" based on a prospect theory (PT)-based parameterized subjective value function. Our analysis and simulations of two-armed bandit tasks present that the task domain (underlying outcome distributions) and framing (reference point selection) influence experienced utilities and in turn, the "subjective discriminability" of choices under uncertainty. Experiments demonstrate that subjective discriminability improves on objective discriminability by the use of the experienced-utility function with appropriate framing for a given task domain, and that bigger subjective discriminability leads to more optimal decisions in learning under uncertainty.
+ 

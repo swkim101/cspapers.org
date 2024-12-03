@@ -1,8 +1,0 @@
-
- Multi-modal transportation recommendation aims to provide the most appropriate travel route with various transportation modes according to certain criteria. After analyzing large-scale navigation data, we find that route representations exhibit two patterns: spatio-temporal autocorrelations within transportation networks and the semantic coherence of route sequences. However, there are few studies that consider both patterns when developing multi-modal transportation systems. To this end, in this paper, we study multi-modal transportation recommendation with unified route representation learning by exploiting both spatio-temporal dependencies in transportation networks and the semantic coherence of historical routes. Specifically, we propose to unify both dynamic graph representation learning and hierarchical multi-task learning for multi-modal transportation recommendations. Along this line, we first transform the multi-modal transportation network into time-dependent multi-view transportation graphs and propose a
- spatiotemporal graph neural network
- module to capture the spatial and temporal autocorrelation. Then, we introduce a
- coherent-aware attentive route representation learning
- module to project arbitrary-length routes into fixed-length representation vectors, with explicit modeling of route coherence from historical routes. Moreover, we develop a
- hierarchical multi-task learning
- module to differentiate route representations for different transport modes, and this is guided by the final recommendation feedback as well as multiple auxiliary tasks equipped in different network layers. Extensive experimental results on two large-scale real-world datasets demonstrate the performance of the proposed system outperforms eight baselines.

@@ -1,0 +1,1 @@
+In this paper we prove a 3n upper and lower bound on the complexity of sorting on a n × n mesh connected parallel computer, and describe an exceptionally simple algorithm which sorts the array by alternately sorting its rows and columns log log n times.

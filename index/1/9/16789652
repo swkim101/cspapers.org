@@ -1,0 +1,1 @@
+We present a semantic approach to suggesting query completions which leverages entity and type information. When compared to a frequency-based approach, we show that such information mostly helps rare queries.

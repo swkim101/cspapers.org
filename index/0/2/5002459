@@ -1,0 +1,4 @@
+
+ 
+ In real-world recommender systems, some users are easily influenced by new products and whereas others are unwilling to change their minds. So the preference varying speeds for users are different. Based on this observation, we propose a dynamic nonlinear matrix factorization model for collaborative filtering, aimed to improve the rating prediction performance as well as track the preference varying speeds for different users. We assume that user-preference changes smoothly over time, and the preference varying speeds for users are different. These two assumptions are incorporated into the proposed model as prior knowledge on user feature vectors, which can be learned efficiently by MAP estimation. The experimental results show that our method not only achieves state-of-the-art performance in the rating prediction task, but also provides an effective way to track user-preference varying speed.
+ 

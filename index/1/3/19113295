@@ -1,0 +1,4 @@
+
+ 
+ Link prediction in signed social networks is challenging because of the existence and imbalance of the three kinds of social status (positive, negative and no-relation). Furthermore, there are a variety types of no-relation status in reality, e.g., strangers and frenemies, which cannot be well distinguished from the other linked status by existing approaches. In this paper, we propose a novel Framework of Integrating both Latent and Explicit features (FILE), to better deal with the no-relation status and improve the overall link prediction performance in signed networks. In particular, we design two latent features from latent space and two explicit features by extending social theories, and learn these features for each user via matrix factorization with a specially designed ranking-oriented loss function. Experimental results demonstrate the superior of our approach over state-of-the-art methods.
+ 

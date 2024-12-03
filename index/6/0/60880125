@@ -1,0 +1,1 @@
+A model describing the exchange of data in a system consisting of several local process-controllers working in parallel is developed. Using this model, a formalized description of the errors in consistency is presented. This description leads to a protocol for implementation of such systems. >

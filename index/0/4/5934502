@@ -1,0 +1,2 @@
+In this paper we describe current efforts aimed at adapting an existing Question Answering system to a new document set, namely research papers in the genomics domain. The system has been originally developed for another restricted domain, however it has already proved its portability. Nevertheless, the process is not painless, and the specific purpose of 
+this paper is to describe the problems encountered.

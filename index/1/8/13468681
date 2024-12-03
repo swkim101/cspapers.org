@@ -1,0 +1,1 @@
+We describe a method for automatically generating subjectivity clues for a specific topic and a set of (relevant) document, evaluating it on the task of classifying sentences w.r.t. subjectivity, with improvements over previous work.

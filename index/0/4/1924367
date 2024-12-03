@@ -1,0 +1,1 @@
+We show that maximal matchings can be computed deterministically in O(log4 n) rounds in the synchronous, message-passing model of computation. This is one of the very few cases known of a nontrivial graph structure, and the only "classical" one, which can be computed distributively in polylogarithmic time without recourse to randomization.

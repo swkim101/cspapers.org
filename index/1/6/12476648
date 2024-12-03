@@ -1,0 +1,1 @@
+We present the first algorithm that computes optimal orderings of sentences into a locally coherent discourse. The algorithm runs very efficiently on a variety of coherence measures from the literature. We also show that the discourse ordering problem is NP-complete and cannot be approximated.

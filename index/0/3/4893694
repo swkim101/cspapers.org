@@ -1,0 +1,4 @@
+
+ 
+ Computational mechanism analysis is a recent approach to economic analysis in which a mechanism design setting is analyzed entirely by a computer. For games with non-trivial numbers of players and actions, the approach is only feasible when these games can be encoded compactly, e.g., as Action-Graph Games. Such encoding is currently a manual process requiring expert knowledge; our aim is to simplify and automate it. Our contribution, the Positronic Economist is a software system having two parts: (1) a Python-based language for succinctly describing mechanisms; and (2) a system that takes such descriptions as input, automatically identifies computationally useful structure, and produces a compact Action-Graph Game.
+ 

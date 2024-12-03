@@ -1,0 +1,7 @@
+An optical character reader capable of reading handwritten numerical characters has been developed and applied to mail automation. 
+ 
+The recognition of characters is performed by extracting geometrical features out of horizontally divided zones together with their mutual connective relation. The topological structure of character strokes is analyzed by a sequential machine with an input string of stroke segments combined with information on the connective relation. 
+ 
+The extracted features are sequentially matched with standard references. A new decision method called decision graph matching is fully utilized. The decision graph consists of a set of decision transition diagrams to be compared with the string of extracted features and a penalty count system to detect the optimum match. 
+ 
+High flexibility against unlimited variability of handwritten character shapes is achieved by means of a stored logic system using rewritable magnetic core memory.

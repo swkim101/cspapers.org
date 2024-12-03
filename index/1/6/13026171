@@ -1,0 +1,1 @@
+We describe a program called SWIRL designed for simulating military air battles between offensive and defensive forces. SWIRL is written in an object-oriented language (ROSS) where the knowledge base consists of a set of objects and their associated behaviors. We discuss some of the problems we encountered in designing SWIRL and present our approaches to them.

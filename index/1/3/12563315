@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a symbolic BDD-based model checking algorithm for an epistemic strategy logic with observational semantics. The logic has been shown to be more expressive than several variants of ATELand therefore the algorithm can also be used for ATEL model checking. We implement the algorithm in a model checker and apply it to an application on train control system. The performance of the algorithm is also reported, with a comparison showing improved results over a previous partially symbolic approach for ATEL model checking.
+ 

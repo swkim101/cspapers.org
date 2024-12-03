@@ -1,0 +1,5 @@
+Dependent type theory provides a powerful logical calculus for computer-assisted formal reasoning. The associated technology of theorem proving has produced very useful tools, the so-called "proof assistants", for formal proof development both in verification of programs and in formalisation of mathematics. 
+ 
+After giving an overview of the research field, I shall present a new type-theoretic framework LTT and explain its use in formalisation and verification. The particular features of the LTT framework include: - LTT is a foundational calculus for formal reasoning with different logical foundations, establishing the basis for wider applications of the type theory based theorem proving technology. - LTT employs a notion of "typed set", combining type-theoretical reasoning with set-theoretical reasoning in an effective way and supporting efficient proof development in formalisation and verification. 
+ 
+As a promising framework, LTT has been used in several case studies, including the formalisation of Weyl's predicative mathematics and the analysis of security protocols.

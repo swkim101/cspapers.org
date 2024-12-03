@@ -1,0 +1,1 @@
+Vehicular WiFi access is distinct in two respects, (i) continuous mobility of clients and (ii) possibility of predictable link quality. As part of this study, we aim to comprehensively evaluate existing rate adaptation algorithms in real environments. Further, if required, we aim to develop a simple, low-overhead rate adaptation algorithm suited for vehicular WiFi access.

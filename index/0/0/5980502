@@ -1,0 +1,4 @@
+
+ 
+ In cooperative game theory, it is typically assumed that the value of each coalition is known. We depart from this, assuming that v(S) is only a noisy estimate of the true value V (S), which is not yet known. In this context, we investigate which solution concepts maximize the probability of ex-post stability (after the true values are revealed). We show how various conditions on the noise characterize the least core and the nucleolus as optimal. Modifying some aspects of these conditions to (arguably) make them more realistic, we obtain characterizations of new solution concepts as being optimal, including the partial nucleolus, the multiplicative least core, and the multiplicative nucleolus.
+ 

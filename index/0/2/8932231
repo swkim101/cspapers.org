@@ -1,0 +1,4 @@
+
+ 
+ Partially Observable Markov Decision Processes (POMDPs) are powerful models for planning under uncertainty in partially observable domains. However, computing optimal solutions for POMDPs is challenging because of the high computational requirements of POMDP solution algorithms. Several algorithms use a subroutine to prune dominated vectors in value functions, which requires a large number of linear programs (LPs) to be solved and it represents a large part of the total running time. In this paper we show how the LPs in POMDP pruning subroutines can be decomposed using a Benders decomposition. The resulting algorithm incrementally adds LP constraints and uses only a small fraction of the constraints. Our algorithm significantly improves the performance of existing pruning methods and the commonly used incremental pruning algorithm. Our new variant of incremental pruning is the fastest optimal pruning-based POMDP algorithm.
+ 

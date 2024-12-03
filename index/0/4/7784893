@@ -1,0 +1,1 @@
+We formulate the Dempster-Shafer formalism of belief functions [Shafer 76] in the spirit of logical inference systems. Our formulation (called the belief calculus) explicitly avoids the use of set-theoretic notations. As such, it serves as an alternative for the use of the Dempster-Shafer formalism for uncertain reasoning.

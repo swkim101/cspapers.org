@@ -1,0 +1,1 @@
+A method for reducing handprinted characters to directed graphs is described. When hand-printed characters are reduced to this form, area zoning techniques which have been successfully applied in real time environments can be used. Alternatively, the data in this form can be used to generate descriptions in a simple character-description language.

@@ -1,0 +1,1 @@
+In this paper, we propose a design method of a static anti-windup compensator that guarantees closed-loop stability and optimizes performance criterion proposed by Teel and Kapoor (1997). Further, we extend the method to the robust performance problem. We provide design procedures based on linear matrix inequality (LMI) representation.

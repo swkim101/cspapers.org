@@ -1,0 +1,1 @@
+This paper proposes an improved lattice-reduction aided (LRA) MMSE detection based on the Gram-Schmidt orthogonalization. With the proposed detection, much reliable estimate can be achieved, compared to the conventional LRA detection. The BERs are much closer to those with the ML detection in the 4 times 4 MIMO and the 8 times 8 MIMO systems.

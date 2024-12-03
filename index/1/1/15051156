@@ -1,0 +1,5 @@
+We present Barrelfish/DC, an extension to the Barrelfish OS which decouples physical cores from a native OS kernel, and furthermore the kernel itself from the rest of the OS and application state. In Barrelfish/DC, native kernel code on any core can be quickly replaced, kernel state moved between cores, and cores added and removed from the system transparently to applications and OS processes, which continue to execute. 
+ 
+Barrelfish/DC is a multikernel with two novel ideas: the use of boot drivers to abstract cores as regular devices, and a partitioned capability system for memory management which externalizes core-local kernel state. 
+ 
+We show by performance measurements of real applications and device drivers that the approach is practical enough to be used for a number of purposes, such as online kernel upgrades, and temporarily delivering hard real-time performance by executing a process under a specialized, single-application kernel.

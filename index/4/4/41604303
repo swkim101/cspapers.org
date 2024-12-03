@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a new learning method sim- ulation adjusting that adjusts simulation policy to im- prove the move decisions of the Monte Carlo method. We demonstrated simulation adjusting for 4 × 4 board Go problems. We observed that the rate of correct an- swers moderately increased.
+ 

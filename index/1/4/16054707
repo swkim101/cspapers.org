@@ -1,0 +1,1 @@
+. We propose the following generalization of the Variational Garrote for sequential EEG imaging: A Markov prior to promote sparse, but temporally smooth source dynamics. We derive a set of modiﬁed Variational Garrote updates and analyze the role of the prior’s hyperpa-rameters. An experimental evaluation is given in simulated data and in a benchmark EEG data set.

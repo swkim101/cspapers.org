@@ -1,0 +1,5 @@
+We exhibit randomized Byzantine agreement (BA) algorithms achieving optimal running time and fault tolerance against all types of adversaries ever considered in the literature. Our BA algorithms do not require trusted parties, preprocessing, or non-constructive arguments.
+Given private communication lines, we show that <italic>n</italic> processors can reach <italic>BA</italic> in expected constant time <list><item>in a <italic>syncronous</italic> network if any < <italic>n</italic>/3 faults occur
+</item><item>in an <italic>asynchronous</italic> network if any < <italic>n</italic>/4 faults occur
+</item></list>
+For both synchronous and asynchronous networks whose lines do not guarantee private communication, we may use cryptography to obtain algorithms optimal both in fault tolerance and running time against computationally bounded adversaries. (Thus, in this setting, we tolerate up to <italic>n</italic>/3 faults even in an asynchronous network.)

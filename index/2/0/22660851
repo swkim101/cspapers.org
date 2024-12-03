@@ -1,0 +1,4 @@
+
+ 
+ Verbs are important in semantic understanding of natural language. Traditional verb representations, such as FrameNet, PropBank, VerbNet, focus on verbs' roles. These roles are too coarse to represent verbs' semantics. In this paper, we introduce verb patterns to represent verbs' semantics, such that each pattern corresponds to a single semantic of the verb. First we analyze the principles for verb patterns: generality and specificity. Then we propose a nonparametric model based on description length. Experimental results prove the high effectiveness of verb patterns. We further apply verb patterns to context-aware conceptualization, to show that verb patterns are helpful in semantic-related tasks.
+ 

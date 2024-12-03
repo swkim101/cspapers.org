@@ -1,5 +1,0 @@
-In two-player zero-sum games on graphs, the protagonist tries to achieve an objective while the antagonist aims to prevent it. Objectives for which both players do not need to use memory to play optimally are well-understood and characterized both in finite and infinite graphs. Less is known about the larger class of half-positional objectives, i.e., those for which the protagonist does not need memory (but for which the antagonist might). In particular, no characterization of half-positionality is known for the central class of ω-regular objectives.
-
-
-
-Here, we characterize objectives recognizable by deterministic Büchi automata (a class of ω-regular objectives) that are half-positional, both over finite and infinite graphs. This characterization yields a polynomial-time algorithm to decide half-positionality of an objective recognized by a given deterministic Büchi automaton.

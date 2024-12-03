@@ -1,0 +1,1 @@
+I present a simple variation of importance sampling that explicitly searches for important regions in the target distribution. I prove that the technique yields unbiased estimates, and show empirically it can reduce the variance of standard Monte Carlo estimators. This is achieved by concentrating samples in more significant regions of the sample space.

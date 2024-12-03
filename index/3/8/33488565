@@ -1,0 +1,4 @@
+
+ 
+ Understanding commonsense reasoning is one of the core challenges of AI. We are exploring an approach inspired by cognitive science, called analogical chaining, to create cognitive systems that can perform commonsense reasoning. Just as rules are chained in deductive systems, multiple analogies build upon each other’s inferences in analogical chaining. The cases used in analogical chaining – called common sense units – are small, to provide inferential focus and broader transfer. Importantly, such common sense units can be learned via natural language instruction, thereby increasing the ease of extending such systems. This paper describes analogical chaining, natural language instruction via microstories, and some subtleties that arise in controlling reasoning. The utility of this technique is demonstrated by performance of an implemented system on problems from the Choice of Plausible Alternatives test of commonsense causal reasoning.
+ 

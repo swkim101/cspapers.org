@@ -1,0 +1,4 @@
+
+ 
+ The privacy challenge considered here is to prevent an adversary from using available feature values to predict confi- dential information. We propose an algorithm providing such privacy for predictors that have a linear operator in the first stage. Privacy is achieved by zeroing out feature components in the approximate null space of the linear operator. We show that this has little effect on predicting desired information.
+ 

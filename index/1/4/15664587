@@ -1,0 +1,4 @@
+
+ 
+ Prerequisite relations among concepts play an important role in many educational applications such as intelligent tutoring system and curriculum planning. With the increasing amount of educational data available, automatic discovery of concept prerequisite relations has become both an emerging research opportunity and an open challenge. Here, we investigate how to recover concept prerequisite relations from course dependencies and propose an optimization based framework to address the problem. We create the first real dataset for empirically studying this problem, which consists of the listings of computer science courses from 11 U.S. universities and their concept pairs with prerequisite labels. Experiment results on a synthetic dataset and the real course dataset both show that our method outperforms existing baselines.
+ 

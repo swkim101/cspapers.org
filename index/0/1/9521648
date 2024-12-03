@@ -1,0 +1,4 @@
+
+ 
+ Current approaches to handling indirect speech acts (ISAs) do not account for their sociolinguistic underpinnings (i.e., politeness strategies). Deeper understanding and appropriate generation of indirect acts will require mechanisms that integrate natural language (NL) understanding and generation with social information about agent roles and obligations,which we introduce in this paper. Additionally, we tackle the problem of understanding and handling indirect answers that take the form of either speech acts or physical actions, which requires an inferential, plan-reasoning approach. In order to enable artificial agents to handle an even wider-variety of ISAs, we present a hybrid approach, utilizing both the idiomatic and inferential strategies. We then demonstrate our system successfully generating indirect requests and handling indirect answers, and discuss avenues of future research.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Link prediction is one of central tasks in the study of social network evolution and has many applications. In this paper, we use time series to describe node behavior, extract temporal features from the time series to characterize behavior evolution of nodes, and use the temporal features for link prediction. Our experimental results on several real datasets suggest that including the temporal features developed in the paper significantly improve link prediction performance.
+ 

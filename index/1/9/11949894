@@ -1,0 +1,4 @@
+
+ 
+ Social explanation, the statement with the form of "A and B also like the item", is widely used in almost all the major recommender systems in the web and effectively improves the persuasiveness of the recommendation results by convincing more users to try. This paper presents the first algorithm to generate the most persuasive social explanation by recommending the optimal set of users to be put in the explanation. New challenges like modeling persuasiveness of multiple users, different types of users in social network, sparsity of likes, are discussed in depth and solved in our algorithm. The extensive evaluation demonstrates the advantage of our proposed algorithm compared with traditional methods.
+ 

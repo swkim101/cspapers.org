@@ -1,0 +1,1 @@
+We consider the problem of deciding whether a given system of quadratic homogeneous equations over the reals has nontrivial solution. We design an algorithm which, for a fixed number of equations, uses a number of arithmetic operations bounded by a polynomial in the number of variables only.

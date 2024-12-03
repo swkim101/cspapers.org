@@ -1,0 +1,1 @@
+Mashup Feeds is a system that supports integrated web service feeds as continuous queries. We introduce collection-based stream processing semantics to enable information extraction by monitoring source evolution over time.

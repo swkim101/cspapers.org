@@ -1,0 +1,1 @@
+In this paper we propose a general framework to study the generalization properties of binary classifiers trained with data which may be dependent, but are deterministically generated upon a sample of independent examples. It provides generalization bounds for binary classification and some cases of ranking problems, and clarifies the relationship between these learning tasks.

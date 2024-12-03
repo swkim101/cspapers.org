@@ -1,0 +1,1 @@
+Quasi-Partition Scheduling (QPS) is a new scheduling approach with low preemption and migration overhead. QPS was originally proposed taking into consideration hard periodic and sporadic tasks. In this paper we discuss a proposal for extending QPS to deal with soft aperiodic tasks.

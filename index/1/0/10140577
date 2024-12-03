@@ -1,0 +1,5 @@
+We propose a hierarchical scheme for rapid learning of context dependent "skills" that is based on the recently introduced "Parameterized Self-Organizing Map" ("PSOM"). The underlying idea is to first invest some learning effort to specialize the system into a rapid learner for a more restricted range of contexts. 
+ 
+The specialization is carried out by a prior "investment learning stage", during which the system acquires a set of basis mappings or "skills" for a set of prototypical contexts. Adaptation of a "skill" to a new context can then be achieved by interpolating in the space of the basis mappings and thus can be extremely rapid. 
+ 
+We demonstrate the potential of this approach for the task of a 3D visuomotor map for a Puma robot and two cameras. This includes the forward and backward robot kinematics in 3D end effector coordinates, the 2D+2D retina coordinates and also the 6D joint angles. After the investment phase the transformation can be learned for a new camera set-up with a single observation.

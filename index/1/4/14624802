@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present an adaptive graph-based personalized recommendation method based on co-ranking and query-based collaborative diffusion. By utilizing the unique network structure of n-partite heterogeneous graph, we attempt to address the problem of personalized recommendation in a two-layer ranking process with the help of reasonable measure of high and low order relationships and analyzing the representation of user’s preference in the graph. The experiments show that this algorithm can outperform the traditional CF methods and achieve competitive performance compared with many model-based and graph-based recommendation methods, and have better scalability and flexibility.
+ 

@@ -1,0 +1,1 @@
+We describe methods for computing an implicit model of a hypersurface that is given only by a finite sampling. The methods work by mapping the sample points into a reproducing kernel Hilbert space and then determining regions in terms of hyperplanes.

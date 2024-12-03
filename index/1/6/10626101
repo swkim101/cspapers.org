@@ -1,0 +1,4 @@
+
+ 
+ Much of the focus on finding good representations in reinforcement learning has been on learning complex non-linear predictors of value. Policy gradient algorithms, which directly represent the policy, often need fewer parameters to learn good policies. However, they typically employ a fixed parametric representation that may not be sufficient for complex domains. This paper introduces the Policy Tree algorithm, which can learn an adaptive representation of policy in the form of a decision tree over different instantiations of a base policy. Policy gradient is used both to optimize the parameters and to grow the tree by choosing splits that enable the maximum local increase in the expected return of the policy. Experiments show that this algorithm can choose genuinely helpful splits and significantly improve upon the commonly used linear Gibbs softmax policy, which we choose as our base policy.
+ 

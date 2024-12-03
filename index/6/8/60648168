@@ -1,0 +1,17 @@
+Information visualization systems allow users to produce insights, innovations, and discoveries. However, to understand these complex behaviors, evaluation efforts must be targeted at the component level, the system level, and the work environment level. 
+ 
+Some components can be evaluated with metrics that can be observed or computed but many others require empirical user evaluations. Usability studies still tend to be designed in an ad hoc manner, focusing on particular systems, addressing only time and errors issues, or failing to produce reusable and robust results. Intrinsic quality metrics are rare despite their necessity for true comparative evaluations. Controlled experiments are the most common evaluation technique but there is a growing sense in the community that information visualization systems need new approaches to evaluation, such as longitudinal field studies, insight based evaluation and metrics adapted to the exploratory nature of discovery. We can conclude that while the overall use of information visualizations is accelerating, the growth of techniques for the evaluation of these systems has been slow. 
+ 
+Our community is confronted with questions such as: 
+ 
+• "For this set of task, which visualization is best?" 
+ 
+• "How can I measure the utility of a visualization?" 
+ 
+• "Does the visualization I developed meet the target users' needs?" 
+ 
+An initial workshop, BELIV'06, was conducted at the Advanced Visual Interfaces (AVI) conference to address these questions. The workshop was well attended, featuring lively discussions about the limits of current practices and several novel exploratory techniques for evaluation were presented. 
+ 
+Attendees have repeatedly expressed to us the wish to repeat the workshop. For BELIV'08 our aim was twofold: we would like (1) to continue the exploration of novel evaluation methods and (2) structure the knowledge on evaluation in information visualization around a schema, where researchers can easily identify unsolved problems and research gaps. 
+ 
+The scientific program of BELIV'08 is based on two different contributions: research papers and position papers. Research papers have been presented together with position papers, in order to produce a more animated discussion. Continuing the line of BELIV'06, research papers are published in the ACM Digital Library.

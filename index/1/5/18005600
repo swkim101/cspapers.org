@@ -1,0 +1,4 @@
+
+ 
+ Studying the spread of phenomena in social networks is critical but still not fully solved. Existing influence maximization models assume a static network, disregarding its evolution over time. We introduce the continuous time constrained influence maximization problem for dynamic diffusion networks, based on a novel diffusion model called DynaDiffuse. Although the problem is NP-hard, the influence spread functions are monotonic and submodular, enabling fast approximations on top of an innovative stochastic model checking approach. Experiments on real social network data show that our model finds higher quality solutions and our algorithm outperforms state-of-art alternatives.
+ 

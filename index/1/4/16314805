@@ -1,0 +1,5 @@
+The introduction of nulls (unknown values) in the relational database calls for an extension of the theoretical foundation of the database model. Nulls are alien to classical logic, in which the relational database model is rooted. This has led to all sorts of counterintuitive ad hoc solutions, reasonable in one place, but awkward in others. 
+ 
+A sound model-theoretical foundation of nulls in a relational database based on modal logic is presented here. The modal interpretation of queries is easy to comprehend and intuitively correct. Partial interpretations, which are to be preferred from a computational point of view, are inadequate for arbitrary queries. 
+ 
+Formulas that have an identical partial and modal interpretation are called safe. Safety guarantees on the one hand that the partial answer is meaningful and on the other hand that the modal interpretation is finitely computable. The suitability of modal logic to model nulls is illustrated by a short discussion of the effect of nulls on database integrity.

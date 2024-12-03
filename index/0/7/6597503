@@ -1,0 +1,4 @@
+
+ 
+ Nonnegative Matrix Factorization (NMF) techniques has aroused considerable interests from the field of artificial intelligence in recent years because of its good interpretability and computational efficiency. However, in many real world applications, the data features usually evolve over time smoothly. In this case, it would be very expensive in both computation and storage to rerun the whole NMF procedure after each time when the data feature changing. In this paper, we propose Evolutionary Nonnegative Matrix Factorization (eNMF), which aims to incrementally update the factorized matrices in a computation and space efficient manner with the variation of the data matrix. We devise such evolutionary procedure for both asymmetric and symmetric NMF. Finally we conduct experiments on several real world data sets to demonstrate the efficacy and efficiency of eNMF.
+ 

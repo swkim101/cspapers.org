@@ -1,0 +1,9 @@
+A new data model is described which permits the representation of the different roles which a real world entity may play. This data model is an extension of the network model, as used in I-D-S and its derivative, the CODASYL database system. The concepts of item and set are retained. The record concept has been refined to clarify the old record concept and introduce the new role-segment concept. The record represents the existence of an entity of the real world while the role-segment represents the existence of one of the entity's roles. 
+ 
+A person and a corporation are examples of an entity, while a stockholder and a customer are examples of a role that either the person or corporation can assume. A role-segment occurrence serves to group and name the properties concerning the existence of one role. 
+ 
+This paper shows that the record and role segment concepts can be integrated into the required data description and data manipulation language. 
+ 
+The meta entity types of the role data model are contrasted with those of older data models for the data occurrence domain. The ambigous use of meta types by the older models is thus shown. This ambiguity appears to prohibit those older data models from serving as the basis of a conceptual schema where data transformation support of richer data models is required. 
+ 
+The meta entity types of the role data model are identified, described and related to the real world, data occurrence, conceptual schema, and data description domains.

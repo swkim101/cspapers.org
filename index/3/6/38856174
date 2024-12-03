@@ -1,0 +1,12 @@
+In order to meet the increasing need for quality conscience crops and to utilize the resources 
+efficiently, the concept of Greenhouse was introduced. It assists in accurate monitoring and controlling of 
+various parameters, in order to nurture healthy crops. In this paper efforts are made to acknowledge the 
+problems associated with maintaining precise environmental conditions, and to implement a sophisticated 
+system to supervise the real-time monitoring and controlling operation inside the Greenhouse. The necessity 
+for an Automated System deploying wireless communication and remote sensing is considered. This paper 
+illustrates the implementation of a WSN (Wireless Sensor Network) based embedded system supported by 
+ZigBee network (over IEEE 802.15.4) for organizing Greenhouse parameters. The establishment of various 
+topologies supported by ZigBee network viz. Star topology & Mesh Topology are illustrated. It also 
+demonstrates the real time supervision of parameters such as temperature, humidity as well as the total 
+power consumption of the system, along with appropriate sensors. With the help of a PC based GUI 
+application developed on Java platform graphs are plotted to evaluate the system performance.

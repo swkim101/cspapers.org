@@ -1,0 +1,5 @@
+Qualitative reasoning can, and should, be decomposed into a model-building task, which creates a qualitative differential equation (QDE) as a model of a physical situation, and a qualitative simulation task, which starts with a QDE, and predicts the possible behaviors following from the model. 
+ 
+In support of this claim, we present QPC, a model builder that takes the general approach of Qualitative Process Theory [Forbus, 1984], describing a scenario in terms of views, processes, and influences. However, QPC builds QDEs for simulation by QSIM, which gives it access to a variety of mathematical advances in qualitative simulation incorporated in QSIM. 
+ 
+We present QPC and its approach to Qualitative Process Theory, provide an example of building and simulating a model of a non-trivial mechanism, and compare the representation and implementation decisions underlying QPC with those of QPE [Falkenhainer and Forbus, 1988; Forbus, 1990].

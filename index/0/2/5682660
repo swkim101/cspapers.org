@@ -1,0 +1,4 @@
+
+ 
+ This paper introduces an extension of the target surveillance problem in which the surveillance agent is exposed to an adversarial ballistic threat. The problem is formulated as a mixed observability Markov decision process (MOMDP), which is a factored variant of the partially observable Markov decision process, to account for state and dynamic uncertainties. The control policy resulting from solving the MOMDP aims to optimize the frequency of target observations and minimize exposure to the ballistic threat. The adversary’s behavior is modeled with a level-k policy, which is used to construct the state transition of the MOMDP. The approach is empirically evaluated against a MOMDP adversary and against a human opponent in a target surveillance computer game. The empirical results demonstrate that, on average, level 3 MOMDP policies outperform lower level reasoning policies as well as human players.
+ 

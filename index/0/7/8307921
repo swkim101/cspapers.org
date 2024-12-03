@@ -1,0 +1,1 @@
+Current means-end analysis problem solvers are not capable of solving problems which have certain kinds of goal interaction. The goal interaction problem is described and an example given on a block stacking task. Finally, mention is made of a method of using the information gained by the discovery of goal interactions to guide the search for a problem solution.

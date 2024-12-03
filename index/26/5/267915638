@@ -1,0 +1,1 @@
+We present an optimal parallel selection algorithm on the EREW PRAM. This algorithm runs in O(log n) time with n/log n processors. This complexity matches the known lower bound for parallel selection on the EREW PRAM model. We therefore close this problem which has been open for more than a decade.

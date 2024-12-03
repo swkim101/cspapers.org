@@ -1,0 +1,16 @@
+The semantics of memory-a large state which 
+can only be read or changed a small piece at a 
+time-has remained virtually untouched since 
+von Neumann, and its effects-latency and 
+bandwidth-have proved to be the major stumbling 
+block for high performance computing. 
+This paper suggests a new model, termed 
+“microservers,” that exploits “Processing-In- 
+Memory” VLSI technology, and that can 
+reduce latency and memory traffic, increase 
+inherent opportunities for concurrency, and 
+support a variety of highly concurrent programming 
+paradigms. Application of this 
+model is then discussed in the framework of 
+several on-going supercomputing programs, 
+particularly the HTMT petaflops project.

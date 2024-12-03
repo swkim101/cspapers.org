@@ -1,0 +1,22 @@
+Welcome to ACM HPDC 2011! This is the twentieth anniversary year of HPDC, and I am pleased to report that we continue to be a growing, engaged, and exciting community. 
+ 
+The program consists of three days packed full of the latest developments in high performance parallel and distributed computing. Featured events include a keynote talks by Katherine Yelick on exascale computing, Wu-chun Feng on energy efficient computing, and a panel of experts led by Miron Livny on the future of research in HPDC. Technical paper sessions include parallel performance, data management and movement, parallel application structure, workload scheduling, virtual machine schedule and migration, cloud resource management, and experience papers. Nightly social events include a student work in progress session, a reception and poster session, and the conference dinner. Awards for best paper, best talk, and best poster will be given in the concluding session on Saturday. 
+ 
+This year, we are affiliated with the ACM Federated Computing Research Conference, which brings together sixteen leading computer science conferences in one place. FCRC is hosting plenary lectures at 11:30 each day on research topics of broad interest. You are welcome to stop in and visit other conferences, where space permits, and we hope you will have the opportunity to meet new people at the meals and breaks. 
+ 
+Also new this year was a call for 'experience papers' that shared lessons learned from operating or using large scale systems or applications for an extended period of time. The experience session includes presentations on decentralized grid computing, applications running on heterogeneous systems, and experience managing data intensive simulations. I hope this session will contribute a different flavor to the conference, and inspire more experience papers in the future. 
+ 
+An astonishing 170 full papers were submitted for review this year. A program committee of 48 experts, assisted by 12 external reviewers considered the submissions wrote a total of 561 reviews. All papers received at least three reviews, and many received more. The program committee met for two days at the University of Notre Dame to select the program, and chose 22 full papers for presentation, yielding an acceptance rate of 12.9 percent. In addition, 10 papers were selected for poster presentations, and are accompanied by a two-page abstract in the proceedings. This was the largest number of submissions ever to HPDC, so there were many difficult decisions, and many truly good papers were declined. On the positive side, I am sure you will enjoy a quality program! 
+ 
+On the Wednesday preceding the main conference, seven affiliated workshops will take place. Each of these workshops is a small conference unto itself, and provides a venue for presenting work on focused and emerging topics. I thank Mike Lewis, the workshops chair, and each of the workshop organizers for all of their efforts to make these happen. The workshops are: 
+DIDC: The Fourth International Workshop on Data-Intensive Distributed Computing 
+ECMLS: The Second International Emerging Computational Methods for the Life Sciences Workshop 
+LSAP: Workshop on Large-Scale System and Application Performance 
+MapReduce: The Second International Workshop on MapReduce and its Applications 
+ScienceCloud: 2nd Workshop on Scientific Cloud Computing 
+VTDC: Virtual Technologies in Distributed Computing 
+3DAPAS: Workshop on Dynamic Distributed Data-Intensive Applications, Programming Abstractions, and Systems 
+ 
+ 
+ 
+The printed proceedings available at the conference contain 22 full papers and 10 poster abstracts from the main conference. These, along with papers from the seven affiliated workshops, are on the accompanying CD-ROM and will be incorporated into the ACM Digital Library.

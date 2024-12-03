@@ -1,0 +1,1 @@
+This paper investigates techniques for answering microblog questions by searching in a large community question answering website. Some question transformations are considered, some proprieties of the answering platform are examined, how to select among the various available configurations in a learning-to-rank framework is studied.

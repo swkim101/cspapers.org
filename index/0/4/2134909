@@ -1,0 +1,5 @@
+Backpropagation learning algorithms typically collapse the network's structure into a single vector of weight parameters to be optimized. We suggest that their performance may be improved by utilizing the structural information instead of discarding it, and introduce a framework for "tempering" each weight accordingly. 
+ 
+In the tempering model, activation and error signals are treated as approximately independent random variables. The characteristic scale of weight changes is then matched to that of the residuals, allowing structural properties such as a node's fan-in and fan-out to affect the local learning rate and backpropagated error. The model also permits calculation of an upper bound on the global learning rate for batch updates, which in turn leads to different update rules for bias vs. non-bias weights. 
+ 
+This approach yields hitherto unparalleled performance on the family relations benchmark, a deep multi-layer network: for both batch learning with momentum and the delta-bar-delta algorithm, convergence at the optimal learning rate is sped up by more than an order of magnitude.

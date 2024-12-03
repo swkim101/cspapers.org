@@ -1,0 +1,5 @@
+The HITACHI supercomputer S-820 has been developed as Hitachi's top end supercomputer. It is also rated as one of the most powerful supercomputers in the world.
+To match high performance of arithmetic units, the S-820 employed advanced storage control schemes. Of these schemes, this paper introduces the parallel structure of the storage control, section number assigning, bank group number modifying and vector indirect store instruction.
+By parallel structure of the storage control and section number assigning, peak memory throughput of 16 Gbytes/sec is achieved.
+By bank group number modifying, critical memory access conflicts are avoided and excellent memory throughput is achieved especially for vectors with short strides.
+By using vector indirect store instruction, the performance of store-type list vector operation without duplicated list vector elements is 2.3-fold improved over that obtained by using conventional store-type list vector instructions.

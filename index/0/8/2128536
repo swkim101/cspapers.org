@@ -1,0 +1,1 @@
+In response to needs of disk encryption standardization bodies, we provide the first tweakable ciphers that are proven to securely encipher their own keys. We provide both a narrowblock design StE and a wideblock design EtE. Our proofs assume only standard PRP-CCA security of the underlying tweakable ciphers.

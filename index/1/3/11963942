@@ -1,0 +1,1 @@
+This paper describes the version and workspace features of Microsoft Repository, a layer that implements fine-grained objects and relationships on top of Microsoft SQL Server. It supports branching and merging of versions, delta storage, checkout-checkin, and single-version views for version-unaware applications.

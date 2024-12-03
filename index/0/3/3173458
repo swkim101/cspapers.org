@@ -1,0 +1,4 @@
+
+ 
+ Clustering ensemble mainly relies on the pairwise similarity to capture the consensus function. However, it usually considers each base clustering independently, and treats the similarity measure roughly with either 0 or 1. To address these two issues, we propose a coupled framework of clustering ensembles CCE, and exemplify it with the coupled version CCSPA for CSPA. Experiments demonstrate the superiority of CCSPA over baseline approaches in terms of the clustering accuracy.
+ 

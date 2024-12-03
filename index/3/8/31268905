@@ -1,0 +1,1 @@
+In equality-based binary resolution, the viability test is used as a decision mechanism to select disagreement sets and also to define the RUE unifier. In this paper we solve the problem of nontermination of the viability test by applying the theory of And-Or graphs.

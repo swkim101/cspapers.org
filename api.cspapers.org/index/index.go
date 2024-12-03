@@ -1,11 +1,13 @@
 package main
 
 import (
+	"bufio"
+	"encoding/json"
 	"flag"
-	"io/fs"
+	"fmt"
 	"os"
-	"path/filepath"
-	"strings"
+	"path"
+	"sync"
 
 	"github.com/swkim101/cspapers.org/api.cspapers.org/log"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/types"
@@ -14,6 +16,8 @@ import (
 var (
 	flagDebug  = flag.Bool("debug", false, "dump all logs to stdout")
 	flagConfig = flag.String("config", "conf.json", "configuration file")
+
+	wg sync.WaitGroup
 )
 
 func main() {
@@ -33,33 +37,69 @@ func runIndex(cfg *indexConfig) {
 		panic(err)
 	}
 	defer cfg.dbimpl.Dtor()
-	root := cfg.dataDir
+	reqChan := make(chan *types.InsertRequest)
+	done := make(chan bool)
+	go indexAbs(reqChan, cfg.dbimpl.Insert, done)
+	for _, filename := range cfg.Datafiles {
+		wg.Add(1)
+		go indexTitle(filename, reqChan)
+	}
+	wg.Wait()
+	close(reqChan)
+	<-done
+}
 
-	filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
-		if d.IsDir() {
-			log.Debugf("add %v", path)
-			return nil
+func indexAbs(reqChan chan *types.InsertRequest, insertFunc func(req *types.InsertRequest) error, done chan bool) {
+	for req := range reqChan {
+		absfile := path.Join("index.cspapers.org", req.Index)
+		blob, err := os.ReadFile(absfile)
+		if err == nil {
+			req.Abstract = string(blob)
 		}
-		index := strings.TrimPrefix(path, cfg.dataDir+string(os.PathSeparator))
-		year, venue, title, err := types.Decompose(types.Index(index))
-		if err != nil {
-			log.Printf("parse error %v %v %v", year, err, path)
-			return err
-		}
-		blob, err := os.ReadFile(path)
-		if err != nil {
-			log.Printf("failed to read file %v %v", path, err)
-			return err
-		}
+		insertFunc(req)
+	}
+	done <- true
+}
 
-		cfg.dbimpl.Insert(&types.InsertRequest{
+func indexTitle(filename string, reqChan chan *types.InsertRequest) {
+	file, err := os.Open(filename)
+	if err != nil {
+		log.Fatalf("%v", err)
+	}
+	defer file.Close()
+	defer wg.Done()
+	scanner := bufio.NewScanner(file)
+	buf := make([]byte, 100000)
+	scanner.Buffer(buf, 100000)
+	var line struct {
+		CorpusId int    `json:"corpusid"`
+		Year     int    `json:"year"`
+		VenueId  string `json:"publicationvenueid"`
+		Title    string `json:"title"`
+	}
+	for scanner.Scan() {
+		dat := scanner.Bytes()
+		err := json.Unmarshal(dat, &line)
+		if err != nil {
+			panic(err)
+		}
+		id := line.CorpusId
+		dir := fmt.Sprintf("%v/%v/%v", int((id / 10000 / 1000)), int((id%10000)/1000), id)
+		venue, ok := idToVenue[line.VenueId]
+		if !ok {
+			log.Fatalf("unknown venue id %v in %v", line.VenueId, string(dat))
+		}
+		reqChan <- &types.InsertRequest{
 			Paper: types.Paper{
-				Year:  year,
+				Title: line.Title,
+				Year:  uint32(line.Year),
 				Venue: venue,
-				Title: title,
 			},
-			Abstract: string(blob),
-		})
-		return nil
-	})
+			Index:    dir,
+			Abstract: "",
+		}
+	}
+	if err := scanner.Err(); err != nil {
+		log.Fatalf("%v", err)
+	}
 }

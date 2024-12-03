@@ -1,0 +1,4 @@
+
+ 
+ One common pattern database compression technique is to merge adjacent database entries and store the minimum of merged entries to maintain heuristic admissibility. In this paper we propose a compression technique that preserves every entry, but reduces the number of bits used to store each entry, therefore limiting the values that can be represented. Even when this technique throws away low values in the heuristic, it can still have better performance than the traditional approach. We develop a theoretical basis for selecting which values to keep and show improved performance in both unidirectional and bidirectional search.
+ 

@@ -1,0 +1,6 @@
+In this paper we will explore the limitations imposed by entropic constraints, both in generality and for specific problems. We list below the main questions that we will address.
+ (1) In the binary number system, addition is easy while multiplication is hard for VLSI. Is there an “ideal” number representation, in which all arithmetic operations have efficient VLSI implementations?
+ (2) Can one build multipliers for binary numbers, which achieve both small area and fast average computation time?
+ (3) Thompson's technique applies only to multiple output functions. How can one prove area-time bounds for single output functions?
+ (4) What other ways are there for deriving entropic constraints from consideration of data movement?
+ Answers to these questions will be discussed in the ensuing sections.

@@ -1,0 +1,1 @@
+We present an O(1.3247n) algorithm for counting the number of independent sets with maximum weight in graphs. We show how this algorithm can be used solving a number of different counting problems: counting exact covers, exact hitting sets, weighted set packing and satisfying assignments in 1-in-k SAT.

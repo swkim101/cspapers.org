@@ -1,0 +1,4 @@
+
+ 
+ Markov logic networks (MLNs) combine the power of first-order logic and probabilistic graphical models and as a result are ideally suited for solving large, complex problems in application domains that have both rich relational structure and large amount of uncertainty. However, inference in these rich, relational representations is quite challenging. The aim of this thesis is to advance the state-of-the-art in MLN inference, enabling it to solve much harder and more complex tasks than is possible today. To this end, I will develop techniques that exploit logical structures and symmetries that are either explicitly or implicitly encoded in the MLN representation and demonstrate their usefulness by using them to solve hard real-world problems in the field of natural language understanding.
+ 

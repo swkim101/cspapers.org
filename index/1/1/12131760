@@ -1,0 +1,4 @@
+
+ 
+ We propose a constraint programming approach to the popular matching problem. We show that one can use the Global Cardinality Constraint to encode the problem even in cases that involve ties in the ordinal preferences of the applicants.
+ 

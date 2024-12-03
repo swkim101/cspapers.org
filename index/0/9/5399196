@@ -1,0 +1,1 @@
+The determinism hypothesis suggests that natural language may be parsed in a single pass without resort to backtracking techniques. The PARSIFAL system, developed by Marcus, incorporates this philosophy in an English language parser. Here, we show that the data structures used by this parser may be considerably simplified resulting in more elegant grammatical specifications.

@@ -1,0 +1,1 @@
+In this paper, we use a blog corpus to demonstrate that we can often identify the author of an anonymous text even where there are many thousands of candidate authors. Our approach combines standard information retrieval methods with a text categorization meta-learning scheme that determines when to even venture a guess.

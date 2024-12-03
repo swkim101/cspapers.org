@@ -1,0 +1,4 @@
+
+ 
+ The Game Description Language GDL is the standard input language for general game-playing systems. While players can gain a lot of traction by an efficient inference algorithm for GDL, state-of-the-art reasoners suffer from a variant of a classical KR problem, the inferential frame problem. We present a method by which general game players can transform any given game description into a representation that solves this problem. Our experimental results demonstrate that with the help of automatically generated domain knowledge, a significant speedup can thus be obtained for the majority of the game descriptions from the AAAI competition.
+ 

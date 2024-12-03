@@ -1,0 +1,1 @@
+In this paper, we study the accuracy of mean-field approximation. We show that, under general conditions, the expectation of any performance functional converges at rate O(1/N) to its mean-field approximation. Our result applies for finite and infinite-dimensional mean-field models. We provide numerical experiments that demonstrate that this rate of convergence is tight.

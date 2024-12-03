@@ -1,0 +1,1 @@
+Using the W3C PROV data model, we present a general provenance model for software development processes and---as an example---specialized models for git services, for which we generate provenance graphs. Provenance graphs are knowledge graphs, since they have defined semantics, and can be analyzed with graph algorithms or semantic reasoning to get insights into processes.

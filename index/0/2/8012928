@@ -1,0 +1,3 @@
+The task of constructing knowledge bases is a difficult one due to their size and complexity. A useful aid for this task would be a system which has both knowledge about a particular knowledge representation scheme and tools with which to manipulate the representation's components. Such a system would be a knowledge maniupulation system (KMS). 
+ 
+This paper describes a KMS called TAXI which is used to manipulate knowledge in the form of a taxonomic knowledge representation scheme. The particular taxonomic representation used is discussed, along with support for the usefulness of a KMS for this particular representation scheme. Tools provided in the TAXI system are described, as are possible applications for the system.

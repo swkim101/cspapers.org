@@ -1,0 +1,1 @@
+We give a model of dependent type theory with one univalent universe and propositional truncation interpreting a type as a stack, generalizing the groupoid model of type theory. As an application, we show that countable choice cannot be proved in dependent type theory with one univalent universe and propositional truncation.

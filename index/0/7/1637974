@@ -1,0 +1,1 @@
+We have analyzed definitions from Webster's Seventh New Collegiate Dictionary using Sager's Linguistic String Parser and again using basic UNIX text processing utilities such as grep and awk. This paper evaluates both procedures, compares their results, and discusses possible future lines of research exploiting and combining their respective strengths.

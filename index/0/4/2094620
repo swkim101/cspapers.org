@@ -1,0 +1,1 @@
+In this extended abstract we present a bidirectional model-driven framework to develop spreadsheets. By being model driven, our approach allows to evolve a spreadsheet model and automatically have the data co-evolved. The bidirectional component achieves precisely the inverse, that is, to evolve the data and automatically obtain a new model to which the data conforms.

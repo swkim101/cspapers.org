@@ -1,0 +1,1 @@
+This paper describes a strategy for automatically generating tests which ensure interface compatibility between software components expressed in two different languages. This strategy is useful for testing code produced by a source-to-source computer language translator and for testing the compatibility of compilers for the different languages.

@@ -1,0 +1,1 @@
+A non-traditional compiler construction project is described for an object-oriented language modeled after Smalltalk. Central issues include implementation of message sending and inheritance and the relationship with the run-time environment. The project offers diversity and challenge and has been successfully completed by small teams.

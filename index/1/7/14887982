@@ -1,0 +1,4 @@
+
+ 
+ This paper resolves previous problems in the Multi-Strategy architecture for online learning of robotic behaviours. The hybrid method includes a symbolic qualitative planner that constructs an approximate solution to a control problem. The approximate solution provides constraints for a numerical optimisation algorithm, which is used to refine the qualitative plan into an operational policy. Introducing quantitative constraints into the planner gives previously unachievable domain independent reasoning. The method is demonstrated on a multi-tracked robot intended for urban search and rescue.
+ 

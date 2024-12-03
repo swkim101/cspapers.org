@@ -1,0 +1,1 @@
+Based on the AHRS (Attitude and Heading Reference System) and PTZ (Pan/Tilt/Zoom) camera, we designed a video monitoring and tracking system. The overall structure of the system and the software design are given. The key technologies such as serial port communication and head attitude tracking are introduced, and the codes of the key part are given.

@@ -1,0 +1,1 @@
+In a Bayesian mixture model it is not necessary a priori to limit the number of components to be finite. In this paper an infinite Gaussian mixture model is presented which neatly sidesteps the difficult problem of finding the "right" number of mixture components. Inference in the model is done using an efficient parameter-free Markov Chain that relies entirely on Gibbs sampling.

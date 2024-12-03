@@ -1,0 +1,4 @@
+The performance of a database system commonly deteriorates due to degradation of the database's physical data structure. The structure degradation is a consequence of the normal operations of a general database management system.
+ When system performance has degraded below acceptable limits the database must be reorganized. In conventional, periodic reorganization the database, or part of it, is taken off line while the data structure is being reorganized.
+ This paper presents results from a study where it is shown that concurrent reorganization, i.e. a continous reorganization of the physical data structure while application processes have full access to the database, is an attractive alternative to conventional reorganization.
+ The paper also presents a solution to a methodological problem concerning the simulation of a system which has activities with extremely varying durations.

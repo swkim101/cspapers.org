@@ -1,0 +1,4 @@
+
+ 
+ This paper introduces the Interactive Relational Machine Learning (iRML) paradigm in which users interactively design relational models by specifying the various components, constraints, and relational data representation, as well as perform evaluation, analyze errors, and make adjustments and refinements in a closed-loop. iRML requires fast real-time learning and inference methods capable of interactive rates. Methods are investigated that enable direct manipulation of the various components of the RML method. Visual representation and interaction techniques are also developed for exploring the space of relational models and the trade-offs of the various components and design choices.
+ 

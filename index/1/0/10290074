@@ -1,0 +1,9 @@
+We present a system which translates sentences from a subset of German into a database. This data-base will function as the basis for a question-answering-systern. 
+ 
+The system is applied to a complete text and not to isolated sentences. As an intermediate stage between the German text and the database we use the Discourse Representation Structures (DRS) invented by Hans Kamp. Karnp's system has been chosen because it handles intrasentential and intersentential relations uniformly. Within Kamp's system one can account for certain types of anaphoric relations for which no other linguistic theory has provided a solution. 
+ 
+The input to our system is analysed by a parser which is based on lexical functional grammar. This is the first attempt to combine research on discourse representation with lexical functional grammar with the help of the formalism of Definite Clause Grammar. 
+ 
+For the construction of the database out of the DRS's, two solutions arc proposed. First, a translation of the DRS's into a set of PROLOG clauses enriched with some additional deductive principles. Second, the formulation of inference rules which operate directly on the DRS. 
+ 
+So far we have implemented the following components: parser of German, translation rules which map syntactic trees into DRS's and rules which translate DRS's into PROLOG-clauses.

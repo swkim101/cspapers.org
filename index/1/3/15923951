@@ -1,0 +1,4 @@
+
+ 
+ Many inference problems are naturally formulated using hard and soft constraints over relational domains: the desired solution must satisfy the hard constraints, while optimizing the objectives expressed by the soft constraints. Existing techniques for solving such constraints rely on efficiently grounding a sufficient subset of constraints that is tractable to solve. We present an eager-lazy grounding algorithm that eagerly exploits proofs and lazily refutes counterexamples. We show that our algorithm achieves significant speedup over existing approaches without sacrificing soundness for real-world applications from information retrieval and program analysis.
+ 

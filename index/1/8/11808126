@@ -1,0 +1,1 @@
+This work presents the data model we adopted for annotating coreference. Our data model includes different levels of annotation, such as part-of-speech, syntax and discourse. We compare our encoding schemes to the abstract XML encoding being proposed as standard. We also present our tool for coreference resolution that handles our data model.

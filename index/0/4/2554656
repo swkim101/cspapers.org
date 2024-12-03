@@ -1,0 +1,4 @@
+
+ 
+ Contingency awareness is the recognition that some aspects of a future observation are under an agent's control while others are solely determined by the environment. This paper explores the idea of contingency awareness in reinforcement learning using the platform of Atari 2600 games. We introduce a technique for accurately identifying contingent regions and describe how to exploit this knowledge to generate improved features for value function approximation. We evaluate the performance of our techniques empirically, using 46 unseen, diverse, and challenging games for the Atari 2600 console. Our results suggest that contingency awareness is a generally useful concept for model-free reinforcement learning agents.
+ 

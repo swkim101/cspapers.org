@@ -1,0 +1,4 @@
+
+ 
+ Persuasion is an activity that involves one party (the persuader) trying to induce another party (the persuadee) to believe or do something. For this, it can be advantageous forthe persuader to have a model of the persuadee. Recently, some proposals in the field of computational models of argument have been made for probabilistic models of what the persuadee knows about, or believes. However, these developments have not systematically harnessed established notions in decision theory for maximizing the outcome of a dialogue. To address this, we present a general framework for representing persuasion dialogues as a decision tree, and for using decision rules for selecting moves. Furthermore, we provide some empirical results showing how some well-known decision rules perform, and make observations about their general behaviour in the context of dialogues where there is uncertainty about the accuracy of the user model.
+ 

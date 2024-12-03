@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of repeatedly matching a set of alternatives to a set of agents with dynamic ordinal preferences. Despite a recent focus on designing one-shot matching mechanisms in the absence of monetary transfers, little study has been done on strategic behavior of agents in sequential assignment problems. We formulate a generic dynamic matching problem via a sequential stochastic matching process. We design a mechanism based on random serial dictatorship (RSD) that, given any history of preferences and matching decisions, guarantees global stochastic strategyproofness while satisfying desirable local properties. We further investigate the notion of envyfreeness in such sequential settings.
+ 

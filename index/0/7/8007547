@@ -1,0 +1,3 @@
+We show here how we have been able, thanks to the use of artifical intelligence techniques, to find a neat solution to the problem of the automation of reliability studies. We have introduced rule-based representation at two levels: - the modelling of the studied system, which is very general and versatile, and nevertheless quantifiable because of the rule-base representation. - the storage of the reliability engineers knowledge about failure modes and effects for conventional components. 
+ 
+The productivity of the reliability studies has been substantially improved with this approach.

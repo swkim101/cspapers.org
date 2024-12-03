@@ -1,0 +1,1 @@
+In this work we discuss a range of approaches to full-system simulation of distributed memory parallel computers, with emphasis on the interconnection network. We present our environment, based on Simics®, and discuss how unforeseen interactions and fine tuning of components can affect results.

@@ -1,0 +1,4 @@
+
+ 
+ We survey some recent research regarding strategic behaviour in resource allocation problems, focusing on the fair division of indivisible goods. We consider a number of computational questions like how a single strategic agent misreports their preferences to ensure a particular outcome, and how agents compute a Nash equilibrium when they all act strategically. We also identify a number of future directions like dealing with non-additive utilities, and partial or probabilistic information about the preferences of other agents.
+ 

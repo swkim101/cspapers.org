@@ -1,0 +1,1 @@
+In this paper, we describe the primitives that we have implemented in NonStop SQL/MX, a commercial DBMS, to support the knowledge discovery process. These primitives, combined with the high-performance SQL&IX engine, represent a powerful kernel for performing basic knowledge discovery tasks in a scalable and efftcient manner.

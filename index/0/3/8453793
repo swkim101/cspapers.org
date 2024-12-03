@@ -1,0 +1,18 @@
+We present an innovative architecture that enables the digital 
+representation of original works and derivatives while 
+implementing Digital Rights Management (DRM) features. The 
+architecture’s main focus is on promoting trust within the 
+multimedia content value networks rather than solely on content 
+access and protection control. The system combines different 
+features common in DRM systems such as licensing, content 
+protection, authorization and reporting together with innovative 
+concepts, such as the linkage of original and derived content and 
+the definition of potential rights. The transmission of reporting 
+requests across the content value network combined with the 
+possibility for authors to preserve rights over derivative works 
+enables the system to distribute income amongst all the actors 
+involved in different steps of the creation and distribution chain. 
+The implementation consists of a web application which 
+interacts with different external services plus a desktop user 
+application used to render protected content. It is currently 
+publicly accessible for evaluation.

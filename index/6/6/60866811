@@ -1,0 +1,5 @@
+To deal with the complexity of modern systems, they are split up into components. These components use metadata to specify whether they need other components to function correctly (dependencies) or whether they cannot function with other components (conflicts). 
+ 
+In previous work, we have presented component relationships that are more useful for analysis than those specified in the metadata: strong dependencies that identify components that are absolutely necessary, and dominance that allows us to gain insight in the structure of a component system by identifying clusters of related packages. 
+ 
+In this paper, we present an efficient way of computing this dominance relationship, by exploiting its similarity to the concept of dominance already known in the field of control flow graphs.

@@ -1,0 +1,4 @@
+
+ 
+ Ensemble learning is among the state-of-the-art learning techniques, which trains and combines many base learners. Ensemble pruning removes some of the base learners of an ensemble, and has been shown to be able to further improve the generalization performance. However, the two goals of ensemble pruning, i.e., maximizing the generalization performance and minimizing the number of base learners, can conflict when being pushed to the limit. Most previous ensemble pruning approaches solve objectives that mix the two goals. In this paper, motivated by the recent theoretical advance of evolutionary optimization, we investigate solving the two goals explicitly in a bi-objective formulation and propose the PEP (Pareto Ensemble Pruning) approach. We disclose that PEP does not only achieve significantly better performance than the state-of-the-art approaches, and also gains theoretical support.
+ 

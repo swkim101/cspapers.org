@@ -1,0 +1,4 @@
+
+ 
+ Inconsistencies between different information sources may arise because of statements that are inaccurate, albeit not completely false. In such scenarios, the most natural way to restore consistency is often to interpret assertions in a more flexible way, i.e. to enlarge (or relax) their meaning. As this process inherently requires extra-logical information about the meaning of atoms, extensions of classical merging operators are needed. In this paper, we introduce syntactic merging operators, based on possibilistic logic, which employ background knowledge about the similarity of atomic propositions to appropriately relax propositional statements.
+ 

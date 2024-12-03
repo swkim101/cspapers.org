@@ -1,0 +1,1 @@
+Topic segmentation can be used as a preprocessing step in numerous natural language processing applications. In this short paper, we will discuss how we adapted our segmentation algorithm for automatic summarization.

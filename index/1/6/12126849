@@ -1,0 +1,3 @@
+We present applications in various domains of a system built around a syntax directed editor: the Mentor system.
+ The main characteristics of the system are the abstract representation of data, programmability of the command language, and language independance.
+ The applications presented belong to the area of program editing and manipulation, extensions of programming languages through the development of preprocessors, processing of multi-formalism documents and program portability.

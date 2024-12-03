@@ -1,0 +1,1 @@
+We put forward a first definition of general secure computation that, without any trusted set-up, handles an arbitrary number of concurrent executions; and is implementable based on standard complexity assumptions. In contrast to previous definitions of secure computation, ours is not simulation-based

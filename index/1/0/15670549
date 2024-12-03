@@ -1,0 +1,1 @@
+We study the recurrence dynamics of queries in Web search by analysing a large real-world query log dataset. We find that query frequency is more useful in predicting collective query recurrence whereas query recency is more useful in predicting individual query recurrence. Our findings provide valuable insights for understanding and improving Web search.

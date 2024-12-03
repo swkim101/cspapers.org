@@ -1,0 +1,4 @@
+
+ 
+ Businesses deploy chatter bots to engage in text-based conversations with customers that are intended resolve their issues. However, these chatter bots are only effective in exchanges consisting of question-answer pairs, where the context may switch with every pair. I am designing a semantic architecture that enables chatter bots to hold short conversations, where context is maintained throughout the exchange. I leverage specific ideas from conversation theory, speech acts theory, and knowledge representation. My architecture models a conversation as a stochastic process that flows through a set of states. The main contribution of this work is that it analyses and models the semantics of conversations as entities, instead of lower level grammatical and linguistics forms. I evaluate the performance of the architecture in accordance with Grice’s cooperative maxims, which form the central idea in the theory of pragmatics.
+ 

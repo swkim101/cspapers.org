@@ -1,0 +1,1 @@
+We develop an automated approach for designing matrix multiplication algorithms based on constructions similar to the Coppersmith-Winograd construction. Using this approach we obtain a new improved bound on the matrix multiplication exponent ω<2.3727.

@@ -1,0 +1,1 @@
+This work performs a deep analysis on the behaviour of Anti-Virus (AV) engines regarding Android malware detection. A large dataset, with more than 80K apk files tagged as Malware by one or many AV engines is used in the analysis. With the help of association rule learning, we show interesting patterns and dependencies between different AV engines.

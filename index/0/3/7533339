@@ -1,0 +1,4 @@
+
+ 
+ A simple Neural Network model is presented for end-to-end visual learning of arithmetic operations from pictures of numbers. The input consists of two pictures, each showing a 7-digit number. The output, also a picture, displays the number showing the result of an arithmetic operation (e.g., addition or subtraction) on the two input numbers. The concepts of a number, or of an operator, are not explicitly introduced. This indicates that addition is a simple cognitive task, which can be learned visually using a very small number of neurons. Other operations, e.g., multiplication, were not learnable using this architecture. Some tasks were not learnable end-to-end (e.g., addition with Roman numerals), but were easily learnable once broken into two separate sub-tasks: a perceptual Character Recognition and cognitive Arithmetic sub-tasks. This indicates that while some tasks may be easily learnable end-to-end, other may need to be broken into sub-tasks.
+ 

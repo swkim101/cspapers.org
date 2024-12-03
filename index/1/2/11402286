@@ -1,0 +1,4 @@
+
+ 
+ Text simplification aims to rewrite text into simpler versions and thus make information accessible to a broader audience (e.g., non-native speakers, children, and individuals with language impairments). In this paper, we propose a model that simplifies documents automatically while selecting their most important content and rewriting them in a simpler style. We learn content selection rules from same-topic Wikipedia articles written in the main encyclopedia and its Simple English variant. We also use the revision histories of Simple Wikipedia articles to learn a quasi-synchronous grammar of simplification rewrite rules. Based on an integer linear programming formulation, we develop a joint model where preferences based on content and style are optimized simultaneously. Experiments on simplifying main Wikipedia articles show that our method significantly reduces the reading difficulty, while still capturing the important content.
+ 

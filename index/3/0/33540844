@@ -1,0 +1,1 @@
+The QBKG system produces critical analyses of possible moves for a wide variety of backgammon positions, using a hierarchically structurcd. non-discrete form of knowledge representation. This report compares discrete and continuous representations and reasoning systems, addressing issues of competence, robustness, and explainability. The QBKG system is described and demonstrated.

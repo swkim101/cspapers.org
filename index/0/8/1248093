@@ -1,0 +1,4 @@
+
+ 
+ Probabilistic Latent Semantic Analysis (PLSA) has been popularly used in document analysis. However, as it is currently formulated, PLSA strictly requires the number of word latent classes to be equal to the number of document latent classes. In this paper, we propose Bi-mixture PLSA, a new formulation of PLSA that allows the number of latent word classes to be different from the number of latent document classes. We further extend Bi-mixture PLSA to incorporate the sentence information, and propose Bi-mixture PLSA with sentence bases (Bi-PLSAS) to simultaneously cluster and summarize the documents utilizing the mutual influence of the document clustering and summarization procedures. Experiments on real-world datasets demonstrate the effectiveness of our proposed methods.
+ 

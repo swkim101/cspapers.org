@@ -1,0 +1,1 @@
+References In the currency of random bits, it is far cheaper to generate pairwise independent random variables than completely independent ones. This simple construction, viewed and used in a variety of ways, has found a blizzard of applications in theoretical computer science. I will survey the ideas leading to some of the following applications: (1)

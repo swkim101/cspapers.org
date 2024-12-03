@@ -1,0 +1,1 @@
+In this paper we present a modification of the DSA which allows signatures with message recovery. The new public key signature scheme is then applied to create (a) an identity-based public key system without restrictions in trust and (b) a one-pass key exchange protocol with mutual authentication.

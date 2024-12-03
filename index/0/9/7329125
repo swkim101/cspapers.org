@@ -1,0 +1,1 @@
+There are many different ways to write parallel programs. We illustrate a variety of relevant language paradigms by presenting implementations of the Game of Life, a simple simulation motivated by living organisms. Featured paradigms include shared memory, GPU acceleration, message passing, and Partitioned Global Address Space (PGAS).

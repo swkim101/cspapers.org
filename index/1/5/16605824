@@ -1,0 +1,13 @@
+We consider the following problem, which is called the half integral parity disjoint paths packing problem. 
+ 
+Input: A graph G, k pair of vertices (s1, t1), (s2, t2), ...,(sk, tk) in G (which are sometimes called terminals), and a parity li for each i with 1 ≤ i ≤ k, where li = 0 or 1. 
+ 
+Output: Paths P1, ..., Pk in G such that Pi joins si and ti for i = 1, 2, ..., k and parity of length of the path Pi is li, i.e, if li = 0, then length of Pi is even, and if li = 1, then length of Pi is odd for i = 1, 2, ..., k. 
+ 
+In addition, each vertex is on at most two of these paths. 
+ 
+We present an O(mα(m, n) log n) algorithm for fixed k, where n, m are the number of vertices and the number of edges, respectively, and the function α(m, n) is the inverse of the Ackermann function (see by Tarjan [43]). This is the first polynomial time algorithm for this problem, and generalizes polynomial time algorithms by Kleinberg [23] and Kawarabayashi and Reed [20], respectively, for the half integral disjoint paths packing problem, i.e., without the parity requirement. 
+ 
+As with the Robertson-Seymour algorithm to solve the k disjoint paths problem, in each iteration, we would like to either use a huge clique minor as a "crossbar", or exploit the structure of graphs in which we cannot find such a minor. Here, however, we must maintain the parity of the paths and can only use an "odd clique minor". We must also describe the structure of those graphs in which we cannot find such a minor and discuss how to exploit it. 
+ 
+We also have algorithms running in O(m(1 + e)) time for any e > 0 for this problem, if k is up to o(log log log n) for general graphs, up to o(log log n) for planar graphs, and up to o(log log n/g) for graphs on the surface, where g is Euler genus. Furthermore, if k is fixed, then we have linear time algorithms for the planar case and for the bounded genus case.

@@ -1,0 +1,4 @@
+
+ 
+ Agents with incomplete environment models are likely to be surprised, and this represents an opportunity to learn. We investigate approaches for situated agents to detect surprises, discriminate among different forms of surprise, and hypothesize new models for the unknown events that surprised them. We instantiate these approaches in a new goal reasoning agent (named FoolMeTwice), investigate its performance in simulation studies, and report that it produces plans with significantly reduced execution cost in comparison to not learning models for surprising events.
+ 

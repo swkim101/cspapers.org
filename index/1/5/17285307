@@ -1,0 +1,1 @@
+A method of predicting the sizes of programs from a measure of problem size is shown, and research testing the effectiveness of the method is reported. A regression model for predicting average program size as measured by mean_LOC is shown to perform well for a sample of Pascal assignments of moderate size written by students in programming classes.

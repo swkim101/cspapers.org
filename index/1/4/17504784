@@ -1,0 +1,1 @@
+A distributed system, possibly asynchronous, is said to have perfect recall if at all times each processor's state includes a record of all its previous states. The completeness of a propositional modal logic of knowledge and time with respect to such systems is established. The logic includes modal operators for knowledge, and the linear time operators "next" and "until". >

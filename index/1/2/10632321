@@ -1,0 +1,4 @@
+
+ 
+ Retrieving faces from large mess of videos is an attractive research topic with wide range of applications. Its challenging problems are large intra-class variations, and tremendous time and space complexity. In this paper, we develop a new deep convolutional neural network (deep CNN) to learn discriminative and compact binary representations of faces for face video retrieval. The network integrates feature extraction and hash learning into a unified optimization framework for the optimal compatibility of feature extractor and hash functions. In order to better initialize the network, the low-rank discriminative binary hashing is proposed to pre-learn hash functions during the training procedure. Our method achieves excellent performances on two challenging TV-Series datasets.
+ 

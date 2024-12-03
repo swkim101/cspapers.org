@@ -1,0 +1,4 @@
+
+ 
+ We consider the task of human collaborative category learning, where two people work together to classify test items into appropriate categories based on what they learn from a training set. We propose a novel collaboration policy based on the Co-Training algorithm in machine learning, in which the two people play the role of the base learners. The policy restricts each learner's view of the data and limits their communication to only the exchange of their labelings on test items. In a series of empirical studies, we show that the Co-Training policy leads collaborators to jointly produce unique and potentially valuable classification outcomes that are not generated under other collaboration policies. We further demonstrate that these observations can be explained with appropriate machine learning models.
+ 

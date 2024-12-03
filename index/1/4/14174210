@@ -1,0 +1,1 @@
+We give an <i>N</i>log<sup><i>O</i>(1)</sup> <i>N</i>-time randomized <i>O</i>(1)-approximation algorithm for computing the cost of minimum bichromatic matching between two planar point-sets of size <i>N</i>.

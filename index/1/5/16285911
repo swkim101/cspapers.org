@@ -1,0 +1,1 @@
+In contrast to the "designer logic" approach, this paper shows how the attribute-value feature structures of unification grammar and constraints on them can be axiomatized in classical first-order logic, which can express disjunctive and negative constraints. Because only quantifier-free formulae are used in the axiomatization, the satisfiability problem is NP-complete.

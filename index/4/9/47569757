@@ -1,0 +1,5 @@
+Distributed Data Base Management Systems (D-DBMS) are the converging point of apparently contrasting areas: networking and Data Bases, representative of distribution and integration respectively. 
+ 
+Users should benefit from this new dimension when trying to make data processing architectures conform to managerial and organizational philosophies. 
+ 
+This paper is a technical overview of research and development in D-DMBS. In the first section, various architectures and design strategies are examined, followed by a description of functional layers. The second section is dedicated to Data Base design and mappings between levels of representations. The last section addresses Integrity control and Recovery.

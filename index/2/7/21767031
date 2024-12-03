@@ -1,0 +1,10 @@
+A description is given of a circuit analysis program which was modified specifically for operation in a conversational time-sharing environment.
+ Program features which facilitate communication and interaction between the engineer and the computer include:
+ 1) Input from a remote terminal with complete language checking routines which allow input errors to be detected and corrected immediately, without aborting the run.
+ 2) Automatic tab to column 7 by means of an asterisk (*).
+ 3) File management capability within the program, permitting automatic storage of correct input cards for future runs. Input from a previously written and stored file is also possible.
+ 4) Editing capability: the data in a file may be listed, changed, or deleted line by line.
+ 5) Selective output capability, permitting selection of up to 12 random branch or node output variables.
+ Furthermore, graphical output is available both “on-ilne”, or on the line printer for “batch” jobs.
+ The program will handle circuits up to 40 nodes and 120 branches; it requires 22,000 24-bit words of memory (66K Bytes) when segmented into five links.
+ An on-line demonstration will be presented at the conference site using a “2741” terminal, with Data-Phone connected to the Perkin-Elmer Time-Sharing Computer in Norwalk, Connecticut.

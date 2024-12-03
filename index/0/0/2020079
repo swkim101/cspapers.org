@@ -1,0 +1,1 @@
+We show how to represent a planar digraph in linear space so that reach ability queries can be answered in constant time. The data structure can be constructed in linear time. This representation of reach ability is thus optimal in both time and space, and has optimal construction time. The previous best solution used O(n log n) space for constant query time [Thorup FOCS'01].

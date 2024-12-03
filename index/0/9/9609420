@@ -1,0 +1,4 @@
+
+ 
+ Existing approaches to active learning are generally optimistic about their certainty with respect to data shift between labeled and unlabeled data. They assume that unknown datapoint labels follow the inductive biases of the active learner. As a result, the most useful datapoint labels—ones that refute current inductive biases—are rarely solicited. We propose a shift-pessimistic approach to active learning that assumes the worst-case about the unknown conditional label distribution. This closely aligns model uncertainty with generalization error, enabling more useful label solicitation. We investigate the theoretical benefits of this approach and demonstrate its empirical advantages on probabilistic binary classification tasks.
+ 

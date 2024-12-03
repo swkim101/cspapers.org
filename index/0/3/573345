@@ -1,0 +1,1 @@
+The translation of sentiment information is a task from which sentiment analysis systems can benefit. We present a novel, graph-based approach using Sim-Rank, a well-established vertex similarity algorithm to transfer sentiment information between a source language and a target language graph. We evaluate this method in comparison with SO-PMI.

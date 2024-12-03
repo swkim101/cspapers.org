@@ -1,0 +1,5 @@
+An experiment comparing programming productivity of Lisp, Prolog, and Ada used in the AI (Artificial Intelligence) area is reported. Lisp and Prolog have been the main languages used for AI programming because of their symbol manipulation and list processing facilities. There is a possibility, however, that general purpose languages such as Ada or C can be used to develop large-scale, practical-use AI software because of their high performance and good maintainability. The purpose of this experiment is to present quantitative productivity data comparing these languages used for AI programming.
+In the experiment, several AI software components are programmed in three languages: Lisp, Prolog, and Ada, and the languages' effects on programming productivity are examined. The main results of the experiment are:Lisp and Prolog programming productivity in coding and debugging stages are about two times that of Ada;
+The programming effort is in proportion to program size.
+
+This paper presents the experimental data supporting this and a number of additional conclusions.

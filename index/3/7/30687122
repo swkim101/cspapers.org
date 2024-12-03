@@ -1,0 +1,4 @@
+
+ 
+ Unsupervised domain adaptation (UDA) deals with the task that labeled training and unlabeled test data collected from source and target domains, respectively. In this paper, we particularly address the practical and challenging scenario of imbalanced cross-domain data. That is, we do not assume the label numbers across domains to be the same, and we also allow the data in each domain to be collected from multiple datasets/sub-domains. To solve the above task of imbalanced domain adaptation, we propose a novel algorithm of Domain-constraint Transfer Coding (DcTC). Our DcTC is able to exploit latent subdomains within and across data domains, and learns a common feature space for joint adaptation and classification purposes. Without assuming balanced cross-domain data as most existing UDA approaches do, we show that our method performs favorably against state-of-the-art methods on multiple cross-domain visual classification tasks.
+ 

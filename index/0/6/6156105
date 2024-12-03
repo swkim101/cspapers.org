@@ -1,0 +1,1 @@
+In this paper we extend the logic programming based conformant planner described in [Son et al., 2005a] to allow it to work on planning problems with more complex descriptions of the initial states. We also compare the extended planner with other concurrent conformant planners.

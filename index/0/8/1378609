@@ -1,0 +1,14 @@
+Bandwidth restrictions are considered on several NP-Complete problems, including the following problems:
+ (1) 3-Satisfiability,
+ (2) Independent Set and Vertex Cover,
+ (3) Simple Max Cut
+ (4) Partition into Triangles,
+ (5) 3-Dimensional Matching,
+ (6) Exact Cover by 3 Sets,
+ (7) Dominating Set,
+ (8) Graph Grundy Numbering (for graphs of finite degree),
+ (9) 3-Colorability,
+ (10) Directed and Undirected Hamiltonian Circuit,
+ (11) Bandwidth Minimization, and
+ (12) Feedback Vertex Set and Feedback Arc Set.
+ It is shown that each of the problems (1)-(12) when restricted to graphs (formulas, triples, or sets) of bandwidth bounded by a function f is log space hard for the complexity class NTISP (poly,f(n)). (NTISP(poly,f(n)) denotes the family of problems solvable nondeterministically in polynomial time and simultaneous f(n) space, e.g., NTISP(poly,poly) &equil; NP and NTISP(poly, log n) &equil; NSPACE(log n).). In fact, (1)-(9) are log space complete for NTISP(poly,f(n)) when the bandwidth is bounded by the function f. This means, for example, that (1)-(9) provide several new examples of problems complete for NSPACE(log n), and hence solvable in polynomial time deterministically, when restricted to bandwidth log2n. In general, for a function f, if any of the problems (1)-(12), when restricted to bandwidth f(n), could be solved deterministically in polynomial time, then NTISP(poly, f(n)) @@@@ P. (This does not seem particularly likely even when f(n) &equil; log2n.) This indicates that several NP-Complete problems become easier with diminishing bandwidth. However, they remain intractable unless the bandwidth is restricted to c-log2n, for some c>0.

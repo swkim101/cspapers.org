@@ -1,0 +1,1 @@
+We prove that any monotone switching network solving directed connectivity on $N$ vertices must have size $N^{\Omega(\log N)}$

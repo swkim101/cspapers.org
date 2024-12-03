@@ -1,0 +1,1 @@
+We demonstrate a two-player communication problem that can be solved in the one-way quantum model by a 0-error protocol of cost O(log n) but requires exponentially more communication in the classical interactive (bounded error) model.

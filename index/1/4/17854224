@@ -1,0 +1,4 @@
+
+ 
+ Abduction belongs to the most fundamental reasoning methods. It is a method for reverse inference, this means one is interested in explaining observed behavior by finding appropriate causes. We study logic-based abduction, where knowledge is represented by propositional formulas. The computational complexity of this problem is highly intractable in many interesting settings. In this work we therefore present an extensive parameterized complexity analysis of abduction within various fragments of propositional logic together with (combinations of) natural parameters.
+ 

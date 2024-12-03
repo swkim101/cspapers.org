@@ -1,0 +1,5 @@
+This paper presents a new design of multirotor, named as `Tilting Thruster Type' (T
+ 3
+)-multirotor. The new platform is equipped with mechanically separated thrusters, which can take any fuselage posture within a specified range regardless of any direction of translational acceleration. A specially designed servo-linkage mechanism is employed for relative attitude control between the thruster and the fuselage. Mathematical modeling and analysis of the new platform are conducted to explore the control method of the dynamically complex system. For demonstrating the potential of the new T
+ 3
+-multirotor, an autonomous level flight is performed where the fuselage maintains zero roll and pitch angle during the entire flight. Both simulation and experimental results are provided with detailed analysis.

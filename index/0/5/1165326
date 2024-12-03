@@ -1,0 +1,1 @@
+We propose a new approach to optimize the deployment and the sampling rates of network monitoring tools, such as Netflow, on a large IP network. It reduces to solving a stochastic sequence of Second Order Cone Programs. We validate our approach with experiments relying on real data from a commercial network.

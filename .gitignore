@@ -21,10 +21,13 @@ yarn-debug.log*
 yarn-error.log*
 
 db.cspapers.org/
-rawdata/
+index.cspapers.org/
+data/
 
 secret/
 data_crawler/failed.json
 test.py
 
 *.gob
+.venv/
+.vscode/

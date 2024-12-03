@@ -1,0 +1,4 @@
+
+ 
+ Grid-based path finding is required in many games to move agents. We present an algorithm called DBA* that uses a database of pre-computed paths to reduce the time to solve search problems. When evaluated using benchmark maps from Dragon Age™, DBA* requires less time for search and produces less suboptimal paths than the PRA* implementation used in Dragon Age™.
+ 

@@ -1,0 +1,2 @@
+The memory reference trace of a computation is modeled as a probabilistic process and the information content of that process is derived. Techniques are developed for analyzing the effectiveness of the addressing architecture and Memory/CPU traffic of existing machines with respect to the information theoretic bound for a given trace.
+ Several techniques for analyzing particular aspects of addressing architecture are also developed. Possible areas of improvement for addressing architecture, compilers, and memory architecture are suggested for performance enhancement.

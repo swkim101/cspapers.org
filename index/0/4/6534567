@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we consider the problem of feasibly integrating new pick-up and delivery requests into existing vehicle itineraries in a dynamic, dial-a-ride problem (DARP) setting. Generalizing from previous work in oversubscribed task scheduling, we define a controlled iterative repair search procedure for finding an alternative set of vehicle itineraries in which the overall solution has been feasibly extended to include newly received requests. We first evaluate the performance of this technique on a set of DARP feasibility benchmark problems from the literature. We then consider its use on a real-world DARP problem, where it is necessary to accommodate all requests and constraints must be relaxed when a request cannot be feasibly integrated. For this latter analysis, we introduce a constraint relaxation post processing step and consider the performance impact of using our controlled iterative search over the current greedy search approach.
+ 

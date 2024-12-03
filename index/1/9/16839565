@@ -1,0 +1,1 @@
+We classify an input space according to the outputs of a real-valued function. The function is not given, but rather examples of the function. We contribute a consistent classifier that avoids the unnecessary complexity of estimating the function.

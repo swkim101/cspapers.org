@@ -1,0 +1,1 @@
+A novel technique, called hereditary partitions, is Introduced. It permits the rigorous proof that, in a given axiomatization, certain states can never be reached. The technique is implemented in a computer program, DISPROVER, and is applied to robot worlds. DISPROVER cooperates with a path-finding program when the latter encounters difficulties.

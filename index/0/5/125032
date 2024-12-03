@@ -1,0 +1,22 @@
+Electronic commerce is emerging as a major Web-supported application. In
+this paper we argue that database technology can, and should, provide the back-bone
+for a wide range of such applications. More precisely, we present here the
+ActiveViews system, which, relaying on an extensive use of database features in-cluding
+views, active rules (triggers), and enhanced mechanisms for notification,
+access control and logging/tracing of users activities, provides the needed basis for
+electronic commerce.
+Based on the emerging XML standards (DOM, query languages for XML,
+etc.), the system offers a novel declarative view specification language, describing
+the relevant data and activities of all actors (e.g. vendors and clients) participat-ing
+in electronic commerce activities . Then, acting as an application generator,
+the system generates an actual, possibly customized, Web application that allows
+users to perform the given set of controlled activities and to work interactively on
+the specified data in a standard distributed environment.
+Although closely related to workflow management systems, a major difference
+here is the importance we give to data. While workflow systems give declarative
+means for specifying the operations flow, the data involved is typically described
+in a very abstract manner, often disconnected from the description of the flow
+itself. In contrast, our approach promotes the data, acknowledging its importance
+for optimization coherence and analysis of applications.
+The ActiveView system is developed at INRIA on top of Ardent s XML repository
+and Java.

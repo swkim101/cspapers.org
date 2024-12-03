@@ -1,0 +1,1 @@
+The paper describes a new router which develops all connections simultaneously. Routes do not exist as lines, but rather as connected irregularly shaped areas which grow and retract in an amoeba-like manner. It is as if some routes are being rerouted, but it is all done at once. Because the cell map is scanned sequentially, the data handling and storage is vastly simplified.

@@ -1,0 +1,10 @@
+Two semimetrics on probability distributions are 
+proposed, based on a difference between features 
+chosen from each, where these features can be in 
+either the spatial or Fourier domains. The features are chosen so as to maximize the distinguishability of the distributions, by optimizing 
+a lower bound of power for a statistical test using these features. The result is a parsimonious 
+and interpretable indication of how and where 
+two distributions differ, which can be used even 
+in high dimensions, and when the difference is 
+localized in the Fourier domain. A real-world 
+benchmark image data demonstrates that the returned features provide a meaningful and informative indication as to how the distributions differ

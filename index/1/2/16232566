@@ -1,0 +1,4 @@
+
+ 
+ Embedded systems consisting of collaborating agents capable of interacting with their environment are becoming ubiquitous. It is crucial for these systems to be able to adapt to the dynamic and uncertain characteristics of an open environment. In this paper, we argue that multiagent meta-level control (MMLC) is an effective way to determine when this adaptation process should be done and how much effort should be invested in adaptation as opposed to continuing with the current action plan. We describe a reinforcement learning based approach to learn decentralized meta-control policies offline. We then propose to use the learned reward model as input to a global optimization algorithm to avoid conflicting meta-level decisions between coordinating agents. Our initial experiments in the context of NetRads, a multiagent tornado tracking application show that MMLC significantly improves performance in a 3-agent network.
+ 

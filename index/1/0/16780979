@@ -1,0 +1,4 @@
+
+ 
+ Active learning traditionally relies on instance based utility measures to rank and select instances for labeling, which may result in labeling redundancy. To address this issue, we explore instance utility from two dimensions: individual uncertainty and instance disparity, using a correlation matrix. The active learning is transformed to a semi-definite programming problem to select an optimal subset with maximum utility value. Experiments demonstrate the algorithm performance in comparison with baseline approaches.
+ 

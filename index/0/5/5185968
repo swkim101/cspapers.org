@@ -1,0 +1,3 @@
+Land Information Systems shall be used to store data on objects in space (e. g. buildings, roads, electricity networks etc.). Interactive retrieval is mainly done in order to get a map drawn on a CRT screen; the typical query is therefore a two-dimensional range query which yields all the data needed to draw the map. 
+ 
+A method to implement such a LIS based on a commercially available DMBS (e. g. DMBS-10 from DEC) is shown and some practical results are reported. The method used relies heavily on control of physical placement of stored records and clustering of data according to neighbourhood.

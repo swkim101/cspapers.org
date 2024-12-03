@@ -1,0 +1,1 @@
+We investigate the computational power of a formal model for networks of spiking neurons, both for the assumption of an unlimited timing precision, and for the case of a limited timing precision. We also prove upper and lower bounds for the number of examples that are needed to train such networks.

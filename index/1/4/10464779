@@ -1,0 +1,1 @@
+We show that any set of n points in IR has a Steiner Delaunay triangulation with O(ndd/2e) simplices, none of which has an obtuse dihedral angle. This result improves a naive bound of O(n). No bound depending only on n is possible if we require the maximum dihedral angle to measure at most 90◦−2 or the minimum dihedral to measure

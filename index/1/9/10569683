@@ -1,0 +1,4 @@
+
+ 
+ We consider recently-derived error bounds that can be used to bound the quality of solutions found by heuristic search algorithms for stochastic shortest path problems. In their original form, the bounds can only be used for problems with positive action costs. We show how to generalize the bounds so that they can be used in solving any stochastic shortest path problem, regardless of cost structure. In addition, we introduce a simple new heuristic search algorithm that performs as well or better than previous algorithms for this class of problems, while being easier to implement and analyze.
+ 

@@ -1,0 +1,5 @@
+This paper examines the Mach-US operating system, its unique architecture, and the lessons demonstrated through its implementation. 
+ 
+Mach-US is an object-oriented multi-server OS which runs on the Mach3.0 kernel. Mach-US has a set of separate servers supplying orthogonal OS services and a library which is loaded into each user process. This library uses the services to generate the semantics of the Mach2.5/4.3BSD application programmers interface (API). This architecture makes Mach-US a flexible research platform and a powerful tool for developing and examining various OS service options. 
+ 
+We will briefly describe Mach-US, the motivations for its design choices, and its demonstrated strengths and weaknesses. We will then discuss the insights that we've acquired in the areas of multi-server architecture, OS remote method invocation, Object Oriented technology for OS implementation, API independent OS services, UNIX API re-implementation, and smart user-space API emulation libraries.

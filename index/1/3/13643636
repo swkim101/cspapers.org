@@ -1,0 +1,4 @@
+Digital signals in high-speed computers and communications systems require that even short interconnections be treated as transmission lines, and existing circuit analysts programs (ECAP-II, ASTAP, SCEPTRE, I/TRAC-II) have been used effectively to model lossless and non-dispersive lines.
+ Now, simple networks have been developed which can model accurately the effects of dispersion due to resistance and skin effect, of homogeneous, linear, transmission lines and cables.
+ They can be used with any presently available circuit analysis program, to obtain efficient and accurate simulations.
+ Theoretical responses of lines having large resistance and/or skin effect losses can be approximated to an accuracy of ±2% over a range of 0.1 to 500 time constants, and a single network configuration can be used to model any type of losses, simply by changing the component values.

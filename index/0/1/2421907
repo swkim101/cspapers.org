@@ -1,0 +1,1 @@
+We describe our approach to the robotic Hanetsuki task (Japanese badminton), that is, to return the incoming shuttlecock to the human's side with a racket. A learning method using a novel database is proposed to compensate for the insufficiency in a model-based approach. Experimental results obtained with the developed Hanetsuki robot are presented.<<ETX>>

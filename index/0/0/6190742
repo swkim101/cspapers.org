@@ -1,0 +1,1 @@
+The coordination ratio is a game theoretic measure that aims to reflect the price of selfish routing in a network. We show the worst-case coordination ratio on m parallel links (of possibly different speeds) isΘ(log m/log log log m)Our bound is asymptotically tight and it entirely resolves an question posed recently by Koutsoupias and Papadimitriou [3].

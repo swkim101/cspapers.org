@@ -1,0 +1,4 @@
+
+ 
+ Problem-solving procedures have been typically aimed at achieving well-defined goals or satisfying straightforward preferences. However, learners and solvers may often generate rich multiattribute results with procedures guided by sets of controls that define different dimensions of quality. We explore methods that enable people to explore and express preferences about the operation of classification models in supervised multiclass learning. We leverage a leave-one-out confusion matrix that provides users with views and real-time controls of a model space. The approach allows people to consider in an interactive manner the global implications of local changes in decision boundaries. We focus on kernel classifiers and show the effectiveness of the methodology on a variety of tasks.
+ 

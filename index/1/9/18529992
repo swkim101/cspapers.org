@@ -1,0 +1,4 @@
+
+ 
+ This paper proposes incremental preference elicitation methods for multiobjective state space search. Our approach consists in integrating weight elicitation and search to determine, in a vector-valued state-space graph, a solution path that best fits the Decision Maker's preferences. We first assume that the objective weights are imprecisely known and propose a state space search procedure to determine the set of possibly optimal solutions. Then, we introduce incremental elicitation strategies during the search that use queries to progressively reduce the set of admissible weights until a nearly-optimal path can be identified. The validity of our algorithms is established and numerical tests are provided to test their efficiency both in terms of number of queries and solution times.
+ 

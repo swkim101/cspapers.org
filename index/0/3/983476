@@ -1,0 +1,4 @@
+
+ 
+ PDDL+ planning involves reasoning about mixed discrete-continuous change over time. Nearly all PDDL+ planners assume that continuous change is linear. We present a new technique that accommodates nonlinear change by encoding problems as nonlinear hybrid systems. Using this encoding, we apply a Satisfiability Modulo Theories (SMT) solver to find plans. We show that it is important to use novel planning- specific heuristics for variable and value selection for SMT solving, which is inspired by recent advances in planning as SAT. We show the promising performance of the resulting solver on challenging nonlinear problems.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We propose some better word embedding models based on vLBL model and ivLBL model by sharing representations between context and target words and using document representations. Our proposed models are much simpler which have almost half less parameters than the state-of-the-art methods. We achieve better results on word analogy task than the best ones reported before using significantly less training data and computing time.
+ 

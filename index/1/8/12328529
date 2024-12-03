@@ -1,0 +1,1 @@
+A new theorem-proving program, combining the use of non-clausal resolution and connection graphs, is described. The use of nonclausal resolution as the inference system eliminates some of the redundancy and unreadability of clause-based systems. The use of a connection graph restricts the search space and facilitates graph searching for efficient deduction.

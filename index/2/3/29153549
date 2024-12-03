@@ -1,0 +1,4 @@
+
+ 
+ The stochastic shortest path problem is of crucial importance for the development of sustainable transportation systems. Existing methods based on the probability tail model seek for the path that maximizes the probability of arriving at the destination before a deadline. However, they suffer from low accuracy and/or high computational cost. We design a novel Q-learning method where the converged Q-values have the practical meaning as the actual probabilities of arriving on time so as to improve accuracy. By further adopting dynamic neural networks to learn the value function, our method can scale well to large road networks with arbitrary deadlines. Experimental results on real road networks demonstrate the significant advantages of our method over other counterparts.
+ 

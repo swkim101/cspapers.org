@@ -1,0 +1,1 @@
+Prior work proposes inexpensive, tunable tracing of acyclic paths and callsite coverage to enhance post-failure memory dumps. To better understand this data, current work investigates the benefit of each piece of traced data independently, their interplay, future low-cost data to collect, and further analysis uses of the post-mortem data.

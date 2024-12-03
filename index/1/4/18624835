@@ -1,0 +1,1 @@
+Recently, the live-monitor MATor for formally analyzing user anonymity within the Tor network has been proposed (CCS'14). However, this monitor only considers adversaries that compromise part of the Tor network itself, not Internet infrastructural adversaries. In this work we present a formal technique for analyzing Tor against malicious or overly curious network infrastructure.

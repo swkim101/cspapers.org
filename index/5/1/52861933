@@ -1,0 +1,2 @@
+This is an errata for our STOC'06 paper, "On Basing One-Way Functions on NP-Hardness".
+ There is a gap in the proof of our results regarding adaptive reductions, and we currently do not know whether Theorem 3 (as stated in Section 2) holds.

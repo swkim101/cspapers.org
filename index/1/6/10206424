@@ -1,0 +1,4 @@
+
+ 
+ Quantitative modeling plays a key role in the natural sciences, and systems that address the task of inductive process modeling can assist researchers in explaining their data. In the past, such systems have been limited to data sets that recorded change over time, but many interesting problems involve both spatial and temporal dynamics. To meet this challenge, we introduce SCISM, an integrated intelligent system which solves the task of inducing process models that account for spatial and temporal variation. We also integrate SCISM with a constraint learning method to reduce computation during induction. Applications to ecological modeling demonstrate that each system fares well on the task, but that the enhanced system does so much faster than the baseline version.
+ 

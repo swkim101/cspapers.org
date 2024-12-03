@@ -1,0 +1,4 @@
+
+ 
+ Labeling nodes in a network is an important problem that has seen a growing interest. A number of methods that exploit both local and relational information have been developed for this task. Acquiring the labels for a few nodes at inference time can greatly improve the accuracy, however the question of figuring out which node labels to acquire is challenging. Previous approaches have been based on simple structural properties. Here, we present a novel technique, which we refer to as reflect and correct,that can learn and predict when the underlying classification system is likely to make mistakes and it suggests acquisitions to correct those mistakes.
+ 

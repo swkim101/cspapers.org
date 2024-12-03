@@ -1,0 +1,4 @@
+
+ 
+ It has been shown that learning distributed word representations is highly useful for Twitter sentiment classification.Most existing models rely on a single distributed representation for each word.This is problematic for sentiment classification because words are often polysemous and each word can contain different sentiment polarities under different topics.We address this issue by learning topic-enriched multi-prototype word embeddings (TMWE).In particular, we develop two neural networks which 1) learn word embeddings that better capture tweet context by incorporating topic information, and 2) learn topic-enriched multiple prototype embeddings for each word.Experiments on Twitter sentiment benchmark datasets in SemEval 2013 show that TMWE outperforms the top system with hand-crafted features, and the current best neural network model.
+ 

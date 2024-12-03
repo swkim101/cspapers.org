@@ -1,0 +1,11 @@
+This paper describes a preliminary component for a symbotic system of visual and tactile senses. The concept of symbiotic system will play an important role in the realization of artificial intelligence. That is, visual and tactile sensors are the essential ones for both recognizing and handling any kind of object. 
+ 
+For correct manipulation of objects it is necessary to know their spacial characteristics, as, for example, shape and position. 
+ 
+Information on these characteristics of objects is picked up by human beings through visual and tactile senses. Before direct contact with the object, when the visual sense plays an exclusive role, decision (depending on the principal task) is based only on optical information. From the moment of touch, both optical and tactile information begin to be coordinated. At this moment the visual sense can be partly released for other tasks and the tactile sense may become dominant In picking up object information. 
+ 
+It is clear that visual control usually has the dominant, but not absolute, role in the recognition and manipulation of objects. 
+ 
+The system proposed here is a new kind of system wherein an obscure visual image can be identified as a clear Image by the coordination of visual and tactile senses. 
+ 
+This system is quite effective when the object is cubic and inseparable from its circumstances, as in the case of the recognition and handling of objects in industrial use, under-water application, and so on.

@@ -1,0 +1,4 @@
+
+ 
+ We describe an exact branch-and-bound algorithm for the maximum weight clique problem (MWC), called WLMC, that is especially suited for large vertex-weighted graphs. WLMC incorporates two original contributions: a preprocessing to derive an initial vertex ordering and to reduce the size of the graph, and incremental vertex-weight splitting to reduce the number of branches in the search space. Experiments on representative large graphs from real-world applications show that WLMC greatly outperforms relevant exact and heuristic MWC algorithms, and refute the prevailing hypothesis that exact MWC algorithms are less adequate for large graphs than heuristic algorithms.
+ 

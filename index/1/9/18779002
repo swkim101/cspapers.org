@@ -1,0 +1,4 @@
+
+ 
+ This paper targets at automatically detecting and classifying user's suggestions from tweets. The short and informal nature of tweets, along with the imbalanced characteristics of suggestion tweets, makes the task extremely challenging. To this end, we develop a classification framework on Factorization Machines, which is effective and efficient especially in classification tasks with feature sparsity settings. Moreover, we tackle the imbalance problem by introducing cost-sensitive learning techniques in Factorization Machines. Extensively experimental studies on a manually annotated real-life data set show that the proposed approach significantly improves the baseline approach, and yields the precision of 71.06% and recall of 67.86%. We also investigate the reason why Factorization Machines perform better. Finally, we introduce the first manually annotated dataset for suggestion classification.
+ 

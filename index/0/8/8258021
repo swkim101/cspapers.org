@@ -1,0 +1,1 @@
+Hardware Description Languages are used to input the details of a digital system into an automatic design system. An algorithm to synthesize combinational logic from the description in one such language (DDL) is discussed. A sample implementation and the cost comparison are provided.

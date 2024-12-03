@@ -1,0 +1,1 @@
+@), which is moreover a minor of G. On the other hand, some planar networks G require |E(G')| ≥ Ω(k2). For general networks, we show that certain bipartite graphs only admit mimicking networks of size |V(G')| ≥ 2Ω(k), and moreover, every data structure that stores the minimum cut value between all bipartitions of the terminals must use 2Ω(k) machine words.

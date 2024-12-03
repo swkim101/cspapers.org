@@ -1,0 +1,1 @@
+We evaluate current explanation schemes. These are either insufficiently general, or suffer from other serious drawbacks. We propose a domain-independent explanation system that is based on ignoring irrelevant variables in a probabilistic setting. We then prove important properties of some specific irrelevance-based schemes and discuss how to implement them.

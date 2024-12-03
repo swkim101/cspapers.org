@@ -1,0 +1,4 @@
+
+ 
+ In cooperative games, a key question is to find a division of payoffs to coalition members in a fair manner. Nucleolus is one of such solution concepts that provides a stable solution for the grand coalition. We study the computation of the nucleolus of a number of cooperative games, including fractional matching games and fractional edge cover games on general weighted graphs, as well as vertex cover games and clique games on weighted bipartite graphs. Our results are on the positive side---we give efficient algorithms to compute the nucleolus, as well as the least core, of all of these games.
+ 

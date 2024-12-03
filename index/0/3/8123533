@@ -1,0 +1,4 @@
+
+ 
+ This work studies the Generalized Singular Value Thresholding (GSVT) operator associated with a nonconvex function g defined on the singular values of X. We prove that GSVT can be obtained by performing the proximal operator of g on the singular values since Proxg(.) is monotone when g is lower bounded. If the nonconvex g satisfies some conditions (many popular nonconvex surrogate functions, e.g., lp-norm, 0 < p < 1, of l0-norm are special cases), a general solver to find Proxg(b) is proposed for any b ≥ 0. GSVT greatly generalizes the known Singular Value Thresholding (SVT) which is a basic subroutine in many convex low rank minimization methods. We are able to solve the nonconvex low rank minimization problem by using GSVT in place of SVT.
+ 

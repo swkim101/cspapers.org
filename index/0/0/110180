@@ -1,0 +1,4 @@
+
+ 
+ We present novel randomized algorithms for solving global motion planning problems that exploit the computational capabilities of many-core GPUs. Our approach uses thread and data parallelism to achieve high performance for all components of sample-based algorithms, including random sampling, nearest neighbor computation, local planning, collision queries and graph search. The approach can efficiently solve both the multi-query and single-query versions of the problem and obtain considerable speedups over prior CPU-based algorithms. We demonstrate the efficiency of our algorithms by applying them to a number of 6DOF planning benchmarks in 3D environments. Overall, this is the first algorithm that can perform real-time motion planning and global navigation using commodity hardware.
+ 

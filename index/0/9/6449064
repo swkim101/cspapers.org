@@ -1,0 +1,4 @@
+
+ 
+ Sequential auctions can be used to provide solutions to the multi-robot task-allocation problem. In this paper we extend previous work on sequential auctions and propose an algorithm that clusters and auctions uninitiated task clusters repeatedly upon the completion of individual tasks. We demonstrate empirically that our algorithm results in lower overall team costs than other sequential auction algorithms that only assign tasks once.
+ 

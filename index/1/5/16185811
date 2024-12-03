@@ -1,0 +1,4 @@
+
+ 
+ In the existing methods for solving matrix completion, such as singular value thresholding (SVT), soft-impute and ﬁxed point continuation (FPCA) algorithms, it is typically required to repeatedly implement singular value decompositions (SVD) of matrices.When the size of the matrix in question is large, the computational complexity of ﬁnding a solution is costly. To reduce this expensive computational complexity, we apply Kronecker products to handle the matrix completion problem. In particular, we propose using Kronecker factorization, which approximates a matrix by the Kronecker product of several matrices of smaller sizes. Weintroduce Kronecker factorization into the soft-impute framework and devise an effective matrix completion algorithm.Especially when the factorized matrices have about the samesizes, the computational complexity of our algorithm is improved substantially.
+ 

@@ -1,0 +1,4 @@
+A major bottleneck in building autonomous robots is the lack of suitable power supplies. Consequently, researchers 
+aim for more energy-efficient locomotion. One way to achieve this is by using compliant materials in the robot bodies. In 
+this work, we introduce Tigrillo, a small, low-cost quadruped robot platform with modular legs. The robot’s legs consist of 
+a simple two-segmented construction which can be configured stiff or passive compliant. Each leg is actuated at the hip with one motor. By thorough optimization of the open loop control signals we demonstrate that compliance not only results in gaits that are more insensitive to parameter variations, but also leads to more energy-efficient gaits.

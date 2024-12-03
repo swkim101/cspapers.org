@@ -1,0 +1,1 @@
+Nova is a simple technique for animating a data sequence whose elements include a primary numeric component and possibly one or more secondary dimensions. We use nova to visualize program behavior such as individual memory allocations, where the number of bytes in each allocation is a natural primary numeric dimension.

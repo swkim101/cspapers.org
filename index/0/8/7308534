@@ -1,0 +1,1 @@
+In this paper we present a system that allows a user to explore or mine a document collection. This system is based on domain and task knowledge modelled in the form of ontologies and allows direct access both to information as it is stored and to information that is built from it. The system has been developed in Java.

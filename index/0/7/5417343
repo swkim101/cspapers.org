@@ -1,0 +1,1 @@
+This paper describes the work on using vision verification within an object level language for robot assenbly (RAPT). The framework which handles vision data is discussed in detail. The framework enables us to combine a verification vision facility with an object level language in an intelligent way. It can also handle other kinds of sensory data.

@@ -1,0 +1,4 @@
+
+ 
+ The role of kernels is central to machine learning. Motivated by the importance of power-law distributions in statistical modeling, in this paper, we propose the notion of power-law kernels to investigate power-laws in learning problem. We propose two power-law kernels by generalizing Gaussian and Laplacian kernels. This generalization is based on distributions, arising out of maximization of a generalized information measure known as nonextensive entropy that is very well studied in statistical mechanics. We prove that the proposed kernels are positive definite, and provide some insights regarding the corresponding Reproducing Kernel Hilbert Space (RKHS). We also study practical significance of both kernels in classification and regression, and present some simulation results.
+ 

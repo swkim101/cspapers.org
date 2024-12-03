@@ -1,0 +1,1 @@
+First, the problem of proving the correctness of an operating system is defined. Then a simple model is presented. Several examples are given to show how this model allows derivation of proofs about small systems.

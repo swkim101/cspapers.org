@@ -1,0 +1,5 @@
+We study the problem of maximum marginal prediction (MMP) in probabilistic graphical models, a task that occurs, for example, as the Bayes optimal decision rule under a Hamming loss. MMP is typically performed as a two-stage procedure: one estimates each variable's marginal probability and then forms a prediction from the states of maximal probability. 
+ 
+In this work we propose a simple yet effective technique for accelerating MMP when inference is sampling-based: instead of the above two-stage procedure we directly estimate the posterior probability of each decision variable. This allows us to identify the point of time when we are sufficiently certain about any individual decision. Whenever this is the case, we dynamically prune the variables we are confident about from the underlying factor graph. Consequently, at any time only samples of variables whose decision is still uncertain need to be created. 
+ 
+Experiments in two prototypical scenarios, multi-label classification and image inpainting, show that adaptive sampling can drastically accelerate MMP without sacrificing prediction accuracy.

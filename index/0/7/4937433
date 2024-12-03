@@ -1,0 +1,9 @@
+@ space. 
+ 
+Our PTAS is significantly faster than any previously known (1 + e)-approximation algorithm for the problem, and is also relatively simple. Our algorithm for dynamic geometric data streams is the first (1 + e)-approximation algorithm for the cost of the facility location problem with polylogarithmic space, and it resolves an open problem in the streaming area. 
+ 
+Both algorithms are based on a novel and simple decomposition of an input point set P into small subsets Pi, such that: 
+ 
+• the cost of solving the facility location problem for each Pi is small (which means that for each Pi one needs to open only a small, polylogarithmic number of facilities), 
+ 
+•

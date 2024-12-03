@@ -1,0 +1,3 @@
+Deferred updating in a relational data base is a technique which delays the application of updates until a request is made for the value. In general we do not know, a priori, which of the updated values will be retrieved; therefore; it is beneficial to defer the access and computation. This technique promotes an "update-by-need" policy. 
+ 
+The method uses generalization, property inheritance, and procedural attachment for dynamically maintaining the update and query processes. The use of these representational concepts aids in maintaining the structure of the relational model, yet provides opportunities to extend the semantic power of the model.

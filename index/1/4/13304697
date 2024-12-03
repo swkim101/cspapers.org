@@ -1,0 +1,4 @@
+
+ 
+ Protein structure prediction is an unsolved problem in computational biology. One great difficulty is due to the unknown factors in the actual energy function. Moreover, the energy models available are often not very informative particularly when spatially similar structures are compared during search. We introduce several novel heuristics to augment the energy model and present a new local search algorithm that exploits these heuristics in a mixed fashion. Although the heuristics individually are weaker in performance than the energy function, their combination interestingly produces stronger results. For standard benchmark proteins on the face centered cubic lattice and a realistic 20x20 energy model, we obtain structures with significantly lower energy than those obtained by the state-of-the-art algorithms. We also report results for these proteins using the same energy model on the cubic lattice.
+ 

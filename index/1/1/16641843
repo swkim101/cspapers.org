@@ -1,0 +1,1 @@
+This demo abstract describes an initial design of a new adaptive video streaming protocol for device-to-device WiFi-based mobile platforms and its software implementation. For the demonstration, two mobile servers and two mobile users will be deployed verifying that our device-to-device adaptive video streaming implementation works with desirable user experience.

@@ -1,0 +1,4 @@
+
+ 
+ We formulate a general framework for pseudo-Boolean multi-valued nogood-learning, generalizing conflict analysis performed by modern SAT solvers and its recent extension for disjunctions of multi-valued variables. This framework can handle more general constraints as well as different domain representations, such as interval domains which are commonly used for bounds consistency in constraint programming (CP), and even set variables. Our empirical evaluation shows that our solver, built upon this framework, works robustly across a number of challenging domains.
+ 

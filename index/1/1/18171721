@@ -1,0 +1,1 @@
+The notion of a bipartite folding of a PLA is introduced. An efficient branch and bound algorithm is presented which finds an optimal bipartite folding of a PLA. The experimental results give additional justification to this folding technique.

@@ -1,0 +1,32 @@
+It is our great pleasure to welcome you to the proceedings of the workshop held as part of SPLASH 2014! This year's Workshop continues the tradition of allowing both graduate and undergraduate students to present their ongoing work and get productive feedback on their latest results. 
+ 
+Workshop Overview Mobile application usage and development is experiencing exponential growth. According to Gartner, by 2016 more than 300 billion applications will be downloaded annually. The mobile domain presents new challenges to software engineering. Mobile platforms are rapidly changing, including diverse capabilities as GPS, sensors, and input modes. Applications must be omni-channel and work on all platforms. Activated on mobile platforms, modern applications must be elastic and scale on demand according to the hardware abilities. Applications often need to support and use third-party services. Therefore, during development, security and authorization processes for the dataflow must be applied. Bring your own device (BYOD) policies bring new security data leaks challenges. Developing such applications requires suitable practices and tools e.g., architecture techniques that relate to the complexity at hand; improved refactoring tools for hybrid applications using dynamic languages and polyglot development and applications; and testing techniques for applications that run on different devices. 
+ 
+This workshop aims at establishing a community of researchers and practitioners to share their work and lead further research in the mobile software engineering. The workshop has several goals. First, we want to develop relationships to create a vibrant research community in the area of mobile software development. Second, we want to identify the most important research problems for mobile software development. 
+ 
+Our program includes: 
+Distinguished keynote by Dr. Daniel M. Yellin the Vice President, IBM Mobile Platform Development, and an IBM Distinguished Engineer 
+Invited talks 
+Marco Pistoia and Omer Trip Integrating Security, Analytics and Application Management into the Mobile Development Lifecycle 
+Nikolai Tillmann Rapidly Prototyping Apps for Mobile Cloud-Connected Devices 
+Lucas Brutschy, Pietro Ferrara and Mueller Peter. Static Analysis for Independent App Developers 
+Panel: "How Mobile Affects Business Processes? : The Research Perspective" 
+Activity: "Killer Apps for Mobile Opportunity and Challenges 
+Research papers 
+ 
+ 
+ 
+Mobile software engineering presents new challenges and directions. Among others, we observe the following five areas of interest: 
+Management of the mobile applications. This refers to the technical capabilities to create, deploy, and manage a suite of applications for multiple heterogeneous devices (e.g., iOS, Android, BlackBerry, Windows) that connect securely to enterprise back-end servers. 
+Hybrid applications versus native applications. A native application is an application designed to run in a specific environment written in a specific language. A hybrid mobile application, however, is developed using web technologies such as HTML, CSS, and JavaScript activated by a native wrapper. Building native applications requires comprehensive knowledge in the specific environment, such as Objective C (iOS), Java (Android), and C# (Windows mobile and BlackBerry). However, hybrid applications based on web technologies require more common knowledge. 
+User experience. Applications must be developed that provide different user experiences depending on the target environment. For example, an iOS application provides a different user experience than an Android application, even though the functionality of the application must be the same. 
+Battery life. How can developers write software that uses up as little battery life as possible? 
+Migrations to mobile. As more users access and use mobile-based tools, developers need to enable and support migration from legacy software such as web applications to mobile. 
+Mobile security. Mobile devices have strong networking capabilities. Hence security of ersonal information and businesses data become very important. Employees use their smartphones to access sensitive information. The operating system of those devices collects sensitive data that may be visible to third-party applications. Hence vulnerabilities from both the web browser and operating system must be considered. 
+ 
+ 
+ 
+Moreover, the development of mobile applications includes the following aspects that extend existing software engineering practices: 
+Software characteristics. 1) Software is distributed on several platforms that link between them over the network. For example, one part of an application could be on mobile phones browsers, another part might be on the cloud, and both of them are reading data from some legacy systems. 2) Mobile applications need to be elastic and scale on demand according to their environments' abilities. Functionalities need to be easily removed, added, or moved to or from the cloud. 3) Many hardware platforms exist for an application and the platforms are rapidly changing, including flexible capabilities such as GPS, sensors, and input modes. Development, however, should be for all platforms. 
+Architecture. Mobile application development also includes several architectural challenges, such as how to support omni-channel communications and how to support new application data updates from the server, e.g., notifications about new mail or software updates. Applications must be able to easily communicate with new systems. Traditional solutions enable software to be easily designed and modified to communicate with new environments. However, the environments with which applications need to communicate are rapidly changing. As a result, traditional solutions do not fit modern software and we cannot modify applications using traditional architectural approaches to support all channels. 
+Testing. Another aspect of mobile application development concerns software testing. How can applications be tested on arbitrary and unknown hardware? And how can we develop test-driven software without being able to run the test itself?

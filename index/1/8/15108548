@@ -1,0 +1,4 @@
+
+ 
+ We seek informative representations of the processes underlying time series data. As a first step, we address problems in which these processes can be approximated by linear models that vary smoothly over time. To facilitate estimation of these linear models, we introduce a method of dimension reduction which significantly reduces error when models are estimated locally for each point in time. This improvement is gained by performing dimension reduction implicitly through the model parameters rather than directly in the observation space.
+ 

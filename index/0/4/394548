@@ -1,0 +1,4 @@
+
+ 
+ In this paper we propose a novel DCOP algorithm, called DJAO, that is able toefficiently find a solution with low communication overhead; this algorithm can be used for optimal and bounded approximate solutions by appropriately setting the error bounds. Our approach builds on distributed junction trees used in Action-GDL to represent independence relationsamong variables. We construct an AND/OR search space based on these junction trees.This new type of search space results in higher degrees for each OR node, consequently yielding a more efficient search graph in the distributed settings. DJAO uses a branch-and-bound search algorithm to distributedly find solutions within this search graph. We introduce heuristics to compute the upper and lower boundestimates that the search starts with, which is integral to our approach for reducing communication overhead. We empirically evaluate our approach in various settings.
+ 

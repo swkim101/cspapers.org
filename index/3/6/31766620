@@ -1,0 +1,4 @@
+
+ 
+ The General Video Game AI framework and competition pose the problem of creating artificial intelligence that can play a wide, and in principle unlimited, range of games. Concretely, it tackles the problem of devising an algorithm that is able to play any game it is given, even if the game is not known a priori. This area of study can be seen as an approximation of General Artificial Intelligence, with very little room for game-dependent heuristics. This short paper summarizes the motivation, infrastructure, results and future plans of General Video Game AI, stressing the findings and first conclusions drawn after two editions of our competition, and outlining our future plans.
+ 

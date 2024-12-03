@@ -1,0 +1,4 @@
+
+ 
+ If we know most of Smith’s friends are from Boston, what can we say about the rest of Smith’s friends? In this paper, we focus on the node classification problem on networks, which is one of the most important topics in AI and Web communities. Our proposed algorithm which is referred to as OMNIProp has the following properties: (a) seamless and accurate; it works well on any label correlations (i.e., homophily, heterophily, and mixture of them) (b) fast; it is efficient and guaranteed to converge on arbitrary graphs (c) quasi-parameter free; it has just one well-interpretable parameter with heuristic default value of 1. We also prove the theoretical connections of our algorithm to the semi-supervised learning (SSL) algorithms and to random-walks. Experiments on four real, different network datasets demonstrate the benefits of the proposed algorithm, where OMNI-Prop outperforms the top competitors.
+ 

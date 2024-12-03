@@ -1,0 +1,1 @@
+In this paper we investigate the question of what is a good way to interconnect a large number of processors. Our main result is the construction of a universal parallel machine that can simulate every reasonable parallel machine with only a small loss of time and with essentially the same number of processors.

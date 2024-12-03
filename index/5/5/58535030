@@ -1,0 +1,4 @@
+
+ 
+ Much of the literature on multi-agent path finding focuses on undirected graphs, where motion is permitted in both directions along a graph edge. Despite this, travelling on directed graphs is relevant in navigation domains, such as pathfinding in games, and asymmetric communication networks. We consider multi-agent path finding on strongly biconnected directed graphs. We show that all instances with at least two unoccupied positions can be solved or proven unsolvable. We present a polynomial-time algorithm for this class of problems, and analyze its complexity. Our work may be the first formal study of multi-agent path finding on directed graphs.
+ 

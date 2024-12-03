@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of online active learning to collect data for regression modeling. Specifically, we consider a decision maker with a limited experimentation budget who must efficiently learn an underlying linear population model. Our main contribution is a novel threshold-based algorithm for selection of most informative observations; we characterize its performance and fundamental lower bounds. We extend the algorithm and its guarantees to sparse linear regression in high-dimensional settings. Simulations suggest the algorithm is remarkably robust: it provides significant benefits over passive random sampling in real-world datasets that exhibit high nonlinearity and high dimensionality — significantly reducing both the mean and variance of the squared error.
+ 

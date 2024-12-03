@@ -1,0 +1,4 @@
+
+ 
+ Causal graphs are widely used to analyze the complexity of planning problems. Many tractable classes have been identified with their aid and state-of-the-art heuristics have been derived by exploiting such classes. In particular, Katz and Keyder have studied causal graphs that are hourglasses (which is a generalization of forks and inverted-forks) and shown that the corresponding cost-optimal planning problem is tractable under certain restrictions. We continue this work by studying polytrees (which is a generalization of hourglasses) under similar restrictions. We prove tractability of cost-optimal planning by providing an algorithm based on a novel notion of variable isomorphism. Our algorithm also sheds light on the k-consistency procedure for identifying unsolvable planning instances. We speculate that this may, at least partially, explain why merge-and-shrink heuristics have been successful for recognizing unsolvable instances.
+ 

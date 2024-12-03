@@ -1,0 +1,4 @@
+
+ 
+ While model-based reinforcement learning is often studied under the assumption that a fully accurate model is contained within the model class, this is rarely true in practice. When the model class may be fundamentally limited, it can be difficult to obtain theoretical guarantees. Under some conditions the DAgger algorithm promises a policy nearly as good as the plan obtained from the most accurate model in the class, but only if the planning algorithm is near-optimal, which is also rarely the case in complex problems. This paper explores the interaction between DAgger and Monte Carlo planning, specifically showing that DAgger may perform poorly when coupled with a sub-optimal planner. A novel variation of DAgger specifically for use with Monte Carlo planning is derived and is shown to behave far better in some cases where DAgger fails.
+ 

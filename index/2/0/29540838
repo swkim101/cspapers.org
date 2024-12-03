@@ -1,0 +1,4 @@
+
+ 
+ We propose a probabilistic model for non-exhaustive and overlapping (NEO) bi-clustering. Our goal is to extract a few sub-matrices from the given data matrix, where entries of a sub-matrix are characterized by a specific distribution or parameters. Existing NEO biclustering methods typically require the number of sub-matrices to be extracted, which is essentially difficult to fix a priori. In this paper, we extend the plaid model, known as one of the best NEO bi-clustering algorithms, to allow infinite bi-clustering; NEO bi-clustering without specifying the number of sub-matrices. Our model can represent infinite sub-matrices formally. We develop a MCMC inference without the finite truncation, which potentially addresses all possible numbers of sub-matrices. Experiments quantitatively and qualitatively verify the usefulness of the proposed model. The results reveal that our model can offer more precise and in-depth analysis of sub-matrices.
+ 

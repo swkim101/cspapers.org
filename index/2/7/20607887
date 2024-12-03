@@ -1,0 +1,3 @@
+In a higher level task such as clustering of web results or
+ word sense disambiguation, knowledge of all possible distinct concepts in which an ambiguous word can be expressed would be advantageous, for instance in determining the number of clusters in case of clustering web search results. We propose an algorithm to generate such a ranked list of distinct concepts associated with an ambiguous word. Concepts which are popular in terms of usage are ranked higher.
+ We evaluate the coverage of the concepts inferred from our algorithm on the results retrieved by querying the ambiguous word using a major search engine and show a coverage of 85% for top 30 documents averaged over all keywords.

@@ -1,0 +1,18 @@
+We present a novel method for the incorporation of shape information 
+into active contour models, and apply it to the extraction 
+of line networks (e.g. road, water) from satellite imagery. 
+The method is based on a new class of contour energies. 
+These energies are quadratic on the space of one-chains 
+in the image, as opposed to classical energies, which are linear. 
+They can be expressed as double integrals on the contour, 
+and thus incorporate non-trivial interactions between 
+different contour points. The new energies describe families 
+of contours that share complex geometric properties, without 
+making reference to any particular shape. Networks fall 
+into such a family, and to model them we make a particular 
+choice of quadratic energy whose minima are reticulated. 
+To optimize the energies, we use a level set approach. The 
+forces derived from the new energies are non-local however, 
+thus necessitating an extension of standard level set methods. 
+Promising experimental results are obtained using real 
+images.

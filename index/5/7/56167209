@@ -1,0 +1,21 @@
+Most UAS propulsion systems currently utilize either Internal Combustion Engines (ICE) or Electric Motor 
+(EM) prime movers. ICE are favoured for aircraft use due to the superior energy density of fuel compared to 
+batteries required for EM, however EM have several significant advantages. A major advantage of EM is that 
+they are inherently self starting have predictable response characteristics and well developed electronic control 
+systems. EMs are thus very easy to adapt to automatic control, whereas ICE have more complex control 
+response and an auxiliary starting motor is required for automated starting. 
+This paper presents a technique for determining the performance, feasibility and effectiveness of powerplant 
+hybridisation for small UAS. A Hybrid Powerplant offers the possibility of a radical improvement in the 
+autonomy of the aircraft for various tasks without sacrificing payload range or endurance capability. In this 
+work a prototype Aircraft Hybrid Powerplant (AHP) was designed, constructed and tested. It is shown that an 
+additional 35% continuous thrust power can be supplied from the hybrid system with an overall weight penalty 
+of 5%, for a given UAS. 
+Dynamometer and windtunnel results were obtained to validate theoretical propulsion load curves. Using 
+measured powerplant data and an assumed baseline airframe performance characteristic, theoretical endurance 
+comparisons between hybrid and non-hybrid powerplants were determined. A flight dynamic model for the 
+AHP was developed and validated for the purposes of operational scenario analysis. Through this simulation it 
+is shown that climb rates can be improved by 56% and endurance increased by 13%. 
+The advantages of implementing a hybrid powerplant have been baselined in terms of payload range and 
+endurance. Having satisfied these parameters, a whole new set of operational possibilities arises which cannot 
+be performed by non-self-starting ICE only powered aircraft. A variety of autonomous robotic aircraft tasks 
+enabled by the hybrid powerplant is discussed.

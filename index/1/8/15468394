@@ -1,0 +1,4 @@
+
+ 
+ When two or more self-interested agents put their plans to execution in the same environment, conflicts may arise as a consequence, for instance, of a common utilization of resources. In this case, an agent can postpone the execution of a particular action, if this punctually solves the conflict, or it can resort to execute a different plan if the agent's payoff significantly diminishes due to the action deferral. In this paper, we present a game-theoretic approach to non-cooperative planning that helps predict before execution what plan schedules agents will adopt so that the set of strategies of all agents constitute a Nash equilibrium. We perform some experiments and discuss the solutions obtained with our game-theoretical approach, analyzing how the conflicts between the plans determine the strategic behavior of the agents.
+ 

@@ -1,0 +1,1 @@
+Probe interval graphs were introduced to model a problem arising in a form of DNA sequencing. This paper presents an &Ogr;(n2) algorithm for recognizing probe interval graphs. This is the first polynomial time recognition algorithm for this class.

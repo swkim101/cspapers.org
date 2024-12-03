@@ -1,0 +1,4 @@
+Test-First Design is well-regarded process among software developers. Practitioner report that it encourages better program design, improves the testability and reliability, and reduces the stress.
+ We have used the test-first design approach in introductory Java-based programming courses for the past ten years. With the support of our tester library, students learn to design tests without any additional syntactic or structural overhead. A number of colleagues at other universities sued the tester library in a variety of courses.
+ Join us for a discussion on how you can help your students learn to design programs in the test-first style.
+ This work is sponsored by two NSF DUE CCLI grants: Redesigning Introductory Computing: The Design Discipline, Grant #00618543, and Integrating Test Design into Computing Curriculum from the Beginning, Grant #0920182.

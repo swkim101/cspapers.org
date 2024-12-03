@@ -1,0 +1,1 @@
+This paper shows that the equivalence problems for commutative semigroups and symmetric vector addition systems are decidable in space cNlogN for some fixed constant c, solving an open question by Cardoza, Lipton, Mayr, and Meyer. From the exponential-space completeness of the word problems, it follows that our upper bound is nearly optimal.

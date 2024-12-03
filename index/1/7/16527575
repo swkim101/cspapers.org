@@ -1,0 +1,1 @@
+In this paper we present a mathematical model to compute the bandwidth of the multiple bus interconnection network. Due to the computational complexity associated with the exact solution, the processors are removed from the queues at the end of each memory cycle to facilitate the analysis. This leads to approximate solutions which are both easier to obtain and very accurate.

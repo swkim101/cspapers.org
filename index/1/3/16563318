@@ -1,0 +1,4 @@
+
+ 
+ Multiagent resource allocation under uncertainty raises various computational challenges in terms of efficiency such as intractability, communication cost, and preference representation. To date most approaches do not provide efficient solutions for dynamic environments where temporal constraints pose particular challenges. We propose two techniques to cope with such settings: auctions to allocate fairly according to preferences, and MDPs to address stochasticity. This research seeks to determine the ideal combination between the two methods to handle wide range of allocation problems with reduced computation and communication cost between agents.
+ 

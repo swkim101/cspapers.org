@@ -1,0 +1,5 @@
+This paper presents a method for applying standard inferencing mechanisms to a broader class of sentences than that which was possible before. The logic of proposition surrogates allows representation of and reasoning with a class of sentences (the so called opaque sentences) that pose special difficulties for standard logics. Within this class are sentences with one or more occurrences of such words as know, believe, aware, search, hunt, etc. 
+ 
+It is shown that standard formal (programming) languages, e.g. first order logic, can be extended with proposition surrogates to deal with facts that have traditionally been expressed in modal or various other proposed logics. It has been argued that such facts can not adequately be expressed in standard logics; the findings and results recorded here, however, are to the contrary. Proposition surrogates can be added, in a conservative manner, to standard automatic reasoning systems. 
+ 
+Proposition surrogates and their historical development are presented. An inference engine based on the logic of proposition surrogates is then outlined and applied to some problems in this area.

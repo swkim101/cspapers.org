@@ -1,0 +1,1 @@
+Many context aware applications can benefit from using high-level sensing results with semantic meanings (e.g, busy/idle). This paper proposes a platform design that provides high-level "virtual sensor" abstractions and enables new virtual sensors to be bootstrapped from existing ones.

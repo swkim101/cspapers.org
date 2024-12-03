@@ -1,0 +1,4 @@
+
+ 
+ We propose an algorithm for enumerating solutions to the Lasso regression problem.In ordinary Lasso regression, one global optimum is obtained and the resulting features are interpreted as task-relevant features.However, this can overlook possibly relevant features not selected by the Lasso.With the proposed method, we can enumerate many possible feature sets for human inspection, thus recording all the important features.We prove that by enumerating solutions, we can recover a true feature set exactly under less restrictive conditions compared with the ordinary Lasso.We confirm our theoretical results also in numerical simulations.Finally, in the gene expression and the text data, we demonstrate that the proposed method can enumerate a wide variety of meaningful feature sets, which are overlooked by the global optima.
+ 

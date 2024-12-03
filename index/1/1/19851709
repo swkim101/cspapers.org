@@ -1,0 +1,1 @@
+Devirtualization is an optimization changing indirect (virtual) calls to direct calls. It improves performance by allowing extra inlining and removal of redundant loads. This paper presents a novel way of handling C++ devirtualization in LLVM by unifying virtual table loads across calls using different SSA values to represent different dynamic types.

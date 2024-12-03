@@ -1,0 +1,4 @@
+
+ 
+ An important difference between traditional AI systems and human intelligence is our ability to harness common sense knowledge gleaned from a lifetime of learning and experiences to inform our decision making and behavior. This allows humans to adapt easily to novel situations where AI fails catastrophically for lack of situation-specific rules and generalization capabilities. Common sense knowledge also provides the background knowledge for humans to successfully operate in social situations where such knowledge is typically assumed. In order for machines to exploit common sense knowledge in reasoning as humans do, moreover, we need to endow them with human-like reasoning strategies. In this work, we propose a two-level affective reasoning framework that concurrently employs multi-dimensionality reduction and graph mining techniques to mimic the integration of conscious and unconscious reasoning, and exploit it for sentiment analysis.
+ 

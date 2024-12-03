@@ -1,0 +1,3 @@
+One of the ground tools used to operate the Mars Exploration Rovers is a mixed-initiative planning system called MAPGEN. The role of the system is to assist operators building daily plans for each of the rovers, maximizing science return, while maintaining rover safety and abiding by science and engineering constraints. 
+ 
+In this paper, we describe the MAPGEN system, focusing on the mixed-initiative planning aspect. We note important challenges, both in terms of human interaction and in terms of automated reasoning requirements. We then describe the approaches taken in MAPGEN, focusing on the novel methods developed by our team.

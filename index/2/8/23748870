@@ -1,0 +1,5 @@
+During the last ten years, data flow has become an exciting research area and several architectures have been proposed and built. They differ mostly in the way they handle data structures and how they provide mechanisms for token labeling or colouring in order to make data flow graphs reentrant.
+ The paper presents a data flow architecture with a paged memory system to hold both data flow programs and data structures. The token labeling mechanism is coupled with the memory management system in order to provide for each token a unique memory location.
+ The instruction format allows instructions with multiple operands and multiple destinations for each result.
+ Data structures are held in memory while pointers to the structures are circulating as tokens.
+ The proposed architecture is able to execute data flow programs at the level of single instructions or at a higher level.

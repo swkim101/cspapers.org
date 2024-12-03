@@ -1,0 +1,7 @@
+Regarding history, George Santayana once said, “Those who cannot remember the past are condemned to repeat it.”
+I have always been dissatisfied with that statement. It is too negative. History has positive experiences too. They are the ones we would like both to remember and to repeat.
+The three papers in this session are strong examples of positive early experiences in large-scale software engineering. The papers are:H.D. Benington, “Production of Large Computer Programs,” Proceedings, ONR Symposium, June 1956.
+W.A. Hosier, “Pitfalls and Safeguards in Real-Time Digital Systems with Emphasis on Programming,” IRE Transactions on Engineering Management, June, 1961.
+W.W. Royce, “Managing the Development of Large Software Systems: Concepts and Techniques,” Proceedings, WESCON, August 1970.
+
+Given the short lifespan of the software field, they can certainly be called “historic.” Indeed, since many people date the software engineering field from the NATO Garmisch conference in 1968, two of them can even be called “prehistoric.” They are certainly sufficiently old that most people in the software engineering field have not been aware of them. The intent of this session is to remedy this situation by reprinting them in the Conference Proceedings, and by having the authors (or, in one case, Hosier's colleague J.P. Haverty) discuss both the lessons from their papers which are still equally valid today, and the new insights and developments which have happened in the interim.

@@ -1,0 +1,4 @@
+
+ 
+ While stable matching problems are widely studied, little work has investigated schemes for effectively eliciting agent preferences using either preference (e.g., comparison) queries for interviews (to form such comparisons); and no work has addressed how to combine both. We develop a new model for representing and assessing agent preferences that accommodates both forms of information and (heuristically) minimizes the number of queries and interviews required to determine a stable matching. Our Refine-then-Interview (RtI) scheme uses coarse preference queries to refine knowledge of agent preferences and relies on interviews only to assess comparisons of relatively “close” options. Empirical results show that RtI compares favorably to a recent pure interview minimization algorithm, and that the number of interviews it requires is generally independent of the size of the market.
+ 

@@ -1,0 +1,1 @@
+In this paper we propose novel neighbourhood formation and similarity weight transformation schemes for automated collaborative filtering systems. We demonstrate the benefits of our schemes from the point-of-view of the efficiency and robustness provided, while achieving the accuracy and coverage of a benchmark k-Nearest Neighbour (k-NN) model.

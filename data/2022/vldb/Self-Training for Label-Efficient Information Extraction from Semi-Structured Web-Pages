@@ -1,9 +1,0 @@
-
- Information Extraction (IE) from semi-structured web-pages is a long studied problem. Training a model for this extraction task requires a large number of human-labeled samples. Prior works have proposed transferable models to improve the label-efficiency of this training process. Extraction performance of transferable models however, depends on the size of their fine-tuning corpus. This holds true for large language models (LLM) such as GPT-3 as well. Generalist models like LLMs need to be fine-tuned on in-domain, human-labeled samples for competitive performance on this extraction task. Constructing a large-scale fine-tuning corpus with human-labeled samples, however, requires significant effort. In this paper, we develop a
- Label-Efficient Self-Training Algorithm
- (LEAST) to improve the label-efficiency of this fine-tuning process. Our contributions are two-fold.
- First
- , we develop a generative model that facilitates the construction of a large-scale fine-tuning corpus with minimal human-effort.
- Second
- , to ensure that the extraction performance does not suffer due to noisy training samples in our fine-tuning corpus, we develop an uncertainty-aware training strategy. Experiments on two publicly available datasets show that LEAST generalizes to multiple verticals and backbone models. Using LEAST, we can train models with less than ten human-labeled pages from each website, outperforming strong baselines while reducing the number of human-labeled training samples needed for comparable performance by up to 11
- x.

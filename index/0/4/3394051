@@ -1,0 +1,1 @@
+Currently, mobile devices might suffer from their own limited resources to support complex Web applications. We present a framework that can offload JavaScript applications to cloud. Based on dynamic analysis and profiling, our approach partitions the computation-intensive tasks for remote execution and efficiently improves performance

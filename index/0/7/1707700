@@ -1,0 +1,4 @@
+
+ 
+ We consider the task of grouping doctors with respect to communication patterns exhibited in outpatient visits. We propose a novel approach toward this end in which we model speech act transitions in conversations via a log-linear model incorporating physician specific components. We train this model over transcripts of outpatient visits annotated with speech act codes and then cluster physicians in (a transformation of) this parameter space. We find significant correlations between the induced groupings and patient survey response data comprising ratings of physician communication. Furthermore, the novel sequential component model we leverage to induce this clustering allows us to explore differences across these groups. This work demonstrates how statistical AI might be used to better understand (and ultimately improve) physician communication.
+ 

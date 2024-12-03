@@ -1,0 +1,4 @@
+
+ 
+ Tweets have become an increasingly popular source of fresh information. We investigate the task of Nominal Semantic Role Labeling (NSRL) for tweets, which aims to identify predicate-argument structures defined by nominals in tweets. Studies of this task can help fine-grained information extraction and retrieval from tweets. There are two main challenges in this task: 1) The lack of information in a single tweet, rooted in the short and noisy nature of tweets; and 2) recovery of implicit arguments. We propose jointly conducting NSRL on multiple similar tweets using a graphical model, leveraging the redundancy in tweets to tackle these challenges. Extensive evaluations on a human annotated data set demonstrate that our method outperforms two baselines with an absolute gain of 2.7% in F1.
+ 

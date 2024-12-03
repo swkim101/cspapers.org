@@ -1,0 +1,13 @@
+A backdoor set of a CNF formula is a set of variables such that fixing the truth values of the variables from this set moves the formula into a polynomial-time decidable class. In this work we obtain several algorithmic results for solving d-SAT, by exploiting backdoors to d-CNF formulas whose incidence graphs have small treewidth. 
+ 
+For a CNF formula p and integer t, a strong backdoor set to treewidth t is a set of variables such that each possible partial assignment τ to this set reduces p to a formula whose incidence graph is of treewidth at most t. A weak backdoor set to treewidth t is a set of variables such that there is a partial assignment to this set that reduces p to a satisfiable formula of treewidth at most t. Our main contribution is an algorithm that, given a d-CNF formula p and an integer k, in time 2O(k)|p|, 
+ 
+• either finds a satisfying assignment of p, or 
+ 
+• reports correctly that p is not satisfiable, or 
+ 
+• concludes correctly that p has no weak or strong backdoor set to treewidth t of size at most k. 
+ 
+As a consequence of the above, we show that d-SAT parameterized by the size of a smallest weak/strong backdoor set to formulas of treewidth t, is fixed-parameter tractable. Prior to our work, such results were know only for the very special case of t = 1 (Gaspers and Szeider, ICALP 2012). Our result not only extends the previous work, it also improves the running time substantially. The running time of our algorithm is linear in the input size for every fixed k. Moreover, the exponential dependence on the parameter k is asymptotically optimal under Exponential Time Hypothesis (ETH). 
+ 
+One of our main technical contributions is a linear time "protrusion replacer" improving over a O(nlog2 n)-time procedure of Fomin et al. (FOCS 2012). The new deterministic linear time protrusion replacer has several applications in kernelization and parameterized algorithms.

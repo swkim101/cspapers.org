@@ -1,0 +1,1 @@
+We use a combination of proven methods from time series analysis and machine learning to explore the relationship between temporal and semantic similarity in web query logs; we discover that the combination of correlation and cycles is a good, but not perfect, sign of semantic relationship.

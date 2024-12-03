@@ -1,0 +1,1 @@
+We give improved randomized (Monte Carlo) algorithms for undirected edge splitting and edge connectivity augmentation problems. Our algorithms run in time O(n 2 ) on n-vertex graphs, making them an Ω(m/n) factor faster than the best known deterministic ones on m-edge graphs.

@@ -1,0 +1,2 @@
+Enumeration problems constitute a major part of combinatorial mathematics.
+ Combinatorial mathematics expresses the solution of enumeration problems by means of solving formulas, generally based on the usual arithmetic operations [7]. These solving formulas can be formally represented as programs for a Random Access Machine (RAM) with arithmetical primitives, for which the natural complexity measure is the arithmetical complexity [1].

@@ -1,0 +1,4 @@
+
+ 
+ Following the recent progress in image classification and image captioning using deep learning, we developed a novel person retrieval system using natural language, which to our knowledge is first of its kind. Our system employs a state-of-the-art deep learning based natural language object retrieval framework to detect and retrieve people in images. Quantitative experimental results show significant improvement over state-of-the-art meth- ods for generic object retrieval. This line of research provides great advantages for searching large amounts of video surveil- lance footage and it can also be utilized in other domains, such as human-robot interaction.
+ 

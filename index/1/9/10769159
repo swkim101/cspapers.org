@@ -1,0 +1,4 @@
+
+ 
+ This paper is about two related decision theoretic problems, nonparametric two-sample testing and independence testing. There is a belief that two recently proposed solutions, based on kernels and distances between pairs of points, behave well in high-dimensional settings. We identify different sources of misconception that give rise to the above belief. Specifically, we differentiate the hardness of estimation of test statistics from the hardness of testing whether these statistics are zero or not, and explicitly discuss a notion of "fair" alternative hypotheses for these problems as dimension increases. We then demonstrate that the power of these tests actually drops polynomially with increasing dimension against fair alternatives. We end with some theoretical insights and shed light on the median heuristic for kernel bandwidth selection. Our work advances the current understanding of the power of modern nonparametric hypothesis tests in high dimensions.
+ 

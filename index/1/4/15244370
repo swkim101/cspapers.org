@@ -1,0 +1,21 @@
+A k-list-assignment for a graph G assigns to each vertex v of G a list L(v) of admissible colors, where |L(v)| ≥ k. A graph is k-list-colorable (or k-choosable) if it can be properly colored from the lists for every k-list-assignment. 
+ 
+We prove the following conjecture posed by Thomassen in 1994: "There are only finitely many list-color-critical graphs with all lists of cardinality at least 5 on any fixed surface." This generalizes the well-known result of Thomassen on the usual graph coloring case. We use this theorem and specific parts of its proof to resolve the complexity status of the following problem about k-list-coloring graphs on a fixed surface S, where k is a fixed positive integer. 
+ 
+Input: A graph G embedded in the surface S. 
+ 
+Question: Is G k-choosable? If not, provide a certificate (a list-color-critical subgraph and the corresponding k-list-assignment). 
+ 
+The cases k = 3, 4 are known to be NP-hard (actually even Πp2-complete), and the cases k = 1, 2 are easy. Our main results imply that the problem is tractable for every k ≥ 5. In fact, together with our recent algorithmic result, we are able to solve it in linear time when k ≥ 5. Our proof yields even more: if the input graph is k-list-colorable, then for any k-list-assignment L, we can construct an L-coloring of G in linear time. This generalizes the well-known linear-time algorithms for planar graphs by Nishizeki and Chiba (for 5-coloring), and Thomassen (for 5-list-coloring). 
+ 
+We also give a polynomial-time algorithm to resolve the following question: 
+ 
+Input: A graph G in the surface S, and a k-list-assignment L, where k ≥ 5. 
+ 
+Question: Does G admit an L-coloring? If not, provide a certificate for this. If yes, then return an L-coloring. 
+ 
+If the graph G is k-list-colorable, then our first result gives a linear time solution. However, the second problem is more general, since it provides a coloring (or a small obstruction) for an arbitrary graph in S. 
+ 
+We also use our main theorem to prove another conjecture that was proposed recently by Thomassen: "For every fixed surface S, there exists a positive constant c such that every 5-list-colorable graph with n vertices embedded on S, has at least c · 2n distinct 5-list-colorings for every 5-list-assignment for G." Thomassen himself proved that this conjecture holds for usual 5-colorings. 
+ 
+In addition to all these results, we also made partial progress towards a conjecture of Albertson concerning coloring extensions and a progress on similar questions for triangle-free graphs and graphs of larger girth.

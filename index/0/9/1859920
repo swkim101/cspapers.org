@@ -1,0 +1,4 @@
+
+ 
+ Conditional preference networks (CP-nets) are a commonly studied compact formalism for modeling preferences. To study the properties of CP-nets or the performance of CP-net algorithms on average, one needs to generate CP-nets in an equiprobable manner. We discuss common problems with naive generation, including sampling bias, which invalidates the base assumptions of many statistical tests and can undermine the results of an experimental study. We provide a novel algorithm for provably generating acyclic CP-nets uniformly at random. Our method is computationally efficient and allows for multi-valued domains and arbitrary bounds on the indegree in the dependency graph.
+ 

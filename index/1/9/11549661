@@ -1,0 +1,1 @@
+We show that anomaly detection can be interpreted as a binary classification problem. Using this interpretation we propose a support vector machine (SVM) for anomaly detection. We then present some theoretical results which include consistency and learning rates. Finally, we experimentally compare our SVM with the standard one-class SVM.

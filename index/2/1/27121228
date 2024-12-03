@@ -1,0 +1,1 @@
+The SCALD physical design subsystem is described. SCALD supports the automatic construction of ECL-10K logic on wire wrap cards from the output of a hierarchical design system. Results of its use in the design of an operational 15-MIPS 5500-chip processor are presented and discussed.

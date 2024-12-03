@@ -1,0 +1,4 @@
+
+ 
+ Qualitative reasoning can play an important role in early stage design. Currently, engineers explore the design space using simulation models built in languages such as Modelica. To make qualitative reasoning useful to them, designs specified in their languages must be translated into a qualitative modeling language for analysis. The contribution of this paper is a sound and effective mapping between Modelica and qualitative reasoning. To achieve a sound mapping, we extend envisioning, the process of generating all relevant qualitative behaviors, to support Modelica's declarative events. For an effective mapping, we identify three classes of additional constraints that should be inferred from the Modelica representation thereby exponentially reducing the number of unrealizable trajectories. We support this contribution with examples and a case study.
+ 

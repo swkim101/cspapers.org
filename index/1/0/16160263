@@ -1,0 +1,4 @@
+
+ 
+ The n-gram model has been widely used to capture the local ordering of words, yet its exploding feature space often causes an estimation issue. This paper presents local context sparse coding (LCSC), a non-probabilistic topic model that effectively handles large feature spaces using sparse coding. In addition, it introduces a new concept of locality, local contexts, which provides a representation that can generate locally coherent topics and document representations. Our model efficiently finds topics and representations by applying greedy coordinate descent updates. The model is useful for discovering local topics and the semantic flow of a document, as well as constructing predictive models.
+ 

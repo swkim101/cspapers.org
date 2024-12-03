@@ -1,0 +1,6 @@
+KiWi is a semantic Wiki that combines the Wiki philosophy of collaborative content creation with the methods of the Semantic Web in order to enable effective knowledge management.
+ Querying a Wiki must be simple enough for beginning users, yet powerful enough to accommodate experienced users.
+ To this end, the keyword-based KiWi query language (KWQL) supports queries ranging from simple lists of keywords to expressive rules for selecting and reshaping Wiki (meta-)data.
+ In this demo, we showcase visKWQL, a visual interface for the KWQL language aimed at supporting users in the query construction process. visKWQL and its editor are described, and their functionality is illustrated using example queries.
+ visKWQL's editor provides guidance throughout the query construction process through hints, warnings and highlighting of syntactic errors.
+ The editor enables round-tripping between the twin languages KWQL and visKWQL, meaning that users can switch freely between the textual and visual form when constructing or editing a query. It is implemented using HTML, JavaScript, and CSS, and can thus be used in (almost) any web browser without any additional software.

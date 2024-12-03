@@ -1,0 +1,4 @@
+
+ 
+ In this paper we propose an approach to modeling syntactically-motivated skeletal structure of source sentence for machine translation. This model allows for application of high-level syntactic transfer rules and low-level non-syntactic rules. It thus involves fully syntactic, non-syntactic, and partially syntactic derivations via a single grammar and decoding paradigm. On large-scale Chinese-English and English-Chinese translation tasks, we obtain an average improvement of +0.9 BLEU across the newswire and web genres.
+ 

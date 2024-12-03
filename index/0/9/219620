@@ -1,0 +1,5 @@
+We present a large scale study of primary data deduplication and use the findings to drive the design of a new primary data deduplication system implemented in the Windows Server 2012 operating system. File data was analyzed from 15 globally distributed file servers hosting data for over 2000 users in a large multinational corporation. 
+ 
+The findings are used to arrive at a chunking and compression approach which maximizes deduplication savings while minimizing the generated metadata and producing a uniform chunk size distribution. Scaling of deduplication processing with data size is achieved using a RAM frugal chunk hash index and data partitioning - so that memory, CPU, and disk seek resources remain available to fulfill the primary workload of serving IO. 
+ 
+We present the architecture of a new primary data deduplication system and evaluate the deduplication performance and chunking aspects of the system.

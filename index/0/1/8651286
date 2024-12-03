@@ -1,0 +1,1 @@
+In this paper we introduce a self-training strategy for crowdsourcing. The training examples are automatically selected to train the crowd workers. Our experimental results show an impact of 5% Improvement in terms of F1 for relation extraction task, compared to the method based on distant supervision.

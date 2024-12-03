@@ -1,0 +1,4 @@
+
+ 
+ Computation of invariants, which are approximate reachability information for state-space search problems such as AI planning, has been considered to be more scalable when using a schematic representation of actions/events rather than an instantiated/ground representation. A disadvantage of schematic algorithms, however, is their complexity, which also leads to high runtimes when the number of schematic events/actions is high. We propose algorithms that reduce the problem of finding schematic invariants to solving a smaller ground problem.
+ 

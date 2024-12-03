@@ -1,0 +1,1 @@
+We propose STILL, a signature-free remote exploit binary code injection attack blocker to protect web servers and web applications. STILL is robust to almost all anti-signature, anti-static-analysis and anti-emulation obfuscation.

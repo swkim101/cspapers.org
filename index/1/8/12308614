@@ -1,0 +1,4 @@
+
+ 
+ In pickup and delivery problems (PDPs), vehicles pickup and deliver a set of items under various constraints. We address the PDP with Transfers (PDP-T), in which vehicles plan to transfer items between one another to form more efficient schedules. We introduce the Very Large Neighborhood Search with Transfers (VLNS-T) algorithm to form schedules for the PDP-T. Our approach allows multiple transfers for items at arbitrary locations, and is not restricted to a set of predefined transfer points. We show that VLNS-T improves upon the best known PDP solutions for benchmark problems, and demonstrate its effectiveness on problems sampled from real world taxi data in New York City.
+ 

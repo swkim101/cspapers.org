@@ -1,0 +1,1 @@
+We have designed, fabricated, and tested a series of compact CMOS integrated circuits that realize the winner-take-all function. These analog, continuous-time circuits use only O(n) of interconnect to perform this function. We have also modified the winner-take-all circuit, realizing a circuit that computes local nonlinear inhibition.

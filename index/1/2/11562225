@@ -1,0 +1,1 @@
+We give O(n) step algorithms for solving a number of graph problems on an n-&-times;n array of processors. The problems considered include: marking the bridges of an undirected graph, marking the articulation points of such a graph, finding the length of a shortest cycle, finding a minimum spanning tree, and a number of other problems.

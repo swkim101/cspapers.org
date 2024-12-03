@@ -1,0 +1,4 @@
+
+ 
+ The computational study of elections generally assumes that the preferences of the electorate come in as a list of votes. Depending on the context, it may be much more natural to represent the preferences of the electorate succinctly, as the distinct votes and their counts. Though the succinct representation may be exponentially smaller than the nonsuccinct, we find only one natural case where the complexity increases, in sharp contrast to the case where each voter has a weight, where the complexity usually increases.
+ 

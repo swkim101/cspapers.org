@@ -1,0 +1,24 @@
+
+ Graph is a ubiquitous structure representing entities and their relationships applied in many areas such as social networks, web graphs, and biological networks. One of the fundamental tasks in graph analytics is to investigate the relations between two vertices (e.g., users, items and entities) such as how a vertex
+ A
+ influences another vertex
+ B
+ , or to what extent
+ A
+ and
+ B
+ are similar to each other, based on the graph topology structure. For this purpose, we study the problem of hop-constrained
+ s-t
+ simple path enumeration in this paper, which aims to list all simple paths from a source vertex
+ s
+ to a target vertex
+ t
+ with hop-constraint
+ k.
+ We first propose a polynomial delay algorithm, namely BC-DFS, based on barrier-based pruning technique. Then a join-oriented algorithm, namely JOIN, is designed to further enhance the query response time. On the theoretical side, BC-DFS is a polynomial delay algorithm with
+ O
+ (
+ km
+ ) time per output where
+ m
+ is the number of edges in the graph. This time complexity is the same as the best known theoretical result for the polynomial delay algorithms of this problem. On the practical side, our comprehensive experiments on 15 real-life networks demonstrate the superior performance of the BC-DFS algorithm compared to the state-of-the-art techniques. It is also reported that the JOIN algorithm can further significantly enhance the query response time.

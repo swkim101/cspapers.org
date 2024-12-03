@@ -1,0 +1,1 @@
+This paper prescribes an incremental procedure to construct the Generalized Voronoi Graph (GVG) and the Hierarchical Generalized Voronoi Graph (HGVG) detailed in the companion paper [4]. The procedure requires only local distance sensor measurements, and therefore the method can be used as a basis for sensor based planning algorithms.

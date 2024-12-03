@@ -1,0 +1,4 @@
+
+ 
+ Uniquely identifying individuals using anthropometric and gait data allows for passive biometric systems, where cooperation from the subjects being identified is not required. In this paper, we report on experiments using a novel data set composed of 140 individuals walking in front of a Microsoft Kinect sensor. We provide a methodology to extract anthropometric and gait features from this data and show results of applying different machine learning algorithms on subject identification tasks. Focusing on KNN classifiers, we discuss how accuracy varies in different settings, including number of individuals in a gallery, types of attributes used and number of considered neighbors. Finally, we compare the obtained results with other results in the literature, showing that our approach has comparable accuracy for large galleries.
+ 

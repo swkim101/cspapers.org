@@ -1,0 +1,1 @@
+We introduce an answer typing strategy specific to quantifiable how questions. Using the web as a data source, we automatically collect answer units appropriate to a given how-question type. Experimental results show answer typing with these units outperforms traditional fixedcategory answer typing and other strategies based on the occurrences of numerical entities in text.

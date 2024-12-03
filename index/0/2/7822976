@@ -1,0 +1,1 @@
+Abstract Model Schema Language (MSL) is an attempt to formalize some of the core ideas in XML Schema. The benefits of a formal description are that it is both concise and precise. MSL has already proved helpful in work on the design of XML Query. We expect that similar techniques can be used to extend MSL to include most or all XML Schema.

@@ -1,0 +1,1 @@
+Formulae are derived for the number of pins required by the average partition of a computer logic graph. These formulae are used to construct curves relating the number of pins required by a group of blocks in a graph with certain statistical properties to the number of blocks in the group. The average effect of the two factors which contribute to pin reduction is discussed.

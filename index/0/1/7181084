@@ -1,0 +1,4 @@
+
+ 
+ Maintaining a sound reputation mechanism requires a robust control and investigation. In this paper, we propose a game-theoretic analysis of a reputation mechanism that objectively maintains accurate reputation evaluation of selfish agent-based web services. In this framework, web services are ranked using their reputation as a result of provided feedback reflecting consumers' satisfaction about the offered services. However, selfish web services may alter their public reputation level by managing to get fake feedback. In this paper, game-theoretic analysis investigates the payoffs of different situations and elaborates on the facts that discourage web services to act maliciously.
+ 

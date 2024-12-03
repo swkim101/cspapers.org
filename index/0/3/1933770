@@ -1,0 +1,1 @@
+This paper employs ConceptNet, which covers a rich set of commonsense concepts, to retrieve images with text descriptions by focusing on spatial relationships. Evaluation on test data of the 2005 ImageCLEF shows that integrating commonsense knowledge in information retrieval is feasible.

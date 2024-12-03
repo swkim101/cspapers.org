@@ -1,0 +1,5 @@
+Builders of expert rule-based systems [Barr 81] [Feigenbaum 77] [Hayes-Roth et al. 82] attribute the impressive performance of their programs to the corpus of knowledge they embody: a large network of facts to provide breadth of scope, and a large array of informal judgmental rules (heuristics) which guide the system toward plausible paths to follow and away from implausible ones. 
+ 
+Yet what is the nature of heuristics? What is the source of their power? How do they interrelate; i.e., how can/should a large corpus of heuristic rules be organized? How do heuristics originate and evolve? 
+ 
+"Heuretics" is the study of heuristics, with an eye toward answering questions such as those. Two case studies, the AM and EURISKO programs, have led to some tentative Heuretics hypotheses, a dozen of which are presented in this paper. Our aim is to stimulate future research in this field.

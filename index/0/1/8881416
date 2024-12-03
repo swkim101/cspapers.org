@@ -1,0 +1,4 @@
+
+ 
+ Hubness has been recently identified as a problematic phenomenon occurring in high-dimensional space. In this paper, we address a different type of hubness that occurs when the number of samples is large. We investigate the difference between the hubness in high-dimensional data and the one in large-sample data. One finding is that centering, which is known to reduce the former, does not work for the latter. We then propose a new hub-reduction method, called localized centering. It is an extension of centering, yet works effectively for both types of hubness. Using real-world datasets consisting of a large number of documents, we demonstrate that the proposed method improves the accuracy of k-nearest neighbor classification.
+ 

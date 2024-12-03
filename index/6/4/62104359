@@ -1,0 +1,5 @@
+A new approach for generating state machine designs from scenarios is presented that assigns state values to the states of system's components (processes) in different scenarios. State values are assigned using a light domain theory inferred from the domain knowledge, and are used to detect identical states of processes in order to merge partial behaviours of scenarios. 
+ 
+The domain theory will be systematically constructed by requesting the domain expert to look at some tables that their rows and columns are filled with selected messages from scenarios, and possibly finds one cell that its column has a special relation with its row called semantical causality. Semantical causality captures an invariant property of a system in terms of performance dependability between messages and as a part of the domain knowledge that is not explicitly defined in a scenario. 
+ 
+Furthermore, to detect emergent behaviours in the generated state machines, non-deterministic behaviour of processes is defined to charactrize the conditions that emergent behaviours are allowed by systems's architecture defined by scenarios.

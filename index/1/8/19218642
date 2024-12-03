@@ -1,0 +1,1 @@
+Architectures for the execution of autonomous compliant motion (ACM) require modules for 6 degree-of-freedom localization, navigation and force control of robot manipulators. We review existing model- and signal-based approaches to ACM and present a solution for the synthesis of localization and navigation using sensorimotor signals recorded from human demonstration.

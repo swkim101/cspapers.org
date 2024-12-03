@@ -1,0 +1,4 @@
+Because of dramatic reductions in cost of mini-computers, peripherals and logic modules, it is becoming evident that many problems confronting the computer system designer will be solved in the future by hybrid designs involving not only software but also specialized computers with architectures best suited to each application. Accordingly, hardware research must no longer be considered as a separate discipline by system programmers but as a tool in exactly the same way as languages. To illustrate this philosophy, a hardware laboratory has been set up at the University of Montreal. The primary interest of the founders was in designing and building small specialized computing systems.
+ This paper describes some of the aspects of the laboratory with emphasis on two major developments:
+ (1) The design of a programmable I/O switch between two mini-computers.
+ (2) The addition and monitoring of a writable control store connected to one system.

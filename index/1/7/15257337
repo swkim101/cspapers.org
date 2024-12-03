@@ -1,0 +1,1 @@
+Denning and Denning have shown how the information security of sequential programs can be certified by a compile-time mechanism [3]. This paper extends their work by presenting a mechanism for certifying parallel programs. The mechanism is shown to be consistent with an axiomatic description of information transmission.

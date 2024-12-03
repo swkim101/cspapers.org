@@ -1,0 +1,4 @@
+
+ 
+ We propose Bayesian AutoEncoder (BAE) in order to construct a recognition system which uses feedback information. BAE constructs a generative model of input data as a Bayes Net. The network trained by BAE obtains its hidden variables as the features of given data. It can execute inference for each variable through belief propagation, using both feedforward and feedback information. We confirmed that BAE can construct small networks with one hidden layer and extract features as hidden variables from 3x3 and 5x5 pixel input data.
+ 

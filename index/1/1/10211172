@@ -1,0 +1,1 @@
+We present TakaTuka, a tiny Java Virtual Machine (JVM) for wireless sensor motes. TakaTuka's preliminary version successfully runs on Crossbow's mica2 motes. Furthermore, TakaTuka also runs on Windows and Unix.

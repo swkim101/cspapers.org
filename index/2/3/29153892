@@ -1,0 +1,4 @@
+
+ 
+ In mobile devices, the limited area of fingerprint sensors brings demand of partial fingerprint matching. Existing fingerprint authentication algorithms are mainly based on minutiae matching. However, their accuracy degrades significantly for partial-to-partial matching due to the lack of minutiae. Optical fingerprint sensor can capture very high-resolution fingerprints (2000dpi) with rich details as pores, scars, etc. These details can cover the shortage of minutiae insufficiency. In this paper, we propose a novel matching algorithm for such fingerprints, namely Deep Joint KNN-Triplet Embedding, by making good use of these subtle features. Our model employs a deep convolutional neural network (CNN) with a well-designed joint loss to project raw fingerprint images into an Euclidean space. Then we can use L2-distance to measure the similarity of two fingerprints. Experiments indicate that our model outperforms several state-of-the-art approaches.
+ 

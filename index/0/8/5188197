@@ -1,0 +1,1 @@
+This paper introduces four new digital signature schemes for computer communication networks. These involve one or more arbitrators who validate and authenticate messages and signatures without having access to the actual contents of the messages.

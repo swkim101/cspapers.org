@@ -1,0 +1,5 @@
+The cover tree data structure speeds up exact nearest neighbor queries over arbitrary metric spaces (Beygelzimer et al., 2006). This paper makes cover trees even faster. In particular, we provide 
+ 
+1. A simpler definition of the cover tree that reduces the number of nodes from O(n) to exactly n, 2. An additional invariant that makes queries faster in practice, 3. Algorithms for constructing and querying the tree in parallel on multiprocessor systems, and 4. A more cache efficient memory layout. 
+ 
+On standard benchmark datasets, we reduce the number of distance computations by 10-50%. On a large-scale bioinformatics dataset, we reduce the number of distance computations by 71%. On a large-scale image dataset, our parallel algorithm with 16 cores reduces tree construction time from 3.5 hours to 12 minutes.

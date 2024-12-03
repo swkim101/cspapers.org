@@ -1,0 +1,4 @@
+
+ 
+ When operating in stochastic, partially observable, multiagent settings, it is crucial to accurately predict the actions of other agents. In my thesis work, I propose methodologies for learning the policy of external agents from their observed behavior, in the form of finite state controllers. To perform this task, I adopt Bayesian learning algorithms based on nonparametric prior distributions, that provide the flexibility required to infer models of unknown complexity. These methods are to be embedded in decision making frameworks for autonomous planning in partially observable multiagent systems.
+ 

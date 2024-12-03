@@ -1,0 +1,1 @@
+In this paper, we propose a novel framework using Genetic Programming to combine image database descriptors for content-based image retrieval (CBIR). Our framework is validated through several experiments involving two image databases and specific domains, where the images are retrieved based on the shape of their objects.

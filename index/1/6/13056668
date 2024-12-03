@@ -1,0 +1,4 @@
+
+ 
+ Partially observable Markov decision processes (POMDPs) provide a principled mathematical framework for modeling autonomous decision-making problems. A POMDP solution is often represented by a value function comprised of a set of vectors. In the case of factored models, the size of these vectors grows exponentially with the number of state factors, leading to scalability issues. We consider an approximate value function representation based on a linear combination of basis functions. In particular, we present a backup operator that can be used in any point-based POMDP solver. Furthermore, we show how under certain conditions independence between observation factors can be exploited for large computational gains. We experimentally verify our contributions and show that they have the potential to improve point-based methods in policy quality and solution size.
+ 

@@ -1,8 +1,0 @@
-
- We study the problem of optimizing subgraph queries using the new worst-case optimal join plans. Worst-case optimal plans evaluate queries by matching one query vertex at a time using multi-way intersections. The core problem in optimizing worst-case optimal plans is to pick an ordering of the query vertices to match. We design a cost-based optimizer that (i) picks efficient query vertex orderings for worst-case optimal plans; and (ii) generates
- hybrid plans
- that mix traditional binary joins with worst-case optimal style multiway intersections. Our cost metric combines the cost of binary joins with a new cost metric called
- intersection-cost
- . The plan space of our optimizer contains plans that are not in the plan spaces based on tree decompositions from prior work. In addition to our optimizer, we describe an
- adaptive technique
- that changes the orderings of the worst-case optimal subplans during query execution. We demonstrate the effectiveness of the plans our optimizer picks and the effectiveness of the adaptive technique through extensive experiments. Our optimizer is integrated into the Graphflow DBMS.

@@ -1,0 +1,4 @@
+
+ 
+ We present differentially private algorithms for the stochastic Multi-Armed Bandit (MAB) problem. This is a problem for applications such as adaptive clinical trials, experiment design, and user-targeted advertising where private information is connected to individual rewards. Our major contribution is to show that there exist (ε,δ) differentially private variants of Upper Confidence Bound algorithms which have optimal regret, O(ε−1 + log T ). This is a significant improvement over previous results, which only achieve poly-log regret O(ε−2 log3 T), because of our use of a novel interval based mechanism. We also substantially improve the bounds of previous family of algorithms which use a continual release mechanism. Experiments clearly validate our theoretical bounds.
+ 

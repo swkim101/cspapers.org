@@ -1,0 +1,1 @@
+We prove in this paper that unordered, or ID/LP grammars, are exponentially more succinct than context-free grammars, by exhibiting a sequence (Ln) of finite languages such that the size of any CFG for Ln must grow exponentially in n, but which can be described by polynomial-size ID/LP grammars. The results have implications for the description of free word order languages.

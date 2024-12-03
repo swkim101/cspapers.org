@@ -1,0 +1,4 @@
+
+ 
+ Real data are often with multiple modalities or comingfrom multiple channels, while multi-view clusteringprovides a natural formulation for generating clustersfrom such data. Previous studies assumed that each exampleappears in all views, or at least there is one viewcontaining all examples. In real tasks, however, it is oftenthe case that every view suffers from the missing ofsome data and therefore results in many partial examples,i.e., examples with some views missing. In this paper,we present possibly the first study on partial multiviewclustering. Our proposed approach, PVC, worksby establishing a latent subspace where the instancescorresponding to the same example in different viewsare close to each other, and similar instances (belongingto different examples) in the same view should bewell grouped. Experiments on two-view data demonstratethe advantages of our proposed approach.
+ 

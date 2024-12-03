@@ -1,0 +1,1 @@
+This study aims to predict clinical depression, a prevalent mental disorder, from blog posts written in Japanese by using machine learning approaches. The study focuses on how data quality and various types of linguistic features (characters, to-kens, and lemmas) affect prediction outcome. Depression prediction achieved 95.5% accuracy using selected lemmas as features.

@@ -1,0 +1,3 @@
+There is a wealth of information to be mined from narrative text on the World Wide Web. Unfortunately, standard natural language processing (NLP) extraction techniques expect full, grammatical sentences, and perform poorly on the choppy sentence fragments that are often found on web pages. 
+ 
+This paper1 introduces Webfoot, a preprocessor that parses web pages into logically coherent segments based on page layout cues. Output from Webfoot is then passed on to CRYSTAL, an NLP system that learns text extraction rules from example. Webfoot and CRYSTAL transform the text into a formal representation that is equivalent to relational database entries. This is a necessary first step for knowledge discovery and other automated analysis of free text.

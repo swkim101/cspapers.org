@@ -1,0 +1,4 @@
+
+ 
+ Recently, training support vector machines with indefinite kernels has attracted great attention in the machine learning community. In this paper, we tackle this problem by formulating a joint optimization model over SVM classifications and kernel principal component analysis. We first reformulate the kernel principal component analysis as a general kernel transformation framework, and then incorporate it into the SVM classification to formulate a joint optimization model. The proposed model has the advantage of making consistent kernel transformations over training and test samples. It can be used for both binary classification and multi-class classification problems. Our experimental results on both synthetic data sets and real world data sets show the proposed model can significantly outperform related approaches.
+ 

@@ -1,0 +1,1 @@
+In this paper we describe a new technique for obtaining lower bounds on restricted classes of non-monotone arithmetic circuits. The heart of this technique is a complexity measure for multivariate polynomials, based on the linear span of their partial derivatives. We use the technique to obtain new lower bounds for computing symmetric polynomials and iterated matrix products.

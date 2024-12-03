@@ -1,0 +1,4 @@
+
+ 
+ Truthful bidding is a desirable property for continuous double auctions (CDAs). Many incentive mechanisms have been proposed to elicit truthful bids. However, existing truthful CDA mechanisms often overlook the possibility that sellers may choose not to deliver the auctioned items to buyers as promised. In this situation, buyers may become unwilling to bid their true valuations in the future to compensate for their risks of being cheated, thereby rendering CDAs ineffective. In this paper, we propose a novel reputation-aware CDA (named RCDA) mechanism to consider the honesty of auction participants. It dynamically adjusts bids and asks according to the reputation of participants to reflect the risks involved in the transactions. Theoretical analysis proves that RCDA is effective in eliciting truthful bids from buyers and sellers in the presence of possible dishonest behavior from both buyers and sellers.
+ 

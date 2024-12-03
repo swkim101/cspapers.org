@@ -1,0 +1,3 @@
+We describe a theory of natural language understanding within which we identify two separate components, a language centered one and a context centered one. xn5 rdrme*1 component uses a knowledge Dase consisting of pairings of phrases with the concepts associated with them to determine the meaning of utterances. The latter component clarifies the meaning found by the first one and makes it more specific by attempting to reconcile it with the context of the utterance. 
+ 
+We have constructed a program called PHRAN (PHRasal ANalyzer) which performs the task of the language centered component.

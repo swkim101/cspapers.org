@@ -1,0 +1,1 @@
+We present a new approach to finding minimum spanning trees of weighted undirected graphs on the parallel random access machine (PRAM) without concurrent-write power. This approach gives an algorithm that runs in O(log n) time using n + m processors on the EREW PRAM, settling a long-standing open problem in the literature.

@@ -1,0 +1,4 @@
+
+ 
+ We harness the ability of people to perceive and interact with visual patterns in order to enhance the performance of a machine learning method. We show how we can collect evidence about how people optimize the parameters of an ensemble classification system using a tool that provides a visualization of misclassification costs. Then, we use these observations about human attempts to minimize cost in order to extend the performance of a state-of-the-art ensemble classification system. The study highlights opportunities for learning from evidence collected about human problem solving to refine and extend automated learning and inference.
+ 

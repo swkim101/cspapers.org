@@ -1,0 +1,13 @@
+We study the problem of determining the girth of an unweighted undirected graph. We obtain several new efficient approximation algorithms for graphs with n nodes and m edges and unknown girth g. We consider additive and multiplicative approximations. 
+ 
+Additive Approximations. We present: 
+ 
+• an O(n3/m)-time algorithm which returns a cycle of length at most g + 2 if g is even and g + 3 if g is odd. This complements the seminal work of Itai and Rodeh [SIAM J. Computing'78] who gave an algorithm that in O(n2) time finds a cycle of length g if g is even, and g + 1 if g is odd. 
+ 
+• an O(n3/m)-time algorithm which returns a cycle of length at most g' + 2 if g' is the length of the shortest even cycle in G. This result complements the work of Yuster and Zwick [SIAM J. Discrete Math'97] who showed how to compute g' in O(n2) time. 
+ 
+Multiplicative Approximations. We present: 
+ 
+• an O(n5/3)-time algorithm which returns a cycle of length at most 3g/2 + z/2 when g is even and 3g/2 + z/2 + 1 when g is odd, where z = −g mod 4, z e {0, 1, 2, 3}. This gives an O(n5/3)-time 2-approximation for the girth, the first subquadratic 2-approximation algorithm, resolving an open question of Lingas and Lundell [IPL'09]. 
+ 
+• an O(n1.968)-time (8/5)-approximation algorithm for the girth in graphs with girth at least 4 (i.e., triangle-free graphs). This is the first subquadratic time (2 -- e)-approximation algorithm for the girth for triangle-free graphs, for any e > 0. We prove that a deterministic algorithm of this kind is not possible for directed graphs, thus showing a strong separation between undirected and directed graphs for girth approximation.

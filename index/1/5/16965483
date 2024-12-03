@@ -1,0 +1,4 @@
+
+ 
+ ABox abduction plays an important role in reasoning over description logic (DL) ontologies. However, it does not work with inconsistent DL ontologies. To tackle this problem while achieving tractability, we generalize ABox abduction from the classical semantics to an inconsistency-tolerant semantics, namely the Intersection ABox Repair (IAR) semantics, and propose the notion of IAR-explanations in inconsistent DL ontologies. We show that computing all minimal IAR-explanations is tractable in data complexity for first-order rewritable ontologies. However, the computational method may still not be practical due to a possibly large number of minimal IAR-explanations. Hence we propose to use preference information to reduce the number of explanations to be computed.
+ 

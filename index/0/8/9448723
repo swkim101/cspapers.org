@@ -1,0 +1,4 @@
+
+ 
+ Equilibrium computation with continuous games is currently a challenging open task in artificial intelligence. In this paper, we design an iterative algorithm that finds an ε-approximate Markov perfect equilibrium with two-player zero-sum continuous stochastic games with switching controller. When the game is polynomial (i.e., utility and state transitions are polynomial functions), our algorithm converges to ε = 0 by exploiting semidefinite programming. When the game is not polynomial, the algorithm exploits polynomial approximations and converges to an ε value whose upper bound is a function of the maximum approximation error with infinity norm. To our knowledge, this is the first algorithm for equilibrium approximation with arbitrary utility and transition functions providing theoretical guarantees. The algorithm is also empirically evaluated.
+ 

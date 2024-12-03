@@ -1,0 +1,4 @@
+
+ 
+ Clickbaits are articles with misleading titles, exaggerating the content on the landing page. Their goal is to entice users to click on the title in order to monetize the landing page. The content on the landing page is usually of low quality. Their presence in user homepage stream of news aggregator sites (e.g., Yahoo news, Google news) may adversely impact user experience. Hence, it is important to identify and demote or block them on homepages. In this paper, we present a machine-learning model to detect clickbaits. We use a variety of features and show that the degree of informality of a webpage (as measured by different metrics) is a strong indicator of it being a clickbait. We conduct extensive experiments to evaluate our approach and analyze properties of clickbait and non-clickbait articles. Our model achieves high performance (74.9% F-1 score) in predicting clickbaits.
+ 

@@ -1,0 +1,1 @@
+In this paper we generalize the LARS feature selection method to the linear SVM model, derive an efficient algorithm for it, and empirically demonstrate its usefulness as a feature selection tool for text classification.

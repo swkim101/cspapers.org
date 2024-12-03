@@ -1,0 +1,4 @@
+
+ 
+ Online, sample-based planning algorithms for POMDPs have shown great promise in scaling to problems with large state spaces, but they become intractable for large action and observation spaces. This is particularly problematic in multiagent POMDPs where the action and observation space grows exponentially with the number of agents. To combat this intractability, we propose a novel scalable approach based on sample-based planning and factored value functions that exploits structure present in many multiagent settings. This approach applies not only in the planning case, but also in the Bayesian reinforcement learning setting. Experimental results show that we are able to provide high quality solutions to large multiagent planning and learning problems.
+ 

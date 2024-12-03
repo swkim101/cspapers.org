@@ -1,0 +1,7 @@
+Hall's Theorem states that a bipartite graph has a perfect matching if and only if every set of vertices has an equal number of neighbours. Equivalently, it states that every non-maximum matching has an augmenting path if the graph is an expander with expansion 1. We use this insight to demonstrate that if a graph is an expander with expansion more than one than every non-maximum matching has a short augmenting path and, therefore, the bipartite matching algorithm performs much better on such graphs than in the worst case. We then apply this idea to the average case analysis of various augmenting path algorithms and to the approximation of the permanent. In particular, we demonstrate that the following algorithms perform much better on the average than in the worst case. In fact, they will rarely exhibit their worst-case running times.Hopcroft-Karp's algorithm for bipartite matchings.
+Micali-Vazirani's and Even-Kariv's algorithms for non-bipartite matchings.
+Gabow-Tarjan's parallel algorithm for bipartite matchings.
+Dinic's algorithm for k-factors and 0-1 network flows.
+Jerrum-Sinclair's approximation scheme for the permanent.
+
+It seems rather surprising that the algorithms which are the fastest known for worst-case inputs also do exceedingly on almost every graph.

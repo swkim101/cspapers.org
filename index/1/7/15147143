@@ -1,0 +1,2 @@
+The concept of an integrated data base has great appeal for design automation system developers (Fig. 1). A single repository for all data on a given design has many advantages, though it can be argued there are severe disadvantages also.
+ It is not the purpose of this paper to discuss the pros and cons of integrated data bases, but to look at the process through which the concept becomes a reality in a DA system. This process is described as an evolution through various stages of integration and system structure.

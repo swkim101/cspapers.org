@@ -1,0 +1,1 @@
+We present a new approach to extracting keyphrases based on statistical language models. Our approach is to use pointwise KL-divergence between multiple language models for scoring both phraseness and informativeness, which can be unified into a single score to rank extracted phrases.

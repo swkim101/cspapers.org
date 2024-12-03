@@ -1,0 +1,15 @@
+Data defined by interpolation is frequently found in new applications 
+ involving geographical concepts, moving objects, and 
+ spatio-temporal data. This data leads to potentially infinite collections of 
+ items, (e.g. the elevation of any point in a map), whose definition is based 
+ on the association of a collection of samples with an interpolation 
+ function. We first argue that the manipulation of the data through direct 
+ access to the samples and interpolation functions easily leads 
+ to cumbersome or inaccurate queries. We therefore suggest hiding the 
+ samples and the interpolation function away from the logical level, and 
+ letting the system manipulate them at the physical level. 
+ We propose to model such data conceptually using infinite relations (e.g. 
+ the map with elevation yields an infinite ternary relation) which can be 
+ manipulated through standard relational query languages (e.g. SQL), with no 
+ mention of the interpolated definition. This approach is simple and 
+ establishes a clear separation between logical and physical levels.

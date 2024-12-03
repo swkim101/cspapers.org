@@ -1,0 +1,4 @@
+
+ 
+ The introduction of smart meters has motivated the electricity industry to manage electrical demand, using dynamic pricing schemes such as real-time pricing. The overall aim of demand management is to minimize electricity generation and distribution costs while meeting the demands and preferences of consumers. However, rapidly scheduling consumption of large groups of households is a challenge. In this paper, we present a highly scalable approach to find the optimal consumption levels for households in an iterative and distributed manner. The complexity of this approach is independent of the number of households, which allows it to be applied to problems with large groups of households. Moreover, the intermediate results of this approach can be used by smart meters to schedule tasks with a simple randomized method.
+ 

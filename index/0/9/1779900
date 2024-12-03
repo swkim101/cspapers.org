@@ -1,0 +1,1 @@
+We extend Kawamura and Cook's framework for computational complexity for operators in analysis. This model is based on second-order complexity theory for functionals on the Baire space, which is lifted to metric spaces via representations. Time is measured in the length of the input encodings and the output precision.

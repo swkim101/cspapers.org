@@ -1,0 +1,4 @@
+
+ 
+ Classic sparse representation for classification (SRC) method fails to incorporate the label information of training images, and meanwhile has a poor scalability due to the expensive computation for l_1 norm. In this paper, we propose a novel subspace sparse coding method with utilizing label information to effectively classify the images in the subspace. Our new approach unifies the tasks of dimension reduction and supervised sparse vector learning, by simultaneously preserving the data sparse structure and meanwhile seeking the optimal projection direction in the training stage, therefore accelerates the classification process in the test stage. Our method achieves both flat and structured sparsity for the vector representations, therefore making our framework more discriminative during the subspace learning and subsequent classification. The empirical results on 4 benchmark data sets demonstrate the effectiveness of our method.
+ 

@@ -1,0 +1,1 @@
+This paper presents a similarity retrieval engine - SIREN-that allows posing similarity queries in a relational DBMS using an extended syntax that adds the support for such type of queries in the SQL language. It discusses the main architecture of SIREN, describes some key features and provides a description of the demo.

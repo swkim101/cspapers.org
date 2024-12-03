@@ -1,0 +1,1 @@
+A network based on splines is described. It automatically adapts the number of units, unit parameters, and the architecture of the network for each application.

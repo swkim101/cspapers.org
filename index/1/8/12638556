@@ -1,0 +1,4 @@
+
+ 
+ For decades researchers have struggled with the problem of envy-free cake cutting: how to divide a divisible good between multiple agents so that each agent likes his own allocation best. Although an envy-free cake cutting protocol was ultimately devised, it is unbounded, in the sense that the number of operations can be arbitrarily large, depending on the preferences of the agents. We ask whether bounded protocols exist when the agents' preferences are restricted. Our main result is an envy-free cake cutting protocol for agents with piecewise linear valuations, which requires a number of operations that is polynomial in natural parameters of the given instance.
+ 

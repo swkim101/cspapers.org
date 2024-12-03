@@ -1,0 +1,4 @@
+
+ 
+ The hardness of finite domain Constraint Satisfaction Problems (CSPs) is an important research topic in Constraint Programming (CP) community. In this paper, we study the association rule mining techniques together with rule deduction and propose a cascaded approach to extract interesting patterns of hard CSPs with functional constraints. Specifically, we generate random CSPs, collect controlling parameters and hardness characteristics by solving all the CSP instances. Afterwards, we apply association rule mining with rule deduction on the collected data set and further extract interesting patterns of the hardness of the randomly generated CSPs. As far as we know, this problem is investigated with data mining techniques for the first time.
+ 

@@ -1,0 +1,3 @@
+A systematic approach to the alloy designing problem, which is one of the typical ill-structured problems considered to be solvable only by inspirations of a genius metallurgist, is discussed with respect to the heuristic approach. The procedure to design an alloy of required properties consists of two parts; searching of a starting point(a root) and constructing a tree in order to improve the properties of the material corresponding to the root by applying tactics. 
+ 
+A CAD system having a data base for metallurgy is used in order to establish a method to perform this procedure.

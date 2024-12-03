@@ -1,0 +1,4 @@
+
+ 
+ We consider Social Distance Games (SDGs), that is cluster formation games in which agent utilities are proportional to their harmonic centralities in the respective coalitions, i.e., to the average inverse distance from the other agents. We adopt Nash stable outcomes, that is states in which no agent can improve her utility by unilaterally changing her coalition, as the target solution concept. Although SDGs always admit a Nash equilibrium, we prove that it is NP-hard to find a social welfare maximizing one and obtain a negative result concerning the game convergence. We then focus on the performance of Nash equilibria and provide matching upper bound and lower bounds on the price of anarchy of Θ(n), where n is the number of nodes of the underlying graph, and a lower bound on the price of stability of 6/5 - ε. Finally, we characterize the price of stability of SDGs for graphs with girth 4 and girth at least 5.
+ 

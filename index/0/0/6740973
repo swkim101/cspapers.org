@@ -1,0 +1,8 @@
+This paper presents the preliminary design of a new database management system, called POSTGRES, that is the successor to the INGRES relational database system. The main design goals of the new system are toprovide better support for complex objects,
+provide user extendibility for data types, operators and access methods,
+provide facilities for active databases (i.e., alerters and triggers) and inferencing including forward- and backward-chaining,
+simplify the DBMS code for crash recovery,
+produce a design that can take advantage of optical disks, workstations composed of multiple tightly-coupled processors, and custom designed VLSI chips, and
+make as few changes as possible (preferably none) to the relational model.
+
+The paper describes the query language, programming language interface, system architecture, query processing strategy, and storage system for the new system.

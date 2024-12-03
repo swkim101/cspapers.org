@@ -1,0 +1,4 @@
+
+ 
+ The semantic function tags of Bonial, Stowe, and Palmer (2013) and the ordinal, multi-property annotations of Reisinger et al. (2015) draw inspiration from Ddowty's semantic proto-role theory. We approach proto-role labeling as a multi-label classification problem and establish strong results for the task by adapting a successful model of traditional semantic role labeling. We achieve a proto-role micro-averaged F1 of 81.7 using gold syntax and explore joint and conditional models of proto-roles and categorical roles. In comparing the effect of Bonial, Stowe, and Palmer's tags to PropBank ArgN-style role labels, we are surprised that neither annotations greatly improve proto-role prediction; however, we observe that ArgN models benefit much from observed syntax and from observed or modeled proto-roles while our models of the semantic function tags do not.
+ 

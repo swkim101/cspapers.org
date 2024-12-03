@@ -1,0 +1,1 @@
+We give a randomized algorithm for the well known caking cutting problem that achieves approximate fairness, and has complexity O(n), when all players are honest. The heart of this result involves extending the standard offline multiple-choice balls and bins analysis to the case where the underlying resources/bins/machines have different utilities to different players/balls/jobs

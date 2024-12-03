@@ -1,0 +1,5 @@
+We stabilize the activations of Recurrent Neural Networks (RNNs) by penalizing the squared distance between successive hidden states' norms. 
+This penalty term is an effective regularizer for RNNs including LSTMs and IRNNs, improving performance on character-level language modeling and phoneme recognition, and outperforming weight noise and dropout. 
+We achieve competitive performance (18.6\% PER) on the TIMIT phoneme recognition task for RNNs evaluated without beam search or an RNN transducer. 
+With this penalty term, IRNN can achieve similar performance to LSTM on language modeling, although adding the penalty term to the LSTM results in superior performance. 
+Our penalty term also prevents the exponential growth of IRNN's activations outside of their training horizon, allowing them to generalize to much longer sequences.

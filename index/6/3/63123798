@@ -1,0 +1,4 @@
+
+ 
+ The multi-agent path finding (MAPF) problem is a generalization of the single-agent path finding problem for k > 1 agents. It consists of a graph and a number of agents. Foreach agent, a unique start state and a unique goal state are given, the task is to find paths for all agents from their start states to their goal states, under the constraint that agents cannot collide during their movements. In many cases there is an additional goal of minimizing a cumulative cost function such as the sum of the time steps required for every agent to reach its goal. The goal of my research is providing new methods to solve MAPF optimally and provide theoretical understandings that will help choose the best solver given a problem instance.
+ 

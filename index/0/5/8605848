@@ -1,0 +1,4 @@
+
+ 
+ The research on low-complexity nonmonotonic description logics recently identified a fragment of EL with bottom, supporting defeasible inheritance with overriding, where reasoning can be carried out in polynomial time. We contribute to that framework by supporting more axiom schemata and all the concept constructors of EL++ without increasing asymptotic complexity. Moreover, we show that all the syntactic restrictions we adopt are necessary by proving several coNP-hardness results.
+ 

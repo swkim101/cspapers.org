@@ -1,0 +1,1 @@
+This paper presents an algorithm for folding a serial revolute chain into a rigid structure of essentially any desired planar shape. The algorithm is fast (linear in the number of links), and the constructed folding plan only requires an actuation method that sequentially folds triangles as the pattern is laid out, maintaining incremental rigidity of the structure during folding.

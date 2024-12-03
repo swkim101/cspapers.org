@@ -1,0 +1,1 @@
+A hardware protection mechanism called the Sentry is introduced which requires minimal overhead to be invoked and no overhead when providing protection. It is fail-safe, fault tolerant, and can be added to most existing architectures. It provides a convenient low level service suitable as the underlying primitive around which more sophisticated mechanisms can be established.

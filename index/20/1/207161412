@@ -1,0 +1,1 @@
+In this poster, a new Farsi (also called Persian) stemmer which works without dictionary is introduced. Evaluation results show significant improvement in performance (precision/recall) of the Information Retrieval (IR) system using this stemmer.

@@ -1,0 +1,4 @@
+
+ 
+ This paper analyzes the performance of IDA* using additive heuristics. We show that the reduction in the number of nodes expanded using multiple independent additive heuristics is the product of the reductions achieved by the individual heuristics. First, we formally state and prove this result on unit edge-cost undirected graphs with a uniform branching factor. Then, we empirically verify it on a model of the 4-peg Towers of Hanoi problem. We also run experiments on the multiple sequence alignment problem showing more general applicability to non-unit edge-cost directed graphs. Then, we extend an existing model to predict the performance of IDA* with a single pattern database to independent additive disjoint pattern databases. This is the first analysis of the performance of independent additive heuristics.
+ 

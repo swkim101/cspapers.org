@@ -1,0 +1,1 @@
+The normalized recall is one of the most popular evaluation measures for information retrieval systems. In this paper an overview of its development is given. It is then shown that the normalized recall is closely related to other measures such as the CRE-measure and the expected search length. Some implications are analysed.

@@ -1,0 +1,1 @@
+This paper describes an Information Extraction (IE) system to identify genic interactions in text. The approach relies on the automatic acquisition of patterns which can be used to identify these interactions. Performance is evaluated on the Learning Language in Logic (LLL-05) workshop challenge task.

@@ -1,0 +1,14 @@
+dimensional 
+classification. It introduces a novel 
+classifier, the class bridge decomposable multidimensional 
+Gaussian classifier (CB-MGC) within 
+the application of multiple state-of-the-art machine 
+learning techniques to the Neuromorpho 
+dataset. We formulate a supervised classification 
+problem for predicting specie, gender, level one 
+cell type, level two cell type, development stage 
+and area of the neocortex based of a set of morphological 
+features extracted from a neuron. Additionally, 
+we show a performance comparative 
+between the different classifiers and discuss its 
+results.

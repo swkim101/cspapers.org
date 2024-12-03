@@ -1,0 +1,4 @@
+
+ 
+ For interaction with its environment, a robot is required to learn models of objects and to perceive these models in the livestreams from its sensors. In this paper, we propose a novel approach to model learning and real-time tracking. We extract multi-resolution 3D shape and texture representations from RGB-D images at high frame-rates. An efficient variant of the iterative closest points algorithm allows for registering maps in real-time on a CPU. Our approach learns full-view models of objects in a probabilistic optimization framework in which we find the best alignment between multiple views. Finally, we track the pose of the camera with respect to the learned model by registering the current sensor view to the model. We evaluate our approach on RGB-D benchmarks and demonstrate its accuracy, efficiency, and robustness in model learning and tracking. We also report on the successful public demonstration of our approach in a mobile manipulation task.
+ 

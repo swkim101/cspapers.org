@@ -1,0 +1,4 @@
+
+ 
+ Sparse learning has been proven to be a powerful techniquein supervised feature selection, which allows toembed feature selection into the classification (or regression)problem. In recent years, increasing attentionhas been on applying spare learning in unsupervisedfeature selection. Due to the lack of label information,the vast majority of these algorithms usually generatecluster labels via clustering algorithms and then formulateunsupervised feature selection as sparse learningbased supervised feature selection with these generatedcluster labels. In this paper, we propose a novel unsupervisedfeature selection algorithm EUFS, which directlyembeds feature selection into a clustering algorithm viasparse learning without the transformation. The AlternatingDirection Method of Multipliers is used to addressthe optimization problem of EUFS. Experimentalresults on various benchmark datasets demonstrate theeffectiveness of the proposed framework EUFS.
+ 

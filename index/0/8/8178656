@@ -1,0 +1,4 @@
+
+ 
+ When mobile robots perform tasks in environments with humans, it seems appropriate for the robots to rely on such humans for help instead of dedicated human oracles or supervisors. However, these humans are not always available nor always accurate. In this work, we consider human help to a robot as concretely providing observations about the robot's state to reduce state uncertainty as it executes its policy autonomously. We model the probability of receiving an observation from a human in terms of their availability and accuracy by introducing Human Observation Providers POMDPs (HOP-POMDPs). We contribute an algorithm to learn human availability and accuracy online while the robot is executing its current task policy. We demonstrate that our algorithmis effective in approximating the true availability and accuracy of humans without depending on oracles to learn, thus increasing the tractability of deploying a robot that can occasionally ask for help.
+ 

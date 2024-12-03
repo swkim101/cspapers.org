@@ -1,0 +1,9 @@
+This paper proposes an artificial tactile pattern recognition system, which combines recognition by touching the object surface with an artificial tactile sense and recognition by grasping the object with an artificial hand. 
+ 
+The inspiration for this proposition was found in the function of the tactile sense of a human hand. 
+ 
+The fundermental principle of artificial tactile pattern recognition is to process a stress distribution that the unknown object produces in the artificial tactile sense elements. 
+ 
+In the proposed method, the 3-dimensional stress distribution is partitioned into a 2-dimensional peripheral pattern and a threshold decrement by analogy with threshold phenomena in the living body. The object surface is recognized as a sequence of the peripheral processings at each threshold decrement. 
+ 
+A simple experiment classifying cylinders and square pillars was performed by the artificial hand with on-off switches instead of the pressure sense elements. As the result, a high reliability of recognition is obtained.

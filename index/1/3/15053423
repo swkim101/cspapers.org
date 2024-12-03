@@ -1,0 +1,1 @@
+In this work we are studying actualization techniques for building an up-to-date query suggestions model using query logs. The performance of the proposed actualization algorithms was estimated by real query flow of the Yandex search engine.

@@ -1,0 +1,4 @@
+
+ 
+ Sum-Product Networks (SPNs) were recently proposed as a new class of probabilistic graphical models that guarantee tractable inference, even on models with high-treewidth. In this paper, we propose a new extension to SPNs, called Decision Sum-Product-Max Networks (Decision-SPMNs), that makes SPNs suitable for discrete multi-stage decision problems. We present an algorithm that solves Decision-SPMNs in a time that is linear in the size of the network. We also present algorithms to learn the parameters of the network from data.
+ 

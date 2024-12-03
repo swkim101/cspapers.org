@@ -1,1 +1,0 @@
-We propose a method that interpolates missing values from sensor nodes in a sensor network using Nonnegative Matrix Factorization. Since nearby sensor nodes take approximate values, more reliable interpolation is possible with these values. We carried out experiments and evaluations using the data of sensors deployed in a real environment.

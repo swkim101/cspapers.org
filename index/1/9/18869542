@@ -1,0 +1,1 @@
+Current feature-based methods for sketch recognition systems rely on human-selected features. Certain machine learning techniques have been found to be good nonhnear features extractors. In this paper, we apply a manifold learning method, kernel Isomap, with a new algorithm for multi-stroke sketch recognition, which significantly outperforms the standard feature-based techniques.

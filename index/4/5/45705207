@@ -1,0 +1,4 @@
+
+ 
+ As a robot formation increases in size or explores places where it is difficult for a human operator to interact, autonomous control becomes critical. We propose a distributed autonomous method for evaluating properties of multi-robot systems, and then discuss how this information can be applied to improve performance with respect to a given operation. We present this as an extension of our previous work on robot formations; however, the techniques described could be adapted to other multi-robot systems.
+ 

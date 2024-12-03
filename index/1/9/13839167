@@ -1,0 +1,4 @@
+
+ 
+ Sequential learning for classification tasks is an effective tool in the machine learning community. In sequential learning settings, algorithms sometimes make incorrect predictions on data that were correctly classified in the past. This paper explicitly deals with such inconsistent prediction behavior. Our main contributions are 1) to experimentally show its effect for user utilities as a human cognitive bias, 2) to formalize a new framework by internalizing this bias into the optimization problem, 3) to develop new algorithms without memorization of the past prediction history, and 4) to show some theoretical guarantees of our derived algorithm for both online and stochastic learning settings. Our experimental results show the superiority of the derived algorithm for problems involving human cognition.
+ 

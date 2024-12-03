@@ -1,0 +1,1 @@
+The paper presents an IC-layout assembler which is capable of transforming the structural description of a system into general chip layout expressed in CIF. The chip assembly is based on the efferent decision flow. The process is one of gradual refinement of the starting domain yielding successively lower level chip components down to the primitives.

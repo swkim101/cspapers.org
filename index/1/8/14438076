@@ -1,0 +1,4 @@
+
+ 
+ Narrative generation represents an application domain for AI planning where plan quality is related to properties such as shape of plan trajectory. In our work we have developed a plan-based approach to narrative generation that uses character relationships as a key determinant in controlling plan shape (relationships are key in genres such as serial dramas and soaps). Our approach is implemented in a demonstration Interactive Narrative, called NetworkING, set in the medical drama genre. The system features a user-friendly mechanism for specifying relationships between virtual characters, via a social network and real-time visualisation of generated narratives on a 3D stage.
+ 

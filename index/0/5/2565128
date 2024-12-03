@@ -1,0 +1,1 @@
+We propose a new multi-view clustering method which uses clustering results obtained on each view as a voting pattern in order to construct a new set of multi-view clusters. Our experiments on a multilingual corpus of documents show that performance increases significantly over simple concatenation and another multi-view clustering technique.

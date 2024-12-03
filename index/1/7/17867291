@@ -1,0 +1,9 @@
+AbstractFor every polynomial time algorithm which gives an upper bound
+% MathType!MTEF!2!1!+-% feaafiart1ev1aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn% hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr% 4rNCHbGeaGqiVC0xe9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Gqpi0x% c9q8qqaqFj0df9pwe9Q8fs0-yqaqpepae9pg0FirpepeKkFr0xfr-x% fr-xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaa0aaaeaaie% aacaWF2bGaa83Baiaa-Xgaaaaaaa!3A2B!
+
+$$\overline {vol}$$
+(K) and a lower boundvol(K) for the volume of a convex setK⊂Rd, the ratio
+% MathType!MTEF!2!1!+-% feaafiart1ev1aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn% hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr% 4rNCHbGeaGqiVC0xe9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Gqpi0x% c9q8qqaqFj0df9pwe9Q8fs0-yqaqpepae9pg0FirpepeKkFr0xfr-x% fr-xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaa0aaaeaaie% aacaWF2bGaa83Baiaa-Xgaaaaaaa!3A2B!
+
+$$\overline {vol}$$
+(K)/vol(K) is at least (cd/logd)d for some convex setK⊂Rd.

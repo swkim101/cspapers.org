@@ -1,0 +1,1 @@
+We present an adaptation of constraint satisfaction inference (Canisius et al., 2006b) for predicting dependency trees. Three different classifiers are trained to predict weighted soft-constraints on parts of the complex output. From these constraints, a standard weighted constraint satisfaction problem can be formed, the solution to which is a valid dependency tree.

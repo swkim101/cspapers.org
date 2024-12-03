@@ -1,0 +1,3 @@
+This paper describes the use of a convolutional neural network to perform address block location on machine-printed mail pieces. Locating the address block is a difficult object recognition problem because there is often a large amount of extraneous printing on a mail piece and because address blocks vary dramatically in size and shape. 
+ 
+We used a convolutional locator network with four outputs, each trained to find a different corner of the address block. A simple set of rules was used to generate ABL candidates from the network output. The system performs very well: when allowed five guesses, the network will tightly bound the address delivery information in 98.2% of the cases.

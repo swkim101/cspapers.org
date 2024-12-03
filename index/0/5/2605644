@@ -1,0 +1,1 @@
+We present a method for arranging an arbitrary 2-key table as an n by 2 array such that a search can be performed under either key in O(lg2n lglg n) time. This is in sharp contrast with an &OHgr;(√n) lower bound for the problem under a model in which all comparisons must involve the value being searched for.

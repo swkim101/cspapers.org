@@ -1,0 +1,5 @@
+Two notions of process have been used in programs that reason about change* discrete models, which represent changes as instantaneous, and continuous models, which represent changes as processes that act gradually over time. We describe a technique called aggregation which unifies the two types of models and allows both to be used when performing qualitative simulation. 
+ 
+Aggregation is a technique for recognizing cycles of processes and generating a continuous process that is equivalent to each cycle. A qualitative simulator may start prediction with a simple discrete model and use aggregation to generate a continuous process model when discrete simulation bogs down in a cycle. Aggregation thereby allows a simulator to switch back and forth between different types of models depending on which type is most expedient. 
+ 
+To test these ideas, we have written a program, PEPTIDE, which performs qualitative simulation in the domain of molecular genetics. The flexibility of PEPTIDE'S aggregator allows the program to detect cycles within cycles and predict the behavior of complex situations.

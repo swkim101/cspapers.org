@@ -1,0 +1,4 @@
+This paper describes the basic principles, the architecture and the applications of a processor called the SCHUSS filter*.
+ The SCHUSS filter can be seen as a device with two inputs and one output; the first input is the filtering criterion (a program); the second input is the data to be filtered (in a sequential way). The output is the data which fulfills the filter criterion.
+ Under the architectural point of view the SCHUSS filter can be seen as a specialized processor (in filtering) but also as a general purpose processor. Working as a specialized processor, it can process “on the fly” data coming from a disk where “on the fly” means at the normal disk transfer rate. Even if now disk transfers rates are up to 3 Mbyte/sec SCHUSS can execute searches of reasonable complexity in one pass.
+ The idea is to off-load the host processor of search tasks and other kinds of processing.

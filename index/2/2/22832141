@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we investigate how to automatically extract attractive summaries for news propagation on microblogs and propose a novel system called ATSUM to achieve this goal via text attractiveness analysis. It first analyzes the sentences in a news article and automatically predict the attractiveness score of each sentence by using the support vector regression method. The predicted attractiveness scores are then incorporated into a summarization system. Experimental results on a manually labeled dataset verify the effectiveness of the proposed methods.
+ 

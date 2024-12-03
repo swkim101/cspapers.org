@@ -1,0 +1,1 @@
+With transfer learning, one set of tasks is used to bias learning and improve performance on another task. However, transfer learning may actually hinder performance if the tasks are too dissimilar. As described in this paper, one challenge for transfer learning research is to develop approaches that detect and avoid negative transfer using very little data from the target task.

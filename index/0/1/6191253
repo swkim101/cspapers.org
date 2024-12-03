@@ -1,0 +1,1 @@
+Data vectors generalise finite multisets: they are finitely supported functions into a commutative monoid. We study the question whether a given data vector can be expressed as a finite sum of others, only assuming that 1) the domain is countable and 2) the given set of base vectors is finite up to permutations of the domain.

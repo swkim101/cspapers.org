@@ -1,0 +1,3 @@
+A classical result in metric geometry asserts that any n-point metric admits a linear-size spanner of dilation O(log n) [PS89]. More generally, for any c > 1, any metric space admits a spanner of size O(n1+1/c), and dilation at most c. This bound is tight assuming the well-known girth conjecture of Erdos [Erd63]. 
+ 
+We show that for a metric induced by a set of n points in high-dimensional Euclidean space, it is possible to obtain improved dilation/size trade-offs. More specifically, we show that any n-point Euclidean metric admits a near-linear size spanner of dilation O(√log n). Using the LSH scheme of Andoni and Indyk [AI06] we further show that for any c > 1, there exist spanners of size roughly O(

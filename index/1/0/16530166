@@ -1,0 +1,4 @@
+
+ 
+ Recently, Brafman and Engel (2009) proposed new concepts of marginal and conditional utility that obey additive analogues of the chain rule and Bayes rule, which they employed to obtain a directed graphical model of utility functions that resembles Bayes nets. In this paper we carry this analogy a step farther by showing that the notion of utility independence, built on conditional utility, satisfies identical properties to those of probabilistic independence. This allows us to formalize the construction of graphical models for utility functions, directed and undirected, and place them on the firm foundations of Pearl and Paz's axioms of semi-graphoids. With this strong equivalence in place, we show how algorithms used for probabilistic reasoning such as Belief Propagation (Pearl 1988) can be replicated to reasoning about utilities with the same formal guarantees, and open the way to the adaptation of additional algorithms.
+ 

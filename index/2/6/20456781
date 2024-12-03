@@ -1,0 +1,4 @@
+
+ 
+ A number of machine learning domains,such as information retrieval, recommender systems, kernel learning, neural network-biological systems etc,deal with importance scores. Very often, there existsome prior knowledge that could help improve the performance.In many cases, these prior knowledge manifest themselves in the rank ordering constraints.These inequality constraints are usually very difficult to deal with in optimization.In this paper, we provide a slack variable transformation methods, which effectively eliminatesthe rank ordering inequality constraints, and thus simplify the learning task significantly.We apply this transformation in kernel learning problem, and also provide an efficient algorithm tosolved the transformed system. On seven datasets,our approach reduces the computational time by orders of magnitudes as compared to the current standardquadratically constrained quadratic programming(QCQP) optimization approach.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Fault diagnosis of analogue linear systems poses many challenges, such as the size of the search space that must be explored and the possibility of simulation instabilities introduced by particular fault classes. We study a novel algorithm that addresses both problems. This algorithm dynamically modifies the simulation model during diagnosis by pruning parametrized components that cause discontinuity in the model. We provide a theoretical framework for predicting the speedups, which depends on the topology of the model. We empirically validate the theoretical predictions through extensive experimentation on a benchmark of circuits.
+ 

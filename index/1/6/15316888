@@ -1,0 +1,7 @@
+In this paper, we introduce a new operating system abstraction called reservation domains, and describe its implementation in Eclipse, an experimental operating system that provides a testbed for Quality of Service (QoS) support for applications. 
+ 
+Reservation domains enable explicit control over the provisioning of system resources among applications in order to achieve desired levels of predictable performance. In general, each reservation domain is assigned a certain fraction of each resource (e.g., 25% CPU, 50% disk I/O, etc.). Eclipse implements reservation-domain scheduling of multiple resources. It currently supports CPU and disk and physical memory (working set size) scheduling. 
+ 
+Eclipse implements a new scheduling algorithm, Move-to-Rear List Scheduling (MTR-LS), that provides a cumulative service guarantee, in addition to fairness and delay bounds. Cumulative service guarantee is necessary for ensuring predictable aggregate throughput for applications that require multiple resources. Preliminary experiments indicate that MTR-LS provides good QoS in overloaded systems. In particular, MTR-LS favors less-greedy processes. 
+ 
+The Eclipse operating system is based the Plan9 from Bell Labs, and can run any Plan9 application without modification. Eclipse emphasizes the use of perprocess name space, and it can schedule any I/O device or user level file system without any change to device driver or file system code.

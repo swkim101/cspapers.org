@@ -1,8 +1,0 @@
-People browsing the web deserve privacy by default and an important part of such privacy is to prevent them from being tracked across websites. In this talk, we will cover why cross-site tracking is bad for people and the web, and how Safari prevents this tracking from happening. We will look at how trackers have tried to circumvent protections and what Safari’s Intelligent Tracking Prevention has done about it. Lastly, we will look at two new web APIs—the Storage Access API and Private Click Measurement—as examples of how privacy-preserving functionality can be added to the web platform while still preventing cross-site tracking.
-
-                    
-          John Wilander, Apple
-            
-  
-  
-    John is a WebKit Security Engineer at Apple. He holds a Ph.D. in computer science with a focus on software security and has been working in security and privacy since 2001. His most recent work involves new browser privacy features including Safari’s Intelligent Tracking Prevention, the Storage Access API, and Private Click Measurement. Outside work, he produces music and writes fiction, the latter about hackers of course.Connect: @johnwilander

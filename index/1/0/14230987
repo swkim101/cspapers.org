@@ -1,0 +1,5 @@
+Computer sliders are a generic user input mechanism for specifying a numeric value from a range. For data visualization, the effectiveness of sliders may be increased by using the space inside the slider as
+• an interactive color scale,
+• a barplot for discrete data, and
+• a density plot for continuous data.
+The idea is to show the selected values in relation to the data and its distribution. Furthermore, the selection mechanism may be generalized using a painting metaphor to specify arbitrary, disconnected intervals while maintaining an intuitive user-interface.

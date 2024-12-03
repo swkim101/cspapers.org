@@ -1,0 +1,5 @@
+Practical applications of description logics (DLs) in knowledge-based systems have forced us to introduce the following features which are absent from existing DLs: • allowing a concept to be regarded at the same time as an individual (the instance of some other meta-level concept) • allowing an individual to represent a collection (set) of other individuals. 
+ 
+The first extension, called concept reification, is more general and thus can cover the second one too. We argue that the absence of these features from existing DLs is an important reason for the lack of a unified approach to description logics and object-oriented databases. 
+ 
+We also show that concept reification cannot be dealt with by the standard DL semantics and propose a slightly modified semantics that takes care of the inherent higher-order features of reification in a first-order setting. A sound and complete inference algorithm for checking consistency in reified ACCOE knowledge bases is subsequently put forward.

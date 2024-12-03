@@ -1,0 +1,1 @@
+We present an efficient algorithm to find a good solution to the Unique Games problem when the constraint graph is an expander. We introduce a new analysis of the standard SDP in this case that involves correlations among distant vertices. It also leads to a parallel repetition theorem for unique games when the graph is an expander.

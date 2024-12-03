@@ -1,0 +1,11 @@
+The SESS workshop aims at providing a venue for software engineers and security researchers to exchange ideas and techniques. The theme of the 7th edition is "Soft and secure". 
+ 
+This year the program committee selected four regular and four position papers (out of 11 submissions) to be presented at the workshop. The issues addressed were very diverse, another demonstration of how security cross-cuts all the activities of modern software engineering practice. 
+ 
+The topics of the papers increasingly focus on model-driven security engineering approaches that concern from the beginning of system conception: transformation of security concerns in requirements engineering phase to design phase; comprehensive security conceptual meta-model; languages for software certification in the complex systems of systems context; or even more towards system implementation: use of least privileges technique to check the violation in a large scale system; the vulnerability prediction models using execution complexity metrics; ideas proposed to allow end users to safely execute new software of uncertain provenance. 
+ 
+In addition, some theoretical and practical studies were included: the action refinement theory to guarantee the security properties in communication; theoretical and practical study on a crypto system. 
+ 
+It is very encouraging to see that a lot of efforts were put in developing a better design, model and development of security constraints in the system with a larger view and understanding. 
+ 
+A panel program will discuss current challenging issues in the area of secure software engineering by a group of experts from: secure software engineering/ information assurance education; system security, privacy/security requirements, security certification process, and theoretical security research.

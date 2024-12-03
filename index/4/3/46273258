@@ -1,0 +1,4 @@
+
+ 
+ Multiagent Resource Allocation (MARA) distributes a set of resources among a set of intelligent agents in order to respect the preferences of the agents and to maximize some measure of global utility, which may include minimizing total costs or maximizing total return. We are interested in MARA solutions that provide optimal or close-to-optimal allocation of resources in terms of maximizing a global welfare function with low communication and computation cost, with respect to the priority of agents, and temporal dependencies between resources. We propose an MDP approach for resource planning in multiagent environments. Our approach formulates internal preference modeling and success of each individual agent as a single MDP and then to optimize global utility, we apply a market-based solution to coordinate these decentralized MDPs.
+ 

@@ -1,0 +1,5 @@
+Following the principles of locality and compositionality during semantic interpretation, we propose a semantic representation formalism which manages to deal with reference problems, i.e. with the interpretation of NPs (in particular, of those beginning with an article): the addressed problems are generic / specific / class readings, and collective / distributive interpretations. 
+ 
+The formalism follows the semantic net approach, and uses different representation plans (semantic, content and reference) and particular structures, called ambiguity spaces, that hide the ambiguities from the other parts of the sentence and remain neutral with respect to the various interpretations until certain disambiguation clues are found. 
+ 
+Besides presenting the formalism, the paper discusses which clues may be used to disambiguate among the various interpretations and shows the way this representation is used to update the hearer's knowledge base.

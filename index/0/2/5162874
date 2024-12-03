@@ -1,0 +1,4 @@
+
+ 
+ Models of strategic candidacy analyze the incentives of candidates to run in an election. Most work on this topic assumes that strategizing only takes place among candidates, whereas voters vote truthfully. In this paper, we extend the analysis to also include strategic behavior on the part of the voters. (We also study cases where only candidates or only voters are strategic.) We consider two settings in which strategic voting is well-defined and has a natural interpretation: majority-consistent voting with single-peaked preferences and voting by successive elimination. In the former setting, we analyze the type of strategic behavior required in order to guarantee desirable voting outcomes. In the latter setting, we determine the complexity of computing the set of potential outcomes if both candidates and voters act strategically.
+ 

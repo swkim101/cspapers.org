@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we define and study the general framework of Simple Temporal Problems with Taboo regions (STPTs) and show how these problems capture metric temporal reasoning aspects which are common to many real-world applications. STPTs encode simple temporal constraints between events and user-defined taboo regions on the timeline, during which no event is allowed to take place. We discuss two different variants of STPTs. The first one deals with (instantaneous) events, while the second one allows for (durative) processes. We also provide polynomial-time algorithms for solving them. If all events or processes cannot be scheduled outside of the taboo regions, one needs to define and reason about "soft" STPTs. We show that even "soft" STPTs can be solved in polynomial time, using reductions to max-flow problems. The resulting algorithms allow for incremental computations, which is important for the successful application of our approach in real-time domains.
+ 

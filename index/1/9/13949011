@@ -1,0 +1,1 @@
+We show how matching and reconstruction of contour points can be performed using dynamic time warping (DTW) for the purpose of 3D hand contour tracking. We evaluate the performance of the proposed algorithm in object manipulation activities and perform comparison with the iterative closest point (ICP) method.

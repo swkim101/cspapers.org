@@ -1,0 +1,4 @@
+
+ 
+ Multiple-Instance (MI) learning is an important supervised learning technique which deals with collections of instances called bags. While existing research in MI learning mainly focused on classification, in this paper we propose a new approach for MI retrieval to enable effective similarity retrieval of bags of instances, where training data is presented in the form of similar and dissimilar bag pairs. An embedded scheme is devised as encoding each bag into a single bag feature vector by exploiting a similarity-based transformation. In this way, the original MI problem is converted into a single-instance version. Furthermore, we develop a principled approach for optimizing bag features specific to similarity retrieval through leveraging pairwise label information at the bag level. The experimental results demonstrate the effectiveness of the proposed approach in comparison with the alternatives for MI retrieval.
+ 

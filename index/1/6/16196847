@@ -1,0 +1,1 @@
+We describe an architecture modeling and code generation framework called Bamboo. Using Bamboo, engineers design SCM repository and feature models, and then generate a running SCM system from the models.

@@ -1,0 +1,1 @@
+I present empirical comparisons between a linear combination of standard statistical language and translation models and an equivalent Maximum Entropy/Minimum Divergence (MEMD) model, using several different methods for automatic feature selection. The MEMD model significantly outperforms the standard model in test corpus perplexity, even though it has far fewer parameters.

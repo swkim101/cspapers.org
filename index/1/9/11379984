@@ -1,0 +1,13 @@
+We present an improved wavelet tree construction algorithm and discuss its applications to a number of rank/select problems for integer keys and strings. 
+ 
+Given a string of length n over an alphabet of size σ ≤ n, our method builds the wavelet tree in O(n log σ / [EQUATION]log n) time, improving upon the state-of-the-art algorithm by a factor of [EQUATION]log n. As a consequence, given an array of n integers we can construct in O(n[EQUATION]log n) time a data structure consisting of O(n) machine words and capable of answering rank/select queries for the subranges of the array in O(log n/ log log n) time. This is a log log n-factor improvement in query time compared to Chan and Patrascu (SODA 2010) and a [EQUATION]log n-factor improvement in construction time compared to Brodal et al. (Theor. Comput. Sci. 2011). 
+ 
+Next, we switch to stringological context and propose a novel notion of wavelet suffix trees. For a string w of length n, this data structure occupies O(n) words, takes O(n[EQUATION]log n) time to construct, and simultaneously captures the combinatorial structure of substrings of w while enabling efficient top-down traversal and binary search. In particular, with a wavelet suffix tree we are able to answer in O(log|x|) time the following two natural analogues of rank/select queries for suffixes of substrings: 
+ 
+1) For substrings x and y of w (given by their endpoints) count the number of suffixes of x that are lexicographically smaller than y; 
+ 
+2) For a substring x of w (given by its endpoints) and an integer k, find the k-th lexicographically smallest suffix of x. 
+ 
+We further show that wavelet suffix trees allow to compute a run-length-encoded Burrows-Wheeler transform of a substring x of w (again, given by its endpoints) in O(s log |x|) time, where s denotes the length of the resulting run-length encoding. This answers a question by Cormode and Muthukrishnan (SODA 2005), who considered an analogous problem for Lempel-Ziv compression. 
+ 
+All our algorithms, except for the construction of wavelet suffix trees, which additionally requires O(n) time in expectation, are deterministic and operate in the word RAM model.

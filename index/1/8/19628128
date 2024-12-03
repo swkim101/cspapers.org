@@ -1,0 +1,1 @@
+We have extracted a kernel that executes only the most computationally expensive steps of the Monte Carlo particle transport algorithm - the calculation of macroscopic cross sections - in an effort to expose bottlenecks within multi-core, shared memory architectures.

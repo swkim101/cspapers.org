@@ -1,0 +1,1 @@
+Our Meta-dex software suite extracts content and index text from a corpus of PDF files, and generates a meta-index that references entries across an entire domain. We provide tools to analyze the individual and integrated indexes, and visualize entries and books within the meta-index. The suite is scalable to very large data sets.

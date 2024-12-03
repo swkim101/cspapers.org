@@ -1,0 +1,3 @@
+This paper describes Gnothi, a block replication system that separates data from metadata to provide efficient and available storage replication. Separating data from metadata allows Gnothi to execute disk accesses on subsets of replicas while using fully replicated metadata to ensure that requests are executed correctly and to speed up recovery of slow or failed replicas. 
+ 
+Performance evaluation shows that Gnothi can achieve 40-64% higher write throughput than previous work and significantly save storage space. Furthermore, while a failed replica recovers, Gnothi can provide about 100- 200% higher throughput, while still retaining the same recovery time and while guaranteeing that recovery eventually completes.

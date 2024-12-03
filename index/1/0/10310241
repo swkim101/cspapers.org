@@ -1,0 +1,5 @@
+Reasoning about the knowledge of an agent is an important problem in many areas of AI. For example in diagnosis a basic question about a system is whether it is possible to diagnose it, that is, whether it is always possible to know whether a faulty behavior has occurred. In this paper we investigate the complexity of this diagnosability problem and the size of automata that perform diagnosis. 
+ 
+There are algorithms for testing diagnosability in polynomial time in the number of states in the system. For succinct system representations, which may be exponentially smaller than the state space of the system, the diagnosability problem is consequently in EXPTIME. We show that this upper bound is not tight and that the decision problem is in fact PSPACE-complete. 
+ 
+On-line diagnosis can be carried out by diagnosers which are automata that recognize faulty behavior. We show that diagnosers in the worst case have a size that is exponential in the number of states, both for explicit and succinct system representations. This is a consequence of the diagnoser having to maintain beliefs about the state of the system.

@@ -1,0 +1,1 @@
+In this paper, a new time domain approach of a functional observer for singular uncertain delayed system is proposed when considering constant time delay in the state vector. The time domain solution is based on Lyapunov-Krasoveskii, which is transformed to linear matrix inequalities (LMI). The proposed method is tested by a given numerical example and proves its efficiency.

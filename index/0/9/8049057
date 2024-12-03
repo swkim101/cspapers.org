@@ -1,0 +1,3 @@
+We give algorithms with provable guarantees that learn a class of deep nets in the generative model view popularized by Hinton and others. Our generative model is an n node multilayer network that has degree at most nγ for some γ < 1 and each edge has a random edge weight in [-1, 1]. Our algorithm learns almost all networks in this class with polynomial running time. The sample complexity is quadratic or cubic depending upon the details of the model. 
+ 
+The algorithm uses layerwise learning. It is based upon a novel idea of observing correlations among features and using these to infer the underlying edge structure via a global graph recovery procedure. The analysis of the algorithm reveals interesting structure of neural nets with random edge weights.

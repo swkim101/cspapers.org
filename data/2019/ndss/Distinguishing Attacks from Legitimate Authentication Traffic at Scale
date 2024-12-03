@@ -1,9 +1,0 @@
-Online guessing attacks against password servers can be hard to address. Approaches that throttle or block repeated guesses on an account (e.g., three strikes type lockout rules)
-can be effective against depth-first attacks, but are of little help against breadth-first attacks that spread guesses very widely. At large providers with tens or hundreds of millions
-of accounts breadth-first attacks offer a way to send millions or even billions of guesses without ever triggering the depth-first defenses.
-The absence of labels and non-stationarity of attack traffic make it  challenging to apply machine learning techniques.
-We show how to accurately estimate the odds that an observation $x$  associated with a request is malicious.  Our  main assumptions are that successful malicious logins are a small
-fraction of the total, and that the distribution of $x$ in the legitimate traffic is stationary, or very-slowly varying.
-From these  we show how we can estimate the ratio of bad-to-good traffic among any set of requests;  how we  can then identify  subsets of the request data that contain least (or even no) attack traffic; how
-these least-attacked subsets allow us to estimate the distribution of values of $x$ over the legitimate  data, and hence calculate the odds ratio.
-A sensitivity analysis shows that even when we fail to identify a subset with little attack traffic our odds ratio estimates are very robust.

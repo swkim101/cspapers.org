@@ -1,0 +1,4 @@
+
+ 
+ Sequential data often possesses hierarchical structures with complex dependencies between sub-sequences, such as found between the utterances in a dialogue. To model these dependencies in a generative framework, we propose a neural network-based generative architecture, with stochastic latent variables that span a variable number of time steps. We apply the proposed model to the task of dialogue response generation and compare it with other recent neural-network architectures. We evaluate the model performance through a human evaluation study. The experiments demonstrate that our model improves upon recently proposed models and that the latent variables facilitate both the generation of meaningful, long and diverse responses and maintaining dialogue state.
+ 

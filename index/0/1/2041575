@@ -1,0 +1,4 @@
+
+ 
+ Many scenarios require that robots work together as a team in order to effectively accomplish their tasks. However, pre-coordinating these teams may not always be possible given the growing number of companies and research labs creating these robots. Therefore, it is desirable for robots to be able to reason about ad hoc teamwork and adapt to new teammates on the fly. Past research on ad hoc teamwork has focused on relatively simple domains, but this paper demonstrates that agents can reason about ad hoc teamwork in complex scenarios. To handle these complex scenarios, we introduce a new algorithm, PLASTIC–Policy, that builds on an existing ad hoc teamwork approach. Specifically, PLASTIC– Policy learns policies to cooperate with past teammates and reuses these policies to quickly adapt to new teammates. This approach is tested in the 2D simulation soccer league of RoboCup using the half field offense task.
+ 

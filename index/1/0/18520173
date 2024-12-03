@@ -1,0 +1,12 @@
+We introduce a simple semi-supervised approach to improve implicit 
+discourse relation identification. This approach harnesses large 
+amounts of automatically extracted discourse connectives along with 
+their arguments to construct new distributional word 
+representations. Specifically, we represent words in the space of 
+discourse connectives as a way to directly encode their rhetorical 
+function. Experiments on the Penn Discourse Treebank demonstrate the 
+effectiveness of these task-tailored representations in predicting 
+implicit discourse relations. Our results indeed show that, despite 
+their simplicity, these connective-based representations outperform 
+various off-the-shelf word embeddings, and achieve state-of-the-art 
+performance on this problem.

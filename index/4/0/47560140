@@ -1,0 +1,7 @@
+Approximate random k-colouring of a graph G = (V, E) is a very well studied problem in computer science and statistical physics. It amounts to constructing a k-colouring of G which is distributed close to Gibbs distribution, i.e. the uniform distribution over all the k-colourings of G. Here, we deal with the problem when the underlying graph is an instance of Erdos-Renyi random graph G(n, p), where p = d/n and d is fixed. 
+ 
+We propose a novel efficient algorithm for approximate random k-colouring with the following properties: given an instance of G(n, d/n) and for any k ≥ (2 + e)d, it returns a k-colouring distributed within total variation distance n−Ω(1) from the Gibbs distribution, with probability 1 − n−Ω(1). 
+ 
+What we propose is neither a MCMC algorithm nor some algorithm inspired by the message passing heuristics that were introduced by statistical physicists. Our algorithm is of combinatorial nature. It is based on a rather simple recursion which reduces the random k-colouring of G(n, d/n) to random k-colouring simpler subgraphs first. 
+ 
+The lower bound on the number of colours for our algorithm to run in polynomial time is significantly smaller than the corresponding bounds we have for any previous algorithm.

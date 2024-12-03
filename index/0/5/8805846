@@ -1,0 +1,7 @@
+We suggest a new approach for the study of the non monotonicity of human commonsense reasoning. The two main premises that underlie this work are that commonsense reasoning is an inductive phenomenon and that missing information in the interaction of the agent with the environment may be as informative for future interactions as observed information. This intuition is normalized and the problem of reasoning from incomplete information is presented as a problem of learning attribute functions over a generalized domain. 
+ 
+We consider examples that illustrate various aspects of the non monotonic reasoning phenomena which have been used over the years as bench marks for various formalisms and translate them into Learning to Reason problems. We demonstrate that these have concise representations over the generalized domain and prove that these representations can be learned efficiently. 
+ 
+The framework developed suggests an operational approach to studying reasoning that is nevertheless rigorous and amenable to analysis. We show that this approach efficiently supports reasoning with incomplete information and at the same lime matches our expectations of plausible patterns of reasoning in cases where other theories do not. 
+ 
+This work continues previous works in the Learning to Reason framework and supports the thesis that in order to develop a computational account for commonsense reasoning one should study the phenomena of learning and reasoning together.

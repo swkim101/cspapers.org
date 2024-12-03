@@ -1,0 +1,1 @@
+We prove that a parallel RAM with no write conflicts allowed requires -&-Ohgr;(log n) steps to compute the Boolean or of n bits stored in the first n global memory cells. We first argue that this result is subtler than it appears, and in fact the -&-ldquo;obvious-&-rdquo; lower bound of log2n steps can be beaten.

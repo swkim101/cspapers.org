@@ -1,0 +1,1 @@
+The assumption in moving system modelling to higher levels is that this improves the design process by allowing exploration of the architecture, providing an unambiguous specification and catching system errors early. We used the interface-based high level abstractions of VHDL+ in a real design, and in parallel with the actual project to investigate the validity of these claims.

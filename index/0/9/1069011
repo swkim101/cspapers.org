@@ -1,0 +1,4 @@
+
+ 
+ Active learning traditionally assumes that an oracle is capable of providing labeling information for each query instance. This paper formulates a new research problem which allows an oracle admit that he/she is incapable of labeling some query instances or simply answer "I don't know the label." We define a unified objectivefunction to ensure that each query instance submitted to the oracleis the one mostly needed for labeling and the oracle should also hasthe knowledge to label. Experiments based on different types of knowledge blind spot (KBS) models demonstrate the effectiveness of theproposed design.
+ 

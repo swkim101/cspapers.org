@@ -1,0 +1,1 @@
+Given an undirected multigraph G = (V, E) and two positive integers k and e, we consider the problem of augmenting G by the smallest number of new edges so that the resulting graph becomes k-edge-connected and &vertex-connected. In this paper, we show that the problem can be solved in O(lVl”) time for any fixed k and I = 3, assuming that G is l-vertex-connected.

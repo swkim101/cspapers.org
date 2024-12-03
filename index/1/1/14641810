@@ -1,0 +1,1 @@
+We show that given a k-character query string and an ai-ray of n strings arranged in alphabetical order, finding a matching string or report that no such string exists requires a ( k log log n +k+logn log log (4+ k 1;:;; n ) ) character comparisons in the worst case, which is tight.

@@ -1,0 +1,1 @@
+A portable version of Prolog, an Artificial Intelligence language, is presented. A complete system has been implemented on a micro-computer using a floppy-disk virtual memory. The general methodology of the implementation is discussed in terms of an abstract machine (Micromegas) supporting a language (Candide) in which the Prolog system is written.

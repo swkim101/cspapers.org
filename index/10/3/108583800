@@ -1,0 +1,1 @@
+In this paper the design of the waveform generator is introduced, and its frequency and amplitude is adjustable. Using the most commonly used 89C51 microcontroller, AD conversion chip ADC0809 and DDS chip AD9850, the generator can produce more accurate wave signal, and can realize the analog regulator of the frequency and amplitude.

@@ -1,0 +1,1 @@
+We have developed a simple direct execution architecture for a 32 bit Forth microprocessor. The processor can directly access a linear address space of over 4 gigawords. Two instruction types are defined; a subroutine call, and a user defined microcode instruction. On-chip stack caches allow most Forth primitives to execute in a single cycle.

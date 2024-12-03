@@ -1,0 +1,5 @@
+Many diverse research areas are concerned with building large, evolving, highly-available systems. The fourth edition of the HotSWUp workshop, which has focused on languages and information systems in three successful editions co-located with the OOPSLA and ICDE conferences (http://www.hotswup.org), is co-located with ICSE and focuses on software engineering. We would like to sincerely welcome you to HotSWUp 2012. 
+ 
+Whether upgrades are applied offline or online, they significantly impact the system's performance and reliability. The goal of HotSWUp is to identify cutting-edge research for supporting software upgrades that are flexible, efficient, robust, and easy to specify and apply. Interestingly, most submissions for this edition of the workshop focus on dynamic (or online) software updates. Let us investigate why this is the case and what topics still remain "hot" for static (or offline) updates. 
+ 
+The aim of HotSWUp is to bring together people from different communities that are working on software upgrades, which is the reason for rotating the workshop at different conferences. At HotSWUp we like to discuss about completed and ongoing research.

@@ -1,0 +1,1 @@
+The paper describes a maximum entropy based story segmentation system for Arabic, Chinese and English. In experiments with broadcast news data from TDT-3, TDT-4, and corpora collected in the DARPA GALE project we obtain a substantial performance gain using multiple overlapping windows for text-based features.

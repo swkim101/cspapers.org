@@ -1,0 +1,1 @@
+A stable-matching-based multiuser multicarrier capacity allocation algorithm is proposed. It responds to ONU backlogs and dynamic subchannel gains. Benchmarked against Binary Linear Programming, it results in just 5% less allocated capacity, at much lower complexity.

@@ -1,0 +1,1 @@
+Abstract : We propose a theory that gives formal semantics to word-level alignments defined over parallel corpora. We use our theory to introduce a linear algorithm that can be used to derive from word-aligned, parallel corpora the minimal set of syntactically motivated transformation rules that explain human translation data.

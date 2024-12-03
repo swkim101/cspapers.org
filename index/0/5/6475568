@@ -1,0 +1,4 @@
+
+ 
+ Recently, solving rank minimization problems by leveraging nonconvex relaxations has received significant attention. Some theoretical analyses demonstrate that it can provide a better approximation of original problems than convex relaxations. However, designing an effective algorithm to solve nonconvex optimization problems remains a big challenge. In this paper, we propose an Iterative Shrinkage-Thresholding and Reweighted Algorithm (ISTRA) to solve rank minimization problems using the nonconvex weighted nuclear norm as a low rank regularizer. We prove theoretically that under certain assumptions our method achieves a high-quality local optimal solution efficiently. Experimental results on synthetic and real data show that the proposed ISTRA algorithm outperforms state-of-the-art methods in both accuracy and efficiency.
+ 

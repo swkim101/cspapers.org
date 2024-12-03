@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we describe a simple randomized algorithm that runs in polynomial time and solves connected row convex (CRC) constraints in distributed settings. CRC constraints generalize many known tractable classes of constraints like 2-SAT and implicational constraints. They can model problems in many domains including temporal reasoning and geometric reasoning, and generally speaking, play the role of ``Gaussians'' in the logical world. Our simple randomized algorithm for solving them in distributed settings, therefore, has a number of important applications. We support our claims through a theoretical analysis and empirical results.
+ 

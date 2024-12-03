@@ -1,0 +1,4 @@
+
+ 
+ We consider problems where several individuals each need to make a yes/no choice regarding a number of issues and these choices then need to be aggregated into a collective choice. Depending on the application at hand, different combinations of yes/no may be considered rational. We can describe such rationality assumptions in terms of a propositional formula. The question then arises whether or not a given aggregation procedure will lift the rationality assumptions from the individual to the collective level, i.e., whether the collective choice will be rational whenever all individual choices are. To address this question, for each of a number of simple fragments of the language of propositional logic, we provide an axiomatic characterisation of the class of aggregation procedures that will lift all rationality assumptions expressible in that fragment.
+ 

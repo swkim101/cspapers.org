@@ -1,0 +1,4 @@
+
+ 
+ The behavior of a complex system often depends on parameters whose values are unknown in advance. To operate effectively, an autonomous agent must actively gather information on the parameter values while progressing towards its goal. We call this problem parameter elicitation. Partially observable Markov decision processes (POMDPs) provide a principled framework for such uncertainty planning tasks, but they suffer from high computational complexity. However, POMDPs for parameter elicitation often possess special structural properties, specifically, factorization and symmetry. This work identifies these properties and exploits them for efficient solution through a factored belief representation. The experimental results show that our new POMDP solvers outperform SARSOP and MOMDP, two of the fastest general-purpose POMDP solvers available, and can handle significantly larger problems.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In this paper we revisit the problem of generating query plans using AI automated planning with a view to leveraging significant recent advances in state-of-the-art planning techniques. Our efforts focus on the specific problem of cost-based join-order optimization for conjunctive relational queries, a critical component of production-quality query optimizers. We characterize the general query-planning problem as a delete-free planning problem, and query plan optimization as a context-sensitive cost-optimal planning problem. We propose algorithms that generate high-quality query plans, guaranteeing optimality under certain conditions. Our approach is general, supporting the use of a broad suite of domain-independent and domain-specific optimization criteria. Experimental results demonstrate the effectiveness of AI planning techniques for query plan generation and optimization.
+ 

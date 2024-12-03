@@ -1,0 +1,4 @@
+
+ 
+ I provide a personal view of some of the major research challenges in the area of combinatorial search. These include solving and playing games with chance, hidden information, and multiple players, optimally solving larger instances of well-known single-agent toy problems, applying search techniques to more realistic problem domains, analyzing the time complexity of heuristic search algorithms, and capitalizing on advances in computing hardware, such as very large external memories and multi-core processors.
+ 

@@ -1,0 +1,5 @@
+The paper advocates the need for systems which support maintenance of LISP-type data bases, and describes an experimental system of this kind, called DABA In this system, a description of the data base's structure is kept in the data base Itself. A number of utility programs use the description for operations on the data base The description must minimally include syntactic information reminiscent of data structure declarations in more conventional programming languages, and can be extended by the user 
+ 
+Two reasons for such systems are seen (I) As A.I. programs develop from toy domains using toy data bases, to more realistic exercies. the management of the knowledge base becomes non-trivial and requires program support (2) A powerful way to organize LISP programs is to make them data-driven, whereby pieces of program are distributed throughout a data base A data base management system facilitates the use of this programming style. 
+ 
+The paper describes and discusses the basic Ideas in the DABA system as well as the technique of data-driven programs.

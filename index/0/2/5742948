@@ -1,0 +1,4 @@
+
+ 
+ Latent author attribute prediction in social media provides a novel set of conditions for the construction of supervised classification models. With individual authors as training and test instances, their associated content (“features”) are made available incrementally over time, as they converse over discussion forums. We propose various approaches to handling this dynamic data, from traditional batch training and testing, to incremental bootstrapping, and then active learning via crowdsourcing. Our underlying model relies on an intuitive application of Bayes rule, which should be easy to adopt by the community, thus allowing for a general shift towards online modeling for social media.
+ 

@@ -1,0 +1,5 @@
+A standard approach to learning object category detectors is to provide strong supervision in the form of a region of interest (ROI) specifying each instance of the object in the training images [17]. In this work are goal is to learn from heterogeneous labels, in which some images are only weakly supervised, specifying only the presence or absence of the object or a weak indication of object location, whilst others are fully annotated. 
+ 
+To this end we develop a discriminative learning approach and make two contributions: (i) we propose a structured output formulation for weakly annotated images where full annotations are treated as latent variables; and (ii) we propose to optimize a ranking objective function, allowing our method to more effectively use negatively labeled images to improve detection average precision performance. 
+ 
+The method is demonstrated on the benchmark INRIA pedestrian detection dataset of Dalal and Triggs [14] and the PASCAL VOC dataset [17], and it is shown that for a significant proportion of weakly supervised images the performance achieved is very similar to the fully supervised (state of the art) results.

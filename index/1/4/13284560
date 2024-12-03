@@ -1,0 +1,4 @@
+
+ 
+ For datasets in Collaborative Filtering (CF) recommendations, even if the identifier is deleted and some trivial perturbation operations are applied to ratings before they are released, there are research results claiming that the adversary could discriminate the individual's identity with a little bit of information. In this paper, we propose $k$-coRating, a novel privacy-preserving model, to retain data privacy by replacing some null ratings with "well-predicted" scores. They do not only mask the original ratings such that a $k$-anonymity-like data privacy is preserved, but also enhance the data utility (measured by prediction accuracy in this paper), which shows that the traditional assumption that accuracy and privacy are two goals in conflict is not necessarily correct. We show that the optimal $k$-coRated mapping is an NP-hard problem and design a naive but efficient algorithm to achieve $k$-coRating. All claims are verified by experimental results.
+ 

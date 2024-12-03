@@ -1,0 +1,14 @@
+The complexity of matrix multiplication is measured in terms of $\omega$, the
+smallest real number such that two $n\times n$ matrices can be multiplied using
+$O(n^{\omega+\epsilon})$ field operations for all $\epsilon>0$; the best bound
+until now is $\omega<2.37287$ [Le Gall'14]. All bounds on $\omega$ since 1986
+have been obtained using the so-called laser method, a way to lower-bound the
+`value' of a tensor in designing matrix multiplication algorithms. The main
+result of this paper is a refinement of the laser method that improves the
+resulting value bound for most sufficiently large tensors. Thus, even before
+computing any specific values, it is clear that we achieve an improved bound on
+$\omega$, and we indeed obtain the best bound on $\omega$ to date: $$\omega <
+2.37286.$$ The improvement is of the same magnitude as the improvement that [Le
+Gall'14] obtained over the previous bound [Vassilevska W.'12]. Our improvement
+to the laser method is quite general, and we believe it will have further
+applications in arithmetic complexity.

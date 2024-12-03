@@ -1,0 +1,4 @@
+
+ 
+ We introduce Extended Property Paths (EPPs), a significant enhancement of SPARQL property paths. EPPs allow to capture in a succinct way a larger class of navigational queries than property paths. We present the syntax and formal semantics of EPPs and introduce two different evaluation strategies. The first is based on an algorithm implemented in a custom query processor. The second strategy leverages a translation algorithm of EPPs into SPARQL queries that can be executed on existing SPARQL processors. We compare the two evaluation strategies on real data to highlight their pros and cons.
+ 

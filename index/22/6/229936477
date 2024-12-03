@@ -1,0 +1,1 @@
+develop a new ownership reasoning mechanism that employs enhanced escape analysis and consumer-function analysis to infer expected release locations. By applying K-M E LD to the Linux kernel, we confirm its effectiveness: it finds 2 18 n ew b ugs, w ith 4 1 C VEs assigned. Out of those 218 bugs, 115 are in specialized modules.

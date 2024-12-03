@@ -1,0 +1,4 @@
+
+ 
+ Cross-lingual model transfer has been a promising approach for inducing dependency parsers for low-resource languages where annotated treebanks are not available. The major obstacles for the model transfer approach are two-fold: 1. Lexical features are not directly transferable across languages; 2. Target language-specific syntactic structures are difficult to be recovered. To address these two challenges, we present a novel representation learning framework for multi-source transfer parsing. Our framework allows multi-source transfer parsing using full lexical features straightforwardly. By evaluating on the Google universal dependency treebanks (v2.0), our best models yield an absolute improvement of 6.53% in averaged labeled attachment score, as compared with delexicalized multi-source transfer models. We also significantly outperform the state-of-the-art transfer system proposed most recently.
+ 

@@ -1,0 +1,1 @@
+Decomposition ordering is a well-founded monotonic ordering on terms. Because it has the subterm and the deletion properties, decomposition ordering is useful to prove termination of rewriting systems. An algorithm comparing two terms is given.

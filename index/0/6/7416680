@@ -1,0 +1,4 @@
+
+ 
+ Users commonly use Web 2.0 platforms to post their opinions and their predictions about future events (e.g., the movement of astock). Therefore, opinion mining can be used as a tool for predicting future events. Previous work on opinion mining extracts from the text only the polarity of opinions as sentiment indicators. We observe that a typical opinion post also contains temporal references which can improve prediction. This short paper presents our preliminary work on extracting reference time tagsand integrating them into an opinion mining model, in order to improvethe accuracy of future event prediction. We conduct anexperimental evaluation using a collection of microblogs posted by investors to demonstrate the effectiveness of our approach.
+ 

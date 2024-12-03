@@ -1,0 +1,1 @@
+This paper describes a distributional approach to the semantics of verb-particle constructions (e.g. put up, make off). We report first on a framework for implementing and evaluating such models. We then go on to report on the implementation of some techniques for using statistical models acquired from corpus data to infer the meaning of verb-particle constructions.

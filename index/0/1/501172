@@ -1,0 +1,4 @@
+
+ 
+ Cross-lingual text classiﬁcation is the task of assigning labels to observed documents in a label-scarce target language domain by using a prediction model trained with labeled documents from a label-rich source language domain. Cross-lingual text classiﬁcation is popularly studied in natural language processing area to reduce the expensive manual annotation effort required in the target language domain. In this work, we propose a novel semi-supervised representation learning approach to address this challenging task by inducing interlingual features via semi-supervised matrix completion. To evaluate the proposed learning technique, we conduct extensive experiments on eighteen cross language sentiment classiﬁcation tasks with four different languages. The empirical results demonstrate the efﬁcacy of the proposed approach, and show it outperforms a number of related cross-lingual learning methods.
+ 

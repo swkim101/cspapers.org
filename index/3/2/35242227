@@ -1,0 +1,4 @@
+
+ 
+ The efficient use of computing resources on a heterogeneous robotics platform, both in terms of run time performance and power usage, presents an interesting research problem, and is the focus of my research. It is envisaged that this will be achieved by both finding parallel approaches to algorithms commonly used in robotics, and investigating the use of a scheduler to efficiently allocate resources across a heterogeneous hardware platform. In particular, while there has been much research on using specialized hardware for image and video processing algorithms, work on areas specific to robotics, such as position tracking, mapping and sensor fusion, is not as common.
+ 

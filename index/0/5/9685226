@@ -1,0 +1,4 @@
+
+ 
+ Customer volume prediction, which predicts the volume from a customer source to a service place, is a very important technique for location selection, market investigation, and other related applications. Most of traditional methods only make use of partial information for either supervised or unsupervised modeling, which cannot well integrate overall available knowledge. In this paper, we propose a method titled GR-NMF for jointly modeling both implicit correlations hidden inside customer volumes and explicit geographical knowledge via an integrated probabilistic framework. The effectiveness of GR-NMF in coupling all-round knowledge is verified over a real-life outpatient dataset under different scenarios. GR-NMF shows particularly evident advantages to all baselines in location selection with the cold-start challenge.
+ 

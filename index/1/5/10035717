@@ -1,0 +1,1 @@
+This note provides a brief summary of how a new algebraic tool, bilinear groups, is transforming public-key cryptography. For the examples mentioned, the best solutions without bilinear groups either do not exist or are far less efficient. Many of the systems discussed in this note were implemented by Lynn [45] in a software library freely available under the GPL.

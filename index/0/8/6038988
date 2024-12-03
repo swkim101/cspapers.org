@@ -1,0 +1,18 @@
+A large variety of mobile robots has blossomed recently, made possible by progresses in energy 
+storage, electronics, processing speed, etc. We have seen these robots performing exploration and 
+navigation tasks in different environments, and demonstrating impressive autonomy. However, the 
+actual programming of complex behaviors, in particular when physical interaction takes place be- 
+tween the robot and its environment, has remained tedious. This work often involves writing and 
+tuning complicated state machines and requires a lot of engineering resources. Machine learning, 
+which aims at specifying complex algorithms by leveraging data instead of just expert knowledge, 
+proposes an alternative path. It appears especially useful for robotic tasks, as these often deal with 
+high-dimensional input and output spaces while relying on a lot of contingent parameter values. 
+Our aim is to understand the limits of capabilities that can be achieved with a simple, non-parametric 
+system that learns from demonstration. We want to reduce the number of meta parameters to the 
+minimum, because these ultimately have to be given to the system, while still handling tasks con- 
+sisting of several steps. This paper proposes a system with only ns+ 2 meta parameters, where ns 
+is the number of sensor dimensions. All these parameters are related to the robotic platform and its 
+application, but do not depend on the task. We believe that such a system, should it perform well 
+enough, would be of tremendous help for developing and deploying robotic applications. Indeed, 
+the current requirement of choosing by hand many parameters is a major obstacle to the deployment 
+of programming by demonstration.

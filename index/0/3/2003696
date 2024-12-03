@@ -1,0 +1,1 @@
+We propose a method for learning similarity-preserving hash functions that map high-dimensional data onto binary codes. The formulation is based on structured prediction with latent variables and a hinge-like loss function. It is efficient to train for large datasets, scales well to large code lengths, and outperforms state-of-the-art methods.

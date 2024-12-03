@@ -1,0 +1,1 @@
+In this paper, we show that two widely different notions of program equivalence coincide for the language of recursive definitions with simplification rules. The first one is the now classical equivalence for fixed-point semantics. The other one is purely operational in nature and is much closer to a programmer's intuition of program equivalence.

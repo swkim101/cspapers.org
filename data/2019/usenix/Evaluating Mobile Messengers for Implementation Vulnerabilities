@@ -1,8 +1,0 @@
-Mobile Messaging applications are a valuable target for attackers because vulnerabilities in these applications have the potential to allow a mobile device to be compromised without any user interaction. This talk describes Project Zero's work evaluating mobile messaging applications for security-impacting bugs. It will share techniques for finding vulnerabilities in mobile applications and give some examples of the bugs discovered using them. It will also explain how design and development decisions impacted the frequency and severity of these vulnerabilities. It will then discuss the importance of considering implementation in design, and how academic researchers can give more consideration to the implementation aspects of new technologies. 
-
-                    
-          Natalie Silvanovich, Security Engineer, Google
-            
-  
-  
-    Natalie Silvanovich is a security researcher on Google Project Zero. Her current focus is browser security, including script engines, WebAssembly and WebRTC. Previously, she worked in mobile security on the Android Security Team at Google and as a team lead of the Security Research Group at BlackBerry, where her work included finding security issues in mobile software and improving the security of mobile platforms. Outside of work, Natalie enjoys applying her hacking and reverse engineering skills to unusual targets and has spoken at several conferences on the subject of Tamagotchi hacking.

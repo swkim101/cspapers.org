@@ -1,0 +1,1 @@
+This paper describes a program which learns efficient strategies for solving problems such as Rubik's cube and the eight puzzle. It uses a new general problem solving method based on macro-operators. The strategics learned by the program are equal to or superior to strategies used by humans on these problems, in terms of number of moves required for solution.

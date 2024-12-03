@@ -1,0 +1,2 @@
+It is shown that a mesh-connected n×n multiprocessor system can compute the inverse of a n×n matrix in linear time to n. The algorithm is based on a theorem known to Sylvester in 1851. It computes the cofactor matrix in n steps, each of which involves 4 unit distance message routing and 4 arithmetic operations for every processor. A coding and memory requirement for each processor is the same and is independent of n.
+ It is also shown that the same algorithm solves systems of n linear equations in linear time of n with n × (n+l) processors.

@@ -1,0 +1,5 @@
+Deployed multithreaded applications contain many races because these applications are difficult to write, test, and debug. Worse, the number of races in deployed applications may drastically increase due to the rise of multicore hardware and the immaturity of current race detectors. 
+ 
+LOOM is a "live-workaround" system designed to quickly and safely bypass application races at runtime. LOOM provides a flexible and safe language for developers to write execution filters that explicitly synchronize code. It then uses an evacuation algorithm to safely install the filters to live applications to avoid races. It reduces its performance overhead using hybrid instrumentation that combines static and dynamic instrumentation. 
+ 
+We evaluated LOOM on nine real races from a diverse set of six applications, including MySQL and Apache. Our results show that (1) LOOM can safely fix all evaluated races in a timely manner, thereby increasing application availability; (2) LOOM incurs little performance overhead; (3) LOOM scales well with the number of application threads; and (4) LOOM is easy to use.

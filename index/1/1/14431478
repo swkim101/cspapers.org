@@ -1,0 +1,4 @@
+
+ 
+ Locating boundaries between coherent and/or repetitive segments of a time series is a challenging problem pervading many scientific domains. In this paper we propose an unsupervised method for boundary detection, combining three basic principles: novelty, homogeneity, and repetition. In particular, the method uses what we call structure features, a representation encapsulating both local and global properties of a time series. We demonstrate the usefulness of our approach in detecting music structure boundaries, a task that has received much attention in recent years and for which exist several benchmark datasets and publicly available annotations. We find our method to significantly outperform the best accuracies published so far. Importantly, our boundary approach is generic, thus being applicable to a wide range of time series beyond the music and audio domains.
+ 

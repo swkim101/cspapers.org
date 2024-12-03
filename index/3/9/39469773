@@ -1,0 +1,5 @@
+This presentation describes a method for generating functional test programs for Large Scale Integrated Circuits (LSI) and Logic Cards having hundreds of logic gates.
+ J. P. Roth's D-Algorithm, and S. Seshu's Logic Simulation Method have both been used extensively for generating logic circuit test patterns.
+ We have developed a more efficient method which incorporates both of these methods.
+ The new method solves diagnostic problems related to the logical circuits obtained by partitioning logic circuits making up the digital hardware.
+ In this presentation, we describe a test pattern generating method, and an Automatic Diagnostic Program Generator (ADP-3) using this method with a FACOM 230-60 computer.

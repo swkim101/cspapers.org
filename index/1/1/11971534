@@ -1,0 +1,25 @@
+Deep convolutional network models have 
+dominated recent work in human action 
+recognition as well as image classification. 
+However, these methods are often unduly 
+influenced by the image background, learning 
+and exploiting the presence of cues in typical 
+computer vision datasets. For unbiased robotics 
+applications, the degree of variation and novelty 
+in action backgrounds is far greater than in 
+computer vision datasets. To address this 
+challenge, we propose an “action region 
+proposal” method that, informed by optical flow, 
+extracts image regions likely to contain actions 
+for input into the network both during training 
+and testing. In a range of experiments, we 
+demonstrate that manually segmenting the 
+background is not enough; but through active 
+action region proposals during training and 
+testing, state-of-the-art or better performance can 
+be achieved on individual spatial and temporal 
+video components. Finally, we show by focusing 
+attention through action region proposals, we can 
+further improve upon the existing state-of-the-art 
+in spatio-temporally fused action recognition 
+performance.

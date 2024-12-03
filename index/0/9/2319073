@@ -1,0 +1,1 @@
+We propose a new routing algorithm, called <i>Rumor Ad-hoc On-Demand Distance Vector (RAODV)</i>, for sensor networks Simulations show that RAODV can provide benefits such as reducing average energy consumption, average end-to-end delay and routing overhead.

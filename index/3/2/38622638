@@ -1,0 +1,4 @@
+
+ 
+ This paper suggests a model and methodology for measuring the breadth and flexibility of a dialog system's capabilities. The approach relies on having human evaluators administer a targeted oral exam to a system and provide their subjective views of that system's performance on each test problem. We present results from one instantiation of this test being performed on two publicly-accessible dialog systems and a human, and show that the suggested metrics do provide useful insights into the relative strengths and weaknesses of these systems. Results suggest that this approach can be performed with reasonable reliability and with reasonable amounts of effort. We hope that authors will augment their reporting with this approach to improve clarity and make more direct progress toward broadly-capable dialog systems.
+ 

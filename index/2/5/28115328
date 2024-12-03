@@ -1,0 +1,1 @@
+A technique is presented for taking a program written in pure LISP and automatically deriving a program which computes the inverse function of the given program The scheme is based on a set of rules for inverting the primitive functions plus a method of solving for variables introduced by non-invertible functions. As an example, a program to reverse a list is inverted.

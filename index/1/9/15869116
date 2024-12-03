@@ -1,0 +1,4 @@
+
+ 
+ This paper studies the impact of Time-Of-Use (TOU) tariffs in a competitive electricity market place. Specifically, it focuses on the question of how should an autonomous broker agent optimize TOU tariffs in a competitive retail market, and what is the impact of such tariffs on the economy. We formalize the problem of TOU tariff optimization and propose an algorithm for approximating its solution. We extensively experiment with our algorithm in a large-scale, detailed electricity retail markets simulation of the Power Trading Agent Competition (Power TAC) and: 1) find that our algorithm results in 15% peak-demand reduction, 2) find that its peak-flattening results in greater profit and/or profit-share for the broker and allows it to win against the 1st and 2nd place brokers from the Power TAC 2014 finals, and 3) analyze several economic implications of using TOU tariffs in competitive retail markets.
+ 

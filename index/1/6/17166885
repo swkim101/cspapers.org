@@ -1,0 +1,1 @@
+We define a measure of the generality of the control structure of a program schema. This imposes a partial ordering on program schemas, and leads to a concept of the “difficulty” of a programming problem. In this sense there exists a “hardest” flowchart program, recursive program etc. Some earlier proofs can also be simplified and/or clarified by this approach.

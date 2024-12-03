@@ -1,0 +1,5 @@
+We propose the Local Split Decision tree (LSD tree, for 
+short), a data structure supporting efficient spatial access to geometrico bjects.I ts main advantageosv er other structures are that it performsw ell for all reasonabled atad istributions, cover quotients( which measureth e overlappingo f the data objects), and bucket capacities, and that it maintains multidimensional points as well as arbitrary geometric objects. Thesep ropertiesd emonstratedb y an extensivep erformance,evaluation make the LSD tree extremely suitable for the implementationo f spatiala ccessp athsi n geometricd atabases. The paging algorithm for the binary tree directory is interesting 
+in its own right because a practical solution for the 
+problem of how to page a (multidimensional)b inary tree 
+without accessp ath degenerationis presented.

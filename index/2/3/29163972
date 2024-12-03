@@ -1,0 +1,4 @@
+
+ 
+ Non-negative Matrix Factorization (NMF) has attracted much attention and been widely used in real-world applications. As a clustering method, it fails to handle the case where data points lie in a complicated geometry structure. Existing methods adopt single global centroid for each cluster, failing to capture the manifold structure. In this paper, we propose a novel local centroids structured NMF to address this drawback. Instead of using single centroid for each cluster, we introduce multiple local centroids for individual cluster such that the manifold structure can be captured by the local centroids. Such a novel NMF method can improve the clustering performance effectively. Furthermore, a novel bipartite graph is incorporated to obtain the clustering indicator directly without any post process. Experiments on both toy datasets and real-world datasets have verified the effectiveness of the proposed method.
+ 

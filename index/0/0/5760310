@@ -1,0 +1,3 @@
+In Artificial Intelligence. well-understood reasoning systems and tractable reasoning systems have often seemed mutually exclusive. This has been exemplified by nonmonotonic reasoning formalisms and inheritance-with-exceptions reasoners. These have epitomized the two extremes: the former not even semidecidable, the latter completely ad hoc. 
+ 
+We previously presented a formal mechanism for specifying inheritance systems. and minimal criteria for acceptable inheritance reasoning. This left open the problem of realizing an acceptable reasoner. Since then. Touretzky has developed a reasoner that appears to meet our criteria. We show that his reasoner is formally adequate, and explore some of the implications of this result vis-a-vis the study of non monotonic reasoning.

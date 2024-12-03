@@ -1,0 +1,1 @@
+The paper contains a description of the structure of processes and the interprocess communication facility implemented within a general purpose operating system. Processes within the system operate asynchronously. The communication facility allows a process to signal another process, to send information to it, to cause it to be suspended or to cause it to be terminated.

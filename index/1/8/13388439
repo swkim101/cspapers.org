@@ -1,0 +1,1 @@
+Traditional fall detection is only based on acceleration analysis. In this work we present a novel fall detection method that also utilizes posture and context information. This information can help reduce both false positives and negatives. Our solution also strives for low computational cost and fast response.

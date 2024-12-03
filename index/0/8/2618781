@@ -1,0 +1,1 @@
+We describe the detrimental effects of browser cache/history sniffing in the context of phishing attacks, and detail an approach that neutralizes the threat by means of URL personalization; we report on an implementation performing such personalization on the fly, and analyze the costs of and security properties of our proposed solution.

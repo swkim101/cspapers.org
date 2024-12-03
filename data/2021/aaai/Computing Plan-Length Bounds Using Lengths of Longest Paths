@@ -1,2 +1,0 @@
-We devise a method to exactly compute the length of the longest simple path in factored state spaces, like state spaces encountered in classical planning. Although the complexity of this problem is NEXP-Hard, we show that our method can be used to compute practically useful upper-bounds on lengths of plans. We show that the computed upper-bounds are significantly better than bounds produced by state-of-the-art bounding techniques and that they can be used to improve the SAT-based
-planning.

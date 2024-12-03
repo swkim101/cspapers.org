@@ -1,0 +1,4 @@
+
+ 
+ Previous work for relation extraction from free text is mainly based on intra-sentence information. As relations might be mentioned across sentences, inter-sentence information can be leveraged to improve distantly supervised relation extraction. To effectively exploit inter-sentence information, we propose a ranking based approach, which first learns a scoring function based on a listwise learning-to-rank model and then uses it for multi-label relation extraction. Experimental results verify the effectiveness of our method for aggregating information across sentences. Additionally, to further improve the ranking of high-quality extractions, we propose an effective method to rank relations from different entity pairs. This method can be easily integrated into our overall relation extraction framework, and boosts the precision significantly.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Similar to the satisfiability (SAT) problem, which can be seen to be the archetypical problem for NP, the quantified Boolean formula problem (QBF) is the archetypical problem for PSPACE. Recently, Atserias and Oliva (2014) showed that, unlike for SAT, many of the well-known decompositional parameters (such as treewidth and pathwidth) do not allow efficient algorithms for QBF. The main reason for this seems to be the lack of awareness of these parameters towards the dependencies between variables of a QBF formula. In this paper we extend the ordinary pathwidth to the QBF-setting by introducing prefix pathwidth, which takes into account the dependencies between variables in a QBF, and show that it leads to an efficient algorithm for QBF. We hope that our approach will help to initiate the study of novel tailor-made decompositional parameters for QBF and thereby help to lift the success of these decompositional parameters from SAT to QBF.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Attacker-defender Stackelberg games have become a popular game-theoretic approach for security with deployments for LAX Police, the FAMS and the TSA. Unfortunately, most of the existing solution approaches do not model two key uncertainties of the real-world: there may be noise in the defender's execution of the suggested mixed strategy and/or the observations made by an attacker can be noisy. In this paper, we provide a framework to model these uncertainties, and demonstrate that previous strategies perform poorly in such uncertain settings. We also provide RECON, a novel algorithm that computes strategies for the defender that are robust to such uncertainties, and provide heuristics that further improve RECON's efficiency.
+ 

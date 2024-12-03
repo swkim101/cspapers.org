@@ -1,0 +1,1 @@
+New functionals for parameter (model) selection of Support Vector Machines are introduced based on the concepts of the span of support vectors and rescaling of the feature space. It is shown that using these functionals, one can both predict the best choice of parameters of the model and the relative quality of performance for any value of parameter.

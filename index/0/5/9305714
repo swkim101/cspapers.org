@@ -1,0 +1,4 @@
+
+ 
+ Logic programs with abstract constraint atoms proposed by Marek and Truszczynski are very general logic programs.They are general enough to captureaggregate logic programs as well asrecently proposed description logic programs.In this paper, we propose a well-founded semantics for basic logic programs with arbitrary abstract constraint atoms, which are sets of rules whose heads have exactly one atom. Weshow that similar to the well-founded semanticsof normal logic programs, it has many desirable properties such as that it can becomputed in polynomial time, and is always correct with respect to theanswer set semantics. This paves the way for using our well-founded semanticsto simplify these logic programs. We also show how our semantics can be applied toaggregate logic programs and description logic programs, and compare itto the well-founded semantics already proposed for these logic programs.
+ 

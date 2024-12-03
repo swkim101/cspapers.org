@@ -1,0 +1,4 @@
+
+ 
+ In many situations, it is desirable to optimize a sequence of decisions by maximizing a primary objective while respecting some constraints with respect to secondary objectives. Such problems can be naturally modeled as constrained partially observable Markov decision processes (CPOMDPs) when the environment is partially observable. In this work, we describe a technique based on approximate linear programming to optimize policies in CPOMDPs. The optimization is performed offline and produces a finite state controller with desirable performance guarantees. The approach outperforms a constrained version of point-based value iteration on a suite of benchmark problems.
+ 

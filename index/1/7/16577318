@@ -1,0 +1,1 @@
+We address the issue of judging the significance of rare events as it typically arises in statistical naturallanguage processing. We first define a general approach to the problem, and we empirically compare results obtained using log-likelihood-ratios and Fisher’s exact test, applied to measuring strength of bilingual word associations.

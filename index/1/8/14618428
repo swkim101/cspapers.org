@@ -1,0 +1,7 @@
+Fully decentralized algorithms for distributed constraint optimization often require excessive amounts of communication when applied to complex problems. The OptAPO algorithm of [Mailler and Lesser, 2004] uses a strategy of partial centralization to mitigate this problem. 
+ 
+We introduce PC-DPOP, a new partial centralization technique, based on the DPOP algorithm of [Petcu and Faltings, 2005]. PC-DPOP provides better control over what parts of the problem are centralized and allows this centralization to be optimal with respect to the chosen communication structure. 
+ 
+Unlike OptAPO, PC-DPOP allows for a priory, exact predictions about privacy loss, communication, memory and computational requirements on all nodes and links in the network. Upper bounds on communication and memory requirements can be specified. 
+ 
+We also report strong efficiency gains over OptAPO in experiments on three problem domains.

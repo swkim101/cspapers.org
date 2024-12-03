@@ -1,0 +1,4 @@
+
+ 
+ In order for robots to intelligently perform tasks with humans, they must be able to access a broad set of background knowledge about the environments in which they operate. Unlike other approaches, which tend to manually define the knowledge of the robot, our approach enables robots to actively query the World Wide Web (WWW) to learn background knowledge about the physical environment. We show that our approach is able to search the Web to infer the probability that an object, such as a "coffee,'' can be found in a location, such as a "kitchen.'' Our approach, called ObjectEval, is able to dynamically instantiate a utility function using this probability, enabling robots to find arbitrary objects in indoor environments. Our experimental results show that the interactive version of ObjectEval visits 28% fewer locations than the version trained offline and 71% fewer locations than a baseline approach which uses no background knowledge.
+ 

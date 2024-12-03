@@ -1,0 +1,1 @@
+In this paper, we describe a named entity recognition using a modified Pegasos algorithm for structural SVMs. We show the modified Pegasos algorithm significantly outperformed CRFs and the training time for the modified Pegasos algorithm is reduced 17-26 times compared to CRFs.

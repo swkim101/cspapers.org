@@ -1,0 +1,4 @@
+
+ 
+ This paper addresses exact learning of Bayesian network structure from data based on the Bayesian Dirichlet score function and its derivations. We describe useful properties that strongly reduce the computational costs of many known methods without losing global optimality guarantees. We show empirically the advantages of the properties in terms of time and memory consumptions, demonstrating that state-of-the-art methods, with the use of such properties, might handle larger data sets than those currently possible.
+ 

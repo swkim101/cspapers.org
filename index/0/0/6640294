@@ -1,0 +1,4 @@
+
+ 
+ We advocate datalogMTL, a datalog extension of a Horn fragment of the metric temporal logic MTL, as a language for ontology-based access to temporal log data. We show that datalogMTL is EXPSPACE-complete even with punctual intervals, in which case MTL is known to be undecidable. Nonrecursive datalogMTL turns out to be PSPACE-complete for combined complexity and in AC0 for data complexity. We demonstrate by two real-world use cases that nonrecursive datalogMTL programs can express complex temporal concepts from typical user queries and thereby facilitate access to log data. Our experiments with Siemens turbine data and MesoWest weather data show that datalogMTL ontology-mediated queries are efficient and scale on large datasets of up to 11GB.
+ 

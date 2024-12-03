@@ -1,0 +1,4 @@
+We propose a new approach to the problem of neural network expressivity, which seeks to characterize how structural properties of a neural network family affect the functions it is able to compute. Our approach is based on an interrelated set of measures of expressivity, unified by the novel notion of trajectory length, which measures how the output of a network changes as the input sweeps along a one-dimensional path. Our findings can be summarized as follows: 
+(1) The complexity of the computed function grows exponentially with depth. 
+(2) All weights are not equal: trained networks are more sensitive to their lower (initial) layer weights. 
+(3) Regularizing on trajectory length (trajectory regularization) is a simpler alternative to batch normalization, with the same performance.

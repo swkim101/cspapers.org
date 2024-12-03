@@ -1,0 +1,4 @@
+
+ 
+ Dominance testing, the problem of determining whether an outcome is preferred over another, is of fundamental importance in many applications. Hence, there is a need for algorithms and tools for dominance testing. CP-nets and TCP-nets are some of the widely studied languages for representing and reasoning with preferences. We reduce dominance testing in TCP-nets to reachability analysis in a graph of outcomes. We provide an encoding of TCP-nets in the form of a Kripke structure for CTL. We show how to compute dominance using NuSMV, a model checker for CTL. We present results of experiments that demonstrate the feasibility of our approach to dominance testing.
+ 

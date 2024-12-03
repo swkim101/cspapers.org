@@ -1,0 +1,4 @@
+
+ 
+ We introduce a model-free algorithm for learning in Markov decision processes with parameterized actions—discrete actions with continuous parameters. At each step the agent must select both which action to use and which parameters to use with that action. We introduce the Q-PAMDP algorithm for learning in these domains, show that it converges to a local optimum, and compare it to direct policy search in the goal-scoring and Platform domains.
+ 

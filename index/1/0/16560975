@@ -1,0 +1,1 @@
+This paper presents a novel approach to classifying library records by making use of what we call "author profile," a representation of an author's expertise along a library classification. Coupled with a string kernel classifier, the idea is shown to bring a significant improvement over a baseline.

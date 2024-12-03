@@ -1,0 +1,3 @@
+
+ 
+ A variety of feature selection methods based on sparsity regularization have been developed with different loss functions and sparse regularization functions. Capitalizing on the existing sparsity regularized feature selection methods, we propose a general sparsity feature selection (GSR-FS) algorithm that optimizes a ℓ2,r (0 < r ≤ 2) based loss function with a ℓ2,p-norm (0 < p ≤ 2) sparse regularization. The ℓ2,r-norm (0 <

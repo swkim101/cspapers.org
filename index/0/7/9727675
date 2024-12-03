@@ -1,0 +1,1 @@
+The stepwise development of a data structure for representing dissections of rectangles into rectangular components is outlined. The data structure is used to define a finite set of "principal options" for a class of space allocation problems, and a procedure is described which generates dissections representing these options.

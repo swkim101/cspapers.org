@@ -1,0 +1,4 @@
+
+ 
+ Maintaining landscape connectivity is increasingly important in wildlife conservation, especially for species experiencing the effects of habitat loss and fragmentation. We propose a novel approach to dynamically optimize landscape connectivity. Our approach is based on a mixed integer program formulation, embedding a spatial capture-recapture model that estimates the density, space usage, and landscape connectivity for a given species. Our method takes into account the fact that local animal density and connectivity change dynamically and non-linearly with different habitat protection plans. In order to scale up our encoding, we propose a sampling scheme via random partitioning of the search space using parity functions. We show that our method scales to real-world size problems and dramatically outperforms the solution quality of an expectation maximization approach and a sample average approximation approach.
+ 

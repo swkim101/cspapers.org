@@ -1,0 +1,4 @@
+
+ 
+ Accurately measuring the aerosol optical depth (AOD) is essential for our understanding of the climate. Currently, AOD can be measured by (i) satellite instruments, which operate on a global scale but have limited accuracies; and (ii) ground-based instruments, which are more accurate but not widely available. Recent approaches focus on integrating measurements from these two sources to complement each other. In this paper, we further improve the prediction accuracy by using the observation that the AOD varies slowly in the spatial domain. Using a probabilistic approach, we impose this smoothness constraint by a Gaussian random field on the Earth's surface, which can be considered as a two-dimensional manifold. The proposed integration approach is computationally simple, and experimental results on both synthetic and real-world data sets show that it significantly outperforms the state-of-the-art.
+ 

@@ -1,0 +1,3 @@
+FlexiMine is a KDD system designed as a testbed for data-mining research, as well as a generic knowledge discovery tool for varied database domains. Flexibility is achieved by an open-ended design for extensibility, enabling integration of existing data-mining algorithms, new locally developed algorithms, and support functions, such as visualization and preprocessing. Support for new databases is simple - currently via SQL queries to an INFORMIX database server. 
+ 
+With a view of serving remote, as well as local, users, internet availability was a design goal. By implementing the system in Java, minor modifications allow us to run the user-end of the system either as a Java applications or as a Java Applet.

@@ -1,0 +1,4 @@
+
+ 
+ Top-k approximate querying on string collections is an important data analysis tool for many applications, and it has been exhaustively studied. However, the scale of the problem has increased dramatically because of the prevalence of the Web. In this paper, we aim to explore the efficient top-k similar string matching problem. Several efficient strategies are introduced, such as length aware and adaptive q-gram selection. We present a general q-gram based framework and propose two efficient algorithms based on the strategies introduced. Our techniques are experimentally evaluated on three real data sets and show a superior performance.
+ 

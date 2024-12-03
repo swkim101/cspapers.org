@@ -1,0 +1,4 @@
+
+ 
+ Many problems, and in particular routing problems, require to find one or many circuits in a weighted graph. The weights often express the distance or the travel time between vertices. We propose in this paper various filtering algorithms for the weighted circuit constraint which maintain a circuit in a weighted graph. The filtering algorithms are typical cost based filtering algorithms relying on relaxations of the Traveling Salesman Problem. We investigate three bounds and show that they are incomparable. In particular we design a filtering algorithm based on a lower bound introduced in 1981 by Christophides et al.. This bound can provide stronger filtering than the classical Held and Karp’s approach when additional information, such as the possible positions of the clients in the tour, is available. This is particularly suited for problems with side constraints such as time windows.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present a framework for fitting multivariate Hawkes processes for large-scale problems, both in the number of events in the observed history n and the number of event types d (i.e. dimensions). The proposed Scalable Low-Rank Hawkes Process (SLRHP) framework introduces a low-rank approximation of the kernel matrix that allows to perform the nonparametric learning of the d2 triggering kernels in at most O(ndr2) operations, where r is the rank of the approximation (r ≪ d, n). This comes as a major improvement to the existing state-of-the-art inference algorithms that require O(nd2) operations. Furthermore, the low-rank approximation allows SLRHP to learn representative patterns of interaction between event types, which is usually valuable for the analysis of complex processes in real-world networks.
+ 

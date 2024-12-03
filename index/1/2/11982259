@@ -1,0 +1,9 @@
+We investigate the notion of stability proposed by Bilu and Linial. We obtain an exact polynomial-time algorithm for γ-stable Max Cut instances with γ ≥ c√log n log log n for some absolute constant c > 0. Our algorithm is robust: it never returns an incorrect answer; if the instance is γ-stable, it finds the maximum cut, otherwise, it either finds the maximum cut or certifies that the instance is not γ-stable. We prove that there is no robust polynomial-time algorithm for γ-stable instances of Max Cut when γ < α SC(n/2), where αSC is the best approximation factor for Sparsest Cut with non-uniform demands. That suggests that solving γ-stable instances with γ = o(√log n) might be difficult or even impossible. 
+ 
+Our algorithm is based on semidefinite programming. We show that the standard SDP relaxation for Max Cut (with e22 triangle inequalities) is integral if [EQUATION], where [EQUATION] is the least distortion with which every n point metric space of negative type embeds into e1. On the negative side, we show that the SDP relaxation is not integral when [EQUATION]. Moreover, there is no tractable convex relaxation for γ-stable instances of Max Cut when γ < αSC(n/2). 
+ 
+Our results significantly improve previously known results. The best previously known algorithm for γ-stable instances of Max Cut required that γ ≥ c√n (for some c > 0) [Bilu, Daniely, Linial, and Saks]. No hardness results were known for the problem. 
+ 
+Additionally, we present an exact robust polynomial-time algorithm for 4-stable instances of Minimum Multiway Cut. 
+ 
+We also study a relaxed notion of weak stability and present algorithms for weakly stable instances of Max Cut and Minimum Multiway Cut.

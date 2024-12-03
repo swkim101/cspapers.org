@@ -1,0 +1,1 @@
+An Unobservable MDP (UMDP) is a POMDP in which there are no observations. An Only-Costly-Observable MDP (OCOMDP) is a POMDP which extends an UMDP by allowing a particular costly action which completely observes the state. We introduce UR-MAX, a reinforcement learning algorithm with polynomial interaction complexity for unknown OCOMDPs.

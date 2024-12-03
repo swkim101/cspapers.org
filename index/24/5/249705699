@@ -1,0 +1,1 @@
+This demo is supplementary to the accepted submission #117 "Memory-efficient DNN Training on Mobile Devices", without an extended abstract. We present (1) federated learning and (2) model fine-tuning demo applications on Android smartphones which exploit the low-memory DNN training scheme featured in our paper.

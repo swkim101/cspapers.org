@@ -1,0 +1,1 @@
+Put forward a new information retrieval method based on the query specificity after analyzing the existing problems of information retrieval system. The experiments show that the system has better query performance. Avoid the similarity documents in the first few pages effectively, when the system return a larger set of query documents.

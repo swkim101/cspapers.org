@@ -1,0 +1,1 @@
+This paper presents a method for word sense disambiguation and coherence understanding of prepositional relations. The method relies on information provided by WordNet 1.5. We first classify prepositional attachments according to semantic equivalence of phrase heads and then apply inferential heuristics for understanding the validity of prepositional structures.

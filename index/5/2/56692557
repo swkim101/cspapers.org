@@ -1,0 +1,21 @@
+This is the Second Workshop on Improving Non-English Web Searching (iNEWS'08) held in conjunction with the 17th ACM Conference on Information and Knowledge Management (CIKM 2008) in Napa Valley, California, on 30 October 2008. The First iNEWS'07 Workshop took place in Amsterdam (The Netherlands) in conjunction with the 30th Annual International ACM SIGIR Conference (SIGIR'07). The workshop aims at bringing together researchers interested in the issues surrounding non-English web searching. 
+ 
+Nowadays, over 60% of Internet users are non-English speakers and the number of non-English speaking Internet users is growing faster than the English speaking. Recent studies showed that non-English queries and unclassifiable queries have nearly tripled since 1997. Most search engines were originally engineered for English. These do not take into full account the specifics of non-English languages, such as, inflectional semantics nor diacritics or capitalization. 
+ 
+The main conclusion from the literature is that searching using non-English and non-Latin based queries results in lower retrieval success and requires additional user effort so as to achieve acceptable satisfaction levels. Furthermore, international search engines, like MSN Live, Google and Yahoo, are relatively weaker with monolingual non-English queries. 
+ 
+New tools and resources are needed to support researchers in non-English retrieval, new methodologies need to be proposed which will help the identification of problems in existing search engines and new teaching strategies should be formed aiding users to become more efficient in formulating their queries. Foremost, research in non-English web search should provide an incentive to search engines to improve the retrieval performance of their engines for non-English languages. 
+ 
+Taking into account these needs, the main objectives of this workshop are the proposal of techniques and the evaluation of tools which improve the effectiveness of the existing search engines. This way, the specific aims of the workshop have been to: 
+Evaluate search engines in non-English queries and measure the additional user effort. 
+Define methodologies for evaluating the effectiveness of search engines in non-English queries. 
+Study the user query patterns in non-English Web retrieval. 
+Identify the factors that influence utilization of search engines in a multicultural world. 
+Propose extensions to the search engines to improve non-English Web retrieval. 
+Propose teaching strategies for helping users improve their searching behavior. 
+Identify how standard IR techniques (Indexing, Query representation, Query reformulation, etc) can be adapted in Web retrieval for non-English languages. 
+Discuss the application of natural language processing techniques for non-English Web IR. 
+ 
+ 
+ 
+In response to our call, 27 papers were submitted. Each paper was reviewed by three expert referees in a blind review process. 10 full papers and 7 short papers were selected for oral or poster presentations and appear in these proceedings.

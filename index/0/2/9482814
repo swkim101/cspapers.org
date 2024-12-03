@@ -1,0 +1,4 @@
+
+ 
+ Text and images are two major sources of information in scientific literature. Information from these two media typically reinforce and complement each other, thus simplifying the process for human to extract and comprehend information. However, machines cannot create the links or have the semantic understanding between images and text. We propose to integrate text analysis and image processing techniques to bridge the gap between the two media, and discover knowledge from the combined information sources, which would be otherwise lost by traditional single-media based mining systems. The focus is on the chemical entity extraction task because images are well known to add value to the textual content in chemical literature. Annotation of US chemical patent documents demonstrates the effectiveness of our proposal.
+ 

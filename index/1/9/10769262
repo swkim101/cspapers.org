@@ -1,0 +1,1 @@
+This paper presents a procedure for placing electronic components on a printed circuit board. The procedure is essentially force directed, solving a set of simultaneous nonlinear differential equations which are derived from the laws of physics. The paper derives the set of force equations, then develops an economical method for solving them.

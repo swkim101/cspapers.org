@@ -1,0 +1,3 @@
+The use of a database management system requires the sharing of data between concurrent transactions. In order to preserve the integrity and consistency of the database, it is necessary to provide protection mechanisms between transaction. It has been shown that, by restricting the use of the primitive LOCK and UNLOCK, the consistency of the database can be maintained [1]. 
+ 
+In this paper, another less restricted solution is proposed. By introducing the concepts of permutability of operations and of connected class of entities, it is possible to design scheduling algorithms avoiding inconsistency conflicts. A better caracterisation of operation modes and a new primitive UNCOLOCK is proposed to implement these concepts in a real system.

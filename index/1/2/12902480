@@ -1,0 +1,4 @@
+
+ 
+ We consider optimal route planning when the objective function is a general nonlinear and non-monotonic function. Such an objective models user behavior more accurately, for example, when a user is risk-averse, or the utility function needs to capture a penalty for early arrival. It is known that as non-linearity arises, the problem can become NP-hard and little is known on computing optimal solutions when in addition there is no monotonicity guarantee. We show that an approximately optimal non-simple path can be efficiently computed under some natural constraints. In particular, we provide a fully polynomial approximation scheme under hop constraints. Our approximation algorithm can extend to run in pseudo-polynomial time under an additional linear constraint that sometimes is useful. As a by-product, we show that our algorithm can be applied to the problem of finding a path that is most likely to be on time for a given deadline.
+ 

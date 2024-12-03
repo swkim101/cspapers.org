@@ -1,0 +1,4 @@
+
+ 
+ Maximum entropy inverse reinforcement learning (MaxEnt IRL) is an effective approach for learning the underlying rewards of demonstrated human behavior, while it is intractable in high-dimensional state space due to the exponential growth of calculation cost. In recent years, a few works on approximating MaxEnt IRL in large state spaces by graphs provide successful results, however, types of state space models are quite limited. In this work, we extend them to more generic large state space models with graphs where time interval consistency of Markov decision processes are guaranteed. We validate our proposed method in the context of driving behavior prediction. Experimental results using actual driving data confirm the superiority of our algorithm in both prediction performance and computational cost over other existing IRL frameworks.
+ 

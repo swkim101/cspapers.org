@@ -1,0 +1,5 @@
+This paper describes the development of a practical manipulator system. The manipulator requirements dictated by space exploration, the functional elements which meet those requirements, and the problems encountered in implementing those requirements are discussed. 
+ 
+The paper focuses primarily on the implementation of the functional elements and the real world problems encountered by the manipulator system, as opposed to the specific algorithms and equations, since we feel that these two factors are under emphasized in the literature. 
+ 
+Specific topics discussed include user interfaces, trajectory planning, safety and obstacle avoidance, and link motion control. Implementation emphasis has been placed on flexibility, minimizing complexity, and increasing reliability.

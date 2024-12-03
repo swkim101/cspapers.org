@@ -1,0 +1,15 @@
+Relation classification is a crucial ingredient 
+in numerous information extraction systems 
+seeking to mine structured facts from 
+text. We propose a novel convolutional 
+neural network architecture for this task, 
+relying on two levels of attention in order 
+to better discern patterns in heterogeneous 
+contexts. This architecture enables endto-end 
+learning from task-specific labeled 
+data, forgoing the need for external knowledge 
+such as explicit dependency structures. 
+Experiments show that our model outperforms 
+previous state-of-the-art methods, including 
+those relying on much richer forms 
+of prior knowledge.

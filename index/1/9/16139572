@@ -1,0 +1,1 @@
+Self-reconfigurable, modular robots are distributed mechatronic devices that can change their physical shape; modules are programmed individually but must coordinate across the robot. We present dynamic distributed scope as a programming language abstraction for modular robots, and show how it provides a unified abstraction for the domain.

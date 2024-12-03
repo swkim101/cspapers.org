@@ -1,0 +1,1 @@
+We present a demonstration of WTF (Where's The Fault?), a system that localizes performance problems in home and access networks. We implement WTF as custom firmware that runs in an off-the-shelf home router. WTF uses timing and buffering information from passively monitored traffic at home routers to detect both access link and wireless network bottlenecks.

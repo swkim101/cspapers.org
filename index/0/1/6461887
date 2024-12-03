@@ -1,0 +1,1 @@
+We present a flexible scheme and an optimization algorithm for request routing in Content Delivery Networks (CDN). Our online approach, which is based on Lyapunov theory, provides a stable quality of service to clients, while improving content delivery delays. It also reduces data transport costs for operators.

@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a bottom-up approach to generating short descriptive sentences from images, to enhance scene understanding. We demonstrate automatic methods for mapping the visual content in an image to natural spoken or written language. We also introduce a human-in-the-loop evaluation strategy that quantitatively captures the meaningfulness of the generated sentences. We recorded a correctness rate of 60.34% when human users were asked to judge the meaningfulness of the sentences generated from relatively challenging images. Also, our automatic methods compared well with the state-of-the-art techniques for the related computer vision tasks.
+ 

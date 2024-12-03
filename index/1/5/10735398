@@ -1,0 +1,1 @@
+Building on previous work that introduced a novel indoor positioning concept based on magnetic resonant coupling we describe an improved system to be shown during the UBICOMP 2013 demo session. We improved the magnetic field model, implemented a particle filter for position estimation and a software suite for configuration and calibration of the system.

@@ -1,0 +1,1 @@
+I describe a head-driven parser for a class of grammars that handle discontinuous constituency by a richer notion of string combination than ordinary concatenation. The parser is a generalization of the left-corner parser (Matsumoto et al., 1983) and can be used for grammars written in powerful formalisms such as non-concatenative versions of HPSG (Pollard, 1984; Reape, 1989).

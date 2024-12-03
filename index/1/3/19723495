@@ -1,0 +1,1 @@
+Conventional robots are unable to handle heavy loads as flexing in the loaded link chain results in severe positioning errors. This paper discusses the development of an optoelectronic system which controls the overall movement of a two-link robot while simultaneously correcting for the effects of load-induced structural deflections.

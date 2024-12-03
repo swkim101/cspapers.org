@@ -1,0 +1,4 @@
+
+ 
+ We present a simple EM-based grammar induction algorithm for Combinatory Categorial Grammar (CCG) that achieves state-of-the-art performance by relying on a minimal number of very general linguistic principles. Unlike previous work on unsupervised parsing with CCGs, our approach has no prior language-specific knowledge, and discovers all categories automatically. Additionally, unlike other approaches, our grammar remains robust when parsing longer sentences, performing as well as or better than other systems. We believe this is a natural result of using an expressive grammar formalism with an extended domain of locality.
+ 

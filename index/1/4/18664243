@@ -1,0 +1,1 @@
+We study a time bounded variant of Kolmogorov complexity. This notion, together with universal hashing, can be used to show that problems solvable probabilistically in polynomial time are all within the second level of the polynomial time hierarchy. We also discuss applications to the theory of probabilistic constructions.

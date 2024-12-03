@@ -1,0 +1,4 @@
+
+ 
+ A clustering agreement index quantifies the similarity between two given clusterings. It is most commonly used to compare the results obtained from different clustering algorithms against the ground-truth clustering in the benchmark datasets. In this paper, we present a general Clustering Agreement Index (CAI) for comparing disjoint and overlapping clusterings. CAI is generic and introduces a family of clustering agreement indexes. In particular, the two widely used indexes of Adjusted Rand Index (ARI), and Normalized Mutual Information (NMI), are special cases of the CAI. Our index, therefore, provides overlapping extensions for both these commonly used indexes, whereas their original formulations are only defined for disjoint cases. Lastly, unlike previous indexes, CAI is flexible and can be adapted to incorporate the structure of the data, which is important when comparing clusters in networks, a.k.a communities.
+ 

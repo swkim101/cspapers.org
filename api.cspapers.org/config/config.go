@@ -8,7 +8,7 @@ import (
 )
 
 type Config struct {
-	ConnectionString string `json:"connection_string"`
+	ConnectionString string `json:"connectionString"`
 	Type             string `json:"type"`
 }
 
@@ -16,7 +16,7 @@ type Config struct {
 
 func DefaultValues() *Config {
 	return &Config{
-		ConnectionString: "db.cspaper.org",
+		ConnectionString: "db.cspapers.org",
 		Type:             "bleve",
 	}
 }

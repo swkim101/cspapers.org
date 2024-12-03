@@ -1,0 +1,4 @@
+
+ 
+ I propose to investigate learning in the multiple-instance (MI) framework as a problem of learning from distributions. In many MI applications, bags of instances can be thought of as samples from bag-generating distributions. Recent kernel approaches for learning from distributions have the potential to be successfully applied to these domains and other MI learning problems. Understanding when distribution-based techniques work for MI learning will lead to new theoretical insights, improved algorithms, and more accurate solutions for real-world problems.
+ 

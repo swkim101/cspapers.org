@@ -1,0 +1,4 @@
+
+ 
+ Vendors of all types face the problem of selecting a slate of product offerings—their assortment or catalog—that will maximize their profits. The profitability of a catalog is determined by both customer preferences and the offerings of their competitors. We develop a game-theoretic model for analyzing the vendor catalog optimization problem in the face of competing vendors. We show that computing a best response is intractable in general, but can be solved by dynamic programming given certain informational or structural assumptions about consumer preferences. We also analyze conditions under which pure Nash equilibria exist and provide several price of anarchy/stability results
+ 

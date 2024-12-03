@@ -1,0 +1,5 @@
+For many classification tasks a large number of instances available for training are unlabeled and the cost associated with the labeling process varies over the input space. Meanwhile, virtually all these problems require classifiers that minimize a nonuniform loss function associated with the classification decisions (rather than the accuracy or number of errors). For example, to train pattern classification models for a network intrusion detection task, experts need to analyze network events and assign them labels. This can be a very costly procedure if the instances to be labeled are selected at random. In the meantime, the loss associated with mislabeling an intrusion is much higher than the loss associated with the opposite error (i.e., labeling a legal event as being an intrusion). 
+ 
+As a result, to address these types of tasks, practitioners need tools that minimize the total cost computed as a sum of the cost of labeling and the loss associated with the decisions. 
+ 
+This paper describes an approach for addressing this problem.

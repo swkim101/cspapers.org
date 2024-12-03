@@ -1,0 +1,1 @@
+We translate sentence generation from TAG grammars with semantic and pragmatic information into a planning problem by encoding the contribution of each word declaratively and explicitly. This allows us to exploit the performance of off-the-shelf planners. It also opens up new perspectives on referring expression generation and the relationship between language and action.

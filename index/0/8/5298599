@@ -1,0 +1,5 @@
+No finite sample is sufficient to determine the density, and therefore the entropy, of a signal directly. Some assumption about either the functional form of the density or about its smoothness is necessary. Both amount to a prior over the space of possible density functions. By far the most common approach is to assume that the density has a parametric form. 
+ 
+By contrast we derive a differential learning rule called EMMA that optimizes entropy by way of kernel density estimation. Entropy and its derivative can then be calculated by sampling from this density estimate. The resulting parameter update rule is surprisingly simple and efficient. 
+ 
+We will show how EMMA can be used to detect and correct corruption in magnetic resonance images (MRI). This application is beyond the scope of existing parametric entropy models.

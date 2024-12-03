@@ -1,0 +1,39 @@
+Seq2seq models based on Recurrent Neural Networks
+
+(RNNs) have recently received a lot of attention
+
+in the domain of Semantic Parsing. While
+
+in principle they can be trained directly on pairs
+
+(natural language utterances, logical forms), their
+
+performance is limited by the amount of available
+
+data. To alleviate this problem, we propose to
+
+exploit various sources of prior knowledge: the
+
+well-formedness of the logical forms is modeled
+
+by a weighted context-free grammar; the likelihood
+
+that certain entities present in the input utterance
+
+are also present in the logical form is modeled by
+
+weighted finite-state automata. The grammar and
+
+automata are combined together through an efficient
+
+intersection algorithm to form a soft guide
+
+(“background”) to the RNN.We test our method on
+
+an extension of the Overnight dataset and show that
+
+it not only strongly improves over an RNN baseline,
+
+but also outperforms non-RNN models based
+
+on rich sets of hand-crafted features.

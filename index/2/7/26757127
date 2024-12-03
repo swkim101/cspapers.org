@@ -1,0 +1,1 @@
+This paper describes algorithms used to assimilate one or more range images into an octree model of the three dimensional space surrounding the subject of the range images. In addition, a software package for simulating a three dimensional sensor setup is described.

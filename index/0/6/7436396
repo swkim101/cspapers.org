@@ -1,0 +1,5 @@
+The language Prolog owes much of its increasing popularity to the fact that one can use it to write knowledge based systems in a declarative style, writing a specification which is also executable. When a system written in Prolog produces a yes answer to a question, it can be made to produce an explanation of its reasoning 
+ 
+However, some reasonable specifications written in Prolog do not produce any answer when executed. Also, when a knowledge base answers no to a question, it does not explain why. 
+ 
+This paper describes a new inference engine, called Prolog/Exl. Many programs which do not produce any answer in Prolog do produce answers in Prolog/Exl. Prolog/Exl provides explanations of both yes and no answers.

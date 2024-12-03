@@ -1,0 +1,4 @@
+
+ 
+ One of the primary aspects of sustainable development involves accurate understanding and modeling of environmental phenomena. Many of these phenomena exhibit variations in both space and time and it is imperative to develop a deeper understanding of techniques that can model space-time dynamics accurately. In this paper we propose NOSTILL-GP - NOn-stationary Space TIme variable Latent Length scale GP, a generic non-stationary, spatio-temporal Gaussian Process (GP) model. We present several strategies, for efficient training of our model, necessary for real-world applicability. Extensive empirical validation is performed using three real-world environmental monitoring datasets, with diverse dynamics across space and time. Results from the experiments clearly demonstrate general applicability and effectiveness of our approach for applications in environmental monitoring.
+ 

@@ -1,0 +1,3 @@
+This paper studies commitments in multi agent systems. A dialectical commitment corresponds to an agent taking a position about a putative fact, including for the sake of argument. A practical commitment corresponds to an agent being obliged to another to bring about a condition. Although commitments have been used in many works, an adequate formal semantics and axiomatization for them does not yet exist. 
+ 
+This paper presents a logic of commitments that illustrates the commonalities and differences of the two kinds of commitments. In this manner, it generalizes the developments of previous papers, precisely delineates the meanings of commitments, and identifies important postulates used informally or semiformally in previous work.

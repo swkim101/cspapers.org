@@ -1,0 +1,4 @@
+
+ 
+ Estimating the joint probability density function of a dataset is a central task in many machine learning applications. In this work we address the fundamental problem of kernel bandwidth estimation for variable kernel density estimation in high-dimensional feature spaces. We derive a variable kernel bandwidth estimator by minimizing the leave-one-out entropy objective function and show that this estimator is capable of performing estimation in high-dimensional feature spaces with great success. We compare the performance of this estimator to state-of-the art maximum-likelihood estimators on a number of representative high-dimensional machine learning tasks and show that the newly introduced minimum leave-one-out entropy estimator performs optimally on a number of high-dimensional datasets considered.
+ 

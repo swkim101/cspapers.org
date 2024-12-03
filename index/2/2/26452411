@@ -1,0 +1,1 @@
+We study the descriptive complexity of summation problems in Abelian groups and semigroups. In general, an input to the summation problem consists of an Abelian semigroup G, explicitly represented by its multiplication table, and a subset X of G. The task is to determine the sum over all elements of X.

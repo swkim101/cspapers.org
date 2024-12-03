@@ -1,0 +1,4 @@
+
+ 
+ We develop an online multi-task formulation of model-based gradient temporal-difference (GTD) reinforcement learning. Our approach enables an autonomous RL agent to accumulate knowledge over its lifetime and efficiently share this knowledge between tasks to accelerate learning. Rather than learning a policy for a reinforcement learning task tabula rasa, as in standard GTD, our approach rapidly learns a high performance policy by building upon the agent's previously learned knowledge. Our preliminary results on controlling different mountain car tasks demonstrates that GTD-ELLA significantly improves learning over standard GTD(0).
+ 

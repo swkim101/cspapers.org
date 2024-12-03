@@ -1,0 +1,1 @@
+We propose an approach QRRS (Query Relaxative Ranking SVM) that divides a ranking function into different relaxation steps, so that only cheap features are used in Ranking SVM of early steps for query efficiency. We show search quality in the approach is improved compared to conventional Ranking SVM.

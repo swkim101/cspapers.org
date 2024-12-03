@@ -1,0 +1,4 @@
+
+ 
+ Writing academic articles in English is a challenging task for non-native speakers, as more effort has to be spent to enhance their language expressions. This paper presents an academic writing assistant system called Write-righter, which can provide real-time hint and recommendation by analyzing the input context. To achieve this goal, some novel strategies, e.g., semantic extension based sentence retrieval and LDA based sentence structure identification have been proposed. Write-righter is expected to help people express their ideas correctly by recommending top N most possible expressions.
+ 

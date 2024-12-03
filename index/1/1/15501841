@@ -1,0 +1,4 @@
+
+ 
+ Consider a scenario in which there are multiple employers competing to hire the best possible employee. How does the competition between the employers affect their hiring strategies or their ability to hire one of the best possible candidates? In this paper, we address this question by studying a generalization of the classical secretary problem from optimal stopping theory: a set of ranked employers compete to hire from the same random stream of employees, and each employer wishes to hire the best candidate in the bunch. We show how to derive subgame-perfect Nash equilibrium strategies in this game and analyze the impact the competition has on the quality of the hires as a function of the rank of the employer. We present numerical results from simulations of these strategies.
+ 

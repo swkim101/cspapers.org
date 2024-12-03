@@ -1,0 +1,13 @@
+We consider the communication problem over binary causal adversarial erasure channels. Such a channel maps n input bits to n output symbols in {0, 1, ∧}, where ∧ denotes erasure. The channel is causal if, for every i, the channel adversarially decides whether to erase the ith bit of its input based on inputs 1, ..., i, before it observes bits i+1 to n. Such a channel is p-bounded if it can erase at most a p fraction of the input bits over the whole transmission duration. Causal channels provide a natural model for channels that obey basic physical restrictions but are otherwise unpredictable or highly variable. 
+ 
+For a given erasure rate p, our goal is to understand the optimal rate (the "capacity") at which a randomized encoder/decoder can transmit reliably across all causal p-bounded erasure channels. 
+ 
+In this paper, we introduce the causal erasure model and provide new upper bounds (impossibility results) and lower bounds (analyses of codes) on the achievable rate. Our bounds separate the achievable rate in the causal erasures setting from the rates achievable in two related models: random erasure channels (strictly weaker) and fully adversarial erasure channels (strictly stronger). Specifically, we show: 
+ 
+• A strict separation between random and causal erasures for all constant erasure rates p e (0, 1). In particular, we show that the capacity of causal erasure channels is 0 for p ≥ 1/2 (while it is nonzero for random erasures). 
+ 
+• A strict separation between causal and fully adversarial erasures for p e (0, φ) where φ a 0.348. 
+ 
+• For p e [φ, 1/2), we show codes for causal erasures that have higher rate than the best known constructions for fully adversarial channels. 
+ 
+Our results contrast with existing results on correcting causal bit-flip errors (as opposed to erasures) [10, 9, 7, 4, 11]. For the separations we provide, the analogous separations for bit-flip models are either not known at all or much weaker.

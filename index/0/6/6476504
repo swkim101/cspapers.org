@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we investigate the hybrid tractability of binary Quantified Constraint Satisfaction Problems (QCSPs). First, a basic tractable class of binary QCSPs is identified by using the broken-triangle property. In this class, the variable ordering for the broken-triangle property must be same as that in the prefix of the QCSP. Second, we break this restriction to allow that existentially quantified variables can be shifted within or out of their blocks, and thus identify some novel tractable classes by introducing the broken-angle property. Finally, we identify a more generalized tractable class, i.e., the min-of-max extendable class for QCSPs.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Identifying a small number of features that can represent the data is believed to be NP-hard. Previous approaches exploit algebraic structure and use randomization. We propose an algorithm based on ideas similar to the Weighted A* algorithm in heuristic search. Our experiments show this new algorithm to be more accurate than the current state of the art.
+ 

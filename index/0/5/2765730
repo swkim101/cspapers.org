@@ -1,0 +1,7 @@
+An approximate sparse recovery system in l1 norm makes a small number of measurements of a noisy vector with at most k large entries and recovers those heavy hitters approximately. Formally, it consists of parameters N, k, e, an m-by-N measurement matrix, φ, and a decoding algorithm, D. Given a vector, x, where xk denotes the optimal k-term approximation to x, the system approximates x by [EQUATION], which must satisfy 
+ 
+[EQUATION] 
+ 
+Among the goals in designing such systems are minimizing the number m of measurements and the runtime of the decoding algorithm, D. We consider the "forall" model, in which a single matrix φ, possibly "constructed" non-explicitly using the probabilistic method, is used for all signals x. 
+ 
+Many previous papers have provided algorithms for this problem. But all such algorithms that use the optimal number m = O(k log(N/k)) of measurements require superlinear time Ω(N log(N/k)). In this paper, we give the first algorithm for this problem that uses the optimum number of measurements (up to constant factors) and runs in sublinear time o(N) when k is sufficiently less than N. Specifically, for any positive integer l, our approach uses time O(l5e-3k(N/k)1/l) and uses m = O(l8e-3k log(N/k)) measurements, with access to a data structure requiring space and preprocessing time O(lNk0.2/e).

@@ -1,0 +1,1 @@
+Lattice-based cryptography offers some of the most attractive primitives believed to be resistant to quantum computers. This work introduces "Frodo" - a concrete instantiation of a key agreement mechanism based on hard problems in generic lattices.

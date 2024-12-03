@@ -1,0 +1,1 @@
+Implementing a computerized facial expression analysis system for automatic coding requires that a threshold for the system's classifier outputs be selected. However, there are many potential ways to select a threshold. How do different criteria and metrics compare?

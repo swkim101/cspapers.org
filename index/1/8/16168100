@@ -1,0 +1,3 @@
+The ASKNet project uses a combination of NLP tools and spreading activation to transform natural language text into semantic knowledge networks. Network fragments are generated from input sentences using a parser and semantic analyser, then these fragments are combined using spreading activation based algorithms. 
+ 
+The ultimate goal of the project is to create a semantic resource on a scale that has never before been possible. We have already managed to create networks more than twice as large as any comparable resource(1.5 million nodes, 3.5 million edges) in less than 3 days. This report provides a summary of the project and its current state of development.

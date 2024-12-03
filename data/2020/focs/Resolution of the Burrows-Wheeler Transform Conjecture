@@ -1,3 +1,0 @@
-This paper provides an upper bound for several subsets of maximal repeats and maximal pairs in compressed strings and also presents a formerly unknown relationship between maximal pairs and the run-length Burrows-Wheeler transform. 
-This relationship is used to obtain a different proof for the Burrows-Wheeler conjecture which has recently been proven by Kempa and Kociumaka in "Resolution of the Burrows-Wheeler Transform Conjecture". 
-More formally, this paper proves that a string $S$ with $z$ LZ77-factors and without $q$-th powers has at most $73(\log_2 |S|)(z+2)^2$ runs in the run-length Burrows-Wheeler transform and the number of arcs in the compacted directed acyclic word graph of $S$ is bounded from above by $18q(1+\log_q |S|)(z+2)^2$.

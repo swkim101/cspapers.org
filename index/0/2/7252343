@@ -1,0 +1,4 @@
+
+ 
+ General Game Playing is the design of AI systems able to understand the rules of new games and to use such descriptions to play those games effectively. Games with imperfectinformation have recently been added as a new challenge forexisting general game-playing systems. The HyperPlay technique presents a solution to this challenge by maintaining a collection of models of the true game as a foundation for reasoning, and move selection. The technique provides existing game players with a bolt-on solution to convert from perfect-information games to imperfect-information games. In this paper we describe the HyperPlay technique, show how it was adapted for use with a Monte Carlo decision making process and give experimental results for its performance.
+ 

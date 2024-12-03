@@ -1,0 +1,6 @@
+In an effort to understand the complexity of arithmetic computation, a number of researchers [1,5,7,8,9,11] have studied the following question:
+ <italic>Given</italic> a polynomial f(x),
+ <italic>Find</italic> a minimal cost straightline program that computes f(x).@@@@
+ In this paper this question is generalized to the following question:
+ <italic>Given</italic> a polynomial f(x) and an operator Δ that maps polynomials to sets of polynomials,
+ <italic>Find</italic> a minimal cost straightline program that computes some h(x) ε Δ(f(x)).

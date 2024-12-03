@@ -1,0 +1,4 @@
+This paper presents model studies of some integrated feedback-driven scheduling systems for a multiprogrammed computer system.
+ This abstract can present only the conclusions of the studies and little of the supporting data and detail.
+ The basic format of the analysis is to fix a size for the local buffers and a total size for the collection buffers, to define a set of algorithms for the determination of the data removal quanta to the local buffers, the allocation of space in the collection buffers, and the look-ahead mechanism for input and then to evaluate the relative merits of the various strategies by the resulting CPU efficiency.
+ Three feedback algorithms are studied as examples in this work.

@@ -1,0 +1,1 @@
+A key practical obstacle in applying support vector machines to many large-scale data mining tasks is that SVM's generally scale quadratically (or worse) in the number of examples or support vectors.

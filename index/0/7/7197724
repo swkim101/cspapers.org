@@ -1,0 +1,1 @@
+We investigate whether a neural, encoder-decoder translation system learns syntactic information on the source side as a by-product of training. We propose two methods to detect whether the encoder has learned local and global source syntax. A ﬁne-grained analysis of the syntactic structure learned by the encoder reveals which kinds of syntax are learned and which are missing.

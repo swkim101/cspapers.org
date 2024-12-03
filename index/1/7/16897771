@@ -1,0 +1,1 @@
+We analyze the computational complexity of phonological models as they have developed over the past twenty years. The major results are that generation and recognition are undecidable for segmental models, and that recognition is NP-hard for that portion of segmental phonology subsumed by modern autosegmental models. Formal restrictions are evaluated.

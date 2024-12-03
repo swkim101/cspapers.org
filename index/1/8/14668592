@@ -1,0 +1,1 @@
+In this paper, we show that PLSI and NMF optimize the same objective function, although PLSI and NMF are different algorithms as verified by experiments. In addition, we also propose a new hybrid method that runs PLSI and NMF alternatively to achieve better solutions.

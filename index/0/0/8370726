@@ -1,0 +1,2 @@
+A multiprocessor system is described which is an experiment in low cost, extensible, multiprocessor architectures. Global issues such as inclusion of a central bus, design of the bus arbiter, and methods of interrupt handling are considered.
+ The system initially includes two processor types, based on microprocessors, and these are discussed. Methods for reducing processor demand for the central bus are described.

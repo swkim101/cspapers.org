@@ -1,0 +1,5 @@
+We consider the problem of ranking a set of OT constraints in a manner consistent with data. 
+We speed up Tesar and Smolensky's RCD algorithm to be linear on the number of constraints. This finds a ranking so each attested form x_i beats or ties a particular competitor y_i. We also generalize RCD so each x_i beats or ties all possible competitors. 
+Alas, this more realistic version of learning has no polynomial algorithm unless P=NP! Indeed, not even generation does. So one cannot improve qualitatively upon brute force: 
+Merely checking that a single (given) ranking is consistent with given forms is coNP-complete if the surface forms are fully observed and Delta_2^p-complete if not. Indeed, OT generation is OptP-complete. As for ranking, determining whether any consistent ranking exists is coNP-hard (but in Delta_2^p) if the forms are fully observed, and Sigma_2^p-complete if not. 
+Finally, we show that generation and ranking are easier in derivational theories: in P, and NP-complete.

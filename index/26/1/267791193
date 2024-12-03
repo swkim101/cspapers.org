@@ -1,0 +1,1 @@
+Using a pair of finite-state automata to model the transmitter-receiver protocol in a data communications system, we derive lower bounds on the size of automata needed to achieve reliable communication across an error-phone channel. We also show that, at the cost of increasing the size of the automata, a transmission rate close to the theoretical maximum can be achieved.

@@ -1,0 +1,7 @@
+This paper reports on current work at the University of California at Berkeley whose goal is the design and implementation of a relatively inexpensive, but versatile, experimental, computer-controlled robot suitable for use in either a research or educational setting. The Berkeley robot, dubbed Jason, is nearing comoletion and hardware tests are now being conducted. 
+ 
+Jason is designed so as to permit it to navigate and manipulate simple objects in a real-world environment. It uses a variety of sensory-motor and communication devices; among these are an ultrasonic range, motion, and material detector, an isolated-word speech recognizer, a limited speech synthesizer, six inexpensive proximity detectors, and two arms for simple manipulation, all of which are mounted on a platform chassis. The robot vehicle is remotely controlled, using radio telemetry, by a time-shared, virtual memory, HP-3000 mini-computer, utilizing adaptive learning programs. 
+ 
+Jason was primarily constructed to explore: (1) how an inexpensive, real-world robot system might be designed, and (2) what problems a robot "encounters" and "creates" while performing tasks in a real-world environment populated by humans. 
+ 
+The results of this research will hopefully enable us to design and build better (more reliable and safer) robots at a modest price that are still capable of performing a variety of interesting and useful tasks.

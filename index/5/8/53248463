@@ -1,0 +1,1 @@
+This paper describes a CAD program which checks the circuit topology and the electrical parameters from the IC layout data against the user supplied circuit descriptions. Taking advantage of the hierarchical characteristics of the layout data, the program achieves an efficient analysis and does a clear presentation of the results.

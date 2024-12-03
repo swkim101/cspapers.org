@@ -1,0 +1,1 @@
+This paper proposes HNN, a holistic neural network structure for click-through rate (CTR) prediction in recommender systems. Empirically, equipped with HNN, the performance of deep neural networks for CTR prediction are improved on Criteo and Huawei App Store datasets.

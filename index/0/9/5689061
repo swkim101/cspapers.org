@@ -1,0 +1,1 @@
+This paper presents and verifies the improved version of precision locking that eliminates the locking overhead and deadlock prone aspects of the idea described in [5] and avoids the phantom problem. It extends the algorithm to nested transactions systems.

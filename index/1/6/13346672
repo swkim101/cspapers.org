@@ -1,0 +1,4 @@
+
+ 
+ Commitments help model interactions in multiagent systems in a computationally realizable yet high-level manner without compromising the autonomy and heterogeneity of the member agents. Recent work shows how to combine commitments with goals and apply planning methods to enable agents to determine their actions. However, previous approaches to modeling commitments are confined to propositional representations, which limits their applicability in practical cases. We propose a first-order representation and reasoning technique that accommodates templatic commitments and goals that may be applied repeatedly with differing bindings for domain objects. Doing so not only leads to a more perspicuous modeling, but also supports many practical patterns.
+ 

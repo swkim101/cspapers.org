@@ -1,0 +1,1 @@
+A standard-cell-based layout system for MOS-LSI termed MILD is reported. MILD has several features which seem to be profitable from the practical viewpoint of LSI developers; one of them is that macro blocks such as memory cells can be contained in the chip laid out.

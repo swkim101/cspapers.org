@@ -1,0 +1,4 @@
+
+ 
+ Commonsense reasoning at scale is a core problem for cognitive systems. In this paper, we discuss two ways in which heuristic graph traversal methods can be used to generate plausible inference chains. First, we discuss how Cyc’s predicate-type hierarchy can be used to get reasonable answers to queries. Second, we explain how connection graph-based techniques can be used to identify script-like structures. Finally, we demonstrate through experiments that these methods lead to significant improvement in accuracy for both Q/A and script construction.
+ 

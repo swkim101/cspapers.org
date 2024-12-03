@@ -1,0 +1,1 @@
+This paper explores the use of Bayesian online classifiers to classify text documents. Empirical results indicate that these classifiers are comparable with the best text classification systems. Furthermore, the online approach offers the advantage of continuous learning in the batch-adaptive text filtering task.

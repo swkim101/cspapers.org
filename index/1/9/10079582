@@ -1,0 +1,1 @@
+We bring forward a two-phase semantic service discovery mechanism which supports both the operation matchmaking and operation-composition matchmaking. A serial of experiments on a service management framework show that the mechanism gains better performance on both discovery recall rate and precision than a traditional matchmaker.

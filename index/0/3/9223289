@@ -1,0 +1,4 @@
+
+ 
+ A recent breadth-first branch and bound algorithm (BFBnB)for learning Bayesian network structures (Maloneet al. 2011) uses two bounds to prune the searchspace for better efficiency; one is a lower bound calculatedfrom pattern database heuristics, and the otheris an upper bound obtained by a hill climbing search.Whenever the lower bound of a search path exceeds theupper bound, the path is guaranteed to lead to suboptimalsolutions and is discarded immediately. This paperintroduces methods for tightening the bounds. Thelower bound is tightened by using more informed variablegroupings when creating the pattern databases, andthe upper bound is tightened using an anytime learningalgorithm. Empirical results show that these boundsimprove the efficiency of Bayesian network learning bytwo to three orders of magnitude.
+ 

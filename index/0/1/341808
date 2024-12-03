@@ -1,0 +1,4 @@
+
+ 
+ This paper describes a statistical approach to generation of Chinese classical poetry and proposes a novel method to automatically evaluate poems. The system accepts a set of keywords representing the writing intents from a writer and generates sentences one by one to form a completed poem. A statistical machine translation (SMT) system is applied to generate new sentences, given the sentences generated previously. For each line of sentence a specific model specially trained for that line is used, as opposed to using a single model for all sentences. To enhance the coherence of sentences on every line, a coherence model using mutual information is applied to select candidates with better consistency with previous sentences. In addition, we demonstrate the effectiveness of the BLEU metric for evaluation with a novel method of generating diverse references.
+ 

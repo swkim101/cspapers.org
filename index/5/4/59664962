@@ -1,0 +1,1 @@
+This paper deals with the relationship between the termination of programs and the validity of certain modal formulas. We give a complete proof procedure for theses formulas, which will allow to bring the correctness of these programs back to a problem of automated deduction in modal logic.

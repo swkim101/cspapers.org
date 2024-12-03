@@ -1,0 +1,4 @@
+
+ 
+ This paper proposes a learning strategy that embeds object-part concepts into a pre-trained convolutional neural network (CNN), in an attempt to 1) explore explicit semantics hidden in CNN units and 2) gradually transform the pre-trained CNN into a semantically interpretable graphical model for hierarchical object understanding. Given part annotations on very few (e.g., 3-12) objects, our method mines certain latent patterns from the pre-trained CNN and associates them with different semantic parts. We use a four-layer And-Or graph to organize the CNN units, so as to clarify their internal semantic hierarchy. Our method is guided by a small number of part annotations, and it achieves superior part-localization performance (about 13%-107% improvement in part center prediction on the PASCAL VOC and ImageNet datasets)
+ 

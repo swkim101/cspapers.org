@@ -1,0 +1,4 @@
+
+ 
+ Software developers increasingly rely on information from the Web, such as documents or code examples on Application Programming Interfaces (APIs), to facilitate their development processes. However, API documents often do not include enough information for developers to fully understand the API usages, while searching for good code examples requires non-trivial efforts. To address this problem, we propose a novel code search engine, combining the strength of browsing documents and searching for code examples, by returning documents embedded with high-quality code example summaries mined from the Web. Our evaluation results show that our approach provides code examples with high precision and boosts programmer productivity.
+ 

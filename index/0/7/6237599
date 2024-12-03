@@ -1,0 +1,7 @@
+In [Dague, 1993], a formal system ROM(K) involving four relations has been defmed to reason with relative orders of magnitude. In this paper, problems of introducing guantitative informahon and of ensuring validIty of the results in IR are tackled. 
+ 
+Correspondent overlapping relations are defmed in R and all rules of ROM(K) are transposed to R. Unlike other proposed systems, the obtained system ROM(R) ensures a sound calculus in R, while keeping the ability to provide commonsense explanations of the results. 
+ 
+If needed, these results can be refmed by using additional and complementary techniques: k-bound-consistency, which generalizes interval propagation; symbolic computation, which considerably improves the results by delaying numeric evaluation; symbolic algebra calculus of the roots of partial derivatives, which allows the exact extrema to be obtained; transformation of rational functions, when possible, so that each variable occurs only once, which allows interval propagation to give the exact results. 
+ 
+ROM(R), possibly supplemented by these various techniques, constitutes a rich, powerful and flexible tool for performing mixed qualitative and numeric reasoning, essential for engineering tasks.

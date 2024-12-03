@@ -1,0 +1,4 @@
+
+ 
+ Research on information extraction (IE) seeks to distill relational tuples from natural language text, such as the contents of the WWW. Most IE work has focussed on identifying static facts, encoding them as binary relations. This is unfortunate, because the vast majority of facts are fluents, only holding true during an interval of time. It is less helpful to extract PresidentOf(Bill-Clinton, USA) without the temporal scope 1/20/93 — 1/20/01. This paper presents TIE, a novel, information-extraction system, which distills facts from text while inducing as much temporal information as possible. In addition to recognizing temporal relations between times and events, TIE performs global inference, enforcing transitivity to bound the start and ending times for each event. We introduce the notion of temporal entropy as a way to evaluate the performance of temporal IE systems and present experiments showing that TIE outperforms three alternative approaches.
+ 

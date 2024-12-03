@@ -1,0 +1,1 @@
+We describe an extension of the Markov decision process model in which a continuous time dimension is included in the state space. This allows for the representation and exact solution of a wide range of problems in which transitions or rewards vary over time. We examine problems based on route planning with public transportation and telescope observation scheduling.

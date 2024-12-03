@@ -1,0 +1,1 @@
+There have been many proposals to compute similarities between words based on their distributions in contexts. However, these approaches do not distinguish between synonyms and antonyms. We present two methods for identifying synonyms among distributionally similar words.

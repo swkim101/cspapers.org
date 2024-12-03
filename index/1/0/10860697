@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of predicting winners in elections given complete knowledge about all possible candidates, all possible voters (together with their preferences), but in the case where it is uncertain either which candidates exactly register for the election or which voters cast their votes. Under reasonable assumptions our problems reduce to counting variants of election control problems. We either give polynomial-time algorithms or prove #P-completeness results for counting variants of control by adding/deleting candidates/voters for Plurality, k-Approval, Approval, Condorcet, and Maximin voting rules.
+ 

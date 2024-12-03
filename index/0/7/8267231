@@ -1,0 +1,4 @@
+
+ 
+ Burst detection is an important topic in temporal stream analysis. Usually, only the textual features are used in burst detection. In the theme extraction from current prevailing social media content, it is necessary to consider not only textual features but also the pervasive collaborative context, e.g., resource lifetime and user activity. This paper explores novel approaches to combine multiple sources of such indication for better burst extraction. We systematically investigate the characters of collaborative context, i.e., metadata frequency, topic coverage and user attractiveness. First, a robust state based model is utilized to detect bursts from individual streams. We then propose a learning method to combine these burst pulses. Experiments on a large real dataset demonstrate the remarkable improvements over the traditional methods.
+ 

@@ -1,0 +1,1 @@
+This tutorial is concerned with various aspects of model-based design of hardware/software architectures of automotive systems. It will be split into three parts, the first dealing with model-based analysis of automotive ECU networks, the second with synthesis of schedules for such networks, and finally the third with model-based testing of such architectures.

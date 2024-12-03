@@ -1,0 +1,1 @@
+This paper introduces the RSS Watchdog system, which is capable of news clustering and instant event monitoring over multiple real and online RSS news streams. We briefly mention software architecture design, technical implementation, and prototype demonstration. In addition, the results of real case studies are presented to notice the RSS Watchdog's functionality

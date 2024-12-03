@@ -1,0 +1,1 @@
+We show a directed and robust analogue of a boolean isoperimetric type theorem of Talagrand [13]. As an application, we give a monotonicity testing algorithm that makes O̅(√n/ε<sup>2</sup>) non-adaptive queries to a function f : {0, 1}<sup>n</sup> → {0, 1}, always accepts a monotone function and rejects a function that is ε-far from being monotone with constant probability.

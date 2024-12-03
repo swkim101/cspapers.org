@@ -1,0 +1,1 @@
+We prove that the length of a shortest solution of a word equation of length n can bounded by a double exponential function in n. This applied to the algorithm in [7] proves that the problem of solvability of word equations is in NEXPTIME. The best previously known bound for the problem was EXPSPACE 131.

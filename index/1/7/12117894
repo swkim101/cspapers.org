@@ -1,0 +1,1 @@
+Detecting stale queries in a search engine result cache is an important problem. In this work, we propose a mechanism that propagates the expiration decision for a query to similar queries in the cache to re-adjust their time-to-live values.

@@ -1,0 +1,4 @@
+
+ 
+ Contrary to previous studies on topic evolution that directly extract topics by topic modeling and preset the number of topics, we propose a method of topic evolution based on semantic connection for an adaptive number of topics and rapid responses to the changes of contents. Semantic connection not only indicates the content similarity between documents but also shows the time decay, so semantic connection features can be used to visualize topic evolution, which makes the analyses of changes much easier. Preliminary experimental results demonstrate that our method performs well compared to a state-of-the-art baseline on both qualities of topics and the sensitivity of changes.
+ 

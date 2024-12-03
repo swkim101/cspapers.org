@@ -1,0 +1,4 @@
+
+ 
+ The ability to comprehend wishes or desires and their fulfillment is important to Natural Language Understanding. This paper introduces the task of identifying if a desire expressed by a subject in a given short piece of text was fulfilled. We propose various unstructured and structured models that capture fulfillment cues such as the subject's emotional state and actions. Our experiments with two different datasets demonstrate the importance of understanding the narrative and discourse structure to address this task.
+ 

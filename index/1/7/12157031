@@ -1,0 +1,6 @@
+In this experiment, seven software teams developed versions of the same small-size (2000-4000 source instruction) application software product. Four teams used the Specifying approach. Three teams used the Prototyping approach.
+ The main results of the experiment were:
+ Prototyping yielded products with roughly equivalent performance, but with about 40% less code and 45% less effort.
+ The prototyped products rated somewhat lower on functionality and robustness, but higher on ease of use and ease of learning.
+ Specifying produced more coherent designs and software that was easier to integrate.
+ The paper presents the experimental data supporting these and a number of additional conclusions.

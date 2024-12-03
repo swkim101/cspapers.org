@@ -1,0 +1,13 @@
+It is our pleasure to welcome you to the (pre-workshop) proceedings of the 2nd International Workshop on Context for Software Development (CSD 2015) co-located with the 37th International Conference on Software Engineering (ICSE 2015) to be held in Florence, Italy on May 19th, 2015. 
+ 
+There is a great deal of context that is needed for a developer to fully understand a task, including relevant software artifacts and their change history, requirements, design specifications, dependent tasks, concurrent work, discussions and knowledge exchanges about those tasks and artifacts, and more. In fact, context in software development is multifaceted, and what information is relevant as context for a developer working on a given task is not fully understood. Developers must make use of knowledge gleaned from all of this context to make decisions, coordinate their work, understand the purpose behind their tasks, and understand how their tasks fit with the rest of the project. However, there is little research on what type of context is needed for a developer to complete a task, how we can model context around a task, and how we can use those models in software development at large. 
+ 
+Identifying and modeling context in software development will lay the foundation for future software engineering techniques and tools that leverage development context for better support of software developers as they manage and make use of the copious amount of context around their development tasks. Context is also important for empirical software engineering research since the software development process is dependent on many factors of the development setting and these factors are important to understanding results of research studies. 
+ 
+The goal of the workshop is to bring together researchers interested in developing a better understanding of the context needed for software development. At the workshop, we will discuss: 
+ 
+•the types of context needed to successfully complete a development task 
+ 
+•how to model context around a task 
+ 
+•techniques and tools that leverage context information around development activities for better support of software development activities

@@ -1,0 +1,4 @@
+
+ 
+ Researchers have used Distributed Constraint Optimization Problems (DCOPs) as a powerful approach to model various multi-agent coordination problems, taking into account their preferences and constraints. A core limitation of this model is the assumption that all agents’ preferences are specified a priori. However, in a number of application domains such knowledge become available only after being elicited from users in these domains. In this abstract, we explore the effects of preference elicitation in our motivating application of scheduling smart appliances with the aim of reducing users’ electricity bill cost as well as increasing their comfort.
+ 

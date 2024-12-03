@@ -1,0 +1,1 @@
+Quick Shift is a popular mode-seeking and clustering algorithm. We present finite sample statistical consistency guarantees for Quick Shift on mode and cluster recovery under mild distributional assumptions. We then apply our results to construct a consistent modal regression algorithm.

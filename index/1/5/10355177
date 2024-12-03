@@ -1,0 +1,4 @@
+
+ 
+ Categories are often organized into hierarchical taxonomies, that is, tree structures where each node represents a labeled category, and a node's parent and children are, respectively, the category's supertype and subtypes. A natural question is whether it is possible to reconstruct category taxonomies in cases where we are not given explicit information about how categories are related to each other, but only a sample of observations of the members of each category. In this paper, we introduce a nonparametric Bayesian model of multi-level category learning, an extension of the hierarchical Dirichlet process (HDP) that we call the tree-HDP. We demonstrate the ability of the tree-HDP to reconstruct simulated datasets of artificial taxonomies, and show that it produces similar performance to human learners on a taxonomy inference task.
+ 

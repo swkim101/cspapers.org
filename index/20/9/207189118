@@ -1,0 +1,1 @@
+The main goal of knowledge base population (KBP) is to distill entity information (e.g., facts of a person) from multiple unstructured and semi-structured data sources, and incorporate the information into a knowledge base (KB). In this work, we intend to release an open source KBP toolkit that is publicly available for research purposes.

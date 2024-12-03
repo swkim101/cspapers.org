@@ -1,0 +1,1 @@
+We present an algorithm that provably reconstructs a curve in the framework introduced by Amenta, Bern and Eppstein. The highlights of the algorithm are: (i) it is simple, (ii) it requires a sampling density better than previously known, (iii) it can be adapted for curve reconstruction in higher dimensions straightforwardly.

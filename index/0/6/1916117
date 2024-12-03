@@ -1,0 +1,1 @@
+The paper extends the notion of linear programming boosting to handle uneven datasets. Extensive experiments with text classification problem compare the performance of a number of different boosting strategies, concentrating on the problems posed by uneven datasets.

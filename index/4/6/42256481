@@ -1,0 +1,7 @@
+This paper describes a methodology for the automatic construction of diagnostic expert systems, and its application for fault diagnosis of a satellite's electrical power subsystem. 
+ 
+The synthesised knowledge base is compared with an existing expert system for the same application built using a commercial expert system shell. Both systems have been tested using a real-time satellite simulator which has the capability to fail components. 
+ 
+A traditional knowledge-engineering approach involves building a prototype which is refined until satisfactory results are obtained. This process is error-ridden, as even in small systems, rules can conflict, be irrelevant, or missing. It is never clear when a system is complete and validation is always difficult. 
+ 
+As an alternative, a fault diagnostic knowledge base can be automatically synthesised from a qualitative model of the device. This is achieved by systematically simulating all component failures. Individual failures are used as examples. A learning algorithm is applied to the examples to output a set of diagnostic rules. The resulting rules are complete and consistent with the qualitative model and diagnose component failures in the model 100% accurately. Validation becomes a higher level problem of ensuring that the qualitative simulation accurately models physical device behaviour.

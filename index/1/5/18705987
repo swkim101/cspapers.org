@@ -1,0 +1,4 @@
+
+ 
+ Crowd motion in surveillance videos is comparable to heat motion of basic particles. Inspired by that, we introduce Boltzmann Entropy to measure crowd motion in optical flow field so as to detect abnormal collective behaviors. As a result, the collective crowd moving pattern can be represented as a time series. We found that when most people behave anomaly, the entropy value will increase drastically. Thus, a threshold can be applied to the time series to identify abnormal crowd commotion in a simple and efficient manner without machine learning. The experimental results show promising performance compared with the state of the art methods. The system works in real time with high precision.
+ 

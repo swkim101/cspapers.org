@@ -1,0 +1,5 @@
+A glossy highlight, viewed stereoscopically, can provide information about surface shape. For example, highlights appear to lie behind convex surfaces but in front of concave ones. 
+ 
+A highlight is a distorted, reflected image of a light source. A ray equation is developed to predict the stereo disparities generated when a point source of light is reflected in a smooth, curved surface. This equation can be inverted to infer surface curvature properties from observed stereo disparities of the highlight. To obtain full information about surface curvature in the neighbourhood of the highlight, stereo with two different baselines or stereo with motion parallax is required. 
+ 
+The same ray equation can also be used to predict the monocular appearance of a distributed source. A circular source, for instance, may produce an elliptical specular patch in an image, and the dimensions of the ellipse help to determine surface shape.

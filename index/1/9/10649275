@@ -1,0 +1,4 @@
+
+ 
+ In online bandit learning, the learner aims to minimize a sequence of losses, while only observing the value of each loss at a single point. Although various algorithms and theories have been developed for online bandit learning, most of them are limited to convex losses. In this paper, we investigate the problem of online bandit learning with non-convex losses, and develop an efficient algorithm with formal theoretical guarantees. To be specific, we consider a class of losses which is a composition of a non-increasing scalar function and a linear function. This setting models a wide range of supervised learning applications such as online classification with a non-convex loss. Theoretical analysis shows that our algorithm achieves an O(poly(d)T2/3) regret bound when the variation of the loss function is small. To the best of our knowledge, this is the first work in online bandit learning that does not rely on convexity.
+ 

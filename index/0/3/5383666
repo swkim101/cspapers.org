@@ -1,0 +1,1 @@
+We report results of experiments aimed at improving the translation quality by incorporating the cognate information into translation models. The results confirm that the cognate identification approach can improve the quality of word alignment in bitexts without the need for extra resources.

@@ -1,0 +1,1 @@
+In recent years, many dense optical flow algorithms have been presented. Besides the actual result, the confidence of the result is of uttermost importance for safety-critical applications using flow. We focus on the determination of the confidence of optical flow.

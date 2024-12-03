@@ -1,0 +1,1 @@
+We look at problems involving finding subgraphs in larger graphs, such as the maximum clique problem, the subgraph isomorphism problem, and the maximum common subgraph problem. We investigate variable and value ordering heuristics, different inference strategies, intelligent backtracking search (backjumping), and bit- and thread-parallelism to exploit modern hardware.

@@ -1,0 +1,7 @@
+In this paper, we summarize our recent work in analyz- 
+ing and predicting behaviors in sports using spatiotemporal 
+data. We specifically focus on two recent works: 
+ 
+1) Predicting the location of shot in tennis using Hawk-Eye tennis data, and 
+ 
+2) Clustering spatiotemporal plays in soccer to discover the methods in which they get a shot on goal from a professional league.

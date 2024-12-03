@@ -1,0 +1,1 @@
+This paper demonstrates Treo, a natural language query mechanism for Linked Data graphs. The approach uses a distributional semantic vector space model to semantically match user query terms with data, supporting vocabulary-independent (or schema-agnostic) queries over structured data.

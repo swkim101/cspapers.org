@@ -1,0 +1,1 @@
+We discuss a psuedorandom generator to $\epsilon$-fool degree-d polynomial threshold functions with respect to the Gaussian distribution with seed length $2^O_c(d)\log(n) \epsilon^{-4-c}$. Our analysis involves several new ideas including what we term the "noisy derivative" of a function and a stronger version of standard anticoncentration results.

@@ -1,0 +1,4 @@
+
+ 
+ Identifying important components or factors in large amounts of noisy data is a key problem in machine learning and data mining. Motivated by a pattern decomposition problem in materials discovery, aimed at discovering new materials for renewable energy, e.g. for fuel and solar cells, we introduce CombiFD, a framework for factor based pattern decomposition that allows the incorporation of a-priori knowledge as constraints, including complex combinatorial constraints. In addition, we propose a new pattern decomposition algorithm, called AMIQO, based on solving a sequence of (mixed-integer) quadratic programs. Our approach considerably outperforms the state of the art on the materials discovery problem, scaling to larger datasets and recovering more precise and physically meaningful decompositions. We also show the effectiveness of our approach for enforcing background knowledge on other application domains.
+ 

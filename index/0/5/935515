@@ -1,0 +1,1 @@
+We present the multilingual summarization functionality for VERB-MOBIL, a speech translation system. We reuse resources of the system to create a summary. After content extraction, we interpret the results in the dialog context. A summary generator provides the input to generation. A first evaluation indicates the feasibility of the approach.

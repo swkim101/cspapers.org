@@ -1,0 +1,1 @@
+An intelligent agent must plan future deductions and anticipate what other agents will deduce from their beliefs- Creary (1979) proposed to do this by simulation. Often the agent's future beliefs, or the beliefs of other agents, involve terms unknown to the agent at simulation time. This paper shows how to extend Creary technique to handle this case.

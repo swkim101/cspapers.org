@@ -1,0 +1,4 @@
+
+ 
+ Many existing approaches employ one-vs-rest method to decompose a multi-label classification problem into a set of 2- class classification problems, one for each class. This method is valid in traditional single-label classification, it, however, incurs training inconsistency in multi-label classification, because in the latter a data point could belong to more than one class. In order to deal with this problem, in this work, we further develop classicalK-Nearest Neighbor classifier and propose a novel Class Balanced K-Nearest Neighbor approach for multi-label classification by emphasizing balanced usage of data from all the classes. In addition, we also propose a Class Balanced Linear Discriminant Analysis approach to address high-dimensional multi-label input data. Promising experimental results on three broadly used multi-label data sets demonstrate the effectiveness of our approach.
+ 

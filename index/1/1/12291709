@@ -1,0 +1,4 @@
+
+ 
+ Most previous work on video description trains individualparts of speech independently. It is more appealing from a linguistic point of view, for word models for all parts of speech to be learned simultaneously from whole sentences, a hypothesis suggested by some linguists for child language acquisition. In this paper, we learn to describe video by discriminatively training positive sentential labels against negative ones in a weakly supervised fashion: the meaning representations (i.e., HMMs) of individual words in these labels are learned from whole sentences without any correspondence annotation of what those words denote in the video. Textual descriptions are then generated for new video using trained word models.
+ 

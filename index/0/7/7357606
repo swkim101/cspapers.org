@@ -1,0 +1,3 @@
+Nivre's method was improved by enhancing deterministic dependency parsing through application of a tree-based model. The model considers all words necessary for selection of parsing actions by including words in the form of trees. It chooses the most probable head candidate from among the trees and uses this candidate to select a parsing action. 
+ 
+In an evaluation experiment using the Penn Treebank (WSJ section), the proposed model achieved higher accuracy than did previous deterministic models. Although the proposed model's worst-case time complexity is O(n2), the experimental results demonstrated an average parsing time not much slower than O(n).

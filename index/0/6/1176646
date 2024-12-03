@@ -1,0 +1,4 @@
+
+ 
+ Online advertising is an important and huge industry. Having knowledge of the website attributes can contribute greatly to business strategies for ad-targeting, content display, inventory purchase or revenue prediction. In this paper, we introduce a stochastic blockmodeling for the website relations induced by the event of online user visitation. We propose two clustering algorithms to discover the intrinsic structures of websites, and compare the performance with a goodness-of-fit method and a deterministic graph partitioning method. We demonstrate the effectiveness of our algorithms on both simulation and AOL website dataset.
+ 

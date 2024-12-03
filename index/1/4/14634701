@@ -1,0 +1,4 @@
+
+ 
+ Quantile regression deals with the problem of computing robust estimators when the conditional mean and standard deviation of the predicted function are inadequate to capture its variability. The technique has an extensive list of applications, including health sciences, ecology and finance. In this work we present a non-parametric method of inferring quantiles and derive a novel Variational Bayesian (VB) approximation to the marginal likelihood, leading to an elegant Expectation Maximisation algorithm for learning the model. Our method is nonparametric, has strong convergence guarantees, and can deal with nonsymmetric quantiles seamlessly. We compare the method to other parametric and non-parametric Bayesian techniques, and alternative approximations based on expectation propagation demonstrating the benefits of our framework in toy problems and real datasets.
+ 

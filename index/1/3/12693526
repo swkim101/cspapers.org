@@ -1,0 +1,4 @@
+
+ 
+ Various representations and inference methods have been proposed for lifted probabilistic inference in relational models. Many of these methods choose an order to eliminate (or branch on) the parameterized random variables. Similar to such methods for non-relational probabilistic inference, the order of elimination has a significant role in the performance of the algorithms. Since finding the best order is NP-complete even for non-relational models, heuristics have been proposed to find good orderings in the non-relational models. In this paper, we show that these heuristics are inefficient for relational models, because they fail to consider the population sizes associated with logical variables. We extend existing heuristics for non-relational models and propose new heuristics for relational models. We evaluate the existing and new heuristics on a range of generated relational graphs.
+ 

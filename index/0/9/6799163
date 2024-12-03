@@ -1,0 +1,1 @@
+Oak Ridge National Laboratory recently received 27 32-way IBM pSeries 690 SMP nodes. In this paper, we describe our initial evaluation of the p690 architecture, focusing on the performance of benchmarks and applications that are representative of the expected production workload.

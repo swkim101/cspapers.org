@@ -1,0 +1,4 @@
+
+ 
+ This paper discusses the design of an introductory computer science course for high school students using declarative programming. Though not often taught at the K-12 level, declarative programming is a viable paradigm for teaching computer science due to its importance in artificial intelligence and in helping student explore and understand problem spaces. This paper describes the authors' implementation of a declarative programming course for high school students during a 4-week summer session.
+ 

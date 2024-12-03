@@ -1,0 +1,4 @@
+
+ 
+ We introduce a new method to find semantic inconsistencies (i.e., concepts with erroneous synonymity) in the Unified Medical Language System (UMLS). The idea is to identify the inconsistencies by comparing the semantic groups of hierarchically-related concepts using Answer Set Programming. With this method, we identified several inconsistent concepts in UMLS and discovered an interesting semantic pattern along hierarchies, which seems associated with wrong synonymy.
+ 

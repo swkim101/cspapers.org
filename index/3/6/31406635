@@ -1,0 +1,1 @@
+What is the nature of expertise? This paper posits an answer to that question in the domain of geometry problem-solving. We present a computer program called POLYA which makes use of explicit planning knowledge to solve geometry proof problems, integrating the processes of parsing the diagram and writing the proof.

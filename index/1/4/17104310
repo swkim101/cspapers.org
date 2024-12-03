@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we study the knowledge compilation task for propositional epistemic logic S5. We first extend many of the queries and transformations considered in the classical knowledge compilation map to S5. We then show that the notion of disjunctive normal form (DNF) can be profitably extended to the epistemic case; we prove that the DNF fragment of S5, when appropriately defined, satisfies essentially the same queries and transformations as its classical counterpart.
+ 

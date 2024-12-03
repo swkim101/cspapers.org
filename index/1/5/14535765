@@ -1,0 +1,5 @@
+This paper illustrates an approach to designing software information systems. We have found this strategy to be sufficiently systematic and practically useful enough to merit exposition for a wider audience. The most novel aspect of our approach is how we analyze the problem in successive steps to produce a logical design. Briefly, the steps are:
+ (1) identify the (classes of) things in the problem's context and the invariant relationships between them.
+ (2) for each (class of) thing that is of central importance to the problem describe the main stages and transitions in the thing's “life” with respect to the problem,
+ (3) synthesize the logical data base structure with attributes determined for all record types using results from the previous two steps.
+ These three steps are the way we model static and dynamic aspects of data as a prerequisite to designing information systems.

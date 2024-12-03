@@ -1,0 +1,4 @@
+
+ 
+ In this paper, a general Maximum K-Min approach for classification is proposed, which focuses on maximizing the gain obtained by the K worst-classified instances while ignoring the remaining ones. To make the original optimization problem with combinational constraints computationally tractable,  the optimization techniques are adopted and a general compact representation lemma is summarized. Based on the lemma, a Nonlinear Maximum K-Min (NMKM) classifier is presented and the experiment results demonstrate the superior performance of the Maximum K-Min Approach.
+ 

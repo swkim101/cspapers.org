@@ -1,0 +1,3 @@
+We consider solutions for distributed multicommodity flow problems, which are solved by multiple agents operating in a cooperative but uncoordinated manner. We show first distributed solutions that allow 1 + ε approximation and whose convergence time is essentially linear in the maximal path length, and is independent of the number of commodities and the size of the graph.
+ Our algorithms use a very natural approximate steepest descent framework, combined with a blocking flow technique to speed up the convergence in distributed and parallel environment.
+ Previously known solutions that achieved comparable convergence time and approximation ratio required exponential computational and space overhead per agent.

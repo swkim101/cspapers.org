@@ -1,0 +1,4 @@
+
+ 
+ We introduce a new application of online dialogue analysis: supporting pedagogical assessment of online Q&A discussions. Extending the existing speech act framework, we capture common emotional expressions that often appear in student discussions, such as frustration and degree of certainty, and present a viable approach for the classification. We demonstrate how such dialogue information can be used in analyzing student discussions and identifying difficulties. In particular, the difficulty expressions are aligned to discussion patterns and student performance. We found that frustration occurs more frequently in longer discussions. The students who frequently express frustration tend to get lower grades than others. On the other hand, frequency of high certainty expressions is positively correlated with the performance. We expect such online dialogue analyses can become a powerful assessment tool for instructors and education researchers.
+ 

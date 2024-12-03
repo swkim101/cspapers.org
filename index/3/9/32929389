@@ -1,0 +1,1 @@
+A novel network type is introduced which uses unit-length 2-vectors for local variables. As an example of its applications, associative memory nets are defined and their performance analyzed. Real systems corresponding to such 'phasor' models can be e.g. (neuro)biological networks of limit-cycle oscillators or optical resonators that have a hologram in their feedback path.

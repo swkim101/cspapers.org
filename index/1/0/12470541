@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of consistency checking for constraint networks over combined qualitative formalisms. We propose a framework which encompasses loose integrations and a form of spatio-temporal reasoning. In particular, we identify sufficient conditions ensuring the polynomiality of consistency checking, and we use them to find tractable subclasses.
+ 

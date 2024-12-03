@@ -1,0 +1,4 @@
+
+ 
+ Driven by recent developments in Artificial Intelligence research, a promising new technology for building intelligent agents has evolved. The approach is termed Deep Reinforcement Learning and combines the classic field of Reinforcement Learning (RL) with the representational power of modern Deep Learning approaches. It is very well suited for single task learning but needs a long time to learn any new task. To speed up this process, we propose to extend the concept to multi-task learning by adapting Policy Reuse, a Transfer Learning approach from classic RL, to use with Deep Q-Networks.
+ 

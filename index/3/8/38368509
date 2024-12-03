@@ -1,0 +1,5 @@
+A research project for improving the recognition of fluently spoken German speech is presented. The work is in progress at present. 
+ 
+It should be investigated, how far aspects of semantics and inferences could improve the automatic speech recognition. The work is part of a speech recognition system that receives speech signals, converts them into forms suitable for further actions and finally puts out the spoken text in characters. The system itself operates at three stages. Within the first one the signal analysis is performed using a well-known method. This analysis segments the signal into certain subword units and, for each segment, produces a set of weighted candidates. At the second stage these candidates are used to generate weighted word hypotheses with the aid of an extensive lexicon. The hypotheses have to be verified or falsified within the following processing steps at the third stage. Thereby the algorithm uses a best - first strategy (hypotheses with highest weight first). 
+ 
+Besides syntactic/grammatical aspects, semantic analysis and inferences mentioned above are the methods, that should lead to a certain text-comprehension.

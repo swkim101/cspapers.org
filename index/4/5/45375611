@@ -1,0 +1,4 @@
+
+ 
+ Feature extraction is an important task in machine learning. In this paper, we present a simple and efficient method, named max-margin data shifting (MMDS), to process the data before feature extraction. By relying on a large-margin classifier, MMDS is helpful to enhance the discriminative ability of subsequent feature extractors. The kernel trick can be applied to extract nonlinear features from input data. We further analyze in detail the example of principal component analysis (PCA). The empirical results on multiple linear and nonlinear models demonstrate that MMDS can efficiently improve the performance of unsupervised extractors.
+ 

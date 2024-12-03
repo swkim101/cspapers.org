@@ -1,0 +1,1 @@
+This paper illustrates the methodology of the CMU Design Automation system by presenting an automated design of the PDP-8/E data paths from a functional description. This automated design (using synthesis techniques) is compared both to DEC's implementation and the Intersil single chip implementation.

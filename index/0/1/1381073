@@ -1,0 +1,13 @@
+We study two fundamental problems related to finding subgraphs: (1) given graphs G and H, Subgraph Test asks if H is isomorphic to a subgraph of G, (2) given graphs G, H, and an integer t, Packing asks if G contains t vertex-disjoint subgraphs isomorphic to H. For every graph class F, let F-Subgraph Test and F-Packing be the special cases of the two problems where H is restricted to be in F. Our goal is to study which classes F make the two problems tractable in one of the following senses: 
+ 
+• (randomized) polynomial-time solvable, 
+ 
+• admits a polynomial (many-one) kernel (that is, has a polynomial-time preprocessing procedure that creates an equivalent instance whose size is polynomially bounded by the size of the solution), or 
+ 
+• admits a polynomial Turing kernel (that is, has an adaptive polynomial-time procedure that reduces the problem to a polynomial number of instances, each of which has size bounded polynomially by the size of the solution). 
+ 
+To obtain a more robust setting, we restrict our attention to hereditary classes F. 
+ 
+It is known that if every component of every graph in F has at most two vertices, then F-Packing is polynomial-time solvable, and NP-hard otherwise. We identify a simple combinatorial property (every component of every graph in F either has bounded size or is a bipartite graph with one of the sides having bounded size) such that if a hereditary class F has this property, then F-Packing admits a polynomial kernel, and has no polynomial (many-one) kernel otherwise, unless the polynomial hierarchy collapses. Furthermore, if F does not have this property, then F-Packing is either WK[1]-hard, W[1]-hard, or Long Path-hard, giving evidence that it does not admit polynomial Turing kernels either. 
+ 
+For F-Subgraph Test, we show that if every graph of a hereditary class F satisfies the property that it is possible to delete a bounded number of vertices such that every remaining component has size at most two, then F-Subgraph Test is solvable in randomized polynomial time and it is NP-hard otherwise. We introduce a combinatorial property called (a, b, c, d)-splittability and show that if every graph in a hereditary class F has this property, then F-Subgraph Test admits a polynomial Turing kernel and it is WK[1]-hard, W[1]-hard, or Long Path-hard otherwise. We do not give a complete characterization of the cases when F-Subgraph Test admits polynomial many-one kernels, but show examples that this question is much more fragile than the characterization for Turing kernels.

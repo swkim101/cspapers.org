@@ -1,0 +1,4 @@
+
+ 
+ Potential heuristics for state-space search are defined as weighted sums over simple state features. Atomic features consider the value of a single state variable in a factored state representation, while binary features consider joint assignments to two state variables. Previous work showed that the set of all admissible and consistent potential heuristics using atomic features can be characterized by a compact set of linear constraints. We generalize this result to binary features and prove a hardness result for features of higher dimension. Furthermore, we prove a tractability result based on the treewidth of a new graphical structure we call the context-dependency graph. Finally, we study the relationship of potential heuristics to transition cost partitioning. Experimental results show that binary potential heuristics are significantly more informative than the previously considered atomic ones.
+ 

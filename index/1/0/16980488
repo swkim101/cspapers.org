@@ -1,0 +1,1 @@
+In this paper we address the task of automatically finding an expert within the organization, known as the expert search problem. We present the theoretically-based probabilistic algorithm which models retrieved documents as mixtures of expert candidate language models. Experiments show that our approach outperforms existing theoretically sound solutions.

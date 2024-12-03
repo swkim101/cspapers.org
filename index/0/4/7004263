@@ -1,0 +1,1 @@
+An efficient planning algorithm for the hexagonal metamorphic self-reconfiguring system (SRS) is presented. Empirically, the algorithm achieves an time complexity of O(n) averaged over random problem instances. The planning algorithm is capable of solving approximately 97% of planning tasks in the general state space of configurations containing less than 20,000 units.

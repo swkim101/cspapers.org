@@ -1,0 +1,15 @@
+The Grothendieck constant KG is the smallest constant such that for every d ∈ N and every matrix A = (aij), 
+ 
+[EQUATION] 
+ 
+where B(d) is the unit ball in Rd. Despite several efforts [15, 23], the value of the constant KG remains unknown. The Grothendieck constant KG is precisely the integrality gap of a natural SDP relaxation for the KM, N-Quadratic Programming problem. The input to this problem is a matrix A = (aij) and the objective is to maximize the quadratic form Σij aijxiyj over xiyj ∈ [−1, 1]. 
+ 
+In this work, we apply techniques from [22] to the KM, N-Quadratic Programming problem. Using some standard but non-trivial modifications, the reduction in [22] yields the following hardness result: Assuming the Unique Games Conjecture [9], it is NP-hard to approximate the KM, N-Quadratic Programming problem to any factor better than the Grothendieck constant KG. 
+ 
+By adapting a "bootstrapping" argument used in a proof of Grothendieck inequality [5], we are able to perform a tighter analysis than [22]. Through this careful analysis, we obtain the following new results: 
+ 
+• An approximation algorithm for KM, N-Quadratic Programming that is guaranteed to achieve an approximation ratio arbitrarily close to the Grothendieck constant KG (optimal approximation ratio assuming the Unique Games Conjecture). 
+ 
+• We show that the Grothendieck constant KG can be computed within an error η, in time depending only on η. Specifically, for each η, we formulate an explicit finite linear program, whose optimum is η-close to the Grothendieck constant. 
+ 
+We also exhibit a simple family of operators on the Gaussian Hilbert space that is guaranteed to contain tight examples for the Grothendieck inequality.

@@ -1,0 +1,1 @@
+A novel two-terminal device, consisting of a thin 1000A layer of p+ a-Si:H sandwiched between Vanadium and Chromium electrodes, exhibits a non-volatile, analogue memory action. This device stores synaptic weights in an ANN chip, replacing the capacitor previously used for dynamic weight storage. Two different synapse designs are discussed and results are presented.

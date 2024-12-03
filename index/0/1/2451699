@@ -1,0 +1,1 @@
+We present a novel probabilistic rating system for team competitions. Building upon TrueSkillTM, we change the factor graph structure to cope with the problems of TrueSkillTM, e.g., multiway ties and variable team size. We give detailed inference algorithms for the new structure. Experimental results show a significant improvement over TrueSkillTM.

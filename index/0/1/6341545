@@ -1,0 +1,1 @@
+We developed caitra, a novel tool that aids human translators by (a) making suggestions for sentence completion in an interactive machine translation setting, (b) providing alternative word and phrase translations, and (c) allowing them to post-edit machine translation output. The tool uses the Moses decoder, is implemented in Ruby on Rails and C++ and delivered over the web.

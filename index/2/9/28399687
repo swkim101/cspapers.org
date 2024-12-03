@@ -1,0 +1,4 @@
+
+ 
+ Goal Recognition Design involves identifying the best ways to modify an underlying environment that agents operate in, typically by making asubset of feasible actions infeasible, so that agents are forced to reveal their goals as early as possible. Thus far, existing work has focused exclusively on imperative classical planning. In this paper, we address the same problem with a different paradigm, namely, declarative approaches based on Answer Set Programming (ASP). Our experimental results show that one of our ASP encodings is more scalable and is significantly faster by up to three orders of magnitude than thecurrent state of the art.
+ 

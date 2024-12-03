@@ -1,0 +1,1 @@
+We study a countermeasure proposed to protect Chinese remainder theorem (CRT) computations for RSA against fault attacks. The scheme was claimed to be provably secure. However, we demonstrate that the proposal is in fact insecure: it can be broken with a simple and practical fault attack. We conclude that the proposed countermeasure is not safe for use in its present form.

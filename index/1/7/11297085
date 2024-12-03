@@ -1,0 +1,1 @@
+We suggest an approach to automated round-trip software engineering in source-level aspect weaving systems that allows for transparent mapping of manual edits in the woven program back to the appropriate source of origin, which is either the application core or the aspect space

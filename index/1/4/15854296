@@ -1,0 +1,4 @@
+
+ 
+ Timelines are a formalism to model planning domains where the  temporal aspects are predominant, and have been used in many  real-world applications. Despite their practical success, a major limitation is the inability  to model temporal uncertainty, i.e. the plan executor cannot decide  the duration of some activities.In this paper we make two key contributions. First, we propose a comprehensive, semantically well founded framework that  (conservatively) extends with temporal uncertainty the state of the  art timeline approach. Second, we focus on the problem of producing time-triggered plans  that are robust with respect to temporal uncertainty, under a  bounded horizon. In this setting, we present the first complete  algorithm, and we show how it can be made practical by leveraging  the power of Satisfiability Modulo Theories.
+ 

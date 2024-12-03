@@ -1,0 +1,4 @@
+
+ 
+ Keyphrases for a document concisely describe the document using a small set of phrases. Keyphrases were previously shown to improve several document processing and retrieval tasks. In this work, we study keyphrase extraction from research papers by leveraging citation networks. We propose CiteTextRank for keyphrase extraction from research articles, a graph-based algorithm that incorporates evidence from both a document's content as well as the contexts in which the document is referenced within a citation network. Our model obtains significant improvements over the state-of-the-art models for this task. Specifically, on several datasets of research papers, CiteTextRank improves precision at rank 1 by as much as 9-20% over state-of-the-art baselines.
+ 

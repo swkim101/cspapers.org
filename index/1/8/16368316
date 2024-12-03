@@ -1,0 +1,4 @@
+
+ 
+ Scoring involves the compression of a number of quantitative attributes into a single meaningful value. We consider the problem of how to generate scores in a setting where they should be weakly monotone (either non-increasing or non-decreasing) in their dimensions. Our approach allows an expert to score an arbitrary set of points to produce meaningful, continuous, monotone scores over the entire domain, while exactly interpolating through those inputs. In contrast, existing monotone interpolating methods only work in two dimensions and typically require exhaustive grid input. Our technique significantly lowers the bar to score creation, allowing domain experts to develop mathematically coherent scores. The method is used in practice to create the LEED Performance scores that gauge building sustainability.
+ 

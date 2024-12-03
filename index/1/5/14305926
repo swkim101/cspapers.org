@@ -1,0 +1,1 @@
+Aiming at ontology-based data access over temporal, in particular streaming data, we design a language of ontology-mediated queries by extending OWL2 QL and SPARQL with temporal operators, and investigate rewritability of these queries into two-sorted first-order logic with < and PLUS over time.

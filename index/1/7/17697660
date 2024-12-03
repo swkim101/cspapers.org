@@ -1,0 +1,1 @@
+In this paper, a new clustering algorithm has been described. The algorithm proposed determines both the number of clusters in a collection, and the number of elements in each cluster before beginning the final clustering process. The complexity assessment of the algorithm and the implementation issues are also emphasized.

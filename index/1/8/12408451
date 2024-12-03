@@ -1,0 +1,4 @@
+
+ 
+ Methods for discovering causal knowledge from observational data have been a persistent topic of AI research for several decades. Essentially all of this work focuses on knowledge representations for propositional domains. In this paper, we present several key algorithmic and theoretical innovations that extend causal discovery to relational domains. We provide strong evidence that effective learning of causal models is enhanced by relational representations. We present an algorithm, relational PC, that learns causal dependencies in a state-of-the-art relational representation, and we identify the key representational and algorithmic innovations that make the algorithm possible. Finally, we prove the algorithm's theoretical correctness and demonstrate its effectiveness on synthetic and real data sets.
+ 

@@ -1,0 +1,1 @@
+We prove generalization error bounds for predicting entries in a partially observed matrix by fitting the observed entries with a low-rank matrix. In justifying the analysis approach we take to obtain the bounds, we present an example of a class of functions of finite pseudodimension such that the sums of functions from this class have unbounded pseudodimension.

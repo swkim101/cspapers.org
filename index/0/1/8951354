@@ -1,0 +1,4 @@
+
+ 
+ This paper describes a learning-based approach for automatic derivation of word variant forms bythe suffixation process. We employ the sequence labeling technique, which entails learning when to preserve, delete, substitute, or add a letter to form a new word from a given word. The features used by the learner are based on characters, phonetics, and hyphenation positions of the given word. To ensure that our system is robust to word variants that can arise from different forms of a root word, we generate multiple variant hypothesis for each word based on the sequence labeler's prediction. We then filter out ill-formed predictions, and create clusters of word variants by merging together a word and its predicted variants with other words and their predicted variants provided the groups share a word in common. Our results show that this learning-based approach is feasible for the task and warrants further exploration.
+ 

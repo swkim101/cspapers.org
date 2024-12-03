@@ -1,0 +1,7 @@
+
+ In this study, following the concept of set-based design, after preparing global calculation results, we introduced the approach of setting the design solution area that satisfies the product performance goals of the system design. In this approach, from the viewpoint of considering uncertainty, we aimed to develop an analysis method that can get the organic relationship between target variables and design variables. And more, under the assumption that it is difficult to comprehend the full picture of products that are becoming more sophisticated and complex with the knowledge that has been fostered by skilled engineers, the proposed system uses the objective calculation indices that is provided knowledge of the designer. Specifically, the following method are proposed to solve the problem.
+ - Implementation of meta-modeling of design space.
+ - Classified solution space using a density-based clustering method to detect that the solution spaces are divided into multiple disconnected space.
+ - Defined an index called distribution concentration and expressed the possibility of dealing with the uncertainty of the solution domain.
+ - The network diagram based on the calculated index values was proposed to confirm the change in the characteristics of the solution space when the performance target of the product was changed.
+ Finally, the effectiveness of the proposed method was verified by applying it to actual simulation results.

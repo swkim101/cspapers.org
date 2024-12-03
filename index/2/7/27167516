@@ -1,0 +1,1 @@
+In this introductory tutorial we give an overview of click models for web search. We show how the framework of probabilistic graphical models help to explain user behavior, build new evaluation metrics and perform simulations. The tutorial is augmented with a live demo where participants have a chance to implement a click model and to test it on a publicly available dataset.

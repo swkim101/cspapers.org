@@ -1,0 +1,4 @@
+
+ 
+ While MDPs are powerful tools for modeling sequential decision making problems under uncertainty, they are sensitive to the accuracy of their parameters. MDPs with uncertainty in their parameters are called Uncertain MDPs. In this paper, we introduce a general framework that allows off-the-shelf MDP algorithms to solve Uncertain MDPs by planning based on currently available information and replan if and when the problem changes. We demonstrate the generality of this approach by showing that it can use the VI, TVI, ILAO*, LRTDP, and UCT algorithms to solve Uncertain MDPs. We experimentally show that our approach is typically faster than replanning from scratch and we also provide a way to estimate the amount of speedup based on the amount of information being reused.
+ 

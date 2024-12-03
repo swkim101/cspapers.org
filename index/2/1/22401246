@@ -1,0 +1,1 @@
+In this workshop we provide a hands-on introduction to the popular open source graph database Neo4j [1] through fixing a series of increasingly sophisticated, but broken, test cases each of which highlights an important graph modeling or API affordance.

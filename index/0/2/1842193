@@ -1,0 +1,5 @@
+Restricted Boltzmann Machines (RBMs) are a type of probability model over the Boolean cube {-1, 1}n that have recently received much attention. We establish the intractability of two basic computational tasks involving RBMs, even if only a coarse approximation to the correct output is required. 
+ 
+We first show that assuming P ≠ NP, for any fixed positive constant K (which may be arbitrarily large) there is no polynomial-time algorithm for the following problem: given an n-bit input string x and the parameters of a RBM M, output an estimate of the probability assigned to x by M that is accurate to within a multiplicative factor of eKn. This hardness result holds even if the parameters of M are constrained to be at most Ψ(n) for any function Ψ(n) that grows faster than linearly, and if the number of hidden nodes of M is at most n. 
+ 
+We then show that assuming RP ≠ NP, there is no polynomial-time randomized algorithm for the following problem: given the parameters of an RBM M, generate a random example from a probability distribution whose total variation distance from the distribution defined by M is at most 1/12.

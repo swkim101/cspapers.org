@@ -1,0 +1,1 @@
+We derive the rhetorical structures of texts by means of two new, surface-form-based algorithms: one that identifies discourse usages of cue phrases and breaks sentences into clauses, and one that produces valid rhetorical structure trees for unrestricted natural languages texts. The algorithms use information that was derived from a corpus analysis of cue phrases.

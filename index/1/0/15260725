@@ -1,0 +1,3 @@
+In practice, most investing is done assuming a probabilistic model of stock price returns known as the Geometric Brownian Motion (GBM). While often an acceptable approximation, the GBM model is not always valid empirically. This motivates a worst-case approach to investing, called universal portfolio management, where the objective is to maximize wealth relative to the wealth earned by the best fixed portfolio in hindsight. 
+ 
+In this paper we tie the two approaches, and design an investment strategy which is universal in the worst-case, and yet capable of exploiting the mostly valid GBM model. Our method is based on new and improved regret bounds for online convex optimization with exp-concave loss functions.

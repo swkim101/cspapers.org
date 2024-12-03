@@ -1,0 +1,1 @@
+In this paper, we consider a mobile mailbox communication scheme to reduce inter-agent communication costs. We employ a mailbox mobility strategy based on the ability of the mailbox to predict variations in inbound message rates and to migrate, if necessary, to a potentially better position in the network.

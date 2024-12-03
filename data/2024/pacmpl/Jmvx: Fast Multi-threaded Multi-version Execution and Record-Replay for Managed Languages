@@ -1,9 +1,0 @@
-Multi-Version eXecution (MVX) is a technique that deploys many equivalent versions of the same program — variants — as a single program, with direct applications in important fields such as: security, reliability, analysis, and availability. MVX can be seen as “online Record/Replay (RR)”, as RR captures a program’s execution as a log stored on disk that can later be replayed to observe the same execution. Unfortunately, current MVX techniques target programs written in C/C++ and do not support programs written in managed languages, which are the vast majority of code written nowadays.
- 
- 
- 
-This paper presents the design, implementation, and evaluation of Jmvx— a novel system for performing MVX and RR on programs written in managed languages. Jmvx supports programs written in Java by intercepting automatically identified non-deterministic methods, via a novel dynamic analysis technique, and ensuring that all variants execute the same methods and obtain the same data. 
- 
- 
- 
-Jmvx supports multi-threaded programs, by capturing synchronization operations in one variant, and ensuring all other variants follow the same ordering. We validated that Jmvx supports MVX and RR by applying it to a suite of benchmarks representative of programs written in Java. Internally, Jmvx uses a circular buffer located in shared memory between JVMs to enable fast communication between all variants, averaging 5% |47% performance overhead when performing MVX with multithreading support disabled|enabled, 8% |25% when recording, and 13% |73% when replaying.

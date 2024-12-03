@@ -1,0 +1,4 @@
+
+ 
+ Human-agent interaction for learning with instruction canbe viewed on a continuum of instructor/agent control. At one extreme are systems that learn by instructor-driveninteractions, such as learning by demonstration, examples,or imitation. The other extreme of the continuum isoccupied by systems where instructor interaction is limited to responding to the questions posed by the agent or toproviding feedback on agent’s performance. There are advantages to an approach that explores a mixed-initiative instructional dialog. We describe an approach to mixed-initiative interaction based on collaborative discourse theory that allows Soar agents to learn from situated instruction.
+ 

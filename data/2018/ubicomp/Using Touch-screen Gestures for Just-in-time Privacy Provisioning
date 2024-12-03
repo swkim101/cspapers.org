@@ -1,1 +1,0 @@
-In this paper, we propose PrivacyShield, a mobile system for on-demand and selective just-in-time privacy provisioning. PrivacyShield leverages the screen I/O device (screen digitizer) of smartphones to provide gestures (i.e., with phone's screen turned off). Based on subtle gestures, various privacy-protection policies can be configured on-the-fly.

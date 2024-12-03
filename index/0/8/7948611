@@ -1,0 +1,1 @@
+The asymmetric postman problem is a generalization of the Chinese postman problem in which the edgetraversal costs are asymmetric. The problem is to compute a shortest tour that traverses every edge of a given graph at least once, and it is known to be NPhard. An approximation algorithm with a performance ratio of $ for the asymmetric postman problem is presented.

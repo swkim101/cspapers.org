@@ -1,0 +1,1 @@
+We build a probabilistic model to identify implicit local intent queries, and leverage user's physical location to improve Web search results for these queries. Evaluation on commercial search engine shows significant improvement on search relevance and user experience.

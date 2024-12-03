@@ -1,0 +1,1 @@
+We introduce a strategy for the verification of relational specifications based on the analysis of monotonicity of variables within formulas. By comparing with the Alloy Analyzer, we show that for a relevant class of problems this technique drastically outperforms analysis of the same problems using SAT-solvers, while consuming a fraction of the memory SAT-solvers require.

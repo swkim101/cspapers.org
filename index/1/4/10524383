@@ -1,0 +1,1 @@
+Alternating Gibbs sampling is a modification of classical Gibbs sampling where several variables are simultaneously sampled from their joint conditional distribution. In this work, we investigate the mixing rate of alternating Gibbs sampling with a particular emphasis on Restricted Boltzmann Machines (RBMs) and variants.

@@ -1,0 +1,4 @@
+
+ 
+ Collaborative tagging services provided by various social web sites become popular means to mark web resources for different purposes such as categorization, expression of a preference and so on. However, the tags are of syntactic nature, in a free style and do not reflect semantics, resulting in the problems of redundancy, ambiguity and less semantics. Current tag-based recommender systems mainly take the explicit structural information among users, resources and tags into consideration, while neglecting the important implicit semantic relationships hidden in tagging data. In this study, we propose a Semantic Enhancement Recommendation strategy (SemRec), based on both structural information and semantic information through a unified fusion model. Extensive experiments conducted on two real datasets demonstarte the effectiveness of our approaches.
+ 

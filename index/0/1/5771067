@@ -1,0 +1,1 @@
+We describe a distributed, modular architecture for platform independent natural language systems. It features automatic interface generation and self-organization. Adaptive (and non-adaptive) voting mechanisms are used for integrating discrete modules. The architecture is suitable for rapid prototyping and product delivery.

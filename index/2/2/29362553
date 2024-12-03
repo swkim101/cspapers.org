@@ -1,0 +1,5 @@
+This tutorial is concerned with a method of organizing undergraduate computer science courses, in which the students collaborate in small groups.
+ Effectively this breaks up a large class into a number of independent small groups and changes the role of the teacher from a director to a 'consultant.'
+ The teacher has to provide a series of discussion papers for the groups, each including a problem to be solved. The group is expected to investigate the topic, produce an exact specification of the problem, provide an algorithm to solve the problem, an implementation of the algorithm, and documentation including a discussion of implications and generalizations.
+ This form of peer instruction has improved performance of both the better and the poorer students, and plagiarism is no longer a problem. (Students who do not do their share of the work are liable to be excluded by their group.) They also investigate topics with much greater thoroughness and appear to obtain a deeper understanding. The group experience is valuable training for working on projects in industry.
+ The tutorial will outline how to organize such a course and will discuss case studies.

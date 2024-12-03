@@ -1,0 +1,1 @@
+This paper describes a conceptual model for implementing usage controls in Inter-Organization Networks (IONs). After describing security requirements in networks that cross organization boundries, I suggest how traditional, non-discretionary controls can be adapted to support usage control in IONs.

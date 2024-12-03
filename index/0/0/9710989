@@ -1,0 +1,1 @@
+We consider black-box testing of functional correctness as a special case of a satisfiability or constraint solving problem. We introduce a general method for solving this problem based on function approximation. We then describe some practical results obtained for an automated testing algorithm using approximation by piecewise polynomial functions.

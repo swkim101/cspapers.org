@@ -1,7 +1,0 @@
-Natural Language to SQL systems (NL-to-SQL) have recently shown improved accuracy (exceeding 80%) for natural language to SQL query translation due to the emergence of transformer-based language models, and the popularity of the Spider benchmark. However, Spider mainly contains simple databases with few tables, columns, and entries, which do not reflect a realistic setting. Moreover, complex real-world databases with domain-specific content have little to no training data available in the form of NL/SQL-pairs leading to poor performance of existing NL-to-SQL systems.
- 
- In this paper, we introduce
- ScienceBenchmark
- , a new complex NL-to-SQL benchmark for three real-world, highly domain-specific databases. For this new benchmark, SQL experts and domain experts created high-quality NL/SQL-pairs for each domain. To garner more data, we extended the small amount of human-generated data with synthetic data generated using GPT-3. We show that our benchmark is highly challenging, as the top performing systems on Spider achieve a very low performance on our benchmark. Thus, the challenge is many-fold: creating NL-to-SQL systems for highly complex domains with a small amount of hand-made training data augmented with synthetic data. To our knowledge,
- ScienceBenchmark
- is the first NL-to-SQL benchmark designed with complex real-world scientific databases, containing challenging training and test data carefully validated by domain experts.

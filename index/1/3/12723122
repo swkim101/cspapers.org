@@ -1,0 +1,1 @@
+This paper presents a new anytime algorithm for the marginal MAP problem in graphical models of bounded treewidth. We show asymptotic convergence and theoretical error bounds for any fixed step. Experiments show that it compares well to a state-of-the-art systematic search algorithm.

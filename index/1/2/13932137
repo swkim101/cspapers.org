@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a technique for approximating, up to any precision, the set of subgame-perfect equilibria (SPE) in repeated games with discounting. The process starts with a single hypercube approximation of the set of SPE payoff profiles. Then the initial hypercube is gradually partitioned on to a set of smaller adjacent hypercubes, while those hypercubes that cannot contain any SPE point are gradually withdrawn. Whether a given hypercube can contain an equilibrium point is verified by an appropriate mixed integer program. A special attention is paid to the question of extracting players' strategies and their representability in form of finite automata.
+ 

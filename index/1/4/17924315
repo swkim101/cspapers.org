@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel representation for coalitional games with externalities, called Partition Decision Trees. This representation is based on rooted directed trees, where non-leaf nodes are labelled with agents' names, leaf nodes are labelled with payoff vectors, and edges indicate membership of agents in coalitions. We show that this representation is fully expressive, and for certain classes of games significantly more concise than an extensive representation. Most importantly, Partition Decision Trees are the first formalism in the literature under which most of the direct extensions of the Shapley value to games with externalities can be computed in polynomial time.
+ 

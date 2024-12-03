@@ -1,0 +1,7 @@
+The autonomous capabilities in collaborative unmanned 
+aircraft systems are growing rapidly. Without appropriate transparency, the effectiveness of the future multiple Unmanned Aerial Vehicle (UAV) management paradigm will be significantly limited by the human agent’s cognitive abilities; where the operator’s CognitiveWorkload (CW) and 
+Situation Awareness (SA) will present as disproportionate. 
+This proposes a challenge in evaluating the impact of robot autonomous capability feedback, allowing the human agent greater transparency into the robot’s autonomous status - in a supervisory role. This paper presents; the motivation, 
+aim, related works, experiment theory, methodology, results and discussions, and the future work succeeding this preliminary study. The results in this paper illustrates that, with a greater transparency of a UAV’s autonomous capability, an overall improvement in the subjects’ cognitive abilities was evident, that is, with a confidence of 95%, the test subjects’ mean CW was demonstrated to 
+have a statistically significant reduction, while their 
+mean SA was demonstrated to have a significant increase.

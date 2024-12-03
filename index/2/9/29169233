@@ -1,0 +1,4 @@
+
+ 
+ Most of the existing proactive scheduling approaches assume the durations of activities can be described by independent random variables that have no relation with time. We deal with the more challenging problem where the duration uncertainty is related to the scheduled time period. We propose a sampling based approach by extending the Consensus method from stochastic optimization. Experimental results show the effectiveness of our approach in solution quality and stability.
+ 

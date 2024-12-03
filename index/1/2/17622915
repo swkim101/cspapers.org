@@ -1,0 +1,4 @@
+
+ 
+ Possessing a sufficient level of situation awareness is essential for effective decision making in dynamic environments. In video games, this includes being aware to some extent of the intentions of the opponents. Such high-level awareness hinges upon inferences over the lower-level situation awareness provided by the game state. Traditional plan recognizers are completely passive processes that leave all the initiative to the observed agent. In a situation where the opponent's intentions are unclear, the observer is forced to wait until further observations of the opponent's actions are made to disambiguate the pending goal hypotheses. With the plan recognizer we propose, in contrast, the observer would take the initiative and provoke the opponent, with the expectation that his reaction will give cues as to what his true intentions actually are.
+ 

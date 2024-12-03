@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel idea in the allocation and serving of online advertising. We show that by using predetermined fixed-length streams of ads (which we call patterns) to serve advertising, we can incorporate a variety of interesting features into the ad allocation optimization problem. In particular, our formulation optimizes for representativeness as well as user-level diversity and pacing of ads, under reach and frequency requirements. We show how the problem can be solved efficiently using a column generation scheme in which only a small set of best patterns are kept in the optimization problem. Our numerical tests suggest that with parallelization of the pattern generation process, the algorithm has a promising run time and memory usage.
+ 

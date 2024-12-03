@@ -1,0 +1,4 @@
+
+ 
+ We study algorithms for fragments of first order logic ex- tended with counting quantifiers, which are known to be highly complex in general. We propose a fragment over unary predicates that is NP-complete and for which there is a nor- mal form where Counting Quantification sentences have a single Unary predicate, thus call it the CQU fragment. We provide an algebraic formulation of the CQU satisfiability problem in terms of Integer Linear Programming based on which two algorithms are proposed, a direct reduction to SAT instances and an Integer Linear Programming version extended with a column generation mechanism. The latter is shown to lead to a viable implementation and experiments shows this algorithm presents a phase transition behavior.
+ 

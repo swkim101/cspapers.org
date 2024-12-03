@@ -1,0 +1,1 @@
+We present MBoost, a novel extension to AdaBoost that extends boosting to use multiple weak learners explicitly, and provides robustness to learning models that overfit or are poorly matched to data. We demonstrate MBoost on a variety of problems and compare it to cross validation for model selection.

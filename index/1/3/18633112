@@ -1,0 +1,1 @@
+We present an ILP model of concept-totext generation. Unlike pipeline architectures, our model jointly considers the choices in content selection, lexicalization, and aggregation to avoid greedy decisions and produce more compact texts.

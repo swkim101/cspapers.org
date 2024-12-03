@@ -1,0 +1,1 @@
+Over one hundred micro-architecture features were analyzed and simulated in order to determine if they should be included in UltraSPARC-I. A fast and flexible performance simulator was developed in order to model these features. In this paper, we describe UPS (UltraSPARC-I Performance Simulator), and show how it was used to do trade-off analysis.

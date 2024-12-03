@@ -1,0 +1,21 @@
+Since the advent of the technology age, new 
+and innovative ways to communicate with and 
+control machines have been gaining momentum 
+over traditional forms of input. The rise of 
+touch, gesture and speech based control high- 
+light the desire for more natural human com- 
+puter interactions. A Brain-Computer Inter- 
+face (BCI) is an extension of these interaction 
+methods; allowing a user's brain activity to be 
+interpreted as an input into a computer system. 
+In this paper, a successful and novel implemen- 
+tation for controlling a robotic arm using a P- 
+300 Speller interface is presented, with partic- 
+ular focus on solving high order problems with 
+task speci c commands. The system was val- 
+idated through a packing experiment, where a 
+participant needed to pick and place scattered 
+objects into a container. Initial results show 
+successful completion of the task within four 
+minutes, with a command selection accuracy of 
+approximately 97%.

@@ -1,0 +1,4 @@
+
+ 
+ In recent work, Langley et al. (2014) introduced UMBRA, a systemfor plan and dialogue understanding. The program applies a form of abductive inference to generate explanations incrementally from relational descriptions of observed behavior and knowledge inthe form of rules. Although UMBRA's creators described the systemarchitecture, knowledge, and inferences, along with experimental studies of its operation, they did not provide a formalization of its structures or processes. In this paper, we analyze both aspects  of the architecture in terms of the Situation Calculus — a classicallogic for reasoning about dynamical systems — and give a specification of the inference task the system performs. After this, we state some properties of this formalization thatare desirable for the task of incremental dialogue understanding. We conclude by discussing related work and describing our plans for additional research.
+ 

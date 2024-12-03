@@ -1,0 +1,1 @@
+This paper describes a technique for formalizing metrics for COTS-based architectures. This technique is built upon the UML 2.0 metamodel and uses OCL as a metrics definition language. As a proof of concept, an example based upon a set of reusability metrics for fine-grained JavaBeans components is presented.

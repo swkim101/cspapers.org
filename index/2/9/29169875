@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we focus on the task of extracting named entities together with their associated sentiment information in a joint manner. Our key observation in such an entity-level sentiment analysis (a.k.a. targeted sentiment analysis) task is that there exists a sentiment scope within which each named entity is embedded, which largely decides the sentiment information associated with the entity. However, such sentiment scopes are typically not explicitly annotated in the data, and their lengths can be unbounded. Motivated by this, unlike traditional approaches that cast this problem as a simple sequence labeling task, we propose a novel approach that can explicitly model the latent sentiment scopes. Our experiments on the standard datasets demonstrate that our approach is able to achieve better results compared to existing approaches based on conventional conditional random fields (CRFs) and a more recent work based on neural networks.
+ 

@@ -1,0 +1,1 @@
+We analyse the potential of Gibbs Random Fields for shape prior modelling. We show that the expressive power of second order GRFs is already sufficient to express spatial relations between shape parts and simple shapes simultaneously. This allows to model and recognise complex shapes as spatial compositions of simpler parts.

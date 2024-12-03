@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of parallelizing restarted backtrack search. With few notable exceptions, most commercial and academic constraint programming solvers do not learn no-goods during search. Depending on the branching heuristics used, this means that there are little to no side-effects between restarts, making them an excellent target for parallelization. We develop a simple technique for parallelizing restarted search deterministically and demonstrate experimentally that we can achieve near-linear speed-ups in practice.
+ 

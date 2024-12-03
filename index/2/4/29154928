@@ -1,0 +1,4 @@
+
+ 
+ Systems deployed in unstructured environments must be able to adapt to novel situations. This requires the ability to perform in domains that may be vastly different from training domains. My dissertation focuses on the representations used in lifelong learning and how these representations enable predictions and knowledge sharing over time, allowing an agent to continuously learn and adapt in changing environments. Specifically, my contributions will enable lifelong learning systems to efficiently accumulate data, use prior knowledge to predict models for novel tasks, and alter existing models to account for changes in the environment.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Recent work has shown that optical flow estimation can be formulated as a supervised learning problem. Moreover, convolutional networks have been successfully applied to this task. However, supervised flow learning is obfuscated by the shortage of labeled training data. As a consequence, existing methods have to turn to large synthetic datasets for easily computer generated ground truth. In this work, we explore if a deep network for flow estimation can be trained without supervision. Using image warping by the estimated flow, we devise a simple yet effective unsupervised method for learning optical flow, by directly minimizing photometric consistency. We demonstrate that a flow network can be trained from end-to-end using our unsupervised scheme. In some cases, our results come tantalizingly close to the performance of methods trained with full supervision.
+ 

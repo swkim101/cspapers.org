@@ -1,0 +1,3 @@
+The approximation problem for vertex cover of n-vertex planar graphs is treated. Two results are presented:
+ (1) A linear time approximation algorithm for which the (error) performance bound is 2/3.
+ (2) An O(n log n) time approximation scheme.

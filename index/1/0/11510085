@@ -1,0 +1,1 @@
+Word sense disambiguation (WSD) is a difficult problem in natural language processing. In this paper, a sememe co-occurrence frequency based WSD method was introduced. In this method, Hownet was used as our information source, and a co-occurrence frequency database of sememes was constructed and then used for WSD. The experimental result showed that this method is successful.

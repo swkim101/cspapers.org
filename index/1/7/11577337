@@ -1,0 +1,1 @@
+A simple Monte-Carlo algorithm can be used to calculate Dempster-Shafer belief very efficiently unless the conflict between the evidences is very high. This paper introduces and explores Markov Chain Monte-Carlo algorithms for calculating Dempster-Shafer belief that can also work well when the conflict is high.

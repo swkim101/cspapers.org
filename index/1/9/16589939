@@ -1,0 +1,1 @@
+We consider the two dimensional fully-dynamic orthogonal range reporting problem and the two dimensional fully-dynamic orthogonal line segment intersection reporting problem in the comparison model. We show that if n is the number of stored elements, then these problems can be solved in worst case time Θ(log n) plus time proportional to the size of the output pr. operation.

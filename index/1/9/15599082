@@ -1,0 +1,4 @@
+
+ 
+ In recent years, several systems have been proposed that learn the rules of a simple card or board game solely from visual demonstration. These systems were constructed for specific games and rely on substantial background knowledge. We introduce a general system for learning board game rules from videos and demonstrate it on several well-known games. The presented algorithm requires only a few demonstrations and minimal background knowledge, and, having learned the rules, automatically derives position evaluation functions and can play the learned games competitively. Our main technique is based on descriptive complexity, i.e. the logical means necessary to define a set of interest. We compute formulas defining allowed moves and final positions in a game in different logics and select the most adequate ones. We show that this method is well-suited for board games and there is strong theoretical evidence that it will generalize to other problems.
+ 

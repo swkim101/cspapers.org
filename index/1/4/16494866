@@ -1,0 +1,4 @@
+
+ 
+ As growing numbers of real world applications involve imbalanced class distribution or unequal costs for mis- classification errors in different classes, learning from imbalanced class distribution is considered to be one of the most challenging issues in data mining research. This study empirically investigates the sensitivity of bagging predictors with respect to 12 algorithms and 9 levels of class distribution on 14 imbalanced data-sets by using statistical and graphical methods to address the important issue of understanding the effect of vary- ing levels of class distribution on bagging predictors. The experimental results demonstrate that bagging NB and MLP are insensitive to various levels of imbalanced class distribution.
+ 

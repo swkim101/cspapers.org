@@ -1,0 +1,1 @@
+SemNews is a semantic news service that monitors different RSS news feeds and provides structured representations of themeaning of news. As new content appears, SemNews extracts the summary from the RSS description and processes it using OntoSem, which is a sophisticated text understanding system.

@@ -1,0 +1,4 @@
+
+ 
+ Bursty topics discovery in microblogs is important for people to grasp essential and valuable information. However, the task is challenging since microblog posts are particularly short and noisy. This work develops a novel probabilistic model, namely Bursty Biterm Topic Model (BBTM), to deal with the task. BBTM extends the Biterm Topic Model (BTM) by incorporating the burstiness of biterms as prior knowledge for bursty topic modeling, which enjoys the following merits: 1) It can well solve the data sparsity problem in topic modeling over short texts as the same as BTM; 2) It can automatical discover high quality bursty topics in microblogs in a principled and efficient way. Extensive experiments on a standard Twitter dataset show that our approach outperforms the state-of-the-art baselines significantly.
+ 

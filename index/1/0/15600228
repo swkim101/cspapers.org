@@ -1,0 +1,1 @@
+We introduce a statistical model for abbreviation disambiguation in Web search, based on analysis of Web data resources, including anchor text, click log and query log. By combining evidence from multiple sources, we are able to accurately disambiguate the abbreviation in queries. Experiments on real Web search queries show promising results.

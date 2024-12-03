@@ -1,0 +1,4 @@
+
+ 
+ Selecting the optimal kernel is an important and difficult challenge in applying kernel methods to pattern recognition. To address this challenge, multiple kernel learning (MKL) aims to learn a kernel from a combination of base kernel functions that perform optimally on the task. In this paper, we propose a novel MKL-themed approach to combine base kernels that are multiplicatively shaped with low-rank positive semidefinitve matrices. The proposed approach generalizes several popular MKL methods and thus provides more flexibility in modeling data. Computationally, we show how these low-rank matrices can be learned efficiently from data using convex quadratic programming. Empirical studies on several standard benchmark datasets for MKL show that the new approach often improves prediction accuracy statistically significantly over very competitive single kernel and other MKL methods.
+ 

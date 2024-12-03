@@ -1,0 +1,1 @@
+This demonstration utilizes a geographic information system interface to display multilingual news documents in time and space by extracting place names from text and matching them to a multilingual multi-script gazetteer which identifies the latitude and longitude of the location.

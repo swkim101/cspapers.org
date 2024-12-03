@@ -1,0 +1,1 @@
+General discussion about InfiniBand, what it is, how it works, and how the OpenFabrics driver stack provides the same software interface for both InfiniBand and 10gig RDMA ethernet nics. We will also include late breaking news about what we learned deploying a show-floor wide InfiniBand network as part of SCInet.

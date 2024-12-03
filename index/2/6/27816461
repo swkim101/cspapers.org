@@ -1,0 +1,4 @@
+Because of its relevance to program analysis and, ultimately, to program synthesis, the area of formal verification of program correctness is an important part of the education of the programmer and the computer scientist. A case is presented in this paper to advocate the teaching of the formal verification of computer programs. This case is based on three major arguments:
+ - The Why, i.e. the need for including a course on program verification in the computer science curriculum,
+ - The What, i.e. the technical contents of such a course as highlighted by the current state of the art,
+ - The How, i.e. the logistic feasibility of such a course within a fifteen-week semester.

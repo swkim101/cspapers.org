@@ -1,0 +1,5 @@
+In the paper we study a new and natural modal interpretation of defaults. We show that under this interpretation there are whole families of modal nonmonotonic logics that accurately represent default reasoning. One of these logics is used in a definition of possible-worlds semantics for default logic. This semantics yields a characterization of default extensions similar to the characterization of stable expansions by means of autoepistemic interpretation. 
+ 
+We also show that the disjunctive information can easily be handled if disjunction is represented by means of modal disjunctive defaults -- modal formulas that we use in our interpretation. 
+ 
+Our results indicate that there is no single modal logic for describing default reasoning. On the contrary, there exist whole ranges of modal logics, each of which can be used in the embedding as a "host" logic.

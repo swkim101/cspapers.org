@@ -1,0 +1,1 @@
+Almost every application of spreading activation is accompanied by its own set of often heuristic restrictions on the dynamics. We show that in constraint-free scenarios spreading activation would actually yield query-independent results, so that the specific choice of restrictions is not only a pragmatic computational issue, but crucially determines the outcome.

@@ -1,0 +1,4 @@
+In the computer science curriculum, finite state machines and finite automata are typically introduced at the upper-division level. However, students can benefit from an earlier, informal exposure to finite automata for three reasons:
+- Finite automata represent a useful application when two-dimensional arrays are introduced.
+- A painless early introduction can ease the transition to rigorous approaches encountered later.
+- Finite automata provide yet another algorithmic tool to be added to the student's repertoire.

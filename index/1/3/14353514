@@ -1,0 +1,4 @@
+
+ 
+ The stable model semantics was recently generalized by Ferraris, Lee and Lifschitz to the full first-order language with a syntax translation approach that is very similar to McCarthy's circumscription. In this paper, we investigate the decidability and undecidability of various fragments of first-order language under both semantics of stable models and circumscription. Some maximally decidable classes and undecidable classes are identified. The results obtained in the paper show that the boundaries between decidability and undecidability for these two semantics are very different in spite of the similarity of definition. Moreover, for all fragments considered in the paper, decidability under the semantics of circumscription coincides with that in classical first-order logic. This seems rather counterintuitive due to the second-order definition of circumscription and the high undecidability of first-order circumscription.
+ 

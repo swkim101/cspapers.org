@@ -1,0 +1,1 @@
+We use the constant statistics constraint to calibrate an array of sensors that contains gain and offset variations. This algorithm has been mapped to analog hardware and designed and fabricated with a 2µm CMOS technology. Measured results from the chip show that the system achieves invariance to gain and offset variations of the input signal.

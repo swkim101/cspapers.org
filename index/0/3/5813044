@@ -1,0 +1,7 @@
+The DIPMETER ADVISOR program is an application of AI and Expert System techniques to the problem of inferring subsurface geologic structure. It synthesizes techniques developed in two previous lines of work, rulte-based systems and signal understanding programs. 
+ 
+This report on the prototype system has four main concerns. First, we describe the task and characterize the various bodies of knowledge required. Second, we describe the design of the system we have built and the level of performance it has currently reached. 
+ 
+Third, we use this task as a case study and examine it in the light of other, related efforts, showing how particular characteristics of this problem have dictated a number of design decisions. We consider the character of the interpretation hypotheses generated and the sources of the expertise involved. 
+ 
+Finally, we discuss future directions of this early effort. We describe the problem of "shallow knowledge" in expert systems and explain why this task appears to provide an attractive setting for exploring the use of deeper models.

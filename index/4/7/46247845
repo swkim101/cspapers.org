@@ -1,0 +1,4 @@
+
+ 
+ Online image sharing in social media sites such as Facebook, Flickr, and Instagram can lead to unwanted disclosure and privacy violations, when privacy settings are used inappropriately. With the exponential increase in the number of images that are shared online, the development of effective and efficient prediction methods for image privacy settings are highly needed. In this study, we explore deep visual features and deep image tags for image privacy prediction. The results of our experiments show that models trained on deep visual features outperform those trained on SIFT and GIST. The results also show that deep image tags combined with user tags perform best among all tested features.
+ 

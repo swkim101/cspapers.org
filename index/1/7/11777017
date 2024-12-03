@@ -1,0 +1,1 @@
+We describe the use of modern analytical techniques in solving the dynamics of symmetric and nonsymmetric recurrent neural networks near saturation. These explicitly take into account the correlations between the post-synaptic potentials, and thereby allow for a reliable prediction of transients.

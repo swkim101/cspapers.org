@@ -1,0 +1,4 @@
+
+ 
+ It is a well known fact that in extensive form games with perfect information, there is a Nash equilibrium with support of size one. This doesn't hold for games with imperfect information, where the size of minimal support can be larger. We present a dependency between the level of uncertainty and the minimum support size. For many games, there is a big disproportion between the game uncertainty and the number of actions available. In Bayesian extensive games with perfect information, the only uncertainty is about the type of players. In card games, the uncertainty comes from dealing the deck. In these games, we can significantly reduce the support size. Our result applies to general-sum extensive form games with any finite number of players.
+ 

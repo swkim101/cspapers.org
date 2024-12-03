@@ -1,0 +1,1 @@
+Using relevance feedback can significantly improve (ad hoc) retrieval effectiveness. Yet, if little feedback is available, effectively exploiting it is a challenge. To that end, we present a novel approach that utilizes document passages. Empirical evaluation demonstrates the merits of the approach.

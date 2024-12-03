@@ -1,0 +1,8 @@
+The structure and use of a test-generating system having the following parameters is described.
+ 1. Each test is a ten item multiple choice instrument where each item has five (5) alternatives.
+ 2. Each test is generated from a relatively small file (most often less than 150 card images).
+ 3. Although the file contains only five (5) disjoint tests, over nine million different tests (each with its own set of correct answers) can be generated from it.
+ 4. The correct answers to each test are stored directly on the test (in coded form).
+ 5. Test responses are machine correctable and such correcting need not be done on the system that generated the test.
+ 6. The reliability of different forms of tests generated from one file is theoretically high (no statistical evidence is available to support a claim of high reliability).
+ 7. The grading program produces a total score as well as giving the correct answers for all items on that test.

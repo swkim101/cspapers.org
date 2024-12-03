@@ -1,0 +1,4 @@
+
+ 
+ The conventional statistical machine translation (SMT) methods perform the decoding process by compositing a set of the translation rules which are associated with high probabilities. However, the probabilities of the translation rules are calculated only according to the cooccurrence statistics in the bilingual corpus rather than the semantic meaning similarity. In this paper, we propose a Recursive Neural Network (RNN) based model that converts each translation rule into a compact real-valued vector in the semantic embedding space and performs the decoding process by minimizing the semantic gap between the source language string and its translation candidates at each state in a bottom-up structure. The RNN-based translation model is trained using a max-margin objective function. Extensive experiments on Chinese-to-English translation show that our RNN-based model can significantly improve the translation quality by up to 1.68 BLEU score.
+ 

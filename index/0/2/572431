@@ -1,0 +1,1 @@
+This paper relates the computational power of Fahlman's Recurrent Cascade Correlation (RCC) architecture to that of finite state automata (FSA). While some recurrent networks are FSA equivalent, RCC is not. The paper presents a theoretical analysis of the RCC architecture in the form of a proof describing a large class of FSA which cannot be realized by RCC.

@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a generative model to automatically discover the hidden associations between topics words and opinion words. By applying those discovered hidden associations, we construct the opinion scoring models to extract statements which best express opinionists’ standpoints on certain topics. For experiments, we apply our model to the political area. First, we visualize the similarities and dissimilarities between Republican and Democratic senators with respect to various topics. Second, we compare the performance of the opinion scoring models with 14 kinds of methods to find the best ones. We find that sentences extracted by our opinion scoring models can effectively express opinionists’ standpoints.
+ 

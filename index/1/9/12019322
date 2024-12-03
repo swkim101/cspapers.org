@@ -1,0 +1,1 @@
+This paper describes a parsing system specifically designed for spoken rather than written input. The parser is part of a project in progress at Stanford Research Institute to develop a computer system for understanding speech. The approach described uses as much heuristic knowledge as possible in order to minimize the demands on acoustic analysis.

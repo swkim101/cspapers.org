@@ -1,0 +1,36 @@
+We describe the application of machine learning and 
+state-of-the-art database management technology to 
+the development of an automated tool for the 
+reduction and analysis of a large astronomical data set. 
+The 3 terabytes worth of images are expected to 
+contain on the order of 5 x 10^7 galaxies and 5 x 10^8 
+stars. For the primary scientific analysis of these 
+data, it is necessary to detect, measure, and classify 
+every sky object. The size of the complete data set 
+precludes manual reduction, requiring an automated 
+approach. SKICAT integrates techniques for image 
+processing, data classification, and database 
+management. Once sky objects are detected, a set of 
+basic features for each object are computed. The 
+learning algorithms are trained to classify the detected 
+objects and can classify objects too faint for visual 
+classification with an accuracy level of about 941Z0. 
+This increases the number of classified objects in the 
+final catalog three-fold relative to the best results from 
+digitized photographic sky surveys to date. The tasks 
+of managing and matching the resulting hundreds of 
+plate catalogs is accomplished using custom software 
+and the Sybase relational DBMS. A full array of 
+scientific analysis tools are provided for filtering, 
+manipulating, plotting, and listing the data in the sky 
+object database. We are currently experimenting with 
+the use of machine discovery tools, such as the 
+AUTOCLASS unsupervised classification program, 
+on the data. SKICAT represents a system in which 
+machine learning played a powerful and enabling role, 
+and solved a difficult, scientifically significant 
+problem. The primary benefits of our overall approach 
+are increased data reduction throughput consistency of 
+classification; and the ability to easily access, analyze, 
+and create new information from an otherwise 
+unfathomable data set.

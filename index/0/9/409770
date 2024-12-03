@@ -1,0 +1,4 @@
+
+ 
+ We present an algorithm for compressing pattern databases (PDBs) and a method for fast random access of these com-pressed PDBs. We demonstrate the effectiveness of our technique by compressing two 6-tile sliding-tile PDBs by a factor of 12 and a 7-tile sliding-tile PDB by a factor of 24.
+ 

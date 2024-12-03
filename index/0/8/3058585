@@ -1,0 +1,4 @@
+
+ 
+ We consider the class of convex minimization problems, composed of a self-concordant function, such as the logdet metric, a convex data fidelity term h(.) and, a regularizing — possibly non-smooth — function g(.). This type of problems have recently attracted a great deal of interest, mainly due to their omnipresence in top-notch applications. Under this locally Lipschitz continuous gradient setting, we analyze the convergence behavior of proximal Newton schemes with the added twist of a probable presence of inexact evaluations. We prove attractive convergence rate guarantees and enhance state-of-the-art optimization schemes to accommodate such developments. Experimental results on sparse covariance estimation show the merits of our algorithm, both in terms of recovery efficiency and complexity.
+ 

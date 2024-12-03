@@ -1,0 +1,1 @@
+We investigate the allocation of a chain-like task system consisting of n tasks to a chain-like network of m computers so as to minimize the bottleneck processing cost. We present an &Ogr;(mn) time solution algorithm for this problem. This improves on a sequence of five slower algorithms by Bokhari [1988], Sheu & Chiang [1990], Hsu [1993], and Young & Chan [1993,1994].

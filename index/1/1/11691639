@@ -1,0 +1,1 @@
+We apply the replica method of Statistical Physics combined with a variational method to the approximate analytical computation of bootstrap averages for estimating the generalization error. We demonstrate our approach on regression with Gaussian processes and compare our results with averages obtained by Monte-Carlo sampling.

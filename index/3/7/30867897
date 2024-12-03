@@ -1,0 +1,4 @@
+
+ 
+ Chinese chunking has traditionally been solved by assuming gold standard word segmentation.We find that the accuracies drop drastically when automatic segmentation is used.Inspired by the fact that chunking knowledge can potentially improve segmentation, we explore a joint model that performs segmentation, POS-tagging and chunking simultaneously.In addition, to address the sparsity of full chunk features, we employ a semi-supervised method to derive chunk cluster features from large-scale automatically-chunked data.Results show the effectiveness of the joint model with semi-supervised features.
+ 

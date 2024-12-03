@@ -1,0 +1,4 @@
+
+ 
+ Robot learning in simulation is a promising alternative to the prohibitive sample cost of learning in the physical world. Unfortunately, policies learned in simulation often perform worse than hand-coded policies when applied on the physical robot. This paper proposes a new algorithm for learning in simulation — Grounded Action Transformation — and applies it to learning of humanoid bipedal locomotion. Our approach results in a 43.27% improvement in forward walk velocity compared to a state-of-the art hand-coded walk.
+ 

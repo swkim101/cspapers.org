@@ -1,0 +1,1 @@
+For a given placement of macrocells with given power consumption a full automatic layout of power supply and ground nets has been developped. The varying width in different segments of these nets is calculated from local current values resulting in rectangles presenting the net segments. These rectangles are embedded in the routing plane with regard to given design rules.

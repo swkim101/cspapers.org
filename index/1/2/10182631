@@ -1,0 +1,29 @@
+Recommender systems have become essential tools for users to navigate the plethora of content in the 
+online world. Collaborative filtering—a broad term referring to the use of a variety, or combination, 
+of machine learning algorithms operating on user ratings—lies at the heart of recommender systems’ 
+success. These algorithms have been traditionally studied from the point of view of how well they can 
+predict users’ ratings and how precisely they rank content; state of the art approaches are continuously 
+improved in these respects. However, a rift has grown between how filtering algorithms are investigated 
+and how they will operate when deployed in real systems. Deployed systems will continuously be 
+queried for personalised recommendations; in practice, this implies that system administrators will iteratively 
+retrain their algorithms in order to include the latest ratings. Collaborative filtering research does 
+not take this into account: algorithms are improved and compared to each other from a static viewpoint, 
+while they will be ultimately deployed in a dynamic setting. Given this scenario, two new problems 
+emerge: current filtering algorithms are neither (a) designed nor (b) evaluated as algorithms that must 
+account for time. This thesis addresses the divergence between research and practice by examining how 
+collaborative filtering algorithms behave over time. Our contributions include: 
+1. A fine grained analysis of temporal changes in rating data and user/item similarity graphs that 
+clearly demonstrates how recommender system data is dynamic and constantly changing. 
+2. A novel methodology and time-based metrics for evaluating collaborative filtering over time, 
+both in terms of accuracy and the diversity of top-N recommendations. 
+3. A set of hybrid algorithms that improve collaborative filtering in a range of different scenarios. 
+These include temporal-switching algorithms that aim to promote either accuracy or diversity; 
+parameter update methods to improve temporal accuracy; and re-ranking a subset of users’ recommendations 
+in order to increase diversity. 
+4. A set of temporal monitors that secure collaborative filtering from a wide range of different 
+temporal attacks by flagging anomalous rating patterns. 
+We have implemented and extensively evaluated the above using large-scale sets of user ratings; we 
+further discuss how this novel methodology provides insight into dimensions of recommender systems 
+that were previously unexplored. We conclude that investigating collaborative filtering from a temporal 
+perspective is not only more suitable to the context in which recommender systems are deployed, but 
+also opens a number of future research opportunities.

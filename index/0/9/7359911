@@ -1,0 +1,1 @@
+In this paper we propose an extension of the PLSA model in which an extra latent variable allows the model to co-cluster documents and terms simultaneously. We show on three datasets that our extended model produces statistically significant improvements with respect to two clustering measures over the original PLSA and the multinomial mixture MM models.

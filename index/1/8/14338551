@@ -1,0 +1,1 @@
+In this paper we study the square grid area required for laying out <i>H<inf>l</inf>,</i> the Boolean hypercube of <i>N</i> = 2<sup><i>l</i></sup> vertices. It is shown that this area is 4/9<i>N</i><sup>2</sup> + <i>o</i>(<i>N</i><sup>2</sup>). We describe a layout which occupies this much area and prove that no layout of less area exists.

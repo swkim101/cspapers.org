@@ -1,0 +1,2 @@
+We give algorithms to decide graph isomorphism in a subclass of graphs which we call cone graphs. A cone graph is an undirected graph for which there exists a vertex r which uniquely determines a breadth-first search (BFS) tree. Equivalently, all shortest paths from r to any other graph vertex are unique.
+ Our algorithms may be used either nondeterministically or probabilistically. Used as probabilistic algorithms, they return always a correct answer, but with an expected running time only.

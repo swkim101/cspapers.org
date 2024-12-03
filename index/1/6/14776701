@@ -1,0 +1,1 @@
+We show that each plane graph of order n 2 3 has a straight line embedding on the n-2 by n-2 grid. This embedding is computable in time O(n). A nice feature of the vertex-coordinates is that they have a purely combinatorial meaning.

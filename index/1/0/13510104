@@ -1,0 +1,1 @@
+This paper shows that a first-order unification-based semantic interpretation for various coordinate constructs is possible without an explicit use of lambda expressions if we slightly modify the standard Montagovian semantics of coordination. This modification, along with partial execution, completely eliminates the lambda reduction steps during semantic interpretation.

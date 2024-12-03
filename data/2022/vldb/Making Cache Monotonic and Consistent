@@ -1,8 +1,0 @@
-
- We propose monotonic consistent caching (MCC), a cache scheme for applications that demand consistency and monotonicity. MCC warrants that a transaction-like request always sees a consistent view of the backend database and observed writes over the cache will not be lost. We show that the complexity of MCC ranges from P
- time
- to N
- p
- -C
- omplete
- . We characterize MCC via a notion of obsolete items, based on which we abstract a principle for designing competitive MCC policies. By applying the principle, we develop an optimal MCC policy for the batch model, where requests in a batch are known in advance. For the online and semi-online models, we develop ML-augmented policies that benefit from blackbox ML models for classifying obsolete items, while being provably competitive even if the ML is arbitrarily bad. Using benchmark and real-life traces, we show that MCC policies reduce 39.09% of database reads for Redis atop HBase and improve their throughput by 77.15%.

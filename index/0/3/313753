@@ -1,0 +1,18 @@
+Automatic Machine Translation metrics, such 
+as BLEU, are widely used in empirical evaluation as a substitute for human assessment. 
+Subsequently, the performance of a given metric is measured by its strength of correlation 
+with human judgment. When a newly proposed metric achieves a stronger correlation 
+over that of a baseline, it is important to take 
+into account the uncertainty inherent in correlation point estimates prior to concluding 
+improvements in metric performance. Confidence intervals for correlations with human 
+judgment are rarely reported in metric evaluations, however, and when they have been 
+reported, the most suitable methods have unfortunately not been applied. For example, 
+incorrect assumptions about correlation sampling distributions made in past evaluations 
+risk over-estimation of significant differences 
+in metric performance. In this paper, we provide analysis of each of the issues that may 
+lead to inaccuracies before providing detail of 
+a method that overcomes previous challenges. 
+Additionally, we propose a new method of 
+translation sampling that in contrast achieves 
+genuine high conclusivity in evaluation of the 
+relative performance of metrics.

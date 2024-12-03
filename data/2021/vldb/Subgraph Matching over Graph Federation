@@ -1,4 +1,0 @@
-
- Many real-life applications require processing graph data across heterogeneous sources. In this paper, we define the
- graph federation
- that indicates that the graph data sources are temporarily federated and offer their data for users. Next, we propose a new framework FedGraph to efficiently and effectively perform subgraph matching, which is a crucial application in graph federation. FedGraph consists of three phases, including query decomposition, distributed matching, and distributed joining. We also develop new efficient approximation algorithms and apply them in each phase to attack the NP-hard problem. The evaluations are conducted in a real test bed using both real-life and synthetic graph datasets. FedGraph outperforms the state-of-the-art methods, reducing the execution time and communication cost by 37.3 × and 61.8 ×, respectively.

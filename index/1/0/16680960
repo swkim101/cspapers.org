@@ -1,0 +1,4 @@
+
+ 
+ Active surveillance is a desirable way to prevent the spread of infectious diseases in that it aims to timely discover individual incidences through an active searching for patients. However, in practice active surveillance is difficult to implement especially when monitoring space is large but available resources are limited. Therefore, it is extremely important for public health authorities to know how to distribute their very sparse resources to high-priority regions so as to maximize the outcomes of active surveillance. In this paper, we raise the problem of active surveillance planning and provide an effective method to address it via modeling and mining spatiotemporal patterns of infection risks from heterogeneous data sources. Taking malaria as an example, we perform an empirical study on real-world data to validate our method and provide our new findings.
+ 

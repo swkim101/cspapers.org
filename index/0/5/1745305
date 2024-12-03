@@ -1,0 +1,4 @@
+
+ 
+ Designers of human computation systms often face the need to aggregate noisy information provided by multiple people. While voting is often used for this purpose, the choice of voting method is typically not principled. We conduct extensive experiments on Amazon Mechanical Turk to better understand how different voting rules perform in practice. Our empirical conclusions show that noisy human voting can differ from what popular theoretical models would predict. Our short-term goal is to motivate the design of better human computation systems; our long-term goal is to spark an interaction between researchers in (computational) social choice and human computation.
+ 

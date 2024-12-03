@@ -1,0 +1,1 @@
+This paper reﬁnes the analysis of co-training, deﬁnes and evaluates a new co-training algorithm that has theoretical justiﬁcation, gives a theoretical justiﬁcation for the Yarowsky algo-rithm, and shows that co-training and the Yarowsky algorithm are based on diﬀerent independence assumptions.

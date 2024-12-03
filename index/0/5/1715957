@@ -1,0 +1,1 @@
+This paper proposes OWL FA, a decidable extension of OWL DL with the metamodeling architecture of RDFS(FA). It shows that the knowledge base satisfiability problem of OWL FA can be reduced to that of OWL DL, and compares the FA semantics with the recently proposed contextual semantics and Hilog semantics for OWL.

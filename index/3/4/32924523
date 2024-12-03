@@ -1,0 +1,4 @@
+
+ 
+ A cascade classifier has turned out to be effective insliding-window based real-time object detection. In acascade classifier, node learning is the key process,which includes feature selection and classifier design. Previous algorithms fail to effectively tackle the asymmetry and intersection problems existing in cascade classification, thereby limiting the performance of object detection. In this paper, we improve current feature selection algorithm by addressing both asymmetry and intersection problems. We formulate asymmetric feature selection as a submodular function maximization problem. We then propose a new algorithm SAFS with formal performance guarantee to solve this problem.We use face detection as a case study and perform experiments on two real-world face detection datasets. The experimental results demonstrate that our algorithm SAFS outperforms the state-of-art feature selection algorithms in cascade object detection, such as FFS and LACBoost.
+ 

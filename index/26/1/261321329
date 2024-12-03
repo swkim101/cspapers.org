@@ -1,0 +1,2 @@
+A cryptographic transformation is a mapping f from a set of cleartext messages, M, to a set of ciphertext messages. Since for m e M, f(m) should <underline>hide</underline> the contents of m from an enemy, f<supscrpt>-1</supscrpt> should, in a certain technical sense, be difficult to infer from f(m) and public knowledge about f.
+ A <underline>cryptosystem</underline> is a model of computation and communication which permits the manipulation of messages by cryptographic transformations.

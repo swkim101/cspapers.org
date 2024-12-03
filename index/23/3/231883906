@@ -1,0 +1,4 @@
+
+ 
+ This paper is concerned with knowledge compilation (KC), a family of approaches developed in AI for more than twenty years. Knowledge compilation consists in pre-processing some pieces of the available information in order to improve the computational efficiency (especially, the time complexity) of some tasks. In this paper, the focus is laid on three KC topics which gave rise to many works: the development of knowledge compilation techniques for the clausal entailment problem in propositional logic, the concept of compilability and the notion of knowledge compilation map. The three topics, as well as an overview of the main results from the literature, are presented. Some recent research lines are also discussed.
+ 

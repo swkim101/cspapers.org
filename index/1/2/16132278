@@ -1,0 +1,1 @@
+We consider the k-median clustering with outliers problem: Given a finite point set in a metric space and parameters k and m, we want to remove m points (called outliers), such that the cost of the optimal k-median clustering of the remaining points is minimized. We present the first polynomial time constant factor approximation algorithm for this problem.

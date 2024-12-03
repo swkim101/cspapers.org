@@ -1,0 +1,1 @@
+A unification algorithm is described which tests a set of expressions for unifiability and which requires time and space which are only linear in the size of the input.

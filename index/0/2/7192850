@@ -1,0 +1,1 @@
+Software management oracles often contain numerous subjective features. At each subjective point, a range of behaviors is possible. Stochastic simulation samples a subset of the possible behaviors. After many such stochastic simulations, the TAR2 treatment learner can find control actions that have (usually) the same impact despite the subjectivity of the oracle.

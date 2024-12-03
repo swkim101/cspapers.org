@@ -1,0 +1,17 @@
+It is a great pleasure to welcome you all to Barcelona and to a rewarding week of immersion in the very best research work in the field of networking. 
+ 
+Sigcomm is an extremely selective conference and this year was no exception: we received 267 submissions, out of which 27 were selected for publication. Authors worked very hard to submit high quality papers, and we want to thank them all. The selection of the final program would not have been possible without the help of 60 highly dedicated and skilled Technical Program Committee members, who worked over a period of 10 weeks producing almost one thousand reviews and a similar number of comments. Our thanks goes to them as well. 
+ 
+Traditionally, this space is used to describe the paper selection process. We strongly believe in the value of increasing visibility into the procedures underlying the conference, so this year we put together a more complete description of the process followed. You can find it in the July'09 issue of Computer Communication Review (CCR), together with some properly anonymized data from the paper management system. 
+ 
+This gains us space for a few comments on the technical content of this year's program. Networking is a rapidly evolving discipline. As with every area of research we do see it addressing a number of topics that have reached maturity, and others that are just starting to attract interest. Looking at the papers in this year's program, we clearly see two topics dominating the scene: wireless and data center. 
+ 
+Wireless networking is not a new topic but still a very active one. Among other things, this week we will hear about research that tries to provide increased capacity through the use of interference alignment and cancelation, directional antennas and new frequency bands. 
+ 
+Networking research in the area of data centers, however, is relatively new. Presentations will cover a variety of approaches that explore mixes of topology, switch and end-node cooperation to scale and offer full bisection band-width at reasonable cost. 
+ 
+Interestingly, we also see a number of papers in this year's program that incorporate the effect of novel networking constraints, such as energy, and end user security. 
+ 
+Lastly, network measurement and network management are long standing parts of our technical program. With the convergence of services on top of a unified IP infrastructure, troubleshooting of performance problems is likely to get more and more complex. This year's program features solutions in performance diagnosis and root cause analysis that target enteprise networks and IPTV services. 
+ 
+We really hope you will enjoy the technical program of ACM Sigcomm 2009 and we expect to see lively discussions around the latest achievements of our community. Remember that papers are available through CCR Online, where discussions can continue after the conference.

@@ -1,0 +1,5 @@
+MSSS78 is an experimental computer system made in a series of research efforts to construct a natural language man-machine interface. The system accepts sentences about arithmetic or geography, and then responds to the queries on the basis of its own knowledge and dialogue context. 
+ 
+The system analyzes sentences, using Case Patterns, in which procedures are embedded. Case Patterns are linguistic knowledge associated with main words. The system uses Case Patterns for syntactic and semantic analysis. Additionally, Parsing is controlled by the utilization of a pushdown stack and a list. 
+ 
+The system generates somewhat intelligent responses, considering results of the database reference or lack of input information.

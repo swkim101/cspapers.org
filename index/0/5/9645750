@@ -1,0 +1,1 @@
+For every A > 2 and E > 0 we present a polynomial time approximation algorithm for the Maximum Independent Set problem, that in a graph of degree A approximates an optimal solution within ratio & E for even A and within ratio & E for odd A.

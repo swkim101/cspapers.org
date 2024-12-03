@@ -1,0 +1,19 @@
+In the last decade, data mining has emerged as one of the most vivacious areas in information technology. Classic data mining is heavily dependent on data itself and targets data-driven methodologies. Existing approaches either view data mining as an autonomous data-driven trial-and-error process, or analyze the business issues in an isolated and case-by-case manner. As a result, very often the knowledge discovered is not always generally targeted to real business needs. 
+ 
+Real-world data mining should consider and involve the following factors in data mining: the domain expert's role, domain intelligence, network/web intelligence, in-depth data intelligence, and the constrained environments in practice. It is greatly expected by business users that the identified data mining results can be directly deployed to assist business decision making and to improve business processes. However, as pointed out by KDD panels, they are some grand challenges for the next-generation KDD. It is very challenging to involve them for actionable knowledge discovery and mining real-world domain problems. Domain Driven Data Mining aims to tackle such challenges. 
+ 
+The "2007 ACM SIGKDD International Workshop on Domain Driven Data Mining (DDDM2007)" has provided a premier forum for sharing findings, knowledge, insight, experience and lessons in tackling potential challenges 
+ 
+(1) to expose next-generation data mining methodology for actionable knowledge discovery, identifying how KDD techniques can better contribute to critical domain problems in theory and practice; 
+ 
+(2) to uncover domain-driven data mining techniques identifying how KDD can better strengthen business intelligence in complex enterprise applications; 
+ 
+(3) to disclose the applications of domain driven data mining identifying how KDD can be effectively deployed into solving complex practical problems; and 
+ 
+(4) to identify challenges and directions for future research and development in the dialogue between academia and business. 
+ 
+The DDDM2007 has competitively selected 8 papers including 5 regular papers and 3 short papers from 5 countries. These papers have addressed specific domain problems in social security, blog, business, healthcare, crime and finance as well as theoretical issues. 
+ 
+We hope the above efforts can promote the research and development of discovering actionable knowledge from complex domain problems, enhancing interaction and reducing the gap between academia and business, and driving a paradigm shift from interesting hidden pattern mining to actionable knowledge discovery in varying data mining domains. 
+ 
+The DDDM2007 is organized by the Faculty of Information Technology at the University of Technology, Sydney, Australia. In accompanying the DDDM2007, a special Trends & Controversies Department in IEEE Intelligent Systems magazine (Volume 22, No. 4 in 2007) has been successfully published.

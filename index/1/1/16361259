@@ -1,0 +1,1 @@
+We investigate the performance of metasearch algorithms in terms of how much they improve consistency. We find that three different metasearch algorithms, each over three datasets, usually improve the consistency of search results; sometimes the improvement is dramatic. Furthermore, consistency tends to improve when performance improves.

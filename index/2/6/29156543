@@ -1,0 +1,4 @@
+
+ 
+ Reinforcement Learning (RL) is a successful technique to train autonomous agents. However, the classical RL methods take a long time to learn how to solve tasks. Option-based solutions can be used to accelerate learning and transfer learned behaviors across tasks by encapsulating a partial policy into an action. However, the literature report only single-agent and single-objective option-based methods, but many RL tasks, especially real-world problems, are better described through multiple objectives. We here propose a method to learn options in Multiobjective Reinforcement Learning domains in order to accelerate learning and reuse knowledge across tasks. Our initial experiments in the Goldmine Domain show that our proposal learn useful options that accelerate learning in multiobjective domains. Our next steps are to use the learned options to transfer knowledge across tasks and evaluate this method with stochastic policies.
+ 

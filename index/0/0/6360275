@@ -1,0 +1,1 @@
+Case-Based Reasoning, in short, is the process of solving new problems based on solutions of similar past problems, much like humans solve many problems. myCBR, an extension of the ontology editor Protege, provides such similarity-based retrieval functionality. Moreover, the user is supported in modelling appropriate similarity measures by forward and backward explanations.

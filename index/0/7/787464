@@ -1,0 +1,5 @@
+In this paper we propose a framework for decentralized model-based diagnosis of complex systems modeled with qualitative constraints and whose models are distributed among their subsystems. 
+ 
+We assume that Local Diagnosers are associated with subsystems and are coordinated by a Supervisor which acts as the diagnoser for the complex system. The Local Diagnosers and the Supervisor communicate via a standard interface and share a common modeling ontology. In this diagnostic architecture, connections between subsystems only need to be known at runtime, thus allowing for dynamic (re)configuration of the system. 
+ 
+The approach is designed to compute partial hypotheses in order to avoid unnecessary queries to Local Diagnosers.

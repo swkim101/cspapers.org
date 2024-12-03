@@ -1,0 +1,1 @@
+We consider Nash equilibria in 2-player random games and analyze a simple Las Vegas algorithm for finding an equilibrium. The algorithm is combinatorial and always finds a Nash equilibrium; on m /spl times/ n payoff matrices, it runs in time O(m/sup 2/n log log n + n/sup 2/m log log m) with high probability. Our main tool is a polytope formulation of equilibria.

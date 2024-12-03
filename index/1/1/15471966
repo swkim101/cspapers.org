@@ -1,0 +1,4 @@
+
+ 
+ We study the complexity of deciding if a given profile of incomplete votes (i.e., a profile of partial orders over a given set of alternatives) can be extended to a single-crossing profile of complete votes (total orders). This problem models settings where we have partial knowledge regarding voters' preferences and we would like to understand whether the given preference profile may be single-crossing. We show that this problem admits a polynomial-time algorithm when the order of votes is fixed and the input profile consists of top orders, but becomes NP-complete if we are allowed to permute the votes and the input profile consists of weak orders or independent-pairs orders. Also, we identify a number of practical special cases of both problems that admit polynomial-time algorithms.
+ 

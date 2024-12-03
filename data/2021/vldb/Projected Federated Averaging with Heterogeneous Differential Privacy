@@ -1,9 +1,0 @@
-Federated Learning (FL) is a promising framework for multiple clients to learn a joint model without directly sharing the data. In addition to high utility of the joint model, rigorous privacy protection of the data and communication efficiency are important design goals. Many existing efforts achieve rigorous privacy by ensuring differential privacy for intermediate model parameters, however, they assume a uniform privacy parameter for all the clients. In practice, different clients may have different privacy requirements due to varying policies or preferences.
- 
- In this paper, we focus on explicitly modeling and leveraging the heterogeneous privacy requirements of different clients and study how to optimize utility for the joint model while minimizing communication cost. As differentially private perturbations affect the model utility, a natural idea is to make better use of information submitted by the clients with higher privacy budgets (referred to as "public" clients, and the opposite as "private" clients). The challenge is how to use such information without biasing the joint model. We propose
- P
- rojected
- F
- ederated
- A
- veraging (PFA), which extracts the top singular subspace of the model updates submitted by "public" clients and utilizes them to project the model updates of "private" clients before aggregating them. We then propose communication-efficient PFA+, which allows "private" clients to upload projected model updates instead of original ones. Our experiments verify the utility boost of both algorithms compared to the baseline methods, whereby PFA+ achieves over 99% uplink communication reduction for "private" clients.

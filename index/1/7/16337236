@@ -1,0 +1,5 @@
+Presolving is a preprocessing step performed by optimisation solvers to improve performance. However, these solvers cannot easily exploit high-level model structure as available in modelling languages such as MiniZinc or Essence. 
+ 
+We present an integrated approach that performs presolving as a separate pass during the compilation from high-level optimisation models to solver-level programs. The compiler produces a representation of the model that is suitable for presolving by retaining some of the high-level structure. It then uses information learned during presolving to generate the final solver-level representation. 
+ 
+Our approach introduces the novel concept of variable paths that identify variables which are common across multiple compilation passes, increasing the amount of shared information. We show that this approach can lead to both faster compilation and more efficient solver-level programs.

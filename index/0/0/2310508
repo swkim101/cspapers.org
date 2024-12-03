@@ -1,0 +1,5 @@
+Autocompletion is a widely deployed facility in systems that require user input. Having the system complete a partially typed "word" can save user time and effort. 
+ 
+In this paper, we study the problem of autocompletion not just at the level of a single "word", but at the level of a multi-word "phrase". There are two main challenges: one is that the number of phrases (both the number possible and the number actually observed in a corpus) is combinatorially larger than the number of words; the second is that a "phrase", unlike a "word", does not have a well-defined boundary, so that the autocompletion system has to decide not just what to predict, but also how far. 
+ 
+We introduce a FussyTree structure to address the first challenge and the concept of a significant phrase to address the second. We develop a probabilistically driven multiple completion choice model, and exploit features such as frequency distributions to improve the quality of our suffix completions. We experimentally demonstrate the practicability and value of our technique for an email composition application and show that we can save approximately a fifth of the keystrokes typed.

@@ -1,0 +1,4 @@
+
+ 
+ The automated processing of multiple seismic signals to detect and localize seismic events is a central tool in both geophysics and nuclear treaty verification. This paper reports on a project, begun in 2009, to reformulate this problem in a Bayesian framework. A Bayesian seismic monitoring system, NET-VISA, has been built comprising a spatial event prior and generative models of event transmission and detection, as well as an inference algorithm. Applied in the context of the International Monitoring System (IMS), a global sensor network developed for the Comprehensive Nuclear-Test-Ban Treaty (CTBT), NET-VISA achieves a reduction of around 50% in the number of missed events compared to the currently deployed system. It also finds events that are missed even by the human analysts who post-process the IMS output.
+ 

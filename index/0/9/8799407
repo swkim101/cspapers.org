@@ -1,0 +1,9 @@
+This paper describes a system for the analysis of Chinese language that incorporates several heuristic techniques for reducing ambiguities. 
+ 
+Heuristic knowledge about "characteristic" words is used to predict a partial syntactic structure of sentence before doing global analysis. More than one prediction may exist, the system chooses the best combination of compatible partial predictions. Backtracking is evoked if acontradiction is later detected, producing a different choice of predictions. 
+ 
+Semantic constraints are used for translating phrase structure into case structure Rules are written to independent modules for word classes. An object-oriented scheme organizes the rules into layers, according to their priorities of application. 
+ 
+A preference score is calculated at each step of processing, giving a synthetic evaluation of both syntactic plausibility and semantic plausibility. The scores of partial results steer a priority-driven parser towards the most plausible sentence structure, instead of generating all the possible results and afterwards making the choice. 
+ 
+An experimental system based on these techniques has been built and tested on over one hundred sentences selected from published material. The results were very successful. The number of trees required to be produced in order to obtain a correct analysis was typically reduced from several hundred to under ten.

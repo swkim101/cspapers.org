@@ -1,0 +1,4 @@
+
+ 
+ We investigate a natural generalization of the classical clustering problem, considering clustering tasks in which different instances may have different weights. We conduct the first extensive theoretical analysis on the influence of weighted data on standard clustering algorithms in both the partitional and hierarchical settings, characterizing the conditions under which algorithms react to weights. Extending a recent framework for clustering algorithm selection, we propose intuitive properties that would allow users to choose between clustering algorithms in the weighted setting and classify algorithms accordingly.
+ 

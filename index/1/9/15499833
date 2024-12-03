@@ -1,0 +1,4 @@
+
+ 
+ Multi-instance learning deals with tasks where each example is a bag of instances, and the bag labels of training data are known whereas instance labels are unknown. Most previous studies on multi-instance learning assumed that the training and testing data are from the same distribution; however, this assumption is often violated in real tasks. In this paper, we present possibly the first study on multi-instance learning with distribution change. We propose the MICS approach by considering both bag-level and instance-level distribution change. Experiments show that MICS is almost always significantly better than many state-of-the-art multi-instance learning algorithms when distribution change occurs; and even when there is no distribution change, their performances are still comparable.
+ 

@@ -1,0 +1,1 @@
+This paper investigates using social tags for the purpose of making personalized content recommendations. Our tag-based recommender creates a personalized bookmark recommendation model for each user based on "current" and "general interest" tags, defined by different time intervals.

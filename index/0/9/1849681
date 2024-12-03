@@ -1,0 +1,3 @@
+The lack of a large annotated systemic functional grammar (SFG) corpus has posed a significant challenge for the development of the theory. Automating SFG annotation is challenging because the theory uses a minimal constituency model, allocating as much of the work as possible to a set of hierarchically organised features. 
+ 
+In this paper we show that despite the unorthodox organisation of SFG, adapting existing resources remains the most practical way to create an annotated corpus. We present and analyse SFGBank, an automated conversion of the Penn Treebank into systemic functional grammar. The corpus is comparable to those available for other linguistic theories, offering many opportunities for new research.

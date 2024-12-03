@@ -1,5 +1,0 @@
-Current systems for data-parallel, incremental processing and view maintenance over high-rate streams isolate the execution of independent queries. This creates unwanted redundancy and overhead in the presence of concurrent incrementally maintained queries: each query must independently maintain the same indexed state over the same input streams, and new queries must build this state from scratch before they can begin to emit their first results.
- 
- This paper introduces
- shared arrangements
- : indexed views of maintained state that allow concurrent queries to reuse the same in-memory state without compromising data-parallel performance and scaling. We implement shared arrangements in a modern stream processor and show order-of-magnitude improvements in query response time and resource consumption for incremental, interactive queries against high-throughput streams, while also significantly improving performance in other domains including business analytics, graph processing, and program analysis.

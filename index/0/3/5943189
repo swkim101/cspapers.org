@@ -1,0 +1,2 @@
+Today, several data-storage systems allow applications to create and manage custom metadata to improve data search and navigability in large scale storage systems.
+ Our thesis is that, besides improving search and navigability, custom metadata can also serve as a two way communication mechanism between applications and the storage layer to enable cross-layer optimizations in a uniform, application-independent and incremental fashion.

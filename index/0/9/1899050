@@ -1,0 +1,1 @@
+Wireless Sensor Networks (WSNs) are typically energy constrained, hence, energy management is a fundamental factor determining their performance and lifetime. We present EM, an energy management tool for WSNs, which main idea is to extend the node lifetime, by adapting its duty cycle and the amount of tasks executed.

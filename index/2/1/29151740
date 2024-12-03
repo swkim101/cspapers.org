@@ -1,0 +1,4 @@
+
+ 
+ This paper studies a top-k hierarchical classification problem. In top-k classification, one is allowed to make k predictions and no penalty is incurred if at least one of k predictions is correct. In hierarchical classification, classes form a structured hierarchy, and misclassification costs depend on the relation between the correct class and the incorrect class in the hierarchy. Despite that the fact that both top-k classification and hierarchical classification have gained increasing interests, the two problems have always been studied separately. In this paper, we define a top-k hierarchical loss function using a real world application. We provide the Bayes-optimal solution that minimizes the expected top-k hierarchical misclassification cost. Via numerical experiments, we show that our solution outperforms two baseline methods that address only one of the two issues.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Semi-supervised support vector machines (S3VMs) are a kind of popular approaches which try to improve learning performance by exploiting unlabeled data. Though S3VMs have been found helpful in many situations, they may degenerate performance and the resultant generalization ability may be even worse than using the labeled data only. In this paper, we try to reduce the chance of performance degeneration of S3VMs. Our basic idea is that, rather than exploiting all unlabeled data, the unlabeled instances should be selected such that only the ones which are very likely to be helpful are exploited, while some highly risky unlabeled instances are avoided. We propose the S3VM-us method by using hierarchical clustering to select the unlabeled instances. Experiments on a broad range of data sets over eighty-eight different settings show that the chance of performance degeneration of S3VM-us is much smaller than that of existing S3VMs.
+ 

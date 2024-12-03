@@ -1,0 +1,1 @@
+This paper describes the layout model and algorithm applied to an advanced LILAC system which is capable of automatically designing MOS/LSI chip layouts containing PLAs. The system, which is a fully automated design system, inputs logic description and outputs layout drawing.

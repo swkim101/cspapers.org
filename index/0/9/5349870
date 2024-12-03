@@ -1,0 +1,1 @@
+Current search engines do not fully leverage semantically rich datasets, or specialise in indexing just one domain-specific dataset.We present a search engine that uses the RDF data model to enable interactive query answering over richly structured and interlinked data collected from many disparate sources on the Web.

@@ -1,0 +1,7 @@
+Temporal representation and reasoning are necessary components of systems that consider events that occur in the real world. This work explores ways of considering collections of intervals of time. This line of research is motivated by related work being done by our research group on appointment scheduling and time management. Natural language expressions that refer to collections of intervals are used naturally and routinely in these contexts, and an effective means of representing them is essential. 
+ 
+Previous studies, which considered intervals primarily in isolation, have difficulties in representing some classes of expressions. This occurs not only with expressions that explicitly refer to collections of intervals, such as "the first of every month," but also with expressions that do so only implicitly, such as the U.S. Election Day: "the first Tuesday after the first Monday in November." The traditional solution to this problem has been to provide special means of specifying those forms that are judged to be the most useful (to the exclusion of all other forms). 
+ 
+The "collection representation" builds on previous work in temporal representation by introducing operators that allow the representation of collections of intervals, whether they occur explicitly or implicitly in the expression. 
+ 
+The operators introduced are natural extensions of the relations and operations on intervals. The representation has potential use in scheduling in three areas: graphical display, natural language translation, and reasoning.

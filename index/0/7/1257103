@@ -1,0 +1,1 @@
+We present a statistical model for predicting how the user of an interactive, situated NLP system resolved a referring expression. The model makes an initial prediction based on the meaning of the utterance, and revises it continuously based on the user’s behavior. The combined model outperforms its components in predicting reference resolution and when to give feedback.

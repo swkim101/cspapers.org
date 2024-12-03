@@ -1,0 +1,4 @@
+
+ 
+ The web has become the central platform and marketplace for the organization, propagation of events and sale of tickets of any kind. Such events range from concerts, workshops, sport events, professional events to small local events. Single event pages are typically split into a textual event description and a set of core event attributes that are specifically highlighted and presented in the same template for all events of a particular source. In this work, we aim to learn a joint model for the extraction of event attributes from both event descriptions and templates. We also investigate the automatic discovery of event sources and the identification of single event pages within event sources. By considering all three problems as part of an integral system, we can exploit mutual reinforcement between the models derived for each sub problem.
+ 

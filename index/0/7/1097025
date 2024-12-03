@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a semi-supervised kernel matching method to address domain adaptation problems where the source distribution substantially differs from the target distribution. Specifically, we learn a prediction function on the labeled source data while mapping the target data points to similar source data points by matching the target kernel matrix to a submatrix of the source kernel matrix based on a Hilbert Schmidt Independence Criterion. We formulate this simultaneous learning and mapping process as a non-convex integer optimization problem and present a local minimization procedure for its relaxed continuous form. Our empirical results show the proposed kernel matching method significantly outperforms alternative methods on the task of across domain sentiment classification.
+ 

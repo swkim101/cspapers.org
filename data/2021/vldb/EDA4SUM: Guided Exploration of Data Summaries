@@ -1,6 +1,0 @@
-
- We demonstrate EDA4Sum, a framework dedicated to generating guided multi-step data summarization pipelines for very large datasets. Data summarization is the process of producing interpretable and representative subsets of an input dataset. It is usually performed following a one-shot process with the purpose of finding the best summary. EDA4Sum leverages Exploratory Data Analysis (EDA) to produce connected summaries in multiple steps, with the goal of maximizing their cumulative utility. A useful summary contains
- k individually uniform
- sets that are
- collectively diverse
- to be representative of the input data. EDA4Sum accommodates datasets with different characteristics by providing the ability to tune the weights of uniformity, diversity and novelty when generating multi-step summaries. We demonstrate the superiority of multi-step EDA summarization over single-step summarization for summarizing very large data, and the need to provide guidance to domain experts, by interacting with the VLDB'22 participants who will act as data analysts. The application is avilable at https://bit.ly/eda4sum_application.

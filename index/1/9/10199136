@@ -1,0 +1,1 @@
+This paper presents a logical model for an active object oriented dntahaae. The main idea is to use standard concepts of OODB such aa encapsulation and inheritance, In particular triggers are special met,hods encapsulated in the appropriate object. The execution model uses nested transactions. The model is shown to he flexihle and to generalize previous proposals,

@@ -1,0 +1,31 @@
+Classical logic argumentation (Cl-Arg) under the
+
+stable semantics yields argumentative characterisations
+
+of non-monotonic inference in Preferred Subtheories.
+
+This paper studies these characterisations
+
+under both the standard approach to Cl-Arg, and a
+
+recent dialectical approach that is provably rational
+
+under resource bounds. Two key contributions are
+
+made. Firstly, the preferred extensions are shown
+
+to coincide with the stable extensions. This means
+
+that algorithms and proof theories for the admissible
+
+semantics can now be used to decide credulous
+
+inference in Preferred Subtheories. Secondly, we
+
+show that as compared with the standard approach,
+
+the grounded semantics applied to the dialectical
+
+approach more closely approximates sceptical inference
+
+in Preferred Subtheories.

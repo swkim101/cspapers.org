@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel algorithm that allows a small team of robots to fully explore an unknown environment, even in the face of extreme communication restrictions. We verify, through proofs and experiments, that the algorithm will achieve full exploration.
+ 

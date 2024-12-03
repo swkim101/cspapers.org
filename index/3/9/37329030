@@ -1,0 +1,1 @@
+This presentation summarizes the issues with Ethernet deployment in high bandwidth and low latency environments typical of high performance clustering and storage applications. The presentation briefly describes how through iWARP, Ethernet is addressing these issues. We will illustrate actual system performance improvements using NetEffect's 10 Gb iWARP Ethernet Channel Adapter.

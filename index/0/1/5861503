@@ -1,0 +1,3 @@
+Here, we define a framework where defeasible argumentation is used for reasoning about beliefs, desires and intentions. A dialectical filtering process is introduced to obtain a subset of the agent's desires containing only those that are achievable in the current situation. Different agents types can be defined in the framework affecting the way in which current desires are obtained. 
+ 
+The agent is provided with a set of intention rules that specifies under what conditions an intention could be achieved. When more than one intention is present, a policy will be used to choose among them. Thus, intention policies provide the agent with a mechanism for deciding which intention is selected in the current situation. Several application examples will be given.

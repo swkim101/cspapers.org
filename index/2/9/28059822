@@ -1,0 +1,7 @@
+This is a summary of a tutorial presented during the conference discussing a number of approaches to representing disk I/O subsystems in analytic models of computer systems.
+ As in any analytic modelling study, the fundamental objective in considering an I/O subsystem is to determine which devices should be represented in the model, and what their loadings should be. The device loadings represent the service required by jobs, and are the basic parameters needed by the computational algorithm which calculates performance measures for the model. To set these parameters, knowledge of service times at the various devices in the I/O subsystem is required.
+ The tutorial begins by distinguishing analytic modelling from alternative approaches, by identifying the parameter values that are required for an analytic modelling study, and by explaining the role of the computational algorithm that is employed (Denning & Buzen [1978] provide a good, although lengthy, summary).
+ We then consider a sequence of models of increasingly complex I/O subsystems.
+ Next we discuss I/O subsystems with rotational position sensing.
+ We then discuss approaches to modelling shared DASD, emphasizing hierarchical techniques in which highlevel models of each system can be analyzed in isolation. We also mention recent techniques for modelling complex I/O subsystems involving multipathing.
+ Finally, we discuss the analysis of I/O subsystems based on broadcast channels such as Ethernet.

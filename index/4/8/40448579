@@ -1,0 +1,4 @@
+
+ 
+ Numeric Timed Initial Fluents represent a new feature in PDDL that extends the concept of Timed Initial Literals to numeric fluents. They are particularly useful to model independent functions that change through time and influence the actions to be applied. Although they are very useful to model real world problems, they are not systematically defined in the family of PDDL languages and they are not implemented in any generic PDDL planner, except for POPF2 and UPMurphi. In this paper we present an extension of the planner POPF2 (POPF-TIF) to handle problems with numeric Timed Initial Fluents. We propose and evaluate two contributions: the first is based on improvements of the heuristic evaluation, while the second considers alternative search algorithms based on a mixture of Enforced Hill Climbing and Best First Search.
+ 

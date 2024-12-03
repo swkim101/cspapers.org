@@ -1,0 +1,11 @@
+Sketching is a prominent algorithmic tool for processing large data. In this paper, we study the problem of sketching matrix norms. We consider two sketching models. The first is bilinear sketching, in which there is a distribution over pairs ofrxn matrices S and n x s matrices T such that for any fixed n x n matrix A, from S · A · T one can approximate ||A||p up to an approximation factor α ≥ 1 with constant probability, where ||A||p is a matrix norm. The second is general linear sketching, in which there is a distribution over linear maps L: Rn2 → Rk, such that for any fixed n x n matrix A, interpreting it as a vector in Rn2, from L(A) one can approximate ||A||p up to a factor α. 
+ 
+We study some of the most frequently occurring matrix norms, which correspond to Schatten p-norms for p e {0, 1, 2, ∞}. The p-th Schatten norm of a rank-r matrix A is defined to be [EQUATION], where σ1,...,σr are the singular values of A. When p = 0, ||A||0 is defined to be the rank of A. The cases p = 1, 2, and ∞ correspond to the trace, Frobenius, and operator norms, respectively. For bilinear sketches we show: 
+ 
+1. For p = ∞ any sketch must have r · s = O(n2/α4) dimensions. This matches an upper bound of Andoni and Nguyen (SODA, 2013), and implies one cannot approximate the top right singular vector v of A by a vector v' with ||v' -- v||2 ≤ 1/2 with r · s = o(n2) 
+ 
+2. For p e {0, 1} and constant α, any sketch must have r · s ≥ n1-e dimensions, for arbitrarily small constant e > 0. 
+ 
+3. For even integers p ≥ 2, we give a sketch with r · s = O(n2-4/pe-2) dimensions for obtaining a (1 + e)-approximation. This is optimal up to logarithmic factors, and is the first general subquadratic upper bound for sketching the Schatten norms. 
+ 
+For general linear sketches our results, though not optimal, are qualitatively similar, showing that for p = ∞, k = Ω(n3/2/α4) and for p e {0, 1}, k = Ω(√n). These give separations in the sketching complexity of Schatten-p norms with the corresponding vector p-norms, and rule out a table lookup nearest-neighbor search for p = 1, making progress on a question of Andoni.

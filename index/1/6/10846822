@@ -1,0 +1,3 @@
+MBR is a reasoning system which allows multiple bellets (beliets from multiple agents, contradictory beliefs, hypothetical beliefs) to be represented simultaneously in the same knowledge base and performs reasoning with in sets of these beliefs. MBR also contains provisos to detect contradictions and to recover from them. 
+ 
+This paper describes MBR's method of detecting and recording contradictions with in beliefs of different agents, showing an example of such process.

@@ -1,0 +1,5 @@
+The main results of this paper demonstrate the consistency of “P &equil; NP” and a variant of “NP @@@@ coNP” with certain natural fragments of number theory to be defined precisely in the sequel.@@@@ Consistency results represent an approach to the lower bound problems of complexity theory which points to a number of interesting lines of inquiry. Our ultimate goal is to make precise the difficulty of proving certain nontrivial lower bounds. Among the possibilities which follow from this approach are:
+ (1) that logical techniques may help us resolve the P &equil; NP question,
+ (2) that showing why certain arguments must fail may lead to mathematical tools capable of resolving the problems, and
+ (3) that the special character of model theoretic methods in complexity theory may lead to new results which are of purely logical interest.
+ We will address these possibilities below.

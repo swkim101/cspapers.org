@@ -1,0 +1,1 @@
+This work proposes a novel cautious surfer to incorporate trust into the process of calculating authority for web pages. We evaluate a total of sixty queries over two large, real-world datasets to demonstrate that incorporating trust can improve PageRank's performance.

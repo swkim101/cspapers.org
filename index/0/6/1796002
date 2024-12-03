@@ -1,0 +1,4 @@
+
+ 
+ Collaborative filtering algorithms generally rely on the assumption that user preference patterns remain stationary. However, real-world relational data are seldom stationary. User preference patterns may change over time, giving rise to the requirement of designing collaborative filtering systems capable of detecting and adapting to preference pattern shifts. Motivated by this observation, in this paper we propose a dynamic Bayesian probabilistic matrix factorization model, designed for modeling time-varying distributions. Formulation of our model is based on imposition of a dynamic hierarchical Dirichlet process (dHDP) prior over the space of probabilistic matrix factorization models to capture the time-evolving statistical properties of modeled sequential relational datasets. We develop a simple Markov Chain Monte Carlo sampler to perform inference. We present experimental results to demonstrate the superiority of our temporal model.
+ 

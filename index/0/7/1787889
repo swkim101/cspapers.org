@@ -1,0 +1,1 @@
+We present currently the first approach to test wave pipelined circuits. Wave faults are identified and well modeled. The fault coverage is obtained by statistics and fault probabilities. We also present the robust wave test, and give a TG algorithm, by testing wave pipelined and ISCAS combinational circuits, capable of reaching on average 85.8% fault coverage.

@@ -1,0 +1,4 @@
+
+ 
+ A general game player is a system that understands the rules of unknown games and learns to play these games well without human intervention. A major challenge for research in General Game Playing is to endow a player with the ability to extract and prove game-specific knowledge from the mere game rules. We define a formal language to express temporally extended — yet local — properties of games. We also develop a provably correct proof theory for this language using the paradigm of Answer Set Programming, and we report on experiments with a practical implementation of this proof system in combination with a successful general game player.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ The Hierarchical Graph-Coupled Hidden Markov Model (hGCHMM) is a useful tool for tracking and predicting the spread of contagious diseases, such as influenza, by leveraging social contact data collected from individual wearable devices. However, the existing inference algorithms depend on the assumption that the infection rates are small in probability, typically close to 0. The purpose of this paper is to build a unified learning framework for latent infection state estimation for the hGCHMM, regardless of the infection rate and transition function. We derive our algorithm based on a dynamic auto-encoding variational inference scheme, thus potentially generalizing the hGCHMM to models other than those that work on highly contagious diseases. We experimentally compare our approach with previous Gibbs EM algorithms and standard variational method mean-field inference, on both semi-synthetic data and app collected epidemiological and social records.
+ 

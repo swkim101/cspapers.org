@@ -1,0 +1,1 @@
+We propose tuple density to be a new metric for combinatorial test suites. It can be used to distinguish one test suite from another even if they have the same size and strength. Moreover, it is also illustrated how a given test suite can be optimized based on this metric. The initial experimental results are encouraging.

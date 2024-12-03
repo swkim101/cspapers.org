@@ -1,0 +1,1 @@
+The authors present the design of an advanced software development system for dozens of robots with tight cooperation among robots. The system is based on Smalltalk-80 and extended for the purpose of the multiple robots control. The principle for the extension are very simple, making it easy to implement virtual machines for the multiple processors and the multiple robots.

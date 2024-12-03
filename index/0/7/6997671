@@ -1,0 +1,4 @@
+
+ 
+ Freuder and Elfe (1996) introduced Neighborhood Inverse Consistency (NIC) for binary CSPs. In this paper, we introduce RNIC, the extension of NIC to non-binary CSPs, and describe a practical algorithm for enforcing it. We propose an adaptive strategy to weaken or strengthen this property based on the connectivity of the network. We demonstrate the effectiveness of RNIC as a full lookahead strategy during search for solving difficult benchmark problems.
+ 

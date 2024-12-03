@@ -1,0 +1,5 @@
+Formal program specifications are difficult to write. They are always constructed from an informal precursor. We are exploring the technology required to aid in the construction of the formal specification from the informal version. 
+ 
+An informal specification differs from a formal one in that much information which the writer believes the reader can infer from the context has been supressed from the specification. Resolution of the supressed information depends upon information contained in other parts of the specification and upon Knowledge of what makes a specification well-formed and the ability to model the parts of the specification interacting with one another. 
+ 
+This paper describes the technology used in a running system which embodies theories of program well-formedness and informality resolution within the context established by symbolically executing the program to systematically discover the intended meaning of each informal construct within an informal specification.

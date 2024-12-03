@@ -1,0 +1,4 @@
+
+ 
+ We present the first real-world benchmark for sequentially-optimal team formation, working within the framework of a class of online football prediction games known as Fantasy Football. We model the problem as a Bayesian reinforcement learning one, where the action space is exponential in the number of players and where the decision maker's beliefs are over multiple characteristics of each footballer. We then exploit domain knowledge to construct computationally tractable solution techniques in order to build a competitive automated Fantasy Football manager. Thus, we are able to establish the baseline performance in this domain, even without complete information on footballers' performances (accessible to human managers), showing that our agent is able to rank at around the top percentile when pitched against 2.5M human players.
+ 

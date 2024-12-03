@@ -1,0 +1,4 @@
+
+ 
+ We introduce a novel method to extract and utilize the semantic information from acoustic data. By automatic Speech-To-Text alignment techniques, we are able to detect word-based acoustic durations that can prosodically emphasize specific words in an utterance. We model and analyze the sentence-based emphatic patterns by predicting the emphatic levels using only the lexical features, and demonstrate the potential ability of emphatic information produced by such an unsupervised method to improve the performance of NLP tasks, such as sentence compression, by providing weak supervision on multi-task learning based on LSTMs.
+ 

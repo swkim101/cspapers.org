@@ -1,0 +1,1 @@
+In a recent paper, Ginsberg shows how a backward-chaining ATMS can be used to construct a theorem prover for circumscription. Here, this work is extended to handle prioritized circumscription. The ideas to be described have been implemented, and examples are given of the system in use.

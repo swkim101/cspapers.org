@@ -1,0 +1,1 @@
+A specialized transition network mechanism, the interruptable transition network (ITN) is used to perform the last of three stages in a multiprocessor syntactic parser. This approach can be seen as an exercise in implementing a parsing procedure of the active chart parser family.

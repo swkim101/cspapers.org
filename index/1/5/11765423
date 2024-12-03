@@ -1,0 +1,4 @@
+
+ 
+ Ontology matching is the problem of determining correspondences between concepts, properties, and individuals of different heterogeneous ontologies. With this paper we present a novel probabilistic-logical framework for ontology matching based on Markov logic. We define the syntax and semantics and provide a formalization of the ontology matching problem within the framework. The approach has several advantages over existing methods such as ease of experimentation, incoherence mitigation during the alignment process, and the incorporation of a-priori confidence values. We show empirically that the approach is efficient and more accurate than existing matchers on an established ontology alignment benchmark dataset.
+ 

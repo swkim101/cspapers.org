@@ -1,8 +1,0 @@
-
- Escape analysis plays a crucial role in garbage-collected languages as it enables the allocation of non-escaping variables on the stack by identifying the dynamic lifetimes of objects and pointers. This helps in reducing heap allocations and alleviating garbage collection pressure. However, Go, as a garbage-collected language, employs a fast yet conservative escape analysis, which is field-insensitive and omits point-to-set calculation to expedite compilation. This results in more variables being allocated on the heap. Empirical statistics reveal that field access and indirect memory access are prevalent in real-world Go programs, suggesting potential opportunities for escape analysis to enhance program performance. In this paper, we propose MEA
- 2
- , an escape analysis framework atop GoLLVM (an LLVM-based Go compiler), which combines field sensitivity and points-to analysis. Moreover, a novel generic function summary representation is designed to facilitate fast inter-procedural analysis. We evaluated it by using MEA
- 2
- to perform stack allocation in 12 wildly-use open-source projects. The results show that, compared to Go’s escape analysis, MEA
- 2
- can reduce heap allocation sites by 7.9

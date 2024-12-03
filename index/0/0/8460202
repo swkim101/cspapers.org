@@ -1,0 +1,1 @@
+Described is the outline and the experimental results of the system which automatically restructures and partitions a logic circuit consisting of standard SSI's and MSI's so that the gate types and the numbers of input/output terminals of the reorganized circuits are within the restrictions of the specified LSI.

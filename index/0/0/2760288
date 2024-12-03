@@ -1,0 +1,3 @@
+Let $D \subseteq \Sigma^n$ be a dictionary. We look for efficient data structures and algorithms to solve the following approximate query problem: Given a query $u \in \Sigma^n$ list all words $v \in D$ that are close to u in Hamming distance. 
+The problem reduces to the following combinatorial problem: Hash the vertices of the n-dimensional hypercube into buckets so that (1) the c-neighborhood of each vertex is mapped into at most k buckets and (2) no bucket is too large. 
+Lower and upper bounds are given for the tradeoff between k and the size of the largest bucket. These results are used to derive bounds for the approximate query problem.

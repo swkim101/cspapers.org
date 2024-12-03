@@ -1,0 +1,4 @@
+
+ 
+ We present the design and analysis of an approximately incentive-compatible combinatorial auction. In just a single run, the auction is able to extract enough value information from bidders to compute approximate truth-inducing payments. This stands in contrast to current auction designs that need to repeat the allocation computation as many times as there are bidders to achieve incentive compatibility. The auction is formulated as a kernel method, which allows for flexibility in choosing the price structure via a kernel function. Our main result characterizes the extent to which our auction is incentive-compatible in terms of the complexity of the chosen kernel function. Our analysis of the auction's properties is based on novel insights connecting the notion of stability in statistical learning theory to that of universal competitive equilibrium in the auction literature.
+ 

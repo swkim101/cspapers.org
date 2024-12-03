@@ -1,0 +1,1 @@
+Different evaluation methods for distributed systems like prototyping, simulation and emulation have different tradeoffs. We present a testbed for Internet applications that supports real-network prototypes and multiple simulators with unchanged application code. To ensure maximum portability between runtimes, a compact but flexible system interface is defined.

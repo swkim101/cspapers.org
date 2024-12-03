@@ -1,0 +1,4 @@
+
+ 
+ The Steiner Tree Problem is a well know NP-complete problem that is well studied and for which fast algorithms are already available. Nonetheless, in the real world the Steiner Tree Problem is almost always accompanied by side constraints which means these approaches cannot be applied. For many problems with side constraints, only approximation algorithms are known. We introduce here a propagator for the tree constraint with explanations, as well as lower bounding techniques and a novel constraint programming approach for the Steiner Tree Problem and two of its variants. We find our propagators with explanations are highly advantageous when it comes to solving variants of this problem.
+ 

@@ -1,0 +1,1 @@
+We introduce a novel approach to combining rankings from multiple retrieval systems. We use a logistic regression model or an SVM to learn a ranking from pairwise document preferences. Our approach requires no training data or relevance scores, and outperforms a popular voting algorithm.

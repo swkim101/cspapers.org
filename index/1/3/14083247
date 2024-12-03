@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of designing auctions for agents who incur a cost if they choose to learn about their own preferences. We reformulate the revelation principle for use with such deliberative agents. Then we characterize the set of single-good auctions giving rise to dominant strategies for deliberative agents whose values are independent and private. Interestingly, this set of dominant-strategy mechanisms is exactly the set of sequential posted-price auctions, a class of mechanisms that has received much recent attention.  
+ 

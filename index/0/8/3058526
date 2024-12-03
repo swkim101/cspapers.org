@@ -1,0 +1,1 @@
+We introduce new online models for two important aspectsof modern financial markets: Volume Weighted Average Pricetrading and limit order books. We provide an extensivestudy of competitive algorithms in these models and relatethem to earlier online algorithms for stock trading.

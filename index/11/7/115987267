@@ -1,0 +1,1 @@
+We give an algorithm to construct a ceU decomposition of Rd, including adjacency information, defined by any given set of ra­ tional polynomials in d variables. The algorithm runs in single expo­ nential parallel time, and in Ne for fixed d.The algorithm extends a recent algorithm of Ben-Or, Kazen, and Reif for deciding the theory of real closed fields.

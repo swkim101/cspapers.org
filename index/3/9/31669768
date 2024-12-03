@@ -1,0 +1,4 @@
+
+ 
+ The cost-optimal track of the international planning competition in 2014 has seen an unexpected outcome. Different to the precursing competition in 2011, where explicit-state heuristic search planning scored best, advances in the state-set exploration with BDDs showed a significant lead. In this paper we review the outcome of the competition, briefly looking into the internals of the competing systems.
+ 

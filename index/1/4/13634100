@@ -1,0 +1,4 @@
+
+ 
+ Parsing plays an important role in semantic role labeling (SRL) because most SRL systems infer semantic relations from 1-best parses. Therefore, parsing errors inevitably lead to labeling mistakes. To alleviate this problem, we propose to use packed forest, which compactly encodes all parses for a sentence. We design an algorithm to exploit exponentially many parses to learn semantic relations efciently. Experimental results on the CoNLL-2005 shared task show that using forests achieves an absolute improvement of 1.2% in terms of F1 score over using 1-best parses and 0.6% over using 50-best parses.
+ 

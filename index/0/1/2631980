@@ -1,0 +1,3 @@
+The computational bottleneck in applying online learning to massive data sets is usually the projection step. We present efficient online learning algorithms that eschew projections in favor of much more efficient linear optimization steps using the Frank-Wolfe technique. We obtain a range of regret bounds for online convex optimization, with better bounds for specific cases such as stochastic online smooth convex optimization. 
+ 
+Besides the computational advantage, other desirable features of our algorithms are that they are parameter-free in the stochastic case and produce sparse decisions. We apply our algorithms to computationally intensive applications of collaborative filtering, and show the theoretical improvements to be clearly visible on standard datasets.

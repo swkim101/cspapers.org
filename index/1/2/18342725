@@ -1,0 +1,1 @@
+SOSTOOLS is a free, third party MATLAB tool box for solving sum of squares programs. The techniques behind it are based on the sum of squares decomposition for multivariate polynomials. In this paper we describe recent developments and control applications of SOSTOOLS, a free third-party MATLAB toolbox for formulating and solving sum of squares programs

@@ -1,0 +1,1 @@
+The work presented in this paper focuses on the modeling of nonlinear hybrid systems taking into account the different operating modes. This approach is a multi-models approach or each model describes the system in a given mode. Each mode is represented by hybrid automata.

@@ -1,0 +1,1 @@
+We develop a system that lets people overcome language barriers by letting them speak a language they do not know. Our system accepts text entered by a user, translates the text, then converts the translation into a phonetic spelling in the user’s own orthography. We trained the system on phonetic spellings in travel phrasebooks.

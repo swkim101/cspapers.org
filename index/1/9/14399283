@@ -1,0 +1,1 @@
+We have developed an ultra low power (well below 1 nanojoule per transaction), ultra high speed (less than 1 nanosecond), and low cost (a few hundred gates) public physically unclonable function (PPUF). We have also developed the first PPUF-based smart card (SC). We analyze and demonstrate the security of this new SC against several families of potential security attacks.

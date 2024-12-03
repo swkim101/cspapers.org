@@ -1,0 +1,8 @@
+We show how to maintain a data structure on trees which allows for the following operations, all in worst-case constant time: 
+insertion of leaves and internal nodes, 
+deletion of leaves, 
+deletion of internal nodes with only one child, 
+determining the least common ancestor of any two nodes. 
+ 
+ 
+We also generalize the Dietz--Sleator "cup-filling" scheduling methodology, which may be of independent interest.

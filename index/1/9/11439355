@@ -1,0 +1,4 @@
+
+ 
+ We introduce a new discriminative piecewise linear model for classification. A two-step method is developed to construct the model. In the first step, we sample some boundary points that lie between positive and negative data, as well as corresponding directions from negative data to positive data. The sampling result gives a discriminative nonparametric decision surface, which preserves enough information to correctly classify all training data. To simplify this surface, in the second step we propose a nonparametric approach for linear surface segmentation using Dirichlet process mixtures. The final result is a piecewise linear model, in which the number of linear surface pieces is automatically determined by the Bayesian inference according to data. Experiments on both synthetic and real data verify the effectiveness of the proposed model.
+ 

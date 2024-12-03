@@ -1,0 +1,1 @@
+Abstract : We give an O((square root of n)m log N) algorithm for the single-source shortest paths problem with integral arc lengths. (Here n and m is the number of nodes and arcs in the input network and N is essentially the absolute value of the most negative arc length.) This improves previous bounds for the problem.

@@ -1,0 +1,1 @@
+In this paper we propose the framework of Monte Carlo algorithms as a useful one to analyze ensemble learning. In particular, this framework allows one to guess when bagging will be useful, explains why increasing the margin improves performances, and suggests a new way of performing ensemble learning and error estimation.

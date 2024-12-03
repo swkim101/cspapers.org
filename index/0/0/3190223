@@ -1,0 +1,1 @@
+We propose an interpolation method invariant under Möbius transformations: interpolation followed by transformation gives the same result as transformation followed by interpolation. The method uses natural (Delaunay) neighbors, but weights neighbors according to angles formed by Delaunay circles.

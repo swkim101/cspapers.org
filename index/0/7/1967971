@@ -1,0 +1,4 @@
+
+ 
+ In this paper we model the problem of data linkage in Linked Data as a reasoning problem on possibly decentralized data. We describe a novel import-by-query algorithm that alternates steps of sub-query rewriting and of tailored querying the Linked Data cloud in order to import data as specific as possible for inferring or contradicting given target same-as facts. Experiments conducted on a real-world dataset have demonstrated the feasibility of this approach and its usefulness in practice for data linkage and disambiguation.
+ 

@@ -1,0 +1,1 @@
+The experimental results clearly show that the performance of ADSM scheme is limited by the communication of unnecessary data, while that of the UDSM scheme is limited by the instrumentation overhead. The UDSM scheme reduces transmission of unnecessary data and automatically prevents the severe false sharing at fetch-on-write, which is the problem in the page-based scheme.

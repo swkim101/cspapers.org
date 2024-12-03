@@ -1,0 +1,1 @@
+We propose a new mechanism to predict stale queries in the result cache of a search engine. The novelty of our approach is in the use of timestamps in staleness predictions. We show that our approach incurs very little overhead on the system while its prediction accuracy is comparable to earlier works.

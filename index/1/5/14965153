@@ -1,0 +1,1 @@
+We identify a new task in the ongoing research in text sentiment analysis: predicting utility of product reviews, which is orthogonal to polarity classification and opinion extraction. We build regression models by incorporating a diverse set of features, and achieve highly competitive performance for utility scoring on three real-world data sets.

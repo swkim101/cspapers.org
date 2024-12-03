@@ -1,0 +1,1 @@
+In this paper, we discuss the different strategies used in COMET (COordinated Multimedia Explanation Testbed) for selecting words with which the user is familiar. When pictures cannot be used to disambiguate a word or phrase, COMET has four strategies for avoiding unknown words. We give examples for each of these strategies and show how they are implemented in COMET.

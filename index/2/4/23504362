@@ -1,0 +1,6 @@
+The purpose of this paper is to compare four design methods which are of current interest in real-time software development. The comparison presents the relative strengths and weakness of each method with additional information on graphic notation and the recommended sequence of steps involved in the use of each method. The methods selected for comparison were:STRUCTURED DESIGN FOR REAL-TIME SYSTEMS
+OBJECT ORIENTED DESIGN
+PAMELA (Process Abstraction Method for Embedded Large Applications)
+SCR (Software Cost Reduction project - Naval Research Laboratory)
+
+ Readers interested in a framework for comparing methods, an overview of the four selected methodologies, and an aid to narrowing candidates for adoption should find this find this paper helpful.

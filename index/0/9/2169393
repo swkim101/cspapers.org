@@ -1,0 +1,3 @@
+In ([6]), Tiuryn proved the existence of extensions of algebras with the unique fixed point property (iterative algebras) to ordered algebras with the least fixed point property (regular algebras), extensions preserving the fixed point solutions.
+ The aim of this paper is to prove that whenever the extension is “faithful”, i.e. obtained without collapsing elements of the carrier, the new regular algebra is again iterative.
+ In Section 1 we fix some notations and definitions and state Tiuryn's result. Section 2 contains the formulation of the problem and a sketch of the proof. Section 3 deals with the main construction.

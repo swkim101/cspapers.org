@@ -1,0 +1,4 @@
+
+ 
+ Most distance metric learning (DML) approaches focus on learning a Mahalanobis metric for measuring distances between examples. However, for particular feature representations, e.g., histogram features like BOW and SPM, Mahalanobis metric could not model the correlations between these features well. In this work, we define a non-Mahalanobis distance for histogram features, via Expected Hitting Time (EHT) of Markov Chain, which implicitly considers the high-order feature relationships between different histogram features. The EHT based distance is parameterized by transition probabilities of Markov Chain, we consequently propose a novel type of distance learning approach (LED, Learning Expected hitting time Distance) to learn appropriate transition probabilities for EHT based distance. We validate the effectiveness of LED on a series of real-world datasets. Moreover, experiments show that the learned transition probabilities are with good comprehensibility.
+ 

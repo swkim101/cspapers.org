@@ -1,0 +1,3 @@
+One reason for changing the representation of a game is to make it similar to a previously solved one. As a definition of similarity, people have previously often proposed homomorphism-like structures. One such structure, the "s -homomorphism", is defined and studied in this paper. 
+ 
+It is indicated that a useful winning strategy exists for any game in a general class called, "positional games". A set of sufficient conditions is derived which a game has to fulfill to have an s0-homomorphism with a positional game. The conditions are exemplified by applying it to a class of games shown by Newell to be representable as tic-tac-toe.

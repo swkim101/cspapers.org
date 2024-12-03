@@ -1,0 +1,4 @@
+
+ 
+ Entity search is to retrieve a ranked list of named entities of target types to a given query. In this paper, we propose an approach of entity search by formalizing both context matching and category matching. In addition, we propose a result re-ranking strategy that can be easily adapted to achieve a hybrid of two context matching strategies. Experiments on the INEX 2009 entity ranking task show that the proposed approach achieves a significant improvement of the entity search performance (xinfAP from 0.27 to 0.39) over the existing solutions.
+ 

@@ -1,0 +1,1 @@
+We present a hierarchical tree structure for online maintenance of time-decaying synopses over streaming data. We exemplify such an amnesic behavior over streams of locations taken from numerous moving objects in order to obtain reliable trajectory approximations as well as affordable estimates regarding distinct count spatiotemporal queries.

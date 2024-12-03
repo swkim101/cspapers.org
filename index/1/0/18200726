@@ -1,0 +1,1 @@
+In this paper we discuss mathematical models for the gate assignment and pack placement problems. Relative to objective functions to be described, heuristic methods of solution are discussed, one for gate assignment and two for pack placement. Performance figures for two actual boards are presented, together with a comparison to manual layout for one of the boards.

@@ -1,0 +1,1 @@
+A recent success of SAT solving has been the solution of the boolean Pythagorean Triples problem [Heule et al., 2016], delivering the largest proof yet, of 200 terabytes in size. We present this and the underlying paradigm Cube-and-Conquer, a powerful general method to solve big SAT problems, based on integrating the “old” and “new” methods of SAT solving.

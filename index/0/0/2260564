@@ -1,0 +1,4 @@
+
+ 
+ Methods for estimating the ratio of two probability density functions have been actively explored recently since they can be used for various data processing tasks such as non-stationarity adaptation, outlier detection, feature selection, and conditional probability estimation. In this paper, we propose a new density-ratio estimator which incorporates dimensionality reduction into the density-ratio estimation procedure. Through experiments, the proposed method is shown to compare favorably with existing density-ratio estimators in terms of both accuracy and computational costs.
+ 

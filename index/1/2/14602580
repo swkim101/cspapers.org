@@ -1,0 +1,1 @@
+A connectivity comparison program that has proven effective in a production environment is described. The pattern recognition framework utilized automatically recognizes component renaming and pin swapping, and performs robustly in the face of connectivity errors.

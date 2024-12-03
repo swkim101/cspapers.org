@@ -1,0 +1,1 @@
+We give an O(n log3 n) algorithm that, given an n-node directed planar graph with arc capacities, a set of source nodes, and a set of sink nodes, finds a maximum flow from the sources to the sinks. Previously, the fastest algorithms known for this problem were those for general graphs.

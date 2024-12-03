@@ -1,0 +1,4 @@
+
+ 
+ Although users' preference is semantically reflected in the free-form review texts, this wealth of information was not fully exploited for learning recommender models. Specifically, almost all existing recommendation algorithms only exploit rating scores in order to find users' preference, but ignore the review texts accompanied with rating information. In this paper, we propose a novel matrix factorization model (called TopicMF) which simultaneously considers the ratings and accompanied review texts. Experimental results on 22 real-world datasets show the superiority of our model over the state-of-the-art models, demonstrating its effectiveness for recommendation tasks.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In environmental and natural resource planning domains actions are taken at a large number of locations over multiple time periods. These problems have enormous state and action spaces, spatial correlation between actions, uncertainty and complex utility models. We present an approach for modeling these planning problems as factored Markov decision processes. The reward model can contain local and global components as well as spatial constraints between locations. The transition dynamics can be provided by existing simulators developed by domain experts. We propose a landscape policy defined as the equilibrium distribution of a Markov chain built from many locally-parameterized policies. This policy is optimized using a policy gradient algorithm. Experiments using a forestry simulator demonstrate the algorithm's ability to devise policies for sustainable harvest planning of a forest.
+ 

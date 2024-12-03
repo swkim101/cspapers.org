@@ -1,0 +1,4 @@
+
+ 
+ The flourishing of online labor markets such as Amazon Mechanical Turk (MTurk) makes it easy to recruit many workers for solving small tasks. We study whether information elicitation and aggregation over a combinatorial space can be achieved by integrating small pieces of potentially imprecise information, gathered from a large number of workers through simple, one-shot interactions in an online labor market. We consider the setting of predicting the ranking of $n$ competing candidates, each having a hidden underlying strength parameter. At each step, our method estimates the strength parameters from the collected pairwise comparison data and adaptively chooses another pairwise comparison question for the next recruited worker. Through an MTurk experiment, we show that the adaptive method effectively elicits and aggregates information, outperforming a naive method using a random pairwise comparison question at each step.
+ 

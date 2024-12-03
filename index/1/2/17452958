@@ -1,0 +1,4 @@
+In the context of X.25 communication protocols, this paper is concerned with the process of duplication of packets at the frame level, and with their detection at the packet level. With suitable constraints involving
+ (i) the window sizes used at both the frame and packet levels to flow control, and
+ (ii) the numbering scheme used to number User Data packets,
+ it is possible to detect and discard all duplicate copies thereof. Further, it is argued that duplication of 'messages' by a particular layer be detected at the level where these messages are generated and interpreted. Deferring this detection to higher levels is unnecessary and more difficult.

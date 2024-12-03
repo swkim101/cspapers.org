@@ -1,0 +1,1 @@
+The design of a robotic exoskeleton often focuses on replicating the kinematics of the human limb that it is connected to. However, human joint kinematics is so complex that in practice, the kinematics of artificial exoskeletons fails to reproduce it exactly. This discrepancy results in hyperstaticity. Namely, uncontrolled interaction forces appear.

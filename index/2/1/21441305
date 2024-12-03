@@ -1,0 +1,4 @@
+
+ 
+ We are developing a testbed for learning by demonstration combining spoken language and sensor data in a natural real-world environment. Microsoft Kinect RGB-Depth cameras allow us to infer high-level visual features, such as the relative position of objects in space, with greater precision and less training than required by traditional systems. Speech is recognized and parsed using a “deep” parsing system, so that language features are available at the word, syntactic, and semantic levels. We collected an initial data set of 10 episodes of 7 individuals demonstrating how to “make tea”, and created a “gold standard” hand annotation of the actions performed in each. Finally, we are constructing “baseline” HMM-based activity recognition models using the visual and language features, in order to be ready to evaluate the performance of our future work on deeper and more structured models.
+ 

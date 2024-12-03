@@ -1,0 +1,4 @@
+
+ 
+ Hybrid reasoners combine multiple types of reasoning, usually subsumption and Prolog-style resolution. We outline a system which combines natural deduction and subsumption reasoning using Inference Graphs implementing a Logic of Arbitrary and Indefinite Objects.
+ 

@@ -1,0 +1,1 @@
+We demonstrate that isomorphism of strongly regular graphs may be tested in time n~m’’’’ogm). Our approach is to analyze the standard individualization and refinement algorithm in light of Neumaier’s claw bound, which implies that low degree strongly regular graphs have a small second-largest eigenvalue, unless they are Steiner or Latin square graphs.

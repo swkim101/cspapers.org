@@ -1,0 +1,1 @@
+We present a hybrid approach for the 0–1 multidimensional knapsack problem. The proposed approach combines linear programming and Tabu Search. The resulting algorithm improves significantly on the best known results of a set of more than 150 benchmark instances.

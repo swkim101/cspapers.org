@@ -1,6 +1,0 @@
-
- Set similarity search is a problem of central interest to a wide variety of applications such as data cleaning and web search. Past approaches on set similarity search utilize either heavy indexing structures, incurring large search costs or indexes that produce large candidate sets. In this paper, we design a learning-based exact set similarity search approach, LES
- 3
- . Our approach first partitions sets into groups, and then utilizes a light-weight bitmap-like indexing structure, called token-group matrix (TGM), to organize groups and prune out candidates given a query set. In order to optimize pruning using the TGM, we analytically investigate the optimal partitioning strategy under certain distributional assumptions. Using these results, we then design a learning-based partitioning approach called L2P and an associated data representation encoding, PTR, to identify the partitions. We conduct extensive experiments on real and synthetic datasets to fully study LES
- 3
- , establishing the effectiveness and superiority over other applicable approaches.

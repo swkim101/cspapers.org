@@ -1,0 +1,4 @@
+
+ 
+ Automatically constructing novel representations of tasks from analysis of state spaces is a longstanding fundamental challenge in AI. I review recent progress on this problem for sequential decision making tasks modeled as Markov decision processes. Specifically, I discuss three classes of representation discovery problems: finding functional, state, and temporal abstractions. I describe solution techniques varying along several dimensions: diagonalization or dilation methods using approximate or exact transition models; reward-specific vs reward-invariant methods; global vs. local representation construction methods; multiscale vs. flat discovery methods; and finally, orthogonal vs. redundant representa- tion discovery methods. I conclude by describing a number of open problems for future work.
+ 

@@ -1,0 +1,7 @@
+AbstractWe consider computationally-efficient truthful mechanisms that use the VCG payment scheme, and study how well they can approximate the social welfare in auction settings. We present a novel technique for setting lower bounds on the approximation ratio of this type of mechanisms. Our technique is based on setting lower bounds on the communication complexity by analyzing combinatorial properties of the algorithms. Specifically, for combinatorial auctions among submodular (and thus also subadditive) bidders we prove an 
+$$\Omega \left( {m^{\tfrac{1}
+{6}} } \right)$$
+ lower bound, which is close to the known upper bound of 
+$${\rm O}\left( {m^{\tfrac{1}
+{2}} } \right)$$
+, and qualitatively higher than the constant factor approximation possible from a purely computational point of view.

@@ -1,0 +1,4 @@
+
+ 
+ We propose Kont, a formal framework for comparing normative multiagent systems (nMASs) by computing tradeoffs among liveness (something good happens) and safety (nothing bad happens). Safety-focused nMASs restrict agents' actions to avoid undesired enactments. However, such restrictions hinder liveness, particularly in situations such as medical emergencies. We formalize tradeoffs using norms, and develop an approach for understanding to what extent an nMAS promotes liveness or safety. We propose patterns to guide the design of an nMAS with respect to liveness and safety, and prove their correctness. We further quantify liveness and safety using heuristic metrics for an emergency healthcare application. We show that the results of the application corroborate our theoretical development.
+ 

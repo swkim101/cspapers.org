@@ -1,0 +1,15 @@
+Two emerging trends in information and communication technologies will begin to converge over the next ten years. These are software services and pervasive environments. 
+ 
+Software services represent a particular method to structure, deploy, assemble, and execute componentbased distributed systems. Various specifications have been put forth in an effort to standardize these processes. Certainly the best known is Web Services, which is applying the method in the context of webbased software systems. 
+ 
+Pervasive environments represent a particular application domain for software systems, one that encompasses such characteristics as mobility (i.e., location dependence), ubiquity (software running in "all" things), and universal connectivity (software, and the things that use the software, always in communication, albeit at different qualities of service). 
+ 
+Both software services and pervasive environments have received considerable individual attention from researchers, but the challenges of understanding the complexities of their interaction and integration have yet to be faced. The focus of the International Workshop on the Engineering of Software Services for Pervasive Environments (ESSPE) is specifically the software engineering issues underlying the convergence of software services and pervasive environments. The workshop begins to answer the following questions: 
+ 
+• How do we design and develop services that can operate within a pervasive, ubiquitous, and highly dynamic computing environment, one that may involve activities spanning home, work, and nomadic movement? 
+ 
+• How do we provide guarantees of correctness, robustness, resilience, trust, and security when the number of devices, contexts, and users grows to encompass large portions of society and life? 
+ 
+• How do we maintain software systems whose component services may be developed by a variety of different organizations, and deployed and operated for many years? 
+ 
+These are difficult questions, requiring expertise in many different domains. The community responded to the call with a very strong and diverse set of papers. I hope you will enjoy reading the papers in these proceedings and that they will inspire you to take up the challenge!

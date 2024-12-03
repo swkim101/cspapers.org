@@ -1,0 +1,1 @@
+We describe and analyse an algorithm that determines for any graph G = (V, E) in O((V(+lEl) time a cut (A, ii) whose size is no more than (2 + E) times the minimum cut size. We further give another algorithm showing that when the edge connectivity A is at most ($ .z) times the minimum degree 6, then X can be determined in time O(lEl + IVl”/S).

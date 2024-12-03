@@ -1,0 +1,4 @@
+
+ 
+ Evolutionary game theory combines game theory and dynamical systems and is customarily adopted to describe evolutionary dynamics in multi-agent systems. In particular, it has been proven to be a successful tool to describe multi-agent learning dynamics. To the best of our knowledge, we provide in this paper the first replicator dynamics applicable to the sequence form of an extensive-form game, allowing an exponential reduction of time and space w.r.t. the currently adopted replicator dynamics for normal form. Furthermore, our replicator dynamics is realization equivalent to the standard replicator dynamics for normal form. We prove our results for both discrete-time and continuous-time cases. Finally, we extend standard tools to study the stability of a strategy profile to our replicator dynamics.
+ 

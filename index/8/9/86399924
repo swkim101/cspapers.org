@@ -1,0 +1,19 @@
+Welcome to the 2nd International Workshop on Rapid Continuous Software Engineering (RCoSE), Florence, 23rd of May, 2015, as part of ICSE 2015. 
+ 
+Today, software development is conducted in increasingly turbulent business environments. Typically, fast-changing and unpredictable markets, complex and changing customer requirements, pressures of shorter time-to-market, and rapidly advancing information technologies are characteristics found in most software development projects. To address this situation, agile practices advocating flexibility, efficiency and speed are seen as increasingly attractive by software companies. 
+ 
+While many software development companies have indeed succeeded in adopting agile practices in parts of their organization, the focus for many organisations is predominantly at the team level. The other functions in the organization, including customer relations, product management, R&D management and software release, in many companies still work in traditional slow cycles, measured in months and years. However, the first examples of companies, for instance in the Web 2.0 industry, now start to appear that operate their entire R&D cycle in a rapid continuous fashion. For instance, Amazon releases new software every 11 seconds and carefully measures the value that this software provides to customers. 
+ 
+Rapid continuous software engineering refers to the organizational capability to develop, release and learn from software in rapid parallel cycles, typically hours, days or a very small numbers of weeks. This includes determining new functionality to build, prioritising the most important functionality, evolving and refactoring the architecture, developing the functionality, validating it, releasing it to customers and collecting feedback from the customers to inform the next cycle of development. 
+ 
+The capability to perform all these activities in days or a few weeks requires significant changes in the entire software engineering approach, including parallelising activities, empowering cross functional teams to allow for rapid decision making and light-weight coordination across teams. It also requires significant technical advances in the engineering infrastructure, including continuous integration and deployment, collection of post-deployment product usage data, support for running automatic live experiments to evaluate different system alternatives, e.g., A/B testing. 
+ 
+In summary, as reaching the goal of rapid continuous software engineering is a holistic endeavour, it cannot be addressed only by research in the area of process aspects in software engineering, specifically, agile software development processes. Instead it requires additionally addressing at least the following three aspects: 
+ 
+•The technology for all different phases of software engineering like requirements engineering, architecture and design, implementation, and validation and verification must be adapted to support for parallel engineering of software and maybe hardware as well. 
+ 
+•The whole research and development organization must adapt to be compatible with the agile process in the development teams. 
+ 
+•Approaches for live experimentation must be available and the results must be appropriately fed back into the artefacts of the different phases, which are affected by the results of the live experimentation. 
+ 
+Consequently, the workshop aims to bring the research communities of the aforementioned areas together to exchange challenges, ideas, and solutions to bring software engineering a step further to being a holistic and rapid continuous process.

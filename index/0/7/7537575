@@ -1,0 +1,1 @@
+In this paper we model a wheeled UGV in an elementary manner to determine the effect of obstacle height on major design parameters, such as wheel size, wheelbase, and center of mass height. We consider both static and dynamic modeling approaches and find that consideration of dynamics allows for more freedom in parameter choice.

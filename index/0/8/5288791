@@ -1,0 +1,1 @@
+We describe a generic protocol for fair exchange of electronic goods with non-repudiation. Goods can be signatures (i.e., non-repudiation tokens of public data), confidential data, or payments. The protocol does not involve a third party in the exchange in the fault-less case but only for recovery.

@@ -1,0 +1,1 @@
+This paper proves that, given a reliable time-bounded arbiter, it is possible to realize a reliable (i.e. runt-free) inertial delay, and vice-versa. It therefore shows that the time-bounded arbiter and the inertial delay are equally realizable. Consequently all theoretical limitations which apply to one will apply, in some form, to the other as well.

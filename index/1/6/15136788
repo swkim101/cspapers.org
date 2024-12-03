@@ -1,0 +1,13 @@
+We consider the problem of estimating the surface area of an unknown n-dimensional set F given membership oracle access. In contrast to previous work, we do not assume that F is convex, and in fact make no assumptions at all about F. By necessity this means that we work in the property testing model; we seek an algorithm which, given parameters A and e, satisfies: 
+ 
+• if surf (F) ≤ A then the algorithm accepts (whp); 
+ 
+• if F is not e-close to some set G with surf (G) ≤ κA, then the algorithm rejects (whp). 
+ 
+We call κ ≥ 1 the "approximation factor" of the testing algorithm. 
+ 
+The n = 1 case (in which "surf(F) = 2m" means F is a disjoint union of m intervals) was introduced by Kearns and Ron [KR98], who solved the problem with κ = 1/e and O(1/e) oracle queries. Later, Balcan et al. [BBBY12] solved it with with κ = 1 and O(1/e4) queries. 
+ 
+We give the first result for higher dimensions n. Perhaps surprisingly, our algorithm completely evades the "curse of dimensionality": for any n and any κ > 4/π a 1.27 we give a test that uses O(1/e) queries. For small n we have improved bounds. For n = 1 can achieve κ = 1 with O(1/e3.5) queries (slightly improving [BBBY12]), or any κ > 1 with O(1/e) queries (improving [KR98]). For n = 2, 3 we obtain κ a 1.08, 1.125 respectively, with O(1/e) queries. Getting an arbitrary κ > 1 for n > 1 remains an open problem. 
+ 
+Finally, motivated by the learning results from [KOS08], we extend our techniques to obtain a similar tester for Gaussian surface area for any n, with query complexity O(1/e) and any approximation factor κ > 4/π a 1.27.

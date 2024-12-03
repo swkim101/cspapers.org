@@ -1,0 +1,4 @@
+
+ 
+ We introduce a formal model of iterative judgment aggregation, enabling the analysis of scenarios in which agents repeatedly update their individual positions on a set of issues, before a final decision is made by applying an aggregation rule to these individual positions. Focusing on two popular aggregation rules, the premise-based rule and the plurality rule, we study under what circumstances convergence to an equilibrium can be guaranteed. We also analyse the quality, in social terms, of the final decisions obtained. Our results not only shed light on the parameters that determine whether iteration converges and is socially beneficial, but they also clarify important differences between iterative judgment aggregation and the related framework of iterative voting.
+ 

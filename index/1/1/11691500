@@ -1,0 +1,4 @@
+
+ 
+ We describe the Fourier basis, a linear value function approximation scheme based on the Fourier series. We empirically demonstrate that it performs well compared to radial basis functions and the polynomial basis, the two most popular fixed bases for linear value function approximation, and is competitive with learned proto-value functions.
+ 

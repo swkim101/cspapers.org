@@ -1,0 +1,4 @@
+
+ 
+ The short cruising range due to the limited battery supply of current Electric Vehicles (EVs) is one of the main obstacles for a complete transition to E-mobility. Until batteries ofhigher energy storage density have been developed, it is of utmost importance to deliberately plan the locations of new loading stations for best possible coverage. Ideally the network of loading stations should allow driving from anywhere to anywhere (and back) without running out of energy. We show that minimizing the number of necessary loading stations to achieve this goal is NP-hard and even worse, we can rule out polynomial-time constant approximation algorithms. Hence algorithms with better approximation guarantees have to make use of the special structure of road networks (which is not obvious how to do it). On the positive side, we show with instance based lower bounds that our heuris-tic algorithms achieve provably good solutions on real-world problem instances.
+ 

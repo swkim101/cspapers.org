@@ -1,0 +1,1 @@
+YES/MVS (Yorktown Expert System for MVS operators) is a continuous, real time expert system that exerts interactive control over an operating system as an aid to computer operators. This paper discusses the YES/MVS system, its domain of application, and issues that arise in the design and development of an expert system that runs continuously in real time.

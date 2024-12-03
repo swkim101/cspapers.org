@@ -1,0 +1,4 @@
+
+ 
+ The goal of the proposed research is to improve the performance of Hadoop-based software running on a heterogeneous cluster. My approach lies in the intersection of machine learning, scheduling and diagnosis. We mainly focus on heterogeneous Hadoop clusters and try to improve the performance by implementing a more efficient scheduler for this class of cluster.
+ 

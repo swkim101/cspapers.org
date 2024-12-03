@@ -1,0 +1,11 @@
+It is our great pleasure to welcome you to Trento for ISSTA 2010, the 19th International Symposium on Software Testing and Analysis. ISSTA is the leading research conference in software testing and analysis and brings together academics, industrial researchers, and practitioners to exchange new ideas, problems, and experience on how to analyze and test software systems. The ISSTA 2010 program includes keynotes, technical, tool, and doctoral symposium papers, tutorials and workshops. 
+ 
+ISSTA 2010 attracted over 100 submissions, which demonstrates the ongoing interest in the field. Each submission was evaluated by at least three members of the Program Committee. The Program Committee met to discuss the submissions and accepted 23 papers that cover a variety of topics, including formal verification, symbolic execution, test input generation, debugging, and concurrency testing and analysis. In addition, the program includes two distinguished keynote speakers: Christian Ferdinand (AbsInt) and Patrice Godefroid (Microsoft Research). 
+ 
+The ISSTA week includes five workshops and two tutorials: 
+PADTAD: Workshop on Parallel and Distributed Systems: Testing, Analysis, and Debugging 
+SSEAT: Workshop on State-space Exploration for Automated Testing 
+STOV/MIIT: Joint Workshop on Software Test Output Validation & Model Inference In Testing 
+WODA: Workshop on Dynamic Analysis 
+SBT: Tutorial on Search-based Testing, given by Phil McMinn 
+JPF: Tutorial on Automated Testing with Java PathFinder, given by Corina Pasareanu and Willem Visser

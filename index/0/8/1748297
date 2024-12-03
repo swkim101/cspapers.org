@@ -1,0 +1,1 @@
+Document and query expansions have been used separately in previous studies to enhance the representation of documents and queries. In this paper, we propose a general method that integrates both of them. Expansion is carried out using multi-stage Markov chains. Our experiments show that this method significantly outperforms the existing approaches.

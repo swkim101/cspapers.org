@@ -1,0 +1,3 @@
+Disk access performance is a major bottleneck in traditional information retrieval systems. Compared to system memory, disk bandwidth is poor, and seek times are worse.
+ We circumvent this problem by considering query evaluation strategies in main memory. We show how new accumulator trimming techniques combined with inverted list skipping can produce extremely high performance retrieval systems without resorting to methods that may harm effectiveness.
+ We evaluate our techniques using Galago, a new retrieval system designed for efficient query processing. Our system achieves a 69% improvement in query throughput over previous methods.

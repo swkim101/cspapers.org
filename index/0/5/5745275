@@ -1,0 +1,4 @@
+
+ 
+ In this paper a system was developed for robot behavior acquisition using kinesthetic demonstrations. It enables a humanoid robot to imitate constrained reaching gestures directed towards a target using a learning algorithm based on Gaussian Mixture Models. The imitation trajectory can be reshaped in order to satisfy the constraints of the task and it can adapt to changes in the initial conditions and to target displacements occurring during movement execution. The potential of this method was evaluated using experiments with the Nao, Aldebaran’s humanoid robot.
+ 

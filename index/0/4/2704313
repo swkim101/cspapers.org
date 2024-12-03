@@ -1,0 +1,4 @@
+
+ 
+ One of the goals of a cooperative game is to compute a valuedivision to the players from which they have no incentive todeviate. This concept is formalized as the notion of the core.To obtain a value division that motivates players to cooperate to a greater extent or that is more robust under noise, the notions of the strong least core and the weak least core have been considered. In this paper, we characterize the strong and the weak least cores of supermodular cooperative games using the theory of minimizing crossing submodular functions. We then apply our characterizations to two representative supermodular cooperative games, namely, the induced subgraph game generalized to hypergraphs and the airport game. For these games, we derive explicit forms of the strong and weak least core values, and provide polynomial-time algorithms that compute value divisions in the strong and weak least cores.
+ 

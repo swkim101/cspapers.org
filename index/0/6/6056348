@@ -1,0 +1,1 @@
+Given a fixed distribution of point location queries among the regions of a triangulation of the plane, a data structure is presented that achieves, within constant multiplicative factors, the entropy bound on the expected point location query time.

@@ -1,0 +1,4 @@
+
+ 
+ The (Shapley-Scarf) housing market is a well-studied and fundamental model of an exchange economy. Each agent owns a single house and the goal is to reallocate the houses to the agents in a mutually beneﬁcial and stable manner. Recently, Alcalde-Unzu and Molis (2011) and Jaramillo and Manjunath (2011) independently examined housing markets in which agents can express indiﬀerences among houses. They proposed two important families of mechanisms, known as TTAS and TCR respectively. We formulate a family of mechanisms which not only includes TTAS and TCR but also satisﬁes many desirable properties of both families. As a corollary, we show that TCR is strict core selecting (if the strict core is non-empty). Finally, we settle an open question regarding the computational complexity of the TTAS mechanism. Our study also raises a number of interesting research questions.
+ 

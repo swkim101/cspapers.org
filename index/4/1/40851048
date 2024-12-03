@@ -1,0 +1,5 @@
+A meta-description of semantic networks as abstract data types is given by a set of 35 production schemata. 
+ 
+With this schemata it is possible to specify all types of semantic networks as abstract data types. By instantiation of concrete types for nodes and edges as semantic primitives we get from the meta-description axiomatic definitions of arbitrary types of semantic networks as abstract data types. 
+ 
+The production schemata of the meta-description can be shown to be noetherian and confluent. Each term describing a semantic network can be reduced to an equivalent minimal generating expression.

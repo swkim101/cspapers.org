@@ -1,0 +1,16 @@
+These proceedings contain the invited talks and contributed posters of the Third Workshop on Exploiting Semantic Annotations in Information Retrieval (ESAIR 2010), held at CIKM 2010, Toronto Canada on October 30, 2010. After successful workshops at ECIR 2008 in Glasgow, and at WSDM 2009 in Barcelona, both chaired by Omar Alonso and Hugo Zaragoza, this year's workshop will focus on the problem from the wider CIKM perspective. Unleashing the potential of semantic annotations requires us to transcend earlier technologies, by combining the insights of natural language processing (NLP) to go beyond bags of words, the insights of databases (DB) to use structure efficiently even when aggregating over millions of records, the insights of information retrieval (IR) in effective goaldirected search and evaluation, and the insights of knowledge management (KM) to get grips on the greater whole. 
+ 
+ESAIR 2010 will be a real workshop where researchers from these different disciplines will work together to identify natural use cases, barriers to success, and work on ways of addressing them: Use Cases: Are we looking at the right applications? What are use cases that make obvious the need for semantic annotation of information? What tasks cannot be solved by document retrieval using the traditional bag-of-words algorithms? What characterizes a successful application? 
+ 
+Annotations: Are we using the right types of data and annotation? Are there crucial differences between author, software, user, and machine generated annotations? Named entities, temporal expressions on the one hand and sentiment and hedging on the other are examples of analyses which have moved to profitable application. Are there other analyses within our grasp? 
+ 
+Searcher/Queries: Are we considering the right search requests? With shallow 2.4 word navigational queries, how much benefit can semantic annotations provide? What expressive power is hidden in semantic annotations? How can searchers find ways to use and explore analyses? 
+ 
+Result Aggregation: Are we using the right types of results? Whereas IR focuses almost exclusively at finding individual chunks of information, DB naturally focuses on results that combine information and produce aggregated results (think of OLAP queries), and KM naturally deals with the whole information space. How can we fruitfully combine these strengths? 
+ 
+Grand Challenge: Is there a grand challenge for the application of semantic annotation? 
+ 
+The workshop will consist of three main parts: 
+Keynote talks by Liz Liddy and Maarten Marx to help us formulate the challenges. 
+A boaster and poster session with 16 papers selected by the program committee from 19 submissions (84%). Each paper was reviewed by at least two members of the program committee. 
+Break out groups on different aspects of exploiting semantic annotations, with reports being discussed in the final session.

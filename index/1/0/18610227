@@ -1,0 +1,4 @@
+
+ 
+ Flocking is a emergent behavior exhibited by many different animal species, including birds and fish. In our work we consider adding a small set of influencing agents, that are under our control, into a flock. Following ad hoc teamwork methodology, we assume that we are given knowledge of, but no direct control over, the rest of the flock. In our ongoing work highlighted in this abstract, we are specifically considering the problem of where to initially place influencing agents that we add to such a flock. We use these influencing agents to influence the flock to behave in a particular way - for example, to fly in a particular orientation or fly in a particular pattern such as to avoid an obstacle.
+ 

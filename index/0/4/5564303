@@ -1,0 +1,4 @@
+
+ 
+ Classification-based optimization is a recently developed framework for derivative-free optimization, which has shown to be effective for non-convex optimization problems with many local optima. This framework requires to sample a batch of solutions for every update of the search model. However, in reinforcement learning, direct policy search often offers only sequential policy evaluation. Thus, classificationbased optimization is not efficient for direct policy search where solutions have to be sampled sequentially. In this paper, we adapt the classification-based optimization for sequential sampled solutions by forming the batch of reused historical solutions. Experiments on helicopter hovering control task and reinforcement learning benchmark tasks in OpenAI Gym show that the new algorithm is superior to state-of-the-art derivative-free optimization approaches.
+ 

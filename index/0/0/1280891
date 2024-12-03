@@ -1,0 +1,1 @@
+DARWIN is a tool that is able to synthesize CMOS opamps, on the basis of a genetic algorithm. A randomly generated initial set of opamps evolves to a set in which the topologies as well as the transistor sizes of the opamps are adapted to the required performance specifications. Several design examples illustrate the behavior of DARWIN.

@@ -1,0 +1,1 @@
+Various new nonembeddability results (mainly into L1) are proved via Fourier analysis. In particular, it is shown that the Edit Distance on {0,1}d has L1 distortion We also give new lower bounds on the L1 distortion of flat tori, quotients of the discrete hypercube under group actions, and the transportation cost (Earthmover) metric.

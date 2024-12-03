@@ -1,0 +1,4 @@
+
+ 
+ Developed so far, multi-document summarization has reached its bottleneck due to the lack of sufficient training data and diverse categories of documents. Text classification just makes up for these deficiencies. In this paper, we propose a novel summarization system called TCSum, which leverages plentiful text classification data to improve the performance of multi-document summarization. TCSum projects documents onto distributed representations which act as a bridge between text classification and summarization. It also utilizes the classification results to produce summaries of different styles. Extensive experiments on DUC generic multi-document summarization datasets show that, TCSum can achieve the state-of-the-art performance without using any hand-crafted features and has the capability to catch the variations of summary styles with respect to different text categories.
+ 

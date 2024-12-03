@@ -1,0 +1,7 @@
+The comprehensive oil log interpretation is a procedure of numerical calculation and logical (or plausible) inference. In other words, the results of preliminary inference will provide a basis for the choice of parameters of calculation formula, and then the results of numerical calculation will be used as evidences for further inference, and so on and so forth. In view of this situation, we have designed a model expert system (tool system) MES and established a comprehensive oil log interpretation expert system WELIES based on the system MES. 
+ 
+In MES, we introduced the concept of "TASK" to make numerical calculation intergrated with logical (or plausible) inference during the task solution. The execution of MES is a procedure of task solution. Ways of solving a task are defined by Task Transformation Rules. 
+ 
+The Knowledge Representation is divided into two parts: 1) Task Transformation Rules, including Task Decomposition Rules and Task Derivation Rules; 2) Inference Rules, including Production Rules and Procedure Rules. 
+ 
+We adopt Dempster/Shafer's Evidence Theory [6] to express uncertainty.

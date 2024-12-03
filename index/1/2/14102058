@@ -1,0 +1,1 @@
+Even though many people thought the problem of finding Nash equilibria is hard in general, and it has been proven so for games among three or more players recently, it's not clear whether the two-player case can be shown in the same class of PPAD-complete problems. We prove that the problem of finding a Nash equilibrium in a two-player game is PPAD-complete

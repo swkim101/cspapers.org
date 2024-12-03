@@ -1,0 +1,1 @@
+We describe the design and implementation of a program called sim to measure similarity between two C computer programs. It is useful for detecting plagiarism among a large set of homework programs. This software is part of a project to construct tools to assist the teaching of computer science.

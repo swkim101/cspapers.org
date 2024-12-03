@@ -1,0 +1,4 @@
+
+ 
+ Many natural and social phenomena can be modeled by interaction point processes (IPPs) (Diggle et al. 1994), stochastic point processes considering the interaction between points. In this paper, we propose the infinite branching model (IBM), a Bayesian statistical model that can generalize and extend some popular IPPs, e.g., Hawkes process (Hawkes 1971; Hawkes and Oakes 1974). It treats IPP as a mixture of basis point processes with the aid of a distance dependent prior over branching structure that describes the relationship between points. The IBM can estimate point event intensity, interaction mechanism and branching structure simultaneously. A generic Metropolis-within-Gibbs sampling method is also developed for model parameter inference. The experiments on synthetic and real-world data demonstrate the superiority of the IBM.
+ 

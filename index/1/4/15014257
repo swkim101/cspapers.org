@@ -1,0 +1,4 @@
+
+ 
+ Equilibrium computation in games is currently considered one of the most challenging issues in AI. In this paper, we provide, to the best of our knowledge, the first algorithm to compute a Selten's extensive-form perfect equilibrium (EFPE) with two--player games. EFPE refines the Nash equilibrium requiring the equilibrium to be robust to slight perturbations of both players' behavioral strategies. Our result puts the computation of an EFPE into the PPAD class, leaving open the question whether or not the problem is hard. Finally, we experimentally evaluate the computational time spent to find an EFPE and some relaxations of EFPE.
+ 

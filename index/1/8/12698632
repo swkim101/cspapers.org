@@ -1,0 +1,4 @@
+
+ 
+ Motivated by applications to crowdsourcing, we study voting rules that output a correct ranking of alternatives by quality from a large collection of noisy input rankings. We seek voting rules that are supremely robust to noise, in the sense of being correct in the face of any "reasonable" type of noise. We show that there is such a voting rule, which we call the modal ranking rule. Moreover, we establish that the modal ranking rule is the unique rule with the preceding robustness property within a large family of voting rules, which includes a slew of well-studied rules.
+ 

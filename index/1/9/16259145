@@ -1,0 +1,7 @@
+The problem of defining an adequate semantics for recursive definitions which allow various types of parameter-passing mechanisms has generated a considerable amount of interest in the literature. (See [B1], [M4], [R3], [V2]) Consider for example the well-known recursive definition
+ F <X, Y> <&equil; IF X&equil;0 THEN 0 ELSE F<X−1,F<X, Y>>.
+ Interpreted as a fixpoint equation over the flat cpo of non-negative integers it has as its least solution
+ f(x, y) = 0 if x&equil;m for any non-negative integer m &equil; @@@@ otherwise (“@@@@” means undefined)
+ This also happens to coincide with the computed function if a call-by-name (or outside-in) evaluation mechanism is used. However if a call-by-value (or inside-out) evaluation mechanism is used the computed function is
+ fv (x, y) &equil; 0 if x&equil;0 &equil; @@@@ otherwise
+ In [Vl] the conclusion is drawn that the call-by-value evaluation mechanism is incorrect and should not be considered.

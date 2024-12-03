@@ -1,0 +1,5 @@
+This paper presents our experience with a variation on the use of state diagrams in the development of a communications system. The following techniques are described:
+ - State diagram notation functions as the design language used to describe the functional specification of major program modules.
+ - These modules are coded in a high-level language using the state diagrams as the program structure and specification.
+ - The actual programs are used as input to a simulator which performs a structured walk-through.
+ - Automatically produced state diagrams from final software serve as documentation and act as a check on meeting initial system requirements.

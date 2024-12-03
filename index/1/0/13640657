@@ -1,0 +1,4 @@
+
+ 
+ Computing similarity between short microblogs is an important step in microblog recommendation. In this paper, we investigate a topic based approach and a WordNet based approach to estimate similarity scores between microblogs and recommend top related ones to users. Empirical study is conducted to compare their recommendation effectiveness using two evaluation measures. The results show that the WordNet based approach has relatively higher precision than that of the topic based approach using 548 tweets as dataset. In addition, the Kendall tau distance between two lists recommended by WordNet and topic approaches is calculated. Its average of all the 548 pair lists tells us the two approaches have the relative high disaccord in the ranking of related tweets.
+ 

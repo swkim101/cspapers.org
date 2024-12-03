@@ -1,0 +1,4 @@
+In this paper, we consider the problem of reconstructing a hidden graph with m edges using additive queries. Given a graph G = (V, E) and a set of vertices S ⊆ V, an additive query, Q(S), asks for the number of edges in the subgraph induced by S. The information theoretic lower bound for the query complexity of reconstructing a graph with n vertices and m edges is
+ [EQUATION]
+ In this paper we give the first polynomial time algorithm with query complexity that matches this lower bound1. This solves the open problem by [S. Choi and J. Han Kim. Optimal Query Complexity Bounds for Finding Graphs. STOC, 749--758, 2008].
+ In the paper, we actually show an algorithm for the generalized problem of reconstructing weighted graphs. In the weighted case, an additive query, Q(S), asks for the sum of weights of edges in the subgraph induces by S. The complexity of the algorithm also matches the information theoretic lower bound.

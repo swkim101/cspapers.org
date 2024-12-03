@@ -1,0 +1,1 @@
+We prove a conjecture due to Dadush, showing that if ℒ⊂ ℝn is a lattice such that det(ℒ′) 1 for all sublattices ℒ′ ⊆ ℒ, then $$\sum_{y∈ℒ}^e-t2||y||2≤3/2,$$ where t := 10(logn + 2). From this we also derive bounds on the number of short lattice vectors and on the covering radius.

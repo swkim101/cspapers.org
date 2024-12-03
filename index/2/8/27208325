@@ -1,0 +1,4 @@
+
+ 
+ Streaming classification with emerging new class is an important problem of great research challenge and practical value. In many real applications, the task often needs to handle large matrices issues such as textual data in the bag-of-words model and large-scale image analysis. However, the methodologies and approaches adopted by the existing solutions, most of which involve massive distance calculation, have so far fallen short of successfully addressing a real-time requested task. In this paper, the proposed method dynamically maintains two low-dimensional matrix sketches to 1) detect emerging new classes; 2) classify known classes; and 3) update the model in the data stream. The update efficiency is superior to the existing methods. The empirical evaluation shows the proposed method not only receives the comparable performance but also strengthens modelling on large-scale data sets.
+ 

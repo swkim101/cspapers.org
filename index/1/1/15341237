@@ -1,0 +1,4 @@
+We define tests of boolean functions which distinguish between linear (or quadratic) polynomials, and functions which are very far, in an appropriate sense, from these polynomials. The tests have optimal or nearly optimal trade-offs between soundness and the number of queries.
+ A central step in our analysis of quadraticity tests is the proof of aninverse theorem for the third Gowers uniformity norm of boolean functions.
+ The last result implies that it ispossible to estimate efficiently the distance from the second-order Reed-Muller code on inputs lying far beyond its list-decoding radius.
+ Our main technical tools are Fourier analysis on Z2n and methods from additive number theory. We observe that these methods can be used to give a tight analysis of the Abelian Homomorphism testing problemfor some families of groups, including powers of Zp.

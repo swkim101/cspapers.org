@@ -1,0 +1,1 @@
+This paper rethinks both modularity and compilation in the light of abstraction between design and implementation. We propose a new compilation approach called abstraction-aware verifying compiler, in which abstraction is the target of compilation. Both a design model and its code are inputted as the first-class software modules to the compiler.

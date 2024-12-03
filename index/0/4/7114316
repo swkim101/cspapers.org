@@ -1,0 +1,7 @@
+We describe reductions from the problem of determining the satisfiability of Boolean CNF formulas (CNF-SAT) to several natural algorithmic problems. We show that attaining any of the following bounds would improve the state of the art in algorithms for SAT:
+ • an <i>O(n<sup>k-ε</sup>)</i> algorithm for <i>k</i>-Dominating Set, for any <i>k</i> ≥ 3,
+ • a (computationally efficient) protocol for 3-party set disjointness with <i>o(m)</i> bits of communication,
+ • an <i>n<sup>°(d)</sup></i> algorithm for <i>d</i>-SUM,
+ • an <i>O(n</i><sup>5-ε</sup>) algorithm for 2-SAT formulas with <i>m = n</i><sup>1+0(1)</sup> clauses, where <i>two</i> clauses may have unrestricted length, and
+ • an <i>O((n + m)k-ε)</i> algorithm for HornSat with <i>k</i> unrestricted length clauses.
+ One may interpret our reductions as new attacks on the complexity of SAT, or sharp lower bounds conditional on exponential hardness of SAT.

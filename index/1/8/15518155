@@ -1,0 +1,1 @@
+BrowseRank algorithm and its modifications are based on analyzing users' browsing trails. Our paper proposes a new method for computing page importance using a more realistic and effective search-aware model of user browsing behavior than the one used in BrowseRank.

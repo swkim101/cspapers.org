@@ -1,0 +1,4 @@
+
+ 
+ Motivated by a number of security applications, among which border patrolling, we study, to the best of our knowledge, the first Security Game model in which patrolling strategies need to be combined with responses to signals raised by an alarm system, which is spatially uncertain (i.e., it is uncertain over the exact location the attack is ongoing) and is affected by false negatives (i.e., the missed detection rate of an attack may be positive). Ours is an infinite-horizon patrolling scenario on a graph, where a single patroller moves. We study the properties of the game model in terms of computational issues and form of the optimal strategies and we provide an approach to solve it. Finally, we provide an experimental analysis of our techniques.
+ 

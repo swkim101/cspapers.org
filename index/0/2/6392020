@@ -1,0 +1,1 @@
+A model for optimal information retrieval over a distributed document collection is described and experimentally evaluated. The fusion of retrieval results corresponding to document subcollections is performed according to the Probability Ranking Principle. Part of the model is a selection criterion for e ectively limiting the ranking process to a subset of subcollections.

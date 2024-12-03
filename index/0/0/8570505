@@ -1,0 +1,1 @@
+As a prerequisite to translation of poetry, we implement the ability to produce translations with meter and rhyme for phrase-based MT, examine whether the hypothesis space of such a system is flexible enough to accomodate such constraints, and investigate the impact of such constraints on translation quality.

@@ -1,0 +1,3 @@
+Discovery of association rules from large databases of item sets is an important data mining problem. Association rules are usually stored in relational databases for future use in decision support systems. In this paper, the problem of association rules retrieval and item sets retrieval is recognized as the subset search problem in relational databases. The subset search is not well supported by SQL query language and traditional database indexing techniques. 
+ 
+We introduce a new index structure, called Group Bitmap Index, and compare its performance with traditional indexing methods: B+ tree and bitmap indexes. We show experimentally that proposed index enables faster subset search and significantly outperforms traditional indexing methods.

@@ -1,0 +1,4 @@
+
+ 
+ We present a first theoretical analysis of the power of polynomial-time preprocessing for important combinatorial problems from various areas in AI. We consider problems from Constraint Satisfaction, Global Constraints, Satisfiability, Nonmonotonic and Bayesian Reasoning. We show that, subject to a complexity theoretic assumption, none of the considered problems can be reduced by polynomial-time preprocessing to a problem kernel whose size is polynomial in a structural problem parameter of the input, such as induced width or backdoor size. Our results provide a firm theoretical boundary for the performance of polynomial-time preprocessing algorithms for the considered problems.
+ 

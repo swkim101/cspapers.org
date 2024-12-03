@@ -1,0 +1,1 @@
+Greedy approximation algorithms have been frequently used to obtain sparse solutions to learning problems. In this paper, we present a general greedy algorithm for solving a class of convex optimization problems. We derive a bound on the rate of approximation for this algorithm, and show that our algorithm includes a number of earlier studies as special cases.

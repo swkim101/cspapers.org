@@ -1,0 +1,1 @@
+We show that there is no (log log <i>M</i>)<sup>1-ε</sup> approximation for the undirected congestion minimization problem unless <i>NP</i> ⊆ <i>ZPTIME</i>(<i>n</i><sup><i>polylogn</i></sup>), where <i>M</i> is the size of the graph and ε is any positive constant.

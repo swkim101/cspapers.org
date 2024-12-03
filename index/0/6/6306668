@@ -1,0 +1,1 @@
+We build turn-taking models for autonomous characters in language-based interactions with small groups of children. Two models explore the use of support vector machines given the same multimodal features, but different methods for collecting turn-taking labels.

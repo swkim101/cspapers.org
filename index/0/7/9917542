@@ -1,0 +1,4 @@
+
+ 
+ This work presents a new algorithm based on the Bucket Elimination framework that efficiently determines strong controllability of temporal plans formulated as Labeled Simple Temporal Networks with Uncertainty (LSTNU) with controllable and uncontrollable plan branches (choices).
+ 

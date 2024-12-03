@@ -1,0 +1,1 @@
+The delay test simulator described here has two functions. First, it computes the actual timing to be used for each delay test. This computation requires delay distributions and tester tolerances. Second, it performs a parallel fault simulation to determine which delay faults have been detected.

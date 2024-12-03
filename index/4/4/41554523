@@ -1,0 +1,4 @@
+
+ 
+ One of the key concerns in computational semantics is to construct a domain independent semantic representation which captures the richness of natural language, yet can be quickly customized to a specific domain for practical applications. We propose to use generic semantic frames defined in FrameNet, a domain-independent semantic resource, as an intermediate semantic representation for language understanding in dialog systems. In this paper we: (a) outline a novel method for FrameNet-style semantic dependency labeling that builds on a syntactic dependency parse; and (b) compare the accuracy of domain-adapted and generic approaches to semantic parsing for dialog tasks, using a frame-annotated corpus of human-computer dialogs in an airline reservation domain.
+ 

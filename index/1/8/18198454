@@ -1,0 +1,5 @@
+Bugs often lurk in code that is infrequently executed (i.e., cold code), so testing and debugging requires tracing such code. Alas, the location of cold code is generally not known a priori and, by definition, cold code is elusive during execution. Thus, programs either incur unnecessary runtime overhead to "catch" cold code, or they must employ sampling, in which case many executions are required to sample the cold code even once. 
+ 
+We introduce a technique called bias-free sampling (BfS), in which the machine instructions of a dynamic execution are sampled independently of their execution frequency by using breakpoints. The BfS overhead is therefore independent of a program's runtime behavior and is fully predictable: it is merely a function of program size. BfS operates directly on binaries. 
+ 
+We present the theory and implementation of BfS for both managed and unmanaged code, as well as both kernel and user mode. We ran BfS on a total of 679 programs (all Windows system binaries, Z3, SPECint suite, and on several C# benchmarks), and BfS incurred performance overheads of just 1-6%.

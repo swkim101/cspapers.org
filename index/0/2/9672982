@@ -1,0 +1,1 @@
+A method is given to enumerate the flows between variables in systems specified in a non-procedural language. It finds all flows that would exist according to a deductive theory of information flow. It is presented in the form of an attribute grammar for the specification language. The effect of system invariants is discussed.

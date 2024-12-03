@@ -1,0 +1,1 @@
+We present an extensible supervised Target-Word Sense Disambiguation system that leverages upon GATE (General Architecture for Text Engineering), NSP (Ngram Statistics Package) and WEKA (Waikato Environment for Knowledge Analysis) to present an end-to-end solution that integrates feature identification, feature extraction, preprocessing and classification.

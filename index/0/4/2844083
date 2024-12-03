@@ -1,0 +1,1 @@
+We present experimental data from an analog CMOS LSI chip that implements the Herault-Jutten adaptive neural network. Testing procedures and results in time and frequency-domain are described. These include weight convergence trajectories, extraction of a signal in noise, and separation of statistically complex signals such as speech.

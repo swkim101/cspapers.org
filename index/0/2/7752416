@@ -1,0 +1,1 @@
+This paper discusses the problem of evaluating search and recommendation methods in social tagging networks that make use of the network’s social structure. While many such methods have recently been introduced, they fall short of evaluating the quality of the results they produce in a systematic way, which is mostly caused by the lack of publicly available test collections.

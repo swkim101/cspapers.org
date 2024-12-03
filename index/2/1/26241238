@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present a demo, AniDraw, which can help users practice the coordination between their hands, mouth and eyes by combing the elements of music, painting and dance. Users can sketch a cartoon character through multitouch screens and then hum songs, which will drive the cartoon character to dance to create a lively animation. In technical realization, we apply the mechanism of acoustic driving in which AniDraw extracts time-domain acoustic features to map to the intensity of dances, frequency-domain ones to map to the style of dances, and high-level ones including onesets and tempos to map to start, duration and speed of dances. AniDraw can not only stimulate users’ enthusiasm in artistic creation, but also enhance their esthetic ability on harmony.
+ 

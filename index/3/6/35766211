@@ -1,0 +1,4 @@
+
+ 
+ Human Computer Interaction (HCI) is central for many applications, including hazardous environment inspection and telemedicine. Whereas traditional methods ofHCI for teleoperating electromechanical systems include joysticks, levers, or buttons, our research focuses on using electromyography (EMG) signals to improve intuition and response time. An important challenge is to accurately and efficiently extract and map EMG signals to known position for real-time control. In this preliminary work, we compare the accuracy and real-time performance of several machine-learning techniques for recognizing specific arm positions. We present results from offline analysis, as well as end-to-end operation using a robotic arm.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We present an algorithm that exploits the complimentary benefits of best-first search (BFS) and depth-first search (DFS) by performing limited DFS lookaheads from the frontier of BFS. We show that this continuum requires significantly less memory than BFS. In addition, a time speedup is also achieved when choosing the lookahead depth correctly. We demonstrate this idea for breadth-first search and for A*. Additionally, we show that when using inconsistent heuristics, Bidirectional Pathmax (BPMX), can be implemented very easily on top of the lookahead phase. Experimental results on several domains demonstrate the benefits of all our ideas.
+ 

@@ -1,0 +1,1 @@
+A method is presented for the recovery of the three-dimensional translation of a rigidly translating object. The novelty of the method consists of the fact that four cameras are used in order to avoid point correspondences. The method is immune to low levels of noise and has good behavior when the noise increases.

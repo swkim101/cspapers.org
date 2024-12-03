@@ -1,0 +1,3 @@
+This paper reports on a project that explored reasoning with textual cases in the context of legal reasoning. The work is anchored in both Case-Based Reasoning (CBR) and AI and Law. It introduces the SMILE+IBP framework that generates a case-based analysis and prediction of the outcome of a legal case given a brief textual summary of the case facts. 
+ 
+The focal research question in this work was to find a good text representation for text classification. An evaluation showed that replacing case-specific names by roles and adding NLP lead to higher performance for assigning CBR indices. The NLP-based representation produced the best results for reasoning with the automatically indexed cases.

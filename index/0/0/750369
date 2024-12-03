@@ -1,0 +1,11 @@
+Power companies such as Southern California Edison (SCE) uses Demand Response (DR) contracts to incentivize consumers to reduce their power consumption during periods when demand forecast exceeds supply. 
+
+Current mechanisms in use offer contracts to consumers independent of one another, do not take into consideration consumers' heterogeneity in consumption profile or reliability, and fail to achieve high participation. 
+
+
+
+We introduce DR-VCG, a new DR mechanism that offers a flexible set of contracts (which may include the standard SCE contracts) and uses VCG pricing. We prove that DR-VCG elicits truthful bids, incentivizes honest preparation efforts, and enables efficient computation of allocation and prices. With simple fixed-penalty contracts, the optimization goal of the mechanism is an upper bound on probability that the reduction target is missed.
+
+
+
+ Extensive simulations show that compared to the current mechanism deployed by SCE, the DR-VCG mechanism achieves higher participation, increased reliability, and significantly reduced total expenses.

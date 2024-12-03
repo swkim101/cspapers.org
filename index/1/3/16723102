@@ -1,0 +1,4 @@
+
+ 
+ Stock movements are essentially driven by new information. Market data, financial news, and social sentiment are believed to have impacts on stock markets. To study the correlation between information and stock movements, previous works typically concatenate the features of different information sources into one super feature vector. However, such concatenated vector approaches treat each information source separately and ignore their interactions. In this article, we model the multi-faceted investors’ information and their intrinsic links with tensors. To identify the nonlinear patterns between stock movements and new information, we propose a supervised tensor regression learning approach to investigate the joint impact of different information sources on stock markets. Experiments on CSI 100 stocks in the year 2011 show that our approach outperforms the state-of-the-art trading strategies.
+ 

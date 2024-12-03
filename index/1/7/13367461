@@ -1,0 +1,1 @@
+This paper discusses two ways to estimate the interaction force at the end-effector of a robot. The first approach that is presented combines filtered dynamic equations with a recursive least squares estimation algorithm to provide a smoothened force signal, which is useful in the (common) case of noisy torque measurements.

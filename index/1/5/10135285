@@ -1,0 +1,1 @@
+The <italic>Altair</italic> group is currently designing an object-oriented data base system called O<subscrpt>2</subscrpt>. This paper presents a formal description of the object-oriented data model of this system. It proposes a type system defined in the framework of a set-and-tuple data model. It models the well known inheritance mechanism and enforces strong typing.

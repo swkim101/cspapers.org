@@ -1,0 +1,4 @@
+
+ 
+ We develop an efficient algorithm for computing pure strategy Nash equilibria that satisfy various criteria (such as the utilitarian or Nash-Bernoulli social welfare functions) in games with sparse interaction structure. Our algorithm, called Valued Nash Propagation (VNP), integrates the optimisation problem of maximising a criterion with the constraint satisfaction problem of finding a game's equilibria to construct a criterion that defines a c-semiring. Given a suitably compact game structure, this criterion can be efficiently optimised using message-passing. To this end, we first show that VNP is complete in games whose interaction structure forms a hypertree. Then, we go on to provide theoretic and empirical results justifying its use on games with arbitrary structure; in particular, we show that it computes the optimum >82% of the time and otherwise selects an equilibrium that is always within 2% of the optimum on average.
+ 

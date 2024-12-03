@@ -1,0 +1,4 @@
+
+ 
+ Rational verification is concerned with establishing whether a given temporal logic formula φ is satisfied in some or all equilibrium computations of a multi-agent system – that is, whether the system will exhibit the behaviour φ under the assumption that agents within the system act rationally in pursuit of their preferences. After motivating and introducing the framework of rational verification, we present formal models through which rational verification can be studied, and survey the complexity of key decision problems. We give an overview of a prototype software tool for rational verification, and conclude with a discussion and related work.
+ 

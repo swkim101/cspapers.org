@@ -1,0 +1,4 @@
+
+ 
+ A key problem in mechanism design is the construction of protocols that reach socially efficient decisions with minimal information revelation. This can reduce agent communication, and further, potentially increase privacy in the sense that agents reveal no more private information than is needed to determine an optimal outcome. This is not always possible: previous work has explored the tradeoff between communication cost and efficiency, and more recently, communication and privacy. We explore a third dimension: the tradeoff between privacy and efficiency. By sacrificing efficiency, we can improve the privacy of a variety of existing mechanisms. We analyze these tradeoffs in both second-price auctions and facility location problems (introducing new incremental mechanisms for facility location along the way). Our results show that sacrifices in efficiency can provide gains in privacy (and communication), in both the average and worst case.
+ 

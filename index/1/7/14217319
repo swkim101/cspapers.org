@@ -1,0 +1,1 @@
+We present a Bayesian framework for inferring the parameters of a mixture of experts model based on ensemble learning by variational free energy minimisation. The Bayesian approach avoids the over-fitting and noise level under-estimation problems of traditional maximum likelihood inference. We demonstrate these methods on artificial problems and sunspot time series prediction.

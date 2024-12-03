@@ -1,0 +1,9 @@
+This work is concerned with approximating constraint satisfaction problems (CSPs) with additional global cardinality constraints. For example, Max Cut is a boolean CSP where the input is a graph G = (V, E) and the goal is to find a cut S ∪ S = V that maximizes the number of crossing edges, |E(S, S)|. The Max Bisection problem is a variant of Max Cut with a global constraint that each side of the cut has exactly half the vertices, i.e., |S| = |V|/2. Several other natural optimization problems like Min Bisection and approximating Graph Expansion can be formulated as CSPs with global cardinality constraints. 
+ 
+In this work, we formulate a general approach towards approximating CSPs with global cardinality constraints using SDP hierarchies. To demonstrate the approach we present the following results: 
+ 
+• Using the Lasserre hierarchy, we present an algorithm that runs in time O(npoly(1/e)) that given an instance of Max Bisection with value 1 − e, finds a bisection with value 1 − O(√e). This approximation is near-optimal (up to constant factors in O()) under the Unique Games Conjecture. 
+ 
+• By a computer-assisted proof, we show that the same algorithm also achieves a 0.85-approximation for Max Bisection, improving on the previous bound of 0.70 (note that it is Unique Games hard to approximate better than a 0.878 factor). The same algorithm also yields a 0.92-approximation for Max 2-Sat with cardinality constraints. 
+ 
+• For every CSP with a global cardinality constraints, we present a generic conversion from integrality gap instances for the Lasserre hierarchy to a dictatorship test whose soundness is at most integrality gap. Dictatorship testing gadgets are central to hardness results for CSPs, and a generic conversion of the above nature lies at the core of the tight Unique Games based hardness result for CSPs [Rag08].

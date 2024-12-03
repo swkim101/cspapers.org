@@ -1,8 +1,0 @@
-
- This paper introduces a generalized spatial regionalization problem, namely, PRUC (
- P
- -Regions with User-defined Constraint) that partitions spatial areas into homogeneous regions. PRUC accounts for user-defined constraints imposed over aggregate region properties. We show that PRUC is an NP-Hard problem. To solve PRUC, we introduce GSLO (Global Search with Local Optimization), a parallel stochastic regionalization algorithm. GSLO is composed of two phases: (1)
- Global Search
- that initially partitions areas into regions that satisfy a user-defined constraint, and (2)
- Local Optimization
- that further improves the quality of the partitioning with respect to intra-region similarity. We conduct an extensive experimental study using real datasets to evaluate the performance of GSLO. Experimental results show that GSLO is up to 100× faster than the state-of-the-art algorithms. GSLO provides partitioning that is up to 6× better with respect to intra-region similarity. Furthermore, GSLO is able to handle 4× larger datasets than the state-of-the-art algorithms.

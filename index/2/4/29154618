@@ -1,0 +1,4 @@
+
+ 
+ Reinforcement Learning has long been employed to solve sequential decision-making problems with minimal input data. However, the classical approach requires a long time to learn a suitable policy, especially in Multiagent Systems. The teacher-student framework proposes to mitigate this problem by integrating an advising procedure in the learning process, in which an experienced agent (human or not) can advise a student to guide her exploration. However, the teacher is assumed to be an expert in the learning task. We here propose an advising framework where multiple agents advise each other while learning in a shared environment, and the advisor is not expected to necessarily act optimally. Our experiments in a simulated Robot Soccer environment show that the learning process is improved by incorporating this kind of advice.
+ 

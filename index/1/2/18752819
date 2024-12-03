@@ -1,0 +1,1 @@
+This paper describes a printed circuit routing program based on a cellular least-cost path finding algorithm. The program uses four bits of random access storage per cell and provides a mechanism for programming the path-cost function to model a variety of physical constraints.

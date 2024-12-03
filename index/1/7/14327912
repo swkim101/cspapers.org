@@ -1,0 +1,1 @@
+We present the system DecMiner that induces DecSerFlow models from positive and negative traces. The approach we follow consists in first inducing SCIFF constraints and then converting them into DecSerFlow ones.

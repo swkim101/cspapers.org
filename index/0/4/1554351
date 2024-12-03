@@ -1,0 +1,7 @@
+We present Epoch-Greedy, an algorithm for contextual multi-armed bandits (also known as bandits with side information). Epoch-Greedy has the following properties: 
+ 
+1. No knowledge of a time horizon T is necessary. 
+ 
+2. The regret incurred by Epoch-Greedy is controlled by a sample complexity bound for a hypothesis class. 
+ 
+3. The regret scales as O(T2/3S1/3) or better (sometimes, much better). Here S is the complexity term in a sample complexity bound for standard supervised learning.

@@ -1,0 +1,18 @@
+In this work, we apply the CycleGAN image-to- 
+image translation framework to Mel-scaled log- 
+amplitude spectrograms, successfully realizing 
+audio texture transfer between excerpts from two 
+musically related genres. Such automatic musical 
+transfer could provide music producers and DJs 
+with new creative tools, e.g. to quickly prototype 
+a remix of an existing song in another genre, or 
+to use as an advanced effect during a live perfor- 
+mance. We show that meaningful style transfer 
+can be realized using only a limited amount of 
+data and computational resources. A high-quality 
+audio reconstruction is obtained from the gener- 
+ated amplitude spectrogram by simply using the 
+phase of the original audio as an approximation 
+for the phase of the generated spectrogram. This 
+results in a significant quality improvement over 
+traditional phase reconstruction methods.

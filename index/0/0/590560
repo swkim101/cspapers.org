@@ -1,0 +1,1 @@
+In this paper, the authors study optimization and decision making. They propose an algorithm that is based on the theory of support vector machines. The algorithm is advantageous in that prior knowledge about the domain can be used to constrain the solution. The algorithm is demonstrated in a route recommendation system which adapts to the driver's route preferences.

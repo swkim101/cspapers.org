@@ -1,0 +1,4 @@
+
+ 
+ As users of social networking websites expand their network of friends, they are often flooded with newsfeed posts and status updates, most of which they consider to be "unimportant" and not newsworthy. In order to better understand how people judge the importance of their newsfeed, we conducted a study in which Facebook users were asked to rate the importance of their newsfeed posts as well as their friends. We learned classifiers of newsfeed and friend importance to identify predictive sets of features related to social media properties, the message text, and shared background information. For classifying friend importance, the best performing model achieved 85% accuracy and 25% error reduction. By leveraging this model for classifying newsfeed posts, the best newsfeed classifier achieved 64% accuracy and 27% error reduction.
+ 

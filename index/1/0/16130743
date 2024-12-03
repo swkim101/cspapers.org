@@ -1,0 +1,1 @@
+In this paper we study the local behaviour of arbitrary classifiers using the instability of that classifier in a data point. Moreover, we introduce two algorithms. The first to find highly unstable points, the second to find islands of stability.

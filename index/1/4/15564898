@@ -1,0 +1,4 @@
+
+ 
+ In machine learning, linear discriminant analysis (LDA) is a popular dimension reduction method. In this paper, we first provide a new perspective of LDA from an information theory perspective. From this new perspective, we propose a new formulation of LDA, which uses the pairwise averaged class covariance instead of theglobally averaged class covariance used in standard LDA. This pairwise (averaged) covariance describes data distribution more accurately. The new perspective also provides a natural way to properly weigh different pairwise distances, which emphasizes the pairs of class with small distances, and this leads to the proposed pairwise covariance properly weighted LDA (pcLDA). The kernel version of pcLDA is presented to handle nonlinear projections. Efficient algorithms are presented to efficiently compute the proposed models.
+ 

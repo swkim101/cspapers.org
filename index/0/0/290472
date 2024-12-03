@@ -1,0 +1,7 @@
+The Valued (VCSP) framework is a generic optimization framework with a wide range of applications. Soft arc consistency operations transform a VCSP into an equivalent problem by shifting weights between cost functions. The principal aim is to produce a good lower bound on the cost of solutions, an essential ingredient of a branch and bound search. 
+ 
+But soft AC is much more complex than traditional AC: there may be several closures (fixpoints) and finding the closure with a maximum lower bound has been shown to be NP-hard for integer costs [Cooper and Schiex, 2004]. 
+ 
+We introduce a relaxed variant of soft arc consistency using rational costs. In this case, an optimal closure can be found in polynomial time. Furthermore, for finite rational costs, the associated lower bound is shown to provide an optimal arc consistent reformulation of the initial problem. 
+ 
+Preliminary experiments on random and structured problems are reported, showing the strength of the lower bound produced.

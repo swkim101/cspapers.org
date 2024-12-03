@@ -1,0 +1,4 @@
+
+ 
+ Reordering poses a major challenge in machine translation (MT) between two languages with significant differences in word order. In this paper, we present a novel reordering approach utilizing sparse features based on dependency word pairs. Each instance of these features captures whether two words, which are related by a dependency link in the source sentence dependency parse tree, follow the same order or are swapped in the translation output. Experiments on Chinese-to-English translation show a statistically significant improvement of 1.21 BLEU point using our approach, compared to a state-of-the-art statistical MT system that incorporates prior reordering approaches.
+ 

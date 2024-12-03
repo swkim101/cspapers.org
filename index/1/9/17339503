@@ -1,0 +1,4 @@
+
+ 
+ We develop the Dynamic Chinese Restaurant Process (DCRP) which incorporates time-evolutionary feature in dependent Dirichlet Process mixture models. This model can capture the dynamic change of mixture components, allowing clusters to emerge, vanish and vary over time. All these macroscopic changes are controlled by tracing the birth and death of every single element. We investigate the  properties of dependent Dirichlet Process mixture model based on DCRP and develop corresponding Gibbs Sampler for posterior inference. We also conduct simulation and empirical studies to compare this model with traditional CRP and related models. The results show that this model can provide better results for sequential data, especially for data with heterogeneous lifetime distribution.
+ 

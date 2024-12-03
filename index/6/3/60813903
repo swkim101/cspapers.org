@@ -1,0 +1,13 @@
+Temporal queries combine textual and temporal constraints
+and are used for searching temporal collections like web
+archives. Indexing these collections might result in huge index
+files which can reduce the performance of query processing.
+Static index pruning can be used to increase efficiency.
+It remains unclear whether these methods are adapted for
+temporal queries. More specifically, we hypothesize that
+pruning should preserve the temporal diversity of the collection.
+In this paper, we compare the effectiveness of four
+static index pruning methods for temporal collections and
+show the relation between temporal diversification and retrieval
+effectiveness. Evaluations are conducted using the
+Wikipedia collection.

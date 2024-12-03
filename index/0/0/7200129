@@ -1,0 +1,3 @@
+The Interface Construction Set (InterCONS) is a visual language and environment. It consists of: a data flow language; an editor for building and testing data flow programs, and for making presentation views of the programs; libraries for holding completed programs; and a presentation system for interacting with finished programs and sequences of programs.
+This paper describes how interfaces are built using the data flow language. A companion paper describes the data flow language and its primitives for arithmetic, logic, interactive control, path control, visual output, and program control; the execution model is also described.
+InterCONS is useful for experimenting with new kinds of interactive controls, and building models of interactive applications.

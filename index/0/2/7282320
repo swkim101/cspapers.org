@@ -1,0 +1,1 @@
+We show that interaction in <italic>any</italic> zero-knowledge proof can be replaced by sharing a common, short, random string. We use this result to construct the <italic>first</italic> public-key cryptosystem secure against chosen ciphertext attack.

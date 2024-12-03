@@ -1,0 +1,4 @@
+
+ 
+ Bayesian reinforcement learning (BRL) provides a formal framework for optimal exploration-exploitation tradeoff in reinforcement learning. Unfortunately, it is generally intractable to find the Bayes-optimal behavior except for restricted cases. As a consequence, many BRL algorithms, model-based approaches in particular, rely on approximated models or real-time search methods. In this paper, we present potential-based shaping for improving the learning performance in model-based BRL. We propose a number of potential functions that are particularly well suited for BRL, and are domain-independent in the sense that they do not require any prior knowledge about the actual environment. By incorporating the potential function into real-time heuristic search, we show that we can significantly improve the learning performance in standard benchmark domains.
+ 

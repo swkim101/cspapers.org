@@ -1,0 +1,9 @@
+We start with a brief account of complex decision making problems, and advocate the use of modern approaches to real world decision making emphasizing the concept of a decision making process that involves more factors and aspects like: the use of explicit and tacit knowledge, intuition, individual habitual domains, non-trivial rationality, different paradigms, etc. We stress the need for computer based decision support systems that should exhibit some "intelligence" which is meant in an individual and collective perspective, and give an overview of main types of decision support systems. 
+ 
+We present some new so-called computing paradigms that try to attain a synergy, and bridge the gap between the human user and computer systems that is mainly caused by the fact that natural language is the only fully natural means of communication and articulation for a human being but it is "strange" to the computer. We advocate the so-called: human centric computing, human centered computing, human computing, etc. that can help bridge this gap. 
+ 
+Then, we present Zadeh's paradigm of computing with words (and perceptions) as a tool that may help bring computing closer to the human being by an explicit use of (quasi)natural language in many phases of computing, problem solving, etc. 
+ 
+We indicate relations between the computing with words and human centric computing paradigms, and indicate - first - that the former can be viewed as an attempt at providing proper tools to implement the latter, and that both can play a crucial role in intelligent decision support systems. 
+ 
+We show some implementations of using linguistic data summaries in a business context and show that they can be viewed as extremely human consistent data mining tools, notably for novice users.

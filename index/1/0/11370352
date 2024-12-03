@@ -1,0 +1,4 @@
+
+ 
+ We show how the situation calculus can be reformulated in terms of the first-order stable model semantics. A further transformation into answer set programs allows us to use an answer set solver to perform propositional reasoning about the situation calculus. We also provide an ASP style encoding method for Reiter's basic action theories, which tells us how the solution to the frame problem in ASP is related to the solution in the situation calculus.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ The Fisher market model is one of the most fundamental resource allocation models in economics. In a Fisher market, the prices and allocations of goods are determined according to the preferences and budgets of buyers to clear the market. In a Fisher market game, however, buyers are strategic and report their preferences over goods; the market-clearing prices and allocations are then determined based on their reported preferences rather than their real preferences. We show that the Fisher market game always has a pure Nash equilibrium, for buyers with linear, Leontief, and Cobb-Douglas utility functions, which are three representative classes of utility functions in the important Constant Elasticity of Substitution (CES) family. Furthermore, to quantify the social efficiency, we prove Price of Anarchy bounds for the game when the utility functions of buyers fall into these three classes respectively.
+ 

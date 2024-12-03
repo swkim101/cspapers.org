@@ -1,0 +1,1 @@
+We present a framework in which probabilistic models for textual and visual information retrieval can be integrated seamlessly. The framework facilitates searching for imagery using textual descriptions and visual examples simultaneously. The underlying Language Models for text and Gaussian Mixture Models for images have proven successful in various retrieval tasks.

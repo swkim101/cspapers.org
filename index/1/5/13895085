@@ -1,0 +1,4 @@
+
+ 
+ Many computational problems in game theory, such as finding Nash equilibria, are algorithmically hard to solve. This limitation forces analysts to limit attention to restricted subsets of the entire strategy space. We develop algorithms to identify rationally closed subsets of the strategy space under given size constraints. First, we modify an existing family of algorithms for rational closure in two-player games to compute a related rational closure concept, called formations, for n-player games. We then extend these algorithms to apply in cases where the utility function is partially specified, or there is a bound on the size of the restricted profile space. Finally, we evaluate the performance of these algorithms on a class of random games.
+ 

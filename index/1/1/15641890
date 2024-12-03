@@ -1,0 +1,4 @@
+
+ 
+ We present a new, efficient PAC optimal exploration algorithm that is able to explore in multiple, continuous or discrete state MDPs simultaneously. Our algorithm does not assume that value function updates can be completed instantaneously, and maintains PAC guarantees in realtime environments. Not only do we extend the applicability of PAC optimal exploration algorithms to new, realistic settings, but even when instant value function updates are possible, our bounds present a significant improvement over previous single MDP exploration bounds, and a drastic improvement over previous concurrent PAC bounds. We also present TCE, a new, fine grained metric for the cost of exploration.
+ 

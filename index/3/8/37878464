@@ -1,0 +1,5 @@
+Among various approaches to handling incomplete and negative information in knowledge representation systems based on predicate logic, McCarthy's circumscription appears to be the most powerful. In this paper we describe a decidable algorithm to answer queries in circumscriptive theories. The algorithm is based on a modified version of ordered linear resolution, which constitutes a sound and complete procedure to determine whether there exists a minimal model satisfying a given formula. 
+ 
+The Closed-World Assumption and its generalizations, GCWA and ECWA, can be considered as a special form of circumscription. Consequently, our method also applies to answering queries in theories using the Closed-World Assumption or its generalizations. 
+ 
+For the sake of clarity, we restrict our attention to theories consisting of ground clauses. Our algorithm, however, has a natural extension to theories consisting of arbitrary clauses.

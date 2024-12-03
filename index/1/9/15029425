@@ -1,0 +1,3 @@
+We present new algorithms for computing approximate quantiles of large datasets in a single pass. The approximation guarantees are explicit, and apply for arbitrary value distributions and arrival distributions of the dataset. The main memory requirements are smaller than those reported earlier by an order of magnitude.
+We also discuss methods that couple the approximation algorithms with random sampling to further reduce memory requirements. With sampling, the approximation guarantees are explicit but probabilistic, i.e. they apply with respect to a (user controlled) confidence parameter.
+We present the algorithms, their theoretical analysis and simulation results on different datasets.

@@ -1,0 +1,4 @@
+
+ 
+ Aspect extraction is a key task of fine-grained opinion mining. Although it has been studied by many researchers, it remains to be highly challenging. This paper proposes a novel unsupervised approach to make a major improvement. The approach is based on the framework of lifelong learning and is implemented with two forms of recommendations that are based on semantic similarity and aspect associations respectively. Experimental results using eight review datasets show the effectiveness of the proposed approach.
+ 

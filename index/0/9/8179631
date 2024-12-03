@@ -1,0 +1,4 @@
+
+ 
+ Our objective is to boost the state-of-the-art performance in MaxSATsolving. To this end, we employ the instance-specific algorithmconfigurator ISAC, and improve it with the latest inportfolio technology. Experimental results on SAT show that thiscombination marks a significant step forward in our ability to tunealgorithms instance-specifically. We then apply the new methodology toa number of MaxSAT problem domains and show that the resulting solversconsistently outperform the best existing solvers on the respectiveproblem families. In fact, the solvers presented here were independentlyevaluated at the 2013 MaxSAT Evaluation where they won six of the elevencategories.
+ 

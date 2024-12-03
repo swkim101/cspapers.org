@@ -1,0 +1,1 @@
+In this paper we propose a generative model for graphs formulated as a variational autoencoder. We sidestep hurdles associated with linearization of graphs by having the decoder output a probabilistic fully-connected graph of a predefined maximum size directly at once. We evaluate on the challenging task of molecule generation.

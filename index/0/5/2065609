@@ -1,0 +1,4 @@
+
+ 
+ We put forward a new model of congestion games where agents have uncertainty over the routes used by other agents. We take a non-probabilistic approach, assuming that each agent knows that the number of agents using an edge is within a certain range. Given this uncertainty, we model agents who either minimize their worst-case cost (WCC) or their worst-case regret (WCR), and study implications on equilibrium existence, convergence through adaptive play, and efficiency. Under the WCC behavior the game reduces to a modified congestion game, and welfare improves when agents have moderate uncertainty. Under WCR behavior the game is not, in general, a congestion game, but we show convergence and efficiency bounds for a simple class of games.
+ 

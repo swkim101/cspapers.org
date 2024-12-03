@@ -1,0 +1,3 @@
+We introduce a graphical representation of quantifier-free predicate calculus formulas and a new rule of inference which employs this representation. The new rule is an amalgamation of resolution and Prawitz analysis which we call path resolution. Path resolution allows Prawitz analysis of an arbitrary subgraph of the graph representing a formula. If such a subgraph is not large enough to demonstrate a contradiction, a path resolvent of the subgraph may be generated with respect to the entire graph. This generalizes the notions of large inference present in hyper-resolution, clash-resolution, NC-resolution, and PL-resolution. 
+ 
+Two forms of path resolution are described for which deletion of the links resolved upon preserves the spanning property.

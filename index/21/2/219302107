@@ -1,0 +1,1 @@
+The paper presents a tabular interpretation for a kind of 2-Stack Automata. These automata may be used to describe various parsing strategies, ranging from purely top-down to purely bottom-up, for LIGs and TAGs. The tabular interpretation ensures, for all strategies, a time complexity in O(n6) and space complexity in O(n5) where n is the length of the input string.

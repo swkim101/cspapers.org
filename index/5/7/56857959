@@ -1,0 +1,1 @@
+This poster shows an artificial neural network capable of learning a temporal sequence. Directly inspired from a hippocampus model [Banquet et al, 1998], this architecture allows an autonomous robot to learn how to imitate a sequence of movements with the correct timing.

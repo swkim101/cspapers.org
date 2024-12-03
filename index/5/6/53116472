@@ -1,0 +1,1 @@
+We describe a parallel programming tool for scheduling static task graphs and generating the appropriate target code for message passing MIMD architectures. The computational complexity of the system is almost linear to the size of the task graph and preliminary experiments show performance comparable to the “best” hand-written programs.

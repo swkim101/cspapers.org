@@ -1,0 +1,1 @@
+Quorum-based schemes, e.g., GQS, can ensure asynchronous neighbors to discover each other within bounded time under low-duty-cycle operations. But they are tightly based on the assumption that duty cycles of devices fit some specific prefixed patterns. We tackle this problem by proposing a distributed quorum system to speed up the discovery.

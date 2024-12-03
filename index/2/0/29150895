@@ -1,0 +1,4 @@
+
+ 
+ A grid maze is a binary matrix where fields containing a 0 are accessible while fields containing a 1 are blocked. A movement sequence consists of relative movements up, down, left, right – moving to a blocked field results in non-movement. The simultaneous maze solving problem asks for the shortest movement sequence starting in the upper left corner and visiting the lower right corner for all mazes of size n × m (for which a path from the upper left to the lower right corner exists at all). We present a theoretical problem analysis, including hardness results and a cubic upper bound on the sequence length. In addition, we describe several approaches to practically compute solving sequences and lower bounds despite the high combinatorial complexity of the problem.
+ 

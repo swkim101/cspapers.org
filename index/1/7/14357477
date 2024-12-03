@@ -1,0 +1,1 @@
+Many program verification methods are known nowadays: Inductive Assertion Method, Invariant Assertion Method, Intermittent Assertion Method, Symbolic Execution Method, Subgoal Induction Method, Computational Induction Method, Structural Induction Method, Fixpoint Theory of Programs. This paper presents a simple classification of them.

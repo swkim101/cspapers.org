@@ -1,0 +1,1 @@
+An empirical comparison of CFG filtering techniques for LTAG and HPSG is presented. We demonstrate that an approximation of HPSG produces a more effective CFG filter than that of LTAG. We also investigate the reason for that difference.

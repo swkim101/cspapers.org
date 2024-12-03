@@ -1,0 +1,1 @@
+This paper describes circuits for pulse generation based on an ECL Monostable one-shot. The first one produces pulses between 0.8 and 1.5 ns for the European communications in the band [6 to 8.5] GHz. The second one produces pulses between 0.6 and 1.1ns for Military radar applications in the band [22 to 29] GHz. The measurements comply with ETSI/FCC regulations.

@@ -1,0 +1,3 @@
+The contract net framework for distributed problem solving is discussed. Task distribution is viewed as a mutual selection process, a discussion carried on between a node with a task to be executed and a group of nodes that may be able to execute the task. This leads to the use of a control formalism based on a contract metaphore in which task distribution corresponds to contract negotiation. 
+ 
+The three primary components of the framework are described: communication, control, and knowledge organization. The use of the framework is illustrated for a distributed sensing system. We then discuss suitable applications and limitations of the framework.

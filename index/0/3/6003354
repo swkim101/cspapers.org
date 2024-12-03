@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we consider the facility location problem un- der a novel model recently proposed in the literature, which combines the no-money constraint (i.e. the impossibility to employ monetary transfers between the mechanism and the agents) with the presence of heterogeneous facilities, i.e. facilities serving different purposes. Agents thus have a significantly different cost model w.r.t. the classical model with homogeneous facilities studied in literature. We initiate the study of non-utilitarian optimization functions under this novel model. In particular, we consider the case where the optimization goal consists of minimizing the maximum connection cost of the agents. In this setting, we investigate both deterministic and randomized algorithms and derive both lower and upper bounds regarding the approximability of strate- gyproof mechanisms.
+ 

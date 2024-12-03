@@ -1,6 +1,0 @@
-
- In multi-user environments in which data science and analysis is collaborative, multiple versions of the same datasets are generated. While managing and storing data versions has received some attention in the research literature, the semantic nature of such changes has remained under-explored. In this work, we introduce Explain-Da-V, a framework aiming to explain changes between two given dataset versions. Explain-Da-V generates
- explanations
- that use
- data transformations
- to explain changes. We further introduce a set of measures that evaluate the validity, generalizability, and explainability of these explanations. We empirically show, using an adapted existing benchmark and a newly created benchmark, that Explain-Da-V generates better explanations than existing data transformation synthesis methods.

@@ -1,0 +1,4 @@
+
+ 
+ In this paper we theoretically study the minimum Differentially Resolving Set (DRS) problem derived from the classical sensor placement optimization problem in network source locating. A DRS of a graph G = (V, E) is defined as a subset S ⊆ V where any two elements in V can be distinguished by their different differential characteristic sets defined on S. The minimum DRS problem aims to find a DRS S in the graph G with minimum total weight Σv∈S w(v). In this paper we establish a group of Integer Linear Programming (ILP) models as the solution. By the weighted set cover theory, we propose an approximation algorithm with the Θ(ln n) approximability for the minimum DRS problem on general graphs, where n is the graph size.
+ 

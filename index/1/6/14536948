@@ -1,0 +1,5 @@
+We show that the problem of finding the simplex of largest volume in the convex hull of n points in Qd can be approximated with a factor of O(log d)d/2 in polynomial time. This improves upon the previously best known approximation guarantee of d(d−1)/2 by Khachiyan. 
+ 
+On the other hand, we show that there exists a constant c > 1 such that this problem cannot be approximated with a factor of cd, unless P = NP. Our hardness result holds even if n = O(d), in which case there exists a cd-approximation algorithm that relies on recent sampling techniques, where c is again a constant. 
+ 
+We show that similar results hold for the problem of finding the largest absolute value of a subdeterminant of a d × n matrix.

@@ -1,0 +1,1 @@
+Let P be a polyhedron with f<subscrpt>s</subscrpt> s-dimensional faces. We show that Ω(log f<subscrpt>s</subscrpt>) linear comparisons are needed to determine if a point lies in P. This is used to establish an Ω(n<supscrpt>2</supscrpt> log n) lower bound to the all-pairs shortest path problem between n points.

@@ -1,0 +1,4 @@
+
+ 
+ Finding semantic attributes to describe related concepts is typically a hard problem. The commonly used attributes in most fields are designed by domain experts, which is expensive and time-consuming. In this paper we propose an efficient method to learn human comprehensible attributes with crowdsourcing. We first design an analogical interface to collect relative labels from the crowds. Then we propose a hierarchical Bayesian model, as well as an efficient initialization strategy, to aggregate labels and extract concise attributes. Our experimental results demonstrate promise on discovering diverse and convincing attributes, which significantly improve the performance of the challenging zero-shot learning tasks.
+ 

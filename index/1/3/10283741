@@ -1,0 +1,6 @@
+Multilayer printed wiring backplanes cause a special problem for design automation. The very size of the problem tends to make routing techniques which are satisfactory for smaller boards prohibitively expensive for larger ones. At the same time, however, the following factors make it mandatory that adequate computer routing exist.
+ 1. The number of connections to make, the number of layers available and the ability to use vias makes the problem too complex for manual routing.
+ 2. Backplanes generally come late in system design and thus become critical path items.
+ 3. Backplanes are subject to design changes and sometimes require massive rework on short schedules.
+ There are a number of routing techniques used today on smaller problems. The most common of these are the maze (Lee's)1 method and the ray (Hightower)2 method.
+ In this paper, we will discuss alternate routing technique, designed around the special features of backplanes and multilayer boards. Examples will be given to show that this technique is faster (more than two orders of magnitude over a maze type) than maze or rays ones.

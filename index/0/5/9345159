@@ -1,0 +1,4 @@
+
+ 
+ Entity Recognition (ER) is a key component of relation extraction systems and many other natural-language processing applications. Unfortunately, most ER systems are restricted to produce labels from to a small set of entity classes, e.g., person, organization, location or miscellaneous. In order to intelligently understand text and extract a wide range of information, it is useful to more precisely determine the semantic classes of entities mentioned in unstructured text. This paper defines a fine-grained set of 112 tags, formulates the tagging problem as multi-class, multi-label classification, describes an unsupervised method for collecting training data, and presents the FIGER implementation. Experiments show that the system accurately predicts the tags for entities. Moreover, it provides useful information for a relation extraction system, increasing the F1 score by 93%. We make FIGER and its data available as a resource for future work.
+ 

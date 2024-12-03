@@ -1,0 +1,3 @@
+We show that for any r > 0, there is a network of First-In-First-Out servers and a fixed set of sessions such that,
+ • The network load is r with respect to the Permanent Sessions Model with Bounded Arrivals.
+ • The network can be made unstable.

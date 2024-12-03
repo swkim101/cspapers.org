@@ -1,0 +1,1 @@
+This paper proposes an example-based phrase translation method in a Chinese to English cross-language information retrieval (CLIR) system. The method can generate much more accurate query translations than dictionary-based and common MT-based methods, and then improves the retrieval performance of our CLIR system.

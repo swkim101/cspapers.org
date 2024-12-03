@@ -1,0 +1,1 @@
+We solve the problem of obtaining answers to queries posed to a mediated integration system under the local-as-view paradigm that are consistent wrt to certain global integrity constraints. For this, the query program is combined with logic programming specifications under the stable model semantics of the class of minimal global instances, and of the class of their repairs.

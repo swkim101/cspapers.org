@@ -1,0 +1,1 @@
+This paper presents a simple algorithm to learn trajectories with a continuous time, continuous activation version of the Boltzmann machine. The algorithm takes advantage of intrinsic Brownian noise in the network to easily compute gradients using entirely local computations. The algorithm may be ideal for parallel hardware implementations.

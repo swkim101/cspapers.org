@@ -1,0 +1,1 @@
+This paper identifies two fundamentally different kinds of training information for learning search control in terms of an evaluation function. Each kind of training information suggests its own set of methods for learning an evaluation function. The paper shows that one can integrate the methods and learn simultaneously from both kinds of information.

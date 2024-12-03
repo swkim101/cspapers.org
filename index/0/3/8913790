@@ -1,0 +1,4 @@
+
+ 
+ In computational social choice, we are concerned with the development of methods for joint decision making. A central problem in this field is the winner determination problem, which aims at identifying the most preferred alternative(s). With the rise of modern e-business platforms, processing of huge amounts of preference data has become an issue. In this work, we apply the MapReduce framework - which has been specifically designed for dealing with big data - to various versions of the winner determination problem. We obtain efficient and highly parallel algorithms and provide a theoretical analysis and experimental evaluation.
+ 

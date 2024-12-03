@@ -1,0 +1,4 @@
+
+ 
+ The Kalman Filter (KF) is pervasively used to control a vast array of consumer, health and defense products. By grouping sets of symmetric state variables, the Relational Kalman Filter (RKF) enables us to scale the exact KF for large-scale dynamic systems. In this paper, we provide a parameter learning algorithm for RKF, and a regrouping algorithm that prevents the degeneration of the relational structure for efficient filtering. The proposed algorithms significantly expand the applicability of the RKFs by solving the following questions: (1) how to learn parameters for RKF from partial observations; and (2) how to regroup the degenerated state variables by noisy real-world observations. To our knowledge, this is the first paper on learning parameters in relational continuous probabilistic models. We show that our new algorithms significantly improve the accuracy and the efficiency of filtering large-scale dynamic systems.
+ 

@@ -1,0 +1,1 @@
+We show how a pseudo-random generator can provide a bit commitment protocol. We also analyze the number of bits communicated when parties commit to many bits simultaneously, and show that the assumption of the existence of pseudorandom generators suffices to assure amortized O(1) bits of communication per bit commitment.

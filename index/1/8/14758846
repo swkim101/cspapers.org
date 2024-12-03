@@ -1,0 +1,4 @@
+
+ 
+ Despite its success, the delete relaxation has significant pitfalls. Recent work has devised the red-black planning framework, where red variables take the relaxed semantics (accumulating their values), while black variables take the regular semantics. Provided the red variables are chosen so that red-black plan generation is tractable, one can generate such a plan for every search state, and take its length as the heuristic distance estimate. Previous results were not suitable for this purpose because they identified tractable fragments for red-black plan existence, as opposed to red-black plan generation. We identify a new fragment of red-black planning, that fixes this issue. We devise machinery to efficiently generate red-black plans, and to automatically select the red variables. Experiments show that the resulting heuristics can significantly improve over standard delete relaxation heuristics.
+ 

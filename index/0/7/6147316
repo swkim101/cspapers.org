@@ -1,0 +1,1 @@
+We present an extension to incremental shift-reduce parsing that handles discontinuous constituents, using a linear classifier and beam search. We achieve very high parsing speeds (up to 640 sent./sec.) and accurate results (up to 79.52 F1 on TiGer).

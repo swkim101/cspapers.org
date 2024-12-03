@@ -1,0 +1,4 @@
+
+ 
+ Phrase mining is a key research problem for semantic analysis and text-based information retrieval. The existing approaches based on NLP, frequency, and statistics cannot extract high quality phrases and the processing is also time consuming, which are not suitable for dynamic on-line applications. In this paper, we propose an efficient high-quality phrase mining approach (EQPM). To the best of our knowledge, our work is the first effort that considers both intra-cohesion and inter-isolation in mining phrases, which is able to guarantee appropriateness. We also propose a strategy to eliminate order sensitiveness, and ensure the completeness of phrases. We further design efficient algorithms to make the proposed model and strategy feasible. The empirical evaluations on four real data sets demonstrate that our approach achieved a considerable quality improvement and the processing time was 2.3X - 29X faster than the state-of-the-art works.
+ 

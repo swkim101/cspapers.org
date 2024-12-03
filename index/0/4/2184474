@@ -1,0 +1,3 @@
+In many machine learning applications, one has access, not only to training data, but also to some high-level a priori knowledge about the desired behavior of the system. For example, it is known in advance that the output of a character recognizer should be invariant with respect to small spatial distortions of the input images (translations, rotations, scale changes, etcetera). 
+ 
+We have implemented a scheme that allows a network to learn the derivative of its outputs with respect to distortion operators of our choosing. This not only reduces the learning time and the amount of training data, but also provides a powerful language for specifying what generalizations we wish the network to perform.

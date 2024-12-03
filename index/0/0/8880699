@@ -1,0 +1,1 @@
+GPUs are seeing increasingly widespread use for general purpose computation due to their excellent performance for highly-parallel, throughput-oriented applications. For many workloads, however, the performance benefits of offloading are hindered by the large and unpredictable overheads of launching GPU kernels and of transferring data between CPU and GPU.

@@ -1,0 +1,6 @@
+We propose a data structure to maintain a collection of vertex-disjoint trees under a sequence of two kinds of operations: a link operation that combines two trees into one by adding an edge, and a cut operation that divides one tree into two by deleting an edge. Our data structure requires O(log n) time per operation when the time is amortized over a sequence of operations. Using our data structure, we obtain new fast algorithms for the following problems:
+ (1) Computing deepest common ancestors.
+ (2) Solving various network flow problems including finding maximum flows, blocking flows, and acyclic flows.
+ (3) Computing certain kinds of constrained minimum spanning trees.
+ (4) Implementing the network simplex algorithm for the transshipment problem.
+ Our most significant application is (2); we obtain an O(mn log n)-time algorithm to find a maximum flow in a network of n vertices and m edges, beating by a factor of log n the fastest algorithm previously known for sparse graphs.

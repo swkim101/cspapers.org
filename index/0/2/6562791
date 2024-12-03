@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a novel neuron learning machine (NLM) which can extract hierarchical features from data. We focus on the single-layer neural network architecture and propose to model the network based on the Hebbian learning rule. Hebbian learning rule describes how synaptic weight changes with the activations of presynaptic and postsynaptic neurons. We model the learning rule as the objective function by considering the simplicity of the network and stability of solutions. We make a hypothesis and introduce a correlation based constraint according to the hypothesis. We find that this biologically inspired model has the ability of learning useful features from the perspectives of retaining abstract information. NLM can also be stacked to learn hierarchical features and reformulated into convolutional version to extract features from 2-dimensional data.
+ 

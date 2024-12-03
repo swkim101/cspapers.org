@@ -1,0 +1,4 @@
+
+ 
+ We present a novel annotation framework for representing predicate-argument structures, which uses dependency trees to encode the syntactic and semantic roles of a sentence simultaneously. The main contribution is a semantic role transmission model, which eliminates the structural gap between syntax and shallow semantics, making them compatible. A Chinese semantic treebank was built under the proposed framework, and the first release containing about 14K sentences is made freely available. The proposed framework enables semantic role labeling to be solved as a sequence labeling task, and experiments show that standard sequence labelers can give competitive performance on the new treebank compared with state-of-the-art graph structure models.
+ 

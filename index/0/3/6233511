@@ -1,0 +1,1 @@
+A distributed mobile robot software application infrastructure is developed, improving integration and leverage between projects in a research environment. The resulting design includes a three layer CORBA based, service broker application architecture. A reference implementation and tests on B21r, LEGO Mindstorm and Khepera robots demonstrate the feasibility of the design.

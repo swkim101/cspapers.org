@@ -1,0 +1,4 @@
+
+ 
+ Moral reasoning is important to accurately model as AI systems become ever more integrated into our lives. Moral reasoning is rapid and unconscious; analogical reasoning, which can be unconscious, is a promising approach to model moral reasoning. This paper explores the use of analogical generalizations to improve moral reasoning. Analogical reasoning has already been used to successfully model moral reasoning in the MoralDM model, but it exhaustively matches across all known cases, which is computationally intractable and cognitively implausible for human-scale knowledge bases. We investigate the performance of an extension of MoralDM to use the MAC/FAC model of analogical retrieval over three conditions, across a set of highly confusable moral scenarios.
+ 

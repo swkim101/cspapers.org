@@ -1,0 +1,1 @@
+Detailed timing analysis of flip-flops in a gate level simulator is described. The simulator detects violations of set-up time, hold time, and minimum clock, set, and reset pulse widths.

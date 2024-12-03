@@ -1,0 +1,1 @@
+The lack of relevance labels is increasingly challenging and presents a bottleneck in the training of reliable learning-to-rank (L2R) models. Obtaining relevance labels using human judgment is expensive and even impossible in some scenarios. Previous rese

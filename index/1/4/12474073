@@ -1,0 +1,9 @@
+Given a graph G, the sparsest-cut problem asks to find the set of vertices S which has the least expansion defined as 
+ 
+[EQUATION] 
+ 
+where w is the total edge weight of a subset. Here we study the natural generalization of this problem: given an integer k, compute a k-partition {P1, ..., Pk} of the vertex set so as to minimize 
+ 
+[EQUATION] 
+ 
+Our main result is a polynomial time bi-criteria approximation algorithm which outputs a (1 -- e)k-partition of the vertex set such that each piece has expansion at most [EQUATION] times OPT. We also study balanced versions of this problem.

@@ -1,0 +1,4 @@
+
+ 
+ We present a novel semantics for extracting bounded-level modules from RDF ontologies and databases augmented with safe inference rules, a la Datalog. Dealing with a recursive rule language poses challenging issues for defining the module semantics, and also makes module extraction algorithmically unsolvable in some cases. Our results include a set of module extraction algorithms compliant with the novel semantics. Experimental results show that the resulting framework is effective in extracting expressive modules from RDF datasets with formal guarantees, whilst controlling their succinctness.
+ 

@@ -1,0 +1,1 @@
+Software evolution is made difficult by the need to integrate new features with all previously implemented features in the system. We present Spotlight, a prototype editor for software plans that seeks to address this problem by providing the programmer a principled way to separately develop and incrementally integrate independent features.

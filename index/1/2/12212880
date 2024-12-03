@@ -1,0 +1,1 @@
+An inverted data base organization is analyzed. The inverted directory is viewed realistically as another large data base. Algorithms and formulations are derived to estimate the average number of accesses for insertion, retrieval and deletion of items from the data base. An average load time is also presented for the inverted data base.

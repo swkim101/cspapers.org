@@ -1,0 +1,1 @@
+We study feed-forward nets with arbitrarily many layers, using the standard sigmoid, tanh x. Aside from technicalities, our theorems are: 1. Complete knowledge of the output of a neural net for arbitrary inputs uniquely specifies the architecture, weights and thresholds; and 2. There are only finitely many critical points on the error surface for a generic training problem.

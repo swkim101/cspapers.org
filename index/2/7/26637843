@@ -1,0 +1,4 @@
+
+ 
+ Sentiment classification on Twitter has attracted increasing research in recent years.Most existing work focuses on feature engineering according to the tweet content itself.In this paper, we propose a context-based neural network model for Twitter sentiment analysis, incorporating contextualized features from relevant Tweets into the model in the form of word embedding vectors.Experiments on both balanced and unbalanced datasets show that our proposed models outperform the current state-of-the-art.
+ 

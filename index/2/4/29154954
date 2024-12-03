@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a novel coding method named weighted linear coding (WLC) to learn multi-level (e.g., pixel-level, patch-level and image-level) descriptors from raw pixel data in an unsupervised manner. It guarantees the property of saliency with a similarity constraint. The resulting multi-level descriptors have a good balance between the robustness and distinctiveness. Based on WLC, all data from the same region can be jointly encoded. Consequently, when we extract the holistic image features, it is able to preserve the spatial consistency. Furthermore, we apply PCA to these features and compact person representations are then achieved. During the stage of matching persons, we exploit the complementary information resided in multi-level descriptors via a score-level fusion strategy. Experiments on the challenging person re-identification datasets - VIPeR and CUHK 01, demonstrate the effectiveness of our method.
+ 

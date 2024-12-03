@@ -1,0 +1,1 @@
+We describe a simple method for exact online inference and decision making for partially observable and large Markov decision processes. This is based on a closed form Bayesian update procedure for certain classes of models exhibiting a special conditional independence structure, which can be used for prediction, and consequently for planning.

@@ -1,0 +1,1 @@
+This paper studies how parallel machine learning algorithms can be implemented on top of Microsoft Windows Azure cloud computing platform. The storage component of the platform is used to provide synchronization and communication between processing units. We report the speedups of a parallel k-means algorithm obtained on up to 200 processing units.

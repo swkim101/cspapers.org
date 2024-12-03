@@ -1,0 +1,4 @@
+
+ 
+ Model checking probabilistic knowledge of memoryful semantics is undecidable, even for a simple formula concerning the reachability of probabilistic knowledge of a single agent. This result suggests that the usual approach of tackling undecidable model checking problems, by finding syntactic restrictions over the logic language, may not suffice. In this paper, we propose to work with an additional restriction that agent's knowledge concerns a special class of atomic propositions. A PSPACE-complete case is identified with this additional restriction, for a logic language combining LTL with limit-sure knowledge of a single agent.
+ 

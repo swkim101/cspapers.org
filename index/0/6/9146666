@@ -1,0 +1,4 @@
+
+ 
+ We design minimal temporal description logics that are capa- ble of expressing various aspects of temporal conceptual data models and investigate their computational complexity. We show that, depending on the required types of temporal and atemporal constraints, the satisfiability problem for temporal knowledge bases in the resulting logics can be NLOGSPACE-, NP- and PSPACE-complete, as well as undecidable.
+ 

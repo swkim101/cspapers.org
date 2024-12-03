@@ -1,0 +1,4 @@
+
+ 
+ The depth first proof number search (df-pn) is an effective and popular algorithm for solving and-or tree problems by using proof and disproof numbers. This paper presents a simple but effective parallelization of the df-pn search algorithm for a shared-memory system. In this parallelization, multiple agents autonomously conduct the df-pn with a shared transposition table. For effective cooperation of agents, virtual proof and disproof numbers are introduced for each node, which is an estimation of future proof and disproof numbers by using the number of agents working on the node's descendants as a possible increase. Experimental results on large checkmate problems in shogi, which is a popular chess variant in Japan, show that reasonable increases in speed were achieved with small overheads in memory.
+ 

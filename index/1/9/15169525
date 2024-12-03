@@ -1,0 +1,2 @@
+We propose a new algorithm called Equipoise for the k-server problem, and we prove that it is 2-competitive for two servers and 11-competitive for three servers. For k=3, this is a tremendous improvement over previously known constants. The algorithm uses several techniques for designing on-line algorithms - convex hulls, work functions and forgiveness.
+The results presented in this paper were earlier announced at the DIMACS Workshop on On-Line Algorithms [8].

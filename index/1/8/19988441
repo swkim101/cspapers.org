@@ -1,0 +1,4 @@
+
+ 
+ We propose a triplet-based network for audio feature learning for version identification. Existing methods use hand-crafted features for a music as a whole while we learn features by a triplet-based neural network on segment-level, focusing on the most similar parts between music versions. We conduct extensive experiments and demonstrate our merits.
+ 

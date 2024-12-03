@@ -1,0 +1,4 @@
+
+ 
+ While suboptimal best-first search algorithms like Greedy Best-First Search are frequently used when building automated planning systems, their greedy nature can make them susceptible to being easily misled by flawed heuristics. This weakness has motivated the development of best-first search variants like epsilon-greedy node selection, type-based exploration, and diverse best-first search, which all use random exploration to mitigate the impact of heuristic error. In this paper, we provide a theoretical justification for this increased robustness by formally analyzing how these algorithms behave on infinite graphs. In particular, we show that when using these approaches on any infinite graph, the probability of not finding a solution can be made arbitrarily small given enough time. This result is shown to hold for a class of algorithms that includes the three mentioned above, regardless of how misleading the heuristic is.
+ 

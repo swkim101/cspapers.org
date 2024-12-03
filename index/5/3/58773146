@@ -1,0 +1,1 @@
+A video rate proccssor for binary images is described in this paper. The device convolves a binary image with a 3 level 64 by 64 mask. Images are processed at a rate of 10 million pixcls per second, allowing real time processing of images obtained from a CCD camera.

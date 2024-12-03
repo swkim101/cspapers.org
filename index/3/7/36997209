@@ -1,0 +1,1 @@
+We propose a flexible frame-structured representation and agenda-based control mechanism for the construction of production-type systems. Advantages of this architecture include uniformity, control freedom, and extensibility. We also describe an experimental system, named Wheeze, that uses this formalism.

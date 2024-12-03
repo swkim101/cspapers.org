@@ -1,0 +1,1 @@
+In this paper we explore Wirth's[11] backtracking algorithm from the perspective of algorithm reuse and separation of concerns. We explore treatment of this problem in object-oriented data structures and algorithms texts. Finally, we present a reusable backtracking (or depth-first search) class.

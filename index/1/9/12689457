@@ -1,0 +1,4 @@
+
+ 
+ We present a novel approach to bidirectional breadth-first IDA* (BFIDA*) and demonstrate its effectiveness in the domain of peg solitaire, a simple puzzle. Our approach improves upon unidirectional BFIDA* by usually avoiding the last iteration of search entirely, greatly speeding up search. In addition, we provide a number of improvements specific to peg solitaire. We have improved duplicate-detection in the context of BFIDA*. We have strengthened the heuristic used in the previous state-of-the-art solver. Finally, we use bidirectional search frontiers to provide a stronger technique for pruning unsolvable states. The combination of these approaches allows us to improve over the previous state-of-the-art, often by a two-orders-of-magnitude reduction in search time.
+ 

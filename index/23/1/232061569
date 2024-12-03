@@ -1,0 +1,1 @@
+Cross comparison of documents is important to school assignments, but it is rarely implemented because of the heavy cost of text-similarity evaluation algorithms. The paper presents an efficient algorithm based on a hybrid of LCS and hashing, and extends the framework of cross comparison that visualizes the suspected plagiarism within massive submissions.

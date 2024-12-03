@@ -1,0 +1,4 @@
+
+ 
+ It is well known that exploiting label correlations is important for multi-label learning. Existing approaches typically exploit label correlations globally, by assuming that the label correlations are shared by all the instances. In real-world tasks, however, different instances may share different label correlations, and few correlations are globally applicable. In this paper, we propose the ML-LOC approach which allows label correlations to be exploited locally. To encode the local influence of label correlations, we derive a LOC code to enhance the feature representation of each instance. The global discrimination fitting and local correlation sensitivity are incorporated into a unified framework, and an alternating solution is developed for the optimization. Experimental results on a number of image, text and gene data sets validate the effectiveness of our approach.
+ 

@@ -1,0 +1,1 @@
+A word-based morphological analyzer and a dictionary for recognizing inflected forms of French words have been built by adapting the UDICT system. We describe the adaptations, emphasizing mechanisms developed to handle French verbs. This work lays the groundwork for doing French derivational morphology and morphology for other languages.

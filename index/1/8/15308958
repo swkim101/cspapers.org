@@ -1,0 +1,5 @@
+Applications implementing cloud services, such as HDFS, Hadoop YARN, Cassandra, and HBase, are mostly built as distributed systems designed to scale. In order to analyze and debug the performance of these systems effectively and efficiently, it is essential to understand the performance behavior of service requests, both in aggregate and individually. 
+ 
+lprof is a profiling tool that automatically reconstructs the execution flow of each request in a distributed application. In contrast to existing approaches that require instrumentation, lprof infers the request-flow entirely from runtime logs and thus does not require any modifications to source code. lprof first statically analyzes an application's binary code to infer how logs can be parsed so that the dispersed and intertwined log entries can be stitched together and associated to specific individual requests. 
+ 
+We validate lprof using the four widely used distributed services mentioned above. Our evaluation shows lprof's precision in request extraction is 88%, and lprof is helpful in diagnosing 65% of the sampled real-world performance anomalies.

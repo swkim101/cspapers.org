@@ -1,0 +1,4 @@
+
+ 
+ This paper describes an iterative combinatorial auction for single-minded bidders that offers modularity in the choice of price structure, drawing on ideas from kernel methods and the primal-dual paradigm of auction design. In our implementation, the auction is able to automatically detect, as the rounds progress, whether price expressiveness must be increased to clear the market. The auction also features a configurable step size which can be tuned to trade-off between monotonicity in prices and the number of bidding rounds, with no impact on efficiency. An empirical evaluation against a state of the art ascending-price auction demonstrates the performance gains that can be obtained in efficiency, revenue, and rounds to convergence through various configurations of our design.
+ 

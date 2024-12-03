@@ -22,7 +22,7 @@ function Paper(props) {
     if (isAbsLoaded) {
       return
     }
-    getAbstract(props.year, props.venue, props.title)
+    getAbstract(props.index)
       .then(([abs, err]) => {
         if (err) {
           setAbstract("failed to retreive an abstract: ", err)

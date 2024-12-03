@@ -1,0 +1,1 @@
+Approximations are given for the mean response times of each priority level in a multiple-class multiserver M/G/m queue operating under preemptive resume scheduling. The results have been tested against simulations of systems with two and three priority classes and different numbers of servers.

@@ -1,0 +1,4 @@
+
+ 
+ Kernelized sorting is an approach for matching objects from two sources (or domains) that does not require any prior notion of similarity between objects across the two sources. Unfortunately, this technique is highly sensitive to initialization and high dimensional data. We present variants of kernelized sorting to increase its robustness and performance on several Natural Language Processing (NLP) tasks: document matching from parallel and comparable corpora, machine transliteration and even image processing. Empirically we show that, on these tasks, a semi-supervised variant of kernelized sorting outperforms matching canonical correlation analysis.
+ 

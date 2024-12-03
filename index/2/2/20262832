@@ -1,0 +1,6 @@
+
+ 
+ 
+Vehicle crashes account for over one million fatalities and many more millions of injuries annually worldwide. Some roads are safer than others, so driving routes optimized for safety may re- duce the number of crashes. We have developed a method to estimate the probability of a crash on any road as a function of the traffic volume, road characteristics, and environmental condi- tions. We trained a regression model to estimate traffic volume and a binary classifier to estimate crash probability on road seg- ments. Modeling a route’s crash probability as a series of Ber- noulli trials, we employ the Dijkstra routing algorithm to compute the safest route between two locations. We find that, compared to the fastest route, the safest route is approximately 1.7 times as long in duration and about half as dangerous. We also show how to smoothly trade off safety for travel time, and demonstrate how drivers could be offered several route options, each with different crash probabilities and durations. 
+ 
+ 

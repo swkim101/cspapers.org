@@ -1,0 +1,5 @@
+Many artificial intelligence applications require the use of expert systems. As expert systems move into new domains, several significant changes can be expected. Among these are an increase in number of rules in the rule base and an increase in the number of data elements contained in working memory. 
+ 
+Also, many new applications require that expert systems move into real-time domains. Here, a system must be able to process large quantities of data which are changing rapidly. Many problem-solving situations will be time critical, and the system must take into account the availability and distribution of scarce system resources. 
+ 
+For these reasons, the efficiency of a given expert system design and its ability to perform complex memory management tasks will become Increasingly important. This will require modifications in the traditional production system architectures. In this paper, the design requirements of future expert systems are discussed, and HAPS, a recently implemented production system architecture designed to address these issues, is presented.

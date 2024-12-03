@@ -1,0 +1,5 @@
+Researchers are becoming aware of the importance of other information sources besides visual data in robot learning by demonstration (LbD). Forcebased perceptions are shown to convey very relevant information – missed by visual and position 
+sensors – for learning specific tasks. In this paper, we review some recent works using forces as input data in LbD and Human-Robot interaction (HRI) scenarios, and propose a complete learning framework for teaching force-based manipulation skills to a robot through a haptic device. We suggest 
+to use haptic interfaces not only as a demonstration tool but also as a communication channel between the human and the robot, getting the teacher more involved in the teaching process by experiencing the force signals sensed by the robot. 
+Within the proposed framework, we provide solutions for treating force signals, extracting relevant information about the task, encoding the training data and generalizing to perform successfully under 
+unknown conditions.

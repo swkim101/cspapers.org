@@ -1,0 +1,4 @@
+
+ 
+ Recently there is an increase in smaller, domain-specific search engines that scour the deep web finding information that general-purpose engines are unable to discover. These search engines play a crucial role in the new generation of search paradigms where federated search engines (FSEs) integrate search results from heterogeneous sources. In this paper we pose, for the first time, the problem to design a revenue mechanism that ensures profits both to individual search engines and FSEs as a mechanism design problem. To this end, we extend the sponsored search auction models and we discuss possibility and impossibility results on the implementation of an incentive compatible mechanism. Specifically, we develop an execution-contingent VCG (where payments depend on the observed click behavior) that satisfies both individual rationality and weak budget balance in expectation.
+ 

@@ -1,0 +1,3 @@
+The development and the subsequent exposure of automated space planning methodologies has grown to the point where they are now acceptable and readily available preliminary architectural design tools.
+ This paper describes a system of computer programs which were developed in an attempt to pull together current design methodologies.
+ In summary, the paper describes the general system and discusses the basic assumptions and concepts implemented within it. Each method presented is described and executed with the same specific design problem for the purpose of demonstration and comparison.

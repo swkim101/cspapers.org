@@ -1,0 +1,4 @@
+
+ 
+ Probabilistic topic models could be used to extract low-dimension topics from document collections. However, such models without any human knowledge often produce topics that are not interpretable. In recent years, a number of knowledge-based topic models have been proposed, but they could not process fact-oriented triple knowledge in knowledge graphs. Knowledge graph embeddings, on the other hand, automatically capture relations between entities in knowledge graphs. In this paper, we propose a novel knowledge-based topic model by incorporating knowledge graph embeddings into topic modeling. By combining latent Dirichlet allocation, a widely used topic model with knowledge encoded by entity vectors, we improve the semantic coherence significantly and capture a better representation of a document in the topic space. Our evaluation results will demonstrate the effectiveness of our method.
+ 

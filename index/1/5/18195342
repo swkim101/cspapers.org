@@ -1,0 +1,4 @@
+
+ 
+ The next challenge in qualitative spatial and temporal reasoning is to develop calculi that deal with different aspects of space and time. One approach to achieve this is to combine existing calculi that cover the different aspects. This, however, can lead to calculi that have a very large number of relations and it is a matter of ongoing discussions within the research community whether such large calculi are too large to be useful. In this paper we develop a procedure for reasoning about some of the largest known calculi, the Rectangle Algebra and the Block Algebra with about 10661 relations. We demonstrate that reasoning over these calculi is possible and can be done efficiently in many cases. This is a clear indication that one of the main goals of the field can be achieved: highly expressive spatial and temporal representations that support efficient reasoning.
+ 

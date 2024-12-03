@@ -1,0 +1,1 @@
+We consider the performance of a simple greedy matching algorithm MINGREEDY when applied to random cubic graphs. We show that if λn is the expected number of vertices not matched by MINGREEDY, there are positive constants c1 and c2 such that C1n1/5 ≤ λn ≤ C2n1/5 log n.

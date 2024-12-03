@@ -1,0 +1,4 @@
+
+ 
+ Today's operation of buildings is either based on simple dashboards that are not scalable to thousands of sensor data or on rules that provide very limited fault information only. In either case considerable manual effort is required for diagnosing building operation problems related to energy usage or occupant comfort. We present a Cognitive Building demo that uses (i) semantic reasoning to model physical relationships of sensors and systems, (ii) machine learning to predict and detect anomalies in energy flow, occupancy and user comfort, and (iii) speech-enabled Augmented Reality interfaces for immersive interaction with thousands of devices. Our demo analyzes data from more than 3,300 sensors and shows how we can automatically diagnose building operation problems.
+ 

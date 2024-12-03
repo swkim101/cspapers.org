@@ -1,0 +1,1 @@
+It is shown that concatenable double-ended queues can be simulated in real-time by double-ended queues without concatenation. Consequently, every multihead Turing machine with head-to-head jumps can be simulated in real-time by multitape Turing machines.

@@ -1,0 +1,1 @@
+A doubly lexical ordering of the rows and columns of any real-valued matrix is defined. This notion extends to graphs. These orderings are used to prove and unify results on several classes of matrices and graphs, including totally balanced matrices and chordal graphs. An almost-linear time doubly lexical ordering algorithm is given.

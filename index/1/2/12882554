@@ -1,0 +1,1 @@
+A resolution-based theorem prover, incorporating a restricted higher-order unification algorithm, has been applied to the automatic synthesis of SNOBOL-4 programs. The set of premisses includes second-order assignment and iteration axioms derived from those of Hoare. Two examples are given of the synthesis of programs that compute elementary functions.

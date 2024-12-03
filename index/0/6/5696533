@@ -1,0 +1,4 @@
+
+ 
+ The most prominent way to establish trust between buyers and sellers on online auction sites are reputation mechanisms. Two drawbacks of this approach are the reliance on the seller being long-lived and the susceptibility to whitewashing. In this paper, we introduce so-called escrow mechanisms that avoid these problems by installing a trusted intermediary which forwards the payment to the seller only if the buyer acknowledges that the good arrived in the promised condition. We address the incentive issues that arise and design an escrow mechanism that is incentive-compatible, efficient, interim individually rational and ex ante budget-balanced. In contrast to previous work on trust and reputation, our approach does not rely on knowing the sellers' cost functions or the distribution of buyer valuations.
+ 

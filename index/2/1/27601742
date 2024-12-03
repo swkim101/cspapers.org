@@ -1,0 +1,4 @@
+
+ 
+ Simple Tabular Reduction algorithms (STR) work well to establish Generalized Arc Consistency (GAC) on positive table constraints. However, the existing STR algorithms are useless for negative table constraints. In this work, we propose a novel STR algorithm and its improvement, which work on negative table constraints. Our preliminary experiments are performed on some random instances and a certain benchmark instances. The results show that the new algorithms outperform GAC-valid and the MDD-based GAC algorithm.
+ 

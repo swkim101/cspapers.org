@@ -1,0 +1,1 @@
+We demonstrate a visual based XML-Relational database system where XML data is managed by commercial RDBMS. A query interface enables users to form path expression based queries against stored data visually. Statistics about data and a special path directory are used to rewrite path expression based queries into efficient SQL statements involving less number of joins.

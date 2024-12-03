@@ -1,0 +1,4 @@
+
+ 
+ A general game player automatically learns to play arbitrary new games solely by being told their rules. For this purpose games are specified in the game description language GDL, a variant of Datalog with function symbols and a few known keywords. In its latest version GDL allows to describe nondeterministic games with any number of players who may have imperfect, asymmetric information. We analyse the epistemic structure and expressiveness of this language in terms of epistemic modal logic and present two main results:The operational semantics of GDL entails that the situation at any stage of a game can be characterised by a multi-agent epistemic (i.e., S5-) model;(2) GDL is sufficiently expressive to model any situation that can be described by a (finite) multi-agent epistemic model.
+ 

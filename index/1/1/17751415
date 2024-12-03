@@ -1,0 +1,5 @@
+Most research in computer vision has been directed towards minimalistic approaches, in which problems are addressed on how properties of the environment can be computed from as little information as possible. 
+ 
+Although such approaches may be scientifically well motivated they have only resulted in limited progress towards our understanding of seeing systems. Ballard, Bajcsy and others have pointed out the importance of vision being an active process which is tightly connected to behaviors. We support this thought and also propose that utilizing that the world is rich on information is essential. 
+ 
+We develop this idea to show how attention and figure-ground segmentation by an active observer using multiple cues can be separated from analyzing and recognizing what is seen in a consistent way. Continuous operation over time and early use of three dimensional cues are important in this context. We illustrate our proposed approach by some experiments on a real-time active system.

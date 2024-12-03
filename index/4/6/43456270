@@ -1,0 +1,4 @@
+
+ 
+ This work provides a study on how Convolutional Neural Networks, trained to identify objects primarily in photos, perform when applied to more abstract representations of the same objects. Our main goal is to better understand the generalization abilities of these networks and their learned inner representations. We show that both GoogLeNet and AlexNet networks are largely unable to recognize abstract sketches that are easily recognizable by humans. Moreover, we show that the measured efficacy vary considerably across different classes and we discuss possible reasons for this.
+ 

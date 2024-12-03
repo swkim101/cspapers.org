@@ -1,0 +1,4 @@
+
+ 
+ For the AI community, the lasso proposed by Tibshirani is an important regression approach in finding explanatory predictors in high dimensional data. The coordinate descent algorithm is a standard approach to solve the lasso which iteratively updates weights of predictors in a round-robin style until convergence. However, it has high computation cost. This paper proposes Sling, a fast approach to the lasso. It achieves high efficiency by skipping unnecessary updates for the predictors whose weight is zero in the iterations. Sling can obtain high prediction accuracy with fewer predictors than the standard approach. Experiments show that Sling can enhance the efficiency and the effectiveness of the lasso.
+ 

@@ -1,0 +1,1 @@
+The paper advocates the use of structured programming techniques in designing and developing assembly language programs. It presents schemata for implementing the major constructs of structured programs in IBM 370 Assembly language. These include the extensive use of equates for defining labels and the use of indentation to illustrate logical dependencies in pseudocode comments.

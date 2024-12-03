@@ -1,0 +1,4 @@
+
+ 
+ We study propagation algorithms for the conjunction of two AllDifferent constraints. Solutions of an AllDifferent constraint can be seen as perfect matchings on the variable/value bipartite graph. Therefore, we investigate the problem of finding simultaneous bipartite matchings. We present an extension of the famous Hall theorem which characterizes when simultaneous bipartite matchings exists. Unfortunately, finding such matchings is NP-hard in general. However, we prove a surprising result that finding a simultaneous matching on a convex bipartite graph takes just polynomial time. Based on this theoretical result, we provide the first polynomial time bound consistency algorithm for the conjunction of two AllDifferent constraints. We identify a pathological problem on which this propagator is exponentially faster compared to existing propagators. Our experiments show that this new propagator can offer significant benefits over existing methods.
+ 

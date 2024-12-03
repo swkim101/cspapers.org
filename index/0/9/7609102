@@ -1,0 +1,7 @@
+We present a novel connection between binary search trees (BSTs) and points in the plane satisfying a simple property. Using this correspondence, we achieve the following results: 
+ 
+1. A surprisingly clean restatement in geometric terms of many results and conjectures relating to BSTs and dynamic optimality. 
+ 
+2. A new lower bound for searching in the BST model, which subsumes the previous two known bounds of Wilber [FOCS'86]. 
+ 
+3. The first proposal for dynamic optimality not based on splay trees. A natural greedy but offline algorithm was presented by Lucas [1988], and independently by Munro [2000], and was conjectured to be an (additive) approximation of the best binary search tree. We show that there exists an equal-cost online algorithm, transforming the conjecture of Lucas and Munro into the conjecture that the greedy algorithm is dynamically optimal.

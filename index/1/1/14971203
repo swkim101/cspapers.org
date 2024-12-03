@@ -1,0 +1,4 @@
+
+ 
+ Graphical visualization has demonstrated enormous power in helping people to understand complexity in many branches of science. But, curiously, AI has been slow to pick up on the power of visualization. Alar is a visualization system intended to help people understand and control symbolic inference. Alar presents dynamically controllable node-and-arc graphs of concepts, and of assertions both supplied to the system and inferred. Alar is useful in quality assurance of knowledge bases (finding false, vague, or misleading statements; or missing assertions). It is also useful in tuning parameters of inference, especially how “liberal vs. conservative” the inference is (trading off the desire to maximize the power of inference versus the risk of making incorrect inferences). We present a typical scenario of using Alar to debug a knowledge base.
+ 

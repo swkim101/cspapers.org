@@ -1,0 +1,4 @@
+
+ 
+ Current manifold alignment methods can effectively align data sets that are drawn from a non-intersecting set of manifolds. However, as data sets become increasingly high-dimensional and complex, this assumption may not hold. This paper proposes a novel manifold alignment algorithm, low rank alignment (LRA), that uses a low rank representation (instead of a nearest neighbor graph construction) to embed and align data sets drawn from mixtures of manifolds. LRA does not require the tuning of a sensitive nearest neighbor hyperparameter or prior knowledge of the number of manifolds, both of which are common drawbacks with existing techniques. We demonstrate the effectiveness of our algorithm in two real-world applications: a transfer learning task in spectroscopy and a canonical information retrieval task.
+ 

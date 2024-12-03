@@ -1,0 +1,4 @@
+We consider a switched network, a fairly general constrained queueing network model that has been used successfully to model the detailed packet-level dynamics in communication networks, such as input-queued switches and wireless networks. The main operational issue in this model is that of deciding which queues to serve, subject to certain constraints.
+ In this paper, we study qualitative performance properties of the well known α-weighted scheduling policies. The stability, in the sense of positive recurrence, of these policies has been well understood. We establish exponential upper bounds on the tail of the steady-state distribution of the backlog.
+ Along the way, we prove finiteness of the expected steady-state backlog when α<1, a property that was known only for α ≥ 1.
+ Finally, we analyze the excursions of the maximum backlog over a finite time horizon for α ≥ 1. As a consequence, for α ≥ 1, we establish the full state space collapse property.

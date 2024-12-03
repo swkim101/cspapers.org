@@ -1,0 +1,3 @@
+UDL consists of a set of database extensions for programming languages such as COBOL and PL/I. The first description of UDL was given in [1], and detailed specifications were published in [2-6]. The present paper provides an informal introduction to the concepts and facilities of UDL as currently defined [3,4], and thus forms a replacement for the original paper [1]. 
+ 
+UDL per se is not dependent on any particular host programming language; its constructs and functions, or some suitable subset of them, can be mapped into the concrete syntax of a variety of such languages. For definiteness, however, this paper uses one specific language, namely F1/I, as the basis for all examples.

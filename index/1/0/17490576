@@ -1,0 +1,3 @@
+We present an inexact search algorithm for the problem of predicting a two-layered dependency graph. The algorithm is based on a k-best version of the standard cubic-time search algorithm for projective dependency parsing, which is used as the backbone of a beam search procedure. This allows us to handle the complex non-local feature dependencies occurring in bistratal parsing if we model the interdependency between the two layers. 
+ 
+We apply the algorithm to the syntactic---semantic dependency parsing task of the CoNLL-2008 Shared Task, and we obtain a competitive result equal to the highest published for a system that jointly learns syntactic and semantic structure.

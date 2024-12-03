@@ -1,0 +1,1 @@
+In prior work we have developed an escape analysis to help developers identify sources of object churn (i.e., excessive use of temporaries) in large framework-based applications. We have developed Hi-C, an Eclipse plug-in that allows users to visualize, filter, and explore analysis results to aid them in diagnosis of object churn and in program comprehension in general.

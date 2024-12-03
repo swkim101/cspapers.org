@@ -1,0 +1,1 @@
+We propose a density-based estimator for weighted geodesic distances suitable for data lying on a manifold of lower dimension than ambient space and sampled from a possibly nonuniform distribution. After discussing its properties and implementation, we evaluate its performance as a tool for clustering tasks. A discussion on the consistency of the estimator is also given.

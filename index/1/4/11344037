@@ -1,0 +1,1 @@
+I describe an exploration criterion that attempts to minimize the error of a learner by minimizing its estimated squared bias. I describe experiments with locally-weighted regression on two simple kinematics problems, and observe that this "bias-only" approach outperforms the more common "variance-only" exploration approach, even in the presence of noise.

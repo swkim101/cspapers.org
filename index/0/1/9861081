@@ -1,0 +1,4 @@
+
+ 
+ We present a novel multitask learning framework called multitask generalized eigenvalue program (MTGEP), which jointly solves multiple related generalized eigenvalue problems (GEPs). This framework is quite general and can be applied to many eigenvalue problems in machine learning and pattern recognition, ranging from supervised learning to unsupervised learning, such as principal component analysis (PCA), Fisher discriminant analysis (FDA), common spatial pattern (CSP), and so on. The core assumption of our approach is that the leading eigenvectors of related GEPs lie in some subspace that can be approximated by a sparse linear combination of basis vectors. As a result, these GEPs can be jointly solved by a sparse coding approach. Empirical evaluation with both synthetic and benchmark real world datasets validates the efficacy and efficiency of the proposed techniques, especially for grouped multitask GEPs.
+ 

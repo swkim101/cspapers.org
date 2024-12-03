@@ -1,0 +1,4 @@
+
+ 
+ We present an algorithm (LsNet2Vec) that, given a large-scale network (millions of nodes), embeds the structural features of node into a lower and fixed dimensions of vector in the set of real numbers. We experiment and evaluate our proposed approach with twelve datasets collected from SNAP. Results show that our model performs comparably with state-of-the-art methods, such as Katz method and Random Walk Restart method, in various experiment settings.
+ 

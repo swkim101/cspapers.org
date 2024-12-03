@@ -1,0 +1,4 @@
+
+ 
+ By coordinating efforts from humans and machines, human computation systems can solve problems that machines cannot tackle alone. A general challenge is to design efficient human computation algorithms or workflows with which to coordinate the work of the crowd. We introduce a method for automated workflow synthesis aimed at ideally harnessing human efforts by learning about the crowd's performance on tasks and synthesizing an optimal workflow for solving a problem. We present experimental results for human sorting tasks, which demonstrate both the benefit of understanding and optimizing the structure of workflows based on observations. Results also demonstrate the benefits of using value of information to guide experiments for identifying efficient workflows with fewer experiments.
+ 

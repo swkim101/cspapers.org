@@ -1,0 +1,1 @@
+This paper demonstrates how a broad collection of hash function families can be expressed as dynamical systems. We then show that this representation can be useful for analysis. In particular, we provide an analysis which proves that a widely-used family of double hash functions will transform any initial distribution of keys into the uniform distribution over the table space.

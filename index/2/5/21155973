@@ -1,0 +1,1 @@
+We discuss problems of collision avoidance in a flexible assembly cell (FAC) : gross motion, fine motion and error recovery, robots with a common work-area. Different strategies are proposed, based on graph-search techniques and use of Petri nets. These methods are integrated on our experimental FAC system and allow safe and high-level programming of robots.

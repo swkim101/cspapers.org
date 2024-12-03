@@ -1,0 +1,4 @@
+
+ 
+ Question and answer pairs in Community Question Answering (CQA) services are organized into hierarchical structures or taxonomies to facilitate users to find the answers for their questions conveniently. We observe that different CQA services have their own knowledge focus and used different taxonomies to organize their question and answer pairs in their archives. As there are no simple semantic mappings between the taxonomies of the CQA services, the integration of CQA services is a challenging task. The existing approaches on integrating taxonomies ignore the hierarchical structures of the source taxonomy. In this paper, we propose a novel approach that is capable of incorporating the parent-child and sibling information in the hierarchical structures of the source taxonomy for accurate taxonomy integration. Our experimental results with real world CQA data demonstrate that the proposed method significantly outperforms state-of-the-art methods.
+ 

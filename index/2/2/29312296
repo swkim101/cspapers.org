@@ -1,0 +1,1 @@
+When an exception occurs, the state of a system is damaged : further processing may cause additional exceptions. Under some hypotheses concerning the system structure we give an a priori estimate of the damage caused by exceptions. Based on this estimate we propose a recovery strategy and a recovery mechanism.

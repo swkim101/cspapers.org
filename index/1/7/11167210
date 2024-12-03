@@ -1,0 +1,1 @@
+Evolutionary changes in object-oriented systems can result in large, complex classes, known as "God Classes". In this paper, we present a tool, developed as part of the JDeodorant Eclipse plugin, that can recognize opportunities for extracting cohesive classes from "God Classes" and automatically apply the refactoring chosen by the developer.

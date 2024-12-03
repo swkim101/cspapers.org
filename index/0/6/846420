@@ -1,0 +1,4 @@
+
+ 
+ Named entity recognition (NER) in Chinese social media is important but difficult because of its informality and strong noise. Previous methods only focus on in-domain supervised learning which is limited by the rare annotated data. However, there are enough corpora in formal domains and massive in-domain unannotated texts which can be used to improve the task. We propose a unified model which can learn from out-of-domain corpora and in-domain unannotated texts. The unified model contains two major functions. One is for cross-domain learning and another for semi-supervised learning. Cross-domain learning function can learn out-of-domain information based on domain similarity. Semi-Supervised learning function can learn in-domain unannotated information by self-training. Both learning functions outperform existing methods for NER in Chinese social media. Finally, our unified model yields nearly 11% absolute improvement over previously published results.
+ 

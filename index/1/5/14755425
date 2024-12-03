@@ -1,0 +1,3 @@
+Let <i>G</i> = (<i>V</i>(<i>G</i>), <i>E</i>(<i>G</i>)) be a graph and let <i>C</i> be the collection of its cycles. Let <i>p</i>: <i>E</i>(<i>G</i>) ↣ Z<sup>+</sup><subscrpt>&Ogr;</subscrpt>? be a non-negative, integer-valued function on its edge set.
+The CYCLE COVER PROBLEM is the optimization problem of finding a multiset <i>a</i> of cycles of <i>G</i> such that each edge <i>e</i> ∈ <i>E</i> is in at least <i>p</i>(<i>e</i>) of the cycles in <i>a</i> and such that the sum of the lengths of all cycles in <i>a</i> is minimum.
+We will show how to approximate within a factor of 8 the optimum value of the cycle cover problem for planar graphs in polynomial time.

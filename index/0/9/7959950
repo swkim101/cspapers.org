@@ -1,0 +1,4 @@
+
+ 
+ Security games, and important class of Stackelberg games, are used in deployed decision-support tools in use by LAX police and the Federal Air Marshals Service. The algorithms used to solve these games find optimal randomized schedules to allocate security resources for infrastructure protection. Unfortunately, the state of the art algorithms either fail to scale or to provide a correct solution for large problems with arbitrary scheduling constraints. We introduce ASPEN, a branch-and-price approach that overcomes these limitations based on two key contributions: (i) A column-generation approach that exploits a novel network flow representation, avoiding a combinatorial explosion of schedule allocations; (ii) A branch-and-bound algorithm that generates bounds via a fast algorithm for solving security games with relaxed scheduling constraints. ASPEN is the first known method for efficiently solving massive security games with arbitrary schedules.
+ 

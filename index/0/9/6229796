@@ -1,0 +1,4 @@
+
+ 
+ We present a new technique to compress pattern databases to provide consistent heuristics without loss of information. We store the heuristic estimate modulo three, requiring only two bits per entry or in a more compact representation, only 1.6 bits. This allows us to store a pattern database with more entries in the same amount of memory as an uncompressed pattern database. These compression techniques are most useful where lossy compression using cliques or their generalization is not possible or where adjacent entries in the pattern database are not highly correlated. We compare both techniques to the best existing compression methods for the Top-Spin puzzle, Rubik's cube, the 4-peg Towers of Hanoi problem, and the 24 puzzle. Under certain conditions, our best implementations for the Top-Spin puzzle and Rubik's cube outperform the respective state of the art solvers by a factor of four.
+ 

@@ -1,0 +1,1 @@
+In many text retrieval tasks, it is highly desirable to obtain a "similarity profile" of the document collection for a given query. We propose sampling-based techniques to address this need, using calibration techniques to improve the accuracy. Experimental results confirm the effectiveness of the proposed approaches.

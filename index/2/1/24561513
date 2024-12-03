@@ -1,0 +1,9 @@
+Network structure 
+ The infrastructure for telecommunications will, for economic reasons, continue to be determined for many years by the requirements of telephony. Modulations on the infrastructure will only be effected if they offer distinct advantages to groups of users. Users of data communication form such a group.
+ The creation of a sub-network is an optimization of part of the network as a whole in behalf of a specific group, for which general provisions can be made to offer adequate range of services and to stimulate growth.
+ A packet-switched network has characteristics:
+ - Each packet has a label, enabling packet retransmission and alternative routing.
+ - Common use is made of circuit hardware, so that the costs compare favourably with circuit-switching. Packet-switching is economic.
+ - Systems and terminals with different speeds can co-operate because a packet-switched network is not transmission transparent but nevertheless information-transparent. Packet-switching is compatible.
+ - It is not too difficult a job to extend the management centre needed for exploitation of the network to include a diagnostic network information centre for the user. A packet-switched network supports the user's data processing management.
+ - A packet-switched network offers a firm base for giving direction to the standardization promoted by a public network.

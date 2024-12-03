@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a variant of the conservativeupdate Count-Min sketch to further reduce the overestimation error incurred. Inspired by ideas from lossy counting, we divide a stream of items into multiple windows, and decrement certain counts in the sketch at window boundaries. We refer to this approach as a lossy conservative update (LCU). The reduction in overestimation error of counts comes at the cost of introducing under-estimation error in counts. However, in our intrinsic evaluations, we show that the reduction in overestimation is much greater than the under-estimation error introduced by our method LCU. We apply our LCU framework to scale distributional similarity computations to web-scale corpora. We show that this technique is more efficient in terms of memory, and time, and more robust than conservative update with Count-Min (CU) sketch on this task.
+ 

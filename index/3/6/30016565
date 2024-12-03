@@ -1,0 +1,4 @@
+
+ 
+ Humorous images can be seen in many social media websites. However, newcomers to these websites often have trouble fitting in because of the subculture among the community is usually implicit. Among all the types of humorous images, Internet memes are relatively hard for newcomers to understand. In this work, we develop a system leveraging crowdsourcing technique to generate explanations for meme images. We claim that people who are not familiar with Internet meme subculture can still quickly pick up the gist of the memes through reading the explanations. Our template-based explanation can illustrate the incongruity between normal situations and the punchlines in jokes. The explanations can be produced by going through 2 designed humor tasks. In our pilot study, acceptable explanations for 5 unique memes are generated. For further study, generating explanations for more general text jokes are possible.
+ 

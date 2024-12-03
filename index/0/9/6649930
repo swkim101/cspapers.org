@@ -1,0 +1,6 @@
+We present a significant improvement for parallel integer sorting. On the EREW (exclusive read exclusive write) PRAM our algorithm sorts n integers in the range {0,1, . . . ,m-1 } in time O(log n) with $O(n \sqrt{\frac{\log n}{k}})$ operations using word length $k \log (m+n)$, where $1 \leq k \leq \log n$. In this paper we present the following four variants of our algorithm. 
+\noindent (1) The first variant sorts integers in $\{ 0, 1, \ldots, m-1\}$ in time O(log n) and in linear space with O(n) operations using word length log m log n. 
+(2) The second variant sorts integers in {0, 1, . . , n-1} in time O(log n) and in linear space with $O(n\sqrt{\log n})$ operations using word length log n. 
+(3) The third variant sorts integers in {0, 1, . . . , m-1} in time O(log3/2 n) and in linear space with $O(n\sqrt{\log n})$ operations using word length log (m+n). 
+(4) The fourth variant sorts integers in {0, 1, . . . ,m-1} in time O(log n) and space $O(nm^\epsilon )$ with $O(n\sqrt{\log n})$ operations using word length log (m+n). 
+Our algorithms can then be generalized to the situation where the word length is k log (m+n), $1 \leq k \leq \log n$.

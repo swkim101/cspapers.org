@@ -1,0 +1,1 @@
+An algorithm is presented which takes a least fixed point query expressed by a basis and inductive step and transforms it into a non-recursive iterative program. By augmenting a relational system with this algorithm, least fixed point queries can be handled automatically, and there is no need to proceduralizc relational algebra for such queries.

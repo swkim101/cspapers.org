@@ -1,0 +1,4 @@
+
+ 
+ We developed a method to draw and animate using SPARC, a logic programming system, and an online environment to support this method.Particularly, we introduce two predicates: one for drawing and one for animation. By our method, programmers will write a SPARC program, using our introduced predicates, to specify their drawing or animation. The drawing or animation will then be rendered upon executing the program with our system. In fact, our online system provides an environment where the programmers can easily edit and execute their programs.
+ 

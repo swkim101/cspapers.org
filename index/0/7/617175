@@ -1,0 +1,4 @@
+
+ 
+ A significant problem of Gaussian process (GP) is its unfavorable scaling with a large amount of data. To overcome this issue, we present a novel GP approximation scheme for online regression. Our model is based on a combination of multiple GPs with random hyperparameters. The model is trained by incrementally allocating new examples to a selected subset of GPs. The selection is carried out efficiently by optimizing a submodular function. Experiments on real-world data sets showed that our method outperforms existing online GP regression methods in both accuracy and efficiency. The applicability of the proposed method is demonstrated by the mouse-trajectory prediction in an Internet banking scenario.
+ 

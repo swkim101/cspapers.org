@@ -1,0 +1,1 @@
+A propositional version of Feldman and Harel's Pr (DL) is defined, and shown to be decidable. The logic allows propositional-level formulas involving probabilistic programs, and contains full real-number theory for dealing with probabilities. The decidability proof introduces model schemes, which seem to be the most basic structures relating programs and probabilities.

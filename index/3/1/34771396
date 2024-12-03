@@ -1,0 +1,14 @@
+Wind power resources in mountainous regions are conditioned on a vast variety 
+of factors influencing air flow. Complex topography causes various phenomena 
+such as localised thermal winds, acceleration due to tunneling and Foehn winds 
+interfering at a range of spatial scales and varying in time due to weather seasonality. 
+It increases the dimensionality of parameter space and adds additional 
+complexity to sampling strategies and monitoring network design for wind resource 
+assessment and location allocation for wind turbines. This work explores 
+an active learning approach to multiple kernel learning (MKL) to explore the highdimensional 
+space of topographic features influencing wind speeds. MKL allows 
+handling spatial heterogeneity and non-stationarity while providing physically interpretable 
+data-driven models useful for decision support. Our results on real data 
+from the Swiss Alps suggest the efficiency of MKL both for feature selection, predictive 
+modelling and sampling design, also showing that care has to be taken to 
+avoid over-fitting by over-localised terms in kernel dictionaries.

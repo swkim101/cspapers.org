@@ -1,0 +1,1 @@
+In this work, we implement an ARMv8 function and performance simulator based on gem5 infrastructure, which is the first open source ARMv8 simulator. All the ARMv8 A64 instructions other than SIMD are implemented using gem5 ISA description language. The ARMv8 simulator supports multiple CPU models, multiple memory systems, and McPAT power model.

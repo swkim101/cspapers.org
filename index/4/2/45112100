@@ -1,0 +1,4 @@
+
+ 
+ In this work we present an advanced Bayesian formulation to the task of control learning that employs the Relevance Vector Machines (RVM) generative model for value function evaluation. The key aspect of the proposed method is the design of the discount return as a generalized linear model that constitutes a well-known probabilistic approach. This allows to augment the model with advantageous sparse priors provided by the RVM's regression framework. We have also taken into account the significant issue of selecting the proper parameters of the kernel design matrix. Experiments have shown that our method produces improved performance in both simulated and real test environments.
+ 

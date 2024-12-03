@@ -1,0 +1,1 @@
+This paper describes an NP-hard combinatorial optimization problem arising in the Sloan Digital Sky Survey and a practical approximation algorithm that has been implemented and will be used in the survey. The algorithm is based on network flow theory and Lagrangian relaxation.

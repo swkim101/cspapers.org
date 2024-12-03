@@ -1,0 +1,4 @@
+
+ 
+ This paper describes an emotion-based approach to acquire sentiment similarity of word pairs with respect to their senses. Sentiment similarity indicates the similarity between two words from their underlying sentiments. Our approach is built on a model which maps from senses of words to vectors of twelve basic emotions. The emotional vectors are used to measure the sentiment similarity of word pairs. We show the utility of measuring sentiment similarity in two main natural language processing tasks, namely, indirect yes/no question answer pairs (IQAP) Inference and sentiment orientation (SO) prediction. Extensive experiments demonstrate that our approach can effectively capture the sentiment similarity of word pairs and utilize this information to address the above mentioned tasks.
+ 

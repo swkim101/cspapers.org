@@ -1,0 +1,1 @@
+This paper studies the location-sensitive auto-completion problem. We propose an efficient algorithm SQA running on a native index combining both IR-tree and Trie index. The experiments on real-life datasets demonstrate that SQA outperforms baseline methods by one order of magnitude.

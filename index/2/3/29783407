@@ -1,0 +1,1 @@
+In this demo, we describe WhoseIsThat, a social search portal which we built using the Codebook framework. We improve the search experience in two ways: first, we search across multiple software repositories at once with a single query; second, we return not just a list of artifacts in the results, but also engineers.

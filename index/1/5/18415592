@@ -1,0 +1,4 @@
+
+ 
+ Manifold learning is a powerful tool for reducing the dimensionality of a dataset by finding a low-dimensional embedding that retains important geometric and topological features. In many applications it is desirable to add new samples to a previously learnt embedding, this process of adding new samples is known as the out-of-sample extension problem. Since many manifold learning algorithms do not naturally allow for new samples to be added we present an easy to implement generalized solution to the problem that can be used with any existing manifold learning algorithm. Our algorithm is based on simple geometric intuition about the local structure of a manifold and our results show that it can be effectively used to add new samples to a previously learnt embedding. We test our algorithm on both artificial and real world image data and show that our method significantly out performs existing out-of-sample extension strategies.
+ 

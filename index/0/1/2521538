@@ -1,0 +1,1 @@
+SUMMARIST is an attempt to create a robust automated text summarization system, based on the ‘equation’: summarization = topic identification + interpretation + generation. Each of these stages contains several independent modules, many of them trained on large corpora of text. We describe the system’s architecture and provide details of some of its modules.

@@ -1,0 +1,1 @@
+We present the Fair Waiting Protocol(FWP), which isolates the operations of competing protocols on CSMA networks. Utilizing layer 3 information, the grant-to-send mechanism prevents collisions on data paths. FWP enables the grant-to-send to be shared among protocols, extending the collision avoidance mechanism into protocol isolation.

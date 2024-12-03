@@ -1,0 +1,4 @@
+
+ 
+ Partially Observable Markov Decision Processes (POMDPs) are a well-established and rigorous framework for sequential decision-making under uncertainty. POMDPs are well-known to be intractable to solve exactly, and there has been significant work on finding tractable approximation methods. One well-studied approach is to find a compression of the original POMDP by projecting the belief states to a lower-dimensional space. We present a novel dimensionality reduction method for POMDPs based on locality preserving non-negative matrix factorization. Unlike previous approaches, such as Krylov compression and regular non-negative matrix factorization, our approach preserves the local geometry of the belief space manifold. We present results on standard benchmark POMDPs showing improved performance over previously explored compression algorithms for POMDPs.
+ 

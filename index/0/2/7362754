@@ -1,0 +1,1 @@
+We introduce a novel approach to expert finding based on multi-step relevance propagation from documents to related candidates. Relevance propagation is modeled with an absorbing random walk. The evaluation on the two official Enterprise TREC data sets demonstrates the advantage of our method over the state-of-the-art method based on one-step propagation.

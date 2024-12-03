@@ -1,0 +1,4 @@
+
+ 
+ In several application areas for Planning, in particular helping with the creation of new processes in Business Process Management (BPM), a major obstacle lies in the modeling. Obtaining a suitable model to plan with is often prohibitively complicated and/or costly. Our core observation in this work is that, for software-architectural purposes, SAP is already using a model that is essentially a variant of PDDL. That model describes the behavior of Business Objects, in terms of status variables and how they are affected by system transactions. We show herein that one can leverage the model to obtain (a) a promising BPM planning application which incurs hardly any modeling costs, and (b) an interesting planning benchmark. We design a suitable planning formalism and an adaptation of FF, and we perform large-scale experiments. Our prototype is part of a research extension to the SAP NetWeaver platform.
+ 

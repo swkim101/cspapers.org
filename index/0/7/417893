@@ -1,0 +1,20 @@
+We introduce emph{Normative Temporal Logic} (acro{ntl}), a logic for 
+reasoning about normative systems. acro{ntl} is a generalisation of 
+the well-known branching-time temporal logic acro{ctl}, in which the 
+path quantifiers $Apath$ (``on all pathsldots'') and $Epath$ (``on 
+some pathldots'') are replaced by the indexed deontic operators 
+$O{ 
+s}$ and $P{ 
+s}$, where for example $O{ 
+s}phi$ means 
+``$phi$ is obligatory in the context of normative system $ 
+s$''. 
+After defining the logic, we give a sound and complete axiomatisation, 
+and discuss the logic's relationship to standard deontic logics. We 
+present a symbolic representation language for models and normative 
+systems, and identify four different model checking problems, 
+corresponding to whether or not a model is represented symbolically or 
+explicitly, and whether or not we are given an interpretation for the 
+normative systems named in formulae to be checked. We show that the 
+complexity of model checking varies from acro{p}-complete up to 
+acro{exptime}-hard for these variations.

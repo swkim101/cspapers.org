@@ -1,0 +1,4 @@
+
+ 
+ Word Sense Disambiguation is a difficult problem to solve in the unsupervised setting. This is because in this setting inference becomes more dependent on the interplay between different senses in the context due to unavailability of learning resources. Using two basic ideas, sense dependency and selective dependency, we model the WSD problem as a Maximum A Posteriori (MAP) Inference Query on a Markov Random Field (MRF) built using WordNet and Link Parser or Stanford Parser. To the best of our knowledge this combination of dependency and MRF is novel, and our graph-based unsupervised WSD system beats state-of-the-art system on SensEval-2, SensEval-3 and SemEval-2007 English all-words datasets while being over 35 times faster.
+ 

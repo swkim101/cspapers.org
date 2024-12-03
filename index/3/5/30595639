@@ -1,0 +1,1 @@
+Achieving data independence is the main aim in data base systems. This paper proposes a new data model which achieves physical data independence by means of three level structures of the schema in the DBTG data model. And the construction method for the data management program which processes multi-level structures of the schema is considered.

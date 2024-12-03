@@ -1,0 +1,1 @@
+Program synthesis from exemplary data is employed as a context for the design of trainable robots. A method for inferring programs from sample execution traces is illustrated. The method provides a possible model of a way humans are trained-by-exaraple. The convergence characteristics and the conditions sufficient to ensure them are briefly discussed.

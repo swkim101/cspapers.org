@@ -1,0 +1,5 @@
+An extensible file system has been designed and implemented for Hydra, an advanced capability-based operating system. This system demonstrates three notable contributions to subsystem design:
+ - It provides a protected and efficient implementation via user-level code of functions ordinarily implemented as part of a conventional system's monolithic privileged section,
+ - It provides practical solutions to two protection problems, the Modification Problem and the Confinement Problem, for users of the file system, and
+ - It provides separation of mechanisms for data representation from mechanisms for protection and synchronization, thus allowing an extensible family of subfile systems to evolve.
+ This paper treats the design and implementation of the Hydra File System and reflects on its implications for subsystem design and implementation.

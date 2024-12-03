@@ -1,0 +1,4 @@
+
+ 
+ The current frameworks of reasoning about agents' collective strategy are either too conservative or too liberal in terms of the sharing of local information between agents. In this paper, we argue that in many cases, a suitable amount of information is required to be communicated between agents to both enforce goals and keep privacy. Several communication operators are proposed to work with an epistemic strategy logic ATLK. The complexity of model checking resulting logics is studied, and surprisingly, we found that the additional expressiveness from the communication operators comes for free.
+ 

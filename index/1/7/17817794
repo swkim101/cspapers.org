@@ -1,0 +1,1 @@
+A feedforward layered network implements a mapping required to control an unknown stochastic nonlinear dynamical system. Training is based on a novel approach that combines stochastic approximation ideas with backpropagation. The method is applied to control admission into a queueing system operating in a time-varying environment.

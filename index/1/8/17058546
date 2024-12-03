@@ -1,0 +1,4 @@
+
+ 
+ Initiated by TAC 2010, aspect-guided summaries not only address specific user need, but also ameliorate content-level coherence by using aspect information. This paper presents a full-fledged system composed of three modules: finding sentence-level textual aspects, modeling aspect-based coherence with an HMM model, and selecting and ordering sentences with aspect information to generate coherent summaries. The evaluation results on the TAC 2011 datasets show the superiority of aspect-guided summaries in terms of both information coverage and textual coherence.
+ 

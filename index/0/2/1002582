@@ -1,0 +1,1 @@
+In order to represent speech acts, in a multi-agent context, we choose a knowledge representation based on the modal logic of knowledge KT4 which is defined by Sato. Such a formalism allows us to reason about knowledge and represent knowledge about knowledge, the notions of truth value and of definite reference.

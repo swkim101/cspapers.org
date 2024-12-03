@@ -1,0 +1,4 @@
+
+ 
+ Heuristic search is a state-of-the-art approach to classical planning. Several heuristic families were developed over the years to automatically estimate goal distance information from problem descriptions. Orthogonally to the development of better heuristics, recent years have seen an increasing interest in symmetry-based state space pruning techniques that aim at reducing the search effort. However, little work has dealt with how the heuristics behave under symmetries. We investigate the symmetry properties of existing heuristics and reveal that many of them are invariant under symmetries.
+ 

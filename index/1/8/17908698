@@ -1,0 +1,1 @@
+Maintaining good memory organization is important in large memory systems. This paper presents a scheme for automatically reorganizing event information in memory. The processes are implemented in a computer program called CYRUS.

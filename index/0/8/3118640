@@ -1,0 +1,1 @@
+We address in this paper the question of how the knowledge of the marginal distribution P(x) can be incorporated in a learning algorithm. We suggest three theoretical methods for taking into account this distribution for regularization and provide links to existing graph-based semi-supervised learning algorithms. We also propose practical implementations.

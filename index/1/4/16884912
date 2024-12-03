@@ -1,0 +1,1 @@
+A machine learning methodology for the disambiguation of acronym senses is presented, which starts from an acronym sense dictionary. Training data is automatically extracted from downloaded documents identified from the results of search engine queries. Leave-one-out cross-validation on 9,963 documents with 47 acronym forms achieves accuracy 92.58% and Fß=1=91.52%.

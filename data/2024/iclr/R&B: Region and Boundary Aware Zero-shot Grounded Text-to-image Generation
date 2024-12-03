@@ -1,6 +1,0 @@
-MOTIVATION
-The processing of the Affymetrix GeneChip data has been a recent focus for data analysts. Alternatives to the original procedure have been proposed and some of these new methods are widely used.
-
-
-RESULTS
-The affy package is an R package of functions and classes for the analysis of oligonucleotide arrays manufactured by Affymetrix. The package is currently in its second release, affy provides the user with extreme flexibility when carrying out an analysis and make it possible to access and manipulate probe intensity data. In this paper, we present the main classes and functions in the package and demonstrate how they can be used to process probe-level data. We also demonstrate the importance of probe-level analysis when using the Affymetrix GeneChip platform.

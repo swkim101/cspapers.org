@@ -1,0 +1,1 @@
+We present a highly efficient method for proving correctness of computations while preserving secrecy of the input values. This is done in an Evaluator-Prover model which can also be realized by a secure processor. We describe an application to secure auctions.

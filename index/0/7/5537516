@@ -1,0 +1,5 @@
+We consider the learning task consisting in predicting as well as the best function in a finite reference set G up to the smallest possible additive term. If R(g) denotes the generalization error of a prediction function g, under reasonable assumptions on the loss function (typically satisfied by the least square loss when the output is bounded), it is known that the progressive mixture rule ĝ satisfies 
+ 
+ER(ĝ) ≤ ming∈G R(g) + Cst log|G|/n, (1) 
+ 
+where n denotes the size of the training set, and E denotes the expectation w.r.t. the training set distribution. This work shows that, surprisingly, for appropriate reference sets G, the deviation convergence rate of the progressive mixture rule is no better than Cst/√n: it fails to achieve the expected Cst/n. We also provide an algorithm which does not suffer from this drawback, and which is optimal in both deviation and expectation convergence rates.

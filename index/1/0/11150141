@@ -1,0 +1,1 @@
+Fork/Join is a parallel programming model that implicitly assumes uniform memory access. The transition from multi- to many-core architectures will render this assumption invalid, and consequently it is likely that Fork/Join in its current form will not scale. This research investigates implementations for Fork/Join to allow the transition to many-core.

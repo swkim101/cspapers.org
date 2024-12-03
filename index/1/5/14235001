@@ -1,0 +1,1 @@
+In this paper, we bound the complexity of the major algorithms of 1-d compaction in graph solution and module assembly to be &Ogr;(<italic>n</italic><supscrpt>15</supscrpt>log<italic>n</italic>). An 1-d hierarchical module assembly method is shown to be free from the x-y interlock problem and achieves significant improvement in space and time requirements by exploiting hierarchy.

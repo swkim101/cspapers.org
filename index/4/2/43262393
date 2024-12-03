@@ -1,0 +1,4 @@
+
+ 
+ Only knowing captures the intuitive notion that the beliefs of an agent are precisely those that follow from its knowledge base. It has previously been shown to be useful in characterizing knowledge-based reasoners, especially in a quantified setting. While this allows us to reason about incomplete knowledge in the sense of not knowing whether a formula is true or not, there are many applications where one would like to reason about the degree of belief in a formula. In this work, we propose a new general first-order account of probability and only knowing that admits knowledge bases with incomplete and probabilistic specifications. Beliefs and non-beliefs are then shown to emerge as a direct logical consequence of the sentences of the knowledge base at a corresponding level of specificity.
+ 

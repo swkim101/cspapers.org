@@ -1,0 +1,1 @@
+The paper presents, as far as the author is aware, the first practical general method for constructing LR(k) parsers. It has been used, without computational difficulty, to produce LR(1), LR(2) and LR(3) parsers for grammars of the size of ALGOL.

@@ -1,0 +1,1 @@
+If sensitive information is to be included in a shared Web, access controls will be required. However, the complex software needed to provide a Web service is prone to failure. To provide access control without relying on such software, encryption can be used. Bob is a prototype system that supports complex access control expressions through the transparent use of encryption.

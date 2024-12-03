@@ -1,0 +1,14 @@
+
+ 
+ Finding the longest common subsequence (LCS) of multiple strings is an NP-hard problem,
+ with many applications in the areas of bioinformatics and computational genomics. Although significant efforts
+ have been made to address the problem and its special cases, the increasing complexity and size of biological
+ data require more efficient methods applicable to an arbitrary number of strings. In this paper, a novel search
+ algorithm, MLCS-A*, is presented for the general case of multiple LCS (or MLCS) problems. MLCS-A* is a variant
+ of the A* algorithm. It maximizes a new heuristic estimate of the LCS in each search step so that the longest
+ common subsequence can be found. As a natural extension of MLCS-A*, a fast algorithm, MLCS-APP, is also proposed
+ to deal with large volume of biological data for which finding a LCS within reasonable time is impossible. The
+ benchmark test shows that MLCS-APP is able to extract common subsequences close to the optimal ones and that
+ MLCS-APP significantly outperforms existing heuristic approaches. When applied to 8 protein domain families,
+ MLCS-APP produced more accurate results than existing multiple sequence alignment methods.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ It has been shown recently that the complexity of belief tracking in deterministic conformant and contingent planning is exponential in a width parameter that is often bounded and small. In this work, we introduce a new width notion that applies to non-deterministic conformant and contingent problems as well. We also develop a belief tracking algorithm for non-deterministic problems that is exponential in the problem width, analyze the width of non-deterministic benchmarks, compare the new notion to the previous one over deterministic problems, and present experimental results.
+ 

@@ -1,0 +1,1 @@
+A fast 3D tracking method of non-rigid objects is proposed. The method consists of fast ICP and modified RPM techniques for range images. By using the techniques, the authors aim real time 3D non-rigid object tracking. The authors developed an actual tracking system and show the effectiveness of the method by some experimental results.

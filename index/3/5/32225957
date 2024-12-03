@@ -1,0 +1,1 @@
+Identifying intent boundary in search query logs is important for learning users' behaviors and applying their experiences. Time-based, query-based, and cluster-based approaches are proposed. Experiments show that the integration of intent clusters and dynamic time model performs the best.

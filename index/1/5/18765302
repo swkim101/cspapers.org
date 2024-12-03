@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a new operator for revising ABoxes in DL-Lite ontologies. We present a graph-based algorithm for ABox revision in DL-Lite, which implements the revision operator and we show it runs in polynomial time
+ 

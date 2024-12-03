@@ -1,0 +1,4 @@
+
+ 
+ Archived data from the WSR-88D network of weather radars in the US hold detailed information about the continent-scale migratory movements of birds over the last 20 years. However, significant technical challenges must be overcome to understand this information and harness its potential for science and conservation. We present an approximate Bayesian inference algorithm to reconstruct the velocity fields of birds migrating in the vicinity of a radar station. This is part of a larger project to quantify bird migration at large scales using weather radar data.
+ 

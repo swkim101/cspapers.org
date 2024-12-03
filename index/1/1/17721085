@@ -1,0 +1,3 @@
+Let N be the set of nonnegative integers and let  be the weak direct product of  with itself. Mostowski[9] shows that the theory of  is decidable, but his decision procedure isn't elementary recursive. We present here a more efficient procedure which operates within space [equation]
+ As corollaries we obtain the same upper bound for the theory of finite abelian groups, the theory of finitely generated abelian groups, and the theory of the structure  of positive integers under multiplication. Fischer and Rabin have shown that the theory of  requires time @@@@ on nondeterministic Turing machines [5].
+ We also obtain some very general results about the nature of the theory of the weak direct product of a structure with itself.

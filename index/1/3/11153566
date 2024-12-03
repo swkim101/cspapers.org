@@ -1,0 +1,4 @@
+
+ 
+ We examine designs for crowdsourcing contests, where participants compete for rewards given to superior solutions of a task. We theoretically analyze tradeoffs between the expectation and variance of the principal's utility (i.e. the best solution's quality), and empirically test our theoretical predictions using a controlled experiment on Amazon Mechanical Turk. Our evaluation method is also crowdsourcing based and relies on the peer prediction mechanism. Our theoretical analysis shows an expectation-variance tradeoff of the principal's utility in such contests through a Pareto efficient frontier. In particular, we show that the simple contest with 2 authors and the 2-pair contest have good theoretical properties. In contrast, our empirical results show that the 2-pair contest is the superior design among all designs tested, achieving the highest expectation and lowest variance of the principal's utility.
+ 

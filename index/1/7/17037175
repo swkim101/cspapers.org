@@ -1,0 +1,4 @@
+
+ 
+ The concepts of MSS (Maximal Satisfiable Subset) andCoMSS (also called Minimal Correction Subset) playa key role in many A.I. approaches and techniques. Inthis paper, a novel algorithm for partitioning a BooleanCNF formula into one MSS and the correspondingCoMSS is introduced. Extensive empirical evaluationshows that it is more robust and more efficient on mostinstances than currently available techniques.
+ 

@@ -1,0 +1,1 @@
+In this paper, we present an algorithm which computes the optimal pattern for merging n equal size sorted sequences stored on a disk, in time O(log n) and constant space. The best previously known algorithm for solving this problem (Knuth [4], Schlumberger-Vuillemin [5]) takes time O(n2) and space O(n).

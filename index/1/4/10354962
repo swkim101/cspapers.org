@@ -1,0 +1,2 @@
+Abstract
+This paper addresses the problem of piecewise linear approximation of implicit surfaces. We first give a criterion ensuring that the zero-set of a smooth function and the one of a piecewise linear approximation of it are isotopic. Then, we deduce from this criterion an implicit surface meshing algorithm certifying that the output mesh is isotopic to the actual implicit surface. This is the first algorithm achieving this goal in a provably correct way.

@@ -1,0 +1,4 @@
+
+ 
+ Density-based techniques seem promising for handling datauncertainty in uncertain data clustering. Nevertheless, someissues have not been addressed well in existing algorithms. Inthis paper, we firstly propose a novel density-based uncertaindata clustering algorithm, which improves upon existing algorithmsfrom the following two aspects: (1) it employs anexact method to compute the probability that the distance betweentwo uncertain objects is less than or equal to a boundaryvalue, instead of the sampling-based method in previouswork; (2) it introduces new definitions of core object probabilityand direct reachability probability, thus reducing thecomplexity and avoiding sampling. We then further improvethe algorithm by using a novel assignment strategy to ensurethat every object will be assigned to the most appropriatecluster. Experimental results show the superiority of our proposedalgorithms over existing ones.
+ 

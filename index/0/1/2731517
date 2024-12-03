@@ -1,0 +1,4 @@
+
+ 
+ In many learning tasks with structural properties, structural sparsity methods help induce sparse models, usually leading to better interpretability and higher generalization performance. One popular approach is to use group sparsity regularization that enforces sparsity on the clustered groups of features, while another popular approach is to adopt graph sparsity regularization that considers sparsity on the link structure of graph embedded features. Both the group and graph structural properties co-exist in many applications. However, group sparsity and graph sparsity have not been considered simultaneously yet. In this paper, we propose a g2-regularization that takes group and graph sparsity into joint consideration, and present an effective approach for its optimization. Experiments on both synthetic and real data show that, enforcing group-graph sparsity lead to better performance than using group sparsity or graph sparsity only.
+ 

@@ -1,0 +1,1 @@
+This paper presents a methodology to simulate cuts in deformable objects. It proposes a simple physical model of cutting in combination with a large displacement (Green) strain tensor formulation. Explicit finite elements are used to allow real-time simulations and fast topology updates during cutting procedures. Force feedback is added to increase realism.

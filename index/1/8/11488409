@@ -1,0 +1,4 @@
+
+ 
+ A fundamental task in reasoning about action and change is projection, which refers to determining what holds after a number of actions have occurred. A powerful method for solving the projection problem is regression, which reduces reasoning about the future to reasoning about the initial state. In particular, regression has played an important role in the situation calculus and its epistemic extensions. Recently, a modal variant of the situation calculus was proposed, which allows an agent to revise its beliefs based on so-called belief conditionals as part of its knowledge base. In this paper, we show how regression can be extended to reduce beliefs about the future to initial beliefs in the presence of belief conditionals. Moreover, we show how any remaining belief operators can be eliminated as well, thus reducing the belief projection problem to ordinary first-order entailments.
+ 

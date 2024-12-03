@@ -1,0 +1,4 @@
+
+ 
+ We describe a generic framework for representing and reasoning with annotated Semantic Web data, formalise the annotated language, the corresponding deductive system, and address the query answering problem. We extend previous contributions on RDF annotations by providing a unified reasoning formalism and allowing the seamless combination of different annotation domains. We demonstrate the feasibility of our method by instantiating it on (i) temporal RDF; (ii) fuzzy RDF; (iii) and their combination. A prototype shows that implementing and combining new domains is easy and that RDF stores can easily be extended to our framework.
+ 

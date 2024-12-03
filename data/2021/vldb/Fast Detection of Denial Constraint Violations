@@ -1,4 +1,0 @@
-
- The detection of constraint-based errors is a critical task in many data cleaning solutions. Previous works perform the task either using traditional data management systems or using specialized systems that speed up error detection. Unfortunately, both approaches may fail to execute in a reasonable time or even exhaust the available memory in the attempt. To address the main drawbacks of previous approaches, we present the
- FAst Constraint-based Error DeTector
- (FACET) to detect violations of denial constraints (DCs). FACET uses column sketch information to organize a pipeline of special operators for DC predicates and it implements these operators using a set of efficient algorithms and data structures that adapt to different data characteristics and predicate structures. We evaluate our system on a diverse array of datasets and constraints, showing its robustness and performance gains compared to different types of DBMSs and to a specialized system.

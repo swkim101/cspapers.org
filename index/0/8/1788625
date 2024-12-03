@@ -1,0 +1,1 @@
+We introduce a notion of integrated cost of a dictionary, as average cost of sequences of search, insert and delete operations. We express generating functions of these sequences in terms of continued fractions; from this we derive an explicit integral expression of integrated costs for three common representations of dictionaries.

@@ -1,0 +1,1 @@
+In this paper we derive an algorithm that computes the entire solution path of the support vector regression, with essentially the same computational cost as fitting one SVR model. We also propose an unbiased estimate for the degrees of freedom of the SVR model, which allows convenient selection of the regularization parameter.

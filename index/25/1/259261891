@@ -1,0 +1,1 @@
+We create a multilingual code search dataset by translating the existing English dataset with a machine translation model and conduct a baseline experiment on a code search task.

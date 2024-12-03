@@ -1,0 +1,1 @@
+We investigate two schemes for placing data on multiple disks. We show that declustering (spreading each file across several disks) is inherently better than clustering (placing each file on a single disk) due to a number of reasons including parallelism and uniform load on all disks.

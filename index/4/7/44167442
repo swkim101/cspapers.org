@@ -1,0 +1,1 @@
+Pleonasms are words that are redundant. To aid the development of systems that detect pleonasms in text, we introduce an annotated corpus of semantic pleonasms. We validate the integrity of the corpus with interannotator agreement analyses. We also compare it against alternative resources in terms of their effects on several automatic redundancy detection methods.

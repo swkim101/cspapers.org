@@ -1,0 +1,1 @@
+An attractive property of attribute-value grammars is their reversibility. Attribute-value grammars are usually coupled with separate statistical components for parse selection and fluency ranking. We propose reversible stochastic attribute-value grammars, in which a single statistical model is employed both for parse selection and fluency ranking.

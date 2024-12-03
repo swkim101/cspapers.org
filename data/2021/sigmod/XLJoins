@@ -1,1 +1,0 @@
-In many analytic settings join operations are fundamental as data is dispersed across different data sets (SQL or NoSQL tables, .csv files recording logs, click streams, KPIs from system/network monitoring, IoT telemetry, etc). However, in the era of big data the join operation can become exorbitantly expensive in terms of execution times and/or memory/space footprints.

@@ -1,0 +1,4 @@
+
+ 
+ Many Artificial Intelligence tasks need large amounts of commonsense knowledge. Because obtaining this knowledge through machine learning would require a huge amount of data, a better alternative is to elicit it from people through human computation. We consider the sentiment classification task, where knowledge about the contexts that impact word polarities is crucial, but hard to acquire from data. We describe a novel task design that allows us to crowdsource this knowledge through Amazon Mechanical Turk with high quality. We show that the commonsense knowledge acquired in this way dramatically improves the performance of established sentiment classification methods.
+ 

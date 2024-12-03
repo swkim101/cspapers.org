@@ -1,0 +1,4 @@
+
+ 
+ The early classifications of the computational complexity of planning under various restrictions in STRIPS (Bylander) and SAS+ (Bäckström and Nebel) have influenced following research in planning in many ways. We go back and reanalyse their subclasses, but this time using the more modern tool of parameterized complexity analysis. This provides new results that together with the old results give a more detailed picture of the complexity landscape. We demonstrate separation results not possible with standard complexity theory, which contributes to explaining why certain cases of planning have seemed simpler in practice than theory has predicted. In particular, we show that certain restrictions of practical interest are tractable in the parameterized sense of the term, and that a simple heuristic is sufficient to make a well-known partial-order planner exploit this fact.
+ 

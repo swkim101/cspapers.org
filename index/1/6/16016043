@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of winner determination under Chamberlin--Courant's multiwinner voting rule with approval utilities. This problem is equivalent to the well-known NP-complete MaxCover problem (i.e., a version of the SetCover problem where we aim to cover as many elements as possible) and, so, the best polynomial-time approximation algorithm for it has approximation ratio 1 - 1/e. We show exponential-time/FPT approximation algorithms that, on one hand, achieve arbitrarily good approximation ratios and, on the other hand, have running times much better than known exact algorithms. We focus on the cases where the voters have to approve of at most/at least a given number of candidates.
+ 

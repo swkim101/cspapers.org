@@ -1,0 +1,6 @@
+Novel intent class detection is an important problem in real world scenario for conversational agents for continuous interaction. Several research works have been done to detect novel intents in a mono-lingual (primarily English) texts and
+images. But, current systems lack an end-to-end universal framework to detect novel intents across various different languages with less human annotation effort for mis-classified and system rejected samples. This paper proposes
+NIDAL (Novel Intent Detection and Active Learning based
+classification), a semi-supervised framework to detect novel
+intents while reducing human annotation cost. Empirical results on various benchmark datasets demonstrate that this system outperforms the baseline methods by more than 10%
+margin for accuracy and macro-F1. The system achieves this while maintaining overall annotation cost to be just ~6-10% of the unlabeled data available to the system.

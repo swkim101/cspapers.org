@@ -1,0 +1,4 @@
+
+ 
+ The multiagent systems community has adopted game theory as a framework for the design of systems of multiple self-interested agents. For this to be effective, efficient algorithms must be designed to compute the solutions that game theory prescribes. In this paper, I summarize some of the state of the art on this topic, focusing particularly on how this line of work has contributed to several highly visible deployed security applications, developed at the University of Southern California.
+ 

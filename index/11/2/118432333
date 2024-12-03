@@ -1,0 +1,5 @@
+This paper describes a new method for determining the validity of certain formulas from Presburger Arithmetic, namely those with only universally quantified variables. To do this the notion of a Presburger formula, is generalized slightly to that of a quasi-linear formula. 
+ 
+This so called "sup-inf" method seems particularly suited for proving certain verification conditions that arise from program validation, especially those in which "proof by cases" is required. It also eliminates the need for proof by enumeration, inherent in some methods described earlier In the literature, which sometimes require a search through a large number of consecutive Integers. 
+ 
+These algorithms have been programmed and used extensively as a part of an automatic theorem proving system.

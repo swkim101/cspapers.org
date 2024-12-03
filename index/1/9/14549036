@@ -1,0 +1,1 @@
+We show that for any constant ε > 0, there is no Ω(log<sup>1-ε</sup>M)-approximation algorithm for the directed congestion minimization problem on networks of size M unless NP ⊆ ZPTIME(n<sup>polylog n</sup>). This bound is almost tight given the O(log M/ log log M)-approximation via randomized rounding due to Raghavan and Thompson.

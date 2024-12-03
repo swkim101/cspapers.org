@@ -1,0 +1,4 @@
+
+ 
+ Random k-CNF formulas at the anticipated k-SAT phase-transition point are prototypical hard k-SAT instances. We develop a stochastic local search algorithm and study it both theoretically and through a large-scale experimental study. The algorithm comes as a result of a systematic study that contrasts rates at which a certain measure concentration phenomenon occurs. This study yields a new stochastic rule for local search. A strong point of our contribution is the conceptual simplicity of our algorithm. More importantly, the empirical results overwhelmingly indicate that our algorithm outperforms the state-of-the-art. This includes a number of winners and medalist solvers from the recent SAT Competitions.
+ 

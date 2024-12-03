@@ -1,0 +1,1 @@
+We propose a model independent coordination strategy for multi-agent formation control. The main theorem states that under a bounded tracking error assumption our method stabilizes the formation error. We illustrate the usefulness of the method by applying it to rigid body constrained motions.

@@ -1,0 +1,1 @@
+We introduce a data structure that requires only one pointer for every k data values and permits the operations search, insert and delete to be performed in 0 (k log n) time. This structure is used to develop another that requires no pointers and supports insert, delete and search in 0 (log2 n) time.

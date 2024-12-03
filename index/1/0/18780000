@@ -1,0 +1,1 @@
+We prove that read-once branching programs computing integer multiplication require size $2^{\Omega(\sqrt{n})}$. This is the first nontrivial lower bound for multiplication on branching programs that are not oblivious. By the appropriate problem reductions, we obtain the same lower bound for other arithmetic functions.

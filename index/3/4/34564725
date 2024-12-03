@@ -1,0 +1,1 @@
+This paper describes how we annotated and analysed the NP modifiers in a corpus of museum descriptions to discover rules for the selection and realisation of such modifiers, in particular non-referring ones. We implemented the regularities into an extension of the ILEX system to generate complex NPs capable of serving multiple communicative goals.

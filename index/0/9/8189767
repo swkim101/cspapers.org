@@ -1,0 +1,4 @@
+
+ 
+ Many papers describe the use of Fuzzy Cognitive Maps as a modeling/representation technique for real-life scenarios’ simulation or prediction. However, not many real software implementations are described neither found. In this proposal the authors describe a modeling and experimentation framework where realistic problems can be recreated using Fuzzy Cognitive Maps as a knowledge representation form. Design elements, and descriptions of the algorithms that have been incorporated into the software, and hybridized with Fuzzy Cognitive Maps, are presented in this paper. Case studies were conducted and are illustrated with the intention of demonstrating the success and practical value of the general approach together with the implementation tool.
+ 

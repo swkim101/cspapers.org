@@ -1,0 +1,4 @@
+
+ 
+ Existing approaches to the multi-armed bandit (MAB) primarily rely on perfect recall of past actions to generate estimates for arm payoff probabilities; it is further assumed that the decision maker knows whether arm payoff probabilities can change. To capture the computational limitations many decision making systems face, we explore performance under bounded resources in the form of imperfect recall of past information. We present a finite memory automaton (FMA) designed to solve static and dynamic MAB problems. The FMA demonstrates that an agent can learn a low regret strategy without knowing whether arm payoff probabilities are static or dynamic and without having perfect recall of past actions. Roughly speaking, the automaton works by maintaining a relative ranking of arms rather than estimating precise payoff probabilities.
+ 

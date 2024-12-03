@@ -1,0 +1,1 @@
+We present OASIS, a CPU instruction set extension for externally verifiable initiation, execution, and termination of an isolated execution environment with a trusted computing base consisting solely of the CPU. OASIS leverages the hardware components available on commodity CPUs to achieve a low-cost, low-overhead design.

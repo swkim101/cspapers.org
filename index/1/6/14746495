@@ -1,0 +1,4 @@
+
+ 
+ Merton's portfolio optimization problem in the presence of transaction costs for multiple assets has been an important and challenging problem in both theory and practice. Most existing work suffers from curse of dimensionality and encounters with the difficulty of generalization. In this paper, we develop an approximate dynamic programing method of synergistically combining the Lowner-John ellipsoid approximation with conventional value function iteration to quantify the associated optimal trading policy. Through constructing Lowner-John ellipsoids to parameterize the optimal policy and taking Euclidean projections onto the constructed ellipsoids to implement the trading policy, the proposed algorithm has cut computational costs up to a factor of five hundred and meanwhile achieved near-optimal risk-adjusted returns across both synthetic and real-world market datasets.
+ 

@@ -1,0 +1,6 @@
+When DCE is implemented on an existing operating system platform, its security facilities need to be integrated with the local security facilities on that platform. One key task in this effort is the integration of the DCE registry and the local security registry. This paper discusses the requirement for registry integration, and considers alternative approaches to a number of major structural issues that arise when integrating the DCE registry with local registries, including:<list><item>The relationship of the DCE registry with respect to the local registries
+</item><item>Propagation of updates to local registries
+</item><item>Selectivity of update propagation
+</item><item>“Push” versus “pull” of updates
+</item><item>“Write-through” versus “virtual update”.
+</item></list>

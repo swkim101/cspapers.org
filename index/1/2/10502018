@@ -1,0 +1,1 @@
+The present paper introduces fuzzy reasoning into the GMDH network to replace partial descriptions of the conventional GMDH network, i.e. the absolute binary quadratic polynomials. Drawing upon the GMDH network, the authors propose a fuzzy GMDH network, and apply it to traffic flow forecasting. Simulative results by computer show that the new network is valid.

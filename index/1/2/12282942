@@ -1,0 +1,7 @@
+This paper discusses how to control and describe the smooth movement of a mobile robot which has two independent driving wheels (iDWs) that perform both steering and moving functions. Robots which have an IDW leg system can move to any point by using any combinations of two basic operations: revolving and going straight. 
+ 
+It is easy to describe movement with two basic operations only, but this may not be sufficient to guarantee smooth motion. For instance, when the robot is moving, a slight modification to its track direction is impossible without stopping it. Smooth motions are also needed for minimizing the time required to complete the movement. 
+ 
+Theoretically, an IDW leg system can draw a circular track with radius 0 - ≪ if one controls the ratio of the two wheel speeds. This principle underlies much of the design of this control system. 
+ 
+The control system described in this paper uses three basic motion commands, supplemented by other commands that support these. A language has been designed for describing leg control algorithms. Examples of the usage of these commands and the language are shown here.

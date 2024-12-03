@@ -1,0 +1,4 @@
+
+ 
+ We present a new reasoner for RCC-8 constraint networks, called gp-rcc8, that is based on the patchwork property of path-consistent tractable RCC-8 networks and graph partitioning. We compare gp-rcc8 with state of the art reasoners that are based on constraint propagation and backtracking search as well as one that is based on graph partitioning and SAT solving. Our evaluation considers very large real-world RCC-8 networks and medium-sized synthetic ones, and shows that gp-rcc8 outperforms the other reasoners for these networks, while it is less efficient for smaller networks.
+ 

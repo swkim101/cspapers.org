@@ -1,0 +1,4 @@
+
+ 
+ In the Markov decision process model, policies are usually evaluated by expected cumulative rewards. As this decision criterion is not always suitable, we propose in this paper an algorithm for computing a policy optimal for the quantile criterion. Both finite and infinite horizons are considered. Finally we experimentally evaluate our approach on random MDPs and on a data center control problem.
+ 

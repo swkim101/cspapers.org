@@ -1,0 +1,4 @@
+
+ 
+ Automated feature discovery is a fundamental problem in machine learning. Although classical feature discovery methods do not guarantee optimal solutions in general, it has been recently noted that certain subspace learning and sparse coding problems can be solved efficiently, provided the number of features is not restricted a priori. We provide an extended characterization of this optimality result and describe the nature of the solutions under an expanded set of practical contexts. In particular, we apply the framework to a semi-supervised learning problem, and demonstrate that feature discovery can co-occur with input reconstruction and supervised training while still admitting globally optimal solutions. A comparison to existing semi-supervised feature discovery methods shows improved generalization and efficiency.
+ 

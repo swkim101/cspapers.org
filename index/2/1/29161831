@@ -1,0 +1,4 @@
+
+ 
+ In many real world applications, the concerned objects are with multiple labels, and can be represented as a bag of instances. Multi-instance Multi-label (MIML) learning provides a framework for handling such task and has exhibited excellent performance in various domains. In a MIML setting, the feature representation of instances usually has big impact on the final performance; inspired by the recent deep learning studies, in this paper, we propose the DeepMIML network which exploits deep neural network formation to generate instance representation for MIML. The sub-concept learning component of the DeepMIML structure reserves the instance-label relation discovery ability of MIML algorithms; that is, it can automatically locating the key input patterns that trigger the labels. The effectiveness of DeepMIML network is validated by experiments on various domains of data.
+ 

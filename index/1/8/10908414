@@ -1,0 +1,1 @@
+A new data structure suitable for the implementation of gridless routing algorithms is presented. The data structure and sime basic access procedures are outlined in PASCAL and experimental results are given to demonstrate the performance of retrieval algorithms working on the structure.

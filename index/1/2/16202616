@@ -1,0 +1,4 @@
+The goal of this paper is to present a multi-access technique for Satellite Broadcast Channel Communication which extends the features of the Slotted-ALOHA system to higher Channel Utilization and presents a stable behaviour. The Reservation Upon Collision (RUC) Technique consists on a S-ALOHA scheme with a super-imposed reservation technique which automatically operates when collisions occur.
+ The technique is designed to achieve a transmission delay as small as the S-ALOHA for low channel utilization and to perform as a RESERVATION scheme for high channel utilization.
+ The implementation of the RUC-Technique is based upon the knowledge of the origin of the collided packets at each time slot.
+ Simulation results show improved delay-throughput characteristics over S-ALOHA and in particular the suitability of this technique for systems with high channel utilization.

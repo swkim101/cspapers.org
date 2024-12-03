@@ -1,0 +1,4 @@
+
+ 
+ This paper addresses a new problem concerning the evolution of influence relationships between communities in dynamic social networks. A weighted temporal multigraph is employed to represent the dynamics of the social networks and analyze the influence relationships between communities over time. To ensure the interpretability of the knowledge discovered, evolution of the influence relationships is assessed by introducing the Granger causality. Through extensive experiments, we empirically demonstrate the suitability of our model for studying the evolution of influence between communities. Moreover, we empirically show how our model is able to accurately predict the influence of communities over time using random forest regression.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We introduce ExTaSem!, a novel approach for the automatic learning of lexical taxonomies from domain terminologies. First, we exploit a very large semantic network to collect housands of in-domain textual definitions. Second, we extract (hyponym, hypernym) pairs from each definition with a CRF-based algorithm trained on manually-validated data. Finally, we introduce a graph induction procedure which constructs a full-fledged taxonomy where each edge is weighted according to its domain pertinence. ExTaSem! achieves state-of-the-art results in the following taxonomy evaluation experiments: (1) Hypernym discovery, (2) Reconstructing gold standard taxonomies, and (3) Taxonomy quality according to structural measures. We release weighted taxonomies for six domains for the use and scrutiny of the community.
+ 

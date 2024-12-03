@@ -1,0 +1,1 @@
+This paper demonstrates the applicability of automated reasoning to text processing, specifically to Question Answering. It is shown that the approach is feasible, effective, and scalable. A Logic Prover has been implemented and integrated into a state-of-the-art Question Answering System.

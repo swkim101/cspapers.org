@@ -1,0 +1,1 @@
+In this demonstration we give a scenario of how FLAVERS, an implementation of the incremental accuracy improving data flow analysis approach [I], is used to verify event sequence properties of concurrent or distributed software programs.

@@ -1,0 +1,7 @@
+This research investigates a new technique for unsupervised learning of nonlinear control problems. The approach is applied both to Michie and Chambers BOXES algorithm and to Barto, Sutton and Anderson's extension, the ASE/ACE system, and has significantly improved the convergence rate of stochastically based learning automata. 
+ 
+Recurrence learning is a new nonlinear reward-penalty algorithm. It exploits information found during learning trials to reinforce decisions resulting in the recurrence of nonfailing states. Recurrence learning applies positive reinforcement during the exploration of the search space, whereas in the BOXES or ASE algorithms, only negative weight reinforcement is applied, and then only on failure. Simulation results show that the added information from recurrence learning increases the learning rate. 
+ 
+Our empirical results show that recurrence learning is faster than both basic failure driven learning and failure prediction methods. Although recurrence learning has only been tested in failure driven experiments, there are goal directed learning applications where detection of recurring oscillations may provide useful information that reduces the learning time by applying negative, instead of positive reinforcement. 
+ 
+Detection of cycles provides a heuristic to improve the balance between evidence gathering and goal directed search.

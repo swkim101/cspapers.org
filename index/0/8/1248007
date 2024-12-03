@@ -1,0 +1,5 @@
+Context-free attribute grammars are proposed as derivational models for proofs in the predicate calculus. The new representation is developed and its correspondence to resolution-based clause interconnectivity graphs is established. The new representation may be used to transform a predicate calculus characterization of a problem into a regular algebra characterization of the solutions. 
+ 
+The new representation can be used to simplify the search for proofs. It allows us to express and derive predicate calculus proofs as a constraining function that serves as a filter to the set of candidate proofs that ignore the arguments to predicates. The effect of this is to separate the underlying propositional structure from the restrictions imposed by the required unifications. 
+ 
+While previous theorem proving methods have been able to enumerate all proofs of a theorem, the method reported here is unique in being able to characterize all proofs of some theorems, representing even an infinite set of proofs with a finite formula. This work has implications for proof theory as well as providing a useful tool in the analysis of programs specified in logic.

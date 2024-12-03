@@ -1,0 +1,3 @@
+A paradigm for automatic speech recognition using networks of actions performing variable depth analysis is presented. The paradigm produces descriptions of speech properties that are related to speech units through Markov models representing system performance. 
+ 
+Preliminary results in the recognition of isolated letters and digits are presented.

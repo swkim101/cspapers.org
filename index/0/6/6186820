@@ -1,0 +1,1 @@
+We show that the Delaunay triangulation of a set of points distributed nearly uniformly on a polyhedron (not necessarily convex) of dimension <i>p</i> in <i>d</i>-dimensional space is <i>O</i>(<i>n</i><sup>(d-1)/<i>p</i></sup>). For all 2 ≤ <i>p</i> ≤ <i>d</i> - 1, this improves on the well-known worst-case bound of <i>O</i>(<i>n</i><sup>⌈d/2⌉</sup>).

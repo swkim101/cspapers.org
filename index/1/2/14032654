@@ -1,0 +1,1 @@
+We consider a semi-algebraic set S defined by s polynomials of degree d in k variables. We present a new algorithm for computing a semi-algebraic path in S comecting two points if they happen to lie in the same connected component of S. This algorithm, which works in time s~tldo(~z) improves the complexity of the fastest algorithm solving this problem known to this date.

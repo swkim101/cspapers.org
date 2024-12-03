@@ -1,0 +1,3 @@
+Only recently progress has been made in obtaining o(log(rank))-competitive algorithms for the matroid secretary problem. More precisely Chakraborty and Lachish (2012) presented a O([EQUATION]log(rank))-competitive procedure, and Lachish (2014) recently presented a O(log log (rank))-competitive algorithm. Both algorithms are involved with complex analyses. 
+ 
+Using different tools, we present a considerably simpler O(log log(rank))-competitive algorithm. Our algorithm can be interpreted as a distribution over a simple type of matroid secretary algorithms which are easy to analyze. We are also able to vastly improve on the hidden constant in the competitive ratio.

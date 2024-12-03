@@ -1,0 +1,1 @@
+A new extension of the Boolean association rules, ordinal association rules, that incorporates ordinal relationships among data items, is introduced. One use for ordinal rules is to identify possible errors in data. A method that finds these rules and identifies potential errors in data is proposed.

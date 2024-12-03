@@ -1,0 +1,1 @@
+Abstractive summarization of medical dialogues presents a challenge for standard training approaches, given the paucity of suitable datasets. We explore the performance of state-of-the-art models with zero-shot and few-shot learning strategies and measure the impact of pretraining with general domain and dialogue-specific text on the summarization performance.

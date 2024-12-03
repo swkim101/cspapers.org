@@ -1,0 +1,4 @@
+
+ 
+ User attribute prediction from social media text has proven successful and useful for downstream tasks. In previous studies, differences in user trait language use have been limited primarily to the presence or absence of words that indicate topical preferences. In this study, we aim to find linguistic style distinctions across three different user attributes: gender, age and occupational class. By combining paraphrases with a simple yet effective method, we capture a wide set of stylistic differences that are exempt from topic bias. We show their predictive power in user profiling, conformity with human perception and psycholinguistic hypotheses, and potential use in generating natural language tailored to specific user traits.
+ 

@@ -1,0 +1,9 @@
+We show that for any Boolean function f: {0, 1}n → {0, 1}, the bounded-error quantum communication complexity Qe(f (f o ⊕) of XOR functions f(x ⊕ y) satisfies that 
+ 
+[EQUATION] 
+ 
+where d = deg2(f) is the F2-degree of f, and [EQUATION]. This implies that the previous lower bound [EQUATION] by Lee and Shraibman [LS09] is tight for f with low F2-degree. The result also confirms the quantum version of the Log-rank Conjecture for low-degree XOR functions. In addition, we show that the exact quantum communication complexity satisfies 
+ 
+[EQUATION] 
+ 
+where ||f||0 is the number of nonzero Fourier coefficients of f. This matches the previous lower bound QE(f(x, y)) = Ω(log rank(Mf)) by Buhrman and de Wolf [BdW01] for low-degree XOR functions.

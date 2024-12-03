@@ -1,0 +1,2 @@
+The lowly text cursor is a non-issue for most interface designers. Nonetheless, current text cursor designs suffer from at least two problems: one-off errors and a lack of visibility of function. These problems are exacerbated in an editing environment which uses the extremely fast Leap cursor-moving technology.
+This paper presents solutions to these cursor design problems and reveals the surprising way many other aspects of system design can be improved as a consequence of designing the cursor correctly.

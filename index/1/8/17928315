@@ -1,0 +1,4 @@
+
+ 
+ Approximate value iteration (AVI) is a widely used technique in reinforcement learning. Most AVI methods do not take full advantage of the sequential relationship between samples within a trajectory in deriving value estimates, due to the challenges in dealing with the inherent bias and variance in the $n$-step returns. We propose a bounding method which uses a negatively biased but relatively low variance estimator generated from a complex return to provide a lower bound on the observed value of a traditional one-step return estimator. In addition, we develop a new Bounded FQI algorithm, which efficiently incorporates the bounding method into an AVI framework. Experiments show that our method produces more accurate value estimates than existing approaches, resulting in improved policies.
+ 

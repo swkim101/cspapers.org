@@ -1,0 +1,4 @@
+
+ 
+ With an increasing number of paid writers posting fake reviews to promote or demote some target entities through Internet, review spammer detection has become a crucial and challenging task. In this paper, we propose a three-phase method to address the problem of identifying review spammer groups and individual spammers, who get paid for posting fake comments. We evaluate the effectiveness and performance of the approach on a real-life online shopping review dataset from amazon.com. The experimental result shows that our model achieved comparable or better performance than previous work on spammer detection.
+ 

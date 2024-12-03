@@ -1,0 +1,4 @@
+
+ 
+ Unlike unsupervised approaches such as autoencoders that learn to reconstruct their inputs, this paper introduces an alternative approach to unsupervised feature learning called divergent discriminative feature accumulation (DDFA) that instead continually accumulates features that make novel discriminations among the training set. Thus DDFA features are inherently discriminative from the start even though they are trained without knowledge of the ultimate classification problem. Interestingly, DDFA also continues to add new features indefinitely (so it does not depend on a hidden layer size), is not based on minimizing error, and is inherently divergent instead of convergent, thereby providing a unique direction of research for unsupervised feature learning. In this paper the quality of its learned features is demonstrated on the MNIST dataset, where its performance confirms that indeed DDFA is a viable technique for learning useful features.
+ 

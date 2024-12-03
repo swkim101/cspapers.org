@@ -1,0 +1,1 @@
+Tree decomposition can solve weighted CSP, but with a high spatial complexity. To improve its practical usage, we present function filtering, a strategy to decrease memory consumption. Function filtering dtects and removes some tuples that appear to be consistent but that will become inconsistent when extended to other variables. We show empirically the benefits of our approach.

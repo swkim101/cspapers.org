@@ -1,0 +1,1 @@
+Gaussian Processes provide good prior models for spatial data, but can be too smooth. In many physical situations there are discontinuities along bounding surfaces, for example fronts in near-surface wind fields. We describe a modelling method for such a constrained discontinuity and demonstrate how to infer the model parameters in wind fields with MCMC sampling.

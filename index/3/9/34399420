@@ -1,0 +1,4 @@
+
+ 
+ We have introduced a new model of hedonic coalition formation game, which we call Roles and Teams Hedonic Games (RTHG). In this model, agents view coalitions as compositions of available roles. An agent's utility for a partition is based upon which role she fulfills within the coalition and which roles are being fulfilled within the coalition. The major contributions of the paper include designing the RTHG model, with its corresponding stability and (NP-hard) optimization criteria, designing a heuristic partitioning algorithm and local search algorithm, implementation and testing.
+ 

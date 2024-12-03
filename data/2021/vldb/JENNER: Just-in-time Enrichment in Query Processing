@@ -1,4 +1,0 @@
-
- Emerging domains, such as sensor-driven smart spaces and social media analytics, require incoming data to be
- enriched
- prior to its use. Enrichment often consists of machine learning (ML) functions that are too expensive/infeasible to execute at ingestion. We develop a strategy entitled Just-in-time ENrichmeNt in quERy Processing (JENNER) to support interactive analytics over data as soon as it arrives for such application context. JENNER exploits the inherent tradeoffs of cost and quality often displayed by the ML functions to progressively improve query answers during query execution. We describe how JENNER works for a large class of SPJ and aggregation queries that form the bulk of data analytics workload. Our experimental results on real datasets (IoT and Tweet) show that JENNER achieves progressive answers performing significantly better than the naive strategies of achieving progressive computation.

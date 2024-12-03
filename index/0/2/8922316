@@ -1,0 +1,1 @@
+Given a set S of segments in the plane, the intersection graph of S is the graph with vertex set S in which two vertices are adjacent if and only if the corresponding two segments intersect. We prove a conjecture of Scheinerman (PhD Thesis, Princeton University, 1984) that every planar graph is the intersection graph of some segments in the plane.

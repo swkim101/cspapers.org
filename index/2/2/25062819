@@ -1,0 +1,1 @@
+A particularly expressive many sorted logic is presented along with an outline of an implementation. The logic allows functions and predicates to be sorted polymorphically and the sortspace to be partially ordered. It is shown that truth values may sometimes be inferred solely on the basis of sort information.

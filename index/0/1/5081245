@@ -1,0 +1,3 @@
+Hierarchical concepts structure is introduced to widen acceptability of input sentences of natural language understanding system. 
+ 
+It consists of a set of defined concepts (SDC) and scenarios each of which is a set of scenario elements. A scenario is one utilized everywhere. In our SDC concepts are defined with another concepts related through basic semantic relations. Types of these relations are presented with some examples. As compound semantic relations are composed of basic ones it is enough to construct SDC with only basic semantic relations.

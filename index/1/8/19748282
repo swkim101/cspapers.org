@@ -1,0 +1,1 @@
+The Wi-Fi interface is one of the major energy consuming components in smart phones. Wi-Fi scanning process contributes significantly to this. We present a solution based on partial scan, which produces full scan results, by performing only incomplete scan process. Using a decision tree algorithm, we propose such a prediction scheme, with the help of cached scan results.

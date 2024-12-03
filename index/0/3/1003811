@@ -1,0 +1,4 @@
+
+ 
+ In this paper we propose a wrapper based PSO method for gene selection in microarray datasets, where we gradually refine the feature (gene) space from a very coarse level to a fine grained one, by reducing the gene set at each step of the algorithm. We use the linear support vector machine weight vector to serve as the initial gene pool selection. In addition, we also examine integration of other filter based ranking methods with our proposed approach. Experiments on publicly available datasets, Colon, Leukemia and T2D show that our approach selects only a very small subset of genes while yielding substantial improvements in accuracy over state-of-the-art evolutionary methods.
+ 

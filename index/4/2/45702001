@@ -1,0 +1,3 @@
+Medical consultation system is one of the major application of artificial intelligence research, and in this field, it is important to treat time-oriented data. The authors developed a system named MECS-Al (MEdical Consultation System by means of Artificial Intelligence), which is designed as a general purpose tool for constructing systems with capability to treat time-oriented data. The basic idea of this system is to describe the time flow as a chain of discrete events. 
+ 
+As a general purpose tool, the system consists of an inference-engine and a knowledge-base editor, so that consultation systems in any field can be easily defined and tested.
