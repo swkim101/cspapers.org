@@ -1,0 +1,4 @@
+
+ 
+ We analyze and evaluate a generative process for multiple-instance learning (MIL) in which bags are distributions over instances. We show that our generative process contains as special cases generative models explored in prior work, while excluding scenarios known to be hard for MIL. Further, under the mild assumption that every negative instance is observed with nonzero probability in some negative bag, we show that it is possible to learn concepts that accurately label instances from MI data in this setting. Finally, we show that standard supervised approaches can learn concepts with low area-under-ROC error from MI data in this setting. We validate this surprising result with experiments using several synthetic and real-world MI datasets that have been annotated with instance labels.
+ 

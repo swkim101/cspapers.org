@@ -1,0 +1,1 @@
+Recently, wireless PDA (Personal Digital Assistant) becomes very popular and it requires to create the HTML pages which adapt to user's browsing environment. Using SuperSQL, we have implemented an adaptive data presentation system. In this demonstration, we show the dynamic generation of view which adapt to user's browsing environment.

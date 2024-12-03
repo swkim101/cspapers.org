@@ -1,0 +1,9 @@
+We consider the problem of selecting the "best" subset of exactly k columns from an m x n matrix A. In particular, we present and analyze a novel two-stage algorithm that runs in O(min{mn2, m2n}) time and returns as output an m x k matrix C consisting of exactly k columns of A. In the first stage (the randomized stage), the algorithm randomly selects O(k log k) columns according to a judiciously-chosen probability distribution that depends on information in the top-k right singular subspace of A. In the second stage (the deterministic stage), the algorithm applies a deterministic column-selection procedure to select and return exactly k columns from the set of columns selected in the first stage. Let C be the m x k matrix containing those k columns, let PC denote the projection matrix onto the span of those columns, and let Ak denote the "best" rank-k approximation to the matrix A as computed with the singular value decomposition. Then, we prove that 
+ 
+[EQUATION] 
+ 
+with probability at least 0.7. This spectral norm bound improves upon the best previously-existing result (of Gu and Eisenstat [21]) for the spectral norm version of this Column Subset Selection Problem. We also prove that 
+ 
+[EQUATION] 
+ 
+with the same probability. This Frobenius norm bound is only a factor of √k log k worse than the best previously existing existential result and is roughly O(√k!) better than the best previous algorithmic result (both of Deshpande et al. [11]) for the Frobenius norm version of this Column Subset Selection Problem.

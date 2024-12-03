@@ -1,0 +1,4 @@
+Collaborative robots (cobots) have a strong potential to improve both productivity as well as the working conditions of assembly operators by assisting in their tasks and by decreasing their physical and cognitive stress. The use of cobots in factories however introduces multiple challenges: how should the overall assembly architecture look like? How to 
+allocate specific (sub)tasks to the operator or the cobot? How to program and deploy the cobot? How to make changes to the robot program? 
+In this paper dilogy, we briefly highlight our recent contributions to this field. In part I we presented our collaborative 
+architecture for human-robot assembly tasks and discussed the working principles of our task allocation framework, based upon agent capabilities and ergonomic measurements. In this second part we focus on our programming by demonstration approach targeted at expediting the deployment of learnable robot skills.

@@ -1,0 +1,4 @@
+
+ 
+ This paper extends existing plan recognition research to handle plans containing loops. We supply an encoding of plans with loops for recognition, based on techniques used to parse lexicalized grammars, and demonstrate its effectiveness empirically. To do this, the paper first shows how encoding plan libraries as context free grammars permits the application of standard rewriting techniques to remove left recursion and ε-productions, thereby enabling polynomial time parsing. However, these techniques alone fail to provide efficient algorithms for plan recognition. We show how the loop-handling methods from formal grammars can be extended to the more general plan recognition problem and provide a method for encoding loops in an existing plan recognition system that scales linearly in the number of loop iterations.
+ 

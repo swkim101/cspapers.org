@@ -1,0 +1,1 @@
+In this paper, we introduce the ideas of Informed Reinforcement Learning, an extension of Relational Reinforcement Learning, in which partial world models are being learned, in order to improve convergence to the optimal policy, using goal-oriented reasoning. Furthermore, an algorithm is presented to enhance an RRL-agent with reasoning capabilities.

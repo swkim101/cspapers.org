@@ -1,0 +1,4 @@
+
+ 
+ The pattern satisfiability is a fundamental problem for SPARQL. This paper provides a complete analysis of decidability/undecidability of satisfiability problems for SPARQL 1.1 patterns. A surprising result is the undecidability of satisfiability for SPARQL 1.1 patterns when only AND and MINUS are expressible. Also, it is shown that any fragment of SPARQL 1.1 without expressing both AND and MINUS is decidable. These results provide a guideline for future SPARQL query language design and implementation.
+ 

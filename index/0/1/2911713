@@ -1,0 +1,1 @@
+This paper discusses a scheme for extracting the images of moving objects in dynamic scenes. Differencing operations are used to identify areas containing moving objects. The images of the moving objects can then be obtained by focusing the segmentation processes on these restricted areas. Thus motion is used as a cue to segmentation.

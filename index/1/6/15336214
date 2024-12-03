@@ -1,0 +1,1 @@
+Graph models have been proposed by many authors as a useful tool for the analysis of peculiar features of computer systems such as concurrency, synchronization, communication, and cooperation among subsystems. Much of the work in this field is related to the original ideas developed by C. A. Petri. These graph models are today generally known as Petri Nets (PNs).

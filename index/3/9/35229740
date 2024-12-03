@@ -1,0 +1,3 @@
+The Hopfield neural network model for associative memory is generalized. The generalization replaces two state neurons by neurons taking a richer set of values. Two classes of neuron input output relations are developed guaranteeing convergence to stable states. The first is a class of "continuous" relations and the second is a class of allowed quantization rules for the neurons. The information capacity for networks from the second class is found to be of order N3 bits for a network with N neurons. 
+ 
+A generalization of the sum of outer products learning rule is developed and investigated as well.

@@ -1,0 +1,1 @@
+Dictionary lookup is a computational activity that can be greatly accelerated when performed on large amounts of text by a parallel computer such as the Connection MachineTM Computer (CM). Several alogrithms for parallel dictionary lookup are discussed, including one that allows the CM to lookup words at a rate 450 times that of lookup on a Symbolics 3600 Lisp Machine.

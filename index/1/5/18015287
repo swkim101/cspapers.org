@@ -1,0 +1,4 @@
+
+ 
+ The combination of distinct algorithms expertise to improve prediction accuracy, inspired by the theory of wisdom of crowds, has been increasingly discussed in literature. However, its application to bioinformatics-related tasks is still in its infancy. This thesis aims at investigating the potential and limitations of ensemble-based solutions for two bioinformatics prediction tasks, namely inference of gene regulatory networks and prediction of microRNAs targets, as well as propose new integration methods. We approach this by considering heterogeneity in the contexts of data and methods, and adopting machine learning methods and concepts from multiagent systems, such as social choice functions, for integration purposes.
+ 

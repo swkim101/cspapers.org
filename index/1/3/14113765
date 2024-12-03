@@ -1,0 +1,1 @@
+We address the problem of part-of-speech tagging for English data from the popular micro-blogging service Twitter. We develop a tagset, annotate data, develop features, and report tagging results nearing 90% accuracy. The data and tools have been made available to the research community with the goal of enabling richer text analysis of Twitter and related social media data sets.

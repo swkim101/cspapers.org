@@ -1,0 +1,11 @@
+Motivated by the problem of querying and communicating bidders' valuations in combinatorial auctions, we study how well different classes of set functions can be sketched. More formally, let f be a function mapping subsets of some ground set [n] to the non-negative real numbers. We say that f' is an α-sketch of f if for every set S, the value f'(S) lies between f(S)/α and f(S), and f' can be specified by poly(n) bits. 
+ 
+We show that for every subadditive function f there exists an α-sketch where α = n1/2. O(polylog(n)). Furthermore, we provide an algorithm that finds these sketches with a polynomial number of demand queries. This is essentially the best we can hope for since: 
+ 
+1. We show that there exist subadditive functions (in fact, XOS functions) that do not admit an o(n1/2) sketch. (Balcan and Harvey [3] previously showed that there exist functions belonging to the class of substitutes valuations that do not admit an O(n1/3) sketch.) 
+ 
+2. We prove that every deterministic algorithm that accesses the function via value queries only cannot guarantee a sketching ratio better than n1−e. 
+ 
+We also show that coverage functions, an interesting subclass of submodular functions, admit arbitrarily good sketches. 
+ 
+Finally, we show an interesting connection between sketching and learning. We show that for every class of valuations, if the class admits an α-sketch, then it can be α-approximately learned in the PMAC model of Balcan and Harvey. The bounds we prove are only information-theoretic and do not imply the existence of computationally efficient learning algorithms in general.

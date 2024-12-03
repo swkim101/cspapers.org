@@ -1,0 +1,1 @@
+We describe a computational framework for a grammar architecture in which different linguistic domains such as morphology, syntax, and semantics are treated not as separate components but compositional domains. The framework is based on Combinatory Categorial Grammars and it uses the morpheme as the basic building block of the categorial lexicon.

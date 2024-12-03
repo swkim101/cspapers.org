@@ -1,0 +1,4 @@
+
+ 
+ In classical planning, cost partitioning is a method for admissibly combining a set of heuristic estimators by distributing operator costs among the heuristics. An optimal cost partitioning is often prohibitively expensive to compute. Saturated cost partitioning is an alternative that is much faster to compute and has been shown to offer high-quality heuristic guidance on Cartesian abstractions. However, its greedy nature makes it highly susceptible to the order in which the heuristics are considered. We show that searching in the space of orders leads to significantly better heuristic estimates than with previously considered orders. Moreover, using multiple orders leads to a heuristic that is significantly better informed than any single-order heuristic. In experiments with Cartesian abstractions, the resulting heuristic approximates the optimal cost partitioning very closely.
+ 

@@ -1,0 +1,11 @@
+We present new and improved data structures that answer exact node-to-node distance queries in planar graphs. Such data structures are also known as distance oracles. For any directed planar graph on n nodes with non-negative lengths we obtain the following: 
+ 
+• Given a desired space allocation S e [n lg lg n, n2], we show how to construct in O(S) time a data structure of size O(S) that answers distance queries in O(n/√ S) time per query. The best distance oracles for planar graphs until the current work are due to Cabello (SODA 2006), Chen and Xu (STOC 2000), Djidjev (WG 1996), and Fakcharoenphol and Rao (FOCS 2001). For σ e (1, 4/3) and space S = nσ, we essentially improve the query time from n2/S to √n2/S. 
+ 
+• As a consequence, we obtain an improvement over the fastest algorithm for k-many distances in planar graphs whenever k e [√n, n). 
+ 
+• We provide a linear-space exact distance oracle for planar graphs with query time O(n1/2+e) for any constant e > 0. This is the first such data structure with provable sublinear query time. 
+ 
+• For edge lengths ≥ 1, we provide an exact distance oracle of space O(n) such that for any pair of nodes at distance l the query time is O(min{l, √ n}). Comparable query performance had been observed experimentally but could not be explained theoretically. 
+ 
+Our data structures with superlinear space are based on the following new tool: given a non-self-crossing cycle C with c = O(√n) nodes, we can preprocess G in O(n) time to produce a data structure of size O(n lg lg c) that can answer the following queries in O(c) time: for a query node u, output the distance from u to all the nodes of C. This data structure builds on and provides an alternative for a related data structure of Klein (SODA 2005), which reports distances to the boundary of a face, rather than a cycle.

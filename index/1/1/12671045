@@ -1,0 +1,3 @@
+Our work explores the transfer of knowledge at multiple levels of abstraction to improve learning. By exploiting the similarities between objects at various levels of detail, multiresolution learning can facilitate transfer between image classification tasks. 
+ 
+We extract features from images at multiple levels of resolution, then use these features to create models at different resolutions. Upon receiving a new task, the closest-matching stored model can be generalized (adapted to the appropriate resolution) and transferred to the new task.

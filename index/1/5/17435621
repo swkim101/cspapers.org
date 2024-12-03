@@ -1,0 +1,1 @@
+Log-linear models provide a statistically sound framework for Stochastic "Unification-Based" Grammars (SUBGs) and stochastic versions of other kinds of grammars. We describe two computationally-tractable ways of estimating the parameters of such grammars from a training corpus of syntactic analyses, and apply these to estimate a stochastic version of Lexical-Functional Grammar.

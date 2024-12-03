@@ -1,0 +1,4 @@
+
+ 
+ Predicting the affective valence of unknown multi-word expressions is key for concept-level sentiment analysis. AffectiveSpace 2 is a vector space model, built by means of random projection, that allows for reasoning by analogy on natural language con- cepts. By reducing the dimensionality of affec- tive common-sense knowledge, the model allows semantic features associated with concepts to be generalized and, hence, allows concepts to be intu- itively clustered according to their semantic and affective relatedness. Such an affective intuition (so called because it does not rely on explicit fea- tures, but rather on implicit analogies) enables the inference of emotions and polarity conveyed by multi-word expressions, thus achieving efficient concept-level sentiment analysis.
+ 

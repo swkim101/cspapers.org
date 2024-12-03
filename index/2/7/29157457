@@ -1,0 +1,4 @@
+
+ 
+ Commonsense reasoning at scale is a critical problem for modern cognitive systems. Large theories have millions of axioms, but only a handful are relevant for answering a given goal query. Irrelevant axioms increase the search space, overwhelming unoptimized inference engines in large theories. Therefore, methods that help in identifying useful inference paths are an essential part of large cognitive systems. In this paper, we use retrograde analysis to build a database of proof paths that lead to at least one successful proof. This database helps the inference engine identify more productive parts of the search space. A heuristic based on this approach is used to order nodes during a search. We study the efficacy of this approach on hundreds of queries from the Cyc KB. Empirical results show that this approach leads to significant reduction in inference time.
+ 

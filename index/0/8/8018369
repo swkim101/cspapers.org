@@ -1,0 +1,5 @@
+A virtual organization (VO) is a dynamic collection of entities (individuals, enterprises, and information resources) collaborating on some computational activity. VOs are an emerging means to model, enact, and manage large-scale computations. VOs consist of autonomous, heterogeneous members, often dynamic exhibiting complex behaviors. Thus, VOs are best modeled via multiagent systems. An agent can be an individual such as a person, business partner, or a resource. An agent may also be a VO. A VO is an agent that comprises other agents. 
+ 
+Contracts provide a natural arms-length abstraction for modeling interaction among autonomous and heterogeneous agents. The interplay of contracts and VOs is the subject of this paper. The core of this paper is an approach to formalize VOs and contracts based on commitments. 
+ 
+Our main contributions are (1) a formalization of VOs, (2) a discussion of certain key properties of VOs, and (3) an identification of a variety of VO structures and an analysis of how they support contract enactment. We evaluate our approach with an analysis of several scenarios involving the handling of exceptions and conflicts in contracts.

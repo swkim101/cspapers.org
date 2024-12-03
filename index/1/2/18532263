@@ -1,0 +1,1 @@
+A complete solution to the problem cf picking randomly oriented workpieces out of a bin is presented. The geometry of the workpieces is arbitrary, the only parameters to be known are those of the grasper. The paper includes a description of the 3-D sensor and of the algorithm involved.

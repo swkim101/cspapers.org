@@ -1,0 +1,8 @@
+A successful software development effort is predicated upon the establishment of a complete preliminary design. A well disciplined methodology is required to ensure the satisfaction of the following key principles:
+ 1) Clear definition of data processing requirements
+ 2) Top-down design definition
+ 3) Design traceability
+ 4) Design verification
+ A well integrated approach which considers these key elements ensures continuity between Data Processing subsystems engineering and detail design. It also provides clear visibility to management and reduces the risk in software development.
+ TRW has developed a preliminary design methodology which has successfully been applied to large scale software development. The methodology is a disciplined integration of design activities from initial system definition to successful completion of software Preliminary Design Review.
+ This paper will discuss the benefits from complete preliminary design and some of the specific design techniques employed.

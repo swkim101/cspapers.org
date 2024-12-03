@@ -1,0 +1,3 @@
+Determining the precise integrality gap for the subtour LP relaxation of the traveling salesman problem is a significant open question, with little progress made in thirty years in the general case of symmetric costs that obey triangle inequality. Boyd and Carr [3] observe that we do not even know the worst-case upper bound on the ratio of the optimal 2-matching to the subtour LP; they conjecture the ratio is at most 10/9. 
+ 
+In this paper, we prove the Boyd-Carr conjecture. In the case that a fractional 2-matching has no cut edge, we can further prove that an optimal 2-matching is at most 10/9 times the cost of the fractional 2-matching.

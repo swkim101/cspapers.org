@@ -1,0 +1,1 @@
+Though Delaunay triangulations are very well known geometric data structures, the problem of the robust removal of a vertex in a three-dimensional Delaunay triangulation is still a problem in practice.We propose a simple method that allows to remove any vertex even when the points are in very degenerate configurations. The solution is available in CGAL.

@@ -1,0 +1,29 @@
+The U-shape (encoder-decoder) architecture, combined with effective blocks, has shown significant
+
+success in image restoration. In U-shape models, there is insufficient focus on the feature fusion
+
+problem between encoder and decoder features at
+
+the same level. Current methods often employ simplistic operations like summation or concatenation,
+
+which makes it difficult to strike a balance between
+
+performance and complexity. To address this issue,
+
+we propose a compression-in-the-middle mechanism, termed Integration-Compression-Integration
+
+(ICI), which effectively conducts dense fusion and
+
+avoids information loss. From the block design
+
+perspective, we design a multi-dimension aggregation (MDA) mechanism, capable of effectively
+
+aggregating features from both the channel and
+
+spatial dimension. Combining the IntegrationCompression-Integration feature fusion and the
+
+multi-dimension aggregation, our dense fusion and
+
+multi-dimension aggregation network (DFMDANet) achieves superior performance over state-ofthe-art algorithms on 16 benchmarking datasets for
+
+numerous image restoration tasks.

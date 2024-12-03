@@ -1,0 +1,1 @@
+Static analysis is a core task in query optimization and knowledge base verification. We study static analysis techniques for SPARQL, the standard language for querying Semantic Web data. Specifically, we investigate the query containment problem and query-update independence analysis. We are interested in developing techniques through reductions to the validity problem in logic.

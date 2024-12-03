@@ -1,0 +1,7 @@
+We propose Compressed Counting (CC) for approximating the αth frequency moments (0 < α ≤ 2) of data streams under a relaxed strict-Turnstile model, using maximally-skewed stable random projections. Estimators based on the geometric mean and the harmonic mean are developed. 
+ 
+When α = 1, a simple counter suffices for counting the first moment (i.e., sum). The geometric mean estimator of CC has asymptotic variance α Δ = |α - 1|, capturing the intuition that the complexity should decrease as Δ = |α - 1| → 0. However, the previous classical algorithms based on symmetric stable random projections[12, 15] required O (1/e2) space, in order to approximate the αth moments within a 1 + e factor, for any 0 < α ≤ 2 including α = 1. 
+ 
+We show that using the geometric mean estimator, CC requires O [EQUATION] space, as Δ → 0. Therefore, in the neighborhood of α = 1, the complexity of CC is essentially O (1/e) instead of O (1/e2). 
+ 
+CC may be useful for estimating Shannon entropy, which can be approximated by certain functions of the αth moments with α → 1. [10, 9] suggested using α = 1 + Δ with (e.g.,) Δ < 0.0001 and e < 10−7, to rigorously ensure reasonable approximations. Thus, unfortunately, CC is "theoretically impractical" for estimating Shannon entropy, despite its empirical success reported in [16].

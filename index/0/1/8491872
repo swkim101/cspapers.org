@@ -1,0 +1,1 @@
+In this paper we present a controller design and implementation on a mini-rotorcraft having four rotors. A Lagrangian model of the helicopter was used for the controller synthesis. The proposed controller is based on Lyapunov analysis. Experimental results show that the controller is able to perform autonomously the tasks of taking-off, hovering and landing.

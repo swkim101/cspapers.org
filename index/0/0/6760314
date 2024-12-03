@@ -1,0 +1,5 @@
+Heuristic search using algorithms such as A* and IDA* is the prevalent method for obtaining optimal sequential solutions for classical planning tasks. Theoretical analyses of these classical search algorithms, such as the well-known results of Pohl, Gaschnig and Pearl, suggest that such heuristic search algorithms can obtain better than exponential scaling behaviour, provided that the heuristics are accurate enough. 
+ 
+Here, we show that for a number of common planning benchmark domains, including ones that admit optimal solution in polynomial time, general search algorithms such as A* must necessarily explore an exponential number of search nodes even under the optimistic assumption of almost perfect heuristic estimators, whose heuristic error is bounded by a small additive constant. 
+ 
+Our results shed some light on the comparatively bad performance of optimal heuristic search approaches in "simple" planning domains such as GRIPPER. They suggest that in many applications, further improvements in run-time require changes to other parts of the search algorithm than the heuristic estimator.

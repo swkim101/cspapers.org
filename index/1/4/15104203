@@ -1,0 +1,4 @@
+
+ 
+ We address the problem of building a continuous occupancy representation of the environment with ranging sensors. Observations from such sensors provide two types of information: a line segment or a beam indicating no returns along them (free-space); a point or return at the end of the segment representing an occupied surface. To model these two types of observations in a principled statistical manner, we propose a novel methodology based on integral kernels. We show that integral kernels can be directly incorporated into a Gaussian process classification (GPC) framework to provide a continuous non-parametric Bayesian estimation of occupancy. Directly handling line segment and point observations avoids the need to discretise segments into points, reducing the computational cost of GPC inference and learning. We present experiments on 2D and 3D datasets demonstrating the benefits of the approach.
+ 

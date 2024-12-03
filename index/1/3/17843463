@@ -1,0 +1,1 @@
+We investigate the DHCP churn impact on network characterization by analyzing 18 months of DHCP, DNS, Firewall Alert, and Netflow data collected from an enterprise network of 30,000 clients. We find that DHCP churn has clear impact on network metrics.

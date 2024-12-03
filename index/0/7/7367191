@@ -1,0 +1,1 @@
+For the purpose of attitude control of a biped locomotion robot, in this paper, we firstly present the modeling of dynamical system explicitly represented in terms of horizontal component of the center of gravity (COG). Secondly for the robot system in sagittal plane, a control scheme to realize an arbitrary COG positioning is developed via sliding mode approach.

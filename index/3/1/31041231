@@ -1,0 +1,5 @@
+Knowledge-based Artifical Intelligence (AI) systems have incorporated mechanisms which resolve uncertainty. This uncertainty systems from incompleteness and noise in input data and from errorful processing. 
+ 
+Resolution of uncertainty is also an important issue in the design of disributed processing systems. Uncertainty is introduced in these systems from the use of incomplete and inconsistent local data bases and from errorful communication channels. 
+ 
+The mechanisms used in knowledge-based AI systems provide a model for the design of disturbed algorithms which can resolve uncertainty as an integral part of thier problem solving activity. Use of such algorithms in a distributed processing system makes possible a reduction in the amount of inter-node communication required to resolve uncertainty. This reduction in communication requirements allows effective distribution of applications that are impractical using current approaches to the design of distributed algorithms.

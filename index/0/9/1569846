@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we address the problem of data description using a Bayesian framework. The goal of data description is to draw a boundary around objects of a certain class of interest to discriminate that class from the rest of the feature space. Data description is also known as one-class learning and has a wide range of applications. The proposed approach uses a Bayesian framework to precisely compute the class boundary and therefore can utilize domain information in form of prior knowledge in the framework. It can also operate in the kernel space and therefore recognize arbitrary boundary shapes. Moreover, the proposed method can utilize unlabeled data in order to improve accuracy of discrimination. We evaluate our method using various real-world datasets and compare it with other state of the art approaches of data description. Experiments show promising results and improved performance over other data description and one-class learning algorithms.
+ 

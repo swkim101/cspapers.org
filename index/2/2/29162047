@@ -1,0 +1,4 @@
+
+ 
+ We consider a class of non-convex learning problems that can be formulated as jointly optimizing regularized hinge loss and a set of auxiliary variables. Such problems encompass but are not limited to various versions of semi-supervised learning,learning with hidden structures, robust learning, etc. Existing methods either suffer from local minima or have to invoke anon-scalable combinatorial search. In this paper, we propose a novel learning procedure, namely Parametric Dual Maximization(PDM), that can approach global optimality efficiently with user specified approximation levels. The building blocks of PDM are two new results: (1) The equivalent convex maximization reformulation derived by parametric analysis.(2) The improvement of local solutions based on a necessary and sufficient condition for global optimality. Experimental results on two representative applications demonstrate the effectiveness of PDM compared to other approaches.
+ 

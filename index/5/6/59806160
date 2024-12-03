@@ -1,0 +1,3 @@
+The knowledge acquisition is major research field in knowledge engineering and still the most difficult and error-prone task for knowledge engineer while building an expert system. This situation influences the performance of the knowledge due to the quality of information and the reduction of error possibility. 
+ 
+The Ternay Grid technique has potentiality to achieve the above mentioned performance of the knowledge. It is proposed in [1] as a potentially new technique for knowledge elicitation/acquisition. Meanwhile we have developed a suitable process of the knowledge acquisition and developed the knowledge acquisition tools based on the Ternary Grid technique and knowledge model that is called KasTerGrid.

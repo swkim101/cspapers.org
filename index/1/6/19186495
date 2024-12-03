@@ -1,0 +1,4 @@
+
+ 
+ We propose two distinct levels of learning for general autonomous intelligent agents. Level 1 consists of fixed architectural learning mechanisms that are innate and automatic. Level 2 consists of deliberate learning strategies that are controlled by the agent's knowledge. We describe these levels and provide an example of their use in a task-learning agent. We also explore other potential levels and discuss the implications of this view of learning for the design of autonomous agents.
+ 

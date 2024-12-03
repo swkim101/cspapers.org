@@ -1,0 +1,4 @@
+
+ 
+ Operator cost partitioning is a well-known technique to make admissible heuristics additive by distributing the operator costs among individual heuristics. Planning tasks are usually defined with non-negative operator costs and therefore it appears natural to demand the same for the distributed costs. We argue that this requirement is not necessary and demonstrate the benefit of using general cost partitioning. We show that LP heuristics for operator-counting constraints are cost-partitioned heuristics and that the state equation heuristic computes a cost partitioning over atomic projections. We also introduce a new family of potential heuristics and show their relationship to general cost partitioning.
+ 

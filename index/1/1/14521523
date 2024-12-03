@@ -1,0 +1,4 @@
+
+ 
+ Hierarchical classification (HC) plays an significant role in machine learning and data mining. However, most of the state-of-the-art HC algorithms suffer from high computational costs. To improve the performance of solving, we propose a stochastic perceptron (SP) algorithm in the large margin framework. In particular, a stochastic choice procedure is devised to decide the direction of next iteration. We prove that after finite iterations the SP algorithm yields a sub-optimal solution with high probability if the input instances are separable. For large-scale and high-dimensional data sets, we reform SP to the kernel version (KSP), which dramatically reduces the memory space needed. The KSP algorithm has the merit of low space complexity as well as low time complexity. The experimental results show that our KSP approach achieves almost the same accuracy as the contemporary algorithms on the real-world data sets, but with much less CPU running time.
+ 

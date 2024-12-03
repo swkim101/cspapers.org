@@ -1,0 +1,4 @@
+
+ 
+ Fast and efficient learning over large bodies of commonsense knowledge is a key requirement for cognitive systems. Semantic web knowledge bases provide an important new resource of ground facts from which plausible inferences can be learned. This paper applies structured logistic regression with analogical generalization (SLogAn) to make use of structural as well as statistical information to achieve rapid and robust learning. SLogAn achieves state-of-the-art performance in a standard triplet classification task on two data sets and, in addition, can provide understandable explanations for its answers.
+ 

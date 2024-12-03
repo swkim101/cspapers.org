@@ -1,0 +1,1 @@
+Many lexical semantic relations, such as the hyponymy relation, can be extracted from text as they occur in detectable syntactic constructions. This paper shows how a hypernym-hyponym based lexicon for Swedish can be created directly from a news paper corpus. An algorithm is presented for building partial hierarchical structures from non domain-specific texts.

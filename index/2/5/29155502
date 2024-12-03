@@ -1,0 +1,4 @@
+
+ 
+ We define a class of parameterised infinite state multi-agent systems (MAS) that is unbounded in both the number of agents composing the system and the domain of the variables encoding the agents. We analyse their verification problem by combining and extending existing techniques in parameterised model checking with predicate abstraction procedures. The resulting methodology addresses both forms of unboundedness and provides a technique for verifying unbounded MAS defined on infinite-state variables. We illustrate the effectiveness of the technique on an infinite-domain variant of an unbounded version of the train-gate-controller.
+ 

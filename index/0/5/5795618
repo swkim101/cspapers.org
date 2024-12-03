@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of classifying micro-posts as churny or non-churny with respect to a given brand. Using Twitter data about three brands, we find that standard machine learning techniques clearly outperform keyword based approaches. However, the three machine learning techniques we employed (linear classification, support vector machines, and logistic regression) do not perform as well on churn classification as on other text classification problems. We investigate demographic, content, and context churn indicators in microblogs and examine factors that make this problem more challenging. Experimental results show an average F1 performance of 75% for target-dependent churn classification in microblogs.
+ 

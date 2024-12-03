@@ -1,0 +1,1 @@
+We study a basic problem in mathematical origami: determine if a given crease pattern can be folded to a flat origami. We show that assigning mountain and valley folds is NPhard. We also show that determining a suitable overlap order for flaps is NP-hard, even assuming a valid mountain and valley assignment.

@@ -1,0 +1,4 @@
+
+ 
+ Behind every search query is a high-level mission that the user wants to accomplish.  While current search engines can often provide relevant information in response to well-specified queries, they place the heavy burden of making a plan for achieving a mission on the user. We take the alternative approach of tackling users' high-level missions directly by introducing a human computation system that generates simple plans, by decomposing a mission into goals and retrieving search results tailored to each goal. Results show that our system is able to provide users with diverse, actionable search results and useful roadmaps for accomplishing their missions.
+ 

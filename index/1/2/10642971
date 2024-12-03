@@ -1,0 +1,4 @@
+
+ 
+ Generalized CP-nets (GCP-nets) allow a succinct representation of preferences over multi-attribute domains. As a consequence of their succinct representation, many GCP-net related tasks are computationally hard. Even finding the more preferable of two outcomes is PSPACE-complete. In this work, we employ the framework of parameterized complexity to achieve two goals: First, we want to gain a deeper understanding of the complexity of GCP-nets. Second, we search for efficient fixed-parameter tractable algorithms.
+ 

@@ -1,0 +1,1 @@
+This paper proposes an alternative to Quinlan's algorithm for forming classification trees from large sets of examples. My algorithm is guaranteed to terminate. Quinlan's algorithm is usually faster.

@@ -1,0 +1,4 @@
+
+ 
+ We discuss necessary and sufficient conditions for an auto-encoder to define a conservative vector field, in which case it is associated with anenergy function akin to the unnormalized log-probability of the data.We show that the conditions for conservativeness are more general than for encoder and decoder weights to be the same ("tied weights''), and thatthey also depend on the form of the hidden unit activation functions.Moreover, we show that contractive training criteria, such as denoising, enforces these conditions locally.Based on these observations, we show how we can use auto-encoders to extract the conservative component of a vector field.
+ 

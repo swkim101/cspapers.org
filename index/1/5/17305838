@@ -1,0 +1,6 @@
+This paper describes how a proposed project will research the expression of attitude, affect, and sentiment in text in order to automatically identify and extract such expressions. The project starting points are a set of hypotheses: 
++ There are syntactic and lexical markers in text such that attitudinal information can be harvested using them; 
++ Players, or discourse referents, in text are one such crucial marker for modeling topicality in general and attitudinal information flow in particular; 
++ Attitudes in texts are dependent on text type and domain; 
++ Attitudinal information can be applied in the development of practical tools for information access, among other application areas; 
++ An extended notion of relevance will afford us with a empirical evaluation model for our theories and experiments.

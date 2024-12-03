@@ -1,0 +1,1 @@
+In this paper, we study secrecy outage performance of dual-hop relay protocols in underlay cognitive radio network. In particular, we derive exact and asymptotic closed-form expressions of secrecy outage probability for randomize-and-forward and decode-and-forward schemes over Rayleigh fading channel. The derivations are then verified by Monte Carlo simulations.

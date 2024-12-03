@@ -1,0 +1,1 @@
+We present and rigorously analyze a generalization of the Winner-Take-All Network: the K-Winners-Take-All Network. This network identifies the K largest of a set of N real numbers. The network model used is the continuous Hopfield model.

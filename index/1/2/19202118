@@ -1,0 +1,4 @@
+
+ 
+ In the professional sport of cricket, batting order assignment is of significant interest and importance to coaches, players, and fans as an influencing parameter on the game outcome. The impact of batting order on scoring runs is widely known and managers are often judged based on their perceived weakness or strength in setting the batting order. In practice, a combination of experts’ intuitions plus a few descriptive and sometimes conflicting performance statistics are used to assign an order to the batters in a team line-up before the games and in player replacement due to injuries during the games. In this paper, we propose the use of learning methods in automatic line-up order assignment based on several measures of performance and historical data. We discuss the importance of this problem in designing a winning strategy for cricket teams and the challenges this application introduces to the community and the currently existing approaches in AI.
+ 

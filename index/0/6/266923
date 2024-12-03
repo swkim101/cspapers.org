@@ -1,0 +1,4 @@
+This paper proposes a first attempt to build an end-to-end speech-to-text translation 
+system, which does not use source language text during learning or decoding. Relaxing the need 
+for source language transcription would drastically change the data collection methodology in 
+speech translation, especially in under-resourced scenarios.

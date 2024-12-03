@@ -1,0 +1,1 @@
+We give a fixed-parameter tractable (FPT) approximation algorithm computing the path-width of a tournament, and more generally, of a semi-complete digraph. Based on this result, we prove that topological containment and rooted immersion problems are FPT on semi-complete digraphs.

@@ -1,0 +1,4 @@
+
+ 
+ Backdoors are a powerful tool to obtain efficient algorithms for hard problems. Recently, two new notions of backdoors to planning were introduced. However, for one of the new notions (i.e., variable-deletion) only hardness results are known so far. In this work we improve the situation by defining a new type of variable-deletion backdoors based on the extended causal graph of a planning instance. For this notion of backdoors several fixed-parameter tractable algorithms are identified. Furthermore, we explore the capabilities of polynomial time preprocessing, i.e., we check whether there exists a polynomial kernel. Our results also show the close connection between planning and verification problems such as Vector Addition System with States (VASS).
+ 

@@ -1,0 +1,7 @@
+We study learning formulations with non-convex regularizaton that are natural for sparse linear models. There are two approaches to this problem: 
+ 
+• Heuristic methods such as gradient descent that only find a local minimum. A drawback of this approach is the lack of theoretical guarantee showing that the local minimum gives a good solution. 
+ 
+• Convex relaxation such as L1-regularization that solves the problem under some conditions. However it often leads to sub-optimal sparsity in reality. 
+ 
+This paper tries to remedy the above gap between theory and practice. In particular, we investigate a multi-stage convex relaxation scheme for solving problems with non-convex regularization. Theoretically, we analyze the behavior of a resulting two-stage relaxation scheme for the capped-L1 regularization. Our performance bound shows that the procedure is superior to the standard L1 convex relaxation for learning sparse targets. Experiments confirm the effectiveness of this method on some simulation and real data.

@@ -1,0 +1,4 @@
+
+ 
+ The transition to renewables requires storage to help smooth short-term variations in energy from wind and solar sources, as well as to respond to spikes in electricity spot prices, which can easily exceed 20 times their average. Efficient operation of an energy storage device is a fundamental problem, yet classical algorithms such as $Q$-learning can diverge for millions of iterations, limiting practical applications. We have traced this behavior to the max-operator bias, which is exacerbated by high volatility in the reward function, and high discount factors due to the small time steps. We propose an elegant bias correction procedure and demonstrate its effectiveness.
+ 

@@ -1,0 +1,3 @@
+During crises, information is critical for responders and victims. When the event is significant, as in the case of hurricane Sandy, the amount of content produced by traditional news outlets, relief organizations, and social media vastly overwhelms those trying to monitor the situation. 
+ 
+The ensuing digital overload that accompanies large scale disasters suggests an opportunity for automatic summarization --the implied task here is to monitor an event as it unfolds over time by processing an associated stream of documents and producing a rolling update summary containing the most salient information with respect to the event (which we also refer to as the query).

@@ -1,0 +1,4 @@
+
+ 
+ We investigate synergy, or lack thereof, between agents in cooperative games, building on the popular notion of Shapley value. We think of a pair of agents as synergistic (resp., antagonistic) if the Shapley value of one agent when the other agent participates in a joint effort is higher (resp. lower) than when the other agent does not participate. Our main theoretical result is that any graph specifying synergistic and antagonistic pairs can arise even from a restricted class of cooperative games. We also study the computational complexity of determining whether a given pair of agents is synergistic. Finally, we use the concepts developed in the paper to uncover the structure of synergies in two real-world organizations, the European Union and the International Monetary Fund.
+ 

@@ -1,0 +1,5 @@
+We consider the problem of learning a coefficient vector x0 ∈ ℝN from noisy linear observation y = Ax0 + w ∈ ℝn. In many contexts (ranging from model selection to image processing) it is desirable to construct a sparse estimator $\hat x$. In this case, a popular approach consists in solving an l1-penalized least squares problem known as the LASSO or Basis Pursuit DeNoising (BPDN). 
+ 
+For sequences of matrices A of increasing dimensions, with independent gaussian entries, we prove that the normalized risk of the LASSO converges to a limit, and we obtain an explicit expression for this limit. Our result is the first rigorous derivation of an explicit formula for the asymptotic mean square error of the LASSO for random instances. The proof technique is based on the analysis of AMP, a recently developed efficient algorithm, that is inspired from graphical models ideas. 
+ 
+Through simulations on real data matrices (gene expression data and hospital medical records) we observe that these results can be relevant in a broad array of practical applications.

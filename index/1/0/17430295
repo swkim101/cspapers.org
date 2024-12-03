@@ -1,0 +1,1 @@
+The design of TACTICS, a large interactive statistical analysis and modelling system which has proven highly reliable is presented. Overall reliability was achieved by first identifying and then focusing on the critical system components. These are enumerated and their design described in detail.

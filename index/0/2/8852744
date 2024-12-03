@@ -1,0 +1,4 @@
+
+ 
+ The modern web critically depends on aggregation of information from self-interested agents, for example opinion polls, product ratings, or crowdsourcing. We consider a setting where multiple objects (questions, products, tasks) are evaluated by a group of agents. We first construct a minimal peer prediction mechanism that elicits honest evaluations from a homogeneous population of agents with different private beliefs. Second, we show that it is impossible to strictly elicit honest evaluations from a heterogeneous group of agents with different private beliefs. Nevertheless, we provide a modified version of a divergence-based Bayesian Truth Serum that incentivizes agents to report consistently, making truthful reporting a weak equilibrium of the mechanism.
+ 

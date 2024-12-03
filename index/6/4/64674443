@@ -1,0 +1,1 @@
+We propose a method that allows the interpretation of the data representation obtained by CNN, through introducing prototypes in the feature space, that are later classified into a certain category. This way we can see how the feature space is structured in link with the categories and the related task.

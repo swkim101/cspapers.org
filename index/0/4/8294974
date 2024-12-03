@@ -1,0 +1,1 @@
+We present a novel transition-based, greedy dependency parser which implements a flexible mix of bottom-up and top-down strategies. The new strategy allows the parser to postpone difficult decisions until the relevant information becomes available. The novel parser has a 12% error reduction in unlabeled attachment score over an arc-eager parser, with a slow-down factor of 2.8.

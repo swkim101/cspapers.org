@@ -1,0 +1,4 @@
+
+ 
+ Abstract argumentation framework (AF) is a unifying framework able to encompass a variety of nonmonotonic reasoning approaches, logic programming and computational argumentation. Yet, efficient approaches for most of the decision and enumeration problems associated to AFs are missing, thus limiting the efficacy of argumentation-based approaches in real domains. In this paper, we present an algorithm for enumerating the preferred extensions of abstract argumentation frameworks which exploits parallel computation. To this purpose, the SCC-recursive semantics definition schema is adopted, where extensions are defined at the level of specific sub-frameworks. The algorithm shows significant performance improvements in large frameworks, in terms of number of solutions found and speedup.
+ 

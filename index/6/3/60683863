@@ -1,0 +1,1 @@
+This paper presents the formalization of a family of routing algorithms in the ACL2 logic. This work is based onGeNoC , a generic model of networks on a chip (NoCs). We review the principles of this approach. We detail the specification and the validation of dimension-order routing for the 2D mesh. We consider deterministic and adaptive algorithms.

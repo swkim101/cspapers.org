@@ -1,0 +1,4 @@
+Recently there has been a lot of interest in density modeling with Deep Generative Models. So far, these models have arguably been relatively successful on tasks such as modeling handwritten digits (MNIST), small image patches (e.g., 8 by 8 pixels) and other low-dimensional datasets. 
+However, convincingly modeling higher dimensional data such as small images (e.g., 32 by 32 pixels and higher) is still a big unsolved problem. 
+In this work we will extend and apply Deep Gaussian Mixture Models (DGMMs) to this task, by introducing locally connected transformations. Similarly to convolutions in deep neural networks, local connectivity in DGMMs allow us to train faster and with less overfitting than fully connected networks when applied to images. Our experiments show the benefits of using 
+locally-connected Deep GMMs and give new insights on modeling higher dimensional images.

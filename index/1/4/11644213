@@ -1,0 +1,38 @@
+Fixed-priority preemptive scheduling of independent periodic 
+tasks on a homogeneous multiprocessor is solved using 
+one of two different methods based on how tasks are assigned 
+to the processors at run-time. In the partitioned method, 
+all instances of a task are executed on the same processor, 
+where the processor used for each task is determined before 
+run-time by a partitioning algorithm. In the non-partitioned 
+method, a task is allowed to execute on any processor, even 
+when resuming after having been preempted. Two fundamental 
+properties have been shown for the addressed problem. First, the problem of deciding whether a task set is 
+schedulable is NP-hard for both methods. Second, there are 
+task sets which are schedulable with an optimal priority assignment 
+with the non-partitioned method, but are unschedulable 
+with an optimal partitioning algorithm and conversely. 
+Among the two methods, the non-partitioned method has 
+received considerably less attention, mainly because it is believed 
+to suffer from several scheduling-related shortcomings. 
+The most well-known of these is Dhall’s effect, a 
+scheduling dilemma wherein some task sets may be unschedulable 
+on multiple processors even though they have 
+a low utilization. Another shortcoming is that existing 
+necessary and sufficient schedulability tests all have exponential 
+time complexity, and existing sufficient tests 
+have polynomial complexity but are pessimistic. It has 
+also been shown that the RM (rate-monotonic) priorityassignment 
+scheme is not optimal, and no optimal 
+priority-assignment schemes with polynomial time complexity 
+have been found. 
+In this paper, we present an in-depth analysis of the nonpartitioned 
+method in terms of its scheduling-related properties. 
+We (i) identify a set of anomalies for preemptive 
+scheduling with migration, which are the first ever reported 
+in the open research literature, (ii) identify several difficulties 
+in conveying techniques from uniprocessor scheduling 
+to the multiprocessor case, and (iii) conjecture that there may 
+exist priority-assignment schemes that can contribute to circumventing 
+Dhall’s effect, something that has believed to be 
+inherently impossible with the non-partitioned method.

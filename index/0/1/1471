@@ -1,0 +1,1 @@
+We introduce the smoothed analysis of algorithms, which is a hybrid of the worst-case and average-case analysis of algorithms. Essentially, we study the performance of algorithms under small random perturbations of their inputs. We show that the shadow-vertex simplex algorithm has polynomial smoothed complexity.

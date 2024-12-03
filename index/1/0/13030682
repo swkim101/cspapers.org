@@ -1,0 +1,3 @@
+A frequently stated objective of structured programming is to control program complexity. However, since the notion of complexity is not well under-stood and the existing techniques for measuring complexity are crude, it is difficult to determine if indeed structured programming can achieve this objective. The purpose of this paper is two-fold:
+ to discuss the probable sources of complexity in a well-structured program
+ to present a methodology for measuring and controlling complexity in a well-structured program.

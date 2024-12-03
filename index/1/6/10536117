@@ -1,0 +1,4 @@
+
+ 
+ We have earlier shown that the standard mappings from action languages B and C to logic programs under answer set semantics can be captured by sets of properties on transition systems. In this paper, we consider action language BC and show that a standard mapping from BC action descriptions to logic programs can be similarly captured when the action rules in the descriptions do not have consistency conditions.
+ 

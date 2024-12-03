@@ -1,0 +1,23 @@
+We first pose the Unsupervised Progressive Learning (UPL) problem: an online
+
+representation learning problem in which the learner observes a non-stationary
+
+and unlabeled data stream, learning a growing number of features that persist
+
+over time even though the data is not stored or replayed. To solve the UPL
+
+problem we propose the Self-Taught Associative Memory (STAM) architecture.
+
+Layered hierarchies of STAM modules learn based on a combination of online
+
+clustering, novelty detection, forgetting outliers, and storing only prototypical
+
+features rather than specific examples. We evaluate STAM representations using
+
+clustering and classification tasks. While there are no existing learning scenarios
+
+that are directly comparable to UPL, we compare the STAM architecture with two
+
+recent continual learning models, Memory Aware Synapses (MAS) and Gradient
+
+Episodic Memories (GEM), after adapting them in the UPL setting.

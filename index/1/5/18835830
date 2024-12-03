@@ -1,0 +1,1 @@
+We develop a fixpoint operator for computing large item sets and demonstrate three query paradigm solutions for association rule mining that use the idea of least fixpoint computation and indicates some optimisation issues. The results of our research provide theoretical foundation for relational computation of association rules and its application on XML mining.

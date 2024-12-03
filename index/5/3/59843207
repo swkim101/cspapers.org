@@ -1,0 +1,1 @@
+We present a novel cryptographic algorithm for Byzantine agreement in a network with l=O(n) faulty processors and in the most adversarial setting. Our algorithm requires, once and for all, O(t) rounds of preprocessing. Afterwards it allows us to reach each individual Byzantine agreement in constant expected time. Our solution does not make use of any trusted party.

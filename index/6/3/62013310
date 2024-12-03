@@ -1,0 +1,1 @@
+♦ Büchi automata represent an operational approach to describing temporal requirements for reactive systems ♦ Usage of logics for the descriptive specification of temporal requirements 8 example – (∀si)((si(a) ⇒ ((∃sj | i ≤ j)(sj(b)))) 8 requires explicit quantification over state sequences S1 S2 a b b, c a, c Q = {S1, S2}, q0 = S1, F = {S1}

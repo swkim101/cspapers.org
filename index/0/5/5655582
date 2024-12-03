@@ -1,0 +1,5 @@
+This paper deals with a neural network architecture which establishes a portfolio management system similar to the Black / Litterman approach. This allocation scheme distributes funds across various securities or financial markets while simultaneously complying with specific allocation constraints which meet the requirements of an investor. 
+ 
+The portfolio optimization algorithm is modeled by a feedforward neural network. The underlying expected return forecasts are based on error correction neural networks (ECNN), which utilize the last model error as an auxiliary input to evaluate their own misspecification. 
+ 
+The portfolio optimization is implemented such that (i.) the allocations comply with investor's constraints and that (ii.) the risk of the portfolio can be controlled. We demonstrate the profitability of our approach by constructing internationally diversified portfolios across 21 different financial markets of the G7 contries. It turns out, that our approach is superior to a preset benchmark portfolio.

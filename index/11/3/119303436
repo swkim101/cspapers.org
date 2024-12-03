@@ -1,0 +1,1 @@
+We show that the edit distance between two strings of length n can be computed via a randomized algorithm within a factor of f(є) in n 1+є time as long as the edit distance is at least n 1−δ for some δ(є) > 0.

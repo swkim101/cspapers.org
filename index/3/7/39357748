@@ -1,0 +1,1 @@
+This paper describes an entity ranking model for example-based person search in email. Evaluation by comparison to manually resolved named references in Enron email yield results that correspond to typically placing the correct entity in the first or second rank.

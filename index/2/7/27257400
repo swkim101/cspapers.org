@@ -1,0 +1,4 @@
+
+ 
+ Word embeddings, which can better capture the fine-grained semantics of words, have proven to be useful for a variety of natural language processing tasks. However, because discourse structures describe the relationships between segments of discourse, word embeddings cannot be directly integrated to perform the task. In this paper, we introduce a mixed generative-discriminative framework, in which we use vector offsets between embeddings of words to represent the semantic relations between text segments and Fisher kernel framework to convert a variable number of vector offsets into a fixed length vector. In order to incorporate the weights of these offsets into the vector, we also propose the Weighted Fisher Vector. Experimental results on two different datasets show that the proposed method without using manually designed features can achieve better performance on recognizing the discourse level relations in most cases.
+ 

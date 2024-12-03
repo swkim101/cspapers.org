@@ -1,0 +1,4 @@
+
+ 
+ For many researchers, one of the biggest issues is the lack of an efficient method to obtain latest academic progresses in related research fields. We notice that many researchers tend to share their research progresses or recommend scholarly information they have known on their microblogs. In order to exploit microblogging to benefit scientific research, we build a system called MicroScholar to automatically collecting and mining scholarly information from Chinese microblogs. In this paper, we briefly introduce the system framework and focus on the component of scholarly microblog categorization. Several kinds of features have been used in the component and experimental results demonstrate their usefulness.
+ 

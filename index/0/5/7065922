@@ -1,0 +1,5 @@
+We present a new method for the blind separation of sources, which do not fulfill the independence assumption. In contrast to standard methods we consider groups of neighboring samples ("patches") within the observed mixtures. 
+ 
+First we extract independent features from the observed patches. It turns out that the average dependencies between these features in different sources is in general lower than the dependencies between the amplitudes of different sources. We show that it might be the case that most of the dependencies is carried by only a small number of features. Is this case - provided these features can be identified by some heuristic - we project all patches into the subspace which is orthogonal to the subspace spanned by the "correlated" features. 
+ 
+Standard ICA is then performed on the elements of the transformed patches (for which the independence assumption holds) and robustly yields a good estimate of the mixing matrix.

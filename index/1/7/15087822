@@ -1,0 +1,5 @@
+We consider an optimization problem of the form 
+ 
+[EQUATION] 
+ 
+where P ⊆ Rn is a polyhedron defined by m inequalities and Q is general and the μh e Rn and the rh quantities are given. In the case |S| = 1, |K| = 0 and m = 0 one obtains the classical trust-region subproblem; a strongly NP-hard problem which has been the focus of much interest because of applications to combinatorial optimization and nonlinear programming. We prove that for each fixed pair |S| and |K| our problem can be solved in polynomial time provided that either (1) |K| > 0 and the number of faces of P that intersect [EQUATION] is polynomially bounded, or (2) |K| = 0 and m is bounded.

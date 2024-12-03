@@ -1,0 +1,1 @@
+We reconsider the "supertask" approach, in which a set of Pfair tasks is scheduled as a single task. We define a "safe" weight threshold for a given supertask in a multiprocessor system with either hard or soft deadlines and either strict or relaxed rate constraints.

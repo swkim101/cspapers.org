@@ -1,0 +1,1 @@
+Energy-parity objectives combine ω-regular with quantitative objectives of reward MDPs. The controller needs to avoid to run out of energy while satisfying a parity objective.

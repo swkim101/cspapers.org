@@ -1,0 +1,6 @@
+In this paper we study the complexity of realizing a monotone but otherwise arbitrary Boolean function. We consider realizations by means of networks and formulae. In both cases the possibility exists that although a monotone function can always be realized in terms of monotone basis functions, a more economical realization may be possible if basis functions that are not themselves monotone are used. Thus, we have four cases, namely:
+ 1. The cost of realizing a monotone function with a network over a universal basis.
+ 2. The cost of realizing a monotone function with a network over a monotone basis.
+ 3. The cost of realizing a monotone function with a formula over a universal basis.
+ 4. The cost of realizing a monotone function with a formula over a monotone basis.
+ For the first case, we obtain a complete solution to the problem. For the other three cases, we obtain improvements over previous results and come within a logarithmic factor or two of a complete solution.

@@ -1,0 +1,4 @@
+
+ 
+ Pathfinding is a common task across many domains and platforms, whether in games, robotics, or road maps. Given the breadth of domains, there are also a wide variety of representations used for pathfinding, and there are many techniques which have been shown to improve performance. In the last few years, the state-of-the-art in grid-based pathfinding has been significantly improved with domain-specific techniques such as Jump Point Search (JPS), Subgoal Graphs, and Compressed Path Databases. In this paper we look at a specific implementation of the general idea of Geometric Containers, showing that, while it is effective on grid maps, when combined with JPS+ it provides state-of-the-art performance.
+ 

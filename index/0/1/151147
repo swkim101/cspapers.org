@@ -1,0 +1,5 @@
+The AGM paradigm is a formal approach to ideal and rational information change From a practical perspective it suffers from two shortcomings, the first involves difficulties with respect to the finite representation of information, and the second involves the lack of support for the iteration of change operators. In this paper we show that these practical problems can be solved in theoretically satisfying ways wholely with in the AGM paradigm. 
+ 
+We introduce a partial entrenchment ranking which serves as a canonical representation for a theory base and a well-ranked episterruc entrenchment, and we provide a computational model for adjusting partial entrenchment rankings when they receive new information using a procedure based on the principle of minimal change. 
+ 
+The connection between the standard AGM theory change operators and the theory base change operators developed herein suggest that the proposed computational model for iterated theory base change exhibits desirable behaviour.

@@ -1,0 +1,1 @@
+Previously, we have presented an implementation of impedance control inspired by the Equilibrium Point Hypothesis that we refer to as equilibrium point control (EPC). We have demonstrated that EPC can enable a robot in a fixed position to robustly pull open a variety of doors and drawers, and infer their kinematics without detailed prior models.

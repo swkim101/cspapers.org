@@ -1,0 +1,6 @@
+
+ 
+ 
+Social in-feed advertising delivers ads that seamlessly fit inside a user’s feed, and allows users to engage in social actions (likes or comments) with the ads. Many businesses pay higher attention to “engagement marketing” that maximizes social actions, as social actions can effectively promote brand awareness. This paper studies social action prediction for in-feed advertising. Most existing works overlook the social influence as a user’s action may be affected by her friends’ actions. This paper introduces an end-to-end approach that leverages social influence for action prediction, and focuses on addressing the high sparsity challenge for in-feed ads. We propose to learn influence structure that models who tends to be influenced. We extract a subgraph with the near neighbors a user interacts with, and learn topological features of the subgraph by developing structure-aware graph encoding methods. We also introduce graph attention networks to learn influence dynamics that models how a user is influenced by neighbors’ actions. We conduct extensive experiments on real datasets from the commercial advertising platform of WeChat and a public dataset. The experimental results demonstrate that social influence learned by our approach can significantly boost performance of social action prediction. 
+ 
+ 

@@ -1,0 +1,1 @@
+We introduce a new variant of the multi-armed bandit problem, called Volatile Multi-Arm Bandit (VMAB). A general policy for VMAB is given with proven regret bounds. The problem of collecting intelligence on profiles in social networks is then modeled as a VMAB and experimental results show the superiority of our proposed policy.

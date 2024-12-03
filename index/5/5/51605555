@@ -1,0 +1,5 @@
+Recently, reconciling social networks receives significant attention. Most of the existing studies have
+
+limitations in the following three aspects: multiplicity, comprehensiveness and robustness. To address
+
+these three limitations, we rethink this problem and propose the MASTER framework, i.e., across Multiple social networks, integrate Attribute and STructure Embedding for Reconciliation. In this framework, we first design a novel Constrained Dual Embedding model by simultaneously embedding and reconciling multiple social networks to formulate our problem into a unified optimization. To address this optimization, we then design an effective algorithm called NS-Alternating. We also prove that this algorithm converges to KKT points. Through extensive experiments on real-world datasets, we demonstrate that MASTER outperforms the state-of-the-art approaches.

@@ -1,0 +1,2 @@
+We present a deterministic &Ogr;(log N) time algorithm for the problem of routing an arbitrary permutation on an N-processor bounded-degree network with bounded buffers.
+Unlike all previous deterministic solutions to this problem, our routing scheme does not reduce the routing problem to sorting and does not use the Ajtai, Komlos and Szemeredi sorting network [AKS]. Consequently, the constant in the run time of our routing scheme is substantially smaller, and the network topology is significantly simpler.

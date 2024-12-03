@@ -1,0 +1,1 @@
+Recent research has proposed swarming protocols as a possible approach to offload the Internet infrastructure when some content can be shared by several users. However, simulations have been generally used as experimental means. Instead, we present an application platform that allows a rapid development and testing of swarming protocols using off-the-shelf smartphones.

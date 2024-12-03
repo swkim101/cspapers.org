@@ -1,0 +1,4 @@
+
+ 
+ The key question in transfer learning (TL) research is how to make model induction transferable across different domains. Common methods so far require source and target domains to have a shared/homogeneous feature space, or the projection of features from heterogeneous domains onto a shared space. This paper proposes a novel framework, which does not require a shared feature space but instead uses a parallel corpus to calibrate domain-specific kernels into a unified kernel, to leverage graph-based label propagation in cross-domain settings, and to optimize semi-supervised learning based on labeled and unlabeled data in both source and target domains. Our experiments on benchmark datasets show advantageous performance of the proposed method over that of other state-of-the-art TL methods.
+ 

@@ -1,0 +1,17 @@
+As a manufacturer of complex electronic telephone switching systems, we at GTE Automatic Electric have faced a number of problems in manufacturing, particularly in the area of data control and data collection.
+ As is typical of most electronic products, our products are highly complex and therefore, subject to frequent and often severe circuit changes. Although the number of unique product lines is small, each is relatively large and commonly has subassemblies which are custom engineered. The more general characteristics of our products are:
+ 1) Integrated computer for stored program control
+ 2) Heavy reliance on logic circuits
+ 3) High reliability designed into the product (double, triple redundancy on circuits),
+ 4) Analog circuitry on the front-end of the system
+ 5) Wired backplane technology and
+ 6) Printed Wiring Card technology
+ We found that we could better utilize our resources if we could collect highly detailed information on each assembly as it was manufactured. This information would then give the process engineer, design engineer, and quality control engineer the tools to make better decisions concerning our resources. Therefore, the topics of this paper will focus on the technology that we are currently using, highlighting:
+ 1) Control System Organization
+ 2) IBM System 370 and CAM Data Base
+ 3) Manufacturing Data Generation
+ 4) On-line Machine Control System
+ 5) On-line Data Distribution System
+ 6) Interfacing to N/C Machines
+ 7) Interfacing to Commercial CNC Systems
+ 8) Data Preparation Using TSO

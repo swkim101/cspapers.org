@@ -1,0 +1,1 @@
+We prove that an ultrametric on <i>n</i> points can be embedded in <i>l<sup>d</sup><inf>p</inf></i> with distortion at most 1 + ε, and <i>d</i> = <i>O</i>(ε<sup>-2</sup> log <i>n</i>). This bound matches the best known bound for the special case of an equilateral space.

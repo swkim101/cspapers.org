@@ -1,0 +1,4 @@
+
+ 
+ Predicting links and their building time in a knowledge network has been extensively studied in recent years. Most structure-based predictive methods consider structures and the time information of edges separately, which fail to characterize the correlation between them. In this paper, we propose a structure called the Time-Difference-Labeled Path, and a link prediction method (TDLP). Experiments show that TDLP outperforms the state-of-the-art methods.
+ 

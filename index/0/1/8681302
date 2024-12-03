@@ -1,0 +1,1 @@
+Complex tasks consist of many threads of activity to remember and coordinate. Managing these threads is a significant part of problem solving. Our research attempts to find ways to assist this process. In this paper we present DETENTE, an object-oriented system to embed agendas in complex application interfaces.

@@ -1,0 +1,4 @@
+
+ 
+ In a heterogeneous multiagent system it can be useful to have knowledge about the different types of agents in the system. Agent modeling develops agent models based on interactions between agents, then predicts agent actions. This approach is effective in small domains but does not scale well. We develop an approach where an agent can learn using an abstract model identification or stereotype rather than an explicit and unique model for each agent. We associate each agent with a stereotype and learn a policy incorporating this knowledge. The benefits of this approach are that it is simple, scalable, and degrades gracefully with misidentification.
+ 

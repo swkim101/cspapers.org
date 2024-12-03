@@ -1,0 +1,5 @@
+We propose a translation approach from modal logics to first-order predicate logic which combines advantages from both, the (standard) relational translation and the (rather compact) functional translation method and avoids many of their respective disadvantages (exponential growth versus equality handling). 
+ 
+In particular in the application to serial modal logics it allows considerable simplifications such that often even a simple unit clause suffices in order to express the accessibility relation properties. 
+ 
+Although we restrict the approach here to first-order modal logic theorem proving it has been shown to be of wider interest, as e.g. sorted logic or terminological logic.

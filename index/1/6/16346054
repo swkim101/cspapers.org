@@ -1,0 +1,5 @@
+A program framework has been designed in which the linguistic facts and heuristics necessary for generating fluent natural language can be encoded. The linguistic data is represented in annotated procedures and data structures which are designed to make English translations of already formulated messages given in a primary program's internal representation. The messages must include the program's intentions in saying them, in order to adequately specify the grammatical operations required for a translation. 
+ 
+The pertinant questions in this research have been: what structure does natural language have that allows it to encode mutifaceted messages; and how must that structure be taken into account in the design of a generation facility for a computer program. 
+ 
+This paper describes the control and data structures of the design and and their motivation. It is a condensation of my Master's Thesis , to which the reader is retered for further information. Work is presently underway on implementing the design in LISP and developing a grammar for use in one or more of the domains given below.

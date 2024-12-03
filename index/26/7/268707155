@@ -1,0 +1,14 @@
+The creation of planning models, and in particular domain
+models, is among the last bastions of tasks that require exten-
+sive manual labor in AI planning; it is desirable to simplify
+this process for the sake of making planning more accessi-
+ble. To this end, we investigate whether large language mod-
+els (LLMs) can be used to generate planning domain models
+from textual descriptions. We propose a novel task for this
+as well as a means of automated evaluation for generated do-
+mains by comparing the sets of plans for domain instances.
+Finally, we perform an empirical analysis of 7 large language
+models, including coding and chat models across 9 different
+planning domains. Our results show that LLMs, particularly
+larger ones, exhibit some level of proficiency in generating
+correct planning domains from natural language descriptions

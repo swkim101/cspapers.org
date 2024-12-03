@@ -1,0 +1,3 @@
+This report describes an automated pattern-generating system in which input is a uniquely defined pattern (usually a printed circuit board) described in one of two ways:
+ 1. A drawing, which does not need to be to scale.
+ 2. A description in nonpictorial terms such as a list of line end points and land coordinates, an algorithmic statement such as “a set of twenty 5 - mil centers thirty inches long,” or other understandable and unique description.

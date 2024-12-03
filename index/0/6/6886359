@@ -1,0 +1,1 @@
+Software repositories are often based on object-oriented or relational databases, usually with extensions to accommodate the special requirements of software. Here, we discuss a software repository based on a structured text retrieval system, which avoids some of the limitations of previous approaches, including language dependence and poor scalability.

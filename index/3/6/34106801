@@ -1,0 +1,1 @@
+The Parsing and Learning System (PALS) is a massively parallel self-tuning context-free parser. It is capable of parsing sentences of unbounded length mainly due to its parse-tree representation scheme. The system is capable of improving its parsing performance through the presentation of training examples.

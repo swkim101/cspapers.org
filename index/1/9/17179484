@@ -1,0 +1,1 @@
+We give a variation of the pairing heaps for which the time bounds for all the operations match the lower bound proved by Fredman for a family of similar self-adjusting heaps. Namely, our heap structure requires O(1) for insert and findmin, O(log n) for delete-min, and O(log log n) for decrease-key and meld (all the bounds are in the amortized sense except for find-min).

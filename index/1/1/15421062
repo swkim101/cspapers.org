@@ -1,0 +1,1 @@
+Early design decisions concerning logic packages often make subsequent testing difficult. To minimize such problems, logic designers must maintain close communication with those responsible for testing the finished product. This paper explores a user-oriented system which enables the designer to recognize and correct testing problems in the early stages of design.

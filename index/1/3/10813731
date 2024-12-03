@@ -1,0 +1,4 @@
+
+ 
+ We examine the fundamental problem of background modeling which is to model the background scenes in video sequences and segment the moving objects from the background. A novel approach is proposed based on the Restricted Boltzmann Machine (RBM) while exploiting the temporal nature of the problem. In particular, we augment the standard RBM to take a window of sequential video frames as input and generate the background model while enforcing the background smoothly adapting to the temporal changes. As a result, the augmented temporally adaptive model can generate stable background given noisy inputs and adapt quickly to the changes in background while keeping all the advantages of RBMs including exact inference and effective learning procedure. Experimental results demonstrate the effectiveness of the proposed method in modeling the temporal nature in background.
+ 

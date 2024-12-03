@@ -1,0 +1,4 @@
+
+ 
+ Consider the situation where your favorite clustering algorithm applied to a data set returns a good clustering but there are a few undesirable properties. One adhoc way to fix this is to re-run the clustering algorithm and hope to find a better variation. Instead, we propose to not run the algorithm again but minimally modify the existing clustering to remove the undesirable properties. We formulate the minimal clustering modification problem where we are given an initial clustering produced from any algorithm. The clustering is then modified to: i) remove the undesirable properties and ii) be minimally different to the given clustering. We show the underlying feasibility sub-problem can be intractable and demonstrate the flexibility of our constraint programming formulation. We empirically validate its usefulness through experiments on social network and medical imaging data sets.
+ 

@@ -1,0 +1,6 @@
+Though the query is posted in key words, the returned results contain exactly the information that the user is querying for, which may not be explicitly specified in the input query.
+The required information is often not contained in the Web pages whose URLs are returned by a search engine. FACT is capable of navigating in the neighborhood of these pages to find those that really contain the queried segments.
+The system does not require a prior knowledge about users such as user profiles [1] or preprocessing of Web pages such as wrapper generation [2].
+
+A prototype system has been implemented using the approach. It learns and applies two types of knowledge, navigation knowledge for following hyperlinks and classification knowledge for queried segment identification. For learning, it supports three training strategies, namely sequential training, random training and interleaved training. Yahoo! is currently the external search engine. The URLs of Web pages returned by the external search engine are used in processing.
+ A set of experiments that are designed to evaluate the system, and compare different implementations, such as knowledge representations and training strategies.

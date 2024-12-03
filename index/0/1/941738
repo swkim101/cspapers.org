@@ -1,0 +1,2 @@
+We examine three ways of restricting the size (and shape) of the accepting computation trees of alternating Turing machines.
+ We continue study by examining bounds on the number of leaves in the tree (Section 3), the 'width' of the tree (Section 4), and the number of nodes at any level of the tree (Section 5). Each of these measures can be interpreted as a limit on the amount of parallelism permitted the computation.

@@ -1,0 +1,1 @@
+A layered approach to information retrieval permits the inclusion of multiple search engines as well as multiple databases, with a natural language layer to convert English queries for use by the various search engines. The NLP layer incorporates morphological analysis, noun phrase syntax, and semantic expansion based on Word-Net.

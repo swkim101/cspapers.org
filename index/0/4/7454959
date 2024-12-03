@@ -1,0 +1,1 @@
+The permutation routing problem is studied for trees under the matching model. By introducing a novel and useful (so-called) caterpillar tree partition, we prove that any permutation on an n-node tree (and thus graph) can be routed in $\frac{3}{2}n + O(\log n)$ steps. This answers an open problem of Alon, Chung, and Graham [ SIAM J. Discrete Math., 7 (1994), pp. 516--530].

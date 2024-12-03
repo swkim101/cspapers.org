@@ -1,0 +1,12 @@
+In many data mining exercises, we see information that appears on the surface to demonstrate a particular conclusion. But closer examination of the data reveals that these results are indeed misleading. In this session, we will examine this notion of misleading results in three areas:
+ Statistical Issues
+ Statistical issues such as multicollinearity and outliers can impact results dramatically. We will first outline how these statistical issues can provide misleading results. At the same time, we will demonstrate how the data mining practitioner overcomes these issues through data analysis approaches that provide both more meaningful and non-misleading results to the business community.
+ Overstating of Results
+ From a business standpoint, we will also look at results that appear to be too good to be true. In other words, there appears to be some overstating of results within a given data mining solution. Initially, we will discuss how to identify these situations. Secondly, we will outline what causes this overstatement of results and detail our approach on how we would overcome this predicament.
+ Overfitting
+ Another topic for discussion is overfitting of results. This is particularly the case when building predictive models. In this section of the seminar, we will define what overfitting is and why it is becoming more relevant for understanding by the business community. Once again, analytical approaches will be discussed in terms of how to best handle this issue.
+ We present two case studies that demonstrate how our principled 4-step approach can be used to solve challenging data mining problems. These 4 steps are as follows:
+ How to identify the problem
+ How we construct the right data environment to conduct our analytics
+ What kind of analytics are employed which include techniques such as correlation analysis, EDA reports, logistic regression, and gains charts. More importantly, we discuss how to interpret the output in terms of the actual impact to the business (i.e. increased response rate and ultimately increased ROI.)
+ How do we apply the learning to a future initiative and what were the actual results

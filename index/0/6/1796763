@@ -1,0 +1,1 @@
+DB2 provides native XML storage, indexing, navigation and query processing through both SQL/XML and XQuery using the XML data type introduced by SQL/XML. In this tutorial we focus on DB2's XML support for schema evolution, especially DB2's schema repository and document-level validation.

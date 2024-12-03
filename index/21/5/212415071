@@ -1,0 +1,1 @@
+We present a simple analysis of k-means|| (Bahmani et al., PVLDB 2012) -- a distributed variant of the k-means++ algorithm (Arthur and Vassilvitskii, SODA 2007). Moreover, the bound on the number of rounds is improved from $O(\log n)$ to $O(\log n / \log\log n)$, which we show to be tight.

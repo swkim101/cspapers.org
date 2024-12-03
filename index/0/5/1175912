@@ -1,0 +1,1 @@
+Local competition among neighboring neurons is common in biological neural networks (NNs). In this paper, we apply the concept to gradient-based, backprop-trained artificial multilayer NNs. NNs with competing linear units tend to outperform those with non-competing nonlinear units, and avoid catastrophic forgetting when training sets change over time.

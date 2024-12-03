@@ -1,0 +1,44 @@
+The papers in these Proceedings were presented at the Eighteenth ACM Conference on Economics and Computation (EC'17), held between June 26 and 30, 2017, at MIT in Cambridge, Massachusetts, USA. Since 1999 the ACM Special Interest Group on Electronic Commerce (SIGecom) has sponsored EC, the leading scientific conference on advances in theory, systems, and applications at the interface of economics and computation, including applications to electronic commerce. 
+ 
+The program committee has selected 75 papers from among 257 submissions that were received by February 13, 2017. Paper submissions were invited in the following three non-exclusive focus areas: 
+TF: Theory and Foundations 
+AI: Artificial Intelligence and Applied Game Theory 
+EEA: Experimental, Empirical, and Applications 
+ 
+ 
+ 
+The call for papers attracted 257 distinct submissions. Each paper was reviewed by at least three program committee members and two senior program committee members on the basis of significance, scientific novelty, technical quality, readability, and relevance to the conference. Following the tradition of recent iterations of the conference, the authors were asked to align their submission with one or two of the tracks. The next table summarizes the number of submissions and the number of accepted papers for each possible combination of tracks. 
+ 
+Out of the 75 accepted papers, 35 papers are published in these Proceedings. For the remaining 40 papers, at the authors' request, only abstracts are included along with pointers to full working papers that the authors guarantee to be reliable for at least two years. This option accommodates the practices of fields outside of computer science in which conference publishing can preclude journal publishing. We expect that many of the papers in these Proceedings will appear in a more polished and complete form in scientific journals in the future. 
+ 
+Papers were presented in two parallel sessions, with the exception of a plenary session with talks for the following award-winners: 
+SIGecom Best Paper Award: Combinatorial Cost Sharing, by Shahar Dobzinski and Shahar Ovadia 
+SIGecom Doctoral Dissertation Award, by Peng Shi 
+ 
+A separate SIGecom Best Paper with a Student Lead Author Award was not given as the SIGecom Best Paper Award was given to a paper that has a student lead author. 
+ 
+To emphasize commonalities among the problems studied at EC, and to facilitate interchange at the conference, sessions were organized by topic rather than by focus area, and no indication of a paper's focus area(s) was given at the conference or appears in these proceedings. 
+ 
+EC'17 featured the following invited plenary talks: 
+Graphons: A Nonparametric Method to Model, Estimate, and Design Algorithms for Massive Networks, by Jennifer Chayes (Microsoft Research) 
+Fair Algorithms for Machine Learning, by Michael Kearns (University of Pennsylvania) 
+ACM SIGecom Test of Time Award: Truth Revelation in Approximately Efficient Combinatorial Auctions, by Daniel Lehmann, Liadan Ita O'Callaghan and Yoav Shoham (ACM EC 1999, Journal of the ACM 2002) 
+ 
+ 
+ 
+In addition to the main technical program, EC'17 also featured four workshops: 
+The 3rd Workshop on Algorithmic Game Theory and Data Science. Organizers: Jean Honorio, Denis Nekipelov, Renato Paes Leme, Yaron Singer, Vasilis Syrgkanis, and Elie Tamer 
+Workshop on Mechanism Design for Social Good. Organizers: Rediet Abebe and Kira Goldner 
+The 12th Workshop on the Economics of Networks, Systems and Computation (NetEcon) PC Chairs: Vincent Conitzer and Roche Guerin 
+Forecasting Workshop. Organizers: Rafael Frongillo, David Rothschild, and Bo Waggoner 
+ 
+ 
+ 
+five tutorials: 
+Advances in Game Theory for Security and Privacy, presented by Bo An, Fei Fang, and Yevgeniy Vorobeychik 
+An information Theoretical View of Information Elicitation Mechanisms, presented by Yuqing Kong and Grant Schoenebeck 
+Bargaining, Trading, and Coordination in Networks: Theory and Challenges, presented by Benjamin Golub 
+Incentivizing and Coordinating Exploration, presented by Robert Kleinberg and Aleksandrs Slivkins 
+Pricing in Combinatorial Markets: Equilibria and Prophet Inequalities, presented by Michal Feldman and Brendan Lucier 
+ 
+as well as a poster session in which 30 posters were presented.

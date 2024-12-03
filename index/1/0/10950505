@@ -1,0 +1,4 @@
+
+ 
+ This paper proposes approaches to automatically createa large number of new bilingual dictionaries for low resource languages, especially resource-poor and endangered languages, from a single input bilingual dictionary. Our algorithms produce translations of wordsin a source language to plentiful target languages using available Wordnets and a machine translator (MT). Since our approaches rely on just one input dictionary, available Wordnets and an MT, they are applicable toany bilingual dictionary as long as one of the two languagesis English or has a Wordnet linked to the Princeton Wordnet. Starting with 5 available bilingual dictionaries,we create 48 new bilingual dictionaries. Of these, 30 pairs of languages are not supported by the popular MTs: Google and Bing.
+ 

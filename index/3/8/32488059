@@ -1,0 +1,4 @@
+
+ 
+ In the Hierarchical Temporal Memory (HTM) paradigm the effect of overlap between inputs on the activation of columns in the spatial pooler is studied. Numerical results suggest that similar inputs are represented by similar sets of columns and dissimilar inputs are represented by dissimilar sets of columns. It is shown that the spatial pooler produces these results under certain conditions for the connectivity and proximal thresholds at initialization. Qualitative arguments about the learning dynamics of the spatial pooler are then discussed.
+ 

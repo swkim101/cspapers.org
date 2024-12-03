@@ -1,0 +1,15 @@
+Cutting-plane methods have enabled remarkable successes in integer
+programming over the last few decades. State-of-the-art solvers integrate a
+myriad of cutting-plane techniques to speed up the underlying tree-search
+algorithm used to find optimal solutions. In this paper we prove the first
+guarantees for learning high-performing cut-selection policies tailored to the
+instance distribution at hand using samples. We first bound the sample
+complexity of learning cutting planes from the canonical family of
+Chv\'atal-Gomory cuts. Our bounds handle any number of waves of any number of
+cuts and are fine tuned to the magnitudes of the constraint coefficients. Next,
+we prove sample complexity bounds for more sophisticated cut selection policies
+that use a combination of scoring rules to choose from a family of cuts.
+Finally, beyond the realm of cutting planes for integer programming, we develop
+a general abstraction of tree search that captures key components such as node
+selection and variable selection. For this abstraction, we bound the sample
+complexity of learning a good policy for building the search tree.

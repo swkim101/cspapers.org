@@ -1,0 +1,1 @@
+A database containing some incomplete information is viewed as a set of possible states of the real world. The semantics of updates is given based on simple set operations on the set of states. Some basic results concerning the capabilities of known models of incomplete databases to handle updates are exhibited.

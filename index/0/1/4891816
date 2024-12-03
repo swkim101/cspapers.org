@@ -1,0 +1,4 @@
+
+ 
+ Markov Chains are a fundamental tool for the analysis of real world phenomena and randomized algorithms. Given a graph with some specified sink nodes and an initial probability distribution,we consider the problem of designing an absorbing Markov Chain that minimizes the time required to reach a sink node, by selecting transition probabilities subject to some natural regularity constraints. By exploiting the Markovian structure, we obtain closed form expressions for the objective function as well as its gradient, which can be thus evaluated efficiently without any simulation of the underlying process and fed to a gradient-based optimization package. For the special case of designing reversible Markov Chains, we show that global optimum can be efficiently computed by exploiting convexity. We demonstrate how our method can be used for the evaluation and design of local search methods tailored for certain domains.
+ 

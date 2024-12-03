@@ -1,0 +1,4 @@
+
+ 
+ Social influence has been widely accepted to explain people's cascade behaviors and further utilized in many related applications. However, few of existing work studied the direct, microscopic and temporal impact of social influence on people's behaviors in detail. In this paper we concentrate on the behavior modeling and systematically formulate the family of behavior propagation models (BPMs) including the static models (BP and IBP), and their discrete temporal variants (DBP and DIBP). To address the temporal dynamics of behavior propagation over continuous time, we propose a continuous temporal interest-aware behavior propagation model, called CIBP. As a new member of the BPM family, CIBP exploits the continuous-temporal functions (CTFs) to model the fully-continuous dynamic variance of social influence over time. Experiments on real-world datasets evaluated the family of BPMs and demonstrated the effectiveness of our proposed approach.
+ 

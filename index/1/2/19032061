@@ -1,0 +1,4 @@
+
+ 
+ The problem of planning or discrete control for timed system has earlier been solved with various constraint-based solution methods, including Constraint Programming, SAT solvers, SAT modulo Theories solvers, and Mixed Integer-Linear Programming. In this work we investigate the encoding of time in such constraint-based representations. A main issue with existing encodings is the necessity to allow arbitrary interleavings of concurrent actions' starting and ending times. The complex combinatorics of this can lead to poor scalability of leading search methods. We show how real or rational time in temporal models can in many practically important cases be replaced by integer time, and how this leads to far simpler encodings of planning as constraints. We demonstrate that the simplified encodings substantially improve the scalability of constraint-based planning.
+ 

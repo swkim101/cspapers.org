@@ -1,0 +1,1 @@
+The paper is about video QA. It utilizes SRL partitioning to improve multi-step attention and reasoning of the models to attend to different frames for different parts of the question.

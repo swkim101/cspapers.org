@@ -1,0 +1,3 @@
+Language learning and language use play central roles in problem-solving. It is argued here that a rigidly built-in language will not serve the needs of problem-solving. To use language as significantly as in human problem-solving it is necessary to design language processors specially suited to the task. The procesBoi should use language as a medium for describing situations so that their similarities are recognized. Recognition of such similarity would enable the system to respond to new situations with forms of response known to be appropriate in similar, familiar situations. 
+ 
+The design and implementation of a problem-solving system based on this principle are described. This system exhibits some capability to learn and use a language, and to solve problems.

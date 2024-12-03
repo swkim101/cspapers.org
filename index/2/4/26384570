@@ -1,0 +1,1 @@
+We develop a descriptive method to estimate the impact of ad impressions on commercial actions dynamically without tracking cookies. We analyze 2,885 campaigns for 1,251 products from the Advertising.com ad network. We compare our method with A/B testing for 2 campaigns, and with a public synthetic dataset.

@@ -1,0 +1,4 @@
+
+ 
+ We study probabilistic variants of the description logic EL. For the case where probabilities apply only to concepts, we provide a careful analysis of the borderline between tractability and ExpTime-completeness. One outcome is that any probability value except zero and one leads to intractability in the presence of general TBoxes, while this is not the case for classical TBoxes. For the case where probabilities can also be applied to roles, we show PSpace-completeness. This result is (positively) surprising as the best previously known upper bound was 2-ExpTime and there were reasons to believe in completeness for this class.
+ 

@@ -1,0 +1,5 @@
+We consider the maximum independent set problem on sparse graphs with maximum degree d. The best known result for the problem is an SDP based O(d log log d/log d) approximation due to Halperin. It is also known that no o(d/log2 d) approximation exists assuming the Unique Games Conjecture. We show the following two results: 
+ 
+(i) The natural LP formulation for the problem strengthened by O(log4(d)) levels of the mixed-hierarchy has an integrality gap of O(d/log2 d), where O(·) ignores some log log d factors. However, our proof is non-constructive, in particular it uses an entropy based approach due to Shearer, and does not give a O(d/log2 d) approximation algorithm with sub-exponential running time. 
+ 
+(ii) We give an O(d/log d) approximation based on polylog(d)-levels of the mixed hierarchy that runs in nO(1) exp(logO(1) d) time, improving upon Halperin's bound by a modest log log d factor. Our algorithm is based on combining Halperin's approach together with an idea used by Ajtai, Erdos, Komlos and Szemeredi to show that Kr-free, degree-d graphs have independent sets of size Ωr(n log log d/d).

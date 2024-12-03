@@ -1,0 +1,1 @@
+Givenn points in the Euclidean plane, we consider the problem of finding the minimum tree spanning anyk points. The problem isNP-hard and we give anO(logk)-approximation algorithm.

@@ -1,0 +1,4 @@
+
+ 
+ We introduce a roommate market model, in which 2n people need to be assigned to n rooms, with two people in each room. Each person has a valuation to each room, as well as a valuation to each of other people as a roommate. Each room has a rent shared by the two people living in the room, and we need to decide who live together in which room and how much each should pay. Various solution concepts on stability and envy-freeness are proposed, with their existence studied and the computational complexity of the corresponding search problems analyzed. In particular, we show that maximizing the social welfare is NP-hard, and we give a polynomial time algorithm that achieves at least 2/3 of the maximum social welfare. Finally, we demonstrate a pricing scheme that can achieve envy-freeness for each room.
+ 

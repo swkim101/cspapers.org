@@ -1,0 +1,2 @@
+RasDaMan is a universal — i.e., domain-independent — array DBMS for multidimensional arrays of arbitrary size and structure. A declarative, SQL-based array query language offers flexible retrieval and manipulation. Efficient server-based query evaluation is enabled by an intelligent optimizer and a streamlined storage architecture based on flexible array tiling and compression.
+RasDaMan is being used in several international projects for the management of geo and healthcare data of various dimensionality.

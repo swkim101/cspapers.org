@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we solve cooperative decentralized stochastic planning problems, where the interactions between agents (specified using transition and reward functions) are dependent on the number of agents (and not on the identity of the individual agents) involved in the interaction. A collision of robots in a narrow corridor, defender teams coordinating patrol activities to secure a target, etc. are examples of such anonymous interactions. Formally, we consider problems that are a subset of the well known Decentralized MDP (DEC-MDP) model, where the anonymity in interactions is specified within the joint reward and transition functions. In this paper, not only do we introduce a general model model called D-SPAIT to capture anonymity in interactions, but also provide optimization based optimal and local-optimal solutions for generalizable sub-categories of D-SPAIT.
+ 

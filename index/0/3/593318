@@ -1,0 +1,4 @@
+
+ 
+ Successive elimination of candidates is often a route to making manipulation intractable to compute. We prove that eliminating candidates does not necessarily increase the computational complexity of manipulation. However, for many voting rules used in practice, the computational complexity increases. For example, it is already known that it is NP-hard to compute how a single voter can manipulate the result of single transferable voting (the elimination version of plurality voting). We show here that it is NP-hard to compute how a single voter can manipulate the result of the elimination version of veto voting, of the closely related Coombs’ rule, and of the elimination versions of a general class of scoring rules.
+ 

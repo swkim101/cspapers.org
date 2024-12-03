@@ -1,0 +1,3 @@
+This paper describes MERLIN, the British Library's national bibliographic information retrieval system. It describes the functions performed by the system and the users for whom it is intended. In particular it outlines the main problems associated with bibliographic data for a national library. 
+ 
+The logical design of the database is discussed with particular reference to the space economy necessary for a database of 3 million items. A highly shared structure, which allows flexibility as well as economy of storage, is proposed. Methods of access, authority handling and creation of private views are given.

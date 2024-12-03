@@ -1,0 +1,2 @@
+The authors propose a three valued model for temporal simulation of logic system. This model is well suited for analysis of hazards and high frequency rejection phenomenas.
+ By using a new temporal model, we avoid backtracking or anticipation techniques (generally used in other models) and allow very simple implementation. The model and the mains algorithms are presented in detail in the paper and some examples including hazards are given.

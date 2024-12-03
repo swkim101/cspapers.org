@@ -1,0 +1,4 @@
+
+ 
+ Zero-shot Recognition (ZSR) is to learn recognition models for novel classes without labeled data. It is a challenging task and has drawn considerable attention in recent years. The basic idea is to transfer knowledge from seen classes via the shared attributes. This paper focus on the transductive ZSR, i.e., we have unlabeled data for novel classes. Instead of learning models for seen and novel classes separately as in existing works, we put forward a novel joint learning approach which learns the shared model space (SMS) for models such that the knowledge can be effectively transferred between classes using the attributes. An effective algorithm is proposed for optimization. We conduct comprehensive experiments on three benchmark datasets for ZSR. The results demonstrates that the proposed SMS can significantly outperform the state-of-the-art related approaches which validates its efficacy for the ZSR task.
+ 

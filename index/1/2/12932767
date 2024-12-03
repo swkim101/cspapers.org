@@ -1,0 +1,4 @@
+
+ 
+ We propose a simple multi-pass sieve framework that applies tiers of deterministic normalization modules one at a time from highest to lowest precision for the task of normalizing names. While a sieve based architecture has been shown effective in coreference resolution, it has not yet been applied to the normalization task. We find that even in this task, the approach retains its characteristic features of being simple, and highly modular. In addition, it also proves robust when evaluated on two different kinds of data: clinical notes and biomedical text, by demonstrating high accuracy in normalizing disorder names found in both datasets.
+ 

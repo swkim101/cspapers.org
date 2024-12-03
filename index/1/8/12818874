@@ -1,0 +1,4 @@
+
+ 
+ Much of opinion mining research focuses on product reviews because reviews are opinion-rich and contain little irrelevant information. However, this cannot be said about online discussions and comments. In such postings, the discussions can get highly emotional and heated with many emotional statements, and even personal attacks. As a result, many of the postings and sentences do not express positive or negative opinions about the topic being discussed. To find people’s opinions on a topic and its different aspects, which we call evaluative opinions, those irrelevant sentences should be removed. The goal of this research is thus to identify evaluative opinion sentences. A novel unsupervised approach is proposed to solve the problem, and our experimental results show that it performs well.
+ 

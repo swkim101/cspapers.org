@@ -1,0 +1,1 @@
+Our English-Chinese cross-language IR system is trained from parallel corpora; we investigate its performance as a function of training corpus size for three different training corpora. We find that the performance of the system as trained on the three parallel corpora can be related by a simple measure, namely the out-of-vocabulary rate of query words.

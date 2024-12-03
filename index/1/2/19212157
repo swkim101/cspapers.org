@@ -1,0 +1,4 @@
+
+ 
+ There has been substantial work in recent years on grounded language acquisition, in which language and sensor data are used to create a model relating linguistic constructs to the perceivable world. While powerful, this approach is frequently hindered by ambiguities, redundancies, and omissions found in natural language. We describe an unsupervised system that learns language by training visual classifiers, first selecting important terms from object descriptions, then automatically choosing negative examples from a paired corpus of perceptual and linguistic data. We evaluate the effectiveness of each stage as well as the system's performance on the overall learning task.
+ 

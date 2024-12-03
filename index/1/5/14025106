@@ -1,0 +1,1 @@
+We describe a mechanism for subsampling sequences and show how to compute its expected output so that it can be trained with standard backpropagation. We test this approach on a simple toy problem and discuss its shortcomings.

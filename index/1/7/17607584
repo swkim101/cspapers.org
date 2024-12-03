@@ -1,0 +1,1 @@
+In this paper, we apply the load sharing (LS) mechanism proposed in [1, 2] to HARTS, an experimental distributed realtime system [3] currently being built at the Real-Time Computing Laboratory of the University of Michigan.

@@ -1,0 +1,1 @@
+In this paper we describe a morphological analysis method based on a maximum entropy model. This method uses a model that can not only consult a dictionary with a large amount of lexical information but can also identify unknown words by learning certain characteristics. The model has the potential to overcome the unknown word problem.

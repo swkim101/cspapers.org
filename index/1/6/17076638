@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we discuss a computational approach to the cognitivetask of social planning. First, we specify a class of planningproblems that involve an agent who attempts to achieve its goalsby altering other agents' mental states. Next, we describe SFPS,a flexible problem solver that generates social plans of this sort,including ones that include deception and reasoning about otheragents' beliefs. We report the results for experiments on socialscenarios that involve different levels of sophistication and thatdemonstrate both SFPS's capabilities and the sources of its power.Finally, we discuss how our approach to social planning has beeninformed by earlier work in the area and propose directions foradditional research on the topic.
+ 

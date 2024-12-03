@@ -1,0 +1,1 @@
+YNET is a software package that simulates a computer network and has been used to support an undergraduate course in networking. Access to the simulated network is through a network adapter card modeled by the software. This software runs under a BSD-based UNIX operating system and is used to implement a simplified network that uses the TCP/IP protocol suite.

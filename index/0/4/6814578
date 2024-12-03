@@ -1,0 +1,21 @@
+The well-known Erdos-Posa theorem says that for any integer k and any graph G, either G contains k vertex-disjoint cycles or a vertex set X of order at most c·k log k (for some constant c) such that G - X is a forest. Thomassen [39] extended this result to the even cycles, but on the other hand, it is well-known that this theorem is no longer true for the odd cycles. However, Reed [31] proved that this theorem still holds if we relax k vertex-disjoint odd cycles to k odd cycles with each vertex in at most two of them. These theorems initiate many researches in both graph theory and theoretical computer science. 
+ 
+In the graph theory side, our problem setting is that we are given a graph and a vertex set S, and we want to extend all the above results to cycles that are required to go through a subset of S, i.e., each cycle contains at least one vertex in S (such a cycle is called an S-cycle). It was shown in [20] that the above Erdos-Posa theorem still holds for this subset version. In this paper, we extend both Thomassen's result and Reed's result in this way. 
+ 
+In the theoretical computer science side, we investigate generalizations of the following well-known problems in the framework of parameterized complexity: the feedback set problem and the cycle packing problem. Our purpose here is to consider the following problems: the feedback set problem with respect to the S-cycles, and the S-cycle packing problem. 
+ 
+We give the first fixed parameter algorithms for the two problems. Namely; 
+ 
+1. For fixed k, we can either find a vertex set X of size k such that G -- X has no S-cycle, or conclude that such a vertex set does not exist in O(n2m) time (independently obtained in [7]). 
+ 
+2. For fixed k, we can either find k vertex-disjoint S-cycles, or conclude that such k disjoint cycles do not exist in O(n2m) time. 
+ 
+We also extend the above results to those with the parity constraints as follows; 
+ 
+1. For a parameter k, there exists a fixed parameter algorithm that either finds a vertex set X of size k such that G -- X has no even S-cycle, or concludes that such a vertex set does not exist. 
+ 
+2. For a parameter k, there exists a fixed parameter algorithm that either finds a vertex set X of size k such that G -- X has no odd S-cycle, or concludes that such a vertex set does not exist. 
+ 
+3. For a parameter k, there exists a fixed parameter algorithm that either finds k vertex-disjoint even S-cycles, or concludes that such k disjoint cycles do not exist. 
+ 
+4. For a parameter k, there exists a fixed parameter algorithm that either finds k odd S-cycles with each vertex in at most two of them, or concludes that such k cycles do not exist.

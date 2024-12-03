@@ -1,0 +1,4 @@
+This paper focuses on the concurrency control problem for a distributed database system. A new control philosophy called hierarchical processing structure is proposed. Two different types of the consistency are clearly defined, and the hierarchical processing structure is derived from these consistency types. This structure provides the following features;
+ 1) The centralization of processing load on a particular site can be avoided.
+ 2) Two distinct types of updating mechanism are defined according to two aspects of data consistency.
+ 3) A comprehensible philosophy for the concurrency control is established.

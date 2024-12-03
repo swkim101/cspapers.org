@@ -1,0 +1,3 @@
+Nowadays web database applications are used by a large audience due to the public use of the Internet. Consequently, backend database servers are overloaded, thus resulting in a response time increase for their users. In addition, these applications are characterized by their rapidly changing dynamic contents. Therefore, a dynamic-content based cache is needed to increase the performance of the backend database servers. 
+ 
+This paper reports on our implementation and performance evaluation experiments of a dynamic-content based database cache to scale a backend database server. Our experiments and performance evaluation show the advantages of a dynamic-content cache for database applications.

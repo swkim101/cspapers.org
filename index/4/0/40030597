@@ -1,0 +1,4 @@
+
+ 
+ The overarching goal of music theory is to explain the inner workings of a musical composition by examining the structure of the composition. Schenkerian music theory supposes that Western tonal compositions can be viewed as hierarchies of musical objects. The process of Schenkerian analysis reveals this hierarchy by identifying connections between notes or chords of a composition that illustrate both the small- and large-scale construction of the music. We present a new probabilistic model of this variety of music analysis, details of how the parameters of the model can be learned from a corpus, an algorithm for deriving the most probable analysis for a given piece of music, and both quantitative and human-based evaluations of the algorithm's performance. This represents the first large-scale data-driven computational approach to hierarchical music analysis.
+ 

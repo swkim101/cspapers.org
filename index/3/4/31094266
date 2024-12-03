@@ -1,0 +1,1 @@
+Document retrieval system models are presented. Measures to rank the closeness of documents to a query are given. Algorithms to calculate the measures for graph and partition models are provided.

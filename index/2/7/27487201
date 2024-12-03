@@ -1,0 +1,1 @@
+We give a new proof of completeness for the linear-time μ-calculus w.r.t. Kozens's axiomatization. Our proof has the advantage of being constructive, i.e., it builds a proof for every valid formula.

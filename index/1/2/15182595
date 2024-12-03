@@ -1,0 +1,1 @@
+The poor performance of TCP over wireless and lossy links has hindered its use in low power networks. The Low Power Wireless Bus (LWB) offers high reliable and low latency communication in IEEE 802.15.4 networks. In this paper, we argue that TCP can be used to provide reliable connectivity between sensor nodes in an LWB-based sensor network and external Internet hosts.

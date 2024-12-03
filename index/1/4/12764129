@@ -1,0 +1,5 @@
+This paper gives a brief description of the speech understanding effort under Development at the Univ. of Toronto. The main purpose so far has been to produce a base from which further research into the "higher levels" of speech understanding (semantics, pragmatics, user models, syntax) may build on. 
+ 
+Some features of interest in this system are the syllable based pattern recognition, the dynamic reclassification of the input signal according to expectations, interactive pattern formation, dictionary retrieval by sound characteristics and finally, the use of an Augmented Transition Network grammar with a co-routine parsing scheme which can be guided by prosodic and semantic information. 
+ 
+Most of the emphasis in the paper is placed on the co-routine parsing scheme which is illustrated with a detailed example.

@@ -1,0 +1,4 @@
+
+ 
+ Across the globe, people are voicing their opinion in social media and various other online fora. Given such data, modern deep learning-based sentiment analysis methods excel at determining the sentiment polarity of what is being said about companies, products, etc. Unfortunately, such deep methods require significant training data, while for many languages, resources and training data are scarce. In this work, we present a cross-lingual propagation algorithm that yields sentiment embedding vectors for numerous languages. We then rely on a dual-channel convolutional neural architecture to incorporate them into the network. This allows us to achieve gains in deep sentiment analysis across a range of languages and domains.
+ 

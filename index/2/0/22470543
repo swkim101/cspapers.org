@@ -1,0 +1,3 @@
+As shown in [1], we examine search as a statistic sampling process. Based on some statistical inference method the probability that a subtree in search tree contains the goal can be decided. Thus some weight is in tentionaly added to the evaluation function of those nodes which are unlikely in the solution path so that the search will concentrate on the most promising path. It results in a new weighted algorithm-WSA. 
+ 
+Tn a uniform m-ary tree, we show that a goal can be found by WSA in the polynomial time, although the computational complexity of A (or A*) may be O(e) for searching the same space. Where N is the depth at which the goal is located.

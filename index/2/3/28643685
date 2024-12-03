@@ -1,0 +1,4 @@
+
+ 
+ Planning in hybrid systems has been gaining research interest in the Artificial Intelligence community in recent years. Hybrid systems allow for a more accurate representation of real world problems, though solving them is very challenging due to complex system dynamics and a large model feature set. We developed DiNo, a new planner designed to tackle problems set in hybrid domains.DiNo is based on the discretise and validate approach and uses the novel Staged Relaxed Planning Graph+ (SRPG+) heuristic.
+ 

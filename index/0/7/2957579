@@ -1,0 +1,1 @@
+We are interested in the complexity of solving the knapsack problem with n input real numbers on a parallel computer with real arithmetic and branching operations. A processor-time tradeoff constraint is derived; in particular, it is shown that an exponential number of processors have to be used if the problem is to be solved in time t ≤ @@@@n/2.

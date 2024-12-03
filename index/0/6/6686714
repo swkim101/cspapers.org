@@ -1,0 +1,4 @@
+
+ 
+ Advice giving has been long explored in artificial intelligence to build robust learning algorithms. We consider advice giving in relational domains where the noise is systematic. The advice is provided as logical statements that are then explicitly considered by the learning algorithm at every update. Our empirical evidence proves that human advice can effectively accelerate learning in noisy structured domains where so far humans have been merely used as labelers or as designers of initial structure of the model.
+ 

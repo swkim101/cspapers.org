@@ -1,0 +1,4 @@
+
+ 
+ Several heuristic search algorithms such as A* and breadth-first branch and bound have been developed for learning Bayesian network structures that optimize a scoring function. These algorithms rely on a lower bound function called k-cycle conflict heuristic in guiding the search to explore the most promising search spaces. The heuristic takes as input a partition of the random variables of a data set; the importance of the partition opens up opportunities for further research. This work introduces a new partition method based on information extracted from the potential optimal parent sets (POPS) of the variables. Empirical results show that the new partition can significantly improve the efficiency and scalability of heuristic search-based structure learning algorithms.
+ 

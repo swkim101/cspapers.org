@@ -1,0 +1,1 @@
+A distance oracle is a compact data structure capable of quickly estimating distances in a given graph. In this paper we provide a new construction for distance oracles in general undirected weighted graphs. Our data structure, for any integer k, requires O( n1+1/k) space, guarantees a stretch of 2k-1, and answers any query in only O(1) time.

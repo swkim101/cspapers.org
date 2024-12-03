@@ -1,0 +1,1 @@
+Many tasks in probabilistic reasoning can be cast as max-sum-product problems, a hard class of combinatorial problems. We describe our results in obtaining a new approximation scheme for the problem, that can be turned into an anytime procedure. For many tasks, this scheme can be shown to be asymptotically the best possible heuristic.

@@ -1,0 +1,1 @@
+Recently, Alencar et al. proposed a private-key encryption scheme based on the use of burst-error-correcting codes. After that, Campello de Souxa et al. implemented Alencar et al.‘s scheme by array codes which is a class of burst-error-correcting codes. In this paper, we will show that these two schemes are insecure against chosen plaintext attacks.

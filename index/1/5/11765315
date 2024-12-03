@@ -1,0 +1,4 @@
+
+ 
+ Cognitive architectures investigate the components and interactions neccessary for construction of an intelligent system. Despite much progress and theory, implementations of architectures are rare. This research presents a novel cognitive architecture grounded in the design of a control system for an autonomous rescue robot. Experiments are conducted in high-fidelity 3D simulation of a rescue environment based on NISTs RoboCup Rescue.
+ 

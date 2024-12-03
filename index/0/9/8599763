@@ -1,0 +1,4 @@
+
+ 
+ Online forums contain valuable human-generated information. End-users looking for information would like to find only those threads in forums where relevant information is present. Due to the distinctive characteristics of forum pages from generic web pages, special techniques are required to organize and search for information in these forums. Threads and pages in forums are different from other webpages in their hyperlinking patterns. Forum posts also have associated social and non-textual metadata. In this paper, we propose a model for online thread retrieval based on inference networks that utilizes the structural properties of forum threads. We also investigate the effects of incorporating various relevance indicators in our model. We empirically show the effectiveness of our proposed model using real-world data.
+ 

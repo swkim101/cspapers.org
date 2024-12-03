@@ -1,0 +1,5 @@
+This paper is concerned with protection of information in relational databases from disclosure to properly identified users. It is assumed that the only means of access to the database is through a relational query language. 
+ 
+The objective of the paper is to formalize the notion of protection. We first describe the information content of the database by a set of propositions and their truth values. The objects to be protected are (the truth values of) certain propositions that have been declared confidential. A query violates a protected proposition if its answer modifies the knowledge of tHe user about (the truth value of) this proposition. 
+ 
+Following this approach, we propose a model for evaluating protection systems. In this model a protection system is characterized by the type of queries it takes as its input, the type of data it can protect, the means of protection against queries (e.g. rejection or modification) and the type of protection it provides (e.g., total protection, partial protection, protection against user's inference). Some examples of the use of the model as a tool for analysis are given.

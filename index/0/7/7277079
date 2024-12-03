@@ -1,0 +1,1 @@
+This paper shows that a class of Combinatory Categorial Grammars (CCGs) augmented with a linguistically-motivated form of type raising involving variables is weakly equivalent to the standard CCGs not involving variables. The proof is based on the idea that any instance of such a grammar can be simulated by a standard CCG.

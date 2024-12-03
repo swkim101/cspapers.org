@@ -1,0 +1,7 @@
+Mhz is a portable ANSI/C program that determines the processor clock speed in a platform independent way. It measures the execution time of several different C expressions and finds the greatest common divisor to determine the duration of a single clock tick. 
+ 
+Mhz can be used by anyone who wants or needs to know the processor clock speed. In large installations it is often easier to experimentally determine the clock speed of a given machine than to keep track of each computer. For example, a platform-independent database system optimizer may use the clock speed while calculating the performance tradeoffs of various optimization techniques. 
+ 
+To run the benchmark long enough for timing to be accurate, mhz executes each expression in a loop. To minimize the loop overhead the expression is repeated a hundred times. Unfortunately, repetition enables many hardware and compiler optimizations that can have surprising effects on the experimental results. While writing mhz, much of the intellectual effort went into the design of expressions that minimize the opportunities for compiler and hardware optimization. 
+ 
+Mhz utilizes lmbench 2.0's new timing harness, which manages the benchmarking process. The harness automatically adjusts the benchmark to minimize run time while preserving accuracy, determines the necessary timing duration to get accurate results from the system clock, and measures and accounts for both loop overhead and measurement overhead. It is used throughout lmbench 2.0 and can be used to measure the performance of other applications.

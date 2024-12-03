@@ -1,0 +1,9 @@
+We evaluate transfer representation-learning for 
+anomaly detection using convolutional neural 
+networks by: (i) transfer learning from pretrained 
+networks, and (ii) transfer learning from 
+an auxiliary task by defining sub-categories of 
+the normal class. We empirically show that both 
+approaches offer viable representations for the 
+task of anomaly detection, without explicitly imposing 
+a prior on the data.

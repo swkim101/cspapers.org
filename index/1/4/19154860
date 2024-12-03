@@ -1,0 +1,4 @@
+
+ 
+ Automatic detection of persuasion in online discussion is key to understanding how social media is used. Predicting persuasiveness is difficult, however, due to the need to model world knowledge, dialogue, and sequential reasoning. We focus on modeling the sequence of arguments in social media posts using neural models with embeddings for words, discourse relations, and semantic frames. We demonstrate significant improvement over prior work in detecting successful arguments. We also present an error analysis assessing novice human performance at predicting persuasiveness.
+ 

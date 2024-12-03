@@ -1,0 +1,4 @@
+
+ 
+ We present a ping-pong-playing robot that learns to improve its swings with human advice. Our method learns a reward function over the joint space of task and policy parameters T×P, so the robot can explore policy space more intelligently in a way that trades off exploration vs. exploitation to maximize the total cumulative reward over time. Multimodal stochastic polices can also easily be learned with this approach when the reward function is multimodal in the policy parameters. We extend the recently-developed Gaussian Process Bandit Optimization framework to include exploration-bias advice from human domain experts, using a novel algorithm called Exploration Bias with Directional Advice (EBDA).
+ 

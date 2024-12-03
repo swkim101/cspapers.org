@@ -1,0 +1,4 @@
+
+ 
+ Modularity is an essential aspect of knowledge representation theory and practice. It has received substantial attention. We introduce model-based modular systems, an abstract framework for modular knowledge representation formalisms, similar in scope to multi-context systems but employing a simpler information-flow mechanism. We establish the precise relationship between the two frameworks, showing that they can simulate each other. We demonstrate that recently introduced modular knowledge representation formalisms integrating logic programming with satisfiability and, more generally, with constraint satisfaction can be cast as modular systems in our sense. These results show that our formalism offers a simple unifying framework for studies of modularity in knowledge representation.
+ 

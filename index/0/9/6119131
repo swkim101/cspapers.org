@@ -1,0 +1,3 @@
+A practically feasible modification to fixed-priority schedulers allows to avoid timing channels despite threads having access to precise clocks.
+ This modification is rather simple: we compute at admission time a static predicate that states whether a thread may possibly leak information; if such a thread blocks we switch to the idle thread instead.
+ We describe the modified scheduler, provide a mechanical PVS-based proof of noninterference and show how common admission algorithms can be reused to give real-time guarantees for this modified scheduler. While providing similar isolation guarantees, our approach outperforms time-partitioning schedulers in terms of achieved real-time guarantees.

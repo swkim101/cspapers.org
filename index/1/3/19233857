@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we model manufacturing processes and facilities as transducers (automata with output). The problem of whether a given manufacturing process can be realized by a given set of manufacturing resources can then be stated as an orchestration problem for transducers. We first consider the conceptually simpler case of uni-transducers (transducers with a single input and a single output port), and show that synthesizing orchestrations for uni-transducers is EXPTIME-complete. Surprisingly, the complexity remains the same for the more expressive multi-transducer case, where transducers have multiple input and output ports and the orchestration is in charge of dynamically connecting ports during execution.
+ 

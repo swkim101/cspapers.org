@@ -1,0 +1,4 @@
+
+ 
+ Intelligent systems that interact with humans typically require demonstrations and/or advice from the expert for optimal decision making. While the active learning formalism allows for these systems to incrementally acquire demonstrations from the human expert, most learning systems require all the advice about the domain in advance. We consider the problem of actively soliciting human advice in an inverse reinforcement learning setting where the utilities are learned from demonstrations. Our hypothesis is that such solicitation of advice reduces the burden on the human to provide advice about every scenario in advance.
+ 

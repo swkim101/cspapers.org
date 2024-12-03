@@ -1,0 +1,5 @@
+We consider the problem of automatic macroaction discovery in imitation learning, which we cast as one of change-point detection. Unlike prior work in change-point detection, the present work leverages discriminative learning algorithms. 
+ 
+Our main contribution is a novel supervised learning algorithm which extends the classical Boosting framework by combining it with dynamic programming. The resulting process alternatively improves the performance of individual strong predictors and the estimated changepoints in the training sequence. 
+ 
+Empirical evaluation is presented for the proposed method on tasks where change-points arise naturally as part of a classification problem. Finally we show the applicability of the algorithm to macro-action discovery in imitation learning and demonstrate it allows us to solve complex image-based goal-planning problems with thousands of features.

@@ -1,0 +1,23 @@
+Welcome to the 2nd International Workshop on Software Architecture and Metrics (SAM 2015), colocated with the 37th International Conference on Software Engineering in Florence, Italy. This is the second year that we are holding this workshop and the first time co-located with ICSE. 
+ 
+Software engineers of complex software systems face the challenge of how best to assess the achievement of quality attributes and other key drivers, how to reveal issues and risks early, and how to make decisions about architecture and system evolution. There is an increasing need to provide ongoing quantifiable insight into the quality of the system being developed to manage the pace of software delivery and technology churn. 
+ 
+Additionally, it is highly desirable to improve feedback between development and deployment through measurable means for intrinsic quality, value, and cost. While there is body of work focusing on code quality and metrics, their applicability at the design and architecture level and at scale are inconsistent and not proven. We are interested in exploring whether architecture can assist with better contextualizing existing system and code quality and metrics approaches. Furthermore, we ask whether we need additional architecture-level metrics to make progress and whether something as complex and subtle as software architecture can be quantified. 
+ 
+The results of our well-attended first workshop revealed that a number of research challenges exist, calling for the urgent attention of both academia and industry. These include: 
+ 
+•how to codify informal best practices to derive quantitative metrics, 
+ 
+•how to measure architecture complexity and ease of change, 
+ 
+•how to quantitatively assess the goodness of architecture decisions, 
+ 
+•how to incorporate informal artifacts into metrics computation, 
+ 
+•how to define domain-specific software architecture metrics, 
+ 
+•when quantitative metrics are more beneficial than qualitative assessments, 
+ 
+•how to avoid abuse of software architecture metrics 
+ 
+The goal of this workshop is to discuss progress on architecture and metrics, measurement, and analysis; to gather empirical evidence on the use and effectiveness of metrics; and to identify priorities for a research agenda. The workshop addresses both academic researchers and industrial practitioners for an exchange of ideas and collaboration.

@@ -1,0 +1,1 @@
+In this paper we explore a method for automatic planning of robot fine-motion programs, first described in [Lozano-Perez, Mason, and Taylor 1983]. The primary result is a variation that is shown to be "bounded-complete"-the method obtains a solution whenever a solution consisting of a bounded number of motions exists.

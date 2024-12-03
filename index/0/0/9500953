@@ -1,0 +1,4 @@
+This paper concerns the performance evaluation of an operating system based on communicating processes. Processes communicate via messages and there is no shared data.
+ Execution of a program is abstracted as a sequence of events to denote significant computational steps. A finite state machine model of computation is used for the specifications of abstract computational properties and, thereafter, for the selective analysis of measurement data.
+ A set of conventions is developed to characterize the performance of communicating processes. A hierarchical layering technique is used to concisely describe the characteristics of large systems.
+ A performance monitoring system was implemented and applied to the analysis of RIG, a message-based operating system.

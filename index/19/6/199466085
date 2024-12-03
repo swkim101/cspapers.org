@@ -1,0 +1,2 @@
+The lack of systematic pain management training and support among primary care physicians (PCPs) limits their ability to provide quality care for patients with pain. Here, we demonstrate an Agent-based Clinical Decision Support System to empower PCPs to leverage knowledge from pain specialists. The system learns a general-purpose
+representation space on patients, automatically diagnoses pain, recommends therapy and medicine, and suggests a referral program to PCPs in their decision-making tasks.

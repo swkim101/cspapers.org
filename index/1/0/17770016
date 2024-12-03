@@ -1,0 +1,4 @@
+
+ 
+ We consider planning domains with both discrete and continuous changes. Continuous change occurs especially when agents share time-dependent critical resources. In these cases, besides discrete and continuous changes, their interactions should also be taken into consideration. However concurrency of durative actions with interacting continuous effects cannot be exploited by existing temporal planners. To overcome this problem, we propose an action lifting approach and we analyze path sharing problem to illustrate interaction of continuous linear effects in the planning domain.
+ 

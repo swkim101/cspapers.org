@@ -1,0 +1,1 @@
+The formation of propagating spiral waves is studied in a randomly connected neural network composed of integrate-and-fire neurons with recovery period and excitatory connections using computer simulations. Network activity is initiated by periodic stimulation at a single point. The results suggest that spiral waves can arise in such a network via a sub-critical Hopf bifurcation.

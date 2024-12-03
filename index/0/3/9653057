@@ -1,0 +1,4 @@
+
+ 
+ This paper explores a new measure of similarity between point sets in arbitrary metric spaces. The measure is based on the spatial overlap of the “shapes” and “densities” of these point sets. It is applicable in any domain where point sets are a natural representation for data. Specifically, we show examples of its use in natural language processing, object recognition in images and point set classification. We provide a geometric interpretation of this measure and show that it is well-motivated, intuitive, parameter-free, and straightforward to use. We further demonstrate that it is computationally tractable and applicable to both supervised and unsupervised learning problems.
+ 

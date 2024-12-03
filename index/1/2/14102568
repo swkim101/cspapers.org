@@ -1,0 +1,1 @@
+We use Wikipedia articles to semantically inform the generation of query models. To this end, we apply supervised machine learning to automatically link queries to Wikipedia articles and sample terms from the linked articles to re-estimate the query model. On a recent large web corpus, we observe substantial gains in terms of both traditional metrics and diversity measures.

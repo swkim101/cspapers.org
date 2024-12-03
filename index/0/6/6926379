@@ -1,0 +1,4 @@
+
+ 
+ We develop a method for detecting symmetries in arbitrary games and exploiting these symmetries when using tree search to play the game. Games in the General Game Playing domain are given as a set of logic based rules defining legal moves, their effects and goals of the players. The presented method transforms the rules of a game into a vertex-labeled graph such that automorphisms of the graph correspond with symmetries of the game. The algorithm detects many kinds of symmetries that often occur in games, e.g., rotation and reflection symmetries of boards, interchangeable objects, and symmetric roles. A transposition table is used to efficiently exploit the symmetries in many games.
+ 

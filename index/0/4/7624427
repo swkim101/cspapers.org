@@ -1,0 +1,4 @@
+
+ 
+ We propose two local consistencies that extend bounds consistency (BC) by simultaneously considering combinations of constraints as opposed to single constraints. We prove that these two local consistencies are both stronger than BC, but are NP-hard to enforce even when constraints are linear. Hence, we propose two polynomial-time techniques to enforce approximations of these two consistencies on linear constraints. One is a reformulation of the constraints on which we enforce BC whereas the other is a polynomial time algorithm. Both achieve stronger pruning than BC. Our experiments show large differences in favor of our approaches.
+ 

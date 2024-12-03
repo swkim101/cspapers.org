@@ -1,0 +1,3 @@
+Additive AND/OR graphs are defined as AND/ OR graphs without circuits, which can be considered as folded AND/OR trees; i. e. the cost of a common subproblem is added to the cost as many times as the subproblem occurs, but it is computed only once. Additive AND/OR graphs are naturally obtained by reinterpreting the dynamic programming method in the light of the problem-reduction approach. An example of this reduction is given. 
+ 
+A top-down and a bottom-up method are proposed for searching additive AND/OR graphs. These methods are, respectively, extensions of the "arrow" method proposed by Nilsson for searching AND/OR trees and Dijkstra's algorithm for finding the shortest path. A proof is given that the two methods find an optimal solution whenever a solution exists.

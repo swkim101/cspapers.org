@@ -1,0 +1,4 @@
+Semantic representation lies at the core of several applications in Natural Language Processing. However, most existing semantic representation techniques cannot 
+be used effectively for the representation of individual word senses. We put forward a novel multilingual concept representation, called MUFFIN, which not only enables accurate representation of word senses in different languages, but also provides multiple advantages over existing approaches. MUFFIN represents a given concept in a unified semantic space irrespective of the language of interest, enabling cross-lingual comparison of different 
+concepts. We evaluate our approach in two different evaluation benchmarks, semantic similarity and Word Sense Disambiguation, reporting state-of-the-art performance 
+on several standard datasets.

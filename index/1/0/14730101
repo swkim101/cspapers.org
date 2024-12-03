@@ -1,0 +1,4 @@
+EP-X (Environmental Pollution eXpert) is a prototype knowledge-based system that assists users in conducting bibliographic searches of the environmental pollution literature. This system combines artificial intelligence and human factors engineering techniques, allowing us to redesign traditional bibliographic information retrieval interfaces. The result supports semantically-based search as opposed to the typical character-string matching approach. This paper discussesa sample interaction with EP-X,
+the knowledge representations necessary to support this semantically-based interaction,
+preliminary results of empirical studies to evaluate the interface, and
+recommendations for future directions

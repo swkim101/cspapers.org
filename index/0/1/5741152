@@ -1,0 +1,1 @@
+DSIS is an experimental multi-user database system that supports an entity-oriented data model with relational and interrelational semantics. It maintains a sharp distinction between the user workspace and the shared database. Transactions are executed by a simulated network of stream processors.

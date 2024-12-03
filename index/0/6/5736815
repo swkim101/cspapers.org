@@ -1,0 +1,3 @@
+Let EMBEDk→d be the following algorithmic problem: Given a finite simplicial complex K of dimension at most k, does there exist a (piecewise linear) embedding of K into Rd? Known results easily imply polynomiality of EMBEDk→2 (k = 1, 2; the case k = 1, d = 2 is graph planarity) and of EMBEDk→2k for all k ≥ 3 (even if k is not considered fixed). 
+ 
+We show that the celebrated result of Novikov on the algorithmic unsolvability of recognizing the 5-sphere implies that EMBEDd→d and EMBED(d-1)→d are undecidable for each d ≥ 5. Our main result is NP-hardness of EMBED2→4 and, more generally, of EMBEDk→d for all k, d with d → 4 and d → k → (2d - 2)/3.

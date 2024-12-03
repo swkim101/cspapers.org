@@ -1,0 +1,1 @@
+This paper develops a graph-theoretic framework for estimating comprehension in classroom. To deal with imprecise data gathered in classroom, we propose multi-step comprehension propagation over a semantic graph. Random walks on the graph measure students' comprehension with probabilities absorbed at student nodes.

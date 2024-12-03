@@ -1,0 +1,4 @@
+
+ 
+ We investigate the task of automatic dietary assessment: given meal images and descriptions uploaded by real users, our task is to automatically rate the meals and deliver advisory comments for improving users' diets. To address this practical yet challenging problem, which is multi-modal and multi-task in nature, an end-to-end neural model is proposed. In particular, comprehensive meal representations are obtained from images, descriptions and user information. We further introduce a novel memory network architecture to store meal representations and reason over the meal representations to support predictions. Results on a real-world dataset show that our method outperforms two strong image captioning baselines significantly.
+ 

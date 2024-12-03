@@ -1,0 +1,4 @@
+
+ 
+ Strategy Logic (SL) has recently come to the fore as a useful specification language to reason about multi-agent systems. Its one-goal fragment, or SL[1G], is of particular interest as it strictly subsumes widely used logics such as ATL*, while maintaining attractive complexity features. In this paper we put forward an automata-based methodology for verifying and synthesising multi-agent systems against specifications given in SL[1G]. We show that the algorithm is sound and optimal from a computational point of view. A key feature of the approach is that all data structures and operations on them can be performed on BDDs. We report on a BDD-based model checker implementing the algorithm and evaluate its performance on the fair process scheduler synthesis.
+ 

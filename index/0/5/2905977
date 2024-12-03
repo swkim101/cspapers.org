@@ -1,0 +1,1 @@
+We combine the replica approach from statistical physics with a varia-tional approach to analyze learning curves analytically. We apply the method to Gaussian process regression. As a main result we derive approximative relations between empirical error measures, the generalization error and the posterior variance.

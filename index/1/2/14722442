@@ -1,0 +1,4 @@
+
+ 
+ We propose a combination of AI techniques to improve softwaretesting. When a test fails, a model-based diagnosis(MBD) algorithm is used to propose a set of possible explanations.We call these explanations diagnoses. Then, a planningalgorithm is used to suggest further tests to identify thecorrect diagnosis. A tester preforms these tests and reportstheir outcome back to the MBD algorithm, which uses thisinformation to prune incorrect diagnoses. This iterative processcontinues until the correct diagnosis is returned. We callthis testing paradigm Test, Diagnose and Plan (TDP). Severaltest planning algorithms are proposed to minimize the numberof TDP iterations, and consequently the number of testsrequired until the correct diagnosis is found. Experimentalresults show the benefits of using an MDP-based planning algorithmsover greedy test planning in three benchmarks.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In long-term forecasting it is important to estimate the confidence of predictions, as they are often affected by errors that are accumulated over the prediction horizon. To address this problem, an effective novel iterative method is developed for Gaussian structured learning models in this study for propagating uncertainty in temporal graphs by modeling noisy inputs. The proposed method is applied for three long-term (up to 8 years ahead) structured regression problems on real-world evolving networks from the health and climate domains. The obtained empirical results and use case analysis provide evidence that the new approach allows better uncertainty propagation as compared to published alternatives.
+ 

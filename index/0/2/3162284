@@ -1,0 +1,4 @@
+
+ 
+ Auto-encoding is an important task which is typically realized by deep neural networks (DNNs) such as convolutional neural networks (CNN). In this paper, we propose EncoderForest (abbrv. eForest), the first tree ensemble based auto-encoder. We present a procedure for enabling forests to do backward reconstruction by utilizing the Maximal-Compatible Rule (MCR) defined by the decision paths of the trees, and demonstrate its usage in both supervised and unsupervised setting. Experiments show that, compared with DNN based auto-encoders, eForest is able to obtain lower reconstruction error with fast training speed, while the model itself is reusable and damage-tolerable.
+ 

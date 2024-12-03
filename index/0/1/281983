@@ -1,0 +1,4 @@
+
+ 
+ Open list proportional representation is an election mechanism used in many elections, including the 2012 Hong Kong Legislative Council Geographical Constituencies election. In this paper, we assume that there are just two parties in the election, and that the number of votes that a list would get is the sum of the numbers of votes that the candidates in the list would get if each of them would go alone in the election. Under these assumptions, we formulate the election as a mostly zero-sum game, and show that while the game always has a pure Nash equilibrium, it is NP-hard to compute it.
+ 

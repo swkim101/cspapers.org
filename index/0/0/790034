@@ -1,0 +1,1 @@
+A linear optimal test generation algorithm is proposed to decompose serial test vectors into segments with one for each driver. Each driver is assigned a serial vector with two or more transitions for the detection of net and driver faults. As compared to the conventional counting and transition sequences, the reduction is up to 20% for buses and 36% for general networks.

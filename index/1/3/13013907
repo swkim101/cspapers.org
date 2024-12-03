@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of selecting fair divisions of a heterogeneous divisible good among a set of agents. Recent work (Cohler et al., AAAI 2011) focused on designing algorithms for computing maxsum—social welfare maximizing—allocations under the fairness notion of envy-freeness. Maxsum allocations can also be found under alternative notions such as equitability. In this paper, we examine the properties of these allocations. In particular, We provide conditions for when maxsum envy-free or equitable allocations are Pareto optimal and give examples where fairness with Pareto optimality is not possible. We also prove that maxsum envy-free allocations have weakly greater welfare than maxsum equitable allocations when agents have structured valuations, and we derive an approximate version of this inequality for general valuations.
+ 

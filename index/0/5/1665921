@@ -1,0 +1,4 @@
+
+ 
+ Informed search algorithms such as A* use heuristics to focus exploration on states with low total path cost. To the extent that heuristics underestimate forward costs, a wider cost radius of suboptimal states will be explored. For many weighted graphs, however, a small distance in terms of cost may encompass a large fraction of the unweighted graph. We present a new informed search algorithm, Iterative Monotonically Bounded A* (IMBA*), which first proves that no optimal paths exist in a bounded cut of the graph before considering larger cuts. We prove that IMBA* has the same optimality and completeness guarantees as A* and, in a non-uniform pathfinding application, we empirically demonstrate substantial speed improvements over classic A*.
+ 

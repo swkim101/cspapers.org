@@ -1,0 +1,4 @@
+
+ 
+ We revisit the problem of robust principal component analysis with features acting as prior side information. To this aim, a novel, elegant, non-convex optimization approach is proposed to decompose a given observation matrix into a low-rank core and the corresponding sparse residual. Rigorous theoretical analysis of the proposed algorithm results in exact recovery guarantees with low computational complexity. Aptly designed synthetic experiments demonstrate that our method is the first to wholly harness the power of non-convexity over convexity in terms of both recoverability and speed. That is, the proposed non-convex approach is more accurate and faster compared to the best available algorithms for the problem under study. Two real-world applications, namely image classification and face denoising further exemplify the practical superiority of the proposed method.
+ 

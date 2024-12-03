@@ -1,0 +1,6 @@
+The production of consistently executable and dependable software demands a thoughtful systematic implementation—with clear documentation at each production stage. Recognizing this, the Data Systems Laboratory, at Marshall Space Flight Center, NASA, began a research effort to help discover and institute sound engineering principles into a methodology for the production of software. The design of this methodology is based upon five principal stages of software development:
+ 1. Feasibility: Can software be written to solve the initial problem?
+ 2. Requirements/Design: Are software requirements and design clear, complete, traceable, and testable?
+ 3. Coding: Is use being made of reliable high level coding practices?
+ 4. Testing: Is testing sufficiently thorough to instill initial user confidence?
+ 5. Maintenance: has the software and its design been explicitly documented?

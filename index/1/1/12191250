@@ -1,0 +1,3 @@
+Networks can be used to represent syntactic trees of the semantic relations that hold between words in sentences. They can be alternately symbolized as association lists or conjoined sets of triples. A semantic net represents a sentence as a conjoined set of binary predicates. An algorithm is presented that converts a semantic network into predicate calculus formalism. The simpler syntax of semantic network representations in contrast of ordinary predicate logic conventions is taken as an argument for their use in computational applications. 
+ 
+Descriptive Terms: Semantic networks, Predicate logic, Natural language, Computational linguistics, Association lists.

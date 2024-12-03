@@ -1,0 +1,1 @@
+A disperser is a bipartite graph with the property that every subset A of of cardinality at least K, has at least fraction of the vertices of as neighbors. Such graphs have many applications in derandomization. Saks, Srinivasan and Zhou presented an explicit construction of a disperser with an almost optimal degree , for every . We extend their result for every parameter .

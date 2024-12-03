@@ -1,0 +1,4 @@
+
+ 
+ The sparse principal component analysis is a variant of the classical principal component analysis, which finds linear combinations of a small number of features that maximize variance across data. In this paper we propose a methodology for adding two general types of feature grouping constraints into the original sparse PCA optimization procedure.We derive convex relaxations of the considered constraints, ensuring the convexity of the resulting optimization problem. Empirical evaluation on three real-world problems, one in process monitoring sensor networks and two in social networks, serves to illustrate the usefulness of the proposed methodology.
+ 

@@ -1,0 +1,1 @@
+We introduces HabaneroJava-Hadoop, an extension to the HadoopMapReduce system that is optimized for multi-core machines. HJ-Hadoop exploits intra-JVM parallelism that increases memory efficiency of each node. Results show a significant improvement in the amount of data each MapReduce job could process and load balance across cores for certain applications.

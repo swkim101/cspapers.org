@@ -1,0 +1,4 @@
+
+ 
+ A prediction market is a useful means of aggregating information about a future event. To function, the market needs a trusted entity who will verify the true outcome in the end. Motivated by the recent introduction of decentralized prediction markets, we introduce a mechanism that allows for the outcome to be determined by the votes of a group of arbiters who may themselves hold stakes in the market. Despite the potential conflict of interest, we derive conditions under which we can incentivize arbiters to vote truthfully by using funds raised from market fees to implement a peer prediction mechanism. Finally, we investigate what parameter values could be used in a real-world implementation of our mechanism.
+ 

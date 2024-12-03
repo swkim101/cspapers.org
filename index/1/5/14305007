@@ -1,0 +1,1 @@
+Given a 0-1 knapsack problem with input drawn from a certain probability distribution, we show that for every ε > 0, there is a self-checking polynomial-time algorithm that finds an optimal solution with probability at least 1 -ε. We also prove some upper and lower bounds on random variables related to the problem.

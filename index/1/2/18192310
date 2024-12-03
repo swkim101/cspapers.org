@@ -1,0 +1,1 @@
+Large-scale software requires a consistent development philosophy in all phases, from design through coding to maintenance. This paper describes the closed control tree structure concept which we used to achieve this consistency while developing AIM/RDB, a large relational data base system.

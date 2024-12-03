@@ -1,0 +1,4 @@
+During the past few years, a growing number of authors have begun to take exception to the previously unquestioned use of flowcharts as a program development tool. These criticisms of the traditional flowcharting methodology center around the claim that flowcharts, like goto's, belong to the class of objects that are detrimental to good programming. Suggested alternatives range from developing programs entirely in well-structured high level languages to replacing conventional flowcharts by some form of “structured” flowcharts.
+ We are particularly concerned with questions that have been raised regarding the value of flowcharting in introductory programming classes.
+ The teaching of flowcharting as a developmental tool is extremely widespread indeed.
+ While the various methods of indicating data flow, document flow, etc., are certainly an important part of program development and documentation, we consider here only conventional “flow of control” flowcharts.

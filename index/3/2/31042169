@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of making efficient quality-time-cost trade-offs in collaborative crowdsourcing systems in which different skills from multiple workers need to be combined to complete a task. We propose CrowdAsm - an approach which helps collaborative crowdsourcing systems determine how to combine the expertise of available workers to maximize the expected quality of results while minimizing the expected delays. Analysis proves that CrowdAsm can achieve close to optimal profit for workers in a given crowdsourcing system if they follow the recommendations.
+ 

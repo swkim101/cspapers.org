@@ -1,0 +1,1 @@
+We present a closed-form solution to the problem extracting shape information from image shading, given standard assumptions and oblique illumination. Neither integration nor iterative propagation of information is required. An improved method for estimating the illuminant direction is also presented.1

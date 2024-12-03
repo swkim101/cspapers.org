@@ -1,0 +1,4 @@
+
+ 
+ Ranking is an important way of retrieving authoritative papers from a large scientific literature database. Current state-of-the-art exploits the flat structure of the heterogeneous academic network to achieve a better ranking of scientific articles, however, ignores the multinomial nature of the multidimensional relationships between different types of academic entities. This paper proposes a novel mutual ranking algorithm based on the multinomial heterogeneous academic hypernetwork, which serves as a generalized model of a scientific literature database. The proposed algorithm is demonstrated effective through extensive evaluation against well-known IR metrics on a well-established benchmarking environment based on the ACL Anthology Network.
+ 

@@ -1,0 +1,1 @@
+A simple technique is proposed that uses a single photoreflector to recognize multi-touch gestures. Touch and multi-finger swipe are robustly discriminated and recognized. Further, swipe direction can be detected by adding a gradient to the sensitivity.

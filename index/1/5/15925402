@@ -1,0 +1,1 @@
+In this work we show how to use efficient online trading algorithms to price the current value of financial instruments, such as an option. We derive both upper and lower bounds for pricing an option, using online trading algorithms.Our bounds depend on very minimal assumptions and are mainly derived assuming that there are no arbitrage opportunities.

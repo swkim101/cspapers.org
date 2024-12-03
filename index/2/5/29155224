@@ -1,0 +1,4 @@
+
+ 
+ We present SAT encoding schemes for distance-based belief merging operators relying on the (possibly weighted) drastic distance or the Hamming distance between interpretations, and using sum, GMax (leximax) or GMin (leximin) as aggregation function. In order to evaluate these encoding schemes, we generated benchmarks of a time-tabling problem and translated them into belief merging instances. Then, taking advantage of these schemes, we compiled the merged bases of the resulting instances into query-equivalent CNF formulae. Experiments have shown the benefits which can be gained by considering the SAT encoding schemes we pointed out. Especially, thanks to them, we succeeded in computing query-equivalent formulae for merging instances based on hundreds of variables, which are out of reach of previous implementations.
+ 

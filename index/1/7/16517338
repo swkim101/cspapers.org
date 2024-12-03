@@ -1,0 +1,4 @@
+
+ 
+ Multi-document summarization is of great value to many real world applications since it can help people get the main ideas within a short time.In this paper, we tackle the problem of extracting summary sentences from multi-document sets by applying sparse coding techniques and present a novel framework to this challenging problem. Based on the data reconstruction and sentence denoising assumption, we present a two-level sparse representation model to depict the process of multi-document summarization. Three requisite properties is proposed to form an ideal reconstructable summary: Coverage, Sparsity and Diversity. We then formalize the task of multi-document summarization as an optimization problem according to the above properties, and use simulated annealing algorithm to solve it.Extensive experiments on summarization benchmark data sets DUC2006 and DUC2007 show that our proposed model is effective and outperforms the state-of-the-art algorithms.
+ 

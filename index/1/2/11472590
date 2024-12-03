@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of providing spelling corrections for misspelled queries in Email Search using user’s own mail data. A popular strategy for general query spelling correction is to generate corrections from query logs. However, this strategy is not effective in Email Search for two reasons: 1) query log of any sin- gle user is typically not rich enough to provide potential corrections for a new query 2) corrections generated us- ing query logs of other users are not particularly useful since the mail data as well as search intent are highly specific to the user. We address the challenge of design- ing an effective spelling correction algorithm for Email Search in the absence of query logs. We propose SpEQ, a Machine Learning based approach that generates cor- rections for misspelled queries directly from the user’s own mail data.
+ 

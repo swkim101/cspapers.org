@@ -1,0 +1,1 @@
+In this short paper we introduce Helios, a flexible and efficient open source meta-search engine. Helios currently runs on the top of 18 search engines (in Web, Books, News, and Academic publication domains), but additional search engines can be easily plugged in. We also report some performance mesured during its development.

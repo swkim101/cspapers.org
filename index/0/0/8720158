@@ -1,0 +1,1 @@
+In a discrete-event framework, we define the concept of a coordinable language and show that it is the necessary and sufficient existence condition of coordination modules for distributed agents to achieve conformance to a given inter-agent constraint language. We also present a synthesis algorithm to compute near optimal coordination modules.

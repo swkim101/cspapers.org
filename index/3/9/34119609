@@ -1,0 +1,4 @@
+
+ 
+ Conjunctive query answering is a key reasoning service for many ontology-based applications. In order to improve scalability, many Semantic Web query answering systems give up completeness (i.e., they do not guarantee to return all query answers). It may be useful or even critical to the designers and users of such systems to understand how much and what kind of information is (potentially) being lost. We present a method for generating test data that can be used to provide at least partial answers to these questions, a purpose for which existing benchmarks are not well suited. In addition to developing a general framework that formalises the problem, we describe practical data generation algorithms for some popular ontology languages, and present some very encouraging results from our preliminary evaluation.
+ 

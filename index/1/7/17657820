@@ -1,0 +1,1 @@
+In this paper, we propose a new approach to measure similarities among academic papers based on their references. Our similarity measure uses both in-link and out-link by transforming in-link and out-link into undirected links.

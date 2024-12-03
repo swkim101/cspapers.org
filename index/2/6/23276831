@@ -1,0 +1,1 @@
+We developed the HS-bitmap index for efficient information retrieval. The HS-bitmap index is a hierarchical document-term matrix: the original document-term matrix is called the leaf matrix and an upper matrix is the summary of its lower matrix. Our experiment results show the HS-bitmap index performs better than the inverted index with a minor space overhead.

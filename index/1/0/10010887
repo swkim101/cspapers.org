@@ -1,0 +1,1 @@
+Users can often naturally express their preferences in terms of ideal or non-ideal solutions. We show how to reason about logical combinations of distance constraints on ideals and non-ideals using a novel global constraint. We evaluate our approach on both randomly generated and real-world configuration problem instances.

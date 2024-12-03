@@ -1,0 +1,1 @@
+In this paper, we describe an efficient algorithm for 3-0 scene analysis. This algorithm uses a segmentation of the surfaces to identified into geometrical primitives, the original data being obtained by a laser range finder. Moreover, the algorithm estimates precisel the location and orientation of an identified object of the scene. Results are presented on real objects.

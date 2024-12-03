@@ -1,0 +1,4 @@
+
+ 
+ RDF and Description Logics work in an open-world setting where absence of information is not information about absence. Nevertheless, Description Logic axioms can be interpreted in a closed-world setting and in this setting they can be used for both constraint checking and closed-world recognition against information sources. When the information sources are expressed in well-behaved RDF or RDFS (i.e., RDF graphs interpreted in the RDF or RDFS semantics) this constraint checking and closed-world recognition is simple to describe. Further this constraint checking can be implemented as SPARQL querying and thus effectively performed.
+ 

@@ -1,0 +1,1 @@
+We prove a lower bound of Ω(n1/2-c), for all c> 0, on the query complexity of (two-sided error) non-adaptive algorithms for testing whether an n-variable Boolean function is monotone versus constant-far from monotone. This improves a ~Ω(n1/5) lower bound for the same problem that was obtained in [6], and is very close to the recent upper bound of ~O(n1/2/ε2) by Khot et al. [13].

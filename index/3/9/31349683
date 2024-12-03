@@ -1,0 +1,4 @@
+
+ 
+ Plan monitoring in a collaborative multi-agent system requires an agent to not only monitor the execution of its own plan, but also to detect possible deviations or failures in the plan execution of its teammates. In domains featuring partial observability and uncertainty in the agents’ sensing and actuation, especially where communication among agents is sparse (as a part of a cost-minimized plan), plan monitoring can be a significant challenge. We design an Expectation Maximization (EM) based algorithm for detection of plan deviation of teammates in such a multi-agent system. However, a direct implementation of this algorithm is intractable, so we also design an alternative approach grounded on the agents’ plans, for tractability. We establish its equivalence to the intractable version, and evaluate these techniques in some challenging tasks.
+ 

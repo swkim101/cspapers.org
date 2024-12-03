@@ -1,0 +1,1 @@
+In this extended abstract we explore the expressiveness and modularity of our recently published object propositions methodology by applying it to verify properties about programs that use the proxy design pattern. Our instance of the proxy pattern implements a general proxy-real object system that is routinely used in industry and the verification of which is challenging.

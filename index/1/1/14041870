@@ -1,0 +1,4 @@
+
+ 
+ We consider multi-agent settings where a set of agents want to take a collective decision, based on their preferences over the possible candidate options. While agents have their initial inclination, they may interact and influence each other, and therefore modify their preferences, until hopefully they reach a stable state and declare their final inclination. At that point, a voting rule is used to aggregate the agents’ preferences and generate the collective decision. Recent work has modeled the influence phenomenon in the case of voting over a single issue. Here we generalize this model to account for preferences over combinatorially structured domains including several issues. We propose a way to model influence when agents express their preferences as CP-nets. We define two procedures for aggregating preferences in this scenario, by interleaving voting and influence convergence, and study their resistance to bribery.
+ 

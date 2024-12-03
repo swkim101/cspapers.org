@@ -1,0 +1,1 @@
+We consider an online decision problem over a discrete space in which the loss function is submodular. We give algorithms which are computationally efficient and are Hannan-consistent in both the full information and bandit settings.

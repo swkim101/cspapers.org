@@ -1,0 +1,5 @@
+We propose a source code search system named CHICOT (Code search with HIgh level COnText) to assist developers in reusing existing code.
+While previous studies have examined code search on the basis of code-level, fine-grained specifications such as functionality, logic, or implementation, CHICOT addresses a unique mission: code search with high-level contextual information, such as the purpose or domain of a developer's project.
+It achieves this feature by first extracting the context information from codebases and then considering this context during the search.
+It provides a VSCode plugin for daily coding assistance, and the built-in crawler ensures up-to-date code suggestions.
+The case study attests to the utility of CHICOT in real-world scenarios.

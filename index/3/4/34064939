@@ -1,0 +1,14 @@
+This paper presents a stochastic computing implementation 
+of a Bayesian sensorimotor system that performs 
+obstacle avoidance for an autonomous robot. In a previous 
+work we have shown that we are able to automatically design a 
+probabilistic machine which computes inferences on a Bayesian 
+model using stochastic arithmetic. We start from a high level 
+Bayesian model description, then our compiler generates an 
+electronic circuit, corresponding to the probabilistic inference, 
+operating on stochastic bit streams. Our goal in this paper is 
+to show that our compilation toolchain and simulation device 
+work on a classic robotic application, sensor fusion for obstacle 
+avoidance. The novelty is in the way the computations are implemented, 
+opening the way for future low power autonomous 
+robots using such circuits to perform Bayesian Inference.

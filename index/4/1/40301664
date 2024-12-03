@@ -1,0 +1,4 @@
+In 1973, a great amount of frustration was being vented about student inability to formulate and solve problems on a computer; at that time, a suggestion was made to separate problem solving from programming—to make problem solving language independent [1].
+ This approach was acknowledged in 1978 as one of four common methods of teaching college-level introductory computer science [2]. Finally, in 1981 and 1982, this method, or a variant of it, was widely proclaimed [3] [4] [5].
+ We adopted this approach of instruction in our introductory course in 1977 and the results have been less than spectacular.
+ We don't make this point to discredit the approach; its existence has made manifest the necessity of teaching problem solving in an introductory course. Rather, we believe that the added teaching of a separate problem solving methodology is not by itself sufficient.

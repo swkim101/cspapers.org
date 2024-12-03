@@ -1,0 +1,1 @@
+This paper suggests a method for multiclass learning with many classes by simultaneously learning shared characteristics common to the classes, and predictors for the classes in terms of these characteristics. We cast this as a convex optimization problem, using trace-norm regularization and study gradient-based optimization both for the linear case and the kernelized setting.

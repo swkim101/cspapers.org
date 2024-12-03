@@ -1,0 +1,7 @@
+We wrote a computer program which gives driving directions in northern New Jersey. Its data base combines a street map and a telephone book, so requests like "give directions from the Lackawanna Diner to the nearest dry cleaner" (properly specified) can be answered. 
+ 
+This problem involves both human factors and algorithmic problems. From the human factors standpoint, what kind of route is best: shortest distance, most concise directions, fewest turns, or some combination of these? And from the algorithmic standard, what is a good shortest-path algorithm: breadth-first search, depth-first search, pre-storing important routes, divide and conquer, or keep a hierarchy of maps with progressively fewer streets? 
+ 
+We implemented breadth-first and depth-first search both single-ended and double-ended. Double-ended search was faster in 14 of 16 examples and produced shorter or equal length routes in 13 of 16. Depth-first search was always faster than breadth-first, and produced shorter routes half the time. 
+ 
+We also asked eight subjects for directions on 4 maps. The 32 tries at 4 problems produced 22 different routes. People's strategies typically include finding main roads, and applying divide-and-conquer as well as depth-first search. But it is difficult to characterize the experimental subjects, since different problems caused them to try different search algorithms.

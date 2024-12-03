@@ -1,0 +1,4 @@
+
+ 
+ Hybrid automata networks (HAN) are a powerful formalism to model complex embedded systems. In this paper, we survey the recent advances in the application of Satisfiability Modulo Theories (SMT) to the analysis of HAN. SMT can be seen as an extended form of Boolean satisfiability (SAT), where literals are interpreted with respect to a background theory (e.g. linear arithmetic). HAN can be symbolically represented by means of SMT formulae, and analyzed by generalizing to the case of SMT the traditional model checking algorithms based on SAT.
+ 

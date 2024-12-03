@@ -1,0 +1,1 @@
+In this paper we describe a biography summarization system using sentence classification and ideas from information retrieval. Although the individual techniques are not new, assembling and applying them to generate multi-document biographies is new. Our system was evaluated in DUC2004. It is among the top performers in task 5–short summaries focused by person questions.

@@ -1,0 +1,4 @@
+
+ 
+ We study a simple sequential allocation mechanism for allocating indivisible goods between agents in which agents take turns to pick items.We focus on agents behaving strategically. We view the allocation procedure as a finite repeated game with perfect information. We show that with just two agents, we can compute the unique subgame perfect Nash equilibrium in linear time. With more agents, computing the subgame perfect Nash equilibria is more difficult. There can be an exponential number of equilibria and computing even one of them is PSPACE-hard. We identify a special case, when agents value many of the items identically, where we can efficiently compute the subgame perfect Nash equilibria. We also consider the effect of externalities and modifications to the mechanism that make it strategy proof.
+ 

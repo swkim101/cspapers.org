@@ -1,0 +1,4 @@
+
+ 
+ One of the fundamental research challenges in network science is the centrality analysis, i.e., identifying the nodes that play the most important roles in the network. In this paper, we focus on the game-theoretic approach to centrality analysis. While various centrality indices have been proposed based on this approach, it is still unknown what distinguishes this family of indices from the more classical ones. In this paper, we answer this question by providing the first axiomatic characterization of game-theoretic centralities. Specifically, we show that every centrality can be obtained following the game-theoretic approach, and show that two natural classes of game-theoretic centrality can be characterized by two intuitive properties pertaining to Myerson's notion of Fairness.
+ 

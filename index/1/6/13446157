@@ -1,0 +1,9 @@
+Distance oracles are data structures that provide fast (possibly approximate) answers to shortest-path and distance queries in graphs. The tradeoff between the space requirements and the query time of distance oracles is of particular interest and the main focus of this paper. Unless stated otherwise, we assume all graphs to be planar and undirected. 
+ 
+In FOCS 2001 (J. ACM 2004), Thorup introduced approximate distance oracles for planar graphs (concurrent with Klein, SODA 2002). Thorup proved that, for any e > 0 and for any undirected planar graph G = (V,E) on n = |V| nodes, there exists a (1 + e)--approximate distance oracle using space O(ne−1 log n) such that approximate distance queries can be answered in time O(e−1). 
+ 
+In this paper, we aim at reducing the polynomial dependency on e−1 and log n, getting the first improvement in the query time--space tradeoff. To simplify the statement of our bounds, we define O(·) to hide log log n and log(1/e) factors. 
+ 
+• We provide the first oracle with a time--space product that is subquadratic in e−1. We obtain an oracle with space O(n log n) and query time O(e−1). 
+ 
+• For unweighted graphs we show how the logarithmic dependency on n can be removed. We obtain an oracle with space O(n) and query time O(e−1). This bound also holds for graphs with polylogarithmic average edge length, which may be a quite reasonable assumption, e.g., for road networks.

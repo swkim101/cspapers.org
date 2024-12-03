@@ -1,0 +1,4 @@
+
+ 
+ We consider a multi-agent scenario where a collection of agents needs to select a common decision from a large set of decisions over which they express their preferences. This decision set has a combinatorial structure, that is, each decision is an element of the Cartesian product of the domains of some variables. Agents express their preferences over the decisions via soft constraints. We consider both sequential preference aggregation methods (they aggregate the preferences over one variable at a time) and one-step methods and we study the computational complexity of influencing them through bribery. We prove that bribery is NPcomplete for the sequential aggregation methods (based on Plurality, Approval, and Borda) for most of the cost schemes we defined, while it is polynomial for one-step Plurality.
+ 

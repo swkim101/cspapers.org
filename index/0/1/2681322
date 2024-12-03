@@ -1,0 +1,7 @@
+We consider network design problems for information networks where routers can replicate data but cannot alter it. This functionality allows the network to eliminate data-redundancy in traffic, thereby saving on routing costs. We consider two problems within this framework and design approximation algorithms. 
+ 
+The first problem we study is the traffic-redundancy aware network design (RAND) problem. We are given a weighted graph over a single server and many clients. The server owns a number of different data packets and each client desires a subset of the packets; the client demand sets form a laminar set system. Our goal is to connect every client to the source via a single path, such that the collective cost of the resulting network is minimized. Here the transportation cost over an edge is its weight times times the number of distinct packets that it carries. 
+ 
+The second problem is a facility location problem that we call RAFL. Here the goal is to find an assignment from clients to facilities such that the total cost of routing packets from the facilities to clients (along unshared paths), plus the total cost of "producing" one copy of each desired packet at each facility is minimized. 
+ 
+We present a constant factor approximation for the RAFL and an O(log P) approximation for RAND, where P is the total number of distinct packets. We remark that P is always at most the number of different demand sets desired or the number of clients, and is generally much smaller.

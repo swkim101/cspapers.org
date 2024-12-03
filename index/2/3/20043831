@@ -1,0 +1,1 @@
+We propose to prove the theorem in the title. Let PLOSS be the class of sets recognizable on a deterministic Turing machine simultaneously in polynomial time and log squared space. Using the notation of Bruss and Meyer [1], PLOSS = &ugr;k TISP(nk,k log2n).

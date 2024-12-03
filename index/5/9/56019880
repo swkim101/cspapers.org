@@ -1,0 +1,7 @@
+With the increasing need to adapt to new environments, 
+data-driven approaches have been developed to estimate terrain traversability by learning the rover’s response 
+on the terrain based on experience. Multiple learning inputs 
+are often used to adequately describe the various aspects of 
+terrain traversability. In a complex learning framework, it can be difficult to identify the relevance of each learning input to the resulting estimate. This paper addresses the suitability of each learning input by systematically analyzing the impact of each input on the estimate. Sensitivity Analysis (SA) methods provide a means to measure the contribution of each learning input to the estimate variability. Using a variance-based SA method, 
+we characterize how the prediction changes as one or more of 
+the input changes, and also quantify the prediction uncertainty as attributed from each of the inputs in the framework of dependent inputs. We propose an approach built on Analysis of Variance (ANOVA) decomposition to examine the prediction made in a near-to-far learning framework based on multi-task GP regression. We demonstrate the approach by analyzing the impact of driving speed and terrain geometry on the prediction of the rover’s attitude and chassis configuration in a Marsanalogue terrain using our prototype rover Mawson.

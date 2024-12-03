@@ -1,0 +1,13 @@
+Traffic flow forecasting plays a vital role in the transportation domain. 
+
+Existing studies usually manually construct correlation graphs and design sophisticated models for learning spatial and temporal features to predict future traffic states.
+
+However, manually constructed correlation graphs cannot accurately extract the complex patterns hidden in the traffic data. 
+
+In addition, it is challenging for the prediction model to fit traffic data due to its irregularly-shaped distribution.
+
+To solve the above-mentioned problems, in this paper, we propose a novel learning-based method to learn a spatial-temporal correlation graph, which could make good use of the traffic flow data. 
+
+Moreover, we propose First-Order Gradient Supervision (FOGS), a novel method for traffic flow forecasting. 
+
+FOGS utilizes first-order gradients, rather than specific flows, to train prediction model, which effectively avoids the problem of fitting irregularly-shaped distributions. Comprehensive numerical evaluations on four real-world datasets reveal that the proposed methods achieve state-of-the-art performance and significantly outperform the benchmarks.

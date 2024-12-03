@@ -1,0 +1,1 @@
+We address the task of separating personal from non-personal blogs, and report on a set of baseline experiments where we compare the performance on a small set of features across a set of five classifiers. We show that with a limited set of features a performance of up to 90% can be obtained.

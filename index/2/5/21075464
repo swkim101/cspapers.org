@@ -1,0 +1,4 @@
+
+ 
+ The itemsets discovered by traditional High Utility Itemsets Mining (HUIM) methods are more useful than frequent itemset mining outcomes; however, they are usually disordered and not actionable, and sometime accidental, because the utility is the only judgement and no relations among itemsets are considered. In this paper, we introduce the concept of combined mining to select combined itemsets that are not only high utility and high frequency, but also involving relations between itemsets. An effective method for mining such actionable combined high utility itemsets is proposed. The experimental results are promising, compared to those from traditional HUIM algorithm (UP-Growth).
+ 

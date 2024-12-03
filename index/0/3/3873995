@@ -1,0 +1,4 @@
+
+ 
+ Propositional satisfiability (SAT) is at the nucleus of state-of-the-art approaches to a variety of computationally hard problems, one of which is cryptanalysis. Moreover, a number of practical applications of SAT can only be tackled efficiently by identifying and exploiting a subset of formula's variables called backdoor set (or simply backdoors). This paper proposes a new class of backdoor sets for SAT used in the context of cryptographic attacks, namely guess-and-determine attacks. The idea is to identify the best set of backdoor variables subject to a statistically estimated hardness of the guess-and-determine attack using a SAT solver. Experimental results on weakened variants of the renowned encryption algorithms exhibit advantage of the proposed approach compared to the state of the art in terms of the estimated hardness of the resulting guess-and-determine attacks.
+ 

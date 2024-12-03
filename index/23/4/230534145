@@ -1,0 +1,13 @@
+
+
+This paper is devoted to understanding relative navigation models that are used for space
+vehicles. The relative navigations models and approaches which are based on different systems
+(Inertial Navigation Systems (INS)&Global Navigation Satellite System (GNSS) , Laser&INS, Vision-
+Based, etc.) are compared. These models and approaches can be used individually or combined
+for solving relative navigation problems. Advantages and disadvantages of the models vary according
+to the usage area, platform type, and environment. Different methods and approaches exist
+in addition to different estimation and optimization algorithms for adaptation, control, and sensor
+fusion. Most of the models assume perfect attitude conditions. This study considers satellites' position
+estimates according to each other within formation on the Low Earth Orbit (LEO). Also, the aim
+of this article is to understand correlation between the relative navigation systems and the effectiveness
+of the algorithms which are used for estimating states during constellation or formation flight.

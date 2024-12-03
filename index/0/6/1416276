@@ -1,0 +1,1 @@
+We report on our work to automatically build a corpus of instructional text annotated with lexical semantics information. We have coupled the parser LCFLEX with a lexicon and ontology derived from two lexical resources, Verb-Net for verbs and CoreLex for nouns. We discuss how we built our lexicon and ontology, and the parsing results we obtained.

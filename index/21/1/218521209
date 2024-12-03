@@ -1,0 +1,1 @@
+In this paper, we propose a novel Patch&Pair Convolutional Neural Networks (PPCNN) to distinguish Deepfake videos or images from real ones. Through the comprehensive evaluations on public datasets, we demonstrate that our model performs better than existing detection methods and show better generalization.

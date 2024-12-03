@@ -1,0 +1,3 @@
+@m. Our main result is a proof that finding such a minimizing parameter is NP-hard, even in dimension 2 and even if the parametrization reflects a translation of a 2-dimensional convex polygon. This result is established via a relationship of this problem to arithmetic progressions and simultaneous Diophantine approximation. 
+ 
+On the positive side we show that in dimension 2 there exists a polynomial time algorithm for each fixed k that either determines a minimizing translation or asserts that any translation contains at most 1 + 1/k times the minimal number of lattice points.

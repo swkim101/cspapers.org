@@ -1,0 +1,1 @@
+Demonstrating our framework on a collection of scientific loop nests, we were able to reduce an average of 84% of cache misses in the optimizable loop nests. This work lays the groundwork for handling a wide range of optimizations through further study of solution patterns in the CME solution table.

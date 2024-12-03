@@ -1,0 +1,1 @@
+This paper presents CarML, a distributed machine learning platform built on top of an emerging computing paradigm, vehicular clouds. We discuss our design and technical challenges, followed by our preliminary solutions. We verify the efficacy of our solutions using a customized simulator based on Python and SUMO.

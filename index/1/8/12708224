@@ -1,0 +1,4 @@
+
+ 
+ Stochastic or Markov games serve as reasonable models for a variety of domains from biology to computer security, and are appealing due to their versatility. In this paper we address the problem of finding the complete set of correlated equilibria for general-sum stochastic games with perfect information. We present QPACE — an algorithm orders of magnitude more efficient than previous approaches while maintaining a guarantee of convergence and bounded error. Finally, we validate our claims and demonstrate the limits of our algorithm with extensive empirical tests.
+ 

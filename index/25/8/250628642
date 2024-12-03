@@ -1,0 +1,5 @@
+In finance, the risk of an entity depends not only on its historical information 
+
+but also on the risk propagated by its related peers. Pilot studies rely on Graph Neural Networks (GNNs) to model this risk propagation, where each entity is treated as a node and represented by its time-series information.
+
+However, conventional GNNs are constrained by their unified messaging mechanism with an assumption that the risk of a given entity only propagates to its related peers with the same time lag and has the same effect, which is against the ground truth. In this study, we propose the subsequence-based graph routing network (S-GRN) for capturing the variant risk propagation processes among different time-series represented entities. In S-GRN, the messaging mechanism between each node pair is dynamically and independently selected from multiple messaging mechanisms based on the dependencies of variant subsequence patterns. The S-GRN is extensively evaluated on two synthetic tasks and three real-world datasets and demonstrates state-of-the-art performance.

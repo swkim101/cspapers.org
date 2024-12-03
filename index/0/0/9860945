@@ -1,0 +1,15 @@
+We develop a new approach for online network design and obtain improved competitive ratios for several problems. Our approach gives natural deterministic algorithms and simple analyses. At the heart of our work is a novel application of embeddings into hierarchically well-separated trees (HSTs) to the analysis of online network design algorithms --- we charge the cost of the algorithm to the cost of the optimal solution on any HST embedding of the terminals. This analysis technique is widely applicable to many problems and gives a unified framework for online network design. 
+ 
+In a sense, our work brings together two of the main approaches to online network design. The first uses greedy-like algorithms and analyzes them using dual-fitting. The second uses tree embeddings --- embed the entire graph into a tree at the beginning and then solve the problem on the tree --- and results in randomized O(log n)-competitive algorithms, where n is the total number of vertices in the graph. Our approach uses deterministic greedy-like algorithms but analyzes them via HST embeddings of the terminals. Our proofs are simpler as we do not need to carefully construct dual solutions and we get O(log k) competitive ratios, where k is the number of terminals. 
+ 
+In this paper, we apply our approach to obtain deterministic O(log k)-competitive online algorithms for the following problems. 
+ 
+1. Steiner network with edge duplication. Previously, only a randomized O(log n)-competitive algorithm was known. 
+ 
+2. Rent-or-buy. Previously, only deterministic O(log2 k)-competitive and randomized O(log k)-competitive algorithms by Awerbuch, Azar and Bartal (Theoretical Computer Science 2004) were known. 
+ 
+3. Connected facility location. Previously, only a randomized O(log2 k)-competitive algorithm of San Felice, Williamson and Lee (LATIN 2014) was known. 
+ 
+4. Prize-collecting Steiner forest. We match the competitive ratio first achieved by Qian and Williamson (ICALP 2011) and give a simpler analysis. 
+ 
+Our competitive ratios are optimal up to constant factors as these problems capture the online Steiner tree problem which has a lower bound of Ω(log k).

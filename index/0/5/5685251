@@ -1,0 +1,4 @@
+
+ 
+ A key challenge in complex activity recognition is the fact that a complex activity can often be performed in several different ways, with each consisting of its own configuration of atomic actions and their temporal dependencies. This leads us to define an atomic activity-based probabilistic framework that employs Allen's interval relations to represent local temporal dependencies. The framework introduces a latent variable from the Chinese Restaurant Process to explicitly characterize these unique internal configurations of a particular complex activity as a variable number of tables.It can be analytically shown that the resulting interval network satisfies the transitivity property, and as a result, all local temporal dependencies can be retained and are globally consistent.Empirical evaluations on benchmark datasets suggest our approach significantly outperforms the state-of-the-art methods.
+ 

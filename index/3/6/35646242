@@ -1,0 +1,2 @@
+The model of a man - machine - system is the basis of the proposed notation. It consists of the components man and machine. With these (statical) components a (dynamic) process, called man - machine - communication or man - machine - dialog, is realized.
+ The (three) possible dynamic interfaces are described. According to /CAR;69/ an evaluation, decision and control module for the exchange of information belongs to an active bidirectional communication. An operator dialog is such a communication.

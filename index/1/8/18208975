@@ -1,0 +1,1 @@
+An analytic method for comparing the performance of B+ trees and indexed sequential files is proposed. Preliminary results indicate that indexed sequential files may be more efficient than B+ trees in certain applications.

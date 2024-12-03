@@ -1,0 +1,1 @@
+We present a new benchmark (ProFuzzBench) for stateful fuzzing of network protocols. The benchmark includes a suite of representative open-source network servers for popular protocols, and tools to automate experimentation. We discuss challenges and potential directions for future research based on this benchmark.

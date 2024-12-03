@@ -1,0 +1,4 @@
+
+ 
+ The OWL 2 profile OWL 2 QL, based on the DL-Lite family of description logics, is emerging as a major language for developing new ontologies and approximating the existing ones. Its main application is ontology-based data access, where ontologies are used to provide background knowledge for answering queries over data. We investigate the corresponding notion of query inseparability (or equivalence) for OWL 2 QL ontologies and show that deciding query inseparability is PSPACE-hard and in EXPTIME. We give polynomial time (incomplete) algorithms and demonstrate by experiments that they can be used for practical module extraction.
+ 

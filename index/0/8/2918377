@@ -1,0 +1,4 @@
+
+ 
+ We consider convex-concave saddle point problems with a separable structure and non-strongly convex functions. We propose an efficient stochastic block coordinate descent method using adaptive primal-dual updates, which enables flexible parallel optimization for large-scale problems. Our method shares the efficiency and flexibility of block coordinate descent methods with the simplicity of primal-dual methods and utilizing the structure of the separable convex-concave saddle point problem. It is capable of solving a wide range of machine learning applications, including robust principal component analysis, Lasso, and feature selection by group Lasso, etc. Theoretically and empirically, we demonstrate significantly better performance than state-of-the-art methods in all these applications.
+ 

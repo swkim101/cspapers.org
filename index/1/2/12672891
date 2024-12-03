@@ -1,0 +1,12 @@
+The Pipes-and-Filters design pattern is a well-known pattern to organize 
+and execute components with sequential dependencies. The pattern is therefore often 
+used to perform several tasks consecutively on large data streams, e.g., during image 
+processing or dynamic analyses. In contrast to the pattern’s familiarity and application, 
+almost each common programming language lacks of flexible, feature-rich, fast, and 
+concurrency-aware Pipes-and-Filters frameworks. So far, it is common practice that 
+most developers write their own implementation tailored to their specific use cases and 
+demands hampering any effective re-use. 
+In this paper, we discuss Pipes-and-Filters architectures of several Java-based applications 
+and point out their drawbacks concerning their applicability and efficiency. 
+Moreover, we propose a generic and concurrency-aware Pipes-and-Filters framework 
+and provide a reference implementation for Java called TeeTime.

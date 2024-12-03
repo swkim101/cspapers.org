@@ -1,0 +1,1 @@
+This paper examines the application of the computationally powerful linear assignment algorithm to the placement problem. A brief description of the algorithm is given, followed by a discussion of its use with various problem constraints, for improving existing placements, and in a constructive-initial placement procedure. Several examples are included.

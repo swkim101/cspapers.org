@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we study a cold-start heterogeneous-devicelocalization problem. This problem is challenging, becauseit results in an extreme inductive transfer learning setting,where there is only source domain data but no target do-main data. This problem is also underexplored. As there is notarget domain data for calibration, we aim to learn a robustfeature representation only from the source domain. There islittle previous work on such a robust feature learning task; besides, the existing robust feature representation propos-als are both heuristic and inexpressive. As our contribution,we for the first time provide a principled and expressive robust feature representation to solve the challenging cold-startheterogeneous-device localization problem. We evaluate ourmodel on two public real-world data sets, and show that itsignificantly outperforms the best baseline by 23.1%–91.3%across four pairs of heterogeneous devices.
+ 

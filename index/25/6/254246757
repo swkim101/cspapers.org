@@ -1,0 +1,4 @@
+Truth discovery is a general name for a broad range of statistical methods aimed to extract the correct answers to questions, based on multiple answers coming from noisy sources. For example, workers in a crowdsourcing platform.
+In this paper, we consider an extremely simple heuristic for estimating workers' competence using average proximity to other workers. We prove that this estimates well the actual competence level and enables separating high and low quality workers in a wide spectrum of domains and statistical models. Under Gaussian noise, this simple estimate is the unique solution to the MLE with a constant regularization factor. 
+
+Finally, weighing workers according to their average proximity in a crowdsourcing setting, results in substantial improvement over unweighted aggregation and other truth discovery algorithms in practice.

@@ -1,0 +1,1 @@
+In this paper we propose a software based method to detect control !ow errors in embedded software, which are caused by transient faults or are inserted by attackers with the aim to perform return oriented programming.

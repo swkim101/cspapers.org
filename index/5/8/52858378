@@ -1,0 +1,1 @@
+Algorithms and techniques used in RELAX are described. RELAX is a time domain MOS digital circuit simulator based on a new analysis method called Waveform Relaxation Method [1] which exploits decomposition techniques. Preliminary comparisons between RELAX and the standard circuit simulator SPICE2 have shown that RELAX is a fast and reliable circuit simulator.

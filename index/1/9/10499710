@@ -1,0 +1,5 @@
+Let G = (V, E) be a directed planar graph on n = |V| vertices, and let s e V be any fixed source vertex. We show that G can be preprocessed in O(n polylog n) time to build a data structure of O(n polylog n) size which can answer the following query in O(log n) time for any u, v e V: 
+ 
+report distance from s to v in the graph G\{u} 
+ 
+We also address the all-pairs version of this problem and present a data structure with O(n√n polylog n) preprocessing time and space which guarantees O(√n polylog n) query time.

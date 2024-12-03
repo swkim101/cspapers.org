@@ -1,0 +1,1 @@
+Syllabification does not seem to improve word-level RNN language modeling quality when compared to character-based segmentation. However, our best syllable-aware language model, achieving performance comparable to the competitive character-aware model, has 18%-33% fewer parameters and is trained 1.2-2.2 times faster.

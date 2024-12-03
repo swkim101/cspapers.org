@@ -1,0 +1,4 @@
+
+ 
+ Many signals of interest are corrupted by faults of anunknown type. We propose an approach that uses Gaus-sian processes and a general “fault bucket” to capturea priori uncharacterised faults, along with an approxi-mate method for marginalising the potential faultinessof all observations. This gives rise to an efficient, flexible algorithm for the detection and automatic correction of faults. Our method is deployed in the domain of water monitoring and management, where it is able to solve several fault detection, correction, and prediction problems. The method works well despite the fact that the data is plagued with numerous difficulties, including missing observations, multiple discontinuities, nonlinearity and many unanticipated types of fault.
+ 

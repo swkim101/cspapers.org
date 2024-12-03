@@ -1,0 +1,3 @@
+Macro-operator ("macro", for short) generation is a well-known technique that is used to speed-up the planning process. Most published work on using macros in automated planning relies on an offline learning phase where training plans, that is, solutions of simple problems, are used to generate the macros. However, there might not always be a place to accommodate training. 
+ 
+In this paper we propose OMA, an efficient method for generating useful macros without an offline learning phase, by utilising lessons learnt from existing macro learning techniques. Empirical evaluation with IPC benchmarks demonstrates performance improvement in a range of state-of-the-art planning engines, and provides insights into what macros can be generated without training.

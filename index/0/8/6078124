@@ -1,0 +1,4 @@
+
+ 
+ The boom of mobile devices and cloud services has led to an explosion of personal photo and video data. However, due to the missing user-generated metadata such as titles or descriptions, it usually takes a user a lot of swipes to find some video on the cell phone. To solve the problem, we present an innovative idea called Visual Memory QA which allow a user not only to search but also to ask questions about her daily life captured in the personal videos. The proposed system automatically analyzes the content of personal videos without user-generated metadata, and offers a conversational interface to accept and answer questions. To the best of our knowledge, it is the first to answer personal questions discovered in personal photos or videos. The example questions are "what was the lat time we went hiking in the forest near San Francisco?"; "did we have pizza last week?"; "with whom did I have dinner in AAAI 2015?".
+ 

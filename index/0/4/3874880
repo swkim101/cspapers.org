@@ -1,0 +1,4 @@
+
+ 
+ Online symptom checkers have been deployed by sites such as WebMD and Mayo Clinic to identify possible causes and treatments for diseases based on a patient’s symptoms. Symptom checking first assesses a patient by asking a series of questions about their symptoms, then attempts to predict potential diseases. The two design goals of a symptom checker are to achieve high accuracy and intuitive interactions. In this paper we present our context-aware hierarchical reinforcement learning scheme, which significantly improves accuracy of symptom checking over traditional systems while also making a limited number of inquiries.
+ 

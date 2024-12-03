@@ -1,0 +1,1 @@
+We present a min-max formula for the problem of augmenting the node-connectivity of a graph by one and give a polynomial time algorithm for finding an optimal solution. We also solve the minimum cost version for node-induced cost functions.

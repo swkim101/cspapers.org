@@ -1,0 +1,2 @@
+In the past, constructive partitioning algorithms mostly tried to cluster logic elements on the basis of “maximal connectedness”. Although this tends to reduce external pin requirements, a much emphasized “functional partitioning” was generally not achieved.
+ This paper presents a new approach to partitioning by taking into account certain structural qualities of logic circuits, namely loops and reconverging fan-out subnets.

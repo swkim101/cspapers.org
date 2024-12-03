@@ -1,0 +1,1 @@
+An O(m) bl’ o zwous permutation-routing algorithm for 3dimensional meshes is presented. The model is a standard mesh where fi x fl processors are connected via pointto-point connections and each processor has a queue which can hold only a constant number of temporal packets. The previous bound was O(N’.“) [IKM98].

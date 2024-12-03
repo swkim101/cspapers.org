@@ -1,0 +1,4 @@
+
+ 
+ Understanding inter-character relationships is fundamental for understanding character intentions and goals in a narrative. This paper addresses unsupervised modeling of relationships between characters. We model relationships as dynamic phenomenon, represented as evolving sequences of latent states empirically learned from data. Unlike most previous work our approach is completely unsupervised. This enables data-driven inference of inter-character relationship types beyond simple sentiment polarities, by incorporating lexical and semantic representations, and leveraging large quantities of raw text. We present three models based on rich sets of linguistic features that capture various cues about relationships. We compare these models with existing techniques and also demonstrate that relationship categories learned by our model are semantically coherent.
+ 

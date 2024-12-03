@@ -1,0 +1,10 @@
+The last few years have witnessed a renewed interest in “data-driven algorithm design” (Balcan 2020), the use of Machine Learning (ML) to tailor an algorithm to a distribution of instances. More than a decade ago, advances in algorithm configuration (Hoos 2011) paved the way for the use of historical data to modify an algorithm’s (typically fixed, static) parameters. In discrete optimization (e.g., satisfiability, integer programming, etc.), exact and inexact algorithms for NP-Hard problems often involve heuristic search decisions (Lodi 2013), abstracted as parameters, that can demonstrably benefit from tuning on historical instances from the application of interest.
+
+While useful, algorithm configuration may be insufficient: setting the parameters of an algorithm upfront of solving the input instance is still a static, high-level decision. In contrast, we have been exploring a suite of ML and Reinforcement Learning (RL) approaches that tune iterative optimization algorithms, such as branch-and-bound for integer programming or construction heuristics, at the iteration-level (Khalil et al. 2016, 2017; Dai et al. 2017; Chmiela et al. 2021; Gupta et al. 2022; Chi et al. 2022; Khalil, Vaezipoor, and Dilkina 2022; Khalil, Morris, and Lodi 2022; Alomrani, Moravej, and Khalil 2022; Cappart et al. 2021; Gupta et al. 2020).
+
+We will survey our most recent work in this area:
+1. New methods for learning in MILP branch-and-bound (Gupta et al. 2020, 2022; Chmiela et al. 2021; Khalil, Vaezipoor, and Dilkina 2022; Khalil, Morris, and Lodi 2022);
+
+2. RL for online combinatorial optimization and largescale linear programming (Alomrani, Moravej, and Khalil 2022; Chi et al. 2022);
+
+3. Neural network approximations for stochastic programming (Dumouchelle et al. 2022).

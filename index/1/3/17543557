@@ -1,0 +1,14 @@
+In smart spaces such as smart homes, computation is embedded everywhere: in toys, appliances, or the 
+home’s infrastructure. Most of these devices provide a pool of available resources which the user can take 
+advantage, interacting and creating a friendly environment. The inherent composability of these systems 
+and other unique characteristics such as low-cost energy, simplicity in module programming, and even 
+their small size, make them a suitable candidate for dynamic and adaptive ambient systems. This research 
+work focuses on what is defined as an “ambience”, a space with a user-defined set of computational 
+devices. A smart-home is modeled as a collection of ambiences, where every ambience is capable of 
+providing a pool of available resources to the user. In turn, the user is supposed to carry one or several 
+personal devices able to interact with the ambiences, taking advantage of his inherent mobility. In this way, 
+the whole system can benefit from resources discovered in the spatial proximity. A software architecture is 
+designed, which is based on the implementation of low-cost algorithms able to detect and update the system 
+when changes in an ambience occur. Ambience middleware implementation works in a wide range of 
+architectures and OSs, while showing a negligible overhead in the time to perform the basic output 
+operations.

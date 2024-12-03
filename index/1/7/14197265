@@ -1,0 +1,4 @@
+
+ 
+ Belief revision games (BRGs) are concerned with the dynamics of the beliefs of a group of communicating agents. BRGs are "zero-player" games where at each step every agent revises her own beliefs by taking account for the beliefs of her acquaintances. Each agent is associated with a belief state defined on some finite propositional language. We provide a general definition for such games where each agent has her own revision policy, and show that the belief sequences of agents can always be finitely characterized. We then define a set of revision policies based on belief merging operators. We point out a set of appealing properties for BRGs and investigate the extent to which these properties are satisfied by the merging-based policies under consideration.
+ 

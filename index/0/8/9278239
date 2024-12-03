@@ -1,0 +1,1 @@
+We describe a framework for the development of a mixed-mode message system for an office environment. Messages may be composed of attributes, text, images, and voice. Message retrieval is based on content. We discuss several issues related to the development of such systems. Text retrieval techniques are important for content retrieval in this environment.

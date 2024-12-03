@@ -1,0 +1,4 @@
+
+ 
+ This work proposes new approaches to contingent planning using alternative belief state representations extended from those in conformant planning and a new AND/OR forward search algorithm, called PrAO, for contingent solutions. Each representation was implemented in a new contingent planner. The important role of belief state representation has been confirmed by the fact that our planners all outperform other stateof- the-art planners on most benchmarks and the comparison of their performances varies across all the benchmarks even using the same search algorithm PrAO and same unsophisticated heuristic scheme. The work identifies the properties of each representation method that affect the performance.
+ 

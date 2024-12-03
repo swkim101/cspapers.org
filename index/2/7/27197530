@@ -1,0 +1,5 @@
+We construct an N-node graph G which has
+ (i) a layout with area O(N) and maximum edge length O(N<supscrpt>1/2</supscrpt>),
+ (ii) a layout with area O(N<supscrpt>5/4</supscrpt>) and maximum edge length O(N<supscrpt>1/4</supscrpt>).
+ We prove for 1 ≤ f(N) ≤ O(N<supscrpt>1/8</supscrpt>) that any layout for G with area Nf(N) has an edge of length Ω(N<supscrpt>1/2</supscrpt>/f (N) •log N).
+ Hence G has no layout which is optimal with respect to both measures.

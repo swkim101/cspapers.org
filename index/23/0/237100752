@@ -1,0 +1,7 @@
+We study the Japanese Residency Matching Program (JRMP) in which hospitals are partitioned into disjoint regions and both hospitals and regions are subject to quotas. To achieve a balanced distribution of doctors across regions, hard bounds are imposed by the government to limit the number of
+
+doctors who can be placed in each region. However, such hard bounds lead to inefficiency in terms of wasted vacant positions. In this paper, we propose
+
+two suitable algorithms to reduce waste with minimal modification to the current system and show that they are superior to the algorithm currently
+
+deployed in JRMP by comparing them theoretically and empirically.

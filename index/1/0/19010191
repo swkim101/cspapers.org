@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we investigate the move prediction problem in the game of Go by proposing a new ranking model named Factorization Bradley Terry (FBT) model. This new model considers the move prediction problem as group competitions while also taking the interaction between features into account. A FBT model is able to provide a probability distribution that expresses a preference over moves. Therefore it can be easily compiled into an evaluation function and applied in a modern Go program. We propose a Stochastic Gradient Decent (SGD) algorithm to train a FBT model using expert game records, and provide two methods for fast computation of the gradient in order to speed up the training process. Experimental results show that our FBT model outperforms the state-of-the-art move prediction system of Latent Factor Ranking (LFR).
+ 

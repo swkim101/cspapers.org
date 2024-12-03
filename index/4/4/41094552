@@ -1,0 +1,3 @@
+In this paper we present a new heuristic searching algorithm by introducing statistical inference method on the basic of algorithm A*. It's called algorithm SA*. The following results have been proved. (1) Algorithm SA* in superior to algorithm A*. (2) The mean complexity of SA* is CN2, but in some case A* exhibits exponential complexity (eN). (3) In a (N,d,F)- game tree, the mean complexity of SA* is CN2, but the complexity of other known game-searching algoritham (α-β , SSS* etc.) is at least dN. (4) The maximal storage-space required by SA* is C,N. 
+ 
+This shows that under a given significance level SA* is superior to other known algorithm (e.g. A*, B*, α-β, SSS* etc.).

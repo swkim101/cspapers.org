@@ -1,0 +1,1 @@
+We prove that regular graphs with large degree and small mixing time contain long paths and some other families of graphs as subgraphs. We present then an efficient algorithm for finding long paths. We apply the results to size Ramsey numbers and self-avoiding walks in graphs.

@@ -1,0 +1,1 @@
+A large spoken dialogue translation system imposes both engineering and linguistic constraints on the way in which linguistic information is communicated between modules. We describe the design and use of interface terms, whose formal, functional and communicative role has been tested in a sequence of integrated systems and which have proven adequate to these constraints.

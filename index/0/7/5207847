@@ -1,0 +1,5 @@
+Several early game-playing computer programs used forward pruning (i.e., the practice of deliberately ignoring nodes that are believed unlikely to affect a game tree's minimax value), but this technique did not seem to result in good decision-making. The poor performance of forward pruning presents a major puzzle for AI research on game playing, because some version of forward pruning seems to be "what people do," and the best chess-playing programs still do not play as well as the best humans. 
+ 
+As a step toward deeper understanding of forward pruning, we have set up models of forward pruning on two different kinds of game trees, and used these models to investigate how forward pruning affects the probability of choosing the correct move. In our studies, forward pruning did better than minimaxing when there was a high correlation among the minimax values of sibling nodes in a game tree. 
+ 
+This result suggests that forward pruning may possibly be a useful decision-making technique in certain kinds of games. In particular, we believe that bridge may be such a game.

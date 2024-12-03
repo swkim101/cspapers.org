@@ -1,0 +1,33 @@
+Complex robot behaviors are often structured as
+
+state machines, where states encapsulate actions
+
+and a transition function switches between states.
+
+Since transitions depend on physical parameters,
+
+when the environment changes, a roboticist has to
+
+painstakingly readjust the parameters to work in
+
+the new environment. We present interactive SMT-
+
+based Robot Transition Repair (SRTR): instead of
+
+manually adjusting parameters, we ask the roboticist to identify a few instances where the robot is
+
+in a wrong state and what the right state should
+
+be. An automated analysis of the transition function 1) identifies adjustable parameters, 2) converts the transition function into a system of logical constraints, and 3) formulates the constraints
+
+and user-supplied corrections as a MaxSMT problem that yields new parameter values. We show
+
+that SRTR finds new parameters 1) quickly, 2)
+
+with few corrections, and 3) that the parameters
+
+generalize to new scenarios. We also show that
+
+a SRTR-corrected state machine can outperform a
+
+more complex, expert-tuned state machine.

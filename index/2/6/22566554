@@ -1,0 +1,4 @@
+
+ 
+ Sports broadcasters are continuously seeking to make their live coverages of soccer matches more attractive. A recent innovation is the “highlight channel,” which shows the most interesting events from multiple matches played at the same time. However, switching between matches at the right time is challenging in fast-paced sports like soccer, where interesting situations often evolve as quickly as they disappear again. This paper presents the POGBA algorithm for automatically predicting highlights in soccer matches, which is an important task that has not yet been addressed. POGBA leverages spatio-temporal event streams collected during matches to predict the probability that a particular game state will lead to a goal. An empirical evaluation on a real-world dataset shows that POGBA outperforms the baseline algorithms in terms of both precision and recall.
+ 

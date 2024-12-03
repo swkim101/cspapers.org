@@ -1,0 +1,1 @@
+Tree pattern queries are a natural language for querying graph- and tree-structured data. A central question for understanding their optimization problem was whether they can be minimized by cutting away redundant parts. This question has been studied since the early 2000's and was recently resolved.

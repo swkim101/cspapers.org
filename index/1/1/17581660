@@ -1,0 +1,10 @@
+Semantic Web Services (SWS) are Web Services (WS) 
+whose description is semantically enhanced with markup 
+languages (e.g., OWL-S). This semantic description will enable external agents and programs to discover, compose and 
+invoke SWSs. However, as a previous step to the specification of SWSs in a language, it must be designed at a conceptual level to guarantee its correctness and avoid 
+inconsistencies among its internal components. In this 
+paper, we present a framework for design and (semi) 
+automatic composition of SWSs at a language-independent 
+and knowledge level. This framework is based on a stack of 
+ontologies that (1) describe the different parts of a SWS; 
+and (2) contain a set of axioms that are really design rules to be verified by the ontology instances. Based on these ontologies, design and composition of SWSs can be viewed as the correct instantiation of the ontologies themselves. Once these instances have been created they will be exported to SWS languages such as OWL-S.

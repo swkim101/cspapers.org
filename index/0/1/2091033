@@ -1,0 +1,1 @@
+We explain the design of the interpretation-based static analyzer ASTRÉE and its use to prove the absence of run-time errors in safety-critical codes.

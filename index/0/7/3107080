@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of automatically generating features for function approximation in reinforcement learning. We build on the work of Mahadevan and his colleagues, who pioneered the use of spectral clustering methods for basis function construction. Their methods work on top of a graph that captures state adjacency. Instead, we use bisimulation metrics in order to provide state distances for spectral clustering. The advantage of these metrics is that they incorporate reward information in a natural way, in addition to the state transition information. We provide theoretical bounds on the quality of the obtained approximation, which justify the importance of incorporating reward information. We also demonstrate empirically that the approximation quality improves when bisimulation metrics are used instead of the state adjacency graph in the basis function construction process.
+ 

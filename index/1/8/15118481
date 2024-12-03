@@ -1,0 +1,1 @@
+TLA, (the Temporal Logic of Actions) is a linear temporal logic for specifying and reasoning about reactive systems. The purpose of this paper is to develop an animator and a model checker, both based on a subset of TLA, and illustrates how we can combine these tools to validate TLA specifications.

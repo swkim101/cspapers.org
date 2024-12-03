@@ -1,0 +1,4 @@
+
+ 
+ Planning in large partially observable Markov decision processes (POMDPs) is challenging especially when a long planning horizon is required. A few recent algorithms successfully tackle this case but at the expense of a weaker information-gathering capacity. In this paper, we propose Information Gathering and Reward Exploitation of Subgoals (IGRES), a randomized POMDP planning algorithm that leverages information in the state space to automatically generate "macro-actions" to tackle tasks with long planning horizons, while locally exploring the belief space to allow effective information gathering. Experimental results show that IGRES is an effective multi-purpose POMDP solver, providing state-of-the-art performance for both long horizon planning tasks and information-gathering tasks on benchmark domains. Additional experiments with an ecological adaptive management problem indicate that IGRES is a promising tool for POMDP planning in real-world settings.
+ 

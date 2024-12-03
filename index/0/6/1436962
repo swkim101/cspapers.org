@@ -1,0 +1,1 @@
+We outline the need for search engines to provide user feedback on the expected time for a query, describe a scheme for learning a model of query time by observing sample queries, and discuss the results obtained for a set of actual user queries on a document collection using the MG search engine.

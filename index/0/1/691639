@@ -1,0 +1,2 @@
+In order to build lower cost multimicroprocessor systems, a narrow synchronous bus (15 active lines) is proposed. It multiplexes address and data on 8 bits, and arbitrates in two pipe-lined cycles on four lines. Due to the 20 to 40 MHz bus clock, and the pipelined control logic, the performances are equivalent to Multibus-2, IEEE-P896 and similar 32-bit buses.
+For the implementation, cards are disposed radially around a special connector. The very short connections allows for the usage of fast HC-MOS drivers with only a light adaptation.

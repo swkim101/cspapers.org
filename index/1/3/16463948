@@ -1,0 +1,4 @@
+
+ 
+ We study an important crowdsourcing setting where agents evaluate one another and, based on these evaluations, a subset of agents are selected. This setting is ubiquitous when peer review is used for distributing awards in a team, allocating funding to scientists, and selecting publications for conferences. The fundamental challenge when applying crowdsourcing in these settings is that agents may misreport their reviews of others to increase their chances of being selected. We propose a new strategyproof (impartial) mechanism called Dollar Partition that satisfies desirable axiomatic properties. We then show, using a detailed experiment with parameter values derived from target real world domains, that our mechanism performs better on average, and in the worst case, than other strategyproof mechanisms in the literature.
+ 

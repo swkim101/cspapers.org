@@ -1,0 +1,4 @@
+
+ 
+ Applications are increasingly expected to make smart decisions based on what humans consider basic commonsense. An often overlooked but essential form of commonsense involves comparisons, e.g. the fact that bears are typically more dangerous than dogs, that tables are heavier than chairs, or that ice is colder than water. In this paper, we first rely on open information extraction methods to obtain large amounts of comparisons from the Web. We then develop a joint optimization model for cleaning and disambiguating this knowledge with respect to WordNet. This model relies on integer linear programming and semantic coherence scores. Experiments show that our model outperforms strong baselines and allows us to obtain a large knowledge base of disambiguated commonsense assertions.
+ 

@@ -1,0 +1,1 @@
+This paper addresses the problem of control of a twin wind turbine which is subject to an electrical fault affecting only one stator phase of one turbine. An active fault tolerant control is proposed. The performance and robustness of the proposed control, comparing to a passive fault tolerant one developed in the literature, are shown through numerical simulations.

@@ -1,0 +1,1 @@
+This paper examines Lisp from the point of view of parallel computation. It attempts to identify exactly where the potential for parallel execution really exists in LISP and what constructs are useful in realizing that potential. Case studies of three attempts at augmenting Lisp with parallel constructs are examined and critiqued.

@@ -1,0 +1,4 @@
+
+ 
+ We present three new filtering algorithms for the Disjunctive constraint that all have a linear running time complexity in the number of tasks. The first algorithm filters the tasks according to the rules of the time tabling. The second algorithm performs an overload check that could also be used for the Cumulative constraint. The third algorithm enforces the rules of detectable precedences. The two last algorithms use a new data structure that we introduce and that we call the time line. This data structure provides many constant time operations that were previously implemented in logarithmic time by the Theta-tree data structure. Experiments show that these new algorithms are competitive even for a small number of tasks and outperform existing algorithms as the number of tasks increases.
+ 

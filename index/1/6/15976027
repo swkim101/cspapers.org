@@ -1,0 +1,4 @@
+
+ 
+ We study description logics (DLs) supporting number restrictions on transitive roles. We first take a look at SOQ and SON with binary and unary coding of numbers, and provide algorithms for the satisfiability problem and tight complexity bounds ranging from EXPTIME to NEXPTIME. We then show that by allowing for counting only up to one (functionality), inverse roles and role inclusions can be added without losing decidability. We finally investigate DLs of the DL-Lite-family, and show that, in the presence of role inclusions, the core fragment becomes undecidable.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Scripts encode knowledge of prototypical sequences of events. We describe a Recurrent Neural Network model for statistical script learning using Long Short-Term Memory, an architecture which has been demonstrated to work well on a range of Artificial Intelligence tasks. We evaluate our system on two tasks, inferring held-out events from text and inferring novel events from text, substantially outperforming prior approaches on both tasks.
+ 

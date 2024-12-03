@@ -1,0 +1,1 @@
+We prove that the Weisfeiler-Leman (WL) dimension of the class of all finite planar graphs is at most 3. In particular, every finite planar graph is definable in first-order logic with counting using at most 4 variables. The previously best known upper bounds for the dimension and number of variables were 14 and 15, respectively.

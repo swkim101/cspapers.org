@@ -1,0 +1,1 @@
+Dominance constraints are logical descriptions of trees that are widely used in computational linguistics. Their general satisfiability problem is known to be NP-complete. Here we identify the natural fragment of normal dominance constraints and show that its satisfiability problem is in deterministic polynomial time.

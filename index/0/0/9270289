@@ -1,0 +1,1 @@
+We claim that existing specification languages for tree based grammars fail to adequately support identifier managment. We then show that XMG (eXtensible Meta-Grammar) provides a sophisticated treatment of identifiers which is effective in supporting a linguist-friendly grammar design.

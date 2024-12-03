@@ -1,0 +1,5 @@
+Norms help regulate a society. Norms may be explicit (represented in structured form) or implicit. 
+
+We address the emergence of explicit norms by developing agents who provide and reason about explanations for norm violations in deciding sanctions and identifying alternative norms. These agents use a genetic algorithm to produce norms and reinforcement learning to learn the values of these norms.
+
+We find that applying explanations leads to norms that provide better cohesion and goal satisfaction for the agents. Our results are stable for societies with differing attitudes of generosity.

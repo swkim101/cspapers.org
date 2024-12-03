@@ -1,0 +1,4 @@
+
+ 
+ In the event of an earthquake or fire, search and rescue efforts may be delayed until it is safe for a human team to enter the area. A team of robots could enter in advance to provide maps, images and locations of interest to the human team, allowing them to prepare their approach when they can enter. In a disaster area, communication may also be limited. We have developed a set of distributed algorithms that make use of a small number of robots to fully explore an unknown environment even with restrictions on communication, team size, and available sensors. We show, through proofs and experiments, that the algorithm will allow the team of robots to fully explore the environment and maintain the necessary communication to return the information to the search and rescue team waiting outside.
+ 

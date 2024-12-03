@@ -1,0 +1,1 @@
+This paper presents a modular method to compute the workspace of parallel robot with 6 degrees of freedom. For the generation of the workspace also the mechanical constrains of both the active and passive joints are taken into consideration.

@@ -1,0 +1,5 @@
+Each user of the network needs to connect a pair of target nodes. There are no variable congestion costs, only a direct connection cost for each pair of nodes. A centralized mechanism elicits target pairs from users, and builds the cheapest forest meeting all demands. We look for cost sharing rules satisfying
+ • Routing-proofness: no user can lower its cost by reporting as several users along an alternative path connecting his target nodes;
+ • Stand Alone core stability: no group of users pay more than the cost of a subnetwork meeting all connection needs of the group.
+ We construct first two core stable and routing-proof rules when connecting costs are all 0 or 1. One is derived from the random spanning tree weighted by the volume of traffic on each edge; the other is the weighted Shapley value of the Stand Alone cooperative game.
+ For arbitrary connecting costs, we prove that the core is non empty if the graph of target pairs connects all pairs of nodes. Then we extend both rules above by the piecewise-linear technique. The former rule is computable in polynomial time, the latter is not.

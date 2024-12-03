@@ -1,0 +1,1 @@
+We give a simple algorithm for the Minimum Directed Multicut problem, and show that it gives an <i>O</i>(√<i>n</i>)-approximation. This improves on the previous approximation guarantee of <i>O</i>(√<i>n</i> log <i>k</i>) of Cheriyan, Karloff and Rabani [1], which was obtained by a more sophisticated algorithm.

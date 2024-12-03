@@ -1,0 +1,1 @@
+The problem of interpreting images of moving jointed objects is considered. Assuming the existence of a connectedness model, an algorithm is presented for calculating the rigid part lengths and motion of the jointed objects just from the positions of the joints and some depth information. The algorithm is proved correct.

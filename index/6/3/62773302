@@ -1,0 +1,3 @@
+A new placement algorithm for general cell assemblies is presented which combines the ideas of polar graph representation and min-cut placement.
+ First a detailed description of the initial placement procedure is given, then the various methods for placement improvement (rotation, squeezing, reflecting) and global routing are discussed.
+ A sample circuit is used to demonstrate the performance of the algorithms. Results are shown to compare favorably with manually achieved solutions.

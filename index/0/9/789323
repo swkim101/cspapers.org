@@ -1,0 +1,4 @@
+
+ 
+ POMDPs are standard models for probabilistic planning problems, where an agent interacts with an uncertain environment. We study the problem of almost-sure reachability, where given a set of target states, the question is to decide whether there is a policy to ensure that the target set is reached with probability 1 (almost-surely). While in general the problem is EXPTIME-complete, in many practical cases policies with a small amount of memory suffice. Moreover, the existing solution to the problem is explicit, which first requires to construct explicitly an exponential reduction to a belief-support MDP. In this work, we first study the existence of observation-stationary strategies, which is NP-complete, and then small-memory strategies. We present a symbolic algorithm by an efficient encoding to SAT and using a SAT solver for the problem. We report experimental results demonstrating the scalability of our symbolic (SAT-based) approach.
+ 

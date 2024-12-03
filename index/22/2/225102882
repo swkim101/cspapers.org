@@ -1,0 +1,15 @@
+Learning how to execute complex tasks involving multiple objects in a 3D world is challenging when there is no ground-truth information about the objects or any demonstration to learn from.
+
+When an agent only receives a signal from task-completion, this makes it challenging to learn the object-representations which support learning the correct object-interactions needed to complete the task.
+
+In this work, we formulate learning an attentive object dynamics model as a classification problem, using random object-images to define incorrect labels for our object-dynamics model.
+
+We show empirically that this enables object-representation learning that captures an object's category (is it a toaster?), its properties (is it on?), and object-relations (is something inside of it?).
+
+With this, our core learner (a relational RL agent) receives the dense training signal it needs to rapidly learn object-interaction tasks.
+
+We demonstrate results in the 3D AI2Thor simulated kitchen environment with a range of challenging food preparation tasks.
+
+We compare our method's performance to several related approaches and against the performance of an oracle: an agent that is supplied with ground-truth information about objects in the scene.
+
+We find that our agent achieves performance closest to the oracle in terms of both learning speed and maximum success rate.

@@ -1,0 +1,4 @@
+
+ 
+ We focus on effective sample-based planning in the face of underactuation, high-dimensionality, drift, discrete system changes, and stochasticity. These are hallmark challenges for important problems, such as humanoid locomotion. In order to ensure broad applicability, we assume domain expertise is minimal and limited to a generative model. In order to make the method responsive, computational costs that scale linearly with the amount of samples taken from the generative model are required. We bring to bear a concrete method that satisfies all these requirements; it is a receding-horizon open-loop planner that employs cross-entropy optimization for policy construction. In simulation, we empirically demonstrate near-optimal decisions in a small domain and effective locomotion in several challenging humanoid control tasks.
+ 

@@ -1,0 +1,1 @@
+We present a novel greedy hot-potato routing algorithm for the 2-dimensional n x n mesh or torus. This algorithm uses randomization to adjust packet priorities.

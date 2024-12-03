@@ -1,0 +1,1 @@
+A large number of MAC protocols support energy efficiency in sensor networks by forming rigid sleep/wakeup schedules. This demonstration illustrates an energy-efficient protocol which adapts to changing sensor update rates, as required by certain application scenarios such as real time location tracking.

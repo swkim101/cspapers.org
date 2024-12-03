@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel technique for proving the consistency of large, complex and heterogeneous theories for which ‘standard’ automated reasoning methods are considered insufficient. In particular, we exemplify the applicability of the method by establishing the consistency of the foundational ontology DOLCE, a large, first-order ontology. The approach we advocate constructs a global model for a theory, in our case DOLCE, built from smaller models of subtheories together with amalgamability properties between such models. The proof proceeds by (i) hand-crafting a so-called architectural specification of DOLCE which reflects the way models of the theory can be built, (ii) an automated verification of the amalgamability conditions, and (iii) a (partially automated) series of relative consistency proofs.
+ 

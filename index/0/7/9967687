@@ -1,0 +1,4 @@
+
+ 
+ This paper introduces a novel framework for performing machine learning onlongitudinal neuroimaging datasets. These datasets are characterized by theirsize, particularly their width (millions of features per data input). Specifically, we address the problem of detecting subtle, short-term changes inneural structure that are indicative of cognitive change and correlate withrisk factors for Alzheimer's disease. We introduce a new spatially-sensitivekernel that allows us to reason about individuals, as opposed to populations. In doing so, this paper presents the first evidence demonstrating that verysmall changes in white matter structure over a two year period can predictchange in cognitive function in healthy adults.
+ 

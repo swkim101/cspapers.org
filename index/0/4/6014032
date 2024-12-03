@@ -1,0 +1,5 @@
+An intelligent robot that recognizes and assembles three-dimensional objects is described. The instruction to the robot is fed through a vidicon camera as a three-view plan of the assemblage whose overall spatial configuration is then recognized and decomposed into component parts by a computer. 
+ 
+Another camera looks at the real world for the specific parts required for the assembly and confirms their geometric features. The computer further makes the decisions on the procedure for the manipulation of the parts, and orders the articulated mechanical hand to proceed the assembly sequence. 
+ 
+The information processing is so far restricted to simple polyhedral objects and their co-relationships.

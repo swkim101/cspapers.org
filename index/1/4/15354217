@@ -1,0 +1,4 @@
+
+ 
+ Finding a meaningful way of characterizing the difficulty of partially observable Markov decision processes (POMDPs) is a core theoretical problem in POMDP research. State-space size is often used as a proxy for POMDP difficulty, but it is a weak metric at best. Existing work has shown that the covering number for the reachable belief space, which is a set of belief points that are reachable from the initial belief point, has interesting links with the complexity of POMDP planning, theoretically. In this paper, we present empirical evidence that the covering number for the reachable belief space (or just ``covering number", for brevity) is a far better complexity measure than the state-space size for both planning and learning POMDPs on several small-scale benchmark problems. We connect the covering number to the complexity of learning POMDPs by proposing a provably convergent learning algorithm for POMDPs without reset given knowledge of the covering number.
+ 

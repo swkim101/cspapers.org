@@ -1,0 +1,7 @@
+Semi-supervised learning (SSL), as one of the dominant methods, aims at leveraging the unlabeled data to deal with the annotation dilemma of supervised learning, which has attracted much attentions in the medical image segmentation. 
+Most of the existing approaches leverage a unitary network by convolutional neural networks (CNNs) with compulsory consistency of the predictions through small perturbations applied to inputs or models. 
+The penalties of such a learning paradigm are that (1) CNN-based models place severe limitations on global learning; (2) rich and diverse class-level distributions are inhibited. 
+In this paper, we present a novel CNN-Transformer learning framework in the manifold space for semi-supervised medical image segmentation. 
+First, at intra-student level, we propose a novel class-wise consistency loss to facilitate the learning of both discriminative and compact target feature representations. 
+Then, at inter-student level, we align the CNN and Transformer features using a prototype-based optimal transport method. 
+Extensive experiments show that our method outperforms previous state-of-the-art methods on three public medical image segmentation benchmarks.

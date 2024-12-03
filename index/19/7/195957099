@@ -1,0 +1,50 @@
+Healthcare systems around the world are struggling to keep up with patient needs, and improve quality of care while reducing costs at the same time. At the same time, more and more data is being captured around healthcare processes in the form of Electronic Health Records (EHR), health insurance claims, medical imaging databases, disease registries, spontaneous reporting sites, and clinical trials. As this data gets collected, government regulations are requiring healthcare providers to not only store it in an electronic format but also use it in meaningful ways. Using this data in an effective way to improve quality of care and reduce costs requires innovation in data mining as well as academic, industry and government partnerships. The goals of this workshop are to: 
+Bring together the KDD community and the medical researchers & practitioners to discuss and explore mutual benefits of applying KDD to the right medical challenges and to collaborate on identifying and developing promising new techniques and methodologies. 
+Bring together researchers (from both academia and industry) as well as practitioners from all three different groups in medicine and healthcare (payers, providers, and pharmaceuticals) to talk about their different perspectives and to share their latest problems and ideas. 
+Attract healthcare professionals who have access to interesting sources of data and problems but not the expertise in data mining to solve them effectively. This group would otherwise not attend KDD and we believe through our personal experiences that it is essential for KDD research community to interact with them. 
+ 
+ 
+ 
+This workshop serves as a bridge between the traditional KDD community and professionals in medicine and healthcare - two groups of participants that have a lot to learn from and share with each other. We aim to emphasize the following aspects: 
+Addressing the fundamental challenges in improving healthcare and how data mining technologies will help 
+Presenting recent advances in data mining algorithms and methods for healthcare transformation 
+Identifying the next step of healthcare solutions and the possible data driven solutions 
+Fostering interactions and collaborations among researchers and practitioners (from different backgrounds), and healthcare professionals, to promote cross-fertilization of ideas. 
+Exploring unified platforms and data for better evaluation of the techniques 
+Deployed healthcare applications of data mining 
+New classes of research problems motivated by real-world business problems 
+Data mining applications as components of healthcare business processes 
+How data mining is useful for various participants in the healthcare system 
+Providers (hospitals, labs, clinics) 
+Payers (Insurance companies) 
+Pharmaceuticals 
+ 
+ 
+ 
+Topic areas for the workshop include (but are not limited to) the following: 
+Statistical analysis and characterization of healthcare data 
+Meaningful use of healthcare data for improved patient care and cost-reduction 
+ 
+ 
+ 
+Data quality assessment and improvement: preprocessing, cleaning, missing data treatment etc. 
+Pattern detection and hypothesis generation from observational data 
+Comparative effectiveness research 
+Medical information retrieval 
+Cloud-computing models and scalability 
+Privacy and security issues in healthcare 
+Information visualization for healthcare data 
+Information fusion and knowledge transfer in healthcare 
+Evolutionary and longitudinal patient and disease models 
+Mining knowledge from medical imaging data 
+Medical fraud detection 
+Clinical decision support 
+Bio-surveillance 
+Intelligent payment models 
+Collaborative care delivery models 
+Post-market surveillance of medical interventions 
+Text mining - mining free text in electronic medical records 
+Help with ICD 9 to ICD 10 conversions 
+Improving Clinical trial management and design 
+Pay for performance models in healthcare 
+Feasibility of Health Information exchanges

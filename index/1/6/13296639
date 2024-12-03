@@ -1,0 +1,4 @@
+
+ 
+ As an effective technology for navigating a large number of images, image summarization is becoming a promising task with the rapid development of image sharing sites and social networks. Most existing summarization approaches use the visual-based features for image representation without considering tag information.In this paper, we propose a novel framework, named JOINT, which employs both image content and tag information to summarize images. Our model generates the summary images which can best reconstruct the original collection. Based on the assumption that an image with representative content should also have typical tags, we introduce a similarity-inducing regularizer to our model. Furthermore, we impose the lasso penalty on the objective function to yield a concise summary set. Extensive experiments demonstrate our model outperforms the state-of-the-art approaches.
+ 

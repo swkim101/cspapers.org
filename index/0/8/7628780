@@ -1,0 +1,4 @@
+
+ 
+ Understanding the dynamics of argumentation frameworks (AFs) is important in the study of argumentation in AI. In this work, we focus on the so-called extension enforcement problem in abstract argumentation. We provide a nearly complete computational complexity map of fixed-argument extension enforcement under various major AF semantics, with results ranging from polynomial-time algorithms to completeness for the second-level of the polynomial hierarchy. Complementing the complexity results, we propose algorithms for NP-hard extension enforcement based on constrained optimization. Going beyond NP, we propose novel counterexample-guided abstraction refinement procedures for the second-level complete problems and present empirical results on a prototype system constituting the first approach to extension enforcement in its generality.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Diagnosis, or the process of identifying the nature and cause of an anomaly in an ontology, has been largely studied by the Semantic Web community. In the context of ontology stream, diagnosis results are not captured by a unique fixed ontology but numerous time-evolving ontologies. Thus any anomaly can be diagnosed by a large number of different explana- tions depending on the version and evolution of the ontology. We address the problems of identifying, representing, exploiting and exploring the evolution of diagnoses representations. Our approach consists in a graph-based representation, which aims at (i) efficiently organizing and linking time-evolving di- agnoses and (ii) being used for scalable exploration. The ex- periments have shown scalable diagnoses exploration in the context of real and live data from Dublin City.
+ 

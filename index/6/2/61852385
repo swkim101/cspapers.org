@@ -1,0 +1,1 @@
+We present a control plane architecture to accelerate multicast and incast traffic delivery for data-intensive applications in cluster-computing interconnection networks. The architecture is experimentally examined by enabling physical layer optical multicasting on-demand for the application layer to achieve non-blocking performance.

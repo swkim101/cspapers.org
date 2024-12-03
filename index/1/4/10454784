@@ -1,0 +1,4 @@
+
+ 
+ A General Game Player is a system that can play previously unknown games given nothing but their rules. The Game Description Language (GDL) has been developed as a high-level knowledge representation formalism for axiomatising the rules of any game, and a basic requirement of a General Game Player is the ability to reason logically about a given game description. In this paper, we address the fundamental limitation of existing GDL to be confined to deterministic games with complete information about the game state. To this end, we develop an extension of GDL that is both simple and elegant yet expressive enough to allow to formalise the rules of arbitrary (discrete and finite) n-player games with randomness and incomplete state knowledge. We also show that this extension suffices to provide players with all information they need to reason about their own knowledge as well as that of the other players up front and during game play.
+ 

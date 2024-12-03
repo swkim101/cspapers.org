@@ -1,0 +1,11 @@
+We study the price of anarchy (PoA) of simultaneous 2nd price auctions (S2PA) under a new natural condition of no underbidding, meaning that agents never bid on items less than their marginal values.
+We establish improved (mostly tight) bounds on the PoA of S2PA under no underbidding for different valuation classes (including unit demand, submodular, XOS, subadditive, and general monotone valuations), in both full information and incomplete information settings. 
+
+To derive our results, we introduce a new parameterized property of auctions, termed (gamma,delta) revenue guaranteed, which implies a PoA of at least gamma/(1+delta). 
+Via extension theorems, this guarantee extends to coarse correlated equilibria (CCE) in full information settings, and to Bayesian PoA (BPoA) in settings with incomplete information and arbitrary (correlated) distributions.
+We then show that S2PA are (1,1) revenue guaranteed with respect to bids satisfying no underbidding. 
+This implies a PoA of at least 1/2 for general monotone valuation, which extends to BPOA with arbitrary correlated distributions.
+Moreover, we show that (lambda,mu) smoothness combined with (gamma,delta) revenue guaranteed guarantees a PoA of at least (gamma+lambda)/(1+delta+mu).
+This implies a host of results, such as a tight PoA of 2/3 for S2PA with submodular (or XOS) valuations, under no overbidding and no underbidding.
+Beyond establishing improved bounds for S2PA, the no underbidding assumption sheds new light on the performance of S2PA relative to 
+simultaneous 1st price auctions.

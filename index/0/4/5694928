@@ -1,0 +1,4 @@
+
+ 
+ Much work has been done on predicting where is one going to be in the immediate future, typically within the next hour. By contrast, we address the open problem of predicting human mobility far into the future, a scale of months and years. We propose an efficient nonparametric method that extracts significant and robust patterns in location data, learns their associations with contextual features (such as day of week), and subsequently leverages this information to predict the most likely location at any given time in the future. The entire process is formulated in a principled way as an eigendecomposition problem. Evaluation on a massive dataset with more than 32,000 days worth of GPS data across 703 diverse subjects shows that our model predicts the correct location with high accuracy, even years into the future. This result opens a number of interesting avenues for future research and applications.
+ 

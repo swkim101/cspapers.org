@@ -1,0 +1,11 @@
+This work presents an exploration and imitation-learning-based agent capable of state-of-the-art performance in playing text-based computer games. 
+
+These games are of interest as they can be seen as a testbed for language understanding, problem-solving, and language generation by artificial agents. Moreover, they provide a learning setting in which these skills can be acquired through interactions with an environment rather than using fixed corpora. 
+
+One aspect that makes these games particularly challenging for learning agents is the combinatorially large action space. Existing methods for solving text-based games are limited to games that are either very simple or have an action space restricted to a predetermined set of admissible actions.
+
+In this work, we propose to use the exploration approach of Go-Explore for solving text-based games. More specifically, in an initial exploration phase, we first extract trajectories with high rewards, after which we train a policy to solve the game by imitating these trajectories.
+
+Our experiments show that this approach outperforms existing solutions in solving text-based games, and it is more sample efficient in terms of the number of interactions with the environment.
+
+Moreover, we show that the learned policy can generalize better than existing solutions to unseen games without using any restriction on the action space.

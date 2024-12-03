@@ -1,0 +1,4 @@
+
+ 
+ We present a dual decomposition approach to the tree-reweighted belief propagation objective. Each tree in the tree-reweighted bound yields one subproblem, which can be solved with the sum-product algorithm. The master problem is a simple differentiable optimization, to which a standard optimization method can be applied. Experimental results on 10x10 Ising models show the dual decomposition approach using L-BFGS is similar in settings where message-passing converges quickly, and one to two orders of magnitude faster in settings where message-passing requires many iterations, specifically high accuracy convergence, and strong interactions.
+ 

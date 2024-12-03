@@ -1,0 +1,1 @@
+We present a simple variant of the k-d tree which automatically adapts to intrinsic low dimensional structure in data without having to explicitly learn this structure.

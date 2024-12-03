@@ -1,0 +1,4 @@
+
+ 
+ Logic-based Benders decomposition (LBBD) is a powerful hybrid optimisation technique that can combine the strong dual bounds of mixed integer programming (MIP) with the combinatorial search strengths of constraint programming (CP). A major drawback of LBBD is that it is a far more involved process to implement an LBBD solution to a problem than the "model-and-run" approach provided by both CP and MIP. We propose an automated approach that accepts an arbitrary MiniZinc model and solves it using LBBD with no additional intervention on the part of the modeller. The design of this approach also reveals an interesting duality between LBBD and large neighborhood search (LNS). We compare our implementation of this approach to CP and MIP solvers on 4 different problem classes where LBBD has been applied before.
+ 

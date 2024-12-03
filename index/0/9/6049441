@@ -1,0 +1,3 @@
+Many techniques for model selection in the field of neural networks correspond to well established statistical methods. The method of 'stopped training', on the other hand, in which an oversized network is trained until the error on a further validation set of examples deteriorates, then training is stopped, is a true innovation, since model selection doesn't require convergence of the training process. 
+ 
+In this paper we show that this performance can be significantly enhanced by extending the 'non convergent model selection method' of stopped training to include dynamic topology modifications (dynamic weight pruning) and modified complexity penalty term methods in which the weighting of the penalty term is adjusted during the training process.

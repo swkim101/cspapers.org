@@ -1,0 +1,1 @@
+We study combinatorial auctions in online environments with the goal of maximizing social welfare. In this problem, new items become available on each day and must be sold before their respective expiration dates. We design online auctions for the widely studied classes of submodular and XOS valuations, and show the following results:

@@ -1,0 +1,1 @@
+We propose a KBS testing procedure that uses a KADS conceptual model (CM). The set of Valid Inference Paths is derived from the inference structure, and, a "high level" trace, representing the Current Inference Path, is built using the links established between the CM and the KBS. The comparison of this trace to the VIP can lead to modify either the code or the CM.

@@ -1,0 +1,2 @@
+Traceroute is probably the most famous computer networks diagnostic tool, widely adopted for both performance troubleshooting and research. Unfortunately, traceroute is not free of inaccuracies.
+ In this poster, we present our ongoing work to address the inaccuracy caused by third-party addresses.We discuss the impact of third-party addresses on traceroute applications and present a novel active probing technique able to identify such addresses in traceroute traces. Finally, we detail preliminary results suggesting how this phenomenon has been largely underestimated.

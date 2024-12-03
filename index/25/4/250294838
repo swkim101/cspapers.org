@@ -1,0 +1,7 @@
+MAX k-SAT is one of the archetypal NP-hard problems. Its variation called random MAX k-SAT problem was introduced in order to understand how hard it is to solve instances of the problem on average. The most common model to sample random instances is the uniform model, which has received a large amount of attention. However, the uniform model often fails to capture important structural properties we observe in the real-world instances. 
+ 
+To address these limitations, a more general (in a certain sense) model has been proposed, the configuration model, which is able to produce instances with an arbitrary distribution of variables' degrees, and so can simulate biases in instances appearing in various applications. 
+
+Our overall goal is to expand the theory built around the uniform model to the more general configuration model for a wide range of degree distributions. This includes locating satisfiability thresholds and analysing the performance of the standard heuristics applied to instances sampled from the configuration model.
+ 
+In this paper we analyse the performance of the pure literal elimination rule. We provide an equation that given an underlying degree distribution gives the number of clauses the pure literal elimination rule satisfies w.h.p. We also show how the distribution of variable degrees changes over time as the algorithm is being executed.

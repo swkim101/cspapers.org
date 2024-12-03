@@ -1,0 +1,4 @@
+
+ 
+ Mapping relational data to RDF is an important task for the development of the Semantic Web. To this end, the W3C has recently released a Recommendation for the so-called direct mapping of relational data to RDF. In this work, we propose an enrichment of the direct mapping to make it more faithful by transferring also semantic information present in the relational schema from the relational world to the RDF world. We thus introduce expressive identification constraints to capture functional dependencies and define an RDF Normal Form, which precisely captures the classical Boyce-Codd Normal Form of relational schemas.
+ 

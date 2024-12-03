@@ -1,0 +1,4 @@
+
+ 
+ Plan recognition is the task of inferring the plan of an agent, based on an incomplete sequence of its observed actions. Previous formulations of plan recognition commit early to discretizations of the environment and the observed agent's actions. This leads to reduced recognition accuracy. To address this, we first provide a formalization of recognition problems which admits continuous environments, as well as discrete domains. We then show that through mirroring---generalizing plan-recognition by planning---we can apply continuous-world motion planners in plan recognition. We provide formal arguments for the usefulness of mirroring, and empirically evaluate mirroring in more than a thousand recognition problems in three continuous domains and six classical planning domains.
+ 

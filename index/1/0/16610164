@@ -1,0 +1,3 @@
+The complexity of learning in shallow 1-Dimensional neural networks has been shown elsewhere to be linear in the size of the network. However, when the network has a huge number of units (as cortex has) even linear time might be unacceptable. Furthermore, the algorithm that was given to achieve this time was based on a single serial processor and was biologically implausible. 
+ 
+In this work we consider the more natural parallel model of processing and demonstrate an expected-time complexity that is constant (i.e. independent of the size of the network). This holds even when internode communication channels are short and local, thus adhering to more biological and VLSI constraints.

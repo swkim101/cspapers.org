@@ -1,0 +1,3 @@
+The search of a precise measure of what hardness of SAT instances means for state-of-the-art solvers is a relevant research question. Among others, the space complexity of treelike resolution (also called hardness), the minimal size of strong backdoors and of cycle-cutsets, and the treewidth can be used for this purpose. 
+ 
+We propose the use of the tree-like space complexity as a solid candidate to be the best measure for solvers based on DPLL. To support this thesis we provide a comparison with the other mentioned measures. We also conduct an experimental investigation to show how the proposed measure characterizes the hardness of random and industrial instances.

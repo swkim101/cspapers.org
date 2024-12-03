@@ -1,0 +1,4 @@
+
+ 
+ In this paper we present an on-manifold sequence-to-sequence learning approach to motion estimation using visual and inertial sensors. It is to the best of our knowledge the first end-to-end trainable method for visual-inertial odometry which performs fusion of the data at an intermediate feature-representation level. Our method has numerous advantages over traditional approaches. Specifically, it eliminates the need for tedious manual synchronization of the camera and IMU as well as eliminating the need for manual calibration between the IMU and camera. A further advantage is that our model naturally and elegantly incorporates domain specific information which significantly mitigates drift. We show that our approach is competitive with state-of-the-art traditional methods when accurate calibration data is available and can be trained to outperform them in the presence of calibration and synchronization errors.
+ 

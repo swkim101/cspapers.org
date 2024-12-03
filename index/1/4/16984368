@@ -1,0 +1,4 @@
+
+ 
+ Learning from multi-view data is important in many applications. In this paper, we propose a novel convex subspace representation learning method for unsupervised multi-view clustering. We ﬁrst formulate the subspace learning with multiple views as a joint optimization problem with a common subspace representation matrix and a group sparsity inducing norm. By exploiting the properties of dual norms, we then show a convex min-max dual formulation with a sparsity inducing trace norm can be obtained. We develop a proximal bundle optimization algorithm to globally solve the min-max optimization problem. Our empirical study shows the proposed subspace representation learning method can effectively facilitate multi-view clustering and induce superior clustering results than alternative multi-view clustering methods.
+ 

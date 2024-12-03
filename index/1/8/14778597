@@ -1,0 +1,4 @@
+
+ 
+ Rank K Binary Matrix Factorization (BMF) approximates a binary matrix by the product of two binary matrices of lower rank, K, using either L1 or L2 norm. In this paper, we first show that the BMF with L2 norm can be reformulated as an Unconstrained Binary Quadratic Programming (UBQP) problem. We then review several local search strategies that can be used to improve the BMF solutions obtained by previously proposed methods, before introducing a new local search dedicated to the BMF problem. We show in particular that the proposed solution is in general faster than the previously proposed ones. We then assess its behavior on several collections and methods and show that it significantly improves methods targeting the L2 norms on all the datasets considered; for the L1 norm, the improvement is also significant for real, structured datasets and for the BMF problem without the binary reconstruction constraint.
+ 

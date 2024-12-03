@@ -1,0 +1,4 @@
+
+ 
+ Much recent work in satisficing planning has aimed at striking a balance between coverage - solving as many problems as possible - and plan quality. Current planners achieve near perfect coverage on the latest IPC benchmarks. It is therefore natural to investigate their scaling behavior on more difficult instances. Among state of the art planners, LAMA (Richter, Helmert, and Westphal 2008) is able to generate high quality plans, but its coverage drops off rapidly with increasing prob- lem complexity. The Arvand planner (Nakhost and Müller 2009) scales to much harder instances but generates lower quality plans. This paper introduces a new algorithm, Monte Carlo Random Walk-based Local Tree Search (MRW-LTS), which uses random walks to selectively build local search trees. Experiments demonstrate that MRW-LTS combines a scaling behavior that is better than LAMA’s with a plan quality that is better than Arvand’s.
+ 

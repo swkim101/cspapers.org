@@ -1,0 +1,1 @@
+We demonstrate CarSafe, a driver safety application for Android phones that fuses information from both front and back cameras and others embedded sensors on the phone to detect and alert drivers to dangerous driving conditions in and outside of the car. In this demonstration, we set up an emulated driving environment to show how CarSafe works.

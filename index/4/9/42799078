@@ -1,0 +1,1 @@
+In this paper, the new type biped walking robot which is composed of a minimum number of links just for walking and its appropriate gaits are experimented. The proposed new gaits for this robot are: the four-crossing, crawling, standing and turning gaits. Dynamically stable walking of the biped robot is implemented by satisfying the stability condition of the zero moment point.

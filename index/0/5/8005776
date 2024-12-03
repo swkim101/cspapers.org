@@ -1,0 +1,1 @@
+We propose a multitrack bus architecture: a novel interconnection scheme of functional units in a multiprocessor system. It features concurrent data transfer among functional units and flexible bus structure. We have clarified the possibility of more mass transfer of data in comparison with conventional interconnection schemes.

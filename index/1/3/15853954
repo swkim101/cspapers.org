@@ -1,0 +1,1 @@
+To mitigate the impact of bandwidth contention, which in some processes can yield to performance degradations up to 40%, we devise a scheduling algorithm that tackles main memory and L1 bandwidth contention. Experimental evaluation on a real system shows that the proposal achieves an average speedup by 5% with respect to Linux.

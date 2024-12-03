@@ -1,0 +1,1 @@
+This demo presents a tool to generate code from verified Role-Based Access Control properties defined using UMLsec. It can either generate Java code, or generate Java code for the UML model and AspectJ code for enforcing said RBA properties. Both approaches use the Java Authentication and Authorization Service (JAAS) to enforce access control.

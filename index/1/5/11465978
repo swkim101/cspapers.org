@@ -1,0 +1,4 @@
+
+ 
+ This research describes the development of a supervised classifier of English light verb constructions, for example, "take a walk" and "make a speech." This classifier relies on features from dependency parses, OntoNotes sense tags, WordNet hypernyms and WordNet lexical file information. Evaluation shows that this system achieves an 89% F1 score (four points above the state of the art) on the BNC test set used by Tu & Roth (2011), and an F1 score of 80.68 on the OntoNotes test set, which is significantly more challenging. We attribute the superior F1 score to the use of our rich linguistic features, including the use of WordNet synset and hypernym relations for the detection of previously unattested light verb constructions. We describe the classifier and its features, as well as the characteristics of the OntoNotes light verb construction test set, which relies on linguistically motivated PropBank annotation.
+ 

@@ -1,0 +1,3 @@
+We investigate the combination of answer set programming and qualitative optimization techniques. Answer set optimization programs (ASO programs) have two parts. The generating program Pgen produces answer sets representing possible solutions. The preference program Ppref expresses user preferences. It induces a preference relation on the answer sets of Pgen based on the degree to which rules are satisfied. 
+ 
+We discuss possible applications of ASO programming, give complexity results and propose implementation techniques. We also analyze the relationship between ASO programs and CP-networks.

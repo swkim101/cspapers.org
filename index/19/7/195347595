@@ -1,0 +1,3 @@
+Previous work by Talbot and Osborne [2007] explored the use of randomized storage mechanisms in language modeling. These structures trade a small amount of error for significant space savings, enabling the use of larger language models on relatively modest hardware. 
+ 
+Going beyond space efficient count storage, here we present the Talbot Osborne Morris Bloom (TOMB) Counter, an extended model for performing space efficient counting over streams of finite length. Theoretical and experimental results are given, showing the promise of approximate counting over large vocabularies in the context of limited space.

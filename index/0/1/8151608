@@ -1,0 +1,2 @@
+A software system supporting multiple event-driven processes concurrently on a small process control computer is described. Each application can be programmed and tested independently. An implementation of the system, called LABS/7, has been productive for over three years.
+ The limits to which real-time multiprogramming may be pushed are explored.

@@ -1,0 +1,4 @@
+
+ 
+ In this paper we propose differential eligibility vectors (DEV) for temporal-difference (TD) learning, a new class of eligibility vectors designed to bring out the contribution of each action in the TD-error at each state. Specifically, we use DEV in TD-Q(lambda) to more accurately learn the relative value of the actions, rather than their absolute value. We identify conditions that ensure convergence w.p.1 of TD-Q(lambda) with DEV and show that this algorithm can also be used to directly approximate the advantage function associated with a given policy, without the need to compute an auxiliary function - something that, to the extent of our knowledge, was not known possible. Finally, we discuss the integration of DEV in LSTDQ and actor-critic algorithms.
+ 

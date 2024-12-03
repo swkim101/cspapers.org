@@ -1,0 +1,4 @@
+
+ 
+ Without discourse connectives, classifying implicit discourse relations is a challenging task and a bottleneck for building a practical discourse parser. Previous research usually makes use of one kind of discourse framework such as PDTB or RST to improve the classification performance on discourse relations. Actually, under different discourse annotation frameworks, there exist multiple corpora which have internal connections. To exploit the combination of different discourse corpora, we design related discourse classification tasks specific to a corpus, and propose a novel Convolutional Neural Network embedded multi-task learning system to synthesize these tasks by learning both unique and shared representations for each task. The experimental results on the PDTB implicit discourse relation classification task demonstrate that our model achieves significant gains over baseline systems.
+ 

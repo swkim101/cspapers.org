@@ -1,0 +1,4 @@
+
+ 
+ We introduce the problem of PAC rank elicitation, which consists of sorting a given set of options based on adaptive sampling of stochastic pairwise preferences. More specifically, we assume the existence of a ranking procedure, such as Copeland's method, that determines an underlying target order of the options. The goal is to predict a ranking that is sufficiently close to this target order with high probability, where closeness is measured in terms of a suitable distance measure. We instantiate this setting with combinations of two different distance measures and ranking procedures. For these instantiations, we devise efficient strategies for sampling pairwise preferences and analyze the corresponding sample complexity. We also present first experiments to illustrate the practical performance of our methods.
+ 

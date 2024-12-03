@@ -1,0 +1,3 @@
+Planning and acting in a dynamic environment require distinguishing controllable and contingent events and checking the dynamic controllability of plans. Known procedures for testing the dynamic controllability assume that all contingent events are observable. 
+ 
+Often this assumption does not hold. We consider here the general case of networks with invisible as well as observable contingent points. We propose a first procedure for testing their dynamic controllability. Further, we define an algorithm for choosing among the observable contingent points which to observe with additional sensing actions, such as to make a plan dynamically controllable. We show how these procedures can be incrementally integrated into a constraint-based temporal planner.

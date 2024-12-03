@@ -1,0 +1,20 @@
+In the near future, autonomous systems such as multi-robot
+systems are envisioned to increasingly co-exist with hu-
+mans in our daily lives, from household service to large-
+scale warehouse logistics, agriculture environment sampling,
+and smart city. In these applications, robots and humans as
+networked heterogeneous components will frequently inter-
+act with each other in a variety of scenarios under uncer-
+tain, rapidly-changing, and possibly hostile environment. On
+one hand, harmonious interactions among robots, as well as
+between robots and humans, would require safe integration
+(e.g. collision-free close-proximity interactions) of heteroge-
+neous robots, human, and human-robot autonomy. On the
+other hand, reliable interactions among autonomous multi-
+robot systems often call for resilient system integrity (e.g.
+communication capability with potential robot failures) to re-
+tain its capability of accomplishing complex tasks through
+coordinated behaviors. In the proposed talk, I will discuss our
+recent works towards safe autonomy and resilient autonomy
+that aim to facilitate correct-by-design robotic behaviors in a
+variety of applications.

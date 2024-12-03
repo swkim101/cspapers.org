@@ -1,0 +1,5 @@
+Our work focuses on a generalization of the classic Minisum approval voting rule, introduced by Barrot and Lang (2016), and referred to as Conditional Minisum (CMS), for multi-issue elections.
+
+Although the CMS rule provides much higher levels of expressiveness, this comes at the expense of increased computational complexity. In this work, we study further the issue of efficient algorithms for CMS, and we
+
+identify the condition of bounded treewidth (of an appropriate graph that emerges from the provided ballots), as the necessary and sufficient condition for polynomial algorithms, under common complexity assumptions. Additionally we investigate the complexity of problems related to the strategic control of such elections by the possibility of adding or deleting either voters or alternatives. We exhibit that in most variants of these problems, CMS is resistant against control.

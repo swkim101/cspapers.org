@@ -1,0 +1,1 @@
+We obtain asymptotically sharper lower bounds on resolution complexity for k-CNF's than was known previously. We show that for any large enough k there are k-CNF's which require resolution width (1-~O(k<sup>-1/4</sup>))n, regular resolution size 2<sup>(1-~O(k<sup>-1/4</sup>))n</sup>, and general resolution size (3/2)<sup>(1-~O(k<sup>-1/4</sup>))n</sup>.

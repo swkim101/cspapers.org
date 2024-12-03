@@ -1,0 +1,10 @@
+XVision is a software system for image processing research, education and applications. Xyvision utilizes the X Window System Version 11, which provides a network transparent windowing environment and software portability. Xyvision is designed to facilitate:data and algorithm exchange of new computer vision/image processing techniques,
+image processing training and education,
+development of turn key vision solutions for various application areas (automation, medicine, biology, astronomy, etc).
+
+XVision is a comprehensive system because it supports generation of new programs (extendibility), and integration, maintenance, modification and documentation of existing programs; and it includes:three user interfaces; a menuing system, a quick command line interface that can be customized and a standardized UNIX‡-like command line interface. A visual programming language, xvglyph, is under development.
+tutorials, manual pages, experiments, automated demonstrations and other supplemental documentation.
+an image processing library written in C,
+interactive image display and enhancement, image editing and creation, 2D, 3D, and contour plotting, and data creation/display via user specified functions.
+
+The Xyvision project started in February of 1987 with its first release in August of 1987. This paper describes the second version which incorporates changes suggested by many of the users (over 30 different institutions) of Xyvision Version 1.0 [1]. One of the most important design goals of the Xyvision project is to provide for easy growth and extendibility. This has been accomplished by clearly defining software levels, software systems and their standard interfaces, and by providing programming tools and a variety of user interfaces for the Xyvision user/maintainer.

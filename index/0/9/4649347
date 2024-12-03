@@ -1,0 +1,4 @@
+
+ 
+ This paper proposes a new approach to multi-object tracking by semantic topic discovery. We dynamically cluster frame-by-frame detections and treat objects as topics, allowing the application of the Dirichlet Process Mixture Model (DPMM). The tracking problem is cast as a topic-discovery task where the video sequence is treated analogously to a document. This formulation addresses tracking issues such as object exclusivity constraints as well as cannot-link constraints which are integrated without the need for heuristic thresholds. The video is temporally segmented into epochs to model the dynamics of word (superpixel) co-occurrences and to model the temporal damping effect. In experiments on public data sets we demonstrate the effectiveness of the proposed algorithm.
+ 

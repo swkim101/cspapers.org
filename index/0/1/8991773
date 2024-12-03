@@ -1,0 +1,1 @@
+Symbolic state space traversal techniques are best on control-dominated circuits, not on data paths. This paper extends their applicability to data paths. We use auxiliary variables to decompose Boolean functions and to manipulate them in decomposed form. Experimental results demonstrate the gain both in terms of BDD size and CPU time.

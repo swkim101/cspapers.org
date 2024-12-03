@@ -1,0 +1,4 @@
+
+ 
+ We present an initial proposal for modular object-oriented MDPs, an extension of OO-MDPs that abstracts complex domains that are partially observable and stochastic with multiple goals. Modes reduce the curse of dimensionality by reducing the number of attributes, objects, and actions into only the features relevant for each goal. These modes may also be used as an abstracted domain to be transferred to other modes or to another domain.
+ 

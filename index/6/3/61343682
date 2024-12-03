@@ -1,0 +1,22 @@
+It is our great pleasure to welcome you to the proceedings of the PROMOTO'14. The 2nd Workshop on Programming with Mobile and Touch (PROMOTO'14) was held in Portland, OR on October 22, 2014, in conjunction with SPLASH/OOPSLA 2014. The goals of the workshop were to discuss the issues surrounding touch and mobile programming and to plan future directions. 
+ 
+Workshop Overview Today, easy-to-use mobile devices like smartphones and tablets are becoming more prevalent than traditional PCs and laptops. New programming languages are emerging to enable programmers to develop software easily, leveraging the exciting advances in existing hardware, and providing abstractions that fit the capabilities of target platforms with multiple sensors, touch and cloud capabilities. PROMOTO'14 brought together researchers who have been exploring new programming paradigms, embracing the new realities of always connected, touch-enabled mobile devices. Specific areas of interest were the technical aspects of cross-platform computing, cloud computing, social applications, and education. 
+ 
+Submissions for this event were invited in the general area of mobile and touch-oriented programming languages and programming environments, and teaching of programming for mobile devices. Topics of interest included: 
+Mobile and touch-oriented programming languages 
+Programming languages using innovative input mechanisms 
+Programming environments on or for mobile devices 
+Teaching of programming on or for mobile devices 
+Programming tools such as debuggers on or for mobiles devices 
+Libraries and programming frameworks that simplify programming for mobile devices 
+ 
+ 
+ 
+The workshop received 11 submissions from all over the world. Each paper was reviewed by three members of the program committee and 6 were chosen for presentation as full papers, short papers or tool demos. We also had three additional stimulating sessions: 
+A keynote on "Programming gadgets with gadgets" presented by Jonathan de Halleux of Microsoft Research. 
+A group hands-on session, were participants were challenged to create an app in an hour, and compare results. 
+A lively panel on "Mobile Computing and Education" 
+ 
+ 
+ 
+The Keynote The keynote by de Halleux son "Programming gadgets with gadgets", not reported on elsewhere, was a lively presentation with an array of gadgets on display. Hardware 2.0 is upon us: cheap micro-controller boards like Arduino have gained massive adoption in recent years. Paired with 3D printers, cheap sensors and actuators, Hardware 2.0 allows anyone to prototype the next hot gadget. And yet, the maker will have to learn a soup of software language and framework to build a connected IoC solution: C++ for the micro controller code, HTML + javascript for the client, some backend language and a communication layer to interact with the devices. In this keynote, de Halleux showed a unified approach for compilation of web server code, rich client and embedded firmware under a simple mobile friendly language and IDE.

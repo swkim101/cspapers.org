@@ -1,0 +1,4 @@
+
+ 
+ In this abstract, we present a novel method using the deep convolutional neural network combined with traditional mechanical control techniques to solve the problem of determining whether a robotic grasp is successful or not. To finish the task, we construct a data acquisition platform capable of robot arm grasping and photo capturing, and collect a diversity of pictures by adjusting the shape and posture of the objects and controlling the robot arm to move randomly. For the purpose of validating the generalization capability, we adopt a stochastic sampling method based on cross validation to test our model. The experiment shows that, with an increasing number of shapes of objects involved in training, the network can identify new samples in a more accurate and steadier way. The accuracy rises from 89.2% when we use only one category of shape for training to above 99.7% when we use 17 categories for training.
+ 

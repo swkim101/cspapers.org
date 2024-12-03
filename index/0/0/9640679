@@ -1,0 +1,1 @@
+This paper discusses the advantages of a functional approach to data modelling. This approach forms the basis for DAPLEX, a high-level language for data description and manipulation. We describe the DAPLEX language and the functional data model and examine the benefits they provide as tools for expressing and solving problems in database management.

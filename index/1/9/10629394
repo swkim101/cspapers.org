@@ -1,0 +1,3 @@
+Performance issues of a single-bus interconnection network for multiprocessor systems, operating in a multiplexed way, are presented in this paper. Several models are developed and used 
+to allow system performance evaluation. Comparisons with equivalent crossbar systems are provided. It is shown how crossbar EBW values can be reached and exceeded when appropriate operation parameters are chosen in a multiplexed 
+single-bus system. Another architectural feature is considered, concerning the utilization of buffers at the memory modules. With the buffering scheme, memory interference can be reduced so that the system performance is practically improved.

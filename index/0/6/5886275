@@ -1,0 +1,2 @@
+This paper deals with the economic tradeoffs associated with data compression in a packet switching environment.
+ In section II we present the data profile concept and the compression analysis of typical file-transfer data strings. This is followed by a compression cost saving model that is developed in section III. Upper bounds for an economically effective compression service are derived there, and the paper concludes with an example of these bounds based on state of the art technology.

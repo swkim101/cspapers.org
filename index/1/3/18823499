@@ -1,0 +1,1 @@
+For a graphG, let α(G) denote the size of the largest independent set inG, and let ϑ(G) denote the Lovasz ϑ-function onG. We prove that for somec>0, there exists an infinite family of graphs such that\(\vartheta (G) > \alpha (G)n/2^{c\sqrt {\log n} }\), wheren denotes the number of vertices in a graph. this disproves a known conjecture regarding the ϑ function.

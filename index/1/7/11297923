@@ -1,0 +1,1 @@
+The performance of seven minimization algorithms are compared on five neural network problems. These include a variable-step-size algorithm, conjugate gradient, and several methods with explicit analytic or numerical approximations to the Hessian.

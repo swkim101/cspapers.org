@@ -1,0 +1,4 @@
+
+ 
+ Measuring reading effort is useful for practical purposes such as designing learning material and personalizing text comprehension environment. We propose a quantification of reading effort by measuring the complexity of eye-movement patterns of readers. We call the measure Scanpath Complexity. Scanpath complexity is modeled as a function of various properties of gaze fixations and saccades- the basic parameters of eye movement behavior. We demonstrate the effectiveness of our scanpath complexity measure by showing that its correlation with different measures of lexical and syntactic complexity as well as standard readability metrics is better than popular baseline measures based on fixation alone.
+ 

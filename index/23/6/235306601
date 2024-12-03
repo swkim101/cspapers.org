@@ -1,0 +1,8 @@
+For personalized recommendations, collaborative filtering (CF) methods aim to recommend items to users based on data of historical user-item interactions.
+Deep learning has indicated success in improving performance of CF methods in recent works.
+However, to generate an item recommendation list for each user, a lot of deep learning based CF methods require every pair of users and items to be passed through multiple neural layers.
+This requires intensive computation and makes real-time end-to-end neural recommendations very costly.
+To address this issue, in this paper, we propose a new deep learning-based hierarchical decision network to filter out irrelevant items to save computation cost while maintaining good recommendation accuracy of deep CF methods.
+We also develop a distillation-based training algorithm, which uses a well-trained CF model as a teacher network to guide the training of the decision network.
+We conducted extensive 
+experiments on real-world benchmark datasets to verify the effectiveness of efficiency of our decision network for making recommendations. The experimental results indicate that the proposed decision network is able to maintain or even improve the recommendation quality in terms of various metrics and meanwhile enjoy lower computational cost.

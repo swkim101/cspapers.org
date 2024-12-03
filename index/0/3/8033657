@@ -1,0 +1,4 @@
+Technology design rules are one cornerstone to the production of quality products. Rules are required to execute a design and to check a design for accuracy. Design tools and checking programs, driven by rules, are utilized to assist in the design process.
+ How can we build design tools and checking programs which will survive in this environment? How can we give these CAD program some measure of technology independence?
+ Can the rule-generation process be simplified and automated? Can the rule-generation process be formalized to bridge different and changing technologies? Can design integrity be improved through computer-aided design rule generation? Can the tedious job of manual rule generation be eliminated? Can design rules automation improve product quality?
+ These are some of the problems the workshop participants will be addressing. The participants have been asked to submit a brief position paper along with a 10-minute explanation of their views.

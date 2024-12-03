@@ -1,0 +1,3 @@
+An array of very simple processing elements is described each with a local semiconductor store. The array may also be used as main storage.
+ Bit-organisation gives great flexibility, including the minimisation of word length. Use of MSI and LSI is helped by the simplicity of the serial design. Using 15-bit fixed point, the theoretical performance of a 72 × 128 array is about 108 multiplications or 109 additions per second. Comparisons are made with other architectures.
+ Meteorology is considered as an application. It is attractive to have the whole problem in the array storage.

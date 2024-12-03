@@ -1,0 +1,4 @@
+
+ 
+ Text simplification (TS) is the technique of reducing the lexical, syntactical complexity of text. Existing automatic TS systems can simplify text only by lexical simplification or by manually defined rules. Neural Machine Translation (NMT) is a recently proposed approach for Machine Translation (MT) that is receiving a lot of research interest. In this paper, we regard original English and simplified English as two languages, and apply a NMT model–Recurrent Neural Network (RNN) encoder-decoder on TS to make the neural network to learn text simplification rules by itself. Then we discuss challenges and strategies about how to apply a NMT model to the task of text simplification.
+ 

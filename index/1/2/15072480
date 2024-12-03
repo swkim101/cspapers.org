@@ -1,0 +1,4 @@
+
+ 
+ Lifschitz and Turner introduced the notion of the splitting set and provided a method to divide a logic program into two parts. They showed that the task of computing the answer sets of the program can be converted into the tasks of computing the answer sets of these parts. However, the empty set and the set of all atoms are the only two splitting sets for many programs, then these programs cannot be divided by the splitting method. In this paper, we extend Lifschitz and Turner's splitting set theorem to allow the program to be split by an arbitrary set of atoms, while some new atoms may be introduced in the process. To illustrate the usefulness of the result, we show that for some typical programs the splitting process is efficient and the program simplification problem can be investigated using the concept of splitting.
+ 

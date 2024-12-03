@@ -1,0 +1,1 @@
+This talk describes the optimal (revenue maximizing) auction for sponsored search advertising. We show that a search engine's optimal reserve price is independent of the number of bidders. Using simulations, we consider the changes that result from a search engine's choice of reserve price and from changes in the number of participating advertisers.

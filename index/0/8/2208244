@@ -1,0 +1,4 @@
+
+ 
+ We define the concept of an internal symmetry. This is a symmety within a solution of a constraint satisfaction problem. We compare this to solution symmetry, which is a mapping between different solutions of the same problem. We argue that we may be able to exploit both types of symmetry when finding solutions. We illustrate the potential of exploiting internal symmetries on two benchmark domains: Van der Waerden numbers and graceful graphs. By identifying internal symmetries we are able to extend the state of the art in both cases.
+ 

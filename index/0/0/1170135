@@ -1,0 +1,1 @@
+Linear-time algorithms are presented for partitioning a tree with weights on the vertices by removing k edges so as to either minimize the maximum weight component or maximize the minimum-weight component. The techniques can be generalized to solve p-center problems on a tree in linear time and space.

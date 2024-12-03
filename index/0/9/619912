@@ -1,0 +1,5 @@
+We investigate the learning of the appearance of an object from a single image of it. Instead of using a large number of pictures of the object to recognize, we use a labeled reference database of pictures of other objects to learn invariance to noise and variations in pose and illumination. This acquired knowledge is then used to predict if two pictures of new objects, which do not appear on the training pictures, actually display the same object. 
+ 
+We propose a generic scheme called chopping to address this task. It relies on hundreds of random binary splits of the training set chosen to keep together the images of any given object. Those splits are extended to the complete image space with a simple learning algorithm. Given two images, the responses of the split predictors are combined with a Bayesian rule into a posterior probability of similarity. 
+ 
+Experiments with the COIL-100 database and with a database of 150 degraded LATEX symbols compare our method to a classical learning with several examples of the positive class and to a direct learning of the similarity.

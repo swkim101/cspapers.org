@@ -1,0 +1,1 @@
+In this paper, we introduce an efficient replanning algorithm for nondeterministic domains, namely what we believe to be the first incremental heuristic minimax search algorithm. We apply it to the dynamic discretization of continuous domains, resulting in an efficient implementation of the parti-game reinforcement-learning algorithm for control in high-dimensional domains.

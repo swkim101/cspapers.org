@@ -1,0 +1,4 @@
+
+ 
+ Generative latent-variable models are important for natural language processing due to their capability of providing compact representations of data. As conventional maximum likelihood estimation (MLE) is prone to focus on explaining irrelevant but common correlations in data, we apply maximum reconstruction estimation (MRE) to learning generative latent-variable models alternatively, which aims to find model parameters that maximize the probability of reconstructing the observed data. We develop tractable algorithms to directly learn hidden Markov models and IBM translation models using the MRE criterion, without the need to introduce a separate reconstruction model to facilitate efficient inference. Experiments on unsupervised part-of-speech induction and unsupervised word alignment show that our approach enables generative latent-variable models to better discover intended correlations in data and outperforms maximum likelihood estimators significantly.
+ 

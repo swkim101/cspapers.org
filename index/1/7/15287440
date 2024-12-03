@@ -1,0 +1,4 @@
+
+ 
+ Trial-based approaches offer an efficient way to solve single-agent MDPs and POMDPs. These approaches allow agents to focus their computations on regions of the environment they encounter during the trials, leading to significant computational savings. We present a novel trial-based dynamic programming (TBDP) algorithm for DEC-POMDPs that extends these benefits to multi-agent settings. The algorithm uses trial-based methods for both belief generation and policy evaluation. Policy improvement is implemented efficiently using linear programming and a sub-policy reuse technique that helps bound the amount of memory. The results show that TBDP can produce significant value improvements and is much faster than the best existing planning algorithms.
+ 

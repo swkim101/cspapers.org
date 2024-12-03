@@ -1,0 +1,4 @@
+
+ 
+ Spread of infections (diseases, ideas, etc.) in a networkcan be modeled as the evolution of states of nodes ina graph as a function of the states of their neighbors.Given an initial configuration of a network in which asubset of the nodes have been infected, and an infectionpropagation function that specifies how the states ofthe nodes evolve over time, we show how to use modelchecking to identify, verify, and evaluate the effectivenessof intervention policies for containing the propagationof infection over such networks.
+ 

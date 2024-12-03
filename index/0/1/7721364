@@ -1,0 +1,1 @@
+This paper describes a domain-independent, machine-learning based approach to temporally anchoring and ordering events in news. The approach achieves 84.6% accuracy in temporally anchoring events and 75.4% accuracy in partially ordering them.

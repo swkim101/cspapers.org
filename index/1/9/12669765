@@ -1,0 +1,1 @@
+We consider efficient parallel algorithms for the evaluat ion of game trees. We prove an inherent limit at ion on the speedup achievable, and give an algorithm that achieves its best performance bounds on trees of the sort that are likely to arise in game-playing programs.

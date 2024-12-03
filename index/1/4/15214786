@@ -1,0 +1,5 @@
+We seek to understand when heterogeneity in agent preferences yields improved outcomes in terms of overall cost. That this might be hoped for is based on the common belief that diversity is advantageous in many multi-agent settings. We investigate this in the context of routing. Our main result is a sharp characterization of the network settings in which diversity always helps, versus those in which it is sometimes harmful.
+
+
+
+Specifically, we consider routing games, where diversity arises in the way that agents trade-off two criteria (such as time and money, or, in the case of stochastic delays, expectation and variance of delay). Our main contributions are: 1) A participant-oriented measure of cost in the presence of agent diversity; 2) A full characterization of those network topologies for which diversity always helps, for all latency functions and demands.

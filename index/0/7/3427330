@@ -1,0 +1,1 @@
+DNS data is increasingly used in security analysis, intrusion detection, and research. Even small DNS collection systems can generate enormous amounts of DNS traffic, requiring tera-scale storage. As a result, researchers looking at DNS traffic must often develop real-time, in-line analysis tools.

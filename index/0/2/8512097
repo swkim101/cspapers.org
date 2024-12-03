@@ -1,0 +1,5 @@
+We present a new and compelling approach to the efficient solution of important computational problems that arise in the context of abstract argumentation. Our approach makes known algorithms defined for restricted fragments generally applicable, at a computational cost that scales with the distance from the fragment. Thus, in a certain sense, we gradually augment tractable fragments. Surprisingly, it turns out that some tractable fragments admit such an augmentation and that others do not. 
+ 
+More specifically, we show that the problems of credulous and skeptical acceptance are fixed-parameter tractable when parameterized by the distance from the fragment of acyclic argumentation frameworks. Other tractable fragments such as the fragments of symmetrical and bipartite frameworks seem to prohibit an augmentation: the acceptance problems are already intractable for frameworks at distance 1 from the fragments. 
+ 
+For our study we use a broad setting and consider several different semantics. For the algorithmic results we utilize recent advances in fixed-parameter tractability.

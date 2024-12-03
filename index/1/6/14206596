@@ -1,0 +1,4 @@
+
+ 
+ SenticNet is a publicly available semantic and affective resource for concept-level sentiment analysis. Rather than using graph-mining and dimensionality-reduction techniques, SenticNet 3 makes use of "energy flows" to connect various parts of extended common and common-sense knowledge representations to one another. SenticNet 3 models nuanced semantics and sentics (that is, the conceptual and affective information associated with multi-word natural language expressions), representing information with a symbolic opacity of an intermediate nature between that of neural networks and typical symbolic systems.
+ 

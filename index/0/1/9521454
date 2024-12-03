@@ -1,0 +1,7 @@
+The purpose of this paper is a study of computation that can be done locally in a distributed network, where "locally" means within time (or distance) independent of the size of the network. Locally checkable labeling (LCL) problems are considered, where the legality of a labeling can be checked locally (e.g., coloring). The results include the following: 
+There are nontrivial LCL problems that have local algorithms. 
+There is a variant of the dining philosophers problem that can be solved locally. 
+Randomization cannot make an LCL problem local; i.e., if a problem has a local randomized algorithm then it has a local deterministic algorithm. 
+It is undecidable, in general, whether a given LCL has a local algorithm. 
+However, it is decidable whether a given LCL has an algorithm that operates in a given time $t$. 
+Any LCL problem that has a local algorithm has one that is order-invariant (the algorithm depends only on the order of the processor IDs).

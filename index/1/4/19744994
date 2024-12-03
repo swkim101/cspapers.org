@@ -1,0 +1,4 @@
+
+ 
+ Conservation is an ethic of sustainable use of natural resources which focuses on the preservation of biodiversity, i.e., the degree of variation of life. Conservation planning seeks to reach this goal by means of deliberate actions, aimed at the protection (or restoration) of biodiversity features. In this paper we present an intelligent system to assist conservation managers in planning habitat restoration actions, with focus on the activities to be carried out in the islands of the Great Barrier Reef (QLD) and the Pilbara (WA) regions of Australia. In particular, we propose a constrained optimisation formulation of the habitat restoration planning (HRP) problem, capturing aspects such as population dynamics and uncertainty. We show that the HRP is NP-hard, and develop a constraint programming (CP) model and a large neighbourhood search (LNS) procedure to generate activity plans under budgeting constraints.
+ 

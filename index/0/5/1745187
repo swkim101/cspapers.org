@@ -1,0 +1,7 @@
+Given a system of constraints li ≤ aTix ≤ ui, where ai ∈ {0, 1}n, and li, ui ∈ R+, for i = 1,..., m, we consider the problem Mrfs of finding the largest subsystem for which there exists a feasible solution x ≥ 0. We present approximation algorithms and inapproximability results for this problem, and study some important special cases. Our main contributions are: 
+ 
+1. In the general case, where ai e {0, 1}n, a sharp separation in the approximability between the case when L = max{l1, ..., lm} is bounded above by a polynomial in n and m, and the case when it is not. 
+ 
+2. In the case where A is an interval matrix, a sharp separation in approximability between the case where we allow a violation of the upper bounds by at most a (1 + e) factor, for any fixed e > 0 and the case where no violations are allowed. 
+ 
+Along the way, we prove that the induced matching problem on bipartite graphs is inapproximable beyond a factor of Ω(n1/3-e), for any e > 0 unless NP=ZPP. Finally, we also show applications of Mrfs to some recently studied pricing problems.

@@ -1,0 +1,4 @@
+
+ 
+ Cross-domain sentiment classification aims to tag sentiments for a target domain by labeled data from a source domain. Due to the difference between domains, the accuracy of a trained classifier may be very low. In this paper, we propose a boosting-based learning framework named TR-TrAdaBoost for cross-domain sentiment classification. We firstly explore the topic distribution of documents, and then combine it with the unigram TrAdaBoost. The topic distribution captures the domain information of documents, which is valuable for cross-domain sentiment classification. Experimental results indicate that TR-TrAdaBoost represents documents well and boost the performance and robustness of TrAdaBoost.
+ 

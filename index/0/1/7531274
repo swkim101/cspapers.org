@@ -1,0 +1,4 @@
+
+ 
+ The utilitarian solution criterion, which has been extensively studied in multi-agent decision making under uncertainty, aims to maximize the sum of individual utilities. However, as the utilitarian solution often discriminates against some agents, it is not desirable for many practical applications where agents have their own interests and fairness is expected. To address this issue, this paper introduces egalitarian solution criteria for sequential decision-making under uncertainty, which are based on the maximin principle. Motivated by different application domains, we propose four maximin fairness criteria and develop corresponding algorithms for computing their optimal policies. Furthermore, we analyze the connections between these criteria and discuss and compare their characteristics.
+ 

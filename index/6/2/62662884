@@ -1,0 +1,1 @@
+We propose a method for signal reconstruction in semi-parametric dictionaries. The proposed algorithm estimates both the signal decomposition and the intrinsic parameters of the dictionary during the reconstruction process. Theoretical results about the convergence of the algorithm are presented. The method is used here for joint reconstruction of misaligned images.

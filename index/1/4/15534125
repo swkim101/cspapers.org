@@ -1,0 +1,4 @@
+
+ 
+ This paper presents an acoustic sound recognizer to recognize what people are writing on a table or wall by utilizing the sound signal information generated from a key, pen, or fingernail moving along a textured surface. Sketching provides a natural modality to interact with text, and sound is an effective modality for distinguishing text. However, limited research has been conducted in this area. Our system uses a dynamic time- warping approach to recognize 26 hand-sketched characters (A-Z) solely through their acoustic signal. Our initial prototype system is user-dependent and relies on fixed stroke ordering. Our algorithm relied mainly on two features: mean amplitude and MFCCs (Mel-frequency cepstral coefficients). Our results showed over 80% recognition accuracy.
+ 

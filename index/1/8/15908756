@@ -1,0 +1,1 @@
+We define the notion of a <italic>well-separated pair decomposition</italic> of points in <italic>d</italic>-dimensional space. We develop efficient sequential and parallel algorithms for computing such a decomposition. We apply the resulting decomposition to the efficient computation of <italic>k</italic>-nearest neighbors and <italic>n</italic>-body potential fields.

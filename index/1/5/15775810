@@ -1,0 +1,4 @@
+
+ 
+ When an agent plans a sequence of actions, some unexpected events may occur during the execution of these actions. These unexpected events may prevent the agent to replan and achieve its goal. In this work, our purpose is to recover from plan execution failures by reasoning the causes of these faulties. We combine the TLPlan forward chaining temporal planner with the PROBCOG reasoning tool in order to handle failures. It is also quite important to decide whether the failure we are dealing with is permanent. We propose that inferring some properties of the failure source helps us handle failures and determine the failure types.
+ 

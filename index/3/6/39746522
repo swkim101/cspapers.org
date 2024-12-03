@@ -1,0 +1,5 @@
+Two pre-processors for theorem provers are described, which when applicable, will lead to search space simplification. 
+ 
+Both were implemented and integrated with an existing resolution type connection graph theorem prover. 
+ 
+Examples are provided which confirm our claim of search space simplification.

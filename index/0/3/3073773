@@ -1,0 +1,1 @@
+Acquisition of phonological systems can be insightfully studied in terms of discovery procedures. This paper describes a discovery procedure, implemented in Lisp, capable of determining a set of ordered phonological rules, which may be in opaque contexts, from a set of surface forms arranged in paradigms.

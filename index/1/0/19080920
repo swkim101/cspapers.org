@@ -1,0 +1,4 @@
+
+ 
+ High-throughput label-free single cell screening technology has been studied for noninvasive analysis of various kinds of cells. We tackle the cell identification task in the cell sorting system as a continuous skyline computation. Skyline Computation is a method for extracting interesting entries from a large population with multiple attributes. Jointed rooted-tree (JR-tree) is continuous skyline computation algorithm that manages entries using a rooted-tree structure. JR-tree delays extend the tree to deeper levels to accelerate tree construction and traversal. In this study, we proposed the JR-tree-based parallel skyline computation accelerator. We implemented it on a field-programmable gate array (FPGA). We evaluated our proposed software and hardware algorithms against an existing software algorithm using synthetic and real-world datasets.
+ 

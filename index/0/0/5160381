@@ -1,0 +1,7 @@
+Knowledge Discovery Systems can be used to generate classification rules describing data from databases. Typically, only a small fraction of the rules generated may actually be of interest. Measures of rule interestingness allow us to filter out less interesting rules. 
+ 
+Classification rules may be discriminant (e → h) or characteristic (h → e), where e is evidence, and h is an hypothesis. For discriminant rules, e distinguishes h from ⇁h. For characteristic rules, e summarizes one or more properties common to all instances of h. Both rule types can contribute insight into the data under analysis. 
+ 
+In this paper, we first expand on the rule interestingness measure principles proposed by Piatetsky-Shapiro (1991) and by Major and Mangano (1993) by adding a principle which, unlike the others, considers the difference between discriminant and characteristic rules. 
+ 
+We establish experimentally that the three popular interestingness measures for discriminant rules found in the literature do not fully serve their purpose when applied to characteristic rules. To our knowledge, no interestingness measures for characteristic rules have been published. We propose IC++, an interestingness measure for characteristic rules based on necessity and sufficiency (Duda, Gaschnig, & Hart 1981). IC++ obeys each of the rule interestingness principles, unlike the other measures studied. If a given characteristic rule is found to be uninteresting by IC++, three additional measures, which we present, can be used to derive other useful information regarding h and e.

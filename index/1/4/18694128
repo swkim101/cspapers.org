@@ -1,0 +1,4 @@
+
+ 
+ Estimating the remaining energy in high-capacity electric vehicle batteries is essential to safe and efficient operation. Accurate estimation remains a major challenge, however, because battery state cannot be observed directly. In this paper, we demonstrate a method for estimating battery remaining energy using real data collected from the Charge Car electric vehicle. This new method relies on energy integration as an initial estimation step, which is then corrected using a neural net that learns how error accumulates from recent charge/discharge cycles. In this way, the algorithm is able to adapt to nonlinearities and variations that are difficult to model or characterize. On the collected dataset, this method is demonstrated to be accurate to within 2.5% to 5% of battery remaining energy, which equates to approximately 1 to 2 miles of residual range for the Charge Car given its 10kWh battery pack.
+ 

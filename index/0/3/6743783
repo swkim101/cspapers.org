@@ -1,0 +1,1 @@
+We present SAMC, an open-source model checker that can be integrated to many modern distributed cloud systems. SAMC can find concurrency bugs caused by non-deterministic dis- tributed events. We have successfully integrated SAMC to Hadoop, ZooKeeper and Cassandra.

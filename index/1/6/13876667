@@ -1,0 +1,4 @@
+
+ 
+ Hash Distributed A* (HDA*) is an efficient parallel best first algorithm that asynchronously distributes work among the processes using a global hash function. Although Zobrist hashing, the standard hash function used by HDA*, achieves good load balance for many domains, it incurs significant communication overhead since it requires many node transfers among threads. We propose Abstract Zobrist hashing, a new work distribution method for parallel search which reduces node transfers and mitigates communication overhead by using feature projection functions. We evaluate Abstract Zobrist hashing for multicore HDA*, and show that it significantly outperforms previous work distribution methods.
+ 

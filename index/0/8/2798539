@@ -1,0 +1,1 @@
+In this paper, we propose a machine learning-based NLP system for automatically creating animated storyboards using the action descriptions of movie scripts. We focus particularly on the importance of verb semantics when generating graphics commands, and find that semantic role labelling boosts performance and is relatively robust to the effects of unseen verbs.

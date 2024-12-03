@@ -1,0 +1,1 @@
+In this paper we give the first approximation algorithm for the problem of max-min fair allocation of indivisible goods. The approximation ratio of our algorithm is Ω1√k log3 k. As a part of our algorithm, we design an iterative method for rounding a fractional matching on a tree which might be of independent interest.

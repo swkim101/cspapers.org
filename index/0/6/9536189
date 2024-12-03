@@ -1,0 +1,4 @@
+
+ 
+ The evaluation of Datalog rules over large Knowledge Graphs (KGs) is essential for many applications. In this paper, we present a new method of materializing Datalog inferences, which combines a column-based memory layout with novel optimization methods that avoid redundant inferences at runtime. The pro-active caching of certain subqueries further increases efficiency. Our empirical evaluation shows that this approach can often match or even surpass the performance of state-of-the-art systems, especially under restricted resources.
+ 

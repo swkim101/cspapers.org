@@ -1,0 +1,4 @@
+
+ 
+ In multi-task learning, multiple related tasks are considered simultaneously, with the goal to improve the generalization performance by utilizing the intrinsic sharing of information across tasks. This paper presents a multi-task learning approach by modeling the task-feature relationships. Specifically, instead of assuming that similar tasks have similar weights on all the features, we start with the motivation that the tasks should be related in terms of subsets of features, which implies a co-cluster structure. We design a novel regularization term to capture this task-feature co-cluster structure. A proximal algorithm is adopted to solve the optimization problem. Convincing experimental results demonstrate the effectiveness of the proposed algorithm and justify the idea of exploiting the task-feature relationships.
+ 

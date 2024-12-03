@@ -1,0 +1,19 @@
+The ACM MobiCom Workshop on Challenged Networks (CHANTS'12) gathered researchers to discuss novel ideas on challenged networks. In the face of complex and dynamic networking capabilities, networked applications need to operate in very challenging environments. These challenges stem from high delay, such as inter-planetary networks, limited power, such as sensor and wildlife monitoring networks, new communication environments, such as underwater networks, communication in settings that lack infrastructure, such as rural and remote areas, and military battlefields, or simply environments where it is difficult or expensive to use the existing infrastructure. Essentially, challenged networks are found in everyday settings, when access to traditional infrastructure is non-existent, restricted, expensive, overly complex or rapidly changing. 
+ 
+While users strive to communicate in these challenged environments, traditional internet protocol architectures fail to provide effective support. Given the expectation of intermittent connectivity, heterogeneous mix of nodes, nodal churn, and widely varying network conditions, the goal of the challenged network engineer is to design and implement communication that expect and so operate effectively in this diverse range of conditions. 
+ 
+After the success of the previous Workshop on Delay-tolerant Networking (WDTN-05) and the Workshop on Challenged Networks (CHANTS'06), CHANTS'07, CHANTS'08, CHANTS'09, CHANTS'10 and CHANTS'11, this year CHANTS took place jointly with ACM MobiCom 2012 in Istanbul, Turkey. CHANTS provides an ideal venue for researchers and engineers to present cutting-edge work and results in the field of challenged networks. The workshop solicited papers and demos addressing the following topics: 
+Delay/disruption-tolerant networks (DTNs) 
+Architecture, design, implementation, and evaluation of communication systems for challenged networks 
+Case studies involving real challenged network solutions in various stages of development or use 
+Analysis and characterization of challenged networks and protocols 
+Applications in challenged networks (disaster relief and emergency management, vehicular networks) 
+Configuration, management, and monitoring of challenged networks 
+Security/Privacy concerns and solutions in challenged networks 
+Real-world mobility traces of challenged environments 
+Test and simulation tools for evaluating challenged network systems 
+Applications challenged networking techniques to communication in daily life 
+ 
+ 
+ 
+CHANTS received 32 submissions and each paper was reviewed by at least 3 referees. After careful consideration of all of the submitted papers, the CHANTS 2012 Technical Program Committee selected eleven high-quality research papers (eight full papers and three short papers), five demos and five posters covering diverse topics. We are very grateful to the members of the CHANTS 2012 Technical Program Committee for helping us assemble such an outstanding program. We would also like to express our deep appreciation to the authors for submitting publications of such high quality, and for sharing the results of their research work with the rest of the community.

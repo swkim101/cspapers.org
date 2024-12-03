@@ -1,0 +1,1 @@
+A new nonparametric Bayesian model is developed to integrate dictionary learning and topic model into a unified framework. The model is employed to analyze partially annotated images, with the dictionary learning performed directly on image patches. Efficient inference is performed with a Gibbsslice sampler, and encouraging results are reported on widely used datasets.

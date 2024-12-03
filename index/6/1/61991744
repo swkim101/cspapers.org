@@ -1,0 +1,17 @@
+It is our great pleasure to welcome you to the Second International Workshop on Cloud Data Management (CloudDB 2010). Cloud computing is set to revolutionize the IT industry, and database services are at the core of cloud computing since most information systems are built on database services. Cloud data management holds many promises and challenges. CloudDB 2010 is intended to address the challenges of large-scale data management based on cloud computing infrastructure. This workshop brings together researchers and practitioners in cloud computing and data-intensive system designs, parallel algorithms, data management, scientific applications, and information-based applications to maximize performance, minimize cost and improve the scale of their endeavors. 
+ 
+This workshop attracted 11 submissions from Asia, Europe, and North America. Due to the high quality of the submissions received, the program committee decided to accept 8 full papers. These papers cover a variety of topics, including cloud data security, cloud data management and cloud system applications. We hope that they will serve as a valuable starting point for much brilliant thinking in cloud data management. 
+ 
+Paper "Towards a Data-centric View of Cloud Security" discusses data management challenges in the areas of secure distributed query processing, system analysis and forensics, and query correctness assurance. Zhou et al. proposed a data-centric view of cloud security. 
+ 
+Paper "ESQP: An Efficient SQL Query Processing for Cloud Data Management" by Zhao et al. proposed an efficient algorithm about query processing on structured data. They also demonstrated the efficiency and scalability of the algorithm with kinds of experiments. 
+ 
+In the paper "Benchmarking Cloud-based Data Management Systems", Shi et al. conducted comprehensive experiments on several representative cloud-based data management systems to explore relative performance of different implementation approaches. In the paper "Towards Bipartite Graph Data Management", Zhao et al. fully studied the BGDM and developed a logic graph structure for indexing bipartite graphs to improve common operations efficiently. 
+ 
+In "Contract-based Cloud Architecture", Alnemr et al. studied several issues such as security and legality that should be considered before entering the cloud. They showed that companies have to comply with diverse laws across jurisdictions and are accountable to various national regulators. Security requirements may not be compatible with those offered by existing providers. 
+ 
+In the paper "Comparing SQL and MapReduce to Compute Naive Bayes in a Single Table Scan", Ordonez et al. presented some novel techniques to handle the data mining which is performed on flat files inside the DBMS, and considered two phases of the classifier: building the model and scoring a new data set. 
+ 
+In the paper "Adaptive Query Execution for Data Management in the Cloud", Popescu et al. focused on analyzing the "light" queries processed on the cloud by using an adaptive scheme, which uses a cost model to switch between MapReduce and a DBMS. 
+ 
+In the paper "Dynamic Data Replication through Virtualization", Daudjee et al. investigated data replication in a virtualized environment, focused on how to provision services when the master database server is heavily loaded or when it fails.

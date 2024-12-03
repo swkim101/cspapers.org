@@ -1,0 +1,2 @@
+A simple and general design uses message-based communication to provide software tolerance of single-point hardware failures. By delivering all interprocess messages to inactive backups for both the sender and the destination, both backups are kept in a state in which they can take over for their primaries.
+ An implementation for the Auragen 4000 series of M68000-based systems is described. The operating system, AurosTM, is a distributed version of UNIX*. Major goals have been transparency of fault tolerance and efficient execution in the absence of failure.

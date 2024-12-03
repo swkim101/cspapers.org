@@ -1,0 +1,1 @@
+This paper presents a formal description technique for distributed systems. The basic choices concern Petri Nets as a modeling tool and PROLOG as a programming environment. The key elements of the introduced approach are a symbolic interpreter for Predicate Transition Nets, and a technique for interfacing concurrent processes. Several illustrative examples are provided.

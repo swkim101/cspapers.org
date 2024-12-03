@@ -1,0 +1,13 @@
+Meta-embedding (ME) learning is an emerging approach that attempts to learn more accurate word embeddings given existing (source) word embeddings as the sole input.
+
+ Due to their ability to incorporate semantics from multiple source embeddings in a compact manner with superior performance, ME learning has gained popularity among practitioners in NLP.
+
+ To the best of our knowledge, there exist no prior systematic survey on ME learning and this paper
+
+ attempts to fill this need.
+
+ We classify ME learning methods according to multiple factors such as whether they 
+
+ (a) operate on static or contextualised embeddings, (b) trained in an unsupervised manner or (c) fine-tuned for a particular task/domain.
+
+ Moreover, we discuss the limitations of existing ME learning methods and highlight potential future research directions.

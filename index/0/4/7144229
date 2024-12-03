@@ -1,0 +1,1 @@
+In this paper we show that for discounted MDPs with discount factor γ > 1/2 the asymptotic rate of convergence of Q-learning is O(1/tR(1-γ)) if R(1 - γ) 0, where pmin and pmax now become the minimum and maximum state-action occupation frequencies corresponding to the stationary distribution.

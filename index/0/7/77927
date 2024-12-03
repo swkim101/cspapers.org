@@ -1,0 +1,1 @@
+We present a semi-proving method for verifying necessary conditions for program correctness. Our approach is based on the integration of global symbolic evaluation and metamorphic testing. It is relatively easier than conventional program proving, and helps to alleviate the problem that software testing cannot show the absence of faults.

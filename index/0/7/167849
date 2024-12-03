@@ -1,0 +1,4 @@
+
+ 
+ Most word embedding models typically represent each word using a single vector, which makes these models indiscriminative for ubiquitous homonymy and polysemy. In order to enhance discriminativeness, we employ latent topic models to assign topics for each word in the text corpus, and learn topical word embeddings (TWE) based on both words and their topics. In this way, contextual word embeddings can be flexibly obtained to measure contextual word similarity. We can also build document representations, which are more expressive than some widely-used document models such as latent topic models. In the experiments, we evaluate the TWE models on two tasks, contextual word similarity and text classification. The experimental results show that our models outperform typical word embedding models including the multi-prototype version on contextual word similarity, and also exceed latent topic models and other representative document models on text classification.
+ 

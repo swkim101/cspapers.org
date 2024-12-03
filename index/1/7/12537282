@@ -1,0 +1,1 @@
+We discuss two problems arising in circuit design applications which require the packing of Steiner trees. The jirst arises in the global wiring problem of VLSI design and the second arises in planar wiring problems. We also discuss heuristics which have been used successfully to construct near optimal Steiner trees in these applications.

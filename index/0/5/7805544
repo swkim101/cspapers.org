@@ -1,0 +1,4 @@
+We study the effect of various syntactic restrictions on the expressive power of database logic programs. We find natural examples of programs which<list><item>require recursively defined predicates of arbitrarily large width,
+</item><item>require rules with arbitrarily many recursive calls, or
+</item><item>require nonlinear rules, but can be evaluated in <italic>NC</italic><supscrpt>2</supscrpt>.
+</item></list>

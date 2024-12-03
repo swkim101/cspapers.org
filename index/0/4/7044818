@@ -1,0 +1,4 @@
+
+ 
+ In sequence labeling, using higher order features leads to high inference complexity. A lot of studies have been conducted to address this problem. In this paper, we propose a new exact decoding algorithm under the assumption that weights of all higher order features are non-negative. In the worst case, the time complexity of our algorithm is quadratic on the number of higher order features. Comparing with existing algorithms, our method is more efficient and easier to implement. We evaluate our method on two sequence labeling tasks: Optical Character Recognition and Chinese part-of-speech tagging. Our experimental results demonstrate that adding higher order features significantly improves the performance while requiring only 30% additional inference time.
+ 

@@ -1,0 +1,1 @@
+A denial-of-service protection base is characterized as aresource monitor closely related to a TCB, supporting awaiting-time policy for benign processes. Resourcemonitor algorithms and policies can be stated in thecontext of a state-transition model of a resourceallocation system.

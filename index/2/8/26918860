@@ -1,0 +1,2 @@
+Many attempts have been made to create better routers by developing new algorithms or modifying existing ones, the results of which have been published (sometimes).
+ At Raytheon, an experiment was undertaken to increase the percentage of signals routed (in a batch router). The improvement technique consisted of modifying the order and manner in which connections were routed. This was accomplished by splitting the signal networks into parts, and using different rules for routing the different parts.

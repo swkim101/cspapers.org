@@ -1,0 +1,19 @@
+We analyze the complexity of the Walk on Spheres algorithm for simulating Brownian Motion in a domain Ω ⊂Rd. The algorithm, which was first proposed in the 1950s, produces samples from the hitting probability distribution of the Brownian Motion process on ∂Ω within an error of e. The algorithm is used as a building block for solving a variety of differential equations, including the Dirichlet Problem. 
+ 
+The WoS algorithm simulates a BM starting at a point X0 = x in a given bounded domain Ω until it gets e-close to the boundary ∂Ω. At every step, the algorithm measures the distance dk from its current position Xk to ∂Ω and jumps a distance of dk/2 in a uniformly random direction from Xk to obtain Xk+1. The algorithm terminates when it reaches Xn that is e-close to ∂Ω. 
+ 
+It is not hard to see that the algorithm requires at least Ω(log 1/e) steps to converge. Only partial results with respect to the upper bound existed. In 1959 M. Motoo established an O(log 1/e) bound on the running time for convex domains. The results were later generalized for a wider, but still very restricted, class of planar and 3-dimensional domains by G. A. Mikhailov (1979). In our earlier work (2007), we established an upper bound of O(log2 1/e) on the rate of convergence of WoS for arbitrary planar domains. 
+ 
+In this paper we introduce energy functions using Newton potentials to obtain very general upper bounds on the convergence of the algorithm. Special instances of the upper bounds yield the following results for bounded domains Ω. 
+ 
+• if Ω is a planar domain with connected exterior, the WoS converges in O(log 1/e) steps; 
+ 
+• if Ω is a domain in R3 with connected exterior, the WoS converges in O(log2 1/e) steps; 
+ 
+• for d > 2, if Ω is a domain in Rd, the WoS converges in O((1/e)2-4/d) steps; 
+ 
+• for d > 3, if Ω is a domain in Rd with connected exterior, the WoS converges in O((1/e)2--4/(d--1)) steps; 
+ 
+• for any d, if Ω is a domain in Rd bounded by a smooth surface ∂Ω, the WoS converges in O(log 1/e) steps. 
+ 
+We also demonstrate that the bounds are tight, i.e. we construct a domain from each class for which the upper bound is exact. Our results give the optimal upper bound of O(log 1/e) in many cases for which only a bound polynomial in 1/e was previously known.

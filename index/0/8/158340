@@ -1,0 +1,1 @@
+This paper considers the problem of minimizing the ratio of two set functions, i.e., f/g . Previous work assumed monotone and submodular of the two functions, while we consider a more general situation where g is not necessarily submodular. We derive that the greedy approach GreedRatio, as a ﬁxed time algorithm, achieves a

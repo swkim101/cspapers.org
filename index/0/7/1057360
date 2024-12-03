@@ -1,0 +1,4 @@
+
+ 
+ Fault diagnosis of web services composition at run time is appealing in creating a consolidated distributed application. For this purpose, we propose a hybrid model-based diagnosis method which exploits service process description or historical execution information to enhance service composition model, and localize faults by comparing the exceptional execution and the correct execution with the maximum likelihood. Experiments are conducted to evaluate the effectiveness of our method in web service composition fault diagnosis.
+ 

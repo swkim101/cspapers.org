@@ -1,0 +1,7 @@
+In automated machine learning (AutoML), the process of engineering machine learning applications with respect to a specific problem is (partially) automated. 
+Various AutoML tools have already been introduced to provide out-of-the-box machine learning functionality. 
+More specifically, by selecting machine learning algorithms and optimizing their hyperparameters, these tools produce a machine learning pipeline tailored to the problem at hand. 
+Except for TPOT, all of these tools restrict the maximum number of processing steps of such a pipeline. 
+However, as TPOT follows an evolutionary approach, it suffers from performance issues when dealing with larger datasets. 
+In this paper, we present an alternative approach leveraging a hierarchical planning to configure machine learning pipelines that are unlimited in length. 
+We evaluate our approach and find its performance to be competitive with other AutoML tools, including TPOT.

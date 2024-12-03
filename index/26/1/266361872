@@ -1,0 +1,26 @@
+Answer Set Programming (ASP) has emerged as a promising
+paradigm in knowledge representation and automated reason-
+ing owing to its ability to model hard combinatorial problems
+from diverse domains in a natural way. Building on advances
+in propositional SAT solving, the past two decades have wit-
+nessed the emergence of well-engineered systems for solv-
+ing the answer set satisfiability problem, i.e., finding mod-
+els or answer sets for a given answer set program. In re-
+cent years, there has been growing interest in problems be-
+yond satisfiability, such as model counting, in the context of
+ASP. Akin to the early days of propositional model count-
+ing, state-of-the-art exact answer set counters do not scale
+well beyond small instances. Exact ASP counters struggle
+with handling larger input formulas. The primary contribu-
+tion of this paper is a new ASP counting framework, called
+sharpASP, which counts answer sets avoiding larger input
+formulas. This relies on an alternative way of defining answer
+sets that allows lifting of key techniques developed in the con-
+text of propositional model counting. Our extensive empirical
+analysis over 1470 benchmarks demonstrates significant per-
+formance gain over current state-of-the-art exact answer set
+counters. Specifically, by using sharpASP, we were able to
+solve 1062 benchmarks with PAR2 score of 3082 whereas
+using prior state-of-the-art, we could only solve 895 bench-
+marks with PAR2 score of 4205, all other experimental con-
+ditions being the same.

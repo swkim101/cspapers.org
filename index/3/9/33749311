@@ -1,0 +1,1 @@
+We incorporated animation of the data space into a web-based tutor for solving problems on C++ pointers and made the tutor available to students. In evaluation of the tutor, we found that data space animation indeed helps students learn the semantics of pointers. But, it is no more effective at this than text explanation of the step-by-step execution of the program.

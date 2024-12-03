@@ -1,0 +1,5 @@
+A long standing conjecture of Richter and Thomassen states that the total number of intersection points between any n simple closed Jordan curves in the plane, so that any two of them intersect and no three curves pass through the same point, is at least (1 − o(1))n2. 
+ 
+We confirm the above conjecture in several important cases, including the case (1) when all curves are convex, and (2) when the family of curves can be partitioned into two equal classes such that each curve from the first class is touching every curve from the second class. (Two curves are said to be touching if they have precisely one point in common, at which they do not properly cross.) 
+ 
+An important ingredient of our proofs is the following statement: Let S be a family of the graphs of n continuous real functions defined on R, no three of which pass through the same point. If there are nt pairs of touching curves in S, then the number of crossing points is Ω(nt[EQUATION]log t/log log t).

@@ -1,0 +1,4 @@
+
+ 
+ In hierarchical planning, landmarks are tasks that occur on any search path leading from the initial plan to a solution. In this work, we present novel domain-independent planning strategies based on such hierarchical landmarks. Our empirical evaluation on four benchmark domains shows that these landmark-aware strategies outperform established search strategies in many cases.
+ 

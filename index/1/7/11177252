@@ -1,0 +1,1 @@
+We propose a new approach for reasoning about concurrency in object-oriented programs. Central to our approach is static ownership inference analysis — we conjecture that this analysis has important application in reasoning against concurrency errors.

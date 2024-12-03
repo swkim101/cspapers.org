@@ -1,0 +1,1 @@
+The problem of interpolating between specified images in an image sequence is a simple, but important task in model-based vision. We describe an approach based on the abstract task of "manifold learning" and present results on both synthetic and real image sequences. This problem arose in the development of a combined lip-reading and speech recognition system.

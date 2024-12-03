@@ -1,0 +1,1 @@
+Incorporating curvature information in stochastic methods has been a challenging task. This paper proposes a momentum accelerated BFGS quasi-Newton method in both its full and limited memory forms, for solving stochastic large scale non-convex optimization problems in neural networks (NN).

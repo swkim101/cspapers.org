@@ -1,0 +1,5 @@
+The project KENSUR aiming in breaking down a compiler into a set of concurrent processes and in having them executed onto a network of processors is currently developed at I.R.I.S.A.
+ This paper discusses three main aspects of the construction of this network.
+ i) The various steps involved in the design of such a distributed system are described and the architecture adapted to the logical structure and dynamic characteristics of the application is presented.
+ ii) The architecture of the currently implemented prototype is presented and problems with inter-processor communications and memory sharing are discussed.
+ iii) The kernel system facilities for process management and synchronisation are described.

@@ -1,0 +1,1 @@
+Although disjunction has been used in several unification-based grammar formalisms, existing methods of unification have been unsatisfactory for descriptions containing large quantities of disjunction, because they require exponential time. This paper describes a method of unification by successive approximation, resulting in better average performance.

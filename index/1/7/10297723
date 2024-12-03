@@ -1,0 +1,3 @@
+We describe a simple algorithm that runs in time poly(n, 1/γ, 1/e) and learns an unknown n-dimensional γ-margin halfspace to accuracy 1 – e in the presence of malicious noise, when the noise rate is allowed to be as high as Θ(eγ√log(1/γ)). Previous efficient algorithms could only learn to accuracy e in the presence of malicious noise of rate at most Θ(eγ). 
+ 
+Our algorithm does not work by optimizing a convex loss function. We show that no algorithm for learning γ-margin halfspaces that minimizes a convex proxy for misclassification error can tolerate malicious noise at a rate greater than Θ(eγ); this may partially explain why previous algorithms could not achieve the higher noise tolerance of our new algorithm.

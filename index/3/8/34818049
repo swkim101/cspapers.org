@@ -1,0 +1,1 @@
+The authors describe the basic design of Fun-ARM, and discuss the strategy of the fault tolerance on distributed manipulator. The fault model is described, and assumptions in the system are discussed. The methods to realize fault tolerance are proposed, including methods for fault-detection, fault-localization and fault-containment.

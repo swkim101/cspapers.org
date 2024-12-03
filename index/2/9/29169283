@@ -1,0 +1,4 @@
+
+ 
+ In the analysis of real-world complex networks, identifying important vertices is one of the most fundamental operations. A variety of centrality measures have been proposed and extensively studied in various research areas. Many of distance-based centrality measures embrace some issues in treating disconnected networks, which are resolved by the recently emerged harmonic centrality. This paper focuses on a family of centrality measures including the harmonic centrality and its variants, and addresses their computational difficulty on very large graphs by presenting a new estimation algorithm named the random-radius ball (RRB) method. The RRB method is easy to implement, and a theoretical analysis, which includes the time complexity and error bounds, is also provided. The effectiveness of the RRB method over existing algorithms is demonstrated through experiments on real-world networks.
+ 

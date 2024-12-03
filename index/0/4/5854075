@@ -1,0 +1,4 @@
+
+ 
+ The feasible solutions of the traveling salesman problem with pickup and delivery (TSPPD) are represented by vertex lists in existing literature. However, when the TSPPD requires that the loading and unloading operations must be performed in a last-in-first-out (LIFO) manner, we show that its feasible solutions can be represented by trees. Consequently, we develop a variable neighbourhood search (VNS) heuristic for the TSPPD with last-in-first-out loading (TSPPDL) involving several search operators based on the tree data structure. Experiments show that our VNS heuristic is superior to the current best heuristics for TSPPDL in terms of both solution quality and computing time.
+ 

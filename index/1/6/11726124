@@ -1,0 +1,4 @@
+
+ 
+ Answer Set Programming (ASP) is a well-established formalism for nonmonotonic reasoning. An ASP program can have no answer set due to cyclic default negation. In this case, it is not possible to draw any conclusion, even if this is not intended. Recently, several paracoherent semantics have been proposed that address this issue,and several potential applications for these semantics have been identified. However, paracoherent semantics have essentially been inapplicable in practice, due to the lack of efficient algorithms and implementations. In this paper, this lack is addressed, and several different algorithms to compute semi-stable and semi-equilibrium models are proposed and implemented into an answer set solving framework. An empirical performance comparison among the new algorithms on benchmarks from ASP competitions is given as well.
+ 

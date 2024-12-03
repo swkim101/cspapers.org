@@ -1,0 +1,6 @@
+Existing single-stage detectors for locating objects in point clouds often treat object localization and category classification as separate tasks, so the localization accuracy and classification confidence may not well align. To address this issue, we present a new single-stage detector named the Confident
+IoU-Aware Single-Stage object Detector (CIA-SSD). First, we design the lightweight Spatial-Semantic Feature Aggregation module to adaptively fuse
+high-level abstract semantic features and low-level spatial features for accurate predictions of bounding boxes and classification confidence. Also, the
+predicted confidence is further rectified with our designed IoU-aware confidence rectification module to make the confidence more consistent with the
+localization accuracy. Based on the rectified confidence, we further formulate the Distance-variant IoU-weighted NMS to obtain smoother regressions and avoid redundant predictions. We experiment CIA-SSD on 3D car detection in the KITTI test set and show that it attains top performance in terms of the official ranking metric (moderate AP 80.28%) and above 32 FPS inference speed, outperforming all prior single-stage detectors. The code is available at
+https://github.com/Vegeta2020/CIA-SSD.

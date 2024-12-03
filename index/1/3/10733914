@@ -1,0 +1,11 @@
+In this paper, we introduce a new framework for approximately solving flow problems in capacitated, undirected graphs and apply it to provide asymptotically faster algorithms for the maximum s-t flow and maximum concurrent multicommodity flow problems. For graphs with n vertices and m edges, it allows us to find an e-approximate maximum s-t flow in time O(m1+o(1)e-2), improving on the previous best bound of O(mn1/3poly(e-1)). Applying the same framework in the multicommodity setting solves a maximum concurrent multicommodity flow problem with k commodities in O(m1+o(1)e-2k2) time, improving on the existing bound of O(m4/3poly(k>,e-1)). 
+ 
+Our algorithms utilize several new technical tools that we believe may be of independent interest: 
+ 
+• We give a non-Euclidean generalization of gradient descent and provide bounds on its performance. Using this, we show how to reduce approximate maximum flow and maximum concurrent flow to oblivious routing. 
+ 
+• We define and provide an efficient construction of a new type of flow sparsifier. Previous sparsifier constructions approximately preserved the size of cuts and, by duality, the value of the maximum flows as well. However, they did not provide any direct way to route flows in the sparsifier G' back in the original graph G, leading to a longstanding gap between the efficacy of sparsification on flow and cut problems. We ameliorate this by constructing a sparsifier G' that can be embedded (very efficiently) into G with low congestion, allowing one to transfer flows from G' back to G. 
+ 
+• We give the first almost-linear-time construction of an O(mo(1))-competitive oblivious routing scheme. No previous such algorithm ran in time better than Ω(mn). By reducing the running time to almost-linear, our work provides a powerful new primitive for constructing very fast graph algorithms. 
+ 
+The interested reader is referred to the full version of the paper [8] for a more complete treatment of these results.

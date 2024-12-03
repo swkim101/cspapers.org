@@ -1,0 +1,4 @@
+
+ 
+ We present a novel approach to learning word embeddings by exploring subword information (character n-gram, root/affix and inflections) and capturing the structural information of their context with convolutional feature learning. Specifically, we introduce a convolutional neural network architecture that allows us to measure structural information of context words and incorporate subword features conveying semantic, syntactic and morphological information related to the words. To assess the effectiveness of our model, we conduct extensive experiments on the standard word similarity and word analogy tasks. We showed improvements over existing state-of-the-art methods for learning word embeddings, including skipgram, GloVe, char n-gram and DSSM.
+ 

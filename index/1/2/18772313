@@ -1,0 +1,4 @@
+
+ 
+ Self-publication of news on Web sites is becoming a common application platform to enable more engaging interaction among users. Discussion in the form of comments following news postings can be effectively facilitated if the service provider can recommend articles based on not only the original news itself but also the thread of changing comments. This turns the traditional news recommendation to a "discussion moderator" that can intelligently assist online forums. In this work, we present a framework to implement such adaptive news recommendation. In addition, to alleviate the problem of recommending essentially identical articles, the relationship (duplication, generalization or specialization) between suggested news articles and the original posting is investigated. Experiments indicate that our proposed solutions provide an enhanced news recommendation service in forum-based social media.
+ 

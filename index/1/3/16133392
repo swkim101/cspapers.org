@@ -1,0 +1,4 @@
+
+ 
+ To function in human-inhabited environments a robot must be able to press buttons. There are literally thousands of different buttons, which produce various types of feedback when pressed. This work focuses on doorbell buttons, which provide auditory feedback. Our robot learned to predict if a specific pushing movement would press a doorbell button and produce a sound. The robot explored different buttons with random pushing behaviors and perceived the proprioceptive, tactile, and acoustic outcomes of these behaviors.
+ 

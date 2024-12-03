@@ -1,0 +1,7 @@
+A new approach to the recognition problem is considered, which does not require clustering of the sampling space into the appropriate number of regions. 
+ 
+Each sample mapped in multi-dimensional space is represented by a family of points (vectors), forming a certain configuration. Less compact location of the points leads to more simple and reliable pattern recognition. The input description is represented by the "text" formed by a Bet of binary pulse sequences. The recognition implies that the text fragments of different space-temporal structure should be related to one of the different classes. The recognition is carried out as an informational transformation of the input text into another one, invariant of any small variations in the space-temporal structure of the input text. Sufficiently different texts are translated into non-identical output texts. Repeated transformation of the input text by a number of translators is accompanied by an increasing "abstraction" (stabilization) of the output text relative to the input text variations. As a result, the output text structure can be considered as a list of classes, to which the input text fragments belong. 
+ 
+It is pointed out that the information compression characterizing the recognition process can not necessarily be carried out a priori but it can always be carried out as a consequence of the recognition process. 
+ 
+A correspondence is implied between the features of the "translation" process and some neuro-physiological phenomena.

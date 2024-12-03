@@ -1,0 +1,4 @@
+
+ 
+ We study the impact on strategic voting of tie-breaking by means of considering the order of tied candidates within a random vote. We compare this to another non deterministic tie-breaking rule where we simply choose candidate uniformly at random. In general, we demonstrate that there is no connection between the computational complexity of computing a manipulating vote with the two different types of tie-breaking. However, we prove that for some scoring rules, the computational complexity of computing a manipulation can increase from polynomial to NP-hard. We also discuss the relationship with the computational complexity of computing a manipulating vote when we ask for a candidate to be the unique winner, or to be among the set of co-winners.
+ 

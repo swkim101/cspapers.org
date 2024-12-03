@@ -1,0 +1,1 @@
+In this article, we study an alternate approach that shifts the records among adjacent pages rather than using overflow pointers when space is needed for inserting a record in a sequential file. We show how to use this method to achieve a worst-case record insertion-deletion complexity of O[(log2N)/(D-d)] page-accesses, in (d-D)-dense files.

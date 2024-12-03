@@ -1,0 +1,4 @@
+
+ 
+ In multiagent team settings, the agents are often given a protocol for coordinating their actions. When such a protocol is not available, agents must engage in ad hoc teamwork to effectively cooperate with one another. A fully general ad hoc team agent needs to be capable of collaborating with a wide range of potential teammates on a varying set of joint tasks. This paper extends previous research in a new direction with the introduction of an efficient method for reasoning about the value of information.  Then, we show how previous theoretical results can aid ad hoc agents in a set of testbed pursuit domains.
+ 

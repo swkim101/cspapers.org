@@ -1,0 +1,1 @@
+This paper analyzes the requirements for adding a temporal reasoning component to a natural language database query system, and proposes a computational model that satisfies those requirements. A preliminary implementation in Prolog is used to generate examples of the model's capabilities.

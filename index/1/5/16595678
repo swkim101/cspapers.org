@@ -1,0 +1,1 @@
+In many applications, such as credit default prediction and medical image recognition, test inputs are available in addition to the labeled training examples. We propose a method to incorporate the test inputs into learning. Our method results in solutions having smaller test errors than that of simple training solution, especially for noisy problems or small training sets.

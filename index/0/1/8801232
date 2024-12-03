@@ -1,0 +1,1 @@
+This paper provides an introduction to management and delivery techniques that have advanced power been employed in leading microprocessor designs. The techniques need multiple voltage rails supplied by independent voltage regulators. We provide justification for near-load regulators and explain the practical challenges associated with the regulator integration.

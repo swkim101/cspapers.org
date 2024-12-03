@@ -1,0 +1,4 @@
+
+ 
+ Game theory is a tool for modeling multi-agent decision problems and has been used to analyze strategies in domains such as poker, security, and trading agents. One method for solving very large games is to use abstraction techniques to shrink the game by removing detail, solve the reduced game, and then translate the solution back to the original game. We present a methodology for evaluating the robustness of different game-theoretic solution concepts to the errors introduced by the abstraction process. We present an initial empirical study of the robustness of several solution methods when using abstracted games.
+ 

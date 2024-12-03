@@ -1,0 +1,9 @@
+Our hypothesis is that certain clauses have foreground functions in text, 
+while other clauses have background functions and that these functions are 
+expressed or reflected in the syntactic structure of the clause. 
+ 
+Presumably these clauses will have differing utility for automatic 
+approaches to text understanding; a summarization system might want to 
+utilize background clauses to capture commonalities between numbers of 
+documents while an indexing system might use foreground clauses in order to 
+capture specific characteristics of a certain document.

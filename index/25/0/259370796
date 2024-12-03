@@ -1,0 +1,1 @@
+Speeding up the inference of pretrained models by designing better intermediate early exits and a comparison-based early exiting mechanism

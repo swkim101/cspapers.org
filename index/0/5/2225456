@@ -1,0 +1,23 @@
+A large proportion of the resources available on the world-wide 
+web refer to information that may be regarded as geographically 
+located. Thus most activities and enterprises take place in one or 
+more places on the Earth's surface and there is a wealth of survey 
+data, images, maps and reports that relate to specific places or 
+regions. Despite the prevalence of geographical context, existing 
+web search facilities are poorly adapted to help people find 
+information that relates to a particular location. When the name of 
+a place is typed into a typical search engine, web pages that 
+include that name in their text will be retrieved, but it is likely 
+that many resources that are also associated with the place may 
+not be retrieved. Thus resources relating to places that are inside 
+the specified place may not be found, nor may be places that are 
+nearby or that are equivalent but referred to by another name. 
+Specification of geographical context frequently requires the use 
+of spatial relationships concerning distance or containment for 
+example, yet such terminology cannot be understood by existing 
+search engines. Here we provide a brief survey of existing 
+facilities for geographical information retrieval on the web, before 
+describing a set of tools and techniques that are being developed 
+in the project SPIRIT : Spatially-Aware Information Retrieval on 
+the Internet (funded by European Commission Framework V 
+Project IST-2001-35047).

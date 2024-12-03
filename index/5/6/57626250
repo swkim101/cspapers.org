@@ -1,0 +1,1 @@
+This paper presents the proposed autonomous mobile robot navigation scheme.  The navigation of mobile robot in unknown environment with obstacle avoidance is based on using fuzzy logic and wavelet network. Several cases are designed and modeled in Simulink and MATLAB. Simulation results show good performance for the proposed scheme.

@@ -1,0 +1,5 @@
+Typing schemes which allow inheritance from super to sub types are a common way of representing information about the world. There are various systems and theories which use such representations plus some inferencing rules to deduce properties of objects, about which the system has only partial information. Many such systems have problems related to multiple inheritance, and have some difficulty in drawing conclusions which we as humans see as intuitively simple. 
+ 
+We present a model of typing based on a lattice of feature descriptors. A type is represented by two important points in the lattice representing core and default information. The use of two points allows some information to be monotonic whilst other information is nonmonotonic. 
+ 
+We give some operations which can be used in default reasoning about an object, based on knowledge about the relationships between the points in the lattice which are defined as types. We then work through some specific examples, showing the conclusions which we reach with this system. We compare the expressiveness of our system to some of the well known work in the area of default reasoning using inheritance.

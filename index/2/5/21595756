@@ -1,0 +1,3 @@
+We introduce path dissolution, a rule or inference that operates on formulas in negation normal form. Path dissolution is strongly complete; i.e., it has the property that, given an unsatisfiable ground formula, any sequence of dissolution steps will produce the empty graph. This is accomplished by strictly reducing (at each step) the number of c-paths in the formula. 
+ 
+Dissolution, unlike most resolution-based inference rules, does not directly lift into first-order logic; techniques for employing dissolution at the first order level are discussed.

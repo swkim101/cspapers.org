@@ -1,0 +1,4 @@
+
+ 
+ The classic bribery problem is to find a minimal subset of voters who need to change their vote to make some preferred candidate win.We find an approximate solution for this problem for a broad family of scoring rules (which includes Borda and t-approval), in the following sense: if there is a strategy which requires bribing k voters, we efficiently find a strategy which requires bribing at most k + Õ(√k) voters. Our algorithm is based on a randomized reduction from bribery to coalitional manipulation (UCM). To solve the UCM problem, we apply the Birkhoff-von Neumann (BvN) decomposition to a fractional manipulation matrix. This allows us to limit the size of the possible ballot search space reducing it from exponential to polynomial, while still obtaining good approximation guarantees. Finding the optimal solution in the truncated search space yields a new algorithm for UCM, which is of independent interest.
+ 

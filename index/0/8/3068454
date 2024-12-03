@@ -1,0 +1,5 @@
+This paper discusses and feasibility and desirability of constructing a "programming laboratory " which would cooperate with the user in the development of his programs, freeing him to concentrate more fully on the conceptual diffculties of the problem he wishes to solve. Experience with similar systems in other fields indicates that such systems would significantly increase the programmer's productivity. 
+ 
+The PILOT system, implemented within the interactive BBN LISP system, is a step in the direction of a programming laboratory. PILOT operates as an interface between the user and his programs, monitoring both the requests of the user and operation of his programs. For example, if PILOT detects an error during the execution of a program, it takes appropriate correactive action based on previous Instructions from the user. Similarly, the user can give directions to PILOT about the operation of his programs, even while they are runing, and PILOT by instructing it about its own operation, anf thus develop his own language and conventions for interacting with PILOT. 
+ 
+Several examples are presented.

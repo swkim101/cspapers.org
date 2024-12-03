@@ -1,0 +1,1 @@
+In this paper we introduce ambient LCC, a language to agent interaction models for P2P networks. The language is based on process algebra concepts and combines the notions of Light weight coordinate calculus(LCC) and ambient calculus. It is specially designed to support the execution of electronic institutions, an organization model for Multi Agent Systems.

@@ -1,0 +1,4 @@
+
+ 
+ The paper proposes a condition for preserving the KD45 property of a Kripke model when a sequence of update models is applied to it. The paper defines the notions of a primitive update model and a semi-reflexive KD45 (or sr-KD45) Kripke model. It proves that updating a sr-KD45 Kripke model using a primitive update model results in a sr-KD45 Kripke model, i.e., a primitive update model preserves the properties of a sr-KD45 Kripke model. It shows that several update models for modeling well-known actions found in the literature are primitive. This result provides guarantees that can be useful in presence of multiple applications of actions in multi-agent system (e.g., multi-agent planning).
+ 

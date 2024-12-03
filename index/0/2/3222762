@@ -1,0 +1,1 @@
+We introduce an anytime algorithm for stochastic multi-armed bandit with optimal distribution free and distribution dependent bounds (for a specific family of parameters). The performances of this algorithm (as well as another one motivated by the conjectured optimal bound) are evaluated empirically. A similar analysis is provided with full information, to serve as a benchmark.

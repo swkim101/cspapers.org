@@ -1,0 +1,4 @@
+
+ 
+ We exploit the absence of signals as informative observations in the context of providing task recommendations in crowdsourcing. Workers on crowdsourcing platforms do not provide explicit ratings about tasks. We present methods that enable a system to leverage implicit signals about task preferences. These signals include types of tasks that have been available and have been displayed, and the number of tasks workers select and complete. In contrast to previous work, we present a general model that can represent both positive and negative implicit signals. We introduce algorithms that can learn these models without exceeding the computational complexity of existing approaches. Finally, using data from a high-throughput crowdsourcing platform, we show that reasoning about both positive and negative implicit feedback can improve the quality of task recommendations.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Category classifiers trained from a large corpus of annotated data are widely accepted as the sources for (hypothesis) transfer learning. Sources generated in this way are tied to a particular set of categories, limiting their transferability across a wide spectrum of target categories. In this paper, we address this largely-overlooked yet fundamental source problem by both introducing a systematic scheme for generating universal source hypotheses and proposing a principled, scalable approach to automatically tuning the transfer process. Our approach is based on the insights that expressive source hypotheses could be generated without any supervision and that a sparse combination of such hypotheses facilitates recognition of novel categories from few samples. We demonstrate improvements over the state-of-the-art on object and scene classification in the small sample size regime.
+ 

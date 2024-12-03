@@ -1,0 +1,4 @@
+
+ 
+ We present a novel framework for shape-based template matching in images. While previous approaches required brittle contour extraction, considered only local information, or used coarse statistics, we propose to match the shape explicitly on low-level gradients by formulating the problem as traversing paths in a gradient network. We evaluate our algorithm on a challenging dataset of objects in cluttered environments and demonstrate significant improvement over state-of-the-art methods for shape matching and object detection.
+ 

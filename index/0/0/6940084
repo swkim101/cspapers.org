@@ -1,0 +1,4 @@
+
+ 
+ Utility elicitation is an important component of many applications, such as decision support systems and recommender systems. Such systems query users about their preferences and offer recommendations based on the system's belief about the user's utility function. We analyze the connection between the problem of generating optimal recommendation sets and the problem of generating optimal choice queries, considering both Bayesian and regret-based elicitation. Our results show that, somewhat surprisingly, under very general circumstances, the optimal recommendation set coincides with the optimal query.
+ 

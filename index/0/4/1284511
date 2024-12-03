@@ -1,0 +1,1 @@
+We show that 2-tag systems efficiently simulate Turing machines. As a corollary we find that the small universal Turing machines of Rogozhin, Minsky and others simulate Turing machines in polynomial time. This is an exponential improvement on the previously known simulation time overhead and improves a forty year old result in the area of small universal Turing machines

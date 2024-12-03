@@ -1,0 +1,4 @@
+
+ 
+ The current methods used to mine and analyze temporal social network data make two assumptions: all edges have the same strength, and all parameters are time-homogeneous. We show that those assumptions may not hold for social networks and propose an alternative model with two novel aspects: (1) the modeling of edges as multi-valued variables that can change in intensity, and (2) the use of a curved exponential family framework to capture time-inhomogeneous properties while retaining a parsimonious and interpretable model. We show that our model outperforms traditional models on two real-world social network data sets.
+ 

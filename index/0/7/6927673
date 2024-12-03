@@ -1,0 +1,1 @@
+Consider the problem of estimating the (un)reliability of an n-vertex graph when edges fail with probability p. We show that the Recursive Contraction Algorithms for minimum cuts, essentially unchanged and running in n2+o(1) time, yields an unbiased estimator of constant relative variance (and thus an FPRAS with the same time bound) whenever pc

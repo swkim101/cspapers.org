@@ -1,0 +1,1 @@
+This paper proposed a parameter identification method for simplified models of open drainage systems. SWMM is used to identify these parameters by taking the rainfall data as the input. Simulations show that the results of the proposed method have high accordance with those of SWMM. The drainage system of Duke University is taken as an example to demonstrate our approach.

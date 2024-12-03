@@ -1,0 +1,11 @@
+Even after an unambiguous semantic interpretation has been computed for a sentence in context, there are at least three reasons that a system may map the semantic representation R into another form S. 
+ 
+1. The terms of R, while reflecting the user view, may require deeper understanding, e.g. may require a version S where metaphors have been analyzed. 
+ 
+2. Transformations of R may be more appropriate for the underlying application system, e.g. S may be a more nearly optimal form. These transformations may not be linguisticly motivated. 
+ 
+3. Some transformations may depend on nonstructural context. 
+ 
+Design considerations may favor factoring the process into two stages, for reasons of understandability or for easier transportability of the components. 
+ 
+This paper describes the use of Horn clauses for the three classes of transformations listed above. The transformations are part of a system that converts the English description of a software module into a formal specification, i.e. an abstract data type.

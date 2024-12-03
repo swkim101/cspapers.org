@@ -1,0 +1,1 @@
+This paper proposes a semi-supervised self-learning method, which is based on a Naive Bayes classifier exploiting context features and PMI scores, to extract opinion targets. The experimental results indicate our bootstrapping framework is effective for this task and outperforms the state-of-the-art models on COAE2008 dataset2, especially in precision.

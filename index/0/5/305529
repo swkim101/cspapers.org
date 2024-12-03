@@ -1,0 +1,1 @@
+A static anti-integrator-windup controller design method is proposed for zero-gravity planar robot manipulators. The asymptotic stability is achieved using a simple static anti-windup gain matrix for PI or PID controllers. The control performance is verified by numerical simulations and experiments on a two-link planar 2DOF robot arm.

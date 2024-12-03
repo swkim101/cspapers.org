@@ -1,0 +1,4 @@
+
+ 
+ We present an enhanced hybrid approach to OWL query answering that combines an RDF triple-store with an OWL reasoner in order to provide scalable pay-as-you-go performance. The enhancements presented here include an extension to deal with arbitrary OWL ontologies, and optimisations that significantly improve scalability. We have implemented these techniques in a prototype system, a preliminary evaluation of which has produced very encouraging results.
+ 

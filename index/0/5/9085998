@@ -1,0 +1,7 @@
+This paper discusses an approach to handling run-time errors in software systems. It is often assumed that in programs which can be proven correct, errors will not be a problem. This paper is predicted on the assumption that, even with correct programs, undesired events at run-time will continue to be a problem. Routines to respond to these undesired events (UEs) must be provided in reliable systems.
+ This paper describes a program organization which aims at satisfying the following criteria:
+ (1) UE response routines are written by each programmer in terms of the abstract machine which he uses for his normal case code. UEs are reported in those terms. He is never forced to use information about the implementation of other modules in the system.
+ (2) Programs can be written so that the code for UE detection, UE correction, and normal case, are lexically separate and can be modified independently.
+ (3) The system can evolve from an initial version that does little recovery to one which uses sophisticated recovery techniques without a change in the structure of the system.
+ (4) Even with unsophisticated recovery procedures, the task of locating the module containing a bug discovered at run-time does not require internal knowledge of many modules.
+ (5) Costs incurred because of the recovery techniques are low as no UE occurs.

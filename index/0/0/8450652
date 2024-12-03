@@ -1,0 +1,1 @@
+We demonstrate RDF Xpress, a search engine that enables users to effectively retrieve information from large RDF knowledge bases or Linked Data Sources. RDF Xpress provides a search interface where users can combine triple patterns with keywords to form queries. Moreover, RDF Xpress supports automatic query relaxation and returns a ranked list of diverse query results.

@@ -1,0 +1,4 @@
+
+ 
+ Chatbots have drawn significant attention of late in both industry and academia. For most task completion bots in the industry, human intervention is the only means of avoiding mistakes in complex real-world cases. However, to the best of our knowledge, there is no existing research work modeling the collaboration between task completion bots and human workers. In this paper, we introduce CoChat, a dialog management framework to enable effective collaboration between bots and human workers. In CoChat, human workers can introduce new actions at any time to handle previously unseen cases. We propose a memory-enhanced hierarchical RNN (MemHRNN) to handle the one-shot learning challenges caused by instantly introducing new actions in CoChat. Extensive experiments on real-world datasets well demonstrate that CoChat can relieve most of the human workers’ workload, and get better user satisfaction rates comparing to other state-of-the-art frameworks.
+ 

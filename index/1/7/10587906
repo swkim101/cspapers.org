@@ -1,0 +1,4 @@
+Subdomains of a program's input space are a concept around which ideas about testing can be organized. This paper considers the questions, ``What are the best subdomains for:
+testing to detecting failures
+defining operational profiles
+measuring component reliability?

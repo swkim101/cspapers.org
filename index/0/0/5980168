@@ -1,0 +1,1 @@
+Considering the difficulties inherent in the manual construction of natural language parsers, we have designed and implemented our system GRIND which is capable of learning a sequence of context-dependent parsing actions from an arbitrary corpus containing labelled parse trees. Being trained and tested on corpus SUSANNE, GRIND reaches the accuracy of 96 % and the recall of 68 %.

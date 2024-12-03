@@ -1,0 +1,1 @@
+We explore the possibility of detecting person's mood with the usage pattern of mobile applications. Towards this ultimate goal, we first examine the relationship between LF/HF values in heart rate and the CDR (Call Detail Record) logs. Our evaluation result shows that different LF/HF values correspond to different types of mobile applications.

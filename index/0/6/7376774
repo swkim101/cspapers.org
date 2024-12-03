@@ -1,0 +1,4 @@
+
+ 
+ Using a model of agent behavior based around envy-reducing strategies, we describe an iterated combinatorial auction in which the allocation and prices converge to a solution in the core of the agents' true valuations. In each round of the iterative auction mechanism, agents act on envy quotes produced by the mechanism: hints that suggest the prices of the bundles they are interested in. We describe optimal methods of generating envy quotes for various core-selecting mechanisms. Prior work on core-selecting combinatorial auctions has required agents to have perfect information about every agent's valuations to achieve a solution in the core. In contrast, here a core solution is reached even in the private information setting.
+ 

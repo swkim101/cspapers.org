@@ -1,0 +1,4 @@
+
+ 
+ Medical treatment decision making is a good application of knowledge representation and reasoning. We are particularly interested in using it to resolve treatment conflicts, a complicated condition when two treatments cannot be given simultaneously to a patient of multiple symptoms. The logic system is required to reason on cases with and without treatment conflicts. Thanks to the nonmonotonicity of Answer Set Programming (ASP), we elegantly automate medical treatment conflict resolving on an example problem and show the importance of nonmonotonicity in medical reasoning.
+ 

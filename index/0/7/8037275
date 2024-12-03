@@ -1,0 +1,4 @@
+The Sigma network is one of the most important element of the Sigma system which is designed to improve productivity of a software.
+The Sigma network has been developed in order to establish a infrastructure which acts as development environment provided by logically integrated Sigma workstations spread over various companies and inside the companies which approve the concept of the Sigma system. It is also included in the scope of its development to enrich application programs mainly for message communication required by network community.
+The network supports IEEE802.3, digital packet exchange (X.25) and serial line under the TCP/IP layer and realizes end-to-end immediate communication.
+Sigma network is a name oriented virtual network defined by hierarchical name space (domain) and named objects placed under the domains. Its key feature lies in the network management mechanism, i.e. Name Server.

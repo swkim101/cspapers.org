@@ -1,0 +1,3 @@
+What skill is more important to teach than reading? Unfortunately, millions of Americans cannot read. Although a large body of educational software exists to help teach reading, its inability to hear the student limits what it can do. 
+ 
+This paper reports a significant step toward using automatic speech recognition to help children learn to read: an implemented system that displays a text, follows as a student reads it aloud, and automatically identifies which words he or she missed. We describe how the system works, and evaluate its performance on a corpus of second graders' oral reading that we have recorded and transcribed.

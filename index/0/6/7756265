@@ -1,0 +1,1 @@
+Several options are specified in the X.3 standard for the selection of packet construction time. Some simple queueing theoretic models are constructed to study two of the three alternative criterion, fixed packet size and end of packet character.

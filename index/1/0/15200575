@@ -1,0 +1,4 @@
+
+ 
+ Alpha-Beta pruning is one of the most powerful and fundamental MiniMax search improvements. It was designed for sequential two-player zero-sum perfect information games. In this paper we introduce an Alpha-Beta-like sound pruning method for the more general class of “stacked matrix games” that allow for simultaneous moves by both players. This is accomplished by maintaining upper and lower bounds for achievable payoffs in states with simultaneous actions and dominated action pruning based on the feasibility of certain linear programs. Empirical data shows considerable savings in terms of expanded nodes compared to naive depth-first move computation without pruning. 
+ 

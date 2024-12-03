@@ -1,0 +1,4 @@
+
+ 
+ Most tensor problems are NP-hard, and low-rank tensor completion is much more difficult than low-rank matrix completion. In this paper, we propose a time and space-efficient low-rank tensor completion algorithm by using the scaled latent nuclear norm for regularization and the Frank-Wolfe (FW) algorithm for optimization. We show that all the steps can be performed efficiently. In particular,FW's linear subproblem has a closed-form solution which can be obtained from rank-one SVD. By utilizing sparsity of the observed tensor,we only need to maintain sparse tensors and a set of small basis matrices. Experimental results show that the proposed algorithm is more accurate, much faster and more scalable than the state-of-the-art.
+ 

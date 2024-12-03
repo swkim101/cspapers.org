@@ -1,0 +1,1 @@
+We resolve one of the major outstanding problems in robust statistics. In particular, if $X$ is an evenly weighted mixture of two arbitrary $d$-dimensional Gaussians, we devise a polynomial time algorithm that given access to samples from $X$ an $\eps$-fraction of which have been adversarially corrupted, learns $X$ to error $\poly(\eps)$ in total variation distance.

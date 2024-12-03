@@ -1,0 +1,4 @@
+
+ 
+ Reward functions in reinforcement learning have largely been assumed given as part of the problem being solved by the agent. However, the psychological notion of intrinsic motivation has recently inspired inquiry into whether there exist alternate reward functions that enable an agent to learn a task more easily than the natural task-based reward function allows. This paper presents an efficient genetic programming algorithm to search for alternate reward functions that improve agent learning performance.
+ 

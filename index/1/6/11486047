@@ -1,0 +1,4 @@
+
+ 
+ This paper introduces two novel algorithms for learning behaviors from human-provided rewards. The primary novelty of these algorithms is that instead of treating the feedback as a numeric reward signal, they interpret feedback as a form of discrete communication that depends on both the behavior the trainer is trying to teach and the teaching strategy used by the trainer. For example, some human trainers use a lack of feedback to indicate whether actions are correct or incorrect, and interpreting this lack of feedback accurately can significantly improve learning speed. Results from user studies show that humans use a variety of training strategies in practice and both algorithms can learn a contextual bandit task faster than algorithms that treat the feedback as numeric. Simulated trainers are also employed to evaluate the algorithms in both contextual bandit and sequential decision-making tasks with similar results.
+ 

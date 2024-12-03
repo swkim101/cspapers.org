@@ -1,0 +1,6 @@
+
+ 
+ 
+Traffic congestion is a widespread annoyance throughout global metropolitan areas. It causes increases in travel time, increases in emissions, inefficient usage of gasoline, and driver frustration. Inefficient signal patterns at traffic lights are one major cause of such congestion. Intersection scheduling strategies that make real-time decisions to extend or end a green signal based on real-time traffic data offer one opportunity reduce congestion and its negative impacts. My research proposes Expressive Real-time Intersection Scheduling (ERIS). ERIS is a decentralized, schedule-driven control method which makes a decision every second based on current traffic conditions to reduce congestion. 
+ 
+ 

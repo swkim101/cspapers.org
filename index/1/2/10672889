@@ -1,0 +1,3 @@
+Because of the discrete nature of the memory and logic of a digital computer, a digital computer "sees" pictures in cellular form, each cell containing a number that represents the density of the viewed object at that cell. In particular, when the picture is binary, each cell holds a 1 or 0, depending on whether or not the viewed object is projected onto that cell. The convexity of cellular blobs-i. e., binary singly connected cellular figures - is discussed and defined in terms of the continuous blobs of which the cellular blobs are images. 
+ 
+A theory of convex cellular blobs is sketched, and the use of the "minimum-perimeter polygon" in an algorithm for testing the convexity of cellular blobs is described.

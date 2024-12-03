@@ -1,0 +1,4 @@
+
+ 
+ In graph-oriented machine learning research, L1 graph is an efficient way to represent the connections of input data samples. Its construction algorithm is based on a numerical optimization motivated by Compressive Sensing theory. As a result, It is a nonparametric method which is highly demanded. However, the information of data such as geometry structure and density distribution are ignored. In this paper, we propose a Structure Aware (SA) L1 graph to improve the data clustering performance by capturing the manifold structure of input data. We use a local dictionary for each datum while calculating its sparse coefficients. SA-L1 graph not only preserves the locality of data but also captures the geometry structure of data. The experimental results show that our new algorithm has better clustering performance than L1 graph.
+ 

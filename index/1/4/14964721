@@ -1,0 +1,4 @@
+
+ 
+ Although the social medium Twitter grants users freedom of speech, its instantaneous nature and retweeting features also amplify hate speech. Because Twitter has a sizeable black constituency, racist tweets against blacks are especially detrimental in the Twitter community, though this effect may not be obvious against a backdrop of half a billion tweets a day.1 We apply a supervised machine learning approach, employing inexpensively acquired labeled data from diverse Twitter accounts to learn a binary classifier for the labels “racist” and “nonracist.” The classifier has a 76% average accuracy on individual tweets, suggesting that with further improvements, our work can contribute data on the sources of anti-black hate speech.
+ 

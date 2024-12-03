@@ -1,0 +1,25 @@
+Community health workers (CHWs) play a crucial role in
+the last mile delivery of essential health services to underserved
+populations in low-income countries. Many nongovernmental
+organizations (NGOs) provide training and
+support to enable CHWs to deliver health services to their
+communities, with no charge to the recipients of the services.
+This includes monetary compensation for the work that
+CHWs perform, which is broken down into a series of well defined
+tasks. In this work, we partner with a NGO D-Tree
+International to design a fair monetary compensation scheme
+for tasks performed by CHWs in the semi-autonomous region
+of Zanzibar in Tanzania, Africa. In consultation with
+stakeholders, we interpret fairness as the equal opportunity
+to earn, which means that each CHW has the opportunity to
+earn roughly the same total payment over a given T month
+period, if the CHW reacts to the incentive scheme almost rationally.
+We model this problem as a reward design problem
+for a Markov Decision Process (MDP) formulation for the
+CHWs’ earning. There is a need for the mechanism to be
+simple so that it is understood by the CHWs, thus, we explore
+linear and piecewise linear rewards in the CHWs’ measured
+units of work. We solve this design problem via a novel
+policy-reward gradient result. Our experiments using two real
+world parameters from the ground provide evidence of reasonable
+incentive output by our scheme.

@@ -1,0 +1,2 @@
+The k paths problem asks whether it is possible to find k edge-disjoint paths joining k given pairs of vertices in a graph. We show that this problem can be solved in polynomial time for k≤5 if the input graph is k+2 -connected.
+ It follows from this result that under the same restriction, the subgraph homeomorphism problem is polynomial for any pattern graph with five or fewer edges.

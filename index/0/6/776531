@@ -1,0 +1,1 @@
+By exploring the relationship between parsing and deduction, a new and more general view of chart parsing is obtained, which encompasses parsing for grammar formalisms based on unification, and is the basis of the Earley Deduction proof procedure for definite clauses. The efficiency of this approach for an interesting class of grammars is discussed.

@@ -1,0 +1,1 @@
+Computational complexity of various maximal pattern mining problems, including maximal frequent items, maximal frequent subgraphs in labelled graphs, and maximal subsequences with no repetitions, is studied, and the complexities are found to be equivalent under novel constrained reductions. The results extend those of Kimelfeld and Kolaitis [ACM TODS, 2014].

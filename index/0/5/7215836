@@ -1,0 +1,4 @@
+
+ 
+ Valued decision diagrams (VDDs) are data structures that represent functions mapping variable-value assignments to non-negative real numbers. They prove useful to compile cost functions, utility functions, or probability distributions. While the complexity of some queries (notably optimization) and transformations (notably conditioning) on VDD languages has been known for some time, there remain many significant queries and transformations, such as the various kinds of cuts, marginalizations, and combinations, the complexity of which has not been identified so far. This paper contributes to filling this gap and completing previous results about the time and space efficiency of VDD languages, thus leading to a knowledge compilation map for real-valued functions. Our results show that many tasks that are hard on valued CSPs are actually tractable on VDDs.
+ 

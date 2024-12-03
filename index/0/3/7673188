@@ -1,0 +1,1 @@
+We provide a PAC-Bayesian bound for the expected loss of convex combinations of classifiers under a wide class of loss functions (which includes the exponential loss and the logistic loss). Our numerical experiments with Adaboost indicate that the proposed upper bound, computed on the training set, behaves very similarly as the true loss estimated on the testing set.

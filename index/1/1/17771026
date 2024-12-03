@@ -1,0 +1,3 @@
+In this paper we provide a new method to generate hard k-SAT instances. We incrementally construct a high girth bipartite incidence graph of the k-SAT instance. Having high girth assures high expansion for the graph, and high expansion implies high resolution width. 
+ 
+We have extended this approach to generate hard n-ary CSP instances and we have also adapted this idea to increase the expansion of the system of linear equations used to generate XORSAT instances, being able to produce harder satisfiable instances than former generators.

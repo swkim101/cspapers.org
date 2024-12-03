@@ -1,0 +1,1 @@
+For the task of automatic treebank conversion, this paper presents a feature-based approach which encodes bracketing structures in a tree-bank into features to guide the conversion of this treebank to a different standard. Experiments on two Chinese treebanks show that our approach improves conversion accuracy by 1.31% over a strong baseline.

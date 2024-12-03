@@ -1,0 +1,3 @@
+N-1 protocol was developed for construction of a computer network which connects universities in Japan. N-1 protocol has been adopted by Inter-University Computer Network and University Library Network.
+NACSIS has started the construction of Science Information Network which will provide an infrastructure for digital communication for universities in Japan. High speed digital lines has been leased from NTT for that purpose.
+A local area network was constructed at the Faculty of Engineering at the University of Tokyo. The network consists of an optical fiber backbone network and many IEEE802.3 10Mbps baseband networks connected to the backbone. Connection to large computers was one of the key issues in the planning of that network.

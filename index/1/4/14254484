@@ -1,0 +1,1 @@
+This paper addresses recommendation diversification. Existing diversification methods have a difficulty in dealing with the accuracy-diversity tradeoff. We propose a novel method to simultaneously optimize the user preference and diversity of k-items to be recommended.

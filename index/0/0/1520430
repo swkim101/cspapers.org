@@ -1,0 +1,3 @@
+We draw a simple correspondence between kernel rules and prime implicants. Kernel (minimal) rules play an important role in many induction techniques. Prime implicants were previously used to formally model many other problem domains, including Boolean circuit minimization and such classical AI problems as diagnosis, truth maintenance and circumscription. 
+ 
+This correspondence allows computing kernel rules using any of a number of prime implicant generation algorithms. It also leads us to an algorithm in which learning is boosted by an auxiliary domain theory, e.g., a set of rules provided by an expert, or a functional description of a device or system; we discuss this algorithm in the context of SE-tree-based generation of prime implicants.

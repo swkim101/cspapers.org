@@ -1,0 +1,4 @@
+
+ 
+ We consider settings in which a semi-autonomous agent has uncertain knowledge about its environment, but can ask what action the human operator would prefer taking in the current or in a potential future state. Asking queries can improve behavior, but if queries come at a cost (e.g., due to limited operator attention), the value of each query should be maximized. We compare two strategies for selecting action queries: 1) based on myopically maximizing expected gain in long-term value, and 2) based on myopically minimizing uncertainty in the agent's policy representation. We show empirically that the first strategy tends to select more valuable queries, and that a hybrid method can outperform either method alone in settings with limited computation.
+ 

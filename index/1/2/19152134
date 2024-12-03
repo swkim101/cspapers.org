@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present a transition system that generalizes transition-based dependency parsing techniques to generateAMR graphs rather than tree structures. In addition to a buffer and a stack, we use a fixed-size cache, and allow the system to build arcs to any vertices present in the cache at the same time. The size of the cache provides a parameter that can trade off between the complexity of the graphs that can be built and the ease of predicting actions during parsing. Our results show that a cache transition system can cover almost all AMR graphs with a small cache size, and our end-to-end system achieves competitive results in comparison with other transition-based approaches for AMR parsing.
+ 

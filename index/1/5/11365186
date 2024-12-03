@@ -1,0 +1,1 @@
+We investigate the generalization performance of some learning problems in Hilbert functional Spaces. We introduce a notion of convergence of the estimated functional predictor to the best underlying predictor, and obtain an estimate on the rate of the convergence. This estimate allows us to derive generalization bounds on some learning formulations.

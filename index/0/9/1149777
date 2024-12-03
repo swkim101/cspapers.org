@@ -1,0 +1,4 @@
+
+ 
+ SPARQL query containment under schema axioms is the problem of determining whether, for any RDF graph satisfying a given set of schema axioms, the answers to a query are contained in the answers of another query. This problem has major applications for verification and optimization of queries. In order to solve it, we rely on the mu-calculus. Firstly, we provide a mapping from RDF graphs into transition systems. Secondly, SPARQL queries and RDFS and SHI axioms are encoded into mu-calculus formulas. This allows us to reduce query containment and equivalence to satisfiability in the mu-calculus. Finally, we prove a double exponential upper bound for containment under SHI schema axioms.
+ 

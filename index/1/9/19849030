@@ -1,0 +1,4 @@
+
+ 
+ Lexical Simplification is the task of replacing complex words with simpler alternatives. We propose a novel, unsupervised approach for the task. It relies on two resources: a corpus of subtitles and a new type of word embeddings model that accounts for the ambiguity of words. We compare the performance of our approach and many others over a new evaluation dataset, which accounts for the simplification needs of 400 non-native English speakers. The experiments show that our approach outperforms state-of-the-art work in Lexical Simplification.
+ 

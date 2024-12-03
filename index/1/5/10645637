@@ -1,0 +1,7 @@
+We consider the following sparse signal recovery (or feature selection) problem: given a design matrix X ∈ ℝn x m (m ≫ n) and a noisy observation vector y ∈ ℝn satisfying y = X β* + e where e is the noise vector following a Gaussian distribution N(0, σ2I), how to recover the signal (or parameter vector) β* when the signal is sparse? 
+ 
+The Dantzig selector has been proposed for sparse signal recovery with strong theoretical guarantees. In this paper, we propose a multi-stage Dantzig selector method, which iteratively refines the target signal β*. We show that if X obeys a certain condition, then with a large probability the difference between the solution ^β estimated by the proposed method and the true solution β* measured in terms of the lp norm (p ≥ 1) is bounded as 
+ 
+‖^β - β ‖p ≤ (C(s - N)1/p √log m + Δ) σ, 
+ 
+where C is a constant, s is the number of nonzero entries in β*, A is independent of m and is much smaller than the first term, and N is the number of entries of β* larger than a certain value in the order of O(σ/√log m). The proposed method improves the estimation bound of the standard Dantzig selector approximately from Cs1/p √log mσ to C(s - N)1/p√log mσ where the value N depends on the number of large entries in β*. When N = s, the proposed algorithm achieves the oracle solution with a high probability. In addition, with a large probability, the proposed method can select the same number of correct features under a milder condition than the Dantzig selector.

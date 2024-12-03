@@ -1,0 +1,1 @@
+Inktomi provides the back-end for several well-known search engines, including Wired's HotBot and Microsoft's MS Start page. The services are supported by a highly available cluster with more than 300 CPUs and several hundred disks.

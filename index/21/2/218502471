@@ -1,0 +1,1 @@
+In this paper, we demonstrate how code-switching patterns can be utilised to improve various downstream NLP applications. In particular, we encode various switching features to improve humour, sarcasm and hate speech detection tasks. We believe that this simple linguistic observation can also be potentially helpful in improving other similar NLP applications.

@@ -1,0 +1,1 @@
+The concept of a Computer Aided Design (CAD) database (Figure 1) has been discussed for many years, however, during the course of actually implementing such a data base at Raytheon, we found that many critical concepts are hidden in Figure 1. We will discuss these concepts by analyzing the types of information in a CAD data base and by analyzing the “flow” of this information.

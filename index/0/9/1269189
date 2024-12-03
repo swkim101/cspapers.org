@@ -1,0 +1,1 @@
+Information retrieval models usually represent content only, and not other considerations, such as authority, cost, and recency. How could multiple criteria be utilized in information retrieval, and how would it effect the results? In our experiments, using multiple user-centric criteria always produced better results than a single criteria.

@@ -1,0 +1,2 @@
+A new tree-structured diagram for describing computer program logics is presented. The diagraming technique called PAD(Problem Analysis Diagram) is used as basis in establishing method of coding, testing, and data type description. It is proposed as a functionally superior substitute for flowcharts.
+ The fact that some 1000 HITACHI programmers have converted from flowcharts to PAD within the last 15 months is indicative of the broad potential utility of this notation.

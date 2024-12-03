@@ -1,0 +1,4 @@
+
+ 
+ We visualize aggregate outputs of popular multiwinner voting rules — SNTV, STV, Bloc, k-Borda, Monroe, Chamberlin–Courant, and PAV — for elections generated according to the two-dimensional Euclidean model. We consider three applications of multiwinner voting, namely, parliamentary elections, portfolio/movie selection, and shortlisting, and use our results to understand which of our rules seem to be best suited for each application. In particular, we show that STV (one of the few nontrivial rules used in real high-stake elections) exhibits excellent performance, whereas the Bloc rule (also often used in practice) performs poorly.
+ 

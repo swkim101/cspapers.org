@@ -1,0 +1,4 @@
+
+ 
+ Suppose an unpredictable evader is free to move around in a polygonal environment of arbitrary complexity that is under full camera surveillance. How many pursuers, each with the same maximum speed as the evader, are necessary and sufficient to guarantee a successful capture of the evader? The pursuers always know the evader's current position through the camera network, but need to physically reach the evader to capture it. We allow the evader the knowledge of the current positions of all the pursuers as well---this accords with the standard worst-case analysis model, but also models a practical situation where the evader has ``hacked'' into the surveillance system. Our main result is to prove that three pursuers are always sufficient and sometimes necessary to capture the evader. The bound is independent of the number of vertices or holes in the polygonal environment.
+ 

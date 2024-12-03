@@ -1,0 +1,1 @@
+This paper describes an implemented technique of automatic test generation for large digital circuits. The test generator presented in this paper basically uses the path sensitizing method and is applicable to all kinds of logical circuits. Some application results are also described.

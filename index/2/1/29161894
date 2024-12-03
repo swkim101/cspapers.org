@@ -1,0 +1,4 @@
+
+ 
+ In recent years there has been rising interest in the use of programming-by-example techniques to assist users in data manipulation tasks. Such techniques rely on an explicit input-output examples specification from the user to automatically synthesize programs. However, in a wide range of data extraction tasks it is easy for a human observer to predict the desired extraction by just observing the input data itself. Such predictive intelligence has not yet been explored in program synthesis research, and is what we address in this work. We describe a predictive program synthesis algorithm that infers programs in a general form of extraction DSLs (domain specific languages) given input-only examples. We describe concrete instantiations of such DSLs and the synthesis algorithm in the two practical application domains of text extraction and web extraction, and present an evaluation of our technique on a range of extraction tasks encountered in practice.
+ 

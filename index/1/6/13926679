@@ -1,0 +1,1 @@
+We investigate a general semi-Markov Decision Process (SMDP) framework for modeling concurrent decision making, where agents learn optimal plans over concurrent temporally extended actions. We introduce three types of parallel termination schemes - all, any and continue - and theoretically and experimentally compare them.

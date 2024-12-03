@@ -1,0 +1,1 @@
+This paper will present the Interactive Pushdown Automata Animation for use in an Automata Theory class. It will present the features of the IPAA as well as the algorithm and data model used. Finally, this article will outline the necessary pieces of a good visual tool and show how they are implemented in the IPAA.

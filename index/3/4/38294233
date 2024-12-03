@@ -1,0 +1,1 @@
+Automatic debugging is examined in the context of compiler correctness. A system is described whose goal is to prove the correctness of translations involving heuristically optimized code. The class of errors that can be detected and corrected using such a system is also discussed.

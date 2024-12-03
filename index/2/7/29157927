@@ -1,0 +1,4 @@
+
+ 
+ In multi-task learning, when the number of tasks is large, pairwise task relations exhibit sparse patterns since usually a task cannot be helpful to all of the other tasks and moreover, sparse task relations can reduce the risk of overfitting compared with the dense ones. In this paper, we focus on learning sparse task relations. Based on a regularization framework which can learn task relations among multiple tasks, we propose a SParse covAriance based mulTi-taSk (SPATS) model to learn a sparse covariance by using the ℓl regularization. The resulting objective function of the SPATS method is convex, which allows us to devise an alternating method to solve it. Moreover, some theoretical properties of the proposed model are studied. Experiments on synthetic and real-world datasets demonstrate the effectiveness of the proposed method.
+ 

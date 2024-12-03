@@ -1,0 +1,4 @@
+
+ 
+ One of the most difficult tasks in value function approximation for Markov Decision Processes is finding an approximation architecture that is expressive enough to capture the important structure in the value function, while at the same time not overfitting the training samples. Recent results in non-parametric approximate linear programming (NP-ALP), have demonstrated that this can be done effectively using nothing more than a smoothness assumption on the value function. In this paper we extend these results to the case where samples come from real world transitions instead of the full Bellman equation, adding robustness to noise. In addition, we provide the first max-norm, finite sample performance guarantees for any form of ALP. NP-ALP is amenable to problems with large (multidimensional) or even infinite (continuous) action spaces, and does not require a model to select actions using the resulting approximate solution.
+ 

@@ -1,0 +1,5 @@
+We examine a setting in which a buyer wishes to purchase probabilistic information from some agent. The seller must invest effort in order to gain access to the information, and must therefore be compensated appropriately. However, the information being sold is hard to verify and the seller may be tempted to lie in order to collect a higher payment. 
+ 
+While it is generally easy to design information elicitation mechanisms that motivate the seller to be truthful, we show that if the seller has additional relevant information it does not want to reveal, the buyer must resort to elicitation mechanisms that work only some of the time. The optimal design of such mechanisms is shown to be computationally hard. 
+ 
+We show two different algorithms to solve the mechanism design problem, each appropriate (from a complexity point of view) in different scenarios.

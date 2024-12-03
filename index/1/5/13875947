@@ -1,0 +1,4 @@
+
+ 
+ We present temporal milestones for hierarchical task networks to enable the complex synchronization of tasks. A temporal milestone of a task is an intermediate event that occurs during the execution of a complex task, e.g., the start time, the end time or a milestone of any of its subtasks. Unlike landmark variables, introduced in existing work, temporal milestones respect the task abstraction boundaries and preserve structural properties enabling much more efficient reasoning. Furthermore, temporal milestones are as expressive as landmark variables. We provide analytical and empirical evidence to support these claims.
+ 

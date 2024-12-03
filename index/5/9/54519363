@@ -1,0 +1,16 @@
+Activity-Based Computing [1] aims to capture the state of the user and its environment 
+by exploiting heterogeneous sensors in order to provide adaptation to 
+exogenous computing resources. When these sensors are attached to the subject’s 
+body, they permit continuous monitoring of numerous physiological signals. This 
+has appealing use in healthcare applications, e.g. the exploitation of Ambient Intelligence 
+(AmI) in daily activity monitoring for elderly people. In this paper, 
+we present a system for human physical Activity Recognition (AR) using smartphone 
+inertial sensors. As these mobile phones are limited in terms of energy and 
+computing power, we propose a novel hardware-friendly approach for multiclass 
+classification. This method adapts the standard Support Vector Machine (SVM) 
+and exploits fixed-point arithmetic. In addition to the clear computational advantages 
+of fixed-point arithmetic, it is easy to show the regularization effect of the 
+number of bits and then the connections with the Statistical Learning Theory. A 
+comparison with the traditional SVM shows a significant improvement in terms 
+of computational costs while maintaining similar accuracy, which can contribute 
+to develop more sustainable systems for AmI.

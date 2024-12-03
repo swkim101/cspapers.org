@@ -1,0 +1,1 @@
+Boolean Satisfiability (SAT) solvers are a mature technology to solve hard combinatorial problems. The input to a SAT solver is the problem translated to propositional logic in conjunctive normal form (CNF). This thesis studies such translations and aims to make SAT solvers more accessible to non-encoding experts.

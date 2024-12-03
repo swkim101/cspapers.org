@@ -1,0 +1,4 @@
+
+ 
+ Recently, ontology stream reasoning has been introduced as a multidisciplinary approach, merging synergies from Artificial Intelligence, Database and World-Wide-Web to reason on semantics-augmented data streams, thus a way to answering questions on real time events. However existing approaches do not consider stream change diagnosis i.e., identification of the nature and cause of changes, where explaining the logical connection of knowledge and inferring insight on time changing events are the main challenges. We exploit the Description Logics (DL)-based semantics of streams to tackle these challenges. Based on an analysis of stream behavior through change and inconsistency over DL axioms, we tackled change diagnosis by determining and constructing a comprehensive view on potential causes of inconsistencies. We report a large-scale evaluation of our approach in the context of live stream data from Dublin City Council.
+ 

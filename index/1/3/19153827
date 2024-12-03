@@ -1,0 +1,4 @@
+
+ 
+ Recent studies reveal that social advertising is more effective than conventional online advertising. This is mainly because conventional advertising targets at individual's interest while social advertising is able to produce a large cascade of further exposures to other users via social influence. This motivates us to study the optimal social advertising problem from platform's perspective, and our objective is to find the best ad sequence for each user in order to maximize the expected revenue. Although there is rich body of work that has been devoted to ad sequencing, the network value of each customer is largely ignored in existing algorithm design. To fill this gap, we propose to integrate viral marketing into existing ad sequencing model, and develop both non-adaptive and adaptive ad sequencing policies that can maximize the viral marketing efficiency.
+ 

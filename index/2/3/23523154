@@ -1,0 +1,10 @@
+Point-and-Click Expression Builders, for instance limits and type consistency.
+Structured English, for more complex restrictions and logical inferences.
+Entity Life History or State Transition Diagrams, for both basic and more advanced state transition rules.
+Data Model or Class Model extensions, for basic property rules.
+
+No matter how the rules are captured, there should be a single, unified conceptual representation “inside” of the man-machine boundary. “Inside” here means transparent to the specifiers, but visible to analysis tools (e.g., for conflict analysis) and to rule engines or business logic servers (for run-time processing).
+Inside, there may be still other representations. For processing and performance reasons, there might be many physical representations of the rules, optimized for particular tools or hardware/software environments.
+The result is actually three layers of representation: external, conceptual, and internal. This is strongly reminiscent of the old ANSI/SPARC three-schema architecture for data. This should not be surprising since rules simply build on terms and facts, which can be ultimately represented by data.
+ Where is this research now? A new, more concise representation scheme is under development. One focus of this scheme is a formal expression of how non-atomic rule types are derived from atomic ones. This would allow reduction of rules to a common base of fundamental rule types, in order to support automatic analysis of conflict and overlap in systematic fashion.
+This is opening exciting new avenues of research, and significant opportunities for those interested in getting involved.

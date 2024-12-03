@@ -1,0 +1,1 @@
+This paper explores whether analog circuitry can adequately perform constrained optimization. Constrained optimization circuits are designed using the differential multiplier method. These circuits fulfill time-varying constraints correctly. Example circuits include a quadratic programming circuit and a constrained flip-flop.

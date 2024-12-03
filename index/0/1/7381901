@@ -1,0 +1,4 @@
+
+ 
+ In Constraint Processing, many algorithms for enforcing the same level of local consistency may exist. The performance of those algorithms varies widely. In order to understand what problem features lead to better performance of one algorithm over another, we utilize an algorithm configurator to tune the parameters of a random problem generator and maximize the performance difference of two consistency algorithms for enforcing constraint minimality. Our approach allowed us to generate instances that run 1000 times faster for one algorithm over the other.
+ 

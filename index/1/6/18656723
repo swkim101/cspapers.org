@@ -1,0 +1,5 @@
+In a multiagent system, a (social) norm describes what the agents may expect from each other. Norms promote autonomy (an agent need not comply with a norm) and heterogeneity (a norm describes interactions at a high level independent of implementation details). Researchers have studied norm emergence through social learning where the agents interact repeatedly in a graph structure. 
+ 
+In contrast, we consider norm emergence in an open system, where membership can change, and where no predetermined graph structure exists. We propose Silk, a mechanism wherein a generator monitors interactions among member agents and recommends norms to help resolve conflicts. Each member decides on whether to accept or reject a recommended norm. Upon exiting the system, a member passes its experience along to incoming members of the same type. Thus, members develop norms in a hybrid manner to resolve conflicts. 
+ 
+We evaluate Silk via simulation in the traffic domain. Our results show that social norms promoting conflict resolution emerge in both moderate and selfish societies via our hybrid mechanism.

@@ -1,0 +1,1 @@
+Existing IE systems tend to focus on a tight window of context surrounding the desired information to be extracted. This research addresses shortcomings of these systems by introducing a two-phase approach to IE that incorporates global relevance information with local contextual evidence, to effectively extract information from free text.

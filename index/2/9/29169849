@@ -1,0 +1,4 @@
+
+ 
+ Recent developments of efficient propagators, operations and creation methods for MDDs allow us to directly build efficient MDD-based models, without the need for intermediate data structures. In this paper, we take another step in this direction by improving the propagators of cost MDDs. In addition, we introduce a soft MDD propagator in order to deal with unsatisfiable problems. This directly offers cost and soft versions for table constraints and any constraints which can be represented by an MDD (regular, slide, knapsack...).
+ 

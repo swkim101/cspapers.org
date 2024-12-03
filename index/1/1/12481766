@@ -1,0 +1,1 @@
+A common motivation for personalised search systems is the ability to disambiguate queries based on some knowledge of a user's interests. An analysis of log files from three search providers, covering a range of scenarios, suggests that this sort of disambiguation would be of marginal use for more specialised providers but may be of use for whole-of-Web search.

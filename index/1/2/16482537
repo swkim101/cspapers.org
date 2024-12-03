@@ -1,0 +1,1 @@
+We present a quantum algorithm solving the k-distinctness problem in a less number of queries than the previous algorithm by Ambainis. The construction uses a modified learning graph approach. Compared to the recent paper by Belovs and Lee, the algorithm doesn't require any prior information on the input, and the complexity analysis is much simpler.

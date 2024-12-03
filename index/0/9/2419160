@@ -1,0 +1,7 @@
+User opinions expressed in the form of ratings can influence an individual's view of an item.
+
+However, the true quality of an item is often obfuscated by user biases, and it is not obvious from the observed ratings
+
+the importance different users place on different aspects of an item.
+
+We propose a probabilistic modeling of the observed aspect ratings to infer (i) each user's aspect bias and (ii) latent intrinsic quality of an item. We model multi-aspect ratings as ordered discrete data and encode the dependency between different aspects by using a latent Gaussian structure. We handle the Gaussian-Categorical non-conjugacy using a stick-breaking formulation coupled with P\'{o}lya-Gamma auxiliary variable augmentation for a simple, fully Bayesian inference. On two real world datasets, we demonstrate the predictive ability of our model and its effectiveness in learning explainable user biases to provide insights towards a more reliable product quality estimation.

@@ -1,0 +1,1 @@
+Wires are routed allowing crossings in the initial layout. By spreading the wires and increasing the crossover penalties, fewer crossings occur on each iteration until a crossing free layout is achieved.

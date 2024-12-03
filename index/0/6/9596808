@@ -1,0 +1,4 @@
+
+ 
+ Episodic memory endows agents with numerous general cognitive capabilities, such as action modeling and virtual sensing. However, for long-lived agents, there are numerous unexplored computational challenges in supporting useful episodic-memory functions while maintaining real-time reactivity. In this paper, we review the implementation of episodic memory in Soar and present an expansive evaluation of that system. We demonstrate useful applications of episodic memory across a variety of domains, including games, mobile robotics, planning, and linguistics. In these domains, we characterize properties of environments, tasks, and episodic cues that affect performance, and evaluate the ability of Soar’s episodic memory to support hours to days of real-time operation.
+ 

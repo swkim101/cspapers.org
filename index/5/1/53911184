@@ -1,0 +1,1 @@
+DALI (Display Algorithm Language Interpreter) is a special-purpose programming language extension for the creation and control of changing pictures. DALI pictures are composed of elements called picture modules. These are analogous to procedural activations or processes, and contain arbitrary event-driven procedures called daemons.

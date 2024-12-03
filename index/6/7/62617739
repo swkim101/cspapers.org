@@ -1,0 +1,1 @@
+The encoding of a priori knowledge for the optimum design of finite element meshes is described via the use of a seeded population of individuals within a genetic algorithm. A discussion of the search aspects reveals requirements for controlling aspects of the procedure which may help to discover fitter individuals.

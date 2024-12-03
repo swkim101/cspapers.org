@@ -1,0 +1,4 @@
+Many interactive computer applications can with advantage be built after the menu principle.
+ MGEN is a program that automatically builds a skeleton of a menu driven program.
+ It is a well known problem that users of programs normally cannot state what they really want until they see the finished program running. With MGEN, the resulting program can be simulated by the use of examples.
+ To enable efficient utilization by skilled users, a feature called “quick selection” is implemented.

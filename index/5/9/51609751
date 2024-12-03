@@ -1,0 +1,21 @@
+This paper studies an effect-abstraction based relaxation
+
+ for reasoning about linear numeric planning problems. The effect-abstraction
+
+ decomposes non-constant linear numeric effects into actions with conditional
+
+ effects over additive constant numeric effects. With little effort, on this
+
+ compiled version, it is possible to use known subgoaling based relaxations
+
+ and relative heuristics. The combination of these two steps leads to a novel
+
+ relaxation based heuristic. Theoretically, the relaxation is proved tighter
+
+ than previous interval based relaxation and leading to safe-pruning
+
+ heuristics. Empirically, a heuristic developed on this relaxation leads to
+
+ substantial improvements for a class of problems that are currently out of
+
+ the reach of state-of-the-art numeric planners.

@@ -1,0 +1,4 @@
+
+ 
+ We consider voting situations in which some candidates may turn out to be unavailable. When determining availability is costly (e.g., in terms of money, time, or computation), voting prior to determining candidate availability and testing the winner's availability after the vote may be beneficial. However, since few voting rules are robust to candidate deletion, winner determination requires a number of such availability tests. We outline a model for analyzing such problems, defining robust winners relative to potential candidate unavailability. We assess the complexity of computing robust winners for several voting rules. Assuming a distribution over availability, and costs for availability tests/queries, we describe algorithms for computing optimal query policies, which minimize the expected cost of determining true winners.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ The efficient extraction of one maximal information subset that does not conflict with multiple contxts or additional information sources is a key basic issue in many A.I. domains, especially when these contexts or sources can be mutually conflicting. In this paper, this question is addressed from a computational point of view in clausal Boolean logic. A new approach is introduced that experimentally outperforms the currently most efficient technique.
+ 

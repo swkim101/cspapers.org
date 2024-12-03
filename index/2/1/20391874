@@ -1,0 +1,4 @@
+
+ 
+ We present a novel approach to modeling stories using recurrent neural networks. Different story features are extracted using natural language processing techniques and used to encode the stories as sequences. These sequences can be learned by deep neural networks, in order to predict the next story events. The predictions can be used as an inspiration for writers who experience a writer's block. We further assist writers in their creative process by generating visualizations of the character interactions in the story. We show that suggestions from our model are rated as highly as the real scenes from a set of films and that our visualizations can help people in gaining deeper story understanding.
+ 

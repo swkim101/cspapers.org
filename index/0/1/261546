@@ -1,0 +1,4 @@
+
+ 
+ Sustainable resource management in many domains presents large continuous stochastic optimization problems, which can often be modeled as Markov decision processes (MDPs). To solve such large MDPs, we identify and leverage linearity in state and action sets that is common in resource management. In particular, we introduce linear dynamic programs (LDPs) that generalize resource management problems and partially observable MDPs (POMDPs). We show that the LDP framework makes it possible to adapt point-based methods--the state of the art in solving POMDPs--to solving LDPs. The experimental results demonstrate the efficiency of this approach in managing the water level of a river reservoir. Finally, we discuss the relationship with dual dynamic programming, a method used to optimize hydroelectric systems.
+ 

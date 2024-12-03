@@ -1,0 +1,1 @@
+We present a syntax-based constraint for word alignment, known as the cohesion constraint. It requires disjoint English phrases to be mapped to non-overlapping intervals in the French sentence. We evaluate the utility of this constraint in two different algorithms. The results show that it can provide a significant improvement in alignment quality.

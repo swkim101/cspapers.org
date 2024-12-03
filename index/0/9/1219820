@@ -1,0 +1,4 @@
+
+ 
+ Bayesian inference is an appealing approach for leveraging prior knowledge in reinforcement learning (RL). In this paper we describe an algorithm for discovering different classes of roles for agents via Bayesian inference. In particular, we develop a Bayesian policy search approach for Multi-Agent RL (MARL), which is model-free and allows for priors on policy parameters. We present a novel optimization algorithm based on hybrid MCMC, which leverages both the prior and gradient information estimated from trajectories. Our experiments in a complex real-time strategy game demonstrate the effective discovery of roles from supervised trajectories, the use of discovered roles for successful transfer to similar tasks, and the discovery of roles through reinforcement learning.
+ 

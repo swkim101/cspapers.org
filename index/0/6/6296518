@@ -1,0 +1,4 @@
+
+ 
+ One issue facing agents that accumulate large bodies of knowledge is determining whether they have knowl- edge that is relevant to its current goals. Performing comprehensive searches of long-term memory in every situation can be computationally expensive and disrup- tive to task reasoning. In this paper, we demonstrate that the recognition judgment — a heuristic for whether memory structures have been previously perceived — can serve as a low-cost indicator of the existence of potentially relevant knowledge. We present an approach for computing both context-dependent and context- independent recognition judgments using processes and data shared with declarative memories. We then de- scribe an initial, efficient implementation in the Soar cognitive architecture and evaluate our system in a word sense disambiguation task, showing that it reduces the number of memory searches without degrading agent performance.
+ 

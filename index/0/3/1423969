@@ -1,0 +1,6 @@
+We derive a spectral method for unsupervised 
+learning ofWeighted Context Free Grammars. 
+We frame WCFG induction as finding a Hankel 
+matrix that has low rank and is linearly 
+constrained to represent a function computed 
+by inside-outside recursions. The proposed algorithm picks the grammar that agrees with a sample and is the simplest with respect to the nuclear norm of the Hankel matrix.

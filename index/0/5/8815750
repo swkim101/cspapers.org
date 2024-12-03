@@ -1,0 +1,1 @@
+In this paper we present anO (log5n) time parallel algorithm for constructing a Maximal Path in an undirected graph. We also give anO (log1/2+ε) time parallel algorithm for constructing a depth first search tree in an undirected graph.

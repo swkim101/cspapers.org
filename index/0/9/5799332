@@ -1,0 +1,4 @@
+
+ 
+ An important area of social network research is identifying missing information which is not explicitly represented in the network or is not visible to all. In this paper, we propose a novel Hybrid Approach of Classifier and Clustering,a which we refer to as HACC, to solve the missing node identification problem in social networks. HACC utilizes a classifier as a preprocessing step in order to integrate all known information into one similarity measure and then uses a clustering algorithm to identify missing nodes. Specifically, we used the information on the network structure, attributes about known users (nodes) and pictorial information to evaluate HACC and found that it performs significantly better than other missing node algorithms. We also argue that HACC is a general approach and domain independent and can be easily applied to other domains. We support this claim by evaluating HACC on a second authorship identification domain as well.
+ 

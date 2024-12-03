@@ -1,0 +1,4 @@
+
+ 
+ Modern complete SAT solvers almost uniformly implement variations of the clause learning framework introduced by Grasp and Chaff. The success of these solvers has been theoretically explained by showing that the clause learning framework is an implementation of a proof system which is as poweful as resolution. However, exponential lower bounds are known for resolution, which suggests that significant advances in SAT solving must come from implementations of more powerful proof systems. We present a clause learning SAT solver that uses extended resolution. It is based on a restriction of the application of the extension rule. This solver outperforms existing solvers on application instances from recent SAT competitions as well as on instances that are provably hard for resolution.
+ 

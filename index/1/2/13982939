@@ -1,0 +1,3 @@
+An ∈-approximate quantile summary of a sequence of N elements is a data structure that can answer quantile queries about the sequence to within a precision of ∈N.
+We present a new online algorithm for computing∈-approximate quantile summaries of very large data sequences. The algorithm has a worst-case space requirement of &Ogr;(1÷∈ log(∈N)). This improves upon the previous best result of &Ogr;(1÷∈ log2(∈N)). Moreover, in contrast to earlier deterministic algorithms, our algorithm does not require a priori knowledge of the length of the input sequence.
+Finally, the actual space bounds obtained on experimental data are significantly better than the worst case guarantees of our algorithm as well as the observed space requirements of earlier algorithms.

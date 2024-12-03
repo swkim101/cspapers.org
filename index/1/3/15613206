@@ -1,0 +1,4 @@
+
+ 
+ Exemplar-based models have achieved great success on localizing the parts of semi-rigid objects. However, their efficacy on highly articulated objects such as humans is yet to be explored. Inspired by hierarchical object representation and recent application of Deep Convolutional Neural Networks (DCNNs) on human pose estimation, we propose a novel formulation that incorporates both hierarchical exemplar-based models and DCNNs in the spatial terms. Specifically, we obtain more expressive spatial models by assuming independence between exemplars at different levels in the hierarchy; we also obtain stronger spatial constraints by inferring the spatial relations between parts at the same level. As our method strikes a good balance between expressiveness and strength of spatial models, it is both effective and generalizable, achieving state-of-the-art results on different benchmarks: Leeds Sports Dataset and CUB-200-2011.
+ 

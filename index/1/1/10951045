@@ -1,0 +1,16 @@
+We propose a method for automated gen- 
+eration of adult humor by lexical replace- 
+ment and present empirical evaluation re- 
+sults of the obtained humor. We propose 
+three types of lexical constraints as build- 
+ing blocks of humorous word substitu- 
+tion: constraints concerning the similarity 
+of sounds or spellings of the original word 
+and the substitute, a constraint requiring 
+the substitute to be a taboo word, and con- 
+straints concerning the position and con- 
+text of the replacement. Empirical ev- 
+idence from extensive user studies indi- 
+cates that these constraints can increase 
+the effectiveness of humor generation sig- 
+nificantly.

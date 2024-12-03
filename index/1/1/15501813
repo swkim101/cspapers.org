@@ -1,0 +1,3 @@
+Several verifiable secret sharing schemes for threshold schemes based on polynomial interpolation have been presented in the literature. Simmons and others introduced secret sharing (also called shared control) schemes based on finite geometries, which allow istributing a secret according to any monotone access structure.
+In this paper we present a verifiable secret sharing scheme for a class of these geometry-based secret sharing schemes, which thus provides verifiable sharing of secrets according to general monotone access structures.
+Our scheme relies on the homomorphic properties of the discrete exponentiation and therefore on the cryptographic security of the discrete logarithm. The version based on Simmons' scheme is non-interactive.

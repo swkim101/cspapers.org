@@ -1,0 +1,4 @@
+
+ 
+ Traditional clustering algorithms are designed to search for a single clustering solution despite the fact that multiple alternative solutions might exist for a particular dataset. For example, a set of news articles might be clustered by topic or by the author's gender or age. Similarly, book reviews might be clustered by sentiment or comprehensiveness. In this paper, we address the problem of identifying alternative clustering solutions by developing a Probabilistic Multi-Clustering (PMC) model that discovers multiple, maximally different clusterings of a data sample. Empirical results on six datasets representative of real-world applications show that our PMC model exhibits superior performance to comparable multi-clustering algorithms.
+ 

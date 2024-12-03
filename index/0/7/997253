@@ -1,0 +1,1 @@
+This paper des ribes an approa h to rein-for ement learning in multiagent general-sum games in whi h a learner is told to treat ea h other agent as either a \friend" or \foe". This Q-learning-style algorithm provides strong onvergen e guarantees ompared to an existing Nash-equilibrium-based learning rule.

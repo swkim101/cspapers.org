@@ -1,0 +1,4 @@
+
+ 
+ Combinatory Category Grammar (CCG) supertagging is a task to assign lexical categories to each word in a sentence. Almost all previous methods use fixed context window sizes to encode input tokens. However, it is obvious that different tags usually rely on different context window sizes. This motivates us to build a supertagger with a dynamic window approach, which can be treated as an attention mechanism on the local contexts. We find that applying dropout on the dynamic filters is superior to the regular dropout on word embeddings. We use this approach to demonstrate the state-of-the-art CCG supertagging performance on the standard test set.
+ 

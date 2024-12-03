@@ -1,0 +1,4 @@
+
+ 
+ With the rapid growth of event-based social networks, the demand of event recommendation becomes increasingly important. Different from classic recommendation problems, event recommendation generally faces the problems of heterogenous online and offline social relationships among users and implicit feedback data. In this paper, we present a baysian probability model that can fully unleash the power of heterogenous social relations and efficiently tackle with implicit feedback characteristic for event recommendation. Experimental results on several real-world datasets demonstrate the utility of our method.
+ 

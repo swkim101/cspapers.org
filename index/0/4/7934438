@@ -1,0 +1,4 @@
+
+ 
+ In this paper we introduce the notion of mapping-based knowledge base (MKB) to formalize the situation where both the extensional and the intensional level of the ontology are determined by suitable mappings to a set of (relational) data sources. This allows for making the intensional level of the ontology as dynamic as traditionally the extensional level is. To do so, we resort to the meta-modeling capabilities of higher-order Description Logics, which allow us to see concepts and roles as individuals, and vice versa. The challenge in this setting is to design tractable query answering algorithms. Besides the definition of MKBs, our main result is that answering instance queries posed to MKBs expressed in Hi(DL-LiteR) can be done efficiently. In particular, we define a query rewriting technique that produces first-order (SQL) queries to be posed to the data sources.
+ 

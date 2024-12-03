@@ -1,0 +1,1 @@
+A stability criterion for dynamic parameter adaptation is given. In the case of the learning rate of backpropagation, a class of stable algorithms is presented and studied, including a convergence proof.

@@ -1,0 +1,3 @@
+We describe a new system for building Tablet PC-based classroom software. The system, called SLICE, is built for extensibility, using a unique "explicit state" model.
+ Applications developed thus far include presentation, classroom interaction, shared code review, and exam grading.
+ The paper presents an overview of the system and describes these four applications. It then explains the extensibility model, showing how users can add new features.

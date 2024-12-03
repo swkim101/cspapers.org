@@ -1,0 +1,1 @@
+We present exponential lower bounds on the size of depth-k Boolean circuits for computing certain functions. These results imply that there exists an oracle set A such that, relative to A, all the levels in the polynomial-time hierarchy are distinct, i.e., ΣkP,A is properly contained in Σk+1P,A for all k.

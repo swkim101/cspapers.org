@@ -1,0 +1,7 @@
+Designers are busy people, and they are getting busier. In today's world designers must deal with three competing pressures:
+ "A relentless avalanche of changes in end-user technologies and applications domains,
+ "An insatiable marketplace that demands rapid delivery of innovative products and services, and
+ "A parade of improvements in implementation technologies: languages, tools, and prototyping environments.
+ The job of design is becoming more frantic. Designers have less time to think. Managers have already sold the customers on the next innovation to the system, and the developers have already started hacking. Can we really think that fast?
+ Maybe there is a silver bullet design methodology. There have been a number of attempts to drive design from responsibilities, features, tests, models, behavior, domains, and contracts. Could these be a good place to start? Do any of these approaches (RDD, FDD, TDD, and so on) offer any help to the busy designer?
+ This workshop will attempt to gather the evidence for effective design principles. Should we consider adopting a single approach, or should we consider taking inspiration from several methods? The workshop will discuss benefits and pitfalls.

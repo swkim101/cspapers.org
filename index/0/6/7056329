@@ -1,0 +1,4 @@
+
+ 
+ It is standard in multiagent settings to assume that agents will adopt Nash equilibrium strategies. However, studies in experimental economics demonstrate that Nash equilibrium is a poor description of human players' initial behavior in normal-form games. In this paper, we consider a wide range of widely-studied models from behavioral game theory. For what we believe is the first time, we evaluate each of these models in a meta-analysis, taking as our data set large-scale and publicly-available experimental data from the literature. We then propose modifications to the best-performing model that we believe make it more suitable for practical prediction of initial play by humans in normal-form games.
+ 

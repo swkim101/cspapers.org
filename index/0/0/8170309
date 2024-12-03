@@ -1,0 +1,1 @@
+A logic design whose structure has the form of a hierarchy is easily verified in a conversational environment. The verification process is based on an explicit methodology, supported by appropriate utilities. The paper describes the verification of the experimental Josephson signal processor control logic by means of the ALEX logic design system.

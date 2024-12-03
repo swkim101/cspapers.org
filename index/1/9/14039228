@@ -1,0 +1,4 @@
+
+ 
+ Despite its nonconvex nature, ℓ0 sparse approximation is desirable in many theoretical and application cases. We study the ℓ0 sparse approximation problem with the tool of deep learning, by proposing Deep ℓ0 Encoders. Two typical forms, the ℓ0 regularized problem and the M-sparse problem, are investigated. Based on solid iterative algorithms, we model them as feed-forward neural networks, through introducing novel neurons and pooling functions. Enforcing such structural priors acts as an effective network regularization. The deep encoders also enjoy faster inference, larger learning capacity, and better scalability compared to conventional sparse coding solutions. Furthermore, under task-driven losses, the models can be conveniently optimized from end to end. Numerical results demonstrate the impressive performances of the proposed encoders.
+ 

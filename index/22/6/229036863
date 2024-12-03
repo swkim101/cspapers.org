@@ -1,0 +1,7 @@
+
+ In this paper, the application of deep learning methods to the task of machining feature recognition in CAD models is studied. Four contributions are made:
+ 1. An automatic method to generate large datasets of 3D CAD models is proposed, where each model contains multiple machining features with face labels.
+ 2. A concise and informative graph representation for 3D CAD models is presented. This is shown to be applicable to graph neural networks.
+ 3. The graph representation is compared with voxels on their performance of training deep neural networks to segment 3D CAD models.
+ 4. Experiments are also conducted to evaluate the effectiveness of graph-based deep learning for interacting feature recognition.
+ Results show that the proposed graph representation is a more efficient representation of 3D CAD models than voxels for deep learning. It is also shown that graph neural networks can be used to recognize individual features on the model and also identify complex interacting features.

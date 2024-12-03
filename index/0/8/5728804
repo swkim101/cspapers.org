@@ -1,0 +1,4 @@
+
+ 
+ Korf, Reid and Edelkamp initiated a line of research for developing methods (KRE and later CDP) that predict the number of nodes expanded by IDA* for a given start state and cost bound. Independent of that, Chen developed a method (SS) that can also be used to predict the number of nodes expanded by IDA*. In this paper we advance both of these prediction methods. First, we develop a variant of CDP that can be orders of magnitude faster than CDP while producing exactly the same predictions. Second, we show how ideas developed in the KRE line of research can be used to substantially improve the predictions produced by SS. Third, we make an empirical comparison between our new enhanced versions of CDP and SS. Our experimental results point out that CDP is suitable for applications that require less accurate but very fast predictions, while SS is suitable for applications that require more accurate predictions but allow more computation time.
+ 

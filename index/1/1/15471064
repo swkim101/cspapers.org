@@ -1,0 +1,7 @@
+We have developed and implemented in the QPORTRAIT program a qualitative simulation based method to construct phase portraits for a significant class of systems of two coupled first order autonomous differential equations, even in the presence of incomplete, qualitative knowledge. 
+ 
+Differential equation models are important for reasoning about physical systems. The field of nonlinear dynamics has introduced the powerful phase portrait representation for the global analysis of nonlinear differential equations. 
+ 
+QPORTRAIT uses qualitative simulation to generate the set of all possible qualitative behaviors of a system. Constraints on two-dimensional phase portraits from nonlinear dynamics make it possible to identify and classify trajectories and their asymptotic limits, and constrain possible combinations. By exhaustively forming all combinations of features, and filtering out inconsistent combinations, QPORTRAIT is guaranteed to generate all possible qualitative phase portraits. We have applied QPORTRAIT to obtain tractable results for a number of nontrivial dynamical systems. 
+ 
+Guaranteed coverage of all possible behaviors of incompletely known systems complements the more detailed, but approximation-based results of recently-developed methods for intelligentlyguided numeric simulation [Nishida et al; Sacks; Yip; Zhao]. Combining the strengths of both approaches would better facilitate automated understanding of dynamical systems.

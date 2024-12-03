@@ -1,0 +1,4 @@
+
+ 
+ It has been well known that the user-provided tags of social images are imperfect, i.e., there exist noisy, irrelevant or incomplete tags. It heavily degrades the performance of many multimedia tasks. To alleviate this problem, we propose a Weakly-supervised Deep Nonnegative Low-rank model (WDNL) to improve the quality of tags by integrating the low-rank model with deep feature learning. A nonnegative low-rank model is introduced to uncover the intrinsic relationships between images and tags by simultaneously removing noisy or irrelevant tags and complementing missing tags. The deep architecture is leveraged to seamlessly connect the visual content and the semantic tag. That is, the proposed model can well handle the scalability by assigning tags to new images. Extensive experiments conducted on two real-world datasets demonstrate the effectiveness of the proposed method compared with some state-of-the-art methods.
+ 

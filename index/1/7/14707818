@@ -1,0 +1,4 @@
+
+ 
+ Intentions have been widely studied in AI, both in the context of decision-making within individual agents and in multi-agent systems. Work on intentions in multi-agent systems has focused on joint intention models, which characterise the mental state of agents with a shared goal engaged in teamwork. In the absence of shared goals, however, intentions play another crucial role in multi-agent activity: they provide a basis around which agents can mutually coordinate activities. Models based on shared goals do not attempt to account for or explain this role of intentions. In this paper, we present a formal model of multi-agent systems in which belief-desire-intention agents choose their intentions taking into account the intentions of others. To understand rational mental states in such a setting, we formally define and investigate notions of multi-agent intention equilibrium, which are related to equilibrium concepts in game theory.
+ 

@@ -1,0 +1,1 @@
+The su x tree of a string is the fundamental data structure of combinatorial pattern matching. In this paper, we present a novel, deterministic algorithm for the construction of su x trees. We settle the main open problem in the construction of su x trees: we build su x trees in linear time for integer alphabet.

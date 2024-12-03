@@ -1,0 +1,1 @@
+Hardware has become an increasingly attractive target for attackers, yet we still largely lack tools that enable us to analyze large designs for security flaws. Information flow tracking (IFT) models provide an approach to verifying a hardware design's adherence to security properties related to isolation and reachability.

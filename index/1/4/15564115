@@ -1,0 +1,3 @@
+We describe the problem of finding deviations in large data bases. Normally, explicit information outside the data, like integrity constraints or predefined patterns, is used for deviation detection. In contrast, we approach the problem from the inside of the data, using the implicit redundancy of the data. 
+ 
+We give a formal description of the problem and present a linear algorithm for detecting deviations. Our solution simulates a mechanism familiar to human beings: after seeing a series of similar data, an element disturbing the series is considered an exception. We also present experimental results from the application of this algorithm on real-life datasets showing its effectiveness.

@@ -1,0 +1,1 @@
+We show a chosen plaintext attack against the RPC incremental unforgeable encryption scheme. The attack can forge a valid ciphertext efficiently. When Applying to 128-bit block RPC scheme, by the concept of birthday paradox, a forgery ciphertext can be gotten after 224 queries with probability larger than 1/2.

@@ -1,0 +1,1 @@
+This paper briefly describes the second version of the Tobias combinatorial test generator. This version improves the architecture of the tool to include filtering and test selection mechanisms. These mechanisms, associated with an efficient implementation, allow to generate and filter test suites of up to 1 million test cases.

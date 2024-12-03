@@ -1,0 +1,4 @@
+
+ 
+ Semantic Role Labeling (SRL) for tweets is a meaningful task that can benefit a wide range of applications such as fine-grained information extraction and retrieval from tweets. One main challenge of the task is the lack of annotated tweets, which is required to train a statistical model. We introduce self-training to SRL, leveraging abundant unlabeled tweets to alleviate its depending on annotated tweets. A novel strategy of tweet selection is presented, ensuring the chosen tweets are both correct and informative. More specifically, the correctness is estimated according to the labeling confidences and agreement of two Conditional Random Fields based labelers, which are trained on the randomly evenly spitted labeled data; while the informativeness is in proportion to the maximum distance between the tweet and the already selected tweets. We evaluate our method on a human annotated data set and show that bootstrapping improve a baseline by 3.4% F1.
+ 

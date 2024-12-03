@@ -1,0 +1,2 @@
+No mechatronic interface exists between a robotic arm and an oblique-viewing endoscope with rotational actuation and without kinematic singularity. Therefore, we developed an interface between a Franka Emika Panda manipulator and a rigid 30 degree oblique-viewing endoscope by Storz, which can be used during laparoscopic surgery. The design is easily adaptable to other camera heads and robotic arms. 
+As a next step, we will compare the design to a 30 degree endoscope without utilization of the rotational degree of freedom and to a 0 degree endoscope.

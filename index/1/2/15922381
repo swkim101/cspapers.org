@@ -1,0 +1,4 @@
+
+ 
+ Model-based diagnosis (MBD) uses an abstraction of system to diagnose possible faulty functions of an underlying system. To improve the solution efficiency for multi-fault diagnosis problems, especially for large scale systems, this paper proposes a method to induce reasonable diagnosis solutions, under coarse diagnosis, by using the relationships between system outputs and components. Compared to existing diagnosis methods, the proposed framework only needs to consider associations between outputs and components by using an assumption-based truth maintenance system (ATMS) [de Kleer 1986] to obtain correlation components for every output node. As a result, our method significantly reduces the number of variables required for model diagnosis, which makes it suitable for large scale circuit systems.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Given the large amounts of online textual documents available these days, e.g., news articles and scientific papers, effective methods for extracting keyphrases, which provide a high-level topic description of a document, are greatly needed.We propose PositionRank, an unsupervised graph-based approach to keyphrase extraction that incorporates information from all positions of a word's occurrences into a biased PageRank to extract keyphrases. Our model obtains remarkable improvements in performance over strong baselines.
+ 

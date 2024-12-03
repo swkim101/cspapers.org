@@ -1,0 +1,4 @@
+
+ 
+ Humans have an uncanny ability to learn new concepts with very few examples. Cognitive theories have suggested that this is done by utilizing prior experience of related tasks. We propose to emulate this process in machines, by transforming new problems into old ones. These transformations are called metaphors. Obviously, the learner is not given a metaphor, but must acquire one through a learning process. We show that learning metaphors yield better results than existing transfer learning methods. Moreover, we argue that metaphors give a qualitative assessment of task relatedness.
+ 

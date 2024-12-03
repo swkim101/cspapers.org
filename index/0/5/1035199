@@ -1,0 +1,1 @@
+Two algorithms for sorting n2 elements on an n×n mesh-connected processor array that require 0(n) routing and comparison steps are presented. The best previous algorithms take time 0(n log n). Our algorithms are shown to be optimal in time within small constant factors.

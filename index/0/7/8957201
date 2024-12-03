@@ -1,0 +1,4 @@
+
+ 
+ We investigate the problem of learning description logic (DL) ontologies in Angluin et al.’s framework of exact learning via queries posed to an oracle. We consider membership queries of the form “is a tuple a of individuals a certain answer to a data retrieval query q in a given ABox and the unknown target ontology?” and completeness queries of the form “does a hypothesis ontology entail the unknown target ontology?” Given a DL L and a data retrieval query language Q, we study polynomial learnability of ontologies in L using data retrieval queries in Q and provide an almost complete classification for DLs that are fragments of EL with role inclusions and of DL-Lite and for data retrieval queries that range from atomic queries and EL/ELI-instance queries to conjunctive queries. Some results are proved by non-trivial reductions to learning from subsumption examples.
+ 

@@ -1,0 +1,15 @@
+One of current big challenges in computer science is
+development of data management and retrieval techniques that
+would keep pace with the evolution of contemporary data and
+with the growing expectations on data processing. Various
+digital images became a common part of both public and
+enterprise data collections and there is a natural requirement
+that the retrieval should consider more the actual visual
+content of the image data. In our demonstration, we aim at the
+task of retrieving images that are visually and semantically
+similar to a given example image; the system should be able to
+online evaluate k nearest neighbor queries within a collection
+containing tens of millions of images. The applicability of
+such a system would be, for instance, on stock photography
+sites, in e-shops searching in product photos, or in
+collections from a constrained Web image search.

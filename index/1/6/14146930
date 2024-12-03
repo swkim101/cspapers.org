@@ -1,0 +1,1 @@
+In [8], a deep and elegant analysis shows that double hashing is asymptotically equivalent to the ideal uniform hashing up to a load factor of about 0.319. In this paper we show how a randomization technique can be used to develop a surprisingly simple proof of the result that this equivalence holds for load factors arbitrarily close to 1.

@@ -1,0 +1,1 @@
+Two new parsing algorithms for context-free phrase structure grammars are presented which perform a bounded amount of processing per word per analysis path, independently of sentence length. They are thus capable of parsing in real-time in a parallel implementation which forks processors in response to non-deterministic choice points.

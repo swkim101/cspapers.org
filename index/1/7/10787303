@@ -1,0 +1,1 @@
+We present a deterministic algorithm that given any directed graph on n vertices computes the parity of its number of Hamiltonian cycles in O(1.619n) time and polynomial space. For bipartite graphs, we give a 1.5npoly(n) expected time algorithm. Our algorithms are based on a new combinatorial formula for the number of Hamiltonian cycles modulo a positive integer.

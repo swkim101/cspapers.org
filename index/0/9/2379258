@@ -1,0 +1,5 @@
+We describe a new method of formalizing commonsense reasoning : Instead of minimizing extensions of predicates we formalize common sense as "truth in intended models", and we give a mathematical formulation of the proposed method by defining a class of intended models based on preferences in interpretations. 
+ 
+We propose to use problem independent natural language constraints to exclude interpretations that contradict common sense. For this reason we augment the usual, two-part formal structures consisting of a metalevel and an object level, with a third level - a referential level. We show that such a model is an adequate tool for generating intended interpretations, and also for problems that cannot be satisfactorily solved by circumscription. 
+ 
+We argue that the criticism of Hanks and McDermott (1986) does not apply to the formalization of commonsense reasoning by intended models. Namely, it is not necessary to know the consequences of the intended theory to find the right interpretation, neither needed are complex and problem specific policy axioms, which exclude some possible interpretations.

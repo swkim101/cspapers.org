@@ -1,0 +1,5 @@
+Within a distributed system, resources may be shared between nodes. The system should continue to operate even if individual nodes fail due to hardware or software errors. This may result in the loss of resources that were hosted on the failed node, but it may be possible to continue to provide access to some resources by hosting them on another node. 
+ 
+This paper describes mechanisms that allow the failover of resources from failed nodes. Failover is currently restricted to disk volumes and file systems. The failover mechanisms maintain the correct semantics at the UNIX system call level for operations from surviving nodes that were in progress at the time of the failure, including non-idempotent operations. 
+ 
+Minimal resource and performance overheads are imposed for the normal running case, and in contrast to replication techniques, state is recovered and rebuilt at the time of a failover.

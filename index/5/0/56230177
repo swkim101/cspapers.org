@@ -1,0 +1,23 @@
+In the context of uniprocessor scheduling, two scheduling algorithms have been 
+very much studied: one in the class of fixed task priority (FTP) where Rate 
+Monotonic (RM) is optimal and one in the class of fixed job priority (FJP), 
+where Earliest Deadline First (EDF) is optimal. RM has the disadvantage of 
+imposing processor utilization less than 100% (i.e., 69% in the worst case) while 
+EDF scheduling can reach 100% of processor utilization. 
+Some research have been done to overcome this sub-optimality problem. It 
+has been shown that when periods are harmonic, the processor utilization bound 
+of RM is identical to the one of EDF [1]. When no constraint is imposed on the 
+periods, the dual priority approach was introduced in 1993 [3]. The scheduler 
+consider two priorities and two phases for each task, each phase has a fixed 
+priority, the transition from a phase to another is made at a fixed time offset 
+from the task release. Dual priority approach is interesting as it is conjectured 
+that a dual priority scheduling can reach the same performances as an EDF 
+scheduler. 
+In this paper, we revisit dual priority scheduling for uniprocessor systems 
+with implicit-deadline periodic task set. We recall existing conjectures. Then, 
+we explicit a new class of scheduling FPk 
+, a fixed priority scheduling that requires 
+at most k promotions at k fixed times. We show that dual priority and EDF 
+scheduling are particular cases of FPk 
+. Finally, we analyse EDF scheduling trying 
+to study how far it is from a dual priority scheduler in terms of promotions.

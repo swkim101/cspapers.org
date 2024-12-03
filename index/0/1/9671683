@@ -1,0 +1,4 @@
+
+ 
+ The Temporal Network with Uncertainty (TNU) modeling framework is used to represent temporal knowledge in presence of qualitative temporal uncertainty. Dynamic Controllability (DC) is the problem of deciding the existence of a strategy for scheduling the controllable time points of the network observing past happenings only. In this paper, we address the DC problem for a very general class of TNU, namely Disjunctive Temporal Network with Uncertainty. We make the following contributions. First, we define strategies in the form of an executable language; second, we propose the first decision procedure to check whether a given strategy is a solution for the DC problem; third we present an efficient algorithm for strategy synthesis based on techniques derived from Timed Games and Satisfiability Modulo Theory. The experimental evaluation shows that the approach is superior to the state-of-the-art.
+ 

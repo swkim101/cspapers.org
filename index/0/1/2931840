@@ -1,0 +1,19 @@
+A totally odd H-subdivision means a subdivision of a graph H in which each edge of H corresponds to a path of odd length. Thus this concept is a generalization of a subdivision of H. 
+ 
+In this paper, we give a structure theorem for graphs without a fixed graph H as a totally odd subdivision. Namely, every graph with no totally odd H-subdivision has a tree-decomposition such that each piece is either 
+ 
+1. after deleting bounded number of vertices, an "almost" embedded graph into a bounded-genus surface, or 
+ 
+2. after deleting bounded number of vertices, a bipartite graph, or 
+ 
+3. after deleting bounded number of vertices, a graph with maximum degree at most f(|H|) for some function f of |H| (or a 6|H|-degenerate graph). 
+ 
+Moreover, we can obtain either a totally odd Kk-subdivision or such a tree-decomposition in polynomial time. 
+ 
+We note that for minor-free graphs, we just need the first structure [37], while for odd-minor-free graphs, we need the first two structures [10]. For subdivision-free graphs, we need the first and the third structures [17, 29]. So our result can be viewed as a combination of odd-minor-free graphs and subdivision-free graphs. The same conclusion of the structure theorem is true if we replace "totally odd" by "parity". Hence this generalizes the structure theorem for subdivision-free graphs [17, 29]. 
+ 
+We also consider coloring of graphs with no totally odd Kk-subdivision. We prove that any graph with no totally odd Kk-subdivision is 79k2/4-colorable. The bound on the chromatic number is essentially best possible since the correct order of the magnitude of the chromatic number even for graphs with no Kk-subdivision is Θ(k2). Our result improves the bound given by Thomassen [44]. Furthermore, it also generalizes the result by Bollobas and Thomason, and Komlos and Szemeredi, [6, 30] for graphs without Kk-subdivisions. 
+ 
+Finally we consider of coloring graphs with no totally odd Kk-subdivision in terms of an algorithmic view. Using our structure theorem, we give an approximation algorithm for coloring of a graph G without a fixed graph H as a totally odd subdivision, using 2χ(G) + 6(|H| − 1) colors, where χ(G) is chromatic number of G. The same conclusion is true if we replace "totally odd" by "parity". 
+ 
+We point out that it is Unique-Game hard to obtain an O(k/log2 k)-approximation algorithm for graph-coloring of graphs with maximum degree at most k − 2 [2], and hence it is also Unique-Game hard to obtain an O(k/log2 k)-approximation algorithm for graph-coloring of graphs even without a Kk-subdivision (i.e, without the parity constraint). Thus our additive error Θ(k) is most likely best possible up to constant.

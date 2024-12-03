@@ -1,0 +1,4 @@
+
+ 
+ To design social choice mechanisms with desirable utility properties, normative properties, and low sample complexity, we propose a new randomized mechanism called 2-Agree. This mechanism asks random voters for their top alternatives until at least two voters agree, at which point it selects that alternative as the winner. We prove that, despite its simplicity and low sample complexity, 2-Agree achieves almost optimal distortion on a metric space when the number of alternatives is not large, and satisfies anonymity, neutrality, ex-post Pareto efficiency, very strong SD-participation, and is approximately truthful. We further show that 2-Agree works well for larger number of alternatives with decisive agents.
+ 

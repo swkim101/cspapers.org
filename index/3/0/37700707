@@ -1,0 +1,4 @@
+
+ 
+ Conditional preference networks (CP-nets) are a mathematical formalism for compactly representing preferences over combinatorial domains. The software package presented allows editing of CP-nets through a graphical interface, loads and saves to an XML-based file format, and detects properties of the currently loaded CP-net.
+ 

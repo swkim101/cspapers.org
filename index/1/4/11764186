@@ -1,0 +1,4 @@
+
+ 
+ Pruning techniques have recently been shown to speed up search algorithms by reducing the branching factor of large search spaces. One such technique is sleep sets, which were originally introduced as a pruning technique for model checking, and which have recently been investigated on a theoretical level for planning. In this paper, we propose a generalization of sleep sets and prove its correctness. While the original sleep sets were based on the commutativity of operators, generalized sleep sets are based on a more general notion of operator sequence redundancy. As a result, our approach dominates the original sleep sets variant in terms of pruning power. On a practical level, our experimental evaluation shows the potential of sleep sets and their generalizations on a large and common set of planning benchmarks.
+ 

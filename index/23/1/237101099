@@ -1,0 +1,11 @@
+Political discourses provide a forum for representatives to express their opinions and contribute towards policy making.
+
+Analyzing these discussions is crucial for recognizing possible delegates and making better voting choices in an independent nation.
+
+A politician's vote on a proposition is usually associated with their past discourses and impacted by cohesion forces in political parties.
+
+We focus on predicting a speaker's vote on a bill by augmenting linguistic models with temporal and cohesion contexts.
+
+We propose TEC, a time evolving graph based model that jointly employs links between motions, speakers, and temporal politician states.
+
+TEC outperforms competitive models, illustrating the benefit of temporal and contextual signals for predicting a politician's stance.

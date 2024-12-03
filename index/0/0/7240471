@@ -1,0 +1,1 @@
+Entropy considerations provide a natural estimate of the number of comparisons to sort incompletely shuffled data, which subsumes most previous measures of configurational complexity. Simple modifications to insertion sort and merge sort improve their performance on such data. The modified merge sort proves efficient both in theory and in practice.

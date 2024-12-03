@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel approach, called FeaBoost, to image semantic segmentation with only image-level labels taken as weakly-supervised constraints. Our approach is motivated from two evidences: 1) each superpixel can be represented as a linear combination of basic components (e.g., predefined classes); 2) visually similar superpixels have high probability to share the same set of labels, i.e., they tend to have common combination of predefined classes. By taking these two evidences into consideration, semantic segmentation is formulated as joint feature and label refinement over superpixels. Furthermore, we develop an efficient FeaBoost algorithm to solve such optimization problem. Extensive experiments on the MSRC and LabelMe datasets demonstrate the superior performance of our FeaBoost approach in comparison with the state-of-the-art methods, especially when noisy labels are provided for semantic segmentation.
+ 

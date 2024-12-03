@@ -1,0 +1,4 @@
+
+ 
+ It is known that we can aggregate the opinions of different agents to find high-quality solutions to complex problems. However, choosing agents to form a team is still a great challenge. Moreover, it is essential to use a good aggregation methodology in order to unleash the potential of a given team in solving complex problems. In my thesis, I present two different novel models to aid in the team formation process. Moreover, I propose a new methodology for extracting rankings from existing agents. I show experimental results both in the Computer Go domain and in the building design domain.
+ 

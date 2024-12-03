@@ -1,0 +1,1 @@
+We present a visualisation tool which aims to illuminate the inner workings of an LSTM model for question answering. It plots heatmaps of neurons’ firings and allows a user to check the dependency between neurons and manual features. The system possesses an interactive web-interface and can be adapted to other models and domains.

@@ -1,0 +1,10 @@
+Bayesian games offer a suitable framework for
+games where the utility degrees are additive in
+essence. This approach does nevertheless not apply to ordinal games, where the utility degrees do
+not capture more than a ranking, nor to situations
+of decision under qualitative uncertainty. This paper proposes a representation framework for ordinal games under possibilistic incomplete information (π-games) and extends the fundamental notion
+of Nash equilibrium (NE) to this framework. We
+show that deciding whether a NE exists is a difficult
+problem (NP-hard) and propose a  Mixed Integer Linear Programming  (MILP) encoding.
+Experiments on variants of the GAMUT problems
+confirm the feasibility of this approach.

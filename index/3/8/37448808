@@ -1,0 +1,1 @@
+In this paper, two hybrid crypto-systems are presented. These ciphers are constructed on known ciphers over Elliptic curve (ElGamal cipher and Menezes-Vanstone cipher) and Diffie-Hellman key predistribution over Elliptic curve. Generally, these ciphers are secure provided Discrete Logarithm Problem is intractible.

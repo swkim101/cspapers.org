@@ -1,0 +1,1 @@
+We present an improved bound on the difference between training and test errors for voting classifiers. This improved averaging bound provides a theoretical justification for popular averaging techniques such as Bayesian classification, Maximum Entropy discrimination, Winnow and Bayes point machines and has implications for learning algorithm design.

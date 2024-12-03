@@ -1,0 +1,1 @@
+This paper addresses techniques for extracting conceptual descriptions from text sources and queries based on an ontology. The taxonomic ontology comprises featurestructured conceptual descriptions, and retrieval is based on description similarity relative to the ontology.

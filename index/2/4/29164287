@@ -1,0 +1,4 @@
+
+ 
+ Exact cover is the problem of finding subfamilies, S*, of a family of sets, S, over universe U, where S* forms a partition of U.  It is a popular NP-hard problem appearing in a wide range of computer science studies. Knuth's algorithm DLX, a backtracking-based depth-first search implemented with the data structure called dancing links, is known as state-of-the-art for finding all exact covers. We propose a method to accelerate DLX. Our method constructs a Zero-suppressed Binary Decision Diagram (ZDD) that represents the set of solutions while running depth-first search in DLX. Constructing ZDDs enables the efficient use of memo cache to speed up the search. Moreover, our method has a virtue that it outputs ZDDs; we can perform several useful operations with them. Experiments confirm that the proposed method is up to several orders of magnitude faster than DLX.
+ 

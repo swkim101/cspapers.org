@@ -1,0 +1,1 @@
+We describe a real time robot navigation system based on three VLSI neural network modules. These are a resistive grid for path planning, a nearest-neighbour classifier for localization using range data from a time-of-flight infra-red sensor and a sensory-motor associative network for dynamic obstacle avoidance.

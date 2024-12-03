@@ -1,0 +1,4 @@
+More than ever, air transport players (i.e., airline and airport companies) in an intensely competitive climate need to benefit from a carefully optimized management of airport resources to improve the quality of service and control the induced costs.
+In this paper, we investigate the Airport Check-in Desk Assignment Problem.
+We propose a Constraint Programming (CP) model for this problem, and present some promising experimental results from data coming from ADP (Aéroport de Paris).
+Our works are deployed in a preprod environment since 1 year.

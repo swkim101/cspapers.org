@@ -1,0 +1,7 @@
+Solving reachability games is a fundamental problem for the analysis, verification, and synthesis of reactive systems.
+We consider logical reachability games modulo theories (in short, GMTs), i.e.,
+infinite-state games whose rules are defined by logical formulas over a multi-sorted first-order theory. 
+Our games have an asymmetric constraint: the safety player has at most k possible moves from each game configuration, whereas the reachability player has no such limitation.
+Even though determining the winner of such a GMT is undecidable, it can be reduced to the well-studied problem of checking the satisfiability of a system of constrained Horn clauses (CHCs), for which many off-the-shelf solvers have been developed.
+Winning strategies for GMTs can also be computed by resorting to suitable CHC queries. 
+We demonstrate that GMTs can model various relevant real-world games, and that our approach can effectively solve several problems from different domains, using Z3 as the backend CHC solver.

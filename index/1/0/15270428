@@ -1,0 +1,4 @@
+
+ 
+ State-of-the-art branch-and-bound algorithms for the maximum clique problem (Maxclique) frequently use an upper bound based on a partition P of a graph into independent sets for a maximum clique of the graph, which cannot be very tight for imperfect graphs. In this paper we propose a new encoding from Maxclique into MaxSAT and use MaxSAT technology to improve the upper bound based on the partition P. In this way, the strength of specific algorithms for Maxclique in partitioning a graph and the strength of MaxSAT technology in propositional reasoning are naturally combined to solve Maxclique. Experimental results show that the approach is very effective on hard random graphs and on DIMACS Maxclique benchmarks, and allows to close an open DIMACS problem.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Most of the previous work on brain-computer interfaces (BCIs) exploiting the P300 in electroencephalography (EEG) has focused on low-level signal processing algorithms such as feature extraction and classification methods. Although a significant improvement has been made in the past, the accuracy of detecting P300 is limited by the inherently low signal-to-noise ratio in EEGs. In this paper, we present a systematic approach to optimize the interface using partially observable Markov decision processes (POMDPs). Through experiments involving human subjects, we show the P300 speller system that is optimized using the POMDP achieves a significant performance improvement in terms of the communication bandwidth in the interaction.
+ 

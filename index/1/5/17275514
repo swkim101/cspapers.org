@@ -1,0 +1,1 @@
+We propose a demonstration of Cayuga, a complex event monitoring system for high speed data streams. Our demonstration will show Cayuga applied to monitoring Web feeds; the demo will illustrate the expressiveness of the Cayuga query language, the scalability of its query processing engine to high stream rates, and a visualization of the internals of the query processing engine.

@@ -1,0 +1,1 @@
+The problem of deciding, given a graph G and two vertices s and t, whether there exists an induced path of given parity between s and t in G is known to be NP-complete. We show how to solve the problem in O(|V (G)|7) time, when the input graph is planar. We use techniques from the theory of graph minors as well as the theory of perfect graphs.

@@ -1,0 +1,5 @@
+VOX is a Natural Language Processor whose knowledge ran be extended by interaction with a user 
+ 
+VOX consists of a text analyzer and an extensibility system that share a knowledge base The extensibility system lets the user add vocabulary, concepts, phrases, events, and scenarios to the knowledge base. The analyzer uses information obtained in this way to understand previously unhandled text. 
+ 
+The underlying knowledge representation of VOX called Conceptual Grammar has been developed to meet the severe requirements of extensibility, Conceptual Grammar uniformly represents syntactic and semantic information, and permits modular addition of knowledge.

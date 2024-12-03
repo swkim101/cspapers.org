@@ -1,0 +1,4 @@
+
+ 
+ A wealth of information regarding intelligent decision making is conveyed by human gaze and visual attention, hence, modeling and exploiting such information might be a promising way to strengthen algorithms like deep reinforcement learning. We collect high-quality human action and gaze data while playing Atari games. Using these data, we train a deep neural network that can predict human gaze positions and visual attention with high accuracy.
+ 

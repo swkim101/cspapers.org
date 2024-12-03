@@ -1,0 +1,5 @@
+Many optimization models of neural networks need constraints to restrict the space of outputs to a subspace which satisfies external criteria. Optimizations using energy methods yield "forces" which act upon the state of the neural network. The penalty method, in which quadratic energy constraints are added to an existing optimization energy, has become popular recently, but is not guaranteed to satisfy the constraint conditions when there are other forces on the neural model or when there are multiple constraints. In this paper, we present the basic differential multiplier method (BDMM), which satisfies constraints exactly; we create forces which gradually apply the constraints over time, using "neurons" that estimate Lagrange multipliers. 
+ 
+The basic differential multiplier method is a differential version of the method of multipliers from Numerical Analysis. We prove that the differential equations locally converge to a constrained minimum. 
+ 
+Examples of applications of the differential method of multipliers include enforcing permutation codewords in the analog decoding problem and enforcing valid tours in the traveling salesman problem.

@@ -1,0 +1,1 @@
+We present a randomized algorithm for the <i>string matching with don't cares</i> problem. Based on the simple fingerprint method of Karp and Rabin for ordinary string matching [4], our algorithm runs in time <i>O</i>(<i>n</i> log <i>m</i>) for a text of length <i>n</i> and a pattern of length <i>m</i> and is simpler and slightly faster than the previous algorithms [3, 5, 1].

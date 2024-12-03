@@ -1,0 +1,11 @@
+Stock movement prediction is a hot topic in the Fintech area. Previous works usually predict the price movement in a daily basis, although the market impact of news can be absorbed much shorter, and the exact time is hard to estimate. In this work, we propose a more practical objective to predict the overnight stock movement between the previous close price and the open price.
+
+As no trading operation occurs after market close, the market impact of overnight news will be reflected by the overnight movement.
+
+One big obstacle for such task is the lacking of data, in this work we collect and publish the overnight stock price movement dataset of Reuters Financial News.
+
+Another challenge is that the stocks in the market are not independent, which is omitted by previous works.
+
+To make use of the connection among stocks, we propose a LSTM Relational Graph Convolutional Network (LSTM-RGCN) model, which models the connection among stocks with their correlation matrix. 
+
+Extensive experiment results show that our model outperforms the baseline models. Further analysis shows that the introduction of the graph enables our model to predict the movement of stocks that are not directly associated with news as well as the whole market, which is not available in most previous methods.

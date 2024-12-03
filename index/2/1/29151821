@@ -1,0 +1,4 @@
+
+ 
+ In real life, decisions are often made under ambiguity, where it is difficult to estimate accurately the probability of each single possible consequence of a choice. However, this problem has not been solved well in existing work for the following two reasons. (i) Some of them cannot cover the Ellsberg paradox and the Machina Paradox. Thus, the choices that they predict could be inconsistent with empirical observations. (ii) Some of them rely on parameter tuning without offering explanations for the reasonability of setting such bounds of parameters. Thus, the prediction of such a model in new decision making problems is doubtful. To the end, this paper proposes a new decision making model based on D-S theory and the emotion of ambiguity aversion. Some insightful properties of our model and the validating on two famous paradoxes show that our model indeed is a better alternative for decision making under ambiguity.
+ 

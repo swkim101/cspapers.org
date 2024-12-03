@@ -1,0 +1,9 @@
+We study Plurality Consensus in the GOSSIP Model over a network of n anonymous agents. Each agent supports an initial opinion or color. We assume that at the onset, the number of agents supporting the plurality color exceeds that of the agents supporting any other color by a sufficiently-large bias, though the initial plurality itself might be very far from absolute majority. The goal is to provide a protocol that, with high probability, brings the system into the configuration in which all agents support the (initial) plurality color. 
+ 
+We consider the Undecided-State Dynamics, a well-known protocol which uses just one more state (the undecided one) than those necessary to store colors. 
+ 
+We show that the speed of convergence of this protocol depends on the initial color configuration as a whole, not just on the gap between the plurality and the second largest color community. This dependence is best captured by a novel notion we introduce, namely, the monochromatic distance md(c) which measures the distance of the initial color configuration c from the closest monochromatic one. In the complete graph, we prove that, for a wide range of the input parameters, this dynamics converges within O(md(c) log n) rounds. We prove that this upper bound is almost tight in the strong sense: Starting from any color configuration c, the convergence time is Ω(md(c)). 
+ 
+Finally, we adapt the Undecided-State Dynamics to obtain a fast, random walk-based protocol for plurality consensus on regular expanders. This protocol converges in O(md(c) polylog(n)) rounds using only polylog(n) local memory. A key-ingredient to achieve the above bounds is a new analysis of the maximum node congestion that results from performing n parallel random walks on regular expanders. 
+ 
+All our bounds hold with high probability.

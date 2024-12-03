@@ -1,0 +1,3 @@
+To build systems that can deal with the individual differences of users, we need to represent a model of the user. Such a user model can support interpretation of user actions and drive the system's actions. 
+ 
+This paper takes considerable care in defining the various notions of 'user model'. From this, we characterise the promise of user modelling in terms of the individualisation it offers. Then we describe the challenges and benefits user modelling offers as a domain for research in many fields of Artificial Intelligence. Firstly we do this in terms of the major subtasks that are critical to user modelling and then in the context of an example system that filters and customises multi-media objects.

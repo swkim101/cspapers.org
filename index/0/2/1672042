@@ -1,0 +1,1 @@
+The generalized delta rule (which is also known as error back-propagation) is a significant advance over previous procedures for network learning. In this paper, we compare network learning using the generalized delta rule to human learning on two concept identification tasks: • Relative ease of concept identification • Generalizing from incomplete data

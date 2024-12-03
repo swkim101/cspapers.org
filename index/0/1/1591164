@@ -1,0 +1,1 @@
+We present simple semi-definite programming relaxations for the NP-hard minimum bandwidth and minimum length linear ordering problems. We then show how these relaxations can be rounded in a natural way (via random projection) to obtain approximation guarantees for both of these vertex-ordering problems.

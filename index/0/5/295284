@@ -1,0 +1,4 @@
+
+ 
+ The paper identifies a special case in which the complex problem of synthesis from specifications in temporal-epistemic logic can be reduced to the simpler problem of model checking such specifications. An application is given of strategy synthesis in pursuit-evasion games, where one or more pursuers with incomplete information aim to discover theexistence of an evader. Experimental results are provided to evaluate the feasibility of the approach.
+ 

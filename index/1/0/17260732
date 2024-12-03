@@ -1,0 +1,1 @@
+We consider arithmetic expressions over operators +, -, *, /, and {radical}, with integer operands. For an expression E, a separation bound sep(E) is a positive real number with the property that E {ne} 0 implies {vert_bar}E{vert_bar} > sep(E). We propose a new separation bound that is easy to compute and stronger than previous bounds.

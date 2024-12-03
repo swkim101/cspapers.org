@@ -1,0 +1,2 @@
+We present a new adaptive flow control algorithm together with learning routing algorithms.
+The key performance measure in both algorithms is packet delay. Window adjustment and route selection are based on delay measurements. Simulation results have shown the superiority of the new scheme over existing algorithms.

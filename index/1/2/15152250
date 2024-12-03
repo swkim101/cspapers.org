@@ -1,0 +1,1 @@
+This paper deals with the layering problem of multilayer PWB wiring, associated with single-row routing. The problem to be considered is restricted to the special case of street capacities up to two in each layer, and it is reduced to a problem of the interval graph by relaxing some restrictions in the original problem. Then, a heuristic algorithm is proposed for this problem.

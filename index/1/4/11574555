@@ -1,0 +1,1 @@
+In this paper we present a polynomial time approximation scheme for the job shop scheduling problem with fixed number of machines and fixed number of operations per job. The polynomial time approximation scheme can be extended to the case of job shop problems with release and delivery times, multiprocessor job shops, and dag job shops.

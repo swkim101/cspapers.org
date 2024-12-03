@@ -1,0 +1,4 @@
+
+ 
+ Outlier detection has been studied extensively and employed in diverse applications in the past decades. In this paper we formulate a related yet understudied problem which we call outlier description. This problem often arises in practice when we have a small number of data instances that had been identified to be outliers and we wish to explain why they are outliers. We propose a framework based on constraint programming to find an optimal subset of features that most differentiates the outliers and normal instances. We further demonstrate the framework offers great flexibility in incorporating diverse scenarios arising in practice such as multiple explanations and human in the loop extensions. We empirically evaluate our proposed framework on real datasets, including medical imaging and text corpus, and demonstrate how the results are useful and interpretable in these domains.
+ 

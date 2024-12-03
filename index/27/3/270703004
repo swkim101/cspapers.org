@@ -1,0 +1,7 @@
+Constrained text generation remains a challenging task, particularly when dealing with hard constraints. Traditional Natural Language Processing (NLP) approaches prioritize generating meaningful and coherent output. Also, the current state-of-the-art methods often lack the expressiveness and constraint satisfaction capabilities to handle such tasks effectively. This paper presents the Constraints First Framework to remedy this issue.
+
+This framework considers a constrained text generation problem as a discrete combinatorial optimization problem. It is solved by a constraint programming method that combines linguistic properties (e.g., n-grams or language level) with other more classical constraints (e.g., the number of characters, syllables, or words). Eventually, a curation phase allows for selecting the best-generated sentences according to perplexity using a large language model.
+
+
+
+The effectiveness of this approach is demonstrated by tackling a new more tediously constrained text generation problem: the iconic RADNER sentences problem. This problem aims to generate sentences respecting a set of quite strict rules defined by their use in vision and clinical research. Thanks to our CP-based approach, many new strongly constrained sentences have been successfully generated in an automatic manner. This highlights the potential of our approach to handle unreasonably constrained text generation scenarios.

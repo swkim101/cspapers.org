@@ -1,0 +1,4 @@
+
+ 
+ We provide the first fully polynomial time approximation scheme (FPTAS) for computing an approximate mixed-strategy Nash equilibrium in graphical multi-hypermatrix games (GMhGs), which are generalizations of normal-form games, graphical games, graphical polymatrix games, and hypergraphical games. Computing an exact mixed-strategy Nash equilibria in graphical polymatrix games is PPAD complete and thus generally believed to be intractable. In contrast, to the best of our knowledge, we are the first to establish an FPTAS for tree polymatrix games as well as tree graphical games when the number of actions is bounded by a constant. As a corollary, we give a quasi-polynomial time approximation scheme (quasi-PTAS) when the number of actions is bounded by a logarithm of the number of players.
+ 

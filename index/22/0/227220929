@@ -1,0 +1,1 @@
+We describe how the optimal dual controller for a discrete-time linear system can be found by approximately solving the corresponding Bellman equation using a neural network to represent the value function. We illustrate the method on an example with time-varying dynamics, where the new method is shown to give improved performance.

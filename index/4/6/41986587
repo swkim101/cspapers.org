@@ -1,0 +1,4 @@
+
+ 
+ Survival prediction is crucial to healthcare research, but is confined primarily to specific types of data involving only the present measurements. This paper considers the more general class of healthcare data found in practice, which includes a wealth of intermittently varying historical measurements in addition to the present measurements. Making survival predictions on such data bristles with challenges to the existing prediction models. For this reason, we propose a new semi-proportional hazards model using locally time-varying coefficients, and a novel complete-data model learning criterion for coefficient optimization. Experiments on the healthcare data demonstrate the effectiveness and generalizability of our model and its promise in practical applications.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ This paper is concerned with preprocessing techniques for propositional model counting. We have implemented a preprocessor which includes many elementary preprocessing techniques, including occurrence reduction, vivification, backbone identification, as well as equivalence, AND and XOR gate identification and replacement. We performed intensive experiments, using a huge number of benchmarks coming from a large number of families. Two approaches to model counting have been considered downstream: ”direct” model counting using Cachet and compilation-based model counting, based on the C2D compiler. The experimental results we have obtained show that our preprocessor is both efficient and robust.
+ 

@@ -1,0 +1,1 @@
+We exploit the reconfigurability of recent all-digital PLL designs to provide novel in-situ output jitter test and diagnosis abilities under multiple parametric variations of key analog building blocks. Digital signatures are collected and processed under specifically designed loop filter configurations to facilitate low-cost high-accuracy performance prediction and diagnosis.

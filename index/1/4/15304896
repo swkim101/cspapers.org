@@ -1,0 +1,1 @@
+We present an algorithm which permutes latch positions and sizes within a clock cluster to maximize the worst slack. It preserves the clock footprint and routing, and can therefore be applied late in the design flow after clock network design.

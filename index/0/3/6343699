@@ -1,0 +1,4 @@
+
+ 
+ As (Lee et al., 2012) have shown, weighted constraint satisfaction problems can benefit from the introduction of global cost functions, leading to a new Cost Function Programming paradigm. In this paper, we explore the possibility of decomposing global cost functions in such a way that enforcing soft local consistencies on the decomposition offers guarantees on the level of consistency enforced on the original global cost function. We show that directional arc consistency and virtual arc consistency offer such guarantees. We conclude by experiments on decomposable cost functions showing that decompositions may be very useful to easily integrate efficient global cost functions in solvers.
+ 

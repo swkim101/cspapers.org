@@ -1,0 +1,5 @@
+This paper delineates the computational complexity of propositional multi-context systems. We establish NP-membership by translating multi-context systems into bounded modal Kn, and obtain more refined complexity results by achieving the so-called bounded model property: the number of local models needed to satisfy a set of formulas Φ in a multicontext system MS is bounded by the number of contexts addressed by Φ plus the number of bridge rules in MS. 
+ 
+Exploiting this property of multi-context systems, we are able to encode contextual satisfiability into purely propositional satisfiabliIty, providing for the implementation of contextual reasoners based on already existing specialized SAT solvers. 
+ 
+Finally, we apply our results to improve complexity bounds for McCarthy's propositional logic of context - we show that satisfiability in this framework can be settled in nondeterministic polynomial time O(|Φ|2).

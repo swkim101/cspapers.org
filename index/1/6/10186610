@@ -1,0 +1,3 @@
+Once released, treebanks tend to remain unchanged despite any shortcomings in their depth of linguistic analysis or coverage of specific phenomena. Instead, separate resources are created to address such problems. In this paper we show how to improve the quality of a treebank, by integrating resources and implementing improved analyses for specific constructions. 
+ 
+We demonstrate this rebanking process by creating an updated version of CCG-bank that includes the predicate-argument structure of both verbs and nouns, base-NP brackets, verb-particle constructions, and restrictive and non-restrictive nominal modifiers; and evaluate the impact of these changes on a statistical parser.

@@ -1,0 +1,1 @@
+We explore methods for incorporating prior knowledge about a problem at hand in Support Vector learning machines. We show that both invariances under group transformations and prior knowledge about locality in images can be incorporated by constructing appropriate kernel functions.

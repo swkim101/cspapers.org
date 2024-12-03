@@ -1,0 +1,5 @@
+For the validation of the kernel system calls of a family of UNIX 1) systems a knowledge based test environment was conceived. A prototype version is currently implemented in Prolog. The knowledge base consists essentially of three parts:test case specifications of the various system calls,
+a test suite generator with predicates including information about UNIX system properties and sound test practices, and
+a test protocol archive including utilities to extract and prepare reports about the test results.
+
+All information in the knowledge base is stored as Horn clauses, i.e. facts and rules immediately to be consulted and executed by a Prolog interpreter.

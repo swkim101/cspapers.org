@@ -1,0 +1,1 @@
+We introduce a new categorial formalism based on intuitionistic linear logic. This formalism, which derives from current type-logical grammars, is abstract in the sense that both syntax and semantics are handled by the same set of primitives. As a consequence, the formalism is reversible and provides different computational paradigms that may be freely composed together.

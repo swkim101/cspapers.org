@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a novel similarity measure and then introduce an efficient strategy to learn it by using only similar pairs for person verification. Unlike existing metric learning methods, we consider both the difference and commonness of an image pair to increase its discriminativeness. Under a pairconstrained Gaussian assumption, we show how to obtain the Gaussian priors (i.e., corresponding covariance matrices) of dissimilar pairs from those of similar pairs. The application of a log likelihood ratio makes the learning process simple and fast and thus scalable to large datasets. Additionally, our method is able to handle heterogeneous data well. Results on the challenging datasets of face verification (LFW and Pub-Fig) and person re-identification (VIPeR) show that our algorithm outperforms the state-of-the-art methods.
+ 

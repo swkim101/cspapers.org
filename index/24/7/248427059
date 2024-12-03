@@ -1,0 +1,13 @@
+Various attack methods against recommender systems have been proposed in the past years, and the security issues of recommender systems have drawn considerable attention.
+
+Traditional attacks attempt to make target items recommended to as many users as possible by poisoning the training data.
+
+Benifiting from the feature of protecting users' private data, federated recommendation can effectively defend such attacks.
+
+Therefore, quite a few works have devoted themselves to developing federated recommender systems.
+
+For proving current federated recommendation is still vulnerable, in this work we probe to design attack approaches targeting deep learning based recommender models in federated learning scenarios.
+
+Specifically, our attacks generate poisoned gradients for manipulated malicious users to upload based on two strategies (i.e., random approximation and hard user mining).
+
+Extensive experiments show that our well-designed attacks can effectively poison the target models, and the attack effectiveness sets the state-of-the-art.

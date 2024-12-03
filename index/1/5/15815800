@@ -1,0 +1,7 @@
+Nowadays, firms, formerly considering the human operator as the main error source in process control, bend their efforts towards anthropocentric approaches to (re)integrate the human factor, especially the knowledge he/she has been developping, as the essential resource for a high quality decision process. 
+ 
+As the expert operator remains a rare resource and in order to capitalize his/her knowledge and know-how, the development, of tools integrating this new dimension has become an important challenge. 
+ 
+This paper deals with a tool for knowledge acquisition under cognitive constraints, assuming that cognitive principles could be sometimes useful to improve machine learning tools results. Additionally, we have to cope with the difficulty linked to the fact that the acquired strategies have to be adapted on-line. 
+ 
+After describing the underlying cognitive principles, we will introduce the decision representation space and its related notations. We will then show the difficulties linked to the search of an optimal representation of the expert strategies set and how the heuristics used by the algorithm studied avoid these NP-complete problems. Finally, the current results and our work perspectives are stated.

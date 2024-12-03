@@ -1,0 +1,1 @@
+In this paper, we introduce SemTag, a free and open software architecture for the development of Tree Adjoining Grammars integrating a compositional semantics. SemTag differs from XTAG in two main ways. First, it provides an expressive grammar formalism and compiler for factorising and specifying TAGs. Second, it supports semantic construction.

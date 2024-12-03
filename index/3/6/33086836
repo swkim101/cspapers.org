@@ -1,0 +1,20 @@
+Bayesian optimization is renowned for its sample 
+efficiency but its application to higher dimensional 
+tasks is impeded by its focus on global 
+optimization. To scale to higher dimensional 
+problems, we leverage the sample efficiency of 
+Bayesian optimization in a local context. The 
+optimization of the acquisition function is restricted 
+to the vicinity of a Gaussian search distribution 
+which is moved towards high value areas 
+of the objective. The proposed informationtheoretic 
+update of the search distribution results 
+in a Bayesian interpretation of local stochastic 
+search: the search distribution encodes prior 
+knowledge on the optimum’s location and is 
+weighted at each iteration by the likelihood of 
+this location’s optimality. We demonstrate the 
+effectiveness of our algorithm on several benchmark 
+objective functions as well as a continuous 
+robotic task in which an informative prior is obtained 
+by imitation learning.

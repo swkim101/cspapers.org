@@ -1,0 +1,6 @@
+In designing a routing scheme for a communication network it is desirable to use as short as possible paths for routing messages, while keeping the routing information stored in the processors' local memory as succinct as possible. The efficiency of a routing scheme is measured in terms of its <italic>stretch factor</italic> - the maximum ratio between the cost of a route computed by the scheme and that of a cheapest path connecting the same pair of vertices.
+This paper presents a family of adaptive routing schemes for general networks. The <italic>hierarchical schemes H S<subscrpt>k</subscrpt></italic> (for every fixed <italic>k</italic> ≥ 1) guarantee a stretch factor of <italic>O</italic> (<italic>k</italic><supscrpt>2</supscrpt> · 3<supscrpt><italic>k</italic></supscrpt>) and require storing at most <italic>O</italic> (<italic>kn</italic><supscrpt><italic>k</italic></supscrpt> log <italic>n</italic>) bits of routing information <italic>per vertex</italic>. The new important features, that make the schemes appropriate for adaptive use, are<list><item>applicability to networks with arbitrary edge costs;
+</item><item>name-independence, i.e., usage of original names;
+</item><item>a balanced distribution of the memory;
+</item><item>an efficient on-line distributed preprocessing.
+</item></list>

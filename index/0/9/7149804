@@ -1,0 +1,4 @@
+
+ 
+ We study a problem of dynamic allocation without money. Agents have arrivals and departures and strict preferences over items. Strategyproofness requires the use of an arrival-priority serial-dictatorship (APSD) mechanism, which is ex post Pareto efficient but has poor ex ante efficiency as measured through average rank efficiency. We introduce the scoring-rule (SR) mechanism, which biases in favor of allocating items that an agent values above the population consensus. The SR mechanism is not strategyproof but has tolerable manipulability in the sense that: (i) if every agent optimally manipulates, it reduces to APSD, and (ii) it significantly outperforms APSD for rank efficiency when only a fraction of agents are strategic. The performance of SR is also robust to mistakes by agents that manipulate on the basis of inaccurate information about the popularity of items.
+ 

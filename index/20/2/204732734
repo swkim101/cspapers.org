@@ -1,0 +1,1 @@
+This paper describes NAB, a novel framework to execute custom dynamic analysis on open-source software hosted in public repositories. NAB is fully-automatic, language-agnostic and scalable. We present NAB's key features and its architecture. We also discuss three large-scale case studies enabled by NAB on more than 56K Node.js, Java, and Scala projects

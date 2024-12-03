@@ -1,0 +1,4 @@
+
+ 
+ Similarity between words is becoming a generic problem for many applications of computational linguistics, and computing word similarities is determined by word representations. Inspired by the analogies between words and lymphocytes, a lymphocyte-style word representation is proposed. The word representation is built on the basis of dependency syntax of sentences and represent word context as head properties and dependent properties of the word. Lymphocyte-style word representations are evaluated by computing the similarities between words, and experiments are conducted on the Penn Chinese Treebank 5.1. Experimental results indicate that the proposed word representations are effective.
+ 

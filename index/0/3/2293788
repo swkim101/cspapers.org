@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of analyzing a large volume ofbioacoustic data collected in-situ with the goal of assessingthe biodiversity of bird species at the data collectionsite. We are interested in the class discoveryproblem for this setting. Specifically, given a large collectionof audio recordings containing bird and othersounds, we aim to automatically select a fixed size subsetof the recordings for human expert labeling suchthat the maximum number of species/classes is discovered.We employ a multi-instance multi-label representationto address multiple simultaneously vocalizingbirds with sounds that overlap in time, and proposenew algorithms for species/class discovery using thisrepresentation. In a comparative study, we show that theproposed methods discover more species/classes thancurrent state-of-the-art in a real world datasetof 92,095 ten-second recordings collected in field conditions.
+ 

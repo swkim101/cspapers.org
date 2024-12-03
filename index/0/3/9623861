@@ -1,0 +1,4 @@
+
+ 
+ Topic modeling is a powerful tool for uncovering latent structure in many domains, including medicine, finance, and vision. The goals for the model vary depending on the application: sometimes the discovered topics are used for prediction or another downstream task. In other cases, the content of the topic may be of intrinsic scientific interest. Unfortunately, even when one uses modern sparse techniques, discovered topics are often difficult to interpret due to the high dimensionality of the underlying space. To improve topic interpretability, we introduce Graph-Sparse LDA, a hierarchical topic model that uses knowledge of relationships between words (e.g., as encoded by an ontology). In our model, topics are summarized by a few latent concept-words from the underlying graph that explain the observed words. Graph-Sparse LDA recovers sparse, interpretable summaries on two real-world biomedical datasets while matching state-of-the-art prediction performance.
+ 

@@ -1,0 +1,1 @@
+The Group-Lasso is a well-known tool for joint regularization in machine learning methods. While the l_{1,2} and the l_{1,\infty} version have been studied in detail and efficient algorithms exist, there are still open questions regarding other l_{1,p} variants. We characterize conditions for solutions of the l_{1,p} Group-Lasso for all p-norms with 1 > 2.

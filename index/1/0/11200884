@@ -1,0 +1,3 @@
+We present examples of hard tautologies in propositional calculus by encoding instances of the assertions made by Ramsey's theorem. We provide evidence that these tautologies are indeed hard by
+ 1. showing that there are no short proofs for these tautologies in certain restricted classes of proof systems;
+ 2. relating a proof of these tautologies to the problem of determining the diagonal Ramsey numbers for graphs.

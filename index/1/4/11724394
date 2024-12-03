@@ -1,0 +1,9 @@
+We present a refined analysis of the classic Count-Sketch streaming heavy hitters algorithm [CCF02]. Count-Sketch uses O(k log n) linear measurements of a vector x e Rn to give an estimate x of x. The standard analysis shows that this estimate x satisfies Vx-xV2/∞, where x[k] is the vector containing all but the largest k coordinates of x. Our main result is that most of the coordinates of x have substantially less error than this upper bound; namely for any c < O(log n), we show that each coordinate i satisfies 
+ 
+[EQUATION] 
+ 
+with probability 1--2-Ω(c), as long as the hash functions are fully independent. This subsumes the previous bound and is optimal for all c. Using these improved point estimates, we prove a stronger concentration result for set estimates by first analyzing the covariance matrix and then using a median-of-median-of-medians argument to bootstrap the failure probability bounds. These results also give improved results for e2 recovery of exactly k-sparse estimates x* when x is drawn from a distribution with suitable decay such as a power law or lognormal. 
+ 
+We complement our results with simulations of Count-Sketch on a power law distribution. The empirical evidence indicates that our theoretical bounds give a precise characterization of the algorithm's performance: the asymptotics are correct and the associated constants are small. 
+ 
+Our proof shows that any symmetric random variable with finite variance and positive Fourier transform concentrates around 0 at least as well as a Gaussian. This result, which may be of independent interest, gives good concentration even when the noise does not converge to a Gaussian.

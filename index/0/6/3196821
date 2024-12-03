@@ -1,0 +1,1 @@
+This paper describes the architecture and design of a data warehouse for AT&T Business Services. The main purpose of our system is to generate reports about the performance and reliability of the network. We describe the architecture of our system and discuss some open research problems in this area.

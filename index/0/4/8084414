@@ -1,0 +1,4 @@
+
+ 
+ We present a general framework for association learning, where entities are embedded in a common latent space to express relatedness by geometry -- an approach that underlies the state of the art for link prediction, relation learning, multi-label tagging, relevance retrieval and ranking. Although current approaches rely on local training applied to non-convex formulations, we demonstrate how general convex formulations can be achieved for entity embedding, both for standard multi-linear and prototype-distance models. We investigate an efficient optimization strategy that allows scaling. An experimental evaluation reveals the advantages of global training in different case studies.
+ 

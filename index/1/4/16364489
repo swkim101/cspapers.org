@@ -1,0 +1,1 @@
+Real-world norm monitors have limited capabilities for observing agents. This paper proposes a novel mechanism to take full advantage of limited observation capabilities by selecting the agents to be monitored. Our evaluation shows this significantly increases the number of violations detected.

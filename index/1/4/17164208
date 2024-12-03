@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of identifying discrepancies between training and test data which are responsible for the reduced performance of a classification system. Intended for use when data acquisition is an iterative process controlled by domain experts, our method exposes insufficiencies of training data and presents them in a user-friendly manner. The system is capable of working with any classification system which admits diagnostics on test data. We illustrate the usefulness of our approach in recovering compact representations of the revealed gaps in training data and show that predictive accuracy of the resulting models is improved once the gaps are filled through collection of additional training samples.
+ 

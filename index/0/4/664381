@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel learning framework for object categorization with interactive semantic feedback. In this framework, a discriminative categorization model improves through human-guided iterative semantic feedbacks. Specifically, the model identifies the most helpful relational semantic queries to discriminatively refine the model. The user feedback on whether the relationship is semantically valid or not is incorporated back into the model, in the form of regularization, and the process iterates. We validate the proposed model in a few-shot multi-class classification scenario, where we measure classification performance on a set of ‘target’ classes, with few training instances, by leveraging and transferring knowledge from ‘anchor’ classes, that contain larger set of labeled instances.
+ 

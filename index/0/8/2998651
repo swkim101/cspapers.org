@@ -1,0 +1,4 @@
+
+ 
+ Model-Based Diagnosis techniques have been successfully applied to support a variety of fault-localization tasks both for hardware and software artifacts. In many applications, Reiter's hitting set algorithm has been used to determine the set of all diagnoses for a given problem. In order to construct the diagnoses with increasing cardinality, Reiter proposed a breadth-first search scheme in combination with different tree-pruning rules. Since many of today's computing devices have multi-core CPU architectures, we propose techniques to parallelize the construction of the tree to better utilize the computing resources without losing any diagnoses. Experimental evaluations using different benchmark problems show that parallelization can help to significantly reduce the required running times. Additional simulation experiments were performed to understand how the characteristics of the underlying problem structure impact the achieved performance gains.
+ 

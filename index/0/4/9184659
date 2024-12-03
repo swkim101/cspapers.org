@@ -1,0 +1,5 @@
+Models of complex phenomena often consist of hypothetical entities called "hidden causes", which cannot be observed directly and yet play a major role in understanding, communicating, and predicting the dynamics of those phenomena. This paper examines the cognitive and computational roles of these constructs, and addresses the question of whether they can be discovered from empirical observations. 
+ 
+Causal models are treated as trees of binary random variables where the leaves are accessible to direct observation, and the internal nodes-representing hidden causes-account for inter-leaf dependencies. In probabilistic terms, every two leaves are conditionally independent given the value of some internal node between them. 
+ 
+We show that if the mechanism which drives the visible variables is indeed tree-structured, then it is possible to uncover the topology of the tree uniquely by observing pair-wise dependencies among the leaves. The entire tree structure, including the strengths of all internal relationships, can be reconstructed in time proportional to nlogn, where n is the number of leaves.

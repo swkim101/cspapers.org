@@ -1,0 +1,1 @@
+We give a sufficient condition when an on-line algorithm can be transformed into a real-time algorithm. We use this condition to construct real-time algorithms for string-matching and palindrome recognition problems by random access machines and by Turing machines.

@@ -1,0 +1,1 @@
+We describe a theorem prover for elementary set theory which is based on truth value preserving transformations, and then give an example of the protocol produced by this system when trying to prove the theorem of set theory known as Cantor's Theorem.

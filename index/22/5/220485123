@@ -1,0 +1,21 @@
+Compression techniques for deep neural network models are becoming very important
+
+for the efficient execution of high-performance deep learning systems on edge-computing devices.
+
+The concept of model compression is also important for analyzing the generalization error of deep learning, known as the compression-based error bound.
+
+However, there is still huge gap between a practically effective compression method and its rigorous background of statistical learning theory. To resolve this issue, we develop a new theoretical framework for model compression
+
+and propose a new pruning method called {\it spectral pruning} based on this framework.
+
+We define the ``degrees of freedom'' to quantify the intrinsic dimensionality of a model
+
+by using the eigenvalue distribution of the covariance matrix across the internal nodes
+
+and show that the compression ability is essentially controlled by this quantity.
+
+Moreover, we present a sharp generalization error bound of the compressed model
+
+and characterize the bias--variance tradeoff induced by the compression procedure.
+
+We apply our method to several datasets to justify our theoretical analyses and show the superiority of the the proposed method.

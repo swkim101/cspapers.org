@@ -1,0 +1,1 @@
+The problem of resource allocation in sparse graphs with real variables is studied using methods of statistical physics. An efficient distributed algorithm is devised on the basis of insight gained from the analysis and is examined using numerical simulations, showing excellent performance and full agreement with the theoretical results.

@@ -1,0 +1,1 @@
+This paper examines the current performance of the stochastic tagger PARTS (Church 88) in handling phrasal verbs, describes a problem that arises from the statistical model used, and suggests a way to improve the tagger's performance. The solution involves a change in the definition of what counts as a word for the purpose of tagging phrasal verbs.

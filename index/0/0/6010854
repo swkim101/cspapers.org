@@ -1,0 +1,4 @@
+
+ 
+ Evolutionary trees of species can be reconstructed by pairwise comparison of their entire genomes. Such a comparison can be quantified by determining the number of events that change the order of genes in a genome. Earlier Erdem and Tillier formulated the pairwise comparison of entire genomes as the problem of planning rearrangement events that transform one genome to the other. We reformulate this problem as a planning problem to extend its applicability to genomes with multiple copies of genes and with unequal gene content, and illustrate its applicability and effectiveness on three real datasets: mitochondrial genomes of Metazoa, chloroplast genomes of Campanulaceae, chloroplast genomes of various land plants and green algae.
+ 

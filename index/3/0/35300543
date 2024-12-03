@@ -1,0 +1,15 @@
+Modern browsers such as Chrome and Edge deploy 
+constant blinding to remove attacker-controlled constants from 
+the JIT-compiled code. Without such a defense, attackers can 
+encode arbitrary shellcode in constants that get compiled to 
+executable code. In this paper, we review the security and 
+completeness of current constant blinding implementations. We 
+develop DACHSHUND, a fuzzing-driven framework to find user-specified constants in JIT-compiled code. 
+DACHSHUND reveals several cases in which JIT compilers of modern browsers fail 
+to blind constants, ranging from constants passed as function 
+parameters to blinded constants that second-stage code optimizers 
+revert to a non-protected form. To tackle this problem, we 
+then propose a JavaScript rewriting mechanism that removes 
+all constants from JavaScript code. We prototype this cross- 
+browser methodology as part of a Web proxy and show that 
+it can successfully remove all constants from JavaScript code.

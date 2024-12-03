@@ -1,0 +1,4 @@
+
+ 
+ Copying mechanism shows effectiveness in sequence-to-sequence based neural network models for text generation tasks, such as abstractive sentence summarization and question generation. However, existing works on modeling copying or pointing mechanism only considers single word copying from the source sentences. In this paper, we propose a novel copying framework, named Sequential Copying Networks (SeqCopyNet), which not only learns to copy single words, but also copies sequences from the input sentence. It leverages the pointer networks to explicitly select a sub-span from the source side to target side, and integrates this sequential copying mechanism to the generation process in the encoder-decoder paradigm. Experiments on abstractive sentence summarization and question generation tasks show that the proposed SeqCopyNet can copy meaningful spans and outperforms the baseline models.
+ 

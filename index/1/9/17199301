@@ -1,0 +1,1 @@
+A CCD based signal processing IC that computes a fully parallel single quadrant vector-matrix multiplication has been designed and fabricated with a 2µm CCD/CMOS process. The device incorporates an array of Charge Coupled Devices (CCD) which hold an analog matrix of charge encoding the matrix elements. Input vectors are digital with 1 - 8 bit accuracy.

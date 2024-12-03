@@ -1,0 +1,4 @@
+Every function of <italic>n</italic> inputs can be efficiently computed by a complete network of <italic>n</italic> processors in such a way that:<list><item>If no faults occur, no set of size <italic>t</italic> < <italic>n</italic>/2 of players gets any additional information (other than the function value),
+</item><item>Even if Byzantine faults are allowed, no set of size <italic>t</italic> < <italic>n</italic>/3 can either disrupt the computation or get additional information.
+</item></list>
+Furthermore, the above bounds on <italic>t</italic> are tight!

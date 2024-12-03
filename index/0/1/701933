@@ -1,0 +1,9 @@
+While there is an enormous amount of music 
+data available, the eld of music analysis 
+almost exclusively uses manually designed 
+features. In this work we learn features from 
+music data in a completely unsupervised way 
+and evaluate them on a musical genre classi - 
+cation task. We achieve results very close to 
+state-of-the-art performance which relies on 
+highly hand-tuned feature extractors.

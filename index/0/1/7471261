@@ -1,0 +1,1 @@
+simpAL is a programming language introducing an agent-oriented programming abstraction layer on top of actors, with the the aim of simplifying the development of programs that need to integrate aspects related to concurrency, interaction, reactivity and distribution.

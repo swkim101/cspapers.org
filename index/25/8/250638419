@@ -1,0 +1,7 @@
+Graph neural networks (GNNs) have been intensively studied in various real-world tasks. However, the homophily assumption of GNNs' aggregation function limits their representation learning ability in heterophily graphs. 
+
+In this paper, we shed light on the path level patterns in graphs that can explicitly reflect rich semantic and structural information.
+
+We therefore propose a novel Structure-aware Path Aggregation Graph Neural Network (PathNet) aiming to generalize GNNs for both homophily and heterophily graphs. Specifically, we first introduce a maximal entropy path sampler, which helps us sample a number of paths containing structural context. Then, we introduce a structure-aware recurrent cell consisting of order-preserving and distance-aware components to learn the semantic information of neighborhoods. Finally, we model the preference of different paths to target node after path encoding.
+
+Experimental results demonstrate that our model achieves superior performance in node classification on both heterophily and homophily graphs.

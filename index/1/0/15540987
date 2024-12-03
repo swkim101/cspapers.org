@@ -1,0 +1,4 @@
+
+ 
+ Non-metric distances are often more reasonable compared with metric ones in terms of consistency with human perceptions. However, existing locality-sensitive hashing (LSH) algorithms can only support data which are gauged with metrics. In this paper we propose a novel locality-sensitive hashing algorithm targeting such non-metric data. Data in original feature space are embedded into an implicit reproducing kernel Krein space and then hashed to obtain binary bits. Here we utilize the norm-keeping property of p-stable functions to ensure that two data's collision probability reflects their non-metric distance in original feature space. We investigate various concrete examples to validate the proposed algorithm. Extensive empirical evaluations well illustrate its effectiveness in terms of accuracy and retrieval speedup.
+ 

@@ -1,0 +1,1 @@
+We recently showed how counterexample-guided abstraction refinement can be used to derive informative heuristics for optimal classical planning. In this work we introduce an algorithm for building additive abstractions and demonstrate that they outperform other state-of-the-art abstraction heuristics on many benchmark domains.

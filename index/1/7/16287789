@@ -1,0 +1,5 @@
+While current trends in the teaching of the introductory course are very positive, several problems still remain to be faced. Among these are:A basic understanding of the operation of a computer.
+An emphasis on concept development rather than skill development.
+A proper historical perspective of computer science.
+
+To help remove these deficiencies, a very simple virtual machine is introduced. Beginning students learn to program on this machine with a very limited instruction set. Many topics related to software engineering, data structures, algorithm design, etc. are introduced in a top down fashion with details being developed with the aid of the virtual machine. When a high level language is introduced, students progress more rapidly and with a greater understanding of what is taking place in the machine. Students also develop a feel for computer science as a dynamic field and tend not to think of a particular language as being what computer science is.

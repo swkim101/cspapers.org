@@ -1,0 +1,4 @@
+
+ 
+ Human languages are naturally ambiguous, which makes it difficult to automatically understand the semantics of text. Most vector space models (VSM) treat all occurrences of a word as the same and build a single vector to represent the meaning of a word, which fails to capture any ambiguity. We present sense-aware semantic analysis (SaSA), a multi-prototype VSM for word representation based on Wikipedia, which could account for homonymy and polysemy. The "sense-specific'' prototypes of a word are produced by clustering Wikipedia pages based on both local and global contexts of the word in Wikipedia. Experimental evaluations on semantic relatedness for both isolated words and words in sentential contexts and word sense induction demonstrate its effectiveness.
+ 

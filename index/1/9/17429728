@@ -1,0 +1,1 @@
+A novel formalism is presented for Earley-like parsers. It accommodates the simulation of non-deterministic pushdown automata. In particular, the theory is applied to non-deterministic LR-parsers for RTN grammars.

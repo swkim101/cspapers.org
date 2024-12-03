@@ -1,0 +1,6 @@
+The Biological Information Signal Processing (BISP) is a system for high speed sequence comparisons designed to support the computation requirements for mapping and sequencing the human and other genomes. The heart of a BISP system is a versatile processor chip that can conduct the most time consuming sequence comparison functions, establishing both global and local relationships between two DNA or protein sequences. Because of 
+the application’s strong computation and communication 
+requirements, a programmable systolic array architecture was 
+developed. A BISP system can include a large number of 
+processing elements; the initial BISP demonstration system 
+consists of 768 BISP elements, capable of delivering more than 6.25 x 10^9 integer operations per second. The system can be expanded to include over 4,000 elements, This paper describes the comparison algorithm and outlines the BISP chip and system designs. Estimated performance of the BISP system is compared with several different computer architectures.

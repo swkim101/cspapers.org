@@ -1,0 +1,1 @@
+In this paper, we develop a novel product recommendation method called TCRec, which takes advantage of consumer rating history record, social-trust network and product category information simultaneously. Compared experiments are conducted on two real-world datasets and outstanding performance is achieved, which demonstrates the effectiveness of TCRec.

@@ -1,0 +1,7 @@
+The problem of integrating heterogeneous data sources into an ontology is highly relevant in the database field.
+
+Several techniques exist to approach the problem, but side constraints on the data cannot be easily implemented and thus the results may be inconsistent.
+
+In this paper we improve previous work by Taheriyan et al. [2016a] using Machine Learning (ML) to take into account inconsistencies in the data (unmatchable attributes) and encode the problem as a variation of the Steiner Tree, for which we use work by De Uña et al. [2016] in Constraint Programming (CP).
+
+Combining ML and CP achieves state-of-the-art precision, recall and speed, and provides a more flexible framework for variations of the problem.

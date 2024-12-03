@@ -1,0 +1,6 @@
+Chopping transactions into pieces is good for performance but may lead to non-serializable executions. Many researchers have reacted to this fact by either inventing new concurrency control mechanisms, weakening serializability, or both. We adopt a different approach.
+We assume a user who
+• has only the degree 2 and degree 3 consistency options offered by the vast majority of conventional database systems; and 
+•knows the set of transactions that may run during a certain interval (users are likely to have such knowledge for online or real-time transactional applications).
+Given this information, our algorithm finds the finest partitioning of a set of transactions TranSet with the following property; if the partitioned transactions execute serializably, then TranSet executes serializably. This permits users to obtain more concurrency while preserving correctness. Besides obtaining more inter-transaction concurrency, chopping transactions in this way can enhance intra-transaction parallelism.
+The algorithm is inexpensive, running in O(n x (e + m)) time using a naive implementation where n is the number of edges in the conflict graph among the transactions, and m is the maximum number of accesses of any transaction. This makes it feasible to add as a tuning knob to practical systems.

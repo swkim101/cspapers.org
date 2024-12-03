@@ -1,0 +1,1 @@
+This paper describes a technique for labeling the output of a Database Management System (DBMS). The technique allows output to be marked to a fine granularity in an unobtrusive manner. It responds to the varying needs of users by providing two forms of output. In addition, the paper notes ways to improve the user interface by incorporating window and graphic input technology.

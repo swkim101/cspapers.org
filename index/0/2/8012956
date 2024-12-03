@@ -1,0 +1,4 @@
+
+ 
+ We describe a method for identifying the speakers of quoted speech in natural-language textual stories. We have assembled a corpus of more than 3,000 quotations, whose speakers (if any) are manually identified, from a collection of 19th and 20th century literature by six authors. Using rule-based and statistical learning, our method identifies candidate characters, determines their genders, and attributes each quote to the most likely speaker. We divide the quotes into syntactic classes in order to leverage common discourse patterns, which enable rapid attribution for many quotes. We apply learning algorithms to the remainder and achieve an overall accuracy of 83%.
+ 

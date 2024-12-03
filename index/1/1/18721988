@@ -1,0 +1,4 @@
+
+ 
+ The Condorcet Jury Theorem justifies the wisdom of crowds and lays the foundations of the ideology of the democratic regime. However, the Jury Theorem and most of its extensions focus on two alternatives and none of them quantitatively evaluate the effect of agents’ strategic behavior on the mechanism’s truth-revealing power. We initiate a research agenda of quantitatively extend- ing the Jury Theorem with strategic agents by characterizing the price of anarchy (PoA) and the price of stability (PoS) of the common interest Bayesian voting games for three classes of mechanisms: plurality, MAPs, and the mechanisms that satisfy anonymity, neutrality, and strategy-proofness (w.r.t. a set of natural probabil- ity models). We show that while plurality and MAPs have better best-case truth-revealing power (lower PoS), the third class of mechanisms are more robust against agents’ strategic behavior (lower PoA).
+ 

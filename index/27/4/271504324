@@ -1,0 +1,5 @@
+Multi-armed bandit is a simple but powerful algorithmic framework, and many effective algorithms have been proposed for various online models.
+
+In numerous applications, the decision-maker faces diminishing marginal utility. With non-linear aggregations, those algorithms often have poor regret bounds. Motivated by this, we study a bandit problem with diminishing marginal utility, which we termed the bandits with concave aggregated reward(BCAR). 
+
+To tackle this problem, we propose two algorithms SW-BCAR and SWUCB-BCAR. Through theoretical analysis, we establish the effectiveness of these algorithms in addressing the BCAR issue. Extensive simulations demonstrate that our algorithms achieve better results than the most advanced bandit algorithms.

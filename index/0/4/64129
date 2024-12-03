@@ -1,0 +1,4 @@
+
+ 
+ End-user interactive machine learning is a promising tool for enhancing human productivity and capabilities with large unstructured data sets. Recent work has shown that we can create end-user interactive machine learning systems for specific applications. However, we still lack a generalized understanding of how to design effective end-user interaction with interactive machine learning systems. This work presents three explorations in designing for effective end-user interaction with machine learning in CueFlik, a system developed to support Web image search. These explorations demonstrate that interactions designed to balance the needs of end-users and machine learning algorithms can significantly improve the effectiveness of end-user interactive machine learning.
+ 

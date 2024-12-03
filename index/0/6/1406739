@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel probabilistic model for collaborative filtering (CF), called SRMCoFi, which seamlessly integrates both linear and bilinear random effects into a principled framework. The formulation of SRMCoFi is supported by both social psychological experiments and statistical theories. Not only can many existing CF methods be seen as special cases of SRMCoFi, but it also integrates their advantages while simultaneously overcoming their disadvantages. The solid theoretical foundation of SRMCoFi is further supported by promising empirical results obtained in extensive experiments using real CF data sets on movie ratings.
+ 

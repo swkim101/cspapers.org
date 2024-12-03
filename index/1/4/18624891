@@ -1,0 +1,13 @@
+This work studies the hardness of finding independent sets in hypergraphs which are either 2-colorable or are almost 2-colorable, i.e. can be 2-colored after removing a small fraction of vertices and the incident hyperedges. To be precise, say that a hypergraph is (1 -- e)-almost 2-colorable if removing an e fraction of its vertices and all hyperedges incident on them makes the remaining hypergraph 2-colorable. In particular we prove the following results. 
+ 
+• For an arbitrarily small constant γ > 0, there is a constant ξ > 0, such that, given a 4-uniform hypergraph on n vertices which is (1 -- e)-almost 2-colorable for e = 2-(logn)ξ, it is quasi-NP-hard1 to find an independent set of n/(2(logn)1-γ) vertices. 
+ 
+• For any constants e, δ > 0, given as input a 3-uniform hypergraph on n vertices which is (1 -- e)-almost 2-colorable, it is NP-hard to find an independent set of δn vertices. 
+ 
+• Assuming the d-to-1 Games Conjecture the following holds. For any constant δ > 0, given a 2-colorable 3-uniform hypergraph on n vertices, it is NP-hard to find an independent set of δn vertices. 
+ 
+The hardness result on independent set in almost 2-colorable 3-uniform hypergraphs was earlier known only assuming the Unique Games Conjecture. In this work we prove the result unconditionally, combining Fourier analytic techniques with the Multi-Layered PCP of [11]. 
+ 
+For independent sets in 2-colorable 3-uniform hypergaphs we prove the first strong hardness result, albeit assuming the d-to-1 Games Conjecture. Our reduction uses the d-to-1 Game as a starting point to construct a Multi-Layered PCP with the smoothness property. We use analytical techniques based on the Invariance Principle of Mossel [36]. The smoothness property is crucially exploited in a manner similar to recent work of Hastad [20] and Wenner [45]. 
+ 
+Our result on almost 2-colorable 4-uniform hypergraphs gives the first nearly polynomial hardness factor for independent set in hypergraphs which are (almost) colorable with constantly many colors. It partially bridges the gap between the previous best lower bound of poly(log n) and the algorithmic upper bounds of nΩ(1). This also exhibits a bottleneck to improving the algorithmic techniques for hypergraph coloring.

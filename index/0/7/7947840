@@ -1,0 +1,4 @@
+
+ 
+ As the semantic web expands, ontological data becomes distributed over a large network of data sources on the Web. Consequently, evaluating queries that aim to tap into this distributed semantic database necessitates the ability to consult multiple data sources efficiently. In this paper, we propose methods and heuristics to efficiently query distributed ontological data based on a series of properties of summarized data. In our approach, each source summarizes its data as another RDF graph, and relevant section of these summaries are merged and analyzed at query evaluation time. We show how the analysis of these summaries enables more efficient source selection, query pruning and transformation of expensive distributed joins into local joins.
+ 

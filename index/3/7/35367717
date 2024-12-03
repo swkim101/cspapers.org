@@ -1,0 +1,1 @@
+A system is described which creates and generalizes rules from examples. The system can recover from an initiallymisleading input sequence by keeping evidence which supports (or doesn't support) a given generalization. By undoing over-generalizations, the system maintains a minimal set of rules for a given set of inputs.

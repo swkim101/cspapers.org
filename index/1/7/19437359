@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we address the problem of personalized next Point-of-interest (POI) recommendation which has become an important and very challenging task in location-based social networks (LBSNs), but not well studied yet. With the conjecture that, under different contextual scenario, human exhibits distinct mobility patterns, we attempt here to jointly model the next POI recommendation under the influence of user's latent behavior pattern. We propose to adopt a third-rank tensor to model the successive check-in behaviors. By incorporating softmax function to fuse the personalized Markov chain with latent pattern, we furnish a Bayesian Personalized Ranking (BPR) approach and derive the optimization criterion accordingly. Expectation Maximization (EM) is then used to estimate the model parameters. Extensive experiments on two large-scale LBSNs datasets demonstrate the significant improvements of our model over several state-of-the-art methods.
+ 

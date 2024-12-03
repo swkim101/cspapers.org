@@ -1,0 +1,1 @@
+Strategyproof cost-sharing mechanisms, lying in the core, that recover 1/@a fraction of the cost, are presented for the set cover and facility location games: @a=O(log n) for the former and 1:861 for the latter. Our mechanisms utilize approximation algorithms for these problems based on the method of dual-fitting.

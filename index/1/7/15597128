@@ -1,0 +1,5 @@
+Case-based planning is based on the idea that a machine planner should make use of its own past experience in developing new plans, relying on its memories instead of a base of rules. Memories of past successes are accessed and modified to create new plans. Memories of past failures are used to warn the planner of impending problems and memories of past repairs are called upon to tell the planner how to deal with them. 
+ 
+Successful plans are stored in memory, indexed by the goals they satisfy and the problems they avoid. Failures are also stored, indexed by the features in the world that predict them. By storing failures as well as successes, the planner is able to anticipate and avoid future plan failures. 
+ 
+These ideas of memory, learning and planning are implemented in the case-based planner CHEF, which creates new plans in the domain of Szechwan cooking.

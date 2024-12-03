@@ -1,0 +1,7 @@
+The classical branch-and-bound algorithm for the integer feasibility problem
+ [EQUATION]
+ has exponential worst case complexity.
+ We prove that it is surprisingly efficient on reformulations of (0.1), in which the columns of the constraint matrix are short and near orthogonal, i.e., a reduced basis of the generated lattice: when the entries of A are from {1, ..., M} for a large enough M, branch-and-bound solves almost all reformulated instances at the root node. For all A matrices we prove an upper bound on the width of the reformulations along the last unit vector.
+ Our results generalize the results of Furst and Kannan on the solvability of subset sum problems; also, we prove them via branch-and-bound, an algorithm traditionally considered inefficient from the theoretical point of view.
+ We use two main tools: first, we find a bound on the size of the branch-and-bound tree based on the norms of the Gram-Schmidt vectors of the constraint matrix. Second, building on the ideas of Furst and Kannan, we bound the number of integral matrices for which the shortest nonzero vectors of certain lattices are long.
+ We explore practical aspects of these results. We compute numerical values of M which guarantee that 90 and 99 percent of the reformulated problems solve at the root: these turn out to be surprisingly small when the problem size is moderate. We also confirm with a computational study that random integer programs become easier, as the coefficients grow.

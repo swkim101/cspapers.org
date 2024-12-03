@@ -1,0 +1,1 @@
+Harmony networks have been proposed as a means by which connectionist models can perform symbolic computation. Indeed, proponents claim that a harmony network can be built that constructs parse trees for strings in a context free language. This paper shows that harmony networks do not work in the following sense: they construct many outputs that are not valid parse trees.

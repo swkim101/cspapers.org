@@ -1,0 +1,1 @@
+This paper describes MIMD parallelization in SUPERB. SUPERB is an interactive system for semi-automatic transformation of Fortran 77 programs into parallel programs for the SUPRENUM machine. The main topic of this paper is array distribution as a basis for transformations used in MIMD parallelization.

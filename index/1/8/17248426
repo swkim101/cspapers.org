@@ -1,0 +1,4 @@
+
+ 
+ This paper describes our efforts preparing a mobile manipulator for the 2011 AAAI Small Scale Manipulation Challenge. We describe our approach to building a low-cost mobile manipulator for human-scale environments using ROS and off-the-shelf sensory and servos.
+ 

@@ -1,0 +1,5 @@
+While the most accurate word sense disambiguation systems are built using supervised learning from sense-tagged data, scaling them up to all words of a language has proved elusive, since preparing a sense-tagged corpus for all words of a language is time-consuming and human labor intensive. 
+ 
+In this paper, we propose and implement a completely automatic approach to scale up word sense disambiguation to all words of English. Our approach relies on English-Chinese parallel corpora, English-Chinese bilingual dictionaries, and automatic methods of finding synonyms of Chinese words. No additional human sense annotations or word translations are needed. 
+ 
+We conducted a large-scale empirical evaluation on more than 29,000 noun tokens in English texts annotated in OntoNotes 2.0, based on its coarsegrained sense inventory. The evaluation results show that our approach is able to achieve high accuracy, outperforming the first-sense baseline and coming close to a prior reported approach that requires manual human efforts to provide Chinese translations of English senses.

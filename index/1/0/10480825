@@ -1,0 +1,4 @@
+
+ 
+ Entity Set Expansion (ESE) and Attribute Extraction (AE) are usually treated as two separate tasks in Information Extraction (IE). However, the two tasks are tightly coupled, and each task can benefit significantly from the other by leveraging the inherent relationship between entities and attributes. That is, 1) an attribute is important if it is shared by many typical entities of a class; 2) an entity is typical if it owns many important attributes of a class. Based on this observation, we propose a joint model for ESE and AE, which models the inherent relationship between entities and attributes as a graph. Then a graph reinforcement algorithm is proposed to jointly mine entities and attributes of a specific class. Experimental results demonstrate the superiority of our method for discovering both new entities and new attributes.
+ 

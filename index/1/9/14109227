@@ -1,0 +1,1 @@
+Given a pattern string, we describe a way to preprocess it. We design a constant-time optimal parallel algorithm for finding all occurences of the (preprocessed) pattern in any given text.

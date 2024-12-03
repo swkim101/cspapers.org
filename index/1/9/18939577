@@ -1,0 +1,4 @@
+
+ 
+ Algorithm's time complexity is an essential issue for time series prediction in numerous practices.A novel fast exact inference method for Gaussian process model is proposed in this paper to accelerate the task of non-stationary time series prediction. Experiment was done on the real world power load data.
+ 

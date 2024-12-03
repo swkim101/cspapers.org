@@ -1,0 +1,1 @@
+Improving a long-standing result of Schonhage, Paterson, and Pippenger [ J. Comput. System Sci., 13 (1976), pp. 184--199] we show that the median of a set containing $n$ elements can always be found using at most $c \cdot n$ comparisons, where c<2.95.

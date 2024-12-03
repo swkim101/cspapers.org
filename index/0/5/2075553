@@ -1,0 +1,1 @@
+In synchronous rewriting, the productions of two rewriting systems are paired and applied synchronously in the derivation of a pair of strings. We present a new synchronous rewriting system and argue that it can handle certain phenomena that are not covered by existing synchronous systems. We also prove some interesting formal/computational properties of our system.

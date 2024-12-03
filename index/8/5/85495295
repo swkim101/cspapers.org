@@ -1,0 +1,2 @@
+In convex stochastic optimization, convergence rates in terms of minimizing the objective have been well-established. However, in terms of making the gradients small, the best known convergence rate was $O(\varepsilon^{-8/3})$ and it was left open how to improve it. 
+In this paper, we improve this rate to $\tilde{O}(\varepsilon^{-2})$, which is optimal up to log factors.

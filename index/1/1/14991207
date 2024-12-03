@@ -1,0 +1,5 @@
+We show two related things: 
+ 
+(1) Given a classifier which consists of a weighted sum of features with a large margin, we can construct a stochastic classifier with negligibly larger training error rate. The stochastic classifier has a future error rate bound that depends on the margin distribution and is independent of the size of the base hypothesis class. 
+ 
+(2) A new true error bound for classifiers with a margin which is simpler, functionally tighter, and more data-dependent than all previous bounds.

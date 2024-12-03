@@ -1,0 +1,11 @@
+Dung's abstract Argumentation Framework (AF) has emerged as a central formalism for argumentation in AI. 
+
+Preferences in AF allow to represent the comparative strength of arguments in a simple yet expressive way.
+
+In this paper we first investigate the complexity of the verification as well as credulous and skeptical acceptance problems in Preference-based AF (PAF) that extends AF with preferences over arguments. 
+
+Next, after introducing new semantics for AF where extensions are selected using cardinality (instead of set inclusion) criteria and investigating their complexity, we introduce a framework called AF with Priority rules (AFP) that extends AF with sequences of priority rules.
+
+AFP generalizes AF with classical set-inclusion and cardinality based semantics, suggesting that argumentation semantics can be viewed as ways to express priorities among extensions.
+
+Finally, we extend AFP by proposing AF with Priority rules and Preferences (AFP^2), where also preferences over arguments can be used to define priority rules, and study the complexity of the above-mentioned problems.

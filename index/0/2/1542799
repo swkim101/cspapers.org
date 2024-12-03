@@ -1,0 +1,1 @@
+We present an efficient O(n+1/?4.5-time algorithm for computing a (1+?)-approximation of the minimum-volume bounding box of n points in R3. We also present a simpler algorithm whose running time is O(nlogn+n/?3). We give some experimental results with implementations of various variants of the second algorithm.

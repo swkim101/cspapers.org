@@ -1,0 +1,4 @@
+
+ 
+ While much research exists on resolving spatial natural language references to known locations, little work deals with handling references to unknown locations. In this paper we introduce and evaluate algorithms integrated into a cognitive architecture which allow an agent to learn about its environ-ment while resolving references to both known and unknown locations. We also describe how multiple components in the architecture jointly facilitate these capabilities.
+ 

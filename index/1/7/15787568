@@ -1,0 +1,4 @@
+
+ 
+ We study the marginal-MAP problem on graphical models, and present a novel approximation method based on direct approximation of the sum operation. A primary difficulty of marginal-MAP problems lies in the non-commutativity of the sum and max operations, so that even in highly structured models, marginalization may produce a densely connected graph over the variables to be maximized, resulting in an intractable potential function with exponential size. We propose a chain decomposition approach for summing over the marginalized variables, in which we produce a structured approximation to the MAP component of the problem consisting of only pairwise potentials. We show that this approach is equivalent to the maximization of a specific variational free energy, and it provides an upper bound of the optimal probability. Finally, experimental results demonstrate that our method performs favorably compared to previous methods.
+ 

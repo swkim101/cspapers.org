@@ -1,0 +1,7 @@
+We present a fast construction algorithm for the hierarchical tree decompositions that lie at the heart of oblivious routing strategies and that form the basis for approximation and online algorithms for various cut problems in graphs. 
+ 
+Given an undirected graph G = (V, E, c) with edge capacities, we compute a single tree T = (VT, ET, cT), where the leaf nodes of T correspond to nodes in G, such that the tree approximates the cut-structure of G up to a factor of O(log4 n). The best existing construction by Harrelson, Hildrum, and Rao [12] just guarantees a polynomial running time but offers a better approximation guarantee of O(log2 n log log n). 
+ 
+Phrasing our results in terms of vertex sparsifiers, we obtain the following: For a graph G = (V, E) with a subset S of terminals, we compute a tree T with at most 2|S| vertices (and the leafs of T correspond to nodes in S) such that T is a flow-sparsifier for S in G with quality O(log2 n log2 k), where |V| = n and |S| = k. 
+ 
+The running time is O(polylog n · T(m, 1/log3n)) where T(m, e) is the time for computing an approximate maxflow in a graph with m edges. The latter is almost linear due to the recent results of Sherman [23] and Kelner et al. [13].

@@ -1,0 +1,1 @@
+In this paper we revisit Pustejovsky's proposal to treat ontologically complex word meaning by so-called dotted pairs. We use a higher-order feature logic based on Ohori's record λ-calculus to model the semantics of words like book and library, in particular their behavior in the context of quantification and cardinality statements.

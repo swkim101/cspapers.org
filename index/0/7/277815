@@ -1,0 +1,4 @@
+
+ 
+ An ad hoc team setting is one in which teammates must work together to obtain a common goal, but without any prior agreement regarding how to work together. In this abstract we present a role-based approach for ad hoc teamwork, in which each teammate is inferred to be following a specialized role that accomplishes a specific task or exhibits a particular behavior. In such cases, the role an ad hoc agent should select depends both on its own capabilities and on the roles currently selected by the other team members. We present methods for evaluating the influence of the ad hoc agent's role selection on the team's utility and we examine empirically how to select the best suited method for role assignment in a complex environment. Finally, we show that an appropriate assignment method can be determined from a limited amount of data and used successfully in similar new tasks that the team has not encountered before.
+ 

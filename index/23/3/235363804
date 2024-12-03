@@ -1,0 +1,3 @@
+Neural Networks (NNs) are popular machine learning models which have found successful application in many different domains across computer science. 
+However, it is hard to provide any formal guarantee on the behaviour of neural networks and therefore their reliability is still in doubt, especially concerning their deployment in safety and security-critical applications. 
+Verification emerged as a promising solution to address some of these problems. In the following, I will present some of my recent efforts in verifying NNs.

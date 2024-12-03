@@ -1,0 +1,4 @@
+
+ 
+ Recent advances of kernel methods have yielded a framework for representing probabilities using a reproducing kernel Hilbert space, called kernel embedding of distributions. In this paper, we propose a Monte Carlo filtering algorithm based on kernel embeddings. The proposed method is applied to state-space models where sampling from the transition model is possible, while the observation model is to be learned from training samples without assuming a parametric model. As a theoretical basis of the proposed method, we prove consistency of the Monte Carlo method combined with kernel embeddings. Experimental results on synthetic models and real vision-based robot localization confirm the effectiveness of the proposed approach.
+ 

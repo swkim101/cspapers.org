@@ -1,0 +1,1 @@
+This paper addresses one aspect of the problem of access control in a hierarchy. A general scheme is described which allows a user to generate from his own key the keys of users below him in the hierarchy. Two implementations of this scheme are then proposed and compared in terms of security and efficiency to an existing one.

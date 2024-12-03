@@ -1,0 +1,2 @@
+The VAX/VMS process schedule is briefly described. A simple priority-driven round-robin queuing model is then constructed to analyze the behavior of the time-critical processes of VAX/VMS under such a schedule.
+ Mean and variance of the conditional response time of a process at a given priority are derived, conditioned on the amount of service time required by that process. Numerical results are given with comparisons to the ordinary priority queuing systems.

@@ -1,0 +1,4 @@
+
+ 
+ Merge-and-shrink heuristics crucially rely on effective reduction techniques, such as bisimulation-based shrinking, to avoid the combinatorial explosion of abstractions. We propose the concept of factored symmetries for merge-and-shrink abstractions based on the established concept of symmetry reduction for state-space search. We investigate under which conditions factored symmetry reduction yields perfect heuristics and discuss the relationship to bisimulation. We also devise practical merging strategies based on this concept and experimentally validate their utility.
+ 

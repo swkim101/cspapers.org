@@ -1,0 +1,1 @@
+This paper introduces a closed-loop control algorithm to coordinate power management of memory ranks and thereby achieve power savings beyond independent rank power management while bounding the throughput degradation.

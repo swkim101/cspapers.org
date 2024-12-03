@@ -1,0 +1,19 @@
+In formal argumentation, a distinction can be made between extension-based semantics, where sets of
+
+arguments are either (jointly) accepted or not, and ranking-based semantics, where grades of accept-
+
+ability are assigned to arguments. Another important distinction is that between abstract approaches,
+
+that abstract away from the content of arguments, and structured approaches, that specify a method
+
+of constructing argument graphs on the basis of a knowledge base. While ranking-based semantics
+
+have been extensively applied to abstract argumentation, few work has been done on ranking-based
+
+semantics for structured argumentation. In this paper, we make a systematic investigation into the be-
+
+haviour of ranking-based semantics applied to existing formalisms for structured argumentation. We
+
+show that a wide class of ranking-based semantics gives rise to so-called culpability measures, and
+
+are relatively robust to specific choices in argument construction methods.

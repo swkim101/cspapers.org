@@ -1,0 +1,4 @@
+
+ 
+ We introduce an active learning framework designed to train classification models which use informative projections. Our approach works with the obtained low-dimensional models in finding unlabeled data for annotation by experts. The advantage of our approach is that the labeling effort is expended mainly on samples which benefit models from the considered hypothesis class. This results in an improved learning rate over standard selection criteria for data from the clinical domain.
+ 

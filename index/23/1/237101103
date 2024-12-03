@@ -1,0 +1,27 @@
+We present a generalization of belief base revision
+
+to the multi-agent case. In our approach agents
+
+have belief bases containing both propositional beliefs
+
+and higher-order beliefs about their own beliefs
+
+and other agents’ beliefs. Moreover, their belief
+
+bases are split in two parts: the mutable part,
+
+whose elements may change under belief revision,
+
+and the core part, whose elements do not change.
+
+We study a belief revision operator inspired by
+
+the notion of screened revision. We provide complexity
+
+results of model checking for our approach
+
+as well as an optimal model checking algorithm.
+
+Moreover, we study complexity of epistemic planning
+
+formulated in the context of our framework.

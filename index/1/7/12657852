@@ -1,0 +1,1 @@
+Software repositories contain an enormous amount of information such as revisions and bugs. Analyzing this data requires knowledge in mining software repositories and a large amount of infrastructure. We present our infrastructure Boa to ease such analyses. Our results show writing analyses with our framework is simpler and executes faster.

@@ -1,0 +1,4 @@
+
+ 
+ Maximization of submodular functions has wide applications in artificial intelligence and machine learning. In this paper, we propose a scalable learning algorithm for maximizing an adaptive submodular function. The key structural assumption in our solution is that the state of each item is distributed according to a generalized linear model, which is conditioned on the feature vector of the item. Our objective is to learn the parameters of this model. We analyze the performance of our algorithm, and show that its regret is polylogarithmic in time and linear in the number of features. Finally, we evaluate our solution on two problems, preference elicitation and adaptive face detection, and demonstrate that high-quality policies can be learned sample efficiently.
+ 

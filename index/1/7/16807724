@@ -1,0 +1,5 @@
+Networks have become multipath: mobile devices have multiple radio interfaces, datacenters have redundant paths andmultihoming is the normfor big server farms. Meanwhile, TCP is still only single-path. 
+ 
+Is it possible to extend TCP to enable it to support multiple paths for current applications on today's Internet? The answer is positive. We carefully review the constraints--partly due to various types of middleboxes-- that influenced the design of Multipath TCP and show how we handled them to achieve its deployability goals. 
+ 
+We report our experience in implementing Multipath TCP in the Linux kernel and we evaluate its performance. Our measurements focus on the algorithms needed to efficiently use paths with different characteristics, notably send and receive buffer tuning and segment reordering. We also compare the performance of our implementation with regular TCP on web servers. Finally, we discuss the lessons learned from designing MPTCP.

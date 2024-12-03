@@ -1,0 +1,2 @@
+We describe the architecture of a class of machines intended to solve computationally intensive problems much faster than can today's machines, at no increase in cost.
+ We have investigated the programming of the BVM for several interesting algorithms on a BVM of 2k bit positions per register. More theoretical study of implementations of such highly parallel algorithms is motivated.

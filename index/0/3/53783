@@ -1,0 +1,1 @@
+Experiment generation is an important part of incremental concept learning. One basic function of experimentation is to gather data to refine the existing space of hypotheses[DB83]. Here we examine the class of experiments that accomplish this, called discrimination experiments, and propose factoring as a technique for generating them efficiently.

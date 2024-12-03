@@ -1,0 +1,3 @@
+We present a simple and efficient algorithm for randomly generating simple graphs without small cycles. These graphs can be used to design high performance Low-Density Parity-Check (LDPC) codes. For any constant k, α ≤ 1/2k(k + 3) and m = O(n1+α), our algorithm generates an asymptotically uniform random graph with n vertices, m edges, and girth larger than k in polynomial time. To the best of our knowledge this is the first polynomial algorithm for the problem. 
+ 
+Our algorithm generates a graph by sequentially adding m edges to an empty graph with n vertices. Recently, this type of sequential process has been very successful for efficiently counting and generating random graphs [35, 18, 11, 7, 5, 6].

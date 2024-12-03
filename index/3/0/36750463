@@ -1,0 +1,4 @@
+
+ 
+ Multivariate time series (MTS) is useful for detecting abnormity cases in healthcare area. In this paper, we propose an ensemble boosting algorithm to classify abnormality surgery time series based on learning shapelet features. Specifically, we first learn shapelets by logistic regression from multivariate time series. Based on the learnt shapelets, we propose a MTS ensemble boosting approach when the time series arrives as stream fashion. Experimental results on a real-world medical dataset demonstrate the effectiveness of the proposed methods.
+ 

@@ -1,0 +1,1 @@
+Parametric filters, such as the Extended Kalman Filter and the Unscented Kalman Filter, typically scale well with the dimensionality of the problem, but they are known to fail if the posterior state distribution cannot be closely approximated by a density of the assumed parametric form.

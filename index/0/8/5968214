@@ -1,0 +1,1 @@
+A syntax tree or standard semantic representation can be represented as a set of indexed constraints. This paper describes how this idea can be used in task oriented dialogue systems to provide interpretation rules which incorporate structural and contextual constraints where available, and degrade gracefully on ungrammatical input.

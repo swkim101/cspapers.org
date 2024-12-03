@@ -1,0 +1,37 @@
+We investigate opinion dynamics in multi-agent networks when there
+
+exists a bias toward one of two possible opinions; for example, reflecting a status quo vs a
+
+superior alternative.
+
+Starting with all agents sharing an initial opinion representing the status
+
+quo, the system evolves in steps. In each step, one agent selected uniformly at
+
+random adopts with some probability a the superior opinion, and with
+
+probability 1 - a it follows an underlying update rule to revise its
+
+opinion on the basis of those held by its neighbors.
+
+We analyze the convergence of the resulting process under two well-known update 
+
+rules, namely majority and voter.
+
+The framework we propose exhibits a rich structure, with a nonobvious
+
+interplay between topology and underlying update rule.
+
+For example, for the voter rule we show that the speed of convergence 
+
+bears no significant dependence on the underlying topology, 
+
+whereas the picture changes completely under the majority rule, 
+
+where network density negatively affects convergence.
+
+We believe that the model we propose is at the same time simple, rich, and modular,
+
+affording mathematical characterization of the interplay between bias,
+
+underlying opinion dynamics, and social structure in a unified setting.

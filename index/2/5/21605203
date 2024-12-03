@@ -1,0 +1,5 @@
+When electronic equipment is designed there are two ways of defining the equipment:
+ 1) by parts content and
+ 2) by electrical interconnections.
+ The concern here is with electrical interconnections; how they are defined; how they flow through the phases of design; and how a computer-aided system has helped to create an efficient design tool out of a cumbersome manual data flow.
+ By comparing the manual system (Fig 1) with the computer-aided system (Fig 2) some basic problems and their solutions will be discussed, and the important features of the computer-aided system will be outlined. The main area of interest in both Figures is that which is enclosed in boxes.

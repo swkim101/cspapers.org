@@ -1,0 +1,4 @@
+
+ 
+ Learning relative similarity from pairwise instances is an important problem in machine learning and has a wide range of applications. Despite being studied for years, some existing methods solved by Stochastic Gradient Descent (SGD) techniques generally suffer from slow convergence. In this paper, we investigate the application of Stochastic Dual Coordinate Ascent (SDCA) technique to tackle the optimization task of relative similarity learning by extending from vector to matrix parameters. Theoretically, we prove the optimal linear convergence rate for the proposed SDCA algorithm, beating the well-known sublinear convergence rate by the previous best metric learning algorithms. Empirically, we conduct extensive experiments on both standard and large-scale data sets to validate the effectiveness of the proposed algorithm for retrieval tasks.
+ 

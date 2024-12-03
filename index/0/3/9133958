@@ -1,0 +1,4 @@
+
+ 
+ Churn happens when a customer leaves a brand or stop using its services. Brands reduce their churn rates by identifying and retaining potential churners through customer retention campaigns. In this paper, we consider the problem of classifying micro-posts as churny or non-churny with respect to a given brand. Motivated by the recent success of recurrent neural networks (RNNs) in word representation, we propose to utilize RNNs to learn micro-post and churn indicator representations. We show that such representations improve the performance of churn detection in microblogs and lead to more accurate ranking of churny contents. Furthermore, in this researchwe show that state-of-the-art sentiment analysis approaches fail to identify churny contents. Experiments on Twitter data about three telco brands show the utility of our approach for this task.
+ 

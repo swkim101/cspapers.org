@@ -1,0 +1,4 @@
+
+ 
+ We propose a new market design for display advertising contracts, based on posted prices. Our model and algorithmic framework address several major challenges: (i) the space of possible impression types is exponential in the number of attributes, which is typically large, therefore a complete price space cannot be maintained; (ii) advertisers are usually unable or reluctant to provide extensive demand (willingness-to-pay) functions, (iii) the levels of detail with which supply and demand are specified are often not identical.
+ 

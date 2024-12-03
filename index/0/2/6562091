@@ -1,0 +1,4 @@
+
+ 
+ In crowded multi-agent navigation environments, the motion of the agents is significantly constrained by the motion of the nearby agents. This makes planning paths very difficult and leads to inefficient global motion. To address this problem, we propose a new distributed approach to coordinate the motions of agents in crowded environments. With our approach, agents take into account the velocities and goals of their neighbors and optimize their motion accordingly and in real-time. We experimentally validate our coordination approach in a variety of scenarios and show that its performance scales to scenarios with hundreds of agents.
+ 

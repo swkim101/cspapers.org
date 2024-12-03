@@ -1,0 +1,4 @@
+
+ 
+ Evolution of Knowledge Bases (KBs) consists of incorporating new information in an existing KB. Previous studies assume that the new information should be fully trusted and thus completely incorporated in the old knowledge. We suggest a setting where the new knowledge can be partially trusted and develop model-based approaches (MBAs) to KB evolution that rely on this assumption. Under MBAs the result of evolution is a set of interpretations and thus two core problems for MBAs are closure, i.e., whether evolution result can be axiomatised with a KB, and approximation, i.e., whether it can be (maximally) approximated with a KB. We show that DL-Lite is not closed under a wide range of trust-sensitive MBAs. We introduce a notion of s-approximation that improves the previously proposed approximations and show how to compute it for various trust-sensitive MBAs.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ For many real-world tagging problems, training labels are usually obtained through social tagging and are notoriously incomplete. Consequently, handling data with incomplete labels has become a difficult challenge, which usually leads to a degenerated performance on label prediction. To improve the generalization performance, in this paper, we first propose the Improved Cross-View learning (referred as ICVL) model, which considers both global and local patterns of label relationship to enrich the original label set. Further, by extending the ICVL model with an outlier detection mechanism, we introduce the Improved Cross-View learning with Outlier Detection (referred as ICVL-OD) model to remove the abnormal tags resulting from label enrichment. Extensive evaluations on three benchmark datasets demonstrate that ICVL and ICVL-OD outstand with superior performances in comparison with the competing methods.
+ 

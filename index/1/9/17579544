@@ -1,0 +1,2 @@
+The cache memory is of great importance for the performance of computers like the IBM 3090 VF, thus a good cache utilization is mandatory. To this purpose it is essential to consider the stride of the vectors.
+A model of the cache is defined to calculate the percentage of cache utilization for a load of one vector with a certain stride. A mathematical formulation of the model and an experimental validation on the IBM 3090 VF are given. Finally, the question of how the model can be used when the cache utilization of real applications has to be predicted, is briefly addressed.

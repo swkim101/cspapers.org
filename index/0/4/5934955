@@ -1,0 +1,1 @@
+We give an algorithm that, for every fixed k, decides isomorphism of graphs of rank width at most k in polynomial time. As the rank width of a graph is bounded in terms of its clique width, we also obtain a polynomial time isomorphism test for graph classes of bounded clique width.

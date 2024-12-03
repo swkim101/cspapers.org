@@ -1,0 +1,1 @@
+One of the oldest Grand Challenge problems in computer science is the creation of a World Championship level chess computer. Combining VLSI custom circuits, dedicated massively parallel C@ search engines, and various new search algorithms, Deep Blue is designed to be such a computer. This paper gives an overview of the system, and examines the prospects of reaching the goal.

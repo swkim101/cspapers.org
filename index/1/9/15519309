@@ -1,0 +1,1 @@
+The containment of change is a major problem in the maintenance of a large body of design data. An initial approach to the problem is outlined. Augmented transition network grammars are used to describe the rules and constraints governing a data body and these grammars used to validate, generate and edit data.

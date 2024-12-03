@@ -1,0 +1,27 @@
+Network representation learning (RL) aims
+
+to transform the nodes in a network into low-dimensional vector spaces while
+
+preserving the inherent properties of the network. Though network RL has been intensively
+
+studied, most existing works focus on either network structure or node
+
+attribute information. In this paper, we propose a novel framework, named ANRL,
+
+to incorporate both the network structure and node attribute information in a principled
+
+way. Specifically, we propose a neighbor enhancement autoencoder to model the
+
+node attribute information, which reconstructs its target neighbors instead of
+
+itself. To capture the network structure, attribute-aware skip-gram model is designed
+
+based on the attribute encoder to formulate the correlations between each node and its
+
+direct or indirect neighbors. We conduct extensive experiments on six
+
+real-world networks, including two social networks, two citation networks and
+
+two user behavior networks. The results empirically show that ANRL can achieve
+
+relatively significant gains in node classification and link prediction tasks.

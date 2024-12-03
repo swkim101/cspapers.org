@@ -1,0 +1,1 @@
+Local networks offer unique opportunities for supporting multicast transmissions. This paper describes and analyzes several families of multicast algorithms for local networks. The algorithms examined provide reliable service by dealing with the effects of transmission errors.

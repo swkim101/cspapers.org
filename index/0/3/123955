@@ -1,0 +1,4 @@
+
+ 
+ An answer set program with variables is first-order definable on finite structures if the set of its finite answer sets can be captured by a first-order sentence, otherwise this program is first-order indefinable on finite structures. In this paper, we study the problem of first-order indefinability of answer set programs. We provide an Ehrenfeucht-Fraisse game-theoretic characterization for the first-order indefinability of answer set programs on finite structures. As an application of this approach, we show that the well-known finding Hamiltonian cycles program is not first-order definable on finite structures. We then define two notions named the 0-1 property and unbounded cycles or paths under the answer set semantics, from which we develop two sufficient conditions that may be effectively used in proving a program's first-order indefinability on finite structures under certain circumstances.
+ 

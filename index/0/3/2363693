@@ -1,0 +1,17 @@
+Video is increasingly being manipulated on computer systems. Canan interface for video manipulation be made sufficiently simple andpowerful to free the user's attention to focus on creative aspectsof the medium? How are images to be described so that they can beretrieved? How is this representation to be presented to the user?Issues of knowledge representation and interface design are tightlylinked.
+The Electronic Scrapbook is an environment designed to encouragepeople to use home video as a creative medium. This work addressesissues of knowledge representation, narrative structure, andinterface design. To date, I have:
+&bull;Developed the metaphor of a scrapbook as an interfacefor a video manipulation environment.
+&bull;Applied a semantic network to video logging.
+&bull;Implemented a pane-based video logging interface,which keeps information organized and minimizes screen clutter (seeFigure 1).
+&bull;Used inheritance to save the user work in loggingvideo.
+&bull;Created a library of story models, which help the userto tell home-video stories.
+&bull;Applied the use of specific domain knowledge to helpthe user.
+&bull;Focused on viewing the computer and the user aspartners in a creative process.
+&bull;Implemented a working system.
+Issues still to be solved include:
+&bull;Designing an interface to allow the user to create newstory models.
+&bull;Extending the logging interface to allow the user tomodify the underlying ontology.
+&bull;Creating ontologies for additional subjectdomains.
+&bull;Integrating object and stream representations of videoto maintain simplicity while better accounting for video's temporalnature.
+&bull;Testing the design on real users.
+Computer technology promises to make video more accessible tothe non-specialist. However, careful interface design is needed tohide technical complexities and free the user's attention to learnabout narrative structures and the creative potential of themedium. Using detailed color screen shots of the interface, I willbe able to discuss the solutions I have obtained so far and thechallenges that remain for incorporating video in theinterface.

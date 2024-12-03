@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present a hybrid grammar formalism designed to learn structured models of natural iconic gesture performances that allow for compressed representation and robust recognition. We analyze a dataset of iconic gestures and show how the proposed Feature-based Stochastic Context-Free Grammar (FSCFG) can generalize over both structural and feature-based variations among different gesture performances.
+ 

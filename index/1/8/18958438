@@ -1,0 +1,7 @@
+A program was written to solve calculus word problems. The program, CARPS (CAlculus Rate Problem Solver), is restricted to rate problems. The overall plan of the program is similar to Bobrow's STUDENT, the primary difference being the introduction of "structures" as the internal model in CARPS. Structures are stored internally as trees, each structure holding the information gathered about one object. 
+ 
+It was found that the use of structures made CARPS more powerful than STUDENT in several respects. 
+ 
+1) CARPS is better able to recognize that two phrases describe the same object. (e.g., CONICAL PILE and PILE OF SAND) 2) Information about an object can be gathered in piecemeal fashion. In calculus word problems it is not uncommon to have two or three sentences providing information for one equation. 3) CARPS to a limited degree is able to use its knowledge to parse its input sentences. For example, in a problem about a filter, ALTITUDE was interpreted as ALTITUDE OF THE FILTER because CARPS knew that since the filter was a cone and cones have altitudes the filter had an altitude. 
+ 
+The program has solved 14 calculus problems, most taken (sometimes with slight modifications) from standard calculus texts.

@@ -1,0 +1,1 @@
+Blum and Micali [4] showed how to hide one bit using the discrete logarithm function. In this paper we show how to hide c•loglog p bits for any constant c, where p is the modulus.

@@ -1,0 +1,4 @@
+
+ 
+ Besides fashion, personalization is another important factor of wearing. How to balance fashion trend and personal preference to better appreciate wearing is a non-trivial task. In previous work we develop a demo, Magic Mirror, to recommend clothing collocation based on the fashion trend. However, the diversity of people’s aesthetics is huge. In order to meet different demand, Magic Mirror is upgraded in this paper, and it can give out recommendations by considering both the fashion trend and personal preference, and work as a private clothing consultant. For more suitable recommendation, the virtual consultant will learn users’ tastes and preferences from their behaviors by using Genetic algorithm. Users can get collocations or matched top/bottom recommendation after choosing occasion and style. They can also get a report about their fashion state and aesthetic standpoint on recent wearing.
+ 

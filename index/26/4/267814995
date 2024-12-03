@@ -1,0 +1,3 @@
+Traditionally, outlier mining and anomaly discovery focused on the automatic detection of highly deviating objects. It has been studied for several decades in statistics, machine learning, and data mining, and has led to a lot of insight as well as automated systems for the detection of outliers. 
+ 
+However, for today's applications to be successful, mere identification of anomalies alone is not enough. With more and more applications using outlier analysis for data exploration and knowledge discovery, the demand for manual verification and understanding of outliers is steadily increasing. Examples include applications such as health surveillance, fraud analysis, or sensor monitoring, where one is particularly interested in why an object seems outlying.

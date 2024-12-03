@@ -1,0 +1,1 @@
+The rapid development of large computer networks led to investigations about distributing a very large data base throughout such a system. This paper describes the architecture of POREL, a distributed data base system currently being realized in Germany. The system is especially oriented toward an inhomogeneous network realized on both, large and small computers.

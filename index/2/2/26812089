@@ -1,0 +1,15 @@
+Ubiquitous environment's research has evolved 
+considerably over the last years. The wide 
+range of mobile devices, their high diversity and mobility have raised a variety of challenges being resource management a predominant, and therefore attracting special 
+attention in the research community. The 
+Composable-Adaptive Resource Management 
+(CARM) middleware library provides a exi- 
+ble infrastructure where personal devices create seamlessly on-demand interconnections 
+links to share ubiquitous resources. In this paper we present a CARM interesting use case, 
+consisting of an improved audio listening experience by sharing a high quality audio resource. A proof-of-concept implementation 
+is provided, and a testbed comprised of two 
+CARM enabled mobile phones with Bluetooth 
+connectivity making use of remote device's 
+audio resource is described. Our approach 
+demonstrates the importance and usability of 
+enhancing the dynamic resource sharing experience without altering the bandwidth efficiency.

@@ -1,0 +1,4 @@
+
+ 
+ Activity recognition based on data from mobile wearable devices is becoming an important application area for machine learning. We propose a novel approach based on a combination of feature extraction using time-delay embedding and supervised learning. The computational requirements are considerably lower than existing approaches, so the processing can be done in real time on a low-powered portable device such as a mobile phone. We evaluate the performance of our algorithm on a large, noisy data set comprising over 50 hours of data from six different subjects, including activities such as running and walking up or down stairs. We also demonstrate the ability of the system to accurately classify an individual from a set of 25 people, based only on the characteristics of their walking gait. The system requires very little parameter tuning, and can be trained with small amounts of data.
+ 

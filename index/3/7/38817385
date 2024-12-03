@@ -1,0 +1,4 @@
+
+ 
+ Real-Time Strategy (RTS) games involve multiple agents acting simultaneously, and result in enormous state dimensionality. In this paper, we propose an abstracted and simplified model for the famous game StarCraft, and design a dynamic programming algorithm to solve the building order problem, which takes minimal time to achieve a specific target. In addition, Genetic Algorithms (GA) are used to find an optimal target for the opening stage.
+ 

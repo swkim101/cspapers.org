@@ -1,0 +1,4 @@
+
+ 
+ A new algorithm via Canonical Correlation Analysis (CCA) is developed in this paper to support more effective cross-modal image clustering for large-scale annotated image collections. It can be treated as a bi-media multimodal mapping problem and modeled as a correlation distribution over multimodal feature representations. It integrates the multimodal feature generation with the Locality Linear Coding (LLC) and co-occurrence association network, multimodal feature fusion with CCA, and accelerated hierarchical k-means clustering, which aims to characterize the correlations between the inter-related visual features in images and semantic features in captions, and measure their association degree more precisely. Very positive results were obtained in our experiments using a large quantity of public data.
+ 

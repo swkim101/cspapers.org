@@ -1,0 +1,1 @@
+Our objective is to find a small set of images that summarize a robot's visual experience along a path. We present a novel on-line algorithm for this task. This algorithm is based on a new extension to the classical Secretaries Problem. We also present an extension to the idea of Bayesian Surprise, which we then use to measure the fitness of an image as a summary image.

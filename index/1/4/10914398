@@ -1,0 +1,1 @@
+We present a novel extension to a recently proposed incremental learning algorithm for the word segmentation problem originally introduced in Goldwater (2006). By adding rejuvenation to a particle filter, we are able to considerably improve its performance, both in terms of finding higher probability and higher accuracy solutions.

@@ -1,0 +1,5 @@
+TEST (Troubleshooting Expert System Tool) is an application shell that provides a domain-independent diagnostic problem solver together with a library of schematic prototypes. TEST fills a design niche halfway between rule-based and causal-model approaches. 
+ 
+This approach has resulted in a design that meets several functional requirements for an effective troubleshooting shelt. Most critically, TEST can represent both the impact of failure-modes on a machine or system of interest, as well as the heuristic problem-solving behavior which can lead to rapid conclusions. 
+ 
+This paper provides an overview of TEST's approach to diagnosis. As a special purpose application shell, TEST provides considerably more leverage to developers than can be gained through the use of general purpose heuristic classification systems.

@@ -1,0 +1,1 @@
+The sharp increase of RFID tags and readers require dedicated middleware solutions that manage readers and process event data. In this paper, we demonstrate a RFID middleware called LIT ALE Manager system with key features and also illustrate overall functional components of the middleware system with implementation techniques.

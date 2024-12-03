@@ -1,0 +1,22 @@
+This paper describes a set of experimental 
+results produced from the TIPSTER 
+SUMMAC initiative on user directed 
+summaries: document summaries generated in 
+the context of an information need expressed 
+as a query. The summarizer that was 
+evaluated was based on a set of existing 
+statistical techniques that had been applied 
+successfully to the INQUERY retrieval system. 
+The techniques proved to have a wider utility, 
+however, as the summarizer was one of the 
+better performing systems in the SUMMAC 
+evaluation. The design of this summarizer is 
+presented with a range of evaluations: both 
+those provided by SUMMAC as well as a set of 
+preliminary, more informal, evaluations that 
+examined additional aspects of the summaries. 
+Amongst other conclusions, the results reveal 
+that users can judge the relevance of 
+documents from their summary almost as 
+accurately as if they had had access to the 
+document’s full text.

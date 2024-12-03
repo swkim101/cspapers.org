@@ -1,0 +1,1 @@
+We give an explicit construction of a constant distortion embedding F of l<sub>2</sub><sup>n</sup> into l<sub>1</sub><sup>m</sup>, with m=n<sup>1+o(1)</sup>.As a bonus, our embedding also has good computational properties: for any input <i>x</i>, Fx can be computed in n<sup>1+o(1)</sup> time.The previously known mappings required Ω(n<sup>2</sup>) evaluation time.

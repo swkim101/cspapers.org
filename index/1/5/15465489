@@ -1,0 +1,1 @@
+This paper presents a high-level design for a local area network (LAN) that will support subscribers (terminals or hosts) operating at various security levels. Subscribers may be "single-level", which means they are untrusted and can operate at only one security level, or they may be "multilevel" and trusted to operate at a range of security levels [Nibaldi79].

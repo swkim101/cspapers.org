@@ -1,0 +1,1 @@
+A novel approach to subspace clustering is proposed to exhaustively and efficiently mine quantitative frequent item-sets (QFIs) from massive transaction data. For the computational tractability, our approach introduces adaptive density-based and Apriori-like algorithm. Its outstanding performance is shown through numerical experiments.

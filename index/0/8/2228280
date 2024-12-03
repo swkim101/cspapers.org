@@ -1,0 +1,7 @@
+The paper describes a system of notions (a T-model) developed for representing temporal information on the semantics-pragmatics level in a natural language understanding system. 
+ 
+The choice of the notions to be considered has been relied upon a necessity of special facilities for describing situations with various degrees of detailing according to an inexact character of temporal information in natural language texts. 
+ 
+Time is modelled as a straight directed line, and four main objects: point, interval, quantity and chain together with four groups of notions associated with them are included into the model. 
+ 
+A structure of the T-model and its base notions are briefly outlined in the first section of the paper. The representation of temporal information by means of T-model objects is then considered by examples.

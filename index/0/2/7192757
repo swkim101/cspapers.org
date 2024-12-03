@@ -1,0 +1,10 @@
+PointCast Inc, the inventor and leader in broadcast news via the Internet and corporate intranets was founded in 1992 to deliver news as it happens from leading sources such as CNN, the New York Times, Wall Street Journal Interactive Edition and more, directly to a viewer's computer screen.
+The PointCast Network is an integrated client/server system. The system give users control of selecting kinds of information the client retrieves and, within limits, the frequency of those retrievals.
+The system is divided into client and server segments, referred to as “PointCast Client” and “the DataCenter” respectively. PointCast client is a program that runs on the user's Internet-connected computer, and performs a number of functions in addition to retrieving information from the DataCenter.
+The server side of the system, known as the PointCast DataCenter, supports the client by providing compelling content in a timely fashion. The Data Center is composed of multiple sites geographically distributed all over US, each carrying a number of industrial strength web servers called “PointServers”. The PointServers are highly customized and “infinitely” scalable to serve close to 200 million requests handled by the PointCast network in a day.
+The PointCast network receives content from over 100 different sources via satellite links or over the internet. A cluster of servers in the Data Center run customized processes round the clock which assimilate data from various sources to index, format and store it in multiple content databases.
+This presentation will describe the basic plumbing of the PointCast Network and how some of the challenges of establishing one of the busiest data centers in the world were addressed and implemented. It will focus on following issues:fault tolerance
+load balancing
+achieving scalability through pre-caching on servers
+packaging information to optimize internet bandwidth usage
+minimizing data latency.

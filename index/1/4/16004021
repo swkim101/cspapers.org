@@ -1,0 +1,4 @@
+
+ 
+ We propose a fast batch learning method for linear-chain Conditional Random Fields (CRFs) based on Newton-CG methods. Newton-CG methods are a variant of Newton method for high-dimensional problems. They only require the Hessian-vector products instead of the full Hessian matrices. To speed up Newton-CG methods for the CRF learning, we derive a novel dynamic programming procedure for the Hessian-vector products of the CRF objective function. The proposed procedure can reuse the byproducts of the time-consuming gradient computation for the Hessian-vector products to drastically reduce the total computation time of the Newton-CG methods. In experiments with tasks in natural language processing, the proposed method outperforms a conventional quasi-Newton method. Remarkably, the proposed method is competitive with online learning algorithms that are fast but unstable.
+ 

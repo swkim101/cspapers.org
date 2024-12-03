@@ -1,0 +1,4 @@
+
+ 
+ We report a novel approach to addressing the Raven’s Progressive Matrices (RPM) tests, one based upon purely visual representations. Our technique introduces the calculation of confidence in an answer and the automatic adjustment of level of resolution if that confidence is insufficient. We first describe the nature of the visual analogies found on the RPM. We then exhibit our algorithm and work through a detailed example. Finally, we present the performance of our algorithm on the four major variants of the RPM tests, illustrating the impact of confidence. This is the first such account of any computational model against the entirety of the Raven’s.
+ 

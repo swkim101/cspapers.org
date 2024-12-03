@@ -1,0 +1,1 @@
+In order to avoid transmitting raw data to a base station, sensor nodes are trained to cooperatively recognize deployment-specific events based on the data sampled by their sensors. As both training and event detection are performed without the need for central coordination or processing, only information about the detected event needs to be reported.

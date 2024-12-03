@@ -1,0 +1,4 @@
+
+ 
+ Matrix concentration inequalities have attracted much attention in diverse applications such as linear algebra, statistical estimation, combinatorial optimization, etc. In this paper, we present new Bernstein concentration inequalities depending only on the first moments of random matrices, whereas previous Bernstein inequalities are heavily relevant to the first and second moments. Based on those results, we analyze the empirical risk minimization in the presence of label noise. We find that many popular losses used in risk minimization can be decomposed into two parts, where the first part won't be affected and only the second part will be affected by noisy labels. We show that the influence of noisy labels on the second part can be reduced by our proposed LICS (Labeled Instance Centroid Smoothing) approach. The effectiveness of the LICS algorithm is justified both theoretically and empirically.
+ 

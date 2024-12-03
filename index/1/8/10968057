@@ -1,0 +1,1 @@
+In this paper, we present a workflow model together with an implementation following the Linked Data principles and the principles for RESTful web services. By means of RDF-based specifications of web services, workflows, and runtime information, we establish a full provenance chain for all resources created within these workflows.

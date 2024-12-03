@@ -1,0 +1,1 @@
+In this work we resolve conjectures of Beecken, Mitmann and Saxena [BMS13] and Gupta [Gupta14], by proving an analog of a theorem of Edelstein and Kelly for quadratic polynomials. As immediate corollary we obtain the first deterministic polynomial time black-box algorithm for testing zeroness of Σ[3]ΠΣΠ[2] circuits.

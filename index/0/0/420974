@@ -1,0 +1,4 @@
+
+ 
+ Several mechanisms have been proposed for incentivizing truthful reports of a private signals owned by rational agents, among them the peer prediction method and the Bayesian truth serum. The robust Bayesian truth serum (RBTS) for small populations and binary signals is particularly interesting since it does not require a common prior to be known to the mechanism. We further analyze the problem of the common prior not known to the mechanism and give several results regarding the restrictions that need to be placed in order to have an incentive-compatible mechanism. Moreover, we construct a Bayes-Nash incentive-compatible scheme called multi-valued RBTS that generalizes RBTS to operate on both small populations and non-binary signals.
+ 

@@ -1,0 +1,1 @@
+In this paper we present a new approximation algorithm for the Max Acyclic Subgraph problem. Given an instance where the maximum acyclic subgraph contains 1/2 + delta fraction of all edges, our algorithm finds an acyclic subgraph with 1/2 + Omega(delta/ log n) fraction of all edges.

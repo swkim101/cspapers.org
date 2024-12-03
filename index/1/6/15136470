@@ -1,0 +1,4 @@
+
+ 
+ Integrating the expressive power of first-order logic with the ability of probabilistic reasoning of Bayesian networks has attracted the interest of many researchers for decades. We present an approach to integration that translates logical knowledge into Bayesian networks and uses Bayesian network composition to build a uniform representation that supports both logical and probabilistic reasoning. In particular, we propose a new way of translation of logical knowledge, relation search. Through the use of the proposed framework, without learning new languages or tools, modelers are allowed to 1) specify special knowledge using the most suitable languages, while reasoning in a uniform engine; 2) make use of pre-existing logical knowledge bases for probabilistic reasoning (to complete the model or minimize potential inconsistencies).
+ 

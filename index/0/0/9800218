@@ -1,0 +1,1 @@
+We quantify the extent to which references to papers in scholarly literature use persistent HTTP URIs that leverage the Digital Object Identifier infrastructure. We find a significant number of references that do not, speculate why authors would use brittle URIs when persistent ones are available, and propose an approach to alleviate the problem.

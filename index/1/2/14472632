@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present the exact online updating formulae for the generalized inverse of centered matrices. The computational cost is O(mn) for matrices of size m × n. Experimental results validate the proposed method’s accuracy and efficiency. 
+ 

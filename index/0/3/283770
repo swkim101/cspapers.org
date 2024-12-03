@@ -1,0 +1,5 @@
+This paper describes a series of experiments to test the hypothesis that the parallel application of multiple NLP tools and the integration of their results improves the correctness and robustness of the resulting analysis. 
+ 
+It is shown how annotations created by seven NLP tools are mapped onto tool-independent descriptions that are defined with reference to an ontology of linguistic annotations, and how a majority vote and ontological consistency constraints can be used to integrate multiple alternative analyses of the same token in a consistent way. 
+ 
+For morphosyntactic (parts of speech) and morphological annotations of three German corpora, the resulting merged sets of ontological descriptions are evaluated in comparison to (ontological representation of) existing reference annotations.

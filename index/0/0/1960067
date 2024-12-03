@@ -1,0 +1,4 @@
+
+ 
+ Authorship attribution is an active research direction due to its legal and financial importance. The goal is to identify the authorship of anonymous texts. In this paper, we propose a Topic Drift Model (TDM), monitoring the dynamicity of authors’ writing style and latent topics of interest. Our model is sensitive to the temporal information and the ordering of words, thus it extracts more information from texts.
+ 

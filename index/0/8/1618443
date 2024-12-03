@@ -1,0 +1,4 @@
+
+ 
+ To judge how much a pair of words (or texts) are semantically related is acognitive process. However, previous algorithms for computing semanticrelatedness are largely based on co-occurrences within textualwindows, and do not actively leverage cognitive human perceptions ofrelatedness. To bridge this perceptional gap, we propose to utilizefree association as signals to capture such human perceptions.However, free association, being manually evaluated,has limited lexical coverage and is inherently sparse. We propose to expand lexical coverage and overcome sparseness by constructing an association network of terms and concepts that combines signals from free association norms and five types of co-occurrences extracted from therich structures of Wikipedia. Our evaluation results validate thatsimple algorithms on this network give competitive results incomputing semantic relatedness between words and between shorttexts.
+ 

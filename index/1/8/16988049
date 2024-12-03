@@ -1,0 +1,1 @@
+Our main result is the demonstration of a Boolean function <italic>f</italic> with nondeterministic and co-nondeterministic complexities <italic>O</italic>(log <italic>n</italic>) and ε-error randomized complexity &OHgr;(log<supscrpt>2</supscrpt> <italic>n</italic>), for 0 ≤ ε < 1/2. This is the first separation of this kind for a decision problem.

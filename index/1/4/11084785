@@ -1,0 +1,4 @@
+
+ 
+ We are interested in exploring the possibility and benefits of structure learning for deep models. As the first step, this paper investigates the matter for Restricted Boltzmann Machines (RBMs). We conduct the study with Replicated Softmax, a variant of RBMs for unsupervised text analysis. We present a method for learning what we call Sparse Boltzmann Machines, where each hidden unit is connected to a subset of the visible units instead of all of them.  Empirical results show that the method yields models with significantly improved model fit and interpretability as compared with RBMs where each hidden unit is connected to all visible units.
+ 

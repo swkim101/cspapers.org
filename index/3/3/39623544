@@ -1,0 +1,4 @@
+
+ 
+ We propose Epitomic Image Super-Resolution (ESR) to enhance the current internal SR methods that exploit the self-similarities in the input. Instead of local nearest neighbor patch matching used in most existing internal SR methods, ESR employs epitomic patch matching that features robustness to noise, and both local and non-local patch matching. Extensive objective and subjective evaluation demonstrate the effectiveness and advantage of ESR on various images.
+ 

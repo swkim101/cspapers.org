@@ -1,0 +1,1 @@
+We introduce an evaluation metric called P-measure for the task of retrieving <ione highly relevant document. It models user behaviour in practical tasks such as known-item search, and is more stable and sensitive than Reciprocal Rank which cannot handle graded relevance.

@@ -1,0 +1,1 @@
+Multipath TCP is a new extension to TCP that enables a host to transmit the packets from a given connection by using several interfaces. We propose mptcptrace, a software that enables a detailed analysis of Multipath TCP packet traces.

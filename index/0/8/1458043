@@ -1,0 +1,3 @@
+It is well known that every set in P has small circuits [13]. Adleman [1] has recently proved the stronger result that every set accepted in polynomial time by a randomized Turing machine has small circuits. Both these results are typical of the known relationships between uniform and nonuniform complexity bounds. They obtain a nonuniform upper bound as a consequence of a uniform upper bound.
+ The central theme here is an attempt to explore the converse direction. That is, we wish to understand when nonuniform upper bounds can be used to obtain uniform upper bounds.
+ In this section we will define our basic notion of nonuniform complexity. Then we will show how to relate it to more common notions.

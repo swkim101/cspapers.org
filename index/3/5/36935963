@@ -1,0 +1,1 @@
+The Mickey UIMS maps the user interface style and techniques of the Apple Macintosh onto the declarative constructs of Pascal. The relationships between user interfaces and the programming language control the interface generation. This imposes some restrictions on the possible styles of user interfaces but greatly enhances the usability of the UIMS.

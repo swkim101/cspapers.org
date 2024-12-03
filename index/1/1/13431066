@@ -1,0 +1,4 @@
+
+ 
+ Multi-robot teams are useful in a variety of task allocation domains such as warehouse automation and surveillance. Robots in such domains perform tasks at given locations and specific times, and are allocated tasks to optimize given team objectives. We propose an efficient, satisficing and centralized Monte Carlo TreeSearch based algorithm exploiting branch and bound paradigm to solve the multi-robot task allocation problem with spatial, temporal and other side constraints. Unlike previous heuristics proposed for this problem, our approach offers theoretical guarantees and finds optimal solutions for some non-trivial data sets.
+ 

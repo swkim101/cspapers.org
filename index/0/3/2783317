@@ -1,0 +1,4 @@
+
+ 
+ In multi-data learning, it is usually assumed that common latent factors exist among multi-datasets, but it may lead to deteriorated performance when datasets are heterogeneous and unbalanced. In this paper, we propose a novel common structure for multi-data learning. Instead of common latent factors, we assume that datasets share Common Adjacency Graph (CAG) structure, which is more robust to heterogeneity and unbalance of datasets. Furthermore, we utilize CAG structure to develop a new method for multi-tensor completion, which exploits the common structure in datasets to improve the completion performance. Numerical results demostrate that the proposed method not only outperforms state-of-the-art methods for video in-painting, but also can recover missing data well even in cases that conventional methods are not applicable.
+ 

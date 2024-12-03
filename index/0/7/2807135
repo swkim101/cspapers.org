@@ -1,0 +1,1 @@
+This paper describes AutoTag, a tool which suggests tags for weblog posts using collaborative filtering methods. An evaluation of AutoTag on a large collection of posts shows good accuracy; coupled with the blogger's final quality control, AutoTag assists both in simplifying the tagging process and in improving its quality.

@@ -1,0 +1,11 @@
+Dynamic Binary Translators and Optimizers 
+(DBTOs) have been established as a hot research topic. They are used in many different systems, such as emulation, instrumentation tools and innovative HW/SW co-designed microarchitectures. 
+Although many researchers worked on characterizing and reducing the emulation overhead, to the best of our knowledge, there are no published results that explain how the microarchitectural 
+behavior of the emulation software is affected by the guest application which is emulated. 
+In this paper we study the DBTO as an independent application, which is divided into the modules with specific functionality. 
+We show the variance in microarchitectural behavior of DBTO among 48 applications. Moreover, we locate and explain the 
+sources of variance. The results show that the variance is caused 
+by interaction with the code cache (emulated application) and non 
+uniform module execution characteristics. The insights presented 
+in this paper can be exploited towards the design of more efficient 
+DBTOs

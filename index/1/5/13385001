@@ -1,0 +1,1 @@
+Force-directed placement algorithms are experimentally compared using several sample problems. Significant differences are noted in the computational efficiency of the algorithms, and in the relationship of the placement solution to the routability of the resulting board.

@@ -1,0 +1,5 @@
+This paper focuses on identifying, extracting and evaluating features related to syntactic complexity of spontaneous spoken responses as part of an effort to expand the current feature set of an automated speech scoring system in order to cover additional aspects considered important in the construct of communicative competence. 
+ 
+Our goal is to find effective features, selected from a large set of features proposed previously and some new features designed in analogous ways from a syntactic complexity perspective that correlate well with human ratings of the same spoken responses, and to build automatic scoring models based on the most promising features by using machine learning methods. 
+ 
+On human transcriptions with manually annotated clause and sentence boundaries, our best scoring model achieves an overall Pearson correlation with human rater scores of r=0.49 on an unseen test set, whereas correlations of models using sentence or clause boundaries from automated classifiers are around r=0.2.

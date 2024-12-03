@@ -1,0 +1,1 @@
+Shadow projections from multilight sources in computer-generated 3-D scences are performed in the new transformed space called stereo space with reduced computation. The new transformation has particular applications to raster-scan shading algorithms.

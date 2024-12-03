@@ -1,0 +1,4 @@
+
+ 
+ We present a knowledge-rich approach to computing semantic relatedness which exploits the joint contribution of different languages. Our approach is based on the lexicon and semantic knowledge of a wide-coverage multilingual knowledge base, which is used to compute semantic graphs in a variety of languages. Complementary information from these graphs is then combined to produce a 'core' graph where disambiguated translations are connected by means of strong semantic relations. We evaluate our approach on standard monolingual and bilingual datasets, and show that: i) we outperform a graph-based approach which does not use multilinguality in a joint way; ii) we achieve uniformly competitive results for both resource-rich and resource-poor languages.
+ 

@@ -1,0 +1,2 @@
+This paper presents an algorithm for finding optimum routings for interconnection paths in a channel between two parallel rows of circuit cells.
+ The algorithm, although based on branch and bound, has provided optimum routings for circuits with 50 to 60 nets in a minute or two of computing.

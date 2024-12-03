@@ -1,0 +1,1 @@
+This paper adresses the Path Planning and the Trajectory Planning problems for mobile robots moving in dynamic ill-structured environments. The obstacle avoidance problem during large motions is discussed and a multi-expert motion planning system is described. Then, the non holonomic constraints are studied for the fine motions. At last, some implementations are described.

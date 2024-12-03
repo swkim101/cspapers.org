@@ -1,0 +1,1 @@
+We propose a relaxation-based approximate inference algorithm that samples near-MAP configurations of a binary pairwise Markov random field. We experiment on MAP inference tasks in several restricted Boltzmann machines. We also use our underlying sampler to estimate the log-partition function of restricted Boltzmann machines and compare against other sampling-based methods.

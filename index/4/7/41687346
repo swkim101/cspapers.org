@@ -1,0 +1,4 @@
+
+ 
+ We propose a framework where humans and computers can collaborate seamlessly to solve problems. We do so by developing and applying a network model, namely Memenets, where human knowledge and reasoning are combined with machine computation to achieve problem-solving. The development of a Memenet is done in three steps: first, we simulate a machine-only network, as previous results have shown that memenets are efficient problem-solvers. Then, we perform an experiment with human agents organized in a online network. This allows us to investigate human behavior while solving problems in a social network and to postulate principles of agent communication in Memenets. These postulates describe an initial theory of how human-computer interaction functions inside social networks. In the third stage, postulates of step two allow one to combine human and machine computation to propose an integrated Memenet-based problem-solving computing model.
+ 

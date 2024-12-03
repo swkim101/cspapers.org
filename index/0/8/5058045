@@ -1,0 +1,1 @@
+Let H~ be the height of a random binary search tree on n nodes. We show that there exists constants a = 4.31107.. . and/3 = 1.95.. . such that E(H~) = c~logn / 3 1 o g l o g n + O(1), We also show that Var(H~) = O(1).

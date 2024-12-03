@@ -1,0 +1,1 @@
+In this paper, we describe a context server application for mobile computing. Its main objective is to assist developers to exploit context-aware features in their applications. This approach uses the extraction of new context information using a combination of sensors and proposes a sensing abstraction layer to avoid having to deal with specific hardware.

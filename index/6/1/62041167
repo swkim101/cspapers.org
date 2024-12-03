@@ -1,0 +1,11 @@
+Construction of complex systems out of black-box components or services involves nontrivial glue code that embodies increasingly complex protocols, far beyond trivial "wiring" of those components or services. Distribution of the constituent components and services and their heterogeneity, as in service oriented computing, only compound the complexity of the connectors that must compose and engage them in such protocols. Systematic approaches to tackle this complexity requires the recognition of connectors as first-class concepts. 
+ 
+The focus of this workshop is on the glue code itself and its properties, independent of the entities that it connects. The goal of this workshop is to advocate glue code as a first-class constituent in complex systems, and promote application of formal methods to its synthesis and analysis as a means to allow compositional construction and reasoning about the properties of composite systems. 
+ 
+Topics of interest include models, methods, logics, tools, techniques, middleware, and systems for formal synthesis and analysis of coordination glue code used to connect back-box components and services in parallel and distributed environments to compose new systems or services. Both behavioral properties (liveness, termination, reachability, etc.) as well as non-functional properties (e.g., resource consumption, quality of service, performance measures, etc.) constitute relevant topics of interest. 
+ 
+This workshop is open for participation to any member of the community, particularly researchers working on formal methods, verification, concurrency, coordination, service oriented computing, Grid, and component based software engineering. Specifically, participation by PhD students is encouraged. 
+ 
+The workshop webpage: http://wwwtcs.inf.tu-dresden.de/ALGI/syancoworkshop/ 
+ 
+The SYANCO workshop is sponsored by the project SYANCO, funded by the bilateral research program of the German Research Foundation (DFG) in Germany and the Netherlands Organization for Scientific Research (NWO) in the Netherlands, under the project numbers DFG BA-1679/5-1 and NWO DN-62-613.

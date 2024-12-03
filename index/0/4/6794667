@@ -1,0 +1,4 @@
+
+ 
+ One of the most ubiquitous AI applications is vehicle route planning. While state-of-the-art systems take into account current traffic conditions or historic traffic data, current planning approaches ignore the impact of their own plans on the future traffic conditions. We present a novel algorithm for self-aware route planning that uses the routes it plans for current vehicle traffic to more accurately predict future traffic conditions for subsequent cars. Our planner uses a roadmap with stochastic, time-varying traffic densities that are defined by a combination of historical data and the densities predicted by the planned routes for the cars ahead of the current traffic. We have applied our algorithm to large-scale traffic route planning, and demonstrated that our self-aware route planner can more accurately predict future traffic conditions, which results in a reduction of the travel time for those vehicles that use our algorithm.
+ 

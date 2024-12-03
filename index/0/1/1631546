@@ -1,0 +1,5 @@
+This paper describes the VOCAL (Voice Operated CALculator) speech understanding system. VOCAL is a software package that lets its user program a computer to perform numerical calculations by speaking to It in English-like sentences. To accomplish this, VOCAL uses processes for acoustic, grammatical, and semantic analysis. These individual procedures, which are relatively simple, are embedded in a control structure that uses the information from each component to arrive at a meaningful interpretation of spoken sentences. 
+ 
+One unique feature of VOCAL, which is essential to the development of speech understanding systems, is that it is complete and self-contained. Coded in standard FORTRAN, it is compact enough to run on many minicomputers and can be used in a real-time, on-line environment on slightly more powerful machines. 
+ 
+Testing has shown that despite a correct word identification rate of leas that 60% the VOCAL system usually correctly interprets even very long sentences.

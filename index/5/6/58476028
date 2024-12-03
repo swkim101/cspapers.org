@@ -1,0 +1,1 @@
+Deals with the transformation of a system of concurrent and communicating Ada tasks into a d-graph so as to extend structural testing and metrication techniques, which have been widely studied in sequential environments, to concurrent environments. >

@@ -1,0 +1,11 @@
+We present a methodology to link domain 
+thesauri to general-domain lexica. This is 
+applied in the framework of the KYOTO 
+project to link the Species2000 thesaurus 
+to the synsets of the English WordNet. 
+Moreover, we study the formalisation of 
+this thesaurus according to the ISO LMF 
+standard and its dialect WordNet-LMF. 
+This conversion will allow Species2000 
+to communicate with the other resources 
+available in the KYOTO architecture.

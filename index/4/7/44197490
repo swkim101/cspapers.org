@@ -1,0 +1,1 @@
+This paper presents Temporal@ODIL, a project that aims at building the largest corpus annotated with temporal information on spoken French. The annotation is based on an adaptation of the ISO-TimeML standard that consists in grounding the annotation on a treebank and not on raw text.

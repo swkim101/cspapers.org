@@ -1,0 +1,5 @@
+The principal restrictions previously placed on the relational data base model have been removed in the L2 model, presented here. 
+ 
+We extend the model to include null (i.e. unknown and non-relevant) values (even in keys), repetitions of tuples, functional dependencies, a very rich set of constraints and information originating from several sources. 
+ 
+The programmed problem-solver ALICE is utilized to manipulate the constraints and to simplify relations: to answer a query, ALICE selects both the tuples which might answer the query upon appropriate substitutions for unknown values.

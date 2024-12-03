@@ -1,0 +1,4 @@
+
+ 
+ Tournament solution concepts, selecting winners based on a pairwise dominance relation are an important structure often used in sports, as well as elections, and argumentation theory. Manipulation of such choice rules by coalitions of agents are a significant problem in most common rules. We deal with the problem of the manipulation of randomized choice rules by coalitions varying from a single agent, to two or more agents. We define two notions of coalitional manipulations of such choice rules based on whether or not utility is transferable. We show useful choice rules satisfying both notions of non-manipulability, and for the transferable utility case provide bounds on the level of Condorcet consistency.
+ 

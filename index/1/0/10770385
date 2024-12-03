@@ -1,0 +1,1 @@
+We present and compare learning rate schedules for stochastic gradient descent, a general algorithm which includes LMS, on-line backpropagation and k-means clustering as special cases. We introduce "search-then-converge" type schedules which outperform the classical constant and "running average" (1/t) schedules both in speed of convergence and quality of solution.

@@ -1,0 +1,1 @@
+This paper is concerned with making precise the notion that recognizing plans is much like parsing text. To this end, it establishes a correspondence between Kautz' plan recognition formalism and existing grammatical frameworks. This mapping helps isolate subsets of Kautz' formalism in which plan recognition can be efficiently performed by parsing.

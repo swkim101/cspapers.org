@@ -1,0 +1,1 @@
+For tape constructible functions S(n)≥log n, if a language L is accepted by an S(n) tape bounded probabilistic Turing machine, then there is an S(n) tape bounded probabilistic Turing machine that accepts &Lmarc;, the complement of L.

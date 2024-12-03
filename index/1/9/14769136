@@ -1,0 +1,4 @@
+
+ 
+ We derive a convex optimization problem for the task of segmenting sequential data, which explicitly treats presence of outliers. We describe two algorithms for solving this problem, one exact and one a top-down novel approach, and we derive a consistency results for the case of two segments and no outliers. Robustness to outliers is evaluated on two real-world tasks related to speech segmentation. Our algorithms outperform baseline segmentation algorithms.
+ 

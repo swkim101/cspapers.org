@@ -1,0 +1,1 @@
+The mapping of the back-propagation and mean field theory learning algorithms onto a generic 2-D SIMD computer is described. This architecture proves to be very adequate for these applications since efficiencies close to the optimum can be attained. Expressions to find the learning rates are given and then particularized to the DAP array procesor.

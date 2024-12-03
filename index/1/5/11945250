@@ -1,0 +1,1 @@
+The present approach uses stopwords and the gaps that occur between successive stopwords -formed by contentwords- as features for sentiment classification.

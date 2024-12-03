@@ -1,0 +1,4 @@
+
+ 
+ Transportation and mobility are central to sustainable urban development, where multiagent-based route guidance is widely applied. Traditional multiagent-based route guidance always seeks LET (least expected travel time) paths. However, drivers usually have specific expectations, i.e., tight or loose deadlines, which may not be all met by LET paths. We thus adopt and extend the probability tail model that aims to maximize the probability of reaching destinations before deadlines. Specifically, we propose a decentralized multiagent approach, where infrastructure agents locally collect intentions of concerned vehicle agents and formulate route guidance as a route assignment problem, to guarantee their arrival on time. Experimental results on real road networks justify its ability to increase the chance of arrival on time.
+ 

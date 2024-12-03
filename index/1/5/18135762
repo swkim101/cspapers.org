@@ -1,0 +1,1 @@
+Topic segmentation is an important initial step in many text-based tasks. A hierarchical representation of a texts topics is useful in retrieval and allows judging relevancy at different levels of detail. This short paper describes research on generic algorithms for topic detection and segmentation that are applicable on texts of heterogeneous types and domains.

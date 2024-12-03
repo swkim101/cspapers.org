@@ -1,0 +1,4 @@
+
+ 
+ In many reinforcement learning applications, it is desirable to determine confidence interval lower bounds on the performance of any given policy without executing said policy. In this context, we propose two bootstrapping off-policy evaluation methods which use learned MDP transition models in order to estimate lower confidence bounds on policy performance with limited data. We empirically evaluate the proposed methods in a standard policy evaluation tasks.
+ 

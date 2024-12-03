@@ -1,0 +1,1 @@
+We demonstrate a mote-scale, human-animal classifier based on a micropower radar. Our classifier is automatically learned from diverse data, using features in the joint time-frequency domain. It is being used as part of a wireless sensor network in a forest to create a virtual fence for human and wildlife protection.

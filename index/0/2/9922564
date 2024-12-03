@@ -1,0 +1,4 @@
+
+ 
+ A clique model is one of the most important techniques on the cohesive subgraph detection; however, its applications are rather limited due to restrictive conditions of the model. Hence much research resorts to k-plex — a graph in which any vertex is adjacent to all but at most k vertices — which is a relaxation model of the clique. In this paper, we study the maximum k-plex problem and propose a fast algorithm to compute maximum k-plexes by exploiting structural properties of the problem. In an n-vertex graph, the algorithm computes optimal solutions in cnnO(1) time for a constant c < 2 depending only on k. To the best of our knowledge, this is the first algorithm that breaks the trivial theoretical bound of 2n for each k ≥ 3. We also provide experimental results over multiple real-world social network instances in support.
+ 

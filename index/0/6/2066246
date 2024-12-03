@@ -1,0 +1,1 @@
+We consider the problem of achieving coordinated actions in a real-time distributed system. In particular, we consider how tightly processors can be guaranteed to perform a particular action, in a system where message transmission is guaranteed, but there is some uncertainty in message transmission time. We present an algorithm to achieve optimal precision in arbitrary networks.

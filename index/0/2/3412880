@@ -1,0 +1,4 @@
+
+ 
+ We present an attention-based bidirectional LSTM approach to improve the target-dependent sentiment classification. Our method learns the alignment between the target entities and the most distinguishing features. We conduct extensive experiments on a real-life dataset. The experimental results show that our model achieves state-of-the-art results.
+ 

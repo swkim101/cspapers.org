@@ -1,0 +1,4 @@
+
+ 
+ Table constraints are very important in constraint programming as they are present in many real problems from areas such as configuration and databases. As a result, numerous specialized algorithms that achieve generalized arc consistency (GAC) on table constraints have been proposed. Since these algorithms achieve GAC, they operate on one constraint at a time. In this paper we propose an efficient algorithm for table constraints that achieves a stronger local consistency than GAC. This algorithm, called maxRPWC+, is based on the local consistency maxRPWC and allows the efficient handling of intersecting table constraints. Experimental results from benchmark problems demonstrate that maxRPWC+ is clearly more robust than a state-of-the-art GAC algorithm in classes of problems with interleaved table constraints, being orders of magnitude faster in some of these classes.
+ 

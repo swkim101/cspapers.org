@@ -1,0 +1,4 @@
+
+ 
+ The complexity and tight integration of electromechanical systems often makes them "brittle" and hard to modify in response to changing requirements. We aim to remedy this by capturing expert knowledge as functional blueprints, an idea inspired by regulatory processes that occur in natural morphogenesis. We then apply this knowledge in an intelligent design variation tool. When a user modifies a design, our tool uses functional blueprints to modify other components in response, thereby maintaining integration and reducing the need for costly search or constraint solving. In this paper, we refine the functional blueprint concept and discuss practical issues in applying it to electromechanical systems. We then validate our approach with a case study applying our prototype tool to create variants of a miniDroid robot and by empirical evaluation of convergence dynamics of networks of functional blueprints.
+ 

@@ -1,0 +1,9 @@
+Image edge detection is considered as a cornerstone task in computer vision. Due to the nature of hierarchical representations learned in CNN, it is intuitive to design side networks utilizing the richer convolutional features to improve the edge detection. However, there is no consensus way to integrate the hierarchical information. 
+
+In this paper, we propose an effective and end-to-end framework, named Bidirectional Additive Net (BAN), for image edge detection. In the proposed framework, we focus on two main problems: 1) how to design a universal network for incorporating hierarchical information sufficiently; and 2) how to achieve effective information flow between different stages and gradually improve the edge map stage by stage. 
+
+To tackle these problems, we design a consecutive bottom-up and top-down architecture, where a bottom-up branch can gradually remove detailed or sharp boundaries to enable accurate edge detection and a top-down branch offers a chance of error-correcting by revisiting the low-level features that contain rich textual and spatial information.
+
+And attended additive module (AAM) is designed to cumulatively refine edges by selecting pivotal features in each stage.
+
+Experimental results show that our proposed methods can improve the edge detection performance to new records and achieve state-of-the-art results on two public benchmarks: BSDS500 and NYUDv2.

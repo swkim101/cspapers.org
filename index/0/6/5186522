@@ -1,0 +1,3 @@
+The most widely used approaches to data modelling do not make adequate provision for the description of data of a given type, in terms of its classification into a hierarchy of subtypes. Nor do commercially available data management systems permit a record occurrence to be of more than one record type. 
+ 
+This paper presents a case for the provision of subtype facilities, as a modelling tool for data analysts and as an aid to the operation of information systems. A possible approach to handling record subtypes is discussed from the points of view of data description and data manipulation. This is illustrated in terms of proposed enhancements to the Codasyl DDLC Journal of Development.

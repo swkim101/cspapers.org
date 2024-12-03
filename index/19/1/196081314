@@ -1,0 +1,24 @@
+Our demonstration presents an open-source hardware and software platform which allows non-roboticists 
+researchers to conduct machine learning experiments to benchmark algorithms for autonomous exploration 
+and active learning. In particular, in addition to showing the general properties of the platform such as 
+its modularity and usability, we will demonstrate the online functioning of a particular algorithm which 
+allows efficient learning of multiple forward and inverse models and can leverage information from human 
+guidance. A first aspect of our demonstration is to illustrate the ease of use of the 3D printed low-cost 
+Poppy humanoid robotic platform, that allows non-roboticists to quickly set up and program robotic 
+experiments. A second aspect is to show how the Explauto library allows systematic comparison and 
+evaluation of active learning and exploration algorithms in sensorimotor spaces, through a Python API to 
+select already implemented exploration algorithms. The third idea is to showcase Active Model Babbling, 
+an efficient exploration algorithm dynamically choosing which task/goal space to explore and particular 
+goals to reach, and integrating social guidance from humans in real time to drive exploration towards 
+particular objects or actions. 
+ 
+[Forestier and Oudeyer, 2016] Forestier, S. and Oudeyer, P.-Y. (2016). Modular active curiosity-driven discovery of 
+tool use. In 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, Korea. 
+ 
+[Lapeyre et al., 2014] Lapeyre, M., Rouanet, P., Grizou, J., Nguyen, S., Depraetre, F., Le Falher, A., and Oudeyer, 
+P.-Y. (2014). Poppy Project: Open-Source Fabrication of 3D Printed Humanoid Robot for Science, Education 
+and Art. In Digital Intelligence 2014, page 6, Nantes, France. 
+ 
+[Moulin-Frier et al., 2014] Moulin-Frier, C., Rouanet, P., Oudeyer, P.-Y., and others (2014). Explauto: an open- 
+source Python library to study autonomous exploration in developmental robotics. In ICDL-Epirob-International 
+Conference on Development and Learning, Epirob.

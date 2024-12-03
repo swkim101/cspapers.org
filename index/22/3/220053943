@@ -1,0 +1,13 @@
+Recently, several exact methods to compute decision trees have been introduced. On the one hand, these approaches can find optimal trees for various objective functions including total size, depth or accuracy on the training set and therefore. On the other hand, these methods are not yet widely used in practice and classic heuristics are often still the methods of choice.
+
+
+
+In this paper we show how the SAT model proposed by [Narodytska et.al 2018] can be lifted to a MaxSAT approach, making it much more practically relevant. 
+
+In particular, it scales to much larger data sets; the objective function can easily be adapted to take into account combinations of size, depth and accuracy on the training set; and the fine-grained control of the objective function it offers makes it particularly well suited for boosting.
+
+
+
+Our experiments show promising results.
+
+In particular, we show that the prediction quality of our approach often exceeds state of the art heuristics. We also show that the MaxSAT formulation is well adapted for boosting using the well-known AdaBoost Algorithm.

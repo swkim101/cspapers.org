@@ -1,0 +1,5 @@
+The task of physical data base design in an DBTG enviornment is examined. Generation of an internal schema which considers questions of storage versus access costs, efficient implementation of data relationships, efficient placement of data within the data base and allocation of primary and secondary storage is shown to be a formidable task. 
+ 
+Current data base design aids are reviewed. One aid, a sophisicated mathematical model of DBTG data bases (Gerritsen 1977) is shown to be a potentially valuable tool. A limitation of this model is that no optimization algorithm other than total enumeration has been found. 
+ 
+This paper proposes an implementation of the Gerritsen model. An interactive design tool, based upon the Gerritsen model, is discussed. A Data Base Design Decision Support System (DBD-DSS) for use by the DBA is developed. The objectives and structure of the DBD-DSS are examined, A comprehensive example illustrating both the user interface and the potential benefits of the interactive tool is presented.

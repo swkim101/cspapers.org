@@ -1,0 +1,1 @@
+We introduce an annotation scheme for temporal expressions, and describe a method for resolving temporal expressions in print and broadcast news. The system, which is based on both hand-crafted and machine-learnt rules, achieves an 83.2% accuracy (F-measure) against hand-annotated data. Some initial steps towards tagging event chronologies are also described.

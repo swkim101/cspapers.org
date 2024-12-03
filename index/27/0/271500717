@@ -1,0 +1,5 @@
+In recent decades, the design of budget feasible mechanisms for a wide range of procurement auction settings has received significant attention in the Artificial Intelligence (AI) community. 
+
+These procurement auction settings have practical applications in various domains such as federated learning, crowdsensing, edge computing, and resource allocation. In a basic procurement auction setting of these domains, a buyer with a limited budget is tasked with procuring items (\eg, goods or services) from strategic sellers, who have private information on the true costs of their items and incentives to misrepresent their items' true costs. 
+
+The primary goal of budget feasible mechanisms is to elicit the true costs from sellers and determine items to procure from sellers to maximize the buyer valuation function for the items and ensure that the total payment to the sellers is no more than the budget. In this survey, we provide a comprehensive overview of key procurement auction settings and results of budget feasible mechanisms. We provide several promising future research directions.

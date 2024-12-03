@@ -1,0 +1,4 @@
+
+ 
+ We propose a scalable and efficient algorithm for coclustering a higher-order tensor. Viewing tensors with hypergraphs, we propose formulating the co-clustering of a tensor as a problem of partitioning the corresponding hypergraph. Our algorithm is based on the random sampling technique, which has been successfully applied to graph cut problems. We extend a random sampling algorithm for the graph multiwaycut problem to hypergraphs, and design a co-clustering algorithm based on it. Each iteration of our algorithm runs in polynomial on the size of hypergraphs, and thus it performs well even for higher-order tensors, which are difficult to deal with for state-of-the-art algorithm.
+ 

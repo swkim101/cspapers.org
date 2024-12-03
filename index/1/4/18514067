@@ -1,0 +1,4 @@
+
+ 
+ In a recent position paper in Artificial Intelligence, we argued that the automated planning research literature has underestimated the importance and difficulty of deliberative acting, which is more than just interleaving planning and execution. We called for more research on the AI problems that emerge when attempting to integrate acting with planning. To provide a basis for such research, it will be important to have a formalization of acting that can be useful in practice. This is needed in the same way that a formal account of planning was necessary for research on planning. We describe some first steps toward developing such a formalization, and invite readers to carry out research along this line.
+ 

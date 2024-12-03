@@ -1,0 +1,4 @@
+
+ 
+ We consider the link prediction (LP) problem in a partially observed network, where the objective is to make predictions in the unobserved portion of the network. Many existing methods reduce LP to binary classification. However, the dominance of absent links in real world networks makes misclassification error a poor performance metric. Instead, researchers have argued for using ranking performance measures, like AUC, AP and NDCG, for evaluation. We recast the LP problem as a learning to rank problem and use effective learning to rank techniques directly during training which allows us to deal with the class imbalance problem systematically. As a demonstration of our general approach, we develop an LP method by optimizing the cross-entropy surrogate, originally used in the popular ListNet ranking algorithm. We conduct extensive experiments on publicly available co-authorship, citation and metabolic networks to demonstrate the merits of our method.
+ 

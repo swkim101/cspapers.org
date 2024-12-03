@@ -1,0 +1,1 @@
+We introduce two novel methods of text categorization in which documents are split into fragments. We conducted experiments on English, French and Czech. In all cases, the problems referred to a binary document classification. We find that both methods increase the accuracy of text categorization. For the Naive Bayes classifier this increase is significant.

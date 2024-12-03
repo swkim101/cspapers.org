@@ -1,0 +1,1 @@
+We examine theoretical properties of value of information (VOI) in the selection problem, and identify cases of submodularity and supermodularity. We use these properties to compute approximately optimal measurement batch policies, implemented on a “wine selection problem” example.

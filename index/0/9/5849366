@@ -1,0 +1,3 @@
+Approximation fixpoint theory (AFT) is an algebraical study of fixpoints of lattice operators. Recently, AFT was extended with the notion of a grounded fixpoint. This type of fixpoint formalises common intuitions from various application domains of AFT, including logic programming, default logic, autoepistemic logic and abstract argumentation frameworks. 
+ 
+The study of groundedness was limited to exact lattice points; in this paper, we extend it to the bilattice: for an approximator A of O, we define A-groundedness. We show that all partial A- stable fixpoints are A-grounded and that the A- well-founded fixpoint is uniquely characterised as the least precise A-grounded fixpoint. We apply our theory to logic programming and study complexity.

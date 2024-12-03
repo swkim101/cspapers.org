@@ -1,0 +1,1 @@
+This work presents the minimal length paths, for a robot that maintains visibility of a landmark. The robot is a differential drive system and has limited sensing capabilities (range and angle of view). The optimal paths are composed of straight lines and curves that saturate the camera pan angle.

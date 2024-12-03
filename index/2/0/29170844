@@ -1,0 +1,4 @@
+
+ 
+ Image caption is becoming important in the field of artificial intelligence. Most existing methods based on CNN-RNN framework suffer from the problems of object missing and misprediction due to the mere use of global representation at image-level. To address these problems, in this paper, we propose a global-local attention (GLA) method by integrating local representation at object-level with global representation at image-level through attention mechanism. Thus, our proposed method can pay more attention to how to predict the salient objects more precisely with high recall while keeping context information at image-level cocurrently. Therefore, our proposed GLA method can generate more relevant sentences, and achieve the state-of-the-art performance on the well-known Microsoft COCO caption dataset with several popular metrics.
+ 

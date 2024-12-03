@@ -1,0 +1,7 @@
+Problem: 
+• Routing is a challenge in DTNs (Delay Tolerant Networks). Regular ad- hoc routing protocols fail because the topology suffers from connectivity disruptions. 
+Proposition: 
+• We propose to use mobility patterns of nodes, i.e. regularities in nodes contacts or movements, to define their position in a virtual Euclidean space used for routing. This space is called the MobySpace. 
+• Each node’s position in the MobySpace (its MobyPoint) is flooded throughout the network. Other nodes use this information for routing. 
+• To route a bundle, a node chooses among its physical neighbors. It passes the bundle to the neighbor whose MobyPoint is closest to the destination’s. 
+• The MobySpace can be defined in many ways, e.g. type/number of dimensions, distance function. This poster describes preliminary work.

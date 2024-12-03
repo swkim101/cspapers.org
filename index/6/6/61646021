@@ -1,0 +1,1 @@
+Translation-, rotation-, and scale-invariant recognition of multiple, superimposed, partially specified or occluded objects can be accomplished in a fast, simple, distributed and parallel fashion using localizable features with intrinsic orientation. All known objects are recognized, localized, and segmented simultaneously. The method is robust and efficient.

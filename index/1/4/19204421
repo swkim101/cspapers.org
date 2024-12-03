@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a truly full character-level neural dependency parser together with a newly released character-level dependency treebank for Chinese, which has suffered a lot from the dilemma of defining word or not to model character interactions. Integrating full character-level dependencies with character embedding and human annotated character-level part-of-speech and dependency labels for the first time, we show an extra performance enhancement from the evaluation on Chinese Penn Treebank and SJTU (Shanghai Jiao Tong University) Chinese Character Dependency Treebank and the potential of better understanding deeper structure of Chinese sentences.
+ 

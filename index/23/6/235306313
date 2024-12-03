@@ -1,0 +1,8 @@
+Online insurance is a new type of e-commerce with exponential growth.
+An effective recommendation model that maximizes the total revenue of insurance products listed in multiple customized sales scenarios is crucial for the success of online insurance business.
+Prior recommendation models are ineffective because they fail to characterize the complex relatedness of insurance products in multiple sales scenarios and maximize the overall conversion rate rather than the total revenue.
+Even worse, it is impractical to collect training data online for total revenue maximization due to the business logic of online insurance.
+We propose RevMan, a Revenue-aware Multi-task Network for online insurance recommendation.
+RevMan adopts an adaptive attention mechanism to allow effective feature sharing among complex insurance products and sales scenarios.
+It also designs an efficient offline learning mechanism to learn the rank that maximizes the expected total revenue, by reusing training data and model for conversion rate maximization.
+Extensive offline and online evaluations show that RevMan outperforms the state-of-the-art recommendation systems for e-commerce.

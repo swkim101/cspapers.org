@@ -1,0 +1,4 @@
+
+ 
+ In budget–limited multi–armed bandit (MAB) problems, thelearner’s actions are costly and constrained by a fixed budget.Consequently, an optimal exploitation policy may not be topull the optimal arm repeatedly, as is the case in other variantsof MAB, but rather to pull the sequence of different arms thatmaximises the agent’s total reward within the budget. Thisdifference from existing MABs means that new approachesto maximising the total reward are required. Given this, wedevelop two pulling policies, namely: (i) KUBE; and (ii)fractional KUBE. Whereas the former provides better performanceup to 40% in our experimental settings, the latteris computationally less expensive. We also prove logarithmicupper bounds for the regret of both policies, and show thatthese bounds are asymptotically optimal (i.e. they only differfrom the best possible regret by a constant factor).
+ 

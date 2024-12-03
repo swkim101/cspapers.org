@@ -1,0 +1,1 @@
+We show that the ellipsoid method for solving semidefinite programs (SDPs) can be expressed in fixed-point logic with counting (FPC). This generalizes an earlier result that the optimal value of a linear program can be expressed in this logic.

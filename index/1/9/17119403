@@ -1,0 +1,1 @@
+This paper proposes the first peer-to-peer network and lookup algorithm that for any 0 < ε has worst case stretch bounded by 1 + ε. The construction uses an expected logarithmic number of links. It is suitable for a very realistic class of metrics in which the only restriction on density is a growth-bound. It is completely decentralized and readily deployable in dynamic networks.

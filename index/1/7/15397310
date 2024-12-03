@@ -1,0 +1,9 @@
+Object oriented programming aims at code lisibility and conciseness via abstract data type declarations and takes advantage from setting the objects (ie data) in the center of the application, instead of procedures or demonstrations. 
+ 
+Just as in Logic programming, where describing the properties of the solution of some problem is (theoreticaly) enough to allow the program to compute the solution, Object programming proceeds from the fact that purely declarative information leads to more procedural behaviour. 
+ 
+It appears that Logic programming and Object programming are complementary in the sense that the first is very suitable for expressing subtle reasoning, but rather weak as a formalism for describing complex structures, and conversely for the second. 
+ 
+These considerations led us, at the IIRIAM, to combine Logic and Object programming in order to use the advantages of both. Our research effort resulted In the system LAP, an extension of Prolog to object programming, giving a new dimension to the latter, through logic programming concepts: processing of partially known data and non determinism applied at the object level. 
+ 
+The first part of this paper introduces the main characteristics of LAP, faced with the requirements of AI application development. The second part illustrates some of these capabilities through simple examples.

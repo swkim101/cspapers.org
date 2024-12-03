@@ -1,0 +1,3 @@
+In this paper, we describe a way of extending and combining several AI techniques to attack a class of problems exemplified by a problem known as geologic map interpretation. We use both a detailed and an abstract model of elementary geology, combined with both local and global reasoning techniques to achieve the system's expertise. 
+ 
+In particular, a new technique called imagining allows us to find global inconsistencies in our hypotheses by causally simulating a sequence of "instructions". Imagining makes use of both our detailed and abstract models of the world.

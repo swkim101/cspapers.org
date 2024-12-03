@@ -1,0 +1,4 @@
+
+ 
+ Kernelized sorting is a method for aligning objects across two domains by considering within-domain similarity, without a need to specify a cross-domain similarity measure. In this paper we present the Convex Kernelized Sorting method where, unlike in the previous approaches, the cross-domain object matching is formulated as a convex optimization problem, leading to simpler optimization and global optimum solution. Our method outputs soft alignments between objects, which can be used to rank the best matches for each object, or to visualize the object matching and verify the correct choice of the kernel. It also allows for computing hard one-to-one alignments by solving the resulting Linear Assignment Problem. Experiments on a number of cross-domain matching tasks show the strength of the proposed method, which consistently achieves higher accuracy than the existing methods.
+ 

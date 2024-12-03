@@ -1,0 +1,1 @@
+SYNCRO is a two-dimensional command interpreter that allows human interface through a graphic command language. This paper describes the concept of two-dimensional commands for direct implementation of leveled data flow structures, and comments on the SYNCRO scheme for effecting them. SYNCRO is implemented in Modula-2 on Niklaus Wirth's Lilith/Modula computer.

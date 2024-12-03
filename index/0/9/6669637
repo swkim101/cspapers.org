@@ -1,0 +1,4 @@
+
+ 
+ Colorization aims at recovering the original color of a monochrome image from only a few color pixels. A state-of-the-art approach is based on matrix completion, which assumes that the target color image is low-rank. However, this low-rank assumption is often invalid on natural images. In this paper, we propose a patch-based approach that divides the image into patches and then imposes a low-rank structure only on groups of similar patches. Each local matrix completion problem is solved by an accelerated version of alternating direction method of multipliers (ADMM), and each AD-MM subproblem is solved efficiently by divide-and-conquer. Experiments on a number of benchmark images demonstrate that the proposed method outperforms existing approaches.
+ 

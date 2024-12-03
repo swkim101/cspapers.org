@@ -1,0 +1,4 @@
+
+ 
+ Exchangeability is a central notion in statistics and probability theory. The assumption that an infinite sequence of data points is exchangeable is at the core of Bayesian statistics. However, finite exchangeability as a statistical property that renders probabilistic inference tractable is less well-understood. We develop a theory of finite exchangeability and its relation to tractable probabilistic inference. The theory is complementary to that of independence and conditional independence. We show that tractable inference in probabilistic models with high treewidth and millions of variables can be explained with the notion of finite (partial) exchangeability. We also show that existing lifted inference algorithms implicitly utilize a combination of conditional independence and partial exchangeability.
+ 

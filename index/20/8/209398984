@@ -1,0 +1,1 @@
+Materialized views (or Automatic Summary Tables—ASTs) are commonly used to improve the performance of aggregation queries by orders of magnitude. In contrast to regular tables, ASTs are synchronized by the database system. In this paper, we present techniques for maintaining cube ASTs. Our implementation is based on IBM DB2 UDB.

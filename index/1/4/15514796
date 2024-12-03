@@ -1,0 +1,4 @@
+
+ 
+ The Web contains a large amount of information in the form of videos that remains inaccessible to the visually impaired people. We identify a class of videos whose information content can be approximately encoded as an audio, thereby increasing the amount of accessible videos. We propose a model to automatically identify such videos. Our model jointly relies on the textual metadata and visual content of the video. We use this model to re-rank Youtube video search results based on accessibility of the video. We present preliminary results by conducting a user study with visually impaired people to measure the effectiveness of our system.
+ 

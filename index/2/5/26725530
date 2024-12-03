@@ -1,0 +1,4 @@
+
+ 
+ This research proposes the use of imitation based learning to build collaborative strategies for a team of agents. Imitation based learning involves learning from an expert by observing her demonstrating a task and then replicating it. This mechanism makes it extremely easy for a knowledge engineer to transfer knowledge to a software agent via human demonstrations. This research aims to apply imitation to learn not only the strategy of an individual agent but also the collaborative strategy of a team of agents to achieve a common goal. The effectiveness of the proposed methodology is being assessed in the domain of RoboCup Soccer Simulation 3D which is a promising platform to address many of the complex real-world problems and offers a truly dynamic, stochastic, and partially-observable environment.
+ 

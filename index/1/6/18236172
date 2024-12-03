@@ -1,0 +1,1 @@
+Suppose it is known that fX o , Xl'. ·. , X n J is produced by a pseudo-random number generator of the form X i + 1 = aX i + b mod m, but a, b, and m are' unknown. Can one efficiently predict the remainder of the sequence with knowledge of only a few elements from that se-quence? This question is answered in the affirmative and an algorithm is given.

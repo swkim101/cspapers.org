@@ -1,0 +1,7 @@
+The focus here is on the lessons learned from the UDI project for building usability into the software development process. In the UDI project we attempted to engineer a usable system. That process involved:<list><item>defining an appropriate metric for measuring usability,
+</item><item>setting explicit levels of usability to be achieved
+</item><item>determining an appropriate methodology for building usability into the system,
+</item><item>delivering a seemingly functional system with an easily changed interface very early in the development cycle, and
+</item><item>recognizing the tentative nature of the initial design.
+</item></list>
+Using the UDI project as an example, each of the above principles will be discussed in detail.

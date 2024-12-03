@@ -1,0 +1,4 @@
+
+ 
+ Perfect Information Monte Carlo (PIMC) search is a practical technique for playing imperfect information games that are too large to be optimally solved. Although PIMC search has been criticized in the past for its theoretical deficiencies, in practice it has often produced strong results in a variety of domains. In this paper, we set out to resolve this discrepancy. The contributions of the paper are twofold. First, we use synthetic game trees to identify game properties that result in strong or weak performance for PIMC search as compared to an optimal player. Second, we show how these properties can be detected in real games, and demonstrate that they do indeed appear to be good predictors of the strength of PIMC search. Thus, using the tools established in this paper, it should be possible to decide a priori whether PIMC search will be an effective approach to new and unexplored games.
+ 

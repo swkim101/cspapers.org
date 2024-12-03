@@ -1,0 +1,1 @@
+TELOS is an attempt to provide powerful abstraction mechanisms and other structuring facilities within a language that provides the special capabilities needed for AI research. TELOS includes PASCAL as a subset and also is implemented in PASCAL. A full description is available in [1] and [2].

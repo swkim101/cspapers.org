@@ -1,0 +1,3 @@
+Fold-unfold is a well known program transformation technique. Its major drawback is that folding requires an Eureka step to invent new procedures. 
+ 
+In the context of logic programming, we present a technique where the folding is driven by an example. The transformation is aimed at programs suffering from inefficiencies due to the repetition of identical subcomputations. The execution of an example is analysed to locate repeated subcomputations. Then the structure of the example is used to control a fold-unfold-transformation of the program. The transformation can be automated. The method can be regarded as an extension of explanation based learning.

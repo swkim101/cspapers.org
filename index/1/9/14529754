@@ -1,0 +1,1 @@
+We show that any randomized space(S) algorithm which uses only poly(S) random bits can be simulated deterministically in space(S), for S(n) ~ log n. Of independent interest is our main technical tool: a procedure which extracts randomness from a defective random source using a small additional number of truly random bits.

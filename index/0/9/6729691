@@ -1,0 +1,1 @@
+We introduce a spectral learning algorithm for latent-variable PCFGs (Petrov et al., 2006). Under a separability (singular value) condition, we prove that the method provides consistent parameter estimates.

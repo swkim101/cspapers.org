@@ -1,0 +1,1 @@
+This paper addresses computing of similarity among papers using text-based measures. First, we analyze the accuracy of the similarities computed using different parts of a paper, and propose a method of Keyword-Extension, which is very useful when text information is incomplete.

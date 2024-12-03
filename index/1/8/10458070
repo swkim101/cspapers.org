@@ -1,0 +1,4 @@
+
+ 
+ To operate in human-robot coexisting environments, intelligent robots need to simultaneously reason with commonsense knowledge and plan under uncertainty. Markov decision processes (MDPs) and partially observable MDPs (POMDPs), are good at planning under uncertainty toward maximizing long-term rewards; P-LOG, a declarative programming language under Answer Set semantics, is strong in commonsense reasoning. In this paper, we present a novel algorithm called iCORPP to dynamically reason about, and construct (PO)MDPs using P-LOG. iCORPP successfully shields exogenous domain attributes from (PO)MDPs, which limits computational complexity and enables (PO)MDPs to adapt to the value changes these attributes produce. We conduct a number of experimental trials using two example problems in simulation and demonstrate iCORPP on a real robot. Results show significant improvements compared to competitive baselines.
+ 

@@ -1,0 +1,3 @@
+An interactive electronic information kiosk was created for the CHI '89 conference. Based on Macintosh® technology, the “InfoBooth” included a custom HyperCard® interface built by a team at Apple Computer.
+The design was initiated by examining the desires of potential users. Design changes, influenced by the results of informal user testing, were numerous. During the conference, user actions were recorded using an embedded “trace” program to allow for later usage assessment.
+This paper offers a case study for designers of similar systems. Aspects of the pre-conference design evolution are described. The impact of user testing is discussed and findings from the analysis of the trace data are presented.

@@ -1,0 +1,4 @@
+
+ 
+ A key problem in climate science is how to combine the predictions of the multi-model ensemble of global climate models. Recent work in machine learning (Monteleoni et al. 2011) showed the promise of an algorithm for online learning with experts for this task.We extend the Tracking Climate Models (TCM) approach to (1) take into account climate model predictions at higher spatial resolutions and (2) to model geospatial neighborhood influence between regions. Our algorithm enables neighborhood influence by modifying the transition dynamics of the Hidden Markov Model used by TCM, allowing the performance of spatial neighbors to influence the temporal switching probabilities for the best expert (climate model) at a given location. In experiments on historical data at a variety of spatial resolutions, our algorithm demonstrates improvements over TCM, when tracking global temperature anomalies.
+ 

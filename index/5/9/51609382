@@ -1,0 +1,49 @@
+Image captioning is one of the most challenging
+
+hallmark of AI, due to its complexity in visual and
+
+natural language understanding. As it is essentially
+
+a sequential prediction task, recent advances in image
+
+captioning use Reinforcement Learning (RL) to
+
+better explore the dynamics of word-by-word generation.
+
+However, existing RL-based image captioning
+
+methods mainly rely on a single policy network
+
+and reward function that does not well fit the
+
+multi-level (word and sentence) and multi-modal
+
+(vision and language) nature of the task. To this
+
+end, we propose a novel multi-level policy and reward
+
+RL framework for image captioning. It contains
+
+two modules: 1) Multi-Level Policy Network
+
+that can adaptively fuse the word-level policy and
+
+the sentence-level policy for the word generation;
+
+and 2) Multi-Level Reward Function that collaboratively
+
+leverages both vision-language reward and
+
+language-language reward to guide the policy. Further,
+
+we propose a guidance term to bridge the policy
+
+and the reward for RL optimization. Extensive
+
+experiments and analysis on MSCOCO and Flickr30k
+
+show that the proposed framework can achieve
+
+competing performances with respect to different
+
+evaluation metrics.

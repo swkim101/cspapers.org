@@ -1,0 +1,1 @@
+This paper presents a method for incorporating word pronunciation information in a noisy channel model for spelling correction. The proposed method builds an explicit error model for word pronunciations. By modeling pronunciation similarities between words we achieve a substantial performance improvement over the previous best performing models for spelling correction.

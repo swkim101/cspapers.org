@@ -1,0 +1,1 @@
+Virtually all large enterprises have data stored in many databases. Often these databases are heterogeneous in terms of vendor, version, architecture, and capability. Federated databases, such as IBM’s Da&Joiner, are being used to provide rapid, cost effective access to this data across a variety of business types.

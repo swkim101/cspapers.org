@@ -1,0 +1,1 @@
+The strong link between matroids and matching is used to extend the ideas that resulted in the design of Random NC algorithms for matching to obtain RNC algorithms for the well-known problems of finding an arboresence and a maximum cardinality set of edge-disjoint spanning trees in a graph. The key tools used are linear algebra and randomization.

@@ -1,0 +1,1 @@
+A remote keyboard-display terminal system has buffer transfer and character generator hardware, by which it accesses the central memory directly without significantly interfering with the central processing unit, organizes coded data by linked list, and presents visual data without one-to-one correspondence between display screen position and central memory location.

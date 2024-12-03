@@ -1,0 +1,14 @@
+This paper presents a method for combining
+query-relevance with information-novelty in the context
+of text retrieval and summarization. The Maximal
+Marginal Relevance (MMR) criterion strives to reduce
+redundancy while maintaining query relevance in
+re-ranking retrieved documents and in selecting appropriate passages for text summarization. Preliminary results
+indicate some benefits for MMR diversity ranking
+in document retrieval and in single document summarization.
+The latter are borne out by the recent results of the
+SUMMAC conference in the evaluation of summarization
+systems. However, the clearest advantage is demonstrated
+in constructing non-redundant multi-document
+summaries, where MMR results are clearly superior to
+non-MMR passage selection.

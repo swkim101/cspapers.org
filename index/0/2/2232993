@@ -1,0 +1,4 @@
+
+ 
+ We introduce a new family of judgment aggregation rules, called the binomial rules, designed to account for hidden dependencies between some of the issues being judged. To place them within the landscape of judgment aggregation rules, we analyse both their axiomatic properties and their computational complexity, and we show that they contain both the well-known distance-based rule and the basic rule returning the most frequent overall judgment as special cases. To evaluate the performance of our rules empirically, we apply them to a dataset of crowdsourced judgments regarding the quality of hotels extracted from the travel website TripAdvisor. In our experiments we distinguish between the full dataset and a subset of highly polarised judgments, and we develop a new notion of polarisation for profiles of judgments for this purpose, which may also be of independent interest.
+ 

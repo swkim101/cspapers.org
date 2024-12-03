@@ -1,0 +1,1 @@
+In this paper, we use the rollout method for policy improvement to analyze a version of Klondike solitaire. This version, sometimes called thoughtful solitaire, has all cards revealed to the player, but then follows the usual Klondike rules. A strategy that we establish, using iterated rollouts, wins about twice as many games on average as an expert human player does.

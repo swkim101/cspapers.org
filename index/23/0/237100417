@@ -1,0 +1,5 @@
+We present sem_ind, a recommendation tool for proof by induction in Isabelle/HOL.
+
+Given an inductive problem, sem_ind produces candidate arguments for proof by induction, and selects promising ones using heuristics.
+
+Our evaluation based on 1,095 inductive problems from 22 source files shows that sem_ind improves the accuracy of recommendation from 20.1% to 38.2% for the most promising candidates within 5.0 seconds of timeout compared to its predecessor while decreasing the median value of execution time from 2.79 seconds to 1.06 seconds.

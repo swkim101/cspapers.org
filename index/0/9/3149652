@@ -1,0 +1,1 @@
+MDX is a medical diagnosis system, organized as a hierarchies collection of conceptual specialists, who cooperate to diagnose a case. The current domain of MDX is cholestasis, a syndrome involving the liver. MDX works in conjunction with a conceptually organized data base specialist (PATREC) and radiology consultant (RADEX).

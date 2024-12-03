@@ -1,0 +1,1 @@
+Data confidentiality is critical but cumbersome to ensure. To help in the task, we propose a gradual, value-dependent approach to information flow control targeting a small imperative language similar to existing low-level languages. With a hybrid approach, we seek to lessen the flaws of standalone static and dynamic analyses and heighten their advantages.

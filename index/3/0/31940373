@@ -1,0 +1,1 @@
+Four methods for generating and distributing shared group encryption keys in a cryptographic system are described. All four methods can be used to implement secure broadcasts among groups of users in computer networks. Two methods use n secret keys to construct a master key for 2n -1 keys.

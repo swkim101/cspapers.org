@@ -1,0 +1,3 @@
+In this paper, we describe a method using semantic constraints to reduce the ambiguities and generate case structure from phrase structure in Chinese sentence analysis. 
+ 
+Semantic constraints written on semantic markers indicate the plausible case structure. Different sets of semantic markers are chosen according to the purpose. A priority evaluation scheme steers the analysis towards the most plausible structure first, without trying all possibilities.

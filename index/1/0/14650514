@@ -1,0 +1,1 @@
+We present KleeNet, a Klee based bug hunting tool for sensor network applications before deployment. KleeNet automatically tests code for all possible inputs, ensures memory safety, and integrates well into TinyOS based application development life cycle, making it easy for developers to test their applications.

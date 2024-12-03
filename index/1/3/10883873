@@ -1,0 +1,4 @@
+
+ 
+ Sound source localization and separation with permutation resolution are essential for achieving a computational auditory scene analysis system that can extract useful information from a mixture of various sounds. Because existing methods cope separately with these problems despite their mutual dependence, the overall result with these approaches can be degraded by any failure in one of these components. This paper presents a unified Bayesian framework to solve these problems simultaneously where localization and separation are regarded as a clustering problem. Experimental results confirm that our method outperforms state-of-the-art methods in terms of the separation quality with various setups including practical reverberant environments.
+ 

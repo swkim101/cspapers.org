@@ -1,0 +1,1 @@
+In this paper we describe a library we have developed that supports an "OO-from-the-beginning" approach to CS 1. The use of real graphics "objects" and event-driven programming are important components of our approach. The design of interactive graphical programs helps students to both use objects and write methods early while designing and implementing interesting programs.

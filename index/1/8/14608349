@@ -1,0 +1,4 @@
+
+ 
+ Reachability games are a useful formalism for the synthesis of reactive systems. Solving a reachability game involves (1) determining the winning player and (2) computing a winning strategy that determines the winning player's action in each state of the game. Recently, a new family of game solvers has been proposed, which rely on counterexample-guided search to compute winning sequences of actions represented as an abstract game tree. While these solvers have demonstrated promising performance in solving the winning determination problem, they currently do not support strategy extraction. We present the first strategy extraction algorithm for abstract game tree-based game solvers. Our algorithm performs SAT encoding of the game abstraction produced by the winner determination algorithm and uses interpolation to compute the strategy. Our experimental results show that our approach performs well on a number of software synthesis benchmarks.
+ 

@@ -1,0 +1,1 @@
+This paper describes a RAM compiler for generating and characterizing highly manufacturable optimized SRAMs using GaAs E/D MESFET technology. The compiler uses a constraint-driven design flow to achieve process tolerant RAMs. This compiler was built using a flexible design framework that can be easily adapted to optimize and characterize memories in different MESFET processes.

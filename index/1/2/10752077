@@ -1,0 +1,1 @@
+This paper describes the use of powerful algebraic matching techniques for applying rewrite rules in equation solving. A matcher is presented that knows about the commutativlty and associativity of addition and multiplication, will provide defaults for missing summands and factors, and if necessary will solve algebraically for the value of pattern variables.

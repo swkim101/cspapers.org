@@ -1,0 +1,1 @@
+Constraint-based Generalization is a technique for deducing generalizations from a single example. We show how this technique can be used for learning tactical combinations in games and discuss an implementation which learns forced wins in tic-tac-toe, go-moku, and chess.

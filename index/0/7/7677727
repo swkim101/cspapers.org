@@ -1,0 +1,1 @@
+We study the comparison between an m-processor (multiprocessor) system and a single-processor system whose processor is m times as fast as any in the multiprocessor system. The expected superiority of the single-processor system is measured in terms of mean and maximum flow times, using both combinatorial and probabilistic models.

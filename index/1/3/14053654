@@ -1,0 +1,4 @@
+
+ 
+ Ellipsis is a linguistic process that makes certain aspects of text meaning not directly traceable to surface text elements and, therefore, inaccessible to most language processing technologies. However, detecting and resolving ellipsis is an indispensable capability for language-enabled intelligent agents. The key insight of the work presented here is that not all cases of ellipsis are equally difficult: some can be detected and resolved with high confidence even before we are able to build agents with full human-level semantic and pragmatic understanding of text. This paper describes a fully automatic, implemented and evaluated method of treating one class of ellipsis: elided scopes of modality. Our cognitively-inspired approach, which centrally leverages linguistic principles, has also been applied to overt referring expressions with equally promising results.
+ 

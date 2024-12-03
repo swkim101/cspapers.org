@@ -1,0 +1,4 @@
+
+ 
+ We study a novel task of numerical relation extraction with the goal of extracting relations where one of the arguments is a number or a quantity ( e.g., atomic_number(Aluminium, 13), inflation_rate(India, 10.9%)). This task presents peculiar challenges not found in standard IE, such as the difficulty of matching numbers in distant supervision and the importance of units. We design two extraction systems that require minimal human supervision per relation: (1) NumberRule, a rule based extractor, and (2) NumberTron, a probabilistic graphical model. We find that both systems dramatically outperform MultiR, a state-of-the-art non-numerical IE model, obtaining up to 25 points F-score improvement.
+ 

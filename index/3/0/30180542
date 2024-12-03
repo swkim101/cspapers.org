@@ -1,0 +1,4 @@
+
+ 
+ Detection of overlapping communities has drawn much attention lately as they are essential properties of real complex networks. Despite its influence and popularity, the well studied and widely adopted stochastic model has not been made effective for finding overlapping communities. Here we extend the stochastic model method to detection of overlapping communities with the virtue of autonomous determination of the number of communities. Our approach hinges upon the idea of ranking node popularities within communities and using a Bayesian method to shrink communities to optimize an objective function based on the stochastic generative model. We evaluated the novel approach, showing its superior performance over five state-of-the-art methods, on large real networks and synthetic networks with ground-truths of overlapping communities.
+ 

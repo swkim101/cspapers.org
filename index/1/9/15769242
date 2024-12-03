@@ -1,0 +1,4 @@
+
+ 
+ This work focuses on developing domain-independent heuristics for probabilistic planning problems characterized by full observability and non-deterministic effects of actions that are expressed by probability distributions. The approach is to first search for a high probability deterministic plan using a classical planner. A novel probabilistic plan graph heuristic is used to guide the search towards high probability plans. The resulting plans can be used in a system that handles unexpected outcomes by runtime replanning. The plans can also be incrementally augmented with contingency branches for the most critical action outcomes. This abstract will describe the steps that we have taken in completing the above work and the obtained results.
+ 

@@ -1,0 +1,5 @@
+Standard A I representations of knowledge operate at fixed depth (i.e. the objects manipulated are described by an amount of information which remains constant for every task). Contrary to this approach, Variable Depth Processing (VDP) uses a progressive description of objects, tries different strategies according to the quality of the result it needs, and continually controls this quality by means of an evaluation of the approximations it makes. 
+ 
+Contextual Production Rules are shown to be an effective way to implement some features of VDP. 
+ 
+We are currently developing a VDP question - answering system which works on texts concerning a non-technical subject, namely an excerpt of a general public - oriented encyclopaedia.

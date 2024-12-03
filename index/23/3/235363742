@@ -1,0 +1,9 @@
+This paper presents ITRIX (IT Recovery Instructions
+eXtraction)- a solution that automates the complex manual
+process of creating executable recovery plans from textual
+documents describing IT environment disaster recovery procedure.
+The solution applies natural language processing and
+deep learning to identify textual content that contain recovery
+instructions and information relevant to disaster recovery.
+This enables rapid creation and review of recovery plans resulting
+in 80% reduction in time taken to generate them.

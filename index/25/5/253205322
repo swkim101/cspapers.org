@@ -1,0 +1,1 @@
+We present UltraBat, an interactive 3D side-scrolling game inspired by Flappy Bird, in which the game character, a bat, is physically levitated in mid-air using ultrasound. Players aim to navigate the bat through a stalagmite tunnel that scrolls to one side as the bat travels, which is implemented using a pin-array display to create a shape-changing passage.

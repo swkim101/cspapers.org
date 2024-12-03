@@ -1,0 +1,42 @@
+In the classical discrete Colonel Blotto game—introduced
+by Borel in 1921—two colonels simultaneously distribute
+their troops across multiple battlefields. The winner of each
+battlefield is determined by a winner-take-all rule, independently
+of other battlefields. In the original formulation, each
+colonel’s goal is to win as many battlefields as possible. The
+Blotto game and its extensions have been used in a wide
+range of applications from political campaign—exemplified
+by the U.S presidential election—to marketing campaign,
+from (innovative) technology competition to sports competition.
+Despite persistent efforts, efficient methods for finding
+the optimal strategies in Blotto games have been elusive
+for almost a century—due to exponential explosion in
+the organic solution space—until Ahmadinejad, Dehghani,
+Hajiaghayi, Lucier, Mahini, and Seddighin developed the
+first polynomial-time algorithm for this fundamental gametheoretical
+problem in 2016. However, that breakthrough
+polynomial-time solution has some structural limitation. It
+applies only to the case where troops are homogeneous with
+respect to battlegruounds, as in Borel’s original formulation:
+For each battleground, the only factor that matters to the winner’s
+payoff is how many troops as opposed to which sets of
+troops are opposing one another in that battleground.
+
+
+In this paper, we consider a more general setting of the
+two-player-multi-battleground game, in which multifaceted
+resources (troops) may have different contributions to different
+battlegrounds. In the case of U.S presidential campaign,
+for example, one may interpret this as different types
+of resources—human, financial, political—that teams can invest
+in each state. We provide a complexity-theoretical evidence
+that, in contrast to Borel’s homogeneous setting, finding
+optimal strategies in multifaceted Colonel Blotto games
+is intractable. We complement this complexity result with
+a polynomial-time algorithm that finds approximately optimal
+strategies with provable guarantees. We also study a further
+generalization when two competitors do not have zerosum/
+constant-sum payoffs. We show that optimal strategies
+in these two-player-multi-battleground games are as hard to
+compute and approximate as Nash equilibria in general noncooperative 
+games and economic equilibria in exchange markets.

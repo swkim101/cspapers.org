@@ -1,0 +1,1 @@
+We consider the Asymmetric Traveling Salesman problem for costs satisfying the triangle inequality. We derive a randomized algorithm which delivers a solution within a factor O(log n/ log log n) of the optimum with high probability.

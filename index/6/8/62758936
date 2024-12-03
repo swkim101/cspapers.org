@@ -1,0 +1,1 @@
+Modern supercomputers architecture is now often based on hybrid concepts combining parallelism to distributed memory, parallelism to shared memory and also to GPUs. In this work, we propose a new approach to take advantage of these graphic cards in TH algorithms.

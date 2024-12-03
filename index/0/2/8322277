@@ -1,0 +1,1 @@
+In this paper, we present a principled method for accurately extracting coherent relevant passages of variable lengths using HMMs. We show that with appropriate parameter estimation, the HMM method outperforms a number of strong baseline methods on two data sets.

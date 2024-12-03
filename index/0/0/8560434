@@ -1,0 +1,1 @@
+The paper analyzes the extension of frontier search to the multiobjective framework. A frontier multiobjective A* search algorithm is developed, some formal properties are presented, and its performance is compared to those of other multiobjective search algorithms. The new algorithm is adequate for both monotone and non-monotone heuristics.

@@ -1,0 +1,4 @@
+
+ 
+ Non-rigid shape comparison based on manifold embeddingusing Generalized Multidimensional Scaling(GMDS) has attracted much attention for its highaccuracy. However, this method requires that shape surfaceis not elastic. In other words, it is sensitive totopological transformations such as stretching and compressing.To tackle this problem, we propose a new approachthat constructs a high-dimensional space to embedthe manifolds of shapes based on sparse representation,which is able to completely withstand rigid transformationsand considerably tolerate topological transformations.Experiments on TOSCA shapes validate theproposed approach.
+ 

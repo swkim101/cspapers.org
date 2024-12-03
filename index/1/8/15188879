@@ -1,0 +1,4 @@
+
+ 
+ Matrix factorization (MF) has been attracting much attention due to its wide applications. However, since MF models are generally non-convex, most of the existing methods are easily stuck into bad local minima, especially in the presence of outliers and missing data. To alleviate this deficiency, in this study we present a new MF learning methodology by gradually including matrix elements into MF training from easy to complex. This corresponds to a recently proposed learning fashion called self-paced learning (SPL), which has been demonstrated to be beneficial in avoiding bad local minima. We also generalize the conventional binary (hard) weighting scheme for SPL to a more effective real-valued (soft) weighting manner. The effectiveness of the proposed self-paced MF method is substantiated by a series of experiments on synthetic, structure from motion and background subtraction data.
+ 

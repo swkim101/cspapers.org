@@ -1,0 +1,19 @@
+Meta-models in software engineering are used to 
+define properties of models. Therefore the evolution of the metamodels 
+influences the evolution of the models and the software 
+instantiated from them. The evolution of the meta-models is 
+particularly problematic if the software has to instantiate two 
+versions of the same meta-model - a situation common for longterm 
+software development projects such as car development 
+projects. In this paper, we present a case study of the evolution 
+of the standardized meta-model used in the development of 
+the automotive software systems – the AUTOSAR meta-model 
+– at Volvo Car Corporation. The objective of this study is to 
+assist the automotive software designers in planning long term 
+development projects based on multiple AUTOSAR meta-model 
+versions. We achieve this by visualizing the size and complexity 
+increase between different versions of the AUTOSAR meta-model 
+and by calculating the number of changes which need to be 
+implemented in order to adopt a newer AUTOSAR meta-model 
+version. The analysis is done for each major role in the automotive 
+development process affected by the changes.

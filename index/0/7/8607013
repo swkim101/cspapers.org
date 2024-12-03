@@ -1,0 +1,1 @@
+Unidirectional trees and lattices may both be used to hold a symbolic data base consisting of lexes, lexemes or other symbol strings. This paper empirically compares placing symbolic information into both trees and lattices (a lattice may be thought of as a unidirectional network with single and initiating and terminating nodes).

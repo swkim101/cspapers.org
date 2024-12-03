@@ -1,0 +1,6 @@
+Jericho is a reactive computing engine capable of supporting advanced high user-intensity applications systems. It has four primary architectural characteristics:
+ 1. A user-dedicated computing environment
+ 2. Direct execution of high-level programming languages
+ 3. High bandwidth communication between user and system
+ 4. High bandwidth communication between user-support machines and the other machines the task environment.
+ Each of these architectural components will be described further, followed by a discussion of the Jericho hardware.

@@ -1,0 +1,17 @@
+Levin Tree Search (LTS) is a search algorithm that makes use of a policy (a probability distribution over actions)
+
+and comes with a theoretical guarantee on the number of expansions before reaching a goal node, depending on the quality of the policy.
+
+This guarantee can be used as a loss function, which we call the LTS loss, to optimize neural networks representing the policy (LTS+NN).
+
+In this work we show that the neural network can be substituted with parameterized context models originating from the online compression literature (LTS+CM).
+
+We show that the LTS loss is convex under this new model,
+
+which allows for using standard convex optimization tools,
+
+and obtain convergence guarantees to the optimal parameters in an online setting for a given set of solution trajectories --- guarantees that cannot be provided for neural networks.
+
+The new LTS+CM algorithm compares favorably against LTS+NN on several benchmarks: Sokoban (Boxoban), The Witness, and the 24-Sliding Tile puzzle (STP). The difference is particularly large on STP, where LTS+NN fails to solve most of the test instances while LTS+CM solves each test instance in a fraction of a second.
+
+Furthermore, we show that LTS+CM is able to learn a policy that solves the Rubik's cube in only a few hundred expansions, which considerably improves upon previous machine learning techniques.

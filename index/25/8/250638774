@@ -1,0 +1,7 @@
+Improving trust in decisions made by classification models is becoming crucial for the acceptance of automated systems, and an important way of doing that is by providing explanations for the behaviour of the models. Different explainers have been proposed in the recent literature for that purpose, however their formal properties are under-studied. 
+
+
+
+This paper investigates theoretically explainers that provide reasons behind decisions independently of instances. Its contributions are fourfold. The first is to lay the foundations of such explainers by proposing key axioms, i.e., 
+
+desirable properties they would satisfy. Two axioms are incompatible leading to two subsets. The second contribution consists of demonstrating that the first subset of axioms characterizes a family of explainers that return sufficient reasons while the second characterizes a family that provides necessary reasons. This sheds light on the axioms which distinguish the two types of reasons. As a third contribution, the paper introduces various explainers of both families, and fully characterizes some of them. Those explainers make use of the whole feature space. The fourth contribution is a family of explainers that generate explanations from finite datasets (subsets of the feature space). This family, seen as an abstraction of Anchors and LIME, violates some axioms including one which prevents incorrect explanations.

@@ -1,0 +1,19 @@
+We present a scalable planning algorithm for multi-agent sequential decision problems that require dynamic collaboration.
+
+Teams of agents need to coordinate decisions in many domains,
+
+but naive approaches fail due to the exponential growth of the joint action space with the number of agents.
+
+We circumvent this complexity through an anytime approach that allows us to trade computation for
+
+approximation quality and also dynamically coordinate actions. 
+
+Our algorithm comprises three elements: online planning with Monte Carlo
+
+Tree Search (MCTS), factorizing local agent interactions with coordination graphs, and
+
+selecting optimal joint actions with the Max-Plus method.
+
+On the benchmark SysAdmin domain with static coordination graphs, our approach achieves comparable performance with much lower computation cost than the MCTS baselines.
+
+We also introduce a multi-drone delivery domain with dynamic, i.e., state-dependent coordination graphs, and demonstrate how our approach scales to large problems on this domain that are intractable for other MCTS methods.

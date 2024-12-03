@@ -1,0 +1,1 @@
+We shall consider retrieval performance measures for generalized (non-Boolean) queries and indexing functions. The meanings of recall and precision in such a generalized system will be discussed. Finally, we shall explore the meaning and difficulty of using such measures to compare Boolean and non-Boolean retrieval systems.

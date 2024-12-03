@@ -1,0 +1,1 @@
+Data base management systems which permit on-line manipulation and modification of records, present a unique class of problems whose solution require facilities that can guarantee reliability, consistency and flexibility. This paper presents the design of an implemented file structure which attacks these problems systematically and achieves highly satisfactory results.

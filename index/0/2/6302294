@@ -1,0 +1,1 @@
+We present a new structural (or syntatic) approach for estimating the satisfiability threshold of random 3-SAT formulae. We show its efficiency in obtaining a jump from the previous upper bounds, lowering them to 4.506. The method combines well with other techniques, and also applies to other problems, such as the 3-colourability of random graphs.

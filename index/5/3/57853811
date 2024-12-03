@@ -1,0 +1,1 @@
+MCNP6 is used to estimate uncertainties from geometric tolerances using forward and adjoint methods. Results are obtained and the forward and adjoint approaches appear to agree in some cases where the responses are not non-linearly correlated. In other cases, the uncertainties in k disagree for reasons not yet known.

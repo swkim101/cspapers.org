@@ -1,0 +1,1 @@
+We prove that both the NP-completeness of the NONPLANAR DELETION decision problem and the Max SNP-hardness of the NONPLANAR DELETION problem remain true even for cubic graphs. We prove that the class of graphs with splitting number less than or equal to a fixed k is minor closed, which implies the existence of a corresponding polynomial-time recognition algorithm.

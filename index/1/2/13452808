@@ -1,0 +1,1 @@
+This paper develops the notion of temporal abstraction, used originally for the automatic understanding of looping constructs, to account for a class of recursive programs involving side effects upon a relational data base. The programs may involve compositions of several side effects, and these side effects can occur either during descent or upon ascent from recursive calls.

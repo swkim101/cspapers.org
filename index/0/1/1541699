@@ -1,0 +1,5 @@
+Several recent approaches for processing graphical models (constraint and Bayesian networks) simultaneously exploit graph decomposition and local consistency enforcing. Graph decomposition exploits the problem structure and offers space and time complexity bounds while hard information propagation provides practical improvements of space and time behavior inside these theoretical bounds. 
+ 
+Concurrently, the extension of local consistency to weighted constraint networks has led to important improvements in branch and bound based solvers. Indeed, soft local consistencies give incrementally computed strong lower bounds providing inexpensive yet powerful pruning and better informed heuristics. 
+ 
+In this paper, we consider combinations of tree decomposition based approaches and soft local consistency enforcing for solving weighted constraint problems. The intricacy of weighted information processing leads to different approaches, with different theoretical properties. It appears that the most promising combination sacrifices a bit of theory for improved practical efficiency.

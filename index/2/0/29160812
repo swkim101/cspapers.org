@@ -1,0 +1,4 @@
+
+ 
+ This paper is about the estimation of the maximum expected value of an infinite set of random variables.This estimation problem is relevant in many fields, like the Reinforcement Learning (RL) one.In RL it is well known that, in some stochastic environments, a bias in the estimation error can increase step-by-step the approximation error leading to large overestimates of the true action values. Recently, some approaches have been proposed to reduce such bias in order to get better action-value estimates, but are limited to finite problems.In this paper, we leverage on the recently proposed weighted estimator and on Gaussian process regression to derive a new method that is able to natively handle infinitely many random variables.We show how these techniques can be used to face both continuous state and continuous actions RL problems.To evaluate the effectiveness of the proposed approach we perform empirical comparisons with related approaches.
+ 

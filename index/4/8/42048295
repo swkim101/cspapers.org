@@ -1,0 +1,1 @@
+In VISIONS the segmentation algorithms receive input from a digitized color image as an array of pixel values, and generate output as a layered graph of symbolically named regions, boundaries, and endpoints -- each with their descriptive attributes. This processed sensory data provides the initial input to the model-building system of VISIONS.

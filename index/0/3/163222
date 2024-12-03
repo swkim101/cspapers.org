@@ -1,0 +1,1 @@
+We prove the following lower bounds for on line computation. 1) Simulating two tape nondeterministic machines by one tape machines requires Ω(n log log n) time. 2) Simulating k tape (deterministic) machines by machines with k pushdown stores requires Ω(n log1/(k+1)n) time.

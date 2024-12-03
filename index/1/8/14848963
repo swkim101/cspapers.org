@@ -1,0 +1,4 @@
+
+ 
+ Partially Observable Markov Decision Processes (POMDPs) are often used to model planning problems under uncertainty. The goal in Risk-Sensitive POMDPs (RS-POMDPs) is to find a policy that maximizes the probability that the cumulative cost is within some user-defined cost threshold. In this paper, unlike existing POMDP literature, we distinguish between the two cases of whether costs can or cannot be observed and show the empirical impact of cost observations. We also introduce a new search-based algorithm to solve RS-POMDPs and show that it is faster and more scalable than existing approaches in two synthetic domains and a taxi domain generated with real-world data.
+ 

@@ -1,0 +1,1 @@
+We present Salinas, a scalable implicit software application for the finite element static and dynamic analysis of complex structural real-world systems. This relatively complete engineering software with more than 100,000 lines of C++ code and a long list of users sustains 292.5 Gflop/s on 2,940 ASCI Red processors, and 1.16 Tflop/s on 3,375 ASCI White processors.

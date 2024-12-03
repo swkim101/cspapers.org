@@ -1,0 +1,4 @@
+
+ 
+ The paper focuses on finding the m best solutions to combinatorial optimization problems using Best-First or Branchand- Bound search. Specifically, we present m-A*, extending the well-known A* to the m-best task, and prove that all its desirable properties, including soundness, completeness and optimal efficiency, are maintained. Since Best-First algorithms have memory problems, we also extend the memoryefficient Depth-First Branch-and-Bound to the m-best task. We extend both algorithms to optimization tasks over graphical models (e.g., Weighted CSP and MPE in Bayesian networks), provide complexity analysis and an empirical evaluation. Our experiments with 5 variants of Best-First and Branch-and-Bound confirm that Best-First is largely superior when memory is available, but Branch-and-Bound is more robust, while both styles of search benefit greatly when the heuristic evaluation function has increased accuracy.
+ 

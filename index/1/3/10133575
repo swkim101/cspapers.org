@@ -1,0 +1,4 @@
+
+ 
+ Neural network-based BOW models reveal that word-embedding vectors encode strong semantic regularities. However, such models are insensitive to word polarity. We show that, coupled with simple information such as word spellings, word-embedding vectors can preserve both semantic regularity and conceptual polarity without supervision. We then describe a nontrivial modification to the t-distributed stochastic neighbor embedding (t-SNE) algorithm that visualizes these semantic- and polarity-preserving vectors in reduced dimensions. On a real Facebook corpus, our experiments show significant improvement in t-SNE visualization as a result of the proposed modification.
+ 

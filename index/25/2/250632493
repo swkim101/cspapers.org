@@ -1,0 +1,13 @@
+In participatory budgeting the stakeholders collectively decide which projects from a set of proposed projects should be implemented.
+
+This decision underlies both time and monetary constraints.
+
+In reality it is often impossible to figure out the exact cost of each project in advance, it is only known after a project is finished.
+
+To reduce risk, one can implement projects one after the other to be able to react to higher costs of a previous project.
+
+However, this will increase execution time drastically.
+
+We generalize existing frameworks to capture this setting, study desirable properties of algorithms for this problem, and show that some desirable properties are incompatible.
+
+Then we present and analyze algorithms that trade-off desirable properties.

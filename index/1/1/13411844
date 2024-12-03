@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we aim to construct a deep neural network which embeds high dimensional symmetric positive definite (SPD) matrices into a more discriminative low dimensional SPD manifold. To this end, we develop two types of basic layers: a 2D fully connected layer which reduces the dimensionality of the SPD matrices, and a symmetrically clean layer which achieves non-linear mapping. Specifically, we extend the classical fully connected layer such that it is suitable for SPD matrices, and we further show that SPD matrices with symmetric pair elements setting zero operations are still symmetric positive definite. Finally, we complete the construction of the deep neural network for SPD manifold learning by stacking the two layers. Experiments on several face datasets demonstrate the effectiveness of the proposed method.
+ 

@@ -1,0 +1,9 @@
+In an offline reinforcement learning setting, the safe policy improvement (SPI) problem aims to improve the performance of a behavior policy according to which sample data has been generated.
+
+State-of-the-art approaches to SPI require a high number of samples to provide practical probabilistic guarantees on the improved policy's performance.
+
+We present a novel approach to the SPI problem that provides the means to require less data for such guarantees.
+
+Specifically, to prove the correctness of these guarantees, we devise implicit transformations on the data set and the underlying environment model that serve as theoretical foundations to derive tighter improvement bounds for SPI.
+
+Our empirical evaluation, using the well-established SPI with baseline bootstrapping (SPIBB) algorithm, on standard benchmarks shows that our method indeed significantly reduces the sample complexity of the SPIBB algorithm.

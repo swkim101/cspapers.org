@@ -1,0 +1,5 @@
+We develop a general framework for abstracting the behavior of an agent that operates in a nondeterministic domain, i.e., where the agent does not control
+
+the outcome of the nondeterministic actions, based on the nondeterministic situation calculus and the ConGolog programming language. We assume that
+
+we have both an abstract and a concrete nondeterministic basic action theory, and a refinement mapping which specifies how abstract actions, decomposed into agent actions and environment reactions, are implemented by concrete ConGolog programs. This new setting supports strategic reasoning and strategy synthesis, by allowing us to quantify separately on agent actions and environment reactions. We show that if the agent has a (strong FOND) plan/strategy to achieve a goal/complete a task at the abstract level, and it can always execute the nondeterministic abstract actions to completion at the concrete level, then there exist a refinement of it that is a (strong FOND) plan/strategy to achieve the refinement of the goal/task at the concrete level.

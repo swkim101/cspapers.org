@@ -1,0 +1,3 @@
+AQL is a relational query language intended for use by the non computer specialist for interactive problem solving. It combines relational capabilities with the powerful computational facilities and control structures of the host programming language. A prototype version of AQL, that has been implemented, is reviewed. The Relational Memory System has been designed to minimize the data access operations necessary to process queries. 
+ 
+The interpreter has a user friendly interface which allows the use of default options, synonyms and definitions for the domain names, inference, and a menu facility for interactive completion of the query.

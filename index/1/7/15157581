@@ -1,0 +1,3 @@
+First, we will describe how some kinds of “cognitive” information can be incorporated into a formal grammar. This information will permit us to describe a system, formally, for different classes of users. Most current models are limited to specific classes of users. They do not, for example, permit us to describe a system differently for naive and for expert users.
+ Next, we will describe, explicitly, the prediction process.
+ The last point to be discussed is our general approach to testing the use of formal grammar as a design tool. This idea is being developed and tested using an IBM editor as an example.

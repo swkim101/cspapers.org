@@ -1,0 +1,4 @@
+
+ 
+ We present a metacognitive, integrated, dual-cycle architecture whose function is to provide agents with a greater capacity for acting robustly in a dynamic environment and managing unexpected events. We present MIDCA 1.3, an implementation of this architecture which explores a novel approach to goal generation, planning and execution given surprising situations. We formally define the mechanism and report empirical results from this goal generation algorithm. Finally, we describe the similarity between its choices at the cognitive level with those at the metacognitive.
+ 

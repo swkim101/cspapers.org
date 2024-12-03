@@ -1,0 +1,1 @@
+We present an optimal linear time algorithm for solving a map validation problem: a robot equipped with one portable marker must determine the correctness of a given map of its graph-like world, modelled as a possibly non-planar embedding of a planar graph.

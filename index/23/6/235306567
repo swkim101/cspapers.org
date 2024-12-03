@@ -1,0 +1,8 @@
+Decision trees of low depth are beneficial for understanding and interpreting the data they represent. 
+Unfortunately, finding a decision tree of lowest depth that correctly represents given data is NP-hard. 
+Hence known algorithms either (i) utilize heuristics that do not optimize the depth or (ii) are exact but scale only to small or medium-sized instances. 
+We propose a new hybrid approach to decision tree learning, combining heuristic and exact methods in a novel way. 
+More specifically, we employ SAT encodings repeatedly to local parts of a decision tree provided by a standard heuristic, leading to a global depth improvement. 
+This allows us to scale the power of exact SAT-based methods to almost arbitrarily large data sets. 
+We evaluate our new approach experimentally on a range of real-world instances that contain up to several thousand samples. 
+In almost all cases, our method successfully decreases the depth of the initial decision tree; often, the decrease is significant.

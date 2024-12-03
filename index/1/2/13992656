@@ -1,0 +1,4 @@
+
+ 
+ With the recent growth of online content on the Web, there have been more user generated data with noisy and missing labels, e.g., social tags and voted labels from Amazon's Mechanical Turks. Most of machine learning methods, which require accurate label sets, could not be trusted when the label sets were yet unreliable. In this paper, we provide a text label refinement algorithm to adjust the labels for such noisy and missing labeled datasets. We assume that the labeled sets can be refined based on the labels with certain confidence, and the similarity between data being consistent with the labels. We propose a label smoothness ratio criterion to measure the smoothness of the labels and the consistency between labels and data. We demonstrate the effectiveness of the label refining algorithm on eight labeled document datasets, and validate that the results are useful for generating better labels.
+ 

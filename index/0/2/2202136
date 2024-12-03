@@ -1,0 +1,4 @@
+
+ 
+ We show that by modeling people as bounded finite automata, we can capture at a qualitative level the behavior observed in experiments. We consider a decision problem with incomplete information and a dynamically changing world, which can be viewed as an abstraction of many real-world settings. We provide a simple strategy for a finite automaton in this setting, and show that it does quite well, both through theoretical analysis and simulation. We show that, if the probability of nature changing state goes to 0 and the number of states in the automaton increases, then this strategy performs optimally (as well as if it were omniscient and knew when nature was making its state changes). Thus, although simple, the strategy is a sensible strategy for a resource-bounded agent to use. Moreover, at a qualitative level, the strategy does exactly what people have been observed to do in experiments.
+ 

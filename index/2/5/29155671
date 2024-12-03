@@ -1,0 +1,4 @@
+
+ 
+ Many research studies on distance metric learning (DML) reiterate that the definition of distance between two data points substantially affects clustering tasks. Recently, variety of DML methods have been proposed to improve the accuracy of clustering by learning a distance metric; however, most of them only perform a linear transformation, which yields insignificant to non-linear separable data. This study proposes a DML method which provides an integration of kernelization technique with Mahalanobis-based DML. Thus, non-linear transformation of the distance metric can be performed. Moreover, a cluster validity index is optimized by an evolutionary algorithm. The empirical results on semi-supervised clustering suggest the promising result on both synthetic and real-world data set.
+ 

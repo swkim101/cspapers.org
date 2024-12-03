@@ -1,0 +1,1 @@
+SCOAP is a program developed at Sandia National Laboratories for the analysis of digital circuit testability. Testability is related to the difficulty of controlling and observing the logical values of internal nodes from circuit inputs and outputs, respectively. This paper reviews the testability analysis algorithms and describes their implementation in the SCOAP program.

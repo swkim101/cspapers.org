@@ -1,0 +1,1 @@
+We address the problem of reconstructing the visible surface in stereoscopic vision. We point out the need for viewpoint invariance in the reconstruction scheme and demonstrate the undesirable "wobble" effect that can occur when such invariance is lacking. The design of an invariant scheme is discussed.

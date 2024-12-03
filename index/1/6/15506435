@@ -1,0 +1,4 @@
+
+ 
+ A paradigmatic problem in social choice theory deals with the aggregation of subjective preferences of individuals --- represented as rankings of alternatives --- into a social ranking. We are interested in settings where individuals are uncertain about their own preferences, and represent their uncertainty as distributions over rankings. Under the classic objective of minimizing the (expected) sum of Kendall tau distances between the input rankings and the output ranking, we establish that preference elicitation is surprisingly straightforward and near-optimal solutions can be obtained in polynomial time. We show, both in theory and using real data, that ignoring uncertainty altogether can lead to suboptimal outcomes.
+ 

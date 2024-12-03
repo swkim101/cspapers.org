@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we tackle the problem of emotion tagging of multimedia data by modeling the dependencies among multiple emotions in both the feature and label spaces. These dependencies, which carry crucial top-down and bottom-up evidence for improving multimedia affective content analysis, have not been thoroughly exploited yet. To this end, we propose two hierarchical models that independently and dependently learn the shared features and global semantic relationships among emotion labels to jointly tag multiple emotion labels of multimedia data. Efficient learning and inference algorithms of the proposed models are also developed. Experiments on three benchmark emotion databases demonstrate the superior performance of our methods to existing methods.
+ 

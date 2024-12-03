@@ -1,0 +1,4 @@
+
+ 
+ Linear discriminant analysis (LDA) is a popular dimensionality reduction and classification method that simultaneously maximizes between-class scatter and minimizes within-class scatter. In this paper, we verify the equivalence of LDA and least squares (LS) with a set of dependent variable matrices. The equivalence is in the sense that the LDA solution matrix and the LS solution matrix have the same range. The resulting LS provides an intuitive interpretation in which its solution performs data clustering according to class labels. Further, the fact that LDA and LS have the same range allows us to design a two-stage algorithm that computes the LDA solution given by generalized eigenvalue decomposition (GEVD), much faster than computing the original GEVD. Experimental results demonstrate the equivalence of the LDA solution and the proposed LS solution.
+ 

@@ -1,0 +1,1 @@
+To improve resiliency against reverse engineering we propose dynamic physically unclonable functions (DPUFs) whose physical properties are subject to unpredictable changes between uses. We demonstrate this idea using device aging to alter delay characteristics according to user instructions.

@@ -1,0 +1,4 @@
+
+ 
+ Metaphors being at the heart of our language and thought process, computationally modelling them is imperative for reproducing human cognitive abilities. In this work, we propose a plausible grounded cognitive model for artificial metaphor acquisition. We put forward a rule-based metaphor acquisition system, which doesn't make use of any prior 'seed metaphor set'. Through correlation between a video and co-occurring commentaries, we show that these rules can be automatically acquired by an early learner capable of manipulating multi-modal sensory input. From these grounded linguistic concepts, we derive classes based on lexico-syntactical language properties. Based on the selectional preferences of these linguistic elements, metaphorical mappings between source and target domains are acquired.
+ 

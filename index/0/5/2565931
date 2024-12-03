@@ -1,0 +1,4 @@
+Our interactive system for computer aided editing of schematics (CASS) is described here. The system may be used alone as well as a part of an integrated data-base oriented design environment.
+ In isolated operation, a number of utility programs provide for the use of schematic data in succeeding design phases. As part of an integrated system this schematic data may be stored in, and retrieved from, the data-base directly. Some general aspects of the data-base will be described.
+ Particular attention should be devoted to the very "natural" and powerful user's interface of CASS, utilizing the menu technique on a storage display device, while minimizing the use of kayboard.
+ In order to increase the applicability of the system an intelligent graphic terminal, based on a microcomputer, is under implementation. The configuration of this terminal will be outlined and some of its fundamental design aspects will be described.

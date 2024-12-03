@@ -1,0 +1,1 @@
+We present a new technique for differentiating deterministic from nondeterministic communication complexity. As a consequence we give almost tight lower bounds for the nondeter- ministic communication complexity with a restricted number ofadvice bits. In particular, f or any

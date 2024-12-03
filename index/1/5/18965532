@@ -1,0 +1,4 @@
+
+ 
+ To obtain high PageRank score nodes, the original approach iteratively computes the Page-Rank score of each node until convergence by using the whole graph. If the graph is large, this approach is infeasible due to its high computational cost. The goal of this study is to find top-k Page\-Rank score nodes efficiently for a given graph without sacrificing accuracy. Our solution, F-Rank, is based on two ideas: (1) It iteratively estimates lower/upper bounds of Page\-Rank scores, and (2) It constructs subgraphs in each iteration by pruning unnecessary nodes and edges to identify top-k nodes. Our theoretical analysis shows that F-Rank guarantees result exactness. Experiments show that F-Rank finds top-k nodes much faster than the original approach.
+ 

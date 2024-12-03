@@ -1,0 +1,1 @@
+A data structure is presented for point location in convex planar subdivisions when the distribution of queries is known in advance. The data structure has an expected query time that differs from the optimal one by only lower order terms in the linear comparison tree model.

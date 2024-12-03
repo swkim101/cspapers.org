@@ -1,0 +1,4 @@
+
+ 
+ The selection of the action to do next is one of the central problems faced by autonomous agents. In AI, three approaches have been used to address this problem: the programming-based approach, where the agent controller is given by the programmer, the learning-based approach, where the controller is induced from experience via a learning algorithm, and the model-based approach, where the controller is derived from a model of the problem. Planning in AI is best conceived as the model-based approach to action selection. The models represent the initial situation, actions, sensors, and goals. The main challenge in planning is computational, as all the models, whether accommodating feedback and uncertainty or not, are intractable in the worst case. In this article, I review some of the models considered in current planning research, the progress achieved in solving these models, and some of the open problems.
+ 

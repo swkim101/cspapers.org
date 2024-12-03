@@ -1,0 +1,1 @@
+We propose a novel method for constructing utility models by learning from observed negotiation actions. In particular, we show how offers and counter-offers in negotiation can be transformed into gamble questions providing the basis for eliciting utility functions. Results of experiments and evaluation are briefly described.

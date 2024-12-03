@@ -1,0 +1,2 @@
+This paper appears in the March, 1972, issue of the Communications of the ACM. Its abstract is reproduced below.
+ Both fixed and dynamic storage partitioning procedures are examined for use in multiprogramming systems. The storage requirement of programs is modeled as a stationary Gaussian process. Experiments justifying this model are described. By means of this model dynamic storage partitioning is shown to provide substantial increases in storage utilization and operating efficiency over fixed partitioning.

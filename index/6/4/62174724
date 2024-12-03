@@ -1,0 +1,1 @@
+This paper provided a real-time network monitor system based on Wincap, which supported packet level and flow level traffic metrics such as link utilization , protocol distribution in 2~7 protocol levels ,various aggravated flow distribution , top N IP host and IP host pair. Keywords-Network traffic; Traffic measurement and analysis; Wincap; Network monitoring .

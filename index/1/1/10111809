@@ -1,0 +1,3 @@
+Although most commonly occurring default rules are normal when viewed in isolation, they can interact with each other in ways that lead to the derivation of anomalous default assumptions*. In order to deal with such anomalies it is necessary to re-represent these rules, in some cases by Introducing non-normal defaults. The need to consider such potential interactions leads to a new concept of integrity, distinct from the conventional Integrity Issues of first order data bases. 
+ 
+The non-normal default rules required to deal with default interactions all have a common pattern, Default theories conforming to this pattern are considerably more complex than normal default theories. For example, they need not have extensions, and they lack the property of semi-monotonicity.

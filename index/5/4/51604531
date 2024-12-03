@@ -1,0 +1,31 @@
+In 
+
+partial label learning, each training example is assigned a set of candidate
+
+labels, only one of which is the ground-truth label. Existing partial label
+
+learning frameworks either assume each candidate label of equal confidence or
+
+consider the ground-truth label as a latent variable hidden in the
+
+indiscriminate candidate label set, while the different labeling confidence
+
+levels of the candidate labels are regrettably ignored. In this paper, we
+
+formalize the different labeling confidence levels as the latent label
+
+distributions, and propose a novel unified framework to estimate the latent
+
+label distributions while training the model simultaneously. Specifically, we
+
+present a biconvex formulation with constrained local consistency and adopt an
+
+alternating method to solve this optimization problem. The process of
+
+alternating optimization exactly facilitates the mutual adaption of the model
+
+training and the constrained label propagation. Extensive experimental results
+
+on controlled UCI datasets as well as real-world datasets clearly show the
+
+effectiveness of the proposed approach.

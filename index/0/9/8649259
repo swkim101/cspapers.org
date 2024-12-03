@@ -1,0 +1,1 @@
+We describe an algorithm to compute a Morse function f on an abstract triangulated manifold of arbitrary dimension. We also describe an O(na(n)) algorithm to compute the critical points of f and their Morse indices a 2-manifold. This work has a variety of potential applications.

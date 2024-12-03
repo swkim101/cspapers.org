@@ -1,0 +1,1 @@
+This brief paper provides one person's perspective on route planning problems for autonomous mobile robots operating in unknown natural terrains. These problems include representation of geometric and nongeometric conditions, reasoning in dynamic situations, obstacle sensing problems and incomplete world knowledge. Several researchers' attacks on these problems are reviewed.

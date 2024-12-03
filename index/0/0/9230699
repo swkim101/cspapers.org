@@ -1,0 +1,7 @@
+Learning in first-order logic (FOL) languages suffers from a specific difficulty: both induction and classification are potentially exponential in the size of hypotheses. This difficulty is usually dealt with by limiting the size of hypotheses, via either syntactic restrictions or search strategies. 
+ 
+This paper is concerned with polynomial induction and use of FOL hypotheses with no size restrictions. This is done via stochastic matching: instead of exhaustively exploring the set of matchings between any example and any short candidate hypothesis, one stochastically explores the set of matchings between any example and any candidate hypothesis. The user sets the number of matching samples to consider and thereby controls the cost of induction and classification. 
+ 
+One advantage of this heuristic is to allow for resource-bounded learning, without any a priori knowledge about the problem domain. 
+ 
+Experiments on a real-world problem pertaining to organic chemistry fully demonstrate the potentialities of the approach regarding both predictive accuracy and computational cost.

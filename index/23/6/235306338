@@ -1,0 +1,5 @@
+Given the ubiquity of negative campaigning in recent political elections, we find it important to study its properties from a computational perspective. To this end, we present a model where elections can be manipulated by convincing voters to demote specific non-favored candidates, and study its properties in the classic setting of scoring rules.
+
+When the goal is constructive (making a preferred candidate win), we prove that finding such a demotion strategy is easy for Plurality and Veto, while generally hard for t-approval and Borda. We also provide a t-factor approximation for t-approval for every fixed t, and a 3-factor approximation algorithm for Borda. Interestingly enough - following recent trends in political science that show that the effectiveness of negative campaigning depends on the type of candidate and demographic - when assigning varying prices to different possible demotion operations, we are able to provide inapproximability results. 
+
+When the goal is destructive (making the leading opponent lose), we show that the problem is easy for a broad class of scoring rules.

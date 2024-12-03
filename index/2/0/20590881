@@ -1,0 +1,8 @@
+Modern digital hearing aids require and offer a great level of personalization. Today, 
+this personalization is not performed based directly on what the user actually 
+perceives, but on a hearing-care professional’s interpretation of what the user explains 
+about what is perceived. In this paper, an interactive personalization system 
+based on Gaussian process regression and active learning is proposed, which personalize 
+the hearing aids based directly on what the user perceives. Preliminary 
+results demonstrate a significant difference between a truly personalized setting 
+obtained with the proposed system and a setting obtained by the current practice.

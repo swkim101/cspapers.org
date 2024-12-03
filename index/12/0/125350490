@@ -1,0 +1,1 @@
+We develop a new version of the computability path ordering, which is well-founded on the set of polymorphic lambda terms. This is a new important step towards our challenge: to develop a well-founded order on the set of terms of the calculus of constructions, allowing to reduce strong normalization proofs of logical calculi to ordering comparisons of their computational rules.

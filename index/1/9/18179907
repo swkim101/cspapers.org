@@ -1,0 +1,1 @@
+Topic Detection and Tracking (TDT) tasks are evaluated using a cost function. The standard TDT cost function assumes a constant probability of relevance P(rel) across all topics. In practice, P(rel) varies widely across topics. We argue using both theoretical and experimental evidence that the cost function should be modified to account for the varying P(rel).

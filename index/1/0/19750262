@@ -1,0 +1,5 @@
+Data cubes are specialized database management systems designed to support multidimensional data for such purposes as decision support and data mining. For a given mix of queries, we can optimize the implementation of a data cube by materializing some projections of the cube. A greedy approach turns out to be very effective; it is both polynomial-time as a function of the number of possible views to materialize and guaranteed to come close to the optimum choice of views. The work reported here is a summary of results appearing in the following two papers: 
+ 
+V. Harinarayan, A. Rajaiaman, and J. D. Ullman, "Implementing data cubes efficiently." To appear in 1996 SIGMOD. An extended version is available by anonymous ftp from db.stanford.edu as pub/harinarayan/1995/cube.ps. 
+ 
+H. Gupta, V. Harinarayan, A. Rajaraman, and J. D. Ullman, "Index selection for OLAP." Available by anonymous ftp from db.stanford.edu as pub/hgupta/1996/CubeIndex.ps.

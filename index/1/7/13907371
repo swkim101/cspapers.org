@@ -1,0 +1,4 @@
+
+ 
+ Answer Set Programming (ASP) has been deployed in many applications, thanks to the availability of efficient solvers. Most programs encountered in practice have an important property: Their predicate arities are bounded by a constant, and in this case it is known that the relevant computations can be done using polynomial space. However, all competitive ASP systems rely on grounding, due to which they may use exponential space for these programs. We present three evaluation methods that respect the polynomial space bound and a generic framework architecture for realization. Experimental results for a prototype implementation indicate that the methods are effective. They show not only benign space consumption, but interestingly also good runtime compared to some state of the art ASP solvers.
+ 

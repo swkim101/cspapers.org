@@ -1,0 +1,1 @@
+We present a 3/4 polynomial time approximation algorithm for the Maximum Satisfiability problem: Given a set of clauses, find a truth assignment that satisfies the maximum number of clauses. The algorithm applies to the weighted case as well, and involves nontrival application of network flow techniques.

@@ -1,0 +1,3 @@
+In this paper we consider updates that are specified as rules and consider simple knowledge bases consisting of ground atoms. We present a translation of the rule based update specifications to extended logic programs using situation calculus notation so as to compute the updated knowledge base. We show that the updated knowledge base that we compute satisfies the update specifications and yet is minimally different from the original database. We then expand our approach to incomplete knowledge bases. 
+ 
+We relate our approach to the standard revision and update operators, the formalization of actions and its effects using situation calculus and the formalization of database evolution using situation calculus.

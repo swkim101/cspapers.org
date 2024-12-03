@@ -1,0 +1,11 @@
+Maximum satisfiability (MaxSAT) offers a competitive approach to solving NP-hard real-world optimization problems. While state-of-the-art MaxSAT
+
+solvers rely heavily on Boolean satisfiability (SAT) solvers, a recent trend, brought on by MaxSAT solvers implementing the so-called implicit hitting
+
+set (IHS) approach, is to integrate techniques from the realm of integer programming (IP) into the solving process. This allows for making use of additional
+
+IP solving techniques to further speed up MaxSAT solving. In this line of work, we investigate the integration of the technique of reduced cost
+
+fixing from the IP realm into IHS solvers, and empirically show that reduced cost fixing considerable speeds up a state-of-the-art MaxSAT solver implementing
+
+the IHS approach.

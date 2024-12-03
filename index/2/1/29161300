@@ -1,0 +1,4 @@
+
+ 
+ We examine the surveying problem, where we attempt to predict how a target user is likely to respond to questions by iteratively querying that user, collaboratively based on the responses of a sample set of users. We focus on an active learning approach, where the next question we select to ask the user depends on their responses to the previous questions. We propose a method for solving the problem based on a Bayesian dimensionality reduction technique. We empirically evaluate our method, contrasting it to benchmark approaches based on augmented linear regression, and show that it achieves much better predictive performance, and is much more robust when there is missing data.
+ 

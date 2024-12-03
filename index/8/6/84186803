@@ -1,0 +1,1 @@
+We prove a convergence guarantee on the unadjusted Langevin algorithm for sampling assuming only that the target distribution $e^{-f}$ satisfies a log-Sobolev inequality and the Hessian of $f$ is bounded. In particular, $f$ is not required to be convex or have higher derivatives bounded.

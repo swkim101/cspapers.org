@@ -1,0 +1,4 @@
+
+ 
+ Temporal Action Logics (TAL) is a class of temporal logics for reasoning about actions. We present a reformulation of TAL in Answer Set Programming (ASP), and discuss some synergies it brings. First, the reformulation provides a means to compute TAL using efficient answer set solvers. Second, TAL provides a structured high-level language for ASP (possibly with constraint solving). Third, the reformulation allows us to compute integration of TAL and ontologies using answer set solvers, and we illustrate its usefulness in the healthcare domain in the context of medical expert systems.
+ 

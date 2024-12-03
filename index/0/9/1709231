@@ -1,0 +1,4 @@
+In this paper we present approximation algorithms for the maximum constraint satisfaction problem with <i>k</i> variables in each constraint (MAX <i>k</i>-CSP).
+ Given a (1 - ε) satisfiable 2CSP our first algorithm finds an assignment of variables satisfying a 1 - <i>O</i>(√ε) fraction of all constraints. The best previously known result, due to Zwick, was 1 - <i>O</i>(ε<sup>1/3</sup>).
+ The second algorithm finds a <i>ck</i>/2<sup><i>k</i></sup> approximation for the MAX <i>k</i>-CSP problem (where <i>c</i> > 0.44 is an absolute constant). This result improves the previously best known algorithm by Hast, which had an approximation guarantee of Ω(<i>k</i>/(2<sup><i>k</i></sup>log <i>k</i>)).
+ Both results are optimal assuming the Unique Games Conjecture and are based on rounding natural semidefinite programming relaxations. We also believe that our algorithms and their analysis are simpler than those previously known.

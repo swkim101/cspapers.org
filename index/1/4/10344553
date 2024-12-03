@@ -1,0 +1,3 @@
+The search strategy of standard Prolog can lead to a situation in which a predicate has to be evaluated in circumstances where it has an infeasibly large number of Instantiations. The work by Kornfeld [8] addressed this important problem by means of an extension of unification which allows Prolog to be augmented by what is essentially a (non-standard) equality theory. 
+ 
+This paper uses the notion of the general procedure introduced by van Emden and Lloyd [12] to formalize Kornfeld's work. In particular, the formalization is used to make a careful analysis and evaluation of Kornfeld's solution to the problem of delayed evaluation.

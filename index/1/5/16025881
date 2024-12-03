@@ -1,0 +1,1 @@
+In this work, we are the first to consider the optimization of sub-threshold stand-by VDD while simultaneously considering memory yield and redundant row/column usage. We propose a fast, optimal fault-repair analysis framework that is 200–600% faster than previous works and show that leakage can be reduced 10–14% using redundancy without sacrificing yield.

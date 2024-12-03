@@ -1,0 +1,4 @@
+
+ 
+ Dots-And-Boxes is a well-known and widely-played combinatorial game. While the rules of play are very simple, the state space for even very small games is extremely large, and finding the outcome under optimal play is correspondingly hard. In this paper we introduce a Dots-And-Boxes solver which is significantly faster than the current state-of-the-art: over an order-of-magnitude faster on several large problems. Our approach uses Alpha-Beta search and applies a number of techniques---both problem-specific and general---that reduce the search space to a manageable size. Using these techniques, we have determined for the first time that Dots-And-Boxes on a board of 4 x 5 boxes is a tie given optimal play; this is the largest game solved to date.
+ 

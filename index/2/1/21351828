@@ -1,0 +1,1 @@
+This paper discusses the design of a real-time computer. The computer's design requirements, design decisions, and architecture are summarized. The paper discusses how the design requirements influenced the computer architecture. The system's three upward compatible addressing options (real, base, virtual) are also discussed.

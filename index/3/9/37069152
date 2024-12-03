@@ -1,0 +1,13 @@
+A. Joe Turner
+ The role of formal methods for program development and verification in computer science curricula will be discussed. The panel members will address the questions
+ 1) What should be taught?
+ 2) When should it be taught?
+ 3) What are the objectives in teaching this material?
+ 4) What are the problems in teaching this material at this level?
+ The panel members and an outline of their positions is given below.
+ Susan L. Gerhart
+ Certain things are understood to be needed for applying verification technology to actual software. The basic knowledge needed to apply verification methods using current technology to large-scale problems will be discussed, based on actual experience in using the technology in such areas as database systems, operating systems, and communications systems.
+ Eric C. Hehner
+ The Dijkstra/Gries approach to program development is an important and useful component of the computer science curriculum. Good programmers use this approach informally, and instruction in the formal methods can provide the understanding that will improve average programmers. Although the subject matter is currently taught at the senior/graduate level at Toronto, it should be taught earlier, for example during the second year. Teaching the material earlier does require a different approach, however, and good student preparation in logic would be essential for success.
+ Harlan D. Mills
+ Formal methods and a large structured set of principles for program design and verification should be taught early in the computer science curriculum. Instruction in programming can be improved by teaching a large set of small principles, and teaching by apprenticeship. Students learn easier and faster when they are freshmen than later after they have become hackers.

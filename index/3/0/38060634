@@ -1,0 +1,4 @@
+
+ 
+ In almost any application of social media analysis, the user is interested in studying a particular topic or research question. Collecting posts or messages relevant to the topic from a social media source is a necessary step. Due to the huge size of social media sources (e.g., Twitter and Facebook), one has to use some topic keywords to search for possibly relevant posts. However, gathering a good set of keywords is a very tedious and time-consuming task. It often involves a lengthy iterative process of searching and manual reading. In this paper, we propose a novel technique to help the user identify topical search keywords. Our experiments are carried out on identifying such keywords for five (5) real-life application topics to be used for searching relevant tweets from the Twitter API. The results show that the proposed method is highly effective.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In the algebraic approach to CSP (Constraint Satisfaction Problem), the complexity of constraint languages is studied using closure operations called polymorphisms. Many of these operations are known to induce tractability of any language they preserve. We focus on the meta-problem: given a language G, decide if G has a polymorphism with nice properties. We design an algorithm that decides in polynomial-time if a constraint language has a conservative Mal'tsev polymorphism, and outputs one if one exists. As a corollary we obtain that the class of conservative Mal'tsev constraints is uniformly tractable, and we conjecture that this result remains true in the non-conservative case.
+ 

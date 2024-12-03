@@ -1,0 +1,1 @@
+This work purposes a novel approach to modeling and control of dynamic systems. This approach uses the Petri net Fuzzy Interval (IFPN) to describe a mixing system. An algorithm is developed to regulation of this system where the concentration of ingredients has to be held within a valid range.

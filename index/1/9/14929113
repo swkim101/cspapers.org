@@ -1,0 +1,1 @@
+We compute approximate analytical bootstrap averages for support vector classification using a combination of the replica method of statistical physics and the TAP approach for approximate inference. We test our method on a few datasets and compare it with exact averages obtained by extensive Monte-Carlo sampling.

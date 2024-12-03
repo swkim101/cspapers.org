@@ -1,0 +1,3 @@
+In this paper we present a new system for making use of the cyles routinely wasted in local area networks. The Piranha system harnesses these cycles to run explicitly parallel programs. Programs written for Piranha are specializations of Linda master/worker programs [5]. We have used Piranha to run a number of production applications.
+We present a description of the Piranha prototype, briefly explain the Piranha programming methodology, and explore different types of Piranha algorithms.
+This work was supported by the National Science Foundation under grant number CCR-8657615 and NASA under grant number NGT-50719.

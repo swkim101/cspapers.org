@@ -1,0 +1,4 @@
+
+ 
+ This paper presents an abstract for a general data transformation approach. Using programming by demonstration technique, we learn the transformation rules through user given examples. These transformation rules are automatically generated from a predefined grammar. Due to the grammar space is huge, we propose a grammar space reduction method to reduce the search space and a sketch of search algorithm is adopted to identify the rules that are consistent with the examples. The final experimental results show our approach achieves promising results on different transformation scenarios.
+ 

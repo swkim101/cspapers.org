@@ -1,0 +1,4 @@
+
+ 
+ The Power TAC simulation emphasizes the strategic problems that broker agents face in managing the economics of a smart grid. The brokers must make trades in multiple markets and to be successful, brokers must make many good predictions about future supply, demand,and prices. Clearing price prediction is an important part of the broker’s wholesale market strategy because it helps the broker to make intelligent decisions when purchasing energy at low cost in a day-ahead market. I describe my work on using machine learning methods to predict prices in the Power TAC wholesale market, which will be used in future bidding strategies.
+ 

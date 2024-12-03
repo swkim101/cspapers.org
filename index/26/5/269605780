@@ -1,0 +1,9 @@
+Federated learning (FL) has been demonstrated to be susceptible to backdoor attacks. However, existing academic studies on FL backdoor attacks rely on a high proportion of real clients with main task-related data, which is impractical. In the context of real-world industrial scenarios, even the simplest defense suffices to defend against the state-of-the-art attack, 3DFed. A practical FL backdoor attack remains in a nascent stage of development.
+
+
+
+To bridge this gap, we present DarkFed. Initially, we emulate a series of fake clients, thereby achieving the attacker proportion typical of academic research scenarios. Given that these emulated fake clients lack genuine training data, we further propose a data-free approach to backdoor FL. 
+
+Specifically, we delve into the feasibility of injecting a backdoor using a shadow dataset. Our exploration reveals that impressive attack performance can be achieved, even when there is a substantial gap between the shadow dataset and the main task dataset. This holds true even when employing synthetic data devoid of any semantic information as the shadow dataset.
+
+Subsequently, we strategically construct a series of covert backdoor updates in an optimized manner, mimicking the properties of benign updates, to evade detection by defenses. A substantial body of empirical evidence validates the tangible effectiveness of DarkFed.

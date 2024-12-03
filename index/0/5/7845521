@@ -1,0 +1,1 @@
+In this paper we propose designs of latches which can be used in Level Sensitive Scan Design NLSSD). These new designs can use the existing software support for design rule checks but result into a reduction of effort in test pattern generation and provide a better fault coverage. The system performance is not degraded with the use of latches proposed in this paper.

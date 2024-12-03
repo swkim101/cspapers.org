@@ -1,0 +1,1 @@
+We present a 380-approximation algorithm for the Nash Social Welfare problem with submodular valuations. Our algorithm builds on and extends a recent constant-factor approximation for Rado valuations [15].

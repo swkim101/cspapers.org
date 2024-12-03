@@ -1,0 +1,1 @@
+This paper introduces a new way of accelerating the convergence of numeric csp filtering algorithms, through the use of extrapolation methods. Extrapolation methods are used in numerical analysis to accelerate the convergence of real number sequences. We will show how to use them for solving numeric cSPs, leading to drastic improvement in efficiency.

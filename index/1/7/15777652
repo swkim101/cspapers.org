@@ -1,0 +1,1 @@
+This paper describes a differential attack on several hash functions based on a block cipher. The emphasis will be on the results for cases where DES [8] is the underlying block cipher. It will briefly discuss the case of FEAL-N [19, 21].

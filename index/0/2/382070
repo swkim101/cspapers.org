@@ -1,0 +1,5 @@
+We introduce a novel algorithm to compute non-negative sparse principal components of positive semidefinite (PSD) matrices. Our algorithm comes with approximation guarantees contingent on the spectral profile of the input matrix A: the sharper the eigenvalue decay, the better the quality of the approximation. 
+ 
+If the eigenvalues decay like any asymptotically vanishing function, we can approximate nonnegative sparse PCA within any accuracy e in time polynomial in the matrix dimension n and desired sparsity k, but not in 1/e. Further, we obtain a data dependent bound that is computed by executing an algorithm on a given data set. This bound is significantly tighter than a-priori bounds and can be used to show that for all tested datasets our algorithm is provably within 40% - 90% from the unknown optimum. 
+ 
+Our algorithm is combinatorial and explores a subspace defined by the leading eigenvectors of A. We test our scheme on several data sets, showing that it matches or outperforms the previous state of the art.

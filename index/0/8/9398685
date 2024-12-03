@@ -1,0 +1,4 @@
+
+ 
+ In extensive-form games with a large number of actions, careful abstraction of the action space is critically important to performance. In this paper we extend previous work on action abstraction using no-limit poker games as our test domains. We show that in such games it is no longer necessary to choose, a priori, one specific range of possible bet sizes. We introduce an algorithm that adjusts the range of bet sizes considered for each bet individually in an iterative fashion. This flexibility results in a substantially improved game value in no-limit Leduc poker. When applied to no-limit Texas Hold'em our algorithm produces an action abstraction that is about one third the size of a state of the art hand-crafted action abstraction, yet has a better overall game value.
+ 

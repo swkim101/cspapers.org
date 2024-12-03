@@ -1,0 +1,4 @@
+
+ 
+ Multi-instance multi-label learning (MIML) is a learning paradigm where an object is represented by a bag of instances and each bag is associated with multiple labels. Ordinary MIML setting assumes a fixed target label set. In real applications, multiple novel labels may exist outside this set, but hidden in the training data and unknown to the MIML learner. Existing MIML approaches are unable to discover the hidden novel labels, let alone predicting these labels in the previously unseen test data. In this paper, we propose the first approach to discover multiple novel labels in MIML problem using an efficient augmented lagrangian optimization, which has a bag-dependent loss term and a bag-independent clustering regularization term, enabling the known labels and multiple novel labels to be modeled simultaneously. The effectiveness of the proposed approach is validated in experiments.
+ 

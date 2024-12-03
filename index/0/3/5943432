@@ -1,0 +1,5 @@
+We show how testing whether a system is diagnosable can be reduced to the satisfiability problem and how satisfiability algorithms yield a very efficient approach to testing diagnosability. 
+ 
+Diagnosability is the question whether it is always possible to know whether a given system has exhibited a failure behavior. This is a basic question that underlies diagnosis, and it is also closely related to more general questions about the possibility to know given facts about system behavior. 
+ 
+The work combines the twin plant construct of Jiang et al., which is the basis of diagnosability testing of systems with an enumerative representation, and SAT-based techniques to AI planning which form a very promising approach to finding paths in very large transition graphs.

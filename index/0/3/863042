@@ -1,0 +1,3 @@
+The Singular Value Decomposition (SVD) is an important tool for linear algebra and can be used to invert or approximate matrices. Although many authors use "SVD" synonymously with "Eigenvector Decomposition" or "Principal Components Transform", it is important to realize that these other methods apply only to symmetric matrices, while the SVD can be applied to arbitrary nonsquare matrices. This property is important for applications to signal transmission and control. 
+ 
+I propose two new algorithms for iterative computation of the SVD given only sample inputs and outputs from a matrix. Although there currently exist many algorithms for Eigenvector Decomposition (Sanger 1989, for example), these are the first true sample-based SVD algorithms.

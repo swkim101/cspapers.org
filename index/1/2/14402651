@@ -1,0 +1,3 @@
+LAWALY is a LISP program which solves robot planning problems. Given an axiomatic description of its capabilities in some world, she generates her own procedures to embody these capabilities. She executes these procedures to solve specific tasks in the world. Hierarchies of subtasks guide the search for a solution. In sufficiently large worlds, LAWALY has routinely solved tasks requiring several hundred steps without needing to learn from previous tasks. The times to solution grow usually about linearly with the number of steps in the solution. 
+ 
+LAWALY is extensively compared to another robot planner based on a theorem prover.

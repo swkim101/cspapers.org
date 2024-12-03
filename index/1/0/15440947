@@ -1,0 +1,1 @@
+Most practical work on AI planning systems during the last fifteen years has been based on hierarchical task network (HTN) decomposition, but until now, there has been very little analytical work on the properties of HTN planners. This paper describes how the complexity of HTN planning varies with various conditions on the task networks.

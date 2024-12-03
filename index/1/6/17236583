@@ -1,0 +1,4 @@
+
+ 
+ Most Relevant Explanation (MRE) is a new inference task in Bayesian networks that finds the most relevant partial instantiation of target variables as an explanation for given evidence by maximizing the Generalized Bayes Factor (GBF). No exact algorithm has been developed for solving MRE previously. This paper fills the void and introduces a breadth-first branch-and-bound MRE algorithm based on a novel upper bound on GBF. The bound is calculated by decomposing the computation of the score to a set of Markov blankets of subsets of evidence variables. Our empirical evaluations show that the proposed algorithm scales up exact MRE inference significantly.
+ 

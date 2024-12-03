@@ -1,0 +1,4 @@
+
+ 
+ Handwriting is a skill learned by humans from a very early age. The ability to develop one’s own unique handwriting as well as mimic another person’s handwriting is a task learned by the brain with practice. This paper deals with this very problem where an intelligent system tries to learn the handwriting of an entity using Generative Adversarial Networks (GANs). We propose a modified architecture of DCGAN (Radford, Metz, and Chintala 2015) to achieve this. We also discuss about applying reinforcement learning techniques to achieve faster learning. Our algorithm hopes to give new insights in this area and its uses include identification of forged documents, signature verification, computer generated art, digitization of documents among others. Our early implementation of the algorithm illustrates a good performance with MNIST datasets.
+ 

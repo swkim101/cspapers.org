@@ -1,0 +1,4 @@
+
+ 
+ It is well known that strategic behavior in elections is essentially unavoidable; we therefore ask: how bad can the rational outcome be? We answer this question via the notion of the price of anarchy, using the scores of alternatives as a proxy for their quality and bounding the ratio between the score of the optimal alternative and the score of the winning alternative in Nash equilibrium. Specifically, we are interested in Nash equilibria that are obtained via sequences of rational strategic moves. Focusing on three common voting rules — plurality, veto, and Borda — we provide very positive results for plurality and very negative results for Borda, and place veto in the middle of this spectrum.
+ 

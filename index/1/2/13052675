@@ -1,0 +1,1 @@
+This paper addresses the problem of finding inclusion dependencies on the Web. In our approach, we enumerate pairs of HTML/XML elements that possibly represent inclusion dependencies and then rank the results for verification. This paper focuses on the challenges in the finding and ranking processes.

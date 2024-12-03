@@ -1,0 +1,1 @@
+A team of robots cooperating to quickly produce a map needs to share landmark information between members so that the local maps can be accurately merged. However, the appearance of landmarks as seen by members of the team can change dramatically due to the phenomenon of occlusion.

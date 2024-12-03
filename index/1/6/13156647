@@ -1,0 +1,4 @@
+
+ 
+ In practice the vast majority of causal effect estimations from observational data are computed using adjustment sets which avoid confounding by adjusting for appropriate covariates. Recently several graphical criteria for selecting adjustment sets have been proposed. They handle causal directed acyclic graphs (DAGs) as well as more general types of graphs that represent Markov equivalence classes of DAGs, including completed partially directed acyclic graphs (CPDAGs). Though expressed in graphical language, it is not obvious how the criteria can be used to obtain effective algorithms for finding adjustment sets. In this paper we provide a new criterion which leads to an efficient algorithmic framework to find, test and enumerate covariate adjustments for chain graphs - mixed graphs representing in a compact way a broad range of Markov equivalence classes of DAGs.
+ 

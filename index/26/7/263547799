@@ -1,0 +1,5 @@
+Code instrumentation is a powerful mechanism for understanding program behavior. Unfortunately, code instrumentation is extremely difficult, and therefore has been mostly relegated to building special purpose tools for use on standard industry benchmark suites. 
+ 
+ATOM (Analysis Tools with OM) provides a very flexible and efficient code instrumentation interface that allows powerful, high performance program analysis tools to be built with very little effort. This paper illustrates this flexibility by building five complete tools that span the interests of application programmers, computer architects, and compiler writers. 
+ 
+This flexibility does not come at the expense of performance. Because ATOM uses procedure calls as the interface between the application and the analysis routines, the performance of each tool is similar to or greatly exceeds the best known hand-crafted implementations.

@@ -1,0 +1,4 @@
+
+ 
+ We introduce a synergetic approach incorporating psychological theories and data science in service of predicting human behavior. Our method harnesses psychological theories to extract rigorous features to a data science algorithm. We demonstrate that this approach can be extremely powerful in a fundamental human choice setting. In particular, a random forest algorithm that makes use of psychological features that we derive, dubbed psychological forest, leads to prediction that significantly outperforms best practices in a choice prediction competition. Our results also suggest that this integrative approach is vital for data science tools to perform reasonably well on the data. Finally, we discuss how social scientists can learn from using this approach and conclude that integrating social and data science practices is a highly fruitful path for future research of human behavior.
+ 

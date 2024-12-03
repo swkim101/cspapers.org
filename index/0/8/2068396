@@ -1,0 +1,1 @@
+A Markov Decision Process model is developed to analyze buffer assignment at the transport level of the ARPAnet protocol. The result of the analysis is a method for obtaining an assignment policy which is optimal with respect to a delay/throughput/overhead reward function. The nature of the optimal policy is investigated by varying parameters of the reward.

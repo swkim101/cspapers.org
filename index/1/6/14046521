@@ -1,0 +1,1 @@
+We describe a class of probabilistic models that we call credibility networks. Using parse trees as internal representations of images, credibility networks are able to perform segmentation and recognition simultaneously, removing the need for ad hoc segmentation heuristics. Promising results in the problem of segmenting handwritten digits were obtained.

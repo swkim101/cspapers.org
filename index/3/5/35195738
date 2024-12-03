@@ -1,0 +1,1 @@
+The results of research into the use of a unified set of mechanisms to support store stability and concurrency control is presented. It is shown that the use and extension of the data structures already maintained by the system to support stability provides support for a novel approach to provision of cooperative concurrency control in persistent systems.

@@ -1,0 +1,1 @@
+This paper studies the problem of algorithm design on well defined data structures. A general principle is presented which is shown to be useful in designing algorithms which operate on sequences (strings). A generalization of the principle is presented for more general data structures. Implications of these results are discussed.

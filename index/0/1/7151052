@@ -1,0 +1,1 @@
+This paper presents an efficient file enciphering service for a UNIX-like operating system. It allows OSs to encipher or/and decipher automatically only a portion of being accessed file by applications. Its approach shows that users can access encrypted files using the proposed method much faster than using the existing techniques without losing the user transparency.

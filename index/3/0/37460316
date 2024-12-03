@@ -1,0 +1,1 @@
+Let F ⊂ Sk be a finite set of permutations and let Cn(F) denote the number of permutations σ ∈ Sn avoiding the set of patterns F. We prove that {Cn (F)} cannot be computed in time polynomial in n, unless EXP = ⊕EXP. Our tools also allow us to disprove the Noonan--Zeilberger conjecture which states that the sequence {Cn (F)} is P-recursive.

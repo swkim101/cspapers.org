@@ -1,0 +1,4 @@
+
+ 
+ Due to the openness and decentralization of the Web, mechanisms to represent and reason about the reliability of RDF data become essential. This paper embarks on a formal analysis of RDF data enriched with trust information by focusing on the characterization of its model-theoretic semantics and on the study of relevant reasoning problems. The impact of trust values on the computational complexity of well-known concepts related to the entailment of RDF graphs is studied. In particular, islands of tractability are identified for classes of acyclic and nearly-acyclic graphs. Moreover, an implementation of the framework and an experimental evaluation on real data are discussed.
+ 

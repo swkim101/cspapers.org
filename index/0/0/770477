@@ -1,0 +1,1 @@
+Geometric rearrangement of images includes operations such as image retargeting, inpainting, or object rearrangement. Each such operation can be characterized by a shiftmap: the relative shift of every pixel in the output image from its source in an input image.

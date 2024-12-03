@@ -1,0 +1,4 @@
+
+ 
+ This paper shows that simply prescribing "none of the above" labels to unlabeled data has a beneficial regularization effect to supervised learning. We call it universum prescription by the fact that the prescribed labels cannot be one of the supervised labels. In spite of its simplicity, universum prescription obtained competitive results in training deep convolutional networks for CIFAR-10, CIFAR-100, STL-10 and ImageNet datasets. A qualitative justification of these approaches using Rademacher complexity is presented. The effect of a regularization parameter — probability of sampling from unlabeled data — is also studied empirically.
+ 

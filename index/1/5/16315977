@@ -1,0 +1,1 @@
+Within the framework of the vector space models, a statistical similarity measure between document and query is proposed. In this approach the assumption that term (or atomic) vectors are pairwise orthogonal is not required. In addition, it provides a natural and consistent interpretation of term occurrence frequencies obtained from autoindexing.

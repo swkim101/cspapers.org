@@ -1,0 +1,1 @@
+This paper presents a polynomial protocol for reaching Byzantine agreement in t + 1 rounds whenever n > 3t, where n is the number of processors and t is an a priori upper bound on the number of failures. This resolves an open problem presented by Pease, Shostak and Lamport ir 1980.

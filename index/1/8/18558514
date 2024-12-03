@@ -1,0 +1,3 @@
+While in most planning approaches goals and plans are different objects, it is often useful to specify goals that combine declarative conditions with procedural plans. 
+ 
+In this paper, we propose a novel language for expressing temporally extended goals for planning in nondeterministic domains. The key feature of this language is that it allows for an arbitrary combination of declarative goals expressed in temporal logic and procedural goals expressed as plan fragments. We provide a formal definition of the language and its semantics, and we propose an approach to planning with this language in nondeterministic domains. We implement the planning framework and perform a set of experimental evaluations that show the potentialities of our approach.

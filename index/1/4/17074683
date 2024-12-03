@@ -1,0 +1,4 @@
+
+ 
+ We study recommendation in scenarios where there's no prior information about the quality of content in the system. We present an online algorithm that continually optimizes recommendation relevance based on behavior of past users. Our method trades weaker theoretical guarantees in asymptotic performance than the state-of-the-art for stronger theoretical guarantees in the online setting. We test our algorithm on real-world data collected from previous recommender systems and show that our algorithm learns faster than existing methods and performs equally well in the long-run.
+ 

@@ -1,0 +1,1 @@
+We discuss some of the practical issues that arise from decoding with general synchronous context-free grammars. We examine problems caused by unary rules and we also examine how virtual nonterminals resulting from binarization can best be handled. We also investigate adding more flexibility to synchronous context-free grammars by adding glue rules and phrases.

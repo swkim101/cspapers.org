@@ -1,0 +1,1 @@
+Cloud storage is a system composed of multiple computers that cooperate to optimally save lots of files. Due to a file or server failure in this system, the service may be stopped and users may get no response from the system. In this paper, we analyze how to apply quality of service in cloud storage systems to improve fault tolerance and availability.

@@ -1,0 +1,15 @@
+Maximizing monotone submodular functions under a matroid constraint is a classic algorithmic problem with multiple applications in data mining and machine learning. We study this significant problem in the fully dynamic setting, where elements can be both inserted and deleted in real-time.
+ 
+ Our main result is a randomized algorithm that maintains an efficient data structure with an
+ 
+ \({\tilde{O}({k^{2}}{\varepsilon})}\)
+ 
+ amortized update time (in the number of insertions and deletions) and yields a
+ 
+ \({(4+O(\varepsilon))}\)
+ 
+ -approximate solution with respect to the dynamic optimum, where
+ 
+ \(k\)
+ 
+ is the rank of the matroid.

@@ -1,0 +1,4 @@
+
+ 
+ The naturalness of qualitative reasoning suggests that qualitative representations might be an important component of the semantics of natural language. Prior work showed that frame-based representations of qualitative process theory constructs could indeed be extracted from natural language texts. That technique relied on the parser recognizing specific syntactic constructions, which had limited coverage. This paper describes a new approach, using narrative function to represent the higher-order relationships between the constituents of a sentence and between sentences in a discourse. We outline how narrative function combined with query-driven abduction enables the same kinds of information to be extracted from natural language texts. Moreover, we also show how the same technique can be used to extract type-level qualitative representations from text, and used to improve performance in playing a strategy game.
+ 

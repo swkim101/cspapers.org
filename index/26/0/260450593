@@ -1,0 +1,1 @@
+In this paper, we describe an algorithm to generate textual summaries of discussion groups. Our system combines sentences extracted from individual postings into variable-length summaries by utilizing the hierarchical discourse context provided by discussion threads. We have incorporated this algorithm into a Web-based application called IDS (Interactive Discussion Summarizer).

@@ -1,0 +1,1 @@
+A new algorithm for Support Vector regression is described. For a priori chosen ν, it automatically adjusts a flexible tube of minimal radius to the data such that at most a fraction ν of the data points lie outside. Moreover, it is shown how to use parametric tube shapes with non-constant radius. The algorithm is analysed theoretically and experimentally.

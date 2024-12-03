@@ -1,0 +1,5 @@
+In this paper, we study coalition formation in hedonic games through the fairness criterion of envy-freeness. 
+Since the grand coalition is always envy-free, we focus on the conjunction of envy-freeness with stability notions.
+We first show that, in symmetric and additively separable hedonic games, an individually stable and justified envy-free partition may not exist and deciding its existence is NP-complete.
+Then, we prove that the top responsiveness property guarantees the existence of a Pareto optimal, individually stable, and envy-free partition, but it is not sufficient for the conjunction of core stability and envy-freeness.
+Finally, under bottom responsiveness, we show that deciding the existence of an individually stable and envy-free partition is NP-complete, but a Pareto optimal and justified envy-free partition always exists.

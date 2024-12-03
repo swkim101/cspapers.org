@@ -1,0 +1,5 @@
+This paper presents an analysis of runtime implementation switching. The goal of the switching is to optimize the user experience, especially on resource limited devices, by choosing dynamically between different implementations offering the same functionality. An example is switching between local and remote execution. 
+ 
+Firstly a general architecture for a component based application framework offering these capabilities is proposed. Special care is taken to provide as much transparency as feasible towards application developers. Then, an overview is presented of technologies and techniques that support runtime implementation switching by creating a level of indirection between the caller and the callee. Several prototype implementations are discussed and finally they are compared in terms of performance. 
+ 
+Overhead measurements show that there are significant differences between the different implementations. But, they also show that runtime implementation switching is possible with very low performance impact.

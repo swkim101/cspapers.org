@@ -1,0 +1,1 @@
+This paper applies machine learning techniques to acquiring aspects of the meaning of discourse markers. Three subtasks of acquiring the meaning of a discourse marker are considered: learning its polarity, veridicality, and type (i.e. causal, temporal or additive). Accuracy of over 90% is achieved for all three tasks, well above the baselines.

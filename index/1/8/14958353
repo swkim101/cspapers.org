@@ -1,0 +1,4 @@
+
+ 
+ Boolean SATisfiability (SAT) is an important problem in AI. SAT solvers have been effectively used in important industrial applications including automated planning and verification. In this paper, we present novel algorithms for fast SAT solving by employing two common subclause elimination (CSE) approaches. Our motivation is that modern SAT solving techniques can be more efficient on CSE-processed instances. Empirical study shows that CSE can significantly speed up SAT solving.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Policy gradient reinforcement learning (PGRL) has been receiving substantial attention as a mean for seeking stochastic policies that maximize cumulative reward. However, the learning speed of PGRL is known to decrease substantially when PGRL explores the policies that give the Markov chains having long mixing time. We study a new approach of regularizing how the PGRL explores the policies by the use of the hitting time of the Markov chains. The hitting time gives an upper bound on the mixing time, and the proposed approach improves the learning efficiency by keeping the mixing time of the Markov chains short. In particular, we propose a method of temporal-difference learning for estimating the gradient of the hitting time. Numerical experiments show that the proposed method outperforms conventional methods of PGRL.
+ 

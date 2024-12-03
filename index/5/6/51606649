@@ -1,0 +1,3 @@
+Multi-agent path finding is the problem of navigating multiple agents from their current locations to their goal locations in such a way that there are no collisions between the agents. The classical definition of the problem assumes that the set of agents is unchangeable, and that the distances in the graph are homogeneous. 
+
+We propose to add to the problem specification a set of new attributes to bring it closer to the real world. These attributes include varying distances, number of agents that can occupy an edge or node, and dynamic appearance of new agents.

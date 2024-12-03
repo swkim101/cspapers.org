@@ -1,0 +1,3 @@
+EMMA (1) is a multiprocessor system designed and built by ELSAG of Genoa, Italy, to solve problems of pattern recognition arising in automatic mail sorting.
+ The resulting architecture is modular, organizable around several levels, and offers a theoretically unlimited possibility of increasing the processor power.
+ EMMA runs under a simple distributed operating system, supplying process communication, synchronization primitives and some diagnostic functions that complement analysis and reconfiguration modules residing in the supervisor.

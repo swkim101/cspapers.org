@@ -1,0 +1,4 @@
+
+ 
+ Due to the non-stationary environment, learning in multi-agent systems is a challenging problem. This paper first introduces a new gradient-based learning algorithm, augmenting the basic gradient ascent approach with policy prediction. We prove that this augmentation results in a stronger notion of convergence than the basic gradient ascent, that is, strategies converge to a Nash equilibrium within a restricted class of iterated games. Motivated by this augmentation, we then propose a new practical multi-agent reinforcement learning (MARL) algorithm exploiting approximate policy prediction. Empirical results show that it converges faster and in a wider variety of situations than state-of-the-art MARL algorithms.
+ 

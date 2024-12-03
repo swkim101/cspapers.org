@@ -1,0 +1,1 @@
+We have designed and implemented a virtual machine monitor (VMM) for utilizing non-dedicated clusters. The VMM virtualizes a shared-memory multi-processor machine on a commodity cluster. In addition, it hides dynamic changes of physical hardware configurations. The experimental result demonstrates the feasibility of our approach.

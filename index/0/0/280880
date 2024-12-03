@@ -1,0 +1,1 @@
+Missing, non-applicable and imprecise values arise frequently in Office Information Systems. There is a need to treat them in a consistent and useful manner. This paper proposes a method and gives the precise semantics of the retrieval operations in a system where imprecision is allowed. It also suggests a way to handle the uncertainty introduced by imprecise data values.

@@ -1,0 +1,3 @@
+We take a new look at one of the fundamental properties of discrete time associative memory and show how it can be adapted for natural language processing (NLP). Many tasks in NLP could benefit from such associative functionality particularly those which are traditionally regarded as being context driven such as word sense disambiguation. 
+ 
+The results describe the typical time to convergence of a Hopfield network when trained on patterns representing sentences from a large corpus. Through numerical simulation we estimate the time order of convergence and compare this to previous findings for randomly generated, unbiased and uncorrected patterns.

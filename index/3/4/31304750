@@ -1,0 +1,4 @@
+
+ 
+ State-of-the-art approaches to Chinese zero pronoun resolution are supervised, requiring training documents with manually resolved zero pronouns. To eliminate the reliance on annotated data, we propose an unsupervised approach to this task. Underlying our approach is the novel idea of employing a model trained on manually resolved overt pronouns to resolve zero pronouns. Experimental results on the OntoNotes 5.0 corpus are encouraging: our unsupervised model surpasses its supervised counterparts in performance.
+ 

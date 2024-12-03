@@ -1,0 +1,4 @@
+
+ 
+ Probabilistic relational PCA (PRPCA) can learn a projection matrix to perform dimensionality reduction for relational data. However, the results learned by PRPCA lack interpretability because each principal component is a linear combination of all the original variables. In this paper, we propose a novel model, called sparse probabilistic relational projection (SPRP), to learn a sparse projection matrix for relational dimensionality reduction. The sparsity in SPRP is achieved by imposing on the projection matrix a sparsity-inducing prior such as the Laplace prior or Jeffreys prior. We propose an expectation-maximization (EM) algorithm to learn the parameters of SPRP. Compared with PRPCA, the sparsity in SPRP not only makes the results more interpretable but also makes the projection operation much more efficient without compromising its accuracy. All these are verified by experiments conducted on several real applications.
+ 

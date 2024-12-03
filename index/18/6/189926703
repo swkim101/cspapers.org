@@ -1,0 +1,1 @@
+Convolutional neural network (CNN) is a power-hungry and resource-consuming application, which makes it hard to deploy on end devices. We propose a method to perform convolution operations in NOR flash memory. Experiment results show that our method has great performance and high energy efficiency.

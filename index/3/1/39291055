@@ -1,0 +1,4 @@
+
+ 
+ It is a challenging problem to cluster multi- and high-dimensional data with complex intrinsic properties and non-linear manifold structure. The recently proposed subspace clustering method, Low Rank Representation (LRR), shows attractive performance on data clustering, but it generally does with data in Euclidean spaces. In this paper, we intend to cluster complex high dimensional data with multiple varying factors. We propose a novel representation, namely Product Grassmann Manifold (PGM), to represent these data. Additionally, we discuss the geometry metric of the manifold and expand the conventional LRR model in Euclidean space onto PGM and thus construct a new LRR model. Several clustering experimental results show that the proposed method obtains superior accuracy compared with the clustering methods on manifolds or conventional Euclidean spaces.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Diversity-aware planning consists of generating multiple plans which, while solving the same problem, are dissimilar from one another. Quantitative plan diversity is domain-independent and does not require extensive knowledge-engineering effort, but can fail to reflect plan differences that are relevant to users. Qualitative plan diversity is based on domain-specific characteristics, thus being of greater practical value, but may require substantial knowledge engineering. We demonstrate a domain-independent diverse plan generation method that is based on customizable plan distance metrics and amenable to both quantitative and qualitative diversity. Qualitative plan diversity is obtained with minimal knowledge-engineering effort, using distance metrics which incorporate domain-specific content.
+ 

@@ -1,0 +1,2 @@
+In this paper, we survey the existing methods for designing shortest paths routing algorithms for dynamic networks. We compare them based on worst-case communication and message complexity, and suggest new approach that yields a protocol with linear time and polynomial communication.
+The main idea behind our approach is to use a “dynamic synchronizer”, which transforms a dynamic asynchronous network into static synchronous one. We believe this is an important methodology in design and analysis of communication protocols, that can be applied to other problems as well.

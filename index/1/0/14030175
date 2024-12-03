@@ -1,0 +1,3 @@
+We introduce a multi-model variant of the EMT-based control algorithm. The new algorithm, MM-EMT, is capable of balancing several control tasks expressed using separate dynamic models with a common action space. Such multiple models are common in both single-agent environments, when the agent has multiple tasks to achieve, and in team activities, when agent actions affect both the local agent's task as well as the overall team's coordination. 
+ 
+To demonstrate the behaviour that MM-EMT engenders, several experimental setups were devised. Simulation results support the effectiveness of the approach, which in the multi-agent scenario is expressed in the MM-EMT algorithm's ability to balance local and team-coordinated motion requirements.

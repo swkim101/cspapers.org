@@ -1,0 +1,4 @@
+
+ 
+ Building an intelligent agent, which simulates human-level learning appropriate for learning math, science, or a second language, could potentially benefit both education in understanding human learning, and artificial intelligence in creating human-level intelligence. Recently, we have proposed an efficient approach to acquiring procedural knowledge using transfer learning. However, it operated as a separate module. In this paper, we describe how to integrate this module into a machine-learning agent, SimStudent, that learns procedural knowledge from examples and through problem solving. We illustrate this method in the domain of algebra, after which we consider directions for future research in this area.
+ 

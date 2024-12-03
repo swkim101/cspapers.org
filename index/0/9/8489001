@@ -1,0 +1,1 @@
+We consider the question of whether Average Precision, as a measure of retrieval effectiveness, can be regarded as deriving from a model of user searching behaviour. It turns out that indeed it can be so regarded, under a very simple stochastic model of user behaviour.

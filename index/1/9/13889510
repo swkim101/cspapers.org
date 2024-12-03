@@ -1,0 +1,4 @@
+
+ 
+ Deciding what mix of engine and battery power to use is critical to hybrid vehicles' fuel efficiency. Current solutions consider several factors such as the charge of the battery and how efficient the engine operates at a given speed. Previous research has shown that by taking into account the future power requirements of the vehicle, a more efficient balance of engine vs. battery power can be attained. In this paper, we utilize a probabilistic driving route prediction system, trained using Inverse Reinforcement Learning, to optimize the hybrid control policy. Our approach considers routes that the driver is likely to be taking, computing an optimal mix of engine and battery power. This approach has the potential to increase vehicle power efficiency while not requiring any hardware modification or change in driver behavior. Our method outperforms a standard hybrid control policy, yielding an average of 1.22% fuel savings.
+ 

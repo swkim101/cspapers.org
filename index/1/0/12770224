@@ -1,0 +1,4 @@
+
+ 
+ Many networks are complex dynamical systems, where both attributes of nodes and topology of the network (link structure) can change with time. We propose a model of co-evolving networks where both node attributes and network structure evolve under mutual influence. Specifically, we consider a mixed membership stochastic blockmodel, where the probability of observing a link between two nodes depends on their current membership vectors, while those membership vectors themselves evolve in the presence of a link between the nodes. Thus, the network is shaped by the interaction of stochastic processes describing the nodes, while the processes themselves are influenced by the changing network structure. We derive an efficient variational inference procedure for our model, and validate the model on both synthetic and real-world data.
+ 

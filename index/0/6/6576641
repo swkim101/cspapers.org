@@ -1,0 +1,1 @@
+In distributed spectrum sensing, we deploy ten thousands of sensor nodes, and a low-cost sensor node is necessary. In this work, we design the sensor node specialized in power level measurement for distributed spectrum sensing, and we discuss 3 components of the node, which are frequency range, RBW and a detector.

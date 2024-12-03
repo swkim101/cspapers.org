@@ -1,0 +1,4 @@
+
+ 
+ The minimax concave plus penalty (MCP) has been demonstrated to be effective in nonconvex penalization for feature selection. In this paper we propose a novel construction approach for MCP. In particular, we show that MCP can be derived from a concave conjugate of the Euclidean distance function. This construction approach in turn leads us to an augmented Lagrange multiplier method for solving the penalized regression problem with MCP. In our method each tuning parameter corresponds to a feature, and these tuning parameters can be automatically updated. We also develop a d.c. (difference of convex functions) programming approach for the penalized regression problem. We find that the augmented Lagrange multiplier method degenerates into the d.c. programming method under specific conditions. Experimental analysis is conducted on a set of simulated data. The result is encouraging.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Bayesian reinforcement learning (BRL) provides a principled framework for optimal exploration-exploitation tradeoff in reinforcement learning. We focus on model based BRL, which involves a compact formulation of the optimal tradeoff from the Bayesian perspective. However, it still remains a computational challenge to compute the Bayes-optimal policy. In this paper, we propose a novel approach to compute tighter value function bounds of the Bayes-optimal value function, which is crucial for improving the performance of many model-based BRL algorithms. We then present how our bounds can be integrated into real-time AO* heuristic search, and provide a theoretical analysis on the impact of improved bounds on the search efficiency. We also provide empirical results on standard BRL domains that demonstrate the effectiveness of our approach.
+ 

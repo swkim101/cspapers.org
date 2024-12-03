@@ -1,0 +1,1 @@
+We define a family of epistemic extensions of Halpern-Shoham logic for reasoning about temporal-epistemic properties of multi-agent systems. We exemplify their use and study the complexity of their model checking problem. We show a range of results ranging from PTIME to PSPACE-hard depending on the logic considered.

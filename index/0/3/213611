@@ -1,0 +1,1 @@
+We give an $O(\sqrt{\log n})$ factor approximation algorithm for covering a rectilinear polygon with holes using axis-parallel rectangles. This is the first polynomial time approximation algorithm for this problem with an $o(\log n)$ approximation factor.

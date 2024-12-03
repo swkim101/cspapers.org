@@ -1,0 +1,4 @@
+
+ 
+ The ultimate goal of human natural language interaction is to communicate intentions. However, these intentions are often not directly derivable from the semantics of an utterance (e.g., when linguistic modulations are employed to convey polite-ness, respect, and social standing). Robotic architectures withsimple command-based natural language capabilities are thus not equipped to handle more liberal, yet natural uses of linguistic communicative exchanges. In this paper, we propose novel mechanisms for inferring in-tentions from utterances and generating clarification requests that will allow robots to cope with a much wider range of task-based natural language interactions. We demonstrate the potential of these inference algorithms for natural human-robot interactions by running them as part of an integrated cognitive robotic architecture on a mobile robot in a dialogue-based instruction task.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We address the coarse-grained disambiguation of the spatial prepositions as the first step towards spatial role labeling using deep learning models. We propose a hybrid feature of word embeddings and linguistic features, and compare its performance against a set of linguistic features, pre-trained word embeddings, and corpus-trained embeddings using seven classical machine learning classifiers and two deep learning models. We also compile a dataset of 43,129 sample sentences from Pattern Dictionary of English Prepositions (PDEP). The comprehensive experimental results suggest that the combination of the hybrid feature and a convolutional neural network outperforms state-of-the-art methods and reaches the accuracy of 94.21% and F1-score of 0.9398.
+ 

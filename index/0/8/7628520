@@ -1,0 +1,1 @@
+We report a new method for computing near optimal makespan solutions to multi-robot path planning problem on graphs. Our focus here is with hard instances - those with up to 85% of all graph nodes occupied by robots. Our method yields 100-1000x speedup compared with existing methods. At the same time, our solutions have much smaller and often optimal makespans.

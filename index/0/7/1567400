@@ -1,0 +1,1 @@
+We present a joint probability model for statistical machine translation, which automatically learns word and phrase equivalents from bilingual corpora. Translations produced with parameters estimated using the joint model are more accurate than translations produced using IBM Model 4.

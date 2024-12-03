@@ -1,0 +1,7 @@
+This paper empirically investigates how humans use reference in space when interacting with a multimodal system able to understand written natural language and pointing with the mouse. 
+ 
+We verified that user expertise plays an important role in the use of multimodal systems: experienced users performed 84% multimodal inputs while inexpert only 30%. Moreover experienced are able to efficiently use multimodality shortening the written input and transferring part of the reference meaning on the pointing. 
+ 
+Results showed also the importance of the system layout: when very short labels (one character) are available users strongly adopt a redundant reference strategy, i.e. they referred to the object in a linguistic way and use pointing too. 
+ 
+Starting from these facts some guidelines for future multimodal systems are suggested.

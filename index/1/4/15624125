@@ -1,0 +1,1 @@
+We build a three-dimensional array of unreliable cellular automata that can simulate a universal Turing machine (more generally, a one-dimensional universal iterative array) reliably. This is the first reliable real-time simulation. The encoding is simple repetition, and no decoding is needed. The construction is based on Toom's work.

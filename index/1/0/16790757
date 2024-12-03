@@ -1,0 +1,4 @@
+A data structuring scheme for authorization purposes is presented, that:
+ i) provides a powerful and flexible way of defining access control rules;
+ ii) allows convenient evaluation of access.
+ Algorithms for definition and evaluation of access are given, and possible applications are discussed.

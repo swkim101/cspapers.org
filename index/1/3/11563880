@@ -1,0 +1,1 @@
+We discuss the security of the MR schemes and especially point out the vulnerability of the MR3 scheme. The probabilistic deposit mechanism utilized in the MR3 scheme contributes to the reduction of the bank's processing cost. However, as shown in our paper, it also decreases the security of the entire scheme.

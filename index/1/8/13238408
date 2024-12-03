@@ -1,0 +1,1 @@
+We show that any algorithm computing the median of a stream presented in random order, using polylog(n) space, requires an optimal Ω (log log n) passes, resolving an open question from the seminal paper on streaming by Munro and Paterson, from FOCS 1978.

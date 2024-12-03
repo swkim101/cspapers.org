@@ -1,0 +1,3 @@
+Social insects, such as ants and termites, collectively build large and complex structures, with many individuals following simple rules and no centralized control or planning [Theraulaz and Bonabeau 1995, Camazine et al. 2002]. Such swarm systems have many desirable properties: a high level of parallelism, cheap and expendable individuals, and robustness to loss, addition, and errors of individual insects. 
+ 
+Our goal is to design systems for automating construction that are similarly adaptive and robust, but build what we want. Automated construction will impact our ability to operate in inhospitable habitats, from outer space to under water. and allow automated disassembly and repair.

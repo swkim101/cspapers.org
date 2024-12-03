@@ -1,0 +1,7 @@
+System performance requirements commonly force general database management systems to conduct only indispensable operations while processing a query and to postpone data structure maintenance operations. Therefore, the physical data structure tends to deteriorate due to insert- and delete-activities. In the long run this causes system performance to degrade. 
+ 
+As system performance has degraded below acceptable limits the database must be reorganized. In conventional, periodic reorganization the database, or part of it, is taken off line while the data structure is being reorganized. 
+ 
+Concurrent reorganization, i.e. a continous reorganization of the physical data structure while application process have full access to the database, is an attractive alternative to conventional reorganization. 
+ 
+This paper presents results from a study where it is shown that concurrent reorganization of network databases is not only feasible but also benefical for long run system performance.

@@ -1,0 +1,1 @@
+This paper contains three blocked Cholesky algorithms with calls to standard (level-1, level-2 or level-3) BLAS, one blocked Cholesky algorithm with calls to nonstandard level-2 BLAS and one unblocked Cholesky algorithm. Performance comparisons for these algorithms were done on a National Advanced Systems AS/XL V60 computer.

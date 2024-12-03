@@ -1,0 +1,1 @@
+Layout errors often result in nonfunctioning devices that still adhere to all layout tolerance rules. Reported here is a method for locating such errors in addition to the tolerance rule checking.

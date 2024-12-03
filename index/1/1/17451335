@@ -1,0 +1,4 @@
+
+ 
+ When learning a hidden Markov model (HMM), sequential observations can often be complemented by real-valued summary response variables generated from the path of hidden states. Such settings arise in numerous domains, including many applications in biology, like motif discovery and genome annotation. In this paper, we present a flexible framework for jointly modeling both latent sequence features and the functional mapping that relates the summary response variables to the hidden state sequence. The algorithm is compatible with a rich set of mapping functions. Results show that the availability of additional continuous response variables can simultaneously improve the annotation of the sequential observations and yield good prediction performance in both synthetic data and real-world datasets.
+ 

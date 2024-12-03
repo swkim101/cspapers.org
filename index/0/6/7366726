@@ -1,0 +1,1 @@
+We demonstrate a probabilistic construction of binary linear codes meeting the GV bound (with overwhelming probability) for rates up to about 10-4 together with polynomial time algorithms to perform encoding and decoding up to half the distance. The only previous result of this type (for rates up to about 0.02) suffered from sub-exponential time decoding [3].

@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of task allocation in crowdsourcing systems with multiple complex workflows, each of which consists of a set of inter-dependent micro-tasks.We propose Budgeteer, an algorithm to solve this problem under a budget constraint. In particular, our algorithm first calculates an efficient way to allocate budget to each workflow. It then determines the number of inter-dependent micro-tasks and the price to pay for each task within each workflow, given the corresponding budget constraints. We empirically evaluate it on a well-known crowdsourcing-based text correction workflow using Amazon Mechanical Turk, and show that Budgeteer can achieve similar levels of accuracy to current benchmarks, but is on average 45 % cheaper.
+ 

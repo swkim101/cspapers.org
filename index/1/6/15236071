@@ -1,0 +1,4 @@
+
+ 
+ In this work, we build a large scale reasoning engine under temporal RDFS semantics using MapReduce. We identify the major challenges of applying MapReduce framework to reason over temporal information, and present our solutions to tackle them.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Training a structured prediction model involves performing several loss-augmented inference steps. Over the lifetime of the training, many of these inference problems, although different, share the same solution. We propose AI-DCD, an Amortized Inference framework for Dual Coordinate Descent method, an approximate learning algorithm, that accelerates the training process by exploiting this redundancy of solutions, without compromising the performance of the model. We show the efficacy of our method by training a structured SVM using dual coordinate descent for an entityrelation extraction task. Our method learns the same model as an exact training algorithm would, but call the inference engine only in 10% – 24% of the inference problems encountered during training. We observe similar gains on a multi-label classification task and with a Structured Perceptron model for the entity-relation task.
+ 

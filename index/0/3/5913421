@@ -1,0 +1,4 @@
+
+ 
+ Recently, several works in the domain of natural language processing presented successful methods for word embedding. Among them, the Skip-Gram with negative sampling, known also as word2vec, advanced the state-of-the-art of various linguistics tasks. In this paper, we propose a scalable Bayesian neural word embedding algorithm. The algorithm relies on a Variational Bayes solution for the Skip-Gram objective and a detailed step by step description is provided. We present experimental results that demonstrate the performance of the proposed algorithm for word analogy and similarity tasks on six different datasets and show it is competitive with the original Skip-Gram method.
+ 

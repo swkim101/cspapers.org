@@ -1,0 +1,5 @@
+The work is founded on a comprehensive database model which provides various user languages and supports different "views" of the data. The low-level database structure is based on the n-ary relational model. 
+ 
+A special-purpose processor is described which can directly perform the relational primitive operations. 
+ 
+Novel algorithms for these operations are outlined.

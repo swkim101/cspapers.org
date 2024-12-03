@@ -1,0 +1,4 @@
+
+ 
+ How to minimize the impact of negative users within the maximal set of influenced users? The Influenced Maximization (IM) is important for various applications. However, few studies consider the negative impact of some of the influenced users.We propose a negative-aware influence maximization problem by considering users' negative impact. A novel algorithm is proposed to solve the problem. Experiments on real-world datasets show the proposed algorithm can achieve 70% improvement on average in expected influence compared with rivals.
+ 

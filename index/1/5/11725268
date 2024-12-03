@@ -1,0 +1,4 @@
+
+ 
+ Emergence of a single coalition among self-interested agents operating on large scale-free networks is a challenging task. Many existing approaches assume a given static network platform and do not use the network dynamics to facilitate the dynamics of agent interactions. In this paper, we present a decentralized game-theoretic approach to this single coalition emergence problem in which agent communications are limited only to their immediate neighbors. Our coalition emergence algorithm is based on the heuristic that agents benefit by forming coalitions with wealthy (higher payoff) and influential (higher accumulated coupling strength) neighbors. Simulation results show that the emergence phenomenon is significantly enhanced when the topological insights, such as increasing degree-heterogeneity and clustering, are embedded into the agent partner selection strategy.
+ 

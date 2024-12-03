@@ -1,0 +1,4 @@
+There is a natural intuitive match between anonymity and information theory. In particular, the maximal anonymity loss in anonymity protocols can be matched to the information theoretical notion of channel capacity.
+ However, there is also a significant mismatch between the theories and reality: current theories can only characterize channel capacity based upon certain assumptions of symmetry, which are rarely satisfied in the real world.
+ This paper aims to resolve this mismatch by appealing to powerful mathematical techniques. A generic methodology using Lagrange multiplier method is proposed to characterize channel capacity in anonymity protocols.
+ This Lagrangian approach is proved to be able to generalize previous work on the channel capacity of protocols. Further, we present analyses on three well known protocols, namely Dining Cryptographers, Crowds and Onion Routing to demonstrate the application of our methodology.

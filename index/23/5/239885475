@@ -1,0 +1,73 @@
+
+ In the Directed Steiner Tree (DST) problem, we are given a directed graph
+ 
+ \(G=(V,E)\)
+ 
+ on
+ 
+ \(n\)
+ 
+ vertices with edge-costs
+ 
+ \(c\in{\mathbb{R}}_{\geq 0}^{E}\)
+ 
+ , a root vertex
+ 
+ \(r\in V\)
+ 
+ , and a set
+ 
+ \(K\subseteq V\setminus\{r\}\)
+ 
+ of
+ 
+ \(k\)
+ 
+ terminals. The goal is to find a minimum-cost subgraph of
+ 
+ \(G\)
+ 
+ that contains a path from
+ 
+ \(r\)
+ 
+ to every terminal
+ 
+ \(t\in K\)
+ 
+ . DST has been a notorious problem for decades as there is a large gap between the best-known polynomial-time approximation ratio of
+ 
+ \(O(k^{\epsilon})\)
+ 
+ for any constant
+ 
+ \(\epsilon {\gt} 0\)
+ 
+ , and the best quasi-polynomial-time approximation ratio of
+ 
+ \(O\left(\frac{\log^{2}k}{\log\log k}\right)\)
+ 
+ .
+ 
+ 
+ Towards understanding this gap, we study the integrality gap of the standard flow linear programming relaxation for the problem. We show that the linear program (LP) has an integrality gap of
+ 
+ \(\Omega(n^{0.0418})\)
+ 
+ . Previously, the integrality gap of the LP is only known to be
+ 
+ \(\Omega\left(\frac{\log^{2}n}{\log\log n}\right)\)
+ 
+ [Halperin et al., SODA’03 & SIAM J. Comput.] and
+ 
+ \(\Omega(\sqrt{k})\)
+ 
+ [Zosin-Khuller, SODA’02] in some instance with
+ 
+ \(\sqrt{k}=O\left(\frac{\log n}{\log\log n}\right)\)
+ 
+ . Our result gives the first known lower bound on the integrality gap of this standard LP that is polynomial in
+ 
+ \(n\)
+ 
+ , the number of vertices. Consequently, we rule out the possibility of developing a poly-logarithmic approximation algorithm for the problem based on the flow LP relaxation.

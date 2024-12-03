@@ -1,0 +1,1 @@
+We describe a style of problem solving, prospective reasoning, and a development environment, MU, for building prospective reasoning systems. Prospective reasoning is a form of planning in which knowledge of the state of the world and the effects of actions is incomplete. We illustrate one implementation of prospective reasoning in MU with examples from medical diagnosis.

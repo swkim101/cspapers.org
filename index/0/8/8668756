@@ -1,0 +1,1 @@
+This article proposes a technique for correcting Chinese OCR errors to support retrieval of scanned documents. The technique uses a completely automatic technique (no manually constructed lexicons or confusion resources) to identify both keywords and confusable terms. Improved retrieval effectiveness on a single term query experiment is demonstrated.

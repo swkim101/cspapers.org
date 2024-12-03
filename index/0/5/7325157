@@ -1,0 +1,4 @@
+
+ 
+ The precise specification of reward functions for Markov decision processes (MDPs) is often extremely difficult, motivating research into both reward elicitation and the robust solution of MDPs with imprecisely specified reward (IRMDPs). We develop new techniques for the robust optimization of IRMDPs, using the minimax regret decision criterion, that exploit the set of nondominated policies, i.e., policies that are optimal for some instantiation of the imprecise reward function. Drawing parallels to POMDP value functions, we devise a Witness-style algorithm for identifying nondominated policies. We also examine several new algorithms for computing minimax regret using the nondominated set, and examine both practically and theoretically the impact of approximating this set. Our results suggest that a small subset of the nondominated set can greatly speed up computation, yet yield very tight approximations to minimax regret.
+ 

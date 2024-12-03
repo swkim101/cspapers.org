@@ -1,0 +1,1 @@
+We present a shift-reduce rhetorical parsing algorithm that learns to construct rhetorical structures of texts from a corpus of discourse-parse action sequences. The algorithm exploits robust lexical, syntactic, and semantic knowledge sources.

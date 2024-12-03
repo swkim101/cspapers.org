@@ -1,0 +1,4 @@
+
+ 
+ Graph construction is the essential first step for nearly all manifold learning algorithms. While many applications assume that a simple k-nearest or epsilon-close neighbors graph will accurately model the topology of the underlying manifold, these methods often require expert tuning and may not produce high quality graphs. In this paper, the hyperparameter sensitivity of existing graph construction methods is demonstrated. We then present a new algorithm for unsupervised graph construction, based on minimal assumptions about the input data and its manifold structure.
+ 

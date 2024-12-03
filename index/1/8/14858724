@@ -1,0 +1,4 @@
+
+ 
+ Fully characterizing structural and functional sites in proteins is a fundamental step in understanding their roles in the cell. This extremely challenging combinatorial problem requires determining the number of sites in the protein and the set of residues involved in each of them. We formulate it as a distance-based supervised clustering task, where training proteins are employed to learn a proper distance function between residues. A partial clustering is then returned by searching for maximum-weight cliques in the resulting weighted graph representation of proteins. A novel stochastic local search algorithm is proposed to efficiently generate approximate solutions. Our method achieves substantial improvements over a previous structured-output approach for metal binding site prediction. Significant improvements over the current state-of-the-art are also achieved in predicting catalytic sites from 3D structure in enzymes.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Answer set programs (ASP) with external evaluations are a declarative means to capture advanced applications. However, their evaluation can be expensive due to external source accesses. In this paper we consider HEX-programs that provide external atoms as a bidirectional interface to external sources and present a novel evaluation method based on support sets, which informally are portions of the input to an external atom that will determine its output for any completion of the partial input. Support sets allow one to shortcut the external source access, which can be completely eliminated. This is particularly attractive if a compact representation of suitable support sets is efficiently constructible. We discuss some applications with this property, among them description logic programs over DL-Lite ontologies, and present experimental results showing that support sets can significantly improve efficiency.
+ 

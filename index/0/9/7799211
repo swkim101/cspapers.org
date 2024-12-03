@@ -1,0 +1,1 @@
+We demonstrate a pressure-sensitive depth sorting technique that extends standard two-dimensional (2D) manipulation techniques, particularly those used with multi-touch or multi-point controls. We combine this layering operation with a page-folding metaphor for more fluid interaction in applications requiring 2D sorting and layout.

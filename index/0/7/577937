@@ -1,0 +1,1 @@
+In this paper, the authors introduce TextRank, a graph-based ranking model for text processing, and show how this model can be successfully used in natural language applications.

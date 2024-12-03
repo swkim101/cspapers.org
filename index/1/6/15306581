@@ -1,0 +1,5 @@
+A constraint satisfaction problem (CSP) is a problem to find an assignment that satisfies given constraints. An interesting approach to CSP is a repair-based method that first generates an initial assignment, then repairs it by minimizing the number of conflicts. Min-conflicts hill climbing (MCHC) and GSAT are typical examples of this approach. A serious problem with this approach is that it is sometimes trapped by local minima. This makes it difficult to use repair-based methods for solving problems with many local minima. 
+ 
+We propose a new procedure, EFLOP, for escaping from local minima. EFLOP changes the values of mutually dependent variables by propagating changes through satisfied constraints. We can greatly improve the performance of repair-based methods by combining them with EFLOP. 
+ 
+We tested EFLOP with graph colorability problems, randomly generated binary CSPs and propositional satisfiability problems. EFLOP improved the performance of MCHC and GSAT for all experiments and was more efficient for large and difficult problems.

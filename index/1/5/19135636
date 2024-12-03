@@ -1,0 +1,4 @@
+
+ 
+ Plan-based story generation has operationalized concepts from the Belief-Desire-Intention (BDI) theory of mind to create goal-driven character agents with explainable behavior. However, these character agents are limited in that they do not capture the dynamic nature of intentions. To address this limitation, we define a plan-based intention revision model and propose an evaluation using the QUEST cognitive model to assess the explainability of an intention revision.
+ 

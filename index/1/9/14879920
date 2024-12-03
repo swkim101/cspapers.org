@@ -1,0 +1,4 @@
+
+ 
+ We contribute to the theoretical understanding of evolutionary algorithms and carry out a parameterized analysis of evolutionary algorithms for the Euclidean traveling salesperson problem (Euclidean TSP). We exploit structural properties related to the optimization process of evolutionary algorithms for this problem and use them to bound the runtime of evolutionary algorithms. Our analysis studies the runtime in dependence of the number of inner points $k$ and shows that simple evolutionary algorithms solve the Euclidean TSP in expected time O(nk(2k-1)!).  Moreover, we show that, under reasonable geometric constraints, a locally optimal 2-opt tour can be found by randomized local search in expected time $O(n2kk!).
+ 

@@ -1,0 +1,9 @@
+Discovering tractable mathematical expressions that best explain a dataset is a long-standing challenge in artificial intelligence.
+
+This problem, known as symbolic regression, is relevant when one seeks to generate new physical knowledge and insights.
+
+Since practitioners are primarily interested in knowledge generation, the ability to interact with a symbolic regression algorithm would be highly valuable.
+
+Thus, we present an interactive symbolic regression framework that allows users not only to configure runs, but also to control the system during training.
+
+The interface provides real-time visualization and diagnostics to help guide the user as they control the algorithm on the fly.

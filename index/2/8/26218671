@@ -1,0 +1,4 @@
+
+ 
+ When labeling objects via Internet-based outsourcing systems, the labelers may have bias, because they lack expertise, dedication and personal preference. These reasons cause Imbalanced Multiple Noisy Labeling. To deal with the imbalance labeling issue, we propose an agnostic algorithm PLAT (Positive LAbel frequency Threshold) which does not need any information about quality of labelers and underlying class distribution. Simulations on eight real-world datasets with different underlying class distributions demonstrate that PLAT not only effectively deals with the imbalanced multiple noisy labeling problem that off-the-shelf agnostic methods cannot cope with, but also performs nearly the same as majority voting under the circumstances that labelers have no bias.
+ 

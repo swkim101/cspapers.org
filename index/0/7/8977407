@@ -1,0 +1,1 @@
+We consider the problem of measuring the eigenvalues of a randomly drawn sample of points. We show that these values can be reliably estimated as can the sum of the tail of eigenvalues. Furthermore, the residuals when data is projected into a subspace is shown to be reliably estimated on a random sample. Experiments are presented that confirm the theoretical results.

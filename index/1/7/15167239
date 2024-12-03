@@ -1,0 +1,1 @@
+Existing optimal single constant multiplication (SCM) algorithms are limited to 19 bit constants. We propose an exact SCM algorithm. For 32 bit constants, the average run time is under 10 seconds. Optimality is ensured via an exhaustive search. The novelty of our algorithm is in how aggressive pruning is achieved by combining two SCM frameworks.

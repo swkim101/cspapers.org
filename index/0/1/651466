@@ -1,0 +1,1 @@
+We show that any depth-4 homogeneous arithmetic formula computing the Iterated Matrix Multiplication polynomial IMMn,d -- the (1, 1)-th entry of the product of d generic n × n matrices -- has size nΩ(log n), if d = Ω (log2 n). More-over, any depth-4 homogeneous formula computing the determinant polynomial Detn -- the determinant of a generic n × n matrix -- has size nΩ(log n).

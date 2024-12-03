@@ -1,0 +1,4 @@
+
+ 
+ Many reinforcement learning algorithms use trajectories collected from the execution of one or more policies to propose a new policy. Because execution of a bad policy can be costly or dangerous, techniques for evaluating the performance of the new policy without requiring its execution have been of recent interest in industry. Such off-policy evaluation methods, which estimate the performance of a policy using trajectories collected from the execution of other policies, heretofore have not provided confidences regarding the accuracy of their estimates. In this paper we propose an off-policy method for computing a lower confidence bound on the expected return of a policy.
+ 

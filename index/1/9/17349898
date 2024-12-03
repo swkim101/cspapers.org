@@ -1,0 +1,4 @@
+
+ 
+ Being able to quickly and naturally teach robots new knowledge is critical for many future open-world human-robot interaction scenarios. In this paper we present a novel approach to using natural language context for one-shot learning of visual objects, where the robot is immediately able to recognize the described object. We describe the architectural components and demonstrate the proposed approach on a robotic platform in a proof-of-concept evaluation.
+ 

@@ -1,0 +1,1 @@
+Projection onto moving objects has a serious slipping problem due to delay between tracking and projection. We propose a new method to overcome the delay problem, and we succeed in increasing the accuracy of projection. We present Ballumiere as a demo for projection to volleyballs and juggling balls.

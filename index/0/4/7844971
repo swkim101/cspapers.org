@@ -1,0 +1,1 @@
+We present GreenMeter, a tool for assessing the quality and recommending tags for Web 2.0 content. Its goal is to improve tag quality and the effectiveness of various information services (e.g., search, content recommendation) that rely on tags as data sources. We demonstrate an implementation of GreenMeter for the popular Last.fm application.

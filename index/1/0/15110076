@@ -1,0 +1,4 @@
+
+ 
+ This paper represents a paradigm shift in what advice agents should provide people. Contrary to what was previously thought, we empirically show that agents that dispense optimal advice will not necessary facilitate the best improvement in people's strategies. Instead, we claim that agents should at times suboptimally advise. We provide results demonstrating the effectiveness of a suboptimal advising approach in extensive experiments in two canonical mixed agent-human advice-giving domains. Our proposed guideline for suboptimal advising is to rely on the level of intuitiveness of the optimal advice as a measure for how much the suboptimal advice presented to the user should drift from the optimal value.
+ 

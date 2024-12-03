@@ -1,0 +1,6 @@
+Dung's abstract Argumentation Framework (AF) has emerged as a central formalism in the area of knowledge representation and reasoning.
+Preferences in AF allow to represent the comparative strength of arguments in a simple yet expressive way. 
+Preference-based AF (PAF) has been proposed to extend AF with preferences of the form a > b, whose intuitive meaning is that argument a is better than b. 
+In this paper we generalize PAF by introducing conditional preferences of the form a > b \leftarrow body that informally state that a is better than b whenever the condition expressed by body is true.
+The resulting framework, namely Conditional Preference-based AF (CPAF), extends the PAF semantics under three well-known preference criteria, i.e. democratic, elitist, and KTV. 
+After introducing CPAF, we study the complexity of the verification problem (deciding whether a set of arguments is a ``best'' extension) as well as of the credulous and skeptical acceptance problems (deciding whether a given argument belongs to any or all ``best'' extensions, respectively) under multiple-status semantics (that is, complete, preferred, stable, and semi-stable semantics) for the above-mentioned preference criteria.

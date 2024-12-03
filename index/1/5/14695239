@@ -1,0 +1,1 @@
+In this paper, we present two slicing tools: VHDL_Slice and Est_slice that compute static executable slices of VHDL and Esterel programs respectively. The slicers have been tested on a number of small and medium sized examples.

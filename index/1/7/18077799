@@ -1,0 +1,5 @@
+The algorithm described in this article is based on the OBS algorithm by Hassibi, Stork and Wolff ([1] and [2]). The main disadvantage of OBS is its high complexity. OBS needs to calculate the inverse Hessian to delete only one weight (thus needing much time to prune a big net). A better algorithm should use this matrix to remove more than only one weight, because calculating the inverse Hessian takes the most time in the OBS algorithm. 
+ 
+The algorithm, called Unit-OBS, described in this article is a method to overcome this disadvantage. This algorithm only needs to calculate the inverse Hessian once to remove one whole unit thus drastically reducing the time to prune big nets. 
+ 
+A further advantage of Unit-OBS is that it can be used to do a feature extraction on the input data. This can be helpful on the understanding of unknown problems.

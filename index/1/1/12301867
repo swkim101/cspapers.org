@@ -1,0 +1,10 @@
+Context-aware services, especially when made available 
+to mobile devices, constitute an interesting but very challenging 
+domain. It poses fundamental problems for both 
+requirements engineering, software architecture, and their 
+relationship. We propose a novel, reflection-based framework 
+for requirements engineering for this class of applications. 
+The framework addresses the key difficulties in this 
+field, such as changing context and changing requirements. 
+We report preliminary work on this framework and suggest 
+future directions.

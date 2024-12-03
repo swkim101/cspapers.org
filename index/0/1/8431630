@@ -1,0 +1,3 @@
+We prove that every monotone circuit which tests <italic>st</italic>-connectivity of an undirected graph on <italic>n</italic> nodes has depth &OHgr;(log<supscrpt>2</supscrpt><italic>n</italic>). This implies a superpolynomial (<italic>n</italic><supscrpt>&OHgr;(log n)</supscrpt>) lower bound on the size of any monotone formula for <italic>st</italic>-connectivity.
+The proof draws intuition from a new characterization of circuit depth in terms of communication complexity. It uses counting arguments and Extremal Set Theory.
+Within the same framework, we also give a very simple and intuitive proof of a depth analogue of a theorem of Krapchenko concerning formula size lower bounds.

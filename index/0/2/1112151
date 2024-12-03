@@ -1,0 +1,1 @@
+Conformational analysis is the problem of finding all minimal energy three-dimensional configurations of molecules. Cyclic structures are of particular interest. An efficient algorithm based on a purely geometric approach that generates feasible configurations very efficiently is presented thus making full conformational analysis possible even for fairly large cyclic structures.

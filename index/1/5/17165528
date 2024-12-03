@@ -1,0 +1,3 @@
+Real world temporal planning often involves dealing with uncertainty about the duration of actions. In this paper, we describe a sound-and-complete compilation technique for strong planning that reduces any planning instance with uncertainty in the duration of actions to a plain temporal planning problem without uncertainty. 
+ 
+We evaluate our technique by comparing it with a recent technique for PDDL domains with temporal uncertainty. The experimental results demonstrate the practical applicability of our approach and show complementary behavior with respect to previous techniques. We also demonstrate the high expressiveness of the translation by applying it to a significant fragment of the ANML language.

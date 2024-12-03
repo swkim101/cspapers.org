@@ -1,0 +1,4 @@
+
+ 
+ There is a growing need for efficient and scalable semantic web queries that handle inference. There is also a growing interest in representing uncertainty in semantic web knowledge bases. In this paper, we present a bit vector schema specifically designed for RDF (Resource Description Framework) datasets. We propose a system for materializing and storing inferred knowledge using this schema. We show experimental results that demonstrate that our solution drastically improves the performance of inference queries. We also propose a solution for materializing uncertain information and probabilities using multiple bit vectors and thresholds.
+ 

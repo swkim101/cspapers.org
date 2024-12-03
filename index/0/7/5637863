@@ -1,0 +1,4 @@
+
+ 
+ The potential benefits of mining social media to learn about adverse drug reactions (ADRs) are rapidly increasing with the increasing popularity of social media. Unknown ADRs have traditionally been discovered by expensive post-marketing trials, but recent work has suggested that some unknown ADRs may be discovered by analyzing social media. We propose three methods for extracting ADRs from forum posts and tweets, and compare our methods with several existing methods. Our methods outperform the existing methods in several scenarios; our filtering method achieves the highest F1 and precision on forum posts, and our CRF method achieves the highest precision on tweets. Furthermore, we address the difficulty of annotating social media on a large scale with an alternate evaluation scheme that takes advantage of the ADRs listed on drug labels. We investigate how well this alternate evaluation approximates a traditional evaluation using human annotations.
+ 

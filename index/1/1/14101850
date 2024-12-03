@@ -1,0 +1,18 @@
+We present an architecture for network processing nodes 
+based on a massively parallel processor structure. Due to its 
+regularity, our architecture can be easily scaled to accommodate 
+a range of packet processing applications with disparate 
+performance and throughput requirements at high reliability. 
+Furthermore, the composition from predefined building blocks 
+guarantees fast design cycles and eases system verification. For 
+particular resource efficiency in terms of power consumption, 
+computational performance, and area requirements, specialized 
+hardware accelerators can be embedded into the tailored processor 
+cluster, which have been optimized for a particular target 
+application. We demonstrate our approach using a real-world 
+network access scenario that implements a full Internet protocol 
+based digital subscriber line access multiplexer (IP-DSLAM) on 
+our architecture. For this scenario, we achieve substantial increases 
+of performance with only a slight area increase of less 
+than 0.3 %. At the same time, the processors are strongly relieved 
+and are thus available for the remaining tasks.

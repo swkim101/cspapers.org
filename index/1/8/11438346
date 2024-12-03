@@ -1,0 +1,4 @@
+
+ 
+ Existing multi-view clustering algorithms require thatthe data is completely or partially mapped betweeneach pair of views. However, this requirement couldnot be satisfied in most practical settings. In this paper,we tackle the problem of multi-view clustering for unmappeddata in the framework of NMF based clustering.With the help of inter-view constraints, we definethe disagreement between each pair of views by the factthat the indicator vectors of two instances from two differentviews should be similar if they belong to the samecluster and dissimilar otherwise. The overall objectiveof our algorithm is to minimize the loss function of NMFin each view as well as the disagreement betweeneach pair of views. Experimental results show that, witha small number of constraints, the proposed algorithmgets good performance on unmapped data, and outperformsexisting algorithms on partially mapped data andcompletely mapped data.
+ 

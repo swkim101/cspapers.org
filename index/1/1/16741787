@@ -1,0 +1,5 @@
+An element having the mechanism of time-varying threshold has been proposed by S. Aida and denoted as an IMICTRON. Several applications of the IMICTRON have already been discussed. The most distinguishing property of the IMICTRON is its time-varying threshold level with a function of reintegration, which makes it possible to realize a fuzzy logic, such as required for the dynamic visual-pattern-recognition network discussed here. 
+ 
+The other method using the time-varying threshold is named the Varishold method, which is an abbreviation of the variable threshold method. In this system, the threshold is applied in a descrete time, whose level is variable in each sampling time. 
+ 
+This paper, therefore, shows the two kinds of the pattern recognition, the one is a visual application, that is a classification by the time-varying threshold, and the other a tactile pattern recognition by the descrete variable threshold.

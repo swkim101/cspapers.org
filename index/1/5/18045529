@@ -1,0 +1,4 @@
+
+ 
+ l2,1-norm is an effective regularization to enforce a simple group sparsity for feature learning. To capture some subtle structures among feature groups, we propose a new regularization called exclusive group l2,1-norm. It enforces the sparsity at the intra-group level by using l2,1-norm, while encourages the selected features to distribute in different groups by using l2 norm at the inter-group level. The proposed exclusivegroup l2,1-norm is capable of eliminating the feature correlationsin the context of feature selection, if highly correlated features are collected in the same groups. To solve the generic exclusive group l2,1-norm regularized problems, we propose an efficient iterative re-weighting algorithm and provide a rigorous convergence analysis. Experiment results on real world datasets demonstrate the effectiveness of the proposed new regularization and algorithm.
+ 

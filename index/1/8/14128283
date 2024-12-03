@@ -1,0 +1,4 @@
+
+ 
+ Real-time transcription provides deaf and hard of hearing people visual access to spoken content, such as classroom instruction, and other live events. Currently, the only reliable source of real-time transcriptions are expensive, highly-trained experts who are able to keep up with speaking rates. Automatic speech recognition is cheaper but produces too many errors in realistic settings. We introduce a new approach in which partial captions from multiple non-experts are combined to produce a high-quality transcription in real-time. We demonstrate the potential of this approach with data collected from 20 non-expert captionists.
+ 

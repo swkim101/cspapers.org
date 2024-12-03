@@ -1,0 +1,7 @@
+This paper presents a methodology for evaluating computer text editors from the viewpoint of their users—from novices learning the editor to dedicated experts who have mastered the editor. The dimensions which this methodology addresses are:
+ —<italic>Time</italic> to perform edit tasks by experts.
+ —<italic>Errors</italic> made by experts.
+ —<italic>Learning</italic> of basic edit tasks by novices.
+ —<italic>Functionality</italic> over all possible edit tasks.
+ The methodology is objective and thorough, yet easy to use. The criterion of <italic>objectivity</italic> implies that the evaluation scheme not be biased in favor of any particular editor's conceptual model—its way of representing text and operations on the text. In addition, data is gathered by observing people who are equally familiar with each system. <italic>Thoroughness</italic> implies that several different aspects of editor usage be considered. <italic>Ease-of-use</italic> means that methodology is usable by editor designers, managers of word processing centers, or other non-psychologists who need this kind of information, but have limited time and equipment resources.
+ In this paper, we explain the methodology first, then give some interesting empirical results from applying it to several editors.

@@ -1,0 +1,17 @@
+Traditional scheduling techniques suffer from a lack of flexibility. 
+
+The problem's instances need to be deterministic, and results on datasets with small benchmark instances do usually not transfer to large-scale instances. 
+
+We propose to develop adaptive algorithms that can leverage the similarities between instances of industrial scheduling problems. 
+
+In particular, we focus on applications of modern machine learning techniques to combinatorial optimization problems, an emerging and promising research area. 
+
+Traditional scheduling techniques such as constraint, mixed-integer, or answer set programming are highly generic, domain-independent, and, therefore, do not explicitly exploit the specificities of a problem domain. 
+
+However, in a production facility, the settings between two consecutive schedules are often very similar.
+
+The machines, workers, production capacity, etc., usually stay the same or do not change significantly.
+
+Traditional scheduling techniques do not take advantage of such similarities, while machine learning, especially deep learning, can discover and exploit relationships in the data. 
+
+Therefore, our research aims to incorporate machine learning into combinatorial optimization.

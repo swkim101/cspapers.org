@@ -1,0 +1,4 @@
+
+ 
+ We propose Cupid, a language for specifying commitments that supports their information-centric aspects, and offers crucial benefits. One, Cupid is first-order, enabling a systematic treatment of commitment instances. Two, Cupid supports features needed for real-world scenarios such as deadlines, nested commitments, and complex event expressions for capturing the lifecycle of commitment instances. Three, Cupid maps to relational database queries and thus provides a set-based semantics for retrieving commitment instances in states such as being violated, discharged, and so on. We prove that Cupid queries are safe. Four, to aid commitment modelers, we propose the notion of well-identified commitments, and finitely violable and finitely expirable commitments. We give syntactic restrictions for obtaining such commitments.
+ 

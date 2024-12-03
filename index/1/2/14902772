@@ -1,0 +1,4 @@
+
+ 
+ We provide a logical representation of Pearl's structural causal models in the causal calculus of McCain and Turner (1997) and its first-order generalization by Lifschitz. It will be shown that, under this representation, the nonmonotonic semantics of the causal calculus describes precisely the solutions of the structural equations (the causal worlds of the causal model), while the causal logic from Bochman (2004) is adequate for describing the behavior of causal models under interventions (forming submodels).
+ 

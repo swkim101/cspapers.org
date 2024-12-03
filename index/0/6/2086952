@@ -1,0 +1,5 @@
+The possibility of supporting relational data sublanguages on top of a data base system with an underlying network data structure has been widely suggested. In this paper we present a formal model of a mix of interactions in one non procedural relational language. Under a collection of assumptions concerning the data base and the performance criteria, we compare the following performance oriented data structures:
+ (1) secondary indices
+ (2) a network structure similar to a pointer array implementation of DBTG sets
+ (3) structures 1) and 2) together
+ It is shown that option 2) is never preferred to both @@@@ and 3) over the range of model parameters, Hence, the sole use of sets or “links” as a performance oriented access path is questionable.

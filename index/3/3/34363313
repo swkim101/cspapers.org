@@ -1,0 +1,4 @@
+
+ 
+ Monte Carlo Localization (MCL) is a sampling-based algorithm for mobile robot localization. In this paper we describe an MCL assignment and its required hardware and software. The Neato vacuum robot and a Raspberry Pi serve as the core of the robot model. The Robot Operating System (ROS) is used as the robot programming environment. Students are expected to learn the localization problem, implement the MCL algorithm, and better understand the kidnapped robot problem and the limitations of MCL by observing the performance of the algorithm in real-time application.
+ 

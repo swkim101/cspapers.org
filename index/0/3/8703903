@@ -1,0 +1,1 @@
+In this paper we consider probabilities of different asymptotics of convergent unlearning algorithm for the Hopfield-type neural network (Plakhov & Semenov, 1994) treating the case of unbiased random patterns. We show also that failed unlearning results in total memory breakdown.

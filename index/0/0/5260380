@@ -1,0 +1,1 @@
+This paper describes new and improved techniques which help a unification-based parser to process input efficiently and robustly. In combination these methods result in a speed-up in parsing time of more than an order of magnitude. The methods are correct in the sense that none of them rule out legal rule applications.

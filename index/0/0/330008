@@ -1,0 +1,4 @@
+
+ 
+ Recently, graph-based ranking algorithms have received considerable interests in machine learning, computer vision and information retrieval communities. Ranking on data manifold (or manifold ranking, MR) is one of the representative approaches. One of the limitations of manifold ranking is its high computational complexity (O(n3), where n is the number of samples in database). In this paper, we cast the manifold ranking into a Bregman divergence optimization framework under which we transform the original MR to an equivalent optimal kernel matrix learning problem.With this new formulation, two effective and efficient extensions are proposed to enhance the ranking performance. Extensive experimental results on two real world image databases show the effectiveness of the proposed approach.
+ 

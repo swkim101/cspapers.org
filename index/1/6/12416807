@@ -1,0 +1,4 @@
+
+ 
+ Current exploration algorithms can be classified in two broad categories: Heuristic, and PAC optimal. While numerous researchers have used heuristic approaches such as epsilon-greedy exploration successfully, such approaches lack formal, finite sample guarantees and may need a significant amount of fine-tuning to produce good results. PAC optimal exploration algorithms, on the other hand, offer strong theoretical guarantees but are inapplicable in domains of realistic size. The goal of this paper is to bridge the gap between theory and practice, by introducing C-PACE, an algorithm which offers strong theoretical guarantees and can be applied to interesting, continuous space problems.
+ 

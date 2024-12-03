@@ -1,0 +1,4 @@
+
+ 
+ Relation inference between concepts in knowledge base has been extensively studied in recent years. Previous methods mostly apply the relations in the knowledge base, without fully utilizing the contents, i.e., the attributes of concepts in knowledge base. In this paper, we propose a content-structural relation inference method (CSRI) which integrates the content and structural information between concepts for relation inference. Experiments on data sets show that CSRI obtains 15% improvement compared with the state-of-the-art methods.
+ 

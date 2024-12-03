@@ -1,0 +1,1 @@
+RUE resolution represents a reformulation of binary resolution so that the basic rules of inference (RUE and NRF) incorporate the axioms of equality. An RUE theorem prover has been implemented and experimental results indicate that this method represents a significant advance in the handling of equality in resolution.

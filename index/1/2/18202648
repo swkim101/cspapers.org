@@ -1,0 +1,1 @@
+We present a general method for selecting a small set of training inputs, the observations of which will suffice to estimate the parameters of a given linear model. We exemplify the algorithm in terms of predicting segmental duration of phonetic-segment feature vectors in a text-to-speech synthesizer, but the algorithm will work for any linear model and its associated domain.

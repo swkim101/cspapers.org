@@ -1,0 +1,4 @@
+
+ 
+ For my dissertation I am focusing on non-classical planning for robotic applications. Much classical planning research relies on assumptions that do not hold in real world robotics applications. In many cases the entire world state is not known in advance and the events that occur in the future can not be known with certainty. Robots operating in the real world also need to be responsive and react to dynamic obstacles and events.
+ 

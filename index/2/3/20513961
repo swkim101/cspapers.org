@@ -1,0 +1,4 @@
+
+ 
+ Bounding the tree-width of a Bayesian network can reduce the chance of overfitting, and allows exact inference to be performed efficiently. Several existing algorithms tackle the problem of learning bounded tree-width Bayesian networks by learning from k-trees as super-structures, but they do not scale to large domains and/or large tree-width. We propose a guided search algorithm to find k-trees with maximum Informative scores, which is a measure of quality for the k-tree in yielding good Bayesian networks. The algorithm achieves close to optimal performance compared to exact solutions in small domains, and can discover better networks than existing approximate methods can in large domains. It also provides an optimal elimination order of variables that guarantees small complexity for later runs of exact inference. Comparisons with well-known approaches in terms of learning and inference accuracy illustrate its capabilities.
+ 

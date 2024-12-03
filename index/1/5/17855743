@@ -1,0 +1,1 @@
+The Thorp shuffle is defined as follows. Cut the deck into two equal piles. Drop the first card from the left pile or the right pile according to the outcome of a fair coin flip; then drop from the other pile. Continue this way until both piles are empty. We show that the mixing time for the Thorp shuffle with 2d cards is polynomial in d.

@@ -1,0 +1,4 @@
+
+ 
+ Sarcasm Suite is a browser-based engine that deploys five of our past papers in sarcasm detection and generation. The sarcasm detection modules use four kinds of incongruity: sentiment incongruity, semantic incongruity, historical context incongruity and conversational context incongruity. The sarcasm generation module is a chatbot that responds sarcastically to user input. With a visually appealing interface that indicates predictions using `faces' of our co-authors from our past papers, Sarcasm Suite is our first demonstration of our work in computational sarcasm.
+ 

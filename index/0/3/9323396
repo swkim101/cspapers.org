@@ -1,0 +1,1 @@
+This paper compares different bilexical tree-based models for bilingual alignment. EM training for the new model benefits from the dynamic programming "hook trick". The model produces improved dependency structure for both languages.

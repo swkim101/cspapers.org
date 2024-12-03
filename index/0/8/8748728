@@ -1,0 +1,4 @@
+
+ 
+ We present a planner named Transition Constraints for Parallel Planning (TCPP). TCPP constructs a new constraint model from domain transition graphs (DTG) of a given planning problem. TCPP encodes the constraint model by using table constraints that allow don't cares or wild cards as cell values. TCPP uses Minion the constraint solver to solve the constraint model and returns the parallel plan. Empirical results exhibit the efficiency of our planning system over state-of-the-art constraint-based planners.
+ 

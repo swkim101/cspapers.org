@@ -1,0 +1,14 @@
+We introduce a framework for the symbolic verification 
+of epistemic properties of programs expressed 
+in a class of general-purpose programming 
+languages. To this end, we reduce the verification 
+problem to that of satisfiability of first-order formulae 
+in appropriate theories. We prove the correctness 
+of our reduction and we validate our proposal 
+by applying it to two examples: the dining 
+cryptographers problem and the ThreeBallot voting 
+protocol. We put forward an implementation 
+using existing solvers, and report experimental results 
+showing that the approach can perform better 
+than state-of-the-art symbolic model checkers for 
+temporal-epistemic logic.

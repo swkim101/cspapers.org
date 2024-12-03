@@ -1,0 +1,9 @@
+We present a real-time method for robust estimation of multiple instances of geometric models from noisy data.
+Geometric models such as vanishing points, planar homographies or fundamental matrices are essential for 3D scene analysis.
+Previous approaches discover distinct model instances in an iterative manner, thus limiting their potential for speedup via parallel computation.
+In contrast, our method detects all model instances independently and in parallel.
+A neural network segments the input data into clusters representing potential model instances by predicting multiple sets of sample and inlier weights.
+Using the predicted weights, we determine the model parameters for each potential instance separately in a RANSAC-like fashion.
+We train the neural network via task-specific loss functions, i.e. we do not require a ground-truth segmentation of the input data.
+As suitable training data for homography and fundamental matrix fitting is scarce, we additionally present two new synthetic datasets.
+We demonstrate state-of-the-art performance on these as well as multiple established datasets, with inference times as small as five milliseconds per image.

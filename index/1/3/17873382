@@ -1,0 +1,6 @@
+Wall and terrain following is a challenging problem for small, fast, and fragile robot vehicles. 
+This paper presents a robust algorithm based 
+on wide field integration of optic flow. Solutions for two dimensional and three dimensional wall following is provided for vehicles 
+with non-holonomic velocity constraints that 
+ensure that the focus of expansion of the flow field is known. The potential of the proposed 
+algorithm is demonstrated in a simulation environment.

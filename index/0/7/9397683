@@ -1,0 +1,4 @@
+
+ 
+ The theory of (variable) forgetting has received significant attention in nonmonotonic reasoning, especially, in answer set programming. However, the problem of establishing a theory of forgetting for some expressive nonmonotonic logics such as McCarthy's circumscription is rarely explored.In this paper a theory of forgetting for propositional circumscription is proposed, which is not a straightforward adaption of existing approaches. In particular, some properties that are essential for existing proposals do not hold any longer or have to be reformulated. Several useful properties of the new forgetting are proved, which demonstrate suitability of the forgetting for circumscription. A sound and complete algorithm for the forgetting is developed and an analysis of computational complexity is given.
+ 

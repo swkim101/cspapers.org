@@ -1,0 +1,3 @@
+We present a new combinatorial algorithm for Boolean matrix multiplication that runs in O(n3(log log n)3/log3 n) time. This improves the previous combinatorial algorithm by Bansal and Williams [FOCS'09] that runs in O(n3(log log n)2/log9/4 n) time. Whereas Bansal and Williams' algorithm uses regularity lemmas for graphs, the new algorithm is simple and uses entirely elementary techniques: table lookup, word operations, plus a deceptively straightforward divide-and-conquer. 
+ 
+Our algorithm is in part inspired by a recent result of Impagliazzo, Lovett, Paturi, and Schneider (2014) on a different geometric problem, offline dominance range reporting; we improve their analysis for that problem as well.

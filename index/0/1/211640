@@ -1,0 +1,1 @@
+In this paper, we present a scheme for distributing a key to n users in such a way as to require at least k of them (k < n) to be present to construct the original key. The scheme has the property that up to k - 1 defections can be tolerated. It can be implemented simply and efficiently.

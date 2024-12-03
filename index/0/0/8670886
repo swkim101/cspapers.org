@@ -1,0 +1,1 @@
+We demonstrate the merits of using inter-document similarities for federated search. Specifically, we study a results merging method that utilizes information induced from clusters of similar documents created across the lists retrieved from the collections. The method significantly outperforms state-of-the-art results merging approaches.

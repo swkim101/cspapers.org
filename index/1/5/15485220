@@ -1,0 +1,1 @@
+We present the workflow language DSOL, its runtime system and the tools available to support the development of dynamic service orchestrations. DSOL aims at supporting dynamic, self-managed service compositions that can adapt to changes occurring at runtime.

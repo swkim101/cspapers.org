@@ -1,0 +1,1 @@
+In this paper, we propose a Topical PageRank based algorithm for recommender systems, which aim to rank products by analyzing previous user-item relationships, and recommend top-rank items to potentially interested users. We evaluate our algorithm on MovieLens dataset and empirical experiments demonstrate that it outperforms other state-of-the-art recommending algorithms.

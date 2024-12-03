@@ -1,0 +1,2 @@
+Programs written with good style are easier to read and understand, and typically smaller and more efficient than those written badly, regardless of the language used. Yet most programmers have never been taught programming style—as proof we need only look at their programs. 
+ In this paper we will discuss several principles of programming style, illustrating our points by criticizing and rewriting some real programs. The examples are all taken verbatim from programming textbooks, and the revisions have all been tested.

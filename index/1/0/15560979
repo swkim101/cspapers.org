@@ -1,0 +1,1 @@
+In order to provide independence between the user's view of a data base and the actual data structure a generalized translator is presented. Two particular implementations with similar objectives show the feasibility of such a translator which leads to a two-level data base architecture.

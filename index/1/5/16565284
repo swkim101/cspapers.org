@@ -1,0 +1,4 @@
+
+ 
+ Analyzing clickthrough log data is important for improving search performance as well as understanding user behaviors. In this paper, we propose a novel collaborative ranking model to tackle two difficulties in analyzing clickthrough log. First, previous studies have shown that users tend to click top-ranked results even they are less relevant. Therefore, we use pairwise ranking relation to avoid the position bias in clicks. Second, since click data are extremely sparse with respect to each query or user, we construct a collaboration model to eliminate the sparseness problem. We also find that the proposed model and previous popular used click-based models address different aspects of clickthrough log data. We further propose a hybrid model that can achieve significant improvement compared to the baselines on a large-scale real world dataset.
+ 

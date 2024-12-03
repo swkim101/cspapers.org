@@ -1,0 +1,1 @@
+We demonstrate a system for querying probabilistic XML documents with simple XPath queries. A user chooses between a variety of query answering techniques, both exact and approximate, and observes the running behavior, pros, and cons, of each method, in terms of efficiency, precision of the result, and data model and query language supported.

@@ -1,0 +1,1 @@
+We discuss how the runtime of SVM optimization should decrease as the size of the training data increases. We present theoretical and empirical results demonstrating how a simple subgradient descent approach indeed displays such behavior, at least for linear kernels.

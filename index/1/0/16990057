@@ -1,0 +1,4 @@
+
+ 
+ Air pollution has a direct impact to human health, and data-driven air quality models are useful for evaluating population exposure to air pollutants. In this paper, we propose a novel region-based Gaussian process model for estimating urban air pollution dispersion, and applied it to a large dataset of ultrafine particle (UFP) measurements collected from a network of sensors located on several trams in the city of Zurich. We show that compared to existing grid-based models, the region-based model produces better predictions across aggregates of all time scales. The new model is appropriate for many useful user applications such as exposure assessment and anomaly detection.
+ 

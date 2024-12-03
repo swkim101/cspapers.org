@@ -1,0 +1,1 @@
+The special advantages and difficulties of microprocessors, as a platform for truly portable software, are considered. A sample implementation of such software is described in the form of the virtual machine, run time and development system of MicroCobol. This language executes invariantly across a dozen real computers.

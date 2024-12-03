@@ -1,0 +1,3 @@
+The problem of the retrieval by content of office documents is addressed here. However, the retrieval by content is greatly enhanced if the semantic role of document objects can he described. For this reason we introduce a conceptual level of modeling resulting in the definition of conceptual structures of documents. 
+ 
+Type definition is essential for the retrieval, but since office document structures tend to greatly differ from instance to instance, we introduce the concept of weak type, allowing the definition of types at different levels of detail (type hierarchies). In this paper a modeling approach based on these ideas is presented. Particular emphasis is put on the type definition and the use of types in query formulation and processing.

@@ -1,0 +1,1 @@
+In this poster,we incorporate user query history, as context information, to improve the retrieval performance in interactive retrieval. Experiments using the TREC data show that incorporating such context information indeed consistently improves the retrieval performance in both average precision and precision at 20 documents.

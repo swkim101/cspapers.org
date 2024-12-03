@@ -1,0 +1,1 @@
+Morphotactics and allomorphy are usually modeled in different components, leading to interface problems. To describe both uniformly, we define finite automata (FA) for allomorphy in the same feature description language used for morphotactics. Nonphonologically conditioned allomorphy is problematic in FA models but submits readily to treatment in a uniform formalism.

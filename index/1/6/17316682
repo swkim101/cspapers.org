@@ -1,0 +1,1 @@
+An O(n2) time algorithm is presented that determines whether or not a given convex digital region is a digital disk. A new compactness measure for digital regions is introduced, and an algorithm to evaluate the compactness measure of convex digital regions is also presented.

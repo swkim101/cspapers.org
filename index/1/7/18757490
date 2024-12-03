@@ -1,0 +1,4 @@
+
+ 
+ One of the most important crowdsourcing topics is to study the effective quality control methods so as to reduce the cost and to guarantee the quality of task processing. As an effective approach, iterative improvement workflow is known to choose the best result from multiple workflows. However, for complex crowdsourcing tasks that consists of a certain number of subtasks under some specific constraints, but cannot be split into subtasks to be crowdsourced, the approach merely considers the best workflow without integrating the contributions of all workflows, which potentially results in extra costs for more iterations. In this paper, we propose an assembly model to integrate the best output of subtasks from different workflows. Moreover, we devise an efficient iterative method based on POMDP to improve the quality of assembled output. Empirical studies confirms the superiority of our proposed model.
+ 

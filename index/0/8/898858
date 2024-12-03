@@ -1,0 +1,1 @@
+We establish the motion equations for rigidly moving 3D lines and the structure equations that relate the optical flow of a line to its kinematic screw and 3D representation. We also show that if the time derivative of the optical flow is available, then five simple motion equations can be derived that relate the kinematic screw, the optical flow, and their time derivatives.

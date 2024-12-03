@@ -1,0 +1,7 @@
+This paper studies boosting algorithms that make a single pass over a set of base classifiers. 
+ 
+We first analyze a one-pass algorithm in the setting of boosting with diverse base classifiers. Our guarantee is the same as the best proved for any boosting algorithm, but our one-pass algorithm is much faster than previous approaches. 
+ 
+We next exhibit a random source of examples for which a "picky" variant of Ad-aBoost that skips poor base classifiers can outperform the standard AdaBoost algorithm, which uses every base classifier, by an exponential factor. 
+ 
+Experiments with Reuters and synthetic data show that one-pass boosting can substantially improve on the accuracy of Naive Bayes, and that picky boosting can sometimes lead to a further improvement in accuracy.

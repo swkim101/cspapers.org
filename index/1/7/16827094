@@ -1,0 +1,4 @@
+
+ 
+ The task of predicting retweet behavior is an important and essential step for various social network applications, such as business intelligence, popular event prediction, and so on. Due to the increasing requirements, in recent years, the task has attracted extensive attentions. In this work, we propose a novel method using non-parametric statistical models to combine structural, textual, and temporal information together to predict retweet behavior. To evaluate the proposed method, we collect a large number of microblogs and their corresponding social networks from a real microblog service. Experimental results on the constructed dataset demonstrate that the proposed method can achieve better performance than state-of-the-art methods. The relative improvement of the the proposed over the method using only textual information is more than 38.5% in terms of F1-Score.
+ 

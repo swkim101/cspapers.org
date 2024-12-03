@@ -1,0 +1,4 @@
+
+ 
+ Social influence is a fundamental issue in social network analysis and has attracted tremendous attention with the rapid growth of online social networks. However, existing research mainly focuses on studying peer influence. This paper introduces a novel notion of structural influence and studies how to efficiently discover structural influence patterns from social streams. We present three sampling algorithms with theoretical unbiased guarantee to speed up the discovery process. Experiments on a big microblogging dataset show that the proposed sampling algorithms can achieve a 10 times speedup compared to the exact influence pattern mining algorithm, with an average error rate of only 1.0%. The extracted structural influence patterns have many applications. We apply them to predict retweet behavior, with performance being significantly improved.
+ 

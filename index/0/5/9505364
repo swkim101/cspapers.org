@@ -1,0 +1,4 @@
+
+ 
+ Partial Refinement A-Star (PRA* is an abstraction technique, based on clustering nearby nodes in graphs, useful in large path-planning problems. Abstracting the underlying graph yields a simpler problem whose solution can be used, by refinement, as a guide to a solution to the original problem. A fruitful way to view domain independent planning problems is as a collection of multi-valued variables that must perform synchronised transitions through graphs of possible values, where the edges are defined by the domain actions. Planning involves finding efficient paths through Domain Transition Graphs (DTGs). In problems where these graphs are large, planning can be prohibitively expensive. In this paper we explore two ways to exploit PRA* in DTGs.
+ 

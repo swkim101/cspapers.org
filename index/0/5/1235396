@@ -1,0 +1,4 @@
+
+ 
+ Stochastic gradient descent (SGD) and its variants have become more and more popular in machine learning due to their efficiency and effectiveness. To handle large-scale problems, researchers have recently proposed several parallel SGD methods for multicore systems. However, existing parallel SGD methods cannot achieve satisfactory performance in real applications. In this paper, we propose a fast asynchronous parallel SGD method, called AsySVRG, by designing an asynchronous strategy to parallelize the recently proposed SGD variant called stochastic variance reduced gradient (SVRG). AsySVRG adopts a lock-free strategy which is more efficient than other strategies with locks. Furthermore, we theoretically prove that AsySVRG is convergent with a linear convergence rate. Both theoretical and empirical results show that AsySVRG can outperform existing state-of-the-art parallel SGD methods like Hogwild! in terms of convergence rate and computation cost.
+ 

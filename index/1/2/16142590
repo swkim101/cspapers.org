@@ -1,0 +1,4 @@
+
+ 
+ We propose a new variant of the group activity selection problem (GASP), where the agents are placed on a social network and activities can only be assigned to connected subgroups. We show that if multiple groupscan simultaneously engage in the same activity, finding a stable outcome is easy as long as the networkis acyclic. In contrast, if each activity can be assigned to a single group only, finding stable outcomes becomes computationally intractable, even if the underlying network is very simple: the problem of determining whether a given instance of a GASP admits a Nash stable outcome turns out to be NP-hard when the social network is a path, a star, or if the size of each connected component is bounded by a constant.On the other hand, we obtain fixed-parameter tractability results for this problem with respectto the number of activities.
+ 

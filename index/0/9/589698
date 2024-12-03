@@ -1,0 +1,1 @@
+We present a method to notarize a paper document. This method computes a set of features from the page, inputs these features into a hash function, digitally signs the output, and then prints the resulting signature on the page. The notarized document is self-contained: verification does not require reference to online information.

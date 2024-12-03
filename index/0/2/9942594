@@ -1,0 +1,1 @@
+The repeated median regression line is a robust regression estimate, having a maximal 50% breakdown point. This paper presents an <italic>O(n(log n)<supscrpt>2</supscrpt>)</italic> algorithm for finding the repeated median regression line through <italic>n</italic> points in the plane.

@@ -1,0 +1,4 @@
+
+ 
+ Probabilistic inference can be realized using weighted model counting. Despite a lot of progress, computing weighted model counts exactly is still infeasible for many problems of interest, and one typically has to resort to approximation methods. We contribute a new bounded approximation method for weighted model counting based on probabilistic logic programming principles. Our bounded approximation algorithm is an anytime algorithm that provides lower and upper bounds on the weighted model count. An empirical evaluation on probabilistic logic programs shows that our approach is effective in many cases that are currently beyond the reach of exact methods.
+ 

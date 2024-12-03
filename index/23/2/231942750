@@ -1,0 +1,22 @@
+State estimation problems without absolute position measurements routinely arise in navigation of unmanned aerial vehicles, 
+autonomous ground vehicles, etc., whose proper operation relies on 
+accurate state estimates and reliable covariances.
+Unaware of absolute positions, these problems have immanent unobservable directions.
+Traditional causal estimators, however, usually gain spurious information 
+on the unobservable directions, leading to over-confident covariance inconsistent with actual estimator errors.
+The consistency problem of fixed-lag smoothers (FLSs) 
+has only been attacked by the first estimate Jacobian (FEJ) technique because 
+of the complexity to analyze their observability property.
+But the FEJ has several drawbacks hampering its wide adoption.
+To ensure the consistency of a FLS, this paper introduces the right invariant
+error formulation into the FLS framework. To our knowledge, 
+we are the first to analyze the observability of a FLS with the right invariant error.
+Our main contributions are twofold.
+As the first novelty, to bypass the complexity of analysis with the classic 
+observability matrix, we show that observability analysis of FLSs can be done equivalently on the linearized system.
+Second, we prove that the inconsistency issue in the traditional FLS can be
+elegantly solved by the right invariant error formulation without artificially correcting Jacobians.
+By applying the proposed FLS to the monocular visual inertial
+simultaneous localization and mapping (SLAM) problem,
+we confirm that the method consistently
+estimates covariance similarly to a batch smoother in simulation and that our method achieved comparable accuracy as traditional FLSs on real data.

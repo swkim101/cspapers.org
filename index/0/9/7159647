@@ -1,0 +1,1 @@
+This paper describes the design of an algorithm which learns a class of theories in the limit in a sublanguage of afirst order language. The languages chosen are richer than those handled previously - needing a more efficient search through the version space. The language is not initially known to the system, but is learned together with the theory.

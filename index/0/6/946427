@@ -1,0 +1,3 @@
+The notion of protocol multiplexing usually means the ability of a protocol to accommodate several instances of higher level protocols at the same time.
+ In this paper we propose to extend this notion to allow sharing of messages, and packets, among several simultaneous communicating processes, which will increase the communication efficiency by reducing the total number of messages transmitted through the media.
+ This paper discusses several aspects of multiplexing and the interaction of multiplexing with other protocol issues.

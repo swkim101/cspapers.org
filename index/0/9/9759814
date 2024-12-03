@@ -1,0 +1,5 @@
+In this paper definitions of unnormalized relation, functional dependency on it and Normal Form are presented. The Normal Form plays a key role in our relational data model in which unnormalized relations are admitted as does the Third Normal Form of Codd in the data model of normalized relation. 
+ 
+Properties pertaining to Normal Form are discussed emphasizing comparison with 3NF along with analysis of some typical examples. 
+ 
+Similarity and dissimilarity between new functional dependency and Fagin's multivalued dependency are also discussed and presented in the form of proposition.

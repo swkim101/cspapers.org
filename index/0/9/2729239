@@ -1,0 +1,1 @@
+The kinematics for modular wheeled mobile robots is presented. Basic theory of planar motion is used to derive inverse and forward kinematics. The inverse kinematics is inherently modular, whereas the information form of a least-squares estimator is required to completely modularize the forward kinematics. An implementation is described and results are shown.

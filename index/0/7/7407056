@@ -1,0 +1,4 @@
+
+ 
+ Mini-Bucket Elimination (MBE) is a well-known approximation algorithm deriving lower and upper bounds on quantities of interest over graphical models. It relies on a procedure that partitions a set of functions, called bucket, into smaller subsets, called mini-buckets. The method has been used with a single partitioning heuristic throughout, so the impact of the partitioning algorithm on the quality of the generated bound has never been investigated. This paper addresses this issue by presenting a framework within which partitioning strategies can be described, analyzed and compared. We derive a new class of partitioning heuristics from first-principles geared for likelihood queries, demonstrate their impact on a number of benchmarks for probabilistic reasoning and show that the results are competitive (often superior) to state-of-the-art bounding schemes.
+ 

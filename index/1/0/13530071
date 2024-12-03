@@ -1,0 +1,1 @@
+A practical method for Bayesian training of feed-forward neural networks using sophisticated Monte Carlo methods is presented and evaluated. In reasonably small amounts of computer time this approach outperforms other state-of-the-art methods on 5 data-limited tasks from real world domains.

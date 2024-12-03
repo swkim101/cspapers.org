@@ -1,0 +1,4 @@
+
+ 
+ Entity Resolution (ER) concerns identifying logically equivalent entity pairs across databases. To avoid quadratic pairwise comparisons of entities, blocking methods are used. Sorted Neighborhood is an established blocking method for relational databases. It has not been applied on graph-based data models such as the Resource Description Framework (RDF). This poster presents a modular workflow for applying Sorted Neighborhood to RDF. Real-world evaluations demonstrate the workflow's utility against a popular baseline.
+ 

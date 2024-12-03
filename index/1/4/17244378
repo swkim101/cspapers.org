@@ -1,0 +1,4 @@
+
+ 
+ Current Coreference Resolution systems utilize a broad range of general knowledge features to make resolutions in a general setting. These approaches ignore coreference knowledge found in domain specific collections and how coreferent entities interact in different domains. This research addresses these issues by developing knowledge bases of coreference characteristics drawn from annotated and unannotated domain texts and utilizing lexical and discourse information to improve resolution.
+ 

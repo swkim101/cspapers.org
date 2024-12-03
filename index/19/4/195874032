@@ -1,0 +1,21 @@
+A vertex coloring $\phi$ of a graph $G$ is $p$-centered if for every connected subgraph $H$ of $G$ either $\phi$ uses more than $p$ colors on $H$ or there is a color that appears exactly once on $H$. Centered colorings form one of the families of parameters that allow to capture notions of sparsity of graphs: A class of graphs has bounded expansion if and only if there is a function $f$ such that for every $p\geq1$, every graph in the class admits a $p$-centered coloring using at most $f(p)$ colors.
+
+In this paper, we give upper bounds for the maximum number of colors needed in a $p$-centered coloring of graphs from several widely studied graph classes.
+We show that:
+
+(1) planar graphs admit $p$-centered colorings with $O(p^3\log p)$ colors
+where the previous bound was $O(p^{19})$;
+
+(2) bounded degree graphs admit $p$-centered colorings with $O(p)$ colors
+while it was conjectured that they may require exponential number of colors.
+
+All these upper bounds imply polynomial algorithms for computing the colorings.
+
+Prior to this work there were no non-trivial lower bounds known.
+We show that:
+
+(4) there are graphs of treewidth $t$ that require $\binom{p+t}{t}$ colors in any $p$-centered coloring. This bound matches the upper bound;
+
+(5) there are planar graphs that require $\Omega(p^2\log p)$ colors in any $p$-centered coloring.
+
+We also give asymptotically tight bounds for outerplanar graphs and planar graphs of treewidth $3$. We prove our results with various proof techniques. The upper bound for planar graphs involves an application of a recent structure theorem while the upper bound for bounded degree graphs comes from the entropy compression method. We lift the result for bounded degree graphs to graphs avoiding a fixed topological minor using the Grohe-Marx structure theorem.

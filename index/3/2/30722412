@@ -1,0 +1,1 @@
+For anyAC0 functionf ofn bits, there is a polynomialp such that anyp(logn)-wise decomposable distribution “fools”f. In other words,f cannot distinguish between the pseudorandom strings in the distribution and truly random strings. The polynomialp depends only on the size and depth of the circuit computingf.

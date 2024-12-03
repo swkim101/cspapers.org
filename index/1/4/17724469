@@ -1,0 +1,3 @@
+A method of "learning from observation" is presented which structures a collection of objects into hierarchies of subcategories, such that each subcategory la characterised by a conjunctive description involving relations on selected object attributes. The conjunctive descriptions supporting from each node are mutually disjoint and optimal aa a group according to a flexibly defined criterion. Each level of the hierarchy is determined by an iterative procaaa which respectively applies a veralon of the A* search algorithm. 
+ 
+Experiments with the program CLUSTER/PAF implementing the method indicate that the obtained hierarchies represent solutions which have a simple conceptual Interpretation and which seem to agree well with the way people structure objects.

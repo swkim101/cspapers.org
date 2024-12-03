@@ -1,0 +1,1 @@
+We present a system for automatically identifying PropBank-style semantic roles based on the output of a statistical parser for Combinatory Categorial Grammar. This system performs at least as well as a system based on a traditional Treebank parser, and outperforms it on core argument roles.

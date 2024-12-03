@@ -1,0 +1,1 @@
+Loss of connectivity in deployed wireless sensor networks can be quite disastrous for the network. A "cut" (which separates the network into two or more components incapable of communicating with each other) is usually hard to detect. An algorithm which enables each node in the network to detect whether a cut has occurred anywhere in the network is demonstrated.

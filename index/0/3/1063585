@@ -1,0 +1,1 @@
+In this paper we introduce a novel sophisticated collusion attack scenario against a number of existing iterative filtering algorithms. To address this security issue, we propose an improvement for iterative filtering techniques by providing an initial approximation for such algorithms which makes them not only collusion robust, but also more accurate and faster converging.

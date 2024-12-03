@@ -1,0 +1,1 @@
+We present a novel algorithm for unsupervised subcategorization of an object class, in the context of object detection. Dividing the detection problem into smaller subproblems simplifies the object vs. background classification.

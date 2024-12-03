@@ -1,0 +1,1 @@
+The PD2 Pfair/ERfair scheduling algorithm is the most efficient known algorithm for optimally scheduling periodic tasks on multiprocessors. In this paper, we prove that PD2 is also optimal for scheduling "rate-based" tasks whose processing steps may be highly jittered. The rate-based task model we consider generalizes the widely-studied sporadic task model.

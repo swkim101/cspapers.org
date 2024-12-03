@@ -1,0 +1,1 @@
+In this demo we present LDP4ROs, a prototype implementation that allows creating, browsing and updating Research Objects (ROs) and their contents using typical HTTP operations. This is achieved by aligning the RO model with the W3C Linked Data Platform (LDP).

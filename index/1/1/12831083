@@ -1,0 +1,1 @@
+We describe a system for pronoun interpretation that is self-trained from raw data, that is, using no annotated training data. The result outperforms a Hobbsian baseline algorithm and is only marginally inferior to an essentially identical, state-of-the-art supervised model trained from a substantial manually-annotated coreference corpus.

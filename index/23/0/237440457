@@ -1,0 +1,10 @@
+Pre-training language models (LMs) on large-scale unlabeled text data makes the model much easier to achieve exceptional downstream performance than their counterparts directly trained on the downstream tasks. 
+ In this work, we study what specific traits in the pre-training data, other than the semantics, make a pre-trained LM superior to their counterparts trained from scratch on downstream tasks.
+ We propose to use artificially constructed datasets as the pre-training data to exclude the effect of semantics, and further control what characteristics the pre-training corpora have.
+ By fine-tuning the pre-trained models on GLUE benchmark, we can learn how beneficial it is to transfer the knowledge from the model trained on the dataset possessing that specific trait.
+ We define and discuss three different characteristics in the artificial dataset: 1) matching the token's uni-gram or bi-gram distribution between pre-training and downstream fine-tuning, 2) the presence of the explicit dependencies among the tokens in a sequence, 3) the length of the implicit dependencies among the tokens in a sequence. 
+ Our experiments show that the explicit dependencies in the sequences of the pre-training data are critical to the downstream performance.
+ Our results also reveal that models achieve better downstream performance when pre-trained on a dataset with a longer range of implicit dependencies.
+ Based on our analysis, we find that models pre-trained with artificial datasets are prone to learn spurious correlation in downstream tasks.
+ Our work reveals that even if the LMs are not pre-trained on natural language, they still gain transferability on certain human language downstream tasks once the LMs learn to model the token dependencies in the sequences. 
+ This result helps us understand the exceptional transferability of pre-trained LMs.

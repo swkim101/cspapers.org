@@ -1,0 +1,1 @@
+We study the problem of finding approximate Nash equilibria of two player games. We show that for any 0<ε<1, there is no 1<over>1 + ε - approximate equilibrium with strategies of support <i>O</i>(log <i>n</i><over>ε<sup>2</sup>).

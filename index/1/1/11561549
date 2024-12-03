@@ -1,0 +1,4 @@
+
+ 
+ Given a monochrome image and some manually labeled pixels, the colorization problem is a computer-assisted process of adding color to the monochrome image. This paper proposes a novel approach to the colorization problem by formulating it as a matrix completion problem. In particular, taking a monochrome image and parts of the color pixels (labels) as inputs, we develop a robust colorization model and resort to an augmented Lagrange multiplier algorithm for solving the model. Our approach is based on the fact that a matrix can be represented as a low-rank matrix plus a sparse matrix. Our approach is effective because it is able to handle the potential noises in the monochrome image and outliers in the labels. To improve the performance of our method, we further incorporate a so-called local-color-consistency idea into our method. Empirical results on real data sets are encouraging.
+ 

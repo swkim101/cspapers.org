@@ -1,0 +1,1 @@
+Top-N recommendation evaluation experiments are complex, with many decisions needed. These decisions are often made inconsistently, and we don't have clear best practices for many of them. The goal of this project, is to identify, substantiate, and document best practices to improve evaluations.

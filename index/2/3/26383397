@@ -1,0 +1,4 @@
+
+ 
+ Bayesian models provide a framework for probabilistic modelling of complex datasets. Many such models are computationally demanding, especially in the presence of large datasets. In sensor network applications, statistical (Bayesian) parameter estimation usually relies on decentralized algorithms, in which both data and computation are distributed across the nodes of the network. In this paper we propose a framework for decentralized Bayesian learning using Bregman Alternating Direction Method of Multipliers (B-ADMM). We demonstrate the utility of our framework, with Mean Field Variational Bayes (MFVB) as the primitive for distributed affine structure from motion (SfM).
+ 

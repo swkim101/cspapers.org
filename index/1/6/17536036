@@ -1,0 +1,4 @@
+
+ 
+ Online joint parameter and state estimation is a core problem for temporal models.Most existing methods are either restricted to a particular class of models (e.g., the Storvik filter) or computationally expensive (e.g., particle MCMC). We propose a novel nearly-black-box algorithm, the Assumed Parameter Filter (APF), a hybrid of particle filtering for state variables and assumed density filtering for parameter variables.It has the following advantages:(a) it is online and computationally efficient;(b) it is applicable to both discrete and continuous parameter spaces with arbitrary transition dynamics.On a variety of toy and real models, APF generates more accurate results within a fixed computation budget compared to several standard algorithms from the literature.
+ 

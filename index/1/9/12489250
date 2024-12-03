@@ -1,0 +1,5 @@
+This paper describes a system for "remembering" a story or passage in English and for the subsequent retrieval of responses to questions. Although it functions as an information retrieval system, it is also intended as a model for long-term human memory. Information is stored in the form of predicates and propertylists. In translating from natural language, the system carries out a transformational analysis of each sentence and identifies its deep structure interpretation. This grammatical analysisis essential to the identification of the predicates as well as relationships among them. 
+ 
+The first two subsystems carry out the grammatical analysis. A third identifies the predicates and propertylists, determines a time and priority structure, forms a logical map of relationships among predicates, and eliminates some predicates based on an assignment of priority. The fourth subsystem is used to answer inquiries about the stored information. 
+ 
+The method is illustrated with references to one story that has been processed and with examples of questions that might be asked.

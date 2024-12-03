@@ -1,0 +1,6 @@
+Traditionally, when recommender systems are formalized as multi-armed bandits, the policy of the recommender system influences the rewards accrued, but not the length of interaction. However, in real-world systems, dissatisfied users may depart (and never come back). In this work, we propose a novel multi-armed bandit setup that captures such policy-dependent horizons. Our setup consists of a finite set of user types, and multiple arms with Bernoulli payoffs.
+Each (user type, arm) tuple corresponds to an (unknown) reward probability. Each user's type is initially unknown 
+and can only be inferred through their response to recommendations. Moreover, if a user is dissatisfied with their recommendation, they might depart the system. We first address the case where all users share the same type, 
+demonstrating that a recent UCB-based algorithm is optimal. We then move forward to the more challenging case,
+where users are divided among two types. While naive approaches cannot handle this setting, 
+we provide an efficient learning algorithm that achieves O(sqrt(T)ln(T)) regret, where T is the number of users.

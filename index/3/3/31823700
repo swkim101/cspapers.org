@@ -1,0 +1,1 @@
+A system is described that automatically determines the rotational and mirror symmetries of two-dimensional patterns. The properties of patterns that determine their symmetries are delineated, a representation scheme based on these properties is defined, and algorithms to perform the symmetry analysis are presented. An implementation based on the SRI vision module is described.

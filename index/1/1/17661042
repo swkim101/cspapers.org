@@ -1,0 +1,4 @@
+
+ 
+ This paper defines the "Single Agent in a Team Decision" (SATD) problem. SATD differs from prior multi-agent communication problems in the assumptions it makes about teammates' knowledge of each other's plans and possible observations. The paper proposes a novel integrated logical-decision-theoretic approach to solving SATD problems, called MDP-PRT. Evaluation of MDP-PRT shows that it outperforms a previously proposed communication mechanism that did not consider the timing of communication and compares favorably with a coordinated Dec-POMDP solution that uses knowledge about all possible observations.
+ 

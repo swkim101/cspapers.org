@@ -1,0 +1,1 @@
+This paper surveys computational problems related to integer factorization and the calculation of discrete logarithms in various groups. Its aim is to provide theory sufficient for the derivation of heuristic running time estimates, and at the same time introduce algorithms of practical value.

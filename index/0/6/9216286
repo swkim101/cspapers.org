@@ -1,0 +1,1 @@
+This paper describes an architecture for a user interface toolkit. It presents the proper layering of the software, describes the architectural model of user interface components or tools, and discusses the software engineering implications of the architecture. We also present a sample toolkit that was built using the presented architecture and that has been in use since 1985.

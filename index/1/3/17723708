@@ -1,0 +1,5 @@
+This paper describes an attempt to integrate the collection and the efficient utilisation of measurements in the development and the use of programs. The work presented consists in three parts:
+ - the design of both static and dynamic measurement tools,
+ - examples of data processing on measurements collected on a sample of Pascal programs,
+ - the design of a quantitative documentation of a program, which is automatically built as measurements are collected.
+ The first and third steps have been developed inside an existing programming environment, Mentor, and we shall discuss the advantages we found in integrating the tools in such an environment.

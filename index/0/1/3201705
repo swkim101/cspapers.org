@@ -1,0 +1,6 @@
+We consider algorithms for “smoothed online convex optimization” (SOCO) problems, which are a hybrid between 
+online convex optimization (OCO) and metrical task system 
+(MTS) problems. Historically, the performance metric 
+for OCO was regret and that for MTS was competitive ratio 
+(CR). There are algorithms with either sublinear regret or 
+constant CR, but no known algorithm achieves both simultaneously. We show that this is a fundamental limitation – no algorithm (deterministic or randomized) can achieve sublinear regret and a constant CR, even when the objective functions are linear and the decision space is one dimensional. However, we present an algorithm that, for the important one dimensional case, provides sublinear regret and a CR that grows arbitrarily slowly.

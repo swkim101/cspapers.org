@@ -1,0 +1,4 @@
+
+ 
+ Recurrent neural language models are the state-of-the-art models for language modeling. When the vocabulary size is large, the space taken to store the model parameters becomes the bottleneck for the use of recurrent neural language models. In this paper, we introduce a simple space compression method that randomly shares the structured parameters at both the input and output embedding layers of the recurrent neural language models to significantly reduce the size of model parameters, but still compactly represent the original input and output embedding layers. The method is easy to implement and tune. Experiments on several data sets showthat the new method can get similar perplexity and BLEU score results whileonly using a very tiny fraction of parameters.
+ 

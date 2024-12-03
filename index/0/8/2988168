@@ -1,0 +1,3 @@
+In previous papers we have argued for the complete integration of natural language understanding with the rest of the cognitive system. Given a set of richly indexed memory structures, we have claimed that parsing is a general memory search process guided by predictive patterns of lexical and conceptual items which are a part of those memory structures. 
+ 
+In this paper, we demonstrate that our architecture for language understanding is capable of implementing the memory search processes required to make complex inferences not directly associated with parsing. The uniform format of the knowledge representation and search process provide a foundation for learning research.

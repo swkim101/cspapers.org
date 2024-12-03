@@ -1,0 +1,4 @@
+
+ 
+ Virtual worlds present a challenge for intelligent mobile agents. They are required to generate maps of very large scale, dynamic and unstructured environments in a short amount of time. We investigate how to represent maps of ever growing virtual environments, how the agent can build, update and use these maps to navigate between points in the environment. We look at trails, the movement of other people and agents in the environment as a new information source. We can use trails to improve the generation of probabilistic roadmaps in these environments and enable the agent to segment space intelligently. Our future plans are to extend this to look at dynamic environments, where the agent will have to recognise change and update the map and how this will affect the map representation.
+ 

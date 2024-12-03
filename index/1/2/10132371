@@ -1,0 +1,5 @@
+Constraint relaxation is a frequently used technique for managing over-determined constraint satisfaction problems. A problem in constraint relaxation is the selection of the appropriate constraints. We show that methods developed in model-based diagnosis solve this problem. The resulting method, DOC, an abbreviation for Diagnosis of Over-determined Constraint Satisfaction Problems, identifies the set of least important constraints that should be relaxed to solve the remaining constraint satisfaction problem. If the solution is not acceptable for a user, DOC selects next-best sets of least-important constraints until an acceptable solution has been generated. 
+ 
+The power of DOC is illustrated by a case study of scheduling the Dutch major league soccer competition. The current schedule is made using human insight and Operations Research methods. Using DOC, the 1992-1993 schedule has been improved by reducing the number and importance of the violated constraints by 56%. 
+ 
+The case study revealed that efficiency improvement is a major issue in order to apply this method to large-scale over-determined scheduling and constraint satisfaction problems.

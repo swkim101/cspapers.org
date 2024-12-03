@@ -1,0 +1,5 @@
+Expert systems in complex domains require rich knowledge representation formalisms and problem solving paradigms. A typical framework may involve a blackboard architecture and a Reason Maintenance System (RMS) to guarantee the consistency of the links between the blackboard nodes. However, in order to satisfy computational feasibility and become operational, the resulting expert system must often be rewritten using less expressive tools. 
+ 
+We propose an architecture integrating efficiently an OPS-like inference engine and an Assumption based Truth Maintenance System (ATMS). These paradigms have been separately investigated and extended. Roles distribution between an ATMS and an inference engine integrated in a single framework is one of the major issues to obtain good overall performance. 
+ 
+Two architectures will be studied: loose coupling, where the ATMS and the inference engine are clearly separated, and tight coupling where the ATMS is intimately integrated with the match phase of a RETE-based inference engine. The advantages and drawbacks of both solutions are described in details. Finally, future work is discussed.

@@ -1,0 +1,1 @@
+Thrashing in transaction processing systems can be prevented by controlling the number of concurrently running transactions. Because the optimal concurrency level strongly depends on the workload characteristics which may change in time, two algorithms for adaptive adjustment of an upper bound for the concurrency level are proposed and compared by simulation.

@@ -1,0 +1,4 @@
+
+ 
+ In real world social networks, there are multiple cascades which are rarely independent. They usually compete or cooperate with each other. Motivated by the reinforcement theory in sociology we leverage the fact that adoption of a user to any behavior is modeled by the aggregation of behaviors of its neighbors. We use a multidimensional marked Hawkes process to model users product adoption and consequently spread of cascades in social networks. The resulting inference problem is proved to be convex and is solved in parallel by using the barrier method. The advantage of the proposed model is twofold; it models correlated cascades and also learns the latent diffusion network. Experimental results on synthetic and two real datasets gathered from Twitter, URL shortening and music streaming services, illustrate the superior performance of the proposed model over the alternatives.
+ 

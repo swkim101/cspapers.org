@@ -1,0 +1,4 @@
+
+ 
+ Distant supervision for relation extraction is an efficient method to scale relation extraction to very large corpora which contains thousands of relations. However, the existing approaches have flaws on selecting valid instances and lack of background knowledge about the entities. In this paper, we propose a sentence-level attention model to select the valid instances, which makes full use of the supervision information from knowledge bases. And we extract entity descriptions from Freebase and Wikipedia pages to supplement background knowledge for our task. The background knowledge not only provides more information for predicting relations, but also brings better entity representations for the attention module. We conduct three experiments on a widely used dataset and the experimental results show that our approach outperforms all the baseline systems significantly.
+ 

@@ -1,0 +1,1 @@
+A class of high density associative memories is constructed, starting from a description of desired properties those should exhibit. These properties include high capacity, controllable basins of attraction and fast speed of convergence. Fortunately enough, the resulting memory is implementable by an artificial Neural Net.

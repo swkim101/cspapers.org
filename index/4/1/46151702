@@ -1,0 +1,6 @@
+This paper considers implementing the Object Oriented Programming Model directly in the hardware to serve as a base to exploit object-level parallelism, speculation and heterogeneous computing. Towards this goal, we present a new execution model called Object 
+Oriented execution Model - OOM - that implements the OO Programming Models. All OOM hardware structures are objects and the OOM Instruction Set directly utilizes objects while hiding other complex hardware structures. OOM maintains all high-level programming language information until execution time. This enables efficient 
+extraction of available parallelism in OO serial code at 
+execution time with minimal compiler support. Our results 
+show that OOM utilizes the available parallelism better 
+than the OoO (Out-of-Order) model

@@ -1,0 +1,3 @@
+This paper presents Bidirectional Chart Generation (BCG) algorithm as an uniform control mechanism for sentence generation and text planning. It is an extension of Semantic Head Driven Generation algorithm [Shieber et al., 1989] in that recomputation of partial structures and backtracking are avoided by using a chart table. These properties enable to handle a large scale grammar including text planning and t.o implement the algorithm in parallel programming languages. 
+ 
+Other merits of the algorithm are to deal with multiple contexts and to keep every partial structure in the chart. It becomes easier for the generator to find a recovery strategy when user cannot understand the generated text.

@@ -1,0 +1,4 @@
+
+ 
+ The task of tweet timeline generation (TTG) aims at selecting a small set of representative tweets to generate a meaningful timeline and providing enough coverage for a given topical query. This paper presents an approach based on determinantal point processes (DPPs) by jointly modeling the topical relevance of each selected tweet and overall selectional diversity. Aiming at better treatment for balancing relevance and diversity, we introduce two novel strategies, namely spectral rescaling and topical prior. Extensive experiments on the public TREC 2014 dataset demonstrate that our proposed DPP model along with the two strategies can achieve fairly competitive results against the state-of-the-art TTG systems.
+ 

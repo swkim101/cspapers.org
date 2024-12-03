@@ -1,0 +1,5 @@
+We wish to design a diagnostic for a device from knowledge of its structure and function. The diagnostic should achieve both coverage of the faults that can occur in the device, and should strive to achieve specificity in its diagnosis when it detects a fault. 
+ 
+A system is described that uses a simple model of hardware structure and function, representing the device in terms of its internal primitive functions and connections. The system designs a diagnostic in three steps. First, an extension of path sensitization is used to design a test for each of the connections in the device. Next, the resulting tests are improved by increasing their specificity. Finally the tests are ordered so that each relies on the fewest possible connections. 
+ 
+We describe an implementation of the first of these steps and show an example of the results for a simple device.

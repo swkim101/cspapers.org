@@ -1,0 +1,1 @@
+This paper describes the implementation of a set-oriented database production rule language proposed in earlier papers. Our implementation uses the extensibility features of the Starburst database system, and rule execution is fully integrated into database query and transaction processing.

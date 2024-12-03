@@ -1,0 +1,1 @@
+A new Python API, integrated within the NLTK suite, offers access to the FrameNet 1.7 lexical database. The lexicon (structured in terms of frames) as well as annotated sentences can be processed programatically, or browsed with human-readable displays via the interactive Python prompt.

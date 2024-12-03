@@ -1,0 +1,1 @@
+We present an approach for answering Entity Retrieval queries using click-through information in query log data from a commercial Web search engine. We compare results using click graphs and session graphs and present an evaluation test set making use of Wikipedia "List of" pages.

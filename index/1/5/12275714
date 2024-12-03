@@ -1,0 +1,4 @@
+
+ 
+ Motivated by many real world applications such as recommendations in online shopping or entertainment, we consider the problem of selecting sequences of items. In this paper we introduce a novel class of utility functions over sequences of items, strictly generalizing the commonly used class of submodular set functions. We encode the sequential dependencies between items by a directed graph underlying the utility function. Classical algorithms fail to achieve any constant factor approximation guarantees on the problem of selecting sequences of bounded length with maximum utility. We propose an efficient algorithm for this problem that comes with strong theoretical guarantees characterized by the structural properties of the underlying graph. We demonstrate the effectiveness of our algorithm in synthetic and real world experiments on a movie recommendation dataset.
+ 

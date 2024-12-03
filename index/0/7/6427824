@@ -1,0 +1,5 @@
+We report a study on the relationship between EEG amplitude values and unit spike output in the prepyriform cortex of awake and motivated rats. This relationship takes the form of a sigmoid curve, that describes normalized pulse-output for normalized wave input. The curve is fitted using nonlinear regression and is described by its slope and maximum value. 
+ 
+Measurements were made for both excitatory and inhibitory neurons in the cortex. These neurons are known to form a monosynaptic negative feedback loop. Both classes of cells can be described by the same parameters. 
+ 
+The sigmoid curve is asymmetric in that the region of maximal slope is displaced toward the excitatory side. The data are compatible with Freeman's model of prepyriform burst generation. Other analogies with existing neural nets are being discussed, and the implications for signal processing are reviewed. In particular the relationship of sigmoid slope to efficiency of neural computation is examined.

@@ -1,0 +1,5 @@
+Model interpretability has become an important problem in machine learning (ML) due to the increased effect algorithmic decisions have on humans. 
+ Counterfactual explanations can help users understand not only why ML models make certain decisions, but also how these decisions can be changed. 
+ We frame the problem of finding counterfactual explanations as an optimization task and extend previous work that could only be applied to differentiable models. 
+ In order to accommodate non-differentiable models such as tree ensembles, we use probabilistic model approximations in the optimization framework.
+ We introduce an approximation technique that is effective for finding counterfactual explanations for predictions of the original model and show that our counterfactual examples are significantly closer to the original instances than those produced by other methods specifically designed for tree ensembles.

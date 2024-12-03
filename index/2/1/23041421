@@ -1,0 +1,1 @@
+Researchers interested in security often wish to introduce new primitives into a language. Extensible languages hold promise in such scenarios, but only if the extension mechanism is sufficiently safe and expressive. This paper describes several modifications to an extensible language motivated by end-to-end security concerns.

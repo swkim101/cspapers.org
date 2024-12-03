@@ -1,0 +1,1 @@
+The paper considers the problem of converting axioms in predicate calculus to deterministic programs, which are to be used as "rules" by a GPS-type supervisor. It is shown that this can be done, but that the "objects" must then contain procedure closures or "FUNARG-expressions" which are later applied.

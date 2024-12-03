@@ -1,0 +1,1 @@
+We introduce stagewise processing in error-correcting codes and image restoration, by extracting information from the former stage and using it selectively to improve the performance of the latter one. Both mean-field analysis using the cavity method and simulations show that it has the advantage of being robust against uncertainties in hyperparameter estimation.

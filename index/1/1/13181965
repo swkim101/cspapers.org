@@ -1,0 +1,1 @@
+This paper explores the creation of smart information services for tourists using dynamic open data. Research is described, which uses physical sensors at the Van Gogh Museum in Amsterdam to retrieve data about queueing time at that location. This data is added to an open data framework called CitySDK and combined with other open data in the framework.

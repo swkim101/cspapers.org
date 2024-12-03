@@ -1,0 +1,5 @@
+We propose a tree-based procedure inspired by the Monte-Carlo Tree Search that dynamically modulates an importance-based sampling to prioritize computation, while getting unbiased estimates of weighted sums. We apply this generic method to learning on very large training sets, and to the evaluation of large-scale SVMs. 
+ 
+The core idea is to reformulate the estimation of a score - whether a loss or a prediction estimate - as an empirical expectation, and to use such a tree whose leaves carry the samples to focus efforts over the problematic "heavy weight" ones. 
+ 
+We illustrate the potential of this approach on three problems: to improve Adaboost and a multi-layer perceptron on 2D synthetic tasks with several million points, to train a large-scale convolution network on several millions deformations of the CIFAR data-set, and to compute the response of a SVM with several hundreds of thousands of support vectors. In each case, we show how it either cuts down computation by more than one order of magnitude and/or allows to get better loss estimates.

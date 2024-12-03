@@ -1,0 +1,4 @@
+
+ 
+ We propose a novel method for representing and reasoning about an incomplete set of constraints about basic/disjunctive qualitative direction relations over simple/connected/disconnected regions, using Answer Set Programming, and prove its correctness with respect to cardinal direction calculus. We extend this method further with default qualitative direction constraints, and discuss its usefulness with some sample scenarios.
+ 

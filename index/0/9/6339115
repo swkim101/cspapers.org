@@ -1,0 +1,4 @@
+
+ 
+ Datalog-based systems often materialise all consequences of a datalog program and the data, allowing users' queries to be evaluated directly in the materialisation. This process, however, can be computationally intensive, so most systems update the materialisation incrementally when input data changes. We argue that existing solutions, such as the well-known Delete/Rederive (DRed) algorithm, can be inefficient in cases when facts have many alternate derivations. As a possible remedy, we propose a novel Backward/Forward (B/F) algorithm that tries to reduce the amount of work by a combination of backward and forward chaining. In our evaluation, the B/F algorithm was several orders of magnitude more efficient than the DRed algorithm on some inputs, and it was never significantly less efficient.
+ 

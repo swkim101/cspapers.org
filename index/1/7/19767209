@@ -1,0 +1,1 @@
+We introduce Nordlys, a toolkit for entity-oriented and semantic search. It provides functionality for entity cataloging, entity retrieval, entity linking, and target type identification. Nordlys may be used as a Python library or as a RESTful API, and also comes with a web-based user interface. The toolkit is open source and is available at http://nordlys.cc.

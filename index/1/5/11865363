@@ -1,0 +1,4 @@
+
+ 
+ Good and generous knowledge sources, reliable and efficient induction patterns, and automatic and controllable quality assertion approaches are three critical issues to commonsense knowledge (CSK) acquisition. This paper employs Open Mind Common Sense (OMCS), a volunteers-contributed CSK database, to study the first and the third issues. For those stylized CSK, our result shows that over 40% of CSK for four predicate types in OMCS can be found in the web, which contradicts to the assumption that CSK is not communicated in texts. Moreover, we propose a commonsense knowledge classifier trained from OMCS, and achieve high precision in some predicate types, e.g., 82.6% in HasProperty. The promising results suggest new ways of analyzing and utilizing volunteer-contributed knowledge to design systems automatically mining commonsense knowledge from the web.
+ 

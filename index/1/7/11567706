@@ -1,0 +1,4 @@
+Current research in data modeling is motivated by the following dilemma:
+ - At the <underline>application</underline> level - being confronted with “slices of reality” - details are perceived that, in general, cannot be represented.
+ - At the <underline>representation</underline> level - being confronted with “levels of machines” - details are represented that, in general, cannot be perceived.
+ Abstraction methods cope with that problem by suppressing unnecessary details and by formalizing and structuring the relevant information.

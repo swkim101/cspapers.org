@@ -1,0 +1,5 @@
+This paper describes the status of design automation of electronics in three different companies and a university in Sweden.
+ Design automation of MOS circuits at Asea-Hafo (Ingmar Höglund)
+ Asea-Hafo is a company, which produces high reliability semiconductor devices as integrated circuits, discrete transistors, diodes and opto electronic components.
+ During 1974 CMOS Large scale integrated circuits has become the main product. Asea-Hafo concentrates on custom designed circuits in volumes between 10.000 and 50.000 circuits per design and year.
+ In order to be successful in the competition between producers of MOS circuits Asea-Hafo among other things has to offer a short time of delivery of prototypes and serial produced circuits.

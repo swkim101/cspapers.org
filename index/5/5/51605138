@@ -1,0 +1,3 @@
+During dialog with a customer for addressing his/her complaint the chatbot may pose questions or observations based on its underlying model. Sometimes
+
+the questions or observations posed may not be relevant given the nature of complaint and the current set of beliefs that the customer holds. In this paper we present a framework to build conversation system that addresses customer complaints in a meaningful manner using domain understanding, opinion analysis and epistemic reasoning. Extraction of latent beliefs assists in performing epistemic reasoning to maintain a meaningful conversation with the customer.

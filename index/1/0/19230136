@@ -1,0 +1,4 @@
+
+ 
+ We describe an intelligent image analysis approach to automatically detect poems in digitally archived historic newspapers. Our application, Image Analysis for Archival Discovery, or Aida, integrates computer vision to capture visual cues based on visual structures of poetic works—instead of the meaning or content—and machine learning to train an artificial neural network to determine whether an image has poetic text. We have tested our application on almost 17,000 image snippets and obtained promising accuracies, precision, and recall. The application is currently being deployed at two institutions for digital library and literary research.
+ 

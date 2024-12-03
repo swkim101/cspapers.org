@@ -1,0 +1,1 @@
+In this work, we propose a fast convergence track net, or FC-TrackNet, based on a synthetic data-driven approach to maintaining long-term 6D pose tracking. Comparison experiments are performed on two different datasets, The results demonstrate that our approach can achieve a consistent tracking frequency of 90.9 Hz as well as higher accuracy than the state-of-the art approaches.

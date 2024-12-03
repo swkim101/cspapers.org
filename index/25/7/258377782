@@ -1,0 +1,1 @@
+This paper introduces a structure-aware method to segment web pages into chunks based on their web structures. We utilize large language models to select chunks correspond to a given intent and generate the abstractive summary. Experiments on a food pantry dataset developed for mitigating food insecurity show that the proposed framework is promising.

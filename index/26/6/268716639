@@ -1,0 +1,13 @@
+An exoplanet is a planet, which is not a part of our solar system.
+Whether life exists in one or more of these exoplanets
+has fascinated humans for centuries. NASA’s Kepler Space
+Telescope has discovered more than 70% of known exoplanets
+in our universe. However, manually determining whether a
+Kepler light curve indicates an exoplanet or not becomes infeasible
+with the large volume of data. Due to this, we propose
+a deep learning-based strategy to automatically classify
+a Kepler light curve. More specifically, we first convert the
+light curve time series into its corresponding Markov Transition
+Field (MTF) image and then classify it. Results show
+that the accuracy of the proposed technique is 99.39%, which
+is higher than all current state-of-the-art approaches.

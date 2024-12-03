@@ -1,0 +1,5 @@
+The 8-puzzle is the largest puzzle of its type that can be completely solved. It is simple, and yet obeys a combinatorially large problem space of 91/2 states. The N × N extension of the 8-puzzle is NP-hard. 
+ 
+In the first part of this paper, we present complete statistical data based on an exhaustive evaluation of all possible tile configurations. Our results include data on the expected solution lengths, the 'easiest' and 'worst' configurations, and the density and distribution of solution nodes in the search tree. 
+ 
+In our second set of experiments, we used the 8-puzzle as a workbench model to evaluate the benefit of node ordering schemes in Iterative-Deepening A* (IDA*). One highlight of our results is that almost all IDA* implementations perform worse than would be possible with a simple random ordering of the operators.

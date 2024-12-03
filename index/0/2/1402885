@@ -1,0 +1,4 @@
+
+ 
+ We present a fast local search algorithm that finds an improved solution (if there is any) in the k-exchange neighborhood of the given solutionto an instance of Weighted Feedback Arc Set in Tournaments. More precisely,given an arc weighted tournament T on n vertices and a feedback arc set F (a set of arcs whose deletion from T turns it into a directed acyclic graph), our algorithm decides in time O(2o(k) n log n) if there is a feedback arc set of smaller weight and that differs from F in at most k arcs. To our knowledge this is the first algorithm searching the k-exchange neighborhood of an NP-complete problem that runs in (parameterized) subexponential time. Using this local search algorithm for Weighted Feedback Arc Set in Tournaments, we obtain subexponential time algorithms for a local search variant of Kemeny Ranking — a problem in social choice theory and of One-Sided Cross Minimization — a problem in graph drawing.
+ 

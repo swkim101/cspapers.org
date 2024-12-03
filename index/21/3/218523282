@@ -1,0 +1,1 @@
+We model consumer behavior wherein users select multiple items from the offered recommendations. We then formulate and solve an optimization problem that computes the best recommendation sets that the e-commerce platform should display to maximize its expected revenues. Numerical simulations show the scalability of our approach in real-world settings.

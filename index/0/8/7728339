@@ -1,0 +1,3 @@
+A method is described which, like the kernel trick in support vector machines (SVMs), lets us generalize distance-based algorithms to operate in feature spaces, usually nonlinearly related to the input space. This is done by identifying a class of kernels which can be represented as norm-based distances in Hilbert spaces. It turns out that common kernel algorithms, such as SVMs and kernel PCA, are actually really distance based algorithms and can be run with that class of kernels, too. 
+ 
+As well as providing a useful new insight into how these algorithms work, the present work can form the basis for conceiving new algorithms.

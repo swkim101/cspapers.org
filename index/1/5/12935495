@@ -1,0 +1,1 @@
+In view of the inefficiency of the traditional two-phase Twig-Stack algorithm, we propose a single-phase holistic twig pattern matching method based on the TwigStack algorithm by applying a novel stack structure.

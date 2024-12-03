@@ -1,0 +1,4 @@
+
+ 
+ This paper introduces a modal logic for reasoning about game strategies. The logic is based on a variant of the well-known game description language for describing game rules and further extends it with two modalities for reasoning about actions and strategies. We develop an axiomatic system and prove its soundness and completeness with respect to a specific semantics based on the state transition model of games. Interestingly, the completeness proof makes use of forgetting techniques that have been widely used in the KR&R literature. We demonstrate how general game-playing systems can apply the logic to develop game strategies.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We propose influence games, a new class of graphical games, as a model of the behavior of large but finite networked populations. Grounded in non-cooperative game theory, we introduce a new approach to the study of influence in networks that captures the strategic aspects of complex interactions in the network. We study computational problems on influence games, including the identification of the most influential nodes. We characterize the computational complexity of various problems in influence games, propose several heuristics for the hard cases, and design approximation algorithms, with provable guarantees, for the most influential nodes problem.
+ 

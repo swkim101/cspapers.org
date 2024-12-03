@@ -1,0 +1,1 @@
+Is Java suitable for teaching concurrent programming? This paper describes the features Java has for this, how well they work, and what is missing. The author has written a library of classes, also described here, to provide the missing features. Supplemented with these classes, Java works well as the concurrent programming language in operating systems and related courses.

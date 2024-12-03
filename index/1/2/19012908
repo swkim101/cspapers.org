@@ -1,0 +1,4 @@
+
+ 
+ Morphological segmentation, which aims to break words into meaning-bearing morphemes, is an important task in natural language processing. Most previous work relies heavily on linguistic preprocessing. In this paper, we instead propose novel neural network architectures that learn the structure of input sequences directly from raw input words and are subsequently able to predict morphological boundaries. Our architectures rely on Long Short Term Memory (LSTM) units to accomplish this, but exploit windows of characters to capture more contextual information. Experiments on multiple languages confirm the effectiveness of our models on this task.
+ 

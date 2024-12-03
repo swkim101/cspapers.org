@@ -1,0 +1,4 @@
+
+ 
+ Planning is vital to a wide range of domains, including robotics, military strategy, logistics, itinerary generation and more, that both humans and computers find difficult. Collaborative planning holds the promise of greatly improving performance on these tasks by leveraging the strengths of both humans and automated planners. However, this requires formalizing the problem domain and input, which must be done by hand, a priori, restricting its use in general real-world domains. We propose using a real-time crowd of workers to simultaneously solve the planning problem, formalize the domain, and train an automated system. As plans are developed, the system is able to learn the domain, and contribute larger segments of work.
+ 

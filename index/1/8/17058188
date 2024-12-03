@@ -1,0 +1,4 @@
+
+ 
+ While recent advances in computer vision have caused object recognition rates to spike, there is still much room for improvement. In this paper, we develop an algorithm to improve object recognition by integrating human-generated contextual information with vision algorithms. Specifically, we examine how interactive systems such as robots can utilize two types of context information--verbal descriptions of an environment and human-labeled datasets. We propose a re-ranking schema, MultiRank, for object recognition that can efficiently combine such information with the computer vision results. In our experiments, we achieve up to 9.4% and 16.6% accuracy improvements using the oracle and the detected bounding boxes, respectively, over the vision-only recognizers. We conclude that our algorithm has the ability to make a significant impact on object recognition in robotics and beyond.
+ 

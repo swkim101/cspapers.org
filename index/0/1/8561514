@@ -1,0 +1,1 @@
+The verification of functional specifications is performed by means of a formal model, based upon Petri nets. A so-called "reduction" operation is introduced to handle the concept of abstraction. A bottom-up approach is developped in the case of communication between two processors. The definition of software modules is emphasized.

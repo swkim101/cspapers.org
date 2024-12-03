@@ -1,0 +1,1 @@
+An approximate analytical method for estimating performance statistics of general closed queueing network models of computing systems is presented. These networks may include queues with priority scheduling disciplines and non-exponential servers and several classes of jobs. The method is based on the aggregation theorem (Norton's theorem) of Chandy, Herzog and Woo.

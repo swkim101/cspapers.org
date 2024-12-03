@@ -1,0 +1,4 @@
+
+ 
+ MaxSAT reasoning is an effective technology used in modern branch-and-bound (BnB) algorithms for the Maximum Weight Clique problem (MWC) to reduce the search space. However, the current MaxSAT reasoning approach for MWC is carried out in a blind manner and is not guided by any relevant strategy. In this paper, we describe a new BnB algorithm for MWC that incorporates a novel two-stage MaxSAT reasoning approach. In each stage, the MaxSAT reasoning is specialised and guided for different tasks. Experiments on an extensive set of graphs show that the new algorithm implementing this approach significantly outperforms relevant exact and heuristic MWC algorithms in both small/medium and massive real-world graphs.
+ 

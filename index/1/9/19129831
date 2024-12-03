@@ -1,0 +1,4 @@
+
+ 
+ We propose a method to generate explainable recommendation rules on cross-domain problems. Our two main contributions are: i) using relational learning to generate the rules which are able to explain clearly why the items were recommended to the particular user, ii) using the user's preferences of items on different domains and item attributes to generate novel or unexpected recommendations for the user. To illustrate that our method is indeed feasible and applicable, we conducted experiments on music and movie domains.
+ 

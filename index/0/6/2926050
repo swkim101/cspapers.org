@@ -1,0 +1,3 @@
+It has been known since 1939 that for a formula to be a single axiom for the equivalential calculus its length must be at least 11, and that single axioms of this length exist. Also, a single axiom of length 11 must have the two-property. 
+ 
+There are 630 formulas with the two-property and of length 11. With computer assistance, the authors have shown that 612 of these 630 formulas are not single axioms. The main object of this paper is to outline the methods used to obtain these results. This paper logically precedes a recent paper of L. Wos which announces computer-assisted proofs that a further 5 of the 630 formulas are not single axioms, and should serve as an introduction to the method of schemata mentioned in that paper.

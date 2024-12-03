@@ -1,0 +1,13 @@
+In low-depth circuit complexity, the polynomial method is a way to prove lower bounds by translating weak circuits into low-degree polynomials, then analyzing properties of these polynomials. Recently, this method found an application to algorithm design: Williams (STOC 2014) used it to compute all-pairs shortest paths in n3/2Ω([EQUATION]log n) time on dense n-node graphs. In this paper, we extend this methodology to solve a number of problems in combinatorial pattern matching and Boolean algebra, considerably faster than previously known methods. 
+ 
+First, we give an algorithm for Boolean Orthogonal Detection, which is to detect among two sets A, B ⊆ {0, 1}d of size n if there is an x ∈ A and y ∈ B such that 〈x, y〉 = 0. For vectors of dimension d = c(n) log n, we solve Boolean Orthogonal Detection in n2−1/O(log c(n)) time by a Monte Carlo randomized algorithm. We apply this as a subroutine in several other new algorithms: 
+ 
+• In Batch Partial Match, we are given n query strings from from {0, 1, *}c(n)log n (* is a "don't care"), n strings from {0, 1}c(n)log n, and wish to determine for each query whether or not there is a string matching the query. We solve this problem in n2−1/O(log c(n)) time by a Monte Carlo randomized algorithm. 
+ 
+• Let t ≤ v be integers. Given a DNF F on c log t variables with t terms, and v arbitrary assignments on the variables, F can be evaluated on all v assignments in v · t1−1/O(log c) time, with high probability. 
+ 
+• There is a randomized algorithm that solves the Longest Common Substring with don't cares problem on two strings of length n in n2/2Ω([EQUATION]log n) time. 
+ 
+• Given two strings S, T of length n, there is a randomized algorithm that computes the length of the longest substring of S that has Edit-Distance less than k to a substring of T in k1.5n2/2Ω([EQUATION]) time. 
+ 
+• Symmetric Boolean Constraint Satisfaction Problems (CSPs) with n variables and m constraints are solvable in poly(m) · 2n(1−1/O(log mn)) time.

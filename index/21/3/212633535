@@ -1,0 +1,9 @@
+Structured learning algorithms usually involve an inference phase that selects the best global output variables assignments based on the local scores of all possible assignments.
+
+We extend deep neural networks with structured learning to combine the power of learning representations and leveraging the use of domain knowledge in the form of output constraints during training.
+
+Introducing a non-differentiable inference module to gradient-based training is a critical challenge.
+
+Compared to using conventional loss functions that penalize every local error independently, we propose an inference-masked loss that takes into account the effect of inference and does not penalize the local errors that can be corrected by the inference.
+
+We empirically show the inference-masked loss combined with the negative log-likelihood loss improves the performance on different tasks, namely entity relation recognition on CoNLL04 and ACE2005 corpora, and spatial role labeling on CLEF 2017 mSpRL dataset. We show the proposed approach helps to achieve better generalizability, particularly in the low-data regime.

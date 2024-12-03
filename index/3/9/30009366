@@ -1,0 +1,4 @@
+
+ 
+ Global information such as event-event association, and latent local information such as fine-grained entity types, are crucial to event classification. However, existing methods typically focus on sophisticated local features such as part-of-speech tags, either fully or partially ignoring the aforementioned information. By contrast, this paper focuses on fully employing them for event classification. We notice that it is difficult to encode some global information such as event-event association for previous methods. To resolve this problem, we propose a feasible approach which encodes global information in the form of logic using Probabilistic Soft Logic model. Experimental results show that, our proposed approach advances state-of-the-art methods, and achieves the best F1 score to date on the ACE data set.
+ 

@@ -1,0 +1,5 @@
+The fault tolerance has been defined as the fitness of a system to minimize the probability of appearance of faults and/or to minimize their effects. The design of a computer needs a constant watching of the fault tolerances components, as computer's reaction to failures that has to be forecasted.
+ Some tools may be helps if they are able to:
+ - estimate the fault tolerant components concerned with the application
+ - examine their evolution as a function of the time and environment conditions
+ - estimate the system efficiency in the execute mission's execution.

@@ -1,0 +1,1 @@
+Verification of Graphical User Interface (GUI) applications presents many challenges. GUI applications are open systems that are driven by user events. Verification of such applications by means of model checking therefore requires a user model in order to close the state space.

@@ -1,0 +1,1 @@
+In this paper, we show decidability of a rather expressive fragment of the situation calculus. We allow second order quantification over finite and infinite sets of situations. We do not impose a domain closure assumption on actions; therefore, infinite and even uncountable domains are allowed. The decision procedure is based on automata accepting infinite trees.

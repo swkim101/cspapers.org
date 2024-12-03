@@ -1,0 +1,1 @@
+We propose SSL-WM , a novel system work that effectively protects the ownership of SSL encoders without assuming any knowledge of downstream tasks during watermark embedding or accessing intermediate results from the suspect model during ownership verification

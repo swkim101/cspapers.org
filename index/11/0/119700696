@@ -1,0 +1,1 @@
+We give a characterization for graph separators. The problem of approximating the separator within a constant factor can then be reduced to a minimization problem of convex functions. We discuss polynomial time algorithms for the corresponding minimization problems.

@@ -1,0 +1,1 @@
+This paper investigates the correlation between acoustic confidence scores as returned by speech recognizers with recognition quality. We report the results of two machine learning experiments that predict the word error rate of recognition hypotheses and the confidence error rate for individual words within them.

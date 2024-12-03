@@ -1,0 +1,4 @@
+
+ 
+ This paper concerns learning and prediction with probabilistic models where the domain sizes of latent variables have no a priori upper-bound. Current approaches represent prior distributions over latent variables by stochastic processes such as the Dirichlet process, and rely on Monte Carlo sampling to estimate the model from data. We propose an alternative approach that searches over the domain size of latent variables, and allows arbitrary priors over the their domain sizes. We prove error bounds for expected probabilities, where the error bounds diminish with increasing search scope. The search algorithm can be truncated at any time. We empirically demonstrate the approach for topic modelling of text documents.
+ 

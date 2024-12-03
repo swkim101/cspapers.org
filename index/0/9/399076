@@ -1,0 +1,4 @@
+
+ 
+ This paper proposes the Proximal Iteratively REweighted (PIRE) algorithm for solving a general problem, which involves a large body of nonconvex sparse and structured sparse related problems. Comparing with previous iterative solvers for nonconvex sparse problem, PIRE is much more general and efficient. The computational cost of PIRE in each iteration is usually as low as the state-of-the-art convex solvers. We further propose the PIRE algorithm with Parallel Splitting (PIRE-PS) and PIRE algorithm with Alternative Updating (PIRE-AU) to handle the multi-variable problems. In theory, we prove that our proposed methods converge and any limit solution is a stationary point. Extensive experiments on both synthesis and real data sets demonstrate that our methods achieve comparative learning performance, but are much more efficient, by comparing with previous nonconvex solvers.
+ 

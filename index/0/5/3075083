@@ -1,0 +1,4 @@
+
+ 
+ Skills can often be performed in many different ways. In order to provide robots with human-like adaptation capabilities, it is of great interest to learn several ways of achieving the same skills in parallel, since eventual changes in the environment or in the robot can make some solutions unfeasible. In this case, the knowledge of multiple solutions can avoid relearning the task. This problem is addressed in this paper within the framework of Reinforcement Learning, as the automatic determination of multiple optimal parameterized policies. For this purpose, a model handling a variable number of policies is built using a Bayesian non-parametric approach. The algorithm is first compared to single policy algorithms on known benchmarks. It is then applied to a typical robotic problem presenting multiple solutions.
+ 

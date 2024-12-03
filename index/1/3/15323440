@@ -1,0 +1,3 @@
+The Weyl transform is introduced as a powerful framework for representing measurement data. Transform coefficients are connected to the Walsh-Hadamard transform of multiscale autocorrelations, and different forms of dyadic periodicity in a signal are shown to appear as different features in its Weyl coefficients. 
+ 
+A large group of multiscale transformations is shown to support very fast pooling since the Weyl coefficients are unique up to permutation and phase changes when the original signal is transformed by any element of this group. The effectiveness of the Weyl transform is demonstrated through the example of textured image classification.

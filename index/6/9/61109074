@@ -1,0 +1,1 @@
+In this work, we present a Genetic Algorithm (GA) system "Evolutionary Counterpoint" (EVOC) that generates contrapuntal music. Counterpoint is the construction of a musical piece by superimposing multiple melodies, indirectly forming an underlying harmonic structure. Here, we include a description of the underlying algorithm, fitness function, and overall system modules.

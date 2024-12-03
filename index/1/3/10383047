@@ -1,0 +1,1 @@
+A new design methodology focusing on high speed operation and short design time is described for the SH-4 200MHz superscalar microprocessor. Random test generation, logic emulation, and formal verification are applied to logic verification for shortening design time. Delay budgeting, forward/back annotation, and clock design are key features for timing driven design.

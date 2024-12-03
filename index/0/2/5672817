@@ -1,0 +1,1 @@
+A stochastic global optimization approach is presented for transistor sizing in CMOS VLSI circuits. This is a direct search strategy for the best design among feasible ones, with the designer determining when the search is stopped. Through examples, we show the power of this technique in quickly obtaining very good designs, for skew minimization problems.

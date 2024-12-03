@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose to study the problem of identifying and classifying tweets into intent categories. For example, a tweet “I wanna buy a new car” indicates the user’s intent for buying a car. Identifying such intent tweets will have great commercial value among others. In particular, it is important that we can distinguish different types of intent tweets. We propose to classify intent tweets into six categories, namely Food & Drink, Travel, Career & Education, Goods & Services, Event and Activities and Trifle. We propose a semisupervised learning approach to categorizing intent tweets into the six categories.We construct a test collection by using a bootstrap method. Our experimental results show that our approach is effective in inferring intent categories for tweets.
+ 

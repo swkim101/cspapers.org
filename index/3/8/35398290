@@ -1,0 +1,4 @@
+
+ 
+ We propose an unsupervised semantic role labeling method for Korean language, one of the agglutinative languages which have complicated suffix structures telling much of syntactic. First, we construct an argument embedding and then develop a indicator vector of the suffix such as a Josa. And, we construct an argument tuple by concatenating above two vectors. The role induction is performed by clustering the argument tuples.These method which achieves up to a 70.16% of F1-score and 75.85% of accuracy.
+ 

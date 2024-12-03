@@ -1,0 +1,1 @@
+Persistence and distribution are two important aspects in distributed applications that are commonly managed explicitly and separately. This paper introduces Spray, a programming paradigm for distributed applications that combines these two concepts in one abstraction: a persistent distributed heap.

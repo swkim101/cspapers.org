@@ -1,0 +1,5 @@
+The REGENT-system for the support of computer aided design is being developed at the Institut für Reaktorentwicklung of the Kernforschungszentrum (Nuclear Research Center) Karlsruhe, Germany, from 1973 through 1975. The development aims primarily at providing a socalled “system nucleus” in the sense of ICES[1,2]. The design concept, though being based upon ICES, shows major improvements in particular in the following respects:
+ -a more powerful base language was chosen (PL/1 instead of FORTRAN)
+ -interactive use has been considered right from the beginning
+ -the base language PL/1 is part of all problem oriented languages within the REGENT system.
+ Since summer 1974 the development of the REGENT nucleus and of one of its first subsystems(GIPSY) for processing graphical information is integrated in the “CAD-project”, which coordinates all government supported CAD-activities in Germany.

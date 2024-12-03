@@ -1,0 +1,4 @@
+
+ 
+ Clustering tagged videos into semantic groups is importantbut challenging due to the need for jointly learning correlations between heterogeneous visual and tag data. The taskis made more difficult by inherently sparse and incompletetag labels. In this work, we develop a method for accuratelyclustering tagged videos based on a novel Hierarchical-MultiLabel Random Forest model capable of correlating structured visual and tag information. Specifically, our model exploits hierarchically structured tags of different abstractnessof semantics and multiple tag statistical correlations, thus discovers more accurate semantic correlations among differentvideo data, even with highly sparse/incomplete tags.
+ 

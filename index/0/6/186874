@@ -1,0 +1,1 @@
+Various approaches for dealing with missing data have been developed so far. In this paper, two strategies are proposed for cost-sensitive iterative imputing missing values with optimal ordering. Experimental results demonstrate that proposed strategies outperform the existing methods in terms of imputation cost and accuracy.

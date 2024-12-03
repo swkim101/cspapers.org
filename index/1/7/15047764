@@ -1,0 +1,4 @@
+
+ 
+ An original method for the extraction of one maximal subset of a set of Boolean clauses that must be satisfiable with possibly mutually contradictory assumptive contexts is motivated and experimented. Noticeably, it performs a direct computation and avoids the enumeration of all subsets that are satisfiable with at least one of the contexts. The method applies for subsets that are maximal with respect to inclusion or cardinality.
+ 

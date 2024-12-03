@@ -1,0 +1,1 @@
+This paper presents a generic architecture for proof planning systems in terms of an interaction between a customisable proof module and search module. These refer to both global and local information contained in reasoning states.

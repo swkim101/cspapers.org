@@ -1,0 +1,4 @@
+
+ 
+ As robots become more ubiquitous, it is increasingly important for untrained users to be able to interact with them intuitively. In this work, we investigate how people refer to objects in the world during relatively unstructured communication with robots. We collect a corpus of deictic interactions from users describing objects, which we use to train language and gesture models that allow our robot to determine what objects are being indicated. We introduce a temporal extension to state-of-the-art hierarchical matching pursuit features to support gesture understanding, and demonstrate that combining multiple communication modalities more effectively captures user intent than relying on a single type of input. Finally, we present initial interactions with a robot that uses the learned models to follow commands while continuing to learn from user input.
+ 

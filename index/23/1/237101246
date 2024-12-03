@@ -1,0 +1,9 @@
+While the knowledge about the structures of a system’s underlying causal relationships is crucial within many real-world scenarios, the omnipresence of heterogeneous data characteristics impedes applying methods for causal structure learning (CSL).
+
+In this dissertation project, we reduce the barriers for the transfer of CSL into practice with threefold contributions:
+
+(1) We derive an information-theoretic conditional independence test that, incorporated into methods for CSL, improves the accuracy for non-linear and mixed discrete-continuous causal relationships;
+
+(2) We develop a modular pipeline that covers the essential components required for a comprehensive benchmarking to support the transferability into practice;
+
+(3) We evaluate opportunities and challenges of CSL within different real-world scenarios from genetics and discrete manufacturing to demonstrate the accuracy of our approach in practice.

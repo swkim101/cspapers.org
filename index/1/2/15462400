@@ -1,0 +1,1 @@
+This paper describes the design and implementation of filing and printing services in a distributed system based on a token-ring local-area network. The main emphasis is put on the communication aspects of the client/server scenario: roles of a client and a server in a communication protocol, and the integration of communication protocols with applications.

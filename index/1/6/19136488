@@ -1,0 +1,4 @@
+
+ 
+ Modern solutions for implicit discourse relation recognition largely build universal models to classify all of the different types of discourse relations. In contrast to such learning models, we build our model from first principles, analyzing the linguistic properties of the individual top-level Penn Discourse Treebank (PDTB) styled implicit discourse relations: Comparison, Contingency and Expansion. We find semantic characteristics of each relation type and two cohesion devices---topic continuity and attribution---work together to contribute such linguistic properties. We encode those properties as complex features and feed them into a NaiveBayes classifier, bettering baselines(including deep neural network ones) to achieve a new state-of-the-art performance level. Over a strong, feature-based baseline, our system outperforms one-versus-other binary classification by 4.83% for Comparison relation, 3.94% for Contingency and 2.22% for four-way classification.
+ 

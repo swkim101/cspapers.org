@@ -1,0 +1,5 @@
+In games such as kriegspiel chess (a chess variant where players have no direct knowledge of the opponent's pieces' locations) the belief state's sizes dwarf those of other partial information games like bridge, scrabble, and poker-and there is no easy way to generate states satisfying the given observations. We show that statistical sampling approaches can be developed to do well in such games. 
+ 
+We show that it is not necessary for the random sample to consist only of game boards that satisfy each and every one of a player's observations. In fact, we win 24% more often by beginning with such completely consistent boards and gradually switching (as the game progressed) to boards that are merely consistent with the latest observation. 
+ 
+This surprising result is explained by noting that as the game progresses, a board that is consistent with the last move becomes more and more likely to be consistent with the entire set of observations, even if we have no idea what sequence of moves might have actually generated this board.

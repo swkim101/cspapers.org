@@ -1,0 +1,5 @@
+AI has been successful in producing expert systems for diagnosis, qualitative simulation, configuration and tutoring-e.g. classification problem solving. It has been less successful in producing expert systems that design artifacts, including computer programs. Deductive synthesis of a design from first principles is combinatorially explosive, yet libraries of design schemas do not have sufficient flexibility for application to novel problems. 
+ 
+This paper proposes that the major factor in applying design knowledge is reformulating a problem in terms of the parameters of generic designs. This paper shows how to represent knowledge of generic designs as parameterized theories. This facilitates problem reformulation, making it a well defined search for appropriate parameter instantiations. 
+ 
+The representation of design knowledge with parameterized theories is illustrated with generic local search algorithms. The utility of parameterized theories is shown by deriving the simplex algorithm for linear optimization from specification.

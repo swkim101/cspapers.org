@@ -1,0 +1,11 @@
+Good representations can help RL agents perform concise modeling of their surroundings, and thus support effective decision-making in complex environments. 
+ Previous methods learn good representations by imposing extra constraints on dynamics.
+ However, in the causal perspective, the causation between the action and its effect is not fully considered in those methods, which leads to the ignorance of the underlying relations among the action effects on the transitions. 
+ Based on the intuition that the same action always causes similar effects among different states, we induce such causation by taking the invariance of action effects among states as the relation.
+ By explicitly utilizing such invariance, in this paper, we show that a better representation can be learned and potentially improves the sample efficiency and the generalization ability of the learned policy. 
+ We propose Invariant Action Effect Model (IAEM) to capture the invariance in action effects, where the effect of an action is represented as the residual of representations from neighboring states.
+ IAEM is composed of two parts:
+ (1) a new contrastive-based loss to capture the underlying invariance of action effects;
+ (2) an individual action effect and provides a self-adapted weighting strategy to tackle the corner cases where the invariance does not hold.
+ The extensive experiments on two benchmarks, i.e. Grid-World and Atari, show that the representations learned by IAEM preserve the invariance of action effects. 
+ Moreover, with the invariant action effect, IAEM can accelerate the learning process by 1.6x, rapidly generalize to new environments by fine-tuning on a few components, and outperform other dynamics-based representation methods by 1.4x in limited steps.

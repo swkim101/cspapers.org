@@ -1,0 +1,2 @@
+This paper presents a design verification logic simulation system which uses a ccurate timing information and propagation delay ambiguity in its circuit models.
+ The case in favor of such a system is put forth. Methods for simulating propagation delay ambiguity and utilizing accurate circuit timing data are introduced. The time-sequenced simulation programming technique used in this system is described. Host computer memory and time requirement data from simulation test runs are reported.

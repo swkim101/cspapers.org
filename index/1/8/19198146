@@ -1,0 +1,4 @@
+
+ 
+ AI has seen remarkable progress in recent years, due to a switch from hand-designed shallow representations, to learned deep representations. While these methods excel with plentiful training data, they are still far from the human ability to learn concepts from just a few examples by reusing previously learned conceptual knowledge in new contexts. We argue that this gap might come from a fundamental misalignment between human and typical AI representations: while the former are grounded in rich sensorimotor experience, the latter are typically passive and limited to a few modalities such as vision and text. We take a step towards closing this gap by proposing an interactive, behavior-based model that represents concepts using sensorimotor contingencies grounded in an agent's experience. On a novel conceptual learning and benchmark suite, we demonstrate that conceptually meaningful behaviors can be learned, given supervision via training curricula.
+ 

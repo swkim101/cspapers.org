@@ -1,0 +1,4 @@
+
+ 
+ We propose a model-based approach to hierarchical reinforcement learning that exploits shared knowledge and selective execution at different levels of abstraction, to efficiently solve large, complex problems. Our framework adopts a new transition dynamics learning algorithm that identifies the common action-feature combinations of the subtasks, and evaluates the subtask execution choices through simulation. The framework is sample efficient, and tolerates uncertain and incomplete problem characterization of the subtasks. We test the framework on common benchmark problems and complex simulated robotic environments. It compares favorably against the state-of-the-art algorithms, and scales well in very large problems.
+ 

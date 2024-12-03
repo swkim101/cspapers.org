@@ -1,0 +1,1 @@
+We introduce a skill discovery method for reinforcement learning in continuous domains that constructs chains of skills leading to an end-of-task reward. We demonstrate experimentally that it creates appropriate skills and achieves performance benefits in a challenging continuous domain.

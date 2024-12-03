@@ -1,0 +1,1 @@
+1.1 Time-Space Tradeoffs This paper provides some new lower and upper bounds on computing bilinear forms by arithmetic circuits. The complexity measures considered are circuit size, formula size and time-space trade-offs.

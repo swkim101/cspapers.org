@@ -1,0 +1,1 @@
+This thesis presents an ongoing research on using logs for software testing. We propose a complex and generic logging and diagnosis framework, that can be efficiently used for continuous testing of future Internet applications. To simplify the diagnosis of logs we suggest to reduce its size by means of rewriting.

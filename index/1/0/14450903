@@ -1,0 +1,4 @@
+
+ 
+ Relational representations in reinforcement learning allow for the use of structural information like the presence of objects and relationships between them in the description of value functions. Through this paper, we show that such representations allow for the inclusion of background knowledge that qualitatively describes a state and can be used to design agents that demonstrate learning behavior in domains with large state and actions spaces such as computer games.
+ 

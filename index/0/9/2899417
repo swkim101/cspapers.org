@@ -1,0 +1,4 @@
+
+ 
+ Autoregressive moving average (ARMA) models are a fundamental tool in timeseries analysis that offer intuitive modeling capability and efficient predictors. Unfortunately, the lack of globally optimal parameter estimation strategies for these models remains a problem:application studies often adopt the simpler autoregressive model that can be easily estimated by maximizing (a posteriori) likelihood. We develop a (regularized, imputed) maximum likelihood criterion that admits efficient global estimation via structured matrix norm optimization methods. An empirical evaluation demonstrates the benefits of globally optimal parameter estimation over local and moment matching approaches.
+ 

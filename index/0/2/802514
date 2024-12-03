@@ -1,0 +1,1 @@
+This paper describes an approach to achieving data integration across multiple sources in an enterprise, in a manner that does not require heavy investment in database and middleware maintenance. This "lean" approach to integration leads to cost-effectiveness and scalability of data integration in the enterprise.

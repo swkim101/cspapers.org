@@ -1,0 +1,3 @@
+The quadratic assignment problem (QAP) is a central problem in combinatorial optimization. Several famous computationally hard tasks, such as graph matching, partitioning, and the traveling salesman all reduce to special cases of the QAP.
+ In this paper we propose a new approach to the QAP based on the theory of non-commutative Fourier analysis on the symmetric group. Specifically, we present a branch-and-bound algorithm that performs both the branching and the bounding steps in Fourier space.
+ By exploiting the band-limited nature of the QAP objective function and using FFT techniques, the algorithm runs in O(n3) time per branch-and-bound node. The techniques underlying the algorithm generalize to a range of other combinatorial optimization problems.

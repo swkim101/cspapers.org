@@ -1,0 +1,4 @@
+
+ 
+ Hierarchical clustering is typically implemented as a greedy heuristic algorithm with no explicit objective function. In this work we formalize hierarchical clustering as an integer linear programming (ILP) problem with a natural objective function and the dendrogram properties enforced as linear constraints.  Though exact solvers exists for ILP we show that a simple randomized algorithm and a linear programming (LP) relaxation can be used to provide approximate solutions faster.  Formalizing hierarchical clustering also has the benefit that relaxing the constraints can produce novel problem variations such as overlapping clusterings.  Our experiments show that our formulation is capable of outperforming standard agglomerative clustering algorithms in a variety of settings, including traditional hierarchical clustering as well as learning overlapping clusterings.
+ 

@@ -1,0 +1,1 @@
+Polyhedra of minimal surface area are suggested as natural candidates for object models. The problem of computing such a polyhedron from a set of 3D points that are its vertices is explored. An approximate algorithm is suggested, and results of a preliminary implementation are discussed.

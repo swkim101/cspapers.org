@@ -1,0 +1,43 @@
+Partial Cooperation is a paradigm and a corresponding
+
+model, proposed to represent multi-agent
+
+systems in which agents are willing to cooperate
+
+to achieve a global goal, as long as some minimal
+
+threshold on their personal utility is satisfied. Distributed
+
+local search algorithms were proposed in
+
+order to solve asymmetric distributed constraint optimization
+
+problems (ADCOPs) in which agents are
+
+partially cooperative.
+
+
+
+We contribute by: 1) extending the partial cooperative
+
+model to allow it to represent dynamic cooperation
+
+intentions, affected by changes in agents’
+
+wealth, in accordance with social studies literature.
+
+2) proposing a novel local search algorithm
+
+in which agents receive indications of others’ preferences
+
+on their actions and thus, can perform actions
+
+that are socially beneficial. Our empirical
+
+study reveals the advantage of the proposed algorithm
+
+in multiple benchmarks. Specifically, on realistic
+
+meeting scheduling problems it overcomes
+
+limitations of standard local search algorithms.

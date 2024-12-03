@@ -1,0 +1,1 @@
+Our study analyzed the performance and energy consumption of multicore applications, using a number of techniques to manage concurrent execution. We concluded that language constructs for concurrent execution can impact energy consumption. Nonetheless, the tradeoff between performance and energy consumption in multicore applications is not as obvious as it seems.

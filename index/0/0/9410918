@@ -1,0 +1,4 @@
+
+ 
+ Image similarity search plays a key role in many multimediaapplications, where multimedia data (such as images and videos) areusually represented in high-dimensional feature space. In thispaper, we propose a novel Sparse Online Metric Learning (SOML)scheme for learning sparse distance functions from large-scalehigh-dimensional data and explore its application to imageretrieval. In contrast to many existing distance metric learningalgorithms that are often designed for low-dimensional data, theproposed algorithms are able to learn sparse distance metrics fromhigh-dimensional data in an efficient and scalable manner. Ourexperimental results show that the proposed method achieves betteror at least comparable accuracy performance than thestate-of-the-art non-sparse distance metric learning approaches, butenjoys a significant advantage in computational efficiency andsparsity, making it more practical for real-world applications.
+ 

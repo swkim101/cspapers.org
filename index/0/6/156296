@@ -1,0 +1,4 @@
+
+ 
+ Among the many deployment areas of Stackelberg Security games, a major area involves games played out in space and time, which includes applications in multiple mobile defender resources protecting multiple mobile targets. Previous algorithms for such spatio-temporal security games fail to scale-up and little is known ofthe computational complexity properties of these problems.This paper provides a novel oracle-based algorithmic framework for a systematic study of different problem variants of computing optimal (minimax) strategies in spatio-temporal security games. Our framework enables efficient computation of a minimax strategy when the problem admits a polynomial-time oracle. Furthermore,for the cases in which efficient oracles are difficultto find, we propose approximations or prove hardness results.
+ 

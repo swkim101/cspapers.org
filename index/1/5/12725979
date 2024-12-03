@@ -1,0 +1,4 @@
+
+ 
+ We present a novel approach for identifying exact and approximate behavioral equivalence between models of agents. This is significant because both decision making and game play in multiagent settings must contend with behavioral models of other agents in order to predict their actions. One approach that reduces the complexity of the model space is to group models that are behaviorally equivalent. Identifying equivalence between models requires solving them and comparing entire policy trees. Because the trees grow exponentially with the horizon, our approach is to focus on partial policy trees for comparison and determining the distance between updated beliefs at the leaves of the trees. We propose a principled way to determine how much of the policy trees to consider, which trades off solution quality for efficiency. We investigate this approach in the context of the interactive dynamic influence diagram and evaluate its performance.
+ 

@@ -1,0 +1,1 @@
+We consider the problem of determining whether or not there exists a sparse univariate polynomial that interpolates a given setS={(x i ,y i )} of points. Several important cases are resolved, e.g., the case when thexi's are all positive rational numbers. But the general problem remains open.

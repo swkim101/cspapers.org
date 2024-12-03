@@ -1,0 +1,1 @@
+We provide rigorous time-space tradeoffs for inverting any function. Given a function f, we give a time space tradeoff of TS2 = N3q(f), where q(f) is the probability that two random elements are mapped to the same image under f. We also give a more general tradeoff, TS3 = N3, that can invert any function at any point.

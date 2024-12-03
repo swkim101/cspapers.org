@@ -1,0 +1,4 @@
+In this paper, we investigate the power of such broadcast in solving a paradigmatic problem in distributed computing. Imagine a network in which each node machine Ni (1-&-le;i-&-le;n) keeps a Boolean value vi in local memory. The vi 's determine a set S-&-equil;{i: vi-&-equil;1}. The non-emptiness problem on n nodes is to find some i in S, or else find that S is empty. In practice, a problem of this type arises in two ways:
+ 1. Consensus testing: Has any node voted -&-ldquo;no-&-rdquo;, where vi-&-equil;1 means node i votes -&-ldquo;no-&-rdquo;, and vi-&-equil;O means node i votes -&-ldquo;yes-&-rdquo;?
+ 2. Establishing a distinguished node: S specifies a set of candidates, and solving non-emptiness selects one. For example, the nodes may be bidding for a Job or a resource.
+ In section 2, we introduce an idealistic broadcast communication scheme which abstracts certain features of the CSMA technology.

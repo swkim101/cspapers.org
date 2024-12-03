@@ -1,0 +1,7 @@
+
+ Wicked problems are characterized by incomplete and conflicting information. To frame a wicked problem, it is necessary to analyze the interaction between variables and thence identify a reduced set of variables that are key to designing a socio-economic-technical system.
+ In this paper we propose using a combination of interpretative and evidentiary analysis through the application of Dilemma Triangle Method and System Dynamics, respectively. We propose a computational framework that allows a designer to convert heuristics into insights by using System Dynamics modelling, thus allowing a designer to analyze the interaction between variables. Further, our framework is based on the notion of involving human-in-the-loop, wherein wicked problems are framed through synergistic actions between a human and a computer. The benefits of using this framework are
+ • Converting heuristics into insights,
+ • Understanding the interaction between variables by analyzing the behavior of the system,
+ • Identifying the correct size of the problem by eliminating the variables that cannot be used to design a socio-economic-technical system.
+ To demonstrate the efficacy of the framework we use data pertaining to Kantashol village in Jharkhand, India. The data was provided by SunMoksha Power Pvt. Ltd. Our focus in this paper is on describing the framework rather than the results on the ground in India.

@@ -1,0 +1,5 @@
+We study the question of estimating the eigenvalues of a matrix in the streaming model, addressing a question posed in [Mut05]. We show that the eigenvalue "heavy hitters" of a matrix can be computed in a single pass. In particular, we show that the φ-heavy hitters (in the e1 or e2 norms) can be estimated in space proportional to 1/φ2. Such a dependence on φ is optimal. 
+ 
+We also show how the same techniques may give an estimate of the residual error tail of a rank-k approximation of the matrix (in the Frobenius norm), in space proportional to k2. 
+ 
+All our algorithms are linear and hence can support arbitrary updates to the matrix in the stream. In fact, what we show can be seen as a form of a bi-linear dimensionality reduction: if we multiply an input matrix with projection matrices on both sides, the resulting matrix preserves the top eigenvalues and the residual Frobenius norm.

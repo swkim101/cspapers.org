@@ -1,0 +1,1 @@
+We show that the number of geometric permutations of an arbitrary collection of $n$ pair wise disjoint convex sets in $\mathbb{R}^d$, for $d\geq 3$, is $O(n^{2d-3}\log n)$, improving Wenger's 20 years old bound of $O(n^{2d-2})$.

@@ -1,0 +1,1 @@
+Landin's SECD Machine does not completely compute certain expressions of the &lgr;-calculus and so is modified by the addition of an output component and a unique name counter. This modified machine is proven to correctly implement the &lgr;-calculus.

@@ -1,0 +1,1 @@
+EvoSuite is a search-based tool that automatically generates executable unit tests for Java code (JUnit tests). This paper summarizes the results and experiences of EvoSuite's participation at the eighth unit testing competition at SBST 2020, where EvoSuite achieved the highest overall score (406.14 points) for the seventh time in eight editions of the competition.

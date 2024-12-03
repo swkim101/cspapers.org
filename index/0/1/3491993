@@ -1,0 +1,1 @@
+Many systems in nature and human society take the form of networks with community structures. In this paper, we describe a simple algorithm COCD(Clique-based Overlapping Community Detection) to efficiently mine the overlapping communities in large-scale networks, which is useful for us to have a better understanding of the nested sub-structures embedded in the whole network.

@@ -1,0 +1,7 @@
+Let A be a matrix, c be any linear objective function and x be a fractional vector, say an LP solution to some discrete optimization problem. Then a recurring task in theoretical computer science (and in approximation algorithms in particular) is to obtain an integral vector y such that Ax a Ay and cTy exceeds cTx by only a moderate factor. 
+ 
+We give a new randomized rounding procedure for this task, provided that A has bounded Δ-approximate entropy. This property means that for uniformly chosen random signs χ(j) e {±1} on any subset of the columns, the outcome Aχ can be approximately described using at most m/5 bits in expectation (with m being the number of selected columns). 
+ 
+To achieve this result, we modify well-known techniques from the field of discrepancy theory, especially we rely on Beck's entropy method, which to the best of our knowledge has never been used before in the context of approximation algorithms. Our result can be made constructive using the Bansal framework based on semidefinite programming. 
+ 
+We demonstrate the versatility of our procedure by rounding fractional solutions to column-based linear programs for some generalizations of Bin Packing. For example we obtain a polynomial time OPT + O(log2 OPT) approximation for Bin Packing With Rejection and the first AFPTAS for the Train Delivery problem.

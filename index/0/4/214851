@@ -1,0 +1,4 @@
+
+ 
+ Coherence that ties sentences of a text into a meaningfully connected structure is of great importance to text generation and translation. In this paper, we propose a topic-based coherence model to produce coherence for document translation, in terms of the continuity of sentence topics in a text. We automatically extract a coherence chain for each source text to be translated. Based on the extracted source coherence chain, we adopt a maximum entropy classifier to predict the target coherence chain that defines a linear topic structure for the target document. The proposed topic-based coherence model then uses the predicted target coherence chain to help decoder select coherent word/phrase translations. Our experiments show that incorporating the topic-based coherence model into machine translation achieves substantial improvement over both the baseline and previous methods that integrate document topics rather than coherence chains into machine translation.
+ 

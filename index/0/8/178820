@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a theoretical as well as empirical study on the evolution of cooperation on complex social networks, following the continuous action iterated prisoner's dilemma (CAIPD) model. In particular, convergence to network-wide agreement is proven for both evolutionary networks with fixed interaction dynamics, as well as for coevolutionary networks where these dynamics change over time. Moreover, an extension to the CAIPD model is proposed that allows to model influence on the evolution of cooperation in social networks. As such, this work contributes to a better understanding of behavioral change on social networks, and provides a first step towards their active control.
+ 

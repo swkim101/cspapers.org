@@ -1,0 +1,4 @@
+
+ 
+ Many real-world applications, such as Supply Chain Management (SCM), can be modeled using multi-agent systems. One shortcoming of current SCM models is that their trust models are ad hoc and do not have a strong theoretical basis. We propose a trust model for SCM that is grounded in probabilistic game theory. In this model, trust can be gained through direct interactions, and/or by asking for information from other trustworthy agents. We will use this model to simulate and study supply chain market behavior.
+ 

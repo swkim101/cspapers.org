@@ -1,0 +1,4 @@
+
+ 
+ Living organisms adapt to challenges through evolution. This has proven to be a key difficulty in developing therapies, since the organisms evolve resistance.I propose the wild idea of steering evolution strategically — using computational game theory for (typically incomplete-information) multistage games and opponent exploitation techniques. A sequential contingency plan for steering evolution is constructed computationally for the setting at hand. In the biological context, the opponent (e.g., a disease) has a systematic handicap because it evolves myopically. This can be exploited by computing trapping strategies that cause the opponent to evolve into states where it can be handled effectively. Potential application classes include therapeutics at the population, individual, and molecular levels (drug design), as well as cell repurposing and synthetic biology.
+ 

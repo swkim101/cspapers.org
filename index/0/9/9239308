@@ -1,0 +1,1 @@
+We consider the problem of counting the number of answers to a first-order formula on a finite structure. We present and study an extension of first-order logic in which algorithms for this counting problem can be naturally and conveniently expressed, in senses that are made precise and that are motivated by the wish to understand tractable cases of the counting problem.

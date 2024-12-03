@@ -1,0 +1,9 @@
+Learning pseudo-Boolean (PB) constraints in PB solvers exploiting cutting planes based inference is not as well understood as clause learning in conflict-driven clause learning solvers.
+
+In this paper, we show that PB constraints derived using cutting planes may contain irrelevant literals, i.e., literals whose assigned values (whatever they are) never change the truth value of the constraint.
+
+Such literals may lead to infer constraints that are weaker than they should be, impacting the size of the proof built by the solver, and thus also affecting its performance.
+
+This suggests that current implementations of PB solvers based on cutting planes should be reconsidered to prevent the generation of irrelevant literals.
+
+Indeed, detecting and removing irrelevant literals is too expensive in practice to be considered as an option (the associated problem is NP-hard).

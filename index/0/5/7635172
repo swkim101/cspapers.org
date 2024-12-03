@@ -1,0 +1,1 @@
+Presented is the forward kinematic solution for the most general case of the 4-6 Stewart platform mechanism, in particular, the spherical joints of both the top and the base platforms are not restricted to be in a single plane. The problem is reduced to a 32nd order polynomial equation in a single unknown. This new theoretical analysis is numerically verified.

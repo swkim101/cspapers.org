@@ -1,0 +1,1 @@
+We describe a generative model for non-projective dependency parsing based on a simplified version of a transition system that has recently appeared in the literature. We then develop a dynamic programming parsing algorithm for our model, and derive an inside-outside algorithm that can be used for unsupervised learning of non-projective dependency trees.

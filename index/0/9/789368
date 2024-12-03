@@ -1,0 +1,5 @@
+We propose to use an extended Gaussian image (EGI) for interpreting 2-1/2-D representations for recognition of 3-D objects. The EGI is constructed by mapping each surface normals of an object to the Gaussian sphere. 
+ 
+The freedom in viewer directions caused by incomplete observation Is greatly reduced by applying constraints derived from a global distribution of surface normals on the EGI. One constraint on the viewer direction is derived from the ratio of the projected area to the original surface area. The other constraint comes from the direction of the principal axis. After reducing the possible viewing directions with these constraints, we will apply a matching function to ESls of a candidate set for a final decision. 
+ 
+We also propose an algorithm for reconstruction of the original shape of a convex polyhedron from its EGI. This algorithm is based on the analysis-by-synthesis method.

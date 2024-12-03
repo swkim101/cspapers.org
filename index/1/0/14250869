@@ -1,0 +1,4 @@
+
+ 
+ We study the computational complexity of the counting version of the Possible-Winner problem for elections. In the Possible-Winner problem we are given a profile of voters, each with a partial preference order, and ask if there are linear extensions of the votes such that a designated candidate wins. We also analyze a special case of Possible-Winner, the Manipulation problem. We provide polynomial-time algorithms for counting manipulations in a class of scoring protocols and in several other voting rules. We show #P-hardness of the counting variant of Possible-Winner for plurality and veto and give a simple yet general and practically useful randomized algorithm for a variant of Possible-Winner for all voting rules for which a winner can be computed in polynomial time.
+ 

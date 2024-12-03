@@ -1,0 +1,1 @@
+A linear-time heuristic for minimum weight triangulation of convex polygons is presented. This heuristic produces a triangulation of length within a factor 1 + {epsilon} from the optimum, where {epsilon} is an arbitrarily small positive constant. This is the first sub-cubic algorithm which guarantees such an approximation factor, and it has interesting applications.

@@ -1,0 +1,2 @@
+An H-decomposition of a graph G = (V,E) is a partition of E into subgraphs isomorphic to H. Given a fixed graph H, the H-decomposition problem is to determine whether an input graph G admits an H-decomposition.
+I. Holyer (1980) conjectured that H-decomposition is Np-complete whenever H is connected and has at least 3 edges. Some partial results have been obtained during the last decade. A complete proof for Holyer's conjecture is the content of this paper.

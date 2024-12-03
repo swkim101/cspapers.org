@@ -1,0 +1,1 @@
+We consider the performance of estimated traffic matrices in traffic engineering. More precisely, we first optimize the routing in an IP backbone to minimize congestion with the estimated traffic matrix. We then test the performance of the resulting routing on the real traffic matrix.

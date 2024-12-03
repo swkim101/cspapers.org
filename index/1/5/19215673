@@ -1,0 +1,4 @@
+
+ 
+ In classification, an algorithm learns to classify a given instance based on a set of observed attribute values. In many real world cases testing the value of an attribute incurs a cost. Furthermore, there can also be a cost associated with the misclassification of an instance. Cost sensitive classification attempts to minimize the expected cost of classification, by deciding after each observed attribute value, which attribute to measure next. In this paper we suggest Markov Decision Processes as a modeling tool for cost sensitive classification. We construct standard decision trees over all attribute subsets, and the leaves of these trees become the state space of our MDP. At each phase we decide on the next attribute to measure, balancing the cost of the measurement and the classification accuracy. We compare our approach to a set of previous approaches, showing our approach to work better for a range of misclassification costs.
+ 

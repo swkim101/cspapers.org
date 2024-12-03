@@ -1,0 +1,4 @@
+
+ 
+ We address the problem of mining name transliterations from comparable corpora in languages P and Q in the following resource-poor scenario:Parallel names in PQ are not available for training. Parallel names in PR and RQ are available for training.We propose a novel solution for the problem by computing a common geometric feature space for P,Q and R where name transliterations are mapped to similar vectors. We employ Canonical Correlation Analysis (CCA) to compute the common geometric feature space using only parallel names in PR and RQ and without requiring parallel names in  PQ. We test our algorithm on data sets in several languages and show that it gives results comparable to the state-of-the-art transliteration mining algorithms that use parallel names in PQ for training.
+ 

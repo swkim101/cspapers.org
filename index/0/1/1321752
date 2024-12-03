@@ -1,0 +1,4 @@
+
+ 
+ Evolutionary Strategies (ES) are a class of continuous optimization algorithms that have proven to perform very well on hard optimization problems. Whereas in earlier literature, both intermediate and discrete recombination operators were used, we now see that most ES, e.g. CMA-ES, use only intermediate recombination. While CMA-ES is considered state-of-the-art in continuous optimization, we believe that reintroducing discrete recombination can improve the algorithms' ability to escape local optima. Specifically, we look at using information on the problem's structure to create building blocks for recombination.
+ 

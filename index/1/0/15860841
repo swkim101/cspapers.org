@@ -1,0 +1,4 @@
+
+ 
+ This paper describes an approach to solving insertion tasks by a robot that uses exploratory behaviors and proprioceptive feedback. The approach was inspired by the developmental progression of insertion abilities in both chimpanzees and humans (Hayashi et al. 2006). Before mastering insertions, the infants of the two species undergo a stage where they only press objects against other objects without releasing them. Our goal was to emulate this developmental stage on a robot to see if it may lead to simpler representations for insertion tasks. Experiments were performed using a shapesorter puzzle with three different blocks and holes.
+ 

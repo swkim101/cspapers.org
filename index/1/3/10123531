@@ -1,0 +1,4 @@
+
+ 
+ We introduce a new framework for solving distributed constraint optimization problems that extend the domain of each variable into a simplex.We propose two methods for searching the extended domain for good assignments.The first one relaxes the problem using linear programming, finds the optimum LP solution, and rounds it to an assignment.The second one plays a cost-minimization game, finds a certain kind of equilibrium, and rounds it to an assignment.Both methods are realized by performing the multiplicative weights method in a distributed manner.We experimentally demonstrate that our methods have good scalability,and in particular, the second method outperforms existing algorithms in terms of solution quality and efficiency.
+ 

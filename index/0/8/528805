@@ -1,0 +1,1 @@
+We introduce a global inference model for keyphrase extraction that reduces overgeneration errors by weighting sets of keyphrase candidates according to their component words. Our model can be applied on top of any supervised or unsupervised word weighting function. Experimental results show a substantial improvement over commonly used word-based ranking approaches.

@@ -1,0 +1,1 @@
+In this paper the properties of the line graph of y-aeyclic hyperg-raphs are described. Based on the properties, an efficient algorithm is given for determining whether a hypergraph is γ-acyclic. The algorithm runs in 0(n(n+e)) time for a hypergraph with its line graph having n vertices and e edges.

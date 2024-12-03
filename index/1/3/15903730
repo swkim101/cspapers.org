@@ -1,0 +1,1 @@
+In this poster we describe alternative inverted index structures that reduce the time required to process queries, produce a higher query throughput and still return high quality results to the end user. We give results based upon the TREC Terabyte dataset showing improvements that these indices give in terms of effectiveness and efficiency.

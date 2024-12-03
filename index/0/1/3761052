@@ -1,0 +1,4 @@
+
+ 
+ A logic program with function symbols is called finitely ground if there is a finite propositional logic program whose stable models are exactly the same as the stable models of this program. Finite groundability is an important property for logic programs with function symbols because it makes feasible to compute such program’s stable models using traditional ASP solvers. In this paper, we introduce a new decidable class of finitely ground programs called POLY-bounded programs, which, to the best of our knowledge, strictly contains all decidable classes of finitely ground programs discovered so far in the literature. We also study the related complexity property for this class of programs. We prove that deciding whether a program is POLY-bounded is EXPTIMEcomplete.
+ 

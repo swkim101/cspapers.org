@@ -1,0 +1,4 @@
+
+ 
+ In this work, we close an open theoretical problem regarding the price of fairness in modern kidney exchanges. We then propose a hybrid fairness rule that balances a lexicographic preference ordering over agents, with a utilitarian objective. This rule has one parameter which controls a bound on the price of fairness. We apply this rule to real data from a large kidney exchange and show that our hybrid rule produces more reliable outcomes than other fairness rules.
+ 

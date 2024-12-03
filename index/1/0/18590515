@@ -1,0 +1,2 @@
+A parallel algorithm for finding Euler circuits in graphs is presented. Its depth is log |E| and it employs |E| processors. The computational model considered is the PRAM (the shared memory model).
+ This algorithm is a nice example of utilizing another parallel algorithm that does not seem to be closely related to our problem, namely the algorithm for finding the connected components and a spanning forest of an undirected graph.

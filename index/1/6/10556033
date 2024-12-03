@@ -1,0 +1,1 @@
+This paper proposes a fair association scheme between clients and APs in WiFi network, exploiting the hybrid nature of the recent WLAN architecture. We show that such an association outperforms RSSI based schemes in several scenarios, while remaining practical and scalable for wide-scale deployment.

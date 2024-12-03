@@ -1,0 +1,3 @@
+In this paper, we present a new approach towards a parallel resolution procedure which explores another dimension of parallelism in addition to the AND/OR formulation and special hardware constructs. The approach organizes the input clauses of a problem domain into a connection graph. The connection graph is then partitioned and each partition is worked on by a different processor of a multiprocessor system. These processors execute the resolution procedure independently on its partition, and exchange intermediate results via clause migrations. 
+ 
+Preliminary test results and qualitative assessments of this procedure are also given.

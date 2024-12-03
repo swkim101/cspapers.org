@@ -1,0 +1,1 @@
+This short paper introduces an implemented and evaluated monolingual Text-to-Text generation system. The system takes monologue and transforms it to two-participant dialogue. After briefly motivating the task of monologue-to-dialogue generation, we describe the system and present an evaluation in terms of fluency and accuracy.

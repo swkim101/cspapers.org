@@ -1,0 +1,1 @@
+This paper focuses on a method for the stylistic segmentation of text documents. Our technique involves mapping the change in a feature throughout a text. We use the linguistic features of conjunction and modality, through taxonomies from Systemic Functional Linguistics. This segmentation has applications in automated summarization, particularly of large documents.

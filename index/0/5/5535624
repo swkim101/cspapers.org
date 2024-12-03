@@ -1,0 +1,1 @@
+We investigate how to support ranked keyword search in a Parallel Search Cluster Network, which is a newly proposed peer-to-peer network overlay. In particular, we study how to efficiently acquire and distribute the global information required by ranked keyword search by taking advantage of the architectural features of PSCNs.

@@ -1,0 +1,4 @@
+
+ 
+ Multimodality has been recently exploited to overcome the challenges of emotion recognition. In this paper, we present a study of fusion of electroencephalogram (EEG) features and musical features extracted from musical stimuli at decision level in recognizing the time-varying binary classes of arousal and valence. Our empirical results demonstrate that EEG modality was suffered from the non-stability of EEG signals, yet fusing with music modality could alleviate the issue and enhance the performance of emotion recognition.
+ 

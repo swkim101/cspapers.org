@@ -1,0 +1,1 @@
+A new approach to interactive graphics processing is described. A system for supporting interactive graphics in a distributed computing environment and its primary data structure are explained. It is compared with traditional display list processing. Its use in an important design automation problem, filling concave polygons, is also explained.

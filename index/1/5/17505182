@@ -1,0 +1,4 @@
+
+ 
+ Monte Carlo Tree Search (MCTS) is a family of directed search algorithms that has gained widespread attention in recent years. Despite the vast amount of research into MCTS, the effect of modifications on the algorithm, as well as the manner in which it performs in various domains, is still not yet fully known. In particular, the effect of using knowledge-heavy rollouts in MCTS still remains poorly understood, with surprising results demonstrating that better-informed rollouts often result in worse-performing agents. We present experimental evidence suggesting that, under certain smoothness conditions, uniformly random simulation policies preserve the ordering over action preferences. This explains the success of MCTS despite its common use of these rollouts to evaluate states. We further analyse non-uniformly random rollout policies and describe conditions under which they offer improved performance.
+ 

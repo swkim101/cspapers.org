@@ -1,0 +1,1 @@
+Here we discuss how to look for similar melody in music databases by giving monophonic melody in sheet. In this work, we utilize text expression (or sheet music) to describe music and introduce pitch spectrum of melodies. By this feature, we concisely distinguish music from tempo, transposition or other arbitrary expressions. We show the usefulness by experimental results.

@@ -1,0 +1,4 @@
+
+ 
+ The production of any new medicine requires solutions to many planning problems. The most fundamental of these is determining the sequence of chemical reactions necessary to physically create the drug. Surprisingly, these organic syntheses can be modeled as branching paths in a discrete, fully-observable state space, making the construction of new medicines an application of heuristic search. We describe a model of organic chemistry that is amenable to traditional AI techniques from game tree search, regression, and automatic assembly sequencing. We demonstrate the applicability of AND/OR graph search by developing the first chemistry solver to use proof-number search. Finally, we construct a benchmark suite of organic synthesis problems collected from undergraduate organic chemistry exams, and we analyze our solvers performance both on this suite and in recreating the synthetic plan for a multibillion dollar drug.
+ 

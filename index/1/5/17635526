@@ -1,0 +1,4 @@
+
+ 
+ We introduce new anytime search algorithms that combine best-first with depth-first search into hybrid schemes for Marginal MAP inference in graphical models. The main goal is to facilitate the generation of upper bounds (via the best-first part) alongside the lower bounds of solutions (via the depth-first part) in an anytime fashion. We compare against two of the best current state-of-the-art schemes and show that our best+depth search scheme produces higher quality solutions faster while also producing a bound on their accuracy, which can be used to measure solution quality during search. An extensive empirical evaluation demonstrates the effectiveness of our new methods which enjoy the strength of best-first (optimality of search) and of depth-first (memory robustness), leading to solutions for difficult instances where previous solvers were unable to find even a single solution.
+ 

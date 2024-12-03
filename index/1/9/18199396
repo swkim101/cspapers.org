@@ -1,0 +1,5 @@
+It is the aim of this paper to investigate a system, which, with no manual or mechanical interference, permits the building, changing, processing and destruction of real (not simulated !) digital hardware.
+ It can be seen, that by the above nothing else than a hardware-editor is outlined. Therefore first a “mini-model” of a usual text-editor is given within this paper. Then this model is transferred to problems of the editing of hardware.
+ The main problem in particular, i.e. the problem of keeping the timing under control, will be discussed on the basis of an exact algebraic model of the time-behaviour of digital circuits.
+ The result of these discussions will be the concept of an automatic hardware-editor.
+ Finally a realization of this concept built by the author within the University of Dortmund, W. Germany, will be discussed.

@@ -1,0 +1,6 @@
+We consider the monitoring of a flow of incoming documents. More precisely, we present here the monitoring used in a very large warehouse built from XML documents found on the web. The flow of documents consists in XML pages (that are warehoused) and HTML pages (that are not). Our contributions are the following:a subscription language which specifies the monitoring of pages when fetched, the periodical evaluation of continuous queries and the production of XML reports.
+the description of the architecture of the system we implemented that makes it possible to monitor a flow of millions of pages per day with millions of subscriptions on a single PC, and scales up by using more machines.
+a new algorithm for processing alerts that can be used in a wider context.
+
+We support monitoring at the page level (e.g., discovery of a new page within a certain semantic domain) as well as at the element level (e.g., insertion of a new electronic product in a catalog).
+This work is part of the Xyleme system. Xyleme is developed on a cluster of PCs under Linux with Corba communications. The part of the system described in this paper has been implemented. We mention first experiments.

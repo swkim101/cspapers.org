@@ -1,0 +1,5 @@
+A method is presented for the recovery of the 3-D motion parameters of a rigidly moving textured surface. The novelty of the method is based on the following two facts: 
+ 
+1) no point-to-point correspondences are used, and 
+ 
+2) "stereo" and "motion" are combined in such a way that no correspondence between the left and the right stereo pairs is required.

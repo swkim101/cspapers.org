@@ -1,0 +1,4 @@
+
+ 
+ Strategic argumentation provides a simple model of disputation. We investigate it in the context of Dung's abstract argumentation. We show that strategic argumentation under the grounded semantics is resistant tocorruption -- specifically, collusion and espionage — in a sense similar to Bartholdi et al's notion of a voting scheme resistant to manipulation. Under the stable semantics, strategic argumentation is resistant to espionage, but its resistance to collusion varies according to the aims of the disputants. These results are extended to a variety of concrete languages for argumentation.
+ 

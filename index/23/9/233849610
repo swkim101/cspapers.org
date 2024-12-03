@@ -1,0 +1,20 @@
+
+
+
+In 2019, when the World Health Organization (WHO) declared COVID-19 (Coronavirus 2019) a pandemic, many of the public managers faced tough situations in their cities due to the simultaneous loss of lives and jobs. In this regard, this study aims to propose a concise model that considers variables like the number of deaths, lethality of the virus, number of jobs and taxes collected by city halls, among others. Our study considers these issues in providing a relevant response and consistent answer to deliberations on the way forward.
+
+
+
+
+Mathematical modeling was used to analyze the interaction between the agents involved and computer simulation was chosen to collect results.
+
+
+
+
+- Changing the lockdown level (fixed and variable), the results of number of death per week, total number of unemployed, cost of companies and so on are shown. 
+- The results show that for the input data considered, the 0% lockdown (LD) policy is more effective for the economy and tax collection and also succeeds in repressing the effects on the number of deaths. Because of it, the comparison between with pandemic and without pandemic is provided (in percentage). 
+
+
+
+
+This study shows that implementing the lockdown did not bring expected benefits, because instead of reducing the number of deaths due to the COVID-19, individuals tend to die more from other causes. 

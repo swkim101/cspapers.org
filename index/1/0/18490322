@@ -1,0 +1,5 @@
+At present, there is considerable debate whether, in light of what is being learned about construction of reliable software, pointers are desirable in high level programming languages. One side [Hoa73, Hoa75] maintains that
+ 1) Pointers are like the goto in that they are an invitation to create spaghetti in one's program [Hoa75].
+ 2) In some languages, e.g., PL/1 [Wlk71], the use of pointers can lead to serious type violations, for example, the compiler believes that a given pointer will be pointing to an integer when in fact, it will be pointing to a real.
+ 3) The indiscriminate use of pointers may confound the attempts of hardware pipelining and use of cache memory to speed up computations [Hoa73, Hoa75].
+ 4) A pointer may be left dangling, that is, a pointer may point to a variable or other datum which has been deallocated [Bry71, CDMPS73, Bry74].

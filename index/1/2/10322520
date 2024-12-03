@@ -1,0 +1,4 @@
+
+ 
+ Recent advances in Programming by Example (PBE) have supported new applications to text editing, but existing approaches are limited to simple text strings. In this paper we address transformations in richly formatted documents, using an approach based on the idea of least general generalizations from inductive inference, which avoids the scalability issues faced by state-of-the-art PBE methods. We describe a novel domain specific language (DSL) that expresses transformations over XML structures describing richly formatted content, and a synthesis algorithm that generates a minimal program with respect to a natural subsumption ordering in our DSL. We present experimental results on tasks collected from online help forums, showing an average of 4.17 examples required for task completion.
+ 

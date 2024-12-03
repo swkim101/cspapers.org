@@ -1,0 +1,4 @@
+
+ 
+ In this demo, we develop a mobile running application, SenseRun, to involve landscape experiences for routes recommendation. We firstly define landscape experiences, perceived enjoyment from landscape as motivators for running, by public natural area and traffic density. Based on landscape experiences, we categorize locations into 3 types (natural, leisure, traffic space) and set them with different basic weight. Real-time context factors (weather, season and hour of the day) are involved to adjust the weight. We propose a multi-attributes method to recommend routes with weight based on MVT (The Marginal Value Theorem) k-shortest-paths algorithm. We also use a landscape-awareness sounds algorithm as supplementary of landscape experiences. Experimental results improve that SenseRun can enhance running experiences and is helpful to promote regular physical activities.
+ 

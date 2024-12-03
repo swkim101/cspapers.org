@@ -1,0 +1,6 @@
+Previous work for text summarization in scientific domain mainly focused on the content of the input document, but seldom considering its citation network.
+However, scientific papers are full of uncommon domain-specific terms, making it almost impossible for the model to understand its true meaning without the help of the relevant research community.
+In this paper, we redefine the task of scientific papers summarization by utilizing their citation graph and propose a citation graph-based summarization model CGSum which can incorporate the information of both the source paper and its references.
+In addition, we construct a novel scientific papers summarization dataset Semantic Scholar Network (SSN) which contains 141K research papers in different domains and 661K citation relationships. The entire dataset constitutes a large connected citation graph.
+Extensive experiments show that our model can achieve competitive performance when compared with the pretrained models even with a simple architecture.
+The results also indicates the citation graph is crucial to better understand the content of papers and generate high-quality summaries.

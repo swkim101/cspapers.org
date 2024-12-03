@@ -1,0 +1,1 @@
+We present the result of an informal experiment comparing the performance of one Reduced Instruction Set Computer, RISC I, to five traditional computers, VAX-11/780, PDP-11/70, BBN C/70, MC68000, and Z8000, in a high-level language environment. Measuring either absolute performance or the penalty for using high-level languages, the best computer is RISC I.

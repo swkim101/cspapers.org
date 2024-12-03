@@ -1,0 +1,4 @@
+
+ 
+ We motivate the integration of programming by example and natural language programming by developing a system for specifying programs for simple text editing operations based on regular expressions. The programs are described with unconstrained natural language instructions, and providing one or more examples of input/output. We show that natural language allows the system to deduce the correct program much more often and much faster than is possible with the input/output example(s) alone, showing that natural language programming and programming by example can be combined in a way that overcomes the ambiguities that both methods suffer from individually, while providing a more natural interface to the user.
+ 

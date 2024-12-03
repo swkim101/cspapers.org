@@ -1,0 +1,4 @@
+
+ 
+ Answering queries posed over knowledge bases is a central problem in knowledge representation and database theory. In the database area, checking query containment is an important query optimization and schema integration technique. In knowledge representation it has been used for object classification, schema integration, service discovery, and more. In the presence of a knowledge base, the problem of query containment is strictly related to that of query answering; indeed, the two are reducible to each other; we focus on the latter, and our results immediately extend to the former.
+ 

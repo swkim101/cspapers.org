@@ -1,0 +1,2 @@
+Conventional collection libraries do not perform automatic collection-specific optimizations. Instead, performance-critical code using collections must be hand-optimized, leading to non-modular, brittle, and redundant code.
+ We propose SQuOpt, the Scala Query Optimizer, a deep embedding of the Scala collection library performing collection-specific optimizations automatically without external tools or compiler extensions.

@@ -1,0 +1,4 @@
+
+ 
+ Determining the existence of a collision-free path between two points is one of the most fundamental questions in robotics.  However, in situations where crossing an obstacle is costly but not impossible, it may be more appropriate to ask for the path that crosses the fewest obstacles.  This may arise in both autonomous outdoor navigation (where the obstacles are rough but not completely impassable terrain) or indoor navigation (where the obstacles are doors that can be opened if necessary).  This problem, the minimum constraint removal problem, is at least as hard as the underlying path existence problem.  In this paper, we demonstrate that the minimum constraint removal problem is NP-hard for navigation in the plane even when the obstacles are all convex polygons, a case where the path existence problem is very easy.
+ 

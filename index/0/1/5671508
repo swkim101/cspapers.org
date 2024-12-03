@@ -1,0 +1,1 @@
+An efficient deterministic polynomial time algorithm is developed for the sparse polynomial interpolation problem. The number of evaluations needed by this algorithm is very small. The algorithm also has a simple NC implementation.

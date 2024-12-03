@@ -1,0 +1,1 @@
+We present an algorithm which finds the shortest distance between all pairs of points in a non-negatively weighted directed graph in the average time stated in the title. This algorithm, an extension of Spira's solution [Sp], executes in the stated time over quite general classes of probability distributions on graphs.

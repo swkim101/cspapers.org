@@ -1,0 +1,4 @@
+
+ 
+ Existing multiple kernel learning (MKL) algorithms \textit{indiscriminately} apply a same set of kernel combination weights to all samples. However, the utility of base kernels could vary across samples and a base kernel useful for one sample could become noisy for another. In this case, rigidly applying a same set of kernel combination weights could adversely affect the learning performance. To improve this situation, we propose a sample-adaptive MKL algorithm, in which base kernels are allowed to be adaptively switched on/off with respect to each sample. We achieve this goal by assigning a latent binary variable to each base kernel when it is applied to a sample. The kernel combination weights and the latent variables are jointly optimized via margin maximization principle. As demonstrated on five benchmark data sets, the proposed algorithm consistently outperforms the comparable ones in the literature.
+ 

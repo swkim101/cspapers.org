@@ -1,0 +1,4 @@
+
+ 
+ We present preliminary work to construct a knowledge curation system to advance research in the study of regional economics. The proposed system exploits natural language processing (NLP) techniques to automatically implement business event extraction, provides a user-facing interface to assist human curators, and a feedback loop to improve the performance of the Information Extraction Model for the automated parts of the system. Progress to date has shown that we can improve standard NLP approaches for entity and relationship extraction through heuristic means and provide indexing of extracted relationships to aid curation.
+ 

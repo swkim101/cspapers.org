@@ -1,0 +1,4 @@
+
+ 
+ Planning in hybrid domains is an important and challenging task, and various planning algorithms have been proposed in the last years. From an abstract point of view, hybrid planning domains are based on hybrid automata, which have been studied intensively in the model checking community. In particular, powerful model checking algorithms and tools have emerged for this formalism. However, despite the quest for more scalable planning approaches, model checking algorithms have not been applied to planning in hybrid domains so far. In this paper, we make a first step in bridging the gap between these two worlds. We provide a formal translation scheme from PDDL+ to the standard formalism of hybrid automata, as a solid basis for using hybrid system model-checking tools for dealing with hybrid planning domains. As a case study, we use the SpaceEx model checker, showing how we can address PDDL+ domains that are out of the scope of state-of-the-art planners.
+ 

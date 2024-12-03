@@ -1,0 +1,3 @@
+The ANSI/X3/SPARC proposal of standardization for architecture of Data Base Management Systems is particularly concerned with the achievement of iogical data independence. This proposal has almost universally been recognized as valid. In this paper we argue that this proposal is not a standardization of Data Base Management Systems features, but rather an implementation proposal, based on schemas mappings and transforms. 
+ 
+A more general architecture is proposed and an implementation other than the one of the ANSI/X3/SPARC is examined. Tradeoffs between the two implementation strategies are outlined.

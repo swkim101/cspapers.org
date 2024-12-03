@@ -1,0 +1,4 @@
+
+ 
+ The Sentential Decision Diagram (SDD) is a recently proposed representation of Boolean functions, containing Ordered Binary Decision Diagrams (OBDDs) as a distinguished subclass. While OBDDs are characterized by total variable orders, SDDs are characterized more generally by vtrees. As both OBDDs and SDDs have canonical representations, searching for OBDDs and SDDs of minimal size simplifies to searching for variable orders and vtrees, respectively. For OBDDs, there are effective heuristics for dynamic reordering, based on locally swapping variables. In this paper, we propose an analogous approach for SDDs which navigates the space of vtrees via two operations: one based on tree rotations and a second based on swapping children in a vtree. We propose a particular heuristic for dynamically searching the space of vtrees, showing that it can find SDDs that are an order-of-magnitude more succinct than OBDDs found by dynamic reordering.
+ 

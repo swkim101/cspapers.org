@@ -1,0 +1,1 @@
+This article describes a Java framework for experimentation with fundamental steganographic techniques. The framework is built on top of Java's image processing libraries and provides extensible handles for customization and experimentation. The framework is designed and presented with a view towards incorporation into an undergraduate computer science curriculum.

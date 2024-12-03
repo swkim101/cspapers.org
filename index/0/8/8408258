@@ -1,0 +1,4 @@
+
+ 
+ Fuzzy Answer Set Programming (FASP) combines the non-monotonic reasoning typical of Answer Set Programming with the capability of Fuzzy Logic to deal with imprecise information and paraconsistent reasoning. In the context of paraconsistent reasoning, the fundamental principle of minimal undefinedness states that truth degrees close to 0 and 1 should be preferred to those close to 0.5, to minimize the ambiguity of the scenario. The aim of this paper is to enforce such a principle in FASP through the minimization of a measure of undefinedness. Algorithms that minimize undefinedness of fuzzy answer sets are presented, and implemented.
+ 

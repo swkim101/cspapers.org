@@ -1,0 +1,4 @@
+
+ 
+ The large scale of Q&A archives accumulated in community based question answering (CQA) servivces are important information and knowledge resource on the web. Question and answer matching task has been attached much importance to for its ability to reuse knowledge stored in these systems: it can be useful in enhancing user experience with recurrent questions. In this paper, a Word Embedding based Correlation (WEC) model is proposed by integrating advantages of both the translation model and word embedding. Given a random pair of words, WEC can score their co-occurrence probability in Q&A pairs, while it can also leverage the continuity and smoothness of continuous space word representation to deal with new pairs of words that are rare in the training parallel text. An experimental study on Yahoo! Answers dataset and Baidu Zhidao dataset shows this new method's promising potential.
+ 

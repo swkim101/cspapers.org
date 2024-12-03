@@ -1,0 +1,4 @@
+
+ 
+ The Traveling Tournament Problem (TTP) is a complex problem in sports scheduling whose solution is a schedule of home and away games meeting specific feasibility requirements, while minimizing the total distance traveled by all the teams. A recently-developed "hybrid" algorithm, combining local search and integer programming, has resulted in best-known solutions for many TTP instances. In this paper, we tackle the TTP from a graph-theoretic perspective, by generating a new "canonical" schedule in which each team's three-game road trips match up with the underlying graph's minimum-weight P_3-packing. By using this new schedule as the initial input for the hybrid algorithm, we develop tournament schedules for five benchmark TTP instances that beat all previously-known solutions.
+ 

@@ -1,0 +1,1 @@
+Related objects may look similar at low-resolutions; differences begin to emerge naturally as the resolution is increased. By learning across multiple resolutions of input, knowledge can be transfered between related objects. My dissertation develops this idea and applies it to the problem of multitask transfer learning.

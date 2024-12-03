@@ -1,0 +1,1 @@
+We consider a class of region-based energies for image segmentation and inpainting which combine region integrals with curvature regularity of the region boundary. To minimize such energies, we formulate an integer linear program which jointly estimates regions and their boundaries. Curvature regularity is imposed by respective costs on pairs of adjacent boundary segments.

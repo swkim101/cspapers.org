@@ -1,0 +1,4 @@
+
+ 
+ Sentiment analysis predicts a one-dimensional quantity describing the positive or negative emotion of an author. Mood analysis extends the one-dimensional sentiment response to a multi-dimensional quantity, describing a diverse set of human emotions. In this paper, we extend sentiment and mood analysis temporally and model emotions as a function of time based on temporal streams of blog posts authored by a specific author. The model is useful for constructing predictive models and discovering scientific models of human emotions.
+ 

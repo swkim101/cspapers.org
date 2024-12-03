@@ -1,0 +1,4 @@
+
+ 
+ Color refinement is a basic algorithmic routine for graph isomorphismtesting and has recently been used for computing graph kernels as well as for lifting belief propagation and linear programming. So far, color refinement has been treated as a combinatorial problem. Instead, we treat it as a nonlinear continuous optimization problem and prove thatit implements a conditional gradient optimizer that can be turned into graph clustering approaches using hashing and truncated power iterations. This shows that color refinement is easy to understand in terms of random walks, easy to implement (matrix-matrix/vector multiplications) and readily parallelizable. We support our theoretical results with experiments on real-world graphs with millions of edges.
+ 

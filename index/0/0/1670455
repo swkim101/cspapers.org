@@ -1,0 +1,4 @@
+
+ 
+ In recent years, research has shown that transfer learning methods can be leveraged to construct curricula that sequence a series of simpler tasks such that performance on a final target task is improved. A major limitation of existing approaches is that such curricula are handcrafted by humans that are typically domain experts. To address this limitation, we introduce a method to generate a curriculum based on task descriptors and a novel metric of transfer potential. Our method automatically generates a curriculum as a directed acyclic graph (as opposed to a linear sequence as done in existing work). Experiments in both discrete and continuous domains show that our method produces curricula that improve the agent's learning performance when compared to the baseline condition of learning on the target task from scratch.
+ 

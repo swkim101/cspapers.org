@@ -1,0 +1,4 @@
+
+ 
+ We introduce a general declarative framework for incorporating domain-specific heuristics into ASP solving. We accomplish this by extending the first-order modeling language of ASP by a distinguished heuristic predicate. The resulting heuristic information is processed as an equitable part of the logic program and subsequently exploited by the solver when it comes to non-deterministically assigning a truth value to an atom. We implemented our approach as a dedicated heuristic in the ASP solver clasp and show its great prospect by an empirical evaluation.
+ 

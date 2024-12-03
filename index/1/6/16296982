@@ -1,0 +1,4 @@
+
+ 
+ We consider the situation in which an organizer is trying to convenean event, and needs to choose whom out of a given set of agents to invite.Agents have preferences over how many attendees should be at the eventand possibly also who the attendees should be.This induces a stability requirement: All invited agents should preferattending to not attending, and all the other agents should not regretbeing not invited.The organizer's objective is to find an invitation of maximum size,subject to the stability requirement. We investigate the computational complexity of finding such an invitation when agents are truthful, as well as the mechanism design problem when agents act strategically.
+ 

@@ -1,0 +1,1 @@
+Term description is a simple, powerful extension of terras. For example, functional notation and lazy execution of a program is introduced in a very natural manner without changing the basic mechanism of the computation, such as unification and backtracking. Especially, the readability of functional languages is introduced without actually introducing functional concepts.

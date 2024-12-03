@@ -1,0 +1,4 @@
+
+ 
+ Markov Logic Networks (MLNs) use a few weighted first-order logic formulas to represent large probabilistic graphical models and are ideally suited for representing both relational and probabilistic knowledge in a wide variety of application domains such as, NLP, computer vision, and robotics. However, inference in them is hard because the graphical models can be extremely large, having millions of variables and features (potentials). Therefore, several lifted inference algorithms that exploit relational structure and operate at the compact first-order level, have been developed in recent years. However, the focus of much of existing research on lifted inference is on marginal inference while algorithms for MAP and marginal MAP inference are far less advanced. The aim of the proposed thesis is to fill this void, by developing next generation inference algorithms for MAP and marginal MAP inference.
+ 

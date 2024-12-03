@@ -1,0 +1,2 @@
+A method for global resource allocation is described, which minimizes data movements and optimizes the use of resources like special purpose registers and functional units in complicated bus structures. The algorithm can deal with arbitrary flow graphs and hierarchies of nonrecursive procedures. It is based on a thorough data flow analysis of the source program and a description of the target architecture.
+The method has been implemented in a retargetable compiler with front-ends for the system implementation languages C and CDL2.

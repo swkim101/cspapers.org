@@ -1,0 +1,1 @@
+. We present techniques for solving geometric closest-point aud farthest-point query problems, in the presence of deletions. Applications include efficient implementations of classical greedy heuristics for .miuimnm-weight matching (where our result improves on that of Bentley and Saxe), and maximum-weight matching.

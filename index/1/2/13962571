@@ -1,0 +1,1 @@
+Previous work on cluster-based document retrieval has used either static document clusters that are created offline, or query-specific (dynamic) document clusters that are created from top-retrieved documents. We present the potential merit of integrating these two types of clusters.

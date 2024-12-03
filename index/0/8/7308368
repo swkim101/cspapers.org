@@ -1,0 +1,1 @@
+We present a deterministic algorithm that computes st-connectivity in undirected graphs using 0(log4f3 n) space. This improves the previous O(log3f2 n) bound of Nisan, Szemer6di and Wigderson [NSW92].

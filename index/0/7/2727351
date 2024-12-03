@@ -1,0 +1,1 @@
+We describe how to color every 3-colorable graph with O(n0.2111) colors, thus improving an algorithm of Blum and Karger from almost a decade ago. Our analysis uses new geometric ideas inspired by the recent work of Arora, Rao, and Vazirani on SPARSEST CUT, and these ideas show promise of leading to further improvements.

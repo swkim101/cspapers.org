@@ -1,0 +1,4 @@
+
+ 
+ This paper considers prescriptive evacuation planning for a region threatened by a natural disaster such a flood, a wildfire, or a hurricane. It proposes a Benders decomposition that generalizes the two-stage approach proposed in earlier work for convergent evacuation plans. Experimental results show that Benders decomposition provides significant improvements in solution quality in reasonable time: It finds provably optimal solutions to scenarios considered in prior work, closing these instances, and increases the number of evacuees by 10 to 15% on average on more complex flood scenarios.
+ 

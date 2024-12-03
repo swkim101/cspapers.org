@@ -1,0 +1,1 @@
+Path-based Statistical Software Testing is interested in sampling the feasible paths in the control flow graph of the program being tested. As the ration of feasible paths becomes negligible for large programs, an ML approach is presented to iteratively estimate and exploit the distribution of feasible paths.

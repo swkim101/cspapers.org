@@ -1,0 +1,1 @@
+Single-Class Classification (SCC) seeks to distinguish one class of data from the universal set of multiple classes. We present a new SCC algorithm that efficiently computes an accurate boundary of the target class from positive and unlabeled data (without labeled negative data).

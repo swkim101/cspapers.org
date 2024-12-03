@@ -1,0 +1,1 @@
+This demo presents MyConverse, a personal conversation recogniser and visualiser for Android smartphones. It uses the smartphone's microphone to continuously recognise the user's conversations during his daily life autonomously on the smartphones. MyConverse identifies known speakers in conversations. Unknown speakers are detected and trained for further identification.

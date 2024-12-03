@@ -1,0 +1,4 @@
+
+ 
+ Sparse Coding (SC), which models the data vectors as sparse linear combinations over basis vectors (i.e., dictionary), has been widely applied in machine learning, signal processing and neuroscience. Recently, one specific SC technique, Group Sparse Coding (GSC), has been proposed to learn a common dictionary over multiple different groups of data, where the data groups are assumed to be pre-defined. In practice, this may not always be the case. In this paper, we propose Automatic Group Sparse Coding (AutoGSC), which can (1) discover the hidden data groups; (2) learn a common dictionary over different data groups; and (3) learn an individual dictionary for each data group. Finally, we conduct experiments on both synthetic and real world data sets to demonstrate the effectiveness of AutoGSC, and compare it with traditional sparse coding and Nonnegative Matrix Factorization (NMF) methods.
+ 

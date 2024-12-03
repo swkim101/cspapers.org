@@ -1,0 +1,4 @@
+
+ 
+ The aim of a modern Building Automation System (BAS) is to enhance interactive control strategies for energy efficiency and user comfort. In this context, we develop a novel control algorithm that uses a stochastic building occupancy model to improve mean energy efficiency while minimizing expected discomfort. We compare by simulation our Stochastic Model Predictive Control (SMPC) strategy to the standard heating control method to empirically demonstrate a 4.3% reduction in energy use and 38.3% reduction in expected discomfort.
+ 

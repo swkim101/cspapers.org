@@ -1,0 +1,1 @@
+This paper describes the implementation of a biologically-inspired non-learning artificial neural network for robot motion planning on the Pioneer 2DX robot. This motion planner fits within the Saphira operating system. The deliberative ANN motion planner is able to respond to changing situations in real time and complements the reactive behaviours.

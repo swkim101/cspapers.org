@@ -1,0 +1,1 @@
+The aim of this paper is to propose a new resolution framework for the SAT and MAX-SAT problems which introduces a third truth value undefined in order to improve the resolution efficiency. Using this framework, we have adapted the classic algorithms Tabu Search andWalksat. Promising results are obtained and show the interest of our approach.

@@ -1,0 +1,4 @@
+
+ 
+ Planning as satisfiability is a principal approach to planning with many eminent advantages. The existing planning as satisfiability techniques usually use encodings compiled from the STRIPS formalism. We introduce a novel SAT encoding scheme based on the SAS+ formalism. It exploits the structural information in the SAS+ formalism, resulting in more compact SAT instances and reducing the number of clauses by up to 50 fold. Our results show that this encoding scheme improves upon the STRIPS-based encoding, in terms of both time and memory efficiency.
+ 

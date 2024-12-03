@@ -1,0 +1,1 @@
+We propose a new paradigm for displaying comments: showing comments alongside parts of the article they correspond to. We evaluate the effectiveness of various approaches for this task and show that a combination of bag of words and topic models performs the best.

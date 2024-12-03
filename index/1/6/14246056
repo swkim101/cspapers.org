@@ -1,0 +1,4 @@
+
+ 
+ Logic, and declarative representation of knowledge in general, have long been a preferred framework for problem solving in AI. However, specific subareas of AI have been eager to abandon general-purpose knowledge representation in favor of methods that seem to address their computational core problems better. In planning, for example, state-space search has in the last several years been preferred to logic-based methods such as SAT. In our recent work, we have demonstrated that the observed performance differences between SAT and specialized state-space search methods largely go back to the difference between a blind (or at least planning-agnostic) and a planning-specific search method. If SAT search methods are given even simple heuristics which make the search goal-directed, the efficiency differences disappear.
+ 

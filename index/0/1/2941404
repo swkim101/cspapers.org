@@ -1,0 +1,5 @@
+Access control misconfigurations are widespread and can result in damaging breaches of confidentiality. This paper presents TightLip, a privacy management system that helps users define what data is sensitive and who is trusted to see it rather than forcing them to understand or predict how the interactions of their software packages can leak data. 
+ 
+The key mechanism used by TightLip to detect and prevent breaches is the doppelganger process. Doppelgangers are sandboxed copy processes that inherit most, but not all, of the state of an original process. The operating system runs a doppelganger and its original in parallel and uses divergent process outputs to detect potential privacy leaks. 
+ 
+Support for doppelgangers is compatible with legacy-code, requires minor modifications to existing operating systems, and imposes negligible overhead for common workloads. SpecWeb99 results show that Apache running on a TightLip prototype exhibits a 5% slowdown in request rate and response time compared to an unmodified server environment.

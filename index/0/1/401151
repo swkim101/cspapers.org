@@ -1,0 +1,4 @@
+
+ 
+ The emergence of location based social network (LBSN) services makes it possible to study individuals’ mobility patterns at a fine-grained level and to see how they are impacted by social factors. In this study we analyze the check-in patterns in LBSN and observe significant temporal clustering of check-in activities. We explore how self-reinforcing behaviors, social factors, and exogenous effects contribute to this clustering and introduce a framework to distinguish these effects at the level of individual check-ins for both users and venues. Using check-in data from three major cities, we show not only that our model can improve prediction of future check-ins, but also that disentangling of different factors allows us to infer meaningful properties of different venues.
+ 

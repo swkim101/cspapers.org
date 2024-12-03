@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of checking for the existence of constrained pure Nash equilibria in a subclass of polymatrix games defined on weighted directed graphs. The payoff of a player is defined as the sum of nonnegative rational weights on incoming edges from players who picked the same strategy augmented by a fixed integer bonus for picking a given strategy. These games capture the idea of coordination within a local neighbourhood in the absence of globally common strategies. We study the decision problem of checking whether a given set of strategy choices for a subset of the players is consistent with some pure Nash equilibrium or, alternatively, with all pure Nash equilibria. We identify the most natural tractable cases and show NP or coNP-completness of these problems already for unweighted DAGs.
+ 

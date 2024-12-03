@@ -1,0 +1,4 @@
+
+ 
+ We introduce Dramatis, a computational model of suspense based on a reformulation of a psychological definition of the suspense phenomenon. In this reformulation, suspense is correlated with the audience’s ability to generate a plan for the protagonist to avoid an impending negative outcome. Dramatis measures the suspense level by generating such a plan and determining its perceived likelihood of success. We report on three evaluations of Dramatis, including a comparison of Dramatis output to the suspense reported by human readers, as well as ablative tests of Dramatis components. In these studies, we found that Dramatis output corresponded to the suspense ratings given by human readers for stories in three separate domains.
+ 

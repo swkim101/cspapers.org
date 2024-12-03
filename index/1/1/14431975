@@ -1,0 +1,1 @@
+We describe a fully polynomial randomized approximation scheme for the problem of determining the number of Hamiltonian cycles in an n-vertex graph with minimum degree (i+~)n, for any fixed E > 0. We show that the exact counting problem is #P-complete. We also describe a fully polynomial randomized approximation scheme for counting cycles of all sizes in such graphs.

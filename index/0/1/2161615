@@ -1,0 +1,2 @@
+Given some test case, a program fails. Which part of the test case is responsible for the particular failure? We show how our delta debugging algorithm generalizes and simplifies some failing input to a minimal test case that produces the failure.
+In a case study, the Mozilla web browser crashed after 95 user actions. Our prototype implementation automatically simplified the input to 3 relevant user actions. Likewise, it simplified 896~lines of HTML to the single line that caused the failure. The case study required 139 automated test runs, or 35 minutes on a 500 MHz PC.

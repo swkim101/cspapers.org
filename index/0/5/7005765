@@ -1,0 +1,4 @@
+
+ 
+ There are two complementary ways to evaluate planning algorithms: performance on benchmark problems derived from real applications and analysis of performance on parametrized families of problems with known properties. Prior to this work, few means of generating parametrized families of hard planning problems were known. We generate hard planning problems from the solvable/unsolvable phase transition region of well-studied NP-complete problems that map naturally to navigation and scheduling, aspects common to many planning domains. We observe significant differences between state-of-the-art planners on these problem families, enabling us to gain insight into the relative strengths and weaknesses of these planners. Our results confirm exponential scaling of hardness with problem size, even at very small problem sizes. These families provide complementary test sets exhibiting properties not found in existing benchmarks.
+ 

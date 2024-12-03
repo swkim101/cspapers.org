@@ -1,0 +1,4 @@
+
+ 
+ With rapid population growth and urbanization, emergency services in various cities around the world worry that the current transportation infrastructure is no longer adequate for large-scale evacuations. This paper considers how to mitigate this issue through infrastructure upgrades, such as the additions of lanes to road segments and the raising of bridges and roads. The paper proposes a MIP model for deciding the most effective infrastructure upgrades as well as a Benders decomposition approach where the master problem jointly plans the upgrades and evacuation routes and the subproblem schedules the evacuation itself. Experimental results demonstrate the practicability of the approach on a real case study, filling a significant need for emergencies services.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Link prediction and multi-label learning on graphs are two important but challenging machine learning problems that have broad applications in diverse fields. Not only are the two problems inherently correlated and often appear concurrently, they are also exacerbated by incomplete data. We develop a novel algorithm to solve these two problems jointly under a unified framework, which helps reduce the impact of graph noise and benefits both tasks individually. We reduce multi-label learning problem into an additional link prediction task and solve both problems with marginalized denoising, which we co-regularize with Laplacian smoothing. This approach combines both learning tasks into a single convex objective function, which we optimize efficiently with iterative closed-form updates. The resulting approach performs significantly better than prior work on several important real-world applications with great consistency.
+ 

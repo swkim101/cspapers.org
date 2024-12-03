@@ -1,0 +1,5 @@
+Non-oblivious hashing, where the information gathered by performing “unsuccessful” probes determines the probe strategy, is introduced and used to obtain the following results for static lookup on full tables:<list><item>An <italic>&Ogr;</italic>(1) worst case scheme that requires only logarithmic additional memory (improving on the [FKS84] linear space upper bound).
+</item><item>An almost sure <italic>&Ogr;</italic>(1) probabilistic worst case scheme, without any additional memory (improving on previous logarithmic time upper bounds).
+</item><item>Enhancements to hashing: Solving (a) and (b) in the multikey record environment, search can be performed under any key in time <italic>&Ogr;</italic>(1); finding the nearest neighbor, the rank, etc. in logarithmic time.
+</item></list>
+Our non-oblivious upper bounds are much better than the appropriate oblivious lower bounds.

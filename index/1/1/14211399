@@ -1,0 +1,1 @@
+In this paper we introduce methodology to determine the bifurcation structure of optima for a class of similar cost functions from Rate Distortion Theory, Deterministic Annealing, Information Distortion and the Information Bottleneck Method. We also introduce a numerical algorithm which uses the explicit form of the bifurcating branches to find optima at a bifurcation point.

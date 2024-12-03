@@ -1,0 +1,6 @@
+Deep learning has made remarkable achievements for single image haze removal. However, existing deep dehazing models only give deterministic results without discussing the uncertainty of them. 
+ There exist two types of uncertainty in the dehazing models: aleatoric uncertainty that comes from noise inherent in the observations and epistemic uncertainty that accounts for uncertainty in the model.
+ In this paper, we propose a novel uncertainty-driven dehazing network (UDN) that improves the dehazing results by exploiting the relationship between the uncertain and confident representations. 
+ We first introduce an Uncertainty Estimation Block (UEB) to predict the aleatoric and epistemic uncertainty together. Then, we propose an Uncertainty-aware Feature Modulation (UFM) block to adaptively enhance the learned features. UFM predicts a convolution kernel and channel-wise modulation cofficients conitioned on the uncertainty weighted representation.
+ Moreover, we develop an uncertainty-driven self-distillation loss to improve the uncertain representation by transferring the knowledge from the confident one.
+ Extensive experimental results on synthetic datasets and real-world images show that UDN achieves significant quantitative and qualitative improvements, outperforming the state-of-the-arts.

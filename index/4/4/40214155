@@ -1,0 +1,1 @@
+This paper gives a new deamortized solution to the sequential-file-maintenance problem. The data structure uses several new tools for solving this historically complicated problem. These tools include an unbalanced ternary-tree layout embedded in the sparse table, one-way rebalancing, and extra structural properties to keep interaction among rebalances to a minimum.

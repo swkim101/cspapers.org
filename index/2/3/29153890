@@ -1,0 +1,4 @@
+
+ 
+ Recent successes in applying Deep Learning techniques on Reinforcement Learning algorithms have led to a wave of breakthrough developments in agent theory and established the field of Deep Reinforcement Learning (DRL). While DRL has shown great results for single task learning, the multi-task case is still underrepresented in the available literature. This D.Sc. research proposal aims at extending DRL to the multi- task case by leveraging the power of Transfer Learning algorithms to improve the training time and results for multi-task learning. Our focus lies on defining a novel framework for scalable DRL agents that detects similarities between tasks and balances various TL techniques, like parameter initialization, policy or skill transfer.
+ 

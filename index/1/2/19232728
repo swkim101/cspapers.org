@@ -1,0 +1,4 @@
+
+ 
+ We propose the first privacy-preserving approach to address the privacy issues that arise in multi-agent planning problems modeled as a Dec-POMDP. Our solution is a distributed message-passing algorithm based on trials, where the agents' policies are optimized using the cross-entropy method. In our algorithm, the agents' private information is protected using a public-key homomorphic cryptosystem. We prove the correctness of our algorithm and analyze its complexity in terms of message passing and encryption/decryption operations. Furthermore, we analyze several privacy aspects of our algorithm and show that it can preserve the agent privacy of non-neighbors, model privacy, and decision privacy. Our experimental results on several common Dec-POMDP benchmark problems confirm the effectiveness of our approach.
+ 

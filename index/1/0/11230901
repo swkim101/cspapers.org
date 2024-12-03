@@ -1,0 +1,4 @@
+
+ 
+ Use of game theoretical models to derive randomized mobile robot patrolling strategies has recently received a growing attention. We focus on the problem of patrolling environments with arbitrary topologies using multiple robots. We address two important issues cur rently open in the literature. We determine the smallest number of robots needed to patrol a given environment and we compute the optimal patrolling strategies along several coordination dimensions. Finally, we experimentally evaluate the proposed techniques.
+ 

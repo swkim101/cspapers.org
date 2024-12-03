@@ -1,0 +1,7 @@
+The "Circuit Fix-it Shoppe" is a voice interactive dialog system which has been constructed in our laboratory. The mission of the system is to help people repair electronic circuits. The system contains a domain modeler, a reasoning system, a dialog controller, a user modeling system, an error-correcting natural language parser, and a natural language generator. A commercial speech recognizer and speech synthesizer are used for voice input and output. More detailed information about our dialog system can be found in [1] and [2]. 
+ 
+This videotape records two live dialogs between the Circuit Fix-it Shoppe program and a user who has no special knowledge of computers, electronic repair, or our system. A brief description of the experimental setup and of the Circuit Fix-it Shoppe program precedes these dialogs. 
+ 
+The Circuit Fix-it Shoppe program is capable of varying its level of initiative. It can be highly directive, in which case it controls the conversation, or it may be passive, in which case the user controls the dialog, or it may take some level of initiative between these two extremes. In the first videotape demonstration, the system is running in directive mode. In this second demonstration, the system is set to operate in declarative mode. In this mode, the user is free to take the initiative and to control the conversation. Declarative mode is appropriate for users who are much more familiar with the circuit and require only minimal help from the computer. 
+ 
+Duration: 11 minutes 50 seconds. Tape format: VHS.

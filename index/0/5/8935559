@@ -1,0 +1,7 @@
+Abstract
+ We show that n lines in 3-space can be cut into 
+ O(n2-1/69log16/69n) pieces, such that all depth cycles 
+ defined by triples of lines are eliminated. This partially resolves 
+ a long-standing open problem in computational geometry, motivated by
+ hidden-surface removal in computer graphics.
+

@@ -1,0 +1,1 @@
+The Metropolis algorithm is a widely used procedure for sampling from a specified distribution on a large finite set. We survey what is rigorously known about running times. This includes work from statistical physics, computer science, probability, and statistics. Some new results (Propositions 6.1?6.5) are given as an illustration of the geometric theory of Markov chains.

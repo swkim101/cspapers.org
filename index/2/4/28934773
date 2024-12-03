@@ -1,0 +1,4 @@
+
+ 
+ Explicit concept space models have proven efficacy for text representation in many natural language and text mining applications. The idea is to embed textual structures into a semantic space of concepts which captures the main topics of these structures. Despite their wide applicability, existing models have many shortcomings such as sparsity and being restricted to Wikipedia as the main knowledge source from which concepts are extracted. In this paper we highlight some of these limitations. We also describe Mined Semantic Analysis (MSA); a novel concept space model which employs unsupervised learning in order to uncover implicit relations between concepts. MSA leverages the discovered concept-concept associations to enrich the semantic representations. We evaluate MSA’s performance on benchmark data sets for measuring lexical semantic relatedness. Empirical results show superior performance of MSA compared to prior state-of-the-art methods.
+ 

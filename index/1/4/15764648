@@ -1,0 +1,4 @@
+
+ 
+ The implication problem of probabilistic conditional independencies is investigated in the presence of missing data. Here, graph separation axioms fail to hold for saturated conditional independencies, unlike the known idealized case with no missing data. Several axiomatic, algorithmic, and logical characterizations of the implication problem for saturated conditional independencies are established. In particular, equivalences are shown to the implication problem of a propositional fragment under Levesque's situations, and that of Lien's class of multivalued database dependencies under null values.
+ 

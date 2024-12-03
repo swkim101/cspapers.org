@@ -1,0 +1,1 @@
+Choice-based conjoint analysis builds models of consumer preferences over products with answers gathered in questionnaires. Our main goal is to bring tools from the machine learning community to solve this problem more efficiently. Thus, we propose two algorithms to quickly and accurately estimate consumer preferences.

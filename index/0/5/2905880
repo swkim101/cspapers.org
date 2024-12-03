@@ -1,0 +1,1 @@
+In this paper we prove that the well-known correspondence between the forward-backward algorithm for hidden Markov models (HMMs) and belief propagation (BP) applied to HMMs can be generalized to one between BP for junction trees and the generalized inside-outside probability computation for probabilistic logic programs applied to junction trees.

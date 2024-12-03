@@ -1,0 +1,1 @@
+This paper describes a method for generating sense-tagged data using Wikipedia as a source of sense annotations. Through word sense disambiguation experiments, the authors show that the Wikipedia-based sense annotations are reliable and can be used to construct accurate sense classifiers.

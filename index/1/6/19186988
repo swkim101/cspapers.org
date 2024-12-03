@@ -1,0 +1,4 @@
+
+ 
+ Combinatorial optimisation problems often contain uncertainty that has to be taken into account to produce realistic solutions. A common way to describe the uncertainty is by means of scenarios, where each scenario describes different potential sets of problem parameters based on random distributions or historical data. While efficient algorithmic techniques exist for specific problem classes such as linear programs, there are very few approaches that can handle general Constraint Programming formulations subject to uncertainty. The goal of my PhD is to develop generic methods for solving stochastic combinatorial optimisation problems formulated in a Constraint Programming framework.
+ 

@@ -1,0 +1,5 @@
+Construction of user interfaces for most computer applications remains time consuming and difficult. This is particularly true when the user interface system must dynamically create displays integrating the use of several interface modes. This paper shows how Artificial Intelligence knowledge base and rule technology can be used to address this problem. 
+ 
+NIKL is used to model the entities of the application domain and the facilities of the user interface. Rules are written connecting the two models. These rules range from application specific to general rules of presentation. The situation to be displayed is asserted into a PENNI database. A Presentation Designer interprets this data using the domain model, chooses the appropriate rules to use in creating the display, and creates a description of the desired display in terms of the interface model. 
+ 
+A system, Integrated Interfaces, using this design for an integrated multi-modal map graphics, natural language, menu, and form interface has been created and applied to a database reporting application.

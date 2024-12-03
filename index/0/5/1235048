@@ -1,0 +1,1 @@
+(MATH) We show that the Minimum Vertex Cover problem is NP-hard to approximate to within any factor smaller than $10\sqrt{5}-21 \approx 1.36067$, improving on the previously known hardness result for a $\frac{7}{6}$ factor.

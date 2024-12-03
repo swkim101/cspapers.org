@@ -1,0 +1,1 @@
+In the following report the dynamic control of a robot leg is described. The control algorithm is trained using self-organizing feature maps. This approach belongs to the area of unsupervised learning techniques. The dynamic control is tested using a simulation system. Thereafter, it is used to control the physical robot leg.

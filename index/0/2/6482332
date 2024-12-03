@@ -1,0 +1,1 @@
+Recently, interest is growing in non-topical text classification tasks such as genre classification, sentiment analysis, and authorship profiling. We study to what extent OCR errors affect stylistic text classification from scanned documents. We find that even a relatively high level of errors in the OCRed documents does not substantially affect stylistic classification accuracy.

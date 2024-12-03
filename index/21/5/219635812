@@ -1,0 +1,6 @@
+In machine learning, training data often capture the behaviour of multiple subgroups of some underlying human population.
+When the amounts of training data for the subgroups are not controlled carefully, under-representation bias arises.
+We introduce two natural notions of subgroup fairness and instantaneous fairness to address such under-representation bias in time-series forecasting problems.
+In particular, we consider the subgroup-fair and instant-fair learning of a linear dynamical system (LDS) from multiple trajectories of varying lengths and the associated forecasting problems.
+We provide globally convergent methods for the learning problems using hierarchies of convexifications of non-commutative polynomial optimisation problems. 
+Our empirical results on a biased data set motivated by insurance applications and the well-known COMPAS data set demonstrate both the beneficial impact of fairness considerations on statistical performance and the encouraging effects of exploiting sparsity on run time.

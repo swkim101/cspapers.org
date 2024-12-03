@@ -1,0 +1,1 @@
+We investigate how neural, encoder-decoder translation systems output target strings of appropriate lengths, ﬁnding that a collection of hidden units learns to explicitly implement this functionality.

@@ -1,0 +1,4 @@
+
+ 
+ We present MM, the first bidirectional heuristic search algorithm whose forward and backward searches are guaranteed to ''meet in the middle'', i.e. never expand a node beyond the solution midpoint. We also present a novel framework for comparing MM, A*, and brute-force search, and identify conditions favoring each algorithm. Finally, we present experimental results that support our theoretical analysis.
+ 

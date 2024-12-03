@@ -1,0 +1,4 @@
+
+ 
+ The memory requirements of basic best-first heuristic search algorithms like A* make them infeasible for solving large problems. External disk storage is cheap and plentiful com- pared to the cost of internal RAM. Unfortunately, state-of- the-art external memory search algorithms either rely on brute-force search techniques, such as breadth-first search, or they rely on all node values falling in a narrow range of in- tegers, and thus perform poorly on real-world domains with real-valued costs. We present a new general-purpose algo- rithm, PEDAL, that uses external memory and parallelism to perform a best-first heuristic search capable of solving large problems with real costs. We show theoretically that PEDAL is I/O efficient and empirically that it is both better on a stan- dard unit-cost benchmark, surpassing internal IDA* on the 15-puzzle, and gives far superior performance on problems with real costs.
+ 

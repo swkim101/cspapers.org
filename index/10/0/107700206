@@ -1,0 +1,14 @@
+This work proposes an innovative app 
+navigation path-planning problem 
+exploration rovers by including terrain characteristics. 
+The objective is to enhance the typical 2D arithmetical 
+cost function by adding 3D information computed from 
+the laser-scanned terrain such as terrain height, slopes, 
+shadows, orientation and terrain roughness. 
+This paper describes the algorithm developed by UPM 
+and GMV and the tests made at the GMV outdoor test 
+facilities using the Moon-Hound rover. This rover is a 
+50 Kg rover including a Sick laser mounted on a 
+pan&tilt unit for generation of 3D Digital Elevation 
+Models (DEM’s). Experimental results have shown the 
+effectiveness of the proposed approach.

@@ -1,0 +1,1 @@
+A Context Addressed Segment Sequential Memory (CASSM) was built to evaluate several techniques for nonnumeric processing. Herein, it is described from the architectural point-of-view. The basic architecture is introduced, information, data and storage structures are discussed, and the principles of disc searching used by CASSM are discussed.

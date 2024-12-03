@@ -1,0 +1,1 @@
+Nonlinear recursive queries are usually less efficient in processing than linear recursive queries. It is therefore of interest to transform non-linear recursive queries into linear ones. We obtain a necessary and sufficient condition for a doubly recursive rule of a certain type to be logically equivalent to a single linear recursive rule obtained in a specific way.

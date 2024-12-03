@@ -1,0 +1,4 @@
+
+ 
+ Online mechanism design has been widely applied to various practical applications. However, designing a strategy-proof online mechanism is much more challenging than that in a static scenario due to short of knowledge of future information. In this paper, we investigate online auctions with time discounting values, in contrast to the flat values studied in most of existing work. We present a strategy-proof 2-competitive online auction mechanism despite of time discounting values. We also implement our design and compare it with off-line optimal solution. Our numerical results show that our design achieves good performance in terms of social welfare, revenue, average winning delay, and average valuation loss.
+ 

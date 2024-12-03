@@ -1,0 +1,23 @@
+Monitoring machine learning models once they are deployed
+is challenging. It is even more challenging to decide when
+to retrain models in real-case scenarios when labeled data is
+beyond reach, and monitoring performance metrics becomes
+unfeasible. In this work, we use non-parametric bootstrapped
+uncertainty estimates and SHAP values to provide explainable
+uncertainty estimation as a technique that aims to monitor
+the deterioration of machine learning models in deployment
+environments, as well as determine the source of model deteri-
+oration when target labels are not available. Classical methods
+are purely aimed at detecting distribution shift, which can lead
+to false positives in the sense that the model has not deterio-
+rated despite a shift in the data distribution. To estimate model
+uncertainty we construct prediction intervals using a novel
+bootstrap method, which improves previous state-of-the-art
+work. We show that both our model deterioration detection
+system as well as our uncertainty estimation method achieve
+better performance than the current state-of-the-art. Finally,
+we use explainable AI techniques to gain an understanding
+of the drivers of model deterioration. We release an open
+source Python package, doubt, which implements our pro-
+posed methods, as well as the code used to reproduce our
+experiments.

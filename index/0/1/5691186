@@ -1,0 +1,1 @@
+Usage control is a generalization of access control that also addresses how data is used after it is released. We present a formal model for different mechanisms that can enforce usage control policies on the consumer side.

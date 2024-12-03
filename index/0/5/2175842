@@ -1,0 +1,1 @@
+This paper describes a method for formally modelling digital logic using algebraic relations. The types of relations necessary for modelling digital logic at the register-transfer (RT) level are developed. An extension of the model is shown which can be used for logic synthesis at the RT level.

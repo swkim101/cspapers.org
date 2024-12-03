@@ -1,0 +1,1 @@
+A new control architecture is introduced. It is highly testable, and it will support both simple and complex instruction sets. The flexibility is achieved by use of allocable-storage (AS) blocks. An AS block may be assigned to the control part to hold the microcode, or it may be assigned to the data part to hold data or instructions.

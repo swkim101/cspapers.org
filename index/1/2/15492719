@@ -1,0 +1,4 @@
+
+ 
+ Blocking is a technique commonly used in manual statistical analysis to account for confounding variables. However, blocking is not currently used in automated learning algorithms. These algorithms rely solely on statistical conditioning as an operator to identify conditional independence. In this work, we present relational blocking as a new operator that can be used for learning the structure of causal models. We describe how blocking is enabled by relational data sets, where blocks are determined by the links in the network. By blocking on entities rather than conditioning on variables, relational blocking can account for both measured and unobserved variables. We explain the mechanism of these methods using graphical models and the semantics of d-separation. Finally, we demonstrate the effectiveness of relational blocking for use in causal discovery by showing how blocking can be used in the causal analysis of two real-world social media systems.
+ 

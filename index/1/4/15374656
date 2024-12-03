@@ -1,0 +1,1 @@
+A bisection of a graph with n vertices is a partit ion of its vertices into two sets, each of size n/2. The bisection size is the number of edges connecting the two sets. Finding the bisection of minimum size is NP-hard. We present an algorithm that finds a bisection that is within O(v/-nlogn) of optimal. No sublinear approximation ratio for bisection was previously known.

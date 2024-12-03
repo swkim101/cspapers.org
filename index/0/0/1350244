@@ -1,0 +1,5 @@
+A view of the semantics of a relational data base consists in considering that the data base domains represent the sets of objects of the subject matter and that the relations represent various kinds of associations among these objects. This view is supported by query languages where each variable ranges on a domain of the relational data base and predicates correspond to the associations modeled by relations. 
+ 
+This paper defines two domain-oriented relational languages. DRC is a many-sorted calculus, where the structural role of domains is emphasized by defining types for variables and type-checking rules. ILL is an English-like language, which is wholly built upon a structure of expressions nested inside other expressions. 
+ 
+"Domain-languages" are contrasted with "tuple languages", which manipulate as basic objects the relation n-tuples. Directly manipulating domains and domain values interacts more directly with the semantics expressed by the relations and produces simpler and more English-like languages.

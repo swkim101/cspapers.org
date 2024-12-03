@@ -1,0 +1,4 @@
+Distributed systems like grid support diverse models of dis- 
+tributed computation and need to operate large data entities in a dis- 
+tributed way. A significant quantity of this data are used only for a 
+limited period of time. Caching is recognized as one of the most effective techniques to manage temporary data and collaborative cache is traditionally proposed to scale cache capabilities in distributed environments. Grid needs to manage dynamically different models of computation with different data access patterns. In this paper, we propose a basic infrastructure for the management of collaborative caches that permits to operate and control dynamically different cache mechanisms and cache schemes in grid.

@@ -1,0 +1,2 @@
+Traditionally, automatic IC layout programs have been constrained to produced designs in which cells are placed in rows.
+ The resulting chips are typically too large, compared to manual layout, to be used for high-volume production. FLOSS uses a new approach &emdash; automatic packing of a manually-generated sketch &emdash; to achieve chip area that is competitive with manual layout.

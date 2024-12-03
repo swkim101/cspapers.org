@@ -1,0 +1,2 @@
+This embedded tutorial explores some of the options for verification in the territory between current methods based simulation and emulation, and formal verification, Topics covered will include: coverage metrics and their effectiveness at uncovering bugs, symbolic simulation for partial formal verification, and directed search of a design.
+ criterion, examples demonstrate that accurate approximations are possible well into the RF frequency range even with expansions about s=0.

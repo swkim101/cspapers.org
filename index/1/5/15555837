@@ -1,0 +1,5 @@
+This paper presents the design and implementation of a simple continuous media storage server: CRAS on Real-Time Mach. CRAS is a specially optimized storage system for retrieving multiple continuous media streams such as audio and video from a disk at constant rates for small scale distributed multimedia systems. 
+ 
+Many previous continuous media storage servers have focussed on high throughput for supporting as many video sessions as possible. However, these servers are too big and complicated for playback applications that retrieve continuous media data from the local disks of personal computers. Also, there are many continuous media systems requiring small continuous media storage servers that can be shared by a small number of applications. To reduce hardware costs, the servers should run on less powerful computers. This means that the previous big and complicated servers are not appropriate for such small scale environments. 
+ 
+We show that our simple continuous media server for small scale systems can guarantee the retrieval of continuous media data at a constant rate, and provide high throughput even though it is compact and simple.

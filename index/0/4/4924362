@@ -1,0 +1,4 @@
+
+ 
+ The heavy burdens of computation and off-chip traffic impede deploying the large scale convolution neural network on embedded platforms. As CNN is attributed to the strong endurance to computation errors, employing block floating point (BFP) arithmetics in CNN accelerators could save the hardware cost and data traffics efficiently, while maintaining the classification accuracy. In this paper, we verify the effects of word width definitions in BFP to the CNN performance without retraining. Several typical CNN models, including VGG16, ResNet-18, ResNet-50 and GoogLeNet, were tested in this paper. Experiments revealed that 8-bit mantissa, including sign bit, in BFP representation merely induced less than 0.3% accuracy loss. In addition, we investigate the computational errors in theory and develop the noise-to-signal ratio (NSR) upper bound, which provides the promising guidance for BFP based CNN engine design.
+ 

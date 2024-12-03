@@ -1,0 +1,4 @@
+
+ 
+ Influence maximization problem is to find a set of seed nodes in a social network such that their influence spread is maximized under certain propagation models. A few algorithms have been proposed for solving this problem. However, they have not considered the impact of novelty decay on influence propagation, i.e., repeated exposures will have diminishing influence on users. In this paper, we consider the problem of influence maximization with novelty decay (IMND). We investigate the effect of novelty decay on influence propagation on real-life datasets and formulate the IMND problem. We further analyze the problem properties and propose an influence estimation technique. We demonstrate the performance of our algorithms on four social networks.
+ 

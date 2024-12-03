@@ -1,0 +1,14 @@
+Pruning has been an effective solution to reduce the number of computations and the memory requirement in deep learning.
+The pruning unit plays an important role in exploiting the GPU resources efficiently. 
+The filter is proposed as a simple pruning unit of structured pruning.
+However, since the filter is quite large as pruning unit, the accuracy drop is considerable with a high pruning ratio.
+GPU rearranges the weight and input tensors into tiles (blocks) for efficient computation. 
+To fully utilize GPU resources, this tile structure should be considered, which is the goal of block pruning. 
+However, previous block pruning prunes both row vectors and column vectors. 
+Pruning of row vectors in a tile corresponds to filter pruning, and it also interferes with column-wise block pruning of the following layer.
+In contrast, column vectors are much smaller than row vectors and can achieve lower accuracy drop.
+Additionally, if the pruning ratio for each tile is different,
+GPU utilization can be limited by imbalanced workloads by irregular-sized blocks.
+The same pruning ratio for the weight tiles processed in parallel enables the actual inference process to fully utilize the resources without idle time.
+This paper proposes balanced column-wise block pruning, named BCBP, to satisfy two conditions: the column-wise minimal size of the pruning unit and balanced workloads. 
+We demonstrate that BCBP is superior to previous pruning methods through comprehensive experiments.

@@ -1,0 +1,1 @@
+Many web pages have implicit structure. In this paper, we show the feasibility of automatically extracting data from web pages by using approximate matching techniques. This can be applied to generate automatic wrappers or to notify/display web page differences, web page change monitoring, etc.

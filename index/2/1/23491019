@@ -1,0 +1,5 @@
+We have been fortunate in having the opportunity to work with IBM in the field testing and final debugging of a computer program for the analysis of large space frames (FRAN). We are also pleased that M.I.T. Lincoln Laboratory sponsorship enabled us to develop and contribute the subroutine (CHECK) which provides a static check at every joint in the structure.
+ This presentation consists of three parts:
+ 1. A description of FRAN; this will include a brief resume of both the structural theory involved and of the method of solution used by the program.
+ 2. The method by which other structural types can be treated as space frames for the purpose of analysis.
+ 3. A discussion of the application of these methods in the analysis of a large antenna consisting of a 120 ft diameter reflector shell and its supporting structure.

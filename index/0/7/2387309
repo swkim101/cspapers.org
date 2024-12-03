@@ -1,0 +1,4 @@
+
+ 
+ The convolutional neural network (ConvNet or CNN) has proven to be very successful in many tasks such as those in computer vision. In this conceptual paper, we study the generative perspective of the discriminative CNN. In particular, we propose to learn the generative FRAME (Filters, Random field, And Maximum Entropy) model using the highly expressive filters pre-learned by the CNN at the convolutional layers. We show that the learning algorithm can generate realistic and rich object and texture patterns in natural scenes. We explain that each learned model corresponds to a new CNN unit at a layer above the layer of filters employed by the model. We further show that it is possible to learn a new layer of CNN units using a generative CNN model, which is a product of experts model, and the learning algorithm admits an EM interpretation with binary latent variables.
+ 

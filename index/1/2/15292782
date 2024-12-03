@@ -1,0 +1,4 @@
+
+ 
+ Since Assumption-Based Argumentation (ABA) was introduced in the nineties,the structure and semantics of an ABA framework have been studied exclusively in logical termswithout any graphical representation.Here, we show how an ABA framework and its complete semantics can be displayed in a graph,clarifying the structure of the ABA framework as well as the resulting complete assumption labellings.Furthermore, we show that such an ABA graph can be used to represent the structureand semantics of a logic program (LP), based on the correspondence between the semantics of a LP and an ABA framework encoding this LP.
+ 

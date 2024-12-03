@@ -1,0 +1,3 @@
+Many users need 64-bit architectures: 32-bit systems cannot support the largest applications, and 64-bit systems perform better for some applications. However, performance on some other applications can suffer from the use of large pointers; large pointers can also constrain feasible problem size. Such applications are best served by a 64-bit machine that supports the use of both 32-bit and 64-bit pointer variables. 
+ 
+This paper analyzes several programs and programming techniques to understand the performance implications of different pointer sizes. Many (but not all) programs show small but definite performance consequences, primarily due to cache and paging effects.

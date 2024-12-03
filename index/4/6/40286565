@@ -1,0 +1,5 @@
+We describe a new practical domain independent task planner, called ShaPer, specially designed to deal efficiently with large problems. 
+ 
+ShaPer performs in two steps. In the first step, executed off-line for a given domain subclass, ShaPer explores and builds a compact representation of the state space called the shape graph. The main contribution of ShaPer is its ability to "resist" to combinatorial explosion thanks to the manipulation of sets of similar state descriptions called shapes. The shape graph is then used by ShaPer to answer very efficiently to planning requests. 
+ 
+A first version of the planner has been implemented. It has been tested on several well known benchmark domains. The results are very promising when compared with themost efficient planners from AIPS-2000 competition.

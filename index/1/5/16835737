@@ -1,0 +1,4 @@
+
+ 
+ Minimum Vertex Cover (MinVC) is a well known NP-hard combinatorial optimization problem, and local search has been shown to be one of the most effective approaches to this problem. State-of-the-art MinVC local search algorithms employ edge weighting techniques and prefer to select vertices with higher weighted score. These algorithms are not robust and especially have poor performance on instances with structures which defeat greedy heuristics. In this paper, we propose a vertex weighting scheme to address this shortcoming, and combine it within the current best MinVC local search algorithm NuMVC, leading to a new algorithm called TwMVC. Our experiments show that TwMVC outperforms NuMVC on the standard benchmarks namely DIMACS and BHOSLIB. To the best of our knowledge, TwMVC is the first MinVC algorithm that attains the best known solution for all instances in both benchmarks. Further, TwMVC shows superiority on a benchmark of real-world networks.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we consider the problem of jointly learning hierarchies over a set of sources and entities based on their containment relationship. We model the concept of hierarchy using a set of latent binary features and propose a generative model that assigns those latent features to sources and entities in order to maximize the probability of the observed containment. To avoid fixing the number of features beforehand, we consider a non-parametric approach based on the Indian Buffet Process. The hierarchies produced by our algorithm can be used for completing missing associations and discovering structural bindings in the data. Using simulated and real datasets we provide empirical evidence of the effectiveness of the proposed approach in comparison to the existing hierarchy agnostic approaches.
+ 

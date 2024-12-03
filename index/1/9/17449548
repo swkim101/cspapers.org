@@ -1,0 +1,1 @@
+String similarity metrics are used for several purposes in text-processing. One task is the extraction of cognates from bilingual text. In this paper three approaches to the automatic generation of language dependent string matching functions are present

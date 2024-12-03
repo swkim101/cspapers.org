@@ -1,0 +1,1 @@
+We present and experimentally evaluate the hypothesis that cooperative parallel search is well suited for hard graph coloring problems near a previously identified transition between under- and overconstrained instances. We find that simple cooperative methods can often solve such problems faster than the same number of independent agents.

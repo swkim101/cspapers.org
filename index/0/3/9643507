@@ -1,0 +1,1 @@
+Recent micro-architectural research has proposed various schemes to enhance processors with additional tags to track various properties of a program. Such a technique, which is usually referred to as information flow tracking, has been widely applied to secure software execution (e.g., taint tracking), protect software privacy and improve performance (e.g., control speculation).

@@ -1,0 +1,4 @@
+
+ 
+ We present a highly efficient incremental algorithm for propagating bounded knapsack constraints. Our algorithm is based on the sublinear filtering algorithm for binary knapsack constraints by Katriel et al. and achieves similar speed-ups of one to two orders of magnitude when compared with its linear-time counterpart. We also show that the representation of bounded knapsacks as binary knapsacks leads to ineffective filtering behavior. Experiments on standard knapsack benchmarks show that the new algorithm significantly outperforms existing methods for handling bounded knapsack constraints.
+ 

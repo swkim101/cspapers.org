@@ -1,0 +1,5 @@
+A fundamental question in social choice and multi-agent systems is aggregating ordinal preferences expressed by agents into a measurably prudent collective choice. A promising line of recent work views ordinal preferences as a proxy for underlying cardinal preferences. It aims to optimize distortion, the worst-case approximation ratio of the (utilitarian) social welfare. When agents rank the set of alternatives, prior work identifies near-optimal voting rules for selecting one or more alternatives. However, ranking all the alternatives is prohibitive when there are many alternatives. 
+
+
+
+In this work, we consider the setting where each agent ranks only her t favorite alternatives and identify almost tight bounds on the best possible distortion when selecting a single alternative or a committee of alternatives of a given size k. Our results also extend to approximating higher moments of social welfare. Along the way, we close a gap left open in prior work by identifying asymptotically tight distortion bounds for committee selection given full rankings.

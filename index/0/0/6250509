@@ -1,0 +1,4 @@
+
+ 
+ We describe a memory-efficient implementation of a dynamic programming algorithm for learning the optimal structure of a Bayesian network from training data. The algorithm leverages the layered structure of the dynamic programming graphs representing the recursive decomposition of the problem to reduce the memory requirements of the algorithm from O(n2n) to O(C(n, n/2)), where C(n, n/2) is the binomial coefficient. Experimental results show that the approach runs up to an order of magnitude faster and scales to datasets with more variables than previous approaches.
+ 

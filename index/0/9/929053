@@ -1,0 +1,1 @@
+HPSIM2 is a second generation simulator for AHPL featuring a conditional input syntax. HPSIM2 replaces a less efficient simulator in an AHPL software package which includes a hardware compiler.

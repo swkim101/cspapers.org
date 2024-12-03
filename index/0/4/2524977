@@ -1,0 +1,1 @@
+In this report, we describe a Theano-based AlexNet (Krizhevsky et al., 2012) implementation and its naive data parallelism on multiple GPUs. Our performance on 2 GPUs is comparable with the state-of-art Caffe library (Jia et al., 2014) run on 1 GPU. To the best of our knowledge, this is the first open-source Python-based AlexNet implementation to-date.

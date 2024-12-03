@@ -1,0 +1,4 @@
+
+ 
+ With the rapid growth of event-based social networks (EBSNs) like Meetup, the demand for event recommendation becomes increasingly urgent. In EBSNs, event recommendation plays a central role in recommending the most relevant events to users who are likely to participate in. Different from traditional recommendation problems, event recommendation encounters three new types of information, i.e., heterogenous online+offline social relationships, geographical features of events and implicit rating data from users. Yet combining the three types of data for offline event recommendation has not been considered. Therefore, we present a Bayesian latent factor model that can unify these data for event recommendation. Experimental results on real-world data sets show the performance of our method.
+ 

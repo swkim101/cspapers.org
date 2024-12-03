@@ -1,0 +1,4 @@
+
+ 
+ Textual complexity is widely used to assess the difficulty of reading materials and writing quality in student essays. At a lexical level, word complexity can represent a building block for creating a comprehensive model of lexical networks that adequately estimates learners’ understanding. In order to best capture how lexical associations are created between related concepts, we propose automated indices of word complexity based on Age of Exposure (AoE). AOE indices computationally model the lexical learning process as a function of a learner's experience with language. This study describes a proof of concept based on the on a large-scale learning corpus (i.e., TASA). The results indicate that AoE indices yield strong associations with human ratings of age of acquisition, word frequency, entropy, and human lexical response latencies providing evidence of convergent validity.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ ABox abduction is an important aspect for abductive reasoning in Description Logics (DLs). It finds all minimal sets of ABox axioms that should be added to a background ontology to enforce entailment of a specified set of ABox axioms. As far as we know, by now there is only one ABox abduction method in expressive DLs computing abductive solutions with certain minimality. However, the method targets an ABox abduction problem that may have infinitely many abductive solutions and may not output an abductive solution in finite time. Hence, in this paper we propose a new ABox abduction problem which has only finitely many abductive solutions and also propose a novel method to solve it. The method reduces the original problem to an abduction problem in logic programming and solves it with Prolog engines. Experimental results show that the method is able to compute abductive solutions in benchmark OWL DL ontologies with large ABoxes.
+ 

@@ -1,0 +1,1 @@
+We use deep linguistic features to predict semantic roles on syntactic arguments, and show that these perform considerably better than surface-oriented features. We also show that predicting labels from a "lightweight" parser that generates deep syntactic features performs comparably to using a full parser that generates only surface syntactic features.

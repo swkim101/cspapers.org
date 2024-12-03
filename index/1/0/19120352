@@ -1,0 +1,4 @@
+
+ 
+ It is believed that nonverbal visual information including facial expressions, facial micro-actions and head movements plays a significant role in fundamental social communication. Unfortunately it is regretful that the blind can not achieve such necessary information. Therefore, we propose a social assistant system, Lookine, to help them to go beyond this limitation. For Lookine, we apply the novel techniques including facial expression recognition, facial action recognition and head pose estimation, and obey barrier-free principles in our design. In experiments, the algorithm evaluation and user study prove that our system has promising accuracy, good real-time performance, and great user experience.
+ 

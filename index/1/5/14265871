@@ -1,0 +1,1 @@
+The combinatorial complexity of the Voronoi diagram ofnlines in three dimensions under a convex distance function induced by a polytope with a constant number of edges is shown to beO(n2?(n)logn), where ?(n) is a slowly growing inverse of the Ackermann function. There are arrangements ofnlines where this complexity can be as large as ?(n2?(n)).

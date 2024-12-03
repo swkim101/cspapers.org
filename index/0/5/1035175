@@ -1,0 +1,3 @@
+This paper presents a new method of obtaining couplings in networks.
+ We begin by introducing a new class of networks which are structural extensions of triangular permuting networks. More, by using augmented cells, we increase the functionnal capability of such networks.
+ Then we present an algorithm to solve the problem of constructing a complete coupling in such networks. This algorithm lends itself to a hardware implementation with partially distributed control.

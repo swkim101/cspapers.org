@@ -1,0 +1,6 @@
+In conventional computer systems, the computer hardware does not actually execute the user's source program. Instead, a software compiler and link editor transform the program into low level machine code which is executed by the hardware.
+ This mapping from a high-level language to a von Neumann instruction set is
+ a. Computationally costly because compilers and link editors are big and slow.
+ b. Inefficient because the object code is generally poor.
+ c. Error prone because compilers and link editors are difficult to design, debug, and maintain.
+ Furthermore, diagnostic messages for execution errors (an arithmetic overflow for example) are either cryptic and require the user to be familiar with the machine language (i.e., a dump), or the object code generated must require considerable run time overhead to permit run time errors to refer back to the users source program (i.e., pointers and tables, etc.).

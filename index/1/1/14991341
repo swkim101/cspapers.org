@@ -1,0 +1,4 @@
+
+ 
+ We perform new theoretical as well as first-time experimental studies for the NP-hard problem to find a closest ultrametric for given dissimilarity data on pairs. This is a central problem in the area of hierarchical clustering, where so far only polynomial-time approximation algorithms were known. In contrast, we develop efficient preprocessing algorithms (known as kernelization in parameterized algorithmics) with provable performance guarantees and a simple search tree algorithm. These are used to find optimal solutions. Our experiments with synthetic and biological data show the effectiveness of our algorithms and demonstrate that an approximation algorithm due to Ailon and Charikar [FOCS 2005] often gives (almost) optimal solutions.
+ 

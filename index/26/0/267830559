@@ -1,0 +1,1 @@
+We show how the electronic cash scheme in [Fer93a] can be extended to provide n-spendable coins. Furthermore, we show how observers can be incorporated in the protocols to provide prior restraint against double spending by the user, instead of just detection after the fact.

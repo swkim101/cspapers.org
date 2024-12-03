@@ -1,0 +1,1 @@
+We have designed, fabricated, and tested an analog VLSI chip which computes radial basis functions in parallel. We have developed a synapse circuit that approximates a quadratic function. We aggregate these circuits to form radial basis functions. These radial basis functions are then averaged together using a follower aggregator.

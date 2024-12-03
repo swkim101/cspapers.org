@@ -1,0 +1,5 @@
+In this paper we show, how semantic nets when interpreted as so-called conceptual schemata can be successfully made to serve as common denominator to two as yet disparate areas of artificial Intelligence and real-life data management: Knowledge Representation and Data Base design. 
+ 
+First, we describe the requirements to Semantic Nets in the context of production data bases. Next we describe the automated mapping between the Semantic Net and (possibly several) DBMSs. 
+ 
+Further we show how this formal and machine accessible mapping allows to execute formally structured English Queries, and formulate expert rules in a data base context. Implementation status and research directions for these ideas are given resp. suggested.

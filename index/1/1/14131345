@@ -1,0 +1,1 @@
+We investigated the problem of finding from a collection of strings those similar to a given query string based on edit distance, for which the critical operation is merging inverted lists of grams generated from the collection of strings. We present an efficient algorithm to accelerate the merging operation.

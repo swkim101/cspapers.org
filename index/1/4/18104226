@@ -1,0 +1,1 @@
+We define partition semantics for databases with incomplete information and we present an algorithm for query processing in the presence of incomplete information and functional dependencies. We show that Lipski's model for databases with incomplete information can be seen as a special case of our model.

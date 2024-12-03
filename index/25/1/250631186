@@ -1,0 +1,23 @@
+Previous work introduced the concept of progress
+
+states. After expanding a progress state, a greedy
+
+best-first search (GBFS) will only expand states
+
+with lower heuristic values. Current methods can
+
+identify progress states only for a single task and
+
+only after a solution for the task has been found.
+
+We introduce a novel approach that learns a description
+
+logic formula characterizing all progress
+
+states in a classical planning domain. Using the
+
+learned formulas in a GBFS to break ties in favor
+
+of progress states often significantly reduces the
+
+search effort.

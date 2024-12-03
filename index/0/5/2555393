@@ -1,0 +1,4 @@
+
+ 
+ Scripts have been proposed to model the stereotypical event sequences found in narratives. They can be applied to make a variety of inferences including fillinggaps in the narratives and resolving ambiguous references. This paper proposes the first formal frameworkfor scripts based on Hidden Markov Models (HMMs). Our framework supports robust inference and learning algorithms, which are lacking in previous clustering models. We develop an algorithm for structure andparameter learning based on Expectation Maximizationand evaluate it on a number of natural datasets. The results show that our algorithm is superior to several informed baselines for predicting missing events in partialobservation sequences.
+ 

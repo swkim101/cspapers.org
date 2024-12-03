@@ -1,0 +1,1 @@
+There has been a steady stream of research over the years into componentized network protocols: protocol implementations assembled from a variety of building blocks. A promise of such frameworks has generally been flexibility: a protocol stack tailored for a particular application can be easily assembled, usually without writing any new code, by binding protocol objects together.

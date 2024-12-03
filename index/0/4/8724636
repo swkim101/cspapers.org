@@ -1,0 +1,3 @@
+A novel unsupervised neural network for dimensionality reduction which seeks directions emphasizing multimodality is presented, and its connection to exploratory projection pursuit methods is discussed. This leads to a new statistical insight to the synaptic modification equations governing learning in Bienenstock, Cooper, and Munro (BCM) neurons (1982). 
+ 
+The importance of a dimensionality reduction principle based solely on distinguishing features, is demonstrated using a linguistically motivated phoneme recognition experiment, and compared with feature extraction using back-propagation network.

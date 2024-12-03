@@ -1,0 +1,1 @@
+Syntax-based MT systems have proven effective---the models are compelling and show good room for improvement. However, decoding involves a slow search. We present a new lazy-search method that obtains significant speedups over a strong baseline, with no loss in Bleu.

@@ -1,0 +1,1 @@
+The efficient computation of Nash equilibria is one of the most formidable challenges in computational complexity today. The problem remains open for two-player games. We show that the complexity of two-player Nash equilibria is unchanged when all outcomes are restricted to be 0 or 1. That is, win-or-lose games are as complex as the general case for two-player games.

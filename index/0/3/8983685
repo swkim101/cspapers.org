@@ -1,0 +1,1 @@
+Scalability determines the potential in distributing both data and computation in data mining. The PADMA (PArallel Data Mining Agents) architecture will be described, along with experiments on text to address scalability. PADMA agents offer parallel data access, and hierarchical clustering, with results visualized through a JAVA web-interface.

@@ -1,0 +1,4 @@
+
+ 
+ Modelling the density of an infectious disease in space and time is a task generally carried out separately from the diagnosis of that disease in individuals. These two inference problems are complementary, however: diagnosis of disease can be done more accurately if prior information from a spatial risk model is employed, and in turn a disease density model can benefit from the incorporation of rich symptomatic information rather than simple counts of presumed cases of infection. We propose a unifying framework for both of these tasks, and illustrate it with the case of malaria. To do this we first introduce a state space model of malaria spread, and secondly a computer vision based system for detecting plasmodium in microscopical blood smear images, which can be run on location-aware mobile devices. We demonstrate the tractability of combining both elements and the improvement in accuracy this brings about.
+ 

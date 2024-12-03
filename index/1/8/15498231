@@ -1,0 +1,1 @@
+The correctness of the Z semantics of OWL is the theoretical foundation of using software engineering techniques to verify Web ontologies. As OWL and Z are based on different logical systems, we use institutions to represent their underlying logical systems and use institution morphisms to prove the correctness of the Z semantics for OWL DL.

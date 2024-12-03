@@ -1,0 +1,2 @@
+This paper presents a checking model for the design of industrial automata.
+ Some typical behaviors are defined and their occurring conditions (which allow the engineer to check if its design is or isn't satisfactory) are computed with the sole set of excitation functions, without any need of the flow graph.

@@ -1,0 +1,1 @@
+Breadth-first and depth-first search are basic search strategies upon which many other search algorithms are built. In this paper, we describe an approach to integrating these two strategies in a single algorithm that combines the complementary strengths of both. We show the benefits of this approach using the treewidth problem as an example.

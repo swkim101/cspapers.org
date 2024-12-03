@@ -1,0 +1,4 @@
+
+ 
+ We study iterative randomized greedy algorithms for generating (elimination) orderings with small induced width and state space size — two parameters known to bound the complexity of inference in graphical models. We propose and implement the Iterative Greedy Variable Ordering (IGVO) algorithm, a new variant within this algorithm class. An empirical evaluation using different ranking functions and conditions of randomness, demonstrates that IGVO finds significantly better orderings than standard greedy ordering implementations when evaluated within an anytime framework. Additional order of magnitude improvements are demonstrated on a multi-core system, thus further expanding the set of solvable graphical models. The experiments also confirm the superiority of the MinFill heuristic within the iterative scheme.
+ 

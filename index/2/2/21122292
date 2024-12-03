@@ -1,0 +1,11 @@
+This paper is a general description of a system of Computer programs which perform all the routine functions, normally performed by an Engineer, encountered in designing and selecting the materials for a structural steel building from basic geometric and load data.
+ The basic sequence of operations performed by the Engineer are:
+ 1. Establish the geometry of the building.
+ 2. Determine the loads to be supported.
+ 3. Determine the lengths and location of each member in the building.
+ 4. Distribute the loads to each member in the building.
+ 5. Determine the interaction of the member loads to other members.
+ 6. Combine loads and determine the maximum load and its location on each member.
+ 7. Determine the strength required for each member using its maximum load.
+ 8. Select the lightest commercially available steel hape which meets the strength requirements.
+ Until recently only step 5 and sometimes 6 were accomplished on the computer. The MIT “STRESS” and the IBM “FRAN” are good examples of this type of program.

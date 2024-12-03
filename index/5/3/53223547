@@ -1,0 +1,1 @@
+A structure A is presented for which Hoare's formal system for partial correctness is incomplete, even if the entire first-order theory of A is included among the axioms. It follows that the language of first-order logic is insufficient to express all loop invariants. The implications of this result for program-proving are discussed.

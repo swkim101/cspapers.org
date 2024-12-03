@@ -1,0 +1,1 @@
+In this paper, we investigate the practical applicability of Co-Training for the task of building a classifier for reference resolution. We are concerned with the question if Co-Training can significantly reduce the amount of manual labeling work and still produce a classifier with an acceptable performance.

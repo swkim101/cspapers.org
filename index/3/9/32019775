@@ -1,0 +1,1 @@
+This paper addresses some of the issues involved in modeling the domain of turbojet engine operation. A causal model based on the relationships between engine parameters has been developed and used to implement an engine simulation. The implementation includes a facility for explaining the results of the simulation.

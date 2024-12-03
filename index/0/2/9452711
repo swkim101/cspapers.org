@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present an approach that jointly infers the boundaries of tokens and their labels to construct dictionaries for Information Extraction. Our approach for joint-inference is based on graph propagation, and extends it in two novel ways. First, we extend the graph representation to capture ambiguities that occur during the token extraction phase. Second, we modify the labeling phase (i.e., label propagation) to utilize this new representation, allowing evidence from labeling to be used for token extraction. Our evaluation shows these extensions (and hence our approach) significantly improve the performance of the outcome dictionaries over pipeline-based approaches by preventing aggressive commitment. Our evaluation also shows that our extensions over a base graph-propagation framework improve the precision without hurting the recall.
+ 

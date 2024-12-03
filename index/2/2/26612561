@@ -1,0 +1,3 @@
+The technique of dynamic time warping by using dynamic programming is powerful for isolated word recognition. 
+ 
+An augmented continuous dynamic programming algorithm is proposed for connected spoken word recognition with syntactical constraints. The algorithm is based on the same principle of two level DP and level building DP. Although our algorithm obtains a near optimal solution for the recognition principle based on pattern matching, it is computationaly more efficient than the conventional methods and also does not require many memory storages. Therefore it is useful for connected word recognition with syntactical constraints in a large vocabulary. The amount of computation is almost the same as that for isolated word recognition.

@@ -1,0 +1,46 @@
+
+
+Resistance to the critical first line anti-tubercular drug, Pyrazinamide, is a
+significant obstacle to achieving the global end to tuberculosis targets. Approximately 50% of multidrug-
+resistant tuberculosis and over 90% of extensively drug-resistant tuberculosis strains are also
+Pyrazinamide resistant. Pyrazinamide is a pro-drug that reduces the duration of tuberculosis therapy
+time by 9-12 months, while used as an anti-biotic in the 1st- & 2nd-line tuberculosis treatment
+regimens. Pyrazinamidase is an enzyme encoded by pncA gene, which is responsible for the amide
+hydrolysis of pyrazinamide into active pyrazinoic acid. Pyrazinoic acid can inhibit trans-translation
+by binding to ribosomal protein S1 and competing with tmRNA, the natural cofactor of ribosomal
+protein S1. Although pncA mutations have been commonly associated with pyrazinamide resistance,
+a small number of resistance cases have been associated with mutations in ribosomal protein
+S1. Ribosomal protein S1was recently identified as a possible target of pyrazinamide based on
+its binding activity to pyrazinoic acid and the capacity to inhibit trans-translation.
+
+
+
+Despite the critical role played by pyrazinamide, its mechanisms of action are not yet
+fully understood. Therefore, this study is an effort to explore the resistance mechanism toward pyrazinamide
+drug in Mycobacterium (M.) tuberculosis.
+
+
+
+An extensive molecular dynamics simulation was performed using the AMBER software
+package. We mutated residues of the binding site (i.e., F307A, F310A, and R357A) in the RpsA S1
+domain to address the drug-resistant mechanism of RpsA in complex that might be responsible for
+pyrazinamide resistance.
+
+
+
+Moreover, it is challenging to collect the drug mutant to combine the complex of a protein by single-
+crystal X-ray diffraction. Thus, the total three structures were prepared by inducing mutations
+in the wild-type protein using PyMol.
+
+
+
+The dynamic results revealed that a mutation in the binding pocket produced pyrazinamide
+resistance due to the specificity of these residues in binding pockets, which resulted in the
+scarcity of hydrophobic and hydrogen bonding interaction with pyrazinoic acid, increasing the CAdistance
+between the binding pocket residues as compared to wild type RpsA that led to structural
+instability.
+
+
+
+The overall dynamic results will provide useful information behind the drug resistance
+mechanism to manage tuberculosis and also helps in better management for future drug resistance.

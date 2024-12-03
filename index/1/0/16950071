@@ -1,0 +1,4 @@
+
+ 
+ Due to the decentralized nature of the Semantic Web, the same real-world entity may be described in various data sources with different ontologies and assigned syntactically distinct identifiers. In order to facilitate data utilization and consumption in the Semantic Web, without compromising the freedom of people to publish their data, one critical problem is to appropriately interlink such heterogeneous data. This interlinking process is sometimes referred to as Entity Coreference, i.e., finding which identifiers refer to the same real-world entity. In this paper, we first summarize state-of-the-art algorithms in detecting such coreference relationships between ontology instances. We then discuss various techniques in scaling entity coreference to large-scale datasets. Finally, we present well-adopted evaluation datasets and metrics, and compare the performance of the state-of-the-art algorithms on such datasets.
+ 

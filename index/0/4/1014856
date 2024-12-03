@@ -1,0 +1,2 @@
+Recently, Baek et al. proposed an efficient public key encryption scheme with keyword search based on the scheme of Boneh et al., However, the security model of Baek et al. seriously limits the ability of the adversary.
+ In this paper, we enhance the security model of the public key encryption with keyword search to properly incorporate the ability of an adversary. We also construct a public key encryption scheme with keyword search secure in the enhanced security model.

@@ -1,0 +1,4 @@
+
+ 
+ A* search is a fundamental topic in artificial intelligence. Recently, the general purpose computation on graphics processing units (GPGPU) has been widely used to accelerate numerous computational tasks. In this paper, we propose the first parallel variant of the A* search algorithm such that the search process of an agent can be accelerated by a single GPU processor in a massively parallel fashion. Our experiments have demonstrated that the GPU-accelerated A* search is efficient in solving multiple real-world search tasks, including combinatorial optimization problems, pathfinding and game solving. Compared to the traditional sequential CPU-based A* implementation, our GPU-based A* algorithm can achieve a significant speedup by up to 45x on large-scale search problems.
+ 

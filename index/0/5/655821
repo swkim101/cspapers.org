@@ -1,0 +1,4 @@
+
+ 
+ Positional scoring rules in voting compute the score of an alternative by summing the scores for the alternative induced by every vote. This summation principle ensures that all votes contribute equally to the score of an alternative. We relax this assumption and, instead, aggregate scores by taking into account the rank of a score in the ordered list of scores obtained from the votes. This defines a new family of voting rules, rank-dependent scoring rules (RDSRs), based on ordered weighted average (OWA) operators, which, include all scoring rules, and many others, most of which of new. We study some properties of these rules, and show, empirically, that certain RDSRs are less manipulable than Borda voting, across a variety of statistical cultures.
+ 

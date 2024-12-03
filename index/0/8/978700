@@ -1,0 +1,1 @@
+This paper presents a discussion of the theoretical complexity of plan recognition on the basis of an analysis of the number of explanations that any complete plan recognition algorithm must consider given various properties of the plan library. On the basis of these results it points out properties of plan libraries that make them computationally expensive.

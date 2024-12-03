@@ -1,0 +1,1 @@
+We propose the use of learning to rank techniques to shorten query sessions by maximizing the probability that the query we predict is the "final" query of the current search session. We present a preliminary evaluation showing that this approach is a promising research direction.

@@ -1,0 +1,1 @@
+We investigate equational inference rules for partial algebras and propose conditionally complete equational inference rules for partial algebras. Based on the results obtained from the investigation we propose a new algebraic specification technique for partial abstract data types. It requires no superfluous equations concerning undefinedness.

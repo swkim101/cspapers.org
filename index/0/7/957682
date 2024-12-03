@@ -1,0 +1,4 @@
+
+ 
+ Consider the problem of protecting endangered species by selecting patches of land to be used for conservation purposes. Typically, the availability of patches changes over time, and recommendations must be made dynamically. This is a challenging prototypical example of a sequential optimization problem under uncertainty in computational sustainability. Existing techniques do not scale to problems of realistic size. In this paper, we develop an efficient algorithm for adaptively making recommendations for dynamic conservation planning, and prove that it obtains near-optimal performance. We further evaluate our approach on a detailed reserve design case study of conservation planning for three rare species in the Pacific Northwest of the United States.
+ 

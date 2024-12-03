@@ -1,0 +1,1 @@
+Various approaches have been proposed to quantify the similarity between concepts in an ontology. We present a novel approach that allows similarities to be asymmetric while still using only information contained in the structure of the ontology. We show through experiments on the WordNet and GeneOntology that the new approach achieves better accuracy than existing techniques.

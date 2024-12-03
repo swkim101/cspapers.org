@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of routing electric vehicles (EV) in the most energy-efficient way within a road network taking into account both their limited energy supply as well as their ability to recuperate energy. Employing a classical result by Johnson and an observation about Dijkstra under non-constant edge costs we obtain O(n log n +m) query time after a O(nm) preprocessing phase for any road network graph whose edge costs represent energy consumption or recuperation.If the energy recuperation is height induced in a very natural way,the preprocessing phase can even be omitted. We then adapt a technique for speeding-up (unconstrained) shortest path queries to our scenario to achieve a speed-up of another factor of around 20. Our results drastically improve upon the recent results in (Artmeier et al. 2010) and allow for route planning of EVs in an instant even on large networks.
+ 

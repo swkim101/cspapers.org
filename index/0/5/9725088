@@ -1,0 +1,4 @@
+
+ 
+ We describe a data complexity approach to kernel selection based on the behavior of polynomial and Gaussian kernels. Our resultsshow how the use of a Gaussian kernel produces a gram matrix with useful local information that has no equivalent counterpart inpolynomial kernels.By exploiting neighborhood information embedded by data complexity measures, we are able to carry out a form of meta-generalization.Our goal is to predict which data sets are more favorable to particular kernels (Gaussian or polynomial).The end result is a framework to improve the model selection process in Support Vector Machines.
+ 

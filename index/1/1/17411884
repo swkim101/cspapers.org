@@ -1,0 +1,1 @@
+This paper studies the complexity of model checking multiagent systems, in particular systems succinctly described by two practical representations: concurrent representation and symbolic representation. The logics we concern include branching time temporal logics and several variants of alternating time temporal logics.

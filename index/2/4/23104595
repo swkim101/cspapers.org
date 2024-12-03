@@ -1,0 +1,5 @@
+Omega is a description system for knowledge embedding which combines mechanisms of the predicate calculus, type systems, and pattern matching systems. It can express arbitrary predicates (achieving the power of the ω-order quantificational calculus), type declarations in programming systems (Algol, Simula, etc.), pattern matching languages (Planner, Merlin, KRL, etc.). Omega gains much of its power by unifying these mechanisms in a single formalism. 
+ 
+Omega is based on a small number of primitive concepts. It is sufficiently powerful to be able to express its own rules of inference In this way Omega represents a self-describing system in which a great deal of knowledge about itself can be embedded. The techniques in Omega represent an important advance in the creation of self-describing systems without engendering the problems discovered by Russell Meta-descriptions (in the sense used in mathematical logic) are ordinary descriptions in Omega. 
+ 
+Together with Jerry Barber we have constructed a preliminary implementation of Omega on the MLT. CADR System and used it in the development of an office workstation prototype.

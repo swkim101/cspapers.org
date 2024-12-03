@@ -1,0 +1,4 @@
+
+ 
+ In this paper we propose a novel method for image semantic segmentation using multiple graphs. The multiview affinity graph is constructed by leveraging the consistency between semantic space and multiple visualspaces. With block-diagonal constraints, we enforce the affinity matrix to be sparse such that the pairwise potential for dissimilar superpixels is close to zero. By a divide-and-conquer strategy, the optimizationfor learning affinity matrix is decomposed into several subproblems that can be solved in parallel. Using the neighborhood relationship between superpixels and the consistency between affinity matrix and labelconfidencematrix, we infer the semantic label for each superpixel of unlabeled images by minimizing an objective whose closed form solution can be easily obtained. Experimental results on two real-world image datasetsdemonstrate the effectiveness of our method.
+ 

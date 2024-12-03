@@ -1,0 +1,4 @@
+
+ 
+ Large state spaces and the curse of dimensionality contribute to the complexity of a task. Learning from demonstration techniques can be combined with reinforcement learning to narrow the exploration space of an agent, but require consistent and accurate demonstrations, as well as the state-action pairs for an entire demonstration. Individuals with severe motor disabilities are often slow and prone to human errors in demonstrations while teaching. My dissertation develops tools to allow persons with severe motor disabilities, and individuals in general, to train these systems. To handle these large state spaces as well as human error, we developed Dimensionality Reduced Reinforcement Learning. To accommodate slower feedback, we will develop a movie-reel style learning from demonstration interface.
+ 

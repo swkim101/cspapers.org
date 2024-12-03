@@ -1,0 +1,1 @@
+In this paper, a novel am to ordered retrieval in very large files is developed. The method employs a B-tree like search algorithm that is independent of key type or key length because all keys in index blocks are encoded by a lof is presented.

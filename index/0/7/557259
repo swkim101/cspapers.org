@@ -1,0 +1,4 @@
+
+ 
+ Bounding the partition function is a key inference task in many graphical models. In this paper, we develop an anytime anyspace search algorithm taking advantage of AND/OR tree structure and optimized variational heuristics to tighten deterministic bounds on the partition function. We study how our priority-driven best-first search scheme can improve on state-of-the-art variational bounds in an anytime way within limited memory resources, as well as the effect of the AND/OR framework to exploit conditional independence structure within the search process within the context of summation. We compare our resulting bounds to a number of existing methods, and show that our approach offers a number of advantages on real-world problem instances taken from recent UAI competitions.
+ 

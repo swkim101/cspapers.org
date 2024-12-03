@@ -1,0 +1,7 @@
+The problem of ranking arises ubiquitously in almost every aspect of life, and in particular in Machine Learning/Information Retrieval. A statistical model for ranking predicts how humans rank subsets V of some universe U. In this work we define a statistical model for ranking that satisfies certain desirable properties. 
+ 
+The model automatically gives rise to a logistic regression based approach to learning how to rank, for which the score and comparison based approaches are dual views. This offers a new generative approach to ranking which can be used for IR. 
+ 
+There are two main contexts for this work. The first is the theory of econometrics and study of statistical models explaining human choice of alternatives. In this context, we will compare our model with other well known models. The second context is the problem of ranking in machine learning, usually arising in the context of information retrieval. Here, much work has been done in the discriminative setting, where different heuristics are used to define ranking risk functions. 
+ 
+Our model is built rigorously and axiomatically based on very simple desirable properties defined locally for comparisons, and automatically implies the existence of a global score function serving as a natural model parameter which can be efficiently fitted to pairwise comparison judgment data by solving a convex optimization problem.

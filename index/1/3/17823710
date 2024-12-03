@@ -1,0 +1,1 @@
+We review the challenges of Bayesian network learning, especially parameter learning, and specify the problem of learning with sparse data. We explain how it is possible to incorporate both qualitative knowledge and data with a multinomial parameter learning method to achieve more accurate predictions with sparse data.

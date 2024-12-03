@@ -1,0 +1,4 @@
+
+ 
+ The main focus of our work is the use of classical planning algorithms in service of more complex problems of planning under uncertainty. In particular, we are exploring compilation techniques that allow us to reduce some probabilistic planning problems into variants of classical planning, such as metric planning,resource-bounded planning, and cost-bounded suboptimal planning. Currently, our initial work focuses on \emph{conformant probabilistic planning}. We intend toimprove our current methods by improving our compilation methods, but also by improving the ability of current planners to handle the special features ofour compiled problems. Then, we hope to extend these techniques to handle more complex probabilistic settings, such as problems with stochastic actions andpartial observability.
+ 

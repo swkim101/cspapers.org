@@ -1,0 +1,4 @@
+
+ 
+ Top-N recommender systems have been investigated widely both in industry and academia. However, the recommendation quality is far from satisfactory. In this paper, we propose a simple yet promising algorithm. We fill the user-item matrix based on a low-rank assumption and simultaneously keep the original information. To do that, a nonconvex rank relaxation rather than the nuclear norm is adopted to provide a better rank approximation and an efficient optimization strategy is designed. A comprehensive set of experiments on real datasets demonstrates that our method pushes the accuracy of Top-N recommendation to a new level.
+ 

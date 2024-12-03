@@ -1,0 +1,4 @@
+
+ 
+ The problem of computing similar and dissimilar solutions to a given one has received much attention in constraint satisfaction and answer set programming (ASP). In many practical applications involving product configuration or planning, it is often the case that there are many valid solutions. To help the user see a small but representative sample, one needs algorithms that compute sets of dissimilar solutions. Once the user "zooms" in on one or two that she likes the most, it still makes sense to present several alternatives that are similar to the selected ones so that the user can find one that truly corresponds to her needs.
+ 

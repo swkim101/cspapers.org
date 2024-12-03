@@ -1,0 +1,4 @@
+
+ 
+ Contemporary machine translation systems usually rely on offline data retrieved from the web for individual model training, such as translation models and language models. In contrast to existing methods, we propose a novel approach that treats machine translation as a web search task and utilizes the web on the fly to acquire translation knowledge. This end-to-end approach takes advantage of fresh web search results that are capable of leveraging tremendous web knowledge to obtain phrase-level candidates on demand and then compose sentence-level translations. Experimental results show that our web-based machine translation method demonstrates very promising performance in leveraging fresh translation knowledge and making translation decisions. Furthermore, when combined with offline models, it significantly outperforms a state-of-the-art phrase-based statistical machine translation system.
+ 

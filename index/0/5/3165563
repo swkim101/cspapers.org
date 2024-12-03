@@ -1,0 +1,1 @@
+An environment for the experimentation with parsing strategies is presented which consists of a parser which can process arbitrary parsing strategies, a functional language for the definition of strategies, and a statistical component which helps the user assess the effects of the different strategies.

@@ -1,0 +1,5 @@
+This paper describes QUASCU (Question Answering System of Charles University), a system being used to investigate the use of natural language in data-base queries. 
+ 
+The analysis in the QASCU is essentially a syntactic-semantic one, its objective being (i) to extract from the query formulated in Czech information which, in the semantic field in question, is sufficient for correct response, and (ii) to translate this information into the query language. Knowledge of the QASCU is stored in a hierarchically organized data base. The semantic field in which the first experiments have been carried out is constituted by the enrolling procedure of students for all the colleges of Charles University. 
+ 
+The programmes of the QASCU are written in the PL/1 language and the system will be implemented on the EC 1040 computer at the Computational Centre, Charles University, Prague, Czechoslovakia.

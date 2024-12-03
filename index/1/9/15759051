@@ -1,0 +1,1 @@
+A problem with conflicting goals of anonymity and authentication is defined and a cryptographic protocol that solves the problem is presented. The protocol uses an authentication scheme that provides the desired degree of anonymity and authentication. Fake transactions are used to detect active attackers, and to camouflage information that cannot be hidden cryptographically.

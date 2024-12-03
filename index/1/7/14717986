@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a novel recursive maximum a posteriori update for the Kalman formulation of undelayed bearing-only SLAM. The estimation update step is cast as an optimization problem for which we can prove the global minimum is reachable via a bidirectional search using Gauss-Newton's method along a one-dimensional manifold. While the filter is designed for mapping just one landmark, it is easily extended to full-scale multiple-landmark SLAM. We provide this extension via a formulation of bearing-only FastSLAM. With experiments, we demonstrate accurate and convergent estimation in situations where an EKF solution would diverge.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Automated agents for electricity markets, social networks, and other distributed networks must repeatedly interact with other intelligent agents, often without observing associates' actions or payoffs (i.e., minimal information). Given this reality, our goal is to create algorithms that learn effectively in repeated games played with minimal information. As in other applications of machine learning, the success of a learning algorithm in repeated games depends on its learning bias. To better understand what learning biases are most successful, we analyze the learning biases of previously published multi-agent learning (MAL) algorithms. We then describe a new algorithm that adapts a successful learning bias from the literature to minimal information environments. Finally, we compare the performance of this algorithm with ten other algorithms in repeated games played with minimal information.
+ 

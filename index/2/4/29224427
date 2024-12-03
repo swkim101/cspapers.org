@@ -1,0 +1,1 @@
+A variation of an earlier prover (described in Machine Intelligence 8) is used to prove theorems about general inequalities, i.e., first-order logic with equality where the only predicate symbols are <, <, and =, and where function symbols are admitted. Transcripts of some proofs are given.

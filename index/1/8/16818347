@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we review a series of agent behavior synthesis problems under full observability and nondeterminism (partial controllability), ranging from conditional planning, to recently introduced agent planning programs, and to sophisticated forms of agent behavior compositions, and show that all of them can be solved by model checking two-player game structures. These structures are akin to transition systems/Kripke structures, usually adopted in model checking, except that they distinguish (and hence allow to separately quantify) between the actions/moves of two antagonistic players. We show that using them we can implement solvers for several agent behavior synthesis problems.
+ 

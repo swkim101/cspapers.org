@@ -1,0 +1,4 @@
+
+ 
+ This paper proposes an effective approach to model the emotional space of words to infer their Sense Sentiment Similarity (SSS). SSS reflects the distance between the words regarding their senses and underlying sentiments. We propose a probabilistic approach that is built on a hidden emotional model in which the basic human emotions are considered as hidden. This leads to predict a vector of emotions for each sense of the words, and then to infer the sense sentiment similarity. The effectiveness of the proposed approach is investigated in two Natural Language Processing tasks: Indirect yes/no Question Answer Pairs Inference and Sentiment Orientation Prediction.
+ 

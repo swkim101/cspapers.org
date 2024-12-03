@@ -1,0 +1,1 @@
+We introduce a formal model for describing Real-Time CORBA-based applications, and a set of guidelines to formally check that the design of such an application is consistent with its specification. The model and the guidelines are then applied to the verification of a simple test application.

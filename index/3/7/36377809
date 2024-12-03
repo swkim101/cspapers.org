@@ -1,0 +1,3 @@
+It is essential that the reasoning of an expert system can be explained and justified. In the paper simple ideas for providing comprehensive explanations of deductions are presented. The method is to transform the proof tree to a more comprehensive proof tree from which a neat explanation directly can be extracted. 
+ 
+The transformation of proof trees is a way to view the problem of explaining the reasoning of an expert system. The ideas presented in this paper are easy to implement. Furthermore, the transformation for reducing chains of specifications of a concept seems to be applicable in general. The transformation for introducing a new name for a compilation of concepts depends on the problem domain.

@@ -1,0 +1,1 @@
+In the hierarchical XML structure, the ancestors form the context of an XML element. The process of taking element's context into account in element scoring is called contextualization. The aim of this paper is to separate different granularity levels and test the effect of contextualization on these levels.

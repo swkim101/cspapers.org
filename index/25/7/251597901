@@ -1,0 +1,1 @@
+We present a demo in which two robotic arms, controlled by rule-based Linked Data agents, trade a good in Virtual Reality. The agents follow the necessary steps to conclude a sales contract under German law. To conclude the contract, the agents exchange messages between their Solid Pods. The data in the messages is modelled using suitable terms from Schema.org.

@@ -1,0 +1,27 @@
+Compensation is a strategy that a semantics may follow when it faces
+
+dilemmas between quality and quantity of attackers. It allows several weak
+
+attacks to compensate one strong attack. It is based on compensation degree,
+
+which is a tuple that indicates (i) to what extent an attack is weak and (ii) the
+
+number of weak attacks needed to compensate a strong one.
+
+Existing principles on compensation do not specify the parameters, thus it is unclear
+
+whether semantics satisfying them compensate at only one degree or several degrees, and which ones.
+
+This paper proposes a parameterised family of gradual semantics, which
+
+unifies multiple semantics that share some principles but differ in their
+
+strategy regarding solving dilemmas. Indeed, we show that the two semantics taking
+
+the extreme values of the parameter favour respectively quantity and quality, while all
+
+the remaining ones compensate at some degree. We define three classes of compensation
+
+degrees and show that the novel family is able to compensate at all of them while
+
+none of the existing gradual semantics does.

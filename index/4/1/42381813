@@ -1,0 +1,3 @@
+In this paper, we demonstrate an important role for model-based reasoning in case adaptation. Model-based reasoning can allow a case-based reasoner to apply cases to a wider range of problems than would otherwise be possible. 
+ 
+We focus on case adaptation in BRAINSTORMER, a planner that uses abstract advice to help it plan in the domain of political and military policy as it relates to terrorism. We show that by equipping a case adapter with an explicit causal model of the planning process, cases presented as advice can be flexibly applied to difficulties that arise at a variety of different stages of planning.

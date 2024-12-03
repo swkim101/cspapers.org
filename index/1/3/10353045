@@ -1,0 +1,4 @@
+
+ 
+ Korf, Reid, and Edelkamp launched a line of research aimed at predicting how many nodes IDA* will expand with a given depth bound. This paper advances this line of research in three ways. First, we identify a source of prediction error that has hitherto been overlooked. We call it the "discretization effect." Second, we disprove the intuitively appealing idea that a "more informed" prediction system cannot make worse predictions than a ``less informed'' one. More informed systems are more susceptible to the discretization effect, and in our experiments the more informed system makes poorer predictions. Our third contribution is a method, called "Epsilon-truncation," which makes a prediction system less informed, in a carefully chosen way, so as to improve its predictions by reducing the discretization effect. In our experiments Epsilon-truncation improved predictions substantially.
+ 

@@ -1,0 +1,3 @@
+Direkt Profil is an automatic analyzer of texts written in French as a second language. Its objective is to produce an evaluation of the developmental stage of students under the form of a grammatical learner profile. Direkt Profil carries out a sentence analysis based on developmental sequences, i.e. local morphosyntactic phenomena linked to a development in the acquisition of French. 
+ 
+The paper presents the corpus that we use to develop the system and briefly, the developmental sequences. Then, it describes the annotation that we have defined, the parser, and the user interface. We conclude by the results obtained so far: on the test corpus the systems obtains a recall of 83% and a precision of 83%.

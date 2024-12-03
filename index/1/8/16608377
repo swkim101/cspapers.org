@@ -1,0 +1,4 @@
+
+ 
+ We present a novel method to control a biped humanoid robot to walk on unknown inclined terrains, using an online learning algorithm to estimate in real-time the local terrain from proprioceptive and inertial sensors. Compliant controllers for the ankle joints are used to actively probe the surrounding surface, and the measured sensor data are combined to explicitly learn the global inclination and local disturbances of the terrain. These estimates are then used to adaptively modify the robot locomotion and control parameters. Results from both a physically-realistic computer simulation and experiments on a commercially available small humanoid robot show that our method can rapidly adapt to changing surface conditions to ensure stable walking on uneven surfaces.
+ 

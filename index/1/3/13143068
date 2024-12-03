@@ -1,0 +1,1 @@
+A revisited quadrotor model is proposed, including in particular the so-called rotor drag. It differs from the model usually considered, even at first order, and much better explains the role of accelerometer feedback in control algorithms. The theoretical derivation is supported by experimental data.

@@ -1,0 +1,5 @@
+Based on the binary independence indexing model, we apply three new concepts for probabilistic document indexing from relevance feedback data:Abstraction from specific terms and documents, which overcomes the restriction of limited relevance information for parameter estimation.
+Flexibility of the representation, which allows the integration of new text analysis and knowledge-based methods in our approach as well as the consideration of more complex document structures or different types of terms (e.g. single words and noun phrases).
+Probabilistic learning or classification methods for the estimation of the indexing weights making better use of the available relevance information.
+
+We give experimental results for five test collections which show improvements over other indexing methods.

@@ -1,0 +1,2 @@
+We show that the Learning with Errors (LWE) problem is classically at least as hard as standard worst-case lattice problems. Previously this was only known under quantum reductions.
+ Our techniques capture the tradeoff between the dimension and the modulus of LWE instances, leading to a much better understanding of the landscape of the problem. The proof is inspired by techniques from several recent cryptographic constructions, most notably fully homomorphic encryption schemes.

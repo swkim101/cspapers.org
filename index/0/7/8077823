@@ -1,0 +1,2 @@
+In this paper, a Lisp-based data-driven machine with a novel parallel control mechanism and its performance evaluation are presented. The proposed control mechanism is the natural extension of a data-driven scheme to function evaluation and is achieved by packet communication architecture.
+ First, the organization of the data-driven machine is described and, then the results of the simulation studies are shown which confirm the effectiveness of the control mechanism. The performance characteristics of the data-driven machine obtained by the software simulator are also given.

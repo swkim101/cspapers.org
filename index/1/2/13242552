@@ -1,0 +1,5 @@
+Most artificial natural language processing (NLP) systems make use of some simple algorithm for parsing. These algorithms overlook the inextricable link between parsing natural language and understanding it. 
+ 
+Humans parse language in a linear fashion. Our goal is to develop an NLP system that parses in a linear and psychologically valid fashion. When this goal is achieved, our NLP system will be efficient, and it will generate the correct interpretation in ambiguous situations. 
+ 
+In this paper, we describe two NLP systems, whose parsing is driven by several heuristics. The first is a bottom-up system which is based on the work of (Ford, Bresnan & Kaplan 1982). The second system is a more expansive attempt, incorporating the initial heuristics and several more. This system runs on a much larger domain and incorporates several new syntactic forms. It has its weaknesses, but it shows good progress toward the goal of linearity.

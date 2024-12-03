@@ -1,0 +1,5 @@
+Proof normalization manipulates formal proofs. It also provides a computation mechanism which belongs to the logic programming family. 
+ 
+Although proof normalization can treat full predicate calculus, it is less practical than the well-known programming language, Prolog. 
+ 
+In this paper, we propose a new technique of attaching proofs to Skolem functions. This technique enables one to nomalize a proof eagerly; that is, one can get a partial answer before the proof is totally normalized. This improves the usability of proof normalization. Partial answers are also useful in normalizing proofs concurrently. We compare our method with computation in Concurrent Prolog.

@@ -1,0 +1,1 @@
+We describe a new algorithm for minimizing a convex function over a convex set. The notion of a volumetric center of a polytope and a related ellipsoid of maximum volume inscrib- able in the polytope are central to the algorithm. The algorithm has a much better rate of global convergence than the ellipsoid

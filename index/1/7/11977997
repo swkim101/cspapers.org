@@ -1,0 +1,6 @@
+
+ 
+ 
+We consider entailment problems involving powerful constraint languages such as frontier-guarded existential rules in which we impose additional semantic restrictions on a set of distinguished relations. We consider restricting a relation to be transitive, restricting a relation to be the transitive closure of another relation, and restricting a relation to be a linear order. We give some natural variants of guardedness that allow inference to be decidable in each case, and isolate the complexity of the corresponding decision problems. Finally we show that slight changes in these conditions lead to undecidability. 
+ 
+ 

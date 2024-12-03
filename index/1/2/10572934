@@ -1,0 +1,3 @@
+Let k be a constant -&-ge; 2, and let us consider only deterministic k-tape Turing machines.
+ We assume t<subscrpt>2</subscrpt>(n) -&-gt; n and t<subscrpt>2</subscrpt> is computable in time t<subscrpt>2</subscrpt>. Then there is a language which is accepted in time t<subscrpt>2</subscrpt>, but not accepted in any time t<subscrpt>1</subscrpt> with t<subscrpt>1</subscrpt>(n) -&-equil; o(t<subscrpt>2</subscrpt>(n)).
+ Furthermore, we obtain a strong hierarchy (isomorphic to the rationals <bold>Q</bold>) for languages accepted in fixed space and variable time.

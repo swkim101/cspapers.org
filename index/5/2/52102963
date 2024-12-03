@@ -1,0 +1,1 @@
+Training and testing many possible parameters or model architectures of state-of-the-art machine translation or automatic speech recognition system is a cumbersome task. They usually require a long pipeline of commands reaching from pre-processing the training data to post-processing and evaluating the output.

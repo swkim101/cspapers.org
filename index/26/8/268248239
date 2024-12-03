@@ -1,0 +1,9 @@
+We consider competitive facility location as a two-stage multi-agent system with two types of clients. For a given host graph with weighted clients on the vertices, first facility agents strategically select vertices for opening their facilities. Then, the clients strategically select which of the opened facilities in their neighborhood to patronize. Facilities want to attract as much client weight as possible, clients want to minimize congestion on the chosen facility.
+
+
+
+All recently studied versions of this model assume that clients can split their weight strategically. We consider clients with unsplittable weights, but allow mixed strategies. So clients may randomize over which facility to patronize. Besides modeling a natural client behavior, this subtle change yields drastic changes, e.g., for a given facility placement, qualitatively different client equilibria are possible.
+
+
+
+As our main result, we show that pure subgame perfect equilibria always exist if all client weights are identical. For this, we use a novel potential function argument, employing a hierarchical classification of the clients and sophisticated rounding in each step. In contrast, for non-identical clients, we show that deciding the existence of even approximately stable states is computationally intractable. On the positive side, we give a tight bound of 2 on the price of anarchy which implies high social welfare of equilibria, if they exist.

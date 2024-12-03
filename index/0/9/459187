@@ -1,0 +1,1 @@
+Barto, Sutton and Watkins [2] introduced a grid task as a didactic example of temporal difference planning and asynchronous dynamical programming. This paper considers the effects of changing the coding of the input stimulus, and demonstrates that the self-supervised learning of a particular form of hidden unit representation improves performance.

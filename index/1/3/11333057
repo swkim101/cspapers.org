@@ -1,0 +1,4 @@
+
+ 
+ Optimization via continuation method is a widely used approach for solving nonconvex minimization problems. While this method generally does not provide a global minimum, empirically it often achieves a superior local minimum compared to alternative approaches such as gradient descent. However, theoretical analysis of this method is largely unavailable. Here, we provide a theoretical analysis that provides a bound on the endpoint solution of the continuation method. The derived bound depends on a problem specific characteristic that we refer to as optimization complexity. We show that this characteristic can be analytically computed when the objective function is expressed in some suitable basis functions. Our analysis combines elements of scale-space theory, regularization and differential equations.
+ 

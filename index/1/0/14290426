@@ -1,0 +1,3 @@
+In this paper, we suggest an approach to multi-agent planning that contains heuristic elements. Our method makes use of subgoals, and derived sub-plans, to construct a global plan. Agents solve their individual sub-plans, which are then merged into a global plan. The suggested approach may reduce overall planning time and derives a plan that approximates the optimal global plan that would have been derived by a central planner, given those original subgoals. 
+ 
+We consider two different scenarios. The first involves a group of agents with a common goal. The second considers how agents can interleave planning and execution when planning towards a common, though dynamic, goal.

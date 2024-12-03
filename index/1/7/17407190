@@ -1,0 +1,4 @@
+
+ 
+ Consider a family whose home is equipped with several service robots. The actions planned for the robots must adhere to Interaction Constraints (ICs) relating them to human activities and preferences. These constraints must be sufficiently expressive to model both temporal and logical dependencies among robot actions and human behavior, and must accommodate incomplete information regarding human activities. In this paper we introduce an approach for automatically generating plans that are conformant wrt. given ICs and partially specified human activities. The approach allows to separate causal reasoning about actions from reasoning about ICs, and we illustrate the computational advantage this brings with experiments on a large-scale (semi-)realistic household domain with hundreds of human activities and several robots.
+ 

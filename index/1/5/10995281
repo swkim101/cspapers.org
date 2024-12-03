@@ -1,0 +1,1 @@
+This paper considers a cryptanalytic approach called integral cryptanalysis. It can be seen as a dual to differential cryptanalysis and applies to ciphers not vulnerable to differential attacks. The method is particularly applicable to block ciphers which use bijective components only.

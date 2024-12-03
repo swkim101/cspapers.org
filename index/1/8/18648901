@@ -1,0 +1,1 @@
+We have produced a VLSI circuit capable of learning to approximate arbitrary smooth of a single variable using a technique closely related to splines. The circuit effectively has 512 knots space on a uniform grid and has full support for learning. The circuit also can be used to approximate multi-variable functions as sum of splines.

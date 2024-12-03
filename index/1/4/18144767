@@ -1,0 +1,4 @@
+
+ 
+ The split-delivery vehicle routing problem (SDVRP) is a natural extension of the classical vehicle routing problem (VRP) that allows the same customer to be served by more than one vehicle. This problem is a very challenging combinatorial optimization problem and has attracted much academic attention. To solve it, most of the literature articles adopted heuristic approaches in which the solution is represented by a set of delivery patterns, and the search operators were derived from the traditional VRP operators. Differently, our approach employs the combination of a set of routes and a forest to represent the solution. Several forest-based operators are accordingly introduced. We integrate the new operators into a simple tabu search framework and then demonstrate the efficiency of our approach by conducting experiments on existing benchmark instances.
+ 

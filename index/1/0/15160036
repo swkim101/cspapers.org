@@ -1,0 +1,1 @@
+We build a connuent, local, asynchronous reduction on-terms, using innnite objects (partial injections of Girard's algebra L*), which is simple (only one move), intelligible (semantic setting of the reduction), general (based on a large-scale decomposition of), and may be mechanized.

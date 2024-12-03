@@ -1,0 +1,1 @@
+A relational model representation of the effect of operators is learned and used to improve the acquisition of heuristics for problem solving. A model for each operator in a problem solving domain is learned from example applications of the operator. The representation is shown to improve the rate of learning heuristics for solving symbolic integration problems.

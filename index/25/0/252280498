@@ -1,0 +1,7 @@
+We propose a novel algorithm for generalized linear contextual bandits (GLBs) with a regret bound sublinear to the time horizon, the minimum eigenvalue of the covariance of contexts and a lower bound of the variance of rewards.
+In several identified cases, our result is the first regret bound for generalized linear bandits (GLBs) achieving the regret bound sublinear to the dimension of contexts without discarding the observed rewards.
+Previous approaches achieve the regret bound sublinear to the dimension of contexts by discarding the observed rewards, whereas our algorithm achieves the bound incorporating contexts from all arms in our double doubly robust (DDR) estimator.
+The DDR estimator is a subclass of doubly robust estimator but with a tighter error bound.
+We also provide a logarithmic cumulative regret bound under a probabilistic margin condition.
+This is the first regret bound under the margin condition for linear models or GLMs when contexts are different for all arms but coefficients are common.
+We conduct empirical studies using synthetic data and real examples, demonstrating the effectiveness of our algorithm.

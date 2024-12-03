@@ -1,0 +1,1 @@
+We discuss a class interface for the Khepera robot that makes the robot an excellent platform for undergraduate robotics courses and robot-based lab exercises in other courses. The interface hides low-level robot-computer communication and permits the building of derived classes that encapsulate related base behaviors relevant for higher-order tasks.

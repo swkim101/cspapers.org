@@ -1,0 +1,1 @@
+We propose a hybridization of collaborative filtering and content based recommendation system. Attributes used for content based recommendations are assigned weights depending on their importance to users. The weight values are estimated from a set of linear regression equations obtained from a social network graph which captures human judgment about similarity of items.

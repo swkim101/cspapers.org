@@ -1,0 +1,4 @@
+
+ 
+ We demonstrate an implementation of Markov Argumentation Random Fields (MARFs), a novel formalism combining elements of formal argumentation theory and probabilistic graphical models. In doing so MARFs provide a principled technique for the merger of probabilistic graphical models and non-monotonic reasoning, supporting human reasoning in ``messy’’ domains where the knowledge about conflicts should be applied. Our implementation takes the form of a graphical tool which supports users in interpreting complex information. We have evaluated our implementation in the domain of intelligence analysis, where analysts must reason and determine likelihoods of events using information obtained from conflicting sources.
+ 

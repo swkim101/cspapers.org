@@ -1,0 +1,4 @@
+
+ 
+ We introduce the Multiagent Disjunctive Temporal Problem (MaDTP), a new distributed formulation of the widely-adopted Disjunctive Temporal Problem (DTP) representation. An agent that generates a summary of all viable schedules, rather than a single schedule, can be more useful in dynamic environments. We show how a (Ma)DTP with the properties of minimality and decomposability provides a particularly efficacious solution space summary.However, in the multiagent case, these properties sacrifice an agent's strategic interests while incurring significant computational overhead. We introduce a new property called local decomposability that exploits loose-coupling between agents' problems, protects strategic interests, and supports typical queries. We provide and evaluate a new distributed algorithm that summarizes agents' solution spaces in significantly less time and space by using local, rather than full, decomposability.
+ 

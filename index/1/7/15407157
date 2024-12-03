@@ -1,0 +1,1 @@
+We develop an approach for measuring the effectiveness of online display advertising at the campaign level. We present a Kalman filtering approach to deseasonalize and estimate the percentage changes of online sales on a daily basis. For this study, we analyze 3828 campaigns for 961 products on the Advertising.com network.

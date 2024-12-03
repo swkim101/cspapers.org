@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of designing automated strategies for interactions with human subjects, where the humans must be rewarded for performing certain tasks of interest. We focus on settings where there is a single task that must be performed many times by different humans (e.g. answering a questionnaire), and the humans require a fee for performing the task. In such settings, our objective is to minimize the average cost for effectuating the completion of the task. We present two automated strategies for designing efficient agents for the problem, based on two different models of human behavior. The first, the Reservation Price Based Agent (RPBA), is based on the concept of a reservation price, and the second, the No Bargaining Agent (NBA), uses principles from behavioral science. The performance of the agents has been tested in extensive experiments with real human subjects, where NBA outperforms both RPBA and strategies developed by human experts.
+ 

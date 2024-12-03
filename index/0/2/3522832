@@ -1,0 +1,2 @@
+We design a stochastic algorithm to train any smooth neural network to $\varepsilon$-approximate local minima, using $O(\varepsilon^{-3.25})$ backpropagations. The best result was essentially $O(\varepsilon^{-4})$ by SGD. 
+More broadly, it finds $\varepsilon$-approximate local minima of any smooth nonconvex function in rate $O(\varepsilon^{-3.25})$, with only oracle access to stochastic gradients.

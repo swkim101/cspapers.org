@@ -1,0 +1,4 @@
+
+ 
+ Forming teams using heterogeneous agents that perform well together to accomplish a task in a game can be a challenging problem. There can often be an enormous amount of combinations to look through, and having an agent that is really good at a particular task is no guarantee that agent will perform well on a team with members with different abilities. Picking a good team is important, as changing teams is often not allowed midway through a task.
+ 

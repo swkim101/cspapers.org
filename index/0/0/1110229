@@ -1,0 +1,5 @@
+The dynamic graph connectivity problem is the following: given a graph on a fixed set of n nodes which is undergoing a sequence of edge insertions and deletions, answer queries of the form q(a, b): "Is there a path between nodes a and b?" While data structures for this problem with polylogarithmic amortized time per operation have been known since the mid-1990's, these data structures have Θ(n) worst case time. In fact, no previously known solution has worst case time per operation which is o(√n). 
+ 
+We present a solution with worst case times O(log4 n) per edge insertion, O(log5 n) per edge deletion, and O(log n/log log n) per query. The answer to each query is correct if the answer is "yes" and is correct with high probability if the answer is "no". The data structure is based on a simple novel idea which can be used to quickly identify an edge in a cutset. 
+ 
+Our technique can be used to simplify and significantly speed up the preprocessing time for the emergency planning problem while matching previous bounds for an update, and to approximate the sizes of cutsets of dynamic graphs in time O(min{|S|, |V\S|}) for an oblivious adversary.

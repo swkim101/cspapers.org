@@ -1,0 +1,4 @@
+
+ 
+ In many logic-based BDI agent programming languages, plan selection involves inferencing over some underlying knowledge representation. While context-sensitive plan selection facilitates the development of flexible, declarative programs, the overhead of evaluating repeated queries to the agent's beliefs and goals can result in poor run time performance. In this paper we present an approach to multi-cycle query caching for logic-based BDI agent programming languages. We extend the abstract performance model presented in (Alechina et al. 2012) to quantify the costs and benefits of caching query results over multiple deliberation cycles. We also present results of experiments with prototype implementations of both single- and multi-cycle caching in three logic-based BDI agent platforms, which demonstrate that significant performance improvements are achievable in practice.
+ 

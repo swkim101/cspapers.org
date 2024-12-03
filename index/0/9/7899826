@@ -1,0 +1,4 @@
+
+ 
+ Lasso-type variable selection has increasingly expanded its machine learning applications. In this paper, uncorrelated Lasso is proposed for variable selection, where variable de-correlation is considered simultaneously with variable selection, so that selected variables are uncorrelated as much as possible. An effective iterative algorithm, with the proof of convergence, is presented to solve the sparse optimization problem. Experiments on benchmark data sets show that the proposed method has better classification performance than many state-of-the-art variable selection methods.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ What happened during the Boston Marathon in 2013? Nowadays, at any major event, lots of people take videos and share them on social media. To fully understand exactly what happened in these major events, researchers and analysts often have to examine thousands of these videos manually. To reduce this manual effort, we present an investigative system that automatically synchronizes these videos to a global timeline and localizes them on a map. In addition to alignment in time and space, our system combines various functions for analysis, including gunshot detection, crowd size estimation, 3D reconstruction and person tracking. To our best knowledge, this is the first time a unified framework has been built for comprehensive event reconstruction for social media videos.
+ 

@@ -1,0 +1,25 @@
+We present ``Together about Dementia'', a mobile health app
+
+ that aims to help persons with dementia when they get lost through
+
+ the help of caregivers, relatives, and volunteering
+
+ citizens. When the app detects that a person with dementia is
+
+ disoriented, wandering, and getting lost, it triggers an alarm that
+
+ activates a relative and possibly a volunteer in the proximity. A
+
+ backend system based on a microservice and serverless architecture
+
+ performs the detection of wandering and the subsequent coordination
+
+ of users that are put on a mission to the rescue of the person with
+
+ dementia. The backend system implements an AI technique for
+
+ spatio-temporal anomaly detection based on location data recorded by
+
+ the frontend system installed on the portable device of the person
+
+ with dementia.

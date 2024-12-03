@@ -1,0 +1,4 @@
+
+ 
+ In heterogeneous multi-robot teams, robustness and flexibility are increased by the diversity of the robots, each contributing different capabilities. Yet platform-independence is desirable when planning actions for the various robots. We propose a platform-independent model of robot capabilities which we use as a planning domain. We extend existing planning techniques to support two requirements: generating new objects during planning; and, required concurrency of actions due to data flow which can be cyclic. The first requires online action instantiation, the second a small extension of the Planning Domain Definition Language (PDDL): allowing predicates in continuous effects. We evaluate the planner on benchmark domains and present results on an example object transportation task in simulation.
+ 

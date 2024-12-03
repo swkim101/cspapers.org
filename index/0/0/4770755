@@ -1,0 +1,1 @@
+In this paper, dead-reckoning error in mobile robots is studied in the context of several different models. These models are derived first in the form of stochastic differential equations (SDEs). Corresponding Fokker-Planck equations are derived, and desired probability density functions (PDFs) of robot pose are computed by using the Fourier transform for SE(2).

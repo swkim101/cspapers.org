@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a framework to infer spatial knowledge from semantic role representations. We infer whether entities are or are not located somewhere, and temporally anchor this spatial information. A large crowdsourcing effort on top of OntoNotes shows that these temporally-anchored spatial inferences are ubiquitous and intuitive to humans. Experimental results show that inferences can be performed automatically and semantic features bring significant improvement.
+ 

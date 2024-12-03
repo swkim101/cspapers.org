@@ -1,0 +1,4 @@
+
+ 
+ We address verification of high-level programs over situation calculus action theories that have an infinite object domain, but bounded fluent extensions in each situation. We show that verification of mu-calculus temporal properties against ConGolog programs over such bounded theories is decidable in general. To do this, we reformulate the transition semantics of ConGolog to keep the bindings of “pick variables” into a separate variable environment whose size is naturally bounded by the number of variables. We also show that for situation-determined ConGolog programs, we can compile away the program into the action theory itself without loss of generality. This can also be done for arbitrary programs, but only to check certain properties, such as if a situation is the result of a program execution, not for mu-calculus verification.
+ 

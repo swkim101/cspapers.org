@@ -1,0 +1,4 @@
+
+ 
+ We consider a very natural problem concerned with game manipulation. Let G be a directed graph where the nodes represent players of a game, and an edge from u to v means that u can beat v in the game. (If an edge (u, v) is not present, one cannot match u and v.) Given G and a "favorite" node A, is it possible to set up the bracket of a balanced single-elimination tournament so that A is guaranteed to win, if matches occur as predicted by G? We show that the problem is NP-complete for general graphs. For the case when G is a tournament graph we give several interesting conditions on the desired winner A for which there exists a balanced single-elimination tournament which A wins, and it can be found in polynomial time.
+ 

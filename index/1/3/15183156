@@ -1,0 +1,1 @@
+A 0–1probability space is a probability space (Ω, 2Ω,P), where the sample space Ω⊂-{0, 1} n for somen. A probability space isk-wise independent if, whenY i is defined to be theith coordinate or the randomn-vector, then any subset ofk of theY i 's is (mutually) independent, and it is said to be a probability spacefor p1,p2, ...,p n ifP[Y i =1]=p i .

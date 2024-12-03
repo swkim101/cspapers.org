@@ -1,0 +1,4 @@
+
+ 
+ One major task in business process management is that of aligning real process execution traces to a process model by (minimally) introducing and eliminating steps. Here, we look at declarative process specifications expressed in Linear Temporal Logic on finite traces (LTLf). We provide a sound and complete technique to synthesize the alignment instructions relying on finite automata theoretic manipulations. Such a technique can be effectively implemented by using planning technology. Notably, the resulting planning-based alignment system significantly outperforms all current state-of-the-art ad-hoc alignment systems. We report an in-depth experimental study that supports this claim.
+ 

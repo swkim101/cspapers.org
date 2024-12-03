@@ -1,0 +1,4 @@
+
+ 
+ Innovative methods have been developed for diagnosis, activity monitoring, and state estimation that achieve high accuracy through the use of stochastic models involving hybrid discrete and continuous behaviors. A key bottleneck is the automated acquisition of these hybrid models, and recent methods have focused predominantly on Jump Markov processes and piecewise autoregressive models. In this paper, we present a novel algorithm capable of performing unsupervised learning of guarded Probabilistic Hybrid Automata (PHA) models, which extends prior work by allowing stochastic discrete mode transitions in a hybrid system to have a functional dependence on its continuous state. Our experiments indicate that guarded PHA models can yield significant performance improvements when used by hybrid state estimators, particularly when diagnosing the true discrete mode of the system, without any noticeable impact on their real-time performance.
+ 

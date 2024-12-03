@@ -1,0 +1,1 @@
+In this work we propose a novel method to recognize daily routines as a probabilistic combination of activity patterns. The use of topic models enables the automatic discovery of such patterns in a user's daily routine. We report experimental results that show the ability of the approach to model and recognize daily routines without user annotation.

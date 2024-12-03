@@ -1,0 +1,5 @@
+The problem of password authentication over an insecure network when the user holds only a human-memorizable password has received much attention in the literature. The first rigorous treatment was provided by Halevi and Krawczyk, who studied off-line password guessing attacks in the scenario in which the authentication server possesses a pair of private and public keys. In this work we:Show the inadequacy of both the HK formalization and protocol in the case where there is more than a single user: using a simple and realistic attack, we prove failure of the HK solution in the two-user case.
+Propose a new definition of security for the multi-user case, expressed in terms of transcripts of the entire system, rather than individual protocol executions.
+Suggest several ways of achieving this security against both static and dynamic adversaries.
+
+In a recent revision of their paper, Halevi and Krawczyk again attempted to handle the multi-user case. We expose a weakness in their revised definition.

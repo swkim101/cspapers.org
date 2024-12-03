@@ -1,0 +1,4 @@
+
+ 
+ Two-dimensional principle component analysis (2DPCA) has been widely used for face image representation and recognition. But it is sensitive to the presence of outliers. To alleviate this problem, we propose a novel robust 2DPCA, namely 2DPCA with F-norm minimization (F-2DPCA), which is intuitive and directly derived from 2DPCA. In F-2DPCA, distance in spatial dimensions (attribute dimensions) is measured in F-norm, while the summation over different data points uses 1-norm. Thus it is robust to outliers and rotational invariant as well. To solve F-2DPCA, we propose a fast iterative algorithm, which has a closed-form solution in each iteration, and prove its convergence. Experimental results on face image databases illustrate its effectiveness and advantages.
+ 

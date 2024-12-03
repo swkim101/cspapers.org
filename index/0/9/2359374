@@ -1,0 +1,9 @@
+Using default logic, we formalize NETL-like inheritance hierarchies with exceptions. This provides a number of benefits: 
+ 
+(1) A precise semantics for such hierarchies. 
+ 
+(2) A provably correct (with respect to the proof theory of default logic) inference algorithm for acyclic networks. 
+ 
+(3) A guarantee that acyclic networks have extensions. 
+ 
+(4) A provably correct quasi-parallel inference algorithm for such networks.

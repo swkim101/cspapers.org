@@ -1,0 +1,4 @@
+
+ 
+ The Rao-Blackwell theorem is utilized to analyze and improve the scalability of inference in large probabilistic models that exhibit symmetries. A novel marginal density estimator is introduced and shown both analytically and empirically to outperform standard estimators by several orders of magnitude. The developed theory and algorithms apply to a broad class of probabilistic models including statistical relational models considered not susceptible to lifted probabilistic inference.
+ 

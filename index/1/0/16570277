@@ -1,0 +1,4 @@
+Due to reasons of efficiency, digital logic simulation is normally performed by restricting timing accuracy to integral event timing. However, this restriction causes disadvantages which can be avoided if a sufficiently efficient event processing algorithm for nonintegral timing becomes available.
+ The algorithm described here combines features of the standard linear list algorithm and the time-mapping algorithm often used for logic simulation. The combination results in a compromise between the timing accuracy of the former and the efficiency of the latter.
+ The control mechanism required for the new algorithm can and should be directly exploited to improve the control and flexibility of the detailed simulation processing.
+ Some of the advantages gained due to non-integral timing are described in the conclusions of this paper.

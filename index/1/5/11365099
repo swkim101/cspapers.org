@@ -1,0 +1,1 @@
+This demonstration paper introduces ALF which provides a light-weight client side logging application and a server for collecting user interaction data. ALF has been designed as a loosely coupled independent service that runs in parallel with the IR web application that requires logging

@@ -1,0 +1,4 @@
+
+ 
+ We propose a natural model for agent failures in congestion games. In our model, each of the agents may fail to participate in the game, introducing uncertainty regarding the set of active agents. We examine how such uncertainty may change the Nash equilibria (NE) of the game. We prove that although the perturbed game induced by the failure model is not always a congestion game, it still admits at least one pure Nash equilibrium. Then, we turn to examine the effect of failures on the maximal social cost in any NE of the perturbed game. We show that in the limit case where failure probability is negligible new equilibria never emerge, and that the social cost may decrease but it never increases. For the case of non-negligible failure probabilities, we provide a full characterization of the maximal impact of failures on the social cost under worst-case equilibrium outcomes.
+ 

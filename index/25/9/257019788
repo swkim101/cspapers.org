@@ -1,0 +1,195 @@
+
+               <jats:p>Let <jats:inline-formula>
+                     <jats:tex-math/>
+                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+                        <mml:mrow>
+                           <mml:mo stretchy="false">(</mml:mo>
+                           <mml:msub>
+                              <mml:mrow>
+                                 <mml:mi mathvariant="bold-italic">x</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>i</mml:mi>
+                              </mml:mrow>
+                           </mml:msub>
+                           <mml:mo>,</mml:mo>
+                           <mml:msub>
+                              <mml:mi>y</mml:mi>
+                              <mml:mrow>
+                                 <mml:mi>i</mml:mi>
+                              </mml:mrow>
+                           </mml:msub>
+                           <mml:msub>
+                              <mml:mo stretchy="false">)</mml:mo>
+                              <mml:mrow>
+                                 <mml:mi>i</mml:mi>
+                                 <mml:mo>=</mml:mo>
+                                 <mml:mn>1</mml:mn>
+                                 <mml:mo>,</mml:mo>
+                                 <mml:mo>…</mml:mo>
+                                 <mml:mo>,</mml:mo>
+                                 <mml:mi>n</mml:mi>
+                              </mml:mrow>
+                           </mml:msub>
+                        </mml:mrow>
+                     </mml:math>
+                  </jats:inline-formula> denote independent samples from a general mixture distribution <jats:inline-formula>
+                     <jats:tex-math/>
+                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+                        <mml:mrow>
+                           <mml:munder>
+                              <mml:mo>∑</mml:mo>
+                              <mml:mrow>
+                                 <mml:mi>c</mml:mi>
+                                 <mml:mo>∈</mml:mo>
+                                 <mml:mrow>
+                                    <mml:mi class="MJX-tex-calligraphic">C</mml:mi>
+                                 </mml:mrow>
+                              </mml:mrow>
+                           </mml:munder>
+                           <mml:msub>
+                              <mml:mi>ρ</mml:mi>
+                              <mml:mrow>
+                                 <mml:mi>c</mml:mi>
+                              </mml:mrow>
+                           </mml:msub>
+                           <mml:msubsup>
+                              <mml:mi>P</mml:mi>
+                              <mml:mrow>
+                                 <mml:mi>c</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mrow>
+                                    <mml:mi mathvariant="bold-italic">x</mml:mi>
+                                 </mml:mrow>
+                              </mml:mrow>
+                           </mml:msubsup>
+                        </mml:mrow>
+                     </mml:math>
+                  </jats:inline-formula>, and consider the hypothesis class of generalized linear models <jats:inline-formula>
+                     <jats:tex-math/>
+                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+                        <mml:mrow>
+                           <mml:mrow>
+                              <mml:mover>
+                                 <mml:mi>y</mml:mi>
+                                 <mml:mo stretchy="true">^</mml:mo>
+                              </mml:mover>
+                           </mml:mrow>
+                           <mml:mo>=</mml:mo>
+                           <mml:mi>F</mml:mi>
+                           <mml:mo stretchy="false">(</mml:mo>
+                           <mml:msup>
+                              <mml:mrow>
+                                 <mml:mi mathvariant="bold">Θ</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi mathvariant="normal">⊤</mml:mi>
+                              </mml:mrow>
+                           </mml:msup>
+                           <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">x</mml:mi>
+                           </mml:mrow>
+                           <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                     </mml:math>
+                  </jats:inline-formula>. In this study, we investigate the asymptotic joint statistics of a family of generalized linear estimators <jats:inline-formula>
+                     <jats:tex-math/>
+                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+                        <mml:mrow>
+                           <mml:mo stretchy="false">(</mml:mo>
+                           <mml:msub>
+                              <mml:mrow>
+                                 <mml:mi mathvariant="bold">Θ</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mn>1</mml:mn>
+                              </mml:mrow>
+                           </mml:msub>
+                           <mml:mo>,</mml:mo>
+                           <mml:mo>…</mml:mo>
+                           <mml:mo>,</mml:mo>
+                           <mml:msub>
+                              <mml:mrow>
+                                 <mml:mi mathvariant="bold">Θ</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>M</mml:mi>
+                              </mml:mrow>
+                           </mml:msub>
+                           <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                     </mml:math>
+                  </jats:inline-formula> obtained either from (a) minimizing an empirical risk <jats:inline-formula>
+                     <jats:tex-math/>
+                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+                        <mml:mrow>
+                           <mml:msub>
+                              <mml:mrow>
+                                 <mml:mover>
+                                    <mml:mi>R</mml:mi>
+                                    <mml:mo stretchy="true">^</mml:mo>
+                                 </mml:mover>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>n</mml:mi>
+                              </mml:mrow>
+                           </mml:msub>
+                           <mml:mo stretchy="false">(</mml:mo>
+                           <mml:mrow>
+                              <mml:mi mathvariant="bold">Θ</mml:mi>
+                           </mml:mrow>
+                           <mml:mo>;</mml:mo>
+                           <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">X</mml:mi>
+                           </mml:mrow>
+                           <mml:mo>,</mml:mo>
+                           <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">y</mml:mi>
+                           </mml:mrow>
+                           <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                     </mml:math>
+                  </jats:inline-formula> or (b) sampling from the associated Gibbs measure <jats:inline-formula>
+                     <jats:tex-math/>
+                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+                        <mml:mrow>
+                           <mml:mi>exp</mml:mi>
+                           <mml:mo>⁡</mml:mo>
+                           <mml:mo stretchy="false">(</mml:mo>
+                           <mml:mo>−</mml:mo>
+                           <mml:mi>β</mml:mi>
+                           <mml:mi>n</mml:mi>
+                           <mml:msub>
+                              <mml:mrow>
+                                 <mml:mover>
+                                    <mml:mi>R</mml:mi>
+                                    <mml:mo stretchy="true">^</mml:mo>
+                                 </mml:mover>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>n</mml:mi>
+                              </mml:mrow>
+                           </mml:msub>
+                           <mml:mo stretchy="false">(</mml:mo>
+                           <mml:mrow>
+                              <mml:mi mathvariant="bold">Θ</mml:mi>
+                           </mml:mrow>
+                           <mml:mo>;</mml:mo>
+                           <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">X</mml:mi>
+                           </mml:mrow>
+                           <mml:mo>,</mml:mo>
+                           <mml:mrow>
+                              <mml:mi mathvariant="bold-italic">y</mml:mi>
+                           </mml:mrow>
+                           <mml:mo stretchy="false">)</mml:mo>
+                           <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                     </mml:math>
+                  </jats:inline-formula>. Our main contribution is to characterize under which conditions the asymptotic joint statistics of this family depends (in a weak sense) only on the means and covariances of the class conditional features distribution <jats:inline-formula>
+                     <jats:tex-math/>
+                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+                        <mml:mrow>
+                           <mml:msubsup>
+              

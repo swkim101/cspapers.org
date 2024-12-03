@@ -1,0 +1,4 @@
+
+ 
+ In this demo, we build a practical mobile application, Moodee,to help detect and release users’ psychological stress byleveraging users’ social media data in online social networks,and provide an interactive user interface to present users’and friends’ psychological stress states in an visualized andintuitional way.Given users’ online social media data as input, Moodee intelligentlyand automatically detects users’ stress states. Moreover,Moodee would recommend users with different linksto help release their stress. The main technology of this demois a novel hybrid model - a factor graph model combinedwith Deep Neural Network, which can leverage social mediacontent and social interaction information for stress detection.We think that Moodee can be helpful to people’s mentalhealth, which is a vital problem in modern world.
+ 

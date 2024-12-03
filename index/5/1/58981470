@@ -1,0 +1,1 @@
+This paper shows that every sublevel set of the loss function of a class of deep over-parameterized neural nets with piecewise linear activation functions is connected and unbounded. This implies that the loss has no bad local valleys and all of its global minima are connected within a unique and potentially very large global valley.

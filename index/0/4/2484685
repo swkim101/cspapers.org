@@ -1,0 +1,5 @@
+A1 mature data mining system has to interact with standard DBMSs. A crucial factor in the performance of such a data mining system lies in this interaction. The KESO project aims at the development of such a tool and its interaction with the database is restricted to two-way table queries; a special kind of aggregate query. 
+ 
+This restriction gives rise to ample possibilities to optimize the computation of such two-way tables, e.g., by using parallelisation or by temporary storage of intermediate results. 
+ 
+However, the size of these two-way tables puts a large communication overhead on the database interaction of KESO. In this paper we propose to compute (certain) aggregates in the database. This approach lowers the size of the query results considerably while keeping the possibilities for optimization used in the current version.

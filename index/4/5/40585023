@@ -1,0 +1,1 @@
+For a wheeled robotic vehicle that runs over a rough terrain, keeping its body stable during the run is desirable. For that purpose we built an active suspension four-wheel model and made experiments of the body attitude control during a run over a model rough road. The results showed significant suppression of the body attitude deviation by the control.

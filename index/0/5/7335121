@@ -1,0 +1,4 @@
+
+ 
+ Representing the semantics of words is a long-standing problem for the natural language processing community. Most methods compute word semantics given their textual context in large corpora. More recently, researchers attempted to integrate perceptual and visual features. Most of these works consider the visual appearance of objects to enhance word representations but they ignore the visual environment and context in which objects appear. We propose to unify text-based techniques with vision-based techniques by simultaneously leveraging textual and visual context to learn multimodal word embeddings. We explore various choices for what can serve as a visual context and present an end-to-end method to integrate visual context elements in a multimodal skip-gram model. We provide experiments and extensive analysis of the obtained results.
+ 

@@ -1,0 +1,1 @@
+In this paper, we present the foundations for mining frequent tri-concepts, which extend the notion of closed item-sets to three-dimensional data to allow for mining folk-sonomies. We provide a formal definition of the problem, and present an efficient algorithm for its solution as well as experimental results on a large real-world example.

@@ -1,0 +1,1 @@
+In this paper the new anti-Arnold transform pre-processing is used for decreasing time consumption in extracting the watermarks instead of using conventional Arnold transform and by exploiting watermarking algorithm which is used for having an optimized embedding. In this case the weighted mean in blending two images is used for being optimized by using genetic algorithm.

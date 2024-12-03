@@ -1,0 +1,1 @@
+The problem of checking equality of Boolean functions can be solved successfully using existing techniques for only a limited range of examples. We extend the range by using a test generator and the divide and conquer paradigm.

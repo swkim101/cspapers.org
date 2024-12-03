@@ -1,0 +1,5 @@
+Statistical machine translation systems are based on one or more translation models and a language model of the target language. While many different translation models and phrase extraction algorithms have been proposed, a standard word n-gram back-off language model is used in most systems. 
+ 
+In this work, we propose to use a new statistical language model that is based on a continuous representation of the words in the vocabulary. A neural network is used to perform the projection and the probability estimation. We consider the translation of European Parliament Speeches. This task is part of an international evaluation organized by the TC-STAR project in 2006. The proposed method achieves consistent improvements in the BLEU score on the development and test data. 
+ 
+We also present algorithms to improve the estimation of the language model probabilities when splitting long sentences into shorter chunks.

@@ -1,0 +1,7 @@
+Including a unique code in each copy of a distributed document is an effective way of fighting intellectual piracy. Codes designed for this purpose that are secure against collusion attacks are called fingerprinting codes. 
+ 
+In this paper we consider fingerprinting with the marking assumption and design codes that achieve much higher rates than previous constructions. We conjecture that these codes attain the maximum possible rate (the fingerprinting capacity) for any fixed number of pirates. We prove new upper bounds for the fingerprinting capacity that are not far from the rate of our codes. On the downside the accusation algorithm of our codes are much slower than those of earlier codes. 
+ 
+We introduce the novel model of weak fingerprinting codes where one pirate should be caught only if the identity of all other pirates are revealed. We construct fingerprinting codes in this model with improved rates but our upper bound on the rate still applies. In fact, these improved codes achieve the fingerprinting capacity of the weak model by a recent upper bound. 
+ 
+Using analytic techniques we compare the rates of our codes in the standard model and the rates of the optimal codes in the weak model. To our surprise these rates asymptotically agree, that is, their ratio tends to 1 as t goes to infinity. Although we cannot prove that each one of our codes in the standard model achieves the fingerprinting capacity, this proves that asymptotically they do.

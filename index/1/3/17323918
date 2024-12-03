@@ -1,0 +1,4 @@
+
+ 
+ The classical planning problem can be enriched with quantitative and qualitative user-defined preferences on how the system behaves on achieving the goal. In this paper, we propose the probabilistic preference planning problem for Markov decision processes, where the preferences are based on an enriched probabilistic LTL-style logic. We develop P4Solver, an SMT-based planner computing the preferred plan by reducing the problem to quadratic programming problem, which can be solved using SMT solvers such as Z3. We illustrate the framework by applying our approach on two selected case studies.
+ 

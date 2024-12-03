@@ -1,0 +1,4 @@
+
+ 
+ Most active learning methods avoid model selection by training models of one type (SVMs, boosted trees, etc.) using one pre-defined set of model hyperparameters. We propose an algorithm that actively samples data to simultaneously train a set of candidate models (different model types and/or different hyperparameters) and also select the best model from this set. The algorithm actively samples points for training that are most likely to improve the accuracy of the more promising candidate models, and also samples points for model selection---all samples count against the same labeling budget. This exposes a natural trade-off between the focused active sampling that is most effective for training models, and the unbiased sampling that is better for model selection. We empirically demonstrate on six test problems that this algorithm is nearly as effective as an active learning oracle that knows the optimal model in advance.
+ 

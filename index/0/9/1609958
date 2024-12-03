@@ -1,0 +1,1 @@
+PIPES is a flexible and extensible infrastructure providing fundamental building blocks to implement a data stream management system (DSMS). It is seamlessly integrated into the Java library XXL [1, 2, 3] for advanced query processing and extends XXL's scope towards continuous data-driven query processing over autonomous data sources.

@@ -1,0 +1,24 @@
+On behalf of the PaIR workshop organizing committee, we welcome you to the 4th workshop on Patent Information Retrieval (PaIR'11), organized by the Information Retrieval Facility (IRF) and the Vienna University of Technology. Previous PaIR workshops were held in Napa Valley, California (PaIR'08), Hong Kong (PaIR'09) and Toronto (PaIR'10). This year's workshop continues our examination of many of the most challenging aspects of patent-related information retrieval. 
+ 
+Despite the enormous recent progress in Information Retrieval techniques, advanced search tools for patent professionals are still in the early stages of development -- thus, the research in patent retrieval discussed here today may become key components in the patent search tools of tomorrow. Patents are not only crucial in protecting intellectual property but also serve as a strategic business factor in all modern economies. Patent search is a particular challenge to information retrieval and access systems for many reasons that are obvious and some reasons that are far subtler. Looking forward, successful patent search systems of the future will need to address the following aspects: 
+a vast amount of highly-complex structured documents; 
+a highly heterogeneous document collection (scientific papers, legal public disclosure as well as patents); 
+multiple languages; 
+ambiguous and conflicting technical jargon; 
+complex technological concepts; 
+sophisticated legal jargon; 
+harmonization issues between patent-issuing bodies; 
+evaluation of numerical ranges and other complex query types; 
+tracking temporal issues like publication data and patent priority dates; 
+tabular and graphical information embedded and referred to through placeholders in the patent text; 
+and many others. 
+ 
+ 
+ 
+The objective of this workshop is to provide a forum for Information Retrieval and Knowledge Management scientists, as well as Patent Retrieval experts from industry to exchange ideas, discuss the state-of-the-art and to study the next generation of patent search tools. 
+ 
+This year the workshop received 8 submissions, from which 6 full papers were accepted. All of them were also invited to prepare posters, as the afternoon session is dedicated to discussions surrounding the works presented here, as well as the keynote talks. 
+ 
+The accepted papers cover some of the most significant issues in Patent IR. Multilinguality is addressed by Nanba in his work on creating a bilingual terminology resource. The state of image retrieval techniques, and their potential use and utility for the patent domain is described by Hanbury and his colleagues. Then, three works this year address the core issue of text retrieval in the patent domain: Ganguly et al., Magdy and Jones, and Verma and Varma. Finally, Lupu describes his experience with and the status of IR evaluation in this domain. 
+ 
+These papers will initiate interesting conversations and hopefully will spark future development in intellectual property search, fostering further collaboration between researchers and industry representatives. Our primary goal for this workshop is to trigger more discussions on ways to go forward in this domain. Despite the intense research carried out in the last few years, we have seen little take up from the industry. We need an introspective view on this subdomain, and guidelines for future research. This is why the second half of the workshop will be dedicated to discussions in breakout groups, on specific topics, to identify ways to go forward. In these efforts we are grateful for the support of the two invited speakers, Jane List of the Lighthouse IP Group and Stephen Adams, from Magister Ltd., both of whom have extensive domain experience.

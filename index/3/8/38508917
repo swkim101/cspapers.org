@@ -1,0 +1,1 @@
+The Delaunay triangulation of a set of points in 3D can have size Θ(n2) in the worst case, but this is rarely if ever observed in practice. We compare three production-quality Delaunay triangulation programs on some 'real-world' sets of points lying on or near 2D surfaces.

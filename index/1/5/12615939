@@ -1,0 +1,1 @@
+We describe a vector and parallel implementation on the IBM 3090-600/VF of two extension of the preconditioned conjugate gradient algorithm for nonsymmetric sparse linear systems, with arbitrary scarcity structure. For both methods, we consider preconditioning by a diagonal matrix and by an incomplete LU factorization.

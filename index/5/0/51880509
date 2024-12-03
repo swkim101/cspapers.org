@@ -1,0 +1,1 @@
+In this paper we incorporate semantic supersensetags and syntactic supertag features into EN–FR and EN–DE factored NMT systems. In experiments on various test sets, we observe that such features (and particularly when combined) help the NMT model training to converge faster and improve the model quality according to the BLEU scores.

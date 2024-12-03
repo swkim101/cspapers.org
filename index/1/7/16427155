@@ -1,0 +1,5 @@
+The short-term memory under consideration differs from other memory systems of the same sort in so far as it has the following properties: (a) storage of codes in the dynamic memory and analysis of codes are combined in time; (b) information is stored in both structures (dynamic and static) in a "squeezed" form and the degree of "squeezing" differs for dynamic and static memories: (c)codes may be restored both out of dynamic and of static storage. 
+ 
+The model of memory proposed is invariant relative to the object's size and to changes of the object's position on the plane, to its negative image and to the object plane turning about. 
+ 
+The basic requirements put to memorizing devices of computers are those which provide for an increase in their capacity and the rapidity of their action.

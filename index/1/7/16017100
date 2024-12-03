@@ -1,0 +1,3 @@
+Combination strategies are test methods that generate test cases based on input parameter models. This paper suggests a structured modeling method used to translate requirements expressed in a general format into an input parameter model suitable for combination strategies. 
+ 
+This paper also describes results from two initial experiments exploring the efficiency and effectiveness of the modeling method. These results indicate that the resulting models may contain enough information to detect the vast majority of faults in the system under test. Further, results indicate that the modeling method is simple enough to use in practical testing.

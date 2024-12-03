@@ -1,0 +1,5 @@
+Determining the complexity of perfect information trick-taking card games is a long standing open problem. This question is worth addressing not only because of the popularity of these games among human players, e.g., DOUBLE DUMMY BRIDGE, but also because of its practical importance as a building block in state-of-the-art playing engines for CONTRACT BRIDGE, SKAT, HEARTS, and SPADES. 
+ 
+We define a general class of perfect information two-player trick-taking card games dealing with arbitrary numbers of hands, suits, and suit lengths. We investigate the complexity of determining the winner in various fragments of this game class. 
+ 
+Our main result is a proof of PSPACE-completeness for a fragment with bounded number of hands, through a reduction from Generalized Geography. Combining our results with Wastlund's tractability results gives further insight in the complexity landscape of trick-taking card games.

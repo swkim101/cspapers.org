@@ -1,0 +1,4 @@
+
+ 
+ Opponent modeling is a critical mechanism in repeated games. It allows a player to adapt its strategy in order to better respond to the presumed preferences of its opponents. We introduce a modeling technique that adaptively balances safety and exploitability. The opponent's strategy is modeled with a set of possible strategies that contains the actual one with high probability. The algorithm is safe as the expected payoff is above the minimax payoff with high probability, and can exploit the opponent's preferences when sufficient observations are obtained. We apply the algorithm to a robot table-tennis setting where the robot player learns to prepare to return a served ball. By modeling the human players, the robot chooses a forehand, backhand or middle preparation pose before they serve. The learned strategies can exploit the opponent's preferences, leading to a higher rate of successful returns.
+ 

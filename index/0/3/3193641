@@ -1,0 +1,4 @@
+
+ 
+ Most approaches to classifying data streams either divide the stream into fixed-size chunks or use gradual forgetting. Due to evolving nature of data streams, finding a proper size or choosing a forgetting rate without prior knowledge about time-scale of change is not a trivial task. These approaches hence suffer from a trade-off between performance and sensitivity. Existing dynamic sliding window based approaches address this problem by tracking changes in classifier error rate, but are supervised in nature. We propose an efficient semi-supervised framework in this paper which uses change detection on classifier confidence to detect concept drifts, and to determine chunk boundaries dynamically. It also addresses concept evolution problem by detecting outliers having strong cohesion among themselves. Experiment results on benchmark and synthetic data sets show effectiveness of the proposed approach.
+ 

@@ -1,0 +1,1 @@
+A virtual memory system for microprocessors is described. The system is designed to be extensible, to minimize software and execution overhead and to minimize operating system requirements. Specific application of the virtual memory system with the INTEL 8080 microprocessor is given, describing the necessary software constraints and operating system requirements.

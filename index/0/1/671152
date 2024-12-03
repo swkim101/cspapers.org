@@ -1,0 +1,1 @@
+We formulate linear dimensionality reduction as a semi-parametric estimation problem, enabling us to study its asymptotic behavior. We generalize the problem beyond additive Gaussian noise to (unknown) non-Gaussian additive noise, and to unbiased non-additive models.

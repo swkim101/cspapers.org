@@ -1,0 +1,4 @@
+
+ 
+ Conditional gradient descent, aka the Frank-Wolfe algorithm,regains popularity in recent years. The key advantage of Frank-Wolfe is that at each step the expensive projection is replaced with a much more efficient linear optimization step. Similar to gradient descent, the loss function of Frank-Wolfe scales with the data size. Training on big data poses a challenge for researchers. Recently, stochastic Frank-Wolfe methods have been proposed to solve the problem, but they do not perform well in practice. In this work, we study the problem of approximating the Frank-Wolfe algorithm on the large-scale multi-class classification problem which is a typical application of the Frank-Wolfe algorithm. We present a simple but effective method employing internal structure of data to approximate Frank-Wolfe on the large-scale multiclass classification problem. Empirical results verify that our method outperforms the state-of-the-art stochastic projection free methods.
+ 

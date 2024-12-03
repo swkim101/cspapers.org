@@ -1,0 +1,1 @@
+The software suite we will demonstrate at AAAI'06 was designed around planning with factored Markov decision processes (MDPs). It is a user-friendly suite that facilitates domain elicitation, preference elicitation, planning, and MDP policy display. The demo will concentrate on user interactions for domain experts and those for whom plans are made.

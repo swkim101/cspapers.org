@@ -1,0 +1,4 @@
+
+ 
+ Interruptible pure exploration in multi-armed bandits (MABs) is a key component of Monte-Carlo tree search algorithms for sequential decision problems. We introduce Discriminative Bucketing (DB), a novel family of strategies for pure exploration in MABs, which allows for adapting recent advances in non-interruptible strategies to the interruptible setting, while guaranteeing exponential-rate performance improvement over time. Our experimental evaluation demonstrates that the corresponding instances of DB favorably compete both with the currently popular strategies UCB1 and Epsilon-Greedy, as well as with the conservative uniform sampling.
+ 

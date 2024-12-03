@@ -1,0 +1,4 @@
+
+ 
+ Stable matching problems have several practical applications. If preference lists are truncated and contain ties, finding a stable matching with maximal size is computationally difficult. We address this problem using a local search technique, based on Adaptive Search and present experimental evidence that this approach is much more efficient than state-of-the-art exact and approximate methods. Moreover, parallel versions (particularly versions with communication) improve performance so much that very large and hard instances can be solved quickly.
+ 

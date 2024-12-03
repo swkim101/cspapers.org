@@ -1,0 +1,1 @@
+This paper describes procedures for checking the topological consistency of two- or three-dimensional finite element meshes. Two-dimensional meshes may include mixtures of triangles, quadrilaterals and other polygons, with optional side and center nodes. Three dimensional meshes may include tetrahedra and brick-shaped elements, with optional edge, face or center nodes.

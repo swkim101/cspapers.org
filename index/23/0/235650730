@@ -1,0 +1,15 @@
+We study the approximation of a target matrix in terms of several selected columns of another matrix, sometimes called "a dictionary".
+
+This approximation problem arises in various domains, such as signal processing, computer vision, and machine learning.
+
+An optimal column selection algorithm for the special case where the target matrix has only one column is known since the 1970's,
+
+but most previously proposed column selection algorithms for the general case are greedy.
+
+We propose the first nontrivial optimal algorithm for the general case, using a heuristic search setting similar to the classical A* algorithm.
+
+We also propose practical sub-optimal algorithms in a setting similar to the classical Weighted A* algorithm.
+
+Experimental results show that our sub-optimal algorithms compare favorably with the current state-of-the-art greedy algorithms.
+
+They also provide bounds on how close their solutions are to the optimal solution.

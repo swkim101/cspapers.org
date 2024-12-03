@@ -1,0 +1,4 @@
+
+ 
+ Recently the general Game Description Language (GDL) has been extended so as to cover arbitrary games with incomplete/imperfect information. Learning — without human intervention — to play such games poses a reasoning challenge for general game-playing systems that is much more intricate than in case of complete information games. Action formalisms like the Situation Calculus have been developed for precisely this purpose. In this paper we present a full embedding of the Game Description Language into the Situation Calculus (with Scherl and Levesque's knowledge fluent). We formally prove that this provides a sound and complete reasoning method for players' knowledge about game states as well as about the knowledge of the other players.
+ 

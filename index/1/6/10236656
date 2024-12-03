@@ -1,0 +1,1 @@
+We present a hybrid algorithm for Bayesian topic models that combines the efficiency of sparse Gibbs sampling with the scalability of online stochastic inference. We used our algorithm to analyze a corpus of 1.2 million books (33 billion words) with thousands of topics. Our approach reduces the bias of variational inference and generalizes to many Bayesian hidden-variable models.

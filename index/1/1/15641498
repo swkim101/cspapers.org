@@ -1,0 +1,3 @@
+We present algorithms with poly-logarithmic approximation ratios for the buy-at-bulk network design problem in the node-weighted setting. We obtain the following results where <i>h</i> is the number of pairs in the input.
+ • On <i>O</i>(log <i>h</i>) approximation for the single-sink non-uniform buy-at-bulk network design. Unless <i>P</i> = <i>NP</i> this ratio is tight up to constant factors.
+ • An <i>O</i>(log<sup>4</sup> <i>h</i>) approximation for the multi-commodity non-uniform buy-at-bulk network design problem.

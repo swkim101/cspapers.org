@@ -1,0 +1,1 @@
+We present the first result for kernel regression where the procedure adapts locally at a point x to both the unknown local dimension of the metric space X and the unknown Holder-continuity of the regression function at x. The result holds with high probability simultaneously at all points x in a general metric space X of unknown structure.

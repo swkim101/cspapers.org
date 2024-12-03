@@ -1,0 +1,4 @@
+
+ 
+ This paper introduces a novel method for measuring semantic relatedness using semantic profiles constructed from salient encyclopedic features. The model is built on the notion that the meaning of a word can be characterized by the salient concepts found in its immediate context. In addition to being computationally efficient, the new model has superior performance and remarkable consistency when compared to both knowledge-based and corpus-based state-of-the-art semantic relatedness models.
+ 

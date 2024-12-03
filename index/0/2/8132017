@@ -1,0 +1,4 @@
+
+ 
+ We study a self-organized collective decision-making strategy to solve a site-selection problem using a swarm of simple robots. Robots can only move forward or turn in place; sense the intensity of the ambient light; and exchange 3-byte messages with peers in a limited range. The goal of the swarm is to collectively decide which of the sites available in the environment is the best candidate site. We define a distributed and iterative decision-making strategy: robots explore the available options, determine the options' qualities, decide autonomously which option to take, and communicate their decision to neighboring robots. We study the effectiveness and robustness of the proposed strategy using a swarm of 100 Kilobots and we focus on the impact of the neighborhood size over the dynamics of the system.
+ 

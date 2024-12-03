@@ -1,0 +1,1 @@
+We study the problem of offering publish/subscribe functionality on top of structured overlay networks using data models and languages from IR. We show how to achieve this by extending the distributed hash table Chord and present a detailed experimental evaluation of our proposals.

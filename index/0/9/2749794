@@ -1,0 +1,4 @@
+
+ 
+ In a lifelong learning framework, an agent acquires knowledge incrementally over consecutive learning tasks, continually building upon its experience. Recent lifelong learning algorithms have achieved nearly identical performance to batch multi-task learning methods while reducing learning time by three orders of magnitude. In this paper, we further improve the scalability of lifelong learning by developing curriculum selection methods that enable an agent to actively select the next task to learn in order to maximize performance on future learning tasks. We demonstrate that active task selection is highly reliable and effective, allowing an agent to learn high performance models using up to 50% fewer tasks than when the agent has no control over the task order. We also explore a variant of transfer learning in the lifelong learning setting in which the agent can focus knowledge acquisition toward a particular target task.
+ 

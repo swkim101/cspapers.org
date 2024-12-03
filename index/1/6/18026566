@@ -1,0 +1,4 @@
+
+ 
+ Computing the minimal network of a Constraint Satisfaction Problem (CSP) is a useful and difficult task. Two algorithms, PerTuple and AllSol, were proposed to this end. The performances of these algorithms vary with the problem instance. We use Machine Learning techniques to build a classifier that predicts which of the two algorithms is likely to be more effective.
+ 

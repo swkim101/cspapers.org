@@ -1,0 +1,1 @@
+We present a polynomial time approximation algorithm for the asymmetric maximum traveling salesperson problem that achieves performance ratio 8/13(1 - 1/<i>n</i>). The running time of our algorithm is <i>O</i>(<i>n<sup>3</sup></i>).

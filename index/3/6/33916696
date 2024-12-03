@@ -1,0 +1,5 @@
+The concept of Active information System is introduced. Active Information Systems are collections of autonomous, data-driven tools operating in a data base environment and seeking to produce results that enhance the understanda- bility of the contents of the data base. The activities of the corresponding multiple concurrent processes are coordi- nated by control mechanisms that perform in a goal oriented manner. The data models supported by Active Systems are characterized by the existence of numerous data elements that are known only in imprecise or uncertain terms. 
+ 
+The different types of components of Active Systems are identified and their organization into a prototypical architec- ture is described. Emphasis is placed on algorithms that assist users in hypothesis generation and verification tasks. These algorithms are based on concepts from data base technology, knowledge based systems, system science and multivalued logic. 
+ 
+The technological approaches utilized in the development of an Active System testbed to treat problems of natural language understanding and uncertainty representation are discussed in detail.

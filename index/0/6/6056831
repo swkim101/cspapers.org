@@ -1,0 +1,4 @@
+
+ 
+ In recent years, deep learning has spread beyond both academia and industry with many exciting real-world applications. The development of deep learning has presented obvious privacy issues. However, there has been lack of scientific study about privacy preservation in deep learning. In this paper, we concentrate on the auto-encoder, a fundamental component in deep learning, and propose the deep private auto-encoder (dPA). Our main idea is to enforce ε-differential privacy by perturbing the objective functions of the traditional deep auto-encoder, rather than its results. We apply the dPA to human behavior prediction in a health social network. Theoretical analysis and thorough experimental evaluations show that the dPA is highly effective and efficient, and it significantly outperforms existing solutions.
+ 

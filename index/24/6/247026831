@@ -1,0 +1,1 @@
+We explore RNN and CodeBERT deep learning models that highlight errors in student submissions to Python coding problems. We find that a standard automatic metric like AUC does not correspond well to human evaluation, and that the scale of the benefits of transfer learning and pre-training are only seen when using human evaluation.

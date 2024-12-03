@@ -1,0 +1,2 @@
+We present an executable formally verified SAT encoding of ground classical AI planning problems. We use the theorem prover Isabelle/HOL to perform the verification. We experimentally test the verified encoding and show that it can be used for reasonably sized standard planning benchmarks. We also use it as a reference to test a state-of-the-art SAT-based
+planner, showing that it sometimes falsely claims that problems have no solutions of certain lengths.

@@ -1,0 +1,4 @@
+
+ 
+ We consider the classic cake cutting problem where one allocates a divisible cake to n participating agents. Among all valid divisions, fairness and efficiency (a.k.a. ~social welfare) are the most critical criteria to satisfy and optimize, respectively. We study computational complexity of computing an efficiency optimal division given the conditions that the allocation satisfies proportional fairness and assigns each agent a connected piece. For linear valuation functions, we give a polynomial time approximation scheme to compute an efficiency optimal allocation. On the other hand, we show that the problem is NP-hard to approximate within a factor of Ω 1/√n for general piecewise constant functions, and is NP-hard to compute for normalized functions.
+ 

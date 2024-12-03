@@ -1,0 +1,4 @@
+
+ 
+ We discuss challenges and opportunities for developing generalized task markets where human and machine intelligence are enlisted to solve problems, based on a consideration of the competencies, availabilities, and pricing of different problem-solving resources. The approach couples human computation with machine learning and planning, and is aimed at optimizing the flow of subtasks to people and to computational problem solvers. We illustrate key ideas in the context of Lingua Mechanica, a project focused on harnessing human and machine translation skills to perform translation among languages. We present infrastructure and methods for enlisting and guiding human and machine computation for language translation, including details about the hardness of generating plans for assigning tasks to solvers. Finally, we discuss studies performed with machine and human solvers, focusing on components of a Lingua Mechanica prototype.
+ 

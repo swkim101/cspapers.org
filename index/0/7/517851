@@ -1,0 +1,1 @@
+In this work, we propose a robust and efficient method to build dense 3D maps, using only the images grabbed by an omnidirectional camera. The map contains exhaustive information about both the structure and the appearance of the environment and it is well suited also for large scale environments.

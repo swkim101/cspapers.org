@@ -1,0 +1,1 @@
+We present a method for performing machine transliteration without any parallel resources. We frame the transliteration task as a decipherment problem and show that it is possible to learn cross-language phoneme mapping tables using only monolingual resources. We compare various methods and evaluate their accuracies on a standard name transliteration task.

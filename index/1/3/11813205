@@ -1,0 +1,1 @@
+Facetedpedia is a faceted search system that dynamically discovers query-dependent faceted interfaces for Wikipedia search result articles. In this paper, we give an overview of Facetedpedia, present the system architecture and implementation techniques, and elaborate on a demonstration scenario.

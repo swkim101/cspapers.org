@@ -1,0 +1,1 @@
+This paper describes the architecture of a 2 × 2 fault-tolerant switching element which can be used to modularly construct interconnection networks for multi-processing and local computer networking. The switching element uses distributed control and circuit switching. Its good gate-to-pin ratio can facilitate VLSI implementation.

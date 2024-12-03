@@ -1,0 +1,4 @@
+
+ 
+ Temporal problems with uncertainty are a well established formalism to model time constraints of a system interacting with an uncertain environment. Several works have addressed the definition and the solving of controllability problems, and three degrees of controllability have been proposed: weak, strong, and dynamic. In this work we focus on weak controllability: we address both the decision and the strategy extraction problems. Extracting a strategy means finding a function from assignments to uncontrollable time points to assignments to controllable time points that fulfills all the temporal constraints. We address the two problems in the satisfiability modulo theory framework. We provide a clean and complete formalization of the problems, and we propose novel techniques to extract strategies. We also provide experimental evidence of the scalability and efficiency of the proposed techniques.
+ 

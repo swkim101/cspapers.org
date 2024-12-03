@@ -1,0 +1,3 @@
+Recognizing patterns with temporal context is important for such tasks as speech recognition, motion detection and signature verification. We propose an architecture in which time serves as its own representation, and temporal context is encoded in the state of the nodes. We contrast this with the approach of replicating portions of the architecture to represent time. 
+ 
+As one example of these ideas, we demonstrate an architecture with capacitive inputs serving as temporal feature detectors in an otherwise standard back propagation model. Experiments involving motion detection and word discrimination serve to illustrate novel features of the system. Finally, we discuss possible extensions of the architecture.

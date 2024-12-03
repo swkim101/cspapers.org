@@ -1,0 +1,4 @@
+
+ 
+ We study the distributed allocation of tasks to cooperating robots in real time, where each task has to be assigned to exactly one robot so that the sum of the latencies of all tasks is as small as possible. We propose a new auction-like algorithm, called Sequential Incremental-Value (SIV) auction, which assigns tasks to robots in multiple rounds. The idea behind SIV auctions is to assign as many tasks per round to robots as possible as long as their individual costs for performing these tasks are at most a given bound, which increases exponentially from round to round. Our theoretical results show that the team costs of SIV auctions are at most a constant factor larger than minimal.
+ 

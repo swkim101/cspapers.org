@@ -1,0 +1,2 @@
+Inside a Toulousian project on “Fault tolerant computing system”, we are interested by error confinement (hardware and software errors) and by error recovery at the operating system level.
+ This paper discusses the principles of domains and the architecture of a capability machine (§ II). We detail management of scheduling and object sharing between processes, by monitors (§ III).Then we present error recovery mechanisms (reconfiguration, rollback) in a capability machine (§ IV).

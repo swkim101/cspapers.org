@@ -1,0 +1,7 @@
+Back-end Data base machines receive considerable attention owing to their facility for improving performance of installations with heavy data base activity. 
+ 
+Many prototype systems have been described in the litterature but few systems are commercially available. 
+ 
+This paper presents a commercial back-end data base management machine called MIX (design code), which is developped by our company. 
+ 
+The global architecture of this data base machine is described, and the principal issue, discussed here in, applies to its software.

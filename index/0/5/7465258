@@ -1,0 +1,1 @@
+We present a new efficient algorithm for top-N match retrieval of sequential patterns. Our approach is based on an incremental approximation of the string edit distance using index information and a stack based search. Our approach produces hypotheses with average edit error of about 0.29 edits from the optimal SED result while using only about 5% of the CPU computation.

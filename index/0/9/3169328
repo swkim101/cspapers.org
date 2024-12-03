@@ -1,0 +1,4 @@
+
+ 
+ This paper is aimed as a contribution to the use of formal modal languages in Artificial Intelligence. We introduce a multi-modal version of Second-order Propositional Modal Logic (SOPML), an extension of modal logic with propositional quantification, and illustrate its usefulness as a specification language for knowledge representation as well as temporal and spatial reasoning. Then, we define novel notions of (bi)simulation and prove that these preserve the interpretation of SOPML formulas. Finally, we apply these results to assess the expressive power of SOPML.
+ 

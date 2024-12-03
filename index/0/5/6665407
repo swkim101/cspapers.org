@@ -1,0 +1,4 @@
+
+ 
+ Today’s data centers are designed with multi-core CPUs where multiple virtual machines (VMs) can be co-located into one physical machine or distribute multiple computing tasks onto one physical machine. The result is co-tenancy, resource sharing and competition. Modeling and predicting such co-run interference becomes crucial for job scheduling and Quality of Service assurance. Co-locating interference can be characterized into two components, sensitivity and pressure, where sensitivity characterizes how an application’s own performance is affected by a co-run application, and pressure characterizes how much contentiousness an application exerts/brings onto the memory subsystem. Previous studies show that with simple models, sensitivity and pressure can be accurately characterized for a single machine. We extend the models to consider cross-architecture sensitivity (across different machines).
+ 

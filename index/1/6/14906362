@@ -1,0 +1,4 @@
+
+ 
+ Variable selection problems are typically addressed under apenalized optimization framework. Nonconvex penalties such as the minimax concave plus (MCP) and smoothly clipped absolute deviation(SCAD), have been demonstrated to have the properties of sparsity practically and theoretically. In this paper we propose a new nonconvex penalty that we call exponential-type penalty. The exponential-type penalty is characterized by a positive parameter,which establishes a connection with the ell0 and ell1 penalties.We apply this new penalty to sparse supervised learning problems. To solve to resulting optimization problem, we resort to a reweighted ell1 minimization method. Moreover, we devise an efficient method for the adaptive update of the tuning parameter. Our experimental results are encouraging. They show that the exponential-type penalty is competitive with MCP and SCAD.
+ 

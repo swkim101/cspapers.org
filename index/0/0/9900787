@@ -1,0 +1,4 @@
+
+ 
+ While Hierarchical Task Networks are frequently cited as flexible and powerful planning models, they are often ignored due to the intensive labor cost for experts/programmers, due to the need to create and refine the model by hand. While recent work has begun to address this issue by working towards learning aspects of an HTN model from demonstration, or even the whole framework, the focus so far has been on simple domains, which lack many of the challenges faced in the real world such as imperfect information and real-time environments. I plan to extend this work using the domain of real-time strategy (RTS) games, which have gained recent popularity as a challenging and complex domain for AI research.
+ 

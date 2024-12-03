@@ -1,0 +1,1 @@
+A prototype X.400 message handling system for IBM's VM/SP operating system is discussed. The system is designed to provide smooth integration of X.400 services into the predominantly used means of interpersonal communication in the VM/SP environment (RSCS). The system provides native X.400 services to its users and therefore is not a gateway between RSCS and X.400 protocols.

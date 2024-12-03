@@ -1,0 +1,4 @@
+
+ 
+ We investigate the problem of repacking stations in the FCC's upcoming, multi-billion-dollar "incentive auction". Early efforts to solve this problem considered mixed-integer programming formulations, which we show are unable to reliably solve realistic, national-scale problem instances. We describe the result of a multi-year investigation of alternatives: a solver, SATFC, that has been adopted by the FCC for use in the incentive auction. SATFC is based on a SAT encoding paired with a wide range of techniques: constraint graph decomposition; novel caching mechanisms that allow for reuse of partial solutions from related, solved problems; algorithm configuration; algorithm portfolios; and the marriage of local-search and complete solver strategies. We show that our approach solves virtually all of a set of problems derived from auction simulations within the short time budget required in practice.
+ 

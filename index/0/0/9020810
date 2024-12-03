@@ -1,0 +1,4 @@
+
+ 
+ We pose the problem of constructing good search heuristics as an optimization problem: minimizing the loss between the true distances and the heuristic estimates subject to admissibility and consistency constraints. For a well-motivated choice of loss function, we show performing this optimization is tractable. In fact, it corresponds to a recently proposed method for dimensionality reduction. We prove this optimization is guaranteed to produce admissible and consistent heuristics, generalizes and gives insight into differential heuristics, and show experimentally that it produces strong heuristics on problems from three distinct search domains.
+ 

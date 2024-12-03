@@ -1,0 +1,1 @@
+In this paper we explore the use of category information for ad hoc retrieval in Wikipedia. We show that techniques for entity ranking exploiting this category information can also be applied to ad hoc topics and lead to significant improvements. Automatically assigned target categories are good surrogates for manually assigned categories, which perform only slightly better.

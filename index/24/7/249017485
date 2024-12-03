@@ -1,0 +1,5 @@
+We present a self-learning approach for synthesizing programs from integer
+sequences. Our method relies on a tree search guided by a learned policy. 
+Our system is tested on the On-Line Encyclopedia of Integer Sequences.
+There, it discovers, on its own, solutions for 27987 sequences starting from 
+basic operators and without human-written training examples.

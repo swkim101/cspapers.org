@@ -1,0 +1,1 @@
+We introduce smoothing of retrieval effectiveness scores, which balances results from prior incomplete query sets against limited additional complete information, in order to obtain more refined system orderings than would be possible on the new queries alone.

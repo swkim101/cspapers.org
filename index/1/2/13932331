@@ -1,0 +1,2 @@
+The Japan's Fifth Generation Computer System project is divided into three stages. In the first three-year stage, a working relational data base machine is developed for a software development support system to be used in the second stage and also for an experimental system which provides a research tool for the knowledge base machine.
+ The paper briefly describes the concepts and architecture of the relational data base machine named “Delta” which is currently under development at ICOT.

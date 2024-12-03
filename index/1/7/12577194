@@ -1,0 +1,1 @@
+There exist constants ck > 0, Ck --~ 0 as k -~ oo, such that every DLL algorithm for the satsfiability of sets of disjunctions of size < k using m variables runs for at least n(2 m(a-cD) steps on some inputs. Our proof is based on proving such a lower bound on the tree-like resolution proofs of generalized Tseitin tau-

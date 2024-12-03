@@ -1,0 +1,4 @@
+
+ 
+ This paper is concerned with model-based clustering of discrete data. Latent class models (LCMs) are usually used for the task. An LCM consists of a latent variable and a number of attributes. It makes the overly restrictive assumption that the attributes are mutually independent given the latent variable. We propose a novel method to relax the assumption. The key idea is to partition the attributes into groups such that correlations among the attributes in each group can be properly modeled by using one single latent variable. The latent variables for the attribute groups are then used to build a number of models and one of them is chosen to produce the clustering results. Extensive empirical studies have been conducted to compare the new method with LCM and several other methods (K-means, kernel K-means and spectral clustering) that are not model-based. The new method outperforms the alternative methods in most cases and the differences are often large.
+ 

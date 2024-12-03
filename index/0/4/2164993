@@ -1,0 +1,4 @@
+
+ 
+ Many real world applications in medicine, biology, communication networks, web mining, and economics, among others, involve modeling and learning structured stochastic processes that evolve over continuous time. Existing approaches, however, have focused on propositional domains only. Without extensive feature engineering, it is difficult-if not impossible-to apply them within relational domains where we may have varying number of objects and relations among them. We therefore develop the first relational representation called Relational Continuous-Time Bayesian Networks (RCTBNs) that can address this challenge. It features a nonparametric learning method that allows for efficiently learning the complex dependencies and their strengths simultaneously from sequence data. Our experimental results demonstrate that RCTBNs can learn as effectively as state-of-the-art approaches for propositional tasks while modeling relational tasks faithfully.
+ 

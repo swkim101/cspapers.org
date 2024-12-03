@@ -1,0 +1,1 @@
+We discuss a range of modeling choices that arise when constructing an end-to-end differentiable programming language suitable for learning programs from input-output examples. Taking cues from programming languages research, we study the effect of memory allocation schemes, immutable data, type systems

@@ -1,0 +1,1 @@
+The IDAS natural-language generation system uses a KL-ONE type classifier to perform content determination, surface realisation, and part of text planning. Generation-by-classification allows IDAS to use a single representation and reasoning component for both domain and linguistic knowledge, which is difficult for systems based on unification or systemic generation techniques.

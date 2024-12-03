@@ -1,0 +1,26 @@
+On behalf of the PaIR workshop organizing committee, we welcome you to the 3rd workshop on Patent Information Retrieval (PaIR'10), organized by the Information Retrieval Facility (IRF) and the University of Iowa. Previous PaIR workshops were held in Napa Valley, California (PaIR'08) and Hong Kong (PaIR'09). This year's workshop continues our examination of many of the most challenging aspects of patent-related information retrieval. 
+ 
+Despite the enormous recent progress in Information Retrieval techniques, advanced search tools for patent professionals are yet still in the early stages of development - thus, the research in patent retrieval discussed here today may become key components in the patent search tools of tomorrow. Patents are not only crucial in protecting intellectual property but also serve as a strategic business factor in all modern economies. Patent search is a particular challenge to information retrieval and access systems for many reasons that are obvious and some reasons that are far more subtle. Looking forward, successful patent search systems of the future will need to address the following aspects: 
+a vast amount of highly-complex structured documents; 
+a highly heterogeneous document collection (scientific papers, legal public disclosure as well as patents); 
+multiple languages; 
+ambiguous and conflicting technical jargon; 
+complex technological concepts; 
+sophisticated legal jargon; 
+harmonization issues between patent-issuing bodies; 
+evaluation of numerical ranges and other complex query types; 
+tracking temporal issues like publication data and patent priority dates; 
+tabular and graphical information embedded and referred to through placeholders in the patent text; 
+and many others. 
+ 
+ 
+ 
+The objective of this workshop is to provide a forum for Information Retrieval and Knowledge Management scientists, as well as Patent Retrieval experts from industry to exchange ideas, discuss the state-of-the-art and to study the next generation of patent search tools. 
+ 
+This year the workshop received 11 submissions, from which 4 full papers were accepted. Furthermore 5 papers have been invited to do a short presentation and display posters, especially to generate discussion on future directions of Patent Information Retrieval. All submitted papers for this year's workshop were of high quality, demonstrating considerable merit in the field of Patent IR. 
+ 
+The 4 full papers cover some of the most significant issues in Patent IR. Linda Andersson's A Vector Space Analysis of Swedish Patent Claims with Different Linguistic Indices examines if the vector space model can be used to retrieve Swedish patent claims. In Genre and Domain in Patent Texts, Oostdijk et al apply an "aboutness"-based dependency parser to the text mining of patents. Next, in Preliminary Study into Query Translation for Patent Retrieval, Jochim et al, investigates the use of query term translation for multi-lingual retrieval. The authors use both generic dictionaries and dictionaries extracted from the patent corpus. Finally, in Search for Patents Using Treatment and Causal Relationships, Krishnan et al present the way linguistic methods can be used to find relationships in patents in order to improve the recall and precision of search results. The authors apply modifications they bring to an already known corpus harvesting algorithm in order to improve retrieval results. 
+ 
+In addition to the 4 full papers, 5 research groups will describe their ideas in a booster session, followed by poster presentations during the workshop's break. The topics covered by these papers cover patent classification and categorization, translation, natural language processing and, of course, new ways of performing prior art search. 
+ 
+We hope that these papers will initiate interesting conversations and spark future development in intellectual property search, fostering further collaboration between researchers and industry representatives. Our primary goal for this workshop is to serve as a springboard for many future discussions and research in Patent IR. Additionally, we hope that it will lead to the recognition of patent searching and retrieval as one of the fundamental areas of research in and application of Information Retrieval and Knowledge Management.

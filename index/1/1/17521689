@@ -1,0 +1,1 @@
+This paper deals with the implementation of an interactive graphical programming language for the manipulation of directed graphs. Interesting aspects of the design and a user's view of the facilities are presented. The language is a modified version of AMBIT/G; a brief description of AMBIT/G is contained in the introduction.

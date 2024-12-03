@@ -1,0 +1,5 @@
+We obtain an essentially optimal tradeoff between the amortized cost of the three basic priority queue operations insert, delete and find-min in the comparison model. More specifically we show that 
+ 
+[EQUATION] 
+ 
+for any fixed e > 0, where n is the number of items in the priority queue and A(insert), A(delete) and A(find-min) are the amortized costs of the insert, delete and find-min operations, respectively. In particular, if A(insert) + A(delete) = O(1), then A(find-min) = Ω(n), and A(find-min) = O(nα), for some α < 1, only if A(insert) + A(delete) = Ω(log n). (We can, of course, have A(insert) = O(1), A(delete) = O(log n), or vice versa, and A(find-min) = O(1).) Our lower bound holds even if randomization is allowed. Surprisingly, such fundamental bounds on the amortized cost of the operations were not known before. Brodal, Chaudhuri and Radhakrishnan, obtained similar bounds for the worst-case complexity of find-min.

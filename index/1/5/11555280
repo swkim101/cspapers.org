@@ -1,0 +1,5 @@
+We study the following basic pattern matching problem. Consider a "code" sequence c consisting of n bits chosen uniformly at random, and a "signal" sequence x obtained by shifting c (modulo n) and adding noise. The goal is to efficiently recover the shift with high probability. The problem models tasks of interest in several applications, including GPS synchronization and motion estimation. 
+ 
+We present an algorithm that solves the problem in time O(n(f/(1+f)), where O(Nf) is the running time of the best algorithm for finding the closest pair among N "random" sequences of length O(log N). A trivial bound of f = 2 leads to a simple algorithm with a running time of O(n2/3). The asymptotic running time can be further improved by plugging in recent more efficient algorithms for the closest pair problem. 
+ 
+Our results also yield a sub-linear time algorithm for approximate pattern matching algorithm for a random signal (text), even for the case when the error between the signal and the code (pattern) is asymptotically as large as the code size. This is the first sublinear time algorithm for such error rates.

@@ -1,0 +1,1 @@
+This paper uses GNU Radio and USRP boards to implement a feasibility study of using FM radio for data transmission in vehicular networks. Specifically, it implemented packet transmission with GNU Radio, USRP boards and FM radio (88MHz∼108MHz) and observed the packet loss rate, packet correct rate with different distances.

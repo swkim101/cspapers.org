@@ -1,0 +1,9 @@
+LDA-frames is an unsupervised approach for identifying semantic
+frames from semantically unlabeled text corpora, and seems to
+be a useful competitor for manually created databases of
+selectional preferences. The most limiting property of the
+algorithm is such that the number of frames and roles must be
+predefined. In this paper we present a modification of the
+LDA-frames algorithm allowing the number of frames and roles to
+be determined automatically, based on the character and size of
+training data.

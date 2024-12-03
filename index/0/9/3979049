@@ -1,0 +1,1 @@
+This paper introduces Stalwart, a novel system design for wireless Cyber-Physical Systems (CPS) including a scheduling framework that provides real-time guarantees, minimizes end-to-end latency between application tasks, minimizes communication energy, and ensures safety in terms of conflict-free communication.

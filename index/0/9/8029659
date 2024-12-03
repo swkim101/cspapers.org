@@ -1,0 +1,4 @@
+
+ 
+ Dynamic auctions are trading mechanisms for discovering market-clearing prices and efficient allocations based on price adjustment processes. This paper studies the computational issues of dynamic auctions for selling multiple indivisible items. Although the decision problem of efficient allocations in a dynamic auction in general is intractable, it can be solved in polynomial time if the economy under consideration satisfies the condition of Gross Substitutes and Complements, which is known as the most general condition that guarantees the existence of Walrasian equilibrium. We propose a polynomial algorithm that can be used to find efficient allocations and introduce a double-direction auction procedure to discover a Walrasian equilibrium in polynomial time.
+ 

@@ -1,0 +1,1 @@
+Improving a result of Mehlhorn and Schmidt, a function f with deterministic communication complexity n2 is shown to have Las Vegas communication complexity &Ogr;(n). This is the best possible, because the deterministic complexity cannot be more than the square of the Las Vegas communication complexity for any function.

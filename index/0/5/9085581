@@ -1,0 +1,5 @@
+This paper proposes the Multi-World Model as a new logical framework for semantic interpretation of natural language. The model represents worlds as first-order axiomatic systems linked through interpretations between worlds, which are mappings of theorems between these axiomatic systems. Results of semantic interpretation are assumed to be constructed on such a multi-world structure. 
+ 
+To understand ambiguous sentences, people make assumptions to complement information that is unknown to them. If an assumption is consistent with information that is known to them, then they will support that assumption and make a unique interpretation of the sentence. When a new sentence comes in whose interpretation conflicts with a previous interpretation, they will consider another assumption. When the context is fixed, the whole interpretation will be decided by selecting the most, preferable assumptions. 
+ 
+The Multi-World Model was designed as a formal description of facts, assumptions, background knowledge, and their relationships. This paper defines the Multi-World Model and presents its application to semantic interpretation with concrete examples.

@@ -1,0 +1,4 @@
+
+ 
+ We propose a new customizable tool, Language Independent Feature Extractor (LIFE), which models the inherent patterns of any language and extracts relevant features of thelanguage. There are two contributions of this work: (1) no labeled data is necessary to train LIFE (It works when a sufficient number of unlabeled documents are given), and (2) LIFE is designed to be applicable to any language. We proved the usefulness of LIFE by experimental results of time information extraction.
+ 

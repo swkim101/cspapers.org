@@ -1,0 +1,4 @@
+
+ 
+ We demonstrate a system for predicting gaming related properties from Twitter accounts. Our system predicts various traits of users based on the tweets publicly available in their profiles. Such inferred traits include degrees of tech-savviness and knowledge on computer games, actual gaming performance, preferred platform, degree of originality, humor and influence on others. Our system is based on machine learning models trained on crowd-sourced data. It allows people to select Twitter accounts of their fellow gamers, examine the trait predictions made by our system, and the main drivers of these predictions. We present empirical results on the performance of our system based on its accuracy on our crowd-sourced dataset.
+ 

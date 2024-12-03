@@ -1,0 +1,4 @@
+
+ 
+ In standard machine learning and regression setting feature values are used to predict some desired information. The privacy challenge considered here is to prevent an adversary from using available feature values to predict confidential information that one wishes to keep secret. We show that this can sometimes be achieved with almost no effect on the qual- ity of predicting desired information. We describe two algorithms aimed at providing such privacy when the predictors have a linear operator in the first stage. The desired effect can be achieved by zeroing out feature components in the approximate null space of the linear operator.
+ 

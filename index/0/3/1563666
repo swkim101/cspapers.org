@@ -1,0 +1,4 @@
+
+ 
+ Stochastic local search (SLS) algorithms have shown effectiveness on satisfiable instances of the Boolean satisfiability (SAT) problem. However, their performance is still unsatisfactory on random k-SAT at the phase transition, which is of significance and is one of the empirically hardest distributions of SAT instances. In this paper, we propose a new heuristic called DCCA, which combines two configuration checking (CC) strategies with different definitions of configuration in a novel way. We use the DCCA heuristic to design an efficient SLS solver for SAT dubbed DCCASat. The experiments show that the DCCASat solver significantly outperforms a number of state-of-the-art solvers on extensive random k-SAT benchmarks at the phase transition. Moreover, DCCASat shows good performance on structured benchmarks, and a combination of DCCASat with a complete solver achieves state-of-the-art performance on structured benchmarks.
+ 

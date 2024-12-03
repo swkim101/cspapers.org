@@ -1,0 +1,1 @@
+We present experiments demonstrating that some other form of capacity control, different from network size, plays a central role in learning multilayer feed-forward networks. We argue, partially through analogy to matrix factorization, that this is an inductive bias that can help shed light on deep learning.

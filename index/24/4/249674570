@@ -1,0 +1,31 @@
+The metric distortion framework posits that n voters and m candidates are jointly embedded in a metric space such that voters rank candidates that are closer to them higher.
+
+A voting rule's purpose is to pick a candidate with minimum total distance to the voters, given only the rankings, but not the actual distances.
+
+As a result, in the worst case, each deterministic rule picks a candidate whose total distance is at least three times larger than that of an optimal one, i.e., has distortion at least 3.
+
+A recent breakthrough result showed that achieving this bound of 3 is possible;
+
+however, the proof is non-constructive, and the voting rule itself is a complicated exhaustive search.
+
+
+
+Our main result is an extremely simple voting rule, called Plurality Veto, which achieves the same optimal distortion of 3. 
+
+Each candidate starts with a score equal to his number of first-place votes.
+
+These scores are then gradually decreased via an n-round veto process in which a candidate drops out when his score reaches zero. One after the other, voters decrement the score of their bottom choice among the standing candidates, and the last standing candidate wins.
+
+We give a one-paragraph proof that this voting rule achieves distortion 3.
+
+This rule is also immensely practical, and it only makes two queries to each voter, so it has low communication overhead.
+
+We also show that a straightforward extension can be used to give a constructive proof of the more general Ranking-Matching Lemma of Gkatzelis et al.
+
+
+
+We also generalize Plurality Veto into a class of randomized voting rules in the following way: Plurality veto is run only for k < n rounds; then, a candidate is chosen with probability proportional to his residual score.
+
+This general rule interpolates between Random Dictatorship (for k=0) and Plurality Veto (for k=n-1), and k controls the variance of the output.
+
+We show that for all k, this rule has expected distortion at most 3.

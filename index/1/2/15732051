@@ -1,0 +1,5 @@
+Real-time situation understanding is adifficult problem, in that decisions must be made on a continuous basis with continuously changing data. An attractive approach to the problem is to match the current data set to a memory of script-like structures. Partial matching to scripts enables powerful understanding and prediction, but requires robust uncertainty mechanisms to overcome inherent ambiguity and error. 
+ 
+Although powerful uncertainty techniques for dealing with time-relevant data have been developed, little with regard to the implications of the real-time problem has been presented. 
+ 
+This paper discusses some of the special requirements for a real-time script belief function, and presents a derivation of such a function. Finally, examples demonstrating the characteristics of the Script Belief function are provided.

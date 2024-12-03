@@ -1,0 +1,1 @@
+Heuristic search is a fundamental problem-solving method in artificial intelligence. The main limitation of search is its computational complexity which can be overcome by parallel implementation of the algorithms. Distributed tree search and Parallel window search are two of the approaches to parallelizing search algorithms.

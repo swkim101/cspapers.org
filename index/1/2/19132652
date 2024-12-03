@@ -1,0 +1,4 @@
+
+ 
+ We detect and localize obstacles in front of a mobile robot by means of a deep neural network that maps images acquired from a forward-looking camera to the outputs of five proximity sensors. The robot autonomously acquires training data in multiple environments; once trained, the network can detect obstacles and their position also in unseen scenarios, and can be used on different robots, not equipped with proximity sensors. We demonstrate both the training and deployment phases on a small modified Thymio robot.
+ 

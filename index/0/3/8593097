@@ -1,0 +1,5 @@
+We have tried a new project management approach for the development of engineering application software systems. The key factor of this new approach is the introduction of the role of “Interpreter” who sits in between application engineers and programmers and handles all of the communication problems among them. Our major objectives were:
+ (1) To release application engineers from unfamiliar programming tasks as much as possible.
+ (2) And to increase the productivity of a small group of technical staffs.
+ Experiments upon real projects resulted in much greater improvement of productivity and quality than we had expected. And also the morale of team members was improved.
+ This paper describes the results of these experiments and the characteristics of this new development approach in comparison with the traditional one.

@@ -1,0 +1,7 @@
+The input/output properties of a 2 compartment model neuron are systematically explored. Taken from the work of MacGregor (MacGregor, 1987), the model neuron compartments contain several active conductances, including a potassium conductance in the dendritic compartment driven by the accumulation of intradendritic calcium. Dynamics of the conductances and potentials are governed by a set of coupled first order differential equations which are integrated numerically. There are a set of 17 internal parameters to this model, specificying conductance rate constants, time constants, thresholds, etc. 
+ 
+To study parameter sensitivity, a set of trials were run in which the input driving the neuron is kept fixed while each internal parameter is varied with all others left fixed. 
+ 
+To study the input/output relation, the input to the dendrite (a square wave) was varied (in frequency and magnitude) while all internal parameters of the system were left fixed, and the resulting output firing rate and bursting rate was counted. 
+ 
+The input/output relation of the model neuron studied turns out to be much more sensitive to modulation of certain dendritic potassium current parameters than to plasticity of synapse efficacy per se (the amount of current influx due to synapse activation). This would in turn suggest, as has been recently observed experimentally, that the potassium current may be as or more important a focus of neural plasticity than synaptic efficacy.

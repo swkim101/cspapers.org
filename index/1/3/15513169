@@ -1,0 +1,1 @@
+Closed-loop kinematic calibration has been experimentally implemented on the Sarcos Dextrous Arm. The elbow joint is made mobile by adding an unsensed hinge joint at the endpoint attachment to ground. The calibrated parameters include the joint angle offsets and the hinge-related parameters.<<ETX>>

@@ -1,0 +1,3 @@
+Planning is a crucial aspect of many applications which are naturally suited to the use of distributed processing hardware. Use of a centralized planner is generally incongruous with effective distributed problem solving systems, motivating generalization of centralized planning techniques to accomodate multiple and distributed centers of planning control. 
+ 
+Such a generalization of Sacerdoti's NOAH (Nets of Action Hierarchies) planning system is described. This generalization involves distribution of NOAH's criticism and world model mechanisms.

@@ -1,0 +1,1 @@
+This paper describes an ROBDD-based distributed test generation algorithm for combinational circuits. This technique lends itself to a natural partitioning of both the fault list and the circuit across processors. A preliminary implementation on an Ethernet-connected SPARC2 workstation cluster shows the feasibility of the method.

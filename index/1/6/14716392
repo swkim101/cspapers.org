@@ -1,0 +1,4 @@
+
+ 
+ We focus on a class of models used for representing the dynamics between a discrete set of probabilistic events in a continuous-time setting. The proposed framework offers tractable learning and inference procedures and provides compact state representations for processes which exhibit variable delays between events. The approach is applied to a heart sound labeling task that exhibits long-range dependencies on previous events, and in which explicit modeling of the rhythm timings is justifiable by cardiological principles.
+ 

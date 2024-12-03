@@ -1,0 +1,1 @@
+In this work, we study similarity measures for text-centric XML documents based on an extended vector space model, which considers both document content and structure. Experimental results based on a benchmark showed superior performance of the proposed measure over the baseline which ignores structural knowledge of XML documents.

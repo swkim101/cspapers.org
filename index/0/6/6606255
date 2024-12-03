@@ -1,0 +1,7 @@
+@d can be approximated up to (1 + e)-factor, for an arbitrary small e > 0, using the O(k/e2)-rank approximation of A and a constant. This implies, for example, that the optimal k-means clustering of the rows of A is (1 + e)-approximated by an optimal k-means clustering of their projection on the O(k/e2) first right singular vectors (principle components) of A. 
+ 
+A (j, k)-coreset for projective clustering is a small set of points that yields a (1 + e)-approximation to the sum of squared distances from the n rows of A to any set of k affine subspaces, each of dimension at most j. Our embedding yields (0, k)-coresets of size O(k) for handling k-means queries, (j, 1)-coresets of size O(j) for PCA queries, and (j, k)-coresets of size (log n)O(jk) for any j, k ≥ 1 and constant e e (0, 1/2). Previous coresets usually have a size which is linearly or even exponentially dependent of d, which makes them useless when d ~ n. 
+ 
+Using our coresets with the merge-and-reduce approach, we obtain embarrassingly parallel streaming algorithms for problems such as k-means, PCA and projective clustering. These algorithms use update time per point and memory that is polynomial in log n and only linear in d. 
+ 
+For cost functions other than squared Euclidean distances we suggest a simple recursive coreset construction that produces coresets of size

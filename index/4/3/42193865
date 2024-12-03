@@ -1,0 +1,4 @@
+
+ 
+ Standard feature selection algorithms deal with given candidate feature sets at the individual feature level. When features exhibit certain group structures, it is beneficial to conduct feature selection in a grouped manner. For high-dimensional features, it could be far more preferable to online generate and process features one at a time rather than wait for generating all features before learning begins. In this paper, we discuss a new and interesting problem of online group feature selection from feature streams at both the group and individual feature levels simultaneously from a feature stream. Extensive experiments on both real-world and synthetic datasets demonstrate the superiority of the proposed algorithm. 
+ 

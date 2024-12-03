@@ -1,0 +1,11 @@
+We consider the bit-probe complexity of the set membership problem, where a set S of size at most n from a universe of size m is to be represented as a short bit vector in order to answer membership queries of the form "Is x in S?" by adaptively probing the bit vector at t places. Let s(m, n, t) be the minimum number of bits of storage needed for such a scheme. Buhrman, Miltersen, Radhakrishnan, and Srinivasan [4] and Alon and Feige [2] investigated s(m, n, t) for various ranges of the parameter t. We show the following. 
+ 
+For two probes (t = 2): 
+ 
+(a) There is a constant C > 0, such that for all large m, s(m, n, 2) ≤ C · m1−1/4n+1. This improves on a result of Alon and Feige that states that for n ≤ log m, s(m, n, 2) = O(mn log((log m)/n)/log m). 
+ 
+(b) There is a constant D > 0, such that for 4 ≤ n and all large m, we have s(m, n, 2) ≥ D · m1−1/⌊n/4⌋. Thus, s(m, n, 2) = Ω(m) for n ≥ log m, that is, the requirement n ≤ log m in the upper bound of Alon and Feige is essential for any asymptotic improvement over the characteristic vector representation. 
+ 
+For three probes (t = 3): s(m, n, 3) = O([EQUATION]mn log m). This improves on a result of Alon and Feige that states that s(m, n, 2) = O(m2/3 n1/3). 
+ 
+In general: We show that for t ≥ 3, s(m, n, t) = Ω(m1/t−1). This lower bound improves on (for n ≤ log m) the lower bound s(m, n, 3) = Ω([EQUATION]mn/log m) (valid only for n ≥ 16 log m and for non-adaptive schemes) due to Alon and Feige; for small values of n, it also improves on the lower bound s(m, n, t) = Ω([EQUATION]) due to Buhrman et al. [4].

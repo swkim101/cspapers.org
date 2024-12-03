@@ -1,0 +1,4 @@
+
+ 
+ Feature selection plays an important role in many machine learning and data mining applications. In this paper, we propose to use L2,p norm for feature selection with emphasis on small p. As p approaches 0, feature selection becomes discrete feature selection problem. We provide two algorithms, proximal gradient algorithm and rank one update algorithm, which is more efficient at large regularization. We provide closed form solutions of the proximal operator at p = 0, 1/2. Experiments onreal life datasets show that features selected at small p consistently outperform features selected at p = 1, the standard L2,1 approach and other popular feature selection methods.
+ 

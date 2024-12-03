@@ -1,0 +1,5 @@
+We consider that we have made a decisive step towards determinism in parsing. We agree with Winograd's hesitation to evaluate the determinism hypothesis as formulated by Marcus. However, this does not make us doubt about the possibility of determinism; on the contrary, we examined not only how to improve over Marcus, but also the historical reasons of the non-determinism of most systems. 
+ 
+Our improvements are based on two principles: syntactic-semantic integration, and quasi-simultaneousness. The first means that there is no such thing as "the autonomy of syntax" (Marcus); so, we agree with Schank and, further, we showed that local semantic ambiguities could be solved deterministi - cally (Marcus (ch.10) claims that these ambiguities need parallel processing). The second permits the processing of structures too difficult for PARSIFAL e.g. locally ambiguous PP attachments. 
+ 
+Detailed examples support our proposals.

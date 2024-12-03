@@ -1,0 +1,1 @@
+We present a formal language with expressions denoting general symbol structures and queries which access information in those structures. A sequence-to-sequence network processing this language learns to encode symbol structures and query them. The learned representation (approximately) shares a simple linearity property with theoretical techniques for performing this task.

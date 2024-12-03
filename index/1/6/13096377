@@ -1,0 +1,4 @@
+
+ 
+ The Nonnegative Least Squares (NNLS) formulation arises in many important regression problems. We present a novel coordinate descent method which differs from previous approaches in that we do not explicitly maintain complete gradient information. Empirical evidence shows that our approach outperforms a state-of-the-art NNLS solver in computation time for calculating radiation dosage for cancer treatment problems.
+ 

@@ -1,0 +1,1 @@
+Deals with the computation of the shortest path metric for a nonholonomic car-like robot. Bounds on the length d/sub RS/(o,c) of the shortest path linking the configuration o=(0,0,0) to any configuration c=(x,y,/spl theta/) .

@@ -1,0 +1,1 @@
+This paper is about the simulation and optimization of a bandpass dual-mode circular four cavity elliptic waveguide filter using High Frequency Structure Simulator (HFSS). Besides the filter design, the tuning of this filter is a wearisome job to achieve the optimum response. An optimization scheme is presented to efficiently tune this filter using HFSS.

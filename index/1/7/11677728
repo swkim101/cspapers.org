@@ -1,0 +1,4 @@
+
+ 
+ Group sparsity has drawn much attention in machine learning. However, existing work can handle only datasets with certain group structures, where each sample has a certain membership with one or more groups. This paper investigates the learning of sparse representations from datasets with uncertain group structures, where each sample has an uncertain member-ship with all groups in terms of a probability distribution. We call this problem uncertain group sparse representation (UGSR in short), which is a generalization of the standard group sparse representation (GSR). We formulate the UGSR model and propose an efficient algorithm to solve this problem. We apply UGSR to text emotion classification and aging face recognition. Experiments show that UGSR outperforms standard sparse representation (SR) and standard GSR as well as fuzzy kNN classification.
+ 

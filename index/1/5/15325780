@@ -1,0 +1,19 @@
+The Internet White Pages Service (IWPS) has been slow 
+to materialise for many reasons. One of them is the 
+security concerns that organisations have, over allowing 
+the public to gain access to either their Intranet or their 
+directory database. The Directory Guardian is a firewall 
+application proxy for X.500 and LDAP protocols that is 
+designed to alleviate these fears. Sitting in the firewall 
+system, it filters directory protocol messages passing into 
+and out of the Intranet, allowing security administrators 
+to carefully control the amount of directory information 
+that is released to the outside world. This paper describes 
+the design of our Guardian system, and shows how 
+relatively easy it is to configure its filtering capabilities. 
+Finally the paper describes the working demonstration of 
+the Guardian that was built for the 1997 World 
+Electronic Messaging Association directory challenge. 
+This linked the WEMA directory to the NameFLOWParadise 
+Internet directory, and demonstrated some of 
+the powerful filtering capabilities of the Guardian.

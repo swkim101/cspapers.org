@@ -1,0 +1,1 @@
+The problem of finding minimum weight spanning subgraphs with a given connectivity requirement is considered. The problem is NP-hard when the connectivity requirement is greater than one. Polynomial time approximation algorithms for various weighted and unweighed connectivity problems are given. The following results are presented:

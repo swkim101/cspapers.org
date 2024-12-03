@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we study the low-rank tensor completion problem, where a high-order tensor with missing entries is given and the goal is to complete the tensor. We propose to minimize a new convex objective function, based on log sum of exponentials of nuclear norms, that promotes the low-rankness of unfolding matrices of the completed tensor. We show for the first time that the proximal operator to this objective function is readily computable through a hybrid singular value thresholding scheme. This leads to a new solution to high-order (low-rank) tensor completion via convex relaxation. We show that this convex relaxation and the resulting solution are much more effective than existing tensor completion methods (including those also based on minimizing ranks of unfolding matrices). The hybrid singular value thresholding scheme can be applied to any problem where the goal is to minimize the maximum rank of a set of low-rank matrices.
+ 

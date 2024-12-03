@@ -1,0 +1,4 @@
+
+ 
+ This paper studies the problem of learning node embeddings (a.k.a. distributed representations) for dynamic networks. The embedding methods allocate each node in network with a d-dimensions vector, which can generalize across various tasks, such as item recommendation, node labeling, and link prediction. In practice, many real-world networks are evolving with nodes/links added or deleted. However, most of the proposed methods are focusing on static networks. Although some previous researches have shown some promising results to handle the dynamic scenario, they just considered the added links and ignored the deleted ones. In this work, we designed a joint learning of added and deleted links model, named RDEM, for dynamic network embedding.
+ 

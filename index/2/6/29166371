@@ -1,0 +1,4 @@
+
+ 
+ Automatic generation of presentation slides for academic papers is a very challenging task. Previous methods for addressing this task are mainly based on document summarization techniques and they extract document sentences to form presentation slides, which are not well-structured and concise. In this study, we propose a phrase-based approach to generate well-structured and concise presentation slides for academic papers. Our approach first extracts phrases from the given paper, and then learns both the saliency of each phrase and the hierarchical relationship between a pair of phrases. Finally a greedy algorithm is used to select and align the salient phrases in order to form the well-structured presentation slides. Evaluation results on a real dataset verify the efficacy of our proposed approach.
+ 

@@ -1,0 +1,1 @@
+In this paper we present a novel algorithm for discovering tree patterns in a tree database. This algorithm uses a relaxed tree inclusion definition, making the problem more complex (checking tree inclusion is NP-complete), but allowing to mine highly heterogeneous databases. To obtain good performances, our DRYADE algorithm, discovers only closed frequent tree patterns.

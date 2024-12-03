@@ -1,0 +1,4 @@
+
+ 
+ Cross-domain recommendation has been proposed to transfer user behavior pattern by pooling together the rating data from multiple domains to alleviate the sparsity problem appearing in single rating domains. However, previous models only assume that multiple domains share a latent common rating pattern based on the user-item co-clustering. To capture diversities among different domains, we propose a novel Probabilistic Cluster-level Latent Factor (PCLF) model to improve the cross-domain recommendation performance. Experiments on several real world datasets demonstrate that our proposed model outperforms the state-of-the-art methods for the cross-domain recommendation task.
+ 

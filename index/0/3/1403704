@@ -1,0 +1,1 @@
+We present an SCFG binarization algorithm that combines the strengths of early terminal matching on the source language side and early language model integration on the target language side. We also examine how different strategies of target-side terminal attachment during binarization can significantly affect translation quality.

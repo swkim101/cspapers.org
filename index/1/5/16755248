@@ -1,0 +1,4 @@
+
+ 
+ Adaptive exploration uses active learning principles to improve the efficiency of autonomous robotic surveys. This work considers an important and understudied aspect of autonomous exploration: in situ validation of remote sensing measurements. We focus on high- dimensional sensor data with a specific case study of spectroscopic mapping. A field robot refines an orbital image by measuring the surface at many wavelengths. We introduce a new objective function based on spectral unmixing that seeks pure spectral signatures to accurately model diluted remote signals. This objective reflects physical properties of the multi-wavelength data. The rover visits locations that jointly improve its model of the environment while satisfying time and energy constraints. We simulate exploration using alternative planning approaches, and show proof of concept results with the canonical spectroscopic map of a mining district in Cuprite, Nevada.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Continuously discovering novel entities in news and Web data is important for Knowledge Base (KB) maintenance. One of the key challenges is to decide whether an entity mention refers to an in-KB or out-of-KB entity. We propose a principled approach that learns a novel entity classifier by modeling mention and entity representation into multiple feature spaces, including contextual, topical, lexical, neural embedding and query spaces. Different from most previous studies that address novel entity discovery as a submodule of entity linking systems, our model is more a generalized approach and can be applied as a pre-filtering step of novel entities for any entity linking systems. Experiments on three real-world datasets show that our method significantly outperforms existing methods on identifying novel entities.
+ 

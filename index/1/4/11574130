@@ -1,0 +1,1 @@
+We construct 2-round (ie, 2-message), public-coin, black-box (concurrent) zero-knowledge proof systems and arguments for any language in NP under the assumption that the prover is resource-bounded during the execution of the protocol.

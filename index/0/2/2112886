@@ -1,0 +1,1 @@
+We track a large set of "rapidly" changing web pages and examine the assumption that the arrival of content changes follows a Poisson process on a microscale. We demonstrate that there are significant differences in the behavior of pages that can be exploited to maintain freshness in a web corpus.

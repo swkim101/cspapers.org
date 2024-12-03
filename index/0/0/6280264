@@ -1,0 +1,7 @@
+OCCAM is a program which organizes memories of events and learns by creating generalizations describing the reasons for the outcomes of the events. OCCAM integrates two sources of information when forming a generalization: 
+ 
+• Correlational information which reveals perceived regularities in events. 
+ 
+• Prior causal theories which explain regularities in events 
+ 
+The former has been extensively studied in machine learning. Recently, there has been interest in explanation-based learning in which the latter source of information is utilized. In OCCAM, prior causal theories are preferred to correlational information when forming generalizations. This strategy is supported by a number of empirical investigations. Generalization rules are used to suggest causal and intentional relational relationships. In familiar domains, these relationships are confirmed or denied by prior causal theories which differentiate the relevant and irrelevant features. In unfamiliar domains, the postulated causal and intentional relationships serve as a basis for the construction of causal theories.

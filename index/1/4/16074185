@@ -1,0 +1,10 @@
+Search engines, portals and topic-centered web sites are all 
+attempts to create more or less personalized web-services. 
+However, no single service can in general fulfill all needs 
+of a particular user, so users have to search and maintain 
+personal profiles at several locations. We propose an architecture where each person has his own information 
+management environment where all personalization is 
+made locally. Information is exchanged with other’s if it’s 
+of mutual interest that the information is published or received. We assume that users are self-interested, but that 
+there is some overlap in their interests. 
+Our recent work has focused on decentralized dissemination of information, specifically what we call decentralized recommender systems. We are investigating the behavior of such systems and have also done some preliminary work on the users’ information environment.

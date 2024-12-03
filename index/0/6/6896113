@@ -1,0 +1,4 @@
+
+ 
+ Creation of summaries of events of interest from multitude of unstructured data is a challenging task commonly faced by intelligence analysts while seeking increased situational awareness. This paper proposes a framework called Storyboarding that leverages unstructured text and images to explain events as sets of sub-events. The framework first generates a textual context for each human face detected from images and then builds a chain of coherent documents where two consecutive documents of the chain contain a common theme as well as a context. Storyboarding helps analysts quickly narrow down large number of possibilities to a few significant ones for further investigation. Empirical studies on Wikipedia documents, images and news articles show that Storyboarding is able to provide deeper insights on events of interests.
+ 

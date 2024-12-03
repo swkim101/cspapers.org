@@ -1,0 +1,9 @@
+An expert system, Causal Arrhythmia Analyzer (CAA), is being developed to establish a framework for the recognition of time varying signals of a complex repetitive nature, such as electrocardiograms (ECGs). 
+ 
+Using a stratified knowledge base the CAA system discerns several perspectives about the phenomena of underlying entities, such as the physiological event knowledge of the cardiac conduction system and the morphological waveform knowledge of ECG tracings, where conduction events are projected into the observable waveform domain. Projection links have been defined to represent projection in CAA's frame-based formalism and are used to raise hypotheses across different KBs. 
+ 
+The CAA system also introduces and uses causal links extensively to represent various causal and temporal relations between concepts in the physiological event domain. Its control structure uses causal links to predict unseen events from recognized events, to confirm these event hypotheses against input data, and to calculate the degree of integrity among causally related events. The meta-knowledge representation of statistical information about events facilitates a default reasoning mechanism and supports this expectation process providing context sensitive statistical information. 
+ 
+The CAA system inherits its basic control mechanisms from the ALVEN (A Left VENtricular Wall Motion Analysis) system [Tsotsos 1981], such as the change/focus attention mechanism with similarity links and the hypothesis rating mechanism. 
+ 
+A prototype CAA system with a limited number of abnormalities has been implemented using the knowledge representation language PSN (Procedural Semantic Networks) [Levesque & Mylopoulos 1979]. The prototype has so far demonstrated satisfactory results using independently sampled ECG data.

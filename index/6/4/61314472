@@ -1,0 +1,3 @@
+Probabilistic Inductive Learning (PrIL), is a tree induction algorithm that provides a minimum correct classification level with a specified confidence for each rule in the decision tree. This feature is particularly useful in uncertain environments where decisions are based on the induced rules. 
+ 
+This paper provides a concise description of (the extended) PrIL and demonstrates that its performance is as good as best results in the machine learning literature, using datasets from the data repository at UC Irvine.

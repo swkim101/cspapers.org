@@ -1,0 +1,1 @@
+With this work we introduce a novel methodology for the simulation of walking of a humanoid robot. Motion capture technology is used to calibrate the dynamics engine internal parameters and validate the simulated motor task. Results showed the calibrated contact model allows predicting dynamically consistent ground reaction forces and producing realistic whole-body kinematics.

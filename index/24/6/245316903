@@ -1,0 +1,1 @@
+In this paper, the design of an impulsive observer that estimates the state and the unknown inputs in a predetermined finite time is proposed for nonlinear systems represented by Takagi Sugeno models. The stability conditions are formulated under LMI formalism. An pplication on a chaotic system is performed to show the effectiveness of the proposed observer.

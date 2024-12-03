@@ -1,0 +1,3 @@
+A parallel implementation of constraint satisfaction by arc consistency is presented. The implementation is constructed of standard digital hardware elements, used in a very fine-grained, massively parallel style. As an example of how to specialize the design, a parallel implementation for solving graph isomorphism with arc consistency is also given. 
+ 
+Complexity analyses are given for both circuits. Worst case running time for the algorithms turns out to be linear in the number of variables n and labels a, O(an), and if the I/O must be serial, it will dominate the computation time. Finegrained parallelism trades off time complexity for space complexity, but the number of gates required is only O(a2n2).

@@ -1,0 +1,1 @@
+We analyze the complexity of reasoning in EL with defeasible inclusions and extensions thereof. The results by Bonatti et al., 2009a are extended by proving tight lower complexity bounds and by relaxing the syntactic restrictions adopted there. We further extend the old framework by supporting arbitrary priority relations.

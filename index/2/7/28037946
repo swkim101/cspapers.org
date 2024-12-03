@@ -1,0 +1,7 @@
+The goal of this tutorial is to introduce and discuss VerbNet, a broad coverage verb lexicon freely available on-line. VerbNet contains explicit syntactic and semantic information for classes of verbs and has mappings to several other widely-used lexical resources, including WordNet, PropBank, and FrameNet. Since its first release in 2005 VerbNet is being used by a large number of researchers as a means of characterizing verbs and verb classes. 
+ 
+The first part of the tutorial will include an overview of the original Levin verb classification; introduce the main VerbNet components, such as thematic roles and syntactic and semantic representations, and present a comparison with other available lexical resources. 
+ 
+During the second part of the tutorial, we will explore VerbNet extensions (how new classes were derived and created through manual and semi-automatic processes), and we will present on-going work on automatic acquisition of Levin-style classes in corpora. The latter is useful for domain-adaptation and tuning of VerbNet for real-world applications which require this. 
+ 
+The last part of the tutorial will be devoted to discussing the current status of VerbNet; including recent work mapping to other lexical resources, such as PropBank, FrameNet, WordNet, OntoNotes sense groupings, and the Omega ontology. We will also present changes designed to regularize the syntactic frames and to make the naming conventions more transparent and user friendly. Finally, we will describe some applications in which VerbNet has been used.

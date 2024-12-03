@@ -1,0 +1,1 @@
+This paper presents two frameworks that generalize Conditional Preference networks (CP-nets). The first generalization is the LCP-theory, first order logic theory that provides a rich framework to express preferences. The the second generalization, the PCP-networks, is a probabilistic generalization of CP-nets that models conditional preferences with uncertainty.

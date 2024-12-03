@@ -1,0 +1,1 @@
+This paper describes a fault simulator for MOS LSI circuits. The basic primitives for this simulator are MOS transistor structures where the transistors are evaluated logically. The simulator provides the capability of modeling and simulating both the classical input/output stuck-at faults and the non-classical transistor stuck-on and stuck-open faults.

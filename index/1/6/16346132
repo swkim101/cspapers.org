@@ -1,0 +1,4 @@
+
+ 
+ Evaluating the selection of content in a summary is important both for human-written summaries, which can be a useful pedagogical tool for reading and writing skills, and machine-generated summaries, which are increasingly being deployed in information management. The pyramid method assesses a summary by aggregating content units from the summaries of a wise crowd (a form of crowdsourcing). It has proven highly reliable but has largely depended on manual annotation. We propose PEAK, the first method to automatically assess summary content using the pyramid method that also generates the pyramid content models. PEAK relies on open information extraction and graph algorithms. The resulting scores correlate well with manually derived pyramid scores on both human and machine summaries, opening up the possibility of wide-spread use in numerous applications.
+ 

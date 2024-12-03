@@ -1,0 +1,4 @@
+
+ 
+ Stackelberg Security Games (SSG) have been widely applied for solving real-world security problems—with a significant research emphasis on modeling attackers’ behaviors to handle their bounded rationality. However, access to real-world data (used for learning an accurate behavioral model) is often limited, leading to uncertainty in attacker’s behaviors while modeling. This paper therefore focuses on addressing behavioral uncertainty in SSG with the following main contributions: 1) we present a new uncertainty game model that integrates uncertainty intervals into a behavioral model to capture behavioral uncertainty; 2) based on this game model, we propose a novel robust algorithm that approximately computes the defender’s optimal strategy in the worst-case scenario of uncertainty—with a bound guarantee on its solution quality.
+ 

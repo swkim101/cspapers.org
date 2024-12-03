@@ -1,0 +1,1 @@
+In this paper we present BlinkBot - a hands free input interface to control and command a robot. BlinkBot explores the natural modality of gaze and blink to direct a robot to move an object from a location to another. The paper also explains detailed hardware and software implementation of the prototype system.

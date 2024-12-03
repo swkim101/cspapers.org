@@ -1,0 +1,5 @@
+Twenty program complexity measures are studied with respect to how well they identify the more complex procedures in a software system. The measures have been applied to three large sets of PL/I procedures representing three different types of applications. Four of these complexity measures have been found to form a characteristic set. That is, when procedures are kept within reasonable bounds for the four selected measures, they will most likely be within reasonable bounds for all of the other measures. The measures and their interpreted meanings are
+ length—the quantity of source code,
+ unique operators—the variety of programming language actions,
+ data difficulty—the average number of variable appearances, and
+ unique operands—the variety of constants and variables.

@@ -1,0 +1,4 @@
+
+ 
+ Computer Go presents a challenging problem for machine learning agents. With the number of possible board states estimated to be larger than the number of hydrogen atoms in the universe, learning effective policies or board evaluation functions is extremely difficult. In this paper we describe Cortigo, a system that efficiently and autonomously learns useful generalizations for large state-space classification problems such as Go. Cortigo uses a hierarchical generative model loosely related to the human visual cortex to recognize Go board positions well enough to suggest promising next moves. We begin by briefly describing and providing motivation for research in the computer Go domain. We describe Cortigo’s ability to learn predictive models based on large subsets of the Go board and demonstrate how using Cortigo’s learned models as additive knowledge in a state-of-the-art computer Go player (Fuego) significantly improves its playing strength.
+ 

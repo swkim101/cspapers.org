@@ -1,0 +1,1 @@
+Interactive music systems are highly dynamic systems that combine audio processing and control in real-time. They often have to work on soft real-time platforms, where no stringent real-time guarantees can be upheld. We present here an overhead-aware online degradation algorithm that finds a tradeoff between quality and lateness for the processing nodes of a dynamic audio graph.

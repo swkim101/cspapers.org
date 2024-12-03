@@ -1,0 +1,6 @@
+Continual relation extraction is an important task that focuses on extracting new facts incrementally from unstructured text. 
+Given the sequential arrival order of the relations, this task is prone to two serious challenges, namely catastrophic forgetting and order-sensitivity. We propose a novel curriculum-meta learning method to tackle the above two challenges in continual relation extraction. We combine meta learning and curriculum learning to quickly adapt model parameters to a new task and to reduce interference of previously seen tasks on the current task. 
+We design a novel relation representation learning method through the distribution of domain and range types of relations. 
+Such representations are utilized to quantify the difficulty of tasks for the construction of curricula. Moreover, we also present novel difficulty-based metrics to quantitatively measure the extent of order-sensitivity of a given model, suggesting new ways to evaluate model robustness. 
+Our comprehensive experiments on three benchmark datasets show that our proposed method outperforms the state-of-the-art techniques. 
+The code is available at the anonymous GitHub repository: https://github.com/wutong8023/AAAI_CML.

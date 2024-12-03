@@ -1,0 +1,5 @@
+This paper describes initial results for an architecture called the Shared-Thread Multiprocessor (STMP). The STMP combines features of a multithreaded processor and a chip multiprocessor; specifically, it enables distinct cores on a chip multiprocessor to share thread state. This shared thread state allows the system to schedule threads from a shared pool onto individual cores, allowing for rapid movement of threads between cores.
+ This paper demonstrates and evaluates three benefits of this architecture:
+ (1) By providing more thread state storage than available in the cores themselves, the architecture enjoys the ILP benefits of many threads, but carries the in-core complexity of supporting just a few.
+ (2) Threads can move between cores fast enough to hide long-latency events such as memory accesses. This enables very-short-term load balancing in response to such events.
+ (3) The system can redistribute threads to maximize symbiotic behavior and balance load much more often than traditional operating system thread scheduling and context switching.

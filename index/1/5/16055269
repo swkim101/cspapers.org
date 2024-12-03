@@ -1,0 +1,4 @@
+
+ 
+ Counting the models of a propositional formula is an important problem: for example, it serves as the backbone of probabilistic inference by weighted model counting. A key algorithmic insight is component caching (CC), in which disjoint components of a formula, generated dynamically during a DPLL search, are cached so that they only have to be solved once. In the recent years, driven by SMT technology and probabilistic inference in hybrid domains, there is an increasing interest in counting the models of linear arithmetic sentences. To date, however, solvers for these are block-clause implementations, which are nonviable on large problem instances. In this paper, as a first step in extending CC to hybrid domains, we show how propositional CC systems can be leveraged when limited to piecewise polynomial densities. Our experiments demonstrate a large gap in performance when compared to existing approaches based on a variety of block-clause strategies.
+ 

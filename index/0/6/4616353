@@ -1,0 +1,4 @@
+
+ 
+ Verbs play an important role in the understanding of natural language text. This paper studies the problem of abstracting the subject and object arguments of a verb into a set of noun concepts, known as the “argument concepts”. This set of concepts, whose size is parameterized, represents the fine-grained semantics of a verb. For example, the object of “enjoy” can be abstracted into time, hobby and event, etc. We present a novel framework to automatically infer human readable and machine computable action concepts with high accuracy.
+ 

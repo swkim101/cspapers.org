@@ -1,0 +1,4 @@
+
+ 
+ The ability to form object categories is an important milestone in human infant development. We propose a framework that allows a robot to form a unified object categorization from several interactions with objects. This framework is consistent with the principle that robot learning should be ultimately grounded in the robot's perceptual and behavioral repertoire. This paper builds upon our previous work by adding more exploratory behaviors (now 6 instead of 1) and by employing consensus clustering for finding a single, unified object categorization. The framework was tested on a container/non-container categorization task with 20 objects.
+ 

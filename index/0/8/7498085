@@ -1,0 +1,4 @@
+
+ 
+ In a document, the topic distribution of a sentence depends on both the topics of preceding sentences and its own content, and it is usually affected by the topics of the preceding sentences with different weights. It is natural that a document can be treated as a sequence of sentences. Most existing works for Bayesian document modeling do not take these points into consideration. To fill this gap, we propose a Recurrent Attentional Topic Model (RATM) for document embedding. The RATM not only takes advantage of the sequential orders among sentence but also use the attention mechanism to model the relations among successive sentences. In RATM, we propose a Recurrent Attentional Bayesian Process (RABP) to handle the sequences. Based on the RABP, RATM fully utilizes the sequential information of the sentences in a document. Experiments on two copora show that our model outperforms state-of-the-art methods on document modeling and classification.
+ 

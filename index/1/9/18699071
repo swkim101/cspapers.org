@@ -1,0 +1,4 @@
+
+ 
+ Context-aware features have been widely recognized as important factors in recommender systems. However, as a major technique in recommender systems, traditional Collaborative Filtering (CF) does not provide a straight-forward way of integrating the context-aware information into personal recommendation. We propose a Coupled Collaborative Filtering (CCF) model to measure the contextual information and use it to improve recommendations. In the proposed approach, coupled similarity computation is designed to be calculated by interitem, intra-context and inter-context interactions among item, user and context-ware factors. Experiments based on different types of CF models demonstrate the effectiveness of our design.
+ 

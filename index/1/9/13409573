@@ -1,0 +1,1 @@
+This paper examines the average page quality over time of pages downloaded during a web crawl of 328 million unique pages. We use the connectivity-based metric PageRank to measure the quality of a page. We show that traversing the web graph in breadth-first search order is a good crawling strategy, as it tends to discover high-quality pages early on in the crawl.

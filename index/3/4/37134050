@@ -1,0 +1,3 @@
+Graph unification is sometimes implemented as a destructive operation, making it neccesary to copy the argument graphs before beginning the actual unification. Previous research on graph unification claimed that this copying is a computation sink, and has sought to correct this. 
+ 
+In this paper I claim that the fundamental problem is in designing graph unification as a destructive operation. This forces it to both over copy and early copy. I present a nondestructive graph unification algorithm that minimizes over copying and eliminates early copying. This algorithm is significantly simpler than recently published solutions to copying problems, but maintains the essential efficiency gains of older techniques.

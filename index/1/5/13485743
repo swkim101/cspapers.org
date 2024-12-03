@@ -1,0 +1,1 @@
+This paper shows that the field of visual SLAM has matured enough to build a visual SLAM system from open source components. The system consists of feature detection, data association, and sparse bundle adjustment. For all three modules we evaluate different libraries w.r.t. ground truth.

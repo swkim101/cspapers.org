@@ -1,0 +1,4 @@
+
+ 
+ We present a spectrum-based, sequential software debugging approach coined Sequoia, that greedily selects tests out of a suite of tests to narrow down the set of diagnostic candidates with a minimum number of tests. Sequoia handles multiple faults, that can be intermittent, at polynomial time and space complexity, due to a novel, approximate diagnostic entropy estimation approach, which considers the subset of diagnoses that cover almost all Bayesian posterior probability mass. Synthetic experiments show that Sequoia achieves much better diagnostic uncertainty reduction compared to random test sequencing.Real programs, taken from the Software Infrastructure Repository, confirm Sequoia's better performance, with a test reduction up to 80% compared to random test sequences.
+ 

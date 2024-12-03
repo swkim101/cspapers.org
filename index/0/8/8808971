@@ -1,0 +1,4 @@
+
+ 
+ Learning context representations is very promising to improve translation results, particularly through neural networks. Previous efforts process the context words sequentially and neglect their internal syntactic structure. In this paper, we propose a novel neural network based on bi-convolutional architecture to represent the source dependency-based context for translation prediction. The proposed model is able to not only encode the long-distance dependencies but also capture the functional similarities for better translation prediction (i.e., ambiguous words translation and word forms translation). Examined by a large-scale Chinese-English translation task, the proposed approach achieves a significant improvement (of up to +1.9 BLEU points) over the baseline system, and meanwhile outperforms a number of context-enhanced comparison system.
+ 

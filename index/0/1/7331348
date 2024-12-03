@@ -1,0 +1,1 @@
+Query performance prediction (QPP) is an important task in information retrieval (IR). In this paper, we (1) develop a new predictor based on the standard deviation of scores in a variable length ranked list, and (2) we show that this new predictor outperforms state-of-the-art approaches without the need for tuning.

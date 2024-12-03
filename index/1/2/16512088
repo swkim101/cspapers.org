@@ -1,0 +1,1 @@
+We approach concept learning as a heuristic search through a space of concepts for a concept that satisfies the learning task at hand The heuristics represent bias that the concept learning program employs when forming an inductive generalization. We present a model of bias adjustment and report our experience with an implementation of the model.

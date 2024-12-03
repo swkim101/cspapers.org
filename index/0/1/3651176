@@ -1,0 +1,4 @@
+We propose the algorithms for online convex optimization which lead to cumulative squared constraint violations of the form $\sum\limits_{t=1}^T\big([g(x_t)]_+\big)^2=O(T^{1-\beta})$, where $\beta\in(0,1)$. Previous literature has focused on long-term constraints of the form $\sum\limits_{t=1}^Tg(x_t)$. There, strictly feasible solutions can cancel out the effects of violated constraints. In contrast, the new form heavily penalizes large constraint violations and cancellation effects cannot occur. 
+Furthermore, useful bounds on the single step constraint violation $[g(x_t)]_+$ are derived. 
+For convex objectives, our regret bounds generalize existing bounds, and for strongly convex objectives we give improved regret bounds. 
+In numerical experiments, we show that our algorithm closely follows the constraint boundary leading to low cumulative violation.

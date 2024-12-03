@@ -1,0 +1,1 @@
+We present a quantum LDPC code family that has distance Ω(N3/5/polylog(N)) and Θ(N3/5) logical qubits, where N is the code length. This is the first quantum LDPC code construction that achieves distance greater than N1/2 polylog(N). The construction is based on generalizing the homological product of codes to a fiber bundle.

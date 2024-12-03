@@ -1,0 +1,11 @@
+Denoising Diffusion Probabilistic Models (DDPMs) have made great strides in generating high-quality samples in both discrete and continuous domains.
+
+However, Discrete DDPMs (D3PMs) have yet to be applied to the domain of Symbolic Music.
+
+This work presents the direct generation of Polyphonic Symbolic Music using D3PMs.
+
+Our model exhibits state-of-the-art sample quality, according to current quantitative evaluation metrics, and allows for flexible infilling at the note level.
+
+We further show, that our models are accessible to post-hoc classifier guidance, widening the scope of possible applications.
+
+However, we also cast a critical view on quantitative evaluation of music sample quality via statistical metrics, and present a simple algorithm that can confound our metrics with completely spurious, non-musical samples.

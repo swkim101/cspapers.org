@@ -1,0 +1,5 @@
+We consider the problem of efficiently enumerating the satisfying assignments to AC0 circuits. We give a zero-error randomized algorithm which takes an AC0 circuit as input and constructs a set of restrictions which partitions {0, 1}n so that under each restriction the value of the circuit is constant. Let d denote the depth of the circuit and cn denote the number of gates. This algorithm runs in time |C|2n(1-μc,d) where |C| is the size of the circuit for μc,d>1/O[lg c + g lg d]d&minus1 with probability at least 1−2−n. 
+ 
+As a result, we get improved exponential time algorithms for AC0 circuit satisfiability and for counting solutions. In addition, we get an improved bound on the correlation of AC0 circuits with parity. 
+ 
+As an important component of our analysis, we extend the Hastad Switching Lemma to handle multiple k-cnfs and k-dnfs.

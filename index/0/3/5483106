@@ -1,0 +1,1 @@
+The Chordal Vertex Deletion (ChVD) problem asks to delete a minimum number of vertices from an input graph to obtain a chordal graph. In this paper we develop a polynomial kernel for ChVD under the parameterization by the solution size, as well as poly(opt) approximation algorithm. The first result answers an open problem of Marx from 2006 [WG 2006, LNCS 4271, 37-48].

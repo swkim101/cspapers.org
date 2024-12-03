@@ -1,0 +1,37 @@
+The classical disjoint shortest path problem has recently recalled
+
+interests from researchers in the network planning and optimization
+
+community. However, the requirement of the shortest paths being completely
+
+vertex or edge disjoint might be too restrictive and demands much
+
+more resources in a network. Partially disjoint shortest paths, in
+
+which a bounded number of shared vertices or edges is allowed, balance
+
+between degree of disjointness and occupied network resources.
+
+
+
+In this paper, we consider the problem of finding k 
+
+shortest paths which are edge disjoint but partially vertex disjoint.
+
+For a pair of distinct vertices in a network graph, the problem aims
+
+to optimally find k edge disjoint shortest paths among which
+
+at most a bounded number of vertices are shared by at least two paths. In particular,
+
+we present novel techniques for exactly solving the problem
+
+with a runtime that significantly improves
+
+the current best result. The
+
+proposed algorithm is also validated by computer experiments on both
+
+synthetic and real networks which demonstrate its superior efficiency
+
+of up to three orders of magnitude faster than the state of the art.

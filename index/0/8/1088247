@@ -1,0 +1,4 @@
+
+ 
+ A challenging problem in machine learning, information retrieval and computer vision research is how to recover a low-rank representation of the given data in the presence of outliers and missing entries. The L1-norm low-rank matrix factorization (LRMF) has been a popular approach to solving this problem. However, L1-norm LRMF is difficult to achieve due to its non-convexity and non-smoothness, and existing methods are often inefficient and fail to converge to a desired solution. In this paper we propose a novel cyclic weighted median (CWM) method, which is intrinsically a coordinate decent algorithm, for L1-norm LRMF. The CWM method minimizes the objective by solving a sequence of scalar minimization sub-problems, each of which is convex and can be easily solved by the weighted median filter. The extensive experimental results validate that the CWM method outperforms state-of-the-arts in terms of both accuracy and computational efficiency.
+ 

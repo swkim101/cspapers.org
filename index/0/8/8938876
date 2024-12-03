@@ -1,0 +1,4 @@
+
+ 
+ When used for structured regression, powerful Conditional Random Fields (CRFs) are typically restricted to modeling effects of interactions among examples in local neighborhoods. Using more expressive representation would result in dense graphs, making these methods impractical for large-scale applications. To address this issue, we propose an effective CRF model with linear scale-up properties regarding approximate learning and inference for structured regression on large, fully connected graphs. The proposed method is validated on real-world large-scale problems of image de-noising and remote sensing. In conducted experiments, we demonstrated that dense connectivity provides an improvement in prediction accuracy. Inference time of less than ten seconds on graphs with millions of nodes and trillions of edges makes the proposed model an attractive tool for large-scale, structured regression problems.
+ 

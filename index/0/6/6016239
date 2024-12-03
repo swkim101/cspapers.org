@@ -1,0 +1,1 @@
+A two-tier model for the description of morphological, syntactic and semantic variations of multi-word terms is presented. It is applied to term normalization of French and English corpora in the medical and agricultural domains. Five differenct sources of morphological and semantic knowledge are exploited (MULTEXT, CELEX, AGROVOC, WordNet1.6, and Microsoft Word97 thesaurus).

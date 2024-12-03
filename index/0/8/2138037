@@ -1,0 +1,3 @@
+We prove that any regular resolution proof for the weak pigeon hole principle, with n holes and any number of pigeons, is of length $$
+\Omega {\left( {2^{{n^{\varepsilon } }} } \right)}
+$$, (for some global constant ε > 0).

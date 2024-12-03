@@ -1,0 +1,7 @@
+Causal reasoning reflects how humans perceive events in the world and establish relationships among them, identifying some as causes and others as effects. Causal discovery is about agreeing on these relationships and drawing them as a causal graph.
+
+Argumentation is the way humans reason systematically about an idea: the medium we use to exchange opinions, to get to know and trust each other and possibly agree on controversial matters.
+
+Developing AI which can argue with humans about causality would allow us to understand and validate the analysis of the AI and would allow the AI to bring evidence for or against humans' prior knowledge.
+
+This is the goal of this project: to develop a novel scientific paradigm of interactive causal discovery and train AI to recognise causes and effects by debating, with humans, the results of different statistical methods

@@ -1,0 +1,4 @@
+
+ 
+ We propose a method that involves a probabilistic model for learning future classifiers for tasks in which decision boundaries nonlinearly change over time. In certain applications, such as spam-mail classification, the decision boundary dynamically changes over time. Accordingly, the performance of the classifiers will deteriorate quickly unless the classifiers are updated using additional data. However, collecting such data can be expensive or impossible. The proposed model alleviates this deterioration in performance without additional data by modeling the non-linear dynamics of the decision boundary using Gaussian processes. The method also involves our developed learning algorithm for our model based on empirical variational Bayesian inference by which uncertainty of dynamics can be incorporated for future classification. The effectiveness of the proposed method was demonstrated through experiments using synthetic and real-world data sets.
+ 

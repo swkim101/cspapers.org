@@ -1,0 +1,1 @@
+Consider a file which arranges records in sequential order, and stores them with possible empty spaces in M consecutive pages of memory. We develop an insertion-deletion algorithm which runs in a worst-case time approximately proportional to log2M divided by the page-size when the set of manipulated records has cardinality O(M).

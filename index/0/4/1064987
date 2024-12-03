@@ -1,0 +1,12 @@
+The major objectives of a rules-driven, technology independent DA system are:
+ -Faster support for new technologies
+ -Reduced development effort
+ -Better utilization of skills
+ -Fewer programs to maintain
+ However, if not designed properly, the result could be an unnecessarily complex, expensive system, which does not fully utilize the technology capability.
+ Some of the key decisions are:
+ (a) <underline>Which technology parameters are to be fixed (hard coded) vs. rule-defined</underline>?
+ (b) <underline>What is the interface between programs and rules</underline>?
+ (c) <underline>What is the relative priority of product cost vs. DA development cost</underline>?
+ (d) <underline>Should rules be defined in a high-level language and then compiled, or should they be coded in a format directly accessed by the programs</underline>?
+ (e) <underline>What methods can be used to allow program improvements and additions without obsoleting the existing rule library</underline>?

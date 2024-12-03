@@ -1,0 +1,3 @@
+In this paper, we present a general technique for taking forward-chaining planners for deterministic domains (e.g., HSP, TLPlan, TALplanner, and SHOP2) and adapting them to work in nondeterministic domains. Our results suggest that our technique preserves many of the desirable properties of these planners, such as the ability to use heuristic techniques to achieve highly efficient planning. 
+ 
+In our experimental studies on two problem domains, the well-known MBP algorithm took exponential time, confirming prior results by others. A nondeterminized version of SHOP2 took only polynomial time. The polynomial-time figures are confirmed by a complexity analysis, and a similar complexity analysis shows that a nondeterminized version of TLPlan would perform similarly.

@@ -1,0 +1,4 @@
+
+ 
+ Multi-instance learning (MIL) is useful for tackling labeling ambiguity in learning tasks, by allowing a bag of instances to share one label. Recently, bag mapping methods, which transform a bag to a single instance in a new space via instance selection, have drawn significant attentions. To date, most existing works are developed based on the original space, i.e., utilizing all instances for bag mapping, and instance selection is indirectly tied to the MIL objective. As a result, it is hard to guarantee the distinguish capacity of the selected instances in the new bag mapping space for MIL. In this paper, we propose a direct discriminative mapping approach for multi-instance learning (MILDM), which identifies instances to directly distinguish bags in the new mapping space. Experiments and comparisons on real-world learning tasks demonstrate the algorithm performance.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We introduce the simultaneous model for cake cutting (the fair allocation of a divisible good), in which agents simultaneously send messages containing a sketch of their preferences over the cake. We show that this model enables the computation of divisions that satisfy proportionality -- a popular fairness notion -- using a protocol that circumvents a standard lower bound via parallel information elicitation. Cake divisions satisfying another prominent fairness notion, envy-freeness, are impossible to compute in the simultaneous model, but admit arbitrarily good approximations.
+ 

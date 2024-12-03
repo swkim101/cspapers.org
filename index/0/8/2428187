@@ -1,0 +1,5 @@
+We consider NCA labeling schemes: given a rooted tree T, label the nodes of T with binary strings such that, given the labels of any two nodes, one can determine, by looking only at the labels, the label of their nearest common ancestor. 
+ 
+For trees with n nodes we present upper and lower bounds establishing that labels of size (2 ± e)log n, e < 1 are both sufficient and necessary. 
+ 
+Alstrup, Bille, and Rauhe (SIDMA'05) showed that ancestor and NCA labeling schemes have labels of size log n + Ω(log log n). Our lower bound increases this to log n + Ω(log n) for NCA labeling schemes. Since Fraigniaud and Korman (STOC'10) established that labels in ancestor labeling schemes have size log n + Θ(log log n), our new lower bound separates ancestor and NCA labeling schemes. Our upper bound improves the 10 log n upper bound by Alstrup, Gavoille, Kaplan and Rauhe (TOCS'04), and our theoretical result even outperforms some recent experimental studies by Fischer (ESA'09) where variants of the same NCA labeling scheme are shown to all have labels of size approximately 8 log n.

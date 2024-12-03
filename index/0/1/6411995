@@ -1,0 +1,1 @@
+This paper presents an algorithm to detect finger collisions in Multi-fingered robot hand SDH-2. The need for this feature is discussed and advantages are shown. It will be presented, in which way the algorithm is build into a basic development environment of reactive grasping and what are possible problems and possibilities in collaboration with the tactile sensor elements.

@@ -1,0 +1,1 @@
+An axiomatic description of translation structures for relational views is presented. The axioms specify those families of data base updates that can be used to translate view updates. Our approach relies on the following basic principle : the translation of view updates must affect only information visible within the view.

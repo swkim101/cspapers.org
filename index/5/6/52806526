@@ -1,0 +1,1 @@
+An interactive system for understanding programs has been designed. This system provides informations about control structure and data flow. It also performs powerful semantic transformations that are checked for validity. The system relies on previously implemented algorithms that apply to a graph representation of programs.

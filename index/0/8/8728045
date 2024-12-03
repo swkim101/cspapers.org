@@ -1,0 +1,1 @@
+This paper describes a heuristic algorithm for automatically partitioning digital systems. High- level information contained within a hierarchical design is used to increase the effectiveness of this algorithm. This algorithm uses a constructive process to build a physical design of a hierarchically specified logic design. An iterative improvement step is then done.

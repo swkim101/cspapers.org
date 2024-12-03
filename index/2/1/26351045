@@ -1,0 +1,1 @@
+In this demonstration we show how a sensor network application can be composed by different services. We demonstrate how the services dynamically distribute within the network and how this distribution automatically adapts to changes in topology or user demands.

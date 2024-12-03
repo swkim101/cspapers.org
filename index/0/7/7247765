@@ -1,0 +1,1 @@
+We consider situations where training data is abundant and computing resources are comparatively scarce. We argue that suitably designed online learning algorithms asymptotically outperform any batch learning algorithm. Both theoretical and experimental evidences are presented.

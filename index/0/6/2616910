@@ -1,0 +1,1 @@
+In this paper, we discuss how timing constznints affect three major database recovery activities: logging, checkpointing and dAtAbase reloading. We then present several schemes to handle these activities in a real-time main memory database system and their performance results obtained via simulation. Further improvement of these schemes is also provided.

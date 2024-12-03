@@ -1,0 +1,4 @@
+
+ 
+ We present and implement a Weighted Partial MaxSAT solver based on successive calls to a SAT solver. We prove the correctness of our algorithm and compare our solver with other Weighted Partial MaxSAT solvers.
+ 

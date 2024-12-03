@@ -1,0 +1,4 @@
+
+ 
+ The current state-of-the-art algorithm for optimal coalition structure generation is IDP-IP — an algorithm that combines IDP (a dynamic programming algorithm due to Rahwan and Jennings, AAAI'08) with IP (a tree-search algorithm due to Rahwan et al., JAIR'09). In this paper we analyse IDP-IP, highlight its limitations, and then develop a new approach for combining IDP with IP that overcomes these limitations.
+ 

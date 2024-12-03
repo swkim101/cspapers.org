@@ -1,0 +1,7 @@
+This paper considers how to represent rule knowledge in a chess-endgame procedure. The procedure, to he used jointly with depth-first searching, deals with the King, Bishop and Knight versus King (KBNK) endgame; the rules derive from theory books, discussions with (grand) masters and the author's experience. 
+ 
+The knowledge about rules is structured: partitioning into patterned equivalence classes (Bramer, 1975, 1977) is extended so as to make the procedure act similarly to a human expert, who, in the KBNK domain, prefers to be guided by patterns rather than by exploring move sequences in depth. 
+ 
+The procedure, applied by incorporation in PION, a chess-playing program, has been tested and commented upon by Averbach and others and has proved to execute correct mates in all cases submitted. It is concluded that, within its domain, its level is that of a chess expert though no proof is available that its play is optimal. 
+ 
+KBNK has been solved constructively by a supplementary data-base approach, establishing it as a 33- move game in the maximin sense. This result, as well as some others presented here, are new to the theory of chess. The research reported may well lead to improving experts' play.

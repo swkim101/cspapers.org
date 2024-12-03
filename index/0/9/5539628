@@ -1,0 +1,4 @@
+
+ 
+ Many real-world applications involve multilabel classification, in which the labels can have strong inter-dependencies and some of them may even be missing.Existing multilabel algorithms are unable to handle both issues simultaneously.In this paper, we propose a probabilistic model that can automatically learn and exploit multilabel correlations.By integrating out the missing information, it also provides a disciplinedapproach to the handling of missing labels. The inference procedure is simple, and the optimization subproblems are convex. Experiments on a number of real-world data sets with both complete and missing labelsdemonstrate that the proposed algorithm can consistently outperform state-of-the-art multilabel classification algorithms.
+ 

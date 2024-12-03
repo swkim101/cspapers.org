@@ -1,0 +1,6 @@
+We consider a seller faced with buyers which have the ability to delay their decision, which we call patience.
+Each buyer's type is composed of value and patience, and it is sampled i.i.d. from a distribution.
+The seller, using posted prices, would like to maximize her revenue from selling to the buyer. 
+In this paper, we formalize this setting and characterize the resulting Stackelberg equilibrium, where the seller first commits to her strategy, and then the buyers best respond. Following this, we show how to compute both the optimal pure and mixed strategies. 
+We then consider a learning setting, where the seller does not have access to the distribution over buyer's types. Our main results are the following. We derive a sample complexity bound for the learning of an approximate optimal pure strategy, by computing the fat-shattering dimension of this setting. Moreover, we provide a general sample complexity bound for the approximate optimal mixed strategy. 
+We also consider an online setting and derive a vanishing regret bound with respect to both the optimal pure strategy and the optimal mixed strategy.

@@ -1,0 +1,14 @@
+This paper describes the adaptation of an existing test collection 
+for image retrieval to enable diversity in the results set to be 
+measured. Previous research has shown that a more diverse set of 
+results often satisfies the needs of more users better than standard 
+document rankings. To enable diversity to be quantified, it is 
+necessary to classify images relevant to a given theme to one or 
+more sub-topics or clusters. We describe the challenges in 
+building (as far as we are aware) the first test collection for 
+evaluating diversity in image retrieval. This includes selecting 
+appropriate topics, creating sub-topics, and quantifying the overall 
+effectiveness of a retrieval system. A total of 39 topics were 
+augmented for cluster-based relevance and we also provide an 
+initial analysis of assessor agreement for grouping relevant 
+images into sub-topics or clusters.

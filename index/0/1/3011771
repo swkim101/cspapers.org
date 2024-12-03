@@ -1,0 +1,7 @@
+Several extensions to the transaction model adopted in traditional database systems have been proposed in order to support the functional and performance requirements of 
+emerging advanced applications such as design environments. In [6], we introduced a comprehensive transaction framework, called ACTA to specify the effects of extended 
+transactions on each other and on objects in the database, and to reason about the properties of extended transactions. This paper presents the formalism, underlying 
+ACTA, necessary to prove the visibility, consistency, 
+recovery, and permanence properties of transactions in the extended models. In this paper we show how the formalism,can 
+be used to specify and reason about the properties 
+of traditional, nested, and split transaction models.

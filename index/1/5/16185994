@@ -1,0 +1,5 @@
+Differential privacy is a recent notion of privacy tailored to the problem of statistical disclosure control: how to release statistical information about a set of people without compromising the the privacy of any individual [7].
+ We describe new work [10, 9] that extends differentially private data analysis beyond the traditional setting of a trusted curator operating, in perfect isolation, on a static dataset. We ask
+ • How can we guarantee differential privacy, even against an adversary that has access to the algorithm's internal state, eg, by subpoena? An algorithm that achives this is said to be pan-private.
+ • How can we guarantee differential privacy when the algorithm must continually produce outputs? We call this differential privacy under continual observation.
+ We also consider these requirements in conjunction.

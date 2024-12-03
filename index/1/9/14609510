@@ -1,0 +1,4 @@
+
+ 
+ Non-negative matrix factorization (NMF), as a useful decomposition method for multivariate data, has been widely used in pattern recognition, information retrieval and computer vision. NMF is an effective algorithm to find the latent structure of the data and leads to a parts-based representation. However, NMF is essentially an unsupervised method and can not make use of label information. In this paper, we propose a novel semi-supervised matrix decomposition method, called Constrained Non-negative Matrix Factorization, which takes the label information as additional constraints. Specifically, we require that the data points sharing the same label have the same coordinate in the new representation space. This way, the learned representations can have more discriminating power. We demonstrate the effectiveness of this novel algorithm through a set of evaluations on real world applications.
+ 

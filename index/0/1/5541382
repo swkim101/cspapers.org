@@ -1,0 +1,1 @@
+We created a course that, beginning from a hypothetical shared light bulb as our physical layer, introduced students to a hierarchy of simplified versions of network protocols, including Ethernet, IP, and TCP. This paper describes those simplified protocols, along with the Java framework students used to implement and simulate them.

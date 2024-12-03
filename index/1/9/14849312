@@ -1,0 +1,4 @@
+
+ 
+ While probabilistic planning models have been extensively used by AI and Decision Theoretic communities for planning under uncertainty, the objective to minimize the expected cumulative cost is inappropriate for high-stake planning problems. With this motivation in mind, we revisit the Risk-Sensitive criterion (RS-criterion), where the objective is to find a policy that maximizes the probability that the cumulative cost is within some user-defined cost threshold. The overall scope of this research is to develop efficient and scalable algorithms to optimize the RS-criterion in probabilistic planning problems. In our recent paper (Hou, Yeoh, and Varakantham 2014), we formally defined Risk-Sensitive MDPs (RS-MDPs) and introduced new algorithms for RS-MDPs with non-negative costs. Next, my plan is to develop algorithm for RS-MDPs with negative cost cycles and for Risk-Sensitive POMDPs (RS-POMDPs).
+ 

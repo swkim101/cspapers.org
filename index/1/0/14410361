@@ -1,0 +1,5 @@
+Interactive Narrative is a form of digital entertainment heavily based on AI techniques to support narrative generation and user interaction, significant progress arriving with the adoption of planning techniques. However, there is a lack of unified models that integrate generation, user responses and interaction. 
+ 
+This paper addresses this by revisiting existing Interactive Narrative paradigms, granting explicit status to users' disposition towards story characters as part of narrative generation as well as adding support for new forms of interaction. We demonstrate this with a novel Brain-Computer Interface (BCI) design, incorporating empathy for a main character derived from brain signals within filmic conceptions of narrative which drives generation using planning techniques. 
+ 
+Results from an experimental study with a fully-implemented system demonstrate the effectiveness of a EEG neurofeedback-based approach, showing that subjects can successfully modulate empathic support of a character in a medical drama. MRI analysis also shows activations in associated regions of the brain during expression of support.

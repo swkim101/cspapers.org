@@ -1,0 +1,4 @@
+
+ 
+ As natural language capable robots and other agents become more commonplace, the ability for these agents to understand truly natural human speech is becoming increasingly important. What is more, these agents must be able to understand truly natural human speech in realistic scenarios, in which an agent may not have full certainty in its knowledge of its environment, and in which an agent may not have full knowledge of the entities contained in its environment. As such, I am interested in developing architectural mechanisms which will allow robots to understand natural language in uncertain and open-worlds. My work towards this goal has primarily focused on two problems: (1) reference resolution, and (2) pragmatic reasoning.
+ 

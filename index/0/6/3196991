@@ -1,0 +1,4 @@
+
+ 
+ We present a probabilistic generative model for inferring a description of coordinated, recursively structured group activities at multiple levels of temporal granularity based on observations of individuals’ trajectories. The model accommodates: (1) hierarchically structured groups, (2) activities that are temporally and compositionally recursive, (3) component roles assigning different subactivity dynamics to subgroups of participants, and (4) a nonparametric Gaussian Process model of trajectories. We present an MCMC sampling framework for performing joint inference over recursive activity descriptions and assignment of trajectories to groups, integrating out continuous parameters. We demonstrate the model’s expressive power in several simulated and complex real-world scenarios from the VIRAT and UCLA Aerial Event video data sets.
+ 

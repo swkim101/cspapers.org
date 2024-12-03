@@ -1,0 +1,4 @@
+
+ 
+ In many real-world auctions, a bidder does not know her exact value for an item, but can perform a costly deliberation to reduce her uncertainty. Relatively little is known about such deliberative environments, which are fundamentally different from classical auction environments. In this paper, we propose a new approach that allows us to leverage classical revenue-maximization results in deliberative environments. In particular, we use Myerson (1981) to construct the first non-trivial (i.e., dependent on deliberation costs) upper bound on revenue in deliberative auctions. This bound allows us to apply existing results in the classical environment to a deliberative environment. In addition, we show that in many deliberative environments the only optimal dominant-strategy mechanisms take the form of sequential posted-price auctions.
+ 

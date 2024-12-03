@@ -1,0 +1,1 @@
+In this paper we analyze the relationships between the eigenvalues of the m x m Gram matrix K for a kernel k (·, ·) corresponding to a sample x1,...,xm drawn from a density p(x) and the eigenvalues of the corresponding continuous eigenproblem. We bound the differences between the two spectra and provide a performance bound on kernel PCA.

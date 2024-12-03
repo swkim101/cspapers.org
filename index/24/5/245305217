@@ -1,0 +1,1 @@
+A control synthesis approach is proposed for hybrid systems modeled with rectangular hybrid automata. After adding the desired control specifications (constraints) to the automaton transition guard, the control purpose is to establish in a maximal permissive way the transitions that respect those constraints. The approach is illustrated via a traffic section system.

@@ -1,0 +1,4 @@
+
+ 
+ We introduce a novel distributed algorithm for multi-agent task allocation problems where the sets of tasks and agents constantly change over time. We build on an existing anytime algorithm (fast-max-sum), and give it significant new capa- bilities: namely, an online pruning procedure that simplifies the problem, and a branch-and-bound technique that reduces the search space. This allows us to scale to problems with hundreds of tasks and agents. We empirically evaluate our algorithm against established benchmarks and find that, even in such large environments, a solution is found up to 31% faster, and with up to 23% more utility, than state-of-the-art approximation algorithms. In addition, our algorithm sends up to 30% fewer messages than current approaches when the set of agents or tasks changes.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ In this paper we consider the problem of repairing missing is-a relations in ontologies. We formalize the problem as a generalized TBox abduction problem (GTAP). Based on this abduction framework, we present complexity results for the existence, relevance and necessity decision problems for the GTAP with and without some specific preference relations for ontologies that can be represented using a member of the EL family of description logics. Further, we present algorithms for finding solutions, a system as well as experiments.
+ 

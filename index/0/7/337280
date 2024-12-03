@@ -1,0 +1,4 @@
+
+ 
+ We introduce the problem of scheduling land purchases to conserve an endangered species in a way that achieves maximum population spread but delays purchases as long as possible, so that conservation planners retain maximum flexibility and use available budgets in the most efficient way. We develop the problem formally as a stochastic optimization problem over a network cascade model describing the population spread, and present a solution approach that reduces the stochastic problem to a novel variant of a Steiner tree problem. We give a primal-dual algorithm for the problem that computes both a feasible solution and a bound on the quality of an optimal solution. Our experiments, using actual conservation data and a standard diffusion model, show that the approach produces near optimal results and is much more scalable than more generic off-the-shelf optimizers.
+ 

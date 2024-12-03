@@ -1,0 +1,1 @@
+We show how one-class compression Neural Networks and one-class SVM can be applied to fMRI data to learn the classification of brain activity associated with a specific motor activity. For comparison purposes, we use two labeled data and see what degree of classification ability is lost compared with the usual two-class SVM.

@@ -1,0 +1,1 @@
+We give the first polylogarithmic-competitive randomized algorithm for the k-server problem on an arbitrary finite metric space. In particular, our algorithm achieves a competitive ratio of Õ(log3 n log2 k) for any metric space on n points. This improves upon the (2k-1)-competitive algorithm of Koutsoupias and Papadimitriou (J. ACM 1995) whenever n is sub-exponential in k.

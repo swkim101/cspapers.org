@@ -1,0 +1,1 @@
+We show that the mixing time of Glauber (single edge update) dynamics for the random cluster model at $q=2$ is bounded by a polynomial in the size of the underlying graph. As a consequence, the Swendsen-Wang algorithm for the ferromagnetic Ising model at any temperature has the same polynomial mixing time bound.

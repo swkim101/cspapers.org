@@ -1,0 +1,3 @@
+A q-query Locally Decodable Code (LDC) is an error-correcting code that allows to read any particular symbol of the message by reading only q symbols of the codeword even if the codeword is adversary corrupted.
+ In this paper we present a new approach for the construction of LDCs. We show that if there exists an irreducible representation (ρ, V) of G and q elements g1,g2,..., gq in G such that there exists a linear combination of matrices ρ(gi) that is of rank one, then we can construct a q-query Locally Decodable Code C:V-> FG.
+ We show the potential of this approach by constructing constant query LDCs of sub-exponential length matching the best known constructions.

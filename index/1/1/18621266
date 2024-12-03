@@ -1,0 +1,4 @@
+Computers are designed in stages. After the architectural definition of the system a block diagram is developed. From this the detail logic and the microprogram is developed in several steps, and the logic structure is mapped to a physical structure.
+ This process consits essentially of transformations and expansions under constraints, leaving the desired function of the system being developed invariant.
+ This paper analyzes the development process critically and covers methods with which the invariance of the function of the systems can be guranteed.
+ Furthermore, a program systera is presented which was written as a tool to support the development of computers and which was used for the developraent of the model 125 of System /370. The Behavioral Language of this support-system will be presented in its major features.

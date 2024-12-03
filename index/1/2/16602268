@@ -1,0 +1,1 @@
+A new automatic IC mask layout code is described which avoids most of the problems inherent in the present generation of layout codes such as lack of flexibility, inefficient use of area, and restricted design complexity. The structured hierarchical layout approach, construction graphs, and placement and routing algorithms are outlined.

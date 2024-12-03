@@ -1,0 +1,1 @@
+Overgeneration is the main source of computational complexity in previous principle-based parsers. This paper presents a message passing algorithm for principle-based parsing that avoids the overgeneration problem. This algorithm has been implemented in C++ and successfully tested with example sentences from (van Riemsdijk and Williams, 1986).

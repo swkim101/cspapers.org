@@ -1,0 +1,31 @@
+We introduce an end-to-end model for participatory
+
+budgeting grounded in social choice theory. Our
+
+model accounts for the interplay between the two
+
+stages commonly encountered in real-life partici-
+
+patory budgeting. In the first stage participants pro-
+
+pose projects to be shortlisted, while in the second
+
+stage they vote on which of the shortlisted projects
+
+should be funded. Prior work of a formal nature has
+
+focused on analysing the second stage only. We in-
+
+troduce several shortlisting rules for the first stage
+
+and analyse them in both normative and algorith-
+
+mic terms. Our main focus is on the incentives of
+
+participants to engage in strategic behaviour during
+
+the first stage, in which they need to reason about
+
+how their proposals will impact the range of strate-
+
+gies available to everyone in the second stage.

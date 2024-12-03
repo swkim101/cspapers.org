@@ -1,0 +1,1 @@
+In this paper, we give an overview of the Cedar multiprocessor and present recent performance results. These include the performance of some computational kernels and the Perfect Benchmarks. We also present a methodology for judging parallel system performance and apply this methodology to Cedar, Cray YMP-8, and Thinking Machines CM-5.

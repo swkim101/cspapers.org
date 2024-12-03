@@ -1,0 +1,1 @@
+The aim of this paper is to present a simple yet efficient implementation of a tool for simultaneous rule-based morphosyntactic tagging and partial parsing formalism. The parser is currently used for creating a tree-bank of partial parses in a valency acquisition project over the IPI PAN Corpus of Polish.

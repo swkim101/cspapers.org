@@ -1,0 +1,1 @@
+This paper describes a new parallel Logic Programming language designed to exploit the OR- and Independent AND-parallelisms. The language is based on conventional Prolog but with natural extensions to support handling of multiple solutions and expression of parallelism.

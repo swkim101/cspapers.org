@@ -1,0 +1,4 @@
+
+ 
+ We study the stability of cooperative games played over an interaction network, in a model that was introduced by Myerson ['77]. We show that the cost of stability of such games (i.e., the subsidy required to stabilize the game) can be bounded in terms  of natural parameters of their underlying interaction networks. Specifically, we prove that if the treewidth of the interaction network H is k, then the relative cost of stability of any game played over H is at most k + 1, and if the pathwidth of H is k', then the relative cost of stability is at most k'. We show that these bounds are tight for all k≥ 2and all k' ≥ 1, respectively.
+ 

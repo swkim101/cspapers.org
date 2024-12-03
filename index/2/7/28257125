@@ -1,0 +1,1 @@
+We present and solve a real-world problem of learning to drive a bicycle. We solve the problem by online reinforcement learning using the Sarsa(A)-algorithm. Then we solve the composite problem of learning to balance a bicycle and then drive to 'It goal. In our approach the reinforcement function is independent of the task the agent tries to learn to solve.

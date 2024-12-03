@@ -1,0 +1,4 @@
+
+ 
+ In machine learning contests such as the ImageNet Large Scale Visual Recognition Challenge and the KDD Cup, contestants can submit candidate solutions and receive from an oracle (typically the organizers of the competition) the accuracy of their guesses compared to the ground-truth labels. One of the most commonly used accuracy metrics for binary classification tasks is the Area Under the Receiver Operating Characteristics Curve (AUC). In this paper we provide proofs-of-concept of how knowledge of the AUC of a set of guesses can be used, in two different kinds of attacks, to improve the accuracy of those guesses. On the other hand, we also demonstrate the intractability of one kind of AUC exploit by proving that the number of possible binary labelings of n examples for which a candidate solution obtains a AUC score of c grows exponentially in n, for every c in (0,1).
+ 

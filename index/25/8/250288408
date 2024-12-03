@@ -1,0 +1,1 @@
+We present a method for constructing synthetic datasets of Competency Questions translated into SPARQL-OWL queries. This method is used to generate BigCQ, the largest set of CQ patterns and SPARQL-OWL templates that can provide translation examples to automate assessing the completeness and correctness of ontologies.

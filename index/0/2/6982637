@@ -1,0 +1,4 @@
+
+ 
+ We present a probabilistic extension of logic programs under the stable model semantics, inspired by the concept of Markov Logic Networks. The proposed language takes advantage of both formalisms in a single framework, allowing us to represent commonsense reasoning problems that require both logical and probabilistic reasoning in an intuitive and elaboration tolerant way.
+ 

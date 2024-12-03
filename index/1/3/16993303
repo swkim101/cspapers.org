@@ -1,0 +1,4 @@
+
+ 
+ Significant progress has been made recently in the following two lines of research in the intersection of AI and game theory: (1) the computation of optimal strategies to commit to (Stackelberg strategies), and (2) the computation of correlated equilibria of stochastic games. In this paper, we unite these two lines of research by studying the computation of Stackelberg strategies in stochastic games. We provide theoretical results on the value of being able to commit and the value of being able to correlate, as well as complexity results about computing Stackelberg strategies in stochastic games. We then modify the QPACE algorithm (MacDermed et al. 2011) to compute Stackelberg strategies, and provide experimental results.
+ 

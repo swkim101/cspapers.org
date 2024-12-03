@@ -1,0 +1,4 @@
+
+ 
+ Many high-dimensional data sets that lie on a low-dimensional manifold exhibit nontrivial regularities at multiple scales. Most work in manifold learning ignores this multiscale structure. In this paper, we propose approaches to explore the deep structure of manifolds. The proposed approaches are based on the diffusion wavelets framework, data driven, and able to directly process directional neighborhood relationships without ad-hoc symmetrization. The proposed multiscale algorithms are evaluated using both synthetic and real-world data sets, and shown to outperform previous manifold learning methods.
+ 

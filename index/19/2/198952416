@@ -1,0 +1,1 @@
+There are two aspects of data that make them big: sample size and dimensionality. The advantages of large sample size have long been touted. In contrast, high dimensionality has typically been seen as an obstacle to successful analysis. In this talk, using the area of genomics as an example, I will illustrate some of the advantages of high dimensionality.

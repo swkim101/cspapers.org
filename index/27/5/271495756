@@ -1,0 +1,9 @@
+Iterated prisoner’s dilemma (IPD) and its variants are fundamental models for understanding the evolution of cooperation in human society as well as AI systems. In this paper, we focus on multichannel IPD, and examine how an agent should behave to obtain generally high payoffs under this setting. 
+
+We propose a novel strategy that chooses to cooperate or defect by considering the difference in the cumulative number of defections between two agents.
+
+We show that our proposed strategy is nice, retaliatory, and forgiving.
+
+Moreover, we analyze the performance of our proposed strategy across different scenarios, including the self-play settings with and without errors, as well as when facing various opponent strategies. In particular, we show that our proposed strategy is invincible and never loses to any opponent strategy in terms of the expected payoff. 
+
+Last but not least, we empirically validate the evolutionary advantage of our strategy, and demonstrate its potential to serve as a catalyst for cooperation emergence.

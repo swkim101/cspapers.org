@@ -1,0 +1,47 @@
+Generalized Category Discovery (GCD) presents a realistic
+
+and challenging problem in open-world learning. Given a par-
+
+tially labeled dataset, GCD aims to categorize unlabeled data
+
+by leveraging visual knowledge from the labeled data, where
+
+the unlabeled data includes both known and unknown classes.
+
+Existing methods based on parametric/non-parametric classi-
+
+fiers attempt to generate pseudo-labels/relationships for the
+
+unlabeled data to enhance representation learning. However,
+
+the lack of ground-truth labels for novel classes often leads
+
+to noisy pseudo-labels/relationships, resulting in suboptimal
+
+representation learning. This paper introduces a novel method
+
+using Nearest Neighbor Distance-aware Label Consistency
+
+sample selection. It creates class-consistent subsets for novel
+
+class sample clusters from the current GCD method, acting
+
+as “pseudo-labeled sets” to mitigate representation bias. We
+
+propose progressive supervised representation learning with
+
+selected samples to optimize the trade-off between quantity
+
+and purity in each subset. Our method is versatile and appli-
+
+cable to various GCD methods, whether parametric or non-
+
+parametric. We conducted extensive experiments on multiple
+
+generic and fine-grained image classification datasets to eval-
+
+uate the effectiveness of our approach. The results demon-
+
+strate the superiority of our method in achieving improved
+
+performance in generalized category discovery tasks.

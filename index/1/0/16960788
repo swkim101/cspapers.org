@@ -1,0 +1,4 @@
+
+ 
+ We describe a robot system that autonomously acquires skills through interaction with its environment. The robot learns to sequence the execution of a set of innate controllers to solve a task, extracts and retains components of that solution as portable skills, and then transfers those skills to reduce the time required to learn to solve a second task.
+ 

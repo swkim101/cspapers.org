@@ -1,0 +1,1 @@
+Educational C (EC, for short) is a proper subset of C for educational purposes. It is easier to learn than standard C, more protected, yet it doesn’t exclude necessary features. We give an informal description of the key features of EC and a short report on the current state of our implementation.

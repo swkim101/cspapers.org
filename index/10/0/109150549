@@ -1,0 +1,1 @@
+This paper discusses the inverse and forward kinematics problem for a 2-dof parallel robot with actuator redundancy. The reachable workspace of the robot is generated for a set of parameters and a solution for the actuators is proposed in the final.

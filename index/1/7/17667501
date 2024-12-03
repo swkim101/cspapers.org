@@ -1,0 +1,3 @@
+The main problem, when automatically proving theorems by Induction is the problem of strategy, or, how to automatically direct deductions. This is not trivial, and, at present, only a mixture of complicated strategies have been investigated. The essential contribution of this paper is therefore the proposing of a new strategy for inductive theorem proving, inspired by a new mecanism called Constructive Matching (CM), and used for automatic programming [f04]. 
+ 
+We also propose a new method for the recognition of predicates and functions, necessary to prove a theorem by our approach, that are not defined in the knowledge-base ("invention" of new operators). Finally, we illustrate the obtainement of a suitable generalized lemma necessary for the proof.

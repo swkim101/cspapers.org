@@ -1,0 +1,4 @@
+
+ 
+ In clinical documents, medical terms are often expressed in multi-word phrases. Traditional topic modelling approaches relying on the "bag-of-words" assumption are not effective in extracting topic themes from clinical documents. This paper proposes to first extract medical phrases using an off-the-shelf tool for medical concept mention extraction, and then train a topic model which takes a hierarchy of Pitman-Yor processes as prior for modelling the generation of phrases of arbitrary length. Experimental results on patients' discharge summaries show that the proposed approach outperforms the state-of-the-art topical phrase extraction model on both perplexity and topic coherence measure and finds more interpretable topics.
+ 

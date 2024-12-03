@@ -1,0 +1,1 @@
+Finding the core members of a virtual community is an important problem in community analysis. Here we presented an simulated annealing algorithm to solve this problem by optimizing the user interests concentration ratio in user groups. As an example, we test this algorithm on a virtual community site and evaluate its results using human "gold standard" method.

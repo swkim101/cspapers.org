@@ -1,0 +1,9 @@
+Heuristic search is among the best performing approaches to classical satisficing planning, with its performance heavily relying on informative and fast heuristics, as well as search-boosting and pruning techniques. While both heuristics and pruning techniques have gained much attention recently, search-boosting techniques in general, and preferred operators in particular have received less attention in the last decade.
+
+Our work aims at bringing the light back to preferred operators research, with the introduction of preferred operators pruning technique, based on the concept of novelty. Continuing the research on novelty with respect to an underlying heuristic, we present the definition of preferred operators for such novelty heuristics. For that, we extend the previously defined concepts to operators, allowing us to reason about the novelty of the preferred operators.
+
+
+
+Our experimental evaluation shows the practical benefit of our suggested
+
+approach, compared to the currently used methods.

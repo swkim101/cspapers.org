@@ -1,0 +1,1 @@
+The mixing time of a Markov chain is the minimum time t necessary for the total variation distance between the distribution of the Markov chain's current state Xt and its stationary distribution to fall below some e > 0. In this paper, we present lower bounds for the mixing time of the Gibbs sampler over Gaussian mixture models with Dirichlet priors.

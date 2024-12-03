@@ -1,0 +1,4 @@
+
+ 
+ Effective human-aware robots should anticipate their user’s intentions. During hand-eye coordination tasks, gaze often precedes hand motion and can serve as a powerful predictor for intent. However, cooperative tasks where a semi-autonomous robot serves as an extension of the human hand have rarely been studied in the context of hand-eye coordination. We hypothesize that accounting for anticipatory eye movements in addition to the movements of the robot will improve intent estimation. This research compares the application of various machine learning methods to intent prediction from gaze tracking data during robotic hand-eye coordination tasks. We found that with proper feature selection, accuracies exceeding 94% and AUC greater than 91% are achievable with several classification algorithms but that anticipatory gaze data did not improve intent prediction.
+ 

@@ -1,0 +1,5 @@
+It has remained unknown whether one can in principle carry out reliable digital computations with networks of biologically realistic models for neurons. This article presents rigorous constructions for simulating in real-time arbitrary given boolean circuits and finite automata with arbitrarily high reliability by networks of noisy spiking neurons. 
+ 
+In addition we show that with the help of "shunting inhibition" even networks of very unreliable spiking neurons can simulate in real-time any McCulloch-Pitts neuron (or "threshold gate"), and therefore any multilayer perceptron (or "threshold circuit") in a reliable manner. These constructions provide a possible explanation for the fact that biological neural systems can carry out quite complex computations within 100 msec. 
+ 
+It turns out that the assumption that these constructions require about the shape of the EPSP's and the behaviour of the noise are surprisingly weak.

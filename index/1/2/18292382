@@ -1,0 +1,4 @@
+
+ 
+ Large-scale distributed computing has made available the resources necessary to solve "AI-hard" problems. As a result, it becomes feasible to automate the processing of such problems, but accuracy is not very high due to the conceptual difficulty of these problems. In this paper, we integrated crowdsourcing with MapReduce to provide a scalable innovative human-machine solution to AI-hard problems, which is called CrowdMR. In CrowdMR, the majority of problem instances are automatically processed by machine while the troublesome instances are redirected to human via crowdsourcing. The results returned from crowdsourcing are validated in the form of CAPTCHA (Completely Automated Public Turing test to Tell Computers and Humans Apart) before adding to the output. An incremental scheduling method was brought forward to combine the results from machine and human in a "pay-as-you-go" way.
+ 

@@ -1,0 +1,1 @@
+This paper discusses the application of a propositional temporal logic to determining the competence of a monitor offer as an extended response by a question-answering system. Determining monitor competence involves reasoning about the possibility of some future state given a description of the current state and possible transitions.

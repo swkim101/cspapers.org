@@ -1,0 +1,4 @@
+
+ 
+ Task allocation is ubiquitous in computer science and robotics, yet some problems have received limited attention in the computer science and AI community. Specifically, we will focus on multi-robot task allocation problems when tasks have time windows or ordering constraints. We will outline the main lines ofresearch and open problems.
+ 

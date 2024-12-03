@@ -1,0 +1,4 @@
+
+ 
+ Despite recent advances in the visual tracking community, most studies so far have focused on the observation model. As another important component in the tracking system, the motion model is much less well-explored especially for some extreme scenarios. In this paper, we consider one such scenario in which the camera is mounted on an unmanned aerial vehicle (UAV) or drone. We build a benchmark dataset of high diversity, consisting of 70 videos captured by drone cameras. To address the challenging issue of severe camera motion, we devise simple baselines to model the camera motion by geometric transformation based on background feature points. An extensive comparison of recent state-of-the-art trackers and their motion model variants on our drone tracking dataset validates both the necessity of the dataset and the effectiveness of the proposed methods. Our aim for this work is to lay the foundation for further research in the UAV tracking area.
+ 

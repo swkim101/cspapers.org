@@ -1,0 +1,1 @@
+This paper tackles the problem of guaranteeing appropriate timeliness guarantees to real-time applications running in a virtualised Operating System. Preliminary experimental results are presented, highlighting how the appropriate use of well-established real-time scheduling strategies may be effective in facing with this challenging issue.

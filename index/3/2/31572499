@@ -1,0 +1,4 @@
+
+ 
+ Privacy preserving in association mining is an important research topic in the database security field. This paper has proposed a blocking-based method to solve the association rule hiding problem for data sharing. It aims at reducing undesirable side effects and increasing desirable side effects, while ensuring to conceal all sensitive rules. The candidate transactions are selected for sanitization based on their relations with border rules. Comparative experiments on real datasets demonstrate that the proposed method can achieve its goals.
+ 

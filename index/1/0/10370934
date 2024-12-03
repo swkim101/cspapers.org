@@ -1,0 +1,4 @@
+
+ 
+ One-class classification approaches have been proposed in the literature to learn classifiers from examples of only one class. But these approaches are not directly applicable to relational domains due to their reliance on a feature vector or a distance measure. We propose a non-parametric relational one-class classification approach based on first-order trees. We learn a tree-based distance measure that iteratively introduces new relational features to differentiate relational examples. We update the distance measure so as to maximize the one-class classification performance of our model. We also relate our model definition to existing work on probabilistic combination functions and density estimation. We experimentally show that our approach can discover relevant features and outperform three baseline approaches.
+ 

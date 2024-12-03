@@ -1,0 +1,3 @@
+Current Web technology has enabled the distribution of informative content through dynamic media platforms.
+ In addition, the availability of the same content in the form of digital multimedia data has dramatically increased.
+ Content-based, cross-media retrieval applications are needed to efficiently access desired information from this variety of data sources. This paper presents a novel approach for cross-media information aggregation, and describes a prototype system implementing this approach. The prototype adopts online newspaper articles and TV newscasts as information sources, to deliver a service made up of items including both contributions. Extensive experiments prove the effectiveness of the proposed approach in a real-world business context.

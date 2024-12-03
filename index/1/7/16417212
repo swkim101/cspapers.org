@@ -1,0 +1,1 @@
+A design automation system for the design of digital systems from a high-level algorithmic description is proposed. The definition of the data-dependence graph and techniques for performing transformations that lead to optimization of hardware are described. The system can be used on several levels of design with the VLSI layout level given particular emphasis.

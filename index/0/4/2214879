@@ -1,0 +1,5 @@
+We present in this paper a fully automatic content-based approach to organizing and indexing video data. Our methodology involves three steps:<ul><li>Step 1: We segment each video into shots using a Camera-Tracking technique. This process also extracts the feature vector for each shot, which consists of two statistical variances <i>Var<sup>BA</sup></i> and <i>Var<sup>OA</sup></i>. These values capture how much things are changing in the background and foreground areas of the video shot.
+</li><li>Step 2: For each video, We apply a fully automatic method to build a browsing hierarchy using the shots identified in Step 1.
+</li><li>Step 3: Using the <i>Var<sup>BA</sup></i> and <i>Var<sup>OA</sup></i> values obtained in Step 1, we build an index table to support a variance-based video similarity model. That is, video scenes/shots are retrieved based on given values of <i>Var<sup>BA</sup></i> and <i>Var<sup>OA</sup></i>.
+</li></ul>
+The above three inter-related techniques offer an integrated framework for modeling, browsing, and searching large video databases. Our experimental results indicate that they have many advantages over existing methods.

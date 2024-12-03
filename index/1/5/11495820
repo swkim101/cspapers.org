@@ -1,0 +1,4 @@
+
+ 
+ We investigate the task of generating coherent survey articles for scientific topics. We introduce an extractive summarization algorithm that combines a content model with a discourse model to generate coherent and readable summaries of scientific topics using text from scientific articles relevant to the topic. Human evaluation on 15 topics in computational linguistics shows that our system produces significantly more coherent summaries than previous systems. Specifically, our system improves the ratings for coherence by 36% in human evaluation compared to C-Lexrank, a state of the art system for scientific article summarization.
+ 

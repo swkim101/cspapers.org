@@ -1,0 +1,9 @@
+This session is intended to act as a bridge between the current conference and the next. This conference identifies the need to expand the realm of Software Engineering beyond the products of development (code and documentation) to include the process by which those products were obtained (the development activity itself). It makes the development process another product of the software enterprise.
+This is an important first step in treating the software process as a product, but it is clear that we can't progress beyond the current methodology-based “good-practices” without formalizing this product. This formalization is required to precisely represent and reason about the process, and to construct tools that automate, or verify the quality, of portions of that process. This formalization and automation of the software process is the theme of the next conference.
+Two technologies, Logic and Al, are particularly relevant to this formalization and automation task. Professor Vlad Turski will represent the logic point of view, and Professor Gerald Sussman will represent the Al point of view. They will address the following questions:What are the respective roles of Logic and Al in the software enterprise?
+What phenomena needs to be represented?
+How will it be reasoned about?
+How do these technologies differ in what they can represent.
+How do they differ in the way they are used?
+
+Beyond these questions of the technical adequacy of these formalisms, there is the issue of how the human programmers, managers, and users will contend with these formalisms. Professor Alan Perlis will represent this human element in the software enterprise.

@@ -1,0 +1,4 @@
+
+ 
+ Visual sensing can be difficult to incorporate into undergraduate robotics and AI assignments. Images, after all, do not provide a direct estimate of the geometric conditions within the field of view. Yet vision is increasingly compelling as a part of undergraduate AI and robotics, given the centrality of pixels in our students' interactions with technology and each other. This paper shares a small-footprint framework designed to make visual sensing as easy to incorporate into AI projects and assignments, e.g., as a source of evidence for localization algorithms, as range sensors. The framework leverages (hand-built) circular panoramas and the image-matching capabilities provided by OpenCV's python library. An example localization project highlights its pedagogical accessibility and ease of deployment atop low-cost hardware and alongside other sensors.
+ 

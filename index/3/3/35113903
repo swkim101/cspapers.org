@@ -1,0 +1,1 @@
+This paper presents a semantic model of data bases. The model assumes the availability of a semantic network storing knowledge about a data base and a set of attributes for the data base. The use of the semantic net in generating a relational schema for the data base, in defining a set of semantic operators and in maintaining the data base consistent is then demonstrated.

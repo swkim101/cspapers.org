@@ -1,0 +1,1 @@
+We introduce a suite of interlinked software tools for eliciting preferences, doing decision-theoretic planning, and displaying the plans. The software allows a user to walk through possible trajectories, adjust preferences, and compare potential trajectories. This paper focuses on the elicitation process, the plan display, and interactions between the two.

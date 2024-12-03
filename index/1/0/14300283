@@ -1,0 +1,4 @@
+
+ 
+ Constraints over variable sequences are ubiquitous and many of their propagators have been inspired by dynamic programming (DP). We propose a conceptual framework for designing such propagators: pruning rules, in a functional notation, are refined upon the application of transformation operators to a DP-style formulation of a constraint; a representation of the (tuple) variable domains is picked; and a control of the pruning rules is picked.
+ 

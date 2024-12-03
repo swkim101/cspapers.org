@@ -1,0 +1,1 @@
+It is shown that if one-way functions exist, then there are sets A and B such that A and B are equivalent under one-one and length-increasing polynomial-time reductions, and such that A is not polynomial-time isomorphic to B. Furthermore, sets A and B can be constructed such that they are polynomial-time truth-table complete for the class of exponential-time computable sets.

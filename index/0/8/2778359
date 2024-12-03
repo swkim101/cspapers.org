@@ -1,0 +1,5 @@
+Much distributed artificial intelligence research on negotiation assumes complete knowledge among the interacting agents and/or truthful agents. These assumptions in many domains will not be realistic, and this paper extends previous work to begin dealing with the case of inter-agent negotiation with incomplete information. 
+ 
+A discussion of our existing negotiation framework sets out the rules by which agents operate during this phase of their interaction. The concept of a "solution" within this framework is presented; the same solution concept serves for interactions between agents with incomplete information as it did for complete information interactions. 
+ 
+The possibility of incomplete information among agents opens up the possibility of deception as part of the negotiation strategy of an agent. Deception during negotiation among autonomous agents is thus analyzed in the constrained Blocks Domain, and it is shown that beneficial lies do exist in some scenarios. The three types of interactions, cooperative, compromise, and conflict, are examined. An analysis is made of how each affects the possibility of beneficial deception by a negotiating agent.

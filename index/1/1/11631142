@@ -1,0 +1,9 @@
+NGLAUBER is a system which models the scientific discovery of qualitative empirical laws. As such, it falls into the category of scientific discovery systems. However, NGLAUBER can also be viewed as a conceptual clustering system since it forms classes of objects and characterizes these classes. NGLAUBER, differs from existing scientific discovery and conceptual clustering systems in a number of ways. 
+ 
+1. It uses an incremental method to group objects into classes. 
+ 
+2. These classes are formed based on the relationships between objects rather than just the attributes of objects. 
+ 
+3. The system describes the relationships between classes rather than simply describing the classes. 
+ 
+4. Most importantly, NGLAUBER proposes experiments by predicting future data. The experiments help the system guide itself through the search for regularities in the data.

@@ -1,0 +1,1 @@
+A general method for automatic routing, based on a channel splitting approach, is presented. A weighted graph depicting multilayer partitions and allowing expected channel occupancy estimation is introduced. Problems and algorithms related to the detailed routing phase are briefly reviewed.

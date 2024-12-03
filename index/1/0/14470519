@@ -1,0 +1,1 @@
+In this paper, we present a new method of using statistical models to estimate readability [1]. Language Model is used to capture the content information. It is combined with linguistic feature model by a linear form. Experiments show that this new method has a better performance than the widely used Flesch-Kincaid readability formula.

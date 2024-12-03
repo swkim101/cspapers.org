@@ -1,0 +1,1 @@
+We present an interactive, web based system for musical song search and retrieval, using rhythmic tapping as the primary means of query input. Our approach involves encoding the input rhythm as a contour string, and using approximate string matching to determine the most likely match with songs in the database.

@@ -1,0 +1,4 @@
+
+ 
+ We introduce the level-ordered edge sequence (LOES), a suc- cinct encoding for state-sets based on prefix-trees. For use in state-space search, we give algorithms for member testing and element hashing with runtime dependent only on state- size, as well as space and memory efficient construction of and iteration over such sets. Finally we compare LOES to binary decision diagrams (BDDs) and explicitly packed set- representation over a range of IPC planning problems. Our results show LOES produces succinct set-encodings for a wider range of planning problems than both BDDs and ex- plicit state representation, increasing the number of problems that can be solved cost-optimally.
+ 

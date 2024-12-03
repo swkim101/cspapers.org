@@ -1,0 +1,4 @@
+
+ 
+ Multi-Robot Task Allocation (MRTA) has no formal framework which could provide solutions covering different domains within the MRTA taxonomy without changing the optimization scheme. This research aims to develop a novel framework using evolutionary computing. The study proposes a modular approach towards developing this framework in which individual problem types of the MRTA taxonomy are solved one at a time. The performance of the framework will be evaluated against the popular approaches suggested for each problem type.
+ 

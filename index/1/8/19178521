@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of playing Minesweeper with a limited number of moves: Given a partially revealed board, a number of available clicks k, and a target probability p, can we win with probability p. We win if we do not click on a mine, and, after our sequence of at most k clicks (which reveal information about the neighboring squares) can correctly identify the placement of all mines. We make the assumption, that, at all times, all placements of mines consistent with the currently revealed squares are equiprobable. Our main results are that the problem is PSPACE-complete, and it remains PSPACE-complete when p is a constant, in particular when p = 1. When k = 0 (i.e., we are not allowed to click anywhere), the problem is PP-complete in general, but co-NP-complete when p is a constant, and in particular when p = 1.
+ 

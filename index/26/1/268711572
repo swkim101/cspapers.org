@@ -1,0 +1,11 @@
+Convolutional neural networks (CNNs) are being increasingly
+adopted in medical imaging. However, in the race for
+developing accurate models, their robustness is often overlooked.
+This elicits a significant concern given the safety-critical
+nature of the healthcare system. Here, we highlight
+the vulnerability of CNNs against a sporadic and naturalistic
+adversarial patch attack (SNAP). We train SNAP to mislead
+the ResNet50 model predicting metastasis in histopathological
+scans of lymph node sections, lowering the accuracy by
+27%. This work emphasizes the need for defense strategies
+before deploying CNNs in critical healthcare settings.

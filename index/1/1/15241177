@@ -1,0 +1,15 @@
+In this pap er, we describe our speech understanding system and we test it on 
+two different applications. The proposed system is a task specific one and it concern 
+especially oral database consultation tasks. In this work, we consider that the 
+automatic speech understanding problem could be seen as an association problem 
+between two different languages. At the entry , the request expressed in natural 
+language and at the end, just before the interpretation stage, the same request is 
+expressed in term of concepts. A concept represents a given meaning, it is defined 
+by a set of words sharing the same semantic properties. In this pap er, we propose a 
+new Bayesian network based method to automatically extract the underlined concepts. 
+We also propose and compare three approaches for the vector representation 
+of words. We finish this pap er by a description of the post-processing step during 
+which we generate corresponding SQL queries to the pronounced sentences and we 
+connect our understanding system to a speech recognition engine. This step allows 
+us to validate our speech understanding approach by obtaining with the two treated 
+applications the rates of 78% and 81% of well formed SQL requests.

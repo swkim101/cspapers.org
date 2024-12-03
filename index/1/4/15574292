@@ -1,0 +1,4 @@
+
+ 
+ We consider the off-policy evaluation problem in Markov decision processes with function approximation. We propose a generalization of the recently introduced emphatic temporal differences (ETD) algorithm, which encompasses the original ETD(λ), as well as several other off-policy evaluation algorithms as special cases. We call this framework ETD(λ, β), where our introduced parameter β controls the decay rate of an importance-sampling term. We study conditions under which the projected fixed-point equation underlying ETD(λ, β) involves a contraction operator, allowing us to present the first asymptotic error bounds (bias) for ETD(λ, β). Our results show that the original ETD algorithm always involves a contraction operator, and its bias is bounded. Moreover, by controlling β, our proposed generalization allows trading-off bias for variance reduction, thereby achieving a lower total error.
+ 

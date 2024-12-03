@@ -1,0 +1,4 @@
+
+ 
+ In this paper we expand the standard Hotelling-Downs model of spatial competition to a setting where clients do not necessarily choose their closest candidate (retail product or political). Specifically, we consider a setting where clients may disavow all candidates if there is no candidate that is sufficiently close to the client preferences. Moreover, if there are multiple candidates that are sufficiently close, the client may choose amongst them at random. We show the existence of Nash Equilibria for some such models, and study the price of anarchy and stability in such scenarios.
+ 

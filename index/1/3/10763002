@@ -1,0 +1,7 @@
+We give an <i>O</i>(<i>n</i> √lg <i>n</i>)-time algorithm for counting the number of inversions in a permutation on <i>n</i> elements. This improves a long-standing previous bound of <i>O</i>(<i>n</i> lg <i>n</i>/ lg lg <i>n</i>) that followed from Dietz's data structure [WADS'89], and answers a question of Andersson and Petersson [SODA'95]. As Dietz's result is known to be optimal for the related dynamic rank problem, our result demonstrates a significant improvement in the <i>offline</i> setting.
+ Our new technique is quite simple: we perform a "vertical partitioning" of a trie (akin to van Emde Boas trees), and use ideas from external memory. However, the technique finds numerous applications: for example, we obtain
+ • in <i>d</i> dimensions, an algorithm to answer <i>n</i> offline orthogonal range counting queries in time <i>O</i>(<i>n</i> lg<sup><i>d</i>-2+1/<i>d</i></sup> <i>n</i>);
+ • an improved construction time for online data structures for orthogonal range counting;
+ • an improved update time for the partial sums problem;
+ • faster Word RAM algorithms for finding the maximum depth in an arrangement of axis-aligned rectangles, and for the slope selection problem.
+ As a bonus, we also give a simple (1 + ε)-approximation algorithm for counting inversions that runs in linear time, improving the previous <i>O</i> (<i>n</i> lg lg <i>n</i>) bound by Andersson and Petersson.

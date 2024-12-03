@@ -1,0 +1,4 @@
+
+ 
+ The exponential growth of information on Community-based Question Answering (CQA) sites has raised the challenges for the accurate matching of high-quality answers to the given questions. Many existing approaches learn the matching model mainly based on the semantic similarity between questions and answers, which can not effectively handle the ambiguity problem of questions and the sparsity problem of CQA data. In this paper, we propose to solve these two problems by exploiting users' social contexts. Specifically, we propose a novel framework for CQA task by exploiting both the question-answer content in CQA site and users' social contexts. The experiment on real-world dataset shows the effectiveness of our method.
+ 

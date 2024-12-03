@@ -1,0 +1,4 @@
+
+ 
+ Much work has been done on understanding and predicting human mobility in time. In this work, we are interested in obtaining a set of users who are spatio-temporally most similar to a query user. We propose an efficient way of user data representation called Spatio-Temporal Signatures to keep track of complete record of user movement. We define a measure called Spatio-Temporal similarity for comparing a given pair of users. Although computing exact pairwise Spatio-Temporal similarities between query user with all users is inefficient, we show that with our hybrid pruning scheme the most similar users can be obtained in logarithmic time with in a (1+\epsilon) factor approximation of the optimal. We are developing a framework to test our models against a real dataset of urban users.
+ 

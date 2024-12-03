@@ -1,0 +1,4 @@
+
+ 
+ Algorithmic reductions are one of the corner stones of theoretical computer science. Surprisingly, to-date, they have only played a limited role in machine learning. In this paper we introduce a formal and practical reduction between two of the most widely used machine learning algorithms: from the Elastic Net (and the Lasso as a special case) to the Support Vector Machine. First, we derive the reduction and summarize it in only 11 lines of MATLAB. Then, we demonstrate its high impact potential by translating recent advances in parallelizing SVM solvers directly to the Elastic Net. The resulting algorithm is a parallel solver for the Elastic Net (and Lasso) that naturally utilizes GPU and multi-core CPUs. We evaluate it on twelve real world data sets, and show that it yields identical results as the popular (and highly optimized) glmnet implementation but is up-to two orders of magnitude faster.
+ 

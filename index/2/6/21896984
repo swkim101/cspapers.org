@@ -1,0 +1,4 @@
+
+ 
+ While the universal approximation property holds both for hierarchical and shallow networks, deep networks can approximate the class of compositional functions as well as shallow networks but with exponentially lower number of training parameters and sample complexity. Compositional functions are obtained as a hierarchy of local constituent functions, where "local functions'' are functions with low dimensionality. This theorem proves an old conjecture by Bengio on the role of depth in networks, characterizing precisely the conditions under which it holds. It also suggests possible answers to the the puzzle of why high-dimensional deep networks trained on large training sets often do not seem to show overfit.
+ 

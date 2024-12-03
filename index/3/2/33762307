@@ -1,0 +1,4 @@
+
+ 
+ Graph-based Semi-Supervised learning is one of the most popular and successful semi-supervised learning methods. Typically, it predicts the labels of unlabeled data by minimizing a quadratic objective induced by the graph, which is unfortunately a procedure of polynomial complexity in the sample size $n$. In this paper, we address this scalability issue by proposing a method that approximately solves the quadratic objective in nearly linear time. The method consists of two steps: it first approximates a graph by a minimum spanning tree, and then solves the tree-induced quadratic objective function in O(n) time which is the main contribution of this work. Extensive experiments show the significant scalability improvement over existing scalable semi-supervised learning methods.
+ 

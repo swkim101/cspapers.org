@@ -1,0 +1,9 @@
+Peer reviewing is a central process in modern research and essential for ensuring high quality and reliability of published work.
+At the same time, it is a time-consuming process and increasing interest in emerging fields often results in a high review workload, especially for senior researchers in this area.
+How to cope with this problem is an open question and it is vividly discussed across all major conferences.
+In this work, we propose an Argument Mining based approach for the assistance of editors, meta-reviewers, and reviewers. 
+We demonstrate that the decision process in the field of scientific publications is driven by arguments and automatic argument identification is helpful in various use-cases.
+One of our findings is that arguments used in the peer-review process differ from arguments in other domains making the transfer of pre-trained models difficult.
+Therefore, we provide the community with a new dataset of peer-reviews from different computer science conferences with annotated arguments. 
+In our extensive empirical evaluation, we show that Argument Mining can be used to efficiently extract the most relevant parts from reviews, which are paramount for the publication decision.
+Also, the process remains interpretable, since the extracted arguments can be highlighted in a review without detaching them from their context.

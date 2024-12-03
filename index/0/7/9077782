@@ -1,0 +1,4 @@
+
+ 
+ Covariate shift correction allows one to perform supervised learning even when the distribution of the covariates on the training set does not match that on the test set. This is achieved by re-weighting observations. Such a strategy removes bias, potentially at the expense of greatly increased variance. We propose a simple strategy for removing bias while retaining small variance. It uses a biased, low variance estimate as a prior and corrects the final estimate relative to the prior. We prove that this yields an efficient estimator and demonstrate good experimental performance.
+ 

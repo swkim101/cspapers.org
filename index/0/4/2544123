@@ -1,0 +1,4 @@
+
+ 
+ Distant labeling for information extraction (IE) suffers from noisy training data. We describe a way of reducing the noise associated with distant IE by identifying coupling constraints between potential instance labels. As one example of coupling,items in a list are likely to have the same label.A second example of coupling comes from analysis of document structure: in some corpora,sections can be identified such that items in the same section are likely to have the same label. Such sections do not exist in all corpora, but we show that augmenting a large corpus with coupling constraints from even a small, well-structured corpus can improve performance substantially, doubling F1 on one task.
+ 

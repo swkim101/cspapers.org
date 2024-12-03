@@ -1,0 +1,4 @@
+
+ 
+ Training intelligent systems is a time consuming and costly process that often limits their application to real-world problems. Prior work in crowdsourcing has attempted to compensate for this challenge by generating sets of labeled training data for machine learning algorithms. In this work, we seek to move beyond collecting just statistical data and explore how to gather structured, relational representations of a scenario using the crowd. We focus on activity recognition because of its broad applicability, high level of variation between individual instances, and difficulty of training systems a priori. We present ARchitect, a system that uses the crowd to ascertain pre and post conditions for actions observed in a video and find relations between actions. Our ultimate goal is to identify multiple valid execution paths from a single set of observations, which suggests one-off learning from the crowd is possible.
+ 

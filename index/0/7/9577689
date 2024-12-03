@@ -1,0 +1,1 @@
+In thispaperwedescribeanefficientalgorithmfor themanagementof group-keys.Our algorithmis basedon a protocol for secure IP-multicastand is usedto manage groupkeys in group-communicationsystems.Unlike prior work, basedoncentralizedkey-server s,our solutionis completely distributedand fault-tolerant and its performanceis comparableto thecentralizedsolution.

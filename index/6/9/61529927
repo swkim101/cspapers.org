@@ -1,0 +1,1 @@
+Perturbation methods for one or several variables based on the Taylor series development up to the second order is presented for the collision estimator in the framework of the Monte Carlo code Tripoli-4. Comparisons with the correlated sampling method implemented in Tripoli-4 demonstrate the need of including the cross derivatives in the development.

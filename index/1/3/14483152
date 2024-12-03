@@ -1,0 +1,4 @@
+
+ 
+ Stackelberg equilibrium is a solution concept prescribing for a player an optimal strategy to commit to, assuming the opponent knows this commitment and plays the best response. Although this solution concept is a cornerstone of many security applications, the existing works typically do not consider situations where the players can observe and react to the actions of the opponent during the course of the game. We extend the existing algorithmic work to extensive-form games and introduce novel algorithm for computing Stackelberg equilibria that exploits the compact sequence-form representation of strategies. Our algorithm reduces the size of the linear programs from exponential in the baseline approach to linear in the size of the game tree. Experimental evaluation on randomly generated games and a security-inspired search game demonstrates significant improvement in the scalability compared to the baseline approach.
+ 

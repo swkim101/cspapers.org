@@ -1,0 +1,4 @@
+
+ 
+ Core-selection is a crucial property of social choice functions, or rules, in social choice literature. It is also desirable to address the incentive of agents to cheat by misreporting their preferences. This paper investigates an exchange problem where each agent may have multiple indivisible goods, agents' preferences over sets of goods are assumed to be lexicographic, and side payments are not allowed. We propose an exchange rule called augmented top-trading-cycles (ATTC) procedure based on the original TTC procedure. We first show that the ATTC procedure is core-selecting. We then show that finding a beneficial misreport under the ATTC procedure is NP-hard. Under the ATTC procedure, we finally clarify the relationship between preference misreport and splitting, which is a different type of manipulation.
+ 

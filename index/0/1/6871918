@@ -1,0 +1,7 @@
+Executing production system programs involves directly or indirectly executing an interpretive match/-select/act cycle. An optimal compilation of a production system program would generate code that requires no appeal to an interpreter to mediate control. However, while a great deal of implicit control information is available in rule-based programs, it is generally impossible to avoid deferring some decisions to run-time. 
+ 
+We introduce an approach that may resolve this problem. We propose an execution model that permits the execution of the usual cycle when necessary and otherwise executes procedural functions. 
+ 
+The system is best characterized as a rule rewrite system where rules are replaced with chunks, such that the chunks may have procedural components. Correctness for replacement of rules is derived by a constrained abstract evaluation of the entire program via a general-purpose theorem prover at compile time. The analysis gives a global dependency analysis of the interaction of each of the rules. 
+ 
+For a group of popular benchmark programs, we show that there is ample opportunity to automatically substitute interpretive pattern matching with procedural elements and a concomitant improvement in performance.

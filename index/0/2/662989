@@ -1,0 +1,1 @@
+Subspace segmentation is the task of segmenting data lying on multiple linear subspaces. Its applications in computer vision include motion segmentation in video, structure-from-motion, and image clustering. In this work, we describe a novel approach for subspace segmentation that uses probabilistic inference via a message-passing algorithm.

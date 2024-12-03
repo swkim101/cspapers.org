@@ -1,0 +1,4 @@
+
+ 
+ We introduce DTProbLog, a decision-theoretic extension of Prolog and its probabilistic variant ProbLog. DTProbLog is a simple but expressive probabilistic programming language that allows the modeling of a wide variety of domains, such as viral marketing. In DTProbLog, the utility of a strategy (a particular choice of actions) is defined as the expected reward for its execution in the presence of probabilistic effects. The key contribution of this paper is the introduction of exact, as well as approximate, solvers to compute the optimal strategy for a DTProbLog program and the decision problem it represents, by making use of binary and algebraic decision diagrams.  We also report on experimental results that show the effectiveness and the practical usefulness of the approach.
+ 

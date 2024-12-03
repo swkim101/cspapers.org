@@ -1,0 +1,1 @@
+While Prolog has proven useful for writing programs in a variety of domains, it suffers from its lack of support for modularity, particularly for building libraries of routines and data. This paper points out some problems with standard Prolog that make libraries inconvenient. It then describes a solution to those problems based on the concepts of modules and database views.

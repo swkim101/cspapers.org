@@ -1,0 +1,4 @@
+In several data flow architectures, “streams” are proposed as special data structures able to improve parallel execution in functional programs by providing a pipelining effect between different program parts.
+ This paper describes how streams are implemented on a data flow computer system based on a paged memory. This memory holds both the data flow programs and data structures such as streams.
+ Streams are stored in the memory as a linked list of pages while pointers to the streams are flowing as data tokens. A reference count is used to prevent for excessive copying of data and to control the allocation and recovery of pages.
+ Input/output is treated as a special application of streams.

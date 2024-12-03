@@ -1,0 +1,4 @@
+
+ 
+ A probabilistic variant of ATL* logic is proposed to work with multi-player games of incomplete information and synchronous perfect recall. The semantics of the logic is settled over probabilistic interpreted system and partially observed probabilistic concurrent game structure. While unexpectedly, the model checking problem is in general undecidable even for single-group fragment, we find a fragment whose complexity is in 2-EXPTIME. The usefulness of this fragment is shown over a land search scenario.
+ 

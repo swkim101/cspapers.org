@@ -1,0 +1,1 @@
+Schoening in 1999 presented a simple randomized algorithm for k-SAT with running time an * poly(n) for a = 2(k-1)/k. We give a deterministic version of this algorithm running in time an+o(n).

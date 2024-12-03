@@ -1,0 +1,4 @@
+
+ 
+ We present an intuitive explanation for the limited effectiveness of front-to-end bidirectional heuristic search, supported with extensive evidence from many commonly-studied domains. While previous work has proved the limitations of specific algorithms, we show that any front-to-end bidirectional heuristic search algorithm will likely be dominated by unidirectional heuristic search or bidirectional brute-force search. We also demonstrate a pathological case where bidirectional heuristic search is the dominant algorithm, so a stronger claim cannot be made. Finally, we show that on the four-peg Towers Of Hanoi with arbitrary start and goal states, bidirectional brute-force search outperforms unidirectional heuristic search using pattern-database heuristics.
+ 

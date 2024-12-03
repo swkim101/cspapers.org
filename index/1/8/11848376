@@ -1,0 +1,4 @@
+
+ 
+ This paper investigates stochastic planning problemswith large factored state and action spaces. We show that even with moderate increase in the size of existing challenge problems, the performance of state of the art algorithms deteriorates rapidly, making them ineffective.To address this problem we propose a family of simple but scalable online planning algorithms that combine sampling, as in Monte Carlo tree search, with “aggregation,” where the aggregation approximates a distribution over random variables by the product of their marginals. The algorithms are correct under some rather strong technical conditions and can serve as an unsound but effective heuristic when the conditions do not hold. An extensive experimental evaluation demonstrates that the new algorithms provide significant improvement over the state of the art when solving largeproblems in a number of challenge benchmark domains.
+ 

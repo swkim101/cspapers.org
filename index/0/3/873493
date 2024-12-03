@@ -1,0 +1,1 @@
+Information on network host connectivity patterns are important for network monitoring and traffic engineering. In this paper, an efficient streaming algorithm is proposed to estimate cardinality distributions including connectivity distributions, e.g. percent of hosts with any given number of distinct communicating peers or flows.

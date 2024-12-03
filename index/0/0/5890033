@@ -1,0 +1,3 @@
+The classical problem of efficiently listing all the simple cycles in a graph has been studied since the early 70s. For a graph with n vertices and m edges, containing η cycles, the most efficient solution was presented by Johnson [SIAM J. Computing, 1975] and takes O((η + 1)(m + n)) time. This solution is not optimal for undirected graphs: nevertheless, no theoretical improvements have been proposed in the past decades. 
+ 
+We present the first optimal solution to list all the simple cycles in an undirected graph G. Specifically, let C(G) denote the set of all these cycles (|C(G)| = η). For a cycle c e C(G), let |c| denote the number of edges in c. Our algorithm requires

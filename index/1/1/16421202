@@ -1,0 +1,1 @@
+A Benes permutation network capable of setting its own switches dynamically is presented. The total switch setting and delay time for an N input/output self routing network is O(log N). This network is capable of performing a large class of permutations. If the switches are set externally, then all permutations can be performed.

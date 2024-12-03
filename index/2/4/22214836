@@ -1,0 +1,4 @@
+
+ 
+ Time series modeling is an important problem with many applications in different domains. Here we consider discriminative learning from time series, where we seek to predict an output response variable based on time series input. We develop a method based on convolution kernels to model discriminative learning over streams of text. Our method outperforms competitive baselines in three synthetic and two real datasets, rumour frequency modeling and popularity prediction tasks.
+ 

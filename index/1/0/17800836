@@ -1,0 +1,4 @@
+
+ 
+ We consider non-monotone DR-submodular function maximization, where DR-submodularity (diminishing return submodularity) is an extension of submodularity for functions over the integer lattice based on the concept of the diminishing return property. Maximizing non-monotone DR-submodular functions has many applications in machine learning that cannot be captured by submodular set functions. In this paper, we present a 1/(2+ε)-approximation algorithm with a running time of roughly O(n/ε log2 B), where n is the size of the ground set, B is the maximum value of a coordinate, and ε > 0 is a parameter. The approximation ratio is almost tight and the dependency of running time on B is exponentially smaller than the naive greedy algorithm. Experiments on synthetic and real-world datasets demonstrate that our algorithm outputs almost the best solution compared to other baseline algorithms, whereas its running time is several orders of magnitude faster.
+ 

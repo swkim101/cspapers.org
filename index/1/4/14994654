@@ -1,0 +1,4 @@
+
+ 
+ Obvious strategyproofness (OSP) is an appealing concept as it allows to maintain incentive compatibility even in the presence of agents that are not fully rational, e.g., those who struggle with contingent reasoning (Li 2015). However, it has been shown to impose some limitations, e.g., no OSP mechanism can return a stable matching (Ashlagi and Gonczarowski 2015). We here deepen the study of the limitations of OSP mechanisms by looking at their approximation guarantees for basic optimization problems paradigmatic of the area, i.e., machine scheduling and facility location. We prove a number of bounds on the approximation guarantee of OSP mechanisms, which show that OSP can come at a significant cost. However, rather surprisingly, we prove that OSP mechanisms can return optimal solutions when they use monitoring — a novel mechanism design paradigm that introduces a mild level of scrutiny on agents’ declarations (Kovacs, Meyer, and Ventre 2015).
+ 

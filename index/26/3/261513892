@@ -1,0 +1,11 @@
+Random forests are decision tree ensembles that can be used 
+to solve a variety of machine learning problems. However, as
+the number of trees and their individual size can be large,
+their decision making process is often incomprehensible.
+We show that their decision process can be naturally represented 
+as an argumentation problem, which allows creating global explanations 
+via argumentative reasoning. We generalize sufficient and necessary 
+argumentative explanations using a Markov network encoding, discuss 
+the relevance of these explanations and establish relationships to
+families of abductive explanations from the literature. As the complexity 
+of the explanation problems is high, we present an efficient approximation algorithm with probabilistic approximation guarantees.

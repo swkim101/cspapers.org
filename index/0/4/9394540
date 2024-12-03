@@ -1,0 +1,4 @@
+
+ 
+ In recent years, there has been renewed interest in the NLP community in genuine language understanding and dialogue. Thus the long-standing issue of how the semantic content of language should be represented is reentering the communal discussion. This paper provides a brief "opinionated survey" of broad-coverage semantic representation (SR). It suggests multiple desiderata for such representations, and then outlines more than a dozen approaches to SR — some long-standing, and some more recent, providing quick characterizations, pros, cons, and some comments on implementations.
+ 

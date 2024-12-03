@@ -1,0 +1,11 @@
+In this paper we use the notion of weak compositions to obtain polynomial kernelization lower-bounds for several natural parameterized problems. Let d ≥ 2 be some constant and let L1, L2 ⊆ {0, 1}* x N be two parameterized problems where the unparameterized version of L1 is NP-hard. Assuming coNP n NP/poly, our framework essentially states that composing t L1-instances each with parameter k, to an L2-instance with parameter k' ≤ t1/dkO(1), implies that L2 does not have a kernel of size O(kd−e) for any e > 0. We show two examples of weak composition and derive polynomial kernelization lower bounds for d-Bipartite Regular Perfect Code and d-Dimensional Matching, parameterized by the solution size k. By reduction, using linear parameter transformations, we then derive the following lower-bounds for kernel sizes when the parameter is the solution size k (assuming coNP n NP/poly): 
+ 
+• d-Set Packing, d-Set Cover, d-Exact Set Cover, Hitting Set with d-Bounded Occurrences, and Exact Hitting Set with d-Bounded Occurrences have no kernels of size O(kd−3−e) for any e > 0. 
+ 
+• Kd Packing and Induced K1,d Packing have no kernels of size O(kd−4−e) for any e > 0. 
+ 
+• d-Red-Blue Dominating Set and d-Steiner Tree have no kernels of sizes O(kd−3−e) and O(kd−4−e), respectively, for any e > 0. 
+ 
+Our results give a negative answer to an open question raised by Dom, Lokshtanov, and Saurabh [ICALP2009] regarding the existence of uniform polynomial kernels for the problems above. All our lower bounds transfer automatically to compression lower bounds, a notion defined by Harnik and Naor [SICOMP2010] to study the compressibility of NP instances with cryptographic applications. We believe weak composition can be used to obtain polynomial kernelization lower bounds for other interesting parameterized problems. 
+ 
+In the last part of the paper we strengthen previously known super-polynomial kernelization lower bounds to super-quasi-polynomial lower bounds, by showing that quasi-polynomial kernels for compositional NP-hard parameterized problems implies the collapse of the exponential hierarchy. These bounds hold even the kernelization algorithms are allowed to run in quasipolynomial time.

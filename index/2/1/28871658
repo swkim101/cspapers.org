@@ -1,0 +1,4 @@
+
+ 
+ We show that the HyperPlay technique, which maintains a bag of updatable models for sampling an imperfect-information game, is more efficient than taking random samples of play sequences. Also, we demonstrate that random sampling may become impossible under the practical constraints of a game. We show the HyperPlay sample can become biased and not uniformly distributed across an information set and present a remedy for this bias, showing the impact on game results for biased and unbiased samples. We extrapolate the use of the technique beyond General Game Playing and in particular for enhanced security games with in-game percepts to facilitate a flexible defense response.
+ 

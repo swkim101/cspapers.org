@@ -1,0 +1,5 @@
+XML is a standard to exchange structured data over the Web. It is being widely adopted. Undoubtedly, more 
+and more data on the Web will be in XML form, as more and more DTDs will be available to describe it. 
+Given this, the Xyleme project proposes to study and build a dynamic World Wide XML warehouse, i.e., a 
+data warehouse capable of storing all the XML data available on the planet. Among the many problems 
+addressed by the Xyleme team, we focus in this paper on query processing.

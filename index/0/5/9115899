@@ -1,0 +1,1 @@
+Current data models like the NF2 model and object-oriented models support set-valued attributes. Hence, it becomes possible to have join predicates based on set comparison. This paper introduces and evaluates several main memory algorithms to evaluate efficiently this kind of join. More specifically, we concentrate on the set equality and the subset predicates.

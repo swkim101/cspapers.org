@@ -1,0 +1,8 @@
+Many difficulties must be overcome when large-scale air pollution models are treated numerically, because the physical and chemical processes in the atmosphere are very fast. This is why it is necessaryto use a large space domain in order to be able to study long-range transport, of pollutants in the atmosphere,
+to describe adequately all important processes when an air pollution model is developed and
+to use fine grids in the discretization of the model.
+
+If all these conditions are taken in to account, then the resulting computational tasks are huge and the computer treatment of the model is very difficult even when powerful modern computers are in use. Therefore, the following two major tasks must be solved:fast and sufficiently accurate numerical methods are to be selected and
+the selected numerical methods should be efficiently implemented on the available high-speed computers.
+
+The solution of these two important tasks in connection with a particular large-scale air pollution model, the Danish Eulerian Model, will be discussed in this paper. The use of standard parallelization tools allows us to achieve good performance when the model is run on different parallel computers. This will be illustrated in the paper by many numerical examples.

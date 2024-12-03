@@ -1,0 +1,4 @@
+
+ 
+ Salient object detection has gradually become a popular topic in robotics and computer vision research. This paper presents a real-time system that detects salient object by integrating objectness, foreground and compactness measures. Our algorithm consists of four basic steps. First, our method generates the objectness map via object proposals. Based on the objectness map, we estimate the background margin and compute the corresponding foreground map which prefers the foreground objects. From the objectness map and the foreground map, the compactness map is formed to favor the compact objects. We then integrate those cues to form a pixel-accurate saliency map which covers the salient objects and consistently separates fore- and background.
+ 

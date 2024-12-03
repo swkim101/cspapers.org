@@ -1,0 +1,1 @@
+A new type of natural language parser is presented. The idea behind this parser is to map input sentences into the deepest form of the representation of their meaning and make appropriate inferences during the parsing process, using interest to guide the processing.

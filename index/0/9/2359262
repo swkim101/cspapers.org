@@ -1,0 +1,4 @@
+
+ 
+ Runoff voting rules such as single transferable vote (STV) and Baldwin's rule are of particular interest in computational social choice due to their recursive nature and hardness of manipulation, as well as in (human) practice because they are relatively easy to understand. However, they are not known for their compliance with desirable axiomatic properties, which we attempt to rectify here. We characterize runoff rules that are based on scoring rules using two axioms: a weakening of local independence of irrelevant alternatives and a variant of population-consistency. We then show, as our main technical result, that STV is the only runoff scoring rule satisfying an independence-of-clones property. Furthermore, we provide axiomatizations of Baldwin's rule and Coombs' rule.
+ 

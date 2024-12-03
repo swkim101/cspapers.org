@@ -1,0 +1,4 @@
+
+ 
+ We present a new approach to characterizing the semantics for the integration of rules and first-order logic in general, and description logics in particular, based on a circumscription characterization of answer set programming, introduced earlier by Lin and Zhou. We show that both Rosati's semantics based on NM-models and Lukasiewicz's answer set semantics can be characterized by circumscription, and the difference between the two can be seen as a matter of circumscription policies. This approach leads to a number of new insights. First, we rebut a criticism on Lukasiewicz's semantics for its inability to reason for negative consequences. Second, our approach leads to a spectrum of possible semantics based on different circumscription policies, and shows a clear picture of how they are related. Finally, we show that the idea of this paper can be applied to first-order general stable models.
+ 

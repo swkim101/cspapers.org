@@ -1,0 +1,4 @@
+
+ 
+ We present a dynamic branching scheme for set partitioning problems. The idea is to trace features of the underlying MIP model and to base search decisions on the features of the current subproblem to be solved. We show how such a system can be trained efficiently by introducing minimal learning bias that traditional model-based machine learning approaches rely on. Experiments on a highly heterogeneous collection of set partitioning instances show significant gains over dynamic search guidance in Cplex as well as instance-specifically tuned pure search heuristics.
+ 

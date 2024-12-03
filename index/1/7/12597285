@@ -1,0 +1,1 @@
+Addresses the problem of controlling the joints of a flexible joint robot with a state feedback controller and proposes a gradual way of extending such a controller towards feedback linearization. The global asymptotic stability for the state feedback controller with gravity compensation is proven. Experimental results on the DLR light-weight robots validate the method.

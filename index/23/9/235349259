@@ -1,0 +1,7 @@
+Recent theoretical analyses reveal that existing Stochastic Gradient Markov Chain Monte Carlo (SG-MCMC) methods need large mini-batches 
+of samples (exponentially dependent on the dimension) to reduce the mean square error of gradient estimates and ensure non-asymptotic convergence guarantees
+when the target distribution has a nonconvex potential function. 
+In this paper, we propose a novel SG-MCMC algorithm, called Hybrid Stochastic Gradient Hamiltonian Monte Carlo (HSG-HMC) method, which needs merely one sample per iteration and possesses a simple structure with only one hyperparameter.
+Such improvement leverages a hybrid stochastic gradient estimator that exploits historical stochastic gradient information to control the mean square error.
+Theoretical analyses show that our method obtains the best-known overall sample complexity to achieve epsilon-accuracy in terms of the 2-Wasserstein distance for sampling from distributions with nonconvex potential functions.
+Empirical studies on both simulated and real-world datasets demonstrate the advantage of our method.

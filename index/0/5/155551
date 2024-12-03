@@ -1,0 +1,4 @@
+
+ 
+ We study m-transportability, a generalization of transportability, which offers a license to use causal information elicited from experiments and observations in m>=1 source environments to estimate a causal effect in a given targetenvironment. We provide a novel characterization of m-transportability that directly exploits the completeness of do-calculus to obtain the necessary and sufficient conditions for m-transportability. We provide an algorithm for deciding m-transportability that determines whether a causal relation is m-transportable; and if it is, produces a transport formula, that is, a recipe for estimating the desired causal effect by combining experimental information from m source environments with observational information from the target environment.
+ 

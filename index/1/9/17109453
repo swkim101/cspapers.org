@@ -1,0 +1,4 @@
+
+ 
+ Tractable subsets of first-order logic are a central topic in AI research. Several of these formalisms have been used as the basis for first-order probabilistic languages. However, these are intractable, losing the original motivation. Here we propose the first non-trivially tractable first-order probabilistic language. It is a subset of Markov logic, and uses probabilistic class and part hierarchies to control complexity. We call it TML (Tractable Markov Logic). We show that TML knowledge bases allow for efficient inference even when the corresponding graphical models have very high treewidth. We also show how probabilistic inheritance, default reasoning, and other inference patterns can be carried out in TML. TML opens up the prospect of efficient large-scale first-order probabilistic inference.
+ 

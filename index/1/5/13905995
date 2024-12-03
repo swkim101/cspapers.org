@@ -1,0 +1,4 @@
+
+ 
+ Central to robot exploration and mapping is the task of persistent localization in environmental fields characterized by spatially correlated measurements. This paper presents a Gaussian process localization (GP-Localize) algorithm that, in contrast to existing works, can exploit the spatially correlated field measurements taken during a robot's exploration (instead of relying on prior training data) for efficiently and scalably learning the GP observation model online through our proposed novel online sparse GP. As a result, GP-Localize is capable of achieving constant time and memory (i.e., independent of the size of the data) per filtering step, which demonstrates the practical feasibility of using GPs for persistent robot localization and autonomy. Empirical evaluation via simulated experiments with real-world datasets and a real robot experiment shows that GP-Localize outperforms existing GP localization algorithms.
+ 

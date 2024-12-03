@@ -1,0 +1,11 @@
+A procedure is proposed to efficiently generate sets of ground implicates of 
+
+first-order formulas with equality. It is based on a tuning of the superposition
+
+calculus, enriched with rules 
+
+that add new hypotheses on demand during the proof search.
+
+Experimental results are presented, showing that the proposed
+
+approach is more efficient than state-of-the-art systems.

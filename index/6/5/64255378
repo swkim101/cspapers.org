@@ -1,0 +1,9 @@
+The papers in this volume were presented at the 42nd ACM Symposium on Theory of Computing (STOC), held June 6-8, 2010 in Cambridge, Massachusetts, and sponsored by the ACM Special Interest Group on Algorithms and Computation Theory (SIGACT). 
+ 
+The papers at the Symposium were selected by the program committee from among 279 submissions. The committee's initial discussions were carried out electronically, and final decisions were made in a physical meeting of the committee on the Caltech campus on February 1-2. Following a merge of two papers with similar results and methods, the number of papers in the symposium stands at 78. All submissions received careful consideration, but they were not refereed in a formal sense. In addition, due to the page limit, many accepted papers appear in these Proceedings only in abbreviated form. Authors are encouraged to submit full versions of their papers for publication in journals. 
+ 
+The committee selected two papers for a Best Paper Award: "QIP=PSPACE," by Rahul Jain, Zhengfeng Ji, Sarvagya Upadhyay and John Watrous, and "An Improved LP-based Approximation for Steiner Tree," by Jaroslaw Byrka, Fabrizio Grandoni, Thomas Rothvos and Laura Sanita. The committee selected "Augmenting Undirected Node-Connectivity by One" by Laszlo A. Vegh for the Danny Lewin Best Student Paper Award. 
+ 
+The committee invited three leading researchers to present tutorials on the day preceding STOC. Ravindran Kannan spoke on "Spectral Methods for Matrices and Tensors," Michel Talagrand spoke on "Are Many Small Sets Explicitly Small?," and Andrea Montanari spoke on "Message Passing Algorithms: a Success Looking for Theoreticians." A paper associated with each tutorial is included in these Proceedings. 
+ 
+The 10th Knuth Prize was awarded to David S. Johnson for seminal contributions to the theoretical and experimental analysis of combinatorial algorithms. He presented the Knuth Prize Lecture on the afternoon of June 7.

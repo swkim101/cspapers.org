@@ -1,0 +1,5 @@
+Ontology-mediated query answering is a popular paradigm for enriching answers to user queries with background knowledge. 
+For querying the absence of information, however, there exist only few ontology-based approaches. 
+Moreover, these proposals conflate the closed-domain and closed-world assumption, and therefore are not suited to deal with the anonymous objects that are common in ontological reasoning. 
+We propose a new closed-world semantics for answering conjunctive queries with negation over ontologies formulated in the description logic ELH-bottom, based on the minimal canonical model. 
+We propose a rewriting strategy for dealing with negated query atoms, which shows that query answering is possible in polynomial time in data complexity.

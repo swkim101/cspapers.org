@@ -1,0 +1,9 @@
+This session will consist of a panel discussion of courses in DBMS which involve student projects using commercially available database management systems. A list of panelists and a synopsis of their topics follows.
+ John C. Peck, Chairman
+ Clemson University has used IDMS (a network model by Cullinane Database Systems, Inc.) for the last 8 years in the senior level introductory course in database management. Although all three popular models (network, hierarchical, and relational) are covered in the course a team project (3 or 4 member teams) using IDMS in an online environment is assigned to reinforce the ideas central to all three models. The pros and cons of using large mainframes for such a course are discussed.
+ James R. Driscoll
+ The University of Central Florida has undertaken a project to implement fundamental versions of all three popular DBMS models on low-end microcomputer configurations. Dr. Driscoll will discuss the development of RQL (Relational Query Language) and RMS (Relational Menu Systems) which are used at UCF.
+ Pentti A. Honkonen
+ Georgia State University has access to three database management systems for its course in DBMS. Dr. Honkonen will compare the Instructional Information Management System, Univac's DMS/90 and The Relational Information Management Systems (RIMS) as they pertain to instructional use in a university environment.
+ William Shay
+ The University of Wisconsin at Green Bay offers a project-oriented course in DBMS utilizing a CODASYL type DBMS from Xerox called the Extended Data Management System (EDMS). In this course each student designs, loads, and processes against a real database. The nature of the project and the experiences encountered during the past 4 years the course has been taught will be discussed.

@@ -1,0 +1,1 @@
+We describe the implementation of a hidden Markov model state decoding system, a component for a wordspotting speech recognition system. The key specification for this state decoder design is microwatt power dissipation; this requirement led to a continuous-time, analog circuit implementation. We characterize the operation of a 10-word (81 state) state decoder test chip.

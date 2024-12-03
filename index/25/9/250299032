@@ -1,0 +1,7 @@
+Combinatorial optimization problems are ubiquitous for decision making in planning social infrastructures.
+In real-world scenarios, a decision-maker needs to solve his/her problem iteratively until he/she satisfies solutions, but such an iterative process remains challenging.
+This paper studies a new explainable framework, particularly for finding meeting points, which is a key optimization problem for designing facility locations.
+Our framework automatically fills the gap between its input instance and instances from which a user could obtain the desired outcome, where computed solutions are judged by the user.
+The framework also provides users with explanations, representing the difference of instances for deeply understanding the process and its inside.
+Explanations are clues for users to understand their situation and implement suggested results in practice (e.g., designing a coupon for free travel).
+We experimentally demonstrate that our search-based framework is promising to solve instances with generating explanations in a sequential decision-making process.

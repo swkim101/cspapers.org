@@ -1,0 +1,1 @@
+Color-based tracking methods have proved to be efficient for their robustness qualities. The drawback of such global representation of an object is the lack of information on its spatial configuration, making difficult the tracking of more complex motions. This issue can be overcome by using several kernels weighting pixels locations.

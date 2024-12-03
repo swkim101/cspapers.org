@@ -1,0 +1,4 @@
+
+ 
+ We present the concept of Bayesian Tool Affordances as a solution to estimate the suitable action for the given tool to realize the given novel effects to the robot. We define Tool affordances as the “awareness within robot about the different kind of effects it can create in the environment using a tool”. It incorporates understanding the bi-directional association of executed Action, functionally relevant features of the Tool and the resulting effects. We propose Bayesian leaning of Tool Affordances for prediction, inference and planning capabilities while dealing with uncertainty, redundancy and irrelevant information using limited learning samples. The estimation results are presented in this paper to validate the proposed concept of Bayesian Tool Affordances.
+ 

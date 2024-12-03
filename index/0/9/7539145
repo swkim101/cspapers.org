@@ -1,0 +1,7 @@
+The amount of unlabeled linguistic data available to us is much larger and growing much faster than the amount of labeled data. Semi-supervised learning algorithms combine unlabeled data with a small labeled training set to train better models. This tutorial emphasizes practical applications of semisupervised learning; we treat semi-supervised learning methods as tools for building effective models from limited training data. An attendee will leave our tutorial with 
+ 
+1. A basic knowledge of the most common classes of semi-supervised learning algorithms and where they have been used in NLP before. 
+ 
+2. The ability to decide which class will be useful in her research. 
+ 
+3. Suggestions against potential pitfalls in semisupervised learning.

@@ -1,0 +1,4 @@
+
+ 
+ Online advertising allows advertisers to implement fine-tuned targeting of users. While such precise targeting leads to more effective advertising,  it introduces challenging multidimensional pricing and bidding problems for publishers and advertisers. In this context, advertisers and publishers need to deal with an exponential number of possibilities. As a result, designing efficient and compact multidimensional bidding and pricing systems and algorithms are practically important for online advertisement.  Compact bidding languages have already been studied in the context of multiplicative bidding.  In this paper, we study the compact pricing problem.
+ 

@@ -1,0 +1,1 @@
+Many applications require that sensor observations in a given geographic region be aggregated or fused in a serial fashion. This requires a routing path to be constructed through all sensors in that region. This paper investigates efficient network traversal techniques to construct such path using the novel concept of space-filling curves.

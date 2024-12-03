@@ -1,0 +1,1 @@
+In order to plan manipulation of an object by pushing, a robot must have a model of the geometry and the friction properties of the object. This paper presents an approach to estimating the relevant friction parameters by performing experimental pushes and observing the resultant motion. Recognition of objects based on their friction parameters is also explored.

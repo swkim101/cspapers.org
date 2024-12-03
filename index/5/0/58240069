@@ -1,0 +1,1 @@
+This paper presents a method of formally representing and analyzing object-oriented software designs. The framework for formal design analysis uses set notation to represent the design and properties constructed from set operations to analyze the design. The method is implemented via an automated analysis program.

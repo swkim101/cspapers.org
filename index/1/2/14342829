@@ -1,0 +1,4 @@
+
+ 
+ The paper presents an investigation of the use of two alternative forms of CNF formulae—prime implicates and minimal CNF—to compactly represent belief states in the context of conformant planning. For each representation, we define a transition function for computing the successor belief state resulting from the execution of an action in a belief state; results concerning soundness and completeness are provided. The paper describes a system (PIP) which dynamically selects either of these two forms to represent belief states, and an experimental evaluation of PIP against state-of-the-art conformant planners. The results show that PIP has the potential of scaling up better than other planners in problems rich in disjunctive information about the initial state.
+ 

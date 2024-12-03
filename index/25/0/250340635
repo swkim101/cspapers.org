@@ -1,0 +1,6 @@
+
+ Label-specific features work as an effective supervised feature manipulation strategy to account for distinct discriminative properties of each class label in multi-label classification. Existing approaches implement this strategy in its primal form, i.e. finding the most pertinent features specific to each class label and directly inducing classifiers on these features. Instead of such a straightforward implementation, a dual perspective for label-specific feature learning is investigated in this paper. As a dual problem of existing primal one, we consider label-specific discriminative properties by identifying non-informative features for each class label and making the discrimination process immutable to variations of identified features. Accordingly, a perturbation-based approach
+ Dela
+ is presented, which endows classifiers with immutability on simultaneously identified non-informative features by solving a probabilistically-relaxed expected risk minimization problem. Furthermore, we touch the realistic issue of label-specific feature learning in a weakly-supervised scenario via extending
+ Dela
+ to accommodate to multi-label data with missing labels. Comprehensive experiments show that our approach outperforms the state-of-the-art counterparts.

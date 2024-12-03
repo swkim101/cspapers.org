@@ -1,0 +1,4 @@
+
+ 
+ The Angry Birds AI Competition (aibirds.org) has been held annually since 2012 in conjunction with some of the major AI conferences, most recently with IJCAI 2015. The goal of the competition is to build AI agents that can play new Angry Birds levels as good as or better than the best human players. Successful agents should be able to quickly analyze new levels and to predict physical consequences of possible actions in order to select actions that solve a given level with a high score. Agents have no access to the game internal physics, but only receive screenshots of the live game. In this paper we describe why this problem is a challenge for AI, and why it is an important step towards building AI that can successfully interact with the real world. We also summarise some highlights of past competitions, including a new competition track we introduced recently.
+ 

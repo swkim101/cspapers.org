@@ -1,0 +1,3 @@
+A conceptual framework is presented that relates various aspects of fault-tolerance in the context of system structure and architecture. Such a framework is an essential first step for the construction of a taxonomy of fault-tolerance.
+ A design methodology for fault-tolerant systems is used as the means to identify and classify the major aspects of fault-tolerance: system pathology, fault detection and recovery algorithms, and methods of modeling and evaluation.
+ A computing system is described in terms of four universes of observation and interpretation, ordered in the following sequence: physical, logic, information, and interface, or user's. The description is used to present a classification of faults, i.e., the causes of undesired behavior of computing systems.

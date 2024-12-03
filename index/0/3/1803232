@@ -1,0 +1,3 @@
+We study the question of closeness testing for two discrete distributions. More precisely, given samples from two distributions p and q over an n-element set, we wish to distinguish whether p = q versus p is at least e-far from q, in either e1 or e2 distance. Batu et al [BFR+00, BFR+13] gave the first sub-linear time algorithms for these problems, which matched the lower bounds of [Val11] up to a logarithmic factor in n, and a polynomial factor of e. 
+ 
+In this work, we present simple testers for both the e1 and e2 settings, with sample complexity that is information-theoretically optimal, to constant factors, both in the dependence on n, and the dependence on e for the e1 testing problem we establish that the sample complexity is Θ(max{n2/3/e4/3, n1/2/&epsilon2}).

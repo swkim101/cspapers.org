@@ -1,0 +1,28 @@
+In recent years, graph neural network (GNN) based approaches
+have emerged as a powerful technique to encode complex
+topological structure of crystal materials in an enriched repre-
+sentation space. These models are often supervised in nature
+and using the property-specific training data, learn relation-
+ship between crystal structure and different properties like
+formation energy, bandgap, bulk modulus, etc. Most of these
+methods require a huge amount of property-tagged data to
+train the system which may not be available for different prop-
+erties. However, there is an availability of a huge amount
+of crystal data with its chemical composition and structural
+bonds. To leverage these untapped data, this paper presents
+CrysGNN, a new pre-trained GNN framework for crystalline
+materials, which captures both node and graph level structural
+information of crystal graphs using a huge amount of unla-
+belled material data. Further, we extract distilled knowledge
+from CrysGNN and inject into different state of the art prop-
+erty predictors to enhance their property prediction accuracy.
+We conduct extensive experiments to show that with distilled
+knowledge from the pre-trained model, all the SOTA algo-
+rithms are able to outperform their own vanilla version with
+good margins. We also observe that the distillation process
+provides significant improvement over the conventional ap-
+proach of finetuning the pre-trained model. We will release the
+pre-trained model along with the large dataset of 800K crys-
+tal graph which we carefully curated; so that the pre-trained
+model can be plugged into any existing and upcoming models
+to enhance their prediction accuracy.

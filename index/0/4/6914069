@@ -1,0 +1,1 @@
+This paper discusses differences in the semantics of various semaphore implementations and their ramifications in developing solutions to synchronization problems. An approach is described to insulate students from these differences and simplify the task of teaching semaphores.

@@ -1,0 +1,3 @@
+Real-time news and social media quickly reflect large-scale phenomena and events. As users become exposed to this information, time plays a central role in prompting both information authorship and seeking activities.
+ The objective of this research is to develop a retrieval system which can anticipate a user's likely temporal intent(s), considering recent or ongoing real-world events. Such a system should not only provide recent news when relevant, but also higher rank non-timestamped or even older documents which are temporally pertinent as they cover aspects related to recent event topics.
+ Key challenges to be addressed in this work include: a suitable source and method for event detection and tracking, an intent-aware ranking approach and an evaluation methodology.

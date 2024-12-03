@@ -1,0 +1,7 @@
+This volume contains the proceedings of the Twenty-Seventh ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems (PODS 2008), held in Vancouver, Canada, on June 9-11, 2008, in conjunction with the 2008 ACM SIGMOD International Conference on Management of Data. 
+ 
+The proceedings include one paper based on the keynote address by Peter Buneman, two papers based on the invited tutorials by Mikolaj Bojanczyk and Wenfei Fan, and 28 contributed papers that were selected by the Program Committee from 159 submissions. Most of these papers are preliminary reports on work in progress. While they have been read by program committee members, they have not been formally refereed. Many of them will probably appear in more polished and detailed form in scientific journals. 
+ 
+The program committee selected the paper "Estimating PageRank on Graph Streams" by Atish Das Sarma, Sreenivas Gollapudi and Rina Panigrahy for the PODS 2008 Best Paper Award, and the paper "Evaluating Rank Joins with Optimal Cost" by Karl Schnaitter and Neoklis Polyzotis for the PODS 2008 Best Newcomer Award. Warmest congratulations to the authors of these papers. 
+ 
+I thank all authors who submitted papers to the symposium, and the members of the program committee for the enormous amount of work they have done. The program committee did not meet in person, but carried out extensive discussions during the electronic PC meeting.

@@ -1,0 +1,4 @@
+
+ 
+ Simultaneous optimistic optimization (SOO) is a recently proposed global optimization method with a strong theoretical foundation. Previous studies have shown that SOO has a good performance in low-dimensional optimization problems, however, its performance is unsatisfactory when the dimensionality is high. This paper adapts random embedding to scaling SOO, resulting in the RESOO algorithm. We prove that the simple regret of RESOO depends only on the effective dimension of the problem, while that of SOO depends on the dimension of the solution space. Empirically, on some high-dimensional non-convex testing functions as well as hyper-parameter tuning tasks for multi-class support vector machines, RESOO shows significantly improved performance from SOO.
+ 

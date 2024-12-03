@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we improve the previously best known regret  bound to achieve ε-differential privacy in oblivious adversarial  bandits from O(T2/3 /ε) to O(√T lnT/ε). This is achieved  by combining a Laplace Mechanism with EXP3. We show that though EXP3 is already differentially private, it leaks a linear  amount of information in T. However, we can improve this  privacy by relying on its intrinsic exponential mechanism for selecting actions. This allows us to reach O(√ ln T)-DP, with a a regret of O(T2/3) that holds against an adaptive adversary, an improvement from the best known of O(T3/4). This is done by using an algorithm that run EXP3 in a mini-batch loop. Finally, we run experiments that clearly demonstrate the validity of our theoretical analysis.
+ 

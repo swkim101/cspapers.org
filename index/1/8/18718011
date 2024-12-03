@@ -1,0 +1,1 @@
+Since most real-world applications of classification learning involve continuous-valued attributes, properly addressing the discretization process is an important problem. This paper addresses the use of the entropy minimization heuristic for discretizing the range of a continuous-valued attribute into multiple intervals.

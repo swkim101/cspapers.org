@@ -1,0 +1,4 @@
+
+ 
+ We consider settings where a collective intelligence is formed by aggregating information contributed from many independent agents, such as product reviews, community sensing, or opinion polls. We propose a novel mechanism that elicits both private signals and beliefs. The mechanism extends the previous versions of the Bayesian Truth Serum (the original BTS, the RBTS, and the multi-valued BTS), by allowing small populations and non-binary private signals, while not requiring additional assumptions on the belief updating process. For priors that are sufficiently smooth, such as Gaussians, the mechanism allows signals to be continuous.
+ 

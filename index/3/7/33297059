@@ -1,0 +1,1 @@
+This panel discusses how polling in the HTTPd protocol affects how we are building the next generation of the web and its applications. As other technologies (HTML, Javascript, etc.) move forward, we ask should the web's protocol also evolve or is it sufficient for the web to continue through just GET and POST?

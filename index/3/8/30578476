@@ -1,0 +1,3 @@
+Our objective is to show clearly the interdependance between the study of data and the study of transactions in information systems design. We have used Codd's model to describe the data and obtain their possible partitionings, and we have adapted Petri's model to model the transactions. 
+ 
+We have shown how the parallelism of the transactions depends on the partitioning of the data and how one partitioning allows more parallelism than another.

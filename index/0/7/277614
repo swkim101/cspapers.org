@@ -1,0 +1,1 @@
+We propose the RADAR technique for multirelational data mining. This permits the mining of very large collections and provides a technique for discovering multirelational associations. Results show that RADAR is reliable and scalable for mining a large yeast homology collection, and that it does not have the main-memory scalability constraints of the Farmer and Warmr tools.

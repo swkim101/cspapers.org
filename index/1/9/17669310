@@ -1,0 +1,4 @@
+
+ 
+ Our paper is actually two contributions in one. First, we argue that IBM's Jeopardy! playing machine needs a formal semantics. We present several arguments as we discuss the system. We also situate the work in the broader context of contemporary AI. Our second point is that the work in this area might well be done as a broad collaborative project. Hence our "Blue Sky'' contribution is a proposal to organize a polymath-style effort aimed at developing formal tools for the study of state of the art question-answer systems, and other large scale NLP efforts whose architectures and algorithms lack a theoretical foundation.
+ 

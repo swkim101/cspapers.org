@@ -1,0 +1,4 @@
+
+ 
+ We consider a budgeted variant of the problem of learning from expert advice with N experts. Each queried expert incurs a cost and there is a given budget B on the total cost of experts that can be queried in any prediction round. We provide an online learning algorithm for this setting with regret after T prediction rounds bounded by O(sqrt(C log(N)T/B)), where C is the total cost of all experts. We complement this upper bound with a nearly matching lower bound Omega(sqrt(CT/B)) on the regret of any algorithm for this problem. We also provide experimental validation of our algorithm.
+ 

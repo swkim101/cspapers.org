@@ -1,0 +1,4 @@
+
+ 
+ Building bilingual lexica from non-parallel data is a long-standing natural language processing research problem that could benefit thousands of resource-scarce languages which lack parallel data. Recent advances of continuous word representations have opened up new possibilities for this task, e.g. by establishing cross-lingual mapping between word embeddings via a seed lexicon. The method is however unreliable when there are only a limited number of seeds, which is a reasonable setting for resource-scarce languages. We tackle the limitation by introducing a novel matching mechanism into bilingual word representation learning. It captures extra translation pairs exposed by the seeds to incrementally improve the bilingual word embeddings. In our experiments, we find the matching mechanism to substantially improve the quality of the bilingual vector space, which in turn allows us to induce better bilingual lexica with seeds as few as 10.
+ 

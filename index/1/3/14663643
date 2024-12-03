@@ -1,0 +1,4 @@
+
+ 
+ An important problem in analyzing complex networks is discovery of modular or community structures embedded in the networks. Although being promising for identifying network communities, the popular stochastic models often do not preserve node degrees, thus reducing their representation power and applicability to real-world networks. Here we address this critical problem. Instead of using a blockmodel, we adopted a random-graph null model to faithfully capture community structures by preserving in the model the expected node degrees. The new model, learned using nonnegative matrix factorization, is more accurate and robust in representing community structures than the existing methods. Our results from extensive experiments on synthetic benchmarks and real-world networks show the superior performance of the new method over the existing methods in detecting both disjoint and overlapping communities.
+ 

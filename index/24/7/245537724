@@ -1,0 +1,8 @@
+Semi-supervised learning is a challenging problem which aims to construct a model by learning from limited labeled examples.
+Numerous methods for this task focus on utilizing the predictions of unlabeled instances consistency alone to regularize networks.
+However, treating labeled and unlabeled data separately often leads to the discarding of mass prior knowledge learned from the labeled examples. 
+In this paper, we propose a novel method for semi-supervised semantic segmentation named GuidedMix-Net, by leveraging labeled information to guide the learning of unlabeled instances.
+Specifically, GuidedMix-Net employs three operations: 1) interpolation of similar labeled-unlabeled image pairs; 2) transfer of mutual information; 3) generalization of pseudo masks.
+It enables segmentation models can learning the higher-quality pseudo masks of unlabeled data by transfer the knowledge from labeled samples to unlabeled data.
+Along with supervised learning for labeled data, the prediction of unlabeled data is jointly learned with the generated pseudo masks from the mixed data. 
+Extensive experiments on PASCAL VOC 2012, and Cityscapes demonstrate the effectiveness of our GuidedMix-Net, which achieves competitive segmentation accuracy and significantly improves the mIoU over 7$\%$ compared to previous approaches.

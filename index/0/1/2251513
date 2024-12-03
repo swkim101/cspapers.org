@@ -1,0 +1,1 @@
+Semiparametric models are useful tools in the case where domain knowledge exists about the function to be estimated or emphasis is put onto understandability of the model. We extend two learning algorithms - Support Vector machines and Linear Programming machines to this case and give experimental results for SV machines.

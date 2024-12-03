@@ -1,0 +1,4 @@
+
+ 
+ We rethink the link prediction problem in signed social networks by also considering "no-relation" as a future status of a node pair, rather than simply distinguishing positive and negative links proposed in the literature. To understand the underlying mechanism of link formation in signed networks, we propose a feature framework on the basis of a thorough exploration of potential features for the newly identified problem. Grounded on the framework, we also design a trinary classification model, and experimental results show that our method outperforms the state-of-the-art approaches.
+ 

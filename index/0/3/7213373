@@ -1,0 +1,4 @@
+
+ 
+ This paper is devoted to sequential decision making with Rank Dependent expected Utility (RDU). This decision criterion generalizes Expected Utility and enables to model a wider range of observed (rational) behaviors. In such a sequential decision setting, two conflicting objectives can be identified in the assessment of a strategy: maximizing the performance viewed from the initial state (optimality), and minimizing the incentive to deviate during implementation (deviation-proofness). In this paper, we propose a minimax regret approach taking these two aspects into account, and we provide a search procedure to determine an optimal strategy for this model. Numerical results are presented to show the interest of the proposed approach in terms of optimality, deviation-proofness and computability.
+ 

@@ -1,0 +1,6 @@
+We present an inference engine that can be used for creating Programming By Demonstration systems. The class of systems addressed are those which infer a state change description from examples of state [9, 11].
+The engine can easily be incorporated into an existing design environment that provides an interactive object editor.
+The main design goals of the inference engine are responsiveness and generality. All demonstrational systems must respond quickly because of their interactive use. They should also be general—they should be able to make inferences for any attribute that the user may want to define by demonstration, and they should be able to treat any other attributes as parameters of this definition.
+The first goal, responsiveness, is best accommodated by limiting the number of attributes that the inference engine takes into consideration. This, however, is in obvious conflict with the second goal, generality.
+This conflict is intrinsic to the class of demonstrational system described above. The challenge is to find an algorithm which responds quickly but does not heuristically limit the number of attributes it looks at. We present such an algorithm in this paper.
+A companion paper describes Inference Bear [4], an actual demonstrational system that we have built using this inference engine and an existing user interface builder [5].

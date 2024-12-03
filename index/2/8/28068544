@@ -1,0 +1,1 @@
+This paper presents a hierarchical problem-solving method which searches some applicable transformation rules to the precondition of the problem at various abstract levels using a treelike address table and finds a global solving policy which reduces the difference between the current state and the goal. The frame of the problem is chosen from the field of elementary algebra.

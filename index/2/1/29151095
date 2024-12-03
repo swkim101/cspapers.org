@@ -1,0 +1,4 @@
+
+ 
+ Learning fast and efficiently using minimal data has been consistently a challenge in machine learning. In my thesis, I explore this problem for knowledge transfer for multi-agent multi-task learning in a life-long learning paradigm. My goal is to demonstrate that by sharing knowledge between agents and similar tasks, efficient algorithms can be designed that can increase the speed of learning as well as improve performance. Moreover, this would allow for handling hard tasks through collective learning of multiple agents that share knowledge. As an initial step, I study the problem of incorporating task descriptors into lifelong learning of related tasks to perform zero-shot knowledge transfer. Zero-shot learning is highly desirable because it leads to considerable speedup in handling similar sequential tasks. Then I focus on a multi-agent learning setting, where related tasks are learned collectively and/or address privacy concerns.
+ 

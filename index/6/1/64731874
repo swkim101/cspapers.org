@@ -1,0 +1,19 @@
+The workshop addresses the use of formal methods in software development practice. Formal methods differ from many software engineering techniques in that they demand and exploit a mathematically rigorous semantic basis for the tools and notations used. Such sound foundations permit the analysis of software engineering artifacts to a depth, and with a degree of automation, that is otherwise impossible to achieve. 
+ 
+Ample studies show that formal techniques can be used in industrial settings, given careful and tool-supported application. However, the maturing of formal techniques into real-life software engineering involves providing notations and tools that are readily understood and used by practitioners, and the integration of such tools with activities that are far from the unrealistic assumptions that characterized some earlier research in formal methods. Examples include deployment of formal methods in conjunction with structured requirements analysis and modeling, programming practices, test technology, aspect-oriented techniques and agile development practices. Areas of interest for the workshop therefore include but are not limited to: 
+ 
+•Formal methods in the context of agile approaches 
+ 
+•Formal Methods in requirement elicitation and analysis 
+ 
+•Formal specification and design 
+ 
+•Formal Methods in testing, re-engineering and reuse 
+ 
+•Formal Methods in software verification 
+ 
+•Formal Methods in a Certification Context 
+ 
+•Model-based development 
+ 
+•Light-weight formal method

@@ -1,0 +1,1 @@
+The deletion channel takes as input a bit string x &#x220A; {0,1}^n, and deletes each bit independently with probability q, yielding a shorter string. The trace reconstruction problem is to recover an unknown string x &#x220A; from many independent outputs (called traces) of the deletion channel applied to x.We show that if x is drawn uniformly at random and q

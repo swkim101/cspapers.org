@@ -1,0 +1,8 @@
+The computer organization and assembly language course is part of most of computer science undergraduate curricula. With the advance of microcomputers into small business and engineering firms even management information systems and engineering majors are enrolling in this course. The work described here began in 1978 to upgrade this sophomore course in computer fundamentals. The goal was to make the small computer an integral part of the course's laboratory.
+ The task was to create a laboratory providing hands-on computing to reinforce concepts in the areas of
+ 1. computer organization, assembly language programming, and architecture;
+ 2. computer operation;
+ 3. hardware/software interfaces; and
+ 4. operating systems.
+ To accomplish these goals, the three phases of the project were in hardware, software, and curriculum development.
+ Before the project began, the course reflected the outline of curriculum course B2 [1]. The topics covered included the assembly process with one and two pass assemblers; the use of absolute and linking loaders; computer architectural details of register, memory, and CPU organization; addressing schemes; and input/output programming. Although these topics are satisfactory, our methods of teaching them were not. We used the University's main computer, the Xerox Sigma 7, for the laboratory portion of the course. The Sigma 7's operating system shielded the student from the computer architecture. The system posed difficulties of varying degrees in the presentation of most of the topics and prevented any real understanding of input/output programming. Attempts to simulate input/output for the students met with unenthusiastic responses.

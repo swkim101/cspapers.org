@@ -1,0 +1,1 @@
+In this paper we present Alligator, a Web system for distributed visual programming. Based on a client-server extensible modular architecture, its purpose is to allow people without any particular computer skills to build their own applications, by connecting to a Web site and visually composing data-flow programs.

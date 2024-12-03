@@ -1,0 +1,3 @@
+A number of data base management systems (DBMS) are now in operation in industry, government and the academic world. However, since most of these DBMSs have different conceptual and internal mo- dels, they cannot interact and exchange information in a network environment. 
+ 
+This report discusses some of the problems and provides a methodology for communicating and exchanging information between hetrogeneous models of data or DBMSs that are commercially available.

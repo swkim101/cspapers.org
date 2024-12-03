@@ -1,0 +1,1 @@
+Dynamic objects such as liquids, waves, and flames can easily change their position, shape, and number. Snapshot images produced by finite element simulators show these changes, hut lack an explicit representation of the objects and their causes. For the example of seismic waves, we develop a method for interpreting snapshots which is based on Hayes concept of a history.

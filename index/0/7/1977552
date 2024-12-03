@@ -1,0 +1,4 @@
+
+ 
+ This paper presents a framework for relevance-based belief change in propositional Horn logic. We firstly establish a parallel interpolation theorem for Horn logic and show that Parikh's Finest Splitting Theorem holds with Horn formulae. By reformulating Parikh's relevance criterion in the setting of Horn belief change, we construct a relevance-based partial meet Horn contraction operator and provide a representation theorem for the operator. Interestingly, we find that this contraction operator can be fully characterised by Delgrande and Wassermann's postulates for partial meet Horn contraction as well as Parikh's relevance postulate without requiring any change on the postulates, which is qualitatively different from the case in classical propositional logic.
+ 

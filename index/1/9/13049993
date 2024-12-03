@@ -1,0 +1,1 @@
+In this paper, we proposed a new physical simulation method that can model non-convex configuration space. The new method employs a novel contact model that take into account geometry information of objects. It can also be shown that it reduces the work for collision detection routines.

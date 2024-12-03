@@ -1,0 +1,1 @@
+We show how to construct a O(fi)-separator decomposition of a planar graph in O(n) time, and how to triangulate a simple polygon deterministically in parallel in O(log n) time using O(n/ log n) processors on a CRCW PRAM. Both of these results are based on exploiting more of the “tree structure” of these problems.

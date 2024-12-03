@@ -1,0 +1,4 @@
+
+ 
+ We investigate an extension of Description Logics (DL) with higher-order capabilities, based on Henkin-style semantics. Our study starts from the observation that the various possibilities of adding higher-order con- structs to a DL form a spectrum of increasing expres- sive power, including domain metamodeling, i.e., using concepts and roles as predicate arguments. We argue that higher-order features of this type are sufficiently rich and powerful for the modeling requirements aris- ing in many relevant situations, and therefore we carry out an investigation of the computational complexity of satisfiability and conjunctive query answering in DLs extended with such higher-order features. In particular, we show that adding domain metamodeling capabilities to SHIQ (the core of OWL 2) has no impact on the complexity of the various reasoning tasks. This is also true for DL-LiteR (the core of OWL 2 QL) under suit- able restrictions on the queries.
+ 

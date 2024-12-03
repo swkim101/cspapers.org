@@ -1,0 +1,4 @@
+
+ 
+ In binary aggregation, each member of a group expresses yes/no choices regarding several correlated issues and we need to decide on a collective choice that accurately reflects the views of the group. A good collective choice will minimise the distance to each of the individual choices, but using such a distance-based aggregation rule is computationally intractable. Instead, we explore a class of low-complexity aggregation rules that select the most representative voter in any given situation and return that voter's choice as the outcome.
+ 

@@ -1,0 +1,1 @@
+We describe SAMOS, an active object-oriented database management system prototype. SAMOS offers a powerful rule definition language, including a small yet powerful set of event definition facilities. It is able to detect primitive and composite events automatically and efficiently. Upon event detection, SAMOS executes rules attached to the occurred events.

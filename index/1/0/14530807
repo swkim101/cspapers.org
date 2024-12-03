@@ -1,0 +1,4 @@
+
+ 
+ We study the problem of instance alignment between knowledge bases (KBs). Existing approaches, exploiting the “symmetry” of structure and information across KBs, suffer in the presence of asymmetry, which is frequent as KBs are independently built. Specifically, we observe three types of asymmetries (in concepts, in features, and in structures). Our goal is to identify key techniques to reduce accuracy loss caused by each type of asymmetry, then design Asymmetry-Resistant Instance Alignment framework (ARIA). ARIA uses two-phased blocking methods considering concept and feature asymmetries, with a novel similarity measure overcoming structure asymmetry. Compared to a state-of-the-art method, ARIA increased precision by 19% and recall by 2%, and decreased processing time by more than 80% in matching large-scale real-life KBs.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Consistency properties and algorithms for achieving them are at the heart of the success of Constraint Programming. In this paper, we study the relational consistency property R(*,m)C, which is equivalent to m-wise consistency proposed in relational databases. We also define wR(*,m)C, a weaker variant of this property. We propose an algorithm for enforcing these properties on a Constraint Satisfaction Problem by tightening the existing relations and without introducing new ones. We empirically show that wR(*,m)C solves in a backtrack-free manner all the instances of some CSP benchmark classes, thus hinting at the tractability of those classes.
+ 

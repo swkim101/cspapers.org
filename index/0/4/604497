@@ -1,0 +1,1 @@
+We study the cover time of a random walk on graphs G ∈ Gn,p when $p={c\log n \over n}, c>1$. We prove that whp, the cover time, is asymptotic to $c\log({c \over c-1})n\log n$. © 2006 Wiley Periodicals, Inc. Random Struct. Alg., 2007

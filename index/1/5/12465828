@@ -1,0 +1,4 @@
+
+ 
+ We perform online interactive recommendation via a factorization-based bandit algorithm. Low-rank matrix completion is performed over an incrementally constructed user-item preference matrix, where an upper confidence bound based item selection strategy is developed to balance the exploit/explore trade-off during online learning. Observable contextual features and dependency among users (e.g., social influence) are leveraged to improve the algorithm's convergence rate and help conquer cold-start in recommendation. A high probability sublinear upper regret bound is proved for the developed algorithm, where considerable regret reduction is achieved on both user and item sides. Extensive experimentations on both simulations and large-scale real-world datasets confirmed the advantages of the proposed algorithm compared with several state-of-the-art factorization-based and bandit-based collaborative filtering methods.
+ 

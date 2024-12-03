@@ -1,0 +1,4 @@
+
+ 
+ Epistemic extensions of description logics (DLs) have been introduced several years ago in order to enhance expressivity and querying capabilities of these logics by knowledge base introspection. We argue that unintended effects occur when imposing the traditionally employed semantics on the very expressive DLs that underly the OWL 1 and OWL 2 standards. Consequently, we suggest a revised semantics that behaves more intuitively in these cases and coincides with the traditional semantics of less expressive DLs. Moreover, we introduce a way of answering epistemic queries to OWL knowledge bases by a reduction to standard OWL reasoning. We provide an implementation of our approach and present first evaluation results.
+ 

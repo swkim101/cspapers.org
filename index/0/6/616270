@@ -1,0 +1,4 @@
+This paper describes a set of computer programs written to aid in the design, documentation, manufacture, and test of electronic hardware. The programs discussed are limited to the areas involved with the problem of wiring interconnection. While it can be said that there are over 10 different levels or types of wiring interconnection, these programs primarily concern the most common three:
+ 1. Interconnection of circuit cards or other modules on a chassis
+ 2. Interconnection of chassis within an electronic unit
+ 3. Interconnection of units within a complex.

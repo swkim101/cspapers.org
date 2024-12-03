@@ -1,0 +1,5 @@
+We analyze the popular push-pull protocol for spreading a rumor in networks. Initially, a single node knows of a rumor. In each succeeding round, every node chooses a random neighbor, and the two nodes share the rumor if one of them is already aware of it. We present the first theoretical analysis of this protocol on random graphs that have a power law degree distribution with an arbitrary exponent β > 2. 
+ 
+Our main findings reveal a striking dichotomy in the performance of the protocol that depends on the exponent of the power law. More specifically, we show that if 2 3, then Ω(log n) rounds are necessary. 
+ 
+We also investigate the asynchronous version of the push-pull protocol, where the nodes do not operate in rounds, but exchange information according to a Poisson process with rate 1. Surprisingly, we are able to show that, if 2 < β < 3, the rumor spreads even in constant time, which is much smaller than the typical distance of two nodes. To the best of our knowledge, this is the first result that establishes a gap between the synchronous and the asynchronous protocol.

@@ -1,0 +1,6 @@
+In 1968 we described an experimental multitasking monitor for the IBM 1130 system.(1) In 1970 we described a logic design and analysis application using the multitask monitor as a base.(2) This application supports interactive graphic design on the IBM 1130/2250 system. The emphasis in both of these papers was placed on what we had done. This paper will instead attempt to answer the question “how was it done?”.
+ The system consists of three major subsystems which interact to achieve a common goal. These groups are:
+ •The development group. These are the people who will design and implement the tool.
+ •The user group. These are the people who will directly use the tool to design and analyze computer components (or other product) and who require computer-aid (whether they know it or not).
+ •The third (and most often overlooked) group are the users of the system's output. These people are the assembly technician, production control specialist, quality inspector, manufacturing engineer, or other party who uses the system generated data in his day-to-day work.
+ Traditionally the design automation process has been tailored to satisfy the needs of the second group. It is our feeling that if design automation is to be useful it must address the needs of the data consumers as well as the data generators.

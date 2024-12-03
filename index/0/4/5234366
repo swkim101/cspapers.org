@@ -1,0 +1,4 @@
+
+ 
+ We consider the problem of fairly dividing a heterogeneous divisible good among agents with different preferences. Previous work has shown that envy-free allocations, i.e., where each agent prefers its own allocation to any other, may not be efficient, in the sense of maximizing the total value of the agents. Our goal is to pinpoint the most efficient allocations among all envy-free allocations. We provide tractable algorithms for doing so under different assumptions regarding the preferences of the agents.
+ 

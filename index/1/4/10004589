@@ -1,0 +1,4 @@
+
+ 
+ Pronoun resolution and common noun phrase resolution are the two most challenging subtasks of coreference resolution. While a lot of work has focused on pronoun resolution, common noun phrase resolution has almost always been tackled in the context of the larger coreference resolution task. In fact, to our knowledge, there has been no attempt to address Chinese common noun phrase resolution as a standalone task. In this paper, we propose a generative model for unsupervised Chinese common noun phrase resolution that not only allows easy incorporation of linguistic constraints on coreference but also performs joint resolution and anaphoricity determination. When evaluated on the Chinese portion of the OntoNotes 5.0 corpus, our model rivals its supervised counterpart in performance.
+ 

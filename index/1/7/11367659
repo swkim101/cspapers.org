@@ -1,0 +1,5 @@
+In this paper, we show how to use common knowledge computationally in solving problems involving cooperation of multiple agents, when common knowledge is available. We will explain why a procedural approach to common knowledge is better suited to solving multiple-agent problems than a static one. 
+ 
+We show, even if one can never prove that common knowledge has been attained ([Halpern and Moses, 1990]), that assuming it has been attained is often safe and efficacious. The ability to detect fairly reliably when certain conditions are not met suffices as a guideline for when to assume something is common knowledge. In principle, the problem of when one has individual knowledge is about as difficult. 
+ 
+We use the situation oriented programming language PROSIT. By combining reasoning about situations and in situations, PROSIT makes possible an especially intuitive and simple solution of hypothetical reasoning problems involving common knowledge ([Nakashima and Tutiya, 1991]).

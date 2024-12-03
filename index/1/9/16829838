@@ -1,0 +1,1 @@
+We consider the quadratic complexity of certain sets of quadratic forms. We study a classes of direct sums of quadratic forms. For these classes of problems we show that the complexity of one direct sum is the sum of the complexity of the summands and that every minimal quadratic algorithm for computing the direct sums is a direct-sum algorithm.

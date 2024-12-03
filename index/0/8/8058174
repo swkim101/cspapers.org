@@ -1,0 +1,4 @@
+
+ 
+ We introduce an approach to learning from imbalanced class distributions that does not change the underlying data distribution. The ICC algorithm decomposes majority classes into smaller sub-classes that create a more balanced class distribution. In this paper, we explain how ICC can not only addressthe class imbalance problem but may also increase the expressive power of the hypothesis space. We validate ICC and analyze alternative decomposition methods on well-known machine learning datasets as well as new problems in pervasive computing. Our results indicate that ICC performs as well or better than existing approaches to handling class imbalance.
+ 

@@ -1,0 +1,5 @@
+One of the more controversial recent planning algorithms is the SHOP algorithm, an HTN planning algorithm that plans for tasks in the same order that they are to be executed. SHOP can use domaindependent knowledge to generate plans very quickly, but it can be difficult to write good knowledge bases for SHOP. 
+ 
+Our hypothesis is that this difficulty is because SHOP's total-ordering requirement for the subtasks of its methods is more restrictive than it needs to be. To examine this hypothesis, we have developed a new HTN planning algorithm called SHOP2. Like SHOP, SHOP2 is sound and complete, and it constructs plans in the same order that they will later be executed. But unlike SHOP, SHOP2 allows the subtasks of each method to be partially ordered. 
+ 
+Our experimental results suggest that in some problem domains, the difficulty of writing SHOP knowledge bases derives from SHOP's total-ordering requirement--and that in such cases, SHOP2 can plan as efficiently as SHOP using knowledge bases simpler than those needed by SHOP.

@@ -1,0 +1,1 @@
+A probabilistic program often gives rise to a complicated underlying probabilistic model. Performing inference in such a model is challenging. One solution to this problem is lifted inference which improves tractability by exploiting symmetries in the underlying model. Our group is pursuing a lifted approach to inference for probabilistic logic programs.

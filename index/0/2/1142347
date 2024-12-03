@@ -1,0 +1,4 @@
+
+ 
+ Most frameworks for utility elicitation assume a predefined set of features over which user preferences are expressed. We consider utility elicitation in the presence of subjective or user-defined features, whose definitions are not known in advance. We treat the problem of learning a user's feature definition as one of concept learning, but whose goal is to learn only enough about the concept definition to enable a good decision to be made. This is complicated by the fact that user utility is unknown. We describe computational procedures for identifying optimal alternatives w.r.t minimax regret in the presence of both utility and concept uncertainty; and develop several heuristic query strategies that focus simultaneously on reduction of relevant concept and utility uncertainty.
+ 

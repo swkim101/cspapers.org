@@ -1,0 +1,1 @@
+We design several supervised methods of training term weights for improving results of question-knowledge matching task on a chatbot system-AliMe. Considering demand of high QPS (Query Per Second), we take a traditional regression model as the matching model rather than deep models.

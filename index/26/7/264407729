@@ -1,0 +1,12 @@
+Abstract
+ We use the concept of pointed pseudo-triangulations to establish new
+ upper and lower bounds on a well known problem from the area of art
+ galleries: What is the worst case optimal number of vertex
+ π-guards that collectively monitor a simple polygon with n
+ vertices? Our results are as follows:
+ (1) Any simple polygon with n vertices can be monitored by at
+ most \lfloor n/2 \rfloor general vertex π-guards. This
+ bound is tight up to an additive constant of 1. (2) Any simple polygon with n vertices, k of which are convex,
+ can be monitored by at most \lfloor (2n – k)/3 \rfloor edge-aligned vertexπ-guards. This is the first non-trivial
+ upper bound for this problem and it is tight for the worst case
+ families of polygons known so far.

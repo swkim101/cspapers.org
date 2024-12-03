@@ -1,0 +1,4 @@
+
+ 
+ Topic modeling techniques have the benefits of modeling words and documents uniformly under a probabilistic framework. However, they also suffer from the limitations of sensitivity to initialization and unigram topic distribution, which can be remedied by deep learning techniques. To explore the combination of topic modeling and deep learning techniques, we first explain the standard topic modelfrom the perspective of a neural network. Based on this, we propose a novel neural topic model (NTM) where the representation of words and documents are efficiently and naturally combined into a uniform framework. Extending from NTM, we can easily add a label layer and propose the supervised neural topic model (sNTM) to tackle supervised tasks. Experiments show that our models are competitive in both topic discovery and classification/regression tasks.
+ 

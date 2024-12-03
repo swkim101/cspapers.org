@@ -1,0 +1,2 @@
+In this paper a CMOS memory access controller chip is described that provides the basis for achieving high-performance 68020-based (68030-based) systems. This controller matches the speed of the memory system to that of the microprocessor by providing a virtual cache mechanism where address translations are only required when there is a cache miss.
+This mechanism also facilitates the construction of shared-memory multiprocessor system where the controller manages a memory hierarchy consisting of cache memory, local memory, and shared global memory.

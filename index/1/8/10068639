@@ -1,0 +1,4 @@
+
+ 
+ Fully observable decision-theoretic planning problems are commonly modeled as stochastic shortest path (SSP) problems. For this class of planning problems, heuristic search algorithms (including LAO*, RTDP, and related algorithms), as well as the value iteration algorithm on which they are based, lack an efficient test for convergence to an ε-optimal policy (except in the special case of discounting). We introduce a simple and efficient test for convergence that applies to SSP problems with positive action costs. The test can detect whether a policy is proper, that is, whether it achieves the goal state with probability 1. If proper, it gives error bounds that can be used to detect convergence to an ε-optimal solution. The convergence test incurs no extra overhead besides computing the Bellman residual, and the performance guarantee it provides substantially improves the utility of this class of planning algorithms.
+ 

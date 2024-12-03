@@ -1,0 +1,4 @@
+
+ 
+ Automatic generation of 3D scenes from descriptions has applications in communication, education, and entertainment, but requires deep understanding of the input text. I propose thesis work on language understanding using graph-based meaning representations that can be decomposed into primitive spatial relations. The techniques used for analyzing text and transforming it into a scene representation are based on context-free graph grammars. The thesis develops methods for semantic parsing with graphs, acquisition of graph grammars, and satisfaction of spatial and world-knowledge constraints during parsing.
+ 

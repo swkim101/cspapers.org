@@ -1,0 +1,1 @@
+Bayesian methods suffer from the problem of how to specify prior beliefs. One interesting idea is to consider worst-case priors. This requires solving a stochastic zero-sum game. In this paper, we extend well-known results from bandit theory in order to discover minimax-Bayes policies and discuss when they are practical.

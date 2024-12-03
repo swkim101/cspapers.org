@@ -1,0 +1,1 @@
+This paper is divided into two parts. The first section motivates the application of finite-state parsing techniques at the phonetic level in order to exploit certain classes of contextual constraints. In the second section, the parsing framework is extended in order to account for 'feature spreading' (e.g., agreement and co-articulation) in a natural way.

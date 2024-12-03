@@ -1,0 +1,1 @@
+This research focuses on improving the robustness of machine learning systems to natural variations and distribution shifts. A design trade space is presented, and various methods are compared, including adversarial training, data augmentation techniques, and novel approaches inspired by model-based robust optimization formulations.

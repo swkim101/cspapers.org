@@ -1,0 +1,4 @@
+We present a tool for helping XML schema designers to obtain a high quality level for their specifications.
+ The tool allows one to analyze relations between classes of XML documents and formally prove them. For instance, the tool can be used to check forward and backward compatibilities of recommendations. When such a relation does not hold, the tool allows one to identify the reasons and reports detailed counter-examples that exemplify the problem.
+ For this purpose, the tool relies on recent advances in logic-based automated theorem proving techniques that allow for efficient reasoning on very large sets of XML documents.
+ We believe this tool can be of great value for standardization bodies that define specifications using various XML type definition languages (such as W3C specifications), and are concerned with quality assurance for their normative recommendations.

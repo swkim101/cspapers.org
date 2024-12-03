@@ -1,0 +1,1 @@
+We describe a randomized variant of the simplex algcrrithm. The expected number of arithmetic operations required by our algorithm for every linear programming problem wit h d variables and n constraints is at most min{n C.-, ~2Cwd&d }. (C is an absolute constant.)

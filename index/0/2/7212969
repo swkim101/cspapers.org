@@ -1,0 +1,1 @@
+In this paper we explore frameworks for performing unit testing in Java. The vehicle for this exploration is a student-written, skeleton program developed for the Computer Graphics course. Our analysis of this one experiment leads us to speculate what benefits in program development and design might accrue by requiring students to unit test their own programs.

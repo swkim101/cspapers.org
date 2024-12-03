@@ -1,0 +1,9 @@
+This paper presents a system for egomotion
+estimation using a stereo head camera. The
+camera motion estimation is based on features
+tracked along a video sequence. The system
+also estimates the tridimensional geometry of
+the environment by fusing the visual information from multiple views. Furthermore, the paper presents comparisons between two different algorithms. The first one is by applying triangulation to 3D points. Motion estimation using 3D points suffers from the problem of nonisotropic
+noise due to the large uncertainty in
+depth estimation. To deal with this problem
+we present results with a second approach that works directly in the disparity space. Experimental results using a mobile platform are presented. The experiments cover long distances in urban-like environments with the presence of dynamic objects. The system presented is part of a bigger project involving autonomous navigation using vision only.

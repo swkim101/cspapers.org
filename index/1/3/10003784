@@ -1,0 +1,1 @@
+We give the first correct <i>O</i>(<i>n</i> log <i>n</i>) algorithm for finding a maximum <i>st</i>-flow in a directed planar graph. After a preprocessing step that consists in finding single-source shortest-path distances in the dual, the algorithm consists of repeatedly saturating the leftmost residual <i>s</i>-to-<i>t</i> path.

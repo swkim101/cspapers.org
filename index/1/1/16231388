@@ -1,0 +1,1 @@
+We propose a method for the fast estimation of hyperparameters in large networks, based on the linear response relation in the cavity method, and an empirical measurement of the Green's function. Simulation results show that it is efficient and precise, when compared with cross-validation and other techniques which require matrix inversion.

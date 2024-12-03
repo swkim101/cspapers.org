@@ -1,0 +1,4 @@
+
+ 
+ The amount of videos available on the Web is growing explosively. While some videos are very interesting and receive high rating from viewers, many of them are less interesting or even boring. This paper conducts a pilot study on the understanding of human perception of video interestingness, and demonstrates a simple computational method to identify more interesting videos. To this end we first construct two datasets of Flickr and YouTube videos respectively. Human judgements of interestingness are collected and used as the ground-truth for training computational models. We evaluate several off-the-shelf visual and audio features that are potentially useful for predicting interestingness on both datasets. Results indicate that audio and visual features are equally important and the combination of both modalities shows very promising results.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Recently, algorithms for computing game-theoretic solutions have been deployed in real-world security applications, such as the placement of checkpoints and canine units at Los Angeles International Airport. These algorithms assume that the defender (security personnel) can commit to a mixed strategy, a so-called Stackelberg model. As pointed out by Kiekintveld et al. (2009), in these applications, generally, multiple resources need to be assigned to multiple targets, resulting in an exponential number of pure strategies for the defender. In this paper, we study how to compute optimal Stackelberg strategies in such games, showing that this can be done in polynomial time in some cases, and is NP-hard in others.
+ 

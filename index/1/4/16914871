@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we propose a novel decentralised control mechanism to manage micro-storage in the smart grid. Our approach uses an adaptive pricing scheme that energy suppliers apply to home smart agents controlling micro-storage devices. In particular, we prove that the interaction between a supplier using our pricing scheme and the actions of selfish micro-storage agents forms a globally stable feedback loop that converges to an efficient equilibrium. We further propose a market strategy that allows the supplier to reduce wholesale purchasing costs without increasing the uncertainty and variance for its aggregate consumer demand. Moreover, we empirically evaluate our mechanism (based on the UK grid data) and show that it yields savings of up to 16% in energy cost for consumers using storage devices with average capacity 10 kWh. Furthermore, we show that it is robust against extreme system changes.
+ 

@@ -1,0 +1,1 @@
+We propose an algorithm to compute a conforming Delaunay mesh of a polyhedral domain. Arbitrarily small input angles are allowed. The output mesh is graded and has bounded radius-edge ratio everywhere.

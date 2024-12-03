@@ -1,0 +1,18 @@
+It is our great pleasure to welcome you to the 1st Workshop on Open Data for Local Search, associated with WWW 2016. 
+ 
+Local search engines are specialized information retrieval systems enabling users to discover amenities and services in their neighborhood (schools, businesses, hospitals, etc.). Developing a local search system still raises scientific questions, as well as very specific technical issues. One of the main problems encountered is the partial availability or even the absence of informative contents related to local actors, merchants or service providers. 
+ 
+Introducing open data in the architecture of local search engines supports the identification and collection of structured content. Collaborative data such as those made available by the OpenStreetMap Foundation can be of help to identify new dealers, and improve their geolocation. Semantic Web resources such as DBpedia contain keywords or content for enriching ontologies associated with a local search service. Open data provided by cities or national organizations, such as descriptions of public institutions, opening hours, location of shopping centers are other usable resources. 
+ 
+Available open data can be exploited to dramatically improve the design of local search engines and their contents. The aim of this workshop is to explore new fields of investigation both in terms of algorithmic approaches as well as originality of usable data. The workshop focuses on how open data can be used to enhance the capabilities of local search engines. 
+ 
+Target audience will include researchers, and professionals interested in: 
+semantic web and open data usage to improve local search, enhance ontologies and their alignment, and discover keywords and concepts 
+geo-content improvement using open data to develop geo-search algorithms, build maps and content, improve and enrich geo-data. 
+information extraction involving open data for knowledge management, named entity, business, and content discovery. 
+ 
+ 
+ 
+The call for papers attracted submissions from the United States, Canada, Switzerland, India, and China. The program committee reviewed and accepted the following: Venue or Track Reviewed - 10 Accepted - 6. 
+ 
+We encourage attendees to attend demonstrations, list of which will be available on the website http://od4ls.uqam.ca

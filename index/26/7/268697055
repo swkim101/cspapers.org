@@ -1,0 +1,1 @@
+Our work explores bridging the gap between large language models and text-to-image models to create a tool for quickly and easily generating high quality images from a given concept. In our experiments we successfully improved image quality with only a preliminary utilization of the available resources for finetuning.

@@ -1,0 +1,5 @@
+This paper describes an artificial tactile sense with multi-elements that not only takes the pressure information without crushing an object in the hand, but also discriminates one pattern from another on the surfaces being in touch therewith. 
+ 
+The eigenvalue of pattern of stress distribution on the surface of the receptor elements is derived from the lielmholtz equation. The element spacing of receptor is designed by using the relative error of the eigenvalue of the sampled pattern as the design specification. 
+ 
+A simple experiment classifying cylinders, trigonal prism and square pillar was performed by the artificial hand with multi-elements. As a result, a high percentage of correct answer is obtained.

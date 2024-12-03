@@ -1,0 +1,1 @@
+In this paper, we describe challenges and solutions for programming multi-processor systems-on-a-chip, based on our experience in programming Platform2012, a large-scale multicore fabric under development by STMicroelectronics and CEA, using the MultiFlex multi-core programming environment.

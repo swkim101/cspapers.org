@@ -1,0 +1,1 @@
+We propose Nimble, a QoS-aware resource management framework for edge-assisted microservice environments. We build a preliminary prototype of Nimble and show its applicability in terms of resource utilization and execution latency for microservices in a small-scale testbed setup.

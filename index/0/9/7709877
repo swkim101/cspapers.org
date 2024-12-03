@@ -1,0 +1,1 @@
+In this article, we present a model for un-supervised extraction of motifs from multivariate time series. We consider a particular kind of time series where observed values are caused by the superposition of multiple phenomena occuring concurrently and with no synchronization.

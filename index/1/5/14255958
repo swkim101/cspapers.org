@@ -1,0 +1,1 @@
+We propose a two-stage lossless compression approach on large scale RDF data. Our approach exploits both Representation Compression and Component Compression techniques to support query and dynamic operations directly on the compressed data.

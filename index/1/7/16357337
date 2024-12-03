@@ -1,0 +1,4 @@
+
+ 
+ This paper describes a system called SITAC based on our proposed approach to discover concepts (called SITACs) in text archives that are identical semantically but alter their names over time. Our approach integrates natural language processing, association rule mining and contextual similarity to discover SITACs in order to answer historical queries over text corpora.
+ 

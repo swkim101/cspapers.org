@@ -1,0 +1,1 @@
+Recent work on unbiased sampling of OSNs has focused on estimation of the network characteristics such as degree distributions and clustering coefficients. In this work we shift the focus to node attributes. We show that existing sampling methods produce biased outputs and need modifications to alleviate the bias.

@@ -1,0 +1,1 @@
+We propose a method for designing software transactional memory that relies on the use of locking protocols to ensure that transactions will never be forced to retry. We discuss our approaches to implementing this method and tunable parameters that may be able to improve schedulability on an application-specific basis.

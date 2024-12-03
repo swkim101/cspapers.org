@@ -1,0 +1,9 @@
+The routing function used for Burroughs Network Architecture (BNA) to determine the best routes for traffic through the network is known as the <italic>Burroughs Integrated Adaptive Routing System</italic>, or BIAS#8482;<supscrpt>1</supscrpt>
+Based on the algorithm devised for the MERIT Computer Network [3], BIAS#8482; is a decentralized, deterministic system which adapts to changes in network topology automatically. The Current BIAS#8482; routing architecture incorporates improvements [1] in the original algorithm which significantly reduce the recovery time from failures of nodes or links and is virtually loop-free, even during recovery from those failures.
+BIAS#8482; automatically re-determines the best routes for traffic throughout the network in response to the following changes to the network topology:<list><item>a node (an end system or intermediate system) is added to the network;
+</item><item>a node is removed from the network;
+</item><item>the cost of transiting a node is changed;
+</item><item>a logical link (LAN, leased or switched circuit, X.25 virtual circuit) is added to the network;
+</item><item>a link is removed from the network; and/or
+</item><item>the cost of transiting a link is changed.
+</item></list>

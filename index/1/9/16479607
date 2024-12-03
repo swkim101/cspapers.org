@@ -1,0 +1,3 @@
+This paper describes a technique for extracting idioms from text. The technique works by finding patterns such as "thrills and spills", whose reversals (such as "spills and thrills") are never encountered. 
+ 
+This method collects not only idioms, but also many phrases that exhibit a strong tendency to occur in one particular order, due apparently to underlying semantic issues. These include hierarchical relationships, gender differences, temporal ordering, and prototype-variant effects.

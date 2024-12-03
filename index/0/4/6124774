@@ -1,0 +1,1 @@
+We present a framework that is able to discover the latent factors that parametrize a family of related tasks from data. The resulting model is able to rapidly identify the dynamics of a new task instance, allowing an agent to flexibly adapt to task variations.

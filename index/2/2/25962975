@@ -1,0 +1,1 @@
+In this paper finite state characteristic of integer arithmetic codes (FSAC) is combined with prefix free characteristic of Huffman codes to yield security in source codes. Some random jumps are inserted in transition sequence of state diagram to provide security. Huffman codes are used to make possible tracking and therefore decoding in jump instants.

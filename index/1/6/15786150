@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we systematically study the problem of dataless hierarchical text classification. Unlike standard text classification schemes that rely on supervised training, dataless classification depends on understanding the labels of the sought after categories and requires no labeled data. Given a collection of text documents and a set of labels, we show that understanding the labels can be used to accurately categorize the documents. This is done by embedding both labels and documents in a semantic space that allows one to compute meaningful semantic similarity between a document and a potential label. We show that this scheme can be used to support accurate multiclass classification without any supervision. We study several semantic representations and show how to improve the classification using bootstrapping. Our results show that bootstrapped dataless classification is competitive with supervised classification with thousands of labeled examples.
+ 

@@ -1,0 +1,1 @@
+In this work we investigate three important aspects of parameterized retrieval models: estimation, sensitivity, and generalization. Since all parameterized models, even those based on heuristics, have inherent uncertainty, we study these issues using statistical tools.

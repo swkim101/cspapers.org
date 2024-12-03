@@ -1,0 +1,4 @@
+
+ 
+ Knowledge graph embedding represents entities and relations in knowledge graph as low-dimensional, continuous vectors, and thus enables knowledge graph compatible with machine learning models. Though there have been a variety of models for knowledge graph embedding, most methods merely concentrate on the fact triples, while supplementary textual descriptions of entities and relations have not been fully employed. To this end, this paper proposes the semantic space projection (SSP) model which jointly learns from the symbolic triples and textual descriptions. Our model builds interaction between the two information sources, and employs textual descriptions to discover semantic relevance and offer precise semantic embedding. Extensive experiments show that our method achieves substantial improvements against baselines on the tasks of knowledge graph completion and entity classification.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ We provide a novel, flexible, iterative refinement algorithm to automatically construct an approximate statespace representation for Markov Decision Processes (MDPs). Our approach leverages bisimulation metrics, which have been used in prior work to generate features to represent the state space of MDPs.We address a drawback of this approach, which is the expensive computation of the bisimulation metrics. We propose an algorithm to generate an iteratively improving sequence of state space partitions. Partial metric computations guide the representation search and provide much lower space and computational complexity, while maintaining strong convergence properties. We provide theoretical results guaranteeing convergence as well as experimental illustrations of the accuracy and savings (in time and memory usage) of the new algorithm, compared to traditional bisimulation metric computation.
+ 

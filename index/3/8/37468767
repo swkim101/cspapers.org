@@ -1,0 +1,4 @@
+
+ 
+ WordNets are useful resources for natural language processing. Various WordNets for different languages have been developed by different groups. Recently, World WordNet Database Structure (WWDS) was proposed by Redkar et. al (2015) as a common platform to store these different WordNets. However, it is underutilized due to lack of programming interface. In this paper, we present WWDS APIs, which are designed to address this shortcoming. These WWDS APIs, in conjunction with WWDS, act as a wrapper that enables developers to utilize WordNets without worrying about the underlying storage structure. The APIs are developed in PHP, Java, and Python, as they are the preferred programming languages of most developers and researchers working in language technologies. These APIs can help in various applications like machine translation, word sense disambiguation, multilingual information retrieval, etc.
+ 

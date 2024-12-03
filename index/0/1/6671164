@@ -1,0 +1,4 @@
+
+ 
+ We study the computational complexity of candidate control in elections with few voters (that is, we take the number of voters as a parameter). We consider both the standard scenario of adding and deleting candidates, where one asks if a given candidate can become a winner (or, in the destructive case, can be precluded from winning) by adding/deleting some candidates, and a combinatorial scenario where adding/deleting a candidate automatically means adding/deleting a whole group of candidates. Our results show that the parameterized complexity of candidate control (with the number of voters as the parameter) is much more varied than in the setting with many voters.
+ 

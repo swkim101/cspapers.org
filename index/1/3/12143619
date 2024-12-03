@@ -1,0 +1,1 @@
+We employ both master equation and order parameter approaches to analyze the asymptotic dynamics of on-line learning with different learning rate annealing schedules. We examine the relations between the results obtained by the two approaches and obtain new results on the optimal decay coefficients and their dependence on the number of hidden nodes in a two layer architecture.

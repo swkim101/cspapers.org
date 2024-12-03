@@ -1,0 +1,1 @@
+Program efficiency is usually considered from the point of view of optimizing code. Selecting a proper data structure can have a remarkable effect on the efficiency of the final program. In this paper it is shown how one problem can be solved in several ways using several different data structures. The efficiency of the programs depend on the data structures selected.

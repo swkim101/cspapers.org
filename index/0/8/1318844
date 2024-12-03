@@ -1,0 +1,4 @@
+
+ 
+ Previous work on machine scheduling has considered the case of agents who control the scheduled jobs and attempt to minimize their own completion time. We argue that in cloud and grid computing settings, different machines cannot be considered to be fully cooperative as they may belong to competing economic entities, and that agents can easily move their jobs between competing providers. We therefore consider a setting in which the machines are also controlled by selfish agents, and attempt to maximize their own gains by strategically selecting their scheduling policy. We analyze the equilibria that arise due to competition in this 2-sided setting. In particular, not only do we require that the jobs will be in equilibrium with one another, but also that the schedulers' policies will be in equilibrium. We also consider different mixtures of classic deterministic scheduling policies and random scheduling policies.
+ 

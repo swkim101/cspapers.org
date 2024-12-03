@@ -1,0 +1,21 @@
+Contemporary large-scale, distributed systems are composed from many interdependent artifacts, such as network/bus interconnects, many coordinated local and remote end systems, and multiple layers of software. The composition of these systems demand multiple, simultaneous, predictable performance characteristics, such as end-to-end latency and throughput along with other service concerns, such as reliability, fault tolerance and security. All of these issues become highly volatile in large-scale distributed systems due to the dynamic interplay of the many interconnected parts that are constructed from smaller parts. Automated or partially-automated approaches promise to improve the overall Quality of Service (QoS) provided by the components in these systems. 
+ 
+The goal of this one day workshop is to provide a forum for practitioners and researchers to present and discuss emerging techniques and tools for automatically or semi-automatically modeling, specifying and delivering guarantees of service quality in distributed environments. 
+ 
+To begin the workshop, a keynote talk will be offered by Dr. Calton Pu of the Georgia Institute of Technology. Presented papers include Position papers describing emerging research opportunities and Works in Progress papers presenting preliminary research and results. Paper topics included: 
+ 
+• Model-driven approaches in service provisioning across all phases of the software lifecycle 
+ 
+• Domain-specific modeling languages and model transformations for service provisioning 
+ 
+• Modeling and analysis of tradeoffs along different service dimensions (i.e., security, reliability, quality, response guarantees) 
+ 
+• Role of aspect-oriented program transformation techniques 
+ 
+• Reflection and meta-programming as techniques for adaptive provisioning 
+ 
+• Tools, models, techniques targeting service guarantees for specific middleware platforms 
+ 
+• Frameworks and pattern languages for automating service quality 
+ 
+• Certification issues in service quality automation

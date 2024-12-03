@@ -1,0 +1,1 @@
+NP-complete problems should be hard on <italic>some</italic> (may be extremely rare) instances. But on generic instances many such problems (especially related to random graphs) have been proven easy. We show the intractability of <italic>random</italic> instances of a graph coloring problem by modifying the NP-completeness theorem.

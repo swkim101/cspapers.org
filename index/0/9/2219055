@@ -1,0 +1,1 @@
+Many real-world networks contain nonstructural information on nodes, such as the spatial coordinate of a location, profile of a person, or contents of a web page. In this paper, we propose Dist-Modularity, a unified modularity measure, which is useful in extracting the multilevel communities based on network structural and nonstructural information.

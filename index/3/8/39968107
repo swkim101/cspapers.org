@@ -1,0 +1,1 @@
+We propose a mine detecting method using a six-legged locomotion robot. It is consider that mine detecting field is an uneven terrain, so, we need to develop the stable walking method using attitude control. We propose an attitude control method and verify the validity of attitude control method by 3D simulations on an even terrain as well as an uneven terrain.

@@ -1,0 +1,4 @@
+
+ 
+ Reinforcement Learning (RL) is a widely used solution for sequential decision-making problems and has been used in many complex domains. However, RL algorithms suffer from scalability issues, especially when multiple agents are acting in a shared environment. This research intends to accelerate learning in multiagent sequential decision-making tasks by reusing previous knowledge, both from past solutions and advising between agents. We intend to contribute a Transfer Learning framework focused on Multiagent RL, requiring as few domain-specific hand-coded parameters as possible.
+ 

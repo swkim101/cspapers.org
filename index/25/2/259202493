@@ -1,0 +1,1 @@
+We construct Jamp, which is a Japanese NLI dataset for temporal inference, and evaluate the generalization capacity of several LMs on our dataset.

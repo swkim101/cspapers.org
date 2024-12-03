@@ -1,0 +1,4 @@
+
+ 
+ Effectively incorporating external advice is an important problem in reinforcement learning, especially as it moves into the real world. Potential-based reward shaping is a way to provide the agent with a specific form of additional reward, with the guarantee of policy invariance. In this work we give a novel way to incorporate an arbitrary reward function with the same guarantee, by implicitly translating it into the specific form of dynamic advice potentials, which are maintained as an auxiliary value function learnt at the same time. We show that advice provided in this way captures the input reward function in expectation, and demonstrate its efficacy empirically.
+ 

@@ -1,0 +1,1 @@
+We discuss the application of TAP mean field methods known from the Statistical Mechanics of disordered systems to Bayesian classification models with Gaussian processes. In contrast to previous approaches, no knowledge about the distribution of inputs is needed. Simulation results for the Sonar data set are given.

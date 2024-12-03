@@ -1,0 +1,4 @@
+
+ 
+ Topological relations between spatial objects are the most important kind of qualitative spatial information. Dozens of relation models have been proposed in the past two decades. These models usually make a small number of distinctions and therefore can only cope with spatial information at a fixed granularity of spatial knowledge. In this paper, we propose a topological relation model in which the topological relation between two convex plane regions can be uniquely represented as a circular string over the alphabet {u; v; x; y}. A linear algorithm is given to compute the topological relation between two convex polygons. The infinite relation calculus could be used in hierarchical spatial reasoning as well as in qualitative shape description.
+ 

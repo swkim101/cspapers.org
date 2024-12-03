@@ -1,0 +1,1 @@
+In this paper, we report on a performance comparison of four software implemented index structures for multi-key retrieval the inverted file, the grid file and two variants of multidimensional B-trees It turns out that the recently suggested structures multidimensional B-tree and grid file outperform the traditional inverted file

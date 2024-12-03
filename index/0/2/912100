@@ -1,0 +1,5 @@
+We consider the quickest flow problem in dynamic networks with a single source s and a single sink t: given an amount of flow F, find the minimum time needed to send it from s to t, and the corresponding optimal flow over time. 
+ 
+We introduce new mathematical formulations and derive optimality conditions for the quickest flow problem. Based on the optimality conditions, we develop a new cost-scaling algorithm that leverages the parametric nature of the problem. The algorithm solves the quickest flow problem with integer arc costs in O(nm log(n2/m) log(nC)) time, where n, m, and C are the number of nodes, arcs, and the maximum arc cost, respectively. 
+ 
+Our algorithm runs in the same time bound as the cost-scaling algorithm by Goldberg and Tarjan [10, 11] for solving the min-cost flow problem. This result shows for the first time that the quickest flow problem can be solved within the same time bound as one of the fastest algorithms for the min-cost flow problem. As a consequence, our algorithm will remain one of the fastest unless the quickest flow problem can be shown to be simpler than the min-cost flow problem.

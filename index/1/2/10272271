@@ -1,0 +1,1 @@
+We analyze a simple, Bellman-error-based approach to generating basis functions for value-function approximation. We show that it generates orthogonal basis functions that provably tighten approximation error bounds. We also illustrate the use of this approach in the presence of noise on some sample problems.

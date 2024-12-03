@@ -1,0 +1,4 @@
+
+ 
+ Extractive style query-oriented multi-document summarization generates the summary by extracting a proper set of sentences from multiple documents based on the pre-given query. This paper proposes a novel multi-document summarization framework via deep learning model. This uniform framework consists of three parts: concepts extraction, summary generation, and reconstruction validation, which work together to achieve the largest coverage of the documents content. A new query-oriented extraction technique is proposed to concentrate distributed information to hidden units layer by layer. Then, the whole deep architecture is fine-tuned by minimizing the information loss of reconstruction validation. According to the concentrated information, dynamic programming is used to seek most informative set of sentences as the summary. Experiments on three benchmark datasets demonstrate the effectiveness of the proposed framework and algorithms.
+ 

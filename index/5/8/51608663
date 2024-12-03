@@ -1,0 +1,5 @@
+Conversational AI is of growing importance since it enables easy interaction interface between humans and computers. Due to its promising potential and alluring commercial values to serve as virtual assistants and/or social chatbots, major AI, NLP, and Search & Mining conferences are explicitly calling-out for contributions from conversational studies. It is an active research area and of considerable interest.
+
+
+
+To build a conversational system with moderate intelligence is challenging, and requires abundant dialogue data and interdisciplinary techniques. Along with the Web 2.0, the massive data available greatly facilitate data-driven methods such as deep learning for human-computer conversations. In general, conversational systems can be categorized into 1) task-oriented systems which aim to help users accomplish goals in vertical domains, and 2) social chat bots which can converse seamlessly and appropriately with humans, playing the role of a chat companion. In this paper, we focus on the survey of non-task-oriented chit-chat bots.

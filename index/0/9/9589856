@@ -1,0 +1,4 @@
+
+ 
+ We propose CCRank, the first parallel algorithm for learning to rank, targeting simultaneous improvement in learning accuracy and efficiency. CCRank is based on cooperative coevolution (CC), a divide-and-conquer framework that has demonstrated high promise in function optimization for problems with large search space and complex structures. Moreover, CC naturally allows parallelization of sub-solutions to the decomposed subproblems, which can substantially boost learning efficiency. With CCRank, we investigate parallel CC in the context of learning to rank. Extensive experiments on benchmarks in comparison with the state-of-the-art algorithms show that CCRank gains in both accuracy and efficiency.
+ 

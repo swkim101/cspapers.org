@@ -1,0 +1,1 @@
+The system Mosaico [MT94] has been conceived to support the design, conceptual modeling, and rapid prototyping of data intensive applications based on Object-Oriented Databases (OODBS). The application is modeled through a graphical user interface and the produced model is encoded in TQL++, the design language on which Mosaico is based.

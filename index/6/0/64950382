@@ -1,0 +1,13 @@
+The 2009 Workshop on Data Mining using Matrices and Tensors (DMMT'09) is the second workshop on this theme held annually with the SIGKDD Conference. Through the workshop, we expect to bring together leading researchers on many topic areas (e.g., computer scientists, computational and applied mathematicians) to assess the state-of-the-art, share ideas and form collaborations. We also wish to attract practitioners who seek novel ideals for applications. In summary, this workshop will strive to emphasize the following aspects: 
+ 
+•Presenting recent advances in algorithms and methods using matrix and scientific computing/applied mathematics 
+ 
+•Addressing the fundamental challenges in data mining using matrices and tensors 
+ 
+•Identifying killer applications and key industry drivers (where theories and applications meet) 
+ 
+•Fostering interactions among researchers (from different backgrounds) sharing the same interest to promote cross-fertilization of ideas 
+ 
+•Exploring benchmark data for better evaluation of the techniques 
+ 
+The field of pattern recognition, data mining and machine learning increasingly adapt methods and algorithms from advanced matrix computations, graph theory and optimization. Prominent examples are spectral clustering, non-negative matrix factorization, Principal component analysis (PCA) and Singular Value Decomposition (SVD) related clustering and dimension reduction, tensor analysis such as 2DSVD and high order SVD, L-1 regularization, etc. Compared to probabilistic and information theoretic approaches, matrix-based methods are fast, easy to understand and implement; they are especially suitable for parallel and distributed-memory computers to solve large scale challenging problems such as searching and extracting patterns from the entire Web. Hence the area of data mining using matrices and tensors is a popular and growing are of research activities. This workshop will present recent advances in algorithms and methods using matrix and scientific computing/applied mathematics for modeling and analyzing massive, high-dimensional, and nonlinear-structured data.

@@ -1,0 +1,1 @@
+This paper describes a bus design rule checking method which efficiently checks whether signal conflicts may occur on the tri-state buses in a given circuit and whether the buses may be in floating states. By using BDD (binary decision diagram) representations, a practical bus design rule check program has been obtained.

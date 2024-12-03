@@ -1,0 +1,4 @@
+
+ 
+ The most critical challenge for the recommendation system is to achieve the high prediction quality on the large scale sparse data contributed by the users. In this paper, we present a novel approach to the social recommendation problem, which takes the advantage of the graph Laplacian regularization to capture the underlying social relationship among the users. Differently from the previous approaches, that are based on the conventional gradient descent optimization, we formulate the presented graph Laplacian regularized social recommendation problem into a low-rank semidefinite program, which is able to be efficiently solved by the quasi-Newton algorithm. We have conducted the empirical evaluation on a large scale dataset of high sparsity, the promising experimental results show that our method is very effective and efficient for the social recommendation task.
+ 

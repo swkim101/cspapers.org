@@ -1,0 +1,4 @@
+
+ 
+ Several MaxSAT algorithms based on iterative SAT solving have been proposed in recent years. These algorithms are in general the most efﬁcient for real-world applications. Existing data indicates that, among MaxSAT algorithms based on iterative SAT solving, the most efﬁcient ones are core-guided, i.e. algorithms which guide the search by iteratively computing unsatisﬁable subformulas (or cores). For weighted MaxSAT, core-guided algorithms exhibit a number of important drawbacks, including a possibly exponential number of iterations and the use of a large number of auxiliary variables. This paper develops two new algorithms for (weighted) MaxSAT that address these two drawbacks. The ﬁrst MaxSAT algorithm implements core-guided iterative SAT solving with binary search. The second algorithm extends the ﬁrst one by exploiting disjoint cores. The empirical evaluation shows that core-guided binary search is competitive with current MaxSAT solvers.
+ 

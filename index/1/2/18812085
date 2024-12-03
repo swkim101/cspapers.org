@@ -1,0 +1,4 @@
+
+ 
+ Monte-Carlo planning has been proven successful in manysequential decision-making settings, but it suffers from poorexploration when the rewards are sparse. In this paper, weimprove exploration in UCT by generalizing across similarstates using a given distance metric. We show that this algorithm,like UCT, converges asymptotically to the optimalaction. When the state space does not have a natural distancemetric, we show how we can learn a local manifold from thetransition graph of states in the near future. to obtain a distancemetric. On domains inspired by video games, empiricalevidence shows that our algorithm is more sample efficientthan UCT, particularly when rewards are sparse.
+ 

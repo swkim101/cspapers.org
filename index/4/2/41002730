@@ -1,0 +1,1 @@
+We present a novel approach to enable dead reckoning in a scenario with unconstrained placement of a device in the user’s trouser pockets. Utilizing the rotation of the device due to body motion, we estimate the user’s walking direction robustly to different placements in the pocket and without additional body-worn sensors.

@@ -1,0 +1,4 @@
+
+ 
+ Question retrieval in current community-based question answering (CQA) services does not, in general, work well for long and complex queries. One of the main difficulties lies in the word mismatch between queries and candidate questions. Existing solutions try to expand the queries at word level, but they usually fail to consider concept level enrichment. In this paper, we explore a pivot language translation based approach to derive the paraphrases of key concepts. We further propose a unified question retrieval model which integrates the keyconcepts and their paraphrases for the query question. Experimental results demonstrate that the paraphrase enhanced retrieval model significantly outperforms the state-of-the-art models in question retrieval.
+ 

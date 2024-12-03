@@ -1,0 +1,3 @@
+In a relational system, a database is composed of base relations, views, and snapshots. We show that this traditional approach can be extended to different classes of derived relations, and we propose a unified data definition mechanism for centralized and distributed databases. 
+ 
+Our mechanism, called DEREL, can be used to define base relations and to derive different classes of views, snapshots, partitioned and replicated data. DEREL is intended to be part of a general purpose distributed relational database management system.

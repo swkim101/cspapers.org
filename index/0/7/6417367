@@ -1,0 +1,3 @@
+We introduce a novel training algorithm for unsupervised grammar induction, called Zoomed Learning. Given a training set T and a test set S, the goal of our algorithm is to identify subset pairs Ti, Si of T and S such that when the unsupervised parser is trained on a training subset Ti its results on its paired test subset Si are better than when it is trained on the entire training set T. A successful application of zoomed learning improves overall performance on the full test set S. 
+ 
+We study our algorithm's effect on the leading algorithm for the task of fully unsupervised parsing (Seginer, 2007) in three different English domains, WSJ, BROWN and GENIA, and show that it improves the parser F-score by up to 4.47%.

@@ -1,0 +1,1 @@
+We describe a new algorithm for computing a Nash equilibrium in graphical games, a compact representation for multi-agent systems that we introduced in previous work. The algorithm is the first to compute equilibria both efficiently and exactly for a non-trivial class of graphical games.

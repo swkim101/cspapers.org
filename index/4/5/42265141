@@ -1,0 +1,1 @@
+This paper presents the design of the RF transmitter of RFID reader using 180-nm CMOS technology at 868 MHz. The design of RF transmitter of RFID reader in this paper includes up-conversion mixer, balun and class E of power amplifier. These results are maximum output power of 20.34 dBm, OP1dB of 19.3 dBm, PAE of 38.35% and power consumption of 168.57 mW.

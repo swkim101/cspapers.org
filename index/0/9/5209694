@@ -1,0 +1,1 @@
+We consider criteria for variational representations of non-Gaussian latent variables, and derive variational EM algorithms in general form. We establish a general equivalence among convex bounding methods, evidence based methods, and ensemble learning/Variational Bayes methods, which has previously been demonstrated only for particular cases.

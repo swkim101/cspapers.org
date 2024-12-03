@@ -1,0 +1,1 @@
+We present a new release of the Paraphrase Database. PPDB 2.0 includes a discriminatively re-ranked set of paraphrases that achieve a higher correlation with human judgments than PPDB 1.0’s heuristic rankings. Each paraphrase pair in the database now also includes finegrained entailment relations, word embedding similarities, and style annotations.

@@ -1,0 +1,1 @@
+Our model in this paper is a 1.5.way quantum finite automaton which can move its head 0 or +1 position but not -1 position. It is shown that the most fundamental decision question, the emptiness problem, is not solvable for this model. Note that the emptiness problem is solvable far push-down automata and even for one-way nondeterministic stack automata.

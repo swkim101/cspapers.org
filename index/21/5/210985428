@@ -1,0 +1,10 @@
+Let (X, d) be an n-point metric space. We assume that (X, d) is given in the distance oracle model, that is, X = {1, …, n} and for every pair of points x, y from X we can query their distance d(x, y) in constant time. A k-nearest neighbor (k-NN) graph for (X, d) is a directed graph G = (V, E) that has an edge to each of v's k nearest neighbors. We use cost(G) to denote the sum of edge weights of G. 
+ 
+In this paper, we study the problem of approximating cost(G) in sublinear time, when we are given oracle access to the metric space (X, d) that defines G. Our goal is to develop an algorithm that solves this problem faster than the time required to compute G. 
+ 
+We first present an algorithm that in O∊(n2/k) time with probability at least approximates cost(G) to within a factor of 1 + ∊. Next, we present a more elaborate sublinear algorithm that in time Oϵ(min{nk3/2, n2/k}) computes an estimate of cost(G) that satisfies with probability at least 
+ 
+ 
+where mst(X) denotes the cost of the minimum spanning tree of (X, d). 
+ 
+Further, we complement these results with near matching lower bounds. We show that any algorithm that for a given metric space (X, d) of size n, with probability at least estimates cost(G) to within a 1 + ∊ factor requires Ω(n2/k) time. Similarly, any algorithm that with probability at least estimates cost(G) to within an additive error term ϵ · (mst(X) + cost(X)) requires Ωϵ(min{nk3/2, n2/k}) time.

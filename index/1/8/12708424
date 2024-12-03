@@ -1,0 +1,1 @@
+We characterize the sample complexity of active learning problems in terms of a parameter which takes into account the distribution over the input space, the specific target hypothesis, and the desired accuracy.

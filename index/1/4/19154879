@@ -1,0 +1,4 @@
+
+ 
+ Methods for explaining the sources of inconsistency of overconstrained systems find an ever-increasing number of applications, ranging from diagnosis and configuration to ontology debugging and axiom pinpointing in description logics. Efficient enumeration of minimal correction subsets (MCSes), defined as sets of constraints whose removal from the system restores feasibility, is a central task in such domains. In this work, we propose a novel approach to speeding up MCS enumeration over conjunctive normal form propositional formulas by caching of so-called premise sets (PSes) seen during the enumeration process. Contrasting to earlier work, we move from caching unsatisfiable cores to caching PSes and propose a more effective way of implementing the cache. The proposed techniques noticeably improves on the performance of state-of-the-art MCS enumeration algorithms in practice.
+ 

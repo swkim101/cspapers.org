@@ -1,0 +1,3 @@
+An information retrieval system based on a dynamic thesaurus was developed utilizing the connectionist approach. The dynamic thesaurus consists of nodes, which represent each term of a thesaurus, and links, which represent the connections between nodes. Term information that is automatically extracted from user's relevant documents is used to change node weights and generate links. Node weights and links reflect a user's particular interest. A document retrieval experiment was conducted in which both a high recall rate and a high precision rate were achieved.
+The topics discussed in this paper:
+Connectionist Model, Automatic Indexing, Information Retrieval, and Thesaurus.

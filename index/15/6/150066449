@@ -1,0 +1,1 @@
+We present a method for modeling empirical data by a rule set in ordinal classification problems. This method is nonparametric and uses an intermediary model based on Sugeno integral. The accuracy of rule sets thus obtained is competitive with other rule-based classifiers. Special attention is given to the length of rules, i.e., number of conditions.

@@ -1,0 +1,6 @@
+We demonstrate that CNN deep neural networks can not only be used for making predictions based on multivariate time series data, but also for explaining these predictions. 
+This is important for a number of applications where predictions are the basis for decisions and actions. Hence, confidence in the prediction result is crucial. 
+We design a two stage convolutional neural network architecture which uses particular kernel sizes.
+This allows us to utilise gradient based techniques for generating saliency maps for both the time dimension and the features.
+These are then used for explaining which features during which time interval are responsible for a given prediction, as well as explaining during which time intervals was the joint contribution of all features most important for that prediction. 
+We demonstrate our approach for predicting the average energy production of photovoltaic power plants and for explaining these predictions.

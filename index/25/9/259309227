@@ -1,0 +1,14 @@
+
+ We consider the following well-studied problem of metric distortion in social choice. Suppose we have an election with
+ n
+ voters and
+ m
+ candidates located in a shared metric space. We would like to design a voting rule that chooses a candidate whose average distance to the voters is small. However, instead of having direct access to the distances in the metric space, the voting rule obtains, from each voter, a ranked list of the candidates in order of distance. Can we design a rule that regardless of the election instance and underlying metric space, chooses a candidate whose cost differs from the true optimum by only a small factor (known as the
+ distortion
+ )?
+ 
+ A long line of work culminated in finding optimal deterministic voting rules with metric distortion 3. However, for randomized voting rules, there is still a significant gap in our understanding: Even though the best lower bound is substantially lower at 2.112, the best upper bound is still 3, which is attained even by simple rules such as Random Dictatorship. Finding a randomized rule that guarantees distortion 3 − ε for some constant ε has been a major challenge in computational social choice, as prevalent approaches to designing voting rules are known to be insufficient. In particular, such a voting rule must use information beyond aggregate comparisons between pairs of candidates, and cannot only assign positive probability to candidates that are voters’ top choices.
+ 
+ In this work, we give a rule that guarantees distortion less than 2.753. To do so we study a handful of voting rules that are new to the problem. One is
+ Maximal Lotteries
+ , a rule based on the Nash equilibrium of a natural zero-sum game which dates back to the 60’s. The others are novel rules that can be thought of as hybrids of Random Dictatorship and the Copeland rule. Though none of these rules can beat distortion 3 alone, a careful randomization between Maximal Lotteries and any of the novel rules can.

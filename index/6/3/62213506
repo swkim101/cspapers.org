@@ -1,0 +1,1 @@
+This report describes ongoing research on a working system which drives a vehicle through cluttered environments under computer control, guided by images perceived through an onboard television camera. The emphasis is on reliable and fast low level visual techniques which determine the existence and location of objects in the world, but do not identify them

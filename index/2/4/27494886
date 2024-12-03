@@ -1,0 +1,4 @@
+
+ 
+ We report on the ongoing development of EDDIE (Emotion Demonstration, Decoding, Interpretation, and Encoding), an interactive embodied AI to be deployed as an intervention system for children diagnosed with High-Functioning Autism Spectrum Disorders (HFASD). EDDIE presents the subject with interactive requests to decode facial expressions presented through an avatar, encode requested expressions, or do both in a single session. Facial tracking software interprets the subject’s response, and allows for immediate feedback. The system fills a need in research and intervention for children with HFASD by providing an engaging platform for presentation of exemplar expressions consistent with mechanical systems of facial action measurement integrated with an automatic system for interpreting and giving feedback to the subject’s expressions. Both live interaction with EDDIE and video recordings of human-EDDIE interaction will be demonstrated.
+ 

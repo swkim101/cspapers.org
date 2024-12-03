@@ -1,0 +1,1 @@
+Several recent sensor platforms combine long-range and more classical short-range radio technologies. In this poster we propose some modifications to the RPL routing protocol such that it automatically selects the most suitable radio link when more than one is available. The solution has been implemented in the ContikiOS and tested on the Zolertia Re-mote platform.

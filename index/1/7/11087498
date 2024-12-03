@@ -1,0 +1,5 @@
+This paper continues the study, initiated by Cole and Fleischer in [Cole and Fleischer 2008], of the behavior of a tatonnement price update rule in Ongoing Fisher Markets. The prior work showed fast convergence toward an equilibrium when the goods satisfied the weak gross substitutes property and had bounded demand and income elasticities.
+ The current work shows that fast convergence also occurs for the following type of markets: All pairs of goods are complements to each other, and the demand and income elasticities are suitably bounded.
+ In particular, these conditions hold when all buyers in the market are equipped with CES utilities, where all the parameters ρ, one per buyer, satisfy -1 < ρ ≤ 0.
+ In addition, we extend the above result to markets in which a mixture of complements and substitutes occur. This includes characterizing a class of nested CES utilities for which fast convergence holds.
+ An interesting technical contribution, which may be of independent interest, is an amortized analysis for handling asynchronous events in settings in which there are a mix of continuous changes and discrete events.

@@ -1,0 +1,13 @@
+A network representation based on a basic wordoverlap 
+similarity measure between blogs is introduced. 
+The simplicity of the representation renders 
+it computationally tractable, transparent and insensitive 
+to representation-dependent artifacts. Using 
+Swedish blog data, we demonstrate that the representation, 
+in spite of its simplicity, manages to capture 
+important structural properties of the content 
+in the blogosphere. First, blogs that treat similar 
+subjects are organized in distinct network clusters. 
+Second, the network is hierarchically organized as 
+clusters in turn form higher-order clusters: a compound 
+structure reminiscent of a blog taxonomy.

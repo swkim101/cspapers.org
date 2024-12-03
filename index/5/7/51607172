@@ -1,0 +1,53 @@
+Recent advances in 3D capturing devices and 3D
+
+modeling software have led to extensive and diverse
+
+3D datasets, which usually have different distributions.
+
+Cross-domain 3D model retrieval is becoming
+
+an important but challenging task. However,
+
+existing works mainly focus on 3D model
+
+retrieval in a closed dataset, which seriously constrain
+
+their implementation for real applications. To
+
+address this problem, we propose a novel crossdomain
+
+3D model retrieval method by visual domain
+
+adaptation. This method can inherit the advantage
+
+of deep learning to learn multi-view visual
+
+features in the data-driven manner for 3D
+
+model representation. Moreover, it can reduce
+
+the domain divergence by exploiting both domainshared
+
+and domain-specific features of different domains.
+
+Consequently, it can augment the discrimination
+
+of visual descriptors for cross-domain similarity
+
+measure. Extensive experiments on two popular
+
+datasets, under three designed cross-domain
+
+scenarios, demonstrate the superiority and effectiveness
+
+of the proposed method by comparing
+
+against the state-of-the-art methods. Especially, the
+
+proposed method can significantly outperform the
+
+most recent method for cross-domain 3D model retrieval
+
+and the champion of Shrec’16 Large-Scale
+
+3D Shape Retrieval from ShapeNet Core55.

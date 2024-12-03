@@ -1,0 +1,3 @@
+The Bayesian model comparison framework is reviewed, and the Bayesian Occam's razor is explained. This framework can be applied to feedforward networks, making possible (1) objective comparisons between solutions using alternative network architectures; (2) objective choice of magnitude and type of weight decay terms; (3) quantified estimates of the error bars on network parameters and on network output. The framework also generates a measure of the effective number of parameters determined by the data. 
+ 
+The relationship of Bayesian model comparison to recent work on prediction of generalisation ability (Guyon et al., 1992, Moody, 1992) is discussed.

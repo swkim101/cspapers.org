@@ -1,0 +1,7 @@
+We propose a self-supervised learning approach for videos that learns representations of both the RGB frames and the accompanying audio without human supervision. 
+In contrast to images that capture the static scene appearance, videos also contain sound and temporal scene dynamics. 
+To leverage the temporal and aural dimension inherent to videos, our method extends temporal self-supervision to the audio-visual setting and integrates it with multi-modal contrastive objectives.
+As temporal self-supervision, we pose playback speed and direction recognition in both modalities and propose intra- and inter-modal temporal ordering tasks. 
+Furthermore, we design a novel contrastive objective in which the usual pairs are supplemented with additional sample-dependent positives and negatives sampled from the evolving feature space. 
+In our model, we apply such losses among video clips and between videos and their temporally corresponding audio clips. 
+We verify our model design in extensive ablation experiments and evaluate the video and audio representations in transfer experiments to action recognition and retrieval on UCF101 and HMBD51, audio classification on ESC50, and robust video fingerprinting on VGG-Sound, with state-of-the-art results.

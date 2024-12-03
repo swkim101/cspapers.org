@@ -1,0 +1,10 @@
+Real-world graphs are dynamic, constantly evolving with new interactions, such as financial transactions in financial networks. 
+Temporal Graph Neural Networks (TGNNs) have been developed to effectively capture the evolving patterns in dynamic graphs.
+While these models have demonstrated their superiority, being widely adopted in various important fields, their vulnerabilities against adversarial attacks remain largely unexplored.
+In this paper, we propose T-SPEAR, a simple and effective adversarial attack method for link prediction on continuous-time dynamic graphs, focusing on investigating the vulnerabilities of TGNNs.
+Specifically, before the training procedure of a victim model, which is a TGNN for link prediction, we inject edge perturbations to the data that are unnoticeable in terms of the four constraints we propose, and yet effective enough to cause malfunction of the victim model. 
+Moreover, we propose a robust training approach T-SHIELD to mitigate the impact of adversarial attacks.
+By using edge filtering and enforcing temporal smoothness to node embeddings, we enhance the robustness of the victim model.
+Our experimental study shows that T-SPEAR significantly degrades the victim model's performance on link prediction tasks, and even more, our attacks are transferable to other TGNNs, which differ from the victim model assumed by the attacker.
+Moreover, we demonstrate that T-SHIELD effectively filters out adversarial edges and exhibits robustness against adversarial attacks, surpassing the link prediction performance of the naive TGNN by up to 11.2% under T-SPEAR.
+The code and datasets are available at https://github.com/wooner49/T-spear-shield

@@ -1,0 +1,1 @@
+We present a polynomial time approximation scheme (PTAS) for the minimum feedback arc set problem on tournaments. A simple weighted generalization gives a PTAS for Kemeny-Young rank aggregation.

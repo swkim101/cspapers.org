@@ -1,0 +1,4 @@
+
+ 
+ The existing complete methods for solving Constraint Satisfaction Problems (CSPs) are usually based on a combination of exhaustive search and constraint propagation techniques for the reduction of the search space. Such propagation techniques are the local consistency algorithms. Arc Consistency (AC) and Generalized Arc Consistency (GAC) are the most widely studied local consistencies that are predominantly used in constraint solvers. However, many stronger local consistencies than (G)AC have been proposed, even recently, but have been rather overlooked due to their prohibitive cost. This research proposes efficient algorithms for strong consistencies for both binary and non-binary constraints that can be easily adopted by standard CP solvers. Experimental results have so far demonstrated that the proposed algorithms are quite competitive and often more efficient than state-of-the-art methods, being orders of magnitude faster on various problem classes.
+ 

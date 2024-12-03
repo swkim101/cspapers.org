@@ -1,0 +1,1 @@
+In this paper, the authors describe methods for generalized deductive fault simulation of digital networks. By introducing the notion of unknown fault list, the propagation algorithm through gates modelized with rise and fall times are simplified with the same accuracy.

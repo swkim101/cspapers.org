@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we first analyze the semantic composition of word embeddings by cross-referencing their clusters with the manual lexical database, WordNet. We then evaluate a variety of word embedding approaches by comparing their contributions to two NLP tasks. Our experiments show that the word embedding clusters give high correlations to the synonym and hyponym sets in WordNet, and give 0.88% and 0.17% absolute improvements in accuracy to named entity recognition and part-of-speech tagging, respectively.
+ 

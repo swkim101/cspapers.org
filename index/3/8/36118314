@@ -1,0 +1,1 @@
+G/SPLINES is an algorithm for building functional models of data. It uses genetic search to discover combinations of basis functions which are then used to build a least-squares regression model. Because it produces a population of models which evolve over time rather than a single model, it allows analysis not possible with other regression-based approaches.

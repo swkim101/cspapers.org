@@ -1,0 +1,1 @@
+This paper describes a model defining the security conceptual schema in a data base. The proposed model is a binary type. A language is presented to define the model. Finally a method is shown, suitable to automatically control the rights propagation in the data base.

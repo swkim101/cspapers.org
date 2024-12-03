@@ -1,0 +1,10 @@
+Large-scale language-image pre-trained models (e.g., CLIP) have shown superior performances on many cross-modal retrieval tasks.
+However, the problem of transferring the knowledge learned from such models to video-based person re-identification (ReID) has barely been explored.
+In addition, there is a lack of decent text descriptions in current ReID benchmarks.
+To address these issues, in this work, we propose a novel one-stage text-free CLIP-based learning framework named TF-CLIP for video-based person ReID.
+More specifically, we extract the identity-specific sequence feature as the CLIP-Memory to replace the text feature.
+Meanwhile, we design a Sequence-Specific Prompt (SSP) module to update the CLIP-Memory online.
+To capture temporal information, we further propose a Temporal Memory Diffusion (TMD) module, which consists of two key components: Temporal Memory Construction (TMC) and Memory Diffusion (MD).
+Technically, TMC allows the frame-level memories in a sequence to communicate with each other, and to extract temporal information based on the relations within the sequence.
+MD further diffuses the temporal memories to each token in the original features to obtain more robust sequence features.
+Extensive experiments demonstrate that our proposed method shows much better results than other state-of-the-art methods on MARS, LS-VID and iLIDS-VID.

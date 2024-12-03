@@ -1,0 +1,4 @@
+
+ 
+ Uniform interpolation and the dual task of forgetting restrict the ontology to a specified subset of concept and role names. This makes them useful tools for ontology analysis, ontology evolution and information hiding. Most previous research focused on uniform interpolation of TBoxes. However, especially for applications in privacy and information hiding, it is essential that uniform interpolation methods can deal with ABoxes as well. We present the first method that can compute uniform interpolants of any ALC ontology with ABoxes. ABoxes bring their own challenges when computing uniform interpolants, possibly requiring disjunctive statements or nominals in the resulting ABox. Our method can compute representations of uniform interpolants in ALCO. An evaluation on realistic ontologies shows that these uniform interpolants can be practically computed, and can often even be presented in pure ALC.
+ 

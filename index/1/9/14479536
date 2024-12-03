@@ -1,0 +1,5 @@
+The most popular I/O virtualization method today is paravirtual I/O. Its popularity stems from its reasonable performance levels while allowing the host to interpose, i.e., inspect or control, the guest's I/O activity. 
+ 
+We show that paravirtual I/O performance still significantly lags behind that of state-of-the-art noninterposing I/O virtualization, SRIOV. Moreover, we show that in the existing paravirtual I/O model, both latency and throughput significantly degrade with increasing number of guests. This scenario is becoming increasingly important, as the current trend of multi-core systems is towards an increasing number of guests per host. 
+ 
+We present an efficient and scalable virtual I/O system that provides all of the benefits of paravirtual I/O. Running host functionality on separate cores dedicated to serving multiple guest's I/O combined with a fine-grained I/O scheduling and exitless notifications our I/O virtualization system provides performance which is 1.2×-3× better than the baseline, approaching and in some cases exceeding non-interposing I/O virtualization performance.

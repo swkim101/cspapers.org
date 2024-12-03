@@ -1,0 +1,1 @@
+In this demonstration, we present a prototype content-based dissemination broker, called Sonnet, which is built upon structured overlay network. It combines approximate filtering of XML packets with routing in the overlay network. Deliberate optimization technologies are implemented. The running and tracing of the system in a real-life application are to be demonstrated.

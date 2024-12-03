@@ -1,0 +1,2 @@
+ALPHA is a dedicated machine designed for high-speed list processing. In this article, we describe a highly effective stack which can support a value cache and virtual stack, and high-speed garbage collection algorithm for virtual memory. These new ideas have been studied in ALPHA. ALPHA is designed as a back end processor for a large computer under TSS. ALPHA allows TSS users to do more high-speed list processing than a large computer does.
+ Currently UTILISP is operating on ALPHA and runs several times faster than MACLISP on the DEC 2060.

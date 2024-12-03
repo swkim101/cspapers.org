@@ -1,0 +1,3 @@
+The ADVISE system is an integrated set of tools for the development of and experimentation with expert systems in various specific application domains. It functions as a multi-purpose inference system that employs three knowledge representations: a rule-base, a conceptual network and a relational data base. In addition, it includes learning capabilities by incorporating the inductive learning programs GEM (for learning from examples) and CLUSTER (for constructing classifications). 
+ 
+Three expert systems have been developed using ADVISE: PLANT/ds (version 2)--for diagnosing soybean diseases, PLANT/cd--for predicting cutworm damage to corn, and BABY--a consultant for the neo-natal intensive care unit.

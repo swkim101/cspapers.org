@@ -1,0 +1,1 @@
+We argue for the usefulness of an active chart as the basis of a system that searches for the globally most plausible explanation of failure to syntactically parse a given input. We suggest semantics-free, grammar-independent techniques for parsing inputs displaying simple kinds of ill-formedness and discuss the search issues involved.

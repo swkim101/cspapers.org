@@ -1,0 +1,1 @@
+This paper provides performance comparisons of the traditional binary search and the interpolation search for nearly uniformly distributed ordered arrays of keys. The algorithms for the search routines are given along with performance statistics.

@@ -1,0 +1,1 @@
+Ontology mapping seeks to find semantic correspondences between similar elements of different ontologies. This paper proposes a neural network based approach to search for a global optimal solution that best satisfies ontology constraints. Experiments on OAEI benchmark tests show it dramatically improves the performance of preliminary mapping results.

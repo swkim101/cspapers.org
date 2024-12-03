@@ -1,0 +1,1 @@
+We introduce XDense, a grid topology based wired sensor network architecture tailored for high sampling rate applications and high density of sensor node deployments. The purpose of such an architecture is to monitor, detect and report features of observed dynamic phenomena, in a distributed fashion. We present preliminary simulations validating our concept.

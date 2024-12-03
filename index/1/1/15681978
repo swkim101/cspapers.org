@@ -1,0 +1,4 @@
+
+ 
+ Cutset networks — OR (decision) trees that have Bayesian networks whose treewidth is bounded by one at each leaf — are a new class of tractable probabilistic models that admit fast, polynomial-time inference and learning algorithms. This is unlike other state-of-the-art tractable models such as thin junction trees, arithmetic circuits and sum-product networks in which inference is fast and efficient but learning can be notoriously slow. In this paper, we take advantage of this unique property to develop fast algorithms for learning ensembles of cutset networks. Specifically, we consider generalized additive mixtures of cutset networks and develop sequential boosting-based and parallel bagging-based approaches for learning them from data. We demonstrate, via a thorough experimental evaluation, that our new algorithms are superior to competing approaches in terms of test-set log-likelihood score and learning time.
+ 

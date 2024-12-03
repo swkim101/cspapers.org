@@ -1,0 +1,1 @@
+We present the first polynomial time algorithm for testing t-diagnosability. This is a significant advance in system level fault diagnosis. We also presented part of our analysis of t/s-diagnosability, including the fact that it is co-NP-complete and that there are polynomial algorithms for t/t and t/(t+1)-diagnosability.

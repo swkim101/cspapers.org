@@ -1,0 +1,4 @@
+
+ 
+ This paper considers survey prediction from social media. We use topic models to correlate social media messages with survey outcomes and to provide an interpretable representation of the data. Rather than rely on fully unsupervised topic models, we use existing aggregated survey data to inform the inferred topics, a class of topic model supervision referred to as collective supervision. We introduce and explore a variety of topic model variants and provide an empirical analysis, with conclusions of the most effective models for this task.
+ 

@@ -1,0 +1,5 @@
+Recovering from power outages is an essential task in distribution of electricity. Our industrial partner postulates that the recovery should be interactive rather than automatic: supporting the operator by preventing choices that destabilize the network. 
+ 
+Interactive configurators, successfully used in specifying products and services, support users in selecting logically constrained parameters in a sound, complete and backtrack-free manner. Interactive restoration algorithms based on reduced ordered binary decision diagrams (BDDs) had been developed also for power distribution networks, however they did not scale to the large instances, as BDDs representing these could not be compiled. 
+ 
+We discuss the theoretical hardness of the interactive configuration and then provide techniques used to compile two classes of networks. We handle the largest industrial instances available. Our techniques rely on symbolic reachability computation, early variable quantification, domain specific ordering heuristics and conjunctive decomposition.

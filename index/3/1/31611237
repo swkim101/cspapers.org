@@ -1,0 +1,1 @@
+In this paper, we propose a new dataflow runtime that dynamically manages several dataflow applications. We propose an implementation of such a runtime called CalMAR built on top of the RVC-Cal environment, and validate its efficiency compared to the RVC-CAL traditional approach.

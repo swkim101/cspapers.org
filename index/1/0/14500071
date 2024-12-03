@@ -1,0 +1,4 @@
+
+ 
+ Coalition formation is a fundamental problem in the organization of many multi-agent systems. In large populations, the formation of coalitions is often restricted by structural visibility and locality constraints under which agents can reorganize. We capture and study this aspect using a novel network-based model for dynamic locality within the popular framework of hedonic coalition formation games. We analyze the effects of network-based visibility and structure on the convergence of coalition formation processes to stable states. Our main result is a tight characterization of the structures based on which dynamic coalition formation can stabilize quickly. Maybe surprisingly, polynomial-time convergence can be achieved if and only if coalition formation is based on complete or star graphs.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Cooperative Intelligent Transportation Systems (C-ITS) are complex systems well-suited to a multi-agent modeling. We propose a multi-agent based modeling of a C-ITS, that couples 3 dynamics (physical, informational and control dynamics) in order to ensure a smooth cooperation between non cooperative and cooperative vehicles, that communicate with each other (V2V communication) and the infrastructure (I2V and V2I communication). We present our multi-agent model, tested through simulations using real traffic data and integrated into our extension of the Multi-model Open-source Vehicular-traffic SIMulator (MovSim).
+ 

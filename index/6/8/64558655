@@ -1,0 +1,5 @@
+Many modern applications such as sensors based monitoring, 
+or certain business applications, raise the need for real 
+time analysis, and thus require OLAP multidimensional models 
+to be adapted to these evolving environments. Indeed, the scheduled offline batch update strategy, and the prerequisite of having totally ordered dimensions in traditional 
+data warehouses, are both no more suitable for these time critical applications. In this paper, we present a multidimensional model for real-time data warehousing in hierarchical multidimensional data space. We also propose a dynamic partial cube materialization and a tree storage structure that groups the multidimensional data in no-ordered data partitions called minimum bounding spaces. We use Star Schema Benchmark to compare the performance of our solution with existing dynamic indexing technique. Experimental study shows performance improvement in both insertion time and queries over the data space.
