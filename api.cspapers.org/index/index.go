@@ -51,7 +51,7 @@ func runIndex(cfg *indexConfig) {
 
 func indexAbs(reqChan chan *types.InsertRequest, insertFunc func(req *types.InsertRequest) error, done chan bool) {
 	for req := range reqChan {
-		absfile := path.Join("index.cspapers.org", req.Index)
+		absfile := path.Join("index", req.Index)
 		blob, err := os.ReadFile(absfile)
 		if err == nil {
 			req.Abstract = string(blob)
