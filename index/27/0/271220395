@@ -1,0 +1,5 @@
+Finding the source of forged Internet Protocol (IP) datagrams in a large, high-speed network is difficult due to the design of the IP protocol and the lack of sufficient capability in most high-speed, high-capacity router implementations. Typically, not enough of the routers in such a network are capable of performing the packet forwarding diagnostics required for this. As a result, tracking-down the source of a flood-type denial-of-service (DoS) attack is usually difficult or impossible in these networks. 
+ 
+CenterTrack is an overlay network, consisting of IP tunnels or other connections, that is used to selectively reroute interesting datagrams directly from edge routers to special tracking routers. The tracking routers, or associated sniffers, can easily determine the ingress edge router by observing from which tunnel the datagrams arrive. The datagrams can be examined, then dropped or forwarded to the appropriate egress point. 
+ 
+This system simplifies the work required to determine the ingress adjacency of a flood attack while bypassing any equipment which may be incapable of performing the necessary diagnostic functions.

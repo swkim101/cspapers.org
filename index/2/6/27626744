@@ -1,0 +1,1 @@
+We consider methods of describing the syntax of programming languages in ways that are more flexible and natural than conventional BNF descriptions. These methods involve the use of ambiguous context-free grammars together with rules to resolve syntactic ambiguities. We show how efficient LL and LR parsers can be constructed directly from certain classes of these specifications.

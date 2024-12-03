@@ -1,0 +1,23 @@
+In testing for program correctness, the standard approaches[11,13,21,22,23,24,34] have centered on finding data D, a finitesubset of all possible inputs to program P, such that
+1) if for all x in D, P(x) = f(x), then P* = f
+where f is a partial recursive function that specifies theintended behavior of the program and P* is the function actuallycomputed by program P. A major stumbling block in suchformalizations has been that the conclusion of (1) is so strongthat, except for trivial classes of programs, (1) is bound to beformally undecidable [23].
+There is an undeniable tendency among practitioners to considerprogram testing an ad hoc human technique: one creates test datathat intuitively seems to capture some aspect of the program,observes the program in execution on it, and then draws conclusionson the program's correctness based on the observations. To augmentthis undisciplined strategy, techniques have been proposed thatyield quantitative information on the degree to which a program hasbeen tested. (See Goodenough [14] for a recent survey.) Thus thetester is given an inductive basis for confidence that (1) holdsfor the particular application. Paralleling the undecidability ofdeductive testing methods, the inductive methods all have hadtrivial examples of failure [14,18,22,23].
+These deductive and inductive approaches have had a commontheme: all have aimed at the strong conclusion of (1). Programmutation [1,7,9,27], on the other hand, is a testing technique thataims at drawing a weaker, yet quite realistic, conclusion of thefollowing nature:
+(2) if for all x in D, P(x) = f(x), then P* = f OR P is"pathological."
+To paraphrase,
+3) if P is not pathological and P(x) = f(x) for all x in D thenP* = f.
+Below we will make precise what is meant by "P is pathological";for now it suffices to say that P not pathological means that P waswritten by a competent programmer who had a good understanding ofthe task to be performed. Therefore if P does not realize f it is"close" to doing so. This underlying hypothesis of program mutationhas become known as the competent programmer hypothesis:either P* = f or some program Q "close" to P has the property Q* =f.
+To be more specific, program mutation is a testing method thatproposes the following version of correctness testing:
+Given that P was written by a competent programmer, find testdata D for which P(D) = f(D) implies P* = f.
+Our method of developing D, assuming either P or some programclose to P is correct, is by eliminating the alternatives. Let&phis; be the set of programs close to P. We restate the methodas follows:
+Find test data D such that:
+i) for all x in D P(x) = f(x) and
+ii) for all Q in &phis; either Q* = P* or for some x in D,Q(x) ≠ P(x).
+If test data D can be developed having properties (i) and (ii),then we say that D differentiates P from &phis;,alternatively P passes the &phis; mutant test.
+The goal of this paper is to study, from both theoretical andexperimental viewpoints, two basic questions:
+Question 1: If P is written by a competent programmer andif P passes the &phis; mutant test with test data D, does P* =f?
+Note that, after formally defining &phis; for P in a fixedprogramming language L, an affirmative answer to question 1 reducesto showing that the competent programmer hypothesis holds for thisL and &phis;.
+We have observed that under many natural definitions of&phis; there is often a strong coupling between members of&phis; and a small subset µ. That is, often one canreduce the problem of finding test data that differentiates P from&phis; to that of finding test data that differentiates P fromµ. We will call this subset µ the mutants of Pand the second question we will study involves the so-calledcoupling effect [9]:
+Question 2 (Coupling Effect): If P passes the µmutant test with data D, does P pass the &phis; mutant testwith data D?
+Intuitively, one can think of µ as representing theprograms that are "very close" to P.
+In the next section we will present two types of theoreticalresults concerning the two questions above: general resultsexpressed in terms of properties of the language class L, andspecific results for a class of decision table programs and for asubset of LISP. Portions of the work on decision tables and LISPhave appeared elsewhere [5,6], but the presentations given here areboth simpler and more unified. In the final section we present asystem for applying program mutation to FORTRAN and we introduce anew type of software experiment, called a "beat the system"experiment, for evaluating how well our system approximates anaffirmative response to the program mutation questions.

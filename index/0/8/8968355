@@ -1,0 +1,1 @@
+Global storage allocation for attributes in an attribute grammar evaluator is discussed and an algorithm for determining if a given set of attribute occurrences can share a common global storage is obtained.

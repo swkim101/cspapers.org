@@ -1,0 +1,5 @@
+In this paper, we present MAS, a practical memory analysis system for identifying a kernel rootkit's memory footprint in an infected system. We also present two large-scale studies of applying MAS to 848 real-world Windows kernel crash dumps and 154,768 potential malware samples. 
+ 
+Error propagation and invalid pointers are two key challenges that stop previous pointer-based memory traversal solutions from effectively and efficiently analyzing real-world systems. MAS uses a new memory traversal algorithm to support error correction and stop error propagation. Our enhanced static analysis allows the MAS memory traversal to avoid error-prone operations and provides it with a reliable partial type assignment. 
+ 
+Our experiments show that MAS was able to analyze all memory snapshots quickly with typical running times between 30 and 160 seconds per snapshot and with near perfect accuracy. Our kernel malware study observes that the malware samples we tested hooked 191 different function pointers in 31 different data structures. With MAS, we were able to determine quickly that 95 out of the 848 crash dumps contained kernel rootkits.

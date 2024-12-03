@@ -1,0 +1,1 @@
+We propose a portable JavaScript thread library to facilitate the development of Ajax applications. It enables programmers to write asynchronous programs using threads. Since the proposed library is implemented without modifying any existing systems, it is portable among popular Web browsers and has high affinity with the existing event system.

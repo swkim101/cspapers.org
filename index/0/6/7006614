@@ -1,0 +1,26 @@
+Functional programming techniques are becoming increasingly important in data-centric programming: languages like Haskell, Scala and C# draw heavily on a range of functional techniques and find application in numerous data-driven domains; functional paradigms like map/reduce and its extensions lie at the core of modern scalable data processing; and "information-rich" languages like Ur, F# and Gosu use metaprogramming to integrate type-safe queries, web-based APIs and scalable data sources along with associated semantically-rich metadata into the programming language. In principle, the expressiveness, strong typing and core functional paradigm of these languages make them an ideal choice for expressing robust and scalable data-centric programming. 
+ 
+However, many challenges remain. We live in an information rich world. Programming languages are not designed for this. On the programming side, as the world moves into ubiquitous computing with devices and services, it is vital that developers can productively integrate information at internet-scale into their everyday programming environment. On the information side, as the web continues to grow with linked data and open data resources being made available more broadly by government agencies (e.g. World Bank) and communities (e.g. Freebase) it becomes even more important to have the tools and mechanisms to make sense of the data. 
+ 
+The goal of the Data Driven Functional Programming Workshop 2013 is to discuss, promote, and advance the use of functional programming in information-rich data spaces --- including the development of new programming and data-manipulation systems and the extension of existing ones. By devising methods for handling data from the programming level, we can promote the research and development of better functional programming technologies as a whole, as well as facilitate the shift towards both principled and effective data-centric computing. 
+ 
+The papers included in the proceedings explore the area of data-centric programming in the light of today's data challenges, particularly with a view to the application of functional programming and metaprogramming techniques. Research projects and short papers explore the following topics: 
+Formal systems that capture the essential theoretical elements of data-centric programming 
+Experimental systems that demonstrate novel data-centric programming techniques 
+Technology that demonstrate correctness, scalability, productivity, robustness or maintainability of data-centric programs 
+Schema evolution, schema-type mapping, query languages, probabilistic programming, networkconnected programming or semi-structured data 
+Programming-related aspects of knowledge representation techniques including the database theory, ontology techniques and linked data. 
+ 
+ 
+ 
+New views and opinions, coming from the functional programming and semantic web communities, address some of the following questions: 
+How to effectively explore, navigate, understand, analyze and present data to the developer 
+What are the necessary tools and language features needed to help streamline the developer experience 
+How to easily access and query linked data 
+How to seamlessly integrate and manipulate diverse datasets 
+How to help humans make sense of semantically-rich data 
+How to address schema evolution, schema-type mapping, query languages, probabilistic programming? 
+ 
+ 
+ 
+In addition, the program includes a keynote, a tutorial on Information-rich Programming and a panel on Next Generation Data-Driven Programming. We hope that these proceedings will help promote the discussion among the data-driven research and the functional programming communities.

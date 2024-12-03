@@ -1,0 +1,11 @@
+Welcome to the fifth Workshop on Declarative Aspects of Multicore Programming -- DAMP 2010. 
+ 
+The advent of multicore architectures has profoundly increased the importance of research in parallel computing. Modern platforms are becoming more complex and heterogenous and novel solutions are needed to account for their peculiarities. 
+ 
+Multicore architectures differ in significant ways from their multisocket predecessors. For example, the communication to compute bandwidth ratio is likely to be higher, which positively impacts performance. More generally, multicore architectures introduce several new dimensions of variability in both performance guarantees and architectural contracts, such as the memory model, that may not stabilize for several generations of product. 
+ 
+Programs written in functional or (constraint-) logic programming languages, or in other highly declarative languages with a controlled use of side effects, can greatly simplify parallel programming. Such declarative programming allows for a deterministic semantics even when the underlying implementation might be highly non-deterministic. In addition to simplifying programming this can simplify debugging and analyzing correctness. 
+ 
+DAMP 2010 is the fifth in a series of one-day workshops seeking to explore ideas in declarative programming language design that will greatly simplify programming for multicore architectures, and more generally for tightly coupled parallel architectures. The emphasis is on (constraint) logic and functional programming, but any declarative programming language ideas that aim to raise the level of abstraction are welcome. DAMP seeks to gather together researchers in declarative approaches to parallel programming and to foster cross fertilization across different approaches. 
+ 
+The call for papers generated 12 submissions, from Germany, UK, Italy, the Netherlands, and the US. Maintaining its traditional high-quality standards, the Program Committee selected 8 papers for inclusion in the final workshop program. In addition to the refereed papers, the final program includes two invited presentations, by Laurent Michel (University of Connecticut) and Satnam Singh (Microsoft Research).

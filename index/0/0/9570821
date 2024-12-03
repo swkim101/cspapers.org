@@ -1,0 +1,1 @@
+UniFrame is a framework for seamlessly assembling heterogeneous distributed components. It is based on the Unified Meta-component Model (UMM). UniFrame uses two-level grammar (TLG) for formally specifying components and translation into other component representations for component service export and assembly.

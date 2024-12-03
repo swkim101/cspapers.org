@@ -1,0 +1,1 @@
+We present a store-passing translation of System F with general references into an extension of System Fω with certain well-behaved recursive kinds. This seems to be the first type-preserving store-passing translation for general references. It can be viewed as a purely syntactic account of a possible worlds model.

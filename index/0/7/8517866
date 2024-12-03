@@ -1,0 +1,1 @@
+We present a new QoS-enabled load management framework for component oriented middleware. It offers the possibility of selecting the optimal load distribution algorithms and changing the load metrics at runtime. The QoS service level agreements are made at user level, transparent to the managed application.

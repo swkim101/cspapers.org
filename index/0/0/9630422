@@ -1,0 +1,1 @@
+The Squawk virtual machine is a small Java(TM) VM written in Java that runs without an OS on small devices. Squawk implements an isolate mechanism allowing applications to be reified. Multiple isolates can run in the one VM, and isolates can be migrated between different instances of the VM.

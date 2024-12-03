@@ -1,0 +1,5 @@
+Advances in modern cryptography coupled with rapid growth in processing and communication speeds make secure two-party computation a realistic paradigm. Yet, thus far, interest in this paradigm has remained mostly theoretical. 
+ 
+This paper introduces Fairplay [28], a full-fledged system that implements generic secure function evaluation (SFE). Fairplay comprises a high level procedural definition language called SFDL tailored to the SFE paradigm; a compiler of SFDL into a one-pass Boolean circuit presented in a language called SHDL; and Bob/Alice programs that evaluate the SHDL circuit in the manner suggested by Yao in [39]. 
+ 
+This system enables us to present the first evaluation of an overall SFE in real settings, as well as examining its components and identifying potential bottlenecks. It provides a test-bed of ideas and enhancements concerning SFE, whether by replacing parts of it, or by integrating with it. We exemplify its utility by examining several alternative implementations of oblivious transfer within the system, and reporting on their effect on overall performance.

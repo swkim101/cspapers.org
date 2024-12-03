@@ -1,0 +1,3 @@
+Introduction to Object-Oriented DesignLori Stipp & Grady Booth, Rational
+This tutorial describes the Booth method for object-orienteddesign, including details of the notation and the design process.It describes the principles that are necessary for thinking andabstracting in terms of classes and objects. The tutorial includesa number of examples, including war stories from specific projects.It also covers extensions to the notation beyond that described inObject-Oriented Design with Applications.
+This tutorial is a condensed version of Booths popular tutorialgiven at past OOPSLAs. If you have attended that in the past thenyou should attend tutorial 18 instead of this one.

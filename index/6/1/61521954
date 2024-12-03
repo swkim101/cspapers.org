@@ -1,0 +1,25 @@
+Static Analysis Workshop (SAW 2008) was held on June 12, 2008 in Tucson, Arizona and was co-located with ACM SIGPLAN 2008 Conference on Programming Language Design and Implementation (PLDI 2008). This workshop followed Static Analysis Summit, held in 2006, and Static Analysis Summit II, held in 2007. This year's edition featured participants of the Static Analysis Tool Exposition (SATE) reporting their experience and interesting observations. 
+ 
+The Call for Papers solicited contributions describing basic research, applications, experience, or proposals relevant to static analysis tools, techniques, and their evaluation. Questions and topics of interest included but were not limited to: 
+ 
+• Contribution of static analysis to software security assurance 
+ 
+• Issues in applying static analysis to binaries 
+ 
+• Static analysis at the design or requirements level 
+ 
+• Issues in scaling static analysis to deal with large systems 
+ 
+• Integration of, or tradeoffs between, different analysis techniques 
+ 
+• Flaw catching vs. sound analysis 
+ 
+• Benchmarks or reference datasets 
+ 
+• Formal pattern languages to describe vulnerabilities 
+ 
+• User experience drawing useful lessons or comparisons 
+ 
+• Case studies on real applications 
+ 
+Arnaud Venet, formerly of Kestrel Technologies, was originally the chair of the workshop. He issued the call for papers, recruited the program committee, and began the review process for submitted papers. Because of health and employment issues, Paul Black stepped in and completed the workshop process.

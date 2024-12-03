@@ -1,0 +1,2 @@
+This article describes the design and use of the CUTE C++ testing framework and its integration into the Eclipse C++ Development Tooling.
+ Unit testing supports code quality and is a corner stone of agile software development. CUTE and its Eclipse plug-in are an easy to use C++ testing framework.

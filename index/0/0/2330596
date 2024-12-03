@@ -1,0 +1,1 @@
+In MRI research labs, algorithms are typically implemented in MATLAB or IDL. If performance is an issue they are ported to C and integrated with interpreted systems, not fully utilizing object-oriented software development. This paper presents Scopira, an open source C++ framework suitable for MRI data analysis and visualization.

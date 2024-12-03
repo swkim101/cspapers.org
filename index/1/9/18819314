@@ -1,0 +1,6 @@
+An extended record facility is described that supports multi-module records by providing:incremental and distributed record type definition, allowing field names of a record to be declared in different modules with different subscopes relative to the root record declaration.
+field-level declaration of access to records by modules and procedures.
+specification of record representation in terms of the underlying computer memory.
+
+We also describe the uses of records that motivate these extensions as well as the compiler modifications required to implement this extended record facility.
+From this work, we conclude that the extended record support can be added as a simple, natural extension to existing programming language designs and its implementation entails only modest additions to the compiler and linker with no significant compilation time cost.

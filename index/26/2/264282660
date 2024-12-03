@@ -1,0 +1,1 @@
+In this paper we briefly review various kinds of software changes and the issues that arise from them. As a consequence, we propose research into programming languages with explicit support for representing first-class changes, and for manipulating and merging multiple viewpoints of evolving software systems.

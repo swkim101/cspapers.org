@@ -1,0 +1,7 @@
+A combined workshop drawing on the faculties of the established “The Bottom Line: Using Object-Oriented Development in the Commercial Environment” workshop and the new “Development Processes for Use of the Object Paradigm” covered issues of process, architecture, and tool support for iterative development. Keynote talks described:
+<list><item>• far-reaching multidimensional development methods
+</item><item>•the problems of semantic coupling between objects
+</item><item>•a highly iterative development project using a symbolic language
+</item><item>•a pioneering development where high-level management was given a traditional view of development, while first-level management enjoyed the benefits of  more loosely structured iteration
+</item><item>•the use of formal specifications as a universal development tool facilitating compactness and analysis
+</item></list>Discussion on architecture, tools and reuse, and management techniques followed. Key areas of consensus included the multidimensionality of architecture, the inadequacy of class models alone to encapsulate change, the importance of tool support, and the need for local standards such as “software backplanes.”

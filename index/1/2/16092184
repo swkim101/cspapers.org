@@ -1,0 +1,1 @@
+In this paper we present some of the control constructs of the language CP, which is based on a concurrent interpretation of Horn logic programming. We present a formal structural operational semantics and relate the meaning of programs in this language to the underlying (pure) Horn clause axioms.

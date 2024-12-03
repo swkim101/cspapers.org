@@ -1,0 +1,1 @@
+A method is presented that permits assertional reasoning about a concurrent program even though the atomicity of the elementary operations is left unspecified. It is based upon a generalization of the dynamic logic operator [α]. The method is illustrated by verifying the mutual exclusion property for a two-process version of the bakery algorithm.

@@ -1,0 +1,1 @@
+We propose a self-optimizing application server design for EJB component technology. Optimizations are driven by the discovery of inter-component communication patterns and the application of corresponding container refactorings. Our solution attempts to address the impact the application server has on system performance.

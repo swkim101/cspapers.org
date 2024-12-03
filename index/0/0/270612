@@ -1,0 +1,1 @@
+R<scp>ANDOOP</scp> for Java generates unit tests for Java code using feedback-directed random test generation. Below we describe R<scp>ANDOOP</scp>'s input, output, and test generation algorithm. We also give an overview of RANDOOP's annotation-based interface for specifying configuration parameters that affect R<scp>ANDOOP</scp>'s behavior and output.

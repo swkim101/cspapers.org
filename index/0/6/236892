@@ -1,0 +1,7 @@
+The advent of Web 2.0 has lead to the proliferation of client-side code that is typically written in JavaScript. This code is often combined -- or mashed-up -- with other code and content from disparate, mutually untrusting parties, leading to undesirable security and reliability consequences. 
+ 
+This paper proposes GATEKEEPER, a mostly static approach for soundly enforcing security and reliability policies for JavaScript programs. GATEKEEPER is a highly extensible system with a rich, expressive policy language, allowing the hosting site administrator to formulate their policies as succinct Datalog queries. 
+ 
+The primary application of GATEKEEPER this paper explores is in reasoning about JavaScript widgets such as those hosted by widget portals Live.com and Google/IG. Widgets submitted to these sites can be either malicious or just buggy and poorly written, and the hosting site has the authority to reject the submission of widgets that do not meet the site's security policies. 
+ 
+To show the practicality of our approach, we describe nine representative security and reliability policies. Statically checking these policies results in 1,341 verified warnings in 684 widgets, no false negatives, due to the soundness of our analysis, and false positives affecting only two widgets.

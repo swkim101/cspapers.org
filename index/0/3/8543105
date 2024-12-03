@@ -1,0 +1,1 @@
+Accidental mutation is a major source of difficult-to-detect errors in object-oriented programs. We have built tools that detect and prevent such errors. The tools include a javac plug-in that enforces the Javari type system, and a type inference tool. The system is fully compatible with existing Java programs.

@@ -1,0 +1,1 @@
+This paper describes a method for safe use of the X window system protocol across a firewall. The approach uses an agent in the communications stream to enforce an access control policy. Topics covered include risks, policy, implementation, and a summary of prototype efforts. Results can be applied to other distributed or client/server applications.

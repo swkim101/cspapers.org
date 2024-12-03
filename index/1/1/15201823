@@ -1,0 +1,1 @@
+Aspect-oriented programming (AOP) is gaining popularity as a new way of modularising cross-cutting concerns. The aspectbench compiler (abc) is a new workbench for AOP research which provides an extensible research framework for both new language features and new compiler optimisations. This poster presents the abc architecture, as well as example uses.

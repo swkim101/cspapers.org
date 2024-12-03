@@ -1,0 +1,1 @@
+The language SUMMER is intended for the solution of problems in text processing and string manipulation. The language consists of a small kernel which supports success-directed evaluation, control structures, recovery caches and a data abstraction mechanism. It is shown how this kernel can be extended to support simultaneous pattern matching in arbitrary domains.

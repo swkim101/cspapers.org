@@ -1,0 +1,1 @@
+Object-oriented frameworks are very popular for the efficiency they provide in reusing software. However, their use by instantiation, their enrichment by composition, and their extension by specialization, are all complicated operations requiring to be simplified by the introduction of new techniques and models.

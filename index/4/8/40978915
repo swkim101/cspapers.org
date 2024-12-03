@@ -1,0 +1,2 @@
+The Design and Management of C++ Class LibrariesArthuir Riel, Vanguard Training
+Producing reusable C++ class libraries takes more than justknowing the language: it requires careful design. This tutorialshows how to create truly reusable C++ class libraries. It includeshow to design a minimal public interface, variable-size objects,memory leakage, heuristics for operator overloading, designingreusable base-classes, using inheritance and containment, anddeciding how to place classes in a class library.

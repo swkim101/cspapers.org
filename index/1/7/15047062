@@ -1,0 +1,3 @@
+While security is a critical component of information systems, at times it can be frustrating for end users. Security systems exist to minimise the risks of allowing users to access and modify data, but rarely do they consider the risks of not granting access. 
+ 
+This paper describes an access control system which is optimistic, i.e. it assumes accesses are legitimate, and allows audit and recovery of the system when they are not. The concepts of well-formed and partially-formed transactions as mechanisms for constraining pessimistic and optimistic accesses is briefly described, and the paper details a prototype implementation for the Solaris operating system which provides a reference monitor for enforcement of both these transactions.

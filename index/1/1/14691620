@@ -1,0 +1,1 @@
+A denotational semantic definition of SMALLTALK-80 is given. Its most notable characteristic is a surprisingly simple treatment of inheritance. An executable version of the semantics, written in STANDARD ML, is also described.

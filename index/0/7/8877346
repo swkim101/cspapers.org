@@ -1,0 +1,1 @@
+This pearl develops a statement about parallel prefix computation in the spirit of Knuth's 0-1-Principle for oblivious sorting algorithms. It turns out that 0-1 is not quite enough here. The perfect hammer for the nails we are going to drive in is relational parametricity.

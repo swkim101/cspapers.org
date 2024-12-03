@@ -1,0 +1,1 @@
+This document describes how the Norwegian education portal (www.utdanning.no) uses XML and the Learning Object Metadata standard (LOM) to integrate existing providers of learning objects into one common search portal. LOM is an IEEE standard (IEEE 1484.12.1) for categorizing and describing learning objects [1].

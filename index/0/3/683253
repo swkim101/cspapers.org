@@ -1,0 +1,3 @@
+CLAM is an object-oriented system designed to support the building of extensible graphical user interfaces. CLAM provides a basic windowing environment with the ability to extend its functions using dynamically loaded C++ classes. The dynamically loaded classes allow for performance tuning (by transparently loading the class in either the client or the CLAM server) and for sharing of new functions.
+In addition to the traditionally layering of output abstractions, CLAM allows the programmer to easily layer input abstractions. The input functions include providing distributed upward calls through the layers, an light weight processes to support asynchronous input.
+CLAM is currently running under 4.3BSD UNIX on a MicroVax-II workstation.

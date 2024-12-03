@@ -1,0 +1,1 @@
+We develop a theory for the correctness of asynchronous parallel programs. A program is considered correct if its behavior is in some sense similar to that of an abstract version of the program. We discuss various criteria for this similarity. We then concentrate on one of them and develop a technique for showing that a parallel program is correct with respect to this criterion.

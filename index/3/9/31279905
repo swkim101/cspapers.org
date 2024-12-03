@@ -1,0 +1,3 @@
+The need for searching a space of solutions appears often. Many problems, such as iteration over a dynamically created domain, can be expressed most naturally using a generate-and-process style. Serial programming languages typically support solutions of these problems by providing some form of generators or backtracking.
+A parallel programming language is more demanding since it needs to be able to express parallel generation and processing of elements. Failure driven computation is no longer sufficient and neither is multiple-assignment to generated values.
+We describe the replicator control operator used in the high level parallel programming language ALLOY. The replicator control operator provides a new view of generators which deals with these problems.

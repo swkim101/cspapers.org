@@ -1,0 +1,1 @@
+This paper gives a systematic description of several calculi of explicit substitutions. These systems are orthogonal and have easy proofs of termination of their substitution calculus. The last system, called λv, entails a very simple environment machine for strong normalization of λ-terms.

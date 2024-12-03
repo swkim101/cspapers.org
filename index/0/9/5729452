@@ -1,0 +1,1 @@
+Application developers often use example applications as a guide to learn how to implement a framework-provided concept. To ease applying this technique, we present a novel framework comprehension technique called FUDA. FUDA integrates a new dynamic slicing approach with clustering and data mining techniques to generate the implementation recipes of a desired concept.

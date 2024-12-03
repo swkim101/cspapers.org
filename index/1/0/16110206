@@ -1,0 +1,1 @@
+We present an algorithm for incrementally including may-alias information into Static Single Assignment form by computing a sequence of increasingly precise (and correspondingly larger) partial SSA forms. Our experiments show significant speedup of our method over exhaustive use of may-alias information, as optimization problems converge well before most may-aliases are needed.

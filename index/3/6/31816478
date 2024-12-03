@@ -1,0 +1,1 @@
+Java Specification Request 305 defines a set of annotations that can understood by multiple static analysis tools. Rather than push the bleeding edge of static analysis, this JSR represents an attempt to satisfy different static analysis tool vendors and address the engineering issues required to make these annotations widely useful.

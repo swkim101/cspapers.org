@@ -1,0 +1,5 @@
+Welcome to the 8th edition of Programming Languages meets Program Verification (PLPV). 
+ 
+The PLPV series of workshops aims to bring together researchers working in the intersection of programming languages and program verification. Relevant topics include, but are not limited to, types, contracts, interactive theorem proving, model checking, and program analysis. A common theme of work in this area is to make program verification easier through the use and/or design of programming language features. One example is provided by dependent types, which make it possible to specify and verify complicated properties using a language's type system. Another example is the combination of programming languages with SMT solvers to automate program verification. 
+ 
+This year the workshop received seven submissions, out of which five were accepted for publication. The programme also includes two invited talks, one by Ranjit Jhala, and one by Lee Pike.

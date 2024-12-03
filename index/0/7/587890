@@ -1,0 +1,8 @@
+Java byte codes are platform-independent. That means that any characterization of Java applications at the byte code execution level will reveal characteristics that any Java Virtual Machine will have to deal with, no matter whether this JVM is a Just-In-Time native code optimizing compiler running on a state-of-the-art high-performance workstation, or a byte code interpreter running in a watch.
+We believe that predictability profiles are particularly well-suited to capture and visualize program behavior, at a variable level of detail, as required by a systems architect interested in control flow, data flow, or automatic memory managment.
+We present predictability profiles for 6 SPECJVM98 programs, for three byte code sub traces.
+Subtrace:
+Invoke (polymorphic call target prediction)
+Load (load effective address prediction)
+New (new effective type prediction)
+For example, for Invoke byte codes, we measured the prediction rate achieved by invoke target predictors within every 20000 bytecodes of the first 2 million bytecodes executed using an unlimited, fully accurate BTB, and of Two-level predictors of path lengths 1,2,4,8, and 16. Prediction profiles for all these predictors are generally close together, but usually a BTB performs best in variable program phases.

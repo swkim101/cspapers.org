@@ -1,0 +1,6 @@
+Jalapeño is a virtual machine for Java#8482; servers written in Java.
+A running Java program involves four layers of functionality: the user code, the virtual-machine, the operating system, and the hardware. By drawing the Java / non-Java boundary below the virtual machine rather than above it, Jalapeño reduces the boundary-crossing overhead and opens up more opportunities for optimization.
+To get Jalapeño started, a boot image of a working Jalapeño virtual machine is concocted and written to a file. Later, this file can be loaded into memory and executed. Because the boot image consists entirely of Java objects, it can be concocted by a Java program that runs in any JVM. This program uses reflection to convert the boot image into Jalapeño's object format.
+A special MAGIC class allows unsafe casts and direct access to the hardware. Methods of this class are recognized by Jalapeño's three compilers, which ignore their bytecodes and emit special-purpose machine code. User code will not be allowed to call MAGIC methods so Java's integrity is preserved.
+A small non-Java program is used to start up a boot image and as an interface to the operating system.
+Java's programming features — object orientation, type safety, automatic memory management — greatly facilitated development of Jalapeño. However, we also discovered some of the language's limitations.

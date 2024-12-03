@@ -1,0 +1,2 @@
+The standard formulation of bounded quantification, system F≤, is difficult to work with and lacks important syntactic properties, such as decidability. More tractable variants have been studied, but those studied so far either exclude significant classes of useful programs or lack a compelling semantics.
+We propose here a simple variant of F≤ that ameliorates these difficulties. It has a natural semantic interpretation, enjoys a number of important properties that fail in F≤, and includes all of the programming examples for which F≤ has been used in practice.

@@ -1,0 +1,1 @@
+As software systems evolve, they often grow more brittle. Design snippets help software engineers detect brittleness and improve the ease of change of their software. By studying design snippets and code together, a software engineer can locate improvements that prevent costly changes in the long term.

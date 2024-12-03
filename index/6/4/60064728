@@ -1,0 +1,1 @@
+This position paper provides a quick overview of the various behavioral specification techniques, from decision tables, finite state machines, Petri nets, and program design languages, to formal specification languages. It contrasts property based behavioral models (and languages) with model-based ones.

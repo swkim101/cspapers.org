@@ -1,0 +1,1 @@
+In this paper we describe AutAT, an open source Eclipse plugin to better enable test driven development of web applications. AutAT lets non-technical people write acceptance tests (or functional tests) using a user-friendly graphical editor, and convert this visual representation of the tests into executable tests.

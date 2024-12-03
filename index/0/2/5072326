@@ -1,0 +1,1 @@
+We present a notion of η-long β-normal term for the typed lambda calculus with sums and prove, using Grothendieck logical relations, that every term is equivalent to one in normal form. Based on this development we give the first type-directed partial evaluator that constructs %able to construct normal forms of terms in this calculus.

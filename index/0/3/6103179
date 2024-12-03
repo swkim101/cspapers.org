@@ -1,0 +1,5 @@
+This article describes mechanisms for offline delegation of access rights to files maintained by a distributed "File Repository". The mechanisms are designed for a target environment where personal machines are used at times when critical services, such as authentication and authorization services, are not accessible. We demonstrate how valid delegation credentials can be transferred verbally without the use of shared secrets. 
+ 
+Our main result shows that delegation of access rights can be accomplished in a system that uses public-key encryption for secrecy and integrity, without forcing the user to rely on a trusted third party, and without requiring connection to the infrastructure. 
+ 
+The implementation runs on a contemporary Personal Digital Assistant (PDA); the performance is satisfactory.

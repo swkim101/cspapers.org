@@ -1,0 +1,1 @@
+We wish to make frame-based computing easer to deal with by providing a visualization interface. This interface will both show the contents of the knowledge base and show the code execution of a frame-based program. We have implemented FRL, a frame-based language, and extended it with the visualization interface.

@@ -1,0 +1,1 @@
+λv is an extension of the λ-calculus with a binding construct for local names. The extension has properties analogous to classical λ-calculus and preserves all observational equivalences of λ. It is useful as a basis for modeling wide-spectrum languages that build on a functional core.

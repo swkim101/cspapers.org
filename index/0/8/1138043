@@ -1,0 +1,5 @@
+Client authentication on the web has remained in the internet-equivalent of the stone ages for the last two decades. Instead of adopting modern public-key-based authentication mechanisms, we seem to be stuck with passwords and cookies. 
+ 
+In this paper, we propose to break this stalemate by presenting a fresh approach to public-key-based client authentication on the web. We describe a simple TLS extension that allows clients to establish strong authenticated channels with servers and to bind existing authentication tokens like HTTP cookies to such channels. This allows much of the existing infrastructure of the web to remain unchanged, while at the same time strengthening client authentication considerably against a wide range of attacks. 
+ 
+We implemented our system in Google Chrome and Google's web serving infrastructure, and provide a performance evaluation of this implementation.

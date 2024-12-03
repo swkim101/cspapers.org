@@ -1,0 +1,2 @@
+A multilevel secure object-oriented data model (using the ORION data model) is proposed for which mandatory security issues in the context of a database system is discussed. In particular the following issues are dealt with: (1) the security policy for the system, (2) handling polyinstantiation, and (3) handling the inference problem.
+A set of security properties that has been established in this paper is more complete than those that have been proposed previously. Finally we describe how certain security constraints are handled by our model.

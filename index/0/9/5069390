@@ -1,0 +1,1 @@
+The paper introduces a reachability predicate for linear lists, develops the elementary axiomatic theory of the predicate, and illustrates its application to program verification with a formal proof of correctness for a short program that traverses and splices linear lists.

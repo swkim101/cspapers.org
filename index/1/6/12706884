@@ -1,0 +1,1 @@
+We present an extension to Java, dubbed OOMatch. It allows method parameters to be specified as <i>patterns</i>, which are <i>matched</i> against the arguments to the method call. When matches occur, the method <i>applies</i>; if multiple methods apply, the method with the <i>more specific</i> pattern <i>overrides</i> the others.

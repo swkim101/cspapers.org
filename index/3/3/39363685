@@ -1,0 +1,1 @@
+The poster describes the design and implementation of the optimizing JIT-compilation subsystem for SSCLI (Rotor) 2.0 virtual machine. This presentation covers overall design of the subsystem, integration issues, and a fast algorithm for the 1st level compilation.

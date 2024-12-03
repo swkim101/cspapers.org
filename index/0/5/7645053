@@ -1,0 +1,5 @@
+The ubiquitous webcam indicator LED is an important privacy feature which provides a visual cue that the camera is turned on. We describe how to disable the LED on a class of Apple internal iSight webcams used in some versions of MacBook laptops and iMac desktops. This enables video to be captured without any visual indication to the user and can be accomplished entirely in user space by an unprivileged (non-root) application. 
+ 
+The same technique that allows us to disable the LED, namely reprogramming the firmware that runs on the iSight, enables a virtual machine escape whereby malware running inside a virtual machine reprograms the camera to act as a USB Human Interface Device (HID) keyboard which executes code in the host operating system. 
+ 
+We build two proofs-of-concept: (1) an OS X application, iSeeYou, which demonstrates capturing video with the LED disabled; and (2) a virtual machine escape that launches Terminal.app and runs shell commands. To defend against these and related threats, we build an OS X kernel extension, iSightDefender, which prohibits the modification of the iSight's firmware from user space.

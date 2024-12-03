@@ -1,0 +1,1 @@
+Object-oriented user interface frameworks are usually implemented in a class-based language. We chose instead to develop a prototype-based language, NewtonScript, for this purpose. We found that prototype inheritance has compelling advantages over classes in the domain of user interface programming, and can help overcome the memory constraints of a small machine.

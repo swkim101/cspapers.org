@@ -1,0 +1,1 @@
+This paper describes a type system for Smalltalk that is type-safe, that allows most Smalltalk programs to be type-checked, and that can be used as the basis of an optimizing compiler.

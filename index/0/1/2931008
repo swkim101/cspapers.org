@@ -1,0 +1,1 @@
+We demonstrate a static analysis for extracting instance-based hierarchical views showing the runtime object graph for object-oriented programs. The code is annotated with ownership domain annotations and with additional annotations to make the output more visually appealing.

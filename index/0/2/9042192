@@ -1,0 +1,1 @@
+We describe a complete system for gathering, computing and presenting dynamic metrics from Java programs. The system itself was motivated from our real goals in understanding program behaviour as compiler/runtime developers, and so solves a number of practical and difficult problems related to metric gathering and analysis.

@@ -1,0 +1,1 @@
+PetShop is a CASE tool dedicated to the formal behavioral specification of CORBA systems. The tool uses high-level Petri nets as its specification language, and integrates seamlessly in a CORBA distributed environment, allowing for direct interpretation of specification models.

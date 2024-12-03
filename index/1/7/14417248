@@ -1,0 +1,1 @@
+We describe JunGL, a language to script refactoring transformations. It manipulates a graph representation of the program, including extensible semantic information such as variable binding and dataflow. JunGL enables the full automation of complex refactorings: finding program elements of interest, checking preconditions and performing the transformation itself.

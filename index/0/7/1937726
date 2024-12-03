@@ -1,0 +1,1 @@
+While the relations between classes in OO analysis and design have so far been restricted to two general types: aggregation and specialization, this often falls short of correctly describing the real world. The film seeks to redress this shortcoming by postulating the existence of a third kind of relation, called parental inheritance, between classes in strongly typed languages.

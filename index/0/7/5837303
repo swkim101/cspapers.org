@@ -1,0 +1,1 @@
+Scenarios are vital for the specification of software systems. We are developing an open framework for the specification, execution, and conformance evaluation of scenarios. The scenarios define a contract which is bound to an implementation under test. The scenarios are executed by our framework to ensure conformance against the contract.

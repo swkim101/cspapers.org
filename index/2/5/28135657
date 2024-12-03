@@ -1,0 +1,1 @@
+Developing large software systems has largely become an exercise in integration. The main effort is writing "glue" that holds externally developed components together. We will explore the shift away from commercial off-the-shelf (COTS) to free/open source software (F/OSS) components, and identify the opportunities and issues introduced by it.

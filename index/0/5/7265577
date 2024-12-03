@@ -1,0 +1,1 @@
+The λ&sgr;-calculus is a refinement of the λ-calculus where substitutions are manipulated explicitly. The λ&sgr;-calculus provides a setting for studying the theory of substitutions, with pleasant mathematical properties. It is also a useful bridge between the classical λ-calculus and concrete implementations.

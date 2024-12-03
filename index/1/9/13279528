@@ -1,1 +1,0 @@
-This paper presents an application of adaptive neural network to control of autonomous underwater vehicle. Adaptive neural networks by adaptive interaction are designed for controlling heading, depth and speed of the vehicle. Computer simulations are carried out to verify the control system. Good results are obtained under the influence of measurement noise and current.

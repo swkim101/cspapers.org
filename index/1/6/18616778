@@ -1,0 +1,1 @@
+A variety of different designs and optimisation strategies for trace monitoring have been proposed recently. Here, we examine trade-offs in simplicity of implementation and expressiveness of supported patterns, briefly discuss the underlying data structures of two mainstream implementations, and provide a short evaluation of the effectiveness ofmemory optimisations.

@@ -1,0 +1,1 @@
+This paper describes a novel approach to the treatment of data types in programming languages, which allows a simple interpretation of "polymorphic" or "generic" procedures, makes a simple set of type-checking rules semantically justifiable and provides a straightforward treatment of encapsulation.

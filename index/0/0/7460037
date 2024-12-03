@@ -1,0 +1,1 @@
+A parsing method based on the triconnected decomposition of a biconnected graph is presented. The parsing algorithm runs in linear time and handles a large class of flow graphs. The applications of this algorithm to flow analysis and to the automatic structuring of programs are discussed.

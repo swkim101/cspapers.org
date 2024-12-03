@@ -1,0 +1,1 @@
+AliasJava is a type annotation system that extends Java to express how data is confined within, passed among, or shared between objects in a software system. We present an implementation of the AliasJava system as Java 1.5 annotations and an analysis using the Eclipse infrastructure.

@@ -1,0 +1,3 @@
+This paper reports on the design, implementation, and empirical results of a new method for dealing with the aliasing problem in C. The method is based on approximating the points-to relationships between accessible stack locations, and can be used to generate alias pairs, or used directly for other analyses and transformations.
+Our method provides context-sensitive interprocedural information based on analysis over invocation graphs that capture all calling contexts including recursive and mutually-recursive calling contexts. Furthermore, the method allows the smooth integration for handling general function pointers in C.
+We illustrate the effectiveness of the method with empirical results from an implementation in the McCAT optimizing/parallelizing C compiler.

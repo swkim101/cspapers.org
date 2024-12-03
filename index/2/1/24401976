@@ -1,0 +1,1 @@
+This article describes a flexible architecture for developing services-based business applications that use component-based architectural services to demarcate the application into various tiers that enable the decoupling of each layer, both logically and physically. This provides the speed and flexibility needed to embrace new product ideas, channels, and markets.

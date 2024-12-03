@@ -1,0 +1,1 @@
+As bases for object-orientation, both class-based and prototype-based organization have limitations. We argue that roles have significant benefits as a foundation for organizing objects. We further argue that these benefits can be realised most flexibly using logic meta-programming. Additional benefits from this approach are to reduce redundancy and subsume aspects.

@@ -1,0 +1,1 @@
+This poster describes the code developed for simulations of disordered electron-phonon systems. This code uses the C++ Standard Template Library (STL) and is designed to be easily changed when the physicists want to change aspects of the simulation.

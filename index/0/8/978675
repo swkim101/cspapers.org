@@ -1,0 +1,1 @@
+There are no mature guidelines or methodologies exist for extracting patterns. Software Stability Model [2] can provide a base for extracting patterns. This poster presents the concept of extracting both domain-specific and domain- independent patterns from systems that are built using software stability concepts.

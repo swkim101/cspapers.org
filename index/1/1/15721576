@@ -1,0 +1,2 @@
+Various issues make framework development harder than regular development. Building product lines and frameworks requires increased coordination and communication between stakeholders and across the organization.
+ The difficulty of building the right abstractions ranges from understanding the domain models, selecting and evaluating the framework architecture, to designing the right interfaces, and adds to the complexity of a framework project.

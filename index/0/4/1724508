@@ -1,0 +1,1 @@
+This paper analyzes the semantics of the programming language SNOBOL4, following the mathematical approach proposed by D. Scott and C. Strachey. The study aims at clarifying a rather unusual semantic structure, and at demonstrating that the mathematical approach can provide a natural and usable formal specification of a practical programming language.

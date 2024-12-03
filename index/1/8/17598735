@@ -1,0 +1,1 @@
+In work to date, domain analysis methods do not explicitly emphasize stability. In this poster, we present the <i>SODA</i> (Stability-Oriented Domain Analysis) method, a domain analysis method that embraces stability as a driver for domain analysis. We give an overview and an example of the method.

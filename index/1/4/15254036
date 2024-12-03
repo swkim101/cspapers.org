@@ -1,0 +1,1 @@
+Direct redeployment of an application from one scenario to another through straightforward refactoring is difficult. Application objects need to be in a form amenable to partitioning. We propose Breakable Objects - BoBs, as a solution. We show how BoBs may be used(BoB Driven Architecture) in an application and how BoBs are favorable to splitting and redeployment.

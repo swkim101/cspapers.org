@@ -1,0 +1,1 @@
+We present the best known algorithm for the determination of run-time types in a programming language requiring no type declarations. We demonstrate that it is superior to other published algorithms and that it is the best possible algorithm from among all those that use the same set of primitive operators.

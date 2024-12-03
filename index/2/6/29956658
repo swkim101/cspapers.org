@@ -1,0 +1,3 @@
+Languages--what's to learn from them? Relics of the past; we know how to design them/to use them. Types/messages /invocation/loops/numbers/methods/big ol' libraries/lots of = signs. Heh, but...
+ What is programming, and what role do programming languages play in that process?
+ We have learned a lot over the last five decades: organizing principles, established conventions, theory, fashions, and fads. "Those who cannot remember the past are condemned to repeat it." In this talk we survey what we think are the most important lessons of the past that future programmers--and future programming language designers--ought not forget. We illustrate each lesson by discussing specific programming languages of the past, and endeavor to shine what light we can on the future.

@@ -1,0 +1,1 @@
+We present refactorings that automate the process of migrating pre-generics Java programs to use generics. The task is divided in two parts: introduction of formal type parameters (parameterization) and inference of actual type parameters (instantiation). We developed efficient techniques and tools to assist developers in both parts. We will present them during the demonstration.

@@ -1,0 +1,2 @@
+This paper describes some experiences in building a software factory by defining multiple small domain specific languages (DSLs) and having multiple small models per DSL. This is in high contrast with traditional approaches using
+monolithic models, e.g. written in UML. In our approach, models behave like source code to a large extend, leading to an easy way to manage the model(s) of large systems.

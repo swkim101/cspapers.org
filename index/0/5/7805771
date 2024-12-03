@@ -1,0 +1,1 @@
+We describe five paradigm shifts in programming language design, some old and some relatively new, namely Effect to Entity, Serial to Parallel, Partition Types to Predicate Types, Computable to Definable, and Syntactic Consistency to Semantic Consistency. We argue for the adoption of each. We exhibit a programming language, Viron, that capitalizes on these shifts.

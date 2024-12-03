@@ -1,0 +1,1 @@
+The use of design patterns in mainstream have been suffered from the lack of an open and flexible supporting tool. To alleviate the problem, we have developed a tool called the PatternStudio. It is entirely based on open technologies, uses a standard serialization format, and can be extended to make further enhancement.

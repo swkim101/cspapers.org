@@ -1,0 +1,1 @@
+Component-based enterprise systems often suffer from performance issues as a result of poor system design. In this paper, we propose a framework to automatically detect, assess and visualize poor system design, from a performance perspective, by analyzing run-time data using data mining techniques.

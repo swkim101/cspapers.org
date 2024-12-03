@@ -1,0 +1,1 @@
+A new approach to data flow analysis of procedural programs and programs with recursive data structures is described. The method depends on simulation of the interpreter for the subject programming language using a retrieval function to approximate a program's data structures.

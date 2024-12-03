@@ -1,0 +1,7 @@
+Black-box web vulnerability scanners are a popular choice for finding security vulnerabilities in web applications in an automated fashion. These tools operate in a point-and-shootmanner, testing any web application-- regardless of the server-side language--for common security vulnerabilities. Unfortunately, black-box tools suffer from a number of limitations, particularly when interacting with complex applications that have multiple actions that can change the application's state. If a vulnerability analysis tool does not take into account changes in the web application's state, it might overlook vulnerabilities or completely miss entire portions of the web application. 
+ 
+We propose a novel way of inferring the web application's internal state machine from the outside--that is, by navigating through the web application, observing differences in output, and incrementally producing a model representing the web application's state. 
+ 
+We utilize the inferred state machine to drive a black-box web application vulnerability scanner. Our scanner traverses a web application's state machine to find and fuzz user-input vectors and discover security flaws. We implemented our technique in a prototype crawler and linked it to the fuzzing component from an open-source web vulnerability scanner. 
+ 
+We show that our state-aware black-box web vulnerability scanner is able to not only exercise more code of the web application, but also discover vulnerabilities that other vulnerability scanners miss.

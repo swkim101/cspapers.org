@@ -1,0 +1,1 @@
+Aspect-Oriented (AO) frameworks improve a framework-centered development process by providing appropriate means for handling crosscutting concerns. However, the instantiation process of AO frameworks remains complex and error-prone. We propose a modeling and transformation approach with tool support to assist the instantiation of AO frameworks.

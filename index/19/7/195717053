@@ -1,0 +1,1 @@
+Existing ownership system forces fixed ownership, whereby an object cannot change its owner at runtime. Transferring ownership dynamically may produce security holes like reference exposure, dangling pointer, etc., that may affect the predestined securities. Here we focus on representing alias bounds on objects which helps in ownership transfer.

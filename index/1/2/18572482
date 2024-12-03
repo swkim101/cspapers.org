@@ -1,0 +1,1 @@
+Reusing domain-independent knowledge might be hindered if such knowledge is presented as an integral part of domain specific components. This poster presents the concept of Stable Atomic Knowledge (SAK) patterns. A SAK pattern presents a domain-independent knowledge in such a way that makes this knowledge reusable whenever it is needed.

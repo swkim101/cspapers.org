@@ -1,0 +1,1 @@
+A virtual machine optimization technique that makes use of bytecode sequences is introduced. The process of determining candidate sequences is discussed and performance gains achieved when applied to a Java interpreter are presented. The suitability of this optimization for JVMs that perform just-in-time compilation is also discussed.

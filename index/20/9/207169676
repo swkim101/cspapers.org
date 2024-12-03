@@ -1,0 +1,3 @@
+This paper explores the use monads to structure functionalprograms. No prior knowledge of monads or category theory isrequired.
+Monads increase the ease with which programs may be modified.They can mimic the effect of impure features such as exceptions,state, and continuations; and also provide effects not easilyachieved with such features. The types of a program reflect whicheffects occur.
+The first section is an extended example of the use of monads. Asimple interpreter is modified to support various extra features:error messages, state, output, and non-deterministic choice. Thesecond section describes the relation between monads and thecontinuation-passing style. The third section sketches how monadsare used in a compiler for Haskell that is written in Haskell.

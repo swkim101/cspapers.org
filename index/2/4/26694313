@@ -1,0 +1,1 @@
+The Eclipse plugin HAM identifies potential aspects in large programs. It analyzes the program's history and obtains sets of function calls that are likely to be cross-cutting. Later during programming, HAM informs the programmer when she is about to extend or change such a problematic concern.

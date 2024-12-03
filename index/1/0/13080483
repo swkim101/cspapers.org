@@ -1,0 +1,2 @@
+This article reveals our work on refactoring plug-ins for Eclipse's C++ Development Tooling (CDT).
+ With CDT a reliable open source IDE exists for C/C++ developers. Unfortunately it has been lacking of overarching refactoring support. There used to be just one single refactoring - Rename. But our plug-in provides several new refactorings which support a C++ developer in his everyday work.

@@ -1,0 +1,1 @@
+In this paper, we describe two programming assignments based on a refactoring of the classic Game of Life application. In particular, we use the Game of Life to help teach freshman students two important and widely applicable design patterns - Command and Visitor.

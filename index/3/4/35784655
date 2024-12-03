@@ -1,0 +1,1 @@
+Generative Programming advocates developing a family of systems rather than a set of single systems. Feature modeling can assist in supporting the development of such software product lines through software reuse. To our knowledge, CASE-FX is the first implementation of state-level feature modeling support within a CASE tool.

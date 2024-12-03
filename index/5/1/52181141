@@ -1,0 +1,1 @@
+JastAddJ is a Java compiler that is easy to extend with new analyses and language constructs. The main systems contains a Java 1.4 compiler with modular Java5 extensions. It compares favourably in quality and size compared to other Java compilers, and runs within a factor of three compared to javac.

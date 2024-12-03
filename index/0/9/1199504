@@ -1,0 +1,5 @@
+Today's operating systems, word processors, web browsers, and other common software take no measures to promptly remove data from memory. Consequently, sensitive data, such as passwords, social security numbers, and confidential documents, often remains in memory indefinitely, significantly increasing the risk of exposure. 
+ 
+We present a strategy for reducing the lifetime of data in memory called secure deallocation. With secure deal-location we zero data either at deallocation or within a short, predictable period afterward in general system allocators (e.g. user heap, user stack, kernel heap). This substantially reduces data lifetime with minimal implementation effort, negligible overhead, and without modifying existing applications. 
+ 
+We demonstrate that secure deallocation generally clears data immediately after its last use, and that without such measures, data can remain in memory for days or weeks, even persisting across reboots. We further show that secure deallocation promptly eliminates sensitive data in a variety of important real world applications.

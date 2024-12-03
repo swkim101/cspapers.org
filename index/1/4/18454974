@@ -1,0 +1,16 @@
+Lambda calculi with algebraic data types lie at the core of functional programming languages and proof assistants, but conceal 
+at least two fundamental theoretical problems already in the presence of the simplest non-trivial data type, the sum type. First, 
+we do not know of an explicit and implemented algorithm for deciding the beta-eta-equality of terms---and this in spite of the first 
+decidability results proven two decades ago. Second, it is not clear how to decide when two types are essentially the same, 
+i.e. isomorphic, in spite of the meta-theoretic results on decidability of the isomorphism. 
+ 
+In this paper, we present the exp-log normal form of types---derived from the representation of exponential polynomials via the unary 
+exponential and logarithmic functions---that any type built from arrows, products, and sums, can be isomorphically mapped to. The type normal form can be used as a simple heuristic for deciding type isomorphism, thanks to the fact that it is a systematic application of the high-school identities. 
+ 
+We then show that the type normal form allows to reduce the standard beta-eta equational theory of the lambda calculus to a specialized 
+version of itself, while preserving the completeness of equality on terms. 
+ 
+We end by describing an alternative representation of normal terms of the lambda calculus with sums, together with a Coq-implemented 
+converter into/from our new term calculus. The difference with the only other previously implemented heuristic for deciding interesting 
+instances of eta-equality by Balat, Di Cosmo, and Fiore, is that we exploit the type information of terms substantially and this often 
+allows us to obtain a canonical representation of terms without performing sophisticated term analyses.

@@ -1,0 +1,7 @@
+We build a system that provides succinct noninteractive zero-knowledge proofs (zk-SNARKs) for program executions on a von Neumann RISC architecture. The system has two components: a cryptographic proof system for verifying satisfiability of arithmetic circuits, and a circuit generator to translate program executions to such circuits. Our design of both components improves in functionality and efficiency over prior work, as follows. 
+ 
+Our circuit generator is the first to be universal: it does not need to know the program, but only a bound on its running time. Moreover, the size of the output circuit depends additively (rather than multiplicatively) on program size, allowing verification of larger programs. 
+ 
+The cryptographic proof system improves proving and verification times, by leveraging new algorithms and a pairing library tailored to the protocol. 
+ 
+We evaluated our system for programs with up to 10,000 instructions, running for up to 32,000 machine steps, each of which can arbitrarily access random-access memory; and also demonstrated it executing programs that use just-in-time compilation. Our proofs are 230 bytes long at 80 bits of security, or 288 bytes long at 128 bits of security. Typical verification time is 5 ms, regardless of the original program's running time.

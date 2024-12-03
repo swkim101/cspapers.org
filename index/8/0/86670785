@@ -1,0 +1,23 @@
+It becomes excessively challenging or even impossible to capture, share and accurately reproduce experimental results in computer engineering for fair and trustable evaluation and future improvement. This is often due to ever rising complexity of the design, analysis and optimization of computer systems, increasing number of ad-hoc tools, interfaces and techniques, lack of a common experimental methodology, and lack of simple and unified mechanisms, tools and repositories to preserve and exchange knowledge apart from numerous publications where reproducibility is often not even considered. This ACM SIGPLAN workshop is intended to become an interdisciplinary forum for academic and industrial researchers, practitioners and developers in computer engineering to discuss challenges, ideas, experience, trustable and reproducible research methodologies, practical techniques, tools and repositories to: 
+ 
+•capture, preserve, formalize, systematize, exchange and improve knowledge and experimental results including negative ones 
+ 
+•describe and catalog whole experimental setups with all related material including algorithms, benchmarks, codelets, datasets, tools, models and any other artifact 
+ 
+•validate and verify experimental results by the community 
+ 
+•develop common research interfaces for existing or new tools 
+ 
+•develop common experimental frameworks and repositories 
+ 
+•share rare hardware and computational resources for experimental validation 
+ 
+•deal with variability and rising amount of experimental data using statistical analysis, data mining, predictive modeling and other techniques 
+ 
+•implement previously published experimental scenarios (auto-tuning, run-time adaptation) using common infrastructure 
+ 
+•discuss new publication models for effective methods of incorporating experimental methodologies and data including addressing associated licensing and intellectual property concerns 
+ 
+•improve reviewing and evaluation process for publications and shared artifacts 
+ 
+•enable interactive articles

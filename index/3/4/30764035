@@ -1,0 +1,1 @@
+The Availability Manager design pattern is presented for monitoring the state of an application component, likely a façade to an external system. Failure and recovery of the component are handled gracefully. A reference implementation is provided, which adds built-in reporting on the availability of all such components in the system.

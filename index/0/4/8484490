@@ -1,0 +1,1 @@
+JML is a notation for specifying the detailed design of Java classes and interfaces. JML's assertions are stated using a slight extension of Java's expression syntax. This should make it easy to use. Tools for JML aid in static analysis, verification, and run-time debugging of Java code.

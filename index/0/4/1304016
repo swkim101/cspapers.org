@@ -1,0 +1,3 @@
+Java source code is strongly typed, but the translation from Java source to bytecode omits much of the type information originally contained within methods. Type elaboration is a technique for reconstructing strongly typed programs from incompletely typed bytecode by inferring types for local variables.
+There are situations where, technically, there are not enough types in the original type hierarchy to type a bytecode program. Subtype completion is a technique for adding necessary types to an arbitrary type hierarchy to make type elaboration possible for all verifiable Java bytecode.
+Type elaboration with subtype completion has been implemented as part of the Marmot Java compiler.

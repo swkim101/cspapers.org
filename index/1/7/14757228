@@ -1,0 +1,1 @@
+In this paper we describe the design of a global machine independent low level optimizer for the Karlsruhe Ada Compiler. We give a short overview on the optimizations and data structures used in the optimizer as well as some experiences with the optimizer. Detailed measurements are provided for a collection of benchmarks. The average improvement of code speed is 40%.

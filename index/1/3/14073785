@@ -1,0 +1,6 @@
+The Smalltalk-80#8482; programming environment, though powerful for prototyping applications, does not have any mechanisms for constructing a stand-alone version of an application. Traditionally, the application is bundled with an image including the entire development environment. Production applications frequently require that the only interface visible to the end user be that of the application. A common misperception among Smalltalk-80 application developers is that it is impossible to:develop and deliver applications containing proprietary algorithms,
+prevent inspection and modification of the application,
+separate the development environment from the delivered application,
+provide annotation of the application classes and methods without actually revealing the source code to the end user.
+
+In this paper, we introduce various techniques and mechanisms for meeting these requirements.

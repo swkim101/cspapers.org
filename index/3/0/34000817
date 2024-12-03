@@ -1,0 +1,1 @@
+This paper describes our experiences with evolving a system infrastructure while continuing to support new functionality. In it we explore the architecture, technology decisions made, and difficulties encountered in porting a core business application while it is being used and extended to support the enterprise.

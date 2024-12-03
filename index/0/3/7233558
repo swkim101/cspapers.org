@@ -1,0 +1,1 @@
+This paper concerns the algebraic specification of abstract data types. It introduces and motivates the recently-developed framework of unified algebras, and provides a practical notation for their modular specification. It also compares unified algebras with the well-known framework of order-sorted algebras, which underlies the OBJ specification language.

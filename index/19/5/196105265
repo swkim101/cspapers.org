@@ -1,0 +1,1 @@
+We present an ongoing study of control flow structures in Java. We have designed a collection of benchmarks for various JVM and hardware platforms, to characterize the performance of these structures when used to simulate dynamic dispatch implementations.

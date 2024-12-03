@@ -1,0 +1,1 @@
+We describe mechanisms for practical session layer security for Internet based terminal sessions We discuss the tradeo s of providing security at vari ous layers of abstractions from the network to the session layer We describe two new mechanisms our encrypting authenticating telnet and our en crypted session manager esm

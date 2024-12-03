@@ -1,0 +1,1 @@
+We describe CodeQuest, a system for querying source code. It combines two previous proposals, namely the use of logic programming and database system. Experiments (on projects ranging from 3KSLOC to 1300KSLOC) confirm that for this application, a query language based on DataLog strikes the right balance between expressiveness and scalability.

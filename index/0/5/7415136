@@ -1,0 +1,2 @@
+A polymorphic function is parametric if it has uniform behavior for all type parameters. This property is useful when writing, reasoning about, and compiling functional programs.
+We show how to syntactically define and reason about parametricity in a language with intersection types and bounded polymorphism. Within this framework, parametricity is subtyping, and reasoning about parametricity becomes reasoning about the well-typedness of terms. This work also demonstrates the expressiveness of languages that combine intersection types and bounded polymorphism.

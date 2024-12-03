@@ -1,0 +1,1 @@
+As data persistence is very poorly supported by current programming systems, we have initiated a research project to improve this situation. The result is the new programming language Persistent Active Oberon, which directly institutionalizes persistence as a fundamental concept and liberates the programmer from writing complicated code for database interactions.

@@ -1,0 +1,1 @@
+This poster will present our experiences using FindBugs in production software development environments, including both open source efforts and Google's internal code base. We summarize the defects found, describe the issue of real but trivial defects, and discuss the integration of FindBugs into Google's Mondrian code review system.

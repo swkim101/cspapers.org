@@ -1,0 +1,3 @@
+Password-based key-server protocols are susceptible to password chaining attacks, in which an enemy uses knowledge of a user's current password to learn all future passwords. As a result, the exposure of a single password effectively compromises all future communications by that user. The same protocols also tend to be vulnerable to dictionary attacks against user passwords. 
+ 
+Bellovin and Merrit[1] presented a hybrid of symmetric- and public-key cryptography called Encrypted Key Exchange (EKE) that cleanly solves the dictionary attack problem. This paper presents an extension of their ideas called dual-workfactor encrypted key exchange that preserves EKE's strength against dictionary attacks but also efficiently prevents passive password-chaining attacks.

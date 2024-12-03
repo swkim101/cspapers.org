@@ -1,0 +1,5 @@
+Conventional Security have relied on overwriting the saved return pointer on the stack to hijack the path of execution. Under Sun Microsystem's Sparc processor architecture, we were able to implement a kernel modification to transparently and automatically guard application's return pointers. 
+ 
+Our implementation called Stack Ghost Open-BSD 2.8 acts as a ghost in the machine. Stack-Ghost advances exploit prevention in that it protects every application run on the system without their knowledge nor does it require their source or binary modification. 
+ 
+We will document several of the methods devised to preserve the sanctity of the system and will explore the performance ramifications of Stack Ghost.

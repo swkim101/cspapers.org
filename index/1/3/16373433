@@ -1,0 +1,1 @@
+We are interested in finding new ways to visualize our software execution traces. An issue in visualizing our execution traces is deploying and integrating them into users' environments. We have a tool called VET3D that transforms execution traces into visualizations over the web. Our tool will help developers to understand the structure and behaviour of software.

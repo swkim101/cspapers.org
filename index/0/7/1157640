@@ -1,0 +1,1 @@
+We have replicated the experiments of Cecchet et al detailed in "Performance and Scalability of EJB Applications" at OOPSLA '02. We report on our experiences configuring, deploying and tuning Enterprise software, and provide evidence that many of the conclusions of the original work are misleading or cannot be generalized.

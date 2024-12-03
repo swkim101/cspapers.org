@@ -1,0 +1,1 @@
+Our calculus combines class-based features with object-based ones, with the aim of fitting into a unified setting the "best of both worlds". In a mixin-based approach, mixins are seen as <i>incomplete classes</i> from which <i>incomplete objects</i> can be instantiated. Incomplete objects can be completed in an object-based fashion.

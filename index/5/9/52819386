@@ -1,0 +1,1 @@
+We describe an improvement to a heuristic introduced by Chaitin for use in graph coloring register allocation. Our modified heuristic produces better colorings, with less spill code. It has similar compile-time and implementation requirements. We present experimental data to compare the two methods.

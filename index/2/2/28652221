@@ -1,0 +1,1 @@
+Our research involves improving performance of programs written in the Java programming language. By selective specialization of generic types, we enable the compiler to eliminate typecasting, and provide type information to remove dynamic method lookup at runtime. An example of this specialization using Quicksort showed performance improvement of about 25%.

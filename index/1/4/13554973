@@ -1,0 +1,1 @@
+Petri nets are used to define a path and process notation which is more general in its ability to express synchronization than previous path notations. The Petri net classes corresponding to the path notation prove to be interesting in their own right and have demonstrable properties such as liveness and safeness.

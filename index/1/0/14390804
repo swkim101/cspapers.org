@@ -1,0 +1,1 @@
+A compiler for the C language has recently been constructed which is now compiling C for about half a dozen machines. The compiler was influenced in various ways by recent theoretical developments. This paper gives an overview of the compiler structure and algorithms, emphasizing those areas where theory was helpful, and discussing the approaches taken where theory was lacking.

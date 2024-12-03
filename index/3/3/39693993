@@ -1,0 +1,1 @@
+Framework interfaces are complex, so programmers often copy repeating patterns, either their own or from others, to interact with them. Design Fragments allow framework interactions to be explicitly defined, describing known-good uses of the framework. We demonstrate a tool that provides continual feedback on framework conformance as a program evolves.

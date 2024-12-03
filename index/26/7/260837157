@@ -1,0 +1,1 @@
+We present Sourcerer, a search engine for open-source code. Sourcerer extracts fine-grained structural information from the code and stores it in a relational model. This information is used to implement a basic notion of CodeRank and to enable search forms that go beyond conventional keyword-based searches.

@@ -1,0 +1,1 @@
+The system demonstrated is an advanced open source issue tracker built using Smalltalk, the continuation based web framework Seaside and an OODB called Magma.These unorthodox components enabled an uncompromised object oriented implementation and very fast development. The demonstration presents the system, its design, project experiences and the development environment used.

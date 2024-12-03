@@ -1,0 +1,11 @@
+We describe our success in defeating the security of an RFID device known as a Digital Signature Transponder (DST). Manufactured by Texas Instruments, DST (and variant) devices help secure millions of SpeedPassTM payment transponders and automobile ignition keys. 
+ 
+Our analysis of the DST involved three phases: 
+ 
+1. Reverse engineering: Starting from a rough published schematic, we determined the complete functional details of the cipher underpinning the challenge-response protocol in the DST. We accomplished this with only "oracle" or "black-box" access to an ordinary DST, that is, by experimental observation of responses output by the device. 
+ 
+2. Key cracking: The key length for the DST is only 40 bits. With an array of of sixteen FPGAs operating in parallel, we can recover a DST key in under an hour using two responses to arbitrary challenges. 
+ 
+3. Simulation: Given the key (and serial number) of a DST, we are able to simulate its RF output so as to spoof a reader. As validation of our results, we purchased gasoline at a service station and started an automobile using simulated DST devices. 
+ 
+We accomplished all of these steps using inexpensive off-the-shelf equipment, and with minimal RF expertise. This suggests that an attacker with modest resources can emulate a target DST after brief short-range scanning or long-range eavesdropping across several authentication sessions. We conclude that the cryptographic protection afforded by the DST device is relatively weak.

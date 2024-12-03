@@ -1,0 +1,1 @@
+In this paper, we describe the evolution of architecture of Mail Transfer Agents(MTA). We consider the design of MTA as a sequence of design decisions [10]. Many of the design decisions are examples of security patterns. Thus, this paper is another example of how patterns generate architecture [5].

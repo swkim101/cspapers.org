@@ -1,0 +1,3 @@
+Abstract interpretation and projection analysis are two techniques for finding out information about lazy functional programs. Two typical uses of these techniques are speeding up sequential implementations, and the introduction of parallelism into parallel implementations.
+Our main result is the proof of a relationship between a certain class of projections and a certain class of abstract interpretations.
+One of the claims of projection analysis is that it can find out information about head-strictness, whilst abstract interpretation cannot. We show that there are at least two intuitive notions of head-strictness, and that one of them can be determined using abstract interpretation.

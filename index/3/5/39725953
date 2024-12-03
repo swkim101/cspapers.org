@@ -1,0 +1,3 @@
+The Pragmatics of Building Object-Oriented SystemsGrady Booth, Rational
+This tutorial expands upon the process described in BoothsObject-Oriented Design with Applications to provide a prescriptive,iterative process for object-oriented development. It describesboth the macro and micro process of development. It givesguidelines for managing iterative development, and addresses thepragmatic issues of milestones and planning, staffing, integrationand release management, reuse, testing, quality assurance andmetrics, documentation, tools, and technology transfer.
+This tutorial assumes that you are familiar with Booths designmethod.

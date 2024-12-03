@@ -1,0 +1,1 @@
+During the presentation we will demonstrate a new modeling tool, implemented as an Add-In for Microsoft Visual Studio. Our tool provides complete round-trip capabilities enabling application manipulation using either the model or the source code. The tool manipulates all three application layers of conventional enterprise applications, currently with support for SQL, C# and XAML.

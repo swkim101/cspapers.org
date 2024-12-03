@@ -1,0 +1,3 @@
+We describe a framework for flow analysis in higher-order languages. It is both a synthesis and extension of earlier work in this area, most notably [20, 22]
+The framework makes explicit use of flow graphs for modeling control and data flow properties of untyped higher-order programs. The framework is parameterized, and can express a hierarchy of analyses with different cost/accuracy tradeoffs. The framework is also amenable to a direct, efficient implementation.
+We develop several instantiations of the framework, and prove their running-time complexity. In addition, we use the simplest instantiation to demonstrate the equivalence of a 0CFA style analysis and the set-based analysis of [8].

@@ -1,0 +1,1 @@
+Specialized Java bytecodes provide functionality that is easily replicated using other Java bytecodes. This study uses profiling to explore how the set of specialized bytecodes currently implemented by the Java Virtual Machine is utilized by comparing it to the other specialized bytecodes which could have been implemented.

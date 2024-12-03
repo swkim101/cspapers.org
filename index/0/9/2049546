@@ -1,0 +1,1 @@
+AspectJ's pointcut language is complex, yet often not expressive enough to directly capture a desired property. Prolog has been suggested as an alternative, but Prolog queries may not terminate, and they tend to be verbose. We solve expressiveness, termination and verbosity by using Datalog plus rewrite rules.

@@ -1,0 +1,1 @@
+The theory of term rewriting systems has important applications in abstract data type specifications and functional programming languages. We begin here a study of properties of systems that are not necessarily terminating, but allow for infinite derivations that have a limit. In particular, we give conditions for the existence of a limit and for its uniqueness.

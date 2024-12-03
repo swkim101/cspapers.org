@@ -1,0 +1,1 @@
+This paper presents a new version of Hoare's logic including generalized procedure call and assignment rules which correctly handle aliased variables. Formal justifications are given for the new rules.

@@ -1,0 +1,1 @@
+This paper presents the design of our language, Unity. Unity has a novel subtyping system that combines both by-name and structural subtyping. With this combination, Unity provides the flexiblity of structural subtyping while still allowing static typechecking of external methods.

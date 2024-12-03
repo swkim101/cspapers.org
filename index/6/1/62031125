@@ -1,0 +1,21 @@
+It is our great pleasure to welcome you to the 41st Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages -- POPL'14, being held in San Diego, CA. POPL was last held here in 1998. We are very pleased that we were able to arrange for a long overdue return, giving an opportunity for our attendees to experience the charm, salubrious weather, and numerous attractions of this vibrant and dynamic city. 
+ 
+POPL'14 features the following co-located events: 
+The 15th International Conference on Verification, Model-Checking, and Abstract Interpretation (VMCAI) 
+The 16th International Symposium on Practical Aspects of Declarative Languages (PADL) 
+The Workshop on Partial Evaluation and Program Manipulation (PEPM) 
+The Workshop on Programming Languages meets Program Verification (PLPV) 
+The Workshop on Program Protection and Reverse Engineering (PPREW) 
+The Off the Beaten Track Workshop (OBT) 
+The Programming Language Mentoring Workshop (PLMW) 
+The Principles in Practice Workshop (PiP) - a new event 
+ 
+ 
+ 
+Support from corporate sponsors helped tremendously to keep POPL's registration fees modest, and enabled low-cost access to all conference events for students. We are deeply grateful to all of our sponsors for their support and generosity. The POPL'14 organizing committee deserves special thanks for their tireless efforts in helping to (a) coordinate co-located events with the main conference, (b) handle student activities and tutorials, (c) ensure the conference was widely publicized, and (d) manage budgets and financing. The sage advice of the entire POPL steering committee was also invaluable. We are also grateful to the following professionals for their support and contributions: John Lateulere of Integrated Management Solutions; Carole Mann and her team at Registration Systems Labs; Lisa Tolles of Sheridan Printing, and Ashley Cozzi, Adrienne Griscti, Farrah Khan, Maritza Nichols, Stephanie Sabal, and Debra Venedam of ACM SIG services. Our thanks also to the staff at the US Grant hotel for their help in accommodating POPL at their historic venue. 
+ 
+The call for papers attracted 220 submissions. Papers were principally reviewed by a program committee of 27 researchers, who reviewed 21-25 each (typically three PC reviews per paper). The review process did not involve a preselected external review committee. Instead, to try to get the best possible external expert reviews for each paper, reviews were solicited from the community as a whole. One PC member was designated as `guardian' for each paper to take the lead in identifying suitable candidate externals. In all, 273 individials contributed external reviews. The majority of papers (146) received four reviews; 53 received five, 15 received three, and 2 received six (the remaining 4 were withdrawn before the PC meeting). The PC meeting in Cambridge discussed 102 papers over two days, with a first pass in a random order then a second review pass. 51 papers were accepted (23% of the submissions). 
+ 
+A lightweight double-blind review process was used to reduce the effect of first impression biases: authors were asked to anonymise their submissions, but were not restricted from disseminating their work in any of the normal ways. PC members were permitted to de-blind submissions as necessary, e.g. to discuss external reviewers. PC submissions were allowed but the PC were not involved in any way in the selection process for PC submissions; that was managed by the program and general chairs and involved only external reviewers. 
+ 
+A survey of authors, between the author response period and the PC meeting, gathered their views on the double-blind process and the quality ofreviewing. A survey at submission time assessed the current use of mechanised tools such as proof assistants. In all, 1009 individuals were named in the process, including reviewer suggestions; that gives some measure of the size of the POPL community at present.

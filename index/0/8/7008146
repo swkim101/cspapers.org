@@ -1,0 +1,1 @@
+SOM (IBM's System Object Model) removes a major impediment to reuse in Object-Oriented Programming by facilitating the programming of release-to-release binary compatible class libraries. This is accomplished by supporting a large number of compatibility preserving transformations. Taken together these transformations compose a discipline for programming evolving class libraries.

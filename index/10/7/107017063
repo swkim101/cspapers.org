@@ -1,0 +1,11 @@
+We are currently witnessing a convergence of several threads of technology and business imperatives. The idea of a virtual enterprise - a business built from both organisationally and geographically distributed units - is becoming an area of increasing interest to both computer scientists and business people. 
+ 
+Virtual enterprises are becoming feasible on account of a number of technology phenomena including CORBA, the World Wide Web, Java and component-based software; they are becoming attractive because of business trends such as downsizing and outsourcing. Set against these positive factors are a number of disincentives, including exposing key business processes to the hostile Internet, the extra complexities of cross-border contracts, and the fluidity of the software marketplace. 
+ 
+From a business perspective building a virtual enterprise involves contracts, cross-organisational management and statutory obligations. From a technical perspective, it involves confronting problems such as heterogeneity, distribution, authentication, privacy, and auditing. While each of these technologies is being applied piecemeal to address one more of the business imperatives - resulting in "creeping" virtual enterprises - an overall technical vision for their seamless integration remains elusive. It is now time to ask the questions: is object technology the right way to implement a virtual enterprise? If so, what technologies are appropriate? How should they be composed? And how should they be driven by the underlying business process? Given that the ingredients exist, what is the recipe? And what is the final dish? 
+ 
+The aim of the workshop is to bring together a complementary group of workers in the following fields: 
+ 
+ those building frameworks or infrastructures for virtual enterprises; 
+ those investigating the object/component methodologies and processes (both software and managerial) for constructing virtual enterprises 
+ those with experience in specific virtual enterprises.

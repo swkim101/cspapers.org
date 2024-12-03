@@ -1,0 +1,1 @@
+Real-time object-oriented modeling tools (e.g. Rational Rose-RT, i-Logix Rhapsody) allow developers to focus on software architecture by abstracting away low-level implementation details. We believe that design patterns can be very beneficial in this context, and present the rationale and concepts behind a proposal for the extension of such a toolset to support them explicitly.

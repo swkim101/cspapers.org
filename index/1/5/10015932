@@ -1,0 +1,1 @@
+This paper defines the categorical notions of relators and transformations and shows that these concepts enable us to give a semantics for polymorphic, higher order functional programs. We demonstrate the pertinence of this semantics to the analysis of polymorphic programs by proving that strictness analysis is a polymorphic invariant.

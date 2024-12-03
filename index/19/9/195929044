@@ -1,0 +1,1 @@
+We present the extensional polymorphism, a framework to type check ad hoc polymorphic functions. This formalism is compatible with parametric polymorphism, and supports a large class of functions defined by structural pattern matching on types.

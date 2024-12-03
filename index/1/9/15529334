@@ -1,0 +1,5 @@
+This demonstration shows a lightweight and fast method for creating a tested and working domain specific language. The method is demonstrated using the ngrease metalanguage.
+ The creation of a new language is started by writing a representative example of the final product with a test that tests the transformation from a stub source to the result.
+ The test is made to pass by writing a constant transformer that unconditionally outputs the result.
+ At each step the language is extended by refactoring: Some part of the transformer template is converted from a constant subtree to a reference to data read from the source tree, thus driving additions to the new language.
+ Optionally, each refactoring step can be driven by a new test that demonstrates the lack of parameterization of some part of the final product.

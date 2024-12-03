@@ -1,0 +1,1 @@
+We present a new incremental algorithm for the problem of maintaining the dominator tree of a reducible flowgraph as the flowgraph undergoes changes such as the insertion and deletion of edges. Such an algorithm has applications in incremental dataflow analysis and incremental compilation.

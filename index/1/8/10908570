@@ -1,0 +1,1 @@
+Kava is a powerful and portable reflective Java that uses byte code rewriting to implement behavioural reflection. In our poster we briefly overview the Kava system, give an example of its use, and contrast it with simple byte code rewriting. More details about Kava are available from http://www.cs.ncl .ac.uk /research/dependability/reflection.

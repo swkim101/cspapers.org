@@ -1,0 +1,5 @@
+In current computer memory system hierarchy, registers and cache are both used to bridge the reference delay gap between the fast processor(s) and the slow main memory. While registers are managed by the compiler using program flow analysis, cache is mainly controlled by hardware without any program understanding. Due to the lack of coordination in managing these two memory structures, significant loss of system performance results because:Cache space is wasted to hold inaccessible copies of values in registers.
+Inaccessible copies of values replace those accessible ones from cache.
+Despite the fact that register allocation has long recognized the benefits of live range analysis, current cache management has completely ignored live range information.
+
+In this paper, we propose an unified management of registers and cache using liveness and cache bypass. By using a single model to manage these two memory structures, most redundant copies of values in cache can be eliminated. Consequently, bus traffic and memory traffic in data cache are greatly reduced and cache effectiveness is improved.

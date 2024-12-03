@@ -1,0 +1,1 @@
+We propose a software metrics to evaluate understandability of OOP's. This metrics is composed of the understanding cost formula based on cognitive science and the understanding process modeling. Unlike Chidamber's metrics, our metrics considers instances as well as classes. We have also evaluated understandability of structured programs using this metrics.

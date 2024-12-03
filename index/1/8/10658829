@@ -1,0 +1,1 @@
+The Internet Engineering Task Force (IETF) is in the proces of adopting standards for IP-layer encryption and authentication (IPSEC). We describe a number of attacks against various versions of these protocols, including confidentiality failures and authentication failures. The implications of these attacks are troubling for the utility of this entire effort.

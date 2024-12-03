@@ -1,0 +1,1 @@
+For a typed λ-calculus we develop an algorithm that, given some partial information about what must happen at run-time, will work out what actually can be computed at compile-time and what must be deferred to run-time.

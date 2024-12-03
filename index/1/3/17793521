@@ -1,0 +1,5 @@
+ConcurrentSmalltalk is an object-oriented concurrent programming language/system which has been running since late 1985. ConcurrentSmalltalk has the following features:Upper-compatibility with Smalltalk-80.
+Asynchronous method calls and CBox objects yield concurrency.
+Atomic objects have the property of running one at a time so that it can serialize the many requests sent to it.
+
+Through experience in writing programs, some disadvantages have become apparent related to concurrency control and the behavior of a block context. In this paper, these issues are re-examined in detail, and then the evolution of the solutions for overcoming these shortcomings is described along with the model of computation in ConcurrentSmalltalk. New features are explained with an example program. The implementation of the ConcurrentSmalltalk virtual machine is also presented along with the evaluation of it.

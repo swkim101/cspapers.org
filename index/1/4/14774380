@@ -1,0 +1,1 @@
+This paper presents a simple, powerful and flexible technique for reasoning about and translating the goal-directed evaluation of programming language constructs that either succeed (and generate sequences of values) or fail. The technique generalizes the Byrd Box, a well-known device for describing Prolog backtracking.

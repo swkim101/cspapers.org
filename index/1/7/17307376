@@ -1,0 +1,3 @@
+This paper is a review of an ongoing project to simplify security auditing of the world-wide TCP/IP network of some thirty thousand hosts, internal to Sun Microsystems. 
+ 
+The paper also examines the issues which this project raises; it details the conception, design, development of, and one year's results gathered from, Auto-Hack, a tool specially created to probe, audit, and produce security reports for, a TCP/IP network of this size.

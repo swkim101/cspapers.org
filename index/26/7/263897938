@@ -1,0 +1,6 @@
+We propose a new kind of programming language, with the following features:
+<list><item>a simple graph rewriting semantics,
+</item><item>a complete symmetry between constructors and destructors,
+</item><item>a type discipline for deterministic and deadlock-free (microscopic) parallelism.
+</item></list><italic>Interaction nets</italic> generalize Girard's <italic>proof nets</italic> of linear logic and illustrate the advantage of an <italic>integrated logic</italic> approach, as opposed to the <italic>external</italic> one. In other words, we did not try to design a logic describing the behaviour of some given computational system, but a programming language for which the type discipline is already (almost) a logic.
+In fact, we shall scarcely refer to logic, because we adopt a naïve and pragmatic style. A typical application we have in mind for this language is the design of interactive softwares such as editors or window managers.

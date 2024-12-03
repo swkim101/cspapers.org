@@ -1,0 +1,4 @@
+Writing Efficient Smalltalk ProgramsKen Auer, Knowledge Systems Corp.
+Smalltalk has a reputation for being slow and a offers many waysto create inefficient code, and memory hog. In reality, theSmalltalk environment programmers often exploit thoseopportunities.
+However, there are just as many ways to create efficient code,some of which may not be available in more traditional languages.Whether an application is efficient or not has more to do with theway the programmer has used the available tools than the toolsthemselves.
+This tutorial teaches Smalltalk programmers how to writeefficient programs. The emphasis is on how to exploit, rather thansacrifice, the benefits of good object-oriented design. You shouldhave at least six months experience with Smalltalk writing non-toyprograms to get the most benefit from the tutorial.

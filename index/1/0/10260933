@@ -1,0 +1,4 @@
+The call-by-need lambda calculus provides an equational framework for reasoning syntactically about lazy evaluation. This paper examines its operational characteristics.
+ By a series of reasoning steps, we systematically unpack the standard-order reduction relation of the calculus and discover a novel abstract machine definition which, like the calculus, goes "under lambdas." We prove that machine evaluation is equivalent to standard-order evaluation.
+ Unlike traditional abstract machines, delimited control plays a significant role in the machine's behavior. In particular, the machine replaces the manipulation of a heap using store-based effects with disciplined management of the evaluation stack using control-based effects. In short, state is replaced with control.
+ To further articulate this observation, we present a simulation of call-by-need in a call-by-value language using delimited control operations.

@@ -1,0 +1,1 @@
+This paper presents a method called relational constraint for finding binary relations among the variables and constants of a program. The method constructs a table of binary relations and treats the program as a collection of constraints on tuples of relations in the table. An experimental optimizer called Thinner uses this method to analyze programs of size n in O(n2) time.

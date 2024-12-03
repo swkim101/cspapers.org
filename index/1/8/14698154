@@ -1,0 +1,1 @@
+This paper describes the experience of evolving a domain-specific language embedded in Java over several generations of a test framework. We describe how the framework changed from a library of classes to an embedded language. We describe the lessons we have learned from this experience for framework developers and language designers.

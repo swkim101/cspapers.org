@@ -1,0 +1,1 @@
+We propose a framework for removing redundant context management services in contextual composition frameworks, with focus on Enterprise JavaBeans. It is expected that by applying our framework, performance can be improved without the loss of modularity.

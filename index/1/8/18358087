@@ -1,0 +1,1 @@
+Alphonse is a program transformation system that uses dynamic dependency analysis and incremental computation techniques to automatically generate efficient dynamic implementations from simple exhaustive imperative program specifications.

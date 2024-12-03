@@ -1,0 +1,3 @@
+There is a requirement for a stronger treatment of intentional concepts and more general inferential ability within database systems. A framework for achieving this will be described in terms of extensions to an object data model.
+The type Concept is introduced into the model as a subtype of Action. Intentional concepts may then be defined as filters or generators, depending on the nature of the defining formula. In either case, the dual action should be available—provided automatically by the system or explicitly by the user.
+Finally, sets and types are treated as special cases of extensional concepts, leading to a novel structure of the hierarchy of system types.

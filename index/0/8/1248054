@@ -1,0 +1,1 @@
+Maple is a statically typed language system, with very general generic facilities. It incorporates its own programming environment and provides parallel processing with a new method of process synchronization. The synchronization is the direct outgrowth of its data abstraction facility.

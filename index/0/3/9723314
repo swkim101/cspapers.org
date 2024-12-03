@@ -1,0 +1,1 @@
+Software frameworks contain many internal constraints which plugins cannot break. These constraints are relative to the context of the plugin, and they can involve multiple framework objects. This work creates a lightweight mechanism specifying semantic constraints on the framework and checking plugins against this specification.

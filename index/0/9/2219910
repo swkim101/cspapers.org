@@ -1,0 +1,1 @@
+Model Refinement is a relationship that relates two elements representing the same concept at different levels of abstraction. In UML, Refinement is described in an informal way.To avoid wrong model interpretations, we study a formalization of the refinement relation. This work provides an enhancement to the UML metamodel specification.

@@ -1,0 +1,1 @@
+A wealth of recent research involves generating program monitors from declarative specifications. Doing this efficiently has proved challenging, and available implementations often produce infeasibly slow monitors. We demonstrate how to dramatically improve performance -- typically reducing overheads to within an order of magnitude of the program's normal runtime.

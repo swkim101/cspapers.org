@@ -1,0 +1,1 @@
+In this paper we show that some prevailing ideas on the elimination of left recursion in a context-free grammar are not valid. An algorithm and a proof are given to show that every proper context-free grammar is covered by a non-left-recursive grammar.

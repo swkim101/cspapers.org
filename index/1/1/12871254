@@ -1,0 +1,1 @@
+We need various higher level services for using Peer-to-Peer(P2P) network effectively and for building useful applications. We introduce a new distributed name service which enables bottom-up combination of local name spaces by complete decentralized control. Our name service provides much benefit for P2P networking and groupware applications.

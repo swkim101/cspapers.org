@@ -1,0 +1,3 @@
+Geographic Information Systems (GIS) are used to collect, store, analyze and present information describing physical and logical aspects of real world entities. They deal with several areas, such as georeferencing, topology, visualization, representation of continuous information and so on.
+Most of GIS applications are hardly adapted to new requirements, like changing of the reference system, integrating vector and raster models, or handling continuous information, among others.
+This work presents an pattern driven architecture for building GIS applications. The result is a framework that is focused on flexibility and adaptability features.

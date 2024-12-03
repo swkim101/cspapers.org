@@ -1,0 +1,1 @@
+It is possible that the performance of Composite Web Services can be improved if it is split into its elemental parts. This paper proposes that an agent will be involved to act for the user in the splitting of the CWS. This paper also presents an overview of how the performance improvement will be measured and how the service will be split.

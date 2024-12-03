@@ -1,0 +1,1 @@
+A Universal DataBase Connectivity (UDBC) component has been developed with component-based approach. This paper presents our design goal, software architecture, and implementation issues for UDBC. Strength, limitations, and possible extension of JavaBean component architecture and its design environment are discussed.

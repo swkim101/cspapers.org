@@ -1,0 +1,3 @@
+This article presents our refactoring plug-in for the Eclipse Ruby Development Tools IDE.
+ Refactoring is a very important technique for every software engineer to ensure the healthiness of his code and a cornerstone of agile software development.
+ We have implemented sixteen automated refactorings and three code generators, for example Rename Variable and Extract Method.

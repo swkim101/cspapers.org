@@ -1,0 +1,2 @@
+Intermediate Smalltalk: Practical Design and ImplementationTrygve Reenskaug, TASKON , Norway
+Careful design before programming is as important in Smalltalkas in other languages. This tutorial describes techniques that haveproven useful in commercial development of large Smalltalk systems.The tutorial shows how to develop a language independent design andthen go to detailed programming and testing. The examples will bebased on Smalltalk-80 and use the release 4.1 graphical userinterface framework.

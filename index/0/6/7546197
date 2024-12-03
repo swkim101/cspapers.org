@@ -1,0 +1,1 @@
+In previous work, we have shown that multicodes can be used to improve the performance of Java applications. We extend that work by both implementing more multicodes and considering multicodes of greater length. This has resulted in significantly larger performance gains than those that have been achieved previously for some benchmarks.

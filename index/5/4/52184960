@@ -1,0 +1,1 @@
+A new approach to teaching software testing is proposed: students use test-driven development on programming assignments, and an automated grading tool assesses their testing performance and provides feedback. The basics of the approach, screenshots of the sytem, and a discussion of industrial tool use for grading Java programs are discussed.
