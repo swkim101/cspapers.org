@@ -16,8 +16,8 @@ function App() {
   const [total, setTotal] = useState(0)
   const [duration, setDuration] = useState(0)
   const [showFilter, setShowFilter] = useState(true)
-  const [yearFrom, setYearFrom] = useState(MIN_YEAR)
-  const [yearTo, setYearTo] = useState(CURRENT_YEAR + 1)
+  const [yearFrom, setYearFrom] = useState(CURRENT_YEAR - 10)
+  const [yearTo, setYearTo] = useState(CURRENT_YEAR)
   const [venue, setVenue] = useState([])
   const [orderBy, setOrderBy] = useState(SCORE)
   const [ascending, setAscending] = useState(false)
@@ -162,13 +162,13 @@ function App() {
             <span>From </span>
             <select value={yearFrom} onChange={e => setYearFrom(e.target.value)}>
               {
-                seq(MIN_YEAR, CURRENT_YEAR + 2).reverse().map(e => <option key={e} value={e}>{e}</option>)
+                seq(MIN_YEAR, CURRENT_YEAR + 1).reverse().map(e => <option key={e} value={e}>{e}</option>)
               }
             </select>
             <span> to </span>
             <select value={yearTo} onChange={e => setYearTo(e.target.value)}>
               {
-                seq(MIN_YEAR, CURRENT_YEAR + 2).reverse().map(e => <option key={e} value={e} onClick={e => setYearTo(e.target.value)}>{e}</option>)
+                seq(MIN_YEAR, CURRENT_YEAR + 1).reverse().map(e => <option key={e} value={e} onClick={e => setYearTo(e.target.value)}>{e}</option>)
               }
             </select>
             <span> order by [</span>

@@ -95,8 +95,11 @@ const edges = [
   ["Software engineering", "ISSTA"],
 
   ["Systems", "Programming languages"],
-  ["Programming languages", "PACMPL"],
   ["Programming languages", "PLDI"],
+  ["Programming languages", "POPL"],
+  ["Programming languages", "OOPSLA"],
+  ["Programming languages", "SPLASH"],
+
 
   ["All Areas", "Theory"],
 
@@ -133,9 +136,6 @@ const edges = [
 ]
 
 const comments = {
-  "ACL": "(long)",
-  "PLDI": "(2018 - 2022)",
-  "SOSP": "(2017 - 2023), biyearly",
 }
 
 /**

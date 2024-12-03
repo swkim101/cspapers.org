@@ -48,7 +48,7 @@ function ConferenceTree(props) {
 
   return (
     <div>
-      {conferences.tree.name} (2018-) [ <span onClick={() => setVenue([])} className='underline pointer'>off</span> | <span onClick={() => setVenue(conferences.flatten(conferences.tree))} className='underline pointer'>on</span> ]
+      {conferences.tree.name} (1960-) [ <span onClick={() => setVenue([])} className='underline pointer'>off</span> | <span onClick={() => setVenue(conferences.flatten(conferences.tree))} className='underline pointer'>on</span> ]
       {
         conferences.tree.children.map(d1 =>
           <div key={d1.name}>
