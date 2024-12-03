@@ -23,7 +23,7 @@ build
 **/yarn-debug.log*
 **/yarn-error.log*
 
-**/db.cspapers.org
+**/index
+**/data
+**/.vscode
 fly.toml
-
-**/rawdata
