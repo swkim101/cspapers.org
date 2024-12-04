@@ -24,6 +24,7 @@ build
 **/yarn-error.log*
 
 index/**
+index2/**
 **/data
 data/**
 **/.vscode

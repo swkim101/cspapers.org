@@ -1,5 +1,11 @@
 package types
 
+import (
+	"os"
+	"strconv"
+	"strings"
+)
+
 type InsertRequest struct {
 	Paper
 	Index    string
@@ -34,4 +40,13 @@ type SearchRequest struct {
 	YearTo    uint32   `json:"yearTo"`
 	Skip      uint32   `json:"skip"`
 	Must      []string `json:"must"`
+}
+
+func Decompose(s string) (year uint32, venue string, title string, err error) {
+	p := strings.Split(s, string(os.PathSeparator))
+	year64, err := strconv.ParseInt(p[0], 10, 32)
+	if err != nil {
+		return 0, "", "", err
+	}
+	return uint32(year64), p[1], p[2], nil
 }

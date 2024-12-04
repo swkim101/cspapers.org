@@ -11,6 +11,7 @@ type indexConfig struct {
 	config.Config
 	Datafiles []string `json:"datafiles"`
 	IndexDir  string   `json:"indexDir"`
+	IndexDir2 string   `json:"indexDir2"`
 
 	dbimpl *dbimpl.Type `json:"-"`
 }
@@ -20,6 +21,7 @@ func LoadConfig(file string) (*indexConfig, error) {
 		Config:    *config.DefaultValues(),
 		Datafiles: []string{},
 		IndexDir:  "",
+		IndexDir2: "",
 	}
 	err := config.LoadFile(file, cfg)
 	if err != nil {

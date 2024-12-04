@@ -5,8 +5,11 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"io/fs"
 	"os"
 	"path"
+	"path/filepath"
+	"strings"
 	"sync"
 
 	"github.com/swkim101/cspapers.org/api.cspapers.org/log"
@@ -37,6 +40,44 @@ func runIndex(cfg *indexConfig) {
 		panic(err)
 	}
 	defer cfg.dbimpl.Dtor()
+
+	root := cfg.IndexDir2
+
+	/* save crawled data first */
+	filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
+		if d.IsDir() {
+			log.Debugf("add %v", path)
+			return nil
+		}
+		index := strings.TrimPrefix(path, cfg.IndexDir2+string(os.PathSeparator))
+		year, venue, title, err := types.Decompose(index)
+		if err != nil {
+			log.Printf("parse error %v %v %v", year, err, path)
+			return err
+		}
+		/* we use semantic scholar data before 2018 */
+		if year < 2018 {
+			return nil
+		}
+		blob, err := os.ReadFile(path)
+		if err != nil {
+			log.Printf("failed to read file %v %v", path, err)
+			return err
+		}
+
+		cfg.dbimpl.Insert(&types.InsertRequest{
+			Paper: types.Paper{
+				Year:  year,
+				Venue: venue,
+				Title: title,
+			},
+			Index:    fmt.Sprintf("%v/%v", cfg.IndexDir2, index),
+			Abstract: string(blob),
+		})
+		return nil
+	})
+
+	/* save semantic schoalr data */
 	reqChan := make(chan *types.InsertRequest)
 	done := make(chan bool)
 	go indexAbs(reqChan, cfg.dbimpl.Insert, done)
@@ -83,8 +124,12 @@ func indexTitle(filename string, reqChan chan *types.InsertRequest) {
 		if err != nil {
 			panic(err)
 		}
+		/* we use cralwed data after 2018 */
+		if 2018 <= line.Year {
+			continue
+		}
 		id := line.CorpusId
-		dir := fmt.Sprintf("%v/%v/%v", int((id / 10000 / 1000)), int((id%10000)/1000), id)
+		dir := fmt.Sprintf("index/%v/%v/%v", int((id / 10000 / 1000)), int((id%10000)/1000), id)
 		venue, ok := idToVenue[line.VenueId]
 		if !ok {
 			log.Fatalf("unknown venue id %v in %v", line.VenueId, string(dat))
