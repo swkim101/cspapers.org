@@ -1,0 +1,15 @@
+Recently, self-supervised vision transformers have attracted unprecedented attention for their impressive representation learning ability. 
+
+However, the dominant method, contrastive learning, mainly relies on an instance discrimination pretext task, which learns a global understanding of the image. 
+
+This paper incorporates local feature learning into self-supervised vision transformers via Reconstructive Pre-training (RePre).
+
+Our RePre extends contrastive frameworks by adding a branch for reconstructing raw image pixels in parallel with the existing contrastive objective. 
+
+RePre equips with a lightweight convolution-based decoder that fuses the multi-hierarchy features from the transformer encoder. 
+
+The multi-hierarchy features provide rich supervisions from low to high semantic information, crucial for our RePre.
+
+Our RePre brings decent improvements on various contrastive frameworks with different vision transformer architectures. 
+
+Transfer performance in downstream tasks outperforms supervised pre-training and state-of-the-art (SOTA) self-supervised counterparts.

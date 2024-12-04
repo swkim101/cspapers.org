@@ -1,0 +1,5 @@
+Sparse rewards are double-edged training signals in reinforcement learning:
+
+easy to design but hard to optimize. Intrinsic motivation guidances have thus been developed toward alleviating the resulting exploration problem. They usually incentivize agents to look for new states through novelty signals. Yet, such methods encourage exhaustive exploration of the state space rather than focusing on the environment's salient interaction opportunities. We propose a new exploration method, called Don't Do What Doesn't Matter (DoWhaM), shifting the emphasis from state novelty to state with relevant actions. While most actions consistently change the state when used, e.g. moving the agent, some actions are only effective in specific states, e.g., opening a door, grabbing an object. DoWhaM detects and rewards actions that seldom affect the environment.
+
+We evaluate DoWhaM on the procedurally-generated environment MiniGrid against state-of-the-art methods. Experiments consistently show that DoWhaM greatly reduces sample complexity, installing the new state-of-the-art in MiniGrid.

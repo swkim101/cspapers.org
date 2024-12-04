@@ -1,0 +1,4 @@
+
+ Answering connectivity queries is fundamental to fully dynamic graphs where edges and vertices are inserted and deleted frequently. Existing work proposes data structures and algorithms with worst case guarantees. We propose a new data structure, the
+ dynamic tree
+ (D-tree), together with algorithms to construct and maintain it. The D-tree is the first data structure that scales to fully dynamic graphs with millions of vertices and edges and, on average, answers connectivity queries much faster than data structures with worst case guarantees.

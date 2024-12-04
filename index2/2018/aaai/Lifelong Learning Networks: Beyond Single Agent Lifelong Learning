@@ -1,0 +1,4 @@
+
+ 
+ Lifelong machine learning (LML) is a paradigm to design adaptive agents that can learn in dynamic environments. Current LML algorithms consider a single agent that has centralized access to all data. However, given privacy and security constraints, data might be distributed among multiple agents that can collaborate and learn from collective experience. Our goal is to extend LML from a single agent to a network of multiple agents that collectively learn a series of tasks.
+ 

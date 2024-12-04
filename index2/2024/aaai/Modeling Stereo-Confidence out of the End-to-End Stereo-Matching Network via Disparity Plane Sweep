@@ -1,0 +1,7 @@
+We propose a novel stereo-confidence that can be measured externally to various stereo-matching networks, offering an alternative input modality choice of the cost volume for learning-based approaches, especially in safety-critical systems.
+Grounded in the foundational concepts of disparity definition and the disparity plane sweep, the proposed stereo-confidence method is built upon the idea that any shift in a stereo-image pair should be updated in a corresponding amount shift in the disparity map. 
+Based on this idea, the proposed stereo-confidence method can be summarized in three folds.
+1) Using the disparity plane sweep, multiple disparity maps can be obtained and treated as a 3-D volume (predicted disparity volume), like the cost volume is constructed. 
+2) One of these disparity maps serves as an anchor, allowing us to define a desirable (or ideal) disparity profile at every spatial point.
+3) By comparing the desirable and predicted disparity profiles, we can quantify the level of matching ambiguity between left and right images for confidence measurement. 
+Extensive experimental results using various stereo-matching networks and datasets demonstrate that the proposed stereo-confidence method not only shows competitive performance on its own but also consistent performance improvements when it is used as an input modality for learning-based stereo-confidence methods.

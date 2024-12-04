@@ -1,0 +1,7 @@
+We revisit residual algorithms in both model-free and model-based reinforcement learning settings.
+
+We propose the bidirectional target network technique to stabilize residual algorithms, yielding a residual version of DDPG that significantly outperforms vanilla DDPG in commonly used benchmarks.
+
+Moreover, we find the residual algorithm an effective approach to the distribution mismatch problem in model-based planning.
+
+Compared with the existing TD(k) method, our residual-based method makes weaker assumptions about the model and yields a greater performance boost.

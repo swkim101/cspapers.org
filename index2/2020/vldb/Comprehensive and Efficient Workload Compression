@@ -1,0 +1,6 @@
+
+ This work studies the problem of constructing a representative workload from a given input analytical query workload where the former serves as an approximation with guarantees of the latter. We discuss our work in the context of workload analysis and monitoring. As an example, evolving system usage patterns in a database system can cause load imbalance and performance regressions which can be controlled by monitoring system usage patterns, i.e., a representative workload, over time. To construct such a workload in a principled manner, we formalize the notions of workload
+ representativity
+ and
+ coverage.
+ These metrics capture the intuition that the distribution of features in a compressed workload should match a target distribution, increasing representativity, and include common queries as well as outliers, increasing coverage. We show that solving this problem optimally is computationally hard and present a novel greedy algorithm that provides approximation guarantees. We compare our techniques to established algorithms in this problem space such as sampling and clustering, and demonstrate advantages and key trade-offs.

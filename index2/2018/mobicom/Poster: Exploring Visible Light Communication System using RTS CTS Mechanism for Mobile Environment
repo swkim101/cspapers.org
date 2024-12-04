@@ -1,0 +1,1 @@
+This work presents a software-centric visible light communication (VLC) system in full duplex mode with CSMA/CA and RTS-CTS in mobile environment. We focus on channel access mechanism problems in the same environment. To solve these we modify Distributed Coordination function (DCF) by adding ambient light measurement slot. The result shows modified DCF can handle the problems.

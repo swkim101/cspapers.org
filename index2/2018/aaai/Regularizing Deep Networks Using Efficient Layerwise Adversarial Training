@@ -1,0 +1,4 @@
+
+ 
+ Adversarial training has been shown to regularize deep neural networks in addition to increasing their robustness to adversarial examples. However, the regularization effect on very deep state of the art networks has not been fully investigated. In this paper, we present a novel approach to regularize deep neural networks by perturbing intermediate layer activations in an efficient manner. We use these perturbations to train very deep models such as ResNets and WideResNets and show improvement in performance across datasets of different sizes such as CIFAR-10, CIFAR-100 and ImageNet. Our ablative experiments show that the proposed approach not only provides stronger regularization compared to Dropout but also improves adversarial robustness comparable to traditional adversarial training approaches.
+ 

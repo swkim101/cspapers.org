@@ -1,0 +1,19 @@
+Hypertree width is a prominent hypergraph invariant with many
+
+ algorithmic applications in constraint satisfaction and
+
+ databases. We propose a novel characterization for hypertree width
+
+ in terms of linear elimination orderings. We utilize this
+
+ characterization to generate a new SAT encoding that we evaluate on
+
+ an extensive set of benchmark instances. We compare it to
+
+ state-of-the-art exact methods for computing optimal hypertree
+
+ width. Our results show that the encoding based on the new
+
+ characterization is not only significantly more compact than known
+
+ encodings but also outperforms the other methods.

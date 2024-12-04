@@ -1,0 +1,9 @@
+We present a mean-variance policy iteration (MVPI) framework for risk-averse control in a discounted infinite horizon MDP optimizing the variance of a per-step reward random variable.
+MVPI enjoys great flexibility in that
+any policy evaluation method and risk-neutral control method can be dropped in for risk-averse control off the shelf,
+in both on- and off-policy settings.
+This flexibility reduces the gap between risk-neutral control and risk-averse control and is achieved by working on a novel augmented MDP directly.
+We propose risk-averse TD3 as an example instantiating MVPI,
+which outperforms vanilla TD3 and many previous risk-averse control methods in challenging Mujoco robot simulation tasks under a risk-aware performance metric.
+This risk-averse TD3 is the first to introduce deterministic policies and off-policy learning into risk-averse reinforcement learning,
+both of which are key to the performance boost we show in Mujoco domains.

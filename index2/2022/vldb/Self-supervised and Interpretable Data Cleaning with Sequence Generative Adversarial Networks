@@ -1,0 +1,14 @@
+
+ We study the problem of self-supervised and interpretable data cleaning, which automatically extracts interpretable data repair rules from dirty data. In this paper, we propose a novel framework, namely Garf, based on sequence generative adversarial networks (SeqGAN). One key information Garf tries to capture is data repair rules (for example, if the city is "Dothan", then the county should be "Houston"). Garf employs a SeqGAN consisting of a generator
+ G
+ and a discriminator
+ D
+ that trains
+ G
+ to learn the dependency relationships (
+ e.g.
+ , given a city value "Dothan" as input, the county can be determined as "Houston"). After training, the generator
+ G
+ can be used to generate data repair rules, but may contain both trusted and untrusted rules, especially when learning from dirty data. To mitigate this problem, Garf further updates the learned relationships with another discriminator
+ D'
+ to iteratively improve the quality of both rules and data. Garf takes advantages of both logical and learning-based methods, which allow cleaning dirty data with high interpretability and have no requirements for prior knowledge and training data. Extensive experiments on real-world and synthetic datasets demonstrate the effectiveness of Garf. Garf achieves new state-of-the-art data cleaning result with high accuracy, through learning from dirty datasets without human supervision.

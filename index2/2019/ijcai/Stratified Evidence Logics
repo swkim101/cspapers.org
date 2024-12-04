@@ -1,0 +1,3 @@
+Evidence logics model agents' belief revision process as they incorporate and aggregate information obtained from multiple sources.
+This information is captured using neighbourhood structures, where individual neighbourhoods represent pieces of evidence.
+In this paper we propose an extended framework which allows one to explicitly quantify either the number of evidence sets, or effort, needed to justify a given proposition, provide a complete deductive calculus and a proof of decidability, and show how existing frameworks can be embedded into ours.

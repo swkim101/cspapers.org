@@ -1,0 +1,1 @@
+Smash is a new placement and lookup method for distributed storage systems. It achieves full placement flexibility and low DRAM cost to store ID-to-location mappings, two desired features that could not be achieved simultaneously by any prior method.

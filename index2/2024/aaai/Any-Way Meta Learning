@@ -1,0 +1,8 @@
+Although meta-learning seems promising performance in the realm of rapid adaptability, it is constrained by 
+fixed cardinality. When faced with tasks of varying cardinalities that were unseen during training, 
+the model lacks its ability. In this paper, we address and resolve this challenge 
+by harnessing `label equivalence' emerged from stochastic numeric label assignments during episodic task sampling. Questioning what defines ``true" meta-learning, we introduce the ``any-way" learning paradigm, an innovative model training approach that liberates model from
+fixed cardinality constraints. Surprisingly, this model not only matches but often outperforms traditional fixed-way models in terms of performance, convergence speed, and stability. This disrupts established notions
+about domain generalization. Furthermore, we argue that the inherent 
+label equivalence naturally lacks semantic information. To bridge this 
+semantic information gap arising from label equivalence, we further propose a mechanism for infusing semantic class information into the model. This would enhance the model's comprehension and functionality. Experiments conducted on renowned architectures like MAML and ProtoNet affirm the effectiveness of our method.

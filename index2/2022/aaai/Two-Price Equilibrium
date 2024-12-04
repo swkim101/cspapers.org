@@ -1,0 +1,10 @@
+Walrasian equilibrium is a prominent market equilibrium notion, but rarely exists in markets with indivisible items.
+ We introduce a new market equilibrium notion, called two-price equilibrium (2PE). A 2PE is a relaxation of Walrasian equilibrium, where instead of a single price per item, every item has two prices: one for the item's owner and a (possibly) higher one for all other buyers. 
+ Thus, a 2PE is given by a tuple (S,p_high,p_low) of an allocation S and two price vectors p_high,p_low, where every buyer i is maximally happy with her bundle S_i, given prices p_low for items in S_i and prices p_high for all other items. 
+ 2PE generalizes previous market equilibrium notions, such as conditional equilibrium, and is related to relaxed equilibrium notions like endowment equilibrium. 
+ We define the discrepancy of a 2PE --- a measure of distance from Walrasian equilibrium --- as the sum of differences p_high_j-p_low_j over all items (normalized by social welfare).
+ We show that the social welfare degrades gracefully with the discrepancy; namely, the social welfare of a 2PE with discrepancy d is at least a fraction 1/d+1 of the optimal welfare.
+ We use this to establish welfare guarantees for markets with subadditive valuations over identical items.
+ In particular, we show that every such market admits a 2PE with at least 1/7 of the optimal welfare.
+ This is in contrast to Walrasian equilibrium or conditional equilibrium which may not even exist.
+ Our techniques provide new insights regarding valuation functions over identical items, which we also use to characterize instances that admit a WE.

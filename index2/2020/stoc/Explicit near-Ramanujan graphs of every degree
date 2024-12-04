@@ -1,0 +1,1 @@
+For every constant d ≥ 3 and є > 0, we give a deterministic poly(n)-time algorithm that outputs a d-regular graph on Θ(n) vertices that is є-near-Ramanujan; i.e., its eigenvalues are bounded in magnitude by 2√d−1 + є (excluding the single trivial eigenvalue of d).

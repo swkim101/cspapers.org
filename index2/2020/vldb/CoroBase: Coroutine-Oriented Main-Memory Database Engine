@@ -1,0 +1,5 @@
+Data stalls are a major overhead in main-memory database engines due to the use of pointer-rich data structures. Lightweight coroutines ease the implementation of software prefetching to hide data stalls by overlapping computation and asynchronous data prefetching. Prior solutions, however, mainly focused on (1) individual components and operations and (2) intra-transaction batching that requires interface changes, breaking backward compatibility. It was not clear how they apply to a full database engine and how much end-to-end benefit they bring under various workloads.
+ 
+ This paper presents CoroBase, a main-memory database engine that tackles these challenges with a new
+ coroutine-to-transaction
+ paradigm. Coroutine-to-transaction models transactions as coroutines and thus enables inter-transaction batching, avoiding application changes but retaining the benefits of prefetching. We show that on a 48-core server, CoroBase can perform close to 2x better for read-intensive workloads and remain competitive for workloads that inherently do not benefit from software prefetching.

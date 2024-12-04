@@ -1,0 +1,4 @@
+
+ 
+ The purpose of this study is to design a machine learning approach to predict the student response in mixed-format tests. Particularly, a novel contextual collaborative filtering model is proposed to extract latent factors for students and test items, by exploiting the item information. Empirical results from a simulation study validate the effectiveness of the proposed method.
+ 

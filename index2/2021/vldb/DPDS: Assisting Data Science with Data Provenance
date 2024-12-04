@@ -1,0 +1,6 @@
+
+ Successful data-driven science requires a complex combination of data engineering pipelines and data modelling techniques. Robust and defensible results can only be achieved when each step in the pipeline that is designed to clean, transform and alter data in preparation for data modelling can be justified, and its effect on the data explained. The
+ DPDS
+ toolkit presented in this paper is designed to make such justification and explanation process an integral part of data science practice, adding value while remaining as un-intrusive as possible to the analyst. Catering to the broad community of python/pandas data engineers,
+ DPDS
+ implements an observer pattern that is able to capture the fine-grained provenance associated with each individual element of a dataframe, across multiple transformation steps. The resulting provenance graph is stored in Neo4j and queried through a UI, with the goal of helping engineers and analysts to justify and explain their choice of data operations, from raw data to model training, by highlighting the details of the changes through each transformation.

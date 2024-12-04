@@ -1,0 +1,4 @@
+
+ 
+ The PU learning problem concerns about learning from positive and unlabeled data. A popular heuristic is to iteratively enlarge training set based on some margin-based criterion. However, little theoretical analysis has been conducted to support the success of these heuristic methods. In this work, we show that not all margin-based heuristic rules are able to improve the learned classifiers iteratively. We find that a so-called large positive margin oracle is necessary to guarantee the success of PU learning. Under this oracle, a provable positive-margin based PU learning algorithm is proposed for linear regression and classification under the truncated Gaussian distributions. The proposed algorithm is able to reduce the recovering error geometrically proportional to the positive margin. Extensive experiments on real-world datasets verify our theory and the state-of-the-art performance of the proposed PU learning algorithm.
+ 

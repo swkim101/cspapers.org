@@ -1,0 +1,5 @@
+Accurately characterizing the user's current interest is the core of recommender systems. However, users' interests are dynamic and affected by intent factors and preference factors. The intent factors imply users' current needs and change among different visits. The preference factors are relatively stable and learned continuously over time. Existing works either resort to the sequential recommendation to model the current browsing intent and historical preference separately or just mix up these two factors during online learning. In this paper, we propose a novel learning strategy named FLIP to decouple the learning of intent and preference under the online settings. The learning of the intent is considered as a meta-learning task and fast adaptive to the current browsing; the learning of the preference is based on the calibrated user intent and constantly updated over time.
+
+We conducted experiments on two public datasets and a real-world recommender system. 
+
+When equipping it with modern recommendation methods, significant improvements are demonstrated over strong baselines.

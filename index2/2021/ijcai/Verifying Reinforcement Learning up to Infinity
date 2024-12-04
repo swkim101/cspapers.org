@@ -1,0 +1,33 @@
+Formally verifying that reinforcement learning systems act
+
+safely is increasingly important, but existing methods
+
+only verify over finite time.
+
+This is of limited use for dynamical systems that run indefinitely.
+
+We introduce the first method for verifying the time-unbounded
+
+safety of neural networks controlling dynamical systems.
+
+We develop a novel abstract interpretation method which,
+
+by constructing adaptable template-based polyhedra using MILP and interval
+
+arithmetic, yields sound---safe and invariant---overapproximations
+
+of the reach set.
+
+This provides stronger safety guarantees
+
+than previous time-bounded methods and shows whether
+
+the agent has generalised beyond the length of its training episodes.
+
+Our method supports ReLU activation functions
+
+and systems with linear, piecewise linear and non-linear dynamics
+
+defined with polynomial and transcendental functions.
+
+We demonstrate its efficacy on a range of benchmark control problems.

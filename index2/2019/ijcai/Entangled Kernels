@@ -1,0 +1,11 @@
+We consider the problem of operator-valued kernel learning and 
+investigate the possibility of going beyond the well-known separable 
+kernels. Borrowing tools and concepts from the field of quantum computing, such 
+as partial trace and entanglement, we propose a new view on 
+operator-valued kernels and define a general family of kernels that 
+encompasses previously known operator-valued kernels, including 
+separable and transformable kernels. Within this framework, we introduce another novel class of 
+operator-valued kernels called entangled kernels that are not 
+separable. We propose an efficient two-step algorithm for this framework, where the
+ entangled kernel is learned based on a novel extension of kernel 
+alignment to operator-valued kernels. The utility of the algorithm is illustrated on both artificial and real data.

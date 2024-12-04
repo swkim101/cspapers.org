@@ -1,0 +1,4 @@
+
+ 
+ We introduce MAgent, a platform to support research and development of many-agent reinforcement learning. Unlike previous research platforms on single or multi-agent reinforcement learning, MAgent focuses on supporting the tasks and the applications that require hundreds to millions of agents. Within the interactions among a population of agents, it enables not only the study of learning algorithms for agents' optimal polices, but more importantly, the observation and understanding of individual agent's behaviors and social phenomena emerging from the AI society, including communication languages, leaderships, altruism. MAgent is highly scalable and can host up to one million agents on a single GPU server. MAgent also provides flexible configurations for AI researchers to design their customized environments and agents. In this demo, we present three environments designed on MAgent and show emerged collective intelligence by learning from scratch.
+ 

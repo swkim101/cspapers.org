@@ -1,0 +1,1 @@
+We introduce a general model of bandit problems in which the expected payout of an arm is an increasing concave function of the time since it was last played. We first develop a PTAS for the underlying optimization problem of determining a reward-maximizing sequence of arm pulls. We then show how to use this PTAS in a learning setting to obtain sublinear regret.

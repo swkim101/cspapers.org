@@ -1,0 +1,4 @@
+
+ 
+ We study query answering in the description logic SQ supporting qualified number restrictions on both transitive and non-transitive roles. Our main contributions are a tree-like model property for SQ-knowledge bases and, building upon this, an optimal automata-based algorithm for answering positive existential regular path queries in 2EXPTIME.
+ 

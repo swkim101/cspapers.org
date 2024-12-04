@@ -1,0 +1,1 @@
+We show that gradient descent on full-width linear convolutional networks of depth $L$ converges to a linear predictor related to the $\ell_{2/L}$ bridge penalty in the frequency domain. This is in contrast to linearly fully connected networks, where gradient descent converges to the hard margin linear support vector machine solution, regardless of depth.

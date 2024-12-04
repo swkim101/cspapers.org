@@ -1,0 +1,9 @@
+Autonomous agents that interact with humans are becoming more and more prominent.
+
+Currently, such agents usually take one of the following approaches for considering human behavior. Some methods assume either a fully cooperative or a zero-sum setting; these assumptions entail that the human's goals are either identical to that of the agent, or their opposite. In both cases, the agent is not required to explicitly model the human’s goals and account for humans' adaptation nature. 
+
+Other methods first compose a model of human behavior based on observing human actions, and then optimize the agent’s actions based on this model. Such methods do not account for how the human will react to the agent's actions and thus, suffer an overestimation bias.
+
+Finally, other methods, such as model free reinforcement learning, merely learn which actions the agent should take at which states. While such methods can, theoretically, account for human adaptation nature, since they require extensive interaction with humans, they usually run in simulation.
+
+By not considering the human’s goals, autonomous agents act selfishly, lack generalization, require vast amounts of data, and cannot account for human’s strategic behavior. Therefore, we call for pursuing solution concepts for autonomous agents interacting with humans that consider the human’s goals and adaptive nature.

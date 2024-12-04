@@ -1,0 +1,6 @@
+
+ As one of the most fundamental problems in graph data mining, the
+ densest subgraph discovery
+ (DSD) problem has found a broad spectrum of real applications, such as social network community detection, graph index construction, regulatory motif discovery in DNA, fake follower detection, and so on. Theoretically, DSD closely relates to other fundamental graph problems, such as network flow and bipartite matching. Triggered by these applications and connections, DSD has garnered much attention from the database, data mining, theory, and network communities.
+ 
+ In this tutorial, we first highlight the importance of DSD in various applications and the unique challenges that need to be addressed. Subsequently, we classify existing DSD solutions into several groups, which cover around 50 research papers published in many well-known venues (e.g., SIGMOD, PVLDB, TODS, WWW), and conduct a thorough review of these solutions in each group. Afterwards, we analyze and compare the models and solutions in these works. Finally, we point out a list of promising future research directions. We believe that this tutorial not only helps researchers have a better understanding of existing densest subgraph models and solutions, but also provides them insights for future study.

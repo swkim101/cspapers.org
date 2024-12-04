@@ -1,0 +1,11 @@
+
+ Log-Structured Merge trees (LSM trees) are increasingly used as the storage engines behind several data systems, frequently deployed in the cloud. Similar to other database architectures, LSM trees consider information about the
+ expected
+ workload (e.g., reads vs. writes, point vs. range queries) to optimize their performance via tuning. However, operating in a shared infrastructure like the cloud comes with workload
+ uncertainty
+ due to the fast-evolving nature of modern applications. Systems with static tuning discount the variability of such hybrid workloads and hence provide an inconsistent and overall suboptimal performance.
+ 
+ 
+ To address this problem, we introduce Endure - a new paradigm for tuning LSM trees in the presence of workload uncertainty. Specifically, we focus on the impact of the choice of compaction policies, size ratio, and memory allocation on the overall performance. Endure considers a robust formulation of the throughput maximization problem and recommends a tuning that maximizes the worst-case throughput over the
+ neighborhood
+ of each expected workload. Additionally, an uncertainty tuning parameter controls the size of this neighborhood, thereby allowing the output tunings to be conservative or optimistic. Through both model-based and extensive experimental evaluations of Endure in the state-of-the-art LSM-based storage engine, RocksDB, we show that the robust tuning methodology consistently outperforms classical tuning strategies. The robust tunings output by Endure lead up to a 5X improvement in throughput in the presence of uncertainty. On the flip side, Endure tunings have negligible performance loss when the observed workload exactly matches the expected one.

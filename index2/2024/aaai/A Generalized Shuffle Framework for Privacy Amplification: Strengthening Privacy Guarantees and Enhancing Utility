@@ -1,0 +1,12 @@
+The shuffle model of local differential privacy is an advanced method of privacy amplification designed to enhance privacy protection with high utility. 
+It achieves this by randomly shuffling sensitive data, making linking individual data points to specific individuals more challenging.
+However, most existing studies have focused on the shuffle model based on
+(ε0,0)-Locally Differentially Private (LDP) randomizers, with limited consideration for complex scenarios such as (ε0,δ0)-LDP or personalized LDP (PLDP). 
+This hinders a comprehensive understanding of the shuffle model's potential and limits its application in various settings.
+To bridge this research gap, we propose a generalized shuffle framework that can be applied to PLDP setting. This generalization allows for a broader exploration of the privacy-utility trade-off and facilitates the design of privacy-preserving analyses in diverse contexts.
+We prove that the shuffled PLDP process approximately preserves μ-Gaussian Differential Privacy with 
+μ = O(1/√n).
+This approach allows us to avoid the limitations and potential inaccuracies associated with inequality estimations.
+To strengthen the privacy guarantee, we improve the lower bound by utilizing hypothesis testing instead of relying on rough estimations like the Chernoff bound or Hoeffding's inequality.
+Furthermore, extensive comparative evaluations clearly show that our approach outperforms existing methods in achieving strong central privacy guarantees while preserving the utility of the global model.
+We have also carefully designed corresponding algorithms for average function, frequency estimation, and stochastic gradient descent.

@@ -1,0 +1,1 @@
+For any finite group G, we give an arithmetic algorithm to compute generalized Discrete Fourier Transforms (DFTs) with respect to G, using O(|G|^ω/2+ε) operations, for any ε > 0. Here, ω is the exponent of matrix multiplication.

@@ -1,0 +1,7 @@
+In this paper, we propose a new hyper-heuristic approach that uses reinforcement learning to automatically learn the selection of low-level heuristics across a wide range of problem domains.
+
+We provide a detailed analysis and evaluation of the algorithm components, including different ways to represent the hyper-heuristic state space and reset strategies to avoid unpromising areas of the solution space.
+
+Our methods have been evaluated using HyFlex, a well-known benchmarking framework for cross-domain hyper-heuristics, and compared with state-of-the-art approaches.
+
+The experimental evaluation shows that our reinforcement-learning based approach produces results that are competitive with the state-of-the-art, including the top participants of the Cross Domain Hyper-heuristic Search Competition 2011.

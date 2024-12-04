@@ -1,0 +1,8 @@
+Out-of-distribution (OOD) detection is crucial to safety-critical machine learning applications and has been extensively studied.
+While recent studies have predominantly focused on classifier-based methods, research on deep generative model (DGM)-based methods have lagged relatively.
+This disparity may be attributed to a perplexing phenomenon: DGMs often assign higher likelihoods to unknown OOD inputs than to their known training data.
+This paper focuses on explaining the underlying mechanism of this phenomenon.
+We propose a hypothesis that less complex images concentrate in high-density regions in the latent space, resulting in a higher likelihood assignment in the Normalizing Flow (NF).
+We experimentally demonstrate its validity for five NF architectures, concluding that their likelihood is untrustworthy.
+Additionally, we show that this problem can be alleviated by treating image complexity as an independent variable.
+Finally, we provide evidence of the potential applicability of our hypothesis in another DGM, PixelCNN++.

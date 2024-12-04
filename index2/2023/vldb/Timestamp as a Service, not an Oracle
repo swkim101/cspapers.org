@@ -1,0 +1,9 @@
+We present a logical timestamping mechanism for ordering transactions in distributed databases, eliminating the single point of failure (SPoF) that bother existing timestamp "oracles". The main innovation is a bipartite client-server architecture, where the servers do not communicate with each other. The result is a highly available timestamping "service" that guarantees the availability of time-stamps, unless half the servers are down at the same time.
+ 
+ We study the fundamental needs of timestamping, and formalize its availability and correctness properties in a distributed setting. We then introduce the TaaS (timestamp as a service) algorithm, which defines a monotonic spacetime over multiple server clocks. We prove, mathematically: (i)
+ Availability
+ that the timestamps are always computable, provided any majority of the server clocks being observable; and (ii)
+ Correctness
+ that all the computed time-stamps must increase monotonically over time, even if some clocks become unobservable.
+ 
+ We evaluate our algorithm by prototyping TaaS and benchmarking it against state of the art timestamp oracle in TiDB. Our experiment shows that TaaS is indeed immune to SPoF (as we have proven mathematically), while exhibiting a reasonable performance at the same order of magnitude with TiDB. We also demonstrate the stability of our bipartite architecture, by deploying TaaS across datacenters and showing its resilience to datacenter-level failures.

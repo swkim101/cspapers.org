@@ -1,0 +1,10 @@
+While existing work in robust deep learning has focused on small pixel-level norm-based perturbations, this may not account for perturbations encountered in several real world settings.
+In many such cases although test data might not be available, broad specifications about the types of perturbations (such as an unknown degree of rotation) may be known.
+We consider a setup where robustness is expected over an unseen test domain that is not i.i.d. but deviates from the training domain.
+While this deviation may not be exactly known, its broad characterization is specified a priori, in terms of attributes.
+We propose an adversarial training approach which learns to generate new samples so as to maximize exposure of the classifier to the attributes-space, without having access to the data from the test domain.
+Our adversarial training solves a min-max optimization problem, with the inner maximization generating adversarial perturbations,
+and the outer minimization finding model parameters by optimizing the loss on adversarial perturbations generated from the inner maximization.
+We demonstrate the applicability of our approach on three types of naturally occurring perturbations --- object-related shifts, geometric transformations, and common image corruptions.
+Our approach enables deep neural networks to be robust against a wide range of naturally occurring perturbations.
+We demonstrate the usefulness of the proposed approach by showing the robustness gains of deep neural networks trained using our adversarial training on MNIST, CIFAR-10, and a new variant of the CLEVR dataset.

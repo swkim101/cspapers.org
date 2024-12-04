@@ -1,0 +1,7 @@
+Recently, 3D medical image reconstruction (MIR) and segmentation (MIS) based on deep neural networks have been developed with promising results, and attention mechanism has been further designed for performance enhancement.
+However, the large size of 3D volume images poses a great computational challenge to traditional attention methods. 
+In this paper, we propose a folded attention (FA) approach to improve the computational efficiency of traditional attention methods on 3D medical images. 
+The main idea is that we apply tensor folding and unfolding operations to construct four small sub-affinity matrices to approximate the original affinity matrix.
+Through four consecutive sub-attention modules of FA, each element in the feature tensor can aggregate spatial-channel information from all other elements.
+Compared to traditional attention methods, with the moderate improvement of accuracy, FA can substantially reduce the computational complexity and GPU memory consumption.
+We demonstrate the superiority of our method on two challenging tasks for 3D MIR and MIS, which are quantitative susceptibility mapping and multiple sclerosis lesion segmentation.

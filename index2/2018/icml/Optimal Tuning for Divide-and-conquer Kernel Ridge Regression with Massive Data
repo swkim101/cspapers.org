@@ -1,0 +1,1 @@
+We propose a first data-driven tuning procedure for divide-and-conquer kernel ridge regression (Zhang et al., 2015). While the proposed criterion is computationally scalable for massive data sets, it is also shown to be asymptotically optimal under mild conditions. The effectiveness of our method is illustrated by extensive simulations and an application to Million Song Dataset.

@@ -1,0 +1,19 @@
+
+ This paper studies the synthesis of high-dimensional datasets with differential privacy (DP). The state-of-the-art solution addresses this problem by first generating a set
+ M
+ of noisy low-dimensional marginals of the input data
+ D
+ , and then use them to approximate the data distribution in
+ D
+ for synthetic data generation. However, it imposes several constraints on
+ M
+ that considerably limits the choices of marginals. This makes it difficult to capture all important correlations among attributes, which in turn degrades the quality of the resulting synthetic data.
+ 
+ 
+ To address the above deficiency, we propose PrivMRF, a method that (i) also utilizes a set
+ M
+ of low-dimensional marginals for synthesizing high-dimensional data with DP, but (ii) provides a high degree of flexibility in the choices of marginals. The key idea of PrivMRF is to select an appropriate
+ M
+ to construct a
+ Markov random field (MRF)
+ that models the correlations among the attributes in the input data, and then use the MRF for data synthesis. Experimental results on four benchmark datasets show that PrivMRF consistently outperforms the state of the art in terms of the accuracy of counting queries and classification tasks conducted on the synthetic data generated.

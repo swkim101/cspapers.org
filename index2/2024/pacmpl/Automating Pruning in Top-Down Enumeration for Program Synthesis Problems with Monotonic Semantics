@@ -1,0 +1,17 @@
+In top-down enumeration for program synthesis, abstraction-based pruning uses an abstract domain to approximate the set of possible values that a partial program, when completed, can output on a given input. If the set does not contain the desired output, the partial program and all its possible completions can be pruned. In its general form, abstraction-based pruning requires manually designed, domain-specific abstract domains and semantics, and thus has only been used in domain-specific synthesizers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper provides sufficient conditions under which a form of abstraction-based pruning can be automated for arbitrary synthesis problems in the general-purpose Semantics-Guided Synthesis (SemGuS) framework without requiring manually-defined abstract domains. We show that if the semantics of the language for which we are synthesizing programs exhibits some monotonicity properties, one can obtain an abstract interval-based semantics for free from the concrete semantics of the programming language, and use such semantics to effectively prune the search space. We also identify a condition that ensures such abstract semantics can be used to compute a precise abstraction of the set of values that a program derivable from a given hole in a partial program can produce. These precise abstractions make abstraction-based pruning more effective. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We implement our approach in a tool, Moito, which can tackle synthesis problems defined in the SemGuS framework. Moito can automate interval-based pruning without any a-priori knowledge of the problem domain, and solve synthesis problems that previously required domain-specific, abstraction-based synthesizers— e.g., synthesis of regular expressions, CSV file schema, and imperative programs from examples.

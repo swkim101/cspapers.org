@@ -1,0 +1,4 @@
+
+ 
+ A number of proposals have been made to define inconsistency measures. Each has its rationale. But to date, it is not clear how to delineate the space of options for measures, nor is it clear how we can classify measures systematically. In this paper, we introduce a general framework for comparing syntactic inconsistency measures. It uses the construction of an inconsistency graph for each knowledgebase. We then introduce abstractions of the inconsistency graph and use the hierarchy of the abstractions to classify a range of inconsistency measures.
+ 

@@ -1,0 +1,4 @@
+
+ 
+ Concept prerequisite learning focuses on machine learning methods for measuring the prerequisite relation among concepts. With the importance of prerequisites for education, it has recently become a promising research direction. A major obstacle to extracting prerequisites at scale is the lack of large-scale labels which will enable effective data-driven solutions. We investigate the applicability of active learning to concept prerequisite learning.We propose a novel set of features tailored for prerequisite classification and compare the effectiveness of four widely used query strategies. Experimental results for domains including data mining, geometry, physics, and precalculus show that active learning can be used to reduce the amount of training data required. Given the proposed features, the query-by-committee strategy outperforms other compared query strategies.
+ 

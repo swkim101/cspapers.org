@@ -1,0 +1,8 @@
+
+ The cost of big-data analytics is dominated by shuffle operations that induce multiple disk reads, writes and network transfers. This paper proposes a new class of optimization rules that are specifically aimed at eliminating shuffles where possible. The rules substitute multiple shuffle inducing operators (
+ Join, UnionAll, Spool, GroupBy
+ ) with a single streaming operator which implements an entire sub-query. We call such operators
+ super-operators.
+ 
+ A key challenge with adding new rules that substitute sub-queries with super-operators is that there are many variants of the same sub-query that can be implemented via minor modifications to the same super-operator. Adding each as a separate rule leads to a search space explosion. We propose several extensions to the query optimizer to address this challenge. We propose a new abstract representation for operator trees that captures all possible sub-queries that a super-operator implements. We propose a new rule matching algorithm that can efficiently search for abstract operator trees. Finally we extend the physical operator interface to introduce new parametric super-operators.
+ We implement our changes in SCOPE, a state-of-the-art production big-data optimizer used extensively at Microsoft. We demonstrate that the proposed optimizations provide significant reduction in both resource cost (average 1.7x) and latency (average 1.5x) on several production queries, and do so without increasing optimization time.

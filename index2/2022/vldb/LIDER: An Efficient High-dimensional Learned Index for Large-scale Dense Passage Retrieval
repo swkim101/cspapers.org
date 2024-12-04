@@ -1,0 +1,15 @@
+Passage retrieval has been studied for decades, and many recent approaches of passage retrieval are using dense embeddings generated from deep neural models, called "dense passage retrieval". The state-of-the-art end-to-end dense passage retrieval systems normally deploy a deep neural model followed by an approximate nearest neighbor (ANN) search module. The model generates embeddings of the corpus and queries, which are then indexed and searched by the high-performance ANN module. With the increasing data scale, the ANN module unavoidably becomes the bottleneck on efficiency. An alternative is the learned index, which achieves significantly high search efficiency by learning the data distribution and predicting the target data location. But most of the existing learned indexes are designed for low dimensional data, which are not suitable for dense passage retrieval with high-dimensional dense embeddings.
+ 
+ In this paper, we propose
+ LIDER
+ , an efficient high-dimensional
+ L
+ earned
+ I
+ ndex for large-scale
+ DE
+ nse passage
+ R
+ etrieval. LIDER has a clustering-based hierarchical architecture formed by two layers of core models. As the basic unit of LIDER to index and search data, a
+ core model
+ includes an adapted recursive model index (RMI) and a dimension reduction component which consists of an extended SortingKeys-LSH (SK-LSH) and a key re-scaling module. The dimension reduction component reduces the high-dimensional dense embeddings into one-dimensional keys and sorts them in a specific order, which are then used by the RMI to make fast prediction. Experiments show that LIDER has a higher search speed with high retrieval quality comparing to the state-of-the-art ANN indexes on passage retrieval tasks, e.g., on large-scale data it achieves 1.2x search speed and significantly higher retrieval quality than the fastest baseline in our evaluation. Furthermore, LIDER has a better capability of speed-quality trade-off.

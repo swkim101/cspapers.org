@@ -1,0 +1,13 @@
+Organization evaluation is an important dimension of automated essay scoring. 
+
+This paper focuses on discourse element (i.e., functions of sentences and paragraphs) based organization evaluation.
+
+Existing approaches mostly separate discourse element identification and organization evaluation.
+
+In contrast, we propose a neural hierarchical multi-task learning approach for jointly optimizing sentence and paragraph level discourse element identification and organization evaluation.
+
+We represent the organization as a grid to simulate the visual layout of an essay and integrate discourse elements at multiple linguistic levels.
+
+Experimental results show that the multi-task learning based organization evaluation can achieve significant improvements compared with existing work and pipeline baselines. 
+
+Multiple level discourse element identification also benefits from multi-task learning through mutual enhancement.

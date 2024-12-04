@@ -1,0 +1,7 @@
+Over the past decade, the database research community has directed considerable attention towards harnessing the power of GPUs in query processing engines. The proposed techniques have primarily focused on devising customized low-level mechanisms that utilize the raw hardware parallelism provided abundantly by GPU compute kernels.
+ 
+ In this paper, we advocate a radically different approach - instead of dealing directly with hardware idiosyncrasies, to leverage the well-established
+ graphics pipeline architecture
+ baked into the GPU hardware. A variety of advantages accrue from this high-level abstraction: (a) Extracting the power of GPUs is outsourced to highly-optimized graphics drivers, thereby providing hardware-consciousness for free; (b) Query processing becomes agnostic to changes in GPU architectures (e.g. integrated vs discrete) and vendors, requiring only a change of drivers; (c) Contemporary graphics APIs also support a compute element, facilitating query operator designs that seamlessly straddle the compute and graphics worlds.
+ 
+ As a proof of concept of the above vision, we implement here the workhorse Join and GroupBy operators using core graphics primitives. These implementations, based on the Vulkan API, have been evaluated over large benchmark databases on vanilla hybrid computing platforms. The experimental results indicate both substantive performance benefits (typically, around 2X faster) over existing approaches, as well as auto-tuned portability to new hardware platforms.

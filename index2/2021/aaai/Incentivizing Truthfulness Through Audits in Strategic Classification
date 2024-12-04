@@ -1,0 +1,8 @@
+In many societal resource allocation domains, machine learning methods are increasingly used to either score or rank agents in order to decide which ones should receive either resources (e.g., homeless services) or scrutiny (e.g., child welfare investigations) from social services agencies. An agency's scoring function typically operates on a feature vector that contains a combination of self-reported features and information available to the agency about individuals or households.
+ This can create incentives for agents to misrepresent their self-reported features in order to receive resources or avoid scrutiny, but agencies may be able to selectively audit agents to verify the veracity of their reports.
+ 
+ We study the problem of optimal auditing of agents in such settings. When decisions are made using a threshold on an agent's score, the optimal audit policy has a surprisingly simple structure, uniformly auditing all agents who could benefit from lying.
+ While this policy can, in general be hard to compute because of the difficulty of identifying the set of agents who could benefit from lying given a complete set of reported types, we also present sufficient conditions under which it is tractable.
+ We show that the scarce resource setting is more difficult, and exhibit an approximately optimal audit policy in this case.
+ In addition, we show that in either setting verifying whether it is possible to incentivize exact truthfulness is hard even to approximate.
+ However, we also exhibit sufficient conditions for solving this problem optimally, and for obtaining good approximations.

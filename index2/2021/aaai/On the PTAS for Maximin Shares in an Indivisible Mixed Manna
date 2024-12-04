@@ -1,0 +1,3 @@
+We study fair allocation of indivisible items, both goods and chores, under the popular fairness notion of maximin share (MMS). The problem is well-studied when there are only goods (or chores), where a PTAS to compute the MMS values of agents is well-known. 
+
+In contrast, for the mixed manna, a recent result showed that finding even an approximate MMS value of an agent up to any approximation factor in (0,1] is NP-hard for general instances. In this paper, we complement the hardness result by obtaining a PTAS to compute the MMS value when its absolute value is at least 1/p times either the total value of all the goods or total cost of all the chores, for some constant p valued at least 1.

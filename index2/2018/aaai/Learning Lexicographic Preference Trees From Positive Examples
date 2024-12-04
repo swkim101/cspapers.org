@@ -1,0 +1,4 @@
+
+ 
+ This paper considers the task of learning the preferences of users on a combinatorial set of alternatives, as it can be the case for example with online configurators. In many settings, what is available to the learner is a set of positive examples of alternatives that have been selected during past interactions. We propose to learn a model of the users' preferences that ranks previously chosen alternatives as high as possible. In this paper, we study the particular task of learning conditional lexicographic preferences. We present an algorithm to learn several classes of lexicographic preference trees, prove convergence properties of the algorithm, and experiment on both synthetic data and on a real-world bench in the domain of recommendation in interactive configuration.
+ 

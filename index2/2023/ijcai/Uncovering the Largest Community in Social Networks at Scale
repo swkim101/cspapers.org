@@ -1,0 +1,9 @@
+The Maximum k-Plex Search (MPS) can find the largest k-plex, which is a generalization of the largest clique.
+
+Although MPS is commonly used in AI to effectively discover real-world communities of social networks, existing MPS algorithms suffer from high computational costs because they iteratively scan numerous nodes to find the largest k-plex.
+
+Here, we present an efficient MPS algorithm called Branch-and-Merge (BnM), which outputs an exact maximum k-plex.
+
+BnM merges unnecessary nodes to explore a smaller graph than the original one.
+
+Extensive evaluations on real-world social networks demonstrate that BnM significantly outperforms other state-of-the-art MPS algorithms in terms of running time.

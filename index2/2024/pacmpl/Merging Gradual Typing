@@ -1,0 +1,17 @@
+Programming language mechanisms with a type-directed semantics are nowadays common and widely used. Such mechanisms include gradual typing, type classes, implicits and intersection types with a merge operator. While sharing common challenges in their design and having complementary strengths, type-directed mechanisms have been mostly independently studied.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper studies a new calculus, called λM⋆, which combines two type-directed mechanisms: gradual typing and a merge operator based on intersection types. Gradual typing enables a smooth transition between dynamically and statically typed code, and is available in languages such as TypeScript or Flow. The merge operator generalizes record concatenation to allow merges of values of any two types. Recent work has shown that the merge operator enables modelling expressive OOP features like first-class traits/classes and dynamic inheritance with static type-checking. These features are not found in mainstream statically typed OOP languages, but they can be found in dynamically or gradually typed languages such as JavaScript or TypeScript. In λM⋆, by exploiting the complementary strengths of gradual typing and the merge operator, we obtain a foundation for modelling gradually typed languages with both first-class classes and dynamic inheritance. We study a static variant of λM⋆ (called λM); prove the type-soundness of λM⋆; show that λM⋆ can encode gradual rows and all well-typed terms in the GTFL≲ calculus; and show that λM⋆ satisfies gradual typing criteria. The dynamic gradual guarantee (DGG) is challenging due to the possibility of ambiguity errors. We establish a variant of the DGG using a semantic notion of precision based on a step-indexed logical relation.

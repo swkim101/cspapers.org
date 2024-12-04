@@ -1,0 +1,25 @@
+The problem of task assignment to workers is of
+
+long-standing fundamental importance. Examples of this include the classical
+
+problem of assigning computing tasks to nodes in a distributed computing
+
+environment, assigning jobs to robots, and crowdsourcing. Extensive research
+
+into this problem generally addresses important issues such as uncertainty and
+
+incentives. However, the problem of adversarial tampering with the task
+
+assignment process has not received as much attention.  We are concerned with a particular adversarial setting in
+
+task assignment where an attacker may target a set of workers in order to
+
+prevent the tasks assigned to these workers from being completed. For the case when all tasks are homogeneous, we provide an
+
+efficient algorithm for computing the optimal assignment. When tasks are
+
+heterogeneous, we show that the adversarial assignment problem is NP-Hard, and present an
+
+algorithm for solving it approximately. Our theoretical results are accompanied
+
+by extensive simulation results showing the effectiveness of our algorithms.

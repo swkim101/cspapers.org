@@ -1,0 +1,10 @@
+Taxonomy expansion is the process of incorporating a large number of additional nodes (i.e., ''queries'') into an existing taxonomy (i.e., ''seed''), with the most important step being the selection of appropriate positions for each query.
+Enormous efforts have been made by exploring the seed's structure.
+However, existing approaches are deficient in their mining of structural information in two ways: poor modeling of the hierarchical semantics and failure to capture directionality of the is-a relation.
+This paper seeks to address these issues by explicitly denoting each node as the combination of inherited feature (i.e., structural part) and incremental feature (i.e., supplementary part).
+Specifically, the inherited feature originates from ''parent'' nodes and is weighted by an inheritance factor.
+With this node representation, the hierarchy of semantics in taxonomies (i.e., the inheritance and accumulation of features from ''parent'' to ''child'') could be embodied.
+Additionally, based on this representation, the directionality of the is-a relation could be easily translated into the irreversible inheritance of features.
+Inspired by the Darmois-Skitovich Theorem, we implement this irreversibility by a non-Gaussian constraint on the supplementary feature.
+A log-likelihood learning objective is further utilized to optimize the proposed model (dubbed DNG), whereby the required non-Gaussianity is also theoretically ensured.
+Extensive experimental results on two real-world datasets verify the superiority of DNG relative to several strong baselines.

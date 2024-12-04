@@ -1,0 +1,9 @@
+Thompson sampling (TS) has been known for its outstanding empirical performance supported by theoretical guarantees across various reward models in the classical stochastic multi-armed bandit problems.
+Nonetheless, its optimality is often restricted to specific priors due to the common observation that TS is fairly insensitive to the choice of the prior when it comes to asymptotic regret bounds.
+However, when the model contains multiple parameters, the optimality of TS highly depends on the choice of priors, which casts doubt on the generalizability of previous findings to other models. 
+To address this gap, this study explores the impact of selecting noninformative priors, offering insights into the performance of TS when dealing with new models that lack theoretical understanding.
+We first extend the regret analysis of TS to the model of uniform distributions with unknown supports, which would be the simplest non-regular model. 
+Our findings reveal that changing noninformative priors can significantly affect the expected regret, aligning with previously known results in other multiparameter bandit models.
+Although the uniform prior is shown to be optimal, we highlight the inherent limitation of its optimality, which is limited to specific parameterizations and emphasizes the significance of the invariance property of priors.
+In light of this limitation, we propose a slightly modified TS-based policy, called TS with Truncation (TS-T), which can achieve the asymptotic optimality for the Gaussian models and the uniform models by using the reference prior and the Jeffreys prior that are invariant under one-to-one reparameterizations.
+This policy provides an alternative approach to achieving optimality by employing fine-tuned truncation, which would be much easier than hunting for optimal priors in practice.

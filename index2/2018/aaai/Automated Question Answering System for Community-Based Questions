@@ -1,0 +1,4 @@
+
+ 
+ We present our attempt at developing an efficient Question Answering system for both factoid and non-factoid questions from any domain. Empirical evaluation of our system using multiple datasets demonstrates that our system outperforms the best system from the TREC LiveQA tracks, while keeping the response time to under less than half a minute.
+ 

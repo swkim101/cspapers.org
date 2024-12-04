@@ -1,0 +1,17 @@
+We present StarMalloc, a verified, efficient, security-oriented, and concurrent memory allocator. Using the Steel separation logic framework, we show how to specify and verify a multitude of low-level patterns and delicate security mechanisms, by relying on a combination of dependent types, SMT, and modular abstractions to enable efficient verification. We produce a verified artifact, in C, that implements the entire API surface of an allocator, and as such works as a drop-in replacement for real-world projects, notably the Firefox browser.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As part of StarMalloc, we develop several generic datastructures and proof libraries directly reusable in future systems verification projects. We also extend the Steel toolchain to express several low-level idioms that were previously missing. Finally, we show that StarMalloc exhibits competitive performance by evaluating it against 10 state-of-the-art memory allocators, and against a variety of real-world projects, such as Redis, the Lean compiler, and the Z3 SMT solver.

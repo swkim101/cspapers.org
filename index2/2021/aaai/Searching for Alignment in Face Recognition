@@ -1,0 +1,6 @@
+A standard pipeline of current face recognition frameworks consists of four individual steps: locating a face with a rough bounding
+box and several fiducial landmarks, aligning the face image using
+a pre-defined template, extracting representations and comparing.
+Among them, face detection, landmark detection and representation learning have long been studied and a lot of works have been proposed. As an important step with a big impact on recognition performance, the alignment step has attracted little attention. In this paper, we first explore and highlight the effects of different alignment templates on face recognition. Then, for the first time,
+we try to automatically search for the optimal template. We construct a well-defined searching space by decomposing the template
+searching into the crop size and vertical shift, and propose an efficient method Face Alignment Policy Search (FAPS). Besides, a well-designed benchmark is proposed to evaluate the searched policy. Experiments on our proposed benchmark validate the effectiveness of our method to improve the face recognition performance.

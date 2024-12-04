@@ -1,0 +1,9 @@
+Tooth motion generation is an essential task in digital orthodontic treatment for precise and quick dental healthcare, which aims to generate the whole intermediate tooth motion process given the initial pathological and target ideal tooth alignments. 
+Most prior works for multi-agent motion planning problems usually result in complex solutions.
+Moreover, the occlusal relationship between upper and lower teeth is often overlooked. 
+In this paper, we propose a collaborative tooth motion diffusion model. 
+The critical insight is to remodel the problem as a diffusion process. 
+In this sense, we model the whole tooth motion distribution with a diffusion model and transform the planning problem into a sampling process from this distribution.
+We design a tooth latent representation to provide accurate conditional guides consisting of two key components: the tooth frame represents the position and posture, and the tooth latent shape code represents the geometric morphology. 
+Subsequently, we present a collaborative diffusion model to learn the multi-tooth motion distribution based on inter-tooth and occlusal constraints, which are implemented by graph structure and new loss functions, respectively. 
+Extensive qualitative and quantitative experiments demonstrate the superiority of our framework in the application of orthodontics compared with state-of-the-art methods.

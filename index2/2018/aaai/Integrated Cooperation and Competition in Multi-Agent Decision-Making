@@ -1,0 +1,4 @@
+
+ 
+ Observing that many real-world sequential decision problems are not purely cooperative or purely competitive, we propose a new model—cooperative-competitive process (CCP)—that can simultaneously encapsulate both cooperation and competition. First, we discuss how the CCP model bridges the gap between cooperative and competitive models. Next, we investigate a specific class of group-dominant CCPs, in which agents cooperate to achieve a common goal as their primary objective, while also pursuing individual goals as a secondary objective. We provide an approximate solution for this class of problems that leverages stochastic finite-state controllers. The model is grounded in two multi-robot meeting and box-pushing domains that are implemented in simulation and demonstrated on two real robots.
+ 

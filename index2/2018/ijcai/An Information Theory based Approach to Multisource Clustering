@@ -1,0 +1,7 @@
+Clustering is a compression task which consists in grouping similar objects into clusters. 
+
+In real-life applications, the system may have access to several views of the same data and each view may be processed by a specific clustering algorithm: this framework is called multi-view clustering and can benefit from algorithms capable of exchanging information between the different views. 
+
+In this paper, we consider this type of unsupervised ensemble learning as a compression problem and develop a theoretical framework based on algorithmic theory of information suitable for multi-view clustering and collaborative clustering applications. 
+
+Using this approach, we propose a new algorithm based on solid theoretical basis, and test it on several real and artificial data sets.

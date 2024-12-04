@@ -1,0 +1,10 @@
+First-party datacenter workloads present new challenges to kernel memory management (MM), which allocates and maps memory and must balance competing performance concerns in an increasingly complex environment.
+In a datacenter, performance must be both good \textit{and} consistent to satisfy service-level objectives.
+Unfortunately, current MM designs often exhibit inconsistent, opaque behavior that is difficult to reproduce, decipher, or fix, stemming from (1) a lack of high-quality information for policymaking, (2) the cost-unawareness of many current MM policies, and (3) opaque and distributed policy implementations that are hard to debug.
+For example, the Linux huge page implementation is distributed across 8 files and can lead to page fault latencies in the 100s of ms.
+In search of a MM design that has consistent behavior, we designed Cost-Benefit MM (CBMM), which uses empirically based cost-benefit models and pre-aggregated profiling information to make MM policy decisions.
+In CBMM, policy decisions follow the guiding principle that \textit{userspace benefits must outweigh userspace costs}.
+This approach balances the performance benefits obtained by a kernel policy against the cost of applying it.
+CBMM has competitive performance with Linux and HawkEye, a recent research system, for all the workloads we ran, and in the presence of fragmentation, CBMM is 35% faster than Linux on average.
+Meanwhile, CBMM nearly always has better tail latency than Linux or HawkEye, particularly on fragmented systems.
+It reduces the cost of the most expensive soft page faults by 2-3 orders of magnitude for most of our workloads, and reduces the frequency of 10-1000 mu s-long faults by around 2 orders of magnitude for multiple workloads.

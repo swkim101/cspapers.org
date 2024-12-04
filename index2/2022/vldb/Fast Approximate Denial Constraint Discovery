@@ -1,0 +1,8 @@
+
+ We investigate the problem of discovering approximate denial constraints (DCs), for finding DCs that hold with some exceptions to avoid overfitting real-life dirty data and facilitate data cleaning tasks. Different methods have been proposed to address the problem, by following the same framework consisting of two phases. In the first phase a structure called
+ evidence set
+ is built on the given instance, and in the second phase approximate DCs are found by leveraging the evidence set. In this paper, we present novel and more efficient techniques under the same framework. (1) We optimize the evidence set construction by first building a condensed structure called
+ clue set
+ and then transforming the clue set to the evidence set. The clue set is more memory-efficient than the evidence set and facilitates more efficient bit operations and better cache utilization, and the transformation cost is usually trivial. We further study parallel clue set construction with multiple threads. (2) Our solution to approximate DC discovery from the evidence set is a highly non-trivial extension of the
+ evidence inversion
+ method for exact DC discovery. (3) Using a host of datasets, we experimentally verify our approximate DC discovery approach is on average 8.2 and 7.5 times faster than the two state-of-the-art ones that also leverage parallelism, respectively, and our methods for the two phases are up to an order of magnitude and two orders of magnitude faster than the state-of-the-art methods, respectively.

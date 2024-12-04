@@ -1,0 +1,5 @@
+We revisit the problem of learning logical theories from examples, one of the most quintessential problems in machine learning. More specifically, we develop an approach to learn CNF-formulae from satisfiability. This is a setting in which the examples correspond to partial interpretations and an example is classified as positive when it is logically consistent with the theory.
+
+We present a novel algorithm, called Mistle -- Minimal SAT Theory Learner, for learning such theories. The distinguishing features are that 1) Mistle performs predicate invention and inverse resolution, 2) is based on the MDL principle to compress the data, and 3) combines this with frequent pattern mining to find the most interesting theories.
+
+The experiments demonstrate that Mistle can learn CNF theories accurately and works well in tasks involving compression and classification.

@@ -1,0 +1,7 @@
+The literature on game-theoretic equilibrium finding predominantly focuses on single games or their repeated play.
+Nevertheless, numerous real-world scenarios feature playing a game sampled from a distribution of similar, but not identical games, such as playing poker with different public cards or trading correlated assets on the stock market. 
+As these similar games feature similar equilibra, we investigate a way to accelerate equilibrium finding on such a distribution.
+We present a novel ``learning not to regret'' framework, enabling us to meta-learn a regret minimizer tailored to a specific distribution. 
+Our key contribution, Neural Predictive Regret Matching, is uniquely meta-learned to converge rapidly for the chosen distribution of games, while having regret minimization guarantees on any game.
+We validated our algorithms' faster convergence on a distribution of river poker games. 
+Our experiments show that the meta-learned algorithms outpace their non-meta-learned counterparts, achieving more than tenfold improvements.

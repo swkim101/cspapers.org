@@ -1,0 +1,4 @@
+
+ 
+ Knowing the correct distribution of senses within a corpus can potentially boost the performance of Word Sense Disambiguation (WSD) systems by many points. We present two fully automatic and language-independent methods for computing the distribution of senses given a raw corpus of sentences. Intrinsic and extrinsic evaluations show that our methods outperform the current state of the art in sense distribution learning and the strongest baselines for the most frequent sense in multiple languages and on domain-specific test sets. Our sense distributions are available at http://trainomatic.org.
+ 

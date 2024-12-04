@@ -1,0 +1,8 @@
+
+ Data provenance tools aim to facilitate reproducible data science and auditable data analyses, by tracking the processes and inputs responsible for each result of an analysis.
+ Fine-grained
+ provenance further enables sophisticated reasoning about why individual output results appear or fail to appear. However, for reproducibility and auditing, we need a
+ provenance archival system
+ that is
+ tamper-resistant
+ , and efficiently stores provenance for computations computed over time (i.e., it compresses repeated results). We study this problem, developing solutions for storing fine-grained provenance in relational storage systems while both compressing and protecting it via cryptographic hashes. We experimentally validate our proposed solutions using both scientific and OLAP workloads.

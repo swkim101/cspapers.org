@@ -1,0 +1,4 @@
+
+ 
+ In this abstract, we present our study of exploring the SAT search space via random-sampling, with the goal of improving Conflict Directed Clause Learning (CDCL) SAT solvers. Our proposed CDCL SAT solving algorithm expSAT uses a novel branching heuristic expVSIDS. It combines the standard VSIDS scores with heuristic scores derived from exploration. Experiments with application benchmarks from recent SAT competitions demonstrate the potential of the expSAT approach for improving CDCL SAT solvers.
+ 

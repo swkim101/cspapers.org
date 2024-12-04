@@ -1,0 +1,4 @@
+
+ 
+ We study an important yet under-addressed problem of quickly and safely improving policies in online reinforcement learning domains. As its solution, we propose a novel exploration strategy - diverse exploration (DE), which learns and deploys a diverse set of safe policies to explore the environment. We provide DE theory explaining why diversity in behavior policies enables effective exploration without sacrificing exploitation. Our empirical study shows that an online policy improvement algorithm framework implementing the DE strategy can achieve both fast policy improvement and safe online performance.
+ 

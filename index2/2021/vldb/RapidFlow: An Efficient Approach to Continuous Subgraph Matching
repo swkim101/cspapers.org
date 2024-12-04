@@ -1,0 +1,26 @@
+
+ Continuous subgraph matching (CSM) is an important building block in many real-time graph processing applications. Given a subgraph query
+ Q
+ and a data graph stream, a CSM algorithm reports the occurrences of
+ Q
+ in the stream. Specifically, when a new edge
+ e
+ arrives in the stream, existing CSM algorithms start from the inserted
+ e
+ in the current data graph
+ G
+ to search
+ Q.
+ However, this rigid matching order of always starting from
+ e
+ can lead to a massive number of partial results that will turn out futile. Also, if
+ Q
+ contains automorphisms, there will be a lot of redundant computation in the matching process. To address these two problems, we propose RapidFlow, an effective approach to CSM. First, we design a query reduction technique, which reduces CSM to batch subgraph matching (BSM) where we enumerate all results in a region of
+ G
+ that will be affected by the update. The well-established BSM techniques can determine effective matching orders, not necessarily starting from the newly inserted edge. Second, to eliminate redundant computation caused by automorphisms in
+ Q
+ , we propose dual matching, which leverages the duality of
+ Q
+ and
+ G
+ in the matching process. Extensive experiment results show that RapidFlow outperforms state-of-the-art algorithms, including TurboFlux and SymBi, by up to two orders of magnitude on various workloads.

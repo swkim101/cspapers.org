@@ -1,0 +1,13 @@
+This paper addresses the weighted vertex coloring problem (WVCP) which is an NP-hard variant of the graph coloring problem with various applications.
+
+Given a vertex-weighted graph, the problem consists of partitioning vertices in independent sets (colors) so as to minimize the sum of the maximum weights of the colors.
+
+We first present an iterative procedure to reduce the size of WVCP instances and prove new upper bounds on the objective value and the number of colors.
+
+Alternative constraint programming models are then introduced which rely on primal and dual encodings of the problem and use symmetry breaking constraints.
+
+A large number of experiments are conducted on benchmark instances.
+
+We analyze the impact of using specific bounds to reduce the search space and speed up the exact resolution of instances.
+
+New optimality proofs are reported for some benchmark instances.

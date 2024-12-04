@@ -1,0 +1,4 @@
+
+ Geospatial array DBMSs operate on georeferenced
+ N
+ -d arrays. They provide storage engines, query parsers, and processing capabilities as their core functionality. Traditionally, those have been too heavy for a Web browser to support. Hence, Web Applications, mostly Geographic Information Systems (GISs), run array management on their server back-ends that return small portions of the results via the network. We showcase WebArrayDB, the first geospatial array DBMS that can run completely inside a Web browser. We demonstrate that modern Web browsers, JavaScript, and respective software libraries are sufficiently mature to build and run such a feature-rich and powerful DBMS. A Web-based array DBMS should reduce server load, enable offline work, decrease network I/O, and improve user experience. We also present ArrayGIS, our new Web GIS based on WebArrayDB, and invite everyone to explore both via a freely accessible, informative, and interactive Web GUI.

@@ -1,0 +1,6 @@
+
+ Partitioning is effective in avoiding expensive shuffling operations. However, it remains a significant challenge to automate this process for Big Data analytics workloads that extensively use user defined functions (UDFs), where sub-computations are hard to be reused for partitionings compared to relational applications. In addition, functional dependency that is widely utilized for partitioning selection is often unavailable in the unstructured data that is ubiquitous in UDF-centric analytics. We propose the
+ Lachesis
+ system, which represents UDF-centric workloads as workflows of analyzable and reusable sub-computations.
+ Lachesis
+ further adopts a deep reinforcement learning model to infer which sub-computations should be used to partition the underlying data. This analysis is then applied to automatically optimize the storage of the data across applications to improve the performance and users' productivity.

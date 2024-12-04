@@ -1,0 +1,4 @@
+
+ 
+ Recently, binary hashing has been widely applied to data compression, ranking and nearest-neighbor search. Although some promising results have been achieved, effectively optimizing sign function related objectives is still highly challenging and thus pseudo-labels are inevitably used. In this paper, we propose a novel general framework to simultaneously minimize the measurement distortion and the quantization loss, which enable to learn hash functions directly without requiring the pseudo-labels. More significantly, a novel W-Shape Loss (WSL) is specifically developed for hashing so that both the two separate steps of relaxation and the NP-hard discrete optimization are successfully discarded. The experimental results demonstrate that the retrieval performance both in uni-modal and cross-modal settings can be improved.
+ 

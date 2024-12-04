@@ -1,0 +1,11 @@
+Content platforms on today’s Internet are facing increased pressure to moderate the content that they host, from copyrighted content to hate speech and disinformation. As a result of this pressure, and as a result of the amount of the content that they must moderate, platforms may use classification algorithms to automatically flag or remove content. Although some role for automated content moderation is likely inevitable, the capabilities of these algorithms are still evolving.
+
+This panel will discuss some of the following questions:
+
+
+What technical challenges do we face in automated content moderation, and how should content platforms apply these algorithms to moderate discourse and content?
+What is the technical state of the art in automated content moderation, for different types of content?
+What are the current technical limitations of these techniques, and what are current technical challenges to address?
+What are the ramifications of false positives? False negatives?
+How should the technical capabilities and shortcomings of automated content moderation guide future computer science research? How should it guide policymaking?
+Who retains the authority in labeling traffic as “unwanted”? Should that process be transparent?

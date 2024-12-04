@@ -1,0 +1,6 @@
+With the increasing popularity of graph-based learning, graph neural networks (GNNs) emerge as the essential tool for gaining insights from graphs.
+However, unlike the conventional CNNs that have been extensively explored and exhaustively tested, people are still worrying about the GNNs' robustness under the critical settings, such as financial services.
+The main reason is that existing GNNs usually serve as a black-box in predicting and do not provide the uncertainty on the predictions.
+On the other side, the recent advancement of Bayesian deep learning on CNNs has demonstrated its success of quantifying and explaining such uncertainties to fortify CNN models.
+Motivated by these observations, we propose UAG, the first systematic solution to defend adversarial attacks on GNNs through identifying and exploiting hierarchical uncertainties in GNNs.
+UAG develops a Bayesian uncertainty technique to explicitly capture uncertainties in GNNs and further employs an uncertainty-aware attention technique to defend adversarial attacks on GNNs. Intensive experiments show that our proposed defense approach outperforms the state-of-the-art solutions by a significant margin.

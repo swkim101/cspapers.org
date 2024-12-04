@@ -1,0 +1,1 @@
+Myerson-regularity (or simply regularity) is a standard condition in Economics that was originally introduced by Myerson in his seminar paper on optimal auctions [Myerson, 1981]. A regular distribution is a distribution with CDF F such that the revenue curve in quantile space R(q) = q · F−1(1 − q) is concave.

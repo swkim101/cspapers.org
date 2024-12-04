@@ -1,0 +1,7 @@
+Wireless devices are everywhere, constantly bombarding us with transmissions across a wide range of RF frequencies.  Many of these invisible transmissions reflect off our bodies, carrying off information about our location, movement, and other  physiological properties. While a boon to professionals with carefully calibrated instruments, they may also be revealing our physical
+  status to potential attackers nearby. 
+  Our work demonstrates a new set of  silent  reconnaissance attacks that leverages the presence of commodity WiFi devices to track users inside private homes and offices, without compromising any WiFi network, data packets, or devices. We show that just by sniffing existing WiFi signals, an
+  adversary can accurately detect and track movements of users inside a building. This is made possible by our new signal model that links together human motion near WiFi transmitters and variance of multipath signal propagation seen by the attacker sniffer outside of the property.
+  These attacks are cheap, highly effective, and difficult to detect.  We implement
+  the  attack using a single commodity smartphone, and deploy it in 11 real-world offices and residential apartments, and show it is highly effective. Finally, we evaluate potential defenses, and
+  propose a practical and  effective defense based on AP signal obfuscation.

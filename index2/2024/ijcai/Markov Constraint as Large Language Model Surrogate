@@ -1,0 +1,15 @@
+This paper presents NgramMarkov, a variant of the Markov constraints. It is dedicated to text generation in constraint programming (CP).
+
+It involves a set of n-grams (i.e., sequence of n words) associated with probabilities given by a large language model (LLM). It limits the product of the probabilities of the n-gram of a sentence. 
+
+
+
+The propagator of this constraint can be seen as an extension of the ElementaryMarkov constraint propagator, incorporating the LLM distribution instead of the maximum likelihood estimation of n-grams. It uses a gliding threshold, i.e., it rejects n-grams whose local probabilities are too low, to guarantee balanced solutions.
+
+It can also be combined with a "look-ahead" approach to remove n-grams that are very unlikely to lead to acceptable sentences for a fixed-length horizon. This idea is based on the MDDMarkovProcess constraint propagator, but without explicitly using an MDD (Multi-Valued Decision Diagram).
+
+
+
+The experimental results show that the generated text is valued in a similar way to the LLM perplexity function.
+
+Using this new constraint dramatically reduces the number of candidate sentences produced, improves computation times, and allows larger corpora or smaller n-grams to be used. A real-world problem has been solved for the first time using 4-grams instead of 5-grams.

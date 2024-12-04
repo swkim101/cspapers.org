@@ -1,0 +1,4 @@
+We demonstrate Dagster, a system that implements a new approach to scheduling interdependent (Boolean) SAT search activities in high-performance computing (HPC) environments.
+Our system takes as input a set of disjunctive clauses (i.e., DIMACS CNF) and a labelled directed acyclic graph (DAG) structure describing how the clauses are decomposed into a set of interrelated problems.
+Component problems are solved using standard systematic backtracking search, which may optionally be coupled to (stochastic dynamic) local search and/or clause-strengthening processes.
+We demonstrate Dagster using a new Graph Maximal Determinant combinatorial case study. This demonstration paper presents a new case study, and is adjunct to the longer accepted manuscript at the Pacific Rim International Conference on Artificial Intelligence (2022).

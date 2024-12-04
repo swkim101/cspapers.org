@@ -1,0 +1,1 @@
+This paper proposes a state-aware fuzzing framework for testing software-defined network applications. It leverages a property graph to store fuzzing results. Application developers can easily express oracles with the graph query language to test their applications. The graph representation also allows the oracles to analyze the fuzzing result efficiently.

@@ -1,0 +1,23 @@
+We formalize and analyze a fundamental component of dif-
+ferentiable neural architecture search (NAS): local “opera-
+tion scoring” at each operation choice. We view existing
+operation scoring functions as inexact proxies for accuracy,
+and we find that they perform poorly when analyzed empir-
+ically on NAS benchmarks. From this perspective, we intro-
+duce a novel perturbation-based zero-cost operation scor-
+ing (Zero-Cost-PT) approach, which utilizes zero-cost prox-
+ies that were recently studied in multi-trial NAS but de-
+grade significantly on larger search spaces, typical for dif-
+ferentiable NAS. We conduct a thorough empirical evalu-
+ation on a number of NAS benchmarks and large search
+spaces, from NAS-Bench-201, NAS-Bench-1Shot1, NAS-
+Bench-Macro, to DARTS-like and MobileNet-like spaces,
+showing significant improvements in both search time and
+accuracy. On the ImageNet classification task on the DARTS
+search space, our approach improved accuracy compared to
+the best current training-free methods (TE-NAS) while be-
+ing over 10× faster (total searching time 25 minutes on a
+single GPU), and observed significantly better transferabil-
+ity on architectures searched on the CIFAR-10 dataset with
+an accuracy increase of 1.8 pp. Our code is available at:
+https://github.com/zerocostptnas/zerocost operation score.

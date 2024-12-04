@@ -1,0 +1,1 @@
+Multi Agent Path Finding (MAPF) is widely needed to coordinate real-world robotic systems. New approaches turn to deep learning to solve MAPF instances, primarily using reinforcement learning, which has high computational costs. We propose a supervised learning approach to solve MAPF instances using a smaller, less costly model.

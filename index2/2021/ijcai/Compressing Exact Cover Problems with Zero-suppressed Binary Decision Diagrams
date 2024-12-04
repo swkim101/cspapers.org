@@ -1,0 +1,31 @@
+Exact cover refers to the problem of finding subfamily
+
+F of a given family of sets S whose universe
+
+is D, where F forms a partition of D. Knuth’s Algorithm
+
+DLX is a state-of-the-art method for solving
+
+exact cover problems. Since DLX’s running
+
+time depends on the cardinality of input S, it can be
+
+slow if S is large. Our proposal can improve DLX
+
+by exploiting a novel data structure, DanceDD,
+
+which extends the zero-suppressed binary decision
+
+diagram (ZDD) by adding links to enable efficient
+
+modifications of the data structure. With DanceDD,
+
+we can represent S in a compressed way and perform
+
+search in linear time with the size of the structure
+
+by using link operations. The experimental results
+
+show that our method is an order of magnitude
+
+faster when the problem is highly compressed.

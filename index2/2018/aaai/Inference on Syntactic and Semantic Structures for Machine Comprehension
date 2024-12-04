@@ -1,0 +1,4 @@
+
+ 
+ Hidden variable models are important tools for solving open domain machine comprehension tasks and have achieved remarkable accuracy in many question answering benchmark datasets. Existing models impose strong independence assumptions on hidden variables, which leaves the interaction among them unexplored. Here we introduce linguistic structures to help capturing global evidence in hidden variable modeling. In the proposed algorithms, question-answer pairs are scored based on structured inference results on parse trees and semantic frames, which aims to assign hidden variables in a global optimal way. Experiments on the MCTest dataset demonstrate that the proposed models are highly competitive with state-of-the-art machine comprehension systems.
+ 

@@ -1,0 +1,26 @@
+CPU vulnerabilities undermine the security guarantees provided
+by software- and hardware-security improvements.
+While the discovery of transient-execution attacks increased
+the interest in CPU vulnerabilities on a microarchitectural
+level, architectural CPU vulnerabilities are still understudied.
+In this paper, we systematically analyze existing CPU vulnerabilities
+showing that CPUs suffer from vulnerabilities
+whose root causes match with those in complex software. We
+show that transient-execution attacks and architectural vulnerabilities
+often arise from the same type of bug and identify
+the blank spots. Investigating the blank spots, we focus on
+architecturally improperly initialized data locations.
+We discover ÆPIC Leak, the first architectural CPU bug
+that leaks stale data from the microarchitecture without using
+a side channel. ÆPIC Leak works on all recent Sunny-
+Cove-based Intel CPUs (i.e., Ice Lake and Alder Lake). It
+architecturally leaks stale data incorrectly returned by reading
+undefined APIC-register ranges. ÆPIC Leak samples data
+transferred between the L2 and last-level cache, including
+SGX enclave data, from the superqueue. We target data in
+use, e.g., register values and memory loads, as well as data at
+rest, e.g., SGX-enclave data pages. Our end-to-end attack extracts
+AES-NI, RSA, and even the Intel SGX attestation keys
+from enclaves within a few seconds. We discuss mitigations
+and conclude that the only short-term mitigations for ÆPIC
+Leak are to disable APIC MMIO or not rely on SGX.

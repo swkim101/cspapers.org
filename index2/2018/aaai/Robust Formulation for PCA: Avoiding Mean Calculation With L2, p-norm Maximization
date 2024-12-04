@@ -1,0 +1,4 @@
+
+ 
+ Most existing robust principal component analysis (PCA) involve mean estimation for extracting low-dimensional representation. However, they do not get the optimal mean for real data, which include outliers, under the different robust distances metric learning, such as L1-norm and L2,1-norm. This affects the robustness of algorithms. Motivated by the fact that the variance of data can be characterized by the variation between each pair of data, we propose a novel robust formulation for PCA. It avoids computing the mean of data in the criterion function. Our method employs L2,p-norm as the distance metric to measure the variation in the criterion function and aims to seek the projection matrix that maximizes the sum of variation between each pair of the projected data. Both theoretical analysis and experimental results demonstrate that our methods are efficient and superior to most existing robust methods for data reconstruction.
+ 

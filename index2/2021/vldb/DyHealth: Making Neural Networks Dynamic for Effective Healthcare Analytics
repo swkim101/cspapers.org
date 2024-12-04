@@ -1,0 +1,13 @@
+
+ In National University Hospital (NUH) in Singapore, we conduct healthcare analytics that analyzes heterogeneous electronic medical records (EMR) to support effective clinical decision-making on a daily basis. Existing work mainly focuses on
+ multimodality
+ for extracting complementary information from different modalities, and/or
+ interpretability
+ for providing interpretable prediction results. However, real-world healthcare analytics has presented another major challenge, i.e., the available modalities evolve or change intermittently. Addressing this challenge requires deployed models to be adaptive to such dynamic modality changes.
+ 
+ 
+ To meet the aforementioned requirement, we develop a
+ modular, multimodal
+ and
+ interpretable
+ framework DyHealth to enable dynamic healthcare analytics in clinical practice. Specifically, different modalities are processed within their respective data modules that adhere to the interface defined by DyHealth. The extracted information from different modalities is integrated subsequently in our proposed Multimodal Fusion Module in DyHealth. In order to better handle modality changes at runtime, we further propose exponential increasing/decreasing mechanisms to support modality "hot-plug". We also devise a novel modality-based attention mechanism for providing fine-grained interpretation results on a per-input basis. We conduct a pilot evaluation of DyHealth on the patients' EMR data from NUH, in which DyHealth achieves superior performance and therefore, is promising to roll out for hospital-wide deployment. We also validate DyHealth in two public EMR datasets. Experimental results confirm the effectiveness, flexibility, and extensibility of DyHealth in supporting multimodal and interpretable healthcare analytics.

@@ -1,0 +1,5 @@
+In skeletal representation, intra-frame differences between body joints, as well as inter-frame dynamics between body skeletons contain discriminative information for action recognition.
+Conventional methods for modeling human skeleton sequences generally depend on motion trajectory and body joint dependency information, thus lacking the ability to identify the inherent differences of human skeletons.
+In this paper, we propose a spatio-temporal difference descriptor based on a directional convolution architecture that enables us to learn the spatio-temporal differences and contextual dependencies between different body joints simultaneously.
+The overall model is built on a deep symmetric positive definite (SPD) metric learning architecture designed to learn discriminative manifold features with the well-designed non-linear mapping operation.
+Experiments on several action datasets show that our proposed method achieves up to 3% accuracy improvement over state-of-the-art methods.

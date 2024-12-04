@@ -1,0 +1,8 @@
+
+ Extracting structured information from templatic documents is an important problem with the potential to automate many real-world business workflows such as payment, procurement, and payroll. The core challenge is that such documents can be laid out in virtually infinitely different ways. A good solution to this problem is one that generalizes well not only to
+ known
+ templates such as invoices from a known vendor, but also to
+ unseen
+ ones.
+ 
+ We developed a system called Glean to tackle this problem. Given a target schema for a document type and some labeled documents of that type, Glean uses machine learning to automatically extract structured information from other documents of that type. In this paper, we describe the overall architecture of Glean, and discuss three key data management challenges : 1) managing the quality of ground truth data, 2) generating training data for the machine learning model using labeled documents, and 3) building tools that help a developer rapidly build and improve a model for a given document type. Through empirical studies on a real-world dataset, we show that these data management techniques allow us to train a model that is over 5 F1 points better than the exact same model architecture without the techniques we describe. We argue that for such information-extraction problems, designing abstractions that carefully manage the training data is at least as important as choosing a good model architecture.

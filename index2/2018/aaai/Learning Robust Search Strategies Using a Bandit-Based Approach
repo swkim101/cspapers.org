@@ -1,0 +1,4 @@
+
+ 
+ Effective solving of constraint problems often requires choosing good or specific search heuristics. However, choosing or designing a good search heuristic is non-trivial and is often a manual process. In this paper, rather than manually choosing/designing search heuristics, we propose the use of bandit-based learning techniques to automatically select search heuristics. Our approach is online where the solver learns and selects from a set of heuristics during search. The goal is to obtain automatic search heuristics which give robust performance. Preliminary experiments show that our adaptive technique is more robust than the original search heuristics. It can also outperform the original heuristics.
+ 

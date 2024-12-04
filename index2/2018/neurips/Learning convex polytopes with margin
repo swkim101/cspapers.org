@@ -1,0 +1,2 @@
+We present an improved algorithm for properly learning convex polytopes in the realizable PAC setting from data with a margin. Our learning algorithm constructs a consistent polytope as an intersection of about $t \log t$ halfspaces with margins in time polynomial in $t$ (where $t$ is the number of halfspaces forming an optimal polytope). 
+We also identify distinct generalizations of the notion of margin from hyperplanes to polytopes and investigate how they relate geometrically; this result may be of interest beyond the learning setting.

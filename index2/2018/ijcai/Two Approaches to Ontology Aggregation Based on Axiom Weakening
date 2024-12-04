@@ -1,0 +1,7 @@
+Axiom weakening is a novel technique that allows for fine-grained repair of inconsistent ontologies. In a multi-agent setting, integrating ontologies corresponding to multiple agents may lead to inconsistencies. Such inconsistencies can be resolved after the integrated ontology has been built, or their generation can be prevented during ontology generation. 
+
+We implement and compare these two approaches. 
+
+First, we study how to repair an inconsistent ontology resulting from a voting-based aggregation of views of heterogeneous agents. Second, we prevent the generation of inconsistencies by letting the agents engage in a turn-based rational protocol about the axioms to be added
+
+to the integrated ontology. We instantiate the two approaches using real-world ontologies and compare them by measuring the levels of satisfaction of the agents w.r.t. the ontology obtained by the two procedures.

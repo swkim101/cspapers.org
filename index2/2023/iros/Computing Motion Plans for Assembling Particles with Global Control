@@ -1,0 +1,1 @@
+We investigate motion planning algorithms for the assembly of shapes in the tilt model in which unit-square tiles move in a grid world under the influence of uniform external forces and self-assemble according to certain rules. We provide several heuristics and experimental evaluation of their success rate, solution length, and runtime.

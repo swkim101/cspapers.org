@@ -1,0 +1,21 @@
+This paper addresses the ε-close parameter tuning problem for Bayesian
+
+networks (BNs): find a minimal ε-close amendment of probability entries
+
+in a given set of (rows in) conditional probability tables that make a
+
+given quantitative constraint on the BN valid. Based on the
+
+state-of-the-art “region verification” techniques for parametric Markov
+
+chains, we propose an algorithm whose capabilities go
+
+beyond any existing techniques. Our experiments show that ε-close tuning
+
+of large BN benchmarks with up to eight parameters is feasible. In
+
+particular, by allowing (i) varied parameters in multiple CPTs and (ii)
+
+inter-CPT parameter dependencies, we treat subclasses of parametric BNs
+
+that have received scant attention so far.

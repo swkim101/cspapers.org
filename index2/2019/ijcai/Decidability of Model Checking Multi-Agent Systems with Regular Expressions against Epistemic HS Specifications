@@ -1,0 +1,1 @@
+Epistemic Halpern-Shoham logic (EHS) is an interval temporal logic defined to verify properties of Multi-Agent Systems. In this paper we show that the model checking Multi-Agent Systems with regular expressions against the EHS specifications is decidable. We achieve this by reducing the model checking problem to the satisfiability problem of Monadic Second-Order Logic on trees.

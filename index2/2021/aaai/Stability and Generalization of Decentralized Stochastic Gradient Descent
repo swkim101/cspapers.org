@@ -1,0 +1,9 @@
+The stability and generalization of stochastic gradient-based
+methods provide valuable insights into understanding the algorithmic performance of machine learning models. As the
+main workhorse for deep learning, the stochastic gradient descent has received a considerable amount of studies. Nevertheless, the community paid little attention to its decentralized variants. In this paper, we provide a novel formulation
+of the decentralized stochastic gradient descent. Leveraging
+this formulation together with (non)convex optimization theory, we establish the first stability and generalization guarantees for the decentralized stochastic gradient descent. Our
+theoretical results are built on top of a few common and mild
+assumptions and reveal that the decentralization deteriorates
+the stability of SGD for the first time. We verify our theoretical findings by using a variety of decentralized settings and
+benchmark machine learning models.

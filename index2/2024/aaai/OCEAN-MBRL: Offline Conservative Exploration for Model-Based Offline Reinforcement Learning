@@ -1,0 +1,7 @@
+Model-based offline reinforcement learning (RL) algorithms have emerged as a promising paradigm for offline RL.
+These algorithms usually learn a dynamics model from a static dataset of transitions, use the model to generate synthetic trajectories, and perform conservative policy optimization within these trajectories. 
+However, our observations indicate that policy optimization methods used in these model-based offline RL algorithms are not effective at exploring the learned model and induce biased exploration, which ultimately impairs the performance of the algorithm.
+To address this issue, we propose Offline Conservative ExplorAtioN (OCEAN), a novel rollout approach to model-based offline RL.
+In our method, we incorporate additional exploration techniques and introduce three conservative constraints based on uncertainty estimation to mitigate the potential impact of significant dynamic errors resulting from exploratory transitions. 
+Our work is a plug-in method and can be combined with classical model-based RL algorithms, such as MOPO, COMBO, and RAMBO.
+Experiment results of our method on the D4RL MuJoCo benchmark show that OCEAN significantly improves the performance of existing algorithms.

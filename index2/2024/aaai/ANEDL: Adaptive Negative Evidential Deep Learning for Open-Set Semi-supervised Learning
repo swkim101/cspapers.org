@@ -1,0 +1,14 @@
+Semi-supervised learning (SSL) methods assume that labeled
+data, unlabeled data and test data are from the same distribution. Open-set semi-supervised learning (Open-set SSL) con-
+siders a more practical scenario, where unlabeled data and
+test data contain new categories (outliers) not observed in
+labeled data (inliers). Most previous works focused on out-
+lier detection via binary classifiers, which suffer from insufficient scalability and inability to distinguish different types
+of uncertainty. In this paper, we propose a novel framework,
+Adaptive Negative Evidential Deep Learning (ANEDL) to
+tackle these limitations. Concretely, we first introduce evidential deep learning (EDL) as an outlier detector to quantify
+different types of uncertainty, and design different uncertainty
+metrics for self-training and inference. Furthermore, we propose a novel adaptive negative optimization strategy, making
+EDL more tailored to the unlabeled dataset containing both
+inliers and outliers. As demonstrated empirically, our proposed method outperforms existing state-of-the-art methods
+across four datasets.

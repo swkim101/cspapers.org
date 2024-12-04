@@ -1,0 +1,11 @@
+Increasing amounts of available data have led to a
+heightened need for representing large-scale probabilistic knowledge bases. One approach is to
+use a probabilistic database, a model with strong
+assumptions that allow for efficiently answering
+many interesting queries. Recent work on open-world probabilistic databases strengthens the semantics of these probabilistic databases by discarding the assumption that any information not present
+in the data must be false. While intuitive, these
+semantics are not sufficiently precise to give reasonable answers to queries. We propose overcoming these issues by using constraints to restrict this
+open world. We provide an algorithm for one class
+of queries, and establish a basic hardness result for
+another. Finally, we propose an efficient and tight
+approximation for a large class of queries. 

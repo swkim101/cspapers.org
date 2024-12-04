@@ -1,0 +1,17 @@
+In robust optimization, finding a solution that solely respects the constraints is not enough.
+Usually, the uncertainty and unknown parameters of the model are represented by random variables.
+In such conditions, a good solution is a solution robust to most-likely assignments of these random variables.
+Recently, the Confidence constraint has been introduced by Mercier-Aubin et al. in order to enforce this type of robustness in constraint programming.
+Unfortunately, it is restricted to a conjunction of binary inequalities
+In this paper, we generalize the Confidence constraint to any constraint and propose an implementation based on Multi-valued Decision Diagrams (MDDs). 
+The Confidence constraint is defined over a vector of random variables. 
+For a given constraint C, and given a threshold, the Confidence constraint ensures that the probability for C to be satisfied by a sample of the random variables is greater than the threshold.
+We propose to use MDDs to represent the constraints on the random variables.
+MDDs are an efficient tool for representing combinatorial constraints, thanks to their exponential compression power.
+Here, both random and decision variables are stored in the MDD, 
+and propagation rules are proposed for removing values of decision variables
+that cannot lead to robust solutions.
+Furthermore, for several constraints, we show that decision variables can be omitted from the MDD because
+lighter filtering algorithms are sufficient. This leads to gain an exponential factor in the MDD size.
+The experimental results obtained on a chemical deliveries problem in factories – where the chemicals consumption are uncertain – 
+shows the efficiency of the proposed approach.

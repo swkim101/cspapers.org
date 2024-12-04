@@ -1,0 +1,1 @@
+s rp ( x ) = ( ∇ x log p ( x )) T r is the projection of the score using r ∈ O r a vector from an orthogonal basis (we use the one-hot vectors) and k rg ( x T g , y T g ) is some kernel operating on scalar values. They show that SK max is equal to 0 if and

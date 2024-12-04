@@ -1,0 +1,5 @@
+There is a growing interest in the use of AI techniques for urban traffic control, with a particular focus on traffic signal optimisation. Model-based approaches such as planning demonstrated to be capable of dealing in real-time with unexpected or unusual traffic conditions, as well as with the usual traffic patterns. Further, the knowledge models on which such techniques rely to generate traffic signal strategies are in fact simulation models of traffic, hence can be used by traffic authorities to test and compare different approaches.
+
+
+
+In this work, we present a framework that relies on automated planning to generate and simulate traffic signal strategies in a urban region. To demonstrate the capabilities of the framework, we consider real-world data collected from sensors deployed in a major corridor of the Kirklees region of the United Kingdom.

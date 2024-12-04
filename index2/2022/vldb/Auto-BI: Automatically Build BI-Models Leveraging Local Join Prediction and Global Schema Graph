@@ -1,0 +1,9 @@
+Business Intelligence (BI) is crucial in modern enterprises and billion-dollar business. Traditionally, technical experts like database administrators would manually prepare BI-models (e.g., in star or snowflake schemas) that join tables in data warehouses, before less-technical business users can run analytics using end-user dashboarding tools. However, the popularity of self-service BI (e.g., Tableau and Power-BI) in recent years creates a strong demand for less technical end-users to build BI-models themselves.
+ 
+ We develop an Auto-BI system that can accurately predict BI models given a set of input tables, using a principled graph-based optimization problem we propose called
+ k-Min-Cost-Arborescence
+ (k-MCA), which holistically considers both local join prediction and global schema-graph structures, leveraging a graph-theoretical structure called
+ arborescence.
+ While we prove k-MCA is intractable and inapproximate in general, we develop novel algorithms that can solve k-MCA optimally, which is shown to be efficient in practice with sub-second latency and can scale to the largest BI-models we encounter (with close to 100 tables).
+ 
+ Auto-BI is rigorously evaluated on a unique dataset with over 100K real BI models we harvested, as well as on 4 popular TPC benchmarks. It is shown to be both efficient and accurate, achieving over 0.9 F1-score on both real and synthetic benchmarks.

@@ -1,0 +1,8 @@
+
+ Weak Supervision (WS) techniques allow users to efficiently create large training datasets by programmatically labeling data with heuristic sources of supervision. While the success of WS relies heavily on the provided labeling heuristics, the process of how these heuristics are created in practice has remained under-explored. In this work, we formalize the development process of labeling heuristics as an interactive procedure, built around the existing workflow where users draw ideas from a selected set of
+ development data
+ for designing the heuristic sources. With the formalism, shown in Figure 1, we study two core problems of (1) how to strategically select the development data to
+ guide
+ users in efficiently creating informative heuristics, and (2) how to exploit the information within the development process to
+ contextualize
+ and better learn from the resultant heuristics. Building upon two novel methodologies that effectively tackle the respective problems considered, we present Nemo, an end-to-end interactive system that improves the overall productivity of WS learning pipeline by an average 20% (and up to 47% in one task) compared to the prevailing WS approach.

@@ -1,0 +1,61 @@
+Effect and coeffect tracking integrate many types of compile-time
+ 
+ 
+ 
+ analysis, such as cost, liveness, or dataflow, directly into a language's type
+ 
+ 
+ 
+ system. In this paper, we investigate the addition of effect and coeffect
+ 
+ 
+ 
+ tracking to the type system of call-by-push-value (CBPV), a computational
+ 
+ 
+ 
+ model useful in compilation for its isolation of effects and for its ability
+ 
+ 
+ 
+ to cleanly express both call-by-name and call-by-value computations. Our
+ 
+ 
+ 
+ main result is effect-and-coeffect soundness, which asserts that the
+ 
+ 
+ 
+ type system accurately bounds the effects that the program may trigger
+ 
+ 
+ 
+ during execution and accurately tracks the demands that the program may make
+ 
+ 
+ 
+ on its environment. This result holds for two different dynamic semantics: a
+ 
+ 
+ 
+ generic one that can be adapted for different coeffects and one that is
+ 
+ 
+ 
+ adapted for reasoning about resource usage. In particular, the second 
+ 
+ 
+ 
+ semantics discards the evaluation of unused values and pure computations
+ 
+ 
+ 
+ while ensuring that effectful computations are always evaluated, even if 
+ 
+ 
+ 
+ their results are not required. Our results have been mechanized using 
+ 
+ 
+ 
+ the Coq proof assistant.

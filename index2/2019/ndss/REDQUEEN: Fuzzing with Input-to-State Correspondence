@@ -1,0 +1,10 @@
+Automated software testing based on fuzzing has experienced a revival in recent years. Especially feedback-driven fuzzing has become well-known for its ability to efficiently perform randomized testing with limited input corpora.
+Despite a lot of progress, two common problems are magic numbers and (nested) checksums. Computationally expensive methods such as taint tracking and symbolic execution are typically used to overcome such roadblocks. Unfortunately, such methods often require access to source code, a rather precise description of the environment (e.g., behavior of library calls or the underlying OS), or the exact semantics of the platform's instruction set.
+In this paper, we introduce a lightweight, yet very effective alternative to taint tracking and symbolic execution to facilitate and optimize state-of-the-art feedback fuzzing that easily scales to large binary applications and unknown environments.
+We observe that during the execution of a given program, parts of the input often end up directly (i.e., nearly unmodified) in the program state. This input-to-state correspondence
+can be exploited to create a robust method to
+overcome common fuzzing roadblocks in a highly effective and efficient manner.
+Our prototype implementation, called REDQUEEN, is able to solve magic bytes and (nested) checksum tests automatically for a given binary executable.
+Additionally, we show that our techniques outperform various
+state-of-the-art tools on a wide variety of targets across different privilege levels (kernel-space and userland) with no platform-specific code.
+REDQUEEN is the first method to find  more than 100% of the bugs planted in LAVA-M across all targets. Furthermore, we were able to discover 65 new bugs and obtained 16 CVEs in multiple programs and OS kernel drivers. Finally, our evaluation demonstrates that REDQUEEN is fast, widely applicable and outperforms concurrent approaches by up to three orders of magnitude.

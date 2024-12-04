@@ -1,0 +1,9 @@
+We study the approximation of a description logic (DL) ontology in a
+less expressive DL, focusing on the case of Horn DLs. It is common
+to construct such approximations in an ad hoc way in practice and
+the resulting incompleteness is typically neither analyzed nor 
+understood. In this paper, we show how to construct complete
+approximations. These are typically infinite or of excessive size
+and thus cannot be used directly in applications, but our results
+provide an important theoretical foundation that enables informed
+decisions when constructing incomplete approximations in practice.

@@ -1,0 +1,20 @@
+
+ A socio spatial group query finds a group of users who possess strong social connections with each other and have the minimum aggregate spatial distance to a meeting point. Existing studies limit to either finding the best group of
+ a fixed size
+ for a single meeting location, or a single group of a fixed size w.r.t. multiple locations. However, it is highly desirable to consider multiple locations in a real-life scenario in order to organize impromptu activities of
+ groups of various sizes.
+ In this paper, we propose
+ Top k Flexible Socio Spatial Group Query (Top k-FSSGQ)
+ to find the top
+ k
+ groups w.r.t. multiple POIs where each group follows the minimum social connectivity constraints. We devise a ranking function to measure the group score by combining social closeness, spatial distance, and group size, which provides the flexibility of choosing groups of different sizes under different constraints. To effectively process the
+ Top k-FSSGQ,
+ we first develop an
+ Exact
+ approach that ensures early termination of the search based on the derived
+ upper bounds.
+ We prove that the problem is NP-hard, hence we first present a heuristic based approximation algorithm to effectively select members in intermediate solution groups based on the social connectivity of the users. Later we design a
+ Fast Approximate
+ approach based on the
+ relaxed social and spatial bounds, and connectivity constraint heuristic.
+ Experimental studies have verified the effectiveness and efficiency of our proposed approaches on real datasets.

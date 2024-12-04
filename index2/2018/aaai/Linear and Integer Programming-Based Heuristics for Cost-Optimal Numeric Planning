@@ -1,0 +1,4 @@
+
+ 
+ Linear programming has been successfully used to compute admissible heuristics for cost-optimal classical planning. Although one of the strengths of linear programming is the ability to express and reason about numeric variables and constraints, their use in numeric planning is limited. In this work, we extend linear programming-based heuristics for classical planning to support numeric state variables. In particular, we propose a model for the interval relaxation, coupled with landmarks and state equation constraints. We consider both linear programming models and their harder-to-solve, yet more informative, integer programming versions. Our experimental analysis shows that considering an NP-Hard heuristic often pays off and that A* search using our integer programming heuristics establishes a new state of the art in cost-optimal numeric planning.
+ 

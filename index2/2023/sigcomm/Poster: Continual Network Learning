@@ -1,0 +1,1 @@
+We make a case for in-network Continual Learning as a solution for seamless adaptation to evolving network conditions without forgetting past experiences. We propose implementing Active Learning-based selective data filtering in the data plane, allowing for data-efficient continual updates. We explore relevant challenges and propose future research directions.

@@ -1,0 +1,1 @@
+We present a demonstration of nighttime light pattern (NTL) analysis system. Our tool named NightVIEW is powered by an efficient system architecture to easily export and analyse a huge volume of spatial data (NTL), image segmentation and clustering algorithms to find unusual NTL patterns and identify hotspots of excess night light usage as well as finding semantics of cities.

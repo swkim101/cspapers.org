@@ -1,0 +1,6 @@
+
+ Data summarization is the process of producing interpretable and representative subsets of an input dataset. It is usually performed following a one-shot process with the purpose of finding the best summary. A useful summary contains
+ k individually uniform
+ sets that are
+ collectively diverse
+ to be representative. Uniformity addresses interpretability and diversity addresses representativity. Finding such as summary is a difficult task when data is highly diverse and large. We examine the applicability of Exploratory Data Analysis (EDA) to data summarization and formalize Eda4Sum, the problem of guided exploration of data summaries that seeks to sequentially produce connected summaries with the goal of maximizing their cumulative utility. Eda4Sum generalizes one-shot summarization. We propose to solve it with one of two approaches: (i) Top1Sum that chooses the most useful summary at each step; (ii) RLSum that trains a policy with Deep Reinforcement Learning that rewards an agent for finding a diverse and new collection of uniform sets at each step. We compare these approaches with one-shot summarization and top-performing EDA solutions. We run extensive experiments on three large datasets. Our results demonstrate the superiority of our approaches for summarizing very large data, and the need to provide guidance to domain experts.

@@ -1,0 +1,25 @@
+Encrypted database is an innovative technology proposed to solve the data confidentiality issue in cloud-based DB systems. It allows a data owner to encrypt its database before uploading it to the service provider; and it allows the service provider to execute SQL queries over the encrypted data. Most of existing encrypted databases (e.g., CryptDB in SOSP '11) do not support data interoperability: unable to process complex queries that require piping the output of one operation to another.
+ 
+ To the best of our knowledge, SDB (SIGMOD '14) is the only encrypted database that achieves data interoperability. Unfortunately, we found SDB is not secure! In this paper, we revisit the security of SDB and propose a ciphertext-only attack named
+ co-prime attack.
+ It successfully attacks the common operations supported by SDB, including
+ addition, comparison, sum, equi-join
+ and
+ group-by.
+ We evaluate our attack in three real-world benchmarks. For columns that support
+ addition
+ and
+ comparison
+ , we recover 84.9% -- 99.9% plaintexts. For columns that support
+ sum, equi-join
+ and
+ group-by
+ , we recover 100% plaintexts.
+ 
+ 
+ Besides, we provide potential countermeasures that can prevent the attacks against
+ sum, equi-join, group-by
+ and
+ addition.
+ It is still an open problem to prevent the attack against
+ comparison.

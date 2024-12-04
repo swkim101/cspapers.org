@@ -1,0 +1,12 @@
+
+ A large class of data repair algorithms rely on integrity constraints to detect and repair errors. A well-studied class of constraints is Functional Dependencies (FDs, for short). Although there has been an increased interest in developing general data cleaning systems for a myriad of data errors, scalability has been left behind. This is because current systems assume data cleaning is performed offline and in one iteration. However, developing data science pipelines is highly iterative and requires efficient cleaning techniques to scale to millions of records in seconds/minutes, not days. In our efforts to re-think the data cleaning stack and bring it to the era of data science, we introduce
+ Horizon
+ , an end-to-end FD repair system to address two key challenges: (1) Accuracy: Most existing FD repair techniques aim to produce repairs that minimize changes to the data that may lead to incorrect combinations of attribute values (or patterns).
+ Horizon
+ leverages the interaction between the data patterns induced by the various FDs, and subsequently selects repairs that preserve the most frequent patterns found in the original data, and hence leading to a better repair accuracy. (2) Scalability: Existing data cleaning systems struggle when dealing with large-scale real-world datasets.
+ Horizon
+ features a linear-time repair algorithm that scales to millions of records, and is orders-of-magnitude faster than state-of-the-art cleaning algorithms. A benchmark of
+ Horizon
+ against state-of-the-art cleaning systems on multiple datasets and metrics shows that
+ Horizon
+ consistently outperforms existing techniques in repair quality and scalability.

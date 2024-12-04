@@ -1,0 +1,8 @@
+
+ Feature stores (also sometimes referred to as embedding stores) are becoming ubiquitous in model serving systems: downstream applications query these stores for auxiliary inputs at inference-time. Stored features are derived by
+ featurizing
+ rapidly changing base data sources. Featurization can be costly prohibitively expensive to trigger on every data update, particularly for features that are vector embeddings computed by a model. Yet, existing systems naively apply a one-size-fits-all policy as to when/how to update these features, and do not consider query access patterns or impacts on prediction accuracy. This paper introduces RALF, which orchestrates feature updates by leveraging
+ downstream error feedback
+ to minimize
+ feature store regret
+ , a metric for how much featurization degrades downstream accuracy. We evaluate with representative feature store workloads, anomaly detection and recommendation, using real-world datasets. We run system experiments with a 275,077 key anomaly detection workload on 800 cores to show up to a 32.7% reduction in prediction error or up to 1.6X compute cost reduction with accuracy-aware scheduling.

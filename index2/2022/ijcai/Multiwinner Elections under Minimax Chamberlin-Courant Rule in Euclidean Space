@@ -1,0 +1,17 @@
+We consider multiwinner elections in Euclidean space using the minimax Chamberlin-Courant rule.
+
+In this setting, voters and candidates are embedded in a d-dimensional Euclidean space,
+
+and the goal is to choose a committee of k candidates so that the rank of any voter's
+
+most preferred candidate in the committee is minimized. (The problem is also equivalent to the 
+
+ordinal version of the classical k-center problem.) 
+
+We show that the problem is NP-hard in any dimension d >= 2, and also provably hard to approximate.
+
+Our main results are three polynomial-time approximation schemes, each of which finds a committee 
+
+with provably good minimax score. In all cases, we show that our approximation bounds are tight or close to tight.
+
+We mainly focus on the 1-Borda rule but some of our results also hold for the more general r-Borda.

@@ -1,0 +1,21 @@
+
+ Modern cloud databases adopt a
+ storage-disaggregation
+ architecture that separates the management of computation and storage. A major bottleneck in such an architecture is the network connecting the computation and storage layers. Two solutions have been explored to mitigate the bottleneck:
+ caching
+ and
+ computation pushdown.
+ While both techniques can significantly reduce network traffic, existing DBMSs consider them as orthogonal techniques and support only one or the other, leaving potential performance benefits unexploited.
+ 
+ 
+ In this paper we present
+ FlexPushdownDB (FPDB)
+ , an OLAP cloud DBMS prototype that supports fine-grained hybrid query execution to combine the benefits of caching and computation pushdown in a storage-disaggregation architecture. We build a hybrid query executor based on a new concept called
+ separable operators
+ to combine the data from the cache and results from the pushdown processing. We also propose a novel
+ Weighted-LFU
+ cache replacement policy that takes into account the cost of pushdown computation. Our experimental evaluation on the Star Schema Benchmark shows that the hybrid execution outperforms both the conventional
+ caching-only
+ architecture and
+ pushdown-only
+ architecture by 2.2X. In the hybrid architecture, our experiments show that Weighted-LFU can outperform the baseline LFU by 37%.

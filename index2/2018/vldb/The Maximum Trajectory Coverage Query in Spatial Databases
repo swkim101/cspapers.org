@@ -1,0 +1,16 @@
+
+ With the widespread use of GPS-enabled mobile devices, an unprecedented amount of trajectory data has become available from various sources such as Bikely, GPS-wayPoints, and Uber. The rise of smart transportation services and recent break-throughs in autonomous vehicles increase our reliance on trajectory data in a wide variety of applications. Supporting these services in emerging platforms requires more efficient query processing in trajectory databases. In this paper, we propose two new coverage queries for trajectory databases: (i)
+ k Best Facility Trajectory Search
+ (
+ k
+ BFT); and (ii)
+ k Best Coverage Facility Trajectory Search
+ (
+ k
+ BCovFT). We propose a novel index structure, the Trajectory Quadtree (TQ-tree) that utilizes a quadtree to hierarchically organize trajectories into different nodes, and then applies a z-ordering to further organize the trajectories by spatial locality inside each node. This structure is highly effective in pruning the trajectory search space, which is of independent interest. By exploiting the TQ-tree, we develop a divide-and-conquer approach to efficiently process a
+ k
+ BFT query. To solve the
+ k
+ BCovFT, which is a
+ non-submodular NP-hard problem,
+ we propose a greedy approximation. We evaluate our algorithms through an extensive experimental study on several real datasets, and demonstrate that our algorithms outperform baselines by two to three orders of magnitude.

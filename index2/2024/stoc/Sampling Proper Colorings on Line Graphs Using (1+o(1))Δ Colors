@@ -1,0 +1,1 @@
+We prove that the single-site Glauber dynamics for sampling proper q-colorings mixes in OΔ(nlogn) time on line graphs with n vertices and maximum degree Δ when q>(1+o(1))Δ. The main tool in our proof is the matrix trickle-down theorem developed by Abdolazimi, Liu and Oveis Gharan (FOCS, 2021).

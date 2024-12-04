@@ -1,0 +1,4 @@
+
+ 
+ Feedback centralities are one of the key classes of centrality measures. They assess the importance of a vertex recursively, based on the importance of its neighbours. Feedback centralities includes the Eigenvector Centrality, as well as its variants, such as the Katz Centrality or the PageRank, and are used in various AI applications, such as ranking the importance of websites on the Internet and most influential users in the Twitter social network. In this paper, we study the theoretical underpinning of the feedback centralities. Specifically, we propose a novel axiomatization of the Eigenvector Centrality and the Katz Centrality based on six simple requirements. Our approach highlights the similarities and differences between both centralities which may help in choosing the right centrality for a specific application.
+ 

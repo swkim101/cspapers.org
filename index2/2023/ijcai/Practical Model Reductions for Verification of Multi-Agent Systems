@@ -1,0 +1,3 @@
+Formal verification of intelligent agents is often computationally infeasible due to state-space explosion.
+
+We present a tool for reducing the impact of the explosion by means of state abstraction that is (a) easy to use and understand by non-experts, and (b) agent-based in the sense that it operates on a modular representation of the system, rather than on its huge explicit state model.

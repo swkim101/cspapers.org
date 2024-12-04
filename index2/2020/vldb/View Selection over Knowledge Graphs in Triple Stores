@@ -1,0 +1,10 @@
+Knowledge Graphs (KGs) are collections of interconnected and annotated entities that have become powerful assets for data integration, search enhancement, and other industrial applications. Knowledge Graphs such as DBPEDIA may contain billion of triple relations and are intensively queried with millions of queries per day. A prominent approach to enhance query answering on Knowledge Graph databases is View Materialization, ie., the materialization of an appropriate set of computations that will improve query performance.
+ 
+ We study the problem of view materialization and propose a view selection methodology for processing query workloads with more than a million queries. Our approach heavily relies on subgraph pattern mining techniques that allow to create efficient summarizations of massive query workloads while also identifying the candidate views for materialization. In the core of our work is the correspondence between the
+ view selection
+ problem to that of
+ Maximizing a Nondecreasing Submodular Set Function Subject to a Knapsack Constraint
+ . The latter leads to a tractable view-selection process for native triple stores that allows a (1 -
+ e
+ ---1
+ )-approximation of the optimal selection of views. Our experimental evaluation shows that all the steps of the view-selection process are completed in a few minutes, while the corresponding rewritings accelerate 67.68% of the queries in the DBPEDIA query workload. Those queries are executed in 2.19% of their initial time on average.

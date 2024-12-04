@@ -1,0 +1,35 @@
+Plan execution on a mobile robot is inherently error-prone, as the robot
+
+needs to act in a physical world which can never be completely
+
+controlled by the robot. If an error occurs during execution, the true
+
+world state is unknown, as a failure may have unobservable consequences.
+
+One approach to deal with such failures is diagnosis, where the true
+
+world state is determined by identifying a set of faults based on sensed
+
+observations. In this paper, we present a novel approach to explanatory
+
+diagnosis, based on the assumption that most failures occur due to some
+
+robot hardware failure. We model the robot platform components with
+
+state machines and formulate action variants for the robots' actions,
+
+modelling different fault modes. We apply diagnosis as
+
+planning with a top-k planning approach to determine possible diagnosis
+
+candidates and then use active diagnosis to find out which of those
+
+candidates is the true diagnosis. Finally, based on the platform model,
+
+we recover from the occurred failure such that the robot can continue to
+
+operate. We evaluate our approach in a logistics robots scenario by
+
+comparing it to having no diagnosis and diagnosis without platform
+
+models, showing a significant improvement to both alternatives.

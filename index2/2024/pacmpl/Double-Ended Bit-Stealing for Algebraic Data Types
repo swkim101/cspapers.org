@@ -1,0 +1,25 @@
+Algebraic data types are central to the development and evaluation of most functional programs. It is therefore important for compilers to choose compact and efficient representations of such types, in particular to achieve good memory footprints for applications.
+ 
+ 
+ 
+
+ 
+ 
+ 
+Algebraic data types are most often represented using blocks of memory where the first word is used as a so-called tag, carrying information about the constructor, and the following words are used for carrying the constructor's arguments. As an optimisation, lists are usually represented more compactly, using a technique called bit-stealing, which, in its simplest form, uses the word-alignment property of pointers to byte-addressed allocated memory to discriminate between the nil constructor (often represented as 0x1) and the cons constructor (aligned pointer to allocated pair). Because the representation supports that all values can be held uniformly in one machine word, possibly pointing to blocks of memory, type erasure is upheld.
+ 
+ 
+ 
+
+ 
+ 
+ 
+However, on today's 64-bit architectures, memory addresses (pointers) are represented using only a subset of the 64 bits available in a machine word, which leave many bits unused. In this paper, we explore the use, not only of the least-significant bits of pointers, but also of the most-significant bits, for representing algebraic data types in a full ML compiler. It turns out that, with such a particular utilisation of otherwise unused bits, which we call double-ended bit-stealing, it is possible to choose unboxed representations for a large set of data types, while still not violating the principle of uniform data-representations. Examples include Patricia trees, union-find data structures, stream data types, internal language representations for types and expressions, and mutually recursive ASTs for full language definitions.
+ 
+ 
+ 
+
+ 
+ 
+ 
+The double-ended bit-stealing technique is implemented in the MLKit compiler and speedup ranges from 0 to 26 percent on benchmarks that are influenced by the technique. For MLKit, which uses abstract data types extensively, compilation speedups of around 9 percent are achieved for compiling MLton (another Standard ML compiler) and for compiling MLKit itself.

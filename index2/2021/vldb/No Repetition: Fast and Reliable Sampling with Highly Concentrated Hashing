@@ -1,0 +1,11 @@
+Stochastic sample-based estimators are among the most fundamental and universally applied tools in statistics. Such estimators are particularly important when processing huge amounts of data, where we need to be able to answer a wide range of statistical queries reliably, yet cannot afford to store the data in its full length.
+ 
+ In many applications we need the sampling to be coordinated which is typically attained using hashing. In previous work, a common strategy to obtain reliable sample-based estimators that work within certain error bounds with high probability has been to design one that works with constant probability, and then boost the probability by taking the median over
+ r
+ independent repetitions. Aamand et al. (STOC'20) recently proposed a fast and practical hashing scheme with
+ strong concentration bounds
+ , Tabulation-1Permutation, the first of its kind. In this paper, we demonstrate that using such a hash family for the sampling, we achieve the same high probability bounds without any need for repetitions. Using the same space, this saves a factor
+ r
+ in time, and simplifies the overall algorithms.
+ 
+ We validate our approach experimentally on both real and synthetic data. We compare Tabulation-1Permutation with other hash functions such as strongly universal hash functions and various other hash functions such as MurmurHash3 and BLAKE3, both with and without resorting to repetitions. We see that if we want reliability in terms of small error probabilities, then Tabulation-1Permutation is significantly faster.

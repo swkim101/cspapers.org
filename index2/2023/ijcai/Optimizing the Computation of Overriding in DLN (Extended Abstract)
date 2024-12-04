@@ -1,0 +1,9 @@
+One of the factors that hinder the adoption of nonmonotonic description logics in applications is performance. Even when monotonic and nonmonotonic inferences have the same asymptotic complexity, the implementation of nonmonotonic reasoning may be significantly slower. The family of nonmonotonic logics DLN is no exception to this behavior.
+
+
+
+We address this issue by introducing two provably correct and complete optimizations for reasoning in DLN. The first optimization is a module extractor that has the purpose of focusing reasoning on a relevant subset of the knowledge base. The second, called optimistic evaluation, aims at exploiting incremental reasoning in a better way.
+
+
+
+Extensive experimental evaluation shows that the optimized DLN reasoning is often compatible with interactive query answering, thus bringing nonmonotonic description logics closer to practical applications.

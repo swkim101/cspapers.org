@@ -1,0 +1,25 @@
+We revisit the notion of i-extension, i.e., the adaption of the fundamental 
+
+notion of extension to the case of incomplete Abstract 
+
+Argumentation Frameworks.
+
+We show that the definition of i-extension raises some concerns in the 
+
+"possible" variant, e.g., it allows even conflicting arguments 
+
+to be collectively considered as members of an (i-)extension.
+
+Thus, we introduce the alternative notion of i*-extension overcoming the 
+
+highlighted problems, and provide a thorough complexity characterization of the 
+
+corresponding verification problem.
+
+Interestingly, we show that the revisitation not only has beneficial effects for 
+
+the semantics, but also for the complexity: under various semantics,
+
+the verification problem under the possible perspective moves from NP-complete 
+
+to P.

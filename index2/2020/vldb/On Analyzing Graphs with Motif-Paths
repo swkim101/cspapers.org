@@ -1,0 +1,6 @@
+
+ Path-based solutions have been shown to be useful for various graph analysis tasks, such as link prediction and graph clustering. However, they are no longer adequate for handling complex and gigantic graphs. Recently,
+ motif-based analysis
+ has attracted a lot of attention. A motif, or a small graph with a few nodes, is often considered as a fundamental unit of a graph. Motif-based analysis captures high-order structure between nodes, and performs better than traditional "edge-based" solutions. In this paper, we study
+ motif-path
+ , which is conceptually a concatenation of one or more motif instances. We examine how motif-paths can be used in three path-based mining tasks, namely link prediction, local graph clustering and node ranking. We further address the situation when two graph nodes are not connected through a motif-path, and develop a novel defragmentation method to enhance it. Experimental results on real graph datasets demonstrate the use of motif-paths and defragmentation techniques improves graph analysis effectiveness.

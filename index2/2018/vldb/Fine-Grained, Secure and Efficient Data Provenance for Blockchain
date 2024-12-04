@@ -1,0 +1,15 @@
+The success of Bitcoin and other cryptocurrencies bring enormous interest to blockchains. A blockchain system implements a tamper-evident ledger for recording transactions that modify some global states. The system captures entire evolution history of the states. The management of that history, also known as data provenance or lineage, has been studied extensively in database systems. However, querying data history in existing blockchains can only be done by replaying all transactions. This approach is applicable to large-scale, offline analysis, but is not suitable for online transaction processing.
+ 
+ We present
+ LineageChain
+ , a fine-grained, secure and efficient provenance system for blockchains.
+ LineageChain
+ exposes provenance information to smart contracts via simple and elegant interfaces, thereby enabling a new class of blockchain applications whose execution logics depend on provenance information at runtime.
+ LineageChain
+ captures provenance during contract execution, and efficiently stores it in a Merkle tree.
+ LineageChain
+ provides a novel skip list index designed for supporting efficient provenance query processing. We have implemented
+ LineageChain
+ on top of Hyperledger and a blockchain-optimized storage system called ForkBase. Our extensive evaluation of
+ LineageChain
+ demonstrates its benefits to the new class of blockchain applications, its efficient query, and its small storage overhead.

@@ -1,0 +1,4 @@
+
+ 
+ I present the outline of my dissertation work, Identifying Private Content for Online Image Sharing. Particularly, in my dissertation, I explore learning models to predict appropriate binary privacy settings (i.e., private, public) for images, before they are shared online. Specifically, I investigate textual features (user-annotated tags and automatically derived tags), and visual semantic features that are transferred from various layers of deep Convolutional Neural Network (CNN). Experimental results show that the learning models based on the proposed features outperform strong baseline models for this task on the Flickr dataset of thousands of images.
+ 

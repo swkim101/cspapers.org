@@ -1,0 +1,7 @@
+In this paper, we face the challenge of online learning in adversarial Markov decision processes with off-policy feedback. In this setting, the learner chooses a policy, but, differently from the traditional on-policy setting, the environment is explored by means of a different, fixed, and possibly unknown policy (named colleague's policy). 
+
+The off-policy feedback presents an additional issue that is not present in traditional settings: the learner is charged with the regret of its chosen policy but it observes only the rewards gained by the colleague's policy.
+
+First, we present a lower-bound for the setting we propose, which shows that the optimal dependency of the sublinear regret is w.r.t. the dissimilarity between the optimal policy in hindsight and the colleague's policy.
+
+Then, we propose novel algorithms that, by employing pessimistic estimators---commonly adopted in the off-line reinforcement learning literature---ensure sublinear regret bounds depending on the desired dissimilarity, even when the colleague's policy is unknown.

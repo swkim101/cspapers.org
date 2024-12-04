@@ -1,0 +1,6 @@
+Generalized zero-shot learning (GZSL) is a technique to train a deep learning model to identify unseen classes using the attribute.
+In this paper, we put forth a new GZSL technique that improves the GZSL classification performance greatly. 
+Key idea of the proposed approach, henceforth referred to as semantic feature extraction-based GZSL (SE-GZSL), is to use the semantic feature containing only attribute-related information in learning the relationship between the image and the attribute. 
+In doing so, we can remove the interference, if any, caused by the attribute-irrelevant information contained in the image feature. 
+To train a network extracting the semantic feature, we present two novel loss functions, 1) mutual information-based loss to capture all the attribute-related information in the image feature and 2) similarity-based loss to remove unwanted attribute-irrelevant information. 
+From extensive experiments using various datasets, we show that the proposed SE-GZSL technique outperforms conventional GZSL approaches by a large margin.

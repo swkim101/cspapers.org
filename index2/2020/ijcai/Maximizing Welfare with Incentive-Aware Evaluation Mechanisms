@@ -1,0 +1,5 @@
+Motivated by applications such as college admission and insurance rate determination, we study a classification problem where the inputs are controlled by strategic individuals who can modify their features at a cost. A learner can only partially observe the features, and aims to classify individuals with respect to a quality score. The goal is to design a classification mechanism that maximizes the overall quality score in the population, taking any strategic updating into account.
+
+
+
+When scores are linear and mechanisms can assign their own scores to agents, we show that the optimal classifier is an appropriate projection of the quality score. For the more restrictive task of binary classification via linear thresholds, we construct a (1/4)-approximation to the optimal classifier when the underlying feature distribution is sufficiently smooth and admits an oracle for finding dense regions. We extend our results to settings where the prior distribution is unknown and must be learned from samples.

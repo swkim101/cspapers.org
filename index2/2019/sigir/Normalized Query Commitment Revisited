@@ -1,0 +1,1 @@
+We revisit the Normalized Query Commitment (NQC) query performance prediction (QPP) method. To this end, we suggest a scaled extension to a discriminative QPP framework and use it to analyze NQC. Using this analysis allows us to redesign NQC and suggest several options for improvement.

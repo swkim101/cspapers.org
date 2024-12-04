@@ -1,0 +1,7 @@
+We study a public event scheduling problem, where multiple public events are scheduled to coordinate the availability of multiple agents. The availability of each agent is determined by solving a separate flexible interval job scheduling problem, where the jobs are required to be preemptively processed. The agents want to attend as many events as possible, and their agreements are considered to be the total length of time during which they can attend these events. The goal is to find a schedule for events as well as the job schedule for each agent such that the total agreement is maximized.
+
+
+
+We first show that the problem is NP-hard, and then prove that a simple greedy algorithm achieves 1/2-approximation when the whole timeline is polynomially bounded.
+
+Our method also implies a (1-1/e)-approximate algorithm for this case. Subsequently, for the general timeline case, we present an algorithmic framework that extends a 1/alpha-approximate algorithm for the one-event instance to the general case that achieves 1/(alpha+1)-approximation. Finally, we give a polynomial time algorithm that solves the one-event instance, and this implies a 1/2-approximate algorithm for the general case.

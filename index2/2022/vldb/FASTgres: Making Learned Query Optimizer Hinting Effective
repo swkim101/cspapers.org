@@ -1,0 +1,8 @@
+
+ The traditional and well-established cost-based query optimizer approach enumerates different execution plans for each query, assesses each plan with costs, and selects the plan that promises the lowest costs for execution. However, the optimal execution plan is not always selected. To steer the optimizer in the right direction, many query optimizers provide configuration parameters called query optimizer hints. These hints can be set for every single query separately. To show the great potential of these hints for the optimization of analytical queries, we present results of a comprehensive and in-depth evaluation using three benchmarks and two different versions of the open-source database system PostgreSQL. In particular, we highlight that query optimizer hinting is a non-trivial challenge. To solve this challenge, we propose
+ FASTgres
+ , a learning-based context-aware classification strategy for hint set prediction. Compared to related work,
+ FASTgres
+ provides transparent and direct hint set predictions with consistent performance improvements. In our end-to-end evaluation, we demonstrate that
+ FASTgres
+ effectively reduces benchmark runtimes by a factor of up to 3.25x with only steering the cost-based optimizer.

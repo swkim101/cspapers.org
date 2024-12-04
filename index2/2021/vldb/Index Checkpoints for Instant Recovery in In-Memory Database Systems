@@ -1,0 +1,12 @@
+
+ We observe that the time bottleneck during the recovery phase of an IMDB (In-Memory DataBase system) shifts from log replaying to index rebuilding after the state-of-art techniques for instant recovery have been applied. In this paper, we investigate index checkpoints to eliminate this bottleneck. However, improper designs may lead to inconsistent index checkpoints or incur severe performance degradation. For the correctness challenge, we combine two techniques,
+ i.e.
+ , deferred deletion of index entries, and on-demand clean-up of dangling index entries after recovery, to achieve data correctness. For the efficiency challenge, we propose three wait-free index checkpoint algorithms,
+ i.e., ChainIndex, MirrorIndex, IACoW
+ , for supporting efficient normal processing and fast recovery. We implement our proposed solutions in HiEngine, an IMDB being developed as part of Huawei's next-generation cloud-native database product. We evaluate the impact of index checkpoint persistence on recovery and transaction performance using two workloads (
+ i.e.
+ , TPC-C and Microbench). We analyze the pros and cons of each algorithm. Our experimental results show that HiEngine can be recovered instantly (
+ i.e.
+ , in ~10 s) with only slight (
+ i.e.
+ , 5% - 11%) performance degradation. Therefore, we strongly recommend integrating index checkpointing into IMDBs if recovery time is a crucial product metric.

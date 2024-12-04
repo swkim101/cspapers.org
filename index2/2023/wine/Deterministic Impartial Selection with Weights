@@ -1,0 +1,25 @@
+
+ In the impartial selection problem, a subset of agents up to a fixed size
+ k
+ among a group of
+ n
+ is to be chosen based on votes cast by the agents themselves. A selection mechanism is
+ impartial
+ if no agent can influence its own chance of being selected by changing its vote. It is
+ 
+ α
+ -optimal
+ 
+ if, for every instance, the ratio between the votes received by the selected subset is at least a fraction of
+ α
+ of the votes received by the subset of size
+ k
+ with the highest number of votes. We study deterministic impartial mechanisms in a more general setting with arbitrarily weighted votes and provide the first approximation guarantee, roughly 1/⌈2
+ n
+ /
+ k
+ ⌉. When the number of agents to select is large enough compared to the total number of agents, this yields an improvement on the previously best known approximation ratio of 1/
+ k
+ for the unweighted setting. We further show that our mechanism can be adapted to the impartial assignment problem, in which multiple sets of up to
+ k
+ agents are to be selected, with a loss in the approximation ratio of 1/2.

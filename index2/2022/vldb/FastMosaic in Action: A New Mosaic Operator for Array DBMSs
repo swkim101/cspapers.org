@@ -1,0 +1,6 @@
+
+ Array DBMSs operate on
+ N
+ -d arrays. During the Data Ingestion phase, the widely used mosaic operator ingests a massive collection of overlapping arrays into a single large array, called mosaic. The operator can utilize sophisticated statistical and machine learning techniques, e.g. Canonical Correlation Analysis (CCA), to produce a high quality
+ seamless mosaic
+ where the contrasts between the values of cells taken from input overlapping arrays are minimized. However, the performance bottleneck becomes a major challenge when applying such advanced techniques over increasingly growing array volumes. We introduce a new, scalable way to perform CCA that is orders of magnitude faster than the popular Python's scikit-learn library for the purpose of array mosaicking. Furthermore, we developed a hybrid web-desktop application to showcase our novel FastMosaic operator, based on this new CCA. A rich GUI enables users to comprehensively investigate in/out arrays, interactively guides through an end-to-end mosaic construction on real-world geospatial arrays using FastMosaic, facilitating a convenient exploration of the FastMosaic pipeline and its internals.

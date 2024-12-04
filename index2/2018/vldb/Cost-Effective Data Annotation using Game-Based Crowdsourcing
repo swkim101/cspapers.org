@@ -1,0 +1,22 @@
+
+ Large-scale data annotation is indispensable for many applications, such as machine learning and data integration. However, existing annotation solutions either incur expensive cost for large datasets or produce noisy results. This paper introduces a cost-effective annotation approach, and focuses on the labeling rule generation problem that aims to generate high-quality rules to largely reduce the labeling cost while preserving quality. To address the problem, we first generate candidate rules, and then devise a game-based crowdsourcing approach C
+ ROWD
+ G
+ AME
+ to select high-quality rules by considering
+ coverage and precision.
+ C
+ ROWD
+ G
+ AME
+ employs two groups of crowd workers: one group answers rule validation tasks (whether a rule is valid) to play a role of
+ rule generator,
+ while the other group answers tuple checking tasks (whether the annotated label of a data tuple is correct) to play a role of
+ rule refuter.
+ We let the two groups play a two-player game: rule generator identifies high-quality rules with large coverage and precision, while rule refuter tries to refute its opponent rule generator by checking some tuples that provide enough evidence to reject rules covering the tuples. This paper studies the challenges in C
+ ROWD
+ G
+ AME
+ . The first is to balance the trade-off between coverage and precision. We define the loss of a rule by considering the two factors. The second is rule precision estimation. We utilize
+ Bayesian estimation
+ to combine both rule validation and tuple checking tasks. The third is to select crowdsourcing tasks to fulfill the game-based framework for minimizing the loss. We introduce a minimax strategy and develop efficient task selection algorithms. We conduct experiments on entity matching and relation extraction, and the results show that our method outperforms state-of-the-art solutions.

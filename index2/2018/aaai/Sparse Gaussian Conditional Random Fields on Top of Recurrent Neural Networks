@@ -1,0 +1,4 @@
+
+ 
+ Predictions of time-series are widely used in different disciplines. We propose CoR, Sparse Gaussian Conditional Random Fields (SGCRF) on top of Recurrent Neural Networks (RNN), for problems of this kind. CoR gains advantages from both RNN and SGCRF. It can not only effectively represent the temporal correlations in observed data, but can also learn the structured information of the output. CoR is challenging to train because it is a hybrid of deep neural networks and densely-connected graphical models. Alternative training can be a tractable way to train CoR, and furthermore, an end-to-end training method is proposed to train CoR more efficiently. CoR is evaluated by both synthetic data and real-world data, and it shows a significant improvement in performance over state-of-the-art methods.
+ 

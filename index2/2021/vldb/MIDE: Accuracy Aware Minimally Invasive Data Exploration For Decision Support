@@ -1,0 +1,4 @@
+
+ This paper studies privacy in the context of decision-support queries that classify objects as either true or false based on whether they satisfy the query. Mechanisms to ensure privacy may result in false positives and false negatives. In decision-support applications, often, false negatives have to remain bounded. Existing accuracy-aware privacy preserving techniques cannot directly be used to support such an accuracy requirement and their naive adaptations to support bounded accuracy of false negatives results in significant privacy loss depending upon distribution of data. This paper explores the concept of
+ minimally-invasive
+ data exploration for decision support that attempts to minimize privacy loss while supporting bounded guarantee on false negatives by adaptively adjusting privacy based on data distribution. Our experimental results show that the MIDE algorithms perform well and are robust over variations in data distributions.

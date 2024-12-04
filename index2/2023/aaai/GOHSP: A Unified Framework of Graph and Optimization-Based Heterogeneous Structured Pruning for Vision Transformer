@@ -1,0 +1,19 @@
+The recently proposed Vision transformers (ViTs) have shown
+very impressive empirical performance in various computer vision tasks,
+and they are viewed as an important type of foundation model. However, ViTs are typically constructed with large-scale sizes, which then
+severely hinder their potential deployment in many practical resources constrained applications. 
+To mitigate this challenging problem, structured pruning is a promising solution to compress model size and enable
+practical efficiency. However, unlike its current popularity for CNNs and
+RNNs, structured pruning for ViT models is little explored.
+In this paper, we propose GOHSP, a unified framework of Graph and
+Optimization-based Structured Pruning for ViT models. We first develop
+a graph-based ranking for measuring the importance of attention heads,
+and the extracted importance information is further integrated to an
+optimization-based procedure to impose the heterogeneous structured
+sparsity patterns on the ViT models. Experimental results show that
+our proposed GOHSP demonstrates excellent compression performance.
+On CIFAR-10 dataset, our approach can bring 40% parameters reduction
+with no accuracy loss for ViT-Small model. On ImageNet dataset, with
+30% and 35% sparsity ratio for DeiT-Tiny and DeiT-Small models, our
+approach achieves 1.65% and 0.76% accuracy increase over the existing
+structured pruning methods, respectively.

@@ -1,0 +1,4 @@
+
+ 
+ Multi-label community-based question classification is a challenging problem in Community-based Question Answering (CQA) services, arising in many real applications such as question navigation and expert finding. Most of the existing approaches consider the problem as content-based tag suggestion task, which suffers from the textual sparsity issue. Unlike the previous studies, we consider the problem of multi-label community-based question classification from the viewpoint of personalized sequence learning. We introduce the personalized sequence memory network that leverages not only the semantics of questions but also the personalized information of askers to provide the sequence tag learning function to capture the high-order tag dependency. The experiment on real-world dataset shows the effectiveness of our method.
+ 

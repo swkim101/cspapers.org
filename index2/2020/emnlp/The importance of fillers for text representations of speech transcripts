@@ -1,0 +1,1 @@
+While being an essential component of spoken language, fillers (e.g."um" or "uh") often remain overlooked in Spoken Language Understanding (SLU) tasks. We explore the possibility of representing them with deep contextualised embeddings, showing improvements on modelling spoken language and two downstream tasks - predicting a speaker's stance and expressed confidence.

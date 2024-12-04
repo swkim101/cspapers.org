@@ -1,0 +1,9 @@
+The Non-dominated Sorting Genetic Algorithm-II (NSGA-II) is one of the most prominent algorithms to solve multi-objective optimization problems. Recently, the first mathematical runtime guarantees have been obtained for this algorithm, however only for synthetic benchmark problems.
+
+
+
+In this work, we give the first proven performance guarantees for a classic optimization problem, the NP-complete bi-objective minimum spanning tree problem. More specifically, we show that the NSGA-II with population size N >= 4((n-1) wmax + 1) computes all extremal points of the Pareto front in an expected number of O(m^2 n wmax log(n wmax)) iterations, where n is the number of vertices, m the number of edges, and wmax is the maximum edge weight in the problem instance. This result confirms, via mathematical means, the good performance of the NSGA-II observed empirically. It also shows that mathematical analyses of this algorithm are not only possible for synthetic benchmark problems, but also for more complex combinatorial optimization problems.
+
+
+
+ As a side result, we also obtain a new analysis of the performance of the global SEMO algorithm on the bi-objective minimum spanning tree problem, which improves the previous best result by a factor of |F|, the number of extremal points of the Pareto front, a set that can be as large as n wmax. The main reason for this improvement is our observation that both multi-objective evolutionary algorithms find the different extremal points in parallel rather than sequentially, as assumed in the previous proofs.

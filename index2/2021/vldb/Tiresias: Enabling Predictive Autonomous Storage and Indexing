@@ -1,0 +1,4 @@
+
+ To efficiently store and query a DBMS, administrators must select storage and indexing configurations. For example, one must decide whether data should be stored in rows or columns, in-memory or on disk, and which columns to index. These choices can be challenging to make for workloads that are mixed requiring hybrid transactional and analytical processing (HTAP) support. There is growing interest in system designs that can adapt how data is stored and indexed to execute these workloads efficiently. We present
+ Tiresias
+ , a predictor that learns the cost of data accesses and predicts their latency and likelihood under different storage scenarios. Tiresias makes these predictions by collecting observed latencies and access histories to build predictive models in an online manner, enabling autonomous storage and index adaptation. Experimental evaluation shows the benefits of predictive adaptation and the trade-offs for different predictive techniques.

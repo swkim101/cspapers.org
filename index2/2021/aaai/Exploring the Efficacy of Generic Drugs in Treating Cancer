@@ -1,0 +1,13 @@
+Thousands of scientific publications discuss evidence on the
+efficacy of non-cancer generic drugs being tested for cancer.
+However, trying to manually identify and extract such evidence is intractable at scale. We introduce a natural language
+processing pipeline to automate the identification of relevant
+studies and facilitate the extraction of therapeutic associations
+between generic drugs and cancers from PubMed abstracts.
+We annotate datasets of drug-cancer evidence and use them
+to train models to identify and characterize such evidence at
+scale. To make this evidence readily consumable, we incorporate the results of the models in a web application that allows users to browse documents and their extracted evidence.
+Users can provide feedback on the quality of the evidence extracted by our models. This feedback is used to improve our
+datasets and the corresponding models in a continuous integration system. We describe the natural language processing
+pipeline in our application and the steps required to deploy
+services based on the machine learning models.

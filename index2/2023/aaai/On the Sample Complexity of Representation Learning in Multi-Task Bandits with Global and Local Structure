@@ -1,0 +1,6 @@
+We investigate the sample complexity of learning the optimal arm for multi-task bandit problems. Arms consist of two components: one that is shared across tasks (that we call representation) and one that is task-specific (that we call predictor). 
+The objective is to learn the optimal (representation, predictor)-pair for each task, under the assumption that the optimal representation is common to all tasks. Within this framework, efficient learning algorithms should transfer knowledge across tasks. 
+We consider the best-arm identification problem with fixed confidence, where, in each round, the learner actively selects both a task, and an arm, and observes the corresponding reward.
+We derive instance-specific sample complexity lower bounds, which apply to any algorithm that identifies the best representation, and the best predictor for a task, with prescribed confidence levels. 
+We devise an algorithm, OSRL-SC, that can learn the optimal representation, and the optimal predictors, separately, and whose sample complexity approaches the lower bound. Theoretical and numerical results demonstrate that OSRL-SC achieves a better scaling with respect to the number of tasks compared to the classical best-arm identification algorithm.
+The code can be found here https://github.com/rssalessio/OSRL-SC.

@@ -1,0 +1,24 @@
+
+ Real-world directed graphs are dynamically changing, and it is important to identify and maintain the strong connectivity information between nodes, which is useful in numerous applications. Given an input graph
+ G
+ , we study a new problem,
+ minimum strongly connected subgraph collection
+ (MSCSC), which asks for a complete collection of subgraphs, each of which contains a
+ maximal
+ set of nodes that are strongly connected to each other via
+ minimum
+ number of edges in
+ G.
+ 
+ 
+ MSCSC is NP-hard, and its computation and maintenance are challenging, especially on large-scale dynamic graphs. Thus, we resort to approximate MSCSC with theoretical guarantees. We develop a series of approximate MSCSC methods for both static and dynamic graphs. Specifically, we first develop a static MSCSC method MSC that only needs one scan of the graph
+ G
+ , runs in linear time
+ w.r.t.
+ , the number of edges, and provides rigorous approximation guarantees. Then, based on MSC, we leverage a reduced directed acyclic graph of
+ G
+ to design incremental MSCSC method MSC
+ i
+ with two variants to handle edge insertions efficiently. We further develop MSC
+ d
+ that updates MSCSC under edge deletions by efficiently scanning only locally affected subgraphs. Moreover, to demonstrate the high utility, we conduct two use case studies to apply our MSCSC methods to boost the efficiency of dynamic strongly connected component (SCC) maintenance and dynamic SCC-based reachability index maintenance. Extensive experiments on 8 large graphs, including 3 billion-edge graphs, validate the superior efficiency of our methods.

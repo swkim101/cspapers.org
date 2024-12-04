@@ -1,0 +1,6 @@
+In the absence of assigned tasks, a learning agent typically seeks to explore its environment efficiently. However, the pursuit of exploration will bring more safety risks.
+An under-explored aspect of reinforcement learning is how to achieve safe efficient exploration when the task is unknown.
+In this paper, we propose a practical Constrained Entropy Maximization (CEM) algorithm to solve task-agnostic safe exploration problems, which naturally require a finite horizon and undiscounted constraints on safety costs.
+The CEM algorithm aims to learn a policy that maximizes state entropy under the premise of safety.
+To avoid approximating the state density in complex domains, CEM leverages a k-nearest neighbor entropy estimator to evaluate the efficiency of exploration.
+In terms of safety, CEM minimizes the safety costs, and adaptively trades off safety and exploration based on the current constraint satisfaction. The empirical analysis shows that CEM enables the acquisition of a safe exploration policy in complex environments, resulting in improved performance in both safety and sample efficiency for target tasks.

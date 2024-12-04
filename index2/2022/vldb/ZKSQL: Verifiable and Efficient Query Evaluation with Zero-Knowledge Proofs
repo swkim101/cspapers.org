@@ -1,0 +1,5 @@
+Individuals and organizations are using databases to store personal information at an unprecedented rate. This creates a quandary for data providers. They are responsible for protecting the privacy of individuals described in their database. On the other hand, data providers are sometimes required to provide statistics about their data instead of sharing it wholesale with strong assurances that these answers are correct and complete such as in regulatory filings for the US SEC and other goverment organizations.
+ 
+ We introduce a system,
+ ZKSQL
+ , that provides authenticated answers to ad-hoc SQL queries with zero-knowledge proofs. Its proofs show that the answers are correct and sound with respect to the database's contents and they do not divulge any information about its input records. This system constructs proofs over the steps in a query's evaluation and it accelerates this process with authenticated set operations. We validate the efficiency of this approach over a suite of TPC-H queries and our results show that ZKSQL achieves two orders of magnitude speedup over the baseline.

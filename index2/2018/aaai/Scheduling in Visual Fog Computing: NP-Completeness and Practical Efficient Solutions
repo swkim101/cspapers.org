@@ -1,0 +1,4 @@
+
+ 
+ The visual fog paradigm envisions tens of thousands of heterogeneous, camera-enabled edge devices distributed across the Internet, providing live sensing for a myriad of different visual processing applications. The scale, computational demands, and bandwidth needed for visual computing pipelines necessitates offloading intelligently to distributed computing infrastructure, including the cloud, Internet gateway devices, and the edge devices themselves. This paper focuses on the visual fog scheduling problem of assigning the visual computing tasks to various devices to optimize network utilization. We first prove this problem is NP-complete, and then formulate a practical, efficient solution. We demonstrate sub-minute computation time to optimally schedule 20,000 tasks across over 7,000 devices, and just 7-minute execution time to place 60,000 tasks across 20,000 devices, showing our approach is ready to meet the scale challenges introduced by visual fog.
+ 

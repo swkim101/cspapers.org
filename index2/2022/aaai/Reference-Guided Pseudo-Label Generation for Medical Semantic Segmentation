@@ -1,0 +1,8 @@
+Producing densely annotated data is a difficult and tedious task for medical imaging applications. 
+To address this problem, we propose a novel approach to generate supervision for semi-supervised semantic segmentation. 
+We argue that visually similar regions between labeled and unlabeled images likely contain the same semantics and therefore should share their label.
+Following this thought, we use a small number of labeled images as reference material and match pixels in an unlabeled image to the semantic of the best fitting pixel in a reference set.
+This way, we avoid pitfalls such as confirmation bias, common in purely prediction-based pseudo-labeling.
+Since our method does not require any architectural changes or accompanying networks, one can easily insert it into existing frameworks.
+We achieve the same performance as a standard fully supervised model on X-ray anatomy segmentation, albeit using 95% fewer labeled images.
+Aside from an in-depth analysis of different aspects of our proposed method, we further demonstrate the effectiveness of our reference-guided learning paradigm by comparing our approach against existing methods for retinal fluid segmentation with competitive performance as we improve upon recent work by up to 15% mean IoU.

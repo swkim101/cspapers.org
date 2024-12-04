@@ -1,0 +1,16 @@
+Offline Goal-Conditioned Reinforcement Learning (Offline GCRL) is an important problem in RL that focuses on acquiring diverse goal-oriented skills solely from pre-collected behavior datasets. 
+In this setting, the reward feedback is typically absent except when the goal is achieved, 
+which makes it difficult to learn policies especially from a finite dataset of suboptimal behaviors.
+In addition, realistic scenarios involve long-horizon planning, which necessitates the 
+extraction of useful skills within sub-trajectories.
+Recently, the conditional diffusion model has been shown to be a promising approach to 
+generate high-quality long-horizon plans for RL. 
+However, their
+practicality for the goal-conditioned setting is still limited due to a number of technical assumptions
+made by the methods.
+In this paper, we propose SSD (Sub-trajectory Stitching with Diffusion), 
+a model-based offline GCRL method that leverages the conditional diffusion model to address these limitations. 
+In summary, we use the diffusion model that generates future plans conditioned on the target goal and value, 
+with the target value estimated from the goal-relabeled offline dataset.
+We report state-of-the-art performance in the standard benchmark set of GCRL tasks, and 
+demonstrate the capability to successfully stitch the segments of suboptimal trajectories in the offline data to generate high-quality plans.

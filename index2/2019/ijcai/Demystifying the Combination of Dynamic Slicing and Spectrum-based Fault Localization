@@ -1,0 +1,16 @@
+Several approaches have been proposed to reduce debugging costs through
+automated software fault diagnosis. Dynamic Slicing (DS) and Spectrum-based
+Fault Localization (SFL) are popular fault diagnosis techniques and normally
+seen as complementary. This paper reports on a comprehensive
+study to reassess the effects of combining DS with SFL. With this
+combination, components that are often involved in failing but seldom in passing
+test runs could be located and their suspiciousness reduced. 
+Results show that the DS-SFL combination, coined
+as Tandem-FL, improves the diagnostic accuracy up
+to 73.7% (13.4% on average). Furthermore, results
+indicate that the risk of missing faulty statements,
+which is a DS?s key limitation, is not high ? DS
+misses faulty statements in 9% of the 260 cases. To
+sum up, we found that the DS-SFL combination
+was practical and effective and encourage new SFL
+techniques to be evaluated against that optimization.

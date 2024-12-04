@@ -1,0 +1,7 @@
+Most planners are based on grounding, that is, generating all instances of a parameterized action during a preprocessing phase.
+For some problems the number of ground actions is too high, causing a performance bottleneck.
+Building upon an existing approach, we present an enhanced method to split action schemas automatically during the grounding phase, to reduce the number of ground actions.
+First, we propose to exploit the structural knowledge of the problems to have a more informative dependency graph.
+Then, we suggest a better objective function to define and choose the best split.
+Finally, we present a more effective search to find it.
+We experimentally measure the impact of each of these improvements, and show that our approach significantly outperforms the state of the art.

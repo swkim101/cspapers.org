@@ -1,0 +1,10 @@
+Multimodal Sarcasm Understanding (MSU) has a wide range of applications in the news field such as public opinion analysis and forgery detection. 
+However, existing MSU benchmarks and approaches usually focus on sentence-level MSU. 
+In document-level news, sarcasm clues are sparse or small and are often concealed in long text. 
+Moreover, compared to sentence-level comments like tweets, which mainly focus on only a few trends or hot topics (e.g., sports events), content in the news is considerably diverse. 
+Models created for sentence-level MSU may fail to capture sarcasm clues in document-level news. 
+To fill this gap, we present a comprehensive benchmark for Document-level Multimodal Sarcasm Understanding (DocMSU). 
+Our dataset contains 102,588 pieces of news with text-image pairs, covering 9 diverse topics such as health, business, etc.
+The proposed large-scale and diverse DocMSU significantly facilitates the research of document-level MSU in real-world scenarios. 
+To take on the new challenges posed by DocMSU, we introduce a fine-grained sarcasm comprehension method to properly align the pixel-level image features with word-level textual features in documents. 
+Experiments demonstrate the effectiveness of our method, showing that it can serve as a baseline approach to the challenging DocMSU.

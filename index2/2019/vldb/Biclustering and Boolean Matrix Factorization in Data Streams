@@ -1,0 +1,6 @@
+
+ We study clustering of bipartite graphs and Boolean matrix factorization in data streams. We consider a streaming setting in which the vertices from the
+ left
+ side of the graph arrive one by one together with all of their incident edges. We provide an algorithm which after one pass over the stream recovers the set of clusters on the
+ right
+ side of the graph using sublinear space; to the best of our knowledge this is the first algorithm with this property. We also show that after a second pass over the stream the left clusters of the bipartite graph can be recovered and we show how to extend our algorithm to solve the Boolean matrix factorization problem (by exploiting the correspondence of Boolean matrices and bipartite graphs). We evaluate an implementation of the algorithm on synthetic data and on real-world data. On real-world datasets the algorithm is orders of magnitudes faster than a static baseline algorithm while providing quality results within a factor 2 of the baseline algorithm. Our algorithm scales linearly in the number of edges in the graph. Finally, we analyze the algorithm theoretically and provide sufficient conditions under which the algorithm recovers a set of planted clusters under a standard random graph model.

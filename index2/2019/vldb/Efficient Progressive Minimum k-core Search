@@ -1,0 +1,24 @@
+
+ As one of the most representative cohesive subgraph models,
+ k
+ -core model has recently received significant attention in the literature. In this paper, we investigate the problem of the minimum
+ k
+ -core search: given a graph
+ G
+ , an integer
+ k
+ and a set of query vertices
+ Q
+ = {
+ q
+ }, we aim to find the smallest
+ k
+ -core subgraph containing every query vertex
+ q
+ ϵ
+ Q.
+ It has been shown that this problem is NP-hard with a huge search space, and it is very challenging to find the optimal solution. There are several heuristic algorithms for this problem, but they rely on simple scoring functions and there is no guarantee as to the size of the resulting subgraph, compared with the optimal solution. Our empirical study also indicates that the size of their resulting subgraphs may be large in practice. In this paper, we develop an effective and efficient progressive algorithm, namely
+ PSA
+ , to provide a good trade-off between the quality of the result and the search time. Novel lower and upper bound techniques for the minimum
+ k
+ -core search are designed. Our extensive experiments on 12 real-life graphs demonstrate the effectiveness and efficiency of the new techniques.

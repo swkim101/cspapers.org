@@ -1,0 +1,4 @@
+
+ 
+ Death is an inevitable part of life and while it cannot be delayed indefinitely it is possible to predict with some certainty when the health of a person is going to deteriorate. In this paper, we predict risk of mortality for patients from two large hospital systems in the Pacific Northwest. Using medical claims and electronic medical records (EMR) data we greatly improve prediction for risk of mortality and explore machine learning models with explanations for end of life predictions. The insights that are derived from the predictions can then be used to improve the quality of patient care towards the end of life.
+ 

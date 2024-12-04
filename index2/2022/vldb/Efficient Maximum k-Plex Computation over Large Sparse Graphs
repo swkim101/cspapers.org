@@ -1,0 +1,12 @@
+
+ The
+ k
+ -plex model is a relaxation of the clique model by allowing every vertex to miss up to
+ k
+ neighbors. Designing exact and efficient algorithms for computing a maximum
+ k
+ -plex in a graph has been receiving increasing interest recently. However, the existing algorithms are still inefficient due to having major limitations. We in this paper design a new algorithm kPlexS for the maximum
+ k
+ -plex problem, with three novel contributions. Firstly, we propose a new framework for computing maximum
+ k
+ -plex over large sparse graphs, by iteratively extracting small dense subgraphs from it and then solving each of the extracted dense subgraphs by a branch-and-bound search. Secondly, we propose an efficient reduction algorithm CTCP to reduce the input graph size by exhaustively conducting vertex reduction and edge reduction. CTCP computes a smaller reduced graph and also has a lower time complexity than the existing techniques. Moreover, we iteratively invoke CTCP to reduce the input graph once a vertex has been processed and removed from it. Thirdly, we develop a branch-and-bound algorithm BBMatrix specifically targeting the dense subgraphs that are extracted from the input graph. BBMatrix represents its input graph by an adjacency matrix, and utilizes both first-order (i.e., individual vertices) and second-order information (i.e., pairs of vertices) for reduction and upper bounding. In addition, incremental techniques are proposed to efficiently apply the reduction and upper bounding during the recursion. Extensive empirical studies on large real graphs demonstrate that our algorithm kPlexS outperforms the state-of-the-art algorithms BnB, Maplex, and KpLeX.

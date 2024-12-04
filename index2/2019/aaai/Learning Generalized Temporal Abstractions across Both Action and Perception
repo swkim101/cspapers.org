@@ -1,0 +1,6 @@
+
+ 
+ 
+Learning temporal abstractions which are partial solutions to a task and could be reused for other similar or even more complicated tasks is intuitively an ingredient which can help agents to plan, learn and reason efficiently at multiple resolutions of perceptions and time. Just like humans acquire skills and build on top of already existing skills to solve more complicated tasks, AI agents should be able to learn and develop skills continually, hierarchically and incrementally over time. In my research, I aim to answer the following question: How should an agent efficiently represent, learn and use knowledge of the world in continual tasks? My work builds on the options framework, but provides novel extensions driven by this question. We introduce the notion of interest functions. Analogous to temporally extended actions, we propose learning temporally extended perception. The key idea is to learn temporal abstractions unifying both action and perception. 
+ 
+ 

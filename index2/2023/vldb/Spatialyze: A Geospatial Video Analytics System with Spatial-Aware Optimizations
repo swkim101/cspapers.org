@@ -1,0 +1,9 @@
+
+ Videos that are shot using commodity hardware such as phones and surveillance cameras record various metadata such as time and location. We encounter such
+ geospatial videos
+ on a daily basis and such videos have been growing in volume significantly. Yet, we do not have data management systems that allow users to interact with such data effectively.
+ 
+ 
+ In this paper, we describe Spatialyze, a new framework for end-to-end querying of geospatial videos. Spatialyze comes with a domain-specific language where users can construct geospatial video analytic workflows using a 3-step, declarative,
+ build-filter-observe
+ paradigm. Internally, Spatialyze leverages the declarative nature of such workflows, the temporal-spatial metadata stored with videos, and physical behavior of real-world objects to optimize the execution of workflows. Our results using real-world videos and workflows show that Spatialyze can reduce execution time by up to 5.3×, while maintaining up to 97.1% accuracy compared to unoptimized execution.

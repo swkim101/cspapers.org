@@ -1,0 +1,20 @@
+
+ The problem of finding densest subgraphs has received increasing attention in recent years finding applications in biology, finance, as well as social network analysis. The
+ k
+ -clique densest subgraph problem is a generalization of the densest subgraph problem, where the objective is to find a subgraph maximizing the ratio between the number of
+ k
+ -cliques in the subgraph and its number of nodes. It includes as a special case the problem of finding subgraphs with largest average number of triangles (
+ k
+ = 3), which plays an important role in social network analysis. Moreover, algorithms that deal with larger values of
+ k
+ can effectively find quasi-cliques. The densest subgraph problem can be solved in polynomial time with algorithms based on maximum flow, linear programming or a recent approach based on convex optimization. In particular, the latter approach can scale to graphs containing tens of billions of edges. While finding a densest subgraph in large graphs is no longer a bottleneck, the
+ k
+ -clique densest subgraph remains challenging even when
+ k
+ = 3. Our work aims at developing near-optimal and exact algorithms for the
+ k
+ -clique densest subgraph problem on large real-world graphs. We give a surprisingly simple procedure that can be employed to find the maximal
+ k
+ -clique densest subgraph in large-real world graphs. By leveraging appealing properties of existing results, we combine it with a recent approach for listing all
+ k
+ -cliques in a graph and a sampling scheme, obtaining the state-of-the-art approaches for the aforementioned problem. Our theoretical results are complemented with an extensive experimental evaluation showing the effectiveness of our approach in large real-world graphs.

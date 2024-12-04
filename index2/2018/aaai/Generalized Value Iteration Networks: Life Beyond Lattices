@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we introduce a generalized value iteration network (GVIN), which is an end-to-end neural network planning module. GVIN emulates the value iteration algorithm by using a novel graph convolution operator, which enables GVIN to learn and plan on irregular spatial graphs. We propose three novel differentiable kernels as graph convolution operators and show that the embedding-based kernel achieves the best performance. Furthermore, we present episodic Q-learning, an improvement upon traditional n-step Q-learning that stabilizes training for VIN and GVIN. Lastly, we evaluate GVIN on planning problems in 2D mazes, irregular graphs, and real-world street networks, showing that GVIN generalizes well for both arbitrary graphs and unseen graphs of larger scaleand outperforms a naive generalization of VIN (discretizing a spatial graph into a 2D image).
+ 

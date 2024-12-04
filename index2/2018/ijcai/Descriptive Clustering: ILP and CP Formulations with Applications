@@ -1,0 +1,31 @@
+In many settings just finding a good clustering is insufficient and
+
+an explanation of the clustering is required. If the features used
+
+to perform the clustering are interpretable then methods such as
+
+conceptual clustering can be used. However, in many applications
+
+this is not the case particularly for image, graph and other complex
+
+data. Here we explore the setting where a set of interpretable
+
+discrete tags for each instance is available. We formulate the
+
+descriptive clustering problem as a bi-objective optimization
+
+to simultaneously find compact clusters using the features and to
+
+describe them using the tags. We present our formulation in a
+
+declarative platform and show it can be integrated into a standard
+
+iterative algorithm to find all Pareto optimal solutions to the two
+
+objectives. Preliminary results demonstrate the utility of our
+
+approach on real data sets for images and electronic health care
+
+records and that it outperforms single objective and multi-view clustering
+
+baselines.

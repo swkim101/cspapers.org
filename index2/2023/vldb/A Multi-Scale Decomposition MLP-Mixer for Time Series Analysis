@@ -1,0 +1,10 @@
+
+ Time series data, including univariate and multivariate ones, are characterized by unique composition and complex multi-scale temporal variations. They often require special consideration of decomposition and multi-scale modeling to analyze. Existing deep learning methods on this best fit to univariate time series only, and have not sufficiently considered sub-series modeling and decomposition completeness. To address these challenges, we propose MSD-Mixer, a
+ M
+ ulti-
+ S
+ cale
+ D
+ ecomposition MLP-
+ Mixer
+ , which learns to explicitly decompose and represent the input time series in its different layers. To handle the multi-scale temporal patterns and multivariate dependencies, we propose a novel temporal patching approach to model the time series as multi-scale patches, and employ MLPs to capture intra- and inter-patch variations and channel-wise correlations. In addition, we propose a novel loss function to constrain both the mean and the autocorrelation of the decomposition residual for better decomposition completeness. Through extensive experiments on various real-world datasets for five common time series analysis tasks, we demonstrate that MSD-Mixer consistently and significantly outperforms other state-of-the-art algorithms with better efficiency.

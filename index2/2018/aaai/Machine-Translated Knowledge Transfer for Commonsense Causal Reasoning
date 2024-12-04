@@ -1,0 +1,4 @@
+
+ 
+ This paper studies the problem of multilingual causal reasoning in resource-poor languages. Existing approaches, translating into the most probable resource-rich language such as English, suffer in the presence of translation and language gaps between different cultural area, which leads to the loss of causality. To overcome these challenges, our goal is thus to identify key techniques to construct a new causality network of cause-effect terms, targeted for the machine-translated English, but without any language-specific knowledge of resource-poor languages. In our evaluations with three languages, Korean, Chinese, and French, our proposed method consistently outperforms all baselines, achieving up-to 69.0% reasoning accuracy, which is close to the state-of-the-art accuracy 70.2% achieved on English.
+ 

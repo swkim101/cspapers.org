@@ -1,0 +1,11 @@
+Open-sourced large language models (LLMs) have demonstrated remarkable efficacy in various tasks with instruction tuning. 
+However, these models can sometimes struggle with tasks that require more specialized knowledge such as translation. 
+One possible reason for such deficiency is that instruction tuning aims to generate fluent and coherent text that continues from a given instruction without being constrained by any task-specific requirements. 
+Moreover, it can be more challenging to tune smaller LLMs with lower-quality training data.
+To address this issue, we propose a novel framework using examples in comparison to teach LLMs to learn translation. 
+Our approach involves output comparison and preference comparison, presenting the model with 
+carefully designed examples of correct and incorrect translations and an additional preference loss for better regularization.
+Empirical evaluation on four language directions of WMT2022 and FLORES-200 benchmarks shows the superiority of our proposed method over existing methods. 
+Our findings offer a new perspective on fine-tuning LLMs for translation tasks and provide a promising solution for generating high-quality translations.
+Please refer to Github for more details:
+https://github.com/lemon0830/TIM.

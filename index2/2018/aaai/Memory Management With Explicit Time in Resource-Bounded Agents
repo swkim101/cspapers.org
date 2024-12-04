@@ -1,0 +1,4 @@
+
+ 
+ The objective of my research project is the formal treatment of memory issues in Intelligent Software Agents. I extend recent work which proposed a (partial) formalization of SOAR architecture in modal logic, reasoning on a particular type of agents: resource-bounded agents. I introduce explicit treatment of time instants and time intervals by means of Metric Temporal Logic, both in the background logic and in mental operations.
+ 

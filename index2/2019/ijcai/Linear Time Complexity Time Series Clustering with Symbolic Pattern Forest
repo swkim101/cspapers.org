@@ -1,0 +1,12 @@
+With increasing powering of data storage and advances in data generation and
+collection technologies, large volumes of time series data become available and
+the content is changing rapidly. This requires the data mining methods to have
+low time complexity to handle the huge and fast-changing data. This paper
+presents a novel time series clustering algorithm that has linear time
+complexity. The proposed algorithm partitions the data by checking some
+randomly selected symbolic patterns in the time series. Theoretical analysis is
+provided to show that group structures in the data can be revealed from this
+process. We evaluate the proposed algorithm extensively on all 85 datasets from
+the well-known UCR time series archive, and compare with the state-of-the-art approaches
+with statistical analysis. The results show that the proposed method is faster,
+and achieves better accuracy compared with other rival methods.

@@ -1,0 +1,6 @@
+
+ Subgraph counting is a fundamental problem in understanding and analyzing graph structured data, yet computationally challenging. This calls for an accurate and efficient algorithm for Subgraph Cardinality Estimation, which is to estimate the number of all isomorphic embeddings of a query graph in a data graph. We present FaST
+ est
+ , a novel algorithm that combines (1) a powerful filtering technique to significantly reduce the sample space, (2) an adaptive tree sampling algorithm for accurate and efficient estimation, and (3) a worst-case optimal stratified graph sampling algorithm for hard instances. Extensive experiments on real-world datasets show that FaST
+ est
+ outperforms state-of-the-art sampling-based methods by up to two orders of magnitude and GNN-based methods by up to three orders of magnitude in terms of accuracy.

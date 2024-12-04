@@ -1,0 +1,5 @@
+Despite the success of vision Transformers for the image deraining task, they are limited by computation-heavy and slow runtime. In this work, we investigate Transformer decoder is not necessary and has huge computational costs. Therefore, we revisit the standard vision Transformer as well as its successful variants and propose a novel Decoder-Free Transformer-Like (DFTL) architecture for fast and accurate single image deraining. Specifically, we adopt a cheap linear projection to represent visual information with lower
+
+computational costs than previous linear projections. Then we replace standard Transformer decoder block with designed Progressive Patch Merging (PPM), which attains comparable performance and efficiency. DFTL could significantly alleviate the computation and GPU memory requirements through proposed modules. Extensive experiments
+
+demonstrate the superiority of DFTL compared with competitive Transformer architectures, e.g., ViT, DETR, IPT, Uformer, and Restormer. The code is available at https://github.com/XiaoXiao-Woo/derain.

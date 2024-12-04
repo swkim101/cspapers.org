@@ -1,0 +1,4 @@
+
+ 
+ In a seminal paper, McAfee (1992) presented a truthful mechanism for double auctions, attaining asymptotically-optimal gain-from-trade without any prior information on the valuations of the traders. McAfee's mechanism handles single-parametric agents, allowing each seller to sell a single unit and each buyer to buy a single unit. This paper presents a double-auction mechanism that handles multi-parametric agents and allows multiple units per trader, as long as the valuation functions of all traders have decreasing marginal returns. The mechanism is prior-free, ex-post individually-rational, dominant-strategy truthful and strongly-budget-balanced. Its gain-from-trade approaches the optimum when the market size is sufficiently large.
+ 

@@ -1,0 +1,4 @@
+
+ Event streaming is an increasingly critical infrastructure service used in many industries and there is growing demand for cloud-native solutions. Confluent Cloud provides a massive scale event streaming platform built on top of Apache Kafka with tens of thousands of clusters running in 70+ regions across AWS, Google Cloud, and Azure. This paper introduces
+ Kora
+ , the cloud-native platform for Apache Kafka at the core of Confluent Cloud. We describe Kora's design that enables it to meet its cloud-native goals, such as reliability, elasticity, and cost efficiency. We discuss Kora's abstractions which allow users to think in terms of their workload requirements and not the underlying infrastructure, and we discuss how Kora is designed to provide consistent, predictable performance across cloud environments with diverse capabilities.

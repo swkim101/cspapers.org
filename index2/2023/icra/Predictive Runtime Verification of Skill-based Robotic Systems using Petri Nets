@@ -1,0 +1,1 @@
+This work presents a novel approach for the online supervision of robotic systems assembled from multiple complex components with skillset-based architectures, using Petri nets (PN). Predictive runtime verification is performed, which warns the system user about actions that would lead to the violation of safety specifications, using online model-checking tools on the system PNs.

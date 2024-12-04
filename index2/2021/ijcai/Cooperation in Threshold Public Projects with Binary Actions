@@ -1,0 +1,7 @@
+When can cooperation arise from self-interested decisions in public goods games? And how can we help agents to act cooperatively? We examine these classical questions in a pivotal participation game, a variant of public good games, where heterogeneous agents make binary participation decisions on contributing their endowments, and the public project succeeds when it has enough contributions.
+
+
+
+We prove it is NP-complete to decide the existence of a cooperative Nash equilibrium such that the project succeeds. We demonstrate that the decision problem becomes easy if agents are homogeneous enough.
+
+We then propose two algorithms to help cooperation in the game. Our first algorithm adds an external investment to the public project, and our second algorithm uses matching funds. We show the cost to induce a cooperative Nash equilibrium is near-optimal for both algorithms. Finally, the cost of matching funds can always be smaller than the cost of adding an external investment. Intuitively, matching funds provide a greater incentive for cooperation than adding an external investment does.

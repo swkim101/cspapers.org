@@ -1,0 +1,6 @@
+
+ At the heart of efficient program analysis implementations are incremental solutions to fixpoint problems. These solutions can be interpreted as the derivative of the underlying analysis function. Methods that describe how to systematically derive higher-order analyses from program semantics, such as Abstracting Abstract Machines,
+ don’t
+ shed light on how to efficiently
+ implement
+ those analyses. In this paper, we explore complementary techniques to optimize the derivative computation towards deriving efficient implementations. In particular, we use static specializations (by partial evaluation and rewriting) and dynamic specializations (in the form of tracking dependencies during the fixpoint), yielding efficient incremental fixpoints. We present how these optimizations apply to an example analysis of continuation-passing-style λ-calculus, and describe how they pair particularly well with tunable and optimized workset-based fixpoint methods. We demonstrate the efficacy of this approach on a flow analysis for the Standard ML language, yielding an average speed-up of 56x over an existing fixpoint method for higher-order analyses from the literature.

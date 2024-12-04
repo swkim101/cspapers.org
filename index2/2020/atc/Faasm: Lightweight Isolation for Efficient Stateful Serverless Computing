@@ -1,0 +1,22 @@
+Serverless computing is an excellent fit for big data processing because it
+can scale quickly and cheaply to thousands of parallel functions. Existing
+serverless platforms isolate functions in ephemeral, stateless containers,
+preventing them from directly sharing memory. This forces users to duplicate
+and serialise data repeatedly, adding unnecessary performance and resource
+costs. We believe that a new lightweight isolation approach is needed, which
+supports sharing memory directly between functions and reduces resource
+overheads.
+We introduce Faaslets, a new isolation abstraction for
+high-performance serverless computing. Faaslets isolate the memory of
+executed functions using \emph{software-fault isolation} (SFI), as provided by
+WebAssembly, while allowing memory regions to be shared between
+functions in the same address space. Faaslets can thus avoid expensive data
+movement when functions are co-located on the same machine. Our runtime for
+Faaslets, Faasm, isolates other resources, e.g. CPU and network, using standard
+Linux cgroups, and provides a low-level POSIX host interface for
+networking, file system access and dynamic loading. To reduce initialisation
+times, Faasm restores Faaslets from already-initialised snapshots. We compare
+Faasm to a standard container-based platform and show that, when training a
+machine learning model, it achieves a 2× speed-up with 10× less
+memory; for serving machine learning inference, Faasm doubles the throughput
+and reduces tail latency by 90%.

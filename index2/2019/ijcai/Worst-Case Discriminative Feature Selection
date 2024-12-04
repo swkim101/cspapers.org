@@ -1,0 +1,19 @@
+Feature selection plays a critical role in data mining,
+driven by increasing feature dimensionality in target problems. In this paper, we propose a new criterion for
+discriminative feature selection, worst-case discriminative feature selection (WDFS).
+Unlike Fisher Score and other methods based on the discriminative criteria
+considering the overall (or average) separation
+of data, WDFS adopts a new perspective called
+worst-case view which arguably is more
+suitable for classification applications. Specifically, WDFS directly maximizes the ratio of the
+minimum of between-class variance of all class pairs over the maximum of within-class
+variance, and thus it duly considers the separation of all classes. Otherwise, we
+take a greedy strategy by finding one feature at a time, but it is very easy to
+implement. Moreover, we also utilize the correlation between
+features to help reduce the redundancy and extend WDFS to uncorrelated WDFS (UWDFS).
+To evaluate the effectiveness of the proposed algorithm, we conduct
+classification experiments on many real data sets. In the experiment, we respectively
+use the original features and the score vectors of features over all class
+pairs to calculate the correlation coefficients, and analyze the experimental
+results in these two ways. Experimental results demonstrate the effectiveness
+of WDFS and UWDFS.

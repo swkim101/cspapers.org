@@ -1,0 +1,5 @@
+It is known that when interacting with explainable autonomous systems, user characteristics are important in determining the most appropriate explanation, but understanding which user characteristics are most relevant to consider is not simple. This paper explores such characteristics and analyses how they affect the perceived usefulness of four types of explanations based on the robot's mental states. These types are belief, goal, hybrid (goal and belief) and baseline explanations. 
+
+In this study, the explanations were evaluated in the context of a domestic service robot. The user characteristics considered are the perception of the robot's rationality and autonomy, the acceptance of the robot and the user's cognitive tendencies.
+
+We found differences in perceived usefulness between explanation types based on user characteristics, with hybrid explanations being the most useful.

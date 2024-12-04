@@ -1,0 +1,5 @@
+A classical result in optimal search shows that A* with an admissible and consistent heuristic expands every state whose f-value is below the optimal solution cost and no state whose f-value is above the optimal solution cost. For satisficing search algorithms, a similarly clear understanding is currently lacking. We examine the search behavior of greedy best-first search (GBFS) in order to make progress towards such an understanding.
+
+
+
+We introduce the concept of high-water mark benches, which separate the search space into areas that are searched by a GBFS algorithm in sequence. High-water mark benches allow us to exactly determine the set of states that are expanded by at least one GBFS tie-breaking strategy and give us a clearer understanding of search progress.

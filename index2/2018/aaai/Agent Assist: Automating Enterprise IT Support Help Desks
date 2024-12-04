@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we present Agent Assist, a virtual assistant which helps IT support staff to resolve tickets faster. It is essentially a conversation system which provides procedural and often complex answers to queries. This system can ingest knowledge from various sources like application documentation, ticket management systems and knowledge transfer video recordings. It uses an ensemble of techniques like question classification, knowledge graph based disambiguation, information retrieval, etc., to provide quick and relevant solutions to problems from various technical domains and is currently being used in more than 650 projects within IBM.
+ 

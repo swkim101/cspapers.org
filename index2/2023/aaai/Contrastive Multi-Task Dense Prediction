@@ -1,0 +1,15 @@
+This paper targets the problem of multi-task dense prediction
+which aims to achieve simultaneous learning and inference on
+a bunch of multiple dense prediction tasks in a single framework. A core objective in design is how to effectively model
+cross-task interactions to achieve a comprehensive improvement on different tasks based on their inherent complementarity and consistency. Existing works typically design extra
+expensive distillation modules to perform explicit interaction
+computations among different task-specific features in both
+training and inference, bringing difficulty in adaptation for
+different task sets, and reducing efficiency due to clearly increased size of multi-task models. In contrast, we introduce
+feature-wise contrastive consistency into modeling the cross-task interactions for multi-task dense prediction. We propose
+a novel multi-task contrastive regularization method based on
+the consistency to effectively boost the representation learning of the different sub-tasks, which can also be easily generalized to different multi-task dense prediction frameworks,
+and costs no additional computation in the inference. Extensive experiments on two challenging datasets (i.e. NYUD-v2
+and Pascal-Context) clearly demonstrate the superiority of the
+proposed multi-task contrastive learning approach for dense
+predictions, establishing new state-of-the-art performances.

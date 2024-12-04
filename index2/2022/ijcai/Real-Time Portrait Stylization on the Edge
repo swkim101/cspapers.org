@@ -1,0 +1,5 @@
+In this work we demonstrate real-time portrait stylization, specifically, translating self-portrait into cartoon or anime style on mobile devices. 
+
+We propose a latency-driven differentiable architecture search method, maintaining realistic generative quality. 
+
+With our framework, we obtain 10× computation reduction on the generative model and achieve real-time video stylization on off-the-shelf smartphone using mobile GPUs.

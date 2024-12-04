@@ -1,0 +1,4 @@
+
+ 
+ We consider prediction with expert advice when the loss vectors are assumed to lie in a set described by the sum of atomic norm balls. We derive a regret bound for a general version of the online mirror descent (OMD) algorithm that uses a combination of regularizers, each adapted to the constituent atomic norms. The general result recovers standard OMD regret bounds, and yields regret bounds for new structured settings where the loss vectors are (i) noisy versions of vectors from a low-dimensional subspace, (ii) sparse vectors corrupted with noise, and (iii) sparse perturbations of low-rank vectors. For the problem of online learning with structured losses, we also show lower bounds on regret in terms of rank and sparsity of the loss vectors, which implies lower bounds for the above additive loss settings as well.
+ 

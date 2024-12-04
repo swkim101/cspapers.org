@@ -1,0 +1,31 @@
+The last 20 years have seen dramatic improvements in the performance
+
+of algorithms for Boolean satisfiability---so-called SAT solvers---and
+
+today conflict-driven clause learning (CDCL) solvers are routinely
+
+used in a wide range of application areas. One serious short-coming
+
+of CDCL, however, is that the underlying method of reasoning is quite
+
+weak. A tantalizing solution is to instead use stronger
+
+pseudo-Boolean (PB) reasoning, but so far the promise of exponential
+
+gains in performance has failed to materialize---the increased
+
+theoretical strength seems hard to harness algorithmically, and in
+
+many applications CDCL-based methods are still superior. We propose a
+
+modified approach to pseudo-Boolean solving based on division instead
+
+of the saturation rule used in [Chai and Kuehlmann '05] and other PB
+
+solvers. In addition to resulting in a stronger conflict analysis,
+
+this also improves performance by keeping integer coefficient sizes
+
+down, and yields a very competitive solver as shown by the results in
+
+the Pseudo-Boolean Competitions 2015 and 2016.

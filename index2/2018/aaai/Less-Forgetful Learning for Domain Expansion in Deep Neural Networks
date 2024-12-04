@@ -1,0 +1,4 @@
+
+ 
+ Expanding the domain that deep neural network has already learned without accessing old domain data is a challenging task because deep neural networks forget previously learned information when learning new data from a new domain. In this paper, we propose a less-forgetful learning method for the domain expansion scenario. While existing domain adaptation techniques solely focused on adapting to new domains, the proposed technique focuses on working well with both old and new domains without needing to know whether the input is from the old or new domain. First, we present two naive approaches which will be problematic, then we provide a new method using two proposed properties for less-forgetful learning. Finally, we prove the effectiveness of our method through experiments on image classification tasks. All datasets used in the paper, will be released on our website for someone's follow-up study.
+ 

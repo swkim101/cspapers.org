@@ -1,0 +1,9 @@
+We study fair division of indivisible chores among n agents with additive disutility functions. Two well-studied fairness notions for indivisible items are envy-freeness up to one/any item (EF1/EFX) and the standard notion of economic efficiency is Pareto optimality (PO). There is a noticeable gap between the results known for both EF1 and EFX in the goods and chores settings. The case of chores turns out to be much more challenging. We reduce this gap by providing slightly relaxed versions of the known results on goods for the chores setting. Interestingly, our algorithms run in polynomial time, unlike their analogous versions in the goods setting.
+
+
+
+We introduce the concept of k surplus in the chores setting which means that up to k more chores are allocated to the agents and each of them is a copy of an original chore. We present a polynomial-time algorithm which gives EF1 and PO allocations with n-1 surplus.
+
+
+
+We relax the notion of EFX slightly and define tEFX which requires that the envy from agent i to agent j is removed upon the transfer of any chore from the i's bundle to j's bundle. We give a polynomial-time algorithm that in the chores case for 3 agents returns an allocation which is either proportional or tEFX. Note that proportionality is a very strong criterion in the case of indivisible items, and hence both notions we guarantee are desirable.

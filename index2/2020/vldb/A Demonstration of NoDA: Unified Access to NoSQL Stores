@@ -1,0 +1,1 @@
+In this demo paper, we present a system prototype, called NoDA, that unifies access to NoSQL stores, by exposing a single interface to big data developers. This hides the heterogeneity of NoSQL stores, in terms of different query languages, non-standardized access

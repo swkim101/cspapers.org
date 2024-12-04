@@ -1,0 +1,23 @@
+Browser extensions enable rich experience for the users of today's web. Being
+deployed with elevated privileges, extensions are given the power to overrule
+web pages. As a result, web pages often seek to detect the installed extensions,
+sometimes for benign adoption of their behavior but sometimes as part of
+privacy-violating user fingerprinting.
+Researchers have studied a class of attacks that allow detecting extensions by
+probing for Web Accessible Resources (WARs) via URLs that include public
+extension IDs.
+Realizing privacy risks associated with WARs, Firefox has recently moved to
+randomize a browser extension's ID, prompting the Chrome team to plan for
+following the same path.
+However, rather than mitigating the issue, the randomized IDs can in fact
+exacerbate the extension detection problem, enabling attackers to use a
+randomized ID as a reliable fingerprint of a user.
+We study a class of extension revelation attacks, where extensions reveal
+themselves by injecting their code on web pages.
+We demonstrate how a combination of revelation and probing can uniquely identify
+90% out of all extensions injecting content, in spite of a randomization scheme.
+We perform a series of large-scale studies to estimate possible implications of
+both classes of attacks.
+As a countermeasure, we propose a browser-based mechanism that enables control
+over which extensions are loaded on which web pages and present a proof of
+concept implementation which blocks both classes of attacks.

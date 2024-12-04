@@ -1,0 +1,14 @@
+Virtual assistants are poised to revolutionize the digital interface by providing us with a simple, unified, natural-language interface to all our personal accounts and IoT devices.   However, they can become the biggest threat to data privacy and the open internet if a monopoly or duopoly emerges.
+
+This talk describes how virtual assistants can also be an opportunity to give privacy back to consumers. We need an open-source, federated architecture that lets users run a virtual assistant on their devices, or choose from many possible vendors. These virtual assistants can let us control what, and precisely with whom and how, we wish to share easily in natural language. We demonstrate the feasibility of such an approach with an open-source virtual assistant prototype called Almond.
+
+                    
+          Monica Lam, Stanford University
+            
+  
+  
+    Dr. Monica Lam has been a Professor of Computer Science at Stanford University since 1988, and is the Faculty Director of the Stanford MobiSocial Computing Laboratory. Starting from 2008, as a co-PI of the NSF Programmable Open Mobile Internet (POMI) 2020 Expedition, she has focused on creating open software to protect user privacy and disrupt monopolies.  She is currently leading Almond, an open programmable virtual assistant project, which protects privacy through user-friendly decentralized systems.
+
+Dr. Lam has made significant contributions to the fields of compilers and architectures for high-performance computing, and open communication platforms for mobile computing.  Her research results have been widely used in academia as well as in industry, including two startups she helped found: Tensilica, a configurable processor core company and Omlet, an open mobile-gaming social network company. 
+
+Prof. Lam is an ACM Fellow, has won ACM-SIGARCH, ACM-PLDI, ACM-SIGSOFT Most Influential and Best Paper Awards, and has published over 150 papers on compilers, computer architecture, operating systems, high-performance computing, databases, security, and human-computer interaction.  She is an author of the Compilers: Principles, Techniques, & Tools, also known as the "Dragon Book", the definitive text on compiler technology.  She received a B.Sc. from University of British Columbia (1980) and a Ph.D. from Carnegie Mellon University (1987).

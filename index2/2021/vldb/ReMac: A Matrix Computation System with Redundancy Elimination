@@ -1,0 +1,8 @@
+
+ Distributed matrix computation solutions support query interfaces of linear algebra expressions, which often contain redundancy, i.e., common and loop-constant subexpressions. However, existing solutions fail to find all redundant subexpressions. Moreover, eliminating the found redundancy leads to new execution order of operators, which may have side effect. To exploit the benefits of redundancy elimination, we propose a new system called
+ ReMac
+ , which performs
+ automatic
+ and
+ adaptive elimination.
+ In particular, automatic elimination adopts a block-wise search that exploits the properties of matrix computation for speed-up. Adaptive elimination employs a cost model and a dynamic programming-based method to generate efficient plans with redundancy elimination. In this demonstration, attendees will have an opportunity to experience the effect that automatic and adaptive elimination have on distributed matrix computation.

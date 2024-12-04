@@ -1,0 +1,7 @@
+Enhancing the generalization performance of neural networks given limited data availability remains a formidable challenge, due to the model selection trade-off between training error and generalization gap.
+To handle this challenge, we present a posterior optimization issue, specifically designed to reduce the generalization error of trained neural networks.
+To operationalize this concept, we propose a Doubly-Robust Boosting machine (DRBoost) which consists of a statistical learner and a zero-order optimizer.
+The statistical learner reduces the model capacity and thus the generalization gap; the zero-order optimizer minimizes the training error in a gradient-free manner. The two components cooperate to reduce the generalization error of a fully trained neural network in a doubly robust manner.
+Furthermore, the statistical learner alleviates the multicollinearity in the discriminative layer and enhances the generalization performance.
+The zero-order optimizer eliminates the reliance on gradient calculation and offers more flexibility in learning objective selection.
+Experiments demonstrate that DRBoost improves the generalization performance of various prevalent neural network backbones effectively.

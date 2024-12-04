@@ -1,0 +1,5 @@
+In a recent breakthrough, Charalampopoulos, Gawrychowski, Mozes, and Weimann (STOC 2019) showed that exact distance queries on planar graphs could be answered in $n^{o(1)}$ time by a data structure occupying $n^{1+o(1)}$ space, i.e., up to $o(1)$ terms, optimal exponents in time (0) and space (1) can be achieved simultaneously. Their distance query algorithm is recursive: it makes successive calls to a point-location algorithm for planar Voronoi diagrams, which involves many recursive distance queries. The depth of this recursion is non-constant and the branching factor logarithmic, leading to $(\log n)^{\omega(1)} = n^{o(1)}$ query times. 
+In this paper we present a new way to do point-location in planar Voronoi diagrams, which leads to a new exact distance oracle. At the two extremes of our space-time tradeoff curve we can achieve either 
+$n^{1+o(1)}$ space and $\log^{2+o(1)}n$ query time, or 
+$n\log^{2+o(1)}n$ space and $n^{o(1)}$ query time. 
+All previous oracles with $\tilde{O}(1)$ query time occupy space $n^{1+\Omega(1)}$, and all previous oracles with space $\tilde{O}(n)$ answer queries in $n^{\Omega(1)}$ time.

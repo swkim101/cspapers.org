@@ -1,0 +1,4 @@
+
+ 
+ Autoencoders (AE) are essential in learning representation of large data (like images) for dimensionality reduction. Images are converted to sparse domain using transforms like Fast Fourier Transform (FFT) or Discrete Cosine Transform (DCT) where information that requires encoding is minimal. By optimally selecting the feature-rich frequencies, we are able to learn the latent vectors more robustly. We successfully show enhanced performance of autoencoders in sparse domain for images.
+ 

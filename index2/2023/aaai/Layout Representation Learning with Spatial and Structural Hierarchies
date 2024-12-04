@@ -1,0 +1,10 @@
+We present a novel hierarchical modeling method for layout representation learning, the core of design documents (e.g., user interface, poster, template).
+Existing works on layout representation often ignore element hierarchies, which is an important facet of layouts, and mainly rely on the spatial bounding boxes for feature extraction.
+This paper proposes a Spatial-Structural Hierarchical Auto-Encoder (SSH-AE) that learns hierarchical representation by treating a hierarchically annotated layout as a tree format.
+On the one side, we model SSH-AE from both spatial (semantic views) and structural (organization and relationships) perspectives, which are two complementary aspects to represent a layout.
+On the other side, the semantic/geometric properties are associated at multiple resolutions/granularities, naturally handling complex layouts.
+Our learned representations are used for effective layout search from both spatial and structural similarity perspectives.
+We also newly involve the tree-edit distance (TED) as an evaluation metric to construct a comprehensive evaluation protocol for layout similarity assessment, which benefits a systematic and customized layout search.
+We further present a new dataset of POSTER layouts which we believe will be useful for future layout research.
+We show that our proposed SSH-AE outperforms the existing methods achieving state-of-the-art performance on two benchmark datasets.
+Code is available at github.com/yueb17/SSH-AE.

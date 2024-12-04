@@ -1,0 +1,17 @@
+We consider the problem of planning with arithmetic
+
+ theories, and focus on generating optimal 
+
+ plans for numeric domains with constant and state-dependent action costs. 
+
+ Solving these problems efficiently requires a seamless integration between
+
+ propositional and numeric reasoning. We propose a novel approach that leverages Optimization 
+
+ Modulo Theories (OMT) solvers to implement a domain-independent optimal 
+
+ theory-planner. We present a new encoding
+
+ for optimal planning in this setting and 
+
+ we evaluate our approach using well-known, as well as new, numeric benchmarks.

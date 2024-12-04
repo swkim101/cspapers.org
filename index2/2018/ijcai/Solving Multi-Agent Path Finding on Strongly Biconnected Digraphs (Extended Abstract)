@@ -1,0 +1,13 @@
+We present and evaluate diBOX, an algorithm for
+
+multi-agent path finding on strongly biconnected
+
+directed graphs. diBOX runs in polynomial time,
+
+computes suboptimal solutions and is complete for
+
+instances on strongly biconnected digraphs with at
+
+least two unoccupied positions. A detailed empirical
+
+analysis shows a good scalability for diBOX.

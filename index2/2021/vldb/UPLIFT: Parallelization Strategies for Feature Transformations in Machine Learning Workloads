@@ -1,0 +1,10 @@
+
+ Data science pipelines are typically exploratory. An integral task of such pipelines are feature transformations, which transform raw data into numerical matrices or tensors for training or scoring. There exist a wide variety of transformations for different data modalities. These feature transformations incur large computational overhead due to expensive string processing and dictionary creation. Existing ML systems address this overhead by static parallelization schemes and interleaving transformations with model training. These approaches show good performance improvements for simple transformations, but struggle to handle different data characteristics (many features/distinct items) and multi-pass transformations. A key observation is that good parallelization strategies for feature transformations depend on data characteristics. In this paper, we introduce UPLIFT, a framework for
+ P
+ aralle
+ LI
+ zing
+ F
+ eature
+ T
+ ransformations. UPLIFT constructs a fine-grained task graph for a set of transformations, optimizes the plan according to data characteristics, and executes this plan in a cache-conscious manner. We show that the resulting framework is applicable to a wide range of transformations. Furthermore, we propose the FTBench benchmark with transformations and datasets from various domains. On this benchmark, UPLIFT yields speedups of up to 31.6x (9.27x on average) compared to state-of-the-art ML systems.

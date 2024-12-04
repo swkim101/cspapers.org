@@ -1,0 +1,10 @@
+
+ Distributed ledgers provide high
+ availability
+ and
+ integrity
+ , making them a key enabler for practical and secure computation of distributed workloads among mutually distrustful parties. Many practical applications also require strong
+ confidentiality
+ , however. This work enhances permissioned and permissionless blockchains with the ability to manage confidential data without forfeiting availability or decentralization. The proposed Calypso architecture addresses two orthogonal challenges confronting modern distributed ledgers: (a) enabling the auditable management of secrets and (b) protecting distributed computations against arbitrage attacks when their results depend on the ordering and secrecy of inputs.
+ 
+ Calypso introduces on-chain secrets, a novel abstraction that enforces atomic deposition of an auditable trace whenever users access confidential data. Calypso provides user-controlled consent management that ensures revocation atomicity and accountable anonymity. To enable permissionless deployment, we introduce an incentive scheme and provide users with the option to select their preferred trustees. We evaluated our Calypso prototype with a confidential document-sharing application and a decentralized lottery. Our benchmarks show that transaction-processing latency increases linearly in terms of security (number of trustees) and is in the range of 0.2 to 8 seconds for 16 to 128 trustees.

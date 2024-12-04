@@ -1,0 +1,10 @@
+In this work, we consider distance-based clustering of partial lexicographic
+preference trees (PLP-trees), intuitive and compact graphical representations 
+of user preferences over multi-valued attributes. To compute distances between 
+PLP-trees, we propose a polynomial time algorithm that computes Kendall's 
+Tau distance directly from the trees and show its efficacy compared to the 
+brute-force algorithm. To this end, we implement several clustering methods 
+(i.e., spectral clustering, affinity propagation, and agglomerative nesting) 
+augmented by our distance algorithm, experiment with clustering of up to 10,000 
+PLP-trees, and show the effectiveness of the clustering methods and visualizations 
+of their results.

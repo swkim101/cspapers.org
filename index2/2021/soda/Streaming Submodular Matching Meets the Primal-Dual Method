@@ -1,0 +1,6 @@
+We study streaming submodular maximization subject to matching/$b$-matching constraints (MSM/MSbM), and present improved upper and lower bounds for these problems. On the upper bounds front, we give primal-dual algorithms achieving the following approximation ratios. 
+$\bullet$ $3+2\sqrt{2}\approx 5.828$ for monotone MSM, improving the previous best ratio of $7.75$. 
+$\bullet$ $4+3\sqrt{2}\approx 7.464$ for non-monotone MSM, improving the previous best ratio of $9.899$. 
+$\bullet$ $3+\epsilon$ for maximum weight b-matching, improving the previous best ratio of $4+\epsilon$. 
+On the lower bounds front, we improve on the previous best lower bound of $\frac{e}{e-1}\approx 1.582$ for MSM, and show ETH-based lower bounds of $\approx 1.914$ for polytime monotone MSM streaming algorithms. 
+Our most substantial contributions are our algorithmic techniques. We show that the (randomized) primal-dual method, which originated in the study of maximum weight matching (MWM), is also useful in the context of MSM. To our knowledge, this is the first use of primal-dual based analysis for streaming submodular optimization. We also show how to reinterpret previous algorithms for MSM in our framework; hence, we hope our work is a step towards unifying old and new techniques for streaming submodular maximization, and that it paves the way for further new results.

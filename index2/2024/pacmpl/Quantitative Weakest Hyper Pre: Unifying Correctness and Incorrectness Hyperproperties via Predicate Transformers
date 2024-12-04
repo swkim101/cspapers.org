@@ -1,0 +1,17 @@
+We present a novel weakest pre calculus for reasoning about quantitative hyperproperties over nondeterministic and probabilistic programs. Whereas existing calculi allow reasoning about the expected value that a quantity assumes after program termination from a single initial state, we do so for initial sets of states or initial probability distributions.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We thus (i) obtain a weakest pre calculus for hyper Hoare logic and (ii) enable reasoning about so-called hyperquantities which include expected values but also quantities (e.g. variance) out of scope of previous work. As a byproduct, we obtain a novel strongest post for weighted programs that extends both existing strongest and strongest liberal post calculi. Our framework reveals novel dualities between forward and backward transformers, correctness and incorrectness, as well as nontermination and unreachability.

@@ -1,0 +1,14 @@
+Nowadays, systems based on machine learning (ML) are widely used in different domains.
+Given their popularity, ML models have become targets for various attacks.
+As a result, research at the intersection of security/privacy and ML has flourished. Typically such work has focused on individual types of security/privacy concerns and mitigations thereof.
+
+However, in real-life deployments, an ML model will need to be protected against several concerns simultaneously.
+A protection mechanism optimal for a specific security or privacy concern may interact negatively with mechanisms intended to address other concerns. Despite its practical relevance, the potential for such conflicts has not been studied adequately.
+
+In this work, we first provide a framework for analyzing such conflicting interactions.
+We then focus on systematically analyzing pairwise interactions between protection mechanisms for one concern, model and data ownership verification, with two other classes of ML protection mechanisms: differentially private training, and robustness against model evasion.
+We find that several pairwise interactions result in conflicts.
+
+We also explore potential approaches for avoiding such conflicts. First, we study the effect of hyperparameter relaxations, finding that there is no sweet spot balancing the performance of both protection mechanisms.
+Second, we explore whether modifying one type of protection mechanism (ownership verification) so as to decouple it from factors that may be impacted by a conflicting mechanism (differentially private training or robustness to model evasion) can avoid conflict.
+We show that this approach can indeed avoid the conflict between ownership verification mechanisms when combined with differentially private training, but has no effect on robustness to model evasion. We conclude by identifying the gaps in the landscape of studying interactions between other types of ML protection mechanisms.

@@ -1,0 +1,13 @@
+Recent work on deep clustering has found new promising methods also for constrained clustering problems.
+
+Their typically pairwise constraints often can be used to guide the partitioning of the data.
+
+Many problems however, feature cluster-level constraints, e.g. the Capacitated Clustering Problem (CCP), where each point has a weight and the total weight sum of all points in each cluster is bounded by a prescribed capacity.
+
+In this paper we propose a new method for the CCP, Neural Capacited Clustering, that learns a neural network to predict the assignment probabilities of points to cluster centers from a data set of optimal or near optimal past solutions of other problem instances.
+
+During inference, the resulting scores are then used in an iterative k-means like procedure to refine the assignment under capacity constraints.
+
+In our experiments on artificial data and two real world datasets our approach outperforms several state-of-the-art mathematical and heuristic solvers from the literature.
+
+Moreover, we apply our method in the context of a cluster-first-route-second approach to the Capacitated Vehicle Routing Problem (CVRP) and show competitive results on the well-known Uchoa benchmark.

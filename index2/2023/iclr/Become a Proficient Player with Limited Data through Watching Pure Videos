@@ -1,0 +1,1 @@
+rules in a single model, and then fine-tune each game with the same pre-trained model (EZ-L). Experiments show that EZ-L achieves superior performance compared to EZ scratch on most games

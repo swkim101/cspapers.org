@@ -1,0 +1,11 @@
+
+ Synthesizing data using declarative formalisms has been persuasively advocated in contemporary data generation frameworks. In particular, they specify operator output volumes through row-cardinality constraints. However, thus far, adherence to these volumetric constraints has been limited to the Filter and Join operators. A critical deficiency is the lack of support for the Projection operator, which is at the core of basic SQL constructs such as Distinct, Union and Group By. The technical challenge here is that cardinality
+ unions
+ in multi-dimensional space, and not mere summations, need to be captured in the generation process. Further, dependencies
+ across
+ different data subspaces need to be taken into account.
+ 
+ 
+ We address the above lacuna by presenting
+ PiGen
+ , a dynamic data generator that incorporates Projection cardinality constraints in its ambit. The design is based on a projection subspace division strategy that supports the expression of constraints using optimized linear programming formulations. Further, techniques of symmetric refinement and workload decomposition are introduced to handle constraints across different projection subspaces. Finally, PiGen supports dynamic generation, where data is generated on-demand during query processing, making it amenable to Big Data environments. A detailed evaluation on workloads derived from real-world and synthetic benchmarks demonstrates that PiGen can accurately and efficiently model Projection outcomes, representing an essential step forward in customized database generation.

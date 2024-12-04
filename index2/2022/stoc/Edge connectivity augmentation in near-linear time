@@ -1,0 +1,1 @@
+We give an Õ(m)-time algorithm for the edge connectivity augmentation problem and the closely related edge splitting-off problem. This is optimal up to lower order terms and closes the long line of work on these problems.

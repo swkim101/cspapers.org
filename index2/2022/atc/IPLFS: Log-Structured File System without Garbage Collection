@@ -1,0 +1,19 @@
+In this work, we develop the log-structured filesystem that is free from
+garbage collection. There are two key technical ingredients:  \emph{IPLFS},
+a log-structured filesystem for infinite partition, and
+\emph{Interval Mapping}, a space-efficient LBA-to-PBA mapping for infinite filesystem partition. In
+IPLFS, we separate the filesystem partition size from the physical storage size and set the size of the logical partition large enough so that
+there is no lack of free segments in the logical partition
+during SSD’s lifespan. This allows the
+filesystem to write the updates in append-only fashion without reclaiming the
+invalid filesystem blocks. We revise the metadata structure
+of the baseline filesystem, F2FS, so that it can efficiently handle the storage partition with 2^{64} sectors.
+We develop Interval Mapping to minimize the memory requirement for the LBA-to-PBA translation in FTL. Interval Mapping is a three level mapping tree. It
+maintains mapping only
+for actively used filesystem region. With Interval Mapping, the FTL can maintain
+the mapping for the 2^{64} sector range with almost identical
+memory requirement with the page mapping whose LBA range is limited by
+the size of the storage capacity.
+We implement the IPLFS on Linux kernel 5.11.0 and prototype the Interval Mapping in
+OpenSSD.
+By eliminating the filesystem level garbage collection, IPLFS outperforms F2FS by up to 12.8 times (FIO) and 3.73 times (MySQL YCSB A), respectively.

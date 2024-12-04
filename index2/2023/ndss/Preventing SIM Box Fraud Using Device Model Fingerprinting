@@ -1,0 +1,7 @@
+SIM boxes have been playing a critical role in the underground ecosystem of international-scale frauds that steal billions of dollars from individual victims and mobile network operators across the globe.
+Many mitigation schemes have been proposed for these frauds, mainly aiming to detect fraud call sessions; however, one direct approach to this problem---the prevention of the SIM box devices from network use---has not drawn much attention despite its highly anticipated benefit.
+This is exactly what we aim to achieve in this paper.
+We propose a simple access control logic that detects when unauthorized SIM boxes use cellular networks for communication.
+At the heart of our defense proposal is the precise fingerprinting of device models (eg, distinguishing an iPhone 13 from any other smartphone models on the market) and device types (ie, smartphones and IoT devices) without relying on international mobile equipment identity, which can be spoofed easily.
+We empirically show that fingerprints, which were constructed from network-layer auxiliary information with more than 31K features, are mostly distinct among 85 smartphones and thus can be used to prevent the vast majority of illegal SIM boxes from making unauthorized voice calls.
+Our proposal, as the very first practical, reliable unauthorized cellular device model detection scheme, greatly simplifies the mitigation against SIM box frauds.

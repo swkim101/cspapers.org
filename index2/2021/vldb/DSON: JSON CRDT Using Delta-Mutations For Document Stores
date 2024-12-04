@@ -1,0 +1,22 @@
+
+ We propose DSON, a space efficient δ-based CRDT approach for distributed JSON document stores, enabling high availability at a global scale, while providing
+ strong
+ eventual consistency guarantees. We define the semantics of our CRDT based approach formally, and prove its correctness and convergence. Previous approaches optimize for collaborative document editing and store metadata proportional to the number of updates to a document, which is not acceptable for long lived document management. The metadata stored with our approach is bounded by
+ O
+ (
+ k
+ 2
+ D
+ +
+ n
+ log
+ n
+ ), where
+ n
+ is the number of replicas,
+ D
+ is the number of document elements, and
+ k
+ ≤
+ n
+ is the number of concurrent document updates. We also implement our approach[37] and demonstrate its space efficiency empirically. Experimental analysis shows that the metadata stored is typically significantly less than the worst case. This provides the basis for robust highly available distributed document stores with well defined semantics and safety guarantees, relieving application developers from the burden of conflict resolution.

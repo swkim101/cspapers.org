@@ -1,0 +1,4 @@
+
+ 
+ This paper defines a learning algorithm for plan grammars used for plan recognition. The algorithm learns Combinatory Categorial Grammars (CCGs) that capture the structure of plans from a set of successful plan execution traces paired with the goal of the actions. This work is motivated by past work on CCG learning algorithms for natural language processing, and is evaluated on five well know planning domains.
+ 

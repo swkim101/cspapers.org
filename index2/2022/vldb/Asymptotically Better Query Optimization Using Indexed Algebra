@@ -1,0 +1,9 @@
+Query optimization is essential for the efficient execution of queries. The necessary analysis, if we can and should apply optimizations and transform the query plan, is already challenging. Traditional techniques focus on the availability of columns at individual operators, which does not scale for analysis of data flow through the query. Tracking available columns per operator takes quadratic space, which can result in multi-second optimization time for deep algebra trees. Instead, we need to re-think the naïve algebra representation to efficiently support data flow analysis.
+ 
+ In this paper, we introduce
+ Indexed Algebra
+ , a novel representation of relational algebra that makes common optimization tasks efficient. Indexed Algebra enables efficient reasoning with an auxiliary index structure based on link/cut trees that support dynamic updates and queries in
+ O
+ (log
+ n
+ ). This approach not only improves the asymptotic complexity, but also allows elegant and concise formulations for the data flow questions needed for query optimization. While large queries see theoretically unbounded improvements, Indexed Algebra also improves optimization time of the relatively harmless queries of TPC-H and TPC-DS by more than 1.8×.

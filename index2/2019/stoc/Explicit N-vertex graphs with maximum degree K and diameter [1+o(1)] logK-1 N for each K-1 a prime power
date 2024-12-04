@@ -1,0 +1,1 @@
+Here we first present the solution of a long-standing open question–the explicit construction of an infinite family of N-vertex cubic graphs that have diameter [1+o(1)]log2 N. We then extend the techniques to construct, for each K of the form 2s+1 or K=ps+1; s an integer and p a prime, an infinite family of K-regular graphs on N vertices with diameter [1+o(1)]logK−1 N.

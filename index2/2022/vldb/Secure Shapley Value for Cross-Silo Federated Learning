@@ -1,0 +1,8 @@
+
+ The Shapley value (SV) is a fair and principled metric for contribution evaluation in cross-silo federated learning (cross-silo FL), wherein organizations, i.e., clients, collaboratively train prediction models with the coordination of a parameter server. However, existing SV calculation methods for FL assume that the server can access the raw FL models and public test data. This may not be a valid assumption in practice considering the emerging privacy attacks on FL models and the fact that test data might be clients' private assets. Hence, we investigate the problem of
+ secure SV calculation
+ for cross-silo FL. We first propose
+ HESV
+ , a one-server solution based solely on homomorphic encryption (HE) for privacy protection, which has limitations in efficiency. To overcome these limitations, we propose
+ SecSV
+ , an efficient two-server protocol with the following novel features. First, SecSV utilizes a hybrid privacy protection scheme to avoid ciphertext-ciphertext multiplications between test data and models, which are extremely expensive under HE. Second, an efficient secure matrix multiplication method is proposed for SecSV. Third, SecSV strategically identifies and skips some test samples without significantly affecting the evaluation accuracy. Our experiments demonstrate that SecSV is 7.2--36.6× as fast as HESV, with a limited loss in the accuracy of calculated SVs.

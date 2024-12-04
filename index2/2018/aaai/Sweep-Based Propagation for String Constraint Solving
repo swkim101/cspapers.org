@@ -1,0 +1,4 @@
+
+ 
+ Solving constraints over strings is an emerging important field. Recently, a Constraint Programming approach based on dashed strings has been proposed to enable a compact domain representation for potentially large bounded-length string variables. In this paper, we present a more efficient algorithm for propagating equality (and related constraints) over dashed strings. We call this propagation sweep-based. Experimental evidences show that sweep-based propagation is able to significantly outperform state-of-the-art approaches for string constraint solving.
+ 

@@ -1,0 +1,6 @@
+
+ Manual analysis on plan regression is both labor-intensive and inefficient for a large query plan and numerous queries. In this paper, we demonstrate AutoDI, an automatic detection and inference tool that has been developed to investigate why a sub-optimal plan is obtained by analyzing two different plans of the same query. AutoDI consists of two main modules,
+ Difference Finder
+ and
+ Inference.
+ The former aims to find where the two plans are different, and the latter tries to obtain the reasons why the differences come out. In our demonstration, we use a real plan regression in TiDB to show how AutoDI works.

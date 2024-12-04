@@ -1,0 +1,4 @@
+Several argument-based logics have been defined for handling inconsistency in propositional knowledge bases. We show that they may miss intuitive consequences, and discuss two sources of this drawback: the definition of logical argument 
+i) may prevent formulas from being justified, and 
+ii) may allow irrelevant information in argument's support. 
+We circumvent these two issues by considering a general definition of argument and compiling each argument. A compilation amounts to forgetting in an argument's support any irrelevant variable. This operation returns zero, one or several concise arguments, which we then use in an instance of Dung's abstract framework. We show that the resulting logic satisfies existing rationality postulates, namely consistency and closure under deduction. Furthermore, it is more productive than the existing argument-based and coherence-based logics.

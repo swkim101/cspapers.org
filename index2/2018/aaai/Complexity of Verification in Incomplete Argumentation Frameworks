@@ -1,0 +1,4 @@
+
+ 
+ Abstract argumentation frameworks are a well-established formalism to model nonmonotonic reasoning processes. However, the standard model cannot express incomplete or conflicting knowledge about the state of a given argumentation. Previously, argumentation frameworks were extended to allow uncertainty regarding the set of attacks or the set of arguments. We combine both models into a model of general incompleteness, complement previous results on the complexity of the verification problem in incomplete argumentation frameworks, and provide a full complexity map covering all three models and all classical semantics. Our main result shows that the complexity of verifying the preferred semantics rises from coNP- to Sigma^p_2-completeness when allowing uncertainty about either attacks or arguments, or both.
+ 

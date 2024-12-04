@@ -1,0 +1,9 @@
+
+ Smart databases are adopting artificial intelligence (AI) technologies to achieve
+ instance optimality
+ , and in the future, databases will come with prepackaged AI models within their core components. The reason is that every database runs on different workloads, demands specific resources, and settings to achieve optimal performance. It prompts the necessity to understand workloads running in the system along with their features comprehensively, which we dub as workload characterization.
+ 
+ 
+ To address this workload characterization problem, we propose our query plan encoders that learn essential features and their correlations from query plans. Our pretrained encoders captures the structural and the
+ computational performance
+ of queries independently. We show that our pretrained encoders are adaptable to workloads that expedites the transfer learning process. We performed independent assessments of structural encoder and performance encoders with multiple downstream tasks. For the overall evaluation of our query plan encoders, we architect two downstream tasks (i) query latency prediction and (ii) query classification. These tasks show the importance of feature-based workload characterization. We also performed extensive experiments on individual encoders to verify the effectiveness of representation learning, and domain adaptability.

@@ -1,0 +1,11 @@
+In this paper, I pose a major challenge for AI researchers: to develop
+systems that learn in a human-like manner. I briefly review the
+history of machine learning, noting that early work made close contact
+with results from cognitive psychology but that this is no longer the
+case. I identify seven characteristics of human behavior that, if
+reproduced, would offer better ways to acquire expertise than
+statistical induction over massive training sets. I illustrate these
+points with two domains - mathematics and driving - where people
+are effective learners and review systems that address them. In
+closing, I suggest ways to encourage more research on human-like
+learning.

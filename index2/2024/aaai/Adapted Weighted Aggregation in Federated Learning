@@ -1,0 +1,2 @@
+This study introduces FedAW, a novel federated learning algorithm that uses a weighted aggregation mechanism sensitive to the quality of client datasets, leading to better model
+performance and faster convergence on diverse datasets, validated using Colored MNIST.

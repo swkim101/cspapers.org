@@ -1,0 +1,15 @@
+We present a novel semidefinite programming (SDP) relaxation that
+enables tight and efficient verification of neural networks. The
+tightness is achieved by combining SDP relaxations with valid linear
+cuts, constructed by using the reformulation-linearisation technique
+(RLT). The computational efficiency results from a layerwise SDP
+formulation and an iterative algorithm for incrementally adding
+RLT-generated linear cuts to the verification formulation. The layer
+RLT-SDP relaxation here presented is shown to produce the tightest SDP
+relaxation for ReLU neural networks available in the literature. We
+report experimental results based on MNIST neural networks showing
+that the method outperforms the state-of-the-art methods while
+maintaining acceptable computational overheads. For networks of
+approximately 10k nodes (1k, respectively), the proposed method
+achieved an improvement in the ratio of certified robustness cases
+from 0% to 82% (from 35% to 70%, respectively).

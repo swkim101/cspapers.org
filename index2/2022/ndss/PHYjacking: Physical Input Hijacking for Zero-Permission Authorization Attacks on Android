@@ -1,0 +1,10 @@
+Nowadays, most mobile devices are equipped with various hardware interfaces such as touchscreen, fingerprint scanner, camera and microphone to capture inputs from the user.
+Many mobile apps use these physical interfaces to receive user-input for authentication/authorization operations including one-click login, fingerprint-based payment approval, and face/voice unlocking.
+In this paper, we investigate the so-called PHYjacking attack where a victim is misled by a zero-permission malicious app to feed physical inputs to different hardware interfaces on a mobile device to result in unintended authorization.
+We analyze the protection mechanisms in Android for different types of physical input interfaces and introduce new techniques to bypass them.
+Specifically, we identify weaknesses in the existing protection schemes for the related system APIs and observe common pitfalls when apps implement physical-input-based authorization.
+Worse still, we discover a race-condition bug in Android that can be exploited even when app-based mitigations are properly implemented.
+Based on these findings, we introduce fingerprint-jacking and facejacking techniques and demonstrate their impact on real apps.
+We also discuss the feasibility of launching similar attacks against NFC and microphone inputs, as well as effective tapjacking attacks against Single Sign-On apps.
+We have designed a static analyzer to examine 3000+ real-world apps and find 44% of them contain PHYjacking-related implementation flaws.
+We demonstrate the practicality and potential impact of PHYjacking via proof-of-concept implementations which enable unauthorized money transfer on a payment app with over 800 million users, user-privacy leak from a social media app with over 400 million users and escalating app permissions in Android 11.

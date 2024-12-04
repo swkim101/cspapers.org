@@ -1,0 +1,9 @@
+Knowledge distillation aims at transferring knowledge from the teacher model to the student one by aligning their distributions. 
+Feature-level distillation often uses L2 distance or its variants as the loss function, based on the assumption that outputs follow normal distributions. 
+This poses a significant challenge when distribution gaps are substantial since this loss function ignores the variance term. 
+To address the problem, we propose to decompose the transfer objective into small parts and optimize it progressively. 
+This process is inspired by diffusion models from which the noise distribution is mapped to the target distribution step by step.
+However, directly employing diffusion models is impractical in the distillation scenario due to its heavy reverse process.
+To overcome this challenge, we adopt the structural re-parameterization technique to generate multiple student features to approximate the teacher features sequentially. 
+The multiple student features are combined linearly in inference time without extra cost.
+We present extensive experiments performed on various transfer scenarios, such as CNN-to-CNN and Transformer-to-CNN, that validate the effectiveness of our approach.

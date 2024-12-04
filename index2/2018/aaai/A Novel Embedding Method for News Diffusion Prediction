@@ -1,0 +1,4 @@
+
+ 
+ News diffusion prediction aims to predict a sequence of news sites which will quote a particular piece of news. Most of previous propagation models make efforts to estimate propagation probabilities along observed links and ignore the characteristics of news diffusion processes, and they fail to capture the implicit relationships between news sites. In this paper, we propose an algorithm to model the news diffusion processes in a continuous space and take the attributes of news into account. Experiments performed on a real-world news dataset show that our model can take advantage of news’ attributes and predict news diffusion accurately.
+ 

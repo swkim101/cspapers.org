@@ -1,0 +1,18 @@
+
+ The past decade has witnessed the rapid development of cloud computing and data-centric applications. While these innovations offer numerous attractive features for data processing, they also bring in new issues about the loss of data ownership. Though some encrypted databases have emerged recently, they can not fully address these concerns for the data owner. In this paper, we propose an
+ ownership-preserving database
+ (OPDB), a new paradigm that characterizes different roles' responsibilities from nowadays applications and preserves data ownership throughout the entire application. We build
+ Operon
+ to follow the OPDB paradigm, which utilizes the trusted execution environment (TEE) and introduces a behavior control list (BCL). Different from access controls that merely handle accessibility permissions, BCL further makes data operation behaviors under control. Besides, we make
+ Operon
+ practical for real-world applications, by extending database capabilities towards flexibility, functionality and ease of use.
+ Operon
+ is the first database framework with which the data owner exclusively controls its data across different roles' subsystems. We have successfully integrated
+ Operon
+ with different TEEs,
+ i.e.
+ , Intel SGX and an FPGA-based implementation, and various database services on Alibaba Cloud,
+ i.e.
+ , PolarDB and RDS PostgreSQL. The evaluation shows that
+ Operon
+ achieves 71% - 97% of the performance of plaintext databases under the TPC-C benchmark while preserving the data ownership.

@@ -1,0 +1,24 @@
+
+ Information-theoretic or unconditional security provides the highest level of security --- independent of the computational capability of an adversary. Secret-sharing techniques achieve information-theoretic security by splitting a secret into multiple parts (called
+ shares
+ ) and storing the shares across non-colluding servers. However, secret-sharing-based solutions suffer from high overheads due to multiple communication rounds among servers and/or information leakage due to access-patterns (
+ i.e.
+ , the identity of rows satisfying a query) and volume (
+ i.e.
+ , the number of rows satisfying a query).
+ 
+ 
+ We propose
+ S
+ 2
+ , an information-theoretically secure approach that uses both additive and multiplicative secret-sharing, to efficiently support a large class of selection queries involving conjunctive, disjunctive, and range conditions. Two major contributions of
+ S
+ 2
+ are: (
+ i
+ ) a new search algorithm using additive shares based on fingerprints, which were developed for string-matching over cleartext; and (
+ ii
+ ) two row retrieval algorithms: one is based on multiplicative shares and another is based on additive shares.
+ S
+ 2
+ does not require communication among servers storing shares and does not reveal any information to an adversary based on access-patterns and volume.

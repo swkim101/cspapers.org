@@ -1,0 +1,10 @@
+In the mobile Internet era, mobile payment service becomes the foundation of inclusive finance, which brings convenience and security to people.
+Various marketing strategies are designed to encourage mobile payment activities by allocating incentives such as coupons or commissions to customers or merchants.
+We summary two significant issues.
+First, there is a phenomenon of mutual influence between merchants and customers, i.e., bipartite influence issue, thus making the independent optimization of customers and merchants non-optimal. 
+Second, the redemptions of coupons are partially observed, as we can only observe that the customer redeems the coupon or not at a specific incentive value, but cannot observe that at other incentive value, i.e., data censorship issue.
+In this paper, we propose a novel joint incentive optimization framework to address the above two issues. 
+We propose to use a graph neural network to represent customers and merchants jointly by modeling the underlying bipartite influences.
+We then formulate the response model under the hazard regression setting and model the hazard rate with a piecewise nonlinear function to capture the changes of responses to different incentive values.
+Finally, we propose a linear programming method to allocate approximated optimal incentive values to customers and merchants in real-time. 
+Extensive offline and online experimental results demonstrate the effectiveness of our proposed approach.

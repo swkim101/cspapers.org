@@ -1,0 +1,11 @@
+
+ The
+ w
+ -event framework is the current standard for ensuring differential privacy on continuously monitored data streams. Following the proposition of
+ w
+ -event differential privacy, various mechanisms to implement the framework are proposed. Their comparability in empirical studies is vital for both practitioners to choose a suitable mechanism, and researchers to identify current limitations and propose novel mechanisms. By conducting a literature survey, we observe that the results of existing studies are hardly comparable and partially intrinsically inconsistent.
+ 
+ 
+ To this end, we formalize an empirical study of
+ w
+ -event mechanisms by re-occurring elements found in our survey. We introduce requirements on these elements that ensure the comparability of experimental results. Moreover, we propose a benchmark that meets all requirements and establishes a new way to evaluate existing and newly proposed mechanisms. Conducting a large-scale empirical study, we gain valuable new insights into the strengths and weaknesses of existing mechanisms. An unexpected - yet explainable - result is a baseline supremacy, i.e., using one of the two baseline mechanisms is expected to deliver good or even the best utility. Finally, we provide guidelines for practitioners to select suitable mechanisms and improvement options for researchers.

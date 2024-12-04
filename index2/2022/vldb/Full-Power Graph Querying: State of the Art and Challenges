@@ -1,0 +1,9 @@
+Graph databases are enjoying enormous popularity, through both their RDF and Property Graphs (PG) incarnations, in a variety of applications. To query graphs, query languages provide structured, as well as unstructured primitives. While structured queries allow expressing precise information needs, they are unsuited for exploring unfamiliar datasets, as they require prior knowledge of the schema and structure of the dataset. Prior research on keyword search in graph databases do not suffer from this limitation. However, keyword queries do not allow expressing precise search criteria when users do know some.
+ 
+ This tutorial (1.5 hours) builds a continuum between structured graph querying through languages such as SPARQL and GPML, a recently proposed standard for PG querying, on one hand, and graph keyword search, on the other hand. In this space between querying and information retrieval, we analyze the features of modern query languages that go toward unstructured search, discuss their strength, limitations, and compare their computational complexity. In particular, we focus on (
+ i
+ ) lessons learned from the rich literature of graph keyword search, in particular with respect to result scoring; (
+ ii
+ ) language mechanisms for integrating
+ both
+ complex structured querying and powerful methods to search for connections users do not know in advance. We conclude by discussing the open challenges and future work directions.

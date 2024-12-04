@@ -1,0 +1,12 @@
+
+ Web records are structured data on a Web page that embeds records retrieved from an underlying database according to some templates. Mining data records on the Web enables the integration of data from multiple Web sites for providing value-added services. Most existing works on Web record extraction make two key assumptions: (1) records are retrieved from databases with uniform schemas and (2) records are displayed in a linear structure on a Web page. These assumptions no longer hold on the modern Web. A Web page may present records of diverse entity types with different schemas and organize records hierarchically, in nested structures, to show richer relationships among records. In this paper, we revisit these assumptions and modify them to reflect Web pages on the modern Web. Based on the reformulated assumptions, we introduce the concept of invariant in Web data records and propose
+ Miria
+ (
+ Mi
+ ning
+ r
+ ecord
+ i
+ nvari
+ a
+ nt), a bottom-up, recursive approach to construct the Web records from the invariants. The proposed approach is both effective and efficient, consistently outperforming the state-of-the-art Web record extraction methods on modern Web pages.

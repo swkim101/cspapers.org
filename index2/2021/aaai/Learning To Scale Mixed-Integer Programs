@@ -1,0 +1,13 @@
+Many practical applications require the solution of numerically challenging linear programs (LPs) and mixed integer programs (MIPs).
+Scaling is a widely used preconditioning technique that aims at reducing the error propagation of the involved linear systems,
+thereby improving the numerical behavior of the dual simplex algorithm and, consequently, LP-based branch-and-bound.
+A reliable scaling method often makes the difference whether these problems can be solved correctly or not.
+In this paper, we investigate the use of machine learning to choose at the beginning of the solution process
+between two common scaling methods: Standard scaling and Curtis-Reid scaling.
+The latter often, but not always, leads to a more robust solution process, but may suffer from longer solution times.
+
+Rather than training for overall solution time, we propose to use the attention level of a MIP solution process as a learning label.
+We evaluate the predictive power of a random forest approach and a linear regressor that learns the (square-root of the) difference in attention level.
+It turns out that the resulting classification not only reduces various types of numerical errors by large margins, but it also improves the performance of the dual simplex algorithm.
+
+The learned model has been implemented within the FICO Xpress MIP solver and it is used by default since release 8.9, May 2020, to determine the scaling algorithm Xpress applies before solving an LP or a MIP.

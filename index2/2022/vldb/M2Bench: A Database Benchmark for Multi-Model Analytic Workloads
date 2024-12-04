@@ -1,0 +1,10 @@
+
+ As the world becomes increasingly data-centric, the tasks dealt with by a database management system (DBMS) become more complex and diverse. Compared with traditional workloads that typically require only a single data model, modern-day computational tasks often involve multiple data sources and rely on more than one data model. Unfortunately, however, there is currently no standard benchmark program that can evaluate a DBMS in the various aspects of multi-model databases, especially when the array data model is concerned. In this paper, we propose
+ M2Bench
+ , a new benchmark program capable of evaluating a multi-model DBMS that supports several important data models such as relational, document-oriented, property graph, and array models.
+ M2Bench
+ consists of multi-model workloads that are inspired by real-world problems. Each task of the workload mimics a real-life scenario where at least two different models of data are involved. To demonstrate the efficacy of
+ M2Bench
+ , we evaluated polyglot or multi-model database systems with the
+ M2Bench
+ workloads and unfolded the diverse characteristics of the database systems for each data model.

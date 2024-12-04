@@ -1,0 +1,8 @@
+Bayesian neural networks (BNNs) have drawn extensive interest due to the unique probabilistic representation framework.
+ However, Bayesian neural networks have limited publicized deployments because of the relatively poor model performance in real-world applications.
+ In this paper, we argue that the randomness of sampling in Bayesian neural networks causes errors in the updating of model parameters during training and some sampled models with poor performance in testing.
+ To solve this, we propose to train Bayesian neural networks with Adversarial Distribution as a theoretical solution. 
+ To avoid the difficulty of calculating Adversarial Distribution analytically, we further present the Adversarial Sampling method as an approximation in practice. 
+ We conduct extensive experiments with multiple network structures on different datasets, e.g., CIFAR-10 and CIFAR-100. 
+ Experimental results validate the correctness of the theoretical analysis and the effectiveness of the Adversarial Sampling on improving model performance.
+ Additionally, models trained with Adversarial Sampling still keep their ability to model uncertainties and perform better when predictions are retained according to the uncertainties, which further verifies the generality of the Adversarial Sampling approach.

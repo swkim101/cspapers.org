@@ -1,0 +1,4 @@
+
+ 
+ In this paper, we focus on multiple-choice reading comprehension which aims to answer a question given a passage and multiple candidate options. We present the hierarchical attention flow to adequately leverage candidate options to model the interactions among passages, questions and candidate options. We observe that leveraging candidate options to boost evidence gathering from the passages play a vital role in this task, which is ignored in previous works. In addition, we explicitly model the option correlations with attention mechanism to obtain better option representations, which are further fed into a bilinear layer to obtain the ranking score for each option. On a large-scale multiple-choice reading comprehension dataset (i.e. the RACE dataset), the proposed model outperforms two previous neural network baselines on both RACE-M and RACE-H subsets and yields the state-of-the-art overall results.
+ 

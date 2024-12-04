@@ -1,0 +1,8 @@
+
+ Differential dependencies (DDs) are proposed to specify constraints on the
+ differences
+ between values, where the semantics of
+ difference
+ can be "similar", "dissimilar" and beyond. DDs subsume functional dependencies (FDs), and find valuable applications in tasks such as violation detection, duplicate identification, and quantitative data cleaning, among others. In this paper we present an efficient DD discovery method for finding hidden DDs from data. We encode differences between values in a novel structure called the "diff-set", and present a set of techniques for constructing the diff-set, discovering valid DDs with set cover enumeration of the diff-set, and eliminating non-minimal DDs. Our extensive experimental evaluation verifies that our method outperforms the existing DD discovery method up to orders of magnitude. Furthermore, our method is adapted to discover an important subclass of DDs, known as
+ relaxed
+ FDs (RFDs), and is also up to orders of magnitude faster than the state-of-the-art RFD discovery method.

@@ -1,0 +1,14 @@
+
+ This demo paper presents KGNet, a graph machine learning-enabled RDF engine. KGNet integrates graph machine learning (GML) models with existing RDF engines as query operators to support node classification and link prediction tasks. For easy integration, KGNet extends the SPARQL language with user-defined predicates to support the GML operators. We refer to this extension as SPARQL
+ 
+ ML
+ 
+ query. Our SPARQL
+ 
+ ML
+ 
+ query optimizer is in charge of optimizing the selection of the near-optimal GML models. The development of KGNet poses research opportunities in various areas spanning KG management. In the paper, we demonstrate the ease of integration between the RDF engines and GML models through the SPARQL
+ 
+ ML
+ 
+ inference query language. We present several real use cases of different GML tasks on real KGs. Using KGNet, users do not need to learn a new scripting language or have a deep understanding of GML methods. The audience will experience KGNet with different KGs and GML models, as shown in our demo video and Colab notebook.

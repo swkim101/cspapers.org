@@ -1,0 +1,6 @@
+
+ Language-integrated query (LINQ) frameworks offer a convenient programming abstraction for processing in-memory collections of data, allowing developers to concisely express declarative queries using general-purpose programming languages. Existing LINQ frameworks rely on the well-defined type system of statically-typed languages such as C
+ #
+ or Java to perform query compilation and execution. As a consequence of this design, they do not support dynamic languages such as Python, R, or JavaScript. Such languages are however very popular among data scientists, who would certainly benefit from LINQ frameworks in data analytics applications.
+ 
+ In this work we bridge the gap between dynamic languages and LINQ frameworks. We introduce DynQ, a novel query engine designed for dynamic languages. DynQ is language-agnostic, since it is able to execute SQL queries in a polyglot language runtime. Moreover, DynQ can execute queries combining data from multiple sources, namely in-memory object collections as well as on-file data and external database systems. Our evaluation of DynQ shows performance comparable with equivalent hand-optimized code, and in line with common data-processing libraries and embedded databases, making DynQ an appealing query engine for standalone analytics applications and for data-intensive server-side workloads.

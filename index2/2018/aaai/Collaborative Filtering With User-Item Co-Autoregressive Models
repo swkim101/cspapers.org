@@ -1,0 +1,4 @@
+
+ 
+ Deep neural networks have shown promise in collaborative filtering (CF). However, existing neural approaches are either user-based or item-based, which cannot leverage all the underlying information explicitly. We propose CF-UIcA, a neural co-autoregressive model for CF tasks, which exploits the structural correlation in the domains of both users and items. The co-autoregression allows extra desired properties to be incorporated for different tasks. Furthermore, we develop an efficient stochastic learning algorithm to handle large scale datasets. We evaluate CF-UIcA on two popular benchmarks: MovieLens 1M and Netflix, and achieve state-of-the-art performance in both rating prediction and top-N recommendation tasks, which demonstrates the effectiveness of CF-UIcA.
+ 

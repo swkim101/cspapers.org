@@ -1,0 +1,13 @@
+
+ Recent work has made significant progress in helping users to automate
+ single
+ data preparation steps, such as string-transformations and table-manipulation operators (e.g., Join, GroupBy, Pivot, etc.). We in this work propose to automate
+ multiple
+ such steps end-to-end, by synthesizing complex data-pipelines with both string-transformations and table-manipulation operators.
+ 
+ 
+ We propose a novel
+ by-target
+ paradigm that allows users to easily specify the desired pipeline, which is a significant departure from the traditional
+ by-example
+ paradigm. Using by-target, users would provide input tables (e.g., csv or json files), and point us to a "target table" (e.g., an existing database table or BI dashboard) to demonstrate how the output from the desired pipeline would schematically "look like". While the problem is seemingly under-specified, our unique insight is that implicit table constraints such as FDs and keys can be exploited to significantly constrain the space and make the problem tractable. We develop an AUTO-PIPELINE system that learns to synthesize pipelines using deep reinforcement-learning (DRL) and search. Experiments using a benchmark of 700 real pipelines crawled from GitHub and commercial vendors suggest that AUTO-PIPELINE can successfully synthesize around 70% of complex pipelines with up to 10 steps.

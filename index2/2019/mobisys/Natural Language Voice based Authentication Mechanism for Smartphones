@@ -1,0 +1,1 @@
+We have designed and implement a random text dependent voice based authentication protocol for smartphones. The objective was to provide an efficient and reliable authentication mechanism that ensure prevention against the emerging attacks. In this paper, we have focused on the architecture, protocol, and prevention against replay attack only.

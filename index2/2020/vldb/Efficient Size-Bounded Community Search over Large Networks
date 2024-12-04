@@ -1,0 +1,10 @@
+
+ The problem of community search, which aims to find a cohesive subgraph containing user-given query vertices, has been extensively studied recently. Most of the existing studies mainly focus on the cohesiveness of the returned community, while ignoring the size of the community, and may yield communities of very large sizes. However, many applications naturally require that the number of vertices/members in a community should fall within a certain range. In this paper, we design exact algorithms for the general size-bounded community search problem that aims to find a subgraph with the largest min-degree among all connected subgraphs that contain the query vertex
+ q
+ and have at least
+ l
+ and at most
+ h
+ vertices, where
+ q, l, h
+ are specified by the query. As the problem is NP-hard, we propose a branch-reduce-and-bound algorithm SC-BRB by developing nontrivial reducing techniques, upper bounding techniques, and branching techniques. Experiments on large real graphs show that SC-BRB on average increases the minimum degree of the community returned by the state-of-the-art heuristic algorithm GreedyF by a factor of 2.41 and increases the edge density by a factor of 2.2. In addition, SC-BRB is several orders of magnitude faster than a baseline approach, and all of our proposed techniques contribute to the efficiency of SC-BRB.

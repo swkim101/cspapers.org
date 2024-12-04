@@ -1,0 +1,4 @@
+
+ 
+ In this work we generalize traditional node/link prediction tasks in dynamic heterogeneous networks, to consider joint prediction over larger k-node induced subgraphs. Our key insight is to incorporate the unavoidable dependencies in the training observations of induced subgraphs into both the input features and the model architecture itself via high-order dependencies. The strength of the representation is its invariance to isomorphisms and varying local neighborhood sizes, while still being able to take node/edge labels into account, and facilitating inductive reasoning (i.e., generalization to unseen portions of the network). Empirical results show that our proposed method significantly outperforms other state-of-the-art methods designed for static and/or single node/link prediction tasks. In addition, we show that our method is scalable and learns interpretable parameters.
+ 

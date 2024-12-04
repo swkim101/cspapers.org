@@ -1,0 +1,5 @@
+
+ Epilepsy is a chronic neurological disease, ranked as the second most burdensome neurological disorder worldwide. Detecting Interictal Epileptiform Discharges (IEDs) is among the most important clinician operations to support epilepsy diagnosis, rendering automatic IED detection based on electroencephalography (EEG) signals an important topic. However, most existing solutions were designed and evaluated upon artificially balanced IED datasets, which do not conform to the real-world highly imbalanced scenarios. In this work, we propose the iEDeaL framework for automatic IED detection in challenging real-world use cases. The main components of iEDeaL are the new SC neural network architecture, to efficiently detect IEDs on raw EEG series instead of extracted features, and SaSu, a novel loss function to train SC by optimizing the
+ F
+ β
+ -score. Experiments on two real-world imbalanced IED datasets verify the advantages of iEDeaL in offering more accurate and efficient IED detection when compared with other state-of-the-art deep learning-based and spectrogram feature-based solutions.

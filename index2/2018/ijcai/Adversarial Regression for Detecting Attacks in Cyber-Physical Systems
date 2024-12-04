@@ -1,0 +1,33 @@
+Attacks in cyber-physical systems (CPS) which manipulate sensor
+
+readings can cause enormous physical damage if undetected.
+
+Detection of attacks on sensors 
+
+is crucial to mitigate this issue.
+
+We study supervised regression as a means to detect anomalous sensor
+
+readings, where each sensor's measurement is predicted as a function
+
+of other sensors.
+
+We show that several common learning approaches in this context
+
+are still vulnerable to stealthy attacks, which carefully
+
+modify readings of compromised sensors to cause desired damage while
+
+remaining undetected.
+
+Next, we model the interaction between the CPS defender and attacker
+
+as a Stackelberg game in which the defender chooses detection
+
+thresholds, while the attacker deploys a stealthy attack in response.
+
+We present a heuristic algorithm for finding an approximately optimal threshold for
+
+the defender in this game, and show that it increases system
+
+resilience to attacks without significantly increasing the false alarm rate.

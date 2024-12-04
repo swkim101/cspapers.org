@@ -1,0 +1,6 @@
+
+ 
+ 
+We propose a framework that uses learned human visual attention model to guide the learning process of an imitation learning or reinforcement learning agent. We have collected high-quality human action and eye-tracking data while playing Atari games in a carefully controlled experimental setting. We have shown that incorporating a learned human gaze model into deep imitation learning yields promising results. 
+ 
+ 

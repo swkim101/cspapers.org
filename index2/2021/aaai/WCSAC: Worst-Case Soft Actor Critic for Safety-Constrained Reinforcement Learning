@@ -1,0 +1,7 @@
+Safe exploration is regarded as a key priority area for reinforcement learning research.
+With separate reward and safety signals, it is natural to cast it as constrained reinforcement learning, where expected long-term costs of policies are constrained.
+However, it can be hazardous to set constraints on the expected safety signal without considering the tail of the distribution.
+For instance, in safety-critical domains, worst-case analysis is required to avoid disastrous results.
+We present a novel reinforcement learning algorithm called Worst-Case Soft Actor Critic, which extends the Soft Actor Critic algorithm with a safety critic to achieve risk control.
+More specifically, a certain level of conditional Value-at-Risk from the distribution is regarded as a safety measure to judge the constraint satisfaction, which guides the change of adaptive safety weights to achieve a trade-off between reward and safety.
+As a result, we can optimize policies under the premise that their worst-case performance satisfies the constraints. The empirical analysis shows that our algorithm attains better risk control compared to expectation-based methods.

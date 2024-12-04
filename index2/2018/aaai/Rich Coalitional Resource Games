@@ -1,0 +1,4 @@
+
+ 
+ We propose a simple model of interaction for resource-conscious agents. The resources involved are expressed in fragments of Linear Logic. We investigate a few problems relevant to cooperative games, such as deciding whether a group of agents can form a coalition and act together in a way that satisfies all of them. In terms of solution concepts, we study the computational aspects of the core of a game. The main contributions are a formal link with the existing literature, and complexity results for several classes of models.
+ 

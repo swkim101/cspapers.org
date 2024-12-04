@@ -1,0 +1,33 @@
+Recent work on Conditional Simple Temporal Networks (CSTNs) has
+
+focused on checking the dynamic consistency (DC) property assuming
+
+that execution strategies can react instantaneously to observations.
+
+Three alternative semantics---IR-DC, 0-DC, and π-DC---have been presented. 
+
+The most practical DC-checking algorithm for CSTNs has only been analyzed 
+
+with respect to the IR-DC semantics, while the 0-DC semantics was shown to have a serious flaw
+
+that the π-DC semantics fixed. Whether the IR-DC semantics had
+
+the same flaw and, if so, what the consequences would be for the
+
+DC-checking algorithm remained open questions.
+
+
+
+This paper (1) shows that the IR-DC semantics is also flawed; 
+
+(2) shows that one of the constraint-propagation rules from 
+
+the IR-DC-checking algorithm is not sound with respect to the IR-DC
+
+semantics; 
+
+(3) presents a simpler algorithm, called the π-DC-checking algorithm; 
+
+(4) proves that it is sound and complete with respect to the π-DC semantics; 
+
+and (5) empirically evaluates the new algorithm.

@@ -1,0 +1,13 @@
+The vast advances in Machine Learning (ML) over the last ten years have been powered by the availability of suitably prepared data for training purposes. The future of ML-enabled enterprise hinges on data. As such, there is already a vibrant market offering data annotation services to tailor sophisticated ML models.
+ 
+ In this paper, inspired by the recent vision of online data markets and associated market designs, we present research on the practical problem of obtaining data in order to improve the accuracy of ML models. We consider an environment in which consumers query for data to enhance the accuracy of their models and data providers who possess data make them available for training purposes. We first formalize this interaction process laying out the suitable framework and associated parameters for data exchange. We then propose two data acquisition strategies that consider a trade-off between
+ exploration
+ during which we obtain data to learn about the distribution of a provider's data and
+ exploitation
+ during which we optimize our data inquiries utilizing the gained knowledge. In the first strategy,
+ Estimation and Allocation
+ (EA), we utilize queries to estimate the utilities of various predicates while learning about the distribution of the provider's data; then we proceed to the allocation stage in which we utilize those learned utility estimates to inform our data acquisition decisions. The second algorithmic proposal, named
+ Sequential Predicate Selection
+ (SPS), utilizes a sampling strategy to explore the distribution of the provider's data, adaptively investing more resources to parts of the data space that are statistically more promising to improve overall model accuracy.
+ 
+ We present a detailed experimental evaluation of our proposals utilizing a variety of ML models and associated real data sets exploring all applicable parameters of interest. Our results demonstrate the relative benefits of the proposed algorithms. Depending on the models trained and the associated learning tasks we identify trade-offs and highlight the relative benefits of each algorithm to further optimize model accuracy.

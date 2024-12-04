@@ -1,0 +1,4 @@
+
+ 
+ The ability to use a 2D map to navigate a complex 3D environment is quite remarkable, and even difficult for many humans. Localization and navigation is also an important problem in domains such as robotics, and has recently become a focus of the deep reinforcement learning community. In this paper we teach a reinforcement learning agent to read a map in order to find the shortest way out of a random maze it has never seen before. Our system combines several state-of-the-art methods such as A3C and incorporates novel elements such as a recurrent localization cell. Our agent learns to localize itself based on 3D first person images and an approximate orientation angle. The agent generalizes well to bigger mazes, showing that it learned useful localization and navigation capabilities.
+ 

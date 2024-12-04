@@ -1,0 +1,1 @@
+We introduce Probabilistic Regular Expressions (PRE), a probabilistic analogue of regular expressions denoting probabilistic languages in which every word is assigned a probability of being generated. We present and prove the completeness of an inference system for reasoning about probabilistic language equivalence of PRE based on Salomaa's axiomatisation of Kleene Algebra.

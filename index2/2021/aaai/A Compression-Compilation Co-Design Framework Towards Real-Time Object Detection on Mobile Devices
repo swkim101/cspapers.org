@@ -1,0 +1,4 @@
+The rapid development and wide utilization of object detection techniques have aroused requirements for both accuracy and speed of object detectors. 
+In this work, we propose a compression-compilation co-design framework to achieve real-time YOLOv4 inference on mobile devices. 
+We propose a novel fine-grained structured pruning, which maintain high accuracy while achieving high hardware parallelism. 
+Our pruned YOLOv4 achieves 48.9 mAP and 17 FPS inference speed on an off-the-shelf Samsung Galaxy S20 smartphone, which is 5.5x faster than the original state-of-the-art detector YOLOv4.

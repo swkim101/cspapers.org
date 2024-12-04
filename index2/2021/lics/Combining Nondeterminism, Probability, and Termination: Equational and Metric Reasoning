@@ -1,0 +1,1 @@
+We study monads resulting from the combination of nondeterministic and probabilistic behaviour with the possibility of termination, which is essential in program semantics. Our main contributions are presentation results for the monads, providing equational reasoning tools for establishing equivalences and distances of programs.

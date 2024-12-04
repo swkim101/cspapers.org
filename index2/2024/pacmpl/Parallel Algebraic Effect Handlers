@@ -1,0 +1,30 @@
+
+ Algebraic effect handlers support composable and structured control-flow abstraction. However, existing designs of algebraic effects often require effects to be executed sequentially. This paper studies parallel algebraic effect handlers. In particular, we formalize λ
+ 
+ p
+ 
+ , a lambda calculus which models two key features, effect handlers and parallelizable computations, the latter of which takes the form of a for expression, inspired by the Dex programming language. We present various interesting examples expressible in our calculus. To show that our design can be implemented in a type-safe way, we present a higher-order polymorphic lambda calculus F
+ 
+ p
+ 
+ that extends λ
+ 
+ p
+ 
+ with a lightweight value dependent type system, and prove that F
+ 
+ p
+ 
+ preserves the semantics of λ
+ 
+ p
+ 
+ and enjoys syntactic type soundness. Lastly, we provide an implementation of the language design as a Haskell library, which mirrors both λ
+ 
+ p
+ 
+ and F
+ 
+ p
+ 
+ and reveals new connections to free applicative functors. All examples presented can be encoded in the Haskell implementation. We believe this paper is the first to study the combination of user-defined effect handlers and parallel computations, and it is our hope that it provides a basis for future designs and implementations of parallel algebraic effect handlers.

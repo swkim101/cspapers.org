@@ -1,0 +1,5 @@
+Word embeddings are widely used in copious Natural Language Processing tasks, including semantic analysis, information retrieval, dependency parsing, question answering, and machine translation. This extensive use implies that the evaluation of the performance of such representations is crucial for choosing the best model to perform those tasks.
+
+
+
+Though there are well-established procedures and benchmarks for intrinsic evaluation, as far as we know, a unified method of evaluation that can merge the results of those tasks to provide a comprehensive evaluation is missing. The main goal of this work is to create a pipeline to blend all major intrinsic evaluation tasks to compute such overall evaluation - the PCE - of word embeddings.

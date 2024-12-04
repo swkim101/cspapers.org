@@ -1,0 +1,6 @@
+Unlike traditional database systems where data and system availability are tied together, there is a wide class of systems targeting realtime monitoring and analytics over structured logs where these properties can be decoupled. In these systems, responsiveness and freshness of data are often more important than perfectly complete answers. One such system is Meta's Scuba [2].
+ Historically, Scuba has favored system availability along with speed and freshness of results over data completeness and durability. While these choices allowed Scuba to grow from terabyte scale to petabyte scale and continue onboarding a variety of use cases, they also came at an operational cost of dealing with incomplete data and managing data loss.
+ 
+ In this paper, we present the next generation of Scuba's architecture, codenamed
+ Kraken
+ , which decouples storage management from the query serving system and introduces a single, durable source of truth. This enables tangible improvements to system fault tolerance and query performance while still respecting tolerable bounds of client observed data freshness. We also describe the journey of how we deployed Kraken into full production as we gradually turned off the older system with no user-visible down time.

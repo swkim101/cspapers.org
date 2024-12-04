@@ -1,0 +1,26 @@
+
+ Given
+ m
+ users (voters), where each user casts her preference for a single item (candidate) over
+ n
+ items (candidates) as a ballot, the preference aggregation problem returns
+ k
+ items (candidates) that have the
+ k
+ highest number of preferences (votes). Our work studies this problem considering
+ complex fairness constraints
+ that have to be satisfied via proportionate representations of different values of the group protected attribute(s) in the top-
+ k
+ results. Precisely, we study
+ the margin finding problem under single ballot substitutions
+ , where a single substitution amounts to removing a vote from candidate
+ i
+ and assigning it to candidate
+ j
+ and the goal is to
+ minimize the number of single ballot substitutions needed to guarantee that the top-k results satisfy the fairness constraints.
+ We study several variants of this problem considering how top-
+ k
+ fairness constraints are defined, (i) MFBinaryS and MFMultiS are defined when the fairness (proportionate representation) is defined over a single, binary or multivalued, protected attribute, respectively; (ii) MF-Multi2 is studied when top-
+ k
+ fairness is defined over two different protected attributes; (iii) MFMulti3+ investigates the margin finding problem, considering 3 or more protected attributes. We study these problems theoretically, and present a suite of algorithms with provable guarantees. We conduct rigorous large scale experiments involving multiple real world datasets by appropriately adapting multiple state-of-the-art solutions to demonstrate the effectiveness and scalability of our proposed methods.

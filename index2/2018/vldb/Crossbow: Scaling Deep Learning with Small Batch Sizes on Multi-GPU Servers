@@ -1,0 +1,7 @@
+Deep learning models are trained on servers with many GPUs, and training must scale with the number of GPUs. Systems such as TensorFlow and Caffe2 train models with parallel synchronous stochastic gradient descent: they process a batch of training data at a time, partitioned across GPUs, and average the resulting partial gradients to obtain an updated global model. To fully utilise all GPUs, systems must increase the batch size, which hinders statistical efficiency. Users tune hyper-parameters such as the learning rate to compensate for this, which is complex and model-specific.
+ 
+ We describe Crossbow, a new single-server multi-GPU system for training deep learning models that enables users to freely choose their preferred batch size---however small---while scaling to multiple GPUs. Crossbow uses many parallel model replicas and avoids reduced statistical efficiency through a new synchronous training method. We introduce SMA, a synchronous variant of model averaging in which replicas
+ independently
+ explore the solution space with gradient descent, but adjust their search
+ synchronously
+ based on the trajectory of a globally-consistent average model. Crossbow achieves high hardware efficiency with small batch sizes by potentially training multiple model replicas per GPU, automatically tuning the number of replicas to maximise throughput. our experiments show that Crossbow improves the training time of deep learning models on an 8-GPU server by 1.3--4X compared to TensorFlow.

@@ -1,0 +1,4 @@
+
+ 
+ Badges are a common, and sometimes the only, method of incentivizing users to perform certain actions on on- line sites. However, due to many competing factors influencing user temporal dynamics, it is difficult to determine whether the badge had (or will have) the intended effect or not. In this paper, we introduce two complementary approaches for determining badge influence on users. In the first one, we cluster users’ temporal traces (represented with Poisson processes) and apply covariates (user features) to regularize results. In the second approach, we first classify users’ temporal traces with a novel statistical framework, and then we refine the classification results with a semi-supervised clustering of covariates. Outcomes obtained from an evaluation on synthetic datasets and experiments on two badges from a pop- ular Q&A platform confirm that it is possible to validate, characterize and to some extent predict users affected by the badge.
+ 

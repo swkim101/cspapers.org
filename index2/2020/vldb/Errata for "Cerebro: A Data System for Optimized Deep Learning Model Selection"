@@ -1,0 +1,6 @@
+
+ We discovered that there was an inconsistency in the communication cost formulation for the decentralized fine-grained training method in
+ Table 2
+ of our paper [1]. We used Horovod as the archetype for decentralized fine-grained approaches, and its correct communication cost is higher than what we had reported. So, we amend the communication cost of decentralized fine-grained to
+ 
+ [EQUATION]

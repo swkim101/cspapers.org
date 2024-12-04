@@ -1,0 +1,65 @@
+Typestate systems are notoriously complex as they require
+ 
+ 
+ 
+sophisticated machinery for tracking aliasing.
+ 
+ 
+ 
+We propose a new, transition-oriented foundation for typestate in the
+ 
+ 
+ 
+setting of impure functional programming.
+ 
+ 
+ 
+Our approach relies on ordered types for simple alias tracking and
+ 
+ 
+ 
+its formalization draws on work on bunched implications. 
+ 
+ 
+ 
+Yet, we support a flexible notion of borrowing in the presence of typestate.
+ 
+ 
+ 
+
+ 
+ 
+ 
+Our core calculus comes with a notion of resource types indexed by an
+ 
+ 
+ 
+ordered partial monoid that models abstract state transitions. 
+ 
+ 
+ 
+We prove syntactic type soundness with respect to a
+ 
+ 
+ 
+resource-instrumented semantics.
+ 
+ 
+ 
+We give an algorithmic version of our type system and prove its
+ 
+ 
+ 
+soundness. Algorithmic typing facilitates a
+ 
+ 
+ 
+simple surface language that does not expose tedious details of
+ 
+ 
+ 
+ordered types. We implemented a typechecker for the surface language
+ 
+ 
+ 
+along with an interpreter for the core language.

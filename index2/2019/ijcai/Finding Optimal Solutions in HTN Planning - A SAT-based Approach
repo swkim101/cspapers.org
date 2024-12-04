@@ -1,0 +1,8 @@
+Over the last years, several new approaches to Hierarchical Task Network (HTN) planning have been proposed that increased the overall performance of HTN planners.
+However, the focus has been on agile planning - on finding a solution as quickly as possible.
+Little work has been done on finding optimal plans.
+We show how the currently best-performing approach to HTN planning - the translation into propositional logic - can be utilised to find optimal plans.
+Such SAT-based planners usually bound the HTN problem to a certain depth of decomposition and then translate the problem into a propositional formula.
+To generate optimal plans, the length of the solution has to be bounded instead of the decomposition depth.
+We show the relationship between these bounds and how it can be handled algorithmically.
+Based on this, we propose an optimal SAT-based HTN planner and show that it performs favourably on a benchmark set.

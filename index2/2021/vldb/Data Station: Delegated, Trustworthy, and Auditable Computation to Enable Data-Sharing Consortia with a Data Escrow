@@ -1,0 +1,11 @@
+Pooling and sharing data increases and distributes its value. But since data cannot be revoked once shared, scenarios that require controlled release of data for regulatory, privacy, and legal reasons default to not sharing. Because selectively controlling what data to release is difficult, the few data-sharing consortia that exist are often built around data-sharing agreements resulting from long and tedious one-off negotiations.
+ 
+ We introduce Data Station, a data escrow designed to enable the formation of data-sharing consortia. Data
+ owners
+ share data with the escrow knowing it will not be released without their consent. Data
+ users
+ delegate their computation to the escrow. The data escrow relies on delegated computation to execute queries without releasing the data first. Data Station leverages hardware enclaves to generate
+ trust
+ among participants, and exploits the centralization of data and computation to generate an audit log.
+ 
+ We evaluate Data Station on machine learning and data-sharing applications while running on an untrusted intermediary. In addition to important qualitative advantages, we show that Data Station: i) outperforms federated learning baselines in accuracy and runtime for the machine learning application; ii) is orders of magnitude faster than alternative secure data-sharing frameworks; and iii) introduces small overhead on the critical path.

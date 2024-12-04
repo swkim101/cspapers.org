@@ -1,0 +1,8 @@
+
+ We address two major obstacles to practical deployment of AI-based models on distributed private data. Whether a model was trained by a federation of cooperating clients or trained centrally, (1) the output scores must be calibrated, and (2) performance metrics must be evaluated --- all without assembling labels in one place. In particular, we show how to perform calibration and compute the standard metrics of precision, recall, accuracy and ROC-AUC in the federated setting under three privacy models (
+ i
+ ) secure aggregation, (
+ ii
+ ) distributed differential privacy, (
+ iii
+ ) local differential privacy. Our theorems and experiments clarify tradeoffs between privacy, accuracy, and data efficiency. They also help decide if a given application has sufficient data to support federated calibration and evaluation.

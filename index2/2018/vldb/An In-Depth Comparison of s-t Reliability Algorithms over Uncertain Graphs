@@ -1,0 +1,17 @@
+
+ Uncertain, or probabilistic, graphs have been increasingly used to represent noisy linked data in many emerging applications, and have recently attracted the attention of the database research community. A fundamental problem on uncertain graphs is the
+ s-t
+ reliability, which measures the probability that a target node
+ t
+ is reachable from a source node
+ s
+ in a probabilistic (or uncertain) graph, i.e., a graph where every edge is assigned a probability of existence.
+ 
+ 
+ Due to the inherent complexity of the
+ s-t
+ reliability estimation problem (#P-hard), various sampling and indexing based efficient algorithms were proposed in the literature. However, since they have not been thoroughly compared with each other, it is not clear whether the later algorithm outperforms the earlier ones. More importantly, the comparison framework, datasets, and metrics were often not consistent (e.g., different convergence criteria were employed to find the optimal number of samples) across these works. We address this serious concern by re-implementing six state-of-the-art
+ s-t
+ reliability estimation methods in a common system and code base, using several medium and large-scale, real-world graph datasets, identical evaluation metrics, and query workloads.
+ 
+ Through our systematic and in-depth analysis of experimental results, we report surprising findings, such as many follow-up algorithms can actually be several orders of magnitude inefficient, less accurate, and more memory intensive compared to the ones that were proposed earlier. We conclude by discussing our recommendations on the road ahead.

@@ -1,0 +1,6 @@
+
+ Guarded tuple-generating dependencies (GTGDs) are a natural extension of description logics and referential constraints. It has long been known that queries over GTGDs can be answered by a variant of the
+ chase
+ ---a quintessential technique for reasoning with dependencies. However, there has been little work on concrete algorithms and even less on implementation. To address this gap, we revisit
+ Datalog rewriting
+ approaches to query answering, where GTGDs are transformed to a Datalog program that entails the same base facts on each base instance. We show that the rewriting can be seen as containing "shortcut" rules that circumvent certain chase steps, we present several algorithms that compute the rewriting by simulating specific types of chase steps, and we discuss important implementation issues. Finally, we show empirically that our techniques can process complex GTGDs derived from synthetic and real benchmarks and are thus suitable for practical use.

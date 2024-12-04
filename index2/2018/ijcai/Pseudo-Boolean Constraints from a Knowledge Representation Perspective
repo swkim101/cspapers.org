@@ -1,0 +1,21 @@
+We study pseudo-Boolean constraints (PBC) and
+
+their special case cardinality constraints (CARD)
+
+from the perspective of knowledge representation.
+
+To this end, the succinctness of PBC and CARD
+
+is compared to that of many standard propositional
+
+languages. Moreover, we determine which queries
+
+and transformations are feasible in polynomial time
+
+when knowledge is represented by PBC or CARD,
+
+and which are not (unconditionally or unless P =
+
+NP). In particular, the advantages and disadvantages
+
+compared to CNF are discussed.

@@ -1,0 +1,20 @@
+
+ Machine learning (ML) applications have been thriving recently, largely attributed to the increasing availability of data. However, inconsistency and incomplete information are ubiquitous in real-world datasets, and their impact on ML applications remains elusive. In this paper, we present a formal study of this impact by extending the notion of
+ Certain Answers for Codd tables
+ , which has been explored by the database research community for decades, into the field of machine learning. Specifically, we focus on classification problems and propose the notion of
+ "Certain Predictions" (CP)
+ --- a test data example can be
+ certainly predicted (CP'ed)
+ if
+ all
+ possible classifiers trained on top of all possible worlds induced by the incompleteness of data would yield the
+ same
+ prediction. We study two fundamental CP queries: (Q1)
+ checking query
+ that determines whether a data example can be CP'ed; and (Q2)
+ counting query
+ that computes the number of classifiers that support a particular prediction (i.e., label). Given that general solutions to CP queries are, not surprisingly, hard without assumption over the type of classifier, we further present a case study in the context of nearest neighbor (NN) classifiers, where efficient solutions to CP queries can be developed --- we show that it is possible to answer both queries in
+ linear or polynomial time
+ over
+ exponentially
+ many possible worlds. We demonstrate one example use case of CP in the important application of "data cleaning for machine learning (DC for ML)." We show that our proposed CPClean approach built based on CP can often significantly outperform existing techniques, particularly on datasets with systematic missing values. For example, on 5 datasets with systematic missingness, CPClean (with early termination) closes 100% gap on average by cleaning 36% of dirty data on average, while the best automatic cleaning approach BoostClean can only close 14% gap on average.

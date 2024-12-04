@@ -1,0 +1,4 @@
+
+ 
+ The paper proposes a bimodal logic that describes an interplay between distributed knowledge modality and coalition know-how modality. Unlike other similar systems, the one proposed here assumes perfect recall by all agents. Perfect recall is captured in the system by a single axiom. The main technical results are the soundness and the completeness theorems for the proposed logical system.
+ 

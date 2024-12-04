@@ -1,0 +1,4 @@
+
+ 
+ We introduce a new semantics for a logic of explicit and implicit beliefs based on the concept of multi-agent belief base. Differently from existing Kripke-style semantics for epistemic logic in which the notions of possible world and doxastic/epistemic alternative are primitive, in our semantics they are non-primitive but are defined from the concept of belief base. We provide a complete axiomatization and a decidability result for our logic.
+ 

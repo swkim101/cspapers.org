@@ -1,0 +1,6 @@
+
+ Query performance prediction, the task of predicting a query's latency prior to execution, is a challenging problem in database management systems. Existing approaches rely on features and performance models engineered by human experts, but often fail to capture the complex interactions between query operators and input relations, and generally do not adapt naturally to workload characteristics and patterns in query execution plans. In this paper, we argue that
+ deep learning
+ can be applied to the query performance prediction problem, and we introduce a novel neural network architecture for the task: a
+ plan-structured neural network
+ . Our neural network architecture matches the structure of any optimizer-selected query execution plan and predict its latency with high accuracy, while eliminating the need for human-crafted input features. A number of optimizations are also proposed to reduce training overhead without sacrificing effectiveness. We evaluated our techniques on various workloads and we demonstrate that our approach can out-perform the state-of-the-art in query performance prediction.

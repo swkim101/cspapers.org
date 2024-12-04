@@ -1,0 +1,9 @@
+Middleboxes (MBs) are widely deployed in order to enhance security and performance in networking.
+However, as the communications over the TLS become increasingly common, the end-to-end channel model of the TLS  undermines the efficacy of MBs.
+Existing solutions, such as `split TLS' that intercepts TLS sessions, often introduce significant security risks by installing a custom root certificate or sharing a private key.
+Many studies have confirmed the vulnerabilities of combining the TLS with MBs, which include certificate validation failures, unwanted content modification, and using obsolete ciphersuites.
+To address the above issues, we introduce an MB-aware TLS protocol, dubbed maTLS, that allows MBs to participate in the TLS in a visible and accountable fashion.
+Every participating MB now splits a session into two segments with its own security parameters in collaboration with the two endpoints.
+However, the session is still secure as the maTLS protocol is designed to achieve the authentication of MBs, the audit of MBs' operations, and the verification of security parameters of segments.
+We carry out testbed-based experiments to show that maTLS achieves the above security goals with marginal overhead.
+We also prove the security model of maTLS by using Tamarin, a security verification tool.

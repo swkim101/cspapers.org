@@ -1,0 +1,4 @@
+
+ 
+ Inspired by the Bayesian brain hypothesis and deep learning, we develop a Bayesian autoencoder, a method of constructing recognition systems using a Bayesian network. We construct hierarchical Bayesian networks based on feature extraction and implement pooling to achieve invariance within a Bayesian network framework. The constructed networks propagate information bidirectionally between layers. We expect they will be able to achieve brain-like recognition using local features and global information such as their environments.
+ 

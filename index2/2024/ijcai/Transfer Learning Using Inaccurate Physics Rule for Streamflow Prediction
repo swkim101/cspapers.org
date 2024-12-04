@@ -1,0 +1,15 @@
+Accurate streamflow prediction is critical for ensuring water supply and detecting floods, while also providing essential hydrological inputs for other scientific models in fields such as climate and agriculture.
+
+Recently, deep learning models have been shown to achieve state-of-the-art regionalization performance by building a global hydrologic model. These models predict streamflow given catchment physical characteristics and weather forcing data.
+
+However, these models are only focused on gauged basins and cannot adapt to ungaugaed basins, i.e., basins without training data. 
+
+Prediction in Ungauged Basins (PUB) is considered one of the most important challenges in hydrology, as most basins in the United States and around the world have no observations. 
+
+In this work, we propose a meta-transfer learning approach by enhancing imperfect physics equations that facilitate model adaptation. 
+
+Intuitively, physical equations can often be used to regularize deep learning models to achieve robust regionalization performance under gauged scenarios, but they can be inaccurate due to the simplified representation of physics. 
+
+We correct such uncertainty in physical equation by residual approximation and let these corrected equations guide the model training process. We evaluated the proposed method for predicting daily streamflow on the catchment attributes and meteorology for large-sample studies (CAMELS) dataset. 
+
+The experiment results on hydrological data over 19 years demonstrate the effectiveness of the proposed method in ungauged scenarios.

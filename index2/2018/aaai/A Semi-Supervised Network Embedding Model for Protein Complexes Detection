@@ -1,0 +1,4 @@
+
+ 
+ Protein complex is a group of associated polypeptide chains which plays essential roles in biological process. Given a graph representing protein-protein interactions (PPI) network, it is critical but non-trivial to detect protein complexes.In this paper, we propose a semi-supervised network embedding model by adopting graph convolutional networks to effectively detect densely connected subgraphs. We conduct extensive experiment on two popular PPI networks with various data sizes and densities. The experimental results show our approach achieves state-of-the-art performance.
+ 

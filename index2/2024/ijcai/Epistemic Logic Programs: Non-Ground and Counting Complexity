@@ -1,0 +1,5 @@
+Answer Set Programming (ASP) is a prominent problem-modeling and solving framework, whose solutions are called answer sets. Epistemic logic programs (ELP) extend ASP to reason about all or some answer sets. Solutions to an ELP can be seen as consequences over multiple collections of answer sets, known as world views. While the complexity of propositional programs is well studied, the non-ground case remains open.
+
+ 
+
+This paper establishes the complexity of non-ground ELPs. We provide a comprehensive picture for well-known program fragments, which turns out to be complete for the class NEXPTIME with access to oracles up to SigmaP2. In the quantitative setting, we establish complexity results for counting complexity beyond #EXP. To mitigate high complexity, we establish results in case of bounded predicate arity, reaching up to the fourth level of the polynomial hierarchy. Finally, we provide ETH-tight runtime results for the parameter treewidth, which has applications in quantitative reasoning, where we reason on (marginal) probabilities of epistemic literals.

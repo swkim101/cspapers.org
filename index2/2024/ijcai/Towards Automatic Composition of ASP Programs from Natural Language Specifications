@@ -1,0 +1,9 @@
+This paper moves the first step towards automating the composition of Answer Set Programming (ASP) specifications.
+
+In particular, the following contributions are provided: 
+
+(i) A dataset focused on graph-related problem specifications, designed to develop and assess tools for ASP automatic coding;
+
+(ii) A two-step architecture, implemented in the NL2ASP tool, for generating ASP programs from natural language specifications.
+
+NL2ASP uses neural machine translation to transform natural language into Controlled Natural Language (CNL) statements. Subsequently, CNL statements are converted into ASP code using the CNL2ASP tool. An experimental analysis confirms the viability of the approach.

@@ -1,0 +1,11 @@
+How to generate robust trajectories of multiple objects without using any manual identity annotation? Recently, identity embedding features from Re-ID models are adopted to associate targets into trajectories.
+
+However, most previous methods equipped with embedding features heavily rely on manual identity annotations, which bring a high cost for the multi-object tracking (MOT) task.
+
+To address the above problem, we present an unsupervised embedding and association network (UEANet) for learning discriminative embedding features with pseudo identity labels. 
+
+Specifically, we firstly generate the pseudo identity labels by adopting a Kalman filter tracker to associate multiple targets into trajectories and assign a unique identity label to each trajectory. 
+
+Secondly, we train the transformer-based identity embedding branch and MLP-based data association branch of UEANet with these pseudo labels, and UEANet extracts branch-dependent features for the unsupervised MOT task.
+
+Experimental results show that UEANet confirms the outstanding ability to suppress IDS and achieves comparable performance compared with state-of-the-art methods on three MOT datasets.

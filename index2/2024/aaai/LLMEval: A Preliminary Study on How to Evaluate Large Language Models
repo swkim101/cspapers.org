@@ -1,0 +1,10 @@
+Recently, the evaluation of Large Language Models has emerged as a popular area of research. 
+The three crucial questions for LLM evaluation are ``what, where, and how to evaluate''.
+However, the existing research mainly focuses on the first two questions, which are basically what tasks to give the LLM during testing and what kind of knowledge it should deal with.
+As for the third question, which is about what standards to use, the types of evaluators, how to score, and how to rank, there hasn't been much discussion.
+In this paper, we analyze evaluation methods by comparing various criteria with both manual and automatic evaluation, utilizing onsite, crowd-sourcing, public annotators and GPT-4, with different scoring methods and ranking systems. 
+We propose a new dataset, LLMEval and conduct evaluations on 20 LLMs. 
+A total of 2,186 individuals participated, leading to the generation of 243,337 manual annotations and 57,511 automatic evaluation results.
+We perform comparisons and analyses of different settings and conduct 10 conclusions that can provide some insights for evaluating LLM in the future. The dataset and the results are publicly available at 
+https://github.com/llmeval.
+The version with the appendix are publicly available at https://arxiv.org/abs/2312.07398.

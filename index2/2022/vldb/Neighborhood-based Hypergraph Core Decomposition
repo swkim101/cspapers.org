@@ -1,0 +1,14 @@
+
+ We propose
+ neighborhood-based core decomposition
+ : a novel way of decomposing hypergraphs into hierarchical neighborhood-cohesive subhypergraphs. Alternative approaches to decomposing hypergraphs, e.g., reduction to clique or bipartite graphs, are not meaningful in certain applications, the later also results in inefficient decomposition; while existing degree-based hypergraph decomposition does not distinguish nodes with different neighborhood sizes. Our case studies show that the proposed decomposition is more effective than degree and clique graph-based decompositions in disease intervention and in extracting provably approximate and application-wise meaningful densest subhypergraphs. We propose three algorithms: Peel, its efficient variant
+ E-Peel,
+ and a novel local algorithm:
+ Local-core
+ with parallel implementation. Our most efficient parallel algorithm
+ Local-core(P)
+ decomposes hypergraph with 27M nodes and 17M hyperedges in-memory within 91 seconds by adopting various optimizations. Finally, we develop a new hypergraph-core model, the
+ (neighborhood, degree)-core
+ by considering both neighborhood and degree constraints, design its decomposition algorithm
+ Local-core+Peel,
+ and demonstrate its superiority in spreading diffusion.
