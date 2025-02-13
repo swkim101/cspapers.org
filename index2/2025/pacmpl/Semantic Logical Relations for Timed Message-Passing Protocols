@@ -1,0 +1,24 @@
+
+ Many of today’s message-passing systems not only require messages to be exchanged in a certain order but also to happen at a certain
+ time
+ or within a certain
+ time window
+ . Such correctness conditions are particularly prominent in Internet of Things (IoT) and real-time systems applications, which interface with hardware devices that come with inherent timing constraints. Verifying compliance of such systems with the intended
+ timed protocol
+ is challenged by their
+ heterogeneity
+ —ruling out any verification method that relies on the system to be implemented in one common language, let alone in a high-level and typed programming language. To address this challenge, this paper contributes a
+ logical relation
+ to verify that its inhabitants (the applications and hardware devices to be proved correct) comply with the given timed protocol. To cater to the systems’ heterogeneity, the logical relation is entirely
+ semantic
+ , lifting the requirement that its inhabitants are syntactically well-typed. A semantic approach enables two modes of use of the logical relation for program verification:
+ (i)
+ once-and-for-all
+ verification of an
+ arbitrary
+ well-typed application, given a type system, and
+ (ii)
+ per-instance
+ verification of a specific application / hardware device (foreign code). To facilitate mode
+ (i)
+ , the paper develops a refinement type system for expressing timed message-passing protocols and proves that any well-typed program inhabits the logical relation (fundamental theorem). A type checker for the refinement type system has been implemented in Rust, using an SMT solver to check satisfiability of timing constraints. Then, the paper demonstrates both modes of use based on a small case study of a smart home system for monitoring air quality, consisting of a controller application and various environment sensors.

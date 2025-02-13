@@ -1,0 +1,1 @@
+The textbook algorithm for single-source shortest paths with real-valued edge weights runs in $O(m n)$ time on a graph with $m$ edges and $n$ vertices. A recent breakthrough algorithm by Fineman [Fin24] takes $\tilde O(m n^{8/9})$ randomized time. We present an $\tilde O(m n^{4/5})$ randomized time algorithm building on ideas from [Fin24].

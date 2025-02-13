@@ -1,0 +1,50 @@
+Gradually typed programming languages, which allow for soundly
+ 
+mixing static and dynamically typed programming styles, present a
+ 
+strong challenge for metatheorists. Even the simplest sound
+ 
+gradually typed languages feature at least recursion and errors,
+ 
+with realistic languages featuring furthermore runtime allocation of
+ 
+memory locations and dynamic type tags. Further, the desired
+ 
+metatheoretic properties of gradually typed languages have become
+ 
+increasingly sophisticated: validity of type-based equational
+ 
+reasoning as well as the relational property known as
+ 
+graduality. Many recent works have tackled verifying these
+ 
+properties, but the resulting mathematical developments are highly
+ 
+repetitive and tedious, with few reusable theorems persisting across
+ 
+different developments.
+ In this work, we present a new denotational semantics for gradual
+ 
+typing developed using guarded domain theory. Guarded domain theory
+ 
+combines the generality of step-indexed logical relations for
+ 
+modeling advanced programming features with the modularity and
+ 
+reusability of denotational semantics. We demonstrate the
+ 
+feasibility of this approach with a model of a simple gradually
+ 
+typed lambda calculus and prove the validity of beta-eta equality
+ 
+and the graduality theorem for the denotational model. This model
+ 
+should provide the basis for a reusable mathematical theory of
+ 
+gradually typed program semantics. Finally, we have mechanized most
+ 
+of the core theorems of our development in Guarded Cubical Agda, a
+ 
+recent extension of Agda with support for the guarded recursive
+ 
+constructions we use.

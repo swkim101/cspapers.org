@@ -1,0 +1,64 @@
+
+ Context-free language (CFL) reachability is a standard approach in static analyses, where the analysis question (e.g., is there a dataflow from
+ x
+ to
+ y
+ ?) is phrased as a language reachability problem on a graph
+ G
+ wrt a CFL
+ L
+ . However, CFLs lack the expressiveness needed for high analysis precision. On the other hand, common formalisms for context-sensitive languages are too expressive, in the sense that the corresponding reachability problem becomes undecidable. Are there useful context-sensitive language-reachability models for static analysis? In this paper, we introduce Multiple Context-Free Language (MCFL) reachability as an expressive yet tractable model for static program analysis. MCFLs form an infinite hierarchy of mildly context sensitive languages parameterized by a dimension
+ d
+ and a rank
+ r
+ . Larger
+ d
+ and
+ r
+ yield progressively more expressive MCFLs, offering tunable analysis precision. We showcase the utility of MCFL reachability by developing a family of MCFLs that approximate interleaved Dyck reachability, a common but undecidable static analysis problem. Given the increased expressiveness of MCFLs, one natural question pertains to their algorithmic complexity, i.e., how fast can MCFL reachability be computed? We show that the problem takes
+ O
+ (
+ n
+ 
+ 2
+ d
+ +1
+ 
+ ) time on a graph of
+ n
+ nodes when
+ r
+ =1, and
+ O
+ (
+ n
+ 
+ d
+ (
+ r
+ +1)
+ 
+ ) time when
+ r
+ >1. Moreover, we show that when
+ r
+ =1, even the simpler membership problem has a lower bound of
+ n
+ 
+ 2
+ d
+ 
+ based on the Strong Exponential Time Hypothesis, while reachability for
+ d
+ =1 has a lower bound of
+ n
+ 3
+ based on the combinatorial Boolean Matrix Multiplication Hypothesis. Thus, for
+ r
+ =1, our algorithm is optimal within a factor
+ n
+ for all levels of the hierarchy based on the dimension
+ d
+ (and fully optimal for
+ d
+ =1). We implement our MCFL reachability algorithm and evaluate it by underapproximating interleaved Dyck reachability for a standard taint analysis for Android. When combined with existing overapproximate methods, MCFL reachability discovers all tainted information on 8 out of 11 benchmarks, while it has remarkable coverage (confirming 94.3% of the reachable pairs reported by the overapproximation) on the remaining 3. To our knowledge, this is the first report of high and provable coverage for this challenging benchmark set.

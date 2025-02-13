@@ -1,0 +1,33 @@
+Safety-critical systems are often designed as real-time distributed systems. Despite the need for strong guarantees of safety and reliability in these systems, applying formal verification methods to real-time distributed systems at the implementation level has faced significant technical challenges.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper, we present VeriRT, an end-to-end formal verification framework that closes the formal gap between high-level abstract timed specifications and low-level implementations for real-time distributed systems. Within the framework, we establish a theoretical foundation for constructing formal timed operational semantics by integrating conventional operational semantics and low-level timing assumptions, along with principles for reasoning about their timed behaviors against abstract specifications. We leverage CompCert’s correctness proofs to guarantee the correctness of the assembly implementation of real-time distributed systems. We provide two case studies on realistic real-time systems. All the results are formalized in Coq.

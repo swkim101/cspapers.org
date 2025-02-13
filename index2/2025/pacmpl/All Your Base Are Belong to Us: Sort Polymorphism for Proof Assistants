@@ -1,0 +1,25 @@
+Proof assistants based on dependent type theory, such as Coq, Lean and Agda, use different universes to classify types, typically combining a predicative hierarchy of universes for computationally-relevant types, and an impredicative universe of proof-irrelevant propositions. In general, a universe is characterized by its sort, such as Type or Prop, and its level, in the case of a predicative sort. Recent research has also highlighted the potential of introducing more sorts in the type theory of the proof assistant as a structuring means to address the coexistence of different logical or computational principles, such as univalence, exceptions, or definitional proof irrelevance. This diversity raises concrete and subtle issues from both theoretical and practical perspectives. In particular, in order to avoid duplicating definitions to inhabit all (combinations of) universes, some sort of polymorphism is needed. Universe level polymorphism is well-known and effective to deal with hierarchies, but the handling of polymorphism between sorts is currently ad hoc and limited in all major proof assistants, hampering reuse and extensibility.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This work develops sort polymorphism and its metatheory, studying in particular monomorphization, large elimination, and parametricity. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We implement sort polymorphism in Coq and present examples from a new sort-polymorphic prelude of basic definitions and automation.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sort polymorphism is a natural solution that effectively addresses the limitations of current approaches and prepares the ground for future multi-sorted type theories.

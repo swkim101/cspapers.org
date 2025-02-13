@@ -1,0 +1,8 @@
+
+ We design various logics for proving hyper properties of iterative programs by application of abstract interpretation principles. In part I, we design a generic, structural, fixpoint abstract interpreter parameterized by an algebraic abstract domain describing finite and infinite computations that can be instantiated for various operational, denotational, or relational program semantics. Considering semantics as program properties, we define a post algebraic transformer for execution properties (e.g. sets of traces) and a Post algebraic transformer for semantic (hyper) properties (e.g. sets of sets of traces), we provide corresponding calculuses as instances of the generic abstract interpreter, and we derive under and over approximation hyperlogics. In part II, we define exact and approximate semantic abstractions, and show that they preserve the mathematical structure of the algebraic semantics, the collecting semantics post, the hyper collecting semantics Post, and the hyperlogics. Since proofs by sound and complete hyperlogics require an exact characterization of the program semantics within the proof, we consider in part III abstractions of the (hyper) semantic properties that yield simplified proof rules. These abstractions include the join, the homomorphic, the elimination, the principal ideal, the order ideal, the frontier order ideal, and the chain limit algebraic abstractions, as well as their combinations, that lead to new algebraic generalizations of hyperlogics, including the ∀∃
+ ∗
+ , ∀∀
+ ∗
+ , and ∃∀
+ ∗
+ hyperlogics.

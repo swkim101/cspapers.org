@@ -1,0 +1,6 @@
+
+ The Dependent Calculus of Indistinguishability (DCOI) uses dependency tracking to identify irrelevant arguments and uses indistinguishability during type conversion to enable proof irrelevance, supporting run-time and compile-time irrelevance with the same uniform mechanism. DCOI also internalizes reasoning about indistinguishability through the use of a propositional equality type indexed by an observer level. As DCOI is a pure type system, prior work establishes only its syntactic type safety, justifying its use as the basis for a programming language with dependent types. However, it was not clear whether any instance of this system would be suitable for use as a type theory for theorem proving. Here, we identify a suitable instance DCOI
+ ω
+ , which has an infinite predicative universe hierarchy. We show that DCOI
+ ω
+ is logically consistent, normalizing, and that type conversion is decidable. We have mechanized all results using the Coq proof assistant.

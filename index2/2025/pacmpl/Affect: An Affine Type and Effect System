@@ -1,0 +1,14 @@
+
+ Effect handlers form a powerful construct that can express complex programming abstractions. They are a generalization of exception handlers, but allow resumption of the continuation from where the effect was raised. Allowing continuations to be resumed at most once (
+ one-shot
+ ) or an arbitrary number of times (
+ multi-shot
+ ) has far-reaching consequences. In addition to performance considerations, multi-shot effects break key rules of reasoning and thus render certain standard transformation/optimizations unsound, especially in languages with mutable references (such as OCaml 5). It is therefore desirable to statically track whether continuations are used in a one-shot or multi-shot discipline, so that a compiler could use this information to efficiently implement effect handlers and to determine what optimizations it may perform. We address this problem by developing a type and effect system–called
+ Affect
+ –which uses affine types to track the usage of continuations. A challenge is to soundly deal with advanced programming features—such as references that store continuations and nested continuations—which are crucial to support challenging examples from the effects literature (such as
+ control inversion
+ and
+ cooperative concurrency
+ ). Another challenge is to support generic type signatures of polymorphic effectful functions. We address these challenges by using and extending Rust’s Cell type and Wadler’s
+ use types
+ . To prove soundness of Affect we model types and judgements semantically via a logical relation in the Iris separation logic framework in Coq.

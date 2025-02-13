@@ -1,0 +1,70 @@
+
+ Common functional languages incentivize tail-recursive functions, as opposed to general recursive functions that consume stack space and may not scale to large inputs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This distinction occasionally requires writing functions in a tail-recursive style that may be more complex and slower than the natural, non-tail-recursive definition.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This work describes our implementation of the
+ tail modulo constructor
+ (TMC) transformation in the OCaml compiler, an optimization that provides stack-efficiency for a larger class of functions --- tail-recursive
+ modulo constructors
+ --- which includes in particular the natural definition of 'List.map' and many similar recursive data-constructing functions.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We prove the correctness of this program transformation in a simplified setting --- a small untyped calculus --- that captures the salient aspects of the OCaml implementation. Our proof is mechanized in the Coq proof assistant, using the Iris base logic.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+An independent contribution of our work is an extension of the Simuliris approach to define simulation relations that support different calling conventions. To our knowledge, this is the first use of Simuliris to prove the correctness of a compiler transformation.

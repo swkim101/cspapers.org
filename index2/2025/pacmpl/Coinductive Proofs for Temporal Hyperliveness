@@ -1,0 +1,10 @@
+
+ Temporal logics for hyperproperties have recently emerged as an expressive specification technique for relational properties of reactive systems. While the model checking problem for such logics has been widely studied, there is a scarcity of deductive proof systems for temporal hyperproperties. In particular, hyperproperties with an alternation of universal and existential quantification over system executions are rarely supported. In this paper, we focus on hyperproperties of the form ∀
+ *
+ ∃
+ *
+ ψ, where ψ is a safety relation. We show that hyperproperties of this class – which includes many hyperliveness properties of interest – can always be approximated by coinductive relations. This enables intuitive proofs by coinduction. Based on this observation, we define HyCo (
+ Hy
+ perproperties,
+ Co
+ inductively), a mechanized framework to reason about temporal hyperproperties within the Coq proof assistant. We detail the construction of HyCo, provide a proof of its soundness, and exemplify its use by applying it to the verification of reactive systems modeled as imperative programs with nondeterminism and I/O.

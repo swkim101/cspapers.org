@@ -1,0 +1,121 @@
+We present Generic Refinement Types:
+ 
+ 
+ 
+a way to write modular higher-order specifications
+ 
+ 
+ 
+that abstract invariants over function contracts,
+ 
+ 
+ 
+while preserving automatic SMT-decidable verification.
+ 
+ 
+ 
+We show how generic refinements let us write
+ 
+ 
+ 
+a variety of modular higher-order specifications,
+ 
+ 
+ 
+including specifications for Rust's traits
+ 
+ 
+ 
+which abstract over the concrete refinements
+ 
+ 
+ 
+that hold for different trait implementations.
+ 
+ 
+ 
+We formalize generic refinements in a core calculus
+ 
+ 
+ 
+and show how to synthesize the generic
+ 
+ 
+ 
+instantiations algorithmically at usage sites via a combination of
+ 
+ 
+ 
+syntactic unification and constraint solving.
+ 
+ 
+ 
+We give semantics to generic refinements via the
+ 
+ 
+ 
+intuition that they correspond to ghost parameters,
+ 
+ 
+ 
+and we formalize this intuition via a type-preserving
+ 
+ 
+ 
+translation into the polymorphic contract calculus
+ 
+ 
+ 
+to establish the soundness of generic refinements.
+ 
+ 
+ 
+Finally, we evaluate generic refinements by implementing
+ 
+ 
+ 
+them in Flux and using it for two case studies.
+ 
+ 
+ 
+First, we show how generic refinements let us write modular
+ 
+ 
+ 
+specifications for Rust's vector indexing API
+ 
+ 
+ 
+that lets us statically verify the bounds safety of
+ 
+ 
+ 
+a variety of vector-manipulating benchmarks from
+ 
+ 
+ 
+the literature.
+ 
+ 
+ 
+Second, we use generic refinements
+ 
+ 
+ 
+to refine Rust's Diesel ORM library to track the
+ 
+ 
+ 
+semantics of the database queries issued by client
+ 
+ 
+ 
+applications, and hence, statically enforce data-dependent
+ 
+ 
+ 
+access-control policies in several database-backed
+ 
+ 
+ 
+web applications.

@@ -1,0 +1,51 @@
+
+ We study
+ “the best of abstract interpretations”
+ , that is, the best possible abstract interpretations of programs. Abstract interpretations are inductively defined by composing abstract transfer functions for the basic commands, such as assignments and Boolean guards. However, abstract interpretation is not compositional: even if the abstract transfer functions of the basic commands are the best possible ones on a given abstract domain 
+ A
+ this does not imply that the whole inductive abstract interpretation of a program
+ p
+ is still the best in
+ A
+ . When this happens we are in the optimal scenario where the abstract interpretation of
+ p
+ coincides with the abstraction of the concrete interpretation of
+ p
+ . Our main contributions are threefold. Firstly, we investigate the computability properties of the class of programs having the best possible abstract interpretation on a fixed abstract domain
+ A
+ . We show that this class is, in general, not straightforward and not recursive. Secondly, we prove the impossibility of achieving the best possible abstract interpretation of any program
+ p
+ either by an effective compilation of
+ p
+ or by minimally refining or simplifying the abstract domain
+ A
+ . These results show that the program property of having the best possible abstract interpretation is not trivial and, in general, hard to achieve. We then show how to prove that the abstract interpretation of a program is indeed the best possible one. To this aim, we put forward a program logic parameterized on an abstract domain
+ A
+ which infers triples [
+ pre
+ ]
+ 
+ A
+ 
+ p
+ [
+ post
+ ]
+ 
+ A
+ 
+ . These triples encode that the inductive abstract interpretation of
+ p
+ on
+ A
+ with abstract input
+ pre
+ ∈
+ A
+ gives
+ post
+ ∈
+ A
+ as abstract output and this is the best possible in
+ A
+ .

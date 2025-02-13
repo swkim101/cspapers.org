@@ -1,0 +1,8 @@
+
+ Constructive type theory combines logic and programming in one language. This is useful both for reasoning about programs written in type theory, as well as for reasoning about other programming languages inside type theory. It is well-known that it is challenging to extend these applications to languages with recursion and computational effects such as probabilistic choice, because these features are not easily represented in constructive type theory. We show how to define and reason about
+ FPC
+ ⊕
+ , a programming language with probabilistic choice and recursive types, in guarded type theory. We use higher inductive types to represent finite distributions and guarded recursion to model recursion. We define both operational and denotational semantics of
+ FPC
+ ⊕
+ , as well as a relation between the two. The relation can be used to prove adequacy, but we also show how to use it to reason about programs up to contextual equivalence.

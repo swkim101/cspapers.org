@@ -1,0 +1,14 @@
+
+ Version control systems typically rely on a
+ patch language
+ , heuristic
+ patch synthesis algorithms
+ like diff, and
+ three-way merge algorithms
+ . Standard patch languages and merge algorithms often fail to identify conflicts correctly when there are multiple edits to one line of code or code is relocated. This paper introduces Grove, a collaborative structure editor calculus that eliminates patch synthesis and three-way merge algorithms entirely. Instead, patches are derived directly from the log of the developer’s edit actions and all edits commute, i.e. the repository state forms a commutative replicated data type (CmRDT). To handle conflicts that can arise due to code relocation, the core datatype in Grove is a labeled directed multi-graph with uniquely identified vertices and edges. All edits amount to edge insertion and deletion, with deletion being permanent. To support tree-based editing, we define a decomposition from graphs into
+ groves
+ , which are a set of syntax trees with conflicts—including local, relocation, and unicyclic relocation conflicts—represented explicitly using holes and references between trees. Finally, we define a type error localization system for groves that enjoys a
+ totality
+ property, i.e. all editor states in Grove are statically meaningful, so developers can use standard editor services while working to resolve these explicitly represented conflicts. The static semantics is defined as a bidirectional marking system in line with recent work, with gradual typing employed to handle situations where errors and conflicts prevent type determination. We then layer on a unification-based type inference system to opportunistically fill type holes and fail gracefully when no solution exists. We mechanize the metatheory of Grove using the Agda theorem prover. We implement these ideas as the
+ Grove Workbench
+ , which generates the necessary data structures and algorithms in OCaml given a syntax tree specification.

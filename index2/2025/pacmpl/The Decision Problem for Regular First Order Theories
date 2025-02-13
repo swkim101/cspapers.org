@@ -1,0 +1,6 @@
+
+ The
+ Entscheidungsproblem
+ , or the classical decision problem, asks whether a given formula of first-order logic is satisfiable. In this work, we consider an extension of this problem to regular first-order
+ theories
+ , i.e., (infinite) regular sets of formulae. Building on the elegant classification of syntactic classes as decidable or undecidable for the classical decision problem, we show that some classes (specifically, the EPR and Gurevich classes), which are decidable in the classical setting, become undecidable for regular theories. On the other hand, for each of these classes, we identify a subclass that remains decidable in our setting, leaving a complete classification as a challenge for future work. Finally, we observe that our problem generalises prior work on automata-theoretic verification of uninterpreted programs and propose a semantic class of existential formulae for which the problem is decidable.

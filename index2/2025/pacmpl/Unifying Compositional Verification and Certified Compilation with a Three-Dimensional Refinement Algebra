@@ -1,0 +1,9 @@
+Formal verification is a gold standard for building reliable computer systems. Certified systems in particular come with a formal specification, and a proof of correctness which can easily be checked by a third party.
+ 
+ 
+ 
+Unfortunately, verifying large-scale, heterogeneous systems remains out of reach of current techniques. Addressing this challenge will require the use of compositional methods capable of accommodating and interfacing a range of program verification and certified compilation techniques. In principle, compositional semantics could play a role in enabling this kind of flexibility, but in practice existing tools tend to rely on simple and specialized operational models which are difficult to interface with one another.
+ 
+ 
+ 
+To tackle this issue, we present a compositional semantics framework which can accommodate a broad range of verification techniques. Its core is a three-dimensional algebra of refinement which operates across program modules, levels of abstraction, and components of the system's state. Our framework is mechanized in the Coq proof assistant and we showcase its capabilities with multiple use cases.

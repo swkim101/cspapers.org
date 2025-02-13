@@ -1,0 +1,22 @@
+
+ We study the problem of bounding the posterior distribution of discrete probabilistic programs with unbounded support, loops, and conditioning. Loops pose the main difficulty in this setting: even if exact Bayesian inference is possible, the state of the art requires user-provided loop invariant templates. By contrast, we aim to find
+ guaranteed bounds
+ , which sandwich the true distribution. They are fully automated, applicable to more programs and provide more provable guarantees than approximate sampling-based inference. Since lower bounds can be obtained by unrolling loops, the main challenge is upper bounds, and we attack it in two ways. The first is called
+ residual mass semantics
+ , which is a flat bound based on the residual probability mass of a loop. The approach is simple, efficient, and has provable guarantees.
+ 
+ 
+ The main novelty of our work is the second approach, called
+ geometric bound semantics
+ . It operates on a novel family of distributions, called
+ eventually geometric distributions
+ (EGDs), and can bound the distribution of loops with a new form of loop invariants called
+ contraction invariants
+ . The invariant synthesis problem reduces to a system of polynomial inequality constraints, which is a decidable problem with automated solvers. If a solution exists, it yields an exponentially decreasing bound on the
+ whole
+ distribution, and can therefore bound moments and tail asymptotics as well, not just probabilities as in the first approach.
+ 
+ 
+ Both semantics enjoy desirable theoretical properties. In particular, we prove soundness and convergence, i.e. the bounds converge to the exact posterior as loops are unrolled further. We also investigate sufficient and necessary conditions for the existence of geometric bounds. On the practical side, we describe
+ Diabolo
+ , a fully-automated implementation of both semantics, and evaluate them on a variety of benchmarks from the literature, demonstrating their general applicability and the utility of the resulting bounds.

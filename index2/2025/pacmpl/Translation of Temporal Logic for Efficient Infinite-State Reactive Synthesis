@@ -1,0 +1,57 @@
+Infinite-state reactive synthesis has attracted significant attention in recent years, which has led to the emergence of novel symbolic techniques for solving infinite-state games.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Temporal logics featuring variables over infinite domains offer an expressive high-level specification language for infinite-state reactive systems. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Currently, the only way to translate these temporal logics into symbolic games is by naively encoding the specification to use techniques designed for the Boolean case.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+An inherent limitation of this approach is that it results in games in which the semantic structure of the temporal and first-order constraints present in the formula is lost.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+There is a clear need for techniques that leverage this information in the translation process to speed up solving the generated games. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this work, we propose the first approach that addresses this gap. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our technique constructs a monitor incorporating first-order and temporal reasoning at the formula level, enriching the constructed game with semantic information that leads to more efficient solving. We demonstrate that thanks to this, our method outperforms the state-of-the-art techniques across a range of benchmarks.

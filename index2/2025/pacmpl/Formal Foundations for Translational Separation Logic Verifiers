@@ -1,0 +1,9 @@
+Program verification tools are often implemented as front-end translations of an input program into an intermediate verification language (IVL) such as Boogie, GIL, Viper, or Why3. The resulting IVL program is then verified using an existing back-end verifier. A soundness proof for such a translational verifier needs to relate the input program and verification logic to the semantics of the IVL, which in turn needs to be connected with the verification logic implemented in the back-end verifiers. Performing such proofs is challenging due to the large semantic gap between the input and output programs and logics, especially for complex verification logics such as separation logic.
+ 
+
+ 
+This paper presents a formal framework for reasoning about translational separation logic verifiers. At its center is a generic core IVL that captures the essence of different separation logics. We define its operational semantics and formally connect it to two different back-end verifiers, which use symbolic execution and verification condition generation, resp. Crucially, this semantics uses angelic non-determinism to enable the application of different proof search algorithms and heuristics in the back-end verifiers. An axiomatic semantics for the core IVL simplifies reasoning about the front-end translation by performing essential proof steps once and for all in the equivalence proof with the operational semantics rather than for each concrete front-end translation.
+ 
+
+ 
+We illustrate the usefulness of our formal framework by instantiating our core IVL with elements of Viper and connecting it to two Viper back-ends as well as a front-end for concurrent separation logic. All our technical results have been formalized in Isabelle/HOL, including the core IVL and its semantics, the semantics of two back-ends for a subset of Viper, and all proofs.

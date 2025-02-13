@@ -1,0 +1,89 @@
+One can write dependently typed functional programs in Coq, and prove
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+them correct in Coq; one can write low-level programs in C, and prove them
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+correct with a C verification tool. We demonstrate how to write programs
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+partly in Coq and partly in C, and interface the proofs together. The Verified Foreign Function Interface (VeriFFI) guarantees type safety and correctness
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of the combined program. It works by translating Coq function types
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(and constructor types) along with Coq functional models into VST
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+function-specifications; if the user can prove in VST that the C functions
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+satisfy those specs, then the C functions behave according to the
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+user-specified functional models (even though the C implementation
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+might be very different) and the proofs of Coq functions that call the C code
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+can rely on that behavior. To achieve this translation, we employ
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+a novel, hybrid deep/shallow description of Coq dependent types.

@@ -1,0 +1,10 @@
+
+ Many programming languages need to check whether two recursive types are in a subtyping relation. Traditionally recursive types are modelled in two different ways: equi- or iso- recursive types. While efficient algorithms for subtyping equi-recursive types are well studied for simple type systems, efficient algorithms for iso-recursive subtyping remain understudied. In this paper we present QuickSub: an efficient and simple to implement algorithm for iso-recursive subtyping. QuickSub has the same expressive power as the well-known iso-recursive Amber rules. The worst case complexity of QuickSub is
+ O
+ (
+ nm
+ ), where
+ m
+ is the size of the type and
+ n
+ is the number of recursive binders. However, in practice, the algorithm is nearly linear with the worst case being hard to reach. Consequently, in many common cases, QuickSub can be several times faster than alternative algorithms. We validate the efficiency of QuickSub with an empirical evaluation comparing it to existing equi-recursive and iso-recursive subtyping algorithms. We prove the correctness of the algorithm and formalize a simple calculus with recursive subtyping and records. For this calculus we also show how type soundness can be proved using QuickSub. All the results have been formalized and proved in the Coq proof assistant.

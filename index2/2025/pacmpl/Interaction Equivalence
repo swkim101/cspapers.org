@@ -1,0 +1,16 @@
+
+ Contextual equivalence is the
+ de facto
+ standard notion of program equivalence. A key theorem is that contextual equivalence is an
+ equational theory
+ . Making contextual equivalence more intensional, for example taking into account the time cost of the computation, seems a natural refinement. Such a change, however, does
+ not
+ induce an equational theory, for an apparently essential reason: cost is not invariant under reduction.
+ 
+
+ 
+In the paradigmatic case of the untyped λ-calculus, we introduce
+ interaction equivalence
+ . Inspired by game semantics, we observe the number of interaction steps between terms and contexts but—crucially—ignore their internal steps. We prove that interaction equivalence is an equational theory and characterize it as ℬ, the well-known theory induced by Böhm tree equality. It is the first observational characterization of ℬ obtained
+ without
+ enriching the discriminating power of contexts with extra features such as non-determinism. To prove our results, we develop interaction-based refinements of the Böhm-out technique and of intersection types.

@@ -1,0 +1,10 @@
+
+ Structure editors operate directly on a program’s syntactic tree structure. At first glance, this allows for the exciting possibility that such an editor could enforce correctness properties: programs could be well-formed and sometimes even well-typed by construction. Unfortunately, traditional approaches to structure editing that attempt to rigidly enforce these properties face a seemingly fundamental problem, known in the literature as
+ viscosity
+ . Making changes to existing programs often requires temporarily breaking program structure—but disallowing such changes makes it difficult to edit programs! In this paper, we present a scheme for structure editing which always maintains a valid program structure without sacrificing the fluidity necessary to freely edit programs. Two key pieces help solve this puzzle: first, we develop a novel generalization of
+ selection
+ for tree-based structures that properly generalizes text-based selection and editing, allowing users to freely rearrange pieces of code by cutting and pasting one-hole contexts; second, we type these one-hole contexts with a category of
+ type diffs
+ and explore the metatheory of the system that arises for maintaining well-typedness systematically. We implement our approach as an editor called
+ Pantograph
+ , and we conduct a study in which we successfully taught students to program with Pantograph and compare their performance against a traditional text editor.

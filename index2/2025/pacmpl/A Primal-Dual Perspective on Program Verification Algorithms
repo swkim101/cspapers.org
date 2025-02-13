@@ -1,0 +1,17 @@
+Many algorithms in verification and automated reasoning leverage some form of duality between proofs and refutations or counterexamples. In most cases, duality is only used as an intuition that helps in understanding the algorithms and is not formalized. In other cases, duality is used explicitly, but in a specially tailored way that does not generalize to other problems.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In this paper we propose a unified primal-dual framework for designing verification algorithms that leverage duality. To that end, we generalize the concept of a Lagrangian that is commonly used in linear programming and optimization to capture the domains considered in verification problems, which are usually discrete, e.g., powersets of states, predicates, ranking functions, etc. A Lagrangian then induces a primal problem and a dual problem. We devise an abstract primal-dual procedure that simultaneously searches for a primal solution and a dual solution, where the two searches guide each other. We provide sufficient conditions that ensure that the procedure makes progress under certain monotonicity assumptions on the Lagrangian.
+ 
+ 
+ 
+
+ 
+ 
+ 
+We show that many existing algorithms in program analysis, verification, and automated reasoning can be derived from our algorithmic framework with a suitable choice of Lagrangian. The Lagrangian-based formulation sheds new light on various characteristics of these algorithms, such as the ingredients they use to ensure monotonicity and guarantee progress. We further use our framework to develop a new validity checking algorithm for fixpoint logic over quantified linear arithmetic. Our prototype achieves promising results and in some cases solves instances that are not solved by state-of-the-art techniques.

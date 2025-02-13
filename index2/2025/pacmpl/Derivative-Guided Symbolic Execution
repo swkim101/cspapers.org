@@ -1,0 +1,12 @@
+
+ We consider the formulation of a symbolic execution (SE) procedure for functional programs that interact with effectful, opaque libraries. Our procedure allows specifications of libraries and abstract data type (ADT) methods that are expressed in
+ Linear Temporal Logic over Finite Traces
+ (LTL
+ 
+ f
+ 
+ ), interpreting them as
+ symbolic finite automata
+ (SFAs) to enable intelligent specification-guided path exploration in this setting. We apply our technique to facilitate the falsification of complex data structure safety properties in terms of effectful operations made by ADT methods on underlying opaque representation type(s). Specifications naturally characterize admissible traces of temporally-ordered events that ADT methods (and the library methods they depend upon) are allowed to perform. We show how to use these specifications to construct feasible symbolic input states for the corresponding methods, as well as how to encode safety properties in terms of this formalism. More importantly, we incorporate the notion of
+ symbolic derivatives
+ , a mechanism that allows the SE procedure to intelligently underapproximate the set of precondition states it needs to explore, based on the automata structures latent in the provided specifications and the safety property that is to be falsified. Intuitively, derivatives enable symbolic execution to exploit temporal constraints defined by trace-based specifications to quickly prune unproductive paths and discover feasible error states. Experimental results on a wide-range of challenging ADT implementations demonstrate the effectiveness of our approach.

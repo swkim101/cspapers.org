@@ -1,0 +1,68 @@
+
+ We present Bluebell, a program logic for reasoning about
+ 
+ 
+ 
+probabilistic programs where unary and relational styles of reasoning
+ 
+ 
+ 
+come together to create new reasoning tools. Unary-style reasoning is
+ 
+ 
+ 
+very expressive and is powered by foundational mechanisms to reason
+ 
+ 
+ 
+about probabilistic behavior like
+ independence
+ and
+ conditioning
+ . The relational style of reasoning, on the other
+ 
+ 
+ 
+hand, naturally shines when the properties of interest
+ compare
+ the behavior of similar programs (e.g. when proving differential
+ 
+ 
+ 
+privacy) managing to avoid having to characterize the output
+ 
+ 
+ 
+distributions of the individual programs. So far, the two styles of
+ 
+ 
+ 
+reasoning have largely remained separate in the many program logics
+ 
+ 
+ 
+designed for the deductive verification of probabilistic programs. In
+ 
+ 
+ 
+Bluebell, we unify these styles of reasoning through the introduction of
+ 
+ 
+ 
+a new modality called “joint conditioning” that can encode and
+ 
+ 
+ 
+illuminate the rich interaction between
+ conditional
+ 
+ 
+ 
+independence
+ and
+ relational liftings
+ ; the two powerhouses
+ 
+ 
+ 
+from the two styles of reasoning.

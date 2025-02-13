@@ -1,0 +1,14 @@
+
+ Multiparty session types (MPST) provide a type discipline for ensuring communication safety, deadlock-freedom and liveness for multiple concurrently running participants. The original formulation of MPST takes the
+ top-down
+ approach, where a
+ global type
+ specifies a bird’s eye view of the intended interactions between participants, and each distributed process is locally type-checked against its end-point projection. A more recent one takes the
+ bottom-up
+ approach, where a desired property of a set of participants is ensured if the same property is true for an ensemble of end-point types (a typing context) inferred from each participant. This paper compares these two main procedures of MPST, giving their detailed complexity analyses. To this aim, we build several new algorithms missing from the bottom-up or top-down workflows by using graph representation of session types (
+ type graphs
+ ). We first propose a subtyping system based on type graphs, offering more efficient (quadratic) subtype-checking than the existing (exponential) inductive algorithm by Ghilezan et al. Next for the top-down, we measure complexity of the four end-point projections in the literature. For the coinductive projection with full merging, we build a new sound and complete PSPACE-algorithm using type graphs. For bottom-up, we develop a novel
+ type inference system
+ from MPST processes which generates
+ minimum type graphs
+ , succinctly capturing covariance of internal choice and contravariance of external choice. For property-checking of typing contexts, we achieve PSPACE-hardness by reducing it from the quantified Boolean formula (QBF) problem, and build nondeterministic algorithms that search for counterexamples to prove membership in PSPACE. We also present deterministic analogues of these algorithms that run in exponential time. Finally, we calculate the total complexity of the top-down and the bottom-up approaches. Our analyses reveal that the top-down based on global types is more efficient than the bottom-up in many realistic cases; liveness checking for typing contexts in the bottom-up has the highest complexity; and the type inference costs exponential against the size of a process, which impacts the total complexity.

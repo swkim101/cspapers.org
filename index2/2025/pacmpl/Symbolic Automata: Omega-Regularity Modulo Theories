@@ -1,0 +1,77 @@
+
+ Symbolic automata are finite state automata that support potentially infinite alphabets, such as the set of rational numbers, generally applied to regular expressions and languages over finite words. In symbolic automata (or automata modulo
+ A
+ ), an alphabet is represented by an effective Boolean algebra
+ A
+ , supported by a decision procedure for satisfiability. Regular languages over infinite words (so called ω-regular languages) have a rich history paralleling that of regular languages over finite words, with well-known applications to model checking via Büchi automata and temporal logics. We generalize symbolic automata to support ω-regular languages via
+ transition terms
+ and
+ symbolic derivatives
+ , bringing together a variety of classic automata and logics in a unified framework that provides all the necessary ingredients to support symbolic model checking modulo
+ A
+ . In particular, we define: (1) alternating Büchi automata modulo
+ A
+ (
+ ABW
+ 
+ A
+ 
+ ) as well (non-alternating) nondeterministic Büchi automata modulo
+ A
+ (
+ NBW
+ 
+ A
+ 
+ ); (2) an alternation elimination algorithm Æ that incrementally constructs an
+ NBW
+ 
+ A
+ 
+ from an
+ ABW
+ 
+ A
+ 
+ , and can also be used for constructing the product of two
+ NBW
+ 
+ A
+ 
+ ; (3) a definition of linear temporal logic modulo
+ A
+ ,
+ LTL
+ (
+ A
+ ), that generalizes Vardi’s construction of alternating Büchi automata from LTL, using (2) to go from LTL modulo
+ A
+ to
+ NBW
+ 
+ A
+ 
+ via
+ ABW
+ 
+ A
+ 
+ . Finally, we present
+ RLTL
+ (
+ A
+ ), a combination of
+ LTL
+ (
+ A
+ ) with extended regular expressions modulo
+ A
+ that generalizes the Property Specification Language (PSL). Our combination allows regex
+ complement
+ , that is not supported in PSL but can be supported naturally by using transition terms. We formalize the semantics of
+ RLTL
+ (
+ A
+ ) using the
+ Lean
+ proof assistant and formally establish correctness of the main derivation theorem.
