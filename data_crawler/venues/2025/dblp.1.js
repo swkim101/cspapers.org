@@ -27,6 +27,7 @@ const names = [
   "stoc",
   "lics",
   "osdi",
+  "sosp",
   "sp",
   "ndss",
   "ccs",
@@ -56,9 +57,9 @@ const names = [
 
 const venues = names.map((name) => ({
     name,
-    year: 2024,
+    year: 2025,
     crawler: "dblp-common",
-    url: `${prefix}/${name}/${name}2024.html`,
+    url: `${prefix}/${name}/${name}2025.html`,
   })
 )
 
