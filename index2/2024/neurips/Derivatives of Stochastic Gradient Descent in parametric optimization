@@ -1,0 +1,15 @@
+
+Purpose
+This paper aims to deal with the design optimization of a synchronous reluctance machine to be used in an X-ray tube, where the goal is to maximize the torque while keeping low the amount of material used, by means of gradient-based free-form shape optimization.
+
+
+Design/methodology/approach
+The presented approach is based on the mathematical concept of shape derivatives and allows to obtain new motor designs without the need to introduce a geometric parametrization. This paper presents an extension of a standard gradient-based free-form shape optimization algorithm to the case of multiple objective functions by determining updates, which represent a descent of all involved criteria. Moreover, this paper illustrates a way to obtain an approximate Pareto front.
+
+
+Findings
+The presented method allows to obtain optimal designs of arbitrary, non-parametric shape with very low computational cost. This paper validates the results by comparing them to a parametric geometry optimization in JMAG by means of a stochastic optimization algorithm. While the obtained designs are of similar shape, the computational time used by the gradient-based algorithm is in the order of minutes, compared to several hours taken by the stochastic optimization algorithm.
+
+
+Originality/value
+This paper applies the presented gradient-based multi-objective optimization algorithm in the context of free-form shape optimization using the mathematical concept of shape derivatives. The authors obtain a set of Pareto-optimal designs, each of which is a shape that is not represented by a fixed set of parameters. To the best of the authors’ knowledge, this approach to multi-objective free-form shape optimization is novel in the context of electric machines.

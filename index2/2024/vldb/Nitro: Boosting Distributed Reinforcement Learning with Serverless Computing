@@ -1,0 +1,17 @@
+Deep reinforcement learning (DRL) has demonstrated significant potential in various applications, including gaming AI, robotics, and system scheduling. DRL algorithms produce, sample, and learn from training data online through a trial-and-error process, demanding considerable time and computational resources. To address this, distributed DRL algorithms and paradigms have been developed to expedite training using extensive resources. Through carefully designed experiments, we are the first to observe that strategically increasing the actor-environment interactions by spawning more concurrent actors at certain training rounds within ephemeral time frames can significantly enhance training efficiency. Yet, current distributed DRL solutions, which are predominantly server-based (or serverful), fail to capitalize on these opportunities due to their long startup times, limited adaptability, and cumbersome scalability.
+ 
+ This paper proposes
+ Nitro
+ , a generic training engine for distributed DRL algorithms that enforces timely and effective boosting with concurrent actors instantaneously spawned by serverless computing. With serverless functions,
+ Nitro
+ adjusts data sampling strategies dynamically according to the DRL training demands.
+ Nitro
+ seizes the opportunity of real-time boosting by accurately and swiftly detecting an empirical metric. To achieve cost efficiency, we design a heuristic actor scaling algorithm to guide
+ Nitro
+ for cost-aware boosting budget allocation. We integrate
+ Nitro
+ with state-of-the-art DRL algorithms and frameworks and evaluate them on AWS EC2 and Lambda. Experiments with Mujoco and Atari benchmarks show that
+ Nitro
+ improves the final rewards (
+ i.e.
+ , training quality) by up to 6× and reduces training costs by up to 42%.
