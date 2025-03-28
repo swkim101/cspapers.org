@@ -135,6 +135,13 @@ Poor conference filter:
 
 ¯\\_(ツ)_/¯
 
+## Research
+
+Dear researchers, feel free to contact me at iam@sungwoo-kim, if you need any help.  
+For example, I can archive the search results with a timestamp so you can more reliably cite a URL in your paper.
+
+* [USENIX'25] [SoK: Towards Effective Automated Vulnerability Repair](https://arxiv.org/pdf/2501.18820)
+
 ## Acknowlegement
 
 We referred to csrankings.org for organizing conferences.
@@ -143,8 +150,9 @@ Thanks to https://github.com/michmech/lemmatization-lists for lemma data.
 
 All data is from to Semantic Schoalr. Thank you.
 
-If this is helpful, consider to cite Semantic Scholar:
+If this is helpful, consider citing Semantic Scholar and cspapers:
 ```
+@misc{kim2024cspapers, title={cspapers.org}, url={https://cspapers.org/}, author={Kim, Sungwoo}, year={2024}, month=aug, language={en} }
 @misc{https://doi.org/10.48550/arxiv.2301.10140,
  title = {The Semantic Scholar Open Data Platform},
  author = {Kinney, Rodney and Anastasiades, Chloe and Authur, Russell and Beltagy, Iz and Bragg, Jonathan and Buraczynski, Alexandra and Cachola, Isabel and Candra, Stefan and Chandrasekhar, Yoganand and Cohan, Arman and Crawford, Miles and Downey, Doug and Dunkelberger, Jason and Etzioni, Oren and Evans, Rob and Feldman, Sergey and Gorney, Joseph and Graham, David and Hu, Fangzhou and Huff, Regan and King, Daniel and Kohlmeier, Sebastian and Kuehl, Bailey and Langan, Michael and Lin, Daniel and Liu, Haokun and Lo, Kyle and Lochner, Jaron and MacMillan, Kelsey and Murray, Tyler and Newell, Chris and Rao, Smita and Rohatgi, Shaurya and Sayre, Paul and Shen, Zejiang and Singh, Amanpreet and Soldaini, Luca and Subramanian, Shivashankar and Tanaka, Amber and Wade, Alex D. and Wagner, Linda and Wang, Lucy Lu and Wilhelm, Chris and Wu, Caroline and Yang, Jiangjiang and Zamarron, Angele and Van Zuylen, Madeleine and Weld, Daniel S.},
