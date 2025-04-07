@@ -1,0 +1,14 @@
+
+ Influence maximization (IM) is a classic problem that aims to identify a small group of critical individuals, known as seeds, who can influence the largest number of users in a social network through word-of-mouth. This problem finds important applications including viral marketing, infection detection, and misinformation containment. The conventional IM problem is typically studied with the oversimplified goal of selecting a
+ single
+ seed set. Many real-world scenarios call for
+ multiple
+ sets of seeds, particularly on social media platforms where various viral marketing campaigns need different sets of seeds to propagate effectively. To this end, previous works have formulated various IM variants, central to which is the requirement of multiple seed sets, naturally modeled as a matroid constraint. However, the current best-known solutions for these variants either offer a weak (1/2 -
+ ε
+ )-approximation, or offer a (1 - 1/
+ e - ε
+ )-approximation algorithm that is very expensive. We propose an efficient seed selection method called AMP, an algorithm with a (1 - 1/
+ e
+ -
+ ε
+ )-approximation guarantee for this family of IM variants. To further improve efficiency, we also devise a fast implementation, called RAMP. We extensively evaluate the performance of our proposal against 6 competitors across 4 IM variants and on 7 real-world networks, demonstrating that our proposal outperforms all competitors in terms of result quality, running time, and memory usage. We have also deployed RAMP in a real industry strength application involving online gaming, where we show that our deployed solution significantly improves upon the baselines.

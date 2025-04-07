@@ -1,0 +1,18 @@
+Causal inference can quantify cause-effect relationships in domains as varied as medicine, economics and public policy. Production computer systems exhibit a similar level of complexity and a recurring need to diagnose problems quickly. However, systems are only observed imperfectly, often via long, messy, semi-structured logs.
+ 
+ In this work, we want to accelerate large systems debugging by applying causal inference over logs, enabling engineers to diagnose problems and assess interventions in a principled manner. Our framework achieves this through two human-in-the-loop modules: (1) The
+ Candidate Cause Ranker
+ , through which one can determine the causes of a variable without running a full causal discovery algorithm; and (2) the
+ Interactive Causal Graph Refiner
+ , which helps engineers compute an unbiased estimation of their effect of interest without extensive manual causal graph verification. Both modules are powered by the insight that only part of the causal graph of the system is needed to correctly quantify a given effect of interest. We also provide a data preparation pipeline, the
+ Log Converter
+ , which transforms raw, messy, real-world logs into an appropriate tabular input for causal inference, using methods drawn from data transformation, cleaning, and extraction.
+ 
+ 
+ We evaluate LOGos, a prototype implementation, on both real-world and synthetic logs and find that: (1) The
+ Candidate Cause Ranker
+ achieved an average precision 1.08×-18× higher than the baselines, in interactive time; (2) The
+ Interactive Causal Graph Refiner
+ required a number of causal judgments 1.61 × - 16.83× lower than the baselines; and (3) The latency of
+ Log Converter
+ scaled linearly with three measures of the complexity of a log: length, distinct templates, and fraction of tokens that are variables.

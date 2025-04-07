@@ -1,0 +1,18 @@
+
+ Trajectory representation learning (TRL) maps trajectories to vectors that can then be used for various downstream tasks, including trajectory similarity computation, trajectory classification, and travel-time estimation. However, existing TRL methods often produce vectors that, when used in downstream tasks, yield insufficiently accurate results. A key reason is that they fail to utilize the comprehensive information encompassed by trajectories. We propose a self-supervised TRL framework, called RED, which effectively exploits multiple types of trajectory information. Overall, RED adopts the Transformer as the backbone model and masks the constituting paths in trajectories to train a masked autoencoder (MAE). In particular, RED considers the moving patterns of trajectories by employing a
+ 
+ R
+ oad-aware masking strategy
+ 
+ that retains key paths of trajectories during masking, thereby preserving crucial information of the trajectories. RED also adopts a
+ 
+ spatial-temporal-user joint
+ E
+ mbedding
+ 
+ scheme to encode comprehensive information when preparing the trajectories as model inputs. To conduct training, RED adopts
+ 
+ D
+ ual-objective task learning
+ 
+ : the Transformer encoder predicts the next segment in a trajectory, and the Transformer decoder reconstructs the entire trajectory. RED also considers the spatial-temporal correlations of trajectories by modifying the attention mechanism of the Transformer. We compare RED with 9 state-of-the-art TRL methods for 4 downstream tasks on 3 real-world datasets, finding that RED can usually improve the accuracy of the best-performing baseline by over 5%.

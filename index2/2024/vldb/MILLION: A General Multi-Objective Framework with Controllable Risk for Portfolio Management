@@ -1,0 +1,16 @@
+
+ Portfolio management is an important yet challenging task in AI for FinTech, which aims to allocate investors' budgets among different assets to balance the risk and return of an investment. In this study, we propose a general
+ M
+ ulti-object
+ I
+ ve framework with contro
+ LL
+ able r
+ I
+ sk for p
+ O
+ rtfolio ma
+ N
+ agement (
+ MILLION
+ ), which consists of two main phases, i.e., return-related maximization and risk control. Specifically, in the return-related maximization phase, we introduce two auxiliary objectives, i.e., return rate prediction, and return rate ranking, combined with portfolio optimization to remit the overfitting problem and improve the generalization of the trained model to future markets. Subsequently, in the risk control phase, we propose two methods, i.e., portfolio interpolation and portfolio improvement, to achieve fine-grained risk control and fast risk adaption to a user-specified risk level. For the portfolio interpolation method, we theoretically prove that the risk can be perfectly controlled if the to-be-set risk level is in a proper interval. In addition, we also show that the return rate of the adjusted portfolio after portfolio interpolation is no less than that of the min-variance optimization, as long as the model in the reward maximization phase is effective. Furthermore, the portfolio improvement method can achieve greater return rates while keeping the same risk level compared to portfolio interpolation. Extensive experiments are conducted on three real-world datasets. The results demonstrate the effectiveness and efficiency of the proposed framework.

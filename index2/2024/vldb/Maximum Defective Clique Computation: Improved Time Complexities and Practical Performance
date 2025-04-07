@@ -1,0 +1,131 @@
+
+ k
+ -defective clique is a relaxation of the well-studied clique structure, by allowing up-to
+ k
+ edges missing from a clique. The problem of finding a
+ k
+ -defective clique with the largest number of vertices, although being NP-hard, has been receiving increasing interests recently, with advancements in both the theoretical time complexity and practical efficiency. The state-of-the-art time complexity is
+ 
+ O*(γ
+ n
+ k
+ )
+ 
+ , where
+ O*
+ ignores polynomial factors,
+ n
+ is the number of vertices in the input graph
+ G
+ , and
+ 
+ γ
+ k
+ 
+ < 2 is a constant that only depends on
+ k.
+ In this paper, we first prove, through a more refined and non-trivial analysis, that the time complexity of an existing algorithm can actually be bounded by
+ 
+ O* (γ
+ n
+ k
+ 
+ -1
+ ), where
+ 
+ γ
+ k
+ 
+ -1
+ <
+ 
+ γ
+ k
+ .
+ 
+ Then, by utilizing the diameter-two property of large
+ k
+ -deffective cliques, we show that for graphs with maximum
+ k
+ -defective clique sizes
+ 
+ ω
+ k
+ 
+ (
+ G
+ ) ≥
+ k
+ + 2, a maximum
+ k
+ -defective clique can be found in
+ O*
+ ((
+ α
+ Δ
+ 
+ )
+ k
+ 
+ +2
+ 
+ γ
+ α
+ k
+ 
+ -1
+ ) time when using the degeneracy parameterization
+ α
+ and in
+ O
+ ((αΔ)
+ 
+ k
+ +2
+ 
+ γ
+ α
+ 
+ k
+ -1
+ 
+ ) time when using the degeneracy-gap parameterization
+ α
+ +
+ k
+ + 1 -
+ 
+ ω
+ k
+ 
+ (
+ G
+ ); here,
+ α
+ and Δ are the degeneracy and maximum degree of
+ G
+ , respectively. Note that, most real graphs satisfy
+ 
+ ω
+ k
+ 
+ (
+ G
+ ) ≥
+ k
+ + 2 and
+ α
+ ≪
+ n.
+ Lastly, to improve the practical performance, we design a new degree-sequence-based reduction rule that can be efficiently applied, and theoretically demonstrate its effectiveness compared with the existing reduction rules. Extensive empirical studies on three benchmark graph collections, containing 290 graphs in total, show that our algorithm is also practically efficient, by outperforming all existing algorithms by several orders of magnitude. We remark that our proving techniques for reducing the base from
+ 
+ γ
+ k
+ 
+ to
+ 
+ γ
+ k
+ 
+ -1
+ and our general principle of designing a new reduction rule may also be beneficial to other problems.

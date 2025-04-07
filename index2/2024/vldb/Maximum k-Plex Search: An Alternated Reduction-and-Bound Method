@@ -1,0 +1,23 @@
+
+ k
+ -plexes relax cliques by allowing each vertex to disconnect to at most
+ k
+ vertices. Finding a maximum
+ k
+ -plex in a graph is a fundamental operator in graph mining and has been receiving significant attention from various domains. The state-of-the-art algorithms all adopt the branch-reduction-and-bound (BRB) framework where a key step, called
+ reduction-and-bound
+ (RB), is used for narrowing down the search space. A common practice of RB in existing works is SeqRB, which
+ sequentially
+ conducts the reduction process followed by the bounding process
+ once
+ at a branch. However, these algorithms suffer from the efficiency issues. In this paper, we propose a new
+ alternated reduction-and-bound
+ method AltRB for conducting RB. AltRB first partitions a branch into two parts and then
+ alternatively
+ and
+ iteratively
+ conducts the reduction process and the bounding process at each part of a branch. With newly-designed reduction rules and bounding methods, AltRB is superior to SeqRB in effectively narrowing down the search space
+ in both theory and practice.
+ Further, to boost the performance of BRB algorithms, we develop efficient and effective pre-processing methods which reduce the size of the input graph and heuristically compute a large
+ k
+ -plex as the lower bound. We conduct extensive experiments on 664 real and synthetic graphs. The experimental results show that our proposed algorithm kPEX with AltRB and novel preprocessing techniques runs up to two orders of magnitude faster and solves more instances than state-of-the-art algorithms.

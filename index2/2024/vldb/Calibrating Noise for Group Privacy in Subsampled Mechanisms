@@ -1,0 +1,26 @@
+
+ Given a group size
+ m
+ and a sensitive dataset
+ D
+ , group privacy (GP) releases information about
+ D
+ (e.g., weights of a neural network trained on
+ D)
+ with the guarantee that the adversary cannot infer with high confidence whether the underlying data is
+ D
+ or a neighboring dataset
+ D
+ ′ that differs from
+ D
+ by
+ m
+ records. GP generalizes the well-established notion of differential privacy (DP) for protecting individuals' privacy; in particular, when
+ m
+ = 1, GP reduces to DP. Compared to DP, GP is capable of protecting the sensitive
+ aggregate
+ information of a group of up to
+ m
+ individuals, e.g., the average annual income among members of a yacht club. Despite its longstanding presence in the research literature and its promising applications, GP is often treated as an afterthought, with most approaches first developing a differential privacy (DP) mechanism and then using a generic conversion to adapt it for GP, treating the DP solution as a black box. As we point out in the paper, this methodology is suboptimal when the underlying DP solution involves subsampling, e.g., in the classic DP-SGD method for training deep learning models. In this case, the DP-to-GP conversion is overly pessimistic in its analysis, leading to high error and low utility in the published results under GP.
+ 
+ Motivated by this, we propose a novel analysis framework that provides tight privacy accounting for subsampled GP mechanisms. Instead of converting a black-box DP mechanism to GP, our solution carefully analyzes and utilizes the inherent randomness in subsampled mechanisms, leading to a substantially improved bound on the privacy loss with respect to GP. The proposed solution applies to a wide variety of foundational mechanisms with subsampling. Extensive experiments with real datasets demonstrate that compared to the baseline convert-from-blackbox-DP approach, our GP mechanisms achieve noise reductions of over an order of magnitude in several practical settings, including deep neural network training.
