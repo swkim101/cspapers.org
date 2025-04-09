@@ -1,0 +1,8 @@
+
+ In recent years, the widely collected spatial-textual data has given rise to numerous applications centered on spatial keyword queries. However, securely providing spatial keyword query services in an outsourcing environment has been challenging. Existing schemes struggle to enable top-
+ k
+ spatial keyword queries on encrypted data while hiding search, access, and volume patterns, which raises concerns about availability and security. To address the above issue, this paper proposes OBIR-tree, a novel index structure for oblivious (provably hides search, access, and volume patterns) top-
+ k
+ spatial keyword queries on encrypted data. As a tight spatial-textual index tailored from the IR-tree and PathORAM, OBIR-tree can support sublinear search without revealing any useful information. Furthermore, we present extension designs to optimize the query latency of the OBIR-tree: (1) combine the OBIR-tree with hardware secure enclaves (
+ e.g.,
+ Intel SGX) to minimize client-server interactions; (2) build a Real/Dummy block Tree (RDT) to reduce the computational cost of oblivious operations within enclaves. Extensive experimental evaluations on real-world datasets demonstrate that the search efficiency of OBIR-tree outperforms state-of-the-art baselines by 25x ~ 723× and is practical for real-world applications.

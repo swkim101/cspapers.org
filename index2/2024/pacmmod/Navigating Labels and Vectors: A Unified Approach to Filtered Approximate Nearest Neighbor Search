@@ -1,0 +1,14 @@
+
+ Given a query vector, approximate nearest neighbor search (ANNS) aims to retrieve similar vectors from a set of high-dimensional base vectors. However, many real-world applications jointly query both vector data and structured data, imposing label constraints such as attributes and keywords on the search, known as filtered ANNS. Effectively incorporating filtering conditions with vector similarity presents significant challenges, including index for dynamically filtered search space, agnostic query labels, computational overhead for label-irrelevant vectors, and potential inadequacy in returning results. To tackle these challenges, we introduce a novel approach called the
+ Label Navigating Graph,
+ which encodes the containment relationships of label sets for all vectors. Built upon graph-based ANNS methods, we develop a general framework termed
+ Unified Navigating Graph (UNG)
+ to bridge the gap between label set containment and vector proximity relations. UNG offers several advantages, including
+ versatility
+ in supporting any query label size and specificity,
+ fidelity
+ in exclusively searching filtered vectors,
+ completeness
+ in providing sufficient answers, and
+ adaptability
+ in integration with most graph-based ANNS algorithms. Extensive experiments on real datasets demonstrate that the proposed framework outperforms all baselines, achieving 10x speedups at the same accuracy.

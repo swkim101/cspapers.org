@@ -1,0 +1,15 @@
+
+ The study of
+ k
+ -defective cliques, defined as induced subgraphs that differ from cliques by at most
+ k
+ missing edges, has attracted much attention in graph analysis due to their relevance in various applications, including social network analysis and implicit interaction predictions. However, determining the maximum
+ k
+ -defective clique in graphs has been proven to be an NP-hard problem, presenting significant challenges in finding an efficient solution. To address this problem, we develop a theoretically and practically efficient algorithm that leverages newly-designed branch reduction rules and a pivot-based branching technique. Our analysis establishes that the time complexity of the proposed algorithm is bounded by O(mγ
+ k
+ n
+ ), where γ
+ k
+ is a real value strictly less than 2 (e.g., when k= 1, 2, and 3, γ
+ k
+ = 1.466, 1.755, and 1.889, respectively). To our knowledge, this algorithm achieves the best worst-case time complexity to date compared to state-of-the-art solutions. Moreover, to further reduce unnecessary branches, we propose a time-efficient upper bound-based pruning technique, which is obtained by manipulating information such as the number of distinct colors assigned to vertices and the presence of non-neighbors among them. Additionally, we employ an ordering-based heuristic approach as a preprocessing step to improve computational efficiency. Finally, we conduct extensive experiments on a diverse set of over 300 graphs to evaluate the efficiency of the proposed solutions. The results demonstrate that our algorithm achieves a speedup of 3 orders of magnitude over state-of-the-art solutions in processing most of real-world graphs.

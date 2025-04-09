@@ -1,0 +1,9 @@
+
+ When running OLTP workloads on flash SSDs, relational DBMSs still face the write durability overhead, severely limiting their performance. To address this challenge, we propose NV-PPL, a novel database architecture that leverages NVDIMM as a
+ durable log cache.
+ NV-PPL
+ captures per-page redo logs and retains them on NVDIMM to absorb writes from DRAM to SSD. Our
+ NV-PPL
+ prototype, deployed on an actual NVDIMM device, demonstrates superior transaction throughput, surpassing the
+ same-priced
+ Vanilla MySQL by at least 6.9× and NV-SQL, a page-grained NVDIMM caching scheme, by up to 1.5×. Beyond write reduction, the page-wise logs in NVDIMM enable novel approaches such as redo-less recovery and redo-based multi-versioning. Compared to Vanilla MySQL, redo-less recovery reduces recovery time by one-third, while redo-based multi-versioning enhances the latency of long-lived transactions in HTAP workloads by 3× to 18×.

@@ -1,0 +1,16 @@
+
+ Spatial Database Management Systems (SDBMSs) aim to store, manipulate, and retrieve
+ spatial data
+ . SDBMSs are employed in various modern applications, such as geographic information systems, computer-aided design tools, and location-based services. However, the presence of logic bugs in SDBMSs can lead to incorrect results, substantially undermining the reliability of these applications. Detecting logic bugs in SDBMSs is challenging due to the lack of ground truth for identifying incorrect results. In this paper, we propose an automated
+ geometry-aware generator
+ to generate high-quality SQL statements for SDBMSs and a novel concept named
+ Affine Equivalent Inputs (AEI)
+ to validate the results of SDBMSs. We implemented them as a tool named Spatter (
+ Spat
+ ial DBMS Tes
+ ter
+ ) for finding logic bugs in four popular SDBMSs: PostGIS, DuckDB Spatial, MySQL, and SQL Server. Our testing campaign detected 34 previously unknown and unique bugs in these SDBMSs, of which 30 have been confirmed, and 18 have already been fixed. Our testing efforts have been well appreciated by the developers. Experimental results demonstrate that the
+ geometry-aware generator
+ significantly outperforms a naive random-shape generator in detecting unique bugs, and
+ AEI
+ can identify 14 logic bugs in SDBMSs that were totally overlooked by previous methodologies.

@@ -1,0 +1,6 @@
+
+ In a
+ spatial join
+ , we are given a constant number k ≥ 2 of sets - denoted as R1, R2, ..., Rk - containing axis-parallel rectangles in a 2D space. The objective is to report all k-tuples (r1, r2, ..., rk ) ∈ R1 × R2 × ... × Rk where the rectangles r1, r2, ..., rk have a non-empty intersection, i.e., r1 ∩ r2 ∩ ... ∩ rk ≠ ∅. The problem holds significant importance in spatial databases and has been extensively studied in the database community. In this paper, we show how to settle the problem in O(n logn + OUT) time - regardless of the constant k - where n = Ík i=1 |Ri | and OUT is the result size (i.e., the total number of k-tuples reported). The runtime is asymptotically optimal in the class of comparison-based algorithms, to which our solution belongs. Previously, the state of the art was an algorithm with running time O(n log
+ 2k-1
+ n + OUT).

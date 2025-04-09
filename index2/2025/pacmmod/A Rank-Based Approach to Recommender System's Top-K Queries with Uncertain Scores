@@ -1,0 +1,12 @@
+
+ Top-
+ K
+ queries provide a ranked answer using a score that can either be given explicitly or computed from tuple values. Recommender systems use scores, based on user feedback on items with which they interact, to answer top-
+ K
+ queries. Such scores pose the challenge of correctly ranking elements using scores that are more often than not, uncertain. In this work, we address top-
+ K
+ queries based on uncertain scores. We propose to explicitly model the inherent uncertainty in the provided data and to consider a distribution of scores instead of a single score. Rooted in works of database probabilistic ranking, we offer the use of probabilistic ranking as a tool of choice for generating recommendation in the presence of uncertainty. We argue that the ranking approach should be chosen in a manner that maximizes user satisfaction, extending state-of-the-art on quality aspect of top-
+ K
+ answers over uncertain data, their relationship to top-
+ K
+ semantics, and improve ranking with uncertain scores in recommender systems. Towards this end, we introduce RankDist, an algorithm for efficiently computing probability of item position in a ranked recommendation. We show that rank-based (rather than score-based) methods that are computed using RankDist, which were not applied in recommender systems before, offer a guaranteed optimality by expectation and empirical superiority when tested on common benchmarks.

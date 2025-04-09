@@ -1,0 +1,29 @@
+
+ The
+ s
+ -bundle, as a cohesive subgraph model which relaxes the clique, remains connected whenever fewer than
+ n-s
+ vertices are removed, where
+ n
+ is the number of vertices inside. Finding the largest
+ s
+ -bundle is a fundamental problem and has diverse applications in various fields such as social network analysis, graph visualization, and bioinformatics. Existing studies for solving the problem follow the same branch-and-bound framework and improve the efficiency by developing pruning techniques. As a result, all share the same worst-case time complexity of
+ O*
+ (2
+ 
+ n
+ 
+ ), where
+ O*
+ suppresses the polynomial factors. In this paper, we propose a new branch-and-bound algorithm, called SymBD, which achieves improved theoretical guarantees and practical performance. It adopts the existing Symmetric-BK branching strategy whose performance highly depends on the ordering of vertices. We explore various vertex orderings for improving the performance. In particular, we propose two novel vertex orderings based on the local vertex connectivity. With the proposed vertex orderings, SymBD improves the worst-case time complexity to
+ O*
+ (λ
+ 
+ n
+ s
+ 
+ ) where λ
+ 
+ s
+ 
+ is strictly less than 2. To further boost the practical efficiency, we introduce a heuristic algorithm for computing a large initial solution and a divide-and-conquer strategy. Extensive experiments on 664 graphs demonstrate that our algorithm is up to five orders of magnitude faster than existing solutions.

@@ -1,0 +1,12 @@
+
+ We use machine learning to optimize LSM-tree structure, aiming to reduce the cost of processing various read/write operations. We introduce a new approach CAMAL, which boasts the following features: (1)
+ ML-Aided
+ : CAMAL is the first attempt to apply active learning to tune LSM-tree based key-value stores. The learning process is coupled with traditional cost models to improve the training process; (2)
+ Decoupled Active Learning
+ : backed by rigorous analysis, CAMAL adopts active learning paradigm based on a decoupled tuning of each parameter, which further accelerates the learning process; (3)
+ Easy Extrapolation
+ : CAMAL adopts an effective mechanism to incrementally update the model with the growth of the data size; (4)
+ Dynamic Mode
+ : CAMAL is able to tune LSM-tree online under dynamically changing workloads; (5)
+ Significant System Improvement
+ : By integrating CAMAL into a full system RocksDB, the system performance improves by 28% on average and up to 8x compared to a state-of-the-art RocksDB design.

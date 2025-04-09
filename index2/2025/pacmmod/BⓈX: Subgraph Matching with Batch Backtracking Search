@@ -1,0 +1,12 @@
+
+ Subgraph matching is a fundamental problem in graph analysis. Recently, many algorithms have been developed, often using classic backtracking search. This traditional backtracking search matches one vertex at a time, denoted as BⓈ1, which can lead to redundant computations due to overlapping search spaces. To address this problem, we propose a novel
+ batch-backtracking search
+ framework that enables matching a set of data vertices 
+ X
+ , denoted as BⓈ
+ X
+ , in each backtracking step. BⓈ
+ X
+ models the search space as a "search box", allowing for flexible search space exploration and significantly minimizing the overlap between search spaces. It effectively selects batches to cluster data vertices with similar search spaces. For each search box, we introduce a refinement method to filter out unpromising candidate mappings. Furthermore, we propose a homomorphism termination to break the backtracking process as early as possible and an efficient embedding enumeration method to list all embeddings within the search box simultaneously. Extensive experiments on real-world graphs demonstrate that BⓈ
+ X
+ significantly outperforms existing state-of-the-art algorithms, achieving a speedup of one to two orders of magnitude on most graphs under the EPS metric.

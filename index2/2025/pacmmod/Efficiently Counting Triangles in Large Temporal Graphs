@@ -1,0 +1,10 @@
+
+ In many real-world applications (e.g., email networks, social networks, and phone call networks), the relationships between entities can be modeled as a temporal graph, in which each edge is associated with a timestamp representing the interaction time. As a fundamental task in temporal graph analysis, triangle counting has received much attention, and several triangle models have been developed, including δ-temporal triangle, sliding-window triangle, and (δ
+ 1,3
+ , δ
+ 1,2
+ , δ
+ 2,3
+ )-temporal triangle. In particular, the δ-temporal triangle, requiring the gap of timestamps of any two edges within it to be bounded by a threshold δ, has been demonstrated effective in many real applications, such as cohesiveness analysis, transitivity, clustering coefficient, and graph classification. In this paper, we study fast algorithms for counting δ-temporal triangles in a given query time window. We first propose an online algorithm, which enumerates all edges in the graph and for each edge, calculates how many δ-temporal triangles end with the edge. We further develop an efficient index-based solution, which maps δ-temporal triangles into points of the 2-dimensional space and further compactly organizes these points using hierarchical structures. Besides, we study the problem of binary δ-temporal triangle counting by considering the existence of δ-temporal triangle among three vertices. Experiments on large temporal graphs show that our online algorithm is up to 70× faster than the state-of-the-art algorithm, and our index-based algorithm is up to 10
+ 8
+ × faster than the online algorithm.

@@ -1,0 +1,12 @@
+
+ Datalog
+ o
+ is an extension of Datalog that allows for aggregation and recursion over an arbitrary commutative semiring. Like Datalog, Datalogo programs can be evaluated via the natural iterative algorithm until a fixed point is reached. However unlike Datalog, the natural iterative evaluation of some Datalogo programs over some semirings may not converge. It is known that the commutative semirings for which the iterative evaluation of Datalogo programs is guaranteed to converge are exactly those semirings that are stable. Previously, the best known upper bound on the number of iterations until convergence over p-stable semirings is ∑i=1 ^n (p+2)
+ i
+ = Θ(p
+ n
+ ) steps, where n is (essentially) the output size. We establish that, in fact, the natural iterative evaluation of a Datalogo program over a p-stable semiring converges within a polynomial number of iterations. In particular our upper bound is O(σ p n
+ 2
+ ( n
+ 2
+ lg Λ + lg σ)) where σ is the number of elements in the semiring present in either the input databases or the Datalogo program, and λ is the maximum number of terms in any product in the Datalogo program.

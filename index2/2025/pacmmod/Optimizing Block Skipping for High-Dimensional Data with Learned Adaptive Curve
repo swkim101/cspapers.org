@@ -1,0 +1,10 @@
+
+ In the realm of big data and cloud analytics, efficiently managing and retrieving high-dimensional data presents a critical challenge. Traditional indexes often struggle with the storage overhead inherent in large datasets. There is a growing interest in the adoption of Small Materialize Aggregation (SMA) among cloud database vendors due to its ability to maintain lightweight block-level metadata, facilitating efficient block skipping. However, SMA performance relies heavily on data layout. This is especially critical in scenarios with wide tables containing hundreds of dimensions, where the curse of dimensionality exacerbates the issue. In this paper, we propose
+ AdaCurve
+ , a novel approach aimed at enhancing block skipping in high-dimensional datasets through adaptive optimization of data layout. Unlike conventional static and non-adaptive space-filling curves (SFCs),
+ AdaCurve
+ leverages machine learning to develop an adaptive curve---a dynamically adjusting optimal projection function tailored to high-dimensional workloads and data characteristics. We introduce an attention-based network to handle high-dimensional data and a learnable objective for training adaptive curves in an end-to-end manner. Extensive experiments conducted on the Spark with real-world datasets demonstrate the effectiveness of
+ AdaCurve
+ . We have shown that
+ AdaCurve
+ effectively scales to datasets with dimensions of up to 1,000 columns, achieving a 2.8× improvement in block skipping compared to SFCs.

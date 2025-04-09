@@ -1,0 +1,8 @@
+
+ In this paper, we present a new DBMS performance benchmark that can
+ simulate
+ user exploration with any specified dashboard design made of standard visualization and interaction components. The distinguishing feature of our SImulation-BAsed (or SIMBA) benchmark is its ability to
+ model user analysis goals
+ as a set of SQL queries to be generated through a valid sequence of user interactions, as well as
+ measure the completion of analysis goals
+ by testing for equivalence between the user's previous queries and their goal queries. In this way, the SIMBA benchmark can simulate how an analyst opportunistically searches for interesting insights at the beginning of an exploration session and eventually hones in on specific goals towards the end. To demonstrate the versatility of the SIMBA benchmark, we use it to test the performance of four DBMSs with six different dashboard specifications and compare our results with IDEBench. Our results show how goal-driven simulation can reveal gaps in DBMS performance missed by existing benchmarking methods and across a range of data exploration scenarios.

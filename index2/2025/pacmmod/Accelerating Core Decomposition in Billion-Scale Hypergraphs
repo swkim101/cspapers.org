@@ -1,0 +1,6 @@
+
+ Hypergraphs provide a versatile framework for modeling complex relationships beyond pairwise interactions, finding applications in various domains.
+ k
+ -core decomposition is a fundamental task in hypergraph analysis that decomposes hypergraphs into cohesive substructures. Existing studies capture the cohesion in hypergraphs based on the vertex neighborhood size. However, such decomposition poses unique challenges, including the efficiency of core value updates, redundant computation, and high memory consumption. We observe that the state-of-the-art algorithms do not fully address the above challenges and are unable to scale to large hypergraphs. In this paper, we propose an efficient approach for hypergraph
+ k
+ -core decomposition. Novel concepts and strategies are developed to compute the core value of each vertex and reduce redundant computation of vertices. Experimental results on real-world and synthetic hypergraphs demonstrate that our approach significantly outperforms the state-of-the-art algorithm by 7 times on average while reducing the average memory usage by 36 times. Moreover, while existing algorithms fail on tens of millions hyperedges, our approach efficiently handles billion-scale hypergraphs in only a single thread.

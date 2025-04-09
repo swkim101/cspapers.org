@@ -1,0 +1,8 @@
+
+ Data summarization is a powerful approach to deal with large-scale data analytics, which has wide applications in web search, recommendation systems, approximate query processing, etc. It computes a small, compact summary that preserves vital properties of the original data. In this paper, we study the data summarization problem of conjunctive query results, i.e., computing a k-size subset of a conjunctive query output, for any given k>0, that optimizes a certain objective. More specifically, we are interested in two commonly studied objectives: cohesion, which measures the maximum distance between a tuple in the query result tuples and its closest tuple in the summary (k-center clustering); and diversity, which measures the pairwise distances between the summary items. A simple approach that computes the entire query output and then applies existing algorithms on top of these materialized tuples suffers from high computational complexity because the query output can be large, e.g., for a relational database of N tuples, the number of result tuples can be N
+ O(1).
+ We propose O(1)-approximation algorithms that compute well-representative summaries of size k in time O(N*k
+ O(1)
+ ), or even O(N+ k
+ O(1)
+ ) in some cases, without computing all result tuples. We also propose the first efficient (2+\eps)-approximation algorithm for the k-center clustering problem over relational data. Our main idea is to formulate a few oracles that enable us to access specific query result tuples with certain properties, to show how these oracles can be implemented efficiently, and to compute desired summaries with few invocations of these oracles.

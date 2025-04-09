@@ -1,0 +1,8 @@
+
+ In the field of data stream processing, there are two prevalent models, i.e., insertion-only, and turnstile models. Most previous works were proposed for the insertion-only model, which assumes new elements arrive continuously as a stream, and neglects the possibilities of removing existing elements. In this paper, we make a
+ bounded deletion
+ assumption, putting a constraint on the number of deletions allowed. For such a turnstile stream, we focus on a new problem of
+ universal measurement
+ that estimates multiple kinds of statistical metrics simultaneously using limited memory and in an online fashion, including per-element frequency, heavy hitters, frequency moments, and frequency distribution. There are two key challenges for processing a turnstile stream with bounded deletions. Firstly, most previous methods for detecting heavy hitters cannot ensure a bounded detection error when there are deletion events. Secondly, there is still no prior work to estimate the per-element frequency moments under turnstile model, especially in an online fashion. In this paper, we address the former challenge by proposing a Removable Augmented Sketch, and address the latter by a Removable Universal Sketch, enhanced with an Online Moment Estimator. In addition, we improve the accuracy of frequency estimation by a compressed counter design, which can halve the memory cost of a frequency counter and support addition/minus operations. Our experiments show that our solution outperforms other algorithms by 16%~69% in F1 Score of heavy hitter detection, and improves the throughput of frequency moment estimation by 3.0x10
+ 4
+ times.

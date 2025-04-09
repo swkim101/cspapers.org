@@ -1,0 +1,16 @@
+
+ Mining dense subgraphs in a bipartite graph is a fundamental task in bipartite graph analysis, with numerous applications in community detection, fraud detection, and e-commerce recommendation. Existing dense subgraph models, such as biclique,
+ k
+ -biplex,
+ k
+ -bitruss, and (α,β)-core, often face challenges due to their high computational complexity or limitations in effectively capturing the density of the graph. To overcome these issues, in this paper, we propose a new dense subgraph model for bipartite graphs, namely (α,β)-dense subgraph, designed to capture the density structure inherent in bipartite graphs. We show that all (α,β)-dense subgraphs are nested within each other, forming a hierarchical density decomposition of the bipartite graph. To efficiently compute the (α,β)-dense subgraph, we develop a novel network flow algorithm with a carefully-designed core pruning technique. The time complexity of our algorithm is O(|E|+|E(R)|
+ 1.5
+ ), where |E| denotes the number of edges and |E(R)| is the number of edges of the pruned graph, often significantly smaller than |E|. Armed with this algorithm, we also propose a novel and efficient divide-and-conquer algorithm to compute the entire density decomposition of the bipartite graph within O(p ⋅ log d
+ max
+ ⋅ |E|
+ 1.5
+ ) time, where
+ p
+ is typically a small constant in real-world bipartite graphs and d
+ max
+ is the maximum degree. Extensive experiments and case studies on 11 real-world datasets demonstrate the effectiveness of our (α,β)-dense subgraph model and the high efficiency and scalability of our proposed algorithms.

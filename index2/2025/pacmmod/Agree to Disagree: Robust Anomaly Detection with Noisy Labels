@@ -1,0 +1,12 @@
+
+ Due to the scarcity of reliable anomaly labels, recent anomaly detection methods leveraging noisy auto-generated labels either select clean samples or refurbish noisy labels. However, both approaches struggle due to the unique properties of anomalies.
+ Sample selection
+ often fails to separate sufficiently many clean anomaly samples from noisy ones, while
+ label refurbishment
+ erroneously refurbishes
+ marginal
+ clean samples. To overcome these limitations, we design Unity, the
+ first
+ learning from noisy labels (LNL) approach for anomaly detection that elegantly leverages the merits of both sample selection and label refurbishment to iteratively prepare a diverse clean sample set for network training. Unity uses a pair of deep anomaly networks to collaboratively select samples with clean labels based on prediction agreement, followed by a disagreement resolution mechanism to capture marginal samples with clean labels. Thereafter, Unity utilizes unique properties of anomalies to design an anomaly-centric contrastive learning strategy that accurately refurbishes the remaining noisy labels. The resulting set, composed of
+ selected and refurbished
+ clean samples, will be used to train the anomaly networks in the next training round. Our experimental study on 10 real-world benchmark datasets demonstrates that Unity consistently outperforms state-of-the-art LNL techniques by up to 0.31 in F-1 Score (0.52 \rightarrow 0.83).

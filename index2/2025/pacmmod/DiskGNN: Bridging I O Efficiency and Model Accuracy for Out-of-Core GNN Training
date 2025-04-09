@@ -1,0 +1,22 @@
+
+ Graph neural networks (GNNs) are models specialized for graph data and widely used in applications. To train GNNs on large graphs that exceed CPU memory, several systems have been designed to store data on disk and conduct out-of-core processing. However, these systems suffer from either
+ read amplification
+ when conducting random reads for node features that are smaller than a disk page, or
+ degraded model accuracy
+ by treating the graph as disconnected partitions. To close this gap, we build
+ DiskGNN
+ for high I/O efficiency and fast training without model accuracy degradation. The key technique is
+ offline sampling
+ , which decouples
+ graph sampling
+ from
+ model computation
+ . In particular, by conducting graph sampling
+ beforehand
+ for multiple mini-batches, DiskGNN acquires the node features that will be accessed during model computation and conducts pre-processing to pack the node features of each mini-batch contiguously on disk to avoid read amplification for computation. Given the feature access information acquired by offline sampling, DiskGNN also adopts designs including
+ four-level feature store
+ to fully utilize the memory hierarchy of GPU and CPU to cache hot node features and reduce disk access,
+ batched packing
+ to accelerate feature packing during pre-processing, and
+ pipelined training
+ to overlap disk access with other operations. We compare DiskGNN with state-of-the-art out-of-core GNN training systems. The results show that DiskGNN has more than 8x speedup over existing systems while matching their best model accuracy. DiskGNN is open-source at https://github.com/Liu-rj/DiskGNN.

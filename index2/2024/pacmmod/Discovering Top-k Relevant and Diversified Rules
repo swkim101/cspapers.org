@@ -1,0 +1,10 @@
+
+ This paper studies the problem of discovering top-
+ k
+ relevant and diversified rules. Given a real-life dataset, it is to mine a set of
+ k
+ rules that are as close to users' interest as possible, and meanwhile, as diverse to each other as possible. It aims to reduce excessive irrelevant rules commonly returned by rule discovery. As a testbed, we consider Entity Enhancing Rules (REEs), which subsume popular data quality rules as special cases. We train a relevance model to learn users' prior knowledge, rank rules based on users' need, and propose four diversity measures to assess the diversity between rules. Based on these measures, we formulate a new discovery problem. We show that the bi-criteria discovery problem is NP-complete and hard to approximate. This said, we develop a practical algorithm for the problem, and prove its approximation bounds under certain conditions. Moreover, we develop optimization techniques to speed up the process, and parallelize the algorithm such that it guarantees to reduce runtime when given more processors. Using real-life data, we empirically verify that on average, the top-10 REEs discovered by our algorithm is able to catch 77.5% of errors detected by the entire set Σ
+ all
+ of REEs and achieve F_1 = 0.74 for real error detection; moreover, discovering top-ranked REEs is 62.4X faster than mining Σ
+ all
+ .

@@ -1,0 +1,19 @@
+
+ Knowledge graph reasoning (KGR) answers logical queries over a knowledge graph (KG), and
+ embedding-based KGR
+ (EKGR) becomes popular recently, which embeds both queries and KG entities such that the vector embeddings of a query and its answer entities are similar. Compared with traditional KGR methods based on subgraph matching, EKGR produces fewer intermediate results and is more robust to missing and noisy information in the KG. However, existing systems are inefficient for serving online EKGR queries because they can only batch queries of the same type for execution (i.e.,
+ query-level batching
+ ) and hence have limited batching opportunities due to the heterogeneity of queries.
+ 
+ 
+ To serve EKGR queries efficiently, we propose the Atom system with
+ operator-level batching,
+ which decomposes queries into operators and batches operators of the same type from different queries for execution. The insight is that the types of operators are far fewer than the types of queries, and thus different queries typically share common operators, yielding more batching opportunities. To schedule the operators, Atom adopts a
+ hybrid policy,
+ which improves system throughput and avoids starving rare operators. For efficiency, Atom incorporates system optimizations including
+ two-level pipeline,
+ opportunistic submission,
+ pre-allocated memory buffer,
+ and
+ tailored GPU kernels.
+ Experiment results show that compared with existing systems, Atom can improve query throughput by over 20x and reduce query latency by over 5x. Micro experiments suggest that the designs and optimizations are effective in improving system performance.

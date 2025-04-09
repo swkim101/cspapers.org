@@ -1,0 +1,16 @@
+
+ A k-biplex is an induced subgraph of a bipartite graph which requires every vertex on the one side disconnecting at most k vertices on the other side. Enumerating all maximal k-biplexes in a bipartite graph is a fundamental operator in bipartite graph analysis and finds applications in various domains, including community detection, online recommendation, and fraud detection in finance networks. The state-of-the-art solutions for maximal k-biplex enumeration suffer from efficiency issues as k increases (k ≥ 2), with the time complexity of O(m 2
+ n
+ ), where n (m) denotes the number of vertices (edges) in the bipartite graph. To address this issue, we propose two theoretically and practically efficient enumeration algorithms based on novel branching techniques. Specifically, we first devise a new branching rule as a fundamental component. Building upon this, we then develop a novel branch-and-bound enumeration algorithm to efficiently enumerate maximal k-biplexes. We prove that our algorithm achieves a worst-case time complexity of O(mα
+ k
+ n
+ ), where α
+ k
+ < 2, thus significantly improving the time complexity compared to previous algorithms. To enhance the performance, we further propose an improved enumeration algorithm based on a novel pivot-based branching rule. Theoretical analysis reveals that our improved algorithm has a time complexity of O(mβ
+ k
+ n
+ ), where β
+ k
+ is strictly less than α
+ k
+ . In addition, we also present several non-trivial optimization techniques, including graph reduction, upper-bounds based pruning, and ordering-based optimization, to further improve the efficiency of our algorithms. Finally, we conduct extensive experiments on 6 large real-world bipartite graphs to evaluate the efficiency and scalability of the proposed solutions. The results demonstrate that our improved algorithm achieves up to 5 orders of magnitude faster than the state-of-the-art solutions.

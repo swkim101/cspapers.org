@@ -1,0 +1,10 @@
+We study the dynamic query evaluation problem: Given a full conjunctive query Q and a sequence of updates to the input database, we construct a data structure that supports constant-delay enumeration of the tuples in the query output after each update.
+ 
+ We show that a sequence of N insert-only updates to an initially empty database can be executed in total time O(N
+ w(Q)
+ ), where w(Q) is the fractional hypertree width of Q. This matches the complexity of the static query evaluation problem for Q and a database of size N. One corollary is that the amortized time per single-tuple insert is constant for acyclic full conjunctive queries.
+ 
+ 
+ In contrast, we show that a sequence of N inserts and deletes can be executed in total time Õ(N
+ w(Q')
+ ), where Q' is obtained from Q by extending every relational atom with extra variables that represent the "lifespans" of tuples in the database. We show that this reduction is optimal in the sense that the static evaluation runtime of Q' provides a lower bound on the total update time for the output of Q. Our approach achieves amortized optimal update times for the hierarchical and Loomis-Whitney join queries.

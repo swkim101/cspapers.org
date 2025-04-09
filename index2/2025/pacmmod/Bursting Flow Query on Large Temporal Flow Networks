@@ -1,0 +1,10 @@
+
+ Recently, queries that find bursting patterns in temporal graph data have received increasing research attention. In particular, finding the flow in temporal networks whose flow values are bursting in a time interval has numerous applications, such as detecting the money laundering by the maximum average transfer flow in a transaction graph, and the congestion by the maximum average traffic flow in a road network. Despite its usefulness, there is limited research on querying such a flow pattern. In this paper, we study a novel query of finding
+ a flow pattern of burstiness
+ in a temporal flow network. In a nutshell, this query aims to find the
+ bursting flow f
+ from a source node to a sink node such that the ratio of
+ f
+ 's flow value to the time interval length of
+ f
+ is maximized. To solve this query, we propose the first solution called BFQ that enumerates all the necessary time intervals and then computes the maximum flow value for each interval. Based on BFQ, we propose an efficient solution called BFQ*, which consists of optimization techniques that incrementally compute the maximum flows without computing the common parts of flows from scratch. The experimental results demonstrate the efficiency of our solutions. A case study on a real world transaction network demonstrates the application of this bursting flow query on detecting abnormal transactions.

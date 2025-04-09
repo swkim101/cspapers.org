@@ -1,0 +1,10 @@
+
+ Time series data from monitoring applications captures the behaviours of objects, which can often be split into distinguishable segments that reflect the underlying state changes. Despite the recent advances in time series state detection, the indicator selection for state detection is rarely studied, most of state detection work assumes the input indicators have been properly or manually selected. However, this assumption is disconnected from practice, on one hand, manual selection is not scalable, there can be up to thousands of indicators for the runtime monitoring of certain objects, e.g., supercomputer systems. On the other hand, performing state detection on a large amount of raw indicators is both inefficient and redundant. We argue that indicator selection should be made an upstream task for selecting a subset of indicators to facilitate state analysis. To this end, we propose ISSD (
+ I
+ ndicator
+ S
+ election for
+ S
+ tate
+ D
+ etection), an indicator selection method for time series state detection. At its core, ISSD attempts to find an indicator subset that has as much high-quality states, which is measured by the channel set completeness and quality we invent based on segment-level sampling statistics. Such an indicator selection process is transformed into a multi-objective optimization problem and an approximation algorithm is designed to solve the NP-hard searching for specific end point in the Pareto front. Experiments on 5 datasets and 4 downstream methods show that ISSD has significant selection superiority compared with 6 baselines. We also elaborate on two observations of selection resilience and channel sensitivity of existing state detection methods and appeal to further research on them.

@@ -1,0 +1,14 @@
+
+ Temporal knowledge graphs (TKGs) are valuable resources for capturing evolving relationships among entities, yet they are often plagued by noise, necessitating robust anomaly detection mechanisms. Existing dynamic graph anomaly detection approaches struggle to capture the rich semantics introduced by node and edge categories within TKGs, while TKG embedding methods lack interpretability, undermining the credibility of anomaly detection. Moreover, these methods falter in adapting to pattern changes and semantic drifts resulting from knowledge updates. To tackle these challenges, we introduce
+ AnoT,
+ an efficient TKG summarization method tailored for interpretable online anomaly detection in TKGs.
+ AnoT
+ begins by summarizing a TKG into a novel rule graph, enabling flexible inference of complex patterns in TKGs. When new knowledge emerges,
+ AnoT
+ maps it onto a node in the rule graph and traverses the rule graph recursively to derive the anomaly score of the knowledge. The traversal yields reachable nodes that furnish interpretable evidence for the validity or the anomalous of the new knowledge. Overall,
+ AnoT
+ embodies a detector-updater-monitor architecture, encompassing a detector for offline TKG summarization and online scoring, an updater for real-time rule graph updates based on emerging knowledge, and a monitor for estimating the approximation error of the rule graph. Experimental results on four real-world datasets demonstrate that
+ AnoT
+ surpasses existing methods significantly in terms of accuracy and interoperability. All of the raw datasets and the implementation of
+ AnoT
+ are provided in https://github.com/zjs123/ANoT.

@@ -1,0 +1,18 @@
+
+ There is a proliferation of applications requiring the management of large-scale, evolving graphs under workloads with intensive graph updates and lookups. Driven by this challenge, we introduce
+ Poly-LSM
+ , a high-performance key-value storage engine for graphs with the following novel techniques: (1)
+ Poly-LSM
+ is embedded with a new design of graph-oriented LSM-tree structure that features a hybrid storage model for concisely and effectively storing graph data. (2)
+ Poly-LSM
+ utilizes an adaptive mechanism to handle edge insertions and deletions on graphs with optimized I/O efficiency. (3)
+ Poly-LSM
+ exploits the skewness of graph data to encode the key-value entries. Building upon this foundation, we further implement
+ Aster
+ , a robust and versatile graph database that supports Gremlin query language facilitating various graph applications. In our experiments, we compared
+ Aster
+ against several mainstream real-world graph databases. The results demonstrate that
+ Aster
+ outperforms all baseline graph databases, especially on large-scale graphs. Notably, on the billion-scale Twitter graph dataset,
+ Aster
+ achieves up to 17x throughput improvement compared to the best-performing baseline graph system.

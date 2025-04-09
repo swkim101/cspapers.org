@@ -1,0 +1,13 @@
+
+ Computing the shortest-path distance between any two given vertices in road networks is an important problem. A tremendous amount of research has been conducted to address this problem, most of which are limited to static road networks. Since road networks undergo various real-time traffic conditions, there is a pressing need to address this problem for dynamic road networks. Existing state-of-the-art methods incrementally maintain an indexing structure to reflect dynamic changes on road networks. However, these methods suffer from either slow query response time or poor maintenance performance, particularly when road networks are large. In this work, we propose an efficient solution
+ Dual-Hierarchy Labelling (DHL)
+ for distance querying on dynamic road networks from a novel perspective, which incorporates two hierarchies with different but complementary data structures to support efficient query and update processing. Specifically, our proposed solution is comprised of three main components:
+ query hierarchy,
+ update hierarchy,
+ and
+ hierarchical labelling,
+ where
+ query hierarchy
+ enables efficient query answering by exploring only a small subset of vertices in the labels of two query vertices and
+ update hierarchy
+ supports efficient maintenance of distance labelling under edge weight increase or decrease. We further develop dynamic algorithms to reflect dynamic changes by efficiently maintaining the update hierarchy and hierarchical labelling. We also propose a parallel variant of our dynamic algorithms by exploiting labelling structure which aligns well with parallel processing. We evaluate our methods on 10 large road networks and it shows that our methods significantly outperform the state-of-the-art methods, i.e., achieving considerably faster construction and update time, while being consistently 2-4 times faster in terms of query processing and consuming only 10%-20% labelling space.

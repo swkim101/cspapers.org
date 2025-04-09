@@ -1,0 +1,8 @@
+
+ Clustering plays a crucial role in computer science, facilitating data analysis and problem-solving across numerous fields. By partitioning large datasets into meaningful groups, clustering reveals hidden structures and relationships within the data, aiding tasks such as unsupervised learning, classification, anomaly detection, and recommendation systems. Particularly in relational databases, where data is distributed across multiple tables, efficient clustering is essential yet challenging due to the computational complexity of joining tables. This paper addresses this challenge by introducing efficient algorithms for k-median and k-means clustering on relational data without the need for pre-computing the join query results. For the relational k-median clustering, we propose the first efficient relative approximation algorithm. For the relational k-means clustering, our algorithm significantly improves both the approximation factor and the running time of the known relational k-means clustering algorithms, which suffer either from large constant approximation factors, or expensive running time. Given a join query q and a database instance D of O(N) tuples, for both k-median and k-means clustering on the results of q on D, we propose randomized (1+ε)γ-approximation algorithms that run in roughly O(k
+ 2
+ N
+ fhw
+ )+T_γ(k
+ 2
+ ) time, where ε ∈ (0,1) is a constant parameter decided by the user, \fhw is the fractional hyper-tree width of Q, while γ and T_γ(x) represent the approximation factor and the running time, respectively, of a traditional clustering algorithm in the standard computational setting over x points.

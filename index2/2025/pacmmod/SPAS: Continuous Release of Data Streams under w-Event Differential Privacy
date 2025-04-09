@@ -1,0 +1,9 @@
+Continuous release of data streams is frequently used in numerous applications. However, when data is sensitive, this poses privacy risks. To mitigate this risk, efforts have been devoted to devising techniques that satisfy a formal privacy notion called w-event differential privacy. Nevertheless, a recent benchmark reveals that none of the existing works offer a universally effective solution across all types of data streams, making it challenging to select an appropriate scheme for unknown data streams in practical scenarios.
+ 
+ We identify that all existing methods are
+ heuristic-based
+ and make
+ data-independent
+ decisions. In this paper, we change this landscape by introducing SPAS which is built on
+ data-dependent
+ strategies. Specifically, SPAS continuously predicts an optimal publishing strategy within each sliding window that minimizes the error of the released results based on the characteristics of the data stream. Additionally, we develop a weighted sparse vector technique to control data sampling and manage privacy budget consumption following that optimal publishing strategy. Comprehensive experimental evaluations demonstrate the efficacy of SPAS in adapting to diverse one-dimensional and multi-dimensional data streams for both data release and range query tasks. Our code is open-sourced.

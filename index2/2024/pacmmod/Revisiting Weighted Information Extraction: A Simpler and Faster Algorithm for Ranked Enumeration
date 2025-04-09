@@ -1,0 +1,10 @@
+Information extraction from textual data, where the query is represented by a finite transducer and the task is to enumerate all results without repetition, and its extension to the weighted case, where each output element has a weight and the output elements are to be enumerated sorted by their weights, are important and well studied problems in database theory. On the one hand, the first framework already covers the well-known case of regular document spanners, while the latter setting covers several practically relevant tasks that cannot be described in the unweighted setting.
+ It is known that in the unweighted case this problem can be solved with linear time preprocessing O(|D|) and output-linear delay O(|s|) in data complexity, where D is the input data and s is the current output element. For the weighted case, Bourhis, Grez, Jachiet, and Riveros [ICDT 2021] recently designed an algorithm with linear time preprocessing, but the delay of O(|s| · log|D|) depends on the size of the data.
+ 
+ We first show how to leverage the existing results on enumerating shortest paths to obtain a simple alternative algorithm with linear preprocessing and a delay of O(|s
+ i
+ | + min\ log i, log|D| ) for the i
+ th
+ output element s
+ i
+ (in data complexity); thus, substantially improving the previous algorithm. Next, we develop a technically involved rounding technique that allows us to devise an algorithm with linear time preprocessing and output-linear delay O(|s|) with high probability. To this end, we combine tools from algebra, high-dimensional geometry, and linear programming.

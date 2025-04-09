@@ -1,0 +1,14 @@
+
+ String data is common in real-world datasets: 67.6% of values in a sample of 1.8 million real Excel spreadsheets from the web were represented as text. Automatically cleaning such string data can have a significant impact on users. Previous approaches are limited to error detection, require that the user provides annotations, examples, or constraints to fix the errors, and focus independently on syntactic errors or semantic errors in strings, but ignore that strings often contain both syntactic and semantic substrings. We introduce
+ DataVinci,
+ a fully unsupervised string data error detection and repair system.
+ DataVinci
+ learns regular-expression-based patterns that cover a majority of values in a column and reports values that do not satisfy such majority patterns as data errors.
+ DataVinci
+ can automatically derive edits to the data error based on the majority patterns and using row tuples associated with majority values as examples. To handle strings with both syntactic and semantic substrings,
+ DataVinci
+ uses an LLM to abstract (and re-concretize) portions of strings that are semantic. Because not all data columns can result in majority patterns, when available,
+ DataVinci
+ can leverage execution information from an existing data program (which uses the target data as input) to identify and correct data repairs that would not otherwise be identified.
+ DataVinci
+ outperforms eleven baseline systems on both data error detection and repair as demonstrated on four existing and new benchmarks.

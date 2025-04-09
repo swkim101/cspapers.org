@@ -1,0 +1,12 @@
+
+ Effective resistance (ER) is a fundamental metric for measuring node similarities in a graph, and it finds applications in various domains including graph clustering, recommendation systems, link prediction, and graph neural networks. The state-of-the-art algorithm for computing effective resistance relies on a landmark technique, which involves selecting a node that is easy to reach by all the other nodes as a landmark. The performance of this technique heavily depends on the chosen landmark node. However, in many real-life graphs, it is not always possible to find an easily reachable landmark node, which can significantly hinder the algorithm's efficiency. To overcome this problem, we propose a novel multiple landmarks technique which involves selecting a set of landmark nodes V
+ l
+ such that the other nodes in the graph can easily reach any one of a landmark node in V
+ l
+ . Specifically, we first propose several new formulas to compute ER with multiple landmarks, utilizing the concept of Schur complement. These new formulas allow us to pre-compute and maintain several small-sized matrices related to V
+ l
+ as a compact index. With this powerful index technique, we demonstrate that both single-pair and single-source ER queries can be efficiently answered using a newly-developed V
+ l
+ -absorbed random walk sampling or V
+ l
+ -absorbed push technique. Comprehensive theoretical analysis shows that all proposed index-based algorithms achieve provable performance guarantees for both single-pair and single-source ER queries. Extensive experiments on 5 real-life datasets demonstrate the high efficiency of our multiple landmarks-based index techniques. For instance, our algorithms, with a 1.5 GB index size, can be up to 4 orders of magnitude faster than the state-of-the-art algorithms while achieving the same accuracy on a large road network.

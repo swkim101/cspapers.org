@@ -1,0 +1,6 @@
+
+ In the standard model of differential privacy (DP), every user's privacy is treated equally, which is captured by a single privacy parameter \varepsilon. However, in many real-world situations, users may have diverse privacy concerns and requirements, some conservative while others liberal. This is formalized by the model of
+ personalized differential privacy (PDP),
+ where each user may have a different privacy parameter \varepsilon. However, existing techniques for PDP cannot provide good utility for many fundamental problems such as basic counting and sum estimation. In this paper, we present the
+ personalized truncation mechanism
+ for these problems under PDP. We first show that, theoretically, it is never worse than previous mechanisms (up to polylogarithmic factors) on any instance, while can be much better in certain cases. Then we use extensive experiments on both real and synthetic data to demonstrate its empirical advantages. Our mechanism also works for user-level DP, thus supporting a large class of SJA queries over relational databases under foreign-key constraints.

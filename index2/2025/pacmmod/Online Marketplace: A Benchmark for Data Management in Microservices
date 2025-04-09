@@ -1,0 +1,8 @@
+
+ Microservice architectures have become a popular approach for designing scalable distributed applications. Despite their extensive use in industrial settings for over a decade, there is limited understanding of the data management challenges that arise in these applications. Consequently, it has been difficult to advance data system technologies that effectively support microservice applications. To fill this gap, we present
+ Online Marketplace,
+ a microservice benchmark that highlights core data management challenges that existing benchmarks fail to address. These challenges include transaction processing, query processing, event processing, constraint enforcement, and data replication. We have defined criteria for various data management issues to enable proper comparison across data systems and platforms. Through case studies with state-of-the-art data platforms, we discuss the issues encountered while implementing and meeting
+ Online Marketplace's
+ criteria. By capturing the overhead of meeting the key data management requirements that are overlooked by existing benchmarks, we gain actionable insights into the experimental platforms. This highlights the significance of
+ Online Marketplace
+ in advancing future data systems to meet the needs of microservice practitioners.

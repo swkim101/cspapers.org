@@ -1,0 +1,14 @@
+
+ Time series compression encodes the information in a time-ordered sequence of data points into fewer bits, thereby reducing storage costs and possibly other costs. Compression methods are either general or XOR-based. General compression methods are time-consuming and are not suitable in streaming scenarios, while XOR-based methods are unable to consistently maintain high compression ratios. Further, existing methods compress the integer and decimal parts of floating-point values as a whole, thus disregarding the different characteristics of the two parts. We propose
+ Camel
+ , a new compression method for floating-point time series with the goal of advancing the compression ratios and efficiency achievable.
+ Camel
+ compresses the integer and decimal parts of the double-precision floating-point numbers in time series separately; and instead of performing XOR operations on values using their previous value,
+ Camel
+ identifies values that enable higher compression ratios.
+ Camel
+ also includes means of indexing compressed data, thereby making it possible to query compressed data efficiently. We report on an empirical study of
+ Camel
+ and 11 lossless and 6 lossy compression methods on 22 public datasets and three industrial datasets from AliCloud. The study offers evidence that
+ Camel
+ is capable of outperforming existing methods in terms of both compression ratio and efficiency and is capable of excellent compression performance on both time series and non-time series data.

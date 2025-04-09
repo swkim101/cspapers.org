@@ -1,0 +1,13 @@
+Non-volatile Memory (NVM) offers the opportunity to build large, durable B+ trees with markedly higher performance and faster post-crash recovery than is possible with traditional disk- or flash-based persistence. Unfortunately, cache flush and fence instructions, required for crash consistency and failure atomicity on many machines, introduce substantial overhead not present in non-persistent trees, and force additional NVM reads and writes. The overhead is particularly pronounced in workloads that benefit from cache reuse due to good temporal locality or small working sets---traits commonly observed in real-world applications.
+ 
+ In this paper, we propose a buffered durable B+ tree (BD+Tree) that improves performance and reduces NVM traffic via
+ relaxed
+ persistence. Execution of a BD+Tree is divided into
+ epochs
+ of a few milliseconds each; if a crash occurs in epoch
+ e,
+ the tree recovers to its state as of the end of epoch
+ e
+ -2. (The persistence boundary can always be made current with an explicit sync operation, which quickly advances the epoch by 2.) NVM writes within an epoch are aggregated for delayed persistence, thereby increasing cache reuse and reducing traffic to NVM.
+ 
+ In comparison to state-of-the-art persistent B+ trees, our micro-benchmark experiments show that BD+Tree can improve throughput by up to 2.4x and reduce NVM writes by up to 90% when working sets are small or workloads exhibit strong temporal locality. On real-world workloads that benefit from cache reuse, BD+Tree realizes throughput improvements of 1.1--2.4x and up to a 99% decrease in NVM writes. Even on uniform workloads, with working sets that significantly exceed cache capacity, BD+Tree still improves throughput by 1--1.3x. The performance advantage of BD+Tree increases with larger caches, suggesting ongoing benefits as CPUs evolve toward gigabyte cache capacities.

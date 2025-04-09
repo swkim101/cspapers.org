@@ -1,0 +1,26 @@
+
+ The ((
+ k,p
+ ))-core model was recently proposed to capture engagement dynamics by considering both intra-community interactions (i.e., the
+ k
+ -core structure) and inter-community interactions (i.e., the
+ p
+ -fraction property). It is a refinement of the classic
+ k
+ -core, by introducing an extra parameter
+ p
+ to customize the engagement within a community at a finer granularity. In this paper, we study the problem of maintaining all (k,p)-cores (essentially, maintaining the p-numbers for all vertices) for dynamic graphs. The existing Global approach conducts a global peeling, almost from scratch, for all vertices whose old p-numbers are within a computed range [p
+ -
+ ,p
+ +
+ ], and thus is inefficient. We propose a new Local approach which conducts local searches starting from the two end-points of the newly inserted or deleted edge, and then iteratively expands the search frontier by including their neighbors. Our algorithm is designed based on several fundamental properties that we prove in this paper to characterize the necessary condition for a vertex's p-number to change. Compared to Global, our Local approach implicitly obtains the optimal affected p-number range [p
+ -
+ *
+ ,p
+ +
+ *
+ ] ⊆ [p
+ -
+ ,p
+ +
+ ], and further skips many vertices whose p-numbers are within this range. Experimental results show that Local is on average two orders of magnitude faster than Global.

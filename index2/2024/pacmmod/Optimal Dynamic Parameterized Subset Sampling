@@ -1,0 +1,22 @@
+
+ In this paper, we study the Dynamic Parameterized Subset Sampling (DPSS) problem in the Word RAM model. In DPSS, the input is a set,
+ S
+ , of
+ n
+ items, where each item,
+ x
+ , has a non-negative integer weight, w(x). Given a pair of query parameters, (α, β), each of which is a non-negative rational number, a parameterized subset sampling query on
+ S
+ seeks to return a subset T ⊆ S such that each item x∈ S is selected in
+ T
+ , independently, with probability p_x(α, β) which is the minimum between 1 and w(x) / (α \cdot W + β), where
+ W
+ is the total weight of the items in
+ S
+ . More specifically, the DPSS problem is defined in a dynamic setting, where the item set,
+ S
+ , can be updated with insertions of new items or deletions of existing items. Our first main result is an optimal algorithm for solving the DPSS problem, which achieves O(n) pre-processing time, O(1+μ_S(α,β)) expected time for each query parameterized by (α, β), given on-the-fly, and O(1) time for each update; here, μ_S(α,β) is the expected size of the query result. At all times, the worst-case space consumption of our algorithm is linear in the current number of items in
+ S
+ . Our second main contribution is a hardness result for the DPSS problem when the item weights are O(1)-word float numbers, rather than integers. Specifically, we reduce Integer Sorting to the deletion-only DPSS problem with float item weights. Our reduction shows that an optimal algorithm for deletion-only DPSS with float item weights (achieving all the same bounds as aforementioned) implies an algorithm for sorting
+ N
+ integers in O(N) expected time. The latter remains an important open problem. Moreover, a deletion-only DPSS algorithm which supports float item weights, with complexities worse, by at most a factor of o(√łog łog N), than the optimal counterparts, would already improve the current-best integer sorting algorithm [FOCS 2002]. Last but not least, a key technical ingredient for our first main result is a set of exact and efficient algorithms for generating Bernoulli (of certain forms) and Truncated Geometric random variates in O(1) expected time with O(n) worst-case space in the Word RAM model. Generating Bernoulli and geometric random variates efficiently is of great importance not only to sampling problems but also to encryption in cybersecurity. We believe that our new algorithms may be of independent interests for related research.

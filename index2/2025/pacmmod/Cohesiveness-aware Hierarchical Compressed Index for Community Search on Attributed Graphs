@@ -1,0 +1,10 @@
+
+ Community search on attributed graphs (CSAG) is a fundamental topic in graph data mining. Given an attributed graph
+ G
+ and a query node
+ q
+ , CSAG seeks a structural- and attribute-cohesive subgraph from
+ G
+ that contains
+ q
+ . Exact methods based on graph traversal are time-consuming, especially for large graphs. Approximate methods improve efficiency by pruning the search space with heuristics but still take hundreds of milliseconds to tens of seconds to respond, hindering their use in time-sensitive applications. Moreover, pruning strategies are typically tailored to specific algorithms and their cohesiveness metrics, making them difficult to generalize. To address this, we study a general approach to accelerate various CSAG methods. We first present a proximity graph-based, cohesiveness-aware hierarchical index that accommodates different cohesiveness metrics. Then, we present two optimizations to enhance the index's navigability and reliability. Finally, we design a compressed storage structure for space-efficient indexing. Experiments on real-world datasets show that integrating our index with existing mainstream CSAG methods results in an average 30.7× speedup while maintaining a comparable or even better attribute cohesiveness.

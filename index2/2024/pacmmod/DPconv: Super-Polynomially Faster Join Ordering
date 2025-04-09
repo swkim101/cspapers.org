@@ -1,0 +1,8 @@
+
+ We revisit the join ordering problem in query optimization. The standard exact algorithm, DPccp, has a worst-case running time of O(3
+ n
+ ). This is prohibitively expensive for large queries, which are not that uncommon anymore. We develop a new algorithmic framework based on subset convolution. DPconv achieves a super-polynomial speedup over DPccp, breaking the O(3
+ n
+ ) time-barrier for the first time. We show that the framework instantiation for the C
+ max
+ cost function is up to 30x faster than DPccp for large clique queries.

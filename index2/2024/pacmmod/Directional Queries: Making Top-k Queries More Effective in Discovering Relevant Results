@@ -1,0 +1,26 @@
+
+ Top-
+ k
+ queries, in particular those based on a linear scoring function, are a common way to extract relevant results from large datasets. Their major advantage over alternative approaches, such as skyline queries (which return all the undominated objects in a dataset), is that the cardinality of the output can be easily controlled through the k parameter and user preferences can be accommodated by appropriately weighing the involved attributes.
+ 
+ 
+ In this paper we concentrate on two so-far neglected aspects of top-
+ k
+ queries: first, their general ability to return
+ all
+ the potentially interesting results, i.e., the tuples in the skyline; second, the difficulty that linear top-
+ k
+ queries might encounter in returning tuples with
+ balanced
+ attribute values that match user preferences more closely than tuples that are extremely good in one dimension but (very) poor in others. In order to quantify these undesirable effects we introduce four novel indicators for skyline tuples, which measure their robustness as well as the difficulty incurred by top-k queries to retrieve them.
+ 
+ 
+ After observing that real datasets usually contain many relevant results that are hardly retrievable by linear top-
+ k
+ queries, and with the aim of favoring balanced results, we extend the queries with a term that accounts for the
+ distance
+ of a tuple from the preference direction established by the attributes' weights. This novel query, which we call
+ directional query,
+ adds the flexibility needed to allow
+ each
+ skyline tuple to be ranked first for a proper choice of weights, with no extra burden on the user and, in the most adverse scenarios, only a minor computational overhead, as measured through an extensive experimental analysis on real and synthetic data.

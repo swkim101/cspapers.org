@@ -1,0 +1,9 @@
+Performance predictability, ensuring low latency variability, is crucial for the reliability and efficiency of blockchain consensus. Byzantine Fault Tolerant Proof-of-Stake (BFT-PoS) consensus aims to achieve stable transaction processing latency by scheduling block generation at consistent intervals. However, BFT-PoS's incentive mechanisms grant all transaction tips to the block proposer, which can be exploited by delaying proposals to gain extra Maximal Extractable Value (MEV) rewards, thus undermining performance predictability. Existing solutions impose penalties for delays but lack a standard for measuring the extra rewards from delays or fail in malicious environments.
+ 
+ This paper introduces InTime, a novel approach to safeguard performance predictability in BFT-PoS by economically motivating timely block proposals. We first introduce the
+ untimely MEV ratio
+ , a reliable metric to measure the extra rewards gained from proposal delays, facilitating our countermeasures against deliberate delays. Furthermore, we propose the
+ arrival rate incentive
+ (ARI), aligning rewards with transaction arrival timing among nodes to reduce potential MEV manipulation. To make ARI robust against malicious behaviors, we establish a
+ committee time witness
+ (CTW) workflow to accurately gather and verify transaction arrival times. Extensive experiments demonstrate that InTime can effectively reduce latency variability by up to 95.9%.

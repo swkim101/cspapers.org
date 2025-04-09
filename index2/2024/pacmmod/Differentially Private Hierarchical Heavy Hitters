@@ -1,0 +1,6 @@
+
+ The task of finding
+ Hierarchical
+ Heavy Hitters (HHH) was introduced by Cormode et al. [12] as a generalisation of the heavy hitter problem. While finding HHH in data streams has been studied extensively, the question of releasing HHH when the underlying data is private remains unexplored. In this paper, we formalise and study the notion of differentially private HHH, in both the streaming and non-streaming setting. In the non-streaming setting, we show the surprising result that the relative error in estimating the count for any prefix is
+ independent
+ of the height of the hierarchy and the number of heavy hitters in the stream. Additionally, our algorithms also improve the error guarantees of Ghazi et al. [24] for the problem of counting over trees. Meanwhile, in the streaming setting, the main issue is that although the exact version of HHH has low global sensitivity (as counting queries are 1-sensitive), the approximation functions due to streaming have high global sensitivity, linear in the available space. Despite this obstacle, we show that the absolute error for estimating frequencies in the streaming setting is independent of the available space.

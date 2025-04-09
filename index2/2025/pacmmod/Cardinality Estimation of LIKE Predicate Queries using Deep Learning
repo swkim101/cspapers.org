@@ -1,0 +1,6 @@
+
+ Cardinality estimation of LIKE predicate queries has an important role in the query optimization of database systems. Traditional approaches generally use a summary of text data with some statistical assumptions. Recently, the deep learning model for cardinality estimation of LIKE predicate queries has been investigated. To provide more accurate cardinality estimates and reduce the maximum estimation errors, we propose a deep learning model that utilizes the extended
+ N
+ -gram table and the conditional regression header. We next investigate how to efficiently generate training data. Our LEADER (LikE predicate trAining Data gEneRation) algorithms utilize the shareable results across the relational queries corresponding to the LIKE predicates. By analyzing the queries corresponding to LIKE predicates, we develop an efficient join method and utilize the join order for fast query execution and maximal sharing of
+ shareable results
+ . Extensive experiments with real-life datasets confirm the efficiency of the proposed training data generation algorithms and the effectiveness of the proposed model.

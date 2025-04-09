@@ -1,0 +1,16 @@
+
+ Heterogeneous graphs provide a universal data structure for representing various kinds of structured data in numerous domains. The
+ graph alignment
+ problem aims to find the correspondences of vertices in different graphs, playing a fundamental role in many downstream tasks of heterogeneous graph mining. In recent years, many graph alignment methods have been proposed, ranging from
+ classical optimization methods
+ ,
+ spectral methods
+ , to
+ embedding learning based-methods
+ . Due to the problem's complexity, the result found by most existing methods is either a
+ heuristic solution
+ or a
+ critical point
+ in the solution space. In this paper, we propose GABoost, a graph alignment boosting algorithm that takes as input an initial alignment between two heterogeneous graphs and outputs a boosted alignment via an iterative
+ local-optimum-escape
+ process. One of the distinctive features of GABoost is that it can be sequentially composed with any graph alignment methods to improve the output of upstream methods. To examine the effectiveness of GABoost, we select 7 upstream methods of graph alignment as well as 6 real-world datasets, and quantitatively investigate the degree to which GABoost boosts these methods. The results show that GABoost improves the alignment accuracy of the 7 upstream methods by 25.25% on average with acceptable time overhead.

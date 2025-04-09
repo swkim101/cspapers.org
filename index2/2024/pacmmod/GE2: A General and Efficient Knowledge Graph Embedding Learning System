@@ -1,0 +1,6 @@
+
+ Graph embedding learning computes an embedding vector for each node in a graph and finds many applications in areas such as social networks, e-commerce, and medicine. We observe that existing graph embedding systems (e.g., PBG, DGL-KE, and Marius) have long CPU time and high CPU-GPU communication overhead, especially when using multiple GPUs. Moreover, it is cumbersome to implement negative sampling algorithms on them, which have many variants and are crucial for model quality. We propose a new system called GE
+ 2
+ , which achieves both generality and efficiency for graph embedding learning. In particular, we propose a general execution model that encompasses various negative sampling algorithms. Based on the execution model, we design a user-friendly API that allows users to easily express negative sampling algorithms. To support efficient training, we offload operations from CPU to GPU to enjoy high parallelism and reduce CPU time. We also design COVER, which, to our knowledge, is the first algorithm to manage data swap between CPU and multiple GPUs for small communication costs. Extensive experimental results show that, comparing with the state-of-the-art graph embedding systems, GE
+ 2
+ trains consistently faster across different models and datasets, where the speedup is usually over 2x and can be up to 7.5x.
