@@ -114,7 +114,7 @@ func unmarshal(query url.Values) (*types.SearchRequest, error) {
 	}, nil
 }
 
-var validVenue = []string{"AAAI", "IJCAI", "CVPR", "ICLR", "ICML", "NeurIPS", "ACL", "EMNLP", "NAACL", "SIGIR", "WWW", "ASPLOS", "SIGCOMM", "NSDI", "NDSS", "Usenix", "SP", "CCS", "SIGMOD", "VLDB", "DAC", "ICCAD", "HPDC", "ICS", "SC", "IMC", "SIGMETRICS", "EMSOFT", "RTAS", "RTSS", "MobiCom", "MobiSys", "SenSys", "OSDI", "SOSP", "ATC", "EuroSYS", "FSE", "ICSE", "ASE", "ISSTA", "PACMPL", "PLDI", "FOCS", "SODA", "STOC", "CRYPTO", "EuroCrypt", "LICS", "SIGCSE", "EC", "WINE", "CHI", "UbiComp", "UIST", "ICRA", "IROS", "RSS", "ISCA", "MICRO", "HPCA", "ICCV", "ECCV", "KDD", "CIKM", "ICDM", "ACSAC", "EUROSP", "ASIACCS", "SPLASH", "OOPSLA", "POPL"}
+var validVenue = []string{"AAAI", "IJCAI", "CVPR", "ICLR", "ICML", "NeurIPS", "ACL", "EMNLP", "NAACL", "SIGIR", "WWW", "ASPLOS", "SIGCOMM", "NSDI", "NDSS", "Usenix", "SP", "CCS", "SIGMOD", "VLDB", "DAC", "ICCAD", "HPDC", "ICS", "SC", "IMC", "SIGMETRICS", "EMSOFT", "RTAS", "RTSS", "MobiCom", "MobiSys", "SenSys", "OSDI", "SOSP", "ATC", "EuroSYS", "FSE", "ICSE", "ASE", "ISSTA", "PACMPL", "PLDI", "FOCS", "SODA", "STOC", "CRYPTO", "EuroCrypt", "LICS", "SIGCSE", "EC", "WINE", "CHI", "UbiComp", "UIST", "ICRA", "IROS", "RSS", "ISCA", "MICRO", "HPCA", "ICCV", "ECCV", "KDD", "CIKM", "ICDM", "ACSAC", "EUROSP", "ASIACCS", "SPLASH", "OOPSLA", "POPL", "PACMMOD"}
 
 func isValidVenue(venue string) bool {
 	return slices.Contains(validVenue, venue) || venue == ""

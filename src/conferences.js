@@ -56,6 +56,7 @@ const edges = [
   ["Computer security 2", "EUROSP"],
 
   ["Systems", "Databases"],
+  ["Databases", "PACMMOD"],
   ["Databases", "SIGMOD"],
   ["Databases", "VLDB"],
 

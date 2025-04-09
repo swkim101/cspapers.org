@@ -47,11 +47,12 @@ function Paper(props) {
       <pre className={collapsed ? 'none' : 'initial pre-line'}>
         {
           isAbsLoaded ?
-            <Highlight text={abstract} highlight={props.highlight} /> ||
-            <>No abstract indexed. See <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>
+            abstract === "" ?
+            <>No abstract found. See <a rel="noreferrer" target="_blank" href={`https://scholar.google.com/scholar?q=${props.title}`}>
               Google scholar
             </a></> :
-            "...fetching"
+            <Highlight text={abstract} highlight={props.highlight} /> :
+          "...fetching"
         }
       </pre>
     </div>
