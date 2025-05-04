@@ -1,0 +1,52 @@
+
+ This paper tackles the problem of synthesizing specifications for nondeterministic programs. For such programs, useful specifications can capture demonic properties, which hold for
+ every
+ nondeterministic execution, but also angelic properties, which hold for
+ some
+ nondeterministic execution. We build on top of a recently proposed Spyro framework in which given (i) a
+ quantifier-free
+ query Ψ posed about a set of function definitions (i.e., the behavior for which we want to generate a specification), and (ii) a language
+ L
+ in which each extracted property is to be expressed (we call properties in the language
+ L
+ -properties), the goal is to synthesize a conjunction ∧
+ 
+ i
+ 
+ ϕ
+ 
+ i
+ 
+ of
+ L
+ -properties such that each of the ϕ
+ 
+ i
+ 
+ is a
+ strongest
+ L
+ -consequence
+ for Ψ: ϕ
+ 
+ i
+ 
+ is an over-approximation of Ψ and there is no other
+ L
+ -property that over-approximates Ψ and is strictly more precise than ϕ
+ 
+ i
+ 
+ . This framework does not apply to nondeterministic programs for two reasons: it does not support existential quantifiers in queries (which are necessary to expressing nondeterminism) and it can only compute
+ L
+ -consequences, i.e., it is unsuitable for capturing both angelic and demonic properties. This paper addresses these two limitations and presents a framework, LOUD, for synthesizing both
+ strongest
+ L
+ -consequences
+ and
+ weakest
+ L
+ -implicants
+ (i.e., under-approximations of the query Ψ) for queries that can involve
+ existential quantifiers
+ . We implement a solver, ASPIRE, for problems expressed in LOUD which can be used to describe and identify sources of bugs in both deterministic and nondeterministic programs, extract properties from concurrent programs, and synthesize winning strategies in two-player games.

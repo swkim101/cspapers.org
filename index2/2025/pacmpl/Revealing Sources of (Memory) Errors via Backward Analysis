@@ -1,0 +1,41 @@
+Sound over-approximation methods are effective for proving the absence of errors, but inevitably produce false alarms that can hamper programmers.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In contrast, under-approximation methods focus on bug detection and are free from false alarms.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this work, we present two novel proof systems designed to locate the source of errors via backward under-approximation, namely Sufficient Incorrectness Logic (SIL) and its specialization for handling memory errors, called Separation SIL.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The SIL proof system is minimal, sound and complete for Lisbon triples, enabling a detailed comparison of triple-based program logics across various dimensions, including negation, approximation, execution order, and analysis objectives.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+More importantly, SIL lays the foundation for our main technical contribution, by distilling the inference rules of Separation SIL, a sound and (relatively) complete proof system for automated backward reasoning in programs involving pointers and dynamic memory allocation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The completeness result for Separation SIL relies on a careful crafting of both the assertion language and the rules for atomic commands.

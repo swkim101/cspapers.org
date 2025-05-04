@@ -1,0 +1,7 @@
+Efficiently computing accurate representations of high-dimensional data is essential for data analysis and unsupervised learning. Dendrograms, also known as ultrametrics, are widely used representations that preserve hierarchical relationships within the data. However, popular methods for computing them, such as *linkage* algorithms, suffer from quadratic time and space complexity, making them impractical for large datasets. 
+The "best ultrametric embedding" (a.k.a. "best ultrametric fit") problem, which aims to find the ultrametric that best preserves the distances between points in the original data, is known to require at least quadratic time for an exact solution.
+Recent work has focused on improving scalability by approximating optimal solutions in subquadratic time, resulting in a (sqrt(2) + epsilon)-approximation (Cohen-Addad, de Joannis de Verclos and Lagarde, 2021).
+
+In this paper, we present the first subquadratic algorithm that achieves arbitrarily precise approximations of the optimal ultrametric embedding. Specifically, we provide an algorithm that, for any c >1, outputs a c-approximation of the best ultrametric in time O(n^(1 + 1/c)). In particular, for any fixed epsilon > 0, the algorithm computes a (1+ epsilon)-approximation in time O(n^(2 - epsilon + o(epsilon ^2))).
+
+Experimental results show that our algorithm improves upon previous methods in terms of approximation quality while maintaining comparable running times.

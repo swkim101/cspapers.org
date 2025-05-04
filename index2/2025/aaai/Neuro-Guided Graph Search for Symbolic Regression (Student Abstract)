@@ -1,0 +1,1 @@
+This study introduces a neurosymbolic approach that performs iterative graph expansion guided by a graph neural network to solve symbolic regression problems. Empirical evaluation demonstrates superior performance of the method compared to baseline algorithms. We also integrate the method with an evolutionary algorithm, which results in further performance improvements.

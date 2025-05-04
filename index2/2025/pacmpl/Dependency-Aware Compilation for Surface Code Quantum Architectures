@@ -1,0 +1,10 @@
+
+ Practical applications of quantum computing depend on fault-tolerant devices with error correction. We study the problem of compiling quantum circuits for quantum computers implementing surface codes. Optimal or near-optimal compilation is critical for both efficiency and correctness. The compilation problem requires (1)
+ mapping
+ circuit qubits to the device qubits and (2)
+ routing
+ execution paths between interacting qubits. We solve this problem efficiently and near-optimally with a novel algorithm that exploits the
+ dependency structure
+ of circuit operations to formulate discrete optimization problems that can be approximated via
+ simulated annealing
+ , a classic and simple algorithm. Our extensive evaluation shows that our approach is powerful and flexible for compiling realistic workloads.

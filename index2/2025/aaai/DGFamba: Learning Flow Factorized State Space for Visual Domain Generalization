@@ -1,0 +1,9 @@
+Domain generalization aims to learn a representation from the source domain, which can be generalized to arbitrary unseen target domains. 
+A fundamental challenge for visual domain generalization is the domain gap caused by the dramatic style variation whereas the image content is stable.
+The realm of selective state space, exemplified by VMamba, demonstrates its global receptive field in representing the content.
+However, the way exploiting the domain-invariant property for selective state space is rarely explored.
+In this paper, we propose a novel Flow Factorized State Space model, dubbed as DGFamba, for visual domain generalization.
+To maintain domain consistency, we innovatively map the style-augmented and the original state embeddings by flow factorization.
+In this latent flow space, each state embedding from a certain style is specified by a latent probability path.
+By aligning these probability paths in the latent space, the state embeddings are able to represent the same content distribution regardless of the style differences.
+Extensive experiments conducted on various visual domain generalization settings show its state-of-the-art performance.

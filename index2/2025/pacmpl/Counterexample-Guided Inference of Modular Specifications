@@ -1,0 +1,14 @@
+
+ Modular verification tools allow programmers to compositionally specify and prove function specifications. When using a modular verifier, proving a specification about a function
+ f
+ requires additional specifications for the functions called by
+ f
+ . With existing state of the art tools, programmers must manually write the specifications for callee functions. We present a counterexample guided algorithm to automatically infer these specifications. The algorithm is parameterized over a verifier, counterexample generator, and constraint guided synthesizer. We show that if each of these three components is sound and complete over a finite set of possible specifications, our algorithm is sound and complete as well. Additionally, we introduce
+ size-bounded
+ synthesis functions, which extends our completeness result to an infinite set of possible specifications. In particular, we describe a size-bounded synthesis function for linear integer arithmetic constraints. We conclude with an evaluation demonstrating our technique on a variety of benchmarks. When using a modular verifier, proving a specification about a function
+ f
+ requires additional specifications for the functions called by
+ f
+ . With existing state of the art tools, programmers must manually write the specifications for callee functions. We present a counterexample guided algorithm to automatically infer these specifications. The algorithm is parameterized over a verifier, counterexample generator, and constraint guided synthesizer. We show that if each of these three components is sound and complete over a finite set of possible specifications, our algorithm is sound and complete as well. Additionally, we introduce
+ size-bounded
+ synthesis functions, which extends our completeness result to an infinite set of possible specifications. In particular, we describe a size-bounded synthesis function for linear integer arithmetic constraints. We conclude with an evaluation demonstrating our technique on a variety of benchmarks.

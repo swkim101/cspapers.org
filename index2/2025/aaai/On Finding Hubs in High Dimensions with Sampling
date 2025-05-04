@@ -1,0 +1,6 @@
+Hubs are a few points that frequently appear in the k-nearest neighbors (kNN) of many other points in a high-dimensional data set.
+The hubs' effects, called the hubness phenomenon, degrade the performance of kNN based models in high dimensions.
+We present SamHub, a simple sampling approach to efficiently identify hubs with theoretical guarantees. 
+Apart from previous works based on approximate kNN indexes, SamHub is generic and applicable to any distance measure with negligible additional memory footprint. 
+Empirically, by sampling only 10% of points, SamHub runs significantly faster and offers higher accuracy than existing hub detection methods on many real-world data sets with dot product, L1, L2, and dynamic time warping distances.
+Our ablation studies of SamHub on improving kNN-based classification show potential for other high-dimensional data analysis tasks.

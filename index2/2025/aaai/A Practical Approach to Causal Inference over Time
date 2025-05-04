@@ -1,0 +1,6 @@
+In this paper, we focus on estimating the causal effect of an intervention over time on a dynamical system. 
+To that end, we formally define causal interventions and their effects over time on discrete-time stochastic processes (DSPs). 
+Then, we show under which conditions the equilibrium states of a DSP, both before and after a causal intervention, can be captured by a structural causal model (SCM). 
+With such an equivalence at hand, we provide an explicit mapping from vector autoregressive models (VARs), broadly applied in econometrics, to linear, but potentially cyclic and/or affected by unmeasured confounders, SCMs. The resulting causal VAR framework allows us to perform causal inference over time from observational time series data. 
+Our experiments on synthetic and real-world datasets show that the proposed framework achieves strong performance in terms of observational forecasting while enabling accurate estimation of the causal effect of interventions on dynamical systems. 
+We demonstrate, through a case study, the potential practical questions that can be addressed using the proposed causal VAR framework.

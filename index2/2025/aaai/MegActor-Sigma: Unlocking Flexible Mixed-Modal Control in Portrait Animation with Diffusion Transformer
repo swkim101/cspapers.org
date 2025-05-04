@@ -1,0 +1,9 @@
+Diffusion models have demonstrated superior performance in portrait animation. 
+However, current approaches relied on either visual or audio modality to control character movements, failing to exploit the potential of mixed-modal control.
+This challenge arises from the difficulty in balancing the weak control strength of audio modality and the strong control strength of visual modality.
+To address this issue, we introduce MegActor-Sigma: a mixed-modal conditional diffusion transformer (DiT), which can flexibly inject audio and visual modality control signals into portrait animation.
+Specifically, we make substantial advancements over its predecessor, MegActor, by leveraging the promising model structure of DiT and integrating audio and visual conditions through advanced modules within the DiT framework.
+To further achieve flexible combinations of mixed-modal control signals, we propose a ``Modality Decoupling Control" training strategy to balance the control strength between visual and audio modalities, 
+along with the ``Amplitude Adjustment" inference strategy to freely regulate the motion amplitude of each modality.
+Finally, to facilitate extensive studies in this field, we design several dataset evaluation metrics to filter out public datasets and solely use this filtered dataset for training.
+Extensive experiments demonstrate the superiority of our approach in generating vivid portrait animations.

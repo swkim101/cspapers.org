@@ -1,0 +1,6 @@
+We present FÆRDXEL, an expert system for providing answers and explanations to legal questions (queries) regarding Danish traffic law cases. 
+It utilizes a Datalog encoding of Danish traffic laws and uses SLD-resolution to answer queries. 
+The SLD-resolution’s trace of operations can be converted into a legal explanation for the query. 
+A user interface allows legal professionals to input case facts, ask questions, and explore explanations.
+Feedback from legal experts identified usability challenges and potential end-users, including traffic police and judges. 
+Future steps include empirical evaluation of soundness, integrating punishment reasoning, and enhancing usability through natural language processing.

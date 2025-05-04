@@ -1,0 +1,7 @@
+We study the problem of designing replication-proof bandit mechanisms when agents strategically register or replicate their own arms to maximize their payoff.
+Specifically, we consider Bayesian agents who only know the distribution from which their own arms' mean rewards are sampled, unlike the original setting of by Shin, Lee, and Ok AISTATS'22.
+Interestingly, with Bayesian agents in stark contrast to the previous work, analyzing the replication-proofness of an algorithm becomes significantly complicated even in a single-agent setting.
+We provide sufficient and necessary conditions for an algorithm to be replication-proof in the single-agent setting, and present an algorithm that satisfies these properties.
+These results center around several analytical theorems that focus on comparing the expected regret of multiple bandit instances, and therefore might be of independent interest since they have not been studied before to the best of our knowledge. 
+We expand this result to the multi-agent setting, and provide a replication-proof algorithm for any problem instance.
+We finalize our result by proving its sublinear regret upper bound which matches that of Shin, Lee, and Ok AISTATS'22.

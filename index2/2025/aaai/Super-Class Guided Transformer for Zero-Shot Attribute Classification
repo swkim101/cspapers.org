@@ -1,0 +1,10 @@
+Attribute classification is crucial for identifying specific characteristics within image regions.
+Vision-Language Models (VLMs) have been effective in zero-shot tasks by leveraging their general knowledge from large-scale datasets.
+Recent studies demonstrate that transformer-based models with class-wise queries can effectively address zero-shot multi-label classification.
+However, poor utilization of the relationship between seen and unseen attributes makes the model lack generalizability.
+Additionally, attribute classification generally involves many attributes, making maintaining the model’s scalability difficult.
+To address these issues, we propose Super-class guided transFormer (SugaFormer), a novel framework that leverages super-classes to enhance scalability and generalizability for zero-shot attribute classification.
+SugaFormer employs Super-class Query Initialization (SQI) to reduce the number of queries, utilizing common semantic information from super-classes, and incorporates Multi-context Decoding (MD) to handle diverse visual cues.
+To strengthen generalizability, we introduce two knowledge transfer strategies that utilize VLMs. 
+During training, Super-class guided Consistency Regularization (SCR) aligns model’s features with VLMs using super-class guided prompts, and during inference, Zero-shot Retrieval-based Score Enhancement (ZRSE) refines predictions for unseen attributes.
+Extensive experiments demonstrate that SugaFormer achieves state-of-the-art performance across three widely-used attribute classification benchmarks under zero-shot, and cross-dataset transfer settings.

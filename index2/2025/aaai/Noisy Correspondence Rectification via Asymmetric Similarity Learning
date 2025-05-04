@@ -1,0 +1,9 @@
+Cross-modal matching shows enormous potential to recognize objects across different sensory modalities, which is fundamental to numerous visual-language tasks like image-text retrieval and visual captioning.
+Existing works generally rely on massive and well-aligned data pairs for model training.
+Unfortunately, multimodal datasets are extremely difficult to annotate and collect.
+As an alternative, the co-occurred data pairs collected from the internet have been widely exploited to train a cross-modal matching model.
+However, the cheaply-collected dataset unavoidably contains mismatched pairs (i.e., noisy correspondence), which are detrimental to the matching model.
+In this paper, we propose an alternative method termed noisy correspondence rectification via Asymmetric Similarity Learning (ASL), and it allows for dealing with insufficient learning of positive and negative pairs caused by the popular triplet-based symmetric learning fashion.
+Specifically, the learning of positive or negative pairs within a triplet is conducted in an asymmetric fashion, and the self-paced weighting boundary is imposed on positive pairs to mitigate the effect of noise.
+Meanwhile, the optimization of negative samples will not be affected in the process of punishing potentially-noisy positive samples.
+To verify the effectiveness of our proposed approach, a series of experiments are conducted on three widely-used benchmarks (i.e., Flick30k, MS-COCO and CC152k), and the results show superior performance compared to the state-of-the-art methods.

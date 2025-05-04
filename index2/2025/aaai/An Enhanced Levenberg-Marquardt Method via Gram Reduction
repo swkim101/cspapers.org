@@ -1,0 +1,6 @@
+This paper studies the problem of solving the system of nonlinear equations.
+We propose the Gram-reduced Levenberg--Marquardt method, which reuses the Gram matrix.
+Our method has a global convergence guarantee without relying on any step of line-search or solving sub-problems. 
+We show that our method takes a smaller computational complexity than existing Levenberg--Marquardt methods to find the stationary point of the square norm of the equations.
+We also show that the proposed method enjoys a local superlinear convergence rate under the non-degenerate assumption.
+Experiments are conducted on real-world applications in scientific computing and machine learning, which validate the efficiency of our method.

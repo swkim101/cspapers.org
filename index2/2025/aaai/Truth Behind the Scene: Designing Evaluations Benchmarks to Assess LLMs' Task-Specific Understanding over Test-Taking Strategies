@@ -1,0 +1,1 @@
+Many existing benchmarks, such as MMLU, are limited to measuring large language models’ (LLM) true task understanding due to their reliance on statistical patterns in the training data. We suggest new approaches to improve how benchmarks can capture task-specific understanding in LLMs, revealing insights into their reasoning ability.

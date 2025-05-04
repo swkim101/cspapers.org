@@ -1,0 +1,7 @@
+Hallucination detection has attracted considerable interest due to the tendency of language models to generate texts that contain hallucinations. Most existing methods start with specific local details directly extracted from text, then aggregate to form the final conclusion.
+However, this direct extraction approach ignores the global context, leading to isolated details, and is prone to missed or over-detections.
+In this paper, we present a global-to-local approach for hallucination detection (G2LDetect), which considers the global information of the text before identifying local details.
+We first construct a global representation of the text by transforming it into a hierarchical tree structure.
+Afterward, we obtain specific local details from the global tree representation using path-wise identification and perform detection on them.
+This global-to-local detection process ensures that local details are context-aware and complete, thus making more accurate and reliable detection results.
+Experimental results show that our global-to-local method outperforms existing methods, especially for longer texts.

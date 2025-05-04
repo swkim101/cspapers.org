@@ -1,0 +1,7 @@
+Estimating service capabilities for logistics terminal stations is essential for guiding operations adjustments to enhance customer experience. 
+However, existing studies often focus on isolated metrics like on-time delivery or complaint rates, each reflecting a specific aspect of service capabilities. 
+To provide a more comprehensive evaluation, we design AdaService, an Adaptive multi-faceted Service capabilities co-estimation framework. 
+We begin by constructing Multi-faceted Hypergraph to encode stations using multiple performance metrics. 
+We then introduce a Multi-faceted Hypergraph Convolution Network (MHCN) to capture the heterogeneous service capabilities across stations, providing a comprehensive capabilities representation. 
+Finally, we apply an Adaptive Multi-faceted Estimation module that uses multi-task learning to model dynamic interactions among these metrics, enhancing predictive accuracy.
+Extensive evaluation with real-world data collected from nationwide stations in a leading logistics company in China demonstrates that AdaService significantly outperforms state-of-the-art methods, improving estimation accuracy for on-time delivery, on-time pick-up, and complaint rates by up to 18.98%, 9.30%, and 39.62%.

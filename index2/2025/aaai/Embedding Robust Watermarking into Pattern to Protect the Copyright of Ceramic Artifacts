@@ -1,0 +1,6 @@
+Ceramic artworks with elegant patterns present enormous collectible value and profits. To claim the copyright, the builder usually pastes their conspicuous stamp on the bottom or side of the ceramic artworks, which inevitably affects the external image of the artwork. In addition, the stamp is weak in resisting forgery attacks due to its visible nature.
+To address the above issues, we propose in this paper a novel framework for embedding invisible watermarking into patterns of the ceramic artworks.
+In the framework, a template-based watermarking embedding scheme is designed to map the watermark to an invisible template, which is added to the ceramic pattern to create its watermarked version. 
+A distortion layer is further proposed to model the distortion of ceramic patterns in the ceramic manufacturing process, where a color-halftoning and an adaptive brightness adjustment strategy are developed to counter the print and firing operations that introduce the most significant distortions. 
+Finally, a deep decoder is learned to extract the watermarking from the distorted pattern.
+Various experiments have been conducted to demonstrate the advantage of our proposed method for protecting the copyright of the ceramic artworks, which provides reliable watermark extraction accuracy without the need for a conspicuous stamp.

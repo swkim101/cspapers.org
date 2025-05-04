@@ -1,0 +1,14 @@
+Data sharing is necessary for AI to be widely used, but sharing sensitive data with others with privacy is risky.
+To solve these problems, it is necessary to synthesize realistic tabular data.
+In many cases, tabular data contains a mixture of continuous, mixed, categorical columns.
+Moreover, columns of the same type may have multimodal distribution or be highly imbalanced.
+These issues make it challenging to synthesize tabular data.
+The synthesized tabular data should reflect the relational meaning between columns of tabular data, so modeling the probability distribution of tabular data is a non-trivial task.
+Traditional tabular data synthesizing models are based on GAN or diffusion models and are built using fully connected or convolutional layers.
+However, fully connected layers have the disadvantage of low inductive bias, and convolutional layers are not invariant to the column order of tabular data.
+Therefore, we assume that converting tabular data into graph-structured data and using a graph neural network would produce better synthetic data than using fully connected layers or convolutional layers.
+Our study aims to show that GANs constructed with graph neural networks can outperform existing GAN models using fully connected layers or convolutional layers.
+We propose CG-TGAN, a conditional GAN built using graph neural networks. To learn how to synthesize realistic data, the graph neural networks in the discriminator and generator learn graph-level tasks and node-level tasks together.
+The discriminator of CG-TGAN learns a graph-level task to distinguish between real and synthetic data and node-level tasks to predict the value of the target node.
+CG-TGAN’s generator learns a graph-level task to synthesize an overall graph similar to real data and node-level tasks to learn how to synthesize a fake graph with the proper relation between nodes.
+In this paper, we show that CG-TGAN outperforms GAN-based models and is comparable to diffusion-based models.

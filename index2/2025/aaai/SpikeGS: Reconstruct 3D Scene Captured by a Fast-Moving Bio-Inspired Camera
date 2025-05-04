@@ -1,0 +1,6 @@
+3D Gaussian Splatting (3DGS) has been proven to exhibit exceptional performance in reconstructing 3D scenes. However,
+the effectiveness of 3DGS heavily relies on sharp images, and fulfilling this requirement presents challenges in real-world
+scenarios particularly when utilizing fast-moving cameras. This limitation severely constrains the practical application of
+3DGS and may compromise the feasibility of real-time reconstruction. To mitigate these challenges, we proposed Spike
+Gaussian Splatting (SpikeGS), the first framework that integrates the Bayer-pattern spike streams into the 3DGS pipeline
+to reconstruct 3D scenes captured by a fast-moving high temporal color spike camera in one second. With accumulation rasterization, interval supervision, and a special designed pipeline, SpikeGS realizes continuous spatiotemporal perception while extracts detailed structure and texture from Bayer-pattern spike stream which is unstable and lacks details. Extensive experiments on both synthetic and real-world datasets demonstrate the superiority of SpikeGS compared with existing spike-based and deblur 3D scene reconstruction methods.

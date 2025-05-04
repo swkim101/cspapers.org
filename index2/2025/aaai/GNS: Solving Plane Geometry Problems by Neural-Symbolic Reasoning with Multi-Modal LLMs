@@ -1,0 +1,9 @@
+With the outstanding capabilities of Large Language Models (LLMs), 
+solving math word problems (MWP) has greatly progressed, achieving higher performance on several benchmark datasets. 
+However, it is more challenging to solve plane geometry problems (PGPs) due to the necessity of understanding, reasoning and computation on two modality data including both geometry diagrams and textual questions, where Multi-Modal Large Language Models (MLLMs) have not been extensively explored.
+Previous works simply regarded a plane geometry problem as multi-modal QA task, which ignored the importance of explicit parsing geometric elements from problems. 
+To tackle this limitation, we propose to solve plane Geometry problems by Neural-Symbolic reasoning with MLLMs (GNS). 
+We first leverage an MLLM to understand PGPs through knowledge prediction and symbolic parsing, next perform mathematical reasoning to obtain solutions, last adopt a symbolic solver to compute answers. 
+Correspondingly, we introduce the largest PGPs dataset GNS-260K with multiple annotations including symbolic parsing, understanding, reasoning and computation. 
+In experiments, our Phi3-Vision-based MLLM wins the first place on the PGPs solving task of MathVista benchmark, outperforming GPT-4o, Gemini Ultra and other much larger MLLMs.
+While LLaVA-13B-based MLLM markedly exceeded other close-source and open-source MLLMs on the MathVerse benchmark and also achieved the new SOTA on GeoQA dataset.

@@ -1,0 +1,6 @@
+Visible spectrum images capture limited information from just three discrete bands, often resulting in suboptimal performance in underwater depth estimation (UDE) due to significant information loss from water absorption. 
+In contrast, HSIs, which include hundreds of continuous bands, provide abundant spectral information that offers greater resilience against the adverse effects of water absorption.
+In this paper, we conduct a comprehensive study to investigate how spectral information can enhance remote sensing UDE through two key aspects: the benchmark dataset and the general framework.
+For the benchmark dataset, we construct a real-world hyperspectral UDE (HUDE) dataset ATR-HUDE, comprising approximately 500 synchronized hyperspectral and LiDAR data pairs collected from diverse coastal scenes and flight altitudes.
+Regarding the general framework, we integrate recent advances in state space models and physical imaging models to design a novel HUDE framework named HUDEMamba that estimates underwater depth using both model-driven and data-driven approaches.
+Experimental results on the constructed benchmark dataset validate the potential of HUDE and the effectiveness of HUDEMamba.

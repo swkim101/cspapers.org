@@ -1,0 +1,5 @@
+This paper introduces a SAT-based technique that calculates a compact and complete symmetry-break for finite model finding, with the focus on structures with a single binary operation (magmas). Classes of algebraic structures are typically described as first-order logic formulas and the concrete algebras are models of these formulas. Such models include an enormous number of isomorphic, i.e. symmetric, algebras.
+
+A complete symmetry-break is a formula that has as models, exactly one canonical representative from each equivalence class of algebras. Thus, we enable answering questions about properties of the models so that computation and search are restricted to the set of canonical representations.
+
+For instance, we can answer the question: How many non-isomorphic semigroups are there of size n? Such questions can be answered by counting the satisfying assignments of a SAT formula, which already filters out non-isomorphic models. The introduced technique enables us calculating numbers of algebraic structures not present in the literature and going beyond the possibilities of pure enumeration approaches.

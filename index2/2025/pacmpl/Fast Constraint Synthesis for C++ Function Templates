@@ -1,0 +1,9 @@
+C++ templates are a powerful feature for generic programming and compile-time computations, but C++ compilers often emit overly verbose template error messages. Even short error messages often involve unnecessary and confusing implementation details, which are difficult for developers to read and understand. To address this problem, C++20 introduced constraints and concepts, which impose requirements on template parameters. The new features can define clearer interfaces for templates and can improve compiler diagnostics. However, manually specifying template constraints can still be non-trivial, which becomes even more challenging when working with legacy C++ projects or with frequent code changes.
+ 
+ 
+ 
+
+ 
+ 
+ 
+This paper bridges the gap and proposes an automatic approach to synthesizing constraints for C++ function templates. We utilize a lightweight static analysis to analyze the usage patterns within the template body and summarize them into constraints for each type parameter of the template. The analysis is inter-procedural and uses disjunctions of constraints to model function overloading. We have implemented our approach based on the Clang frontend and evaluated it on two C++ libraries chosen separately from two popular library sets: algorithm from the Standard Template Library (STL) and special functions from the Boost library, both of which extensively use templates. Our tool can process over 110k lines of C++ code in less than 1.5 seconds and synthesize non-trivial constraints for 30%-40% of the function templates. The constraints synthesized for algorithm align well with the standard documentation, and on average, the synthesized constraints can reduce error message lengths by 56.6% for algorithm and 63.8% for special functions.

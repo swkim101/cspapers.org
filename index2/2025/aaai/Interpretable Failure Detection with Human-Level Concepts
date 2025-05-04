@@ -1,0 +1,7 @@
+Reliable failure detection holds paramount importance in safety-critical applications.
+Yet, neural networks are known to produce overconfident predictions for misclassified samples. 
+As a result, it remains a problematic matter as existing confidence score functions rely on category-level signals, the logits, to detect failures. 
+This research introduces an innovative strategy, leveraging human-level concepts for a dual purpose: to reliably detect when a model fails and to transparently interpret why.
+By integrating a nuanced array of signals for each category, our method enables a finer-grained assessment of the model's confidence.
+We present a simple yet highly effective approach based on the ordinal ranking of concept activation to the input image. 
+Without bells and whistles, our method is able to significantly reduce the false positive rate across diverse real-world image classification benchmarks, specifically by 3.7% on ImageNet and 9.0% on EuroSAT.

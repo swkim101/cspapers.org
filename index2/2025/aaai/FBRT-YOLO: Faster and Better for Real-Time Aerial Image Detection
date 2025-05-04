@@ -1,0 +1,7 @@
+Embedded flight devices with visual capabilities have become essential for a wide range of applications. 
+In aerial image detection, while many existing methods have partially addressed the issue of small target detection, challenges remain in optimizing small target detection and balancing detection accuracy with efficiency.
+These issues are key obstacles to the advancement of real-time aerial image detection.
+In this paper, we propose a new family of real-time detectors for aerial image detection, named FBRT-YOLO, to address the imbalance between detection accuracy and efficiency. Our method comprises two lightweight modules: Feature Complementary Mapping Module (FCM) and Multi-Kernel Perception Unit (MKP), designed to enhance object perception for small targets in aerial images.
+FCM focuses on alleviating the problem of information imbalance caused by the loss of small target information in deep networks. It aims to integrate spatial positional information of targets more deeply into the network, better aligning with semantic information in the deeper layers to improve the localization of small targets.
+We introduce MKP, which leverages convolutions with kernels of different sizes to enhance the relationships between targets of various scales and improve the perception of targets at different scales.
+Extensive experimental results on three major aerial image datasets, including Visdrone, UAVDT, and AI-TOD, demonstrate that FBRT-YOLO outperforms various real-time detectors in terms of performance and speed.

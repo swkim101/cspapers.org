@@ -1,0 +1,11 @@
+In-the-wild dynamic facial expression recognition (DFER) encounters a significant challenge in recognizing emotion-related expressions, which are often temporally and spatially diluted by emotion-irrelevant expressions and global context.
+Most prior DFER methods directly utilize coupled spatiotemporal representations that may incorporate weakly relevant features with emotion-irrelevant context bias.
+Several DFER methods highlight dynamic information for DFER, but following explicit guidance that may be vulnerable to irrelevant motion.
+In this paper, we propose a novel Implicit Facial Dynamics Disentanglement framework (IFDD).
+Through expanding wavelet lifting scheme to fully learnable framework, IFDD disentangles emotion-related dynamic information from emotion-irrelevant global context in an implicit manner, i.e., without exploit operations and external guidance.
+The disentanglement process contains two stages.
+The first is Inter-frame Static-dynamic Splitting Module (ISSM) for rough disentanglement estimation, which explores inter-frame correlation to generate content-aware splitting indexes on-the-fly.
+We utilize these indexes to split frame features into two groups, one with greater global similarity, and the other with more unique dynamic features.
+The second stage is Lifting-based Aggregation-Disentanglement Module (LADM) for further refinement.
+LADM first aggregates two groups of features from ISSM to obtain fine-grained global context features by an updater, and then disentangles emotion-related facial dynamic features from the global context by a predictor.
+Extensive experiments on in-the-wild datasets have demonstrated that IFDD outperforms prior supervised DFER methods with higher recognition accuracy and comparable efficiency.

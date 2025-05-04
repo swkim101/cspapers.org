@@ -1,0 +1,10 @@
+Farmers rely on in-field observations to make well-informed crop management decisions to maximize profit and minimize adverse environmental impact.
+However, obtaining real-world crop state measurements is labor-intensive, time-consuming and expensive.
+In most cases, it is not feasible to gather crop state measurements before every decision moment.
+Moreover, in previous research pertaining to farm management optimization, these observations are often assumed to be readily available without any cost, which is unrealistic.
+Hence, enabling optimization without the need to have *temporally complete* crop state observations is important.
+An approach to that problem is to include measuring as part of decision making.
+As a solution, we apply reinforcement learning (RL) to recommend opportune moments to simultaneously measure crop features and apply nitrogen fertilizer.
+With realistic considerations, we design an RL environment with explicit crop feature measuring costs.
+While balancing costs, we find that an RL agent, trained with recurrent PPO, discovers adaptive measuring policies that follow critical crop development stages, with results aligned by what domain experts would consider a sensible approach. 
+Our results highlight the importance of measuring when crop feature measurements are not readily available.

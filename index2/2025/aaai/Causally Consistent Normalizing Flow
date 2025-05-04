@@ -1,0 +1,24 @@
+Causal inconsistency arises when the underlying causal graphs captured by generative models like Normalizing Flows are inconsistent with those specified in causal models like Struct Causal Models.
+This inconsistency can cause
+unwanted issues including unfairness.
+Prior works to achieve causal consistency inevitably compromise the expressiveness of their models
+by disallowing hidden layers.
+In this work, we introduce a new approach: Causally Consistent Normalizing Flow (CCNF).
+To the best of our knowledge, 
+CCNF is the first causally consistent generative model 
+that can approximate any distribution with multiple layers.
+CCNF relies on two novel constructs:
+a sequential representation of SCMs and
+partial causal transformations.
+These constructs allow CCNF
+to inherently maintain causal consistency
+without sacrificing expressiveness.
+CCNF can handle all forms of causal inference tasks, 
+including interventions and counterfactuals.
+Through experiments,
+we show that CCNF outperforms current approaches 
+in causal inference.
+We also empirically validate the practical utility of CCNF
+by applying it to real-world datasets
+and show how CCNF
+addresses challenges like unfairness effectively.

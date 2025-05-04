@@ -1,0 +1,15 @@
+There has been tremendous progress in the past decade in the
+field of quantified Boolean formulas (QBF), both in practical
+solving as well as in creating a theory of corresponding proof
+systems and their proof complexity analysis. Both for solving
+and for proof complexity, it is important to have interesting
+formula families on which we can test solvers and gauge the
+strength of the proof systems. There are currently few such
+formula families in the literature.
+We initiate a general programme how to transform computationally
+hard problems (located in the polynomial hierarchy)
+into QBFs hard for the main QBF resolution systems Q-Res
+and QU-Res that relate to core QBF solvers. We illustrate
+this general approach on three problems from graph theory
+and logic. This yields QBF families that are provably hard for
+Q-Res and QU-Res (without any complexity assumptions).

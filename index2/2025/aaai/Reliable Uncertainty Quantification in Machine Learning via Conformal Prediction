@@ -1,0 +1,5 @@
+Deploying machine learning (ML) models in high-stakes domains such as healthcare and autonomous systems requires reliable uncertainty quantification (UQ) to ensure safe and accurate decision-making. 
+Conformal prediction (CP) offers a robust, distribution-agnostic framework for UQ, providing valid prediction sets that guarantee a specified coverage probability. 
+However, existing CP methods are often limited by assumptions that are violated in real-world scenarios, such as non-i.i.d. data, and by a lack of integration with modern machine learning workflows, particularly in large generative models. 
+This research aims to address these limitations by advancing CP techniques to operate effectively in non-i.i.d. settings, improving predictive efficiency without sacrificing theoretical guarantees, and integrating CP directly into model training processes. 
+These developments will enhance the practical applicability of CP for a wide range of ML tasks, enabling more reliable and interpretable models in high-stakes applications.

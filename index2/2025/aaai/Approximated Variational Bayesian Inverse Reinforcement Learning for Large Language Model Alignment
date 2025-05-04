@@ -1,0 +1,8 @@
+The alignment of large language models (LLMs) is crucial for generating helpful and harmless content.
+Existing approaches leverage preference-based human feedback data to learn the reward function and align the LLM with the feedback data.
+However, these approaches focus on modeling the reward difference between the chosen and rejected demonstrations, rather than directly modeling the true reward from each demonstration.
+Moreover, these approaches assume that the reward is only obtained at the end of the sentence, which overlooks the modeling of intermediate rewards.
+These issues lead to insufficient use of training signals in the feedback data, limiting the representation and generalization ability of the reward and potentially resulting in reward hacking.
+In this paper, we formulate LLM alignment as a Bayesian Inverse Reinforcement Learning (BIRL) problem and propose a novel training objective, Approximated Variational Alignment (AVA), to perform LLM alignment through Approximated Variational Reward Imitation Learning (AVRIL). 
+The BIRL formulation facilitates intermediate reward modeling and direct reward modeling on each individual demonstration, which enhances the utilization of training signals in the feedback data.
+Experiments show that AVA outperforms existing LLM alignment approaches in reward modeling, RL fine-tuning, and direct optimization.

@@ -1,0 +1,9 @@
+This study proposes a new change detection method that leverages hubness. 
+Hubness is a phenomenon that occurs in high-dimensional spaces, where certain special data points, known as hub data, tend to be closer to other data points. 
+Hubness is known to degrade the accuracy of methods based on nearest neighbor search. 
+Therefore, many studies in the past have focused on reducing hubness to improve accuracy. 
+In contrast, this study utilizes hubness to detect changes. 
+Specifically, if there is no change, suppressing the hubness occurring in the two datasets obtained by dividing the time series data will result in a uniform data distribution. 
+However, if there is a change, even if we try to reduce the hubness in the two datasets obtained by dividing the time series data before and after the change, the hubness will not be reduced, and the data distribution will not become uniform. 
+We use this finding to detect changes. 
+Experiments with synthetic data show that the proposed method achieves accuracy comparable to or exceeding that of existing methods. Additionally, the proposed method achieves good accuracy with real-world data from hydraulic systems and gas sensors, along with excellent runtime performance.

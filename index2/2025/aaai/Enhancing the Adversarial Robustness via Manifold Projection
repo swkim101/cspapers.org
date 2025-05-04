@@ -1,0 +1,10 @@
+Deep learning has been widely applied to various aspects of computer vision, but the emergence of adversarial attacks raises concerns about its reliability.
+Adversarial training (AT) is one of the most effective defense methods, which incorporates adversarial examples into the training data.
+However, AT is typically employed in a discriminative learning manner, i.e., learning the mapping (conditional probability) from samples to labels, it essentially reinforces this mapping without considering the underlying data distribution.
+It is notable that adversarial examples often deviate from the distribution of normal (clean) samples.
+Therefore, building upon existing adversarial defense schemes, we propose to further exploit the distribution of normal samples, partly from the generative learning perspective, resulting in a novel robustness enhancement paradigm.
+We train a simple autoencoder (AE) autoregressively on normal samples to learn their prior distribution, effectively serving as an image manifold. This AE is then used as a manifold projection operator to incorporate the distribution information of normal samples.
+Specifically, we organically integrate the pretrained AE into the training process of both AT and adversarial distillation (AD), a method aiming at improving the robustness of small models with low capacity.
+Since the AE captures the distribution of normal samples, it can adaptively pull adversarial examples closer to the normal sample manifold, weakening the attack strength of adversarial samples and easing the learning of mappings from adversarial samples to correct labels.
+From the Pearson correlation coefficient (PCC) between the statistics on normal and adversarial examples, it’s validated that the AE indeed pulls adversarial samples closer to normal samples.
+Extensive experiments illustrate that our proposed adversarial defense paradigm significantly improves the robustness compared with previous state-of-the-art AT and AD methods.

@@ -1,0 +1,11 @@
+Logistics and transportation networks require a large amount of resources to realise necessary connections between locations and minimizing these resources is a vital aspect of planning research. 
+Since such networks have dynamic connections that are only available at specific times, intricate models are needed to portray them accurately. 
+In this paper, we study the problem of minimizing the number of resources needed to realise a dynamic network, using the temporal graphs model.
+In a temporal graph, edges appear at specific points in time.
+Given a temporal graph and a natural number k, we ask whether we can cover every temporal edge exactly once using at most k temporal journeys; in a temporal journey consecutive edges have to adhere to the order of time.
+We conduct a thorough investigation of the complexity of the problem with respect to four dimensions: 
+(a) whether the type of the temporal journey is a walk, a trail, or a path; 
+(b) whether the chronological order of edges in the journey is strict or non-strict; 
+(c) whether the temporal graph is directed or undirected; 
+(d) whether the start and end points of each journey are given.
+We almost completely resolve the complexity of these problems and provide dichotomies for each of them with respect to k.

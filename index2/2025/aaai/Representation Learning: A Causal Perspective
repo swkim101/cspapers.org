@@ -1,0 +1,9 @@
+Representation learning constructs low-dimensional representations to
+summarize essential features of high-dimensional data. This learning
+problem is often approached by describing various desiderata
+associated with learned representations; e.g., that they be
+non-spurious, efficient, or disentangled. It can be challenging,
+however, to turn these intuitive desiderata into formal criteria that
+can be measured and enhanced based on observed data. In this paper, we
+take a causal perspective on representation learning, formalizing
+desiderata like non-spuriousness and demonstrating their practical utility.

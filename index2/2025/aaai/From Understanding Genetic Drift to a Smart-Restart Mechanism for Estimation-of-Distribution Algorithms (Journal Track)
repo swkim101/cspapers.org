@@ -1,0 +1,7 @@
+Estimation-of-distribution algorithms (EDAs) are optimization algorithms that learn a distribution from which good solutions can be sampled easily. A key parameter of most EDAs is the sample size (population size). Too small values lead to the undesired effect of genetic drift, while larger values slow down the process. 
+
+Building on a quantitative analysis of how the population size leads to genetic drift, we design a smart-restart mechanism for EDAs. By stopping runs when the risk for genetic drift is high, it automatically runs the EDA in good parameter regimes. 
+
+Via a mathematical runtime analysis, we prove a general performance guarantee for this smart-restart scheme. For many situations where the optimal parameter values are known, this shows that the restart scheme automatically finds these optimal values, leading to the asymptotically optimal performance. 
+
+We also conduct an extensive experimental analysis. On four classic benchmarks, the smart-restart scheme leads to a performance close to the one obtainable with optimal parameter values. We also conduct experiments with PBIL (cross-entropy algorithm) on the max-cut problem and the bipartition problem. Again, the smart-restart mechanism finds much better values for the population size than those suggested in the literature, leading to a much better performance.

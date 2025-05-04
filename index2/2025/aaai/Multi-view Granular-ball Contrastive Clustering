@@ -1,0 +1,11 @@
+Previous multi-view contrastive learning methods typically operate at two scales: instance-level and cluster-level. 
+The former generally constructs positive and negative pairs based on the correspondence between samples and view instances. 
+These methods aim to bring positive pairs closer and push negative pairs further apart in the latent space.
+This kind of approaches has the drawback of inevitably introducing false negatives in an unsupervised setting, leading to reduced model discriminability. 
+The latter usually involves calculating cluster assignments for samples under each view and maximizing view consensus by reducing distribution discrepancies through methods like optimizing the KL divergence between different view distributions or maximizing mutual information. 
+However, clusters represent a macro structure that overlooks the local structure within the sample set, and the relationships between clusters across different views cannot be explicitly measured.
+To overcome the shortcomings of these two types of methods, we propose a method named Multi-view Granular-ball Contrastive Clustering (MGBCC). 
+This method segments the sample set into coarse-grained granular balls, and establishes associations between intra-view and cross-view granular balls. 
+These associations are reinforced in a shared latent space, thereby achieving multi-granularity contrastive learning.
+Granular balls lie between instances and clusters, naturally preserving the local topological structure of the sample set.
+We conduct extensive experiments to validate the effectiveness of the proposed method.

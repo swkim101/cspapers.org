@@ -1,0 +1,8 @@
+Existing knowledge distillation (KD) studies for streaming automatic speech recognition (ASR) adopt a non-streaming model as the teacher and a streaming model as the student, respectively.
+Since the non-streaming teacher usually has less emission latency compared to the streaming student, the teacher's prediction is typically shifted by $\tau$ frames, where the parameter $\tau$ is selected heuristically.
+In this paper, we observe that this manual shifting is sub-optimal and propose a novel framework, namely Heuristic-free KD.
+Instead of leveraging knowledge from the non-streaming teacher model, we employ a self-distillation setup, distilling the knowledge within the streaming architecture itself.
+Since the teacher and student share the same streaming ASR backbone, the alignment mismatch issue can be effectively mitigated without requiring any time shifting by $\tau$.
+Additionally, we incorporate full-context textual information as an auxiliary multi-modal input for the proposed teacher.
+Although the streaming architecture lacks future context, the additional linguistic input enables it to generate more accurate knowledge for self-distillation.
+We empirically demonstrate that the proposed KD approach significantly improves the performance of the streaming ASR model, outperforming conventional methods that rely on the offline teacher and heuristic parameter.

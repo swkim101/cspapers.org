@@ -1,0 +1,4 @@
+Federated Learning (FL) has pioneered the idea of "share wisdom not raw data" to enable collaborative learning over decentralized data. FL achieves this goal by averaging model parameters instead of centralizing data. However, representing "wisdom" in the form of model parameters has its own limitations including the requirement for uniform model architectures across clients and communication overhead proportional to model size.
+
+
+In this work we introduce Co-Dream a framework for representing "wisdom" in data space instead of model parameters. Here, clients collaboratively optimize random inputs based on their locally trained models and aggregate gradients of their inputs. Our proposed approach overcomes the aforementioned limitations and comes with additional benefits such as adaptive optimization and interpretable representation of knowledge. We empirically demonstrate the effectiveness of Co-Dream and compare its performance with existing techniques.

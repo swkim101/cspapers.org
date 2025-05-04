@@ -1,0 +1,8 @@
+Equational reasoning is one of the most intuitive and widely used types of symbolic reasoning. In this setting, the goal is to determine whether a given ground equation t=t' follows as a consequence of a set of equational axioms E using the process of replacing equals with equals. An equation t=t' is variable-preserving if each variable occurring in t occurs in t' and vice versa. Such equations capture essential algebraic properties, such as commutativity, associativity and distributivity, which arise in a wide variety of contexts.
+
+In this work, we show that for each fixed set E of variable-preserving equations, the set of ground equations derivable from E in depth at most d is soundly over-approximable in fixed-parameter tractable time. More specifically, we devise an algorithm that takes as input a set E of variable-preserving equations and a target ground equation t=t', and always halts with a YES or NO answer.
+
+1) If equation t=t' can be derived from E in depth at most d, the algorithm always halts with a YES. 
+2) If equation t=t' does not belong to the equational closure of E, then the algorithm always halts with a NO.
+
+In other words, the set of YES instances contains the set of ground equations that can be deduced from E in depth at most d, and possibly other equations that require derivations of higher depth. However, this set contains no ground equation that is not in the equational closure of E. For this reason, the algorithm is sound. Our algorithm works in time f(d) * |t| * |t'|, where |t| and |t'| are the number of symbols in t and t' respectively, d is the depth parameter, and f(d) is a function whose growth depends only on d and on parameters associated with the equations in E.

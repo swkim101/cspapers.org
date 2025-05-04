@@ -1,0 +1,8 @@
+Recent advancements in online Video Instance Segmentation (VIS) methods show notable performance improvements across benchmarks.
+However, the leading methods in the tracking-by-detection paradigm often result in temporally inconsistent predictions at both instance-level and pixel-level that lead to visually unsatisfactory outcomes.
+To address these challenges, we propose RoCoVIS, a simple yet effective approach that integrates segmentation and tracking to provide consistent online VIS.
+Our approach is an end-to-end sequential learning where object queries are propagated through mask predictions, improving the accuracy of temporal instance mapping at the pixel level.
+Additionally, we propose a new label assignment criterion in harmony with our approach.
+We also examine the limitations and challenges presented by the current standard evaluation protocol (AP) and suggest adopting additional metrics, Tube-Boundary AP and AP_Pool.
+RoCoVIS demonstrates superior performance on challenging VIS benchmarks with a Swin-L backbone and shows competitive results when employing a ResNet-50 backbone.
+By employing Tube-Boundary AP and AP_Pool as metrics to measure mask accuracy and consistency, RoCoVIS outperforms its counterpart, GenVIS, on the HQ-YTVIS and VIPSeg.

@@ -1,0 +1,5 @@
+In numerous settings, agents lack sufficient data to learn a model directly. Collaborating with other agents may help, but introduces a bias-variance trade-off when local data distributions differ.
+A key challenge is for each agent to identify clients with similar distributions while learning the model, a problem that remains largely unresolved.
+This study focuses on a particular instance of the overarching problem, where each agent collects samples from a real-valued distribution over time to estimate its mean. Existing algorithms face impractical per-agent space and time complexities (linear in the number of agents |A|). 
+To address scalability challenges, we propose a framework where agents self-organize into a graph, allowing each agent to communicate with only a selected number of peers r. We propose two collaborative mean estimation algorithms: one employs a consensus-based approach, while the other uses a message-passing scheme, with complexity O(r) and O(r log |A|), respectively. 
+We establish conditions for both algorithms to yield asymptotically optimal estimates and we provide a theoretical characterization of their performance.

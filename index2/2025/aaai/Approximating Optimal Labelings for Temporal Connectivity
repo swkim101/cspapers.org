@@ -1,0 +1,8 @@
+In a temporal graph the edge set dynamically changes over time according to a set of time-labels associated with each edge that indicates at which time-step the edge is available. Two vertices are connected if there is a path connecting them in which the edges are traversed in increasing order of their labels. We study the problem of scheduling the availability time of the edges of a temporal graph in such a way that all pairs of vertices are connected within a given maximum allowed time a and the overall number of labels is minimum.
+
+The problem, called Minimum Aged Labeling (MAL), has several applications in logistics, distribution scheduling, and information spreading in social networks, where carefully choosing the time-labels can significantly reduce infrastructure costs, fuel consumption, or greenhouse gases.
+
+Problem MAL has previously been proved to be NP-complete on undirected graphs and APX-hard on directed graphs. 
+In this paper, we extend our knowledge on the complexity and approximability of MAL in several directions. We first show that the problem cannot be approximated within a factor better than O(log n) when a >= 2, unless P = NP, and a factor better than 2^[log^(1-ε) n] when a >= 3, unless NP is contained in DTIME(2^(polylog(n))), where n is the number of vertices in the graph. Then we give a set of approximation algorithms that, under some conditions, almost match these lower-bounds. In particular, we show that the approximation depends on a relation between a and the diameter of the input graph.
+
+We further establish a connection with a foundational optimization problem on static graphs called Diameter Constrained Spanning Subgraph (DCSS) and show that our hardness results also apply to DCSS.

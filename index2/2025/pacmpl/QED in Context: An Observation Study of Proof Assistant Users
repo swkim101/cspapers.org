@@ -1,0 +1,5 @@
+Interactive theorem provers, or proof assistants, are important tools across many areas of computer science and mathematics, but even experts find them challenging to use effectively. To improve their design, we need a deeper, user-centric understanding of proof assistant usage.
+ 
+ 
+ 
+We present the results of an observation study of proof assistant users. We use contextual inquiry methodology, observing 30 participants doing their everyday work in Rocq and Lean. We qualitatively analyze their experiences to surface four observations: that proof writers iterate on their proofs by reacting to and incorporating feedback from the proof assistant; that proof progress often involves challenging conversations with the proof assistant; that proofs are constructed in consultation with a wide array of external resources; and that proof writers are guided by design considerations that go beyond "getting to QED." Our documentation of these themes clarifies what proof assistant usage looks like currently and identifies potential opportunities that researchers should consider when working to improve the usability of proof assistants.

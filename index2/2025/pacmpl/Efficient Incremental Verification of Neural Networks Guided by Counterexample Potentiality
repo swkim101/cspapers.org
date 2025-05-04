@@ -1,0 +1,49 @@
+
+ Incremental verification is an emerging neural network verification approach that aims to accelerate the verification of a neural network
+ N
+ *
+ by reusing the existing verification result (called a
+ template
+ ) of a similar neural network
+ N
+ . To date, the state-of-the-art incremental verification approach leverages the problem splitting history produced by
+ branch and bound (
+ BaB
+ in verification of
+ N
+ , to select only a part of the sub-problems for verification of
+ N
+ *
+ , thus more efficient than verifying
+ N
+ *
+ from scratch. While this approach identifies
+ whether
+ each sub-problem should be re-assessed, it neglects the information of
+ how necessary
+ each sub-problem should be re-assessed, in the sense that the sub-problems that are more likely to contain counterexamples should be prioritized, in order to terminate the verification process as soon as a counterexample is detected. To bridge this gap, we first define a
+ counterexample potentiality order
+ over different sub-problems based on the template, and then we propose
+ Olive
+ , an incremental verification approach that explores the sub-problems of verifying
+ N
+ *
+ orderly guided by counterexample potentiality. Specifically,
+ Olive
+ has two variants, including
+ Olive
+ 
+ g
+ 
+ , a greedy strategy that always prefers to exploit the sub-problems that are more likely to contain counterexamples, and
+ Olive
+ 
+ b
+ 
+ , a balanced strategy that also explores the sub-problems that are less likely, in case the template is not sufficiently precise. We experimentally evaluate the efficiency of
+ Olive
+ on 1445 verification problem instances derived from 15 neural networks spanning over two datasets MNIST and CIFAR-10. Our evaluation demonstrates significant performance advantages of
+ Olive
+ over state-of-the-art classic verification and incremental approaches. In particular,
+ Olive
+ shows evident superiority on the problem instances that contain counterexamples, and performs as well as Ivan on the certified problem instances.

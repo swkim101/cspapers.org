@@ -1,0 +1,8 @@
+Source-free unsupervised domain adaptation aims to eliminate domain shifts when data from the source domain and annotation from the target domain are not available.
+The multi-object detection tasks in medical image analysis are constrained by patient privacy and extremely huge annotation consumption. Hence, Source-free UDA is considered a more practical approach for eliminating the domain gap. However, relevant research that explores this topic is a dearth.
+In this paper, we design an Anatomy-aware Alignment Teacher-Student learning method using topological consistency based on a mean-teacher framework for Source-free UDA in multiple medical object detection named AATS, including Unsupervised Structure Refinement (USR) and Graph-aware Morphology Alignment (GMA).
+To match the student and teacher at the low-level and visual features, we propose the USR via an unsupervised clustering algorithm to group organs in ultrasound images.
+Based on USR, we obtain a graph with organ relations on the teacher branch.
+While in the student branch, we acquire visual features to construct graphical space and optimize the model with graph propagation. 
+Finally, to match the student and teacher, GMA is designed to align the teacher and student based on both topology and morphology information that is derived from prior medical knowledge.
+Four groups of adaptation experiments were conducted on available medical datasets, and the outcomes demonstrate that our approach not only achieves state-of-the-art performance but also provides substantial advantages over existing methods.

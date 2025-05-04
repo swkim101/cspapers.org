@@ -1,0 +1,6 @@
+We present Diffusion Model Patching (DMP), a simple method to boost the performance of pre-trained diffusion models that have already reached convergence, with a negligible increase in parameters.
+DMP inserts a small, learnable set of prompts into the model's input space while keeping the original model frozen.
+The effectiveness of DMP is not merely due to the addition of parameters but stems from its dynamic gating mechanism, which selects and combines a subset of learnable prompts at every step of the generative process (i.e., reverse denoising steps).
+This strategy, which we term "mixture-of-prompts'', enables the model to draw on the distinct expertise of each prompt, essentially "patching'' the model's functionality at every step with minimal yet specialized parameters.
+Uniquely, DMP enhances the model by further training on the original dataset already used for training, even in a scenario where significant improvements are typically not expected due to model convergence.
+Experiments show that DMP significantly enhances the converged FID of DiT-L/2 on FFHQ by 10.38%, achieved with only a 1.43% parameter increase and 50K additional training iterations.

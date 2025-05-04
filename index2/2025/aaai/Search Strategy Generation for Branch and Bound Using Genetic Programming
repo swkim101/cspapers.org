@@ -1,0 +1,9 @@
+Branch-and-Bound (BB) is an exact method in integer programming that recursively divides the search space into a tree. During the resolution process, determining the next subproblem to explore within the tree—known as the search strategy—is crucial. 
+Hand-crafted heuristics are commonly used, but none are effective over all problem classes. 
+Recent approaches utilizing neural networks claim to make more intelligent decisions but are computationally expensive.
+In this paper, we introduce GP2S (Genetic Programming for Search Strategy), a novel machine learning approach that automatically generates a BB search strategy heuristic, aiming to make intelligent decisions while being computationally lightweight. 
+We define a policy as a function that evaluates the quality of a BB node by combining features from the node and the problem; the search strategy policy is then defined by a best-first search based on this node ranking. 
+The policy space is explored using a genetic programming algorithm, and the policy that achieves the best performance on a training set is selected.
+We compare our approach with the standard method of the SCIP solver, a recent graph neural network-based method, and handcrafted heuristics. 
+Our first evaluation includes three types of primal hard problems, tested on instances similar to the training set and on larger instances. 
+Our method is at most 2 percents slower than the best baseline and consistently outperforms SCIP, achieving an average speedup of 11.3 percents. Additionally, GP2S is tested on the MIPLIB 2017 dataset, generating multiple heuristics from different subsets of instances. It exceeds SCIP’s average performance in 7 out of 10 cases across 15 times more instances and under a time limit 15 times longer, with some GP2S methods leading on most experiments in terms of the number of feasible solutions or optimality gap.

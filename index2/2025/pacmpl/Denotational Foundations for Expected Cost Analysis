@@ -1,0 +1,10 @@
+
+ Reasoning about the cost of executing programs is one of the fundamental questions in computer science. In the context of programming with probabilities, however, the notion of cost stops being deterministic, since it depends on the probabilistic samples made throughout the execution of the program. This interaction is further complicated by the non-trivial interaction between cost, recursion and evaluation strategy. In this work we introduce
+ cert
+ : a Call-By-Push-Value (CBPV) metalanguage for reasoning about probabilistic cost. We equip
+ cert
+ with an operational cost semantics and define two denotational semantics — a cost semantics and an expected-cost semantics. We prove operational soundness and adequacy for the denotational cost semantics and a cost adequacy theorem for the expected-cost semantics. We formally relate both denotational semantics by stating and proving a novel
+ effect simulation
+ property for CBPV. We also prove a canonicity property of the expected-cost semantics as the minimal semantics for expected cost and probability by building on recent advances on monadic probabilistic semantics. Finally, we illustrate the expressivity of
+ cert
+ and the expected-cost semantics by presenting case-studies ranging from randomized algorithms to stochastic processes and show how our semantics capture their intended expected cost.

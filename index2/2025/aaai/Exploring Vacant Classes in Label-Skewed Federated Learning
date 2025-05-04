@@ -1,0 +1,8 @@
+Label skews, characterized by disparities in local label distribution across clients, pose a significant challenge in federated learning. 
+As minority classes suffer from worse accuracy due to overfitting on local imbalanced data, prior methods often incorporate class-balanced learning techniques during local training.
+Although these methods improve the mean accuracy across all classes, we observe that vacant classes—referring to categories absent from a client's data distribution—remain poorly recognized.
+Besides, there is still a gap in the accuracy of local models on minority classes compared to the global model.
+This paper introduces FedVLS, a novel approach to label-skewed federated learning that integrates both vacant-class distillation and logit suppression simultaneously.
+Specifically, vacant-class distillation leverages knowledge distillation during local training on each client to retain essential information related to vacant classes from the global model. 
+Moreover, logit suppression directly penalizes network logits for non-label classes, effectively addressing misclassifications in minority classes that may be biased toward majority classes.
+Extensive experiments validate the efficacy of FedVLS, demonstrating superior performance compared to previous state-of-the-art (SOTA) methods across diverse datasets with varying degrees of label skews.

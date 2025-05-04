@@ -1,0 +1,12 @@
+Real-world graph data environments intrinsically exist noise (e.g., link and structure errors) that inevitably disturb the effectiveness of graph representation and downstream learning tasks.
+For homogeneous graphs, the latest works use original node features to synthesize a similarity graph that can correct the structure of the noised graph.
+This idea is based on the homogeneity assumption, which states that similar nodes in the homogeneous graph tend to have direct links in the original graph.
+However, similar nodes in heterogeneous graphs usually do not have direct links, which can not be used to correct the original noise graph. 
+This causes a significant challenge in noised heterogeneous graph learning.
+To this end, this paper proposes a novel synthesized similarity-based graph neural network compatible with noised heterogeneous graph learning.
+First, we calculate the original feature similarities of all nodes to synthesize a similarity-based high-order graph.
+Second, we propose a similarity-aware encoder to embed original and synthesized graphs with shared parameters.
+Then, instead of graph-to-graph supervising, we synchronously supervise the original and synthesized graph embeddings to predict the same labels.
+Meanwhile, a target-based graph extracted from the synthesized graph contrasts the structure of the metapath-based graph extracted from the original graph to learn the mutual information.
+Extensive experiments in numerous real-world datasets show the proposed method achieves state-of-the-art records in the noised heterogeneous graph learning tasks.
+In highlights, +5~6\% improvements are observed in several noised datasets compared with previous SOTA methods.

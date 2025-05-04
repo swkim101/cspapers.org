@@ -1,0 +1,7 @@
+As a fundamental problem of graph analysis, graph visualization aims to embed a set of graphs in a low-dimensional (e.g., 2D) space and provide insights into their distribution and clustering structure. 
+Focusing on this problem, we propose a novel Wasserstein t-distributed embedding (WatE) method, leading to an information-enriched graph visualization paradigm. 
+Our method learns a graph neural network to represent each graph as the mean and covariance of its node embedding distribution. 
+Accordingly, our method can visualize each graph as an ellipse (determined by the mean and the covariance) rather than a single point. 
+The positions of different ellipses reveal the relations among different graphs as traditional visualization methods do, while the size and shape of an ellipse preserve the node-level structural information of the corresponding graph. 
+We propose a regularized t-distributed stochastic neighbor embedding (Rt-SNE) framework to learn the visualization model, deriving a Wasserstein distance-based Student's t-distribution of graph pairs and fitting the distribution to the data distribution under regularization. 
+Both subjective and objective evaluations demonstrate that WatE achieves encouraging performance in various graph visualization and clustering tasks.

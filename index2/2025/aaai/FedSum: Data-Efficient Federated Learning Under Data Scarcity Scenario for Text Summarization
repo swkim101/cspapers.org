@@ -1,0 +1,9 @@
+Text summarization task extracts salient information from a large amount of text for productivity enhancement.
+However, most existing methods heavily rely on training models from ample and centrally stored data which is infeasible to collect in practice, due to privacy concerns and data scarcity nature under several settings (e.g., edge computing or cold starting).
+The main challenge lies in constructing the privacy-preserving and well-behaved summarization model under the data scarcity scenario, where the data scarcity nature will lead to the knowledge shortage of the model while magnifying the impact of data bias, causing performance degeneration.
+To tackle this challenge, previous studies attempt to complement samples or improve the efficiency of data.
+The former is usually associated with high computing costs or has a large dependence on empirical settings, while the latter might not effective due to the lack of consideration of data bias.
+In this work, we propose FedSum which extends the standard FL framework from depth and breadth to further extract prime and diversified knowledge from limited resources for text summarization.
+For depth extension, we introduce a Data Partition method to cooperatively recognize the prime samples that are more significant and unbiased, and the Data skip mechanism is introduced to help the model further focus on those prime samples during the local training process.
+For breadth extension, FedSum extends the source of knowledge and develops the summarization model by extracting knowledge from the data samples, hidden spaces, and globally received parameters.
+Extensive experiments on four benchmark datasets verify the promising improvement of FedSum compared to baselines, and show its generalizability, scalability, and robustness.

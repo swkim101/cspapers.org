@@ -1,0 +1,11 @@
+Partially Relevant Video Retrieval (PRVR) addresses the challenges of text-to-video retrieval in real-world scenarios where untrimmed videos are prevalent.
+Traditional PRVR methods encode videos at two feature scales: (1) frame-level to capture fine details, and (2) clip-level to recognize broader content.
+However, these approaches align both scales with a single sentence representation, leading to suboptimal performance. 
+In particular, we point out the level mismatch in aligning frame-level video features with a sentence representation, as the entire meaning of a sentence contains broader and more diverse content than what frame-level features can encode.
+This misalignment causes frame-level features to capture broader contexts and overlook local fine details.
+To tackle this issue, we propose a framework that represents a sentence as a set of multiple components, where each component aligns with frame-level semantics.
+Specifically, we introduce Semantic-Decomposed Matching (SDM) to adjust the granularity of the text description to match them with frame-level video features. 
+In addition to the matching process, we develop the Adaptive Local Aggregator (ALA) to enhance video encoding in capturing finer local details, ensuring precise text-video alignment at the frame level.
+ALA adaptively integrates multi-scale local details within short temporal spans obtained by enforcing a strict temporal aggregation range.
+Finally, we reinforce detailed encoding at the frame level with newly designed objectives for both modalities.
+Extensive experiments integrating our framework with existing clip branches demonstrate its effectiveness and applicability, highlighting significant improvements in PRVR performance.

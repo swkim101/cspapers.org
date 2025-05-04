@@ -1,0 +1,7 @@
+Self-supervised stereo matching has drawn attention due to its ability to estimate disparity without needing ground-truth data.
+However, existing self-supervised stereo matching methods heavily rely on the photo-metric consistency assumption, which is vulnerable to natural disturbances, resulting in ambiguous supervision and inferior performance compared to the supervised ones.
+To relax the limitation of the photo-metric consistency assumption and even bypass this assumption, we propose a novel self-supervised framework named DualNet, which consists of two key steps: robust self-supervised teacher learning and pseudo-label supervised student training.
+Specifically, the teacher model is first trained in a self-supervised manner with a focus on feature-metric consistency and data augmentation consistency.
+Then, the output of the teacher model is geometrically constrained to obtain high-quality pseudo labels. 
+Benefiting from these high-quality pseudo labels, the student model can outperform its teacher model by a large margin.
+With the two well-designed steps, the proposed framework DualNet ranks 1st among all self-supervised methods on multiple benchmarks, surprisingly even outperforming several supervised counterparts.

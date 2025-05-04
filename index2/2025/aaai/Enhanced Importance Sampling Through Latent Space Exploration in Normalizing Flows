@@ -1,0 +1,7 @@
+Importance sampling is a rare event simulation technique used in Monte Carlo simulations to bias the sampling distribution towards the rare event of interest.
+By assigning appropriate weights to sampled points, importance sampling allows for more efficient estimation of rare events or tails of distributions. 
+However, importance sampling can fail when the proposal distribution does not effectively cover the target distribution. 
+In this work, we propose a method for more efficient sampling by updating the proposal distribution in the latent space of a normalizing flow. 
+Normalizing flows learn an invertible mapping from a target distribution to a simpler latent distribution. 
+The latent space can be more easily explored during the search for a proposal distribution, and samples from the proposal distribution are recovered in the space of the target distribution via the invertible mapping. 
+We empirically validate our methodology on simulated robotics applications such as autonomous racing and aircraft ground collision avoidance.

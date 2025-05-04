@@ -1,0 +1,6 @@
+
+ We study
+ row polymorphism
+ for records types in systems with set-theoretic types, specifically, union, intersection, and negation types. We consider record types that embed row variables and define a subtyping relation by interpreting record types into sets of record values, and row variables into sets of
+ rows
+ , that is, “chunks” of record values where some record keys are left out: subtyping is then containment of the interpretations. We define a λ-calculus equipped with operations for field extension, selection, and deletion, its operational semantics, and a type system that we prove to be sound. We provide algorithms for deciding the typing and subtyping relations, and to decide whether two types can be instantiated to make one subtype of the other. This research is motivated by the current trend of defining static type systems for dynamic languages and, in our case, by an ongoing effort of endowing the Elixir programming language with a gradual type system.

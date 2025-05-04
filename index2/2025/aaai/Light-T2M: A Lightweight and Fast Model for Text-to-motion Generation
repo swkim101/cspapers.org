@@ -1,0 +1,7 @@
+Despite the significant role text-to-motion (T2M) generation plays across various applications, current methods involve a large number of parameters and suffer from slow inference speeds, leading to high usage costs.
+To address this, we aim to design a lightweight model to reduce usage costs.
+First, unlike existing works that focus solely on global information modeling, we recognize the importance of local information modeling in the T2M task by reconsidering the intrinsic properties of human motion, leading us to propose a lightweight Local Information Modeling Module.
+Second, we are the first to introduce Mamba to the T2M task, reducing the number of parameters and GPU memory demands, and we have designed a novel Pseudo-bidirectional Scan to replicate the effects of a bidirectional scan without increasing parameter count.
+Moreover, we propose a novel Adaptive Textual Information Injector that more effectively integrates textual information into the motion during generation.
+By integrating the aforementioned designs, we propose a lightweight and fast model named Light-T2M.
+Compared to the state-of-the-art method, MoMask, our Light-T2M model features just 10% of the parameters (4.48M vs 44.85M) and achieves a 16% faster inference time (0.152s vs 0.180s), while surpassing MoMask with an FID of 0.040 (vs. 0.045) on HumanML3D dataset and 0.161 (vs. 0.228) on KIT-ML dataset.

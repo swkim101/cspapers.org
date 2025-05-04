@@ -1,0 +1,10 @@
+In recent years, semantic segmentation has flourished in various applications.
+However, the high computational cost remains a significant challenge that hinders its further adoption. 
+The filter pruning method for structured network slimming offers a direct and effective solution for the reduction of segmentation networks. 
+Nevertheless, we argue that most existing pruning methods, originally designed for image classification, overlook the fact that segmentation is a location-sensitive task, which consequently leads to their suboptimal performance when applied to segmentation networks.
+To address this issue, this paper proposes a novel approach, denoted as Spatial-aware Information Redundancy Filter Pruning (SIRFP), which aims to reduce feature redundancy between channels. 
+First, we formulate the pruning process as a maximum edge weight clique problem (MEWCP) in graph theory, thereby minimizing the redundancy among the remaining features after pruning. 
+Within this framework, we introduce a spatial-aware redundancy metric based on feature maps, thus endowing the pruning process with location sensitivity to better adapt to pruning segmentation networks. 
+Additionally, based on the MEWCP, we propose a low computational complexity greedy strategy to solve this NP-hard problem, making it feasible and efficient for structured pruning. 
+To validate the effectiveness of our method, we conducted extensive comparative experiments on various challenging datasets.
+The results demonstrate the superior performance of SIRFP for semantic segmentation tasks.

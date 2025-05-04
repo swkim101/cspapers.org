@@ -1,0 +1,7 @@
+Given the massive transformation of all areas of society by AI, it is becoming essential to integrate AI literacy into the various school curricula from an early age. However, teaching the basic concepts of AI and Machine Learning (e.g. training a model; artificial neural networks) at the K-12 level might seem too abstract, whereas teaching only how to use AI fails to really "open the black box".
+
+To overcome these difficulties, we have developed AlphAI, a software resource designed to make the understanding of AI algorithms accessible and attractive to the general public and children as young as 8 years old. This is achieved by making AI very concrete, first by manipulating the learning of educational robots that users train for different behaviors, such as circuit racing, using either supervised or reinforcement learning; second by visualizing in real time in a graphical interface the details of AI algorithms (neural networks, k-nearest neighbors, Q-learning, etc). In addition, the use of the software is not limited to beginners, since it allows to write one's own AI in Python to control the robots.
+
+In this paper, we present the basic principles of the software, its graphical interface, how to use it with various educational robots, and example activities with classes from Elementary school to University.
+
+AlphAI software and robotic kits are commercially available from Learning Robots.

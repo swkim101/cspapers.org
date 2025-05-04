@@ -1,0 +1,23 @@
+Most US school districts draw geographic "attendance zones" to
+assign children to schools based on their home address, a process that
+can replicate existing neighborhood racial/ethnic and socioeconomic
+status (SES) segregation in schools. Redrawing boundaries can reduce
+segregation, but estimating expected rezoning impacts is often challenging because
+families can opt-out of their assigned schools. This paper seeks to 
+alleviate this societal problem by developing a joint
+redistricting and choice modeling framework, called redistricting
+with choices (RWC). The RWC framework is applied to a large US
+public school district to estimate how redrawing elementary school
+boundaries might realistically impact levels of
+socioeconomic segregation. The main methodological contribution of
+RWC is a contextual stochastic optimization model that aims to minimize
+district-wide segregation by integrating rezoning constraints
+with a machine learning-based school choice model. The study finds that RWC
+yields boundary changes that might reduce segregation by a substantial
+amount (23%) -- but doing so might require the re-assignment of a
+large number of students, likely to mitigate re-segregation that
+choice patterns could exacerbate. The results also reveal that
+predicting school choice is a challenging machine learning problem.
+Overall, this study offers a novel practical framework that both
+academics and policymakers might use to foster more diverse and
+integrated schools.

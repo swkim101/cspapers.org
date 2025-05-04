@@ -1,0 +1,5 @@
+Model counting is the task of counting the number of satisfying assignments of a Boolean formula. Since counting is intractable in general, most applications use (ε, δ)-approximations, where the output is within a (1+ε)-factor of the count with probability at least 1-δ. 
+Many demanding applications make thousands of counting queries, and the state-of-the-art approximate counter, ApproxMC, makes hundreds of calls to SAT solvers to answer a single approximate counting query.
+The sheer number of SAT calls, poses a significant challenge to the existing approaches. 
+
+In this work, we propose an approximation scheme, ApproxMC7, that is tailored to such demanding applications with low time limits. Compared to ApproxMC, ApproxMC7 makes 14× fewer SAT calls while providing the same guarantees as ApproxMC in the constant-factor regime. In an evaluation over 2,247 instances, ApproxMC7 solved 271 more and achieved a 2× speedup against ApproxMC.

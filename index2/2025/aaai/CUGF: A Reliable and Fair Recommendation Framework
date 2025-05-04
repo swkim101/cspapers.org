@@ -1,0 +1,18 @@
+Recommendation systems (RS) play a crucial role in assisting decision-making but often suffer from either a lack of
+credibility or unfairness problems. A few recommendation
+models have endeavored to address the problem from only
+one aspect, and approaches to solving both problems remain
+to be explored. This paper aims to construct a generalized
+fairness-based recommendation framework that can also provide the credibility of recommendation models. Generally,
+we propose a reliable and fair recommendation framework
+called Conformalized User Group Fairness (CUGF) based
+on the inspiration of conformal prediction. Specifically, we
+construct dynamic prediction sets that are guaranteed to cover
+the true item with a user pre-specified probability to ensure
+credibility while designing novel fairness metrics based on
+empirical risks to guarantee the fairness of users across different groups. Furthermore, we design a novel CUGF Algorithm
+to optimize the parameter γ that dominates the prediction sets
+and also the fairness. Besides, we conduct extensive experiments by applying CUGF on top of various recommendation
+models and representative datasets to validate its effectiveness with respect to recommendation performance (in terms
+of average set size) and fairness (in terms of the two defined
+fairness metrics), the results of which demonstrate the validity of the proposed framework.

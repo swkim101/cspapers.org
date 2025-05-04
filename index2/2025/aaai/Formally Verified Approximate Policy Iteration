@@ -1,0 +1,7 @@
+We present a methodology based on interactive theorem proving that facilitates the development of verified implementations of algorithms for solving factored Markov Decision Processes.
+As a case study, we formally verify an algorithm for approximate policy iteration in the proof assistant Isabelle/HOL.
+We show how the verified algorithm can be refined to an executable, verified implementation.
+Our evaluation on benchmark problems shows that it is practical.
+As part of the development, we build verified software to certify linear programming solutions.
+We discuss the verification process and the modifications we made to the algorithm during
+formalization.

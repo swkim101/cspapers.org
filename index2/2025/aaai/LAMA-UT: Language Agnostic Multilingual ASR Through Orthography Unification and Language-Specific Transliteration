@@ -1,0 +1,11 @@
+Building a universal multilingual automatic speech recognition (ASR) model that performs equitably across languages has long been a challenge due to its inherent difficulties.
+To address this task we introduce a Language-Agnostic Multilingual ASR pipeline through orthography Unification and language-specific Transliteration (LAMA-UT).
+LAMA-UT operates without any language-specific modules while matching the performance of state-of-the-art models trained on a minimal amount of data.
+Our pipeline consists of two key steps.
+First, we utilize a universal transcription generator to unify orthographic features into Romanized form and capture common phonetic characteristics across diverse languages. 
+Second, we utilize a universal converter to transform these universal transcriptions into language-specific ones.
+In experiments, we demonstrate the effectiveness of our proposed method leveraging universal transcriptions for massively multilingual ASR.
+Our pipeline achieves a relative error reduction rate of 45% when compared to Whisper and performs comparably to MMS, despite being trained on only 0.1% of Whisper's training data.
+Furthermore, our pipeline does not rely on any language-specific modules.
+However, it performs on par with zero-shot ASR approaches which utilize additional language-specific lexicons and language models.
+We expect this framework to serve as a cornerstone for flexible multilingual ASR systems that are generalizable even to unseen languages.

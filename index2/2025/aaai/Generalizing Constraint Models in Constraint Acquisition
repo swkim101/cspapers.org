@@ -1,0 +1,6 @@
+Constraint Acquisition (CA) aims to widen the use of constraint programming by assisting users in the modeling process. However, most CA methods suffer from a significant drawback: they learn a single set of individual constraints for a specific problem instance, but cannot generalize these constraints to the parameterized constraint specifications of the problem. In this paper, we address this limitation by proposing GenCon, a novel approach to learn parameterized constraint models capable of modeling varying instances of the same problem.
+To achieve this generalization, we make use of statistical learning techniques at the level of individual constraints.
+Specifically, we propose to train a classifier to predict, for any possible constraint and parameterization, whether the constraint belongs to the problem.
+We then show how, for some classes of classifiers, we can extract decision rules to construct interpretable constraint specifications. This enables the generation of ground constraints for any parameter instantiation.
+Additionally, we present a generate-and-test approach that can be used with any classifier, to generate the ground constraints on the fly.
+Our empirical results demonstrate that our approach achieves high accuracy and is robust to noise in the input instances.

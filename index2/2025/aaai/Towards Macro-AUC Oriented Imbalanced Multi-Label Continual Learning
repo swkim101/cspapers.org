@@ -1,0 +1,8 @@
+In Continual Learning (CL), while existing work primarily focuses on the multi-class classification task, there has been limited research on Multi-Label Learning (MLL). In practice, MLL datasets are often class-imbalanced, making it inherently challenging, a problem that is even more acute in CL. 
+ Due to its sensitivity to imbalance, Macro-AUC is an appropriate and widely used measure in MLL. 
+ However, there is no research to optimize Macro-AUC in MLCL specifically.
+ To fill this gap, in this paper, we propose a new memory replay-based method to tackle the imbalance issue for Macro-AUC-oriented MLCL.
+ Specifically, inspired by recent theory work, we propose a new Reweighted Label-Distribution-Aware Margin (RLDAM) loss.
+ Furthermore, to be compatible with the RLDAM loss, a new memory-updating strategy named Weight Retain Updating (WRU) is proposed to maintain the numbers of positive and negative instances of the original dataset in memory. 
+ Theoretically, we provide superior generalization analyses of the RLDAM-based algorithm in terms of Macro-AUC, separately in batch MLL and MLCL settings. This is the first work to offer theoretical generalization analyses in MLCL to our knowledge.
+ Finally, a series of experimental results illustrate the effectiveness of our method over several baselines.

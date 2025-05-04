@@ -1,0 +1,6 @@
+Attention mechanisms have played a crucial role in the success of Transformer models, as seen in platforms like ChatGPT. However, since
+they compute attentions from relationships between only one or two object types, they fail to effectively capture multi-object
+relationships in real-world scenarios, resulting in low prediction accuracy. In fact, they cannot calculate attention weights among
+diverse object types, such as the `comments,' `replies,' and `subjects' that naturally constitute conversations on platforms like Reddit or X,
+representing relationships simultaneously observed in real-world contexts. To overcome this limitation, we introduce the Tensorized
+Attention Model (TAM), which uses the Tucker decomposition to calculate attention weights across various object types and seamlessly integrates them into the Transformer models. Evaluations show that TAM significantly outperforms existing encoder methods, and its integration into the LoRA adapter for Llama2 enhances fine-tuning accuracy.

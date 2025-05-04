@@ -1,0 +1,6 @@
+Recent texture generation methods achieve impressive results due to the powerful generative prior they leverage from large-scale text-to-image diffusion models.
+However, abstract textual prompts are limited in providing global textural or shape information, which results in the texture generation methods producing blurry or inconsistent patterns.
+To tackle this, we present FlexiTex, embedding rich information via visual guidance to generate a high-quality texture.
+The core of FlexiTex is the Visual Guidance Enhancement module, which incorporates more specific information from visual guidance to reduce ambiguity in the text prompt and preserve high-frequency details.
+To further enhance the visual guidance, we introduce a Direction-Aware Adaptation module that automatically designs direction prompts based on different camera poses, avoiding the Janus problem and maintaining semantically global consistency.
+Benefiting from the visual guidance, FlexiTex produces quantitatively and qualitatively sound results, demonstrating its potential to advance texture generation for real-world applications.

@@ -1,0 +1,5 @@
+Bayes nets are extensively used in practice to efficiently represent joint probability distributions over a set of random variables and capture dependency relations.
+Prior work has shown that given a distribution P defined as the marginal distribution of a Bayes net, it is NP-hard to decide whether there is a parameter-bounded Bayes net that represents P.
+They called this problem LEARN.
+In this work, we extend the NP-hardness result of LEARN and prove the NP-hardness of a promise search variant of LEARN, whereby the Bayes net in question is guaranteed to exist and one is asked to find such a Bayes net.
+We complement our hardness result with a positive result about the sample complexity that is sufficient to recover a parameter-bounded Bayes net that is close (in TV distance) to a given distribution P, represented by some parameter-bounded Bayes net, thereby generalizing a degree-bounded sample complexity literature result.

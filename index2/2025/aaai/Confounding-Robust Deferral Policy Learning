@@ -1,0 +1,15 @@
+Human-AI collaboration has the potential to transform various domains by leveraging
+the complementary strengths of human experts and Artificial Intelligence (AI) systems.
+However, unobserved confounding can undermine the effectiveness of this collaboration,
+leading to biased and unreliable outcomes. In this paper, we propose a novel solution to
+address unobserved confounding in human-AI collaboration by employing the marginal
+sensitivity model (MSM). Our approach combines domain expertise with AI-driven
+statistical modeling to account for potential confounders that may otherwise remain
+hidden. We present a deferral collaboration framework for incorporating the MSM into
+policy learning from observational data, enabling the system to control for the influence
+of unobserved confounding factors. In addition, we propose a personalized deferral
+collaboration system to leverage the diverse expertise of different human decision-makers.
+By adjusting for potential biases, our proposed solution enhances the robustness and
+reliability of collaborative outcomes. The empirical and theoretical analyses demonstrate
+the efficacy of our approach in mitigating unobserved confounding and improving the
+overall performance of human-AI collaborations.

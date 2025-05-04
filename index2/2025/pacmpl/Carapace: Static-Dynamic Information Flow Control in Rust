@@ -1,0 +1,23 @@
+Fine-grained information flow control (IFC) ensures confidentiality and integrity at the programming language
+ 
+level by ensuring that high-secrecy values do not affect low-secrecy values and that low-integrity values do
+ 
+not affect high-integrity values. However, prior support for fine-grained IFC is impractical: It either analyzes
+ 
+programs using whole-program static analysis, detecting false IFC violations; or it extends the language and
+ 
+compiler, thwarting adoption. Recent work called Cocoon demonstrates how to provide fine-grained IFC for
+ 
+Rust programs without modifying the language or compiler, but it is limited to static secrecy labels, and its case
+ 
+studies are limited. This paper introduces an approach called Carapace that employs Cocoon’s core approach
+ 
+and supports both static and dynamic IFC and supports both secrecy and integrity. We demonstrate Carapace
+ 
+using three case studies involving real applications and comprehensive security policies. An evaluation
+ 
+shows that applications can be retrofitted to use Carapace with relatively few changes, while incurring
+ 
+negligible run-time overhead in most cases. Carapace advances the state of the art by being the first hybrid
+ 
+static–dynamic IFC that works with an off-the-shelf language—Rust—and its unmodified compiler

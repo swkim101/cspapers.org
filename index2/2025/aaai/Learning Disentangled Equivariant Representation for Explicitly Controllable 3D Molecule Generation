@@ -1,0 +1,7 @@
+We consider the conditional generation of 3D drug-like molecules with explicit control over molecular properties 
+such as drug-like properties (e.g., Quantitative Estimate of Druglikeness or Synthetic Accessibility score) and effectively binding to specific protein sites. 
+To tackle this problem, we propose an E(3)-equivariant Wasserstein autoencoder and factorize the latent space of 
+our generative model into two disentangled aspects: molecular properties and the remaining structural context of 3D molecules.
+Our model ensures explicit control over these molecular attributes while maintaining equivariance of coordinate representation and invariance of data likelihood. 
+Furthermore, we introduce a novel alignment-based coordinate loss to adapt equivariant networks for auto-regressive de-novo 3D molecule generation from scratch.
+Extensive experiments validate our model's effectiveness on property-guided and context-guided molecule generation, both for de-novo 3D molecule design and structure-based drug discovery against protein targets.

@@ -1,0 +1,7 @@
+Membership Inference Attack (MIA) aims to determine if a specific sample is present in the training dataset of a target machine learning model. 
+Previous MIAs against fine-tuned Large Language Models (LLMs) either fail to address the unique challenges in the fine-tuned setting or rely on strong assumption of the training data distribution.
+This paper proposes a distribution-free MIA framework tailored for fine-tuned LLMs, named DF-MIA. 
+We recognize that samples await to test can serve as a valuable reference dataset for fine-tuning reference models. 
+By enhancing the signals of non-member samples within this reference dataset, we can achieve a more reliable and practical calibration of probabilities, improving the differentiation between members and non-members.
+Leveraging these insights, we have developed a two-stage framework that employs specially designed data augmentation and perturbation techniques to prioritize the significance of non-members and mitigate the influence of potential members within the reference dataset.
+We evaluate our method on three representative LLM models ranging from 1B to 8B on three datasets. The results demonstrate that the DF-MIA significantly enhances the performance of MIA.

@@ -1,0 +1,17 @@
+Iterative dataflow analyses (IDFAs) are important static analyses employed by tools like compilers for enabling program optimizations, comprehension, verification, and more. During compilation of a program, optimizations/transformations can render existing dataflow solutions stale, jeopardizing the optimality and correctness of subsequent compiler passes. Exhaustively recomputing these solutions can be costly. Since most program changes impact only small portions of the flowgraph, several incrementalization approaches have been proposed for various subclasses of IDFAs. However, these approaches face one or more of these limitations: (i) loss of precision compared to exhaustive analysis, (ii) inability to handle arbitrary lattices and dataflow functions, and (iii) lacking fully automated incrementalization of the IDFA. As a result, mainstream compilers lack frameworks for generating precise incremental versions of arbitrary IDFAs, leaving analysis writers to create ad hoc algorithms for incrementalization – an often cumbersome and error-prone task. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To tackle these challenges, we introduce IncIDFA, a novel algorithm that delivers precise and efficient incremental variants of any monotone IDFA. IncIDFA utilizes a two-pass approach to maintain precision. Unlike prior works, IncIDFA avoids resetting the dataflow solutions to least informative values when dealing with strongly-connected regions and arbitrary program changes. We formally prove the precision guarantees of IncIDFA for arbitrary dataflow problems and program changes. IncIDFA has been implemented in the IMOP compiler framework for parallel OpenMP C programs. To showcase its generality, we have instantiated IncIDFA to ten specific dataflow analyses, without requiring any additional code for incrementalization. We present an evaluation of IncIDFA on a real-world set of optimization passes, across two different architectures. As compared to exhaustive recomputation, IncIDFA resulted in a speedup of up to 11×(geomean 2.6×) in incremental-update time, and improvement of up to 46% (geomean 15.1%) in the total compilation time.

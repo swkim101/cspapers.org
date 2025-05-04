@@ -1,0 +1,10 @@
+Federated learning (FL) has garnered considerable interest for its capability to learn from decentralized data sources.
+Given the increasing application of FL in decision-making scenarios, addressing fairness issues across different sensitive groups (e.g., female, male) in FL is crucial.
+Current research typically focus on facilitating fairness at each client's data (local fairness) or within the entire dataset across all clients (global fairness).
+However, existing approaches that focus exclusively on either global or local fairness fail to address two key challenges: 
+(CH1) Under statistical heterogeneity, global fairness does not imply local fairness, and vice versa.
+(CH2) Achieving fairness under model-agnostic setting.
+To tackle the aforementioned challenges, this paper proposes a novel post-processing framework for achieving both Local and Global Fairness in the FL context, namely LoGoFair.
+To address CH1, LoGoFair endeavors to seek the Bayes optimal classifier under local and global fairness constraints, which strikes the optimal accuracy-fairness balance in the probabilistic sense.
+To address CH2, LoGoFair employs a model-agnostic federated post-processing procedure that enables clients to collaboratively optimize global fairness while ensuring local fairness, thereby achieving the optimal fair classifier within FL.
+Experimental results on three real-world datasets further illustrate the effectiveness of the proposed LoGoFair framework.

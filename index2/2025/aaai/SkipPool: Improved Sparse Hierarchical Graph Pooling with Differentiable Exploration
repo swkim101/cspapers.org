@@ -1,0 +1,10 @@
+Hierarchical pooling in conjunction with Graph Neural Networks (GNN) improves performance in graph classification tasks.
+Hierarchical pooling has to produce Multi-resolution representations while preserving graph-level information.
+One such hierarchical pooling is Standard-Sparse-Pooling (SSP).
+SSP assigns an importance score to each node, selects the Top-K nodes, and scales their attributes by their scores to produce the output.
+We reveal SSPs’ tendency to pool Over Representative Regions (ORR) on the graph’s signal space leaving some regions unpooled thus proving that SSP is incapable of preserving graph-level information robustly.
+We propose to overcome this by an improved differentiable exploration over the graph’s signal space dubbed as skipping hence the name SkipPool. 
+We tested SkipPool & its variant SkipPool-Full each against matching pooling methods.
+Proposed methods achieve new state-of-the-art performance on the majority of benchmark datasets. 
+Moreover, we show that skipping is more robust at capturing the graph signal space consequently preserving more graph-level information than its counterparts. 
+Proposed methods require a reasonably few parameters and their execution time can be kept low with parallelization.

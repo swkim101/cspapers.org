@@ -1,0 +1,18 @@
+Deep learning has excelled in medical image classification, 
+but its clinical application is limited by poor interpretability. 
+Capsule networks, known for encoding hierarchical relationships and spatial features, 
+show potential in addressing this issue. 
+Nevertheless, traditional capsule networks often underperform due to their shallow structures, 
+and deeper variants lack hierarchical architectures, thereby compromising interpretability. 
+This paper introduces a novel capsule network, ParseCaps, 
+which utilizes the sparse axial attention routing and parse convolutional capsule layer to form a parse-tree-like structure, 
+enhancing both depth and interpretability. 
+Firstly, sparse axial attention routing optimizes connections between child and parent capsules, 
+as well as emphasizes the weight distribution across instantiation parameters of parent capsules. 
+Secondly, the parse convolutional capsule layer generates capsule predictions aligning with the parse tree. 
+Finally, based on the loss design that is effective whether concept ground truth exists or not, 
+ParseCaps advances interpretability by associating each dimension of the global capsule with a comprehensible concept, 
+thereby facilitating clinician trust and understanding of the model's classification results.
+Experimental results on three medical datasets show 
+that ParseCaps not only outperforms other capsule network variants in classification accuracy and robustness, 
+but also provides interpretable explanations, regardless of the availability of concept labels.

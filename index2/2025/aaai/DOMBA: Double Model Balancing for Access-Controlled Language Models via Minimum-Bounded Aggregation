@@ -1,0 +1,10 @@
+The utility of large language models (LLMs) depends heavily on the quality and quantity of their training data. 
+Many organizations possess large data corpora that could be leveraged to train or fine-tune LLMs tailored to their specific needs. 
+However, these datasets often come with access restrictions that are based on user privileges and enforced by access control mechanisms. Training LLMs on such datasets could result in exposure of sensitive information to unauthorized users.
+A straightforward approach for preventing such exposure is to train a separate model for each access level. 
+This, however, may result in low utility models due to the limited amount of training data per model compared to the amount in the entire organizational corpus. 
+Another approach is to train a single LLM on all the data while limiting the exposure of unauthorized information. 
+However, current exposure-limiting methods for LLMs are ineffective for access-controlled data, where sensitive information appears frequently across many training examples.
+We propose DOMBA - double model balancing - a simple approach for training and deploying LLMs that provides high utility and access-control functionality with security guarantees. 
+DOMBA aggregates the probability distributions of two models, each trained on documents with (potentially many) different access levels, using a "min-bounded" average function (a function that is bounded by the smaller value, e.g., harmonic mean). 
+A detailed mathematical analysis and extensive evaluation show that DOMBA safeguards restricted information while offering utility comparable to non-secure models.

@@ -1,0 +1,7 @@
+Multi-modal learning aims to learn predictive models based on the data from different modalities. 
+However, due to the requirement of data security and privacy protection, real-world multi-modal data are often scattered to different agents and cannot be shared across the agents, which limits the application of existing multi-modal learning methods.
+To achieve robust multi-modal learning in such a challenging scenario, we propose a novel optimal transport-based mixer (OTM), which works as an effective latent code alignment and augmentation method for unaligned and distributed multi-modal data. 
+In particular, we train a Wasserstein autoencoder (WAE) for each agent, which encodes its single modal samples in a latent space. 
+Through a central server, the proposed OTM computes a stochastic fused Gromov-Wasserstein barycenter (FGWB) to mix different modalities' latent codes, so that each agent applies the barycenter to reconstruct its samples.
+This method neither requires well-aligned multi-modal data nor assumes the data to share the same latent distribution, and each agent can learn a specific model based on multi-modal data while achieving inference based on its local modality. 
+Experiments on multi-modal clustering and classification demonstrate that the models learned with the OTM method outperform the corresponding baselines.

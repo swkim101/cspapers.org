@@ -1,0 +1,7 @@
+Markov decision processes (MDP) are a well-established model for sequential decision-making in the presence of probabilities.
+In *robust* MDP (RMDP), every action is associated with an *uncertainty set* of probability distributions, modelling that transition probabilities are not known precisely.
+Based on the known theoretical connection to stochastic games, we provide a framework for solving RMDPs that is generic, reliable, and efficient.
+It is *generic* both with respect to the model, allowing for a wide range of uncertainty sets, including but not limited to intervals, L1- or L2-balls, and polytopes; and with respect to the objective, including long-run average reward, undiscounted total reward, and stochastic shortest path.
+It is *reliable*, as our approach not only converges in the limit, but provides precision guarantees at any time during the computation.
+It is *efficient* because -- in contrast to state-of-the-art approaches -- it avoids explicitly constructing the underlying stochastic game.
+Consequently, our prototype implementation outperforms existing tools by several orders of magnitude and can solve RMDPs with a million states in under a minute.

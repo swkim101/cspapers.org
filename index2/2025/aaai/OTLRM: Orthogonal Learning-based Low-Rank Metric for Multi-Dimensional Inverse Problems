@@ -1,0 +1,9 @@
+In real-world scenarios, complex data such as multispectral images and multi-frame videos inherently exhibit robust low-rank property. 
+This property is vital for multi-dimensional inverse problems, such as tensor completion, spectral imaging reconstruction, and multispectral image denoising. 
+Existing tensor singular value decomposition (t-SVD) definitions rely on hand-designed or pre-given transforms, which lack flexibility for defining tensor nuclear norm (TNN). 
+The TNN-regularized optimization problem is solved by the singular value thresholding (SVT) operator, which leverages the t-SVD framework to obtain the low-rank tensor. 
+However, it's quite complicated to introduce SVT into deep neural network due to the numerical instability problem in solving the derivatives of the eigenvectors.
+In this paper, we introduce a novel data-driven generative low-rank t-SVD model based on the learnable orthogonal transform, which can be naturally solved under its representation. 
+Prompted by the linear algebra theorem of the Householder transformation, our learnable orthogonal transform is achieved by constructing an endogenously orthogonal matrix adaptable to neural networks, optimizing it as arbitrary orthogonal matrices. 
+Additionally, we propose a low-rank solver as a generalization of SVT, which utilizes an efficient representation of generative networks to obtain low-rank structures. 
+Extensive experiments highlight its significant restoration enhancements.

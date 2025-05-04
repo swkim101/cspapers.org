@@ -1,0 +1,11 @@
+We consider a class of optimization problems defined by a system of linear equations with min and max operators. 
+ This class of optimization problems has been studied under restrictive conditions, such as,
+ (C1) the halting or stability condition;
+ (C2) the non-negative coefficients condition;
+ (C3) the sum upto 1 condition; and
+ (C4) the only min or only max operator condition.
+ Several seminal results in the literature focus on special cases.
+ For example, turn-based stochastic games correspond to conditions C2 and C3; and Markov decision process to conditions C2, C3, and C4.
+ However, the systematic computational complexity study of all the cases has not been explored, which we address in this work.
+ Some highlights of our results are: with conditions C2 and C4, and with conditions C3 and C4, the problem is NP-complete, whereas with condition C1 only, the problem is in UP intersects coUP.
+ Finally, we establish the computational complexity of the decision problem of checking the respective conditions.

@@ -1,0 +1,14 @@
+The learnware paradigm aims to establish a learnware market such that users can build their own models by reusing appropriate existing models in the market without starting from scratch.
+It is often the case that a single model is insufficient to fully satisfy the user's requirement.
+Meanwhile,
+offering multiple models can lead to higher costs for users
+alongside an increase in hardware resource demands.
+To address this challenge,
+this paper proposes the ''Slice-and-Pack'' (S&P) framework to empower the market to provide users with only the required model fragments without having to offer entire abilities of all involved models.
+Our framework first slices a set of models into small fragments and subsequently packs selected fragments according to user's specific requirement.
+In the slicing stage,
+we extract units layer by layer and connect these units to create numerous fragments.
+In the packing stage,
+an encoder-decoder mechanism is employed to assemble these fragments.
+These processes are conducted within data-limited constraints due to privacy concerns.
+Extensive experiments validate the effectiveness of our framework.

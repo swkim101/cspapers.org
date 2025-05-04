@@ -1,0 +1,8 @@
+The microscopic cascade prediction task has wide applications in downstream areas like ''rumor detection''.
+Its goal is to forecast the diffusion routines of information cascade within networks.
+Existing works typically formulate it as a classification task, which fails to well align with the Social Homophily assumption, as it just use the features of ''infected'' users while neglecting those of ''uninfected'' users in representation learning.
+Moreover, these methods focus primarily on social relationships, thereby dismissing other vital dimensions like users' historical behavior and the underlying preferences behind it. 
+To address these challenges, we introduce the MSR (Multifaceted Self-Retrieval) framework. 
+During encoding, in addition to the existing social graph, we construct a preference graph to represent ''behavioral preferences'' and further propose a modified multi-channel GRAU for multi-view analysis of cascade phenomenon.
+For decoding, our approach diverges from classification-based methods by reformulating the task as an information retrieval problem that predicts the target user with similarity measures.
+Empirical evaluations on public datasets demonstrate that this framework significantly outperforms baselines on Hits@κ and MAP@κ, affirming its enhanced ability.

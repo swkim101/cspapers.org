@@ -1,0 +1,11 @@
+Graph Neural Networks (GNNs) have exhibited remarkable capabilities for dealing with graph-structured data.
+However, recent studies have revealed their fragility to adversarial attacks, where imperceptible perturbations to the graph structure can easily mislead predictions.
+To enhance adversarial robustness, some methods attempt to learn robust representation through improving GNN architectures.
+Subsequently, another approach suggests that these GNNs might taint feature information and have poor classifier performance, leading to the introduction of Graph Contrastive Learning (GCL) methods to build a refining-classifying pipeline.
+However, existing methods focus on global-local contrastive strategies, which fails to address the robustness issues inherent in the contexts of adversarial robustness.
+To address these challenges, we propose a novel paradigm named GRANCE to enhance the robustness of learned representations by shifting the focus to local neighborhoods.
+Specifically, a dual neighborhood contrastive learning strategy is designed to extract local topological and semantic information.
+Paired with a neighbor estimator, the strategy can learn robust representations that are resilient to adversarial edges.
+Additionally, we also provide an improved GNN as classifier.
+Theoretical analyses provide a stricter lower bound of mutual information, ensuring the convergence of GRANCE.
+Extensive experiments validate the effectiveness of GRANCE compared to state-of-the-art baselines against various adversarial attacks.

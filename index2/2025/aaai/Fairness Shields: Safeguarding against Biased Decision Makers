@@ -1,0 +1,6 @@
+As AI-based decision-makers increasingly influence human lives, it is a growing concern that their decisions may be unfair or biased with respect to people's protected attributes, such as gender and race. 
+Most existing bias prevention measures provide probabilistic fairness guarantees in the long run, and it is possible that the decisions are biased on any decision sequence of fixed length.
+We introduce *fairness shielding*, where a symbolic decision-maker---the fairness shield---continuously monitors the sequence of decisions of another deployed black-box decision-maker, and makes interventions so that a given fairness criterion is met while the total intervention costs are minimized.
+We present four different algorithms for computing fairness shields, among which one guarantees fairness over fixed horizons, and three guarantee fairness periodically after fixed intervals.
+Given a distribution over future decisions and their intervention costs, our algorithms solve different instances of bounded-horizon optimal control problems with different levels of computational costs and optimality guarantees. 
+Our empirical evaluation demonstrates the effectiveness of these shields in ensuring fairness while maintaining cost efficiency across various scenarios.

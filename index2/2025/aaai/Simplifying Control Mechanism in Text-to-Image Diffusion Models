@@ -1,0 +1,7 @@
+ControlNet has significantly advanced controllable image generation by integrating dense conditions (such as depth and canny edges) with text-to-image diffusion models.
+However, ControlNet's integration requires an additional amount nearly equal to half of the base diffusion model's parameters, making it inefficient.
+To address this, we introduce Simple-ControlNet, an efficient and streamlined network for controllable text-to-image generation.
+It employs a single-scale projection layer to incorporate condition information into the denoising U-Net.
+It is supplemented by Low-Rank Adapter (LoRA) parameters to facilitate condition learning.
+ Impressively, Simple-ControlNet requires fewer than 3 million parameters for the control mechanism, substantially less than the 300 million needed by ControlNet.
+Our extensive experiments confirm that Simple-ControlNet matches and surpasses ControlNet's performance across a broad range of tasks and base diffusion models, showcasing its utility and efficiency.

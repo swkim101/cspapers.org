@@ -1,0 +1,7 @@
+We study fair division of indivisible chores among n agents with additive cost functions using the popular fairness notion of maximin share (MMS). Since MMS allocations do not always exist for more than two agents, the goal has been to improve its approximations and identify interesting special cases where MMS allocations exist. We show the existence of
+
+· 1-out-of-9n/11 MMS allocations, which improves the state-of-the-art factor of 1-out-of-3n/4.
+· MMS allocations for factored instances, which resolves an open question posed by Ebadian et al. (2021).
+· 15/13-MMS allocations for personalized bivalued instances, improving the state-of-the-art factor of 13/11.
+
+We achieve these results by leveraging the HFFD algorithm of Huang and Lu (2021). Our approach also provides polynomial-time algorithms for computing an MMS allocation for factored instances and a 15/13-MMS allocation for personalized bivalued instances.

@@ -1,0 +1,17 @@
+Concurrent separation logic (CSL) has excelled in verifying safety properties across various applications, yet its application to liveness properties remains limited. While existing approaches like TaDA Live and Fair Operational Semantics (FOS) have made significant strides, they still face limitations. TaDA Live struggles to verify certain classes of programs, particularly concurrent objects with non-local linearization points, and lacks support for general liveness properties such as "good things happen infinitely often". On the other hand, FOS’s scalability is hindered by the absence of thread modular reasoning principles and modular specifications.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper introduces Lilo, a higher-order, relational CSL designed to overcome these limitations. Our core observation is that FOS helps us to maintain simple primitives for our logic, which enable us to explore design space with fewer restrictions. As a result, Lilo adapts various successful techniques from literature. It supports reasoning about non-terminating programs by supporting refinement proofs, and also provides Iris-style invariants and modular specifications to facilitate modular verification. To support higher-order reasoning without relying on step-indexing, we develop a technique called stratified propositions inspired by Nola. In particular, we develop novel abstractions for liveness reasoning that bring these techniques together in a uniform way. We show Lilo’s scalability through case studies, including the first termination-guaranteeing modular verification of the elimination stack. Lilo and examples in this paper are mechanized in Coq.

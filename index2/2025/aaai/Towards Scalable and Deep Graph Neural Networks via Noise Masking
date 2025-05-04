@@ -1,0 +1,10 @@
+In recent years, Graph Neural Networks (GNNs) have achieved remarkable success in many graph mining tasks.
+However, scaling them to large graphs is challenging due to the high computational and storage costs of repeated feature propagation and non-linear transformation during training.
+One commonly employed approach to address this challenge is model-simplification, which only executes the Propagation (P) once in the pre-processing, and Combine (C) these receptive fields in different ways and then feed them into a simple model for better performance.
+Despite their high predictive performance and scalability, these methods still face two limitations.
+First, existing approaches mainly focus on exploring different C methods from the model perspective, neglecting the crucial problem of performance degradation with increasing P depth from the data-centric perspective, known as the over-smoothing problem.
+Second, pre-processing overhead takes up most of the end-to-end processing time, especially for large-scale graphs.
+To address these limitations, we present random walk with noise masking (RMask), a plug-and-play module compatible with the existing model-simplification works. 
+This module enables the exploration of deeper GNNs while preserving their scalability.
+Unlike the previous model-simplification works, we focus on continuous P and found that the noise existing inside each P is the cause of the over-smoothing issue, and use the efficient masking mechanism to eliminate them.
+Experimental results on six real-world datasets demonstrate that model-simplification works equipped with RMask yield superior performance compared to their original version and can make a good trade-off between accuracy and efficiency.

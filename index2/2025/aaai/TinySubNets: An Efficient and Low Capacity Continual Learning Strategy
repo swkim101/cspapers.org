@@ -1,0 +1,13 @@
+Continual Learning (CL) is a highly relevant setting gaining traction in recent machine learning research. Among CL
+works, architectural and hybrid strategies are particularly effective due to their potential to adapt the model architecture as
+new tasks are presented. However, many existing solutions do not efficiently exploit model sparsity, and are prone to capacity 
+saturation due to their inefficient use of available weights, which limits the number of learnable tasks. In this paper, we
+propose TinySubNets (TSN), a novel architectural CL strategy that addresses the issues through the unique combination of
+pruning with different sparsity levels, adaptive quantization, and weight sharing. Pruning identifies a subset of weights that
+preserve model performance, making less relevant weights available for future tasks. Adaptive quantization allows a single 
+weight to be separated into multiple parts which can be assigned to different tasks. Weight sharing between tasks boosts
+the exploitation of capacity and task similarity, allowing for the identification of a better trade-off between model accuracy
+and capacity. These features allow TSN to efficiently leverage the available capacity, enhance knowledge transfer, and reduce
+computational resources consumption. Experimental results involving common benchmark CL datasets and scenarios show
+that our proposed strategy achieves better results in terms of accuracy than existing state-of-the-art CL strategies. Moreover, 
+our strategy is shown to provide a significantly improved model capacity exploitation.

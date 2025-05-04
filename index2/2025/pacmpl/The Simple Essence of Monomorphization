@@ -1,0 +1,5 @@
+Monomorphization is a common implementation technique for parametric type-polymorphism, which avoids the potential runtime overhead of uniform representations at the cost of code duplication. While important as a folklore implementation technique, there is a lack of general formal treatments in the published literature. Moreover, it is commonly believed to be incompatible with higher-rank polymorphism.
+ 
+ 
+ 
+In this paper, we formally present a simple monomorphization technique based on a type-based flow analysis that generalizes to programs with higher-rank types, existential types, and arbitrary combinations. Inspired by algebraic subtyping, we track the flow of type instantiations through the program. Our approach only supports monomorphization up to polymorphic recursion, which we uniformly detect as cyclic flow. Treating universal and existential quantification uniformly, we identify a novel form of polymorphic recursion in the presence of existential types, which we coin polymorphic packing. We study the meta-theory of our approach, showing that our translation is type-preserving and preserves semantics step-wise.

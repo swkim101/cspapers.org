@@ -1,0 +1,6 @@
+Recent years have seen substantial progress in diffusion-based controllable video generation. 
+However, achieving precise control in complex scenarios, including fine-grained object parts, sophisticated motion trajectories, and coherent background movement, remains a challenge. 
+In this paper, we introduce *TrackGo*, a novel approach that leverages free-form masks and arrows for conditional video generation. 
+This method offers users with a flexible and precise mechanism for manipulating video content.
+We also propose the *TrackAdapter* for control implementation, an efficient and lightweight adapter designed to be seamlessly integrated into the temporal self-attention layers of a pretrained video generation model. This design leverages our observation that the attention map of these layers can accurately activate regions corresponding to motion in videos.
+Our experimental results demonstrate that our new approach, enhanced by the TrackAdapter, achieves state-of-the-art performance on key metrics such as FVD, FID, and ObjMC scores.

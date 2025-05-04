@@ -1,0 +1,3 @@
+We study the problem of determining an envy-free allocation of indivisible goods among multiple agents with additive valuations. EFX, which stands for envy-freeness up to any good, is a well-studied relaxation of the envy-free allocation problem and has been shown to exist for specific scenarios. EFX is known to exist for three agents, and for any number of agents when there are only two types of valuations. EFX allocations are also known to exist for four agents with at most one good unallocated. 
+ 
+ In this paper, we show that EFX exists with at most k-2 goods unallocated for any number of agents having k distinct valuations. Additionally, we show that complete EFX allocations exist when all but two agents have identical valuations.

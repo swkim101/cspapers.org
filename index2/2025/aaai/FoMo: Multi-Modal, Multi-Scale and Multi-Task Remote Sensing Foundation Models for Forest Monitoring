@@ -1,0 +1,19 @@
+Forests are vital to ecosystems, supporting biodiversity and
+essential services, but are rapidly changing due to land use
+and climate change. Understanding and mitigating negative
+effects requires parsing data on forests at global scale from
+a broad array of sensory modalities, and using them in diverse forest monitoring applications. Such diversity in data
+and applications can be effectively addressed through the
+development of a large, pre-trained foundation model that
+serves as a versatile base for various downstream tasks. However, remote sensing modalities, which are an excellent fit for
+several forest management tasks, are particularly challenging considering the variation in environmental conditions,
+object scales, image acquisition modes and spatio-temporal
+resolutions, etc. With that in mind, we present the first unified Forest Monitoring Benchmark (FoMo-Bench), carefully
+constructed to evaluate foundation models with such flexibility. FoMo-Bench consists of 15 diverse datasets encompassing satellite, aerial, and inventory data, covering a variety of geographical regions, and including multispectral, red-green-blue, synthetic aperture radar and LiDAR data with various temporal, spatial and spectral resolutions. FoMo-Bench includes multiple types of forest-monitoring tasks, spanning
+classification, segmentation, and object detection. To enhance task and geographic diversity in FoMo-Bench, we introduce TalloS, a global dataset combining satellite imagery with ground-based annotations for tree species classification
+across 1,000+ categories and hierarchical taxonomic levels.
+Finally, we propose FoMo-Net, a pre-training framework to
+develop foundation models with the capacity to process any
+combination of commonly used modalities and spectral bands
+in remote sensing. This work aims to inspire research collaborations between machine learning and forest biology researchers in exploring scalable multi-modal and multi-task models for forest monitoring and beyond. All code, data and
+appendices are published in the repository and on ArXiv.

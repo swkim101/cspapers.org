@@ -1,0 +1,12 @@
+Most work treats large language models as black boxes without an in-depth understanding of their internal working mechanism.
+ To explain the internal representations of LLMs, we utilize a gradient-based metric to assess the activation level of model parameters.
+ Based on this metric, we obtain three preliminary findings.
+ (1) When the inputs are in the same domain, parameters in the shallow layers will be activated densely, which means a larger portion of parameters will have great impacts on the outputs. 
+ In contrast, parameters in the deep layers are activated sparsely. 
+ (2) When the inputs are across different domains, parameters in shallow layers exhibit higher similarity in the activation behavior than in deep layers. 
+ (3) In deep layers, the similarity of the distributions of activated parameters is positively correlated to the empirical data relevance. 
+ Further, we develop three validation experiments to solidify these findings. 
+ (1) Firstly, starting from the first finding, we attempt to configure different sparsities for different layers and find this method can benefit model pruning. 
+ (2) Secondly, we find that a pruned model based on one calibration set can better handle tasks related to the calibration task than those not related, which validates the second finding.
+ (3) Thirdly, Based on the STS-B and SICK benchmarks, we find that two sentences with consistent semantics tend to share similar parameter activation patterns in deep layers, which aligns with our third finding. 
+ Our work sheds light on the behavior of parameter activation in LLMs, and we hope these findings will have the potential to inspire more practical applications.

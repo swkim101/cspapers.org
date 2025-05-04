@@ -1,0 +1,12 @@
+Unsupervised multi-view feature selection involves selecting a subset of crucial features across diverse views to diminish feature dimensionality without leveraging label information.
+While numerous studies have delved into this area, current solutions predominantly rely on linear multi-view data or employ weakly supervised learning to aid in feature selection.
+These approaches may risk losing semantic information when applied to real-world multi-view datasets.
+In this study,
+we introduce a novel model, Unsupervised Kernel-based Multi-view Feature selection with Robust self-representation and Binary hashing (UKMFS), which aims to identify robust consistent graph representation across views and leverage binary hashing codes to guide feature selection.
+Specifically,
+we first explore the underlying geometry by unifying the dimension of multi-view data with non-linear kernel mapping.
+Then, we search the consistent graph across views by fusing unique graph representations of each view in a self-representation manner.
+Additionally, we impose low-rank constraints on the graph of each view to mitigate noise and unimportant parts for preserving the main structures and patterns.
+Furthermore, we design an unsupervised hashing feature selection model to exploit reliable binary labels across views and weighted matrices from each view.
+Finally, an effective optimization method is customised to solve the formulated problem iteratively.
+Comprehensive experiments on public multi-view datasets indicate that our proposed method achieves state-of-the-art performance compared with the representative comparison methods regarding the clustering and the feature selection task.

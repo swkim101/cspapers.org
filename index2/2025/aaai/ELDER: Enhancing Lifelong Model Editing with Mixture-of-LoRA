@@ -1,0 +1,9 @@
+Large language models (LLMs) require model editing to efficiently update specific knowledge within them and avoid factual errors. 
+Most model editing methods are solely designed for single-time use and result in a significant forgetting effect in lifelong editing scenarios, where sequential edits are conducted over time.
+Previous approaches manage sequential edits by freezing original parameters and discretely allocating new parameters for each knowledge update.
+However, these methods lack robustness to minor input variations due to the discrete mapping between data and parameters. 
+To overcome this challenge, we propose ELDER, a novel approach to create a continuous association between data and adapters. 
+ELDER integrates multiple LoRAs through a router network and is trained to establish a smooth data-adapter association, thereby enhancing the edit robustness and generalization of semantically equivalent inputs.
+To ensure inputs containing the same knowledge will be processed by the same LoRAs, we design a novel loss to guide the model link LoRA allocations with edit knowledge.
+Furthermore, we propose a deferral mechanism to retain the original LLM capabilities post-edit. 
+Extensive experiments on GPT-2 XL and LLaMA2-7B demonstrate that ELDER effectively edits models in the lifelong setting, outperforming eight baselines while exhibiting strong scalability and preserving LLMs' general abilities on downstream tasks.

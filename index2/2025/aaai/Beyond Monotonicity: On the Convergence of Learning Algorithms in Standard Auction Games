@@ -1,0 +1,9 @@
+Equilibrium problems in Bayesian auction games can be described as systems of differential equations. Depending on the model assumptions, these equations might be such that we do not have a rigorous mathematical solution theory. The lack of analytical or numerical techniques with guaranteed convergence for the equilibrium problem has plagued the field and limited equilibrium analysis to rather simple auction models such as single-object auctions. 
+Recent advances in equilibrium learning led to algorithms that find equilibrium under a wide variety of model assumptions. Monotonicity and the Minty condition are the known sufficient conditions for learning algorithms to converge to an equilibrium in games. 
+Not much is known about convergence of learning algorithms beyond these conditions. 
+We analyze first- and second-price auctions where simple learning algorithms consistently converge to an equilibrium.
+The analysis is challenging, because these properties need to be shown in infinite dimensions. 
+Interestingly, we show that neither monotonicity nor pseudo- or quasi-monotonicity holds for the respective variational inequalities (VIs). 
+The second-price auction's equilibrium is a Minty-type solution, but the first-price auction is not. 
+However, the analysis via infinite-dimensional VIs allows us to get ex-post guarantees for gradient-based algorithms. 
+We show that the Bayes--Nash equilibrium is the unique solution to the VI within the class of uniformly increasing bid functions, which ensures that gradient-based algorithms attain the equilibrium in case of convergence, as also observed in numerical experiments.

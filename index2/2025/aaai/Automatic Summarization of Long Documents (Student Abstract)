@@ -1,0 +1,5 @@
+A vast amount of textual data is added to the internet daily, making utilization and interpretation of textual data difficult and cumbersome.
+As a result, automatic text summarization is crucial for extracting relevant information, saving precious time.
+Although many transformer models excel in summarization, they are constrained by their input size, preventing them from processing texts longer than their context size.
+This study introduces several novel algorithms that allow any LLM to efficiently overcome its input size limitation, effectively utilizing its full potential without any architectural modifications.
+We test our algorithms on texts with more than 70,000 words, and our experiments show a significant increase in BERTScore with competitive ROUGE scores.

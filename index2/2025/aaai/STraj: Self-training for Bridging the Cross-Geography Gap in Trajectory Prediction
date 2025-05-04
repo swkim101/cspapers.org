@@ -1,0 +1,14 @@
+Accurate trajectory prediction has prominent significance in autonomous driving scenarios.
+Most existing methods predict the trajectory of an agent by learning its interaction with 
+other agents and the map within the scenario.
+However, the heterogeneous distribution of these elements across different geographical scenarios is always ignored.
+Thus, trajectory predictors might struggle to generalize well when deployed in different geographical scenarios.
+To bridge the cross-geography gap, in this paper, 
+we propose a plug-and-play self-training pipeline, termed STraj, for cross-geography trajectory prediction. STraj comprises three progressive steps: pseudo label (i.e., time-series trajectory) generation, update, and utilization.
+First, to generate pseudo labels that generalize to the cross-geography scenarios,
+STraj pre-trains the predictor through the complementary agent and map augmentations. 
+Second, to facilitate the stable training of the predictor, 
+we design a specific pseudo label update strategy. 
+This strategy selects high-consistency pseudo trajectories from the current and historical epochs to supervise the target domain samples. 
+Third, with generated pseudo trajectories, we introduce trajectory-induced contrastive learning to mitigate the representation bias of cross-geography agents.
+Extensive experiment results on various cross-geography trajectory prediction benchmarks demonstrate the effectiveness of STraj.

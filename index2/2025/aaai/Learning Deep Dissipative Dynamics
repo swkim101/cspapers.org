@@ -1,0 +1,5 @@
+This study challenges strictly guaranteeing ``dissipativity'' of a dynamical system represented by neural networks learned from given time-series data.
+Dissipativity is a crucial indicator for dynamical systems that generalizes stability and input-output stability, known to be valid across various systems including robotics, biological systems, and molecular dynamics.
+By analytically proving the general solution to the nonlinear Kalman–Yakubovich–Popov (KYP) lemma, which is the necessary and sufficient condition for dissipativity, we propose a differentiable projection that transforms any dynamics represented by neural networks into dissipative ones and a learning method for the transformed dynamics.
+Utilizing the generality of dissipativity, our method strictly guarantee stability, input-output stability, and energy conservation of trained dynamical systems.
+Finally, we demonstrate the robustness of our method against out-of-domain input through applications to robotic arms and fluid dynamics.

@@ -1,0 +1,7 @@
+Recent advancement in text-to-image models and corresponding personalized technologies enables individuals to generate high-quality and imaginative images.
+However, they often suffer from limitations when generating images with resolutions outside of their trained domain.
+To overcome this limitation, we present the resolution adapter \textbf{(ResAdapter)}, a domain-consistent adapter designed for diffusion models to generate images with unrestricted resolutions and aspect ratios.
+Unlike other multi-resolution generation methods that process images of static resolution with complex post-process operations, ResAdapter directly generates images with the dynamical resolution. 
+Especially, after learning a deep understanding of pure resolution priors, ResAdapter trained on the general dataset, generates resolution-free images with personalized diffusion models while preserving their original style domain.
+Comprehensive experiments demonstrate that ResAdapter with only 0.5M can process images with flexible resolutions for arbitrary diffusion models.
+More extended experiments demonstrate that ResAdapter is compatible with other modules for image generation across a broad range of resolutions, and can be integrated into other multi-resolution model for efficiently generating higher-resolution images.

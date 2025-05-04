@@ -1,0 +1,9 @@
+Proof systems can be used for certification of logic problems, and proof complexity can inform us how succinct certificates can be. 
+
+In the PSPACE complete logic QBF (Quantified Boolean Formulas) refutation proofs often contain information that reproduce the witnesses of the quantified variables. This is known as strategy extraction. There are two known kinds of strategy extraction for proof systems, local strategy extraction and round-based strategy extraction. Formalisation of local strategy extraction was done previously, in this paper we formalise round-based strategy extraction. 
+
+By formalising the strategy extraction into circuits we can show new p-simulations. P-simulations are processes that allow you to transform proofs from a weaker proof system to a stronger proof system. Thus we solve an open problem in QBF proof complexity that Extended QBF Frege p-simulates LD-Q(\Drrs)-Resolution. LD-Q(\Drrs)-Resolution is the underlying proof system for the solver Qute.
+
+This is a positive result for certification. By clarifying the hierarchy of proof systems further suggests the feasibility of using known formats such as Extended QU-Resolution or QRAT to certify QCDCL solvers.
+
+The p-simulation is our main result, but we also make other observations from the specifics of the formalisation.

@@ -1,0 +1,13 @@
+In this paper, we consider a perturbation-based
+ metric of predictive faithfulness of feature rankings (or attributions)
+ that we call PGI squared
+ When applied to decision tree-based regression models, the metric can be computed exactly
+ and efficiently
+ for arbitrary independent feature perturbation distributions. In particular,
+ the computation does not involve Monte Carlo
+ sampling
+ that has been typically used for computing similar metrics and which is
+ inherently prone to inaccuracies.
+
+ As a second contribution, we proposed a procedure for constructing feature ranking based on PGI squared. Our results
+ indicate the proposed ranking method is comparable to the widely recognized SHAP explainer, offering a viable alternative for assessing feature importance in tree-based models.

@@ -1,0 +1,10 @@
+Fine-grained domain generalization (FGDG) aims to learn a fine-grained representation that can be well generalized to unseen target domains when only trained on the source domain data.
+Compared with generic domain generalization, FGDG is particularly challenging in that the fine-grained category can be only discerned by some subtle and tiny patterns.
+Such patterns are particularly fragile under the cross-domain style shifts caused by illumination, color and etc.
+To push this frontier, this paper presents a novel Hyperbolic State Space Hallucination (HSSH) method.
+It consists of two key components, namely, state space hallucination (SSH) and hyperbolic manifold consistency (HMC).
+SSH enriches the style diversity for the state embeddings by firstly extrapolating and then hallucinating the source images.
+Then, the pre- and post- style hallucinate state embeddings are projected into the hyperbolic manifold.
+The hyperbolic state space models the high-order statistics, and allows a better discernment of the fine-grained patterns.
+Finally, the hyperbolic distance is minimized, so that the impact of style variation on fine-grained patterns can be eliminated.
+Experiments on three FGDG benchmarks demonstrate its state-of-the-art performance.

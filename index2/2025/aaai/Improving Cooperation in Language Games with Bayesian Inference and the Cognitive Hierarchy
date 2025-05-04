@@ -1,0 +1,6 @@
+In two-player cooperative games, agents can play together effectively when they have accurate assumptions about how their teammate will behave, but may perform poorly when these assumptions are inaccurate. 
+In language games, failure may be due to disagreement in the understanding of either the semantics or pragmatics of an utterance. 
+We model coarse uncertainty in semantics using a prior distribution of language models and uncertainty in pragmatics using the cognitive hierarchy, combining the two aspects into a single prior distribution over possible partner types. 
+Fine-grained uncertainty in semantics is modeled using noise that is added to the embeddings of words in the language. 
+To handle all forms of uncertainty we construct agents that learn the behavior of their partner using Bayesian inference and use this information to maximize the expected value of a heuristic function. 
+We test this approach by constructing Bayesian agents for the game of Codenames, and show that they perform better in experiments where semantics is uncertain.

@@ -1,0 +1,7 @@
+Despite some promising results in federated learning using game-theoretical methods, most existing studies mainly employ a one-level game in either a cooperative or competitive environment, failing to capture the complex dynamics among participants in practice. 
+To address this issue, we propose DualGFL, a novel federated learning framework with a dual-level game in cooperative-competitive environments. 
+DualGFL includes a lower-level hedonic game where clients form coalitions and an upper-level multi-attribute auction game where coalitions bid for training participation.
+At the lower-level DualGFL, we introduce a new auction-aware utility function and propose a Pareto-optimal partitioning algorithm to find a Pareto-optimal partition based on clients' preference profiles.
+At the upper-level DualGFL, we formulate a multi-attribute auction game with resource constraints and derive equilibrium bids to maximize coalitions' winning probabilities and profits. 
+A greedy algorithm is proposed to maximize the utility of the central server.
+Extensive experiments on real-world datasets demonstrate DualGFL's effectiveness in improving both server utility and client utility.

@@ -1,0 +1,7 @@
+Virtual screening (VS) is a critical step in computer-aided drug discovery, aiming to identify molecules that bind to a specific target protein. 
+Traditional VS methods, such as docking, are often too time-consuming to efficiently screen large-scale molecular databases. 
+Recent advances in deep learning have demonstrated that learning vector representations for both proteins and molecules using contrastive learning can outperform traditional docking methods.
+However, considering that the target databases often contain billions of molecules, real-valued vector representations adopted by existing methods can still incur large memory and time cost in VS. 
+To address this problem, we propose DrugHash, a hashing-based contrastive learning method for VS.
+DrugHash formulates VS as a retrieval task that leverages binary hash codes for efficient retrieval. In particular, DrugHash designs a simple yet effective hashing strategy to enable end-to-end learning of binary hash codes for both proteins and molecules, which can dramatically reduce the memory and time cost with higher accuracy compared with existing methods.
+Experimental results show that DrugHash can outperform existing methods to achieve state-of-the-art accuracy, with at least a 32 times reduction in memory cost and a 4.6 times improvement in speed.

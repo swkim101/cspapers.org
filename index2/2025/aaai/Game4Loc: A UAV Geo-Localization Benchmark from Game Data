@@ -1,0 +1,9 @@
+The vision-based geo-localization technology for UAV, serving as a secondary source of GPS information in addition to the global navigation satellite systems (GNSS), can still operate independently when communication with the external environment is cut off.
+Recent deep learning based methods attribute this as the task of image matching and retrieval.
+By retrieving drone-view images in satellite image database with GPS information tagged, approximate localization information can be obtained.
+However, due to high costs and privacy concerns, it is usually difficult to obtain large quantities of drone-view images from a continuous area.
+Existing drone-view datasets are mostly composed of small-scale aerial photography with a strong assumption that there exists a perfect one-to-one aligned reference image for any query, leaving a significant gap from the practical localization scenario.
+In this work, we construct a large-range continues area UAV geo-localization dataset named GTA-UAV, featuring multiple flight altitudes, attitudes, scenes, and targets using modern computer games.
+Based on this dataset, we introduce a more practical UAV geo-localization task including partial matches of cross-view paired data, and expand the image-level retrieval to the actual localization in terms of distance (meters).
+For the construction of drone-view and satellite-view pairs, we adopt a weight-based contrastive learning approach, which allows for effective learning while avoiding additional post-processing matching steps.
+Experiments demonstrate the effectiveness of our data and training method for UAV geo-localization, as well as the generalization capabilities to real-world scenarios.

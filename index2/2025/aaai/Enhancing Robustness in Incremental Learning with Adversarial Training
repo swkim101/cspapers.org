@@ -1,0 +1,8 @@
+Adversarial training is one of the most effective approaches against adversarial attacks.
+However, adversarial training has primarily been studied in scenarios where data for all classes is provided, with limited research conducted in the context of incremental learning where knowledge is introduced sequentially.
+In this study, we investigate Adversarially Robust Class Incremental Learning (ARCIL), which deals with adversarial robustness in incremental learning.
+We first explore a series of baselines that integrate incremental learning with existing adversarial training methods, finding that they lead to conflicts between acquiring new knowledge and retaining past knowledge.
+Furthermore, we discover that training new knowledge causes the disappearance of a key characteristic in robust models: a flat loss landscape in input space.
+To address such issues, we propose a novel and robust baseline for ARCIL, named FLatness preserving Adversarial Incremental learning for Robustness (FLAIR).
+Experimental results demonstrate that FLAIR significantly outperforms other baselines.
+To the best of our knowledge, we are the first to comprehensively investigate the baselines, challenges, and solutions for ARCIL, which we believe represents a significant advance toward achieving real-world robustness.

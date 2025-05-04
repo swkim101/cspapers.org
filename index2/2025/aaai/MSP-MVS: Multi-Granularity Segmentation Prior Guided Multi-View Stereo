@@ -1,0 +1,7 @@
+Recently, patch deformation-based methods have demonstrated significant strength in multi-view stereo by adaptively expanding the reception field of patches to help reconstruct textureless areas. 
+However, such methods mainly concentrate on searching for pixels without matching ambiguity (i.e., reliable pixels) when constructing deformed patches, while neglecting the deformation instability caused by unexpected edge-skipping, resulting in potential matching distortions.
+Addressing this, we propose MSP-MVS, a method introducing multi-granularity segmentation prior for edge-confined patch deformation. 
+Specifically, to avoid unexpected edge-skipping, we first aggregate and further refine multi-granularity depth edges gained from Semantic-SAM as prior to guide patch deformation within depth-continuous (i.e., homogeneous) areas. 
+Moreover, to address attention imbalance caused by edge-confined patch deformation, we implement adaptive equidistribution and disassemble-clustering of correlative reliable pixels (i.e., anchors), thereby promoting attention-consistent patch deformation.
+Finally, to prevent deformed patches from falling into local-minimum matching costs caused by the fixed sampling pattern, we introduce disparity-sampling synergistic 3D optimization to help identify global-minimum matching costs.
+Evaluations on ETH3D and Tanks & Temples benchmarks prove our method obtains state-of-the-art performance with remarkable generalization.

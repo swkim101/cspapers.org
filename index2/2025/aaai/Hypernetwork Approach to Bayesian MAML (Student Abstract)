@@ -1,0 +1,9 @@
+The main goal of Few-Shot learning algorithms is to enable
+learning from small amounts of data. One of the most popular
+and elegant Few-Shot learning approaches is Model-Agnostic
+Meta-Learning (MAML). In this paper, we propose a novel
+framework for Bayesian MAML called BH-MAML, which
+employs Hypernetworks for weight updates. It learns the
+universal weights point-wise, but a probabilistic structure is
+added when adapted for specific tasks. In such a framework,
+we can use simple Gaussian distributions or more complicated posteriors induced by Continuous Normalizing Flows.

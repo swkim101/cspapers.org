@@ -1,0 +1,41 @@
+Applications like program synthesis sometimes require proving that a property holds for all of the infinitely many programs described by a grammar---i.e., an inductively defined set of programs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Current verification frameworks overapproximate programs' behavior when sets of programs contain loops, including two Hoare-style logics that fail to be relatively complete when loops are allowed. In this work, we prove that compositionally verifying simple properties for infinite sets of programs requires tracking distinct program behaviors over unboundedly many executions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tracking this information is both necessary and sufficient for verification. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We prove this fact in a general, reusable theory of denotational semantics that can model the expressivity and compositionality of verification techniques over infinite sets of programs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We construct the minimal compositional semantics that captures simple properties of sets of programs and use it to derive the first sound and relatively complete Hoare-style logic for infinite sets of programs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Thus, our methods can be used to design minimally complex, compositional verification techniques for sets of programs.

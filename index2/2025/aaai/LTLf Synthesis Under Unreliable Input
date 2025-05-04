@@ -1,0 +1,5 @@
+We study the problem of realizing strategies for an LTLf goal specification while ensuring that at least an LTLf backup specification is satisfied in case of unreliability of certain input variables.
+We formally define the problem and characterize its worst-case complexity as 2EXPTIME-complete, like standard LTLf synthesis.
+Then we devise three different solution techniques: one based on direct automata manipulation, which is 2EXPTIME, one disregarding unreliable input variables by adopting a belief construction, which is 3EXPTIME, and one leveraging second-order quantified LTLf (QLTLf), which is 2EXPTIME and allows for a direct encoding into monadic second-order logic, which in turn is worst-case nonelementary. 
+We prove their correctness and evaluate them against each other empirically. 
+Interestingly, theoretical worst-case bounds do not translate into observed performance; the MSO technique performs best, followed by belief construction and direct automata manipulation. As a byproduct of our study, we provide a general synthesis procedure for arbitrary QLTLf specifications.

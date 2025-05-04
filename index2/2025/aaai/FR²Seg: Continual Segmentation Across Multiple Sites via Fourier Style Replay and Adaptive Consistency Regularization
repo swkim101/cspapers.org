@@ -1,0 +1,6 @@
+In clinical imaging, medical segmentation networks typically require continually adapting to new data from multiple sites over time, as aggregating all data for learning at once can be impractical due to storage limitations and privacy concerns. 
+However, existing methods basically overlook domain-specific characteristics and fall short of adequately capturing domain-invariant knowledge during continual learning, leading to undesired catastrophic forgetting of previous sites and inferior generalization to new sites. 
+To tackle this issue, this paper introduces FR2Seg, to sufficiently exploit both domain-specific and domain-invariant knowledge for efficient continual learning with the aid of low-frequency cues. 
+For the former aspect, we propose a Fourier style replay module to synthesize pseudo images with old-site styles for data augmentation during new-site training, effectively preventing catastrophic forgetting without sacrificing data privacy. 
+For the latter, we present a Fourier adaptive consistency regularization to identify and constrain the optimization of domain-invariant parameters with explicit awareness of knowledge transferability across sites, ensuring excellent generalizability to new sites. 
+Experimental results on two public datasets confirm our method's superiority over existing state-of-the-art continual learning methods.

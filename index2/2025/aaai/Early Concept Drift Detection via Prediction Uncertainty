@@ -1,0 +1,13 @@
+Concept drift, characterized by unpredictable changes in data distribution over time, poses significant challenges to machine
+learning models in streaming data scenarios. 
+Although error rate-based concept drift detectors are widely used, 
+they often fail to identify drift in the early stages when the data distribution changes but error rates remain constant.
+This paper introduces the Prediction Uncertainty Index (PU-index),
+derived from the prediction uncertainty of the classifier, as a
+superior alternative to the error rate for drift detection. Our
+theoretical analysis demonstrates that:
+(1) The PU-index can detect drift even when error rates remain stable.
+(2) Any change in the error rate will lead to a corresponding change in the PU-index.
+These properties make the PU-index a more sensitive and robust indicator for drift detection compared to existing methods.
+We also propose a PU-index-based Drift Detector (PUDD) that employs a novel Adaptive PU-index Bucketing algorithm for detecting drift.
+Empirical evaluations on both synthetic and real-world datasets demonstrate PUDD’s efficacy in detecting drift in structured and image data.

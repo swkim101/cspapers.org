@@ -1,0 +1,12 @@
+
+ Probabilistic inference is fundamentally hard, yet many tasks require optimization on top of inference, which is even harder. We present a new
+ optimization-via-compilation
+ strategy to scalably solve a certain class of such problems. In particular, we introduce a new intermediate representation (IR), binary decision diagrams weighted by a novel notion of
+ branch-and-bound semiring
+ , that enables a scalable branch-and-bound based optimization procedure. This IR automatically
+ factorizes
+ problems through program structure and
+ prunes
+ suboptimal values via a straightforward branch-and-bound style algorithm to find optima. Additionally, the IR is naturally amenable to
+ staged compilation
+ , allowing the programmer to query for optima mid-compilation to inform further executions of the program. We showcase the effectiveness and flexibility of the IR by implementing two performant languages that both compile to it: dappl and pineappl. dappl is a functional language that solves maximum expected utility problems with first-class support for rewards, decision making, and conditioning. pineappl is an imperative language that performs exact probabilistic inference with support for nested marginal maximum a posteriori (MMAP) optimization via staging.

@@ -1,0 +1,6 @@
+Ordinal regression classifies an object to a class out of a given set of possible classes, where labels possess a natural order. 
+It is relevant to a wide array of domains including risk assessment, sentiment analysis, image ranking, and recommender systems. Like common classification, 
+the primary goal of ordinal regression is accuracy. 
+Yet, in this context, the severity of prediction errors varies, e.g., in risk assessment, Critical Risk is more urgent than High risk and significantly more urgent than No risk. 
+This leads to a modified objective of ensuring that the model's output is as close as possible to the correct class, considering the order of labels. Therefore, ordinal regression models should use ordinality-aware loss 
+for training. In this work, we focus on two properties of ordinality-aware losses, namely monotonicity and balance sensitivity. We show that existing ordinal loss functions lack these properties and introduce SLACE (Soft Labels Accumulating Cross Entropy), a novel loss function that provably satisfies said properties. We demonstrate empirically that SLACE outperforms the state-of-the-art ordinal loss functions on most tabular ordinal regression benchmarks.

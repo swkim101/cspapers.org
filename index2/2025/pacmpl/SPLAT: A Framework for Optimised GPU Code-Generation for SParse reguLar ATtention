@@ -1,0 +1,12 @@
+
+ Multi-head-self-attention (MHSA) mechanisms achieve state-of-the-art (SOTA) performance across natural language processing and vision tasks. However, their quadratic dependence on sequence lengths has bottlenecked inference speeds. To circumvent this bottleneck, researchers have proposed various sparse-MHSA models, where a subset of full attention is computed. Despite their promise, current sparse libraries and compilers do not support high-performance implementations for
+ diverse
+ sparse-MHSA patterns due to the underlying sparse formats they operate on. On one end, sparse libraries operate on
+ general sparse formats
+ which target extreme amounts of random sparsity (<10% non-zero values) and have high metadata in
+ O
+ (
+ nnzs
+ ). On the other end, hand-written kernels operate on
+ custom sparse formats
+ which target specific sparse-MHSA patterns. However, the sparsity patterns in sparse-MHSA are moderately sparse (10-50% non-zero values) and varied, resulting in general sparse formats incurring high metadata overhead and custom sparse formats covering few sparse-MSHA patterns, trading off generality for performance. We bridge this gap, achieving both generality and performance, by proposing a novel sparse format: affine-compressed-sparse-row (ACSR) and supporting code-generation scheme, SPLAT, that generates high-performance implementations for diverse sparse-MHSA patterns on GPUs. Core to our proposed format and code generation algorithm is the observation that common sparse-MHSA patterns have uniquely regular geometric properties. These properties, which can be analyzed just-in-time, expose novel optimizations and tiling strategies that SPLAT exploits to generate high-performance implementations for diverse patterns. To demonstrate SPLAT’s efficacy, we use it to generate code for various sparse-MHSA models, achieving speedups of up-to 2.05x and 4.05x over hand-written kernels written in triton and TVM respectively on A100 GPUs in single-precision.

@@ -1,0 +1,10 @@
+Alignment, endowing a pre-trained Large language model (LLM) with the ability to follow instructions, is crucial for its real-world applications. 
+Conventional supervised fine-tuning (SFT) methods formalize it as causal language modeling typically with a cross-entropy objective, requiring a large amount of high-quality instruction-response pairs.
+However, the quality of widely used SFT datasets can not be guaranteed due to the high cost and intensive labor for the creation and maintenance in practice.
+To overcome the limitations associated with the quality of SFT datasets, 
+we introduce a novel preference-oriented supervised fine-tuning approach, namely PoFT. 
+The intuition is to boost SFT by imposing a particular preference: favoring the target model over aligned LLMs on the same SFT data.
+This preference encourages the target model to predict a higher likelihood than that predicted by the aligned LLMs, incorporating assessment information on data quality (i.e., predicted likelihood by the aligned LLMs) into the training process. 
+Extensive experiments are conducted, and the results validate the effectiveness of the proposed method.
+PoFT achieves stable and consistent improvements over the SFT baselines across different training datasets and base models.
+Moreover, we prove that PoFT can be integrated with existing SFT data filtering methods to achieve better performance, and further improved by following preference optimization procedures, such as DPO.

@@ -1,0 +1,13 @@
+Although existing garbage collectors (GCs) perform extremely well on typical programs, there still exist pathological programs for which modern GCs significantly degrade performance. This observation begs the question: might there exist a ‘holy grail’ GC algorithm, as yet undiscovered, guaranteeing both constant-length pause times and that memory is collected promptly upon becoming unreachable? For decades, researchers have understood that such a GC is not always possible, i.e., some pathological behavior is unavoidable when the program can make heap cycles and operates near the memory limit, regardless of the GC algorithm used. However, this understanding has until now been only informal, lacking a rigorous formal proof.
+ 
+ 
+ 
+This paper complements that informal understanding with a rigorous proof, showing with mathematical certainty that every GC algorithm that can implement a realistic mutator-observer interface has some pathological program that forces it to either introduce a long GC pause into program execution or reject an allocation even though there is available space. Hence, language designers must either accept these pathological scenarios and design heuristic approaches that minimize their impact (e.g., generational collection), or restrict programs and environments to a strict subset of the behaviors allowed by our mutator-observer–style interface (e.g., by enforcing a type system that disallows cycles or overprovisioning memory).
+ 
+ 
+ 
+We do not expect this paper to have any effect on garbage collection practice. Instead, it provides the first mathematically rigorous answers to these interesting questions about the limits of garbage collection. We do so via rigorous reductions between GC and the dynamic graph connectivity problem in complexity theory, so future algorithms and lower bounds from either community transfer to the other via our reductions.
+ 
+
+ 
+We end by describing how to adapt techniques from the graph data structures community to build a garbage collector making worst-case guarantees that improve performance on our motivating, pathologically memory-constrained scenarios, but in practice find too much overhead to recommend for typical use.

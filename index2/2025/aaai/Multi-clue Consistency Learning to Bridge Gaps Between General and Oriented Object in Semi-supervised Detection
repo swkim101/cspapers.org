@@ -1,0 +1,10 @@
+While existing semi-supervised object detection (SSOD) methods perform well in general scenes, they encounter challenges in handling oriented objects in aerial images. 
+We experimentally find three gaps between general and oriented object detection in semi-supervised learning: 
+1) Sampling inconsistency: the common center sampling is not suitable for oriented objects with larger aspect ratios when selecting positive labels from labeled data. 
+2) Assignment inconsistency: balancing the precision and localization quality of oriented pseudo-boxes poses greater challenges which introduces more noise when selecting positive labels from unlabeled data. 
+3) Confidence inconsistency: there exists more mismatch between the predicted classification and localization qualities when considering oriented objects, affecting the selection of pseudo-labels. 
+Therefore, we propose a Multi-clue Consistency Learning (MCL) framework to bridge gaps between general and oriented objects in semi-supervised detection. 
+Specifically, considering various shapes of rotated objects, the Gaussian Center Assignment is specially designed to select the pixel-level positive labels from labeled data. 
+We then introduce the Scale-aware Label Assignment to select pixel-level pseudo-labels instead of unreliable pseudo-boxes, which is a divide-and-rule strategy suited for objects with various scales. 
+The Consistent Confidence Soft Label is adopted to further boost the detector by maintaining the alignment of the predicted results. 
+Comprehensive experiments on DOTA-v1.5 and DOTA-v1.0 benchmarks demonstrate that our proposed MCL can achieve state-of-the-art performance in the semi-supervised oriented object detection task.

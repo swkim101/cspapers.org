@@ -1,0 +1,53 @@
+Compiler intermediate representations have to strike a balance between being
+ 
+ 
+ 
+high-level enough to allow for easy translation of surface languages into them
+ 
+ 
+ 
+and being low-level enough to make code generation easy. An intermediate representation
+ 
+ 
+ 
+based on a logical system typically has the former property and additionally satisfies
+ 
+ 
+ 
+several meta-theoretical properties which are valuable when optimizing code.
+ 
+ 
+ 
+Recently, classical sequent calculus, which is widely recognized and impactful within the
+ 
+ 
+ 
+fields of logic and proof theory, has been proposed as a natural candidate in
+ 
+ 
+ 
+this regard, due to its symmetric treatment of data and control flow. For
+ 
+ 
+ 
+such a language to be useful, however, it must eventually be compiled to machine
+ 
+ 
+ 
+code. In this paper, we introduce an intermediate representation that is based
+ 
+ 
+ 
+on classical sequent calculus and demonstrate that this language can be directly
+ 
+ 
+ 
+translated to conventional hardware. We provide both a formal description and an
+ 
+ 
+ 
+implementation. Preliminary performance evaluations indicate that our approach
+ 
+ 
+ 
+is viable.

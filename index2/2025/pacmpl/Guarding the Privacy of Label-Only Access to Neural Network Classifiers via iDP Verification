@@ -1,0 +1,12 @@
+
+ Neural networks are susceptible to privacy attacks that can extract private information of the training set. To cope, several training algorithms guarantee differential privacy (DP) by adding noise to their computation. However, DP requires to add noise considering
+ every possible
+ training set. This leads to a significant decrease in the network’s accuracy. Individual DP (iDP) restricts DP to a
+ given
+ training set. We observe that some inputs deterministically satisfy iDP
+ without any noise
+ . By identifying them, we can provide iDP label-only access to the network with a minor decrease to its accuracy. However, identifying the inputs that satisfy iDP without any noise is highly challenging. Our key idea is to compute the
+ iDP deterministic bound
+ (iDP-DB), which overapproximates the set of inputs that do not satisfy iDP, and add noise only to their predicted labels. To compute the tightest iDP-DB, which enables to guard the label-only access with minimal accuracy decrease, we propose LUCID, which leverages several formal verification techniques. First, it encodes the problem as a mixed-integer linear program, defined over a network and over every network trained identically but without a unique data point. Second, it abstracts a set of networks using a
+ hyper-network
+ . Third, it eliminates the overapproximation error via a novel branch-and-bound technique. Fourth, it bounds the differences of matching neurons in the network and the hyper-network, encodes them as linear constraints to prune the search space, and employs linear relaxation if they are small. We evaluate LUCID on fully-connected and convolutional networks for four datasets and compare the results to existing DP training algorithms, which in particular provide iDP guarantees. We show that LUCID can provide classifiers with a perfect individuals’ privacy guarantee (0-iDP) – which is infeasible for DP training algorithms – with an accuracy decrease of 1.4%. For more relaxed ε-iDP guarantees, LUCID has an accuracy decrease of 1.2%. In contrast, existing DP training algorithms that obtain ε-DP guarantees, and in particular ε-iDP guarantees, reduce the accuracy by 12.7%.

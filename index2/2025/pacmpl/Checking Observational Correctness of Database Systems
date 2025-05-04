@@ -1,0 +1,6 @@
+
+ Clients rely on database systems to be correct, which requires the system not only to implement transactions’ semantics correctly but also to provide isolation guarantees for the transactions. This paper presents a client-centric technique for checking
+ both
+ semantic correctness and isolation-level guarantees for black-box database systems based on observations collected from running transactions on these systems. Our technique verifies
+ observational correctness
+ with respect to a given set of transactions and observations for them, which holds iff there exists a possible correct execution of the transactions under a given isolation level that could result in these observations. Our technique relies on novel symbolic encodings of (1) the semantic correctness of database transactions in the presence of weak isolation and (2) isolation-level guarantees. These are used by the checker to query a Satisfiability Modulo Theories solver. We applied our tool Troubadour to verify observational correctness of several database systems, including PostgreSQL and an industrial system under development, in which the tool helped detect two new bugs. We also demonstrate that Troubadour is able to find known semantic correctness bugs and detect isolation-related anomalies.

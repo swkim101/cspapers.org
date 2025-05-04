@@ -1,0 +1,10 @@
+In this paper, I review approaches for acquiring hierarchical knowledge
+to improve the effectiveness of planning systems. First I note some
+benefits of such hierarchical content and the advantages of learning
+over manual construction. After this, I consider alternative paradigms
+for encoding and acquiring plan expertise before turning to hierarchical
+task networks. I specify the inputs to HTN learners and three subproblems
+they must address: identifying hierarchical structure, unifying method
+heads, and finding method conditions. Finally, I pose seven challenges
+the community should pursue so that techniques for learning HTNs can
+reach their full potential.

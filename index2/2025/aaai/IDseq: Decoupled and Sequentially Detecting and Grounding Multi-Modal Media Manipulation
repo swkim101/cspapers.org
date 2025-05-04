@@ -1,0 +1,15 @@
+Detecting and grounding multi-modal media manipulation
+aims to categorize the type and localize the region of manipulation for image-text pairs in both two modalities. Existing
+methods have not sufficiently explored the intrinsic properties of the manipulated images, which contain both forgery and content features, leading to inefficient utilization. To address this problem, we propose an Image-Driven Decoupled
+Sequential Framework (IDseq), designed to decouple image
+features and rationally integrate them to accomplish different
+sub-tasks effectively. Specifically, IDseq employs two specially designed disentangled losses to guide the disentangled
+learning of forgery and content features. To efficiently leverage these features, we propose a Decoupled Image Manipulation Decoder (DIMD) that processes image tasks within a decoupled schema. We mitigate their exclusive competition by
+separating the image tasks into forgery-relevant and content-relevant components and training them without gradient interaction. Additionally, we utilize content features enhanced by
+the proposed Manipulation Indicator Generator (MIG) for the
+text tasks, which provide the maximal visual information as a
+reference while eliminating interference from unverified image data. Extensive experiments show the superiority of our
+IDseq, where it notably outperforms SOTA methods on the
+fine-grained classification by 3.8% in mAP and the forgery
+face grounding by 8.7% in IoUmean, even 1.3% in F1 on the
+most challenging manipulated text grounding.

@@ -1,0 +1,10 @@
+Feature matching between image pairs is a fundamental problem in computer vision that drives many applications, such as SLAM. 
+Recently, semi-dense matching approaches have achieved substantial performance enhancements and established a widely-accepted coarse-to-fine paradigm. 
+However, the majority of existing methods focus on improving coarse feature representation rather than the fine-matching module.
+Prior fine-matching techniques, which rely on point-to-patch matching probability expectation or direct regression, often lack precision and do not guarantee the continuity of feature points across sequential images.
+To address this limitation, this paper concentrates on enhancing the fine-matching module in the semi-dense matching framework.
+We employ a lightweight and efficient homography estimation network to generate the perspective mapping between patches obtained from coarse matching. 
+This patch-to-patch approach achieves the overall alignment of two patches, resulting in a higher sub-pixel accuracy by incorporating additional constraints.
+By leveraging the homography estimation between patches, we can achieve a dense matching result with low computational cost. 
+Extensive experiments demonstrate that our method achieves higher accuracy compared to previous semi-dense matchers.
+Meanwhile, our dense matching results exhibit similar end-point-error accuracy compared to previous dense matchers while maintaining semi-dense efficiency.

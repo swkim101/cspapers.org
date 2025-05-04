@@ -1,0 +1,6 @@
+Multi-agent path finding (MAPF) is a safety-critical scenario where the goal is to secure collision-free trajectories from initial to desired locations.
+However, due to system complexity and uncertainty, integrating learning-based controllers with MAPF is challenging and cannot theoretically guarantee the safety of the learned controllers. 
+In response, our study proposes a verified safe multi-agent neural control (VSMANC) approach for MAPF, focusing on the unified training of Decentralized Control Barrier Functions (DCBF) and controllers to enhence safety. 
+VSMANC enables all agents to concurrently learn controllers and DCBFs using a unified loss function designed to maximize safety, adhere to standard control policies, and incorporate path-finding-related heuristics. 
+We also propose a formal verification-guided retraining process to both verify the properties of the learned DCBFs and generate counterexamples for retraining, thereby providing a verified safety guarantee.
+We validate our approach through shape formation experiments and UAV simulations, demonstrating significant improvements in safety and effectiveness in complex multi-agent environments.

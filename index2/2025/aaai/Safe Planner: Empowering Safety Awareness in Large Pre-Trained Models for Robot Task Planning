@@ -1,0 +1,6 @@
+Robot task planning is an important problem for autonomous robots in long-horizon challenging tasks.
+As large pre-trained models have demonstrated superior planning ability, recent research investigates utilizing large models to achieve autonomous planning for robots in diverse tasks. 
+However, since the large models are pre-trained with Internet data and lack the knowledge of real task scenes, large models as planners may make unsafe decisions that hurt the robots and the surrounding environments. 
+To solve this challenge, we propose a novel Safe Planner framework, which empowers safety awareness in large pre-trained models to accomplish safe and executable planning. 
+In this framework, we develop a safety prediction module to guide the high-level large model planner, and this safety module trained in a simulator can be effectively transferred to real-world tasks. 
+The proposed Safe Planner framework is evaluated on both simulated environments and real robots. The experiment results demonstrate that Safe Planner not only achieves state-of-the-art task success rates, but also substantially improves safety during task execution.

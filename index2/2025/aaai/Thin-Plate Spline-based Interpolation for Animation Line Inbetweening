@@ -1,0 +1,8 @@
+Animation line inbetweening is a crucial step in animation production aimed at enhancing animation fluidity by predicting intermediate line arts between two key frames. 
+However, existing methods face challenges in effectively addressing sparse pixels and significant motion in line art key frames. 
+In literature, Chamfer Distance (CD) is commonly adopted for evaluating inbetweening performance. 
+Despite achieving favorable CD values, existing methods often generate interpolated frames with line disconnections, especially for scenarios involving large motion. 
+Motivated by this observation, we propose a simple yet effective interpolation method for animation line inbetweening that adopts thin-plate spline-based transformation to estimate coarse motion more accurately by modeling the keypoint correspondence between two key frames, particularly for large motion scenarios.
+Building upon the coarse estimation, a motion refine module is employed to further enhance motion details before final frame interpolation using a simple UNet model.
+Furthermore, to more accurately assess the performance of animation line inbetweening, we refine the CD metric and introduce a novel metric termed Weighted Chamfer Distance, which demonstrates a higher consistency with visual perception quality. Additionally, we incorporate Earth Mover's Distance and conduct user study to provide a more comprehensive evaluation.
+Our method outperforms existing approaches by delivering high-quality interpolation results with enhanced fluidity.

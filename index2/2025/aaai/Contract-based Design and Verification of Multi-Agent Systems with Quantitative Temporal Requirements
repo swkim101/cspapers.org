@@ -1,0 +1,6 @@
+Quantitative requirements play an important role in the context of multi-agent systems, where there is often a trade-off between the tasks of individual agents and the constraints that the agents must jointly adhere to. 
+We study multi-agent systems whose requirements are formally specified in the quantitative temporal logic LTL[F] as a combination of local task specifications for the individual agents and a shared safety constraint, 
+The intricate dependencies between the individual agents entailed by their local and shared objectives make the design of multi-agent systems error-prone, and their verification time-consuming.
+In this paper we address this problem by proposing a novel notion of quantitative assume-guarantee contracts, that enables the compositional design and verification of multi-agent systems with quantitative temporal specifications.
+The crux of these contracts lies in their ability to capture the coordination between the individual agents to achieve an optimal value of the overall specification under any possible behavior of the external environment.
+We show that the proposed framework improves the scalability and modularity of formal verification of multi-agent systems against quantitative temporal specifications.

@@ -1,0 +1,10 @@
+Given an edge-incomplete graph, how can we accurately find its missing links?
+The problem aims to discover the missing relations between entities when their relationships are represented as a graph.
+Edge-incomplete graphs are prevalent in real-world due to practical limitations, such as not checking all users when adding friends in a social network.
+Addressing the problem is crucial for various tasks, including recommending friends in social networks and finding references in citation networks.
+However, previous approaches rely heavily on the given edge-incomplete (observed) graph, making it challenging to consider the missing (unobserved) links.
+
+In this paper, we propose PULL, an accurate link prediction method based on the positive-unlabeled (PU) learning.
+PULL treats the observed edges in the training graph as positive examples, and the unconnected node pairs as unlabeled ones.
+PULL effectively prevents the link predictor from blindly trusting the observed graph by proposing latent variables for every edge, and leveraging the expected graph structure with respect to these variables.
+Extensive experiments on real- world datasets show that PULL consistently outperforms the baselines for predicting links in edge-incomplete graphs.

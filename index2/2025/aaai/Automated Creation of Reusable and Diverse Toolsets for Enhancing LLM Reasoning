@@ -1,0 +1,9 @@
+Augmenting large language models (LLMs) with tools significantly enhances their problem-solving potential across multifaceted tasks.
+However, current tools automatically created by LLMs often serve as a mere summary of specific problems or solutions, which face two main issues: 
+1) Low reusability: The tools are overly problem-specific and struggle to handle new problems.
+2) Limited diversity: The toolsets are too narrow, limiting their application to address a broader range of different problems.
+In this paper, we propose the Knowledge-grounded Tool Creation with Evolution (KTCE) framework, which aims to craft reusable and comprehensive toolsets for LLMs in a two-stage process.
+In the first stage (Knowledge-based Tool Creation), we conceptualize tools as a form of executable domain knowledge and propose a problem-knowledge-tool paradigm. 
+Specifically, we leverage LLMs to abstract "knowledge" from "problems" and create a three-layer knowledge tree of topics, concepts, and key points. This hierarchical structure serves as a foundation for inducing atomic "tools" from "knowledge", grounding them in fundamental concepts and enhancing their usability.
+In the second stage (Tool Evolutionary Search), we evolve the toolsets through several actions including tool selection, mutation, and crossover. This stage mimics the biological evolution process, aiding toolsets in discovering new tools or updating existing ones, thereby increasing the diversity of the toolset.
+Experiments on challenging mathematical/tabular/scientific reasoning tasks demonstrate that our approach achieves substantial accuracy improvements ranging from 6.23% to 18.49% on average. Moreover, in-depth analyses reveal the superior characteristics of our toolkit, including high reusability, high diversity, and high generalizability on cross-data/LLM performance with low complexity.

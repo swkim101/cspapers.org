@@ -1,0 +1,7 @@
+Probabilistic embeddings have several advantages over deterministic embeddings as they map each data point to a distribution, which better describes the uncertainty and complexity of data. 
+Many works focus on adjusting the distribution constraint under the Information Bottleneck (IB) principle to enhance representation learning.
+However, these proposed regularization terms only consider the constraint of each latent variable, omitting the structural information between latent variables.
+In this paper, we propose a novel structural entropy-guided probabilistic coding model, named SEPC.
+Specifically, we incorporate the relationship between latent variables into the optimization by proposing a structural entropy regularization loss.
+Besides, as traditional structural information theory is not well-suited for regression tasks, we propose a probabilistic encoding tree, transferring regression tasks to classification tasks while diminishing the influence of the transformation. 
+Experimental results across 12 natural language understanding tasks, including both classification and regression tasks, demonstrate the superior performance of SEPC compared to other state-of-the-art models in terms of effectiveness, generalization capability, and robustness to label noise.

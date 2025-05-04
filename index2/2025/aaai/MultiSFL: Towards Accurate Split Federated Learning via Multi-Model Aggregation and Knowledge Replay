@@ -1,0 +1,5 @@
+Although Split Federated Learning (SFL) effectively enables knowledge sharing among resource-constrained clients, it suffers from low training performance due to the neglect of data heterogeneity and catastrophic forgetting problems. To address these issues, we propose a novel SFL approach named MultiSFL, which adopts i) an effective multi-model aggregation mechanism to alleviate gradient divergence caused by heterogeneous data and ii) a novel knowledge replay strategy to deal with the catastrophic forgetting problem.
+MultiSFL adopts two servers (i.e., the fed server and main server) to maintain multiple branch models 
+for local training and an aggregated master model for knowledge sharing among branch models. 
+To mitigate catastrophic forgetting, the main server of MultiSFL selects multiple assistant devices for knowledge replay according to the training data distribution of each full branch model.
+Experimental results obtained from various non-IID and IID scenarios demonstrate that MultiSFL significantly outperforms conventional SFL methods by up to a 23.25% test accuracy improvement.

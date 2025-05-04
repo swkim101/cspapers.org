@@ -1,0 +1,9 @@
+In decision-making problems under uncertainty, predicting unknown parameters is often considered independent of the optimization part.
+Decision-focused learning (DFL) is a task-oriented framework that integrates prediction and optimization by adapting the predictive model to give better decisions for the corresponding task.
+Here, an inevitable challenge arises when computing the gradients of the optimal decision with respect to the parameters.
+Existing research copes with this issue by smoothly reforming surrogate optimization or constructing surrogate loss functions that mimic task loss.
+However, they are applied to restricted optimization domains.
+In this paper, we propose Locally Convex Global Loss Network (LCGLN), a global surrogate loss model that can be implemented in a general DFL paradigm.
+LCGLN learns task loss via a partial input convex neural network which is guaranteed to be convex for chosen inputs while keeping the non-convex global structure for the other inputs.
+This enables LCGLN to admit general DFL through only a single surrogate loss without any sense for choosing appropriate parametric forms.
+We confirm the effectiveness and flexibility of LCGLN by evaluating our proposed model with three stochastic decision-making problems.

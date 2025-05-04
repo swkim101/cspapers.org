@@ -1,0 +1,12 @@
+
+ Probabilistic programs are a powerful and convenient approach to formalising distributions over system executions. A classical verification problem for probabilistic programs is
+ temporal inference
+ : to compute the likelihood that the execution traces satisfy a given temporal property. This paper presents a general framework for temporal inference, which applies to a rich variety of quantitative models including those that arise in the operational semantics of probabilistic and weighted programs. The key idea underlying our framework is that in a variety of existing approaches, the main construction that enables temporal inference is that of a
+ product
+ between the system of interest and the temporal property. We provide a unifying mathematical definition of product constructions, enabled by the realisation that 1) both systems and temporal properties can be modelled as
+ coalgebras
+ and 2) product constructions are
+ distributive laws
+ in this context. Our categorical framework leads us to our main contribution: a sufficient condition for
+ correctness
+ , which is precisely what enables to use the product construction for temporal inference. We show that our framework can be instantiated to naturally recover a number of disparate approaches from the literature including, e.g., partial expected rewards in Markov reward models, resource-sensitive reachability analysis, and weighted optimization problems. Furthermore, we demonstrate a product of weighted programs and weighted temporal properties as a new instance to show the scalability of our approach.

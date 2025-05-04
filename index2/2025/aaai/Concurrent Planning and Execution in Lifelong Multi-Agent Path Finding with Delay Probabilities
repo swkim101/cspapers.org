@@ -1,0 +1,8 @@
+In multi-agent systems, when we account for the possibility of delays during execution, online planning becomes more complicated, as both execution and planning should be able to handle delays when agents are moving.
+Lifelong Multi-Agent Path Finding (LMAPF) is the problem of (re)planning the collision-free moves of agents to their goals in a shared space, while agents continuously receive new goals.
+PIE (Planning and Improving while Executing) is a recent approach to LMAPF which concurrently replans later parts of agents' trajectories while execution occurs. 
+However, the execution is assumed to be perfect.
+Existing approaches either use policy-based methods to quickly coordinate agents every timestep with instant delay feedback, or deploy an execution policy to adjust a solution for delays on the fly. These approaches may introduce large amounts of unnecessary delays to agents due to their planner guarantees or simple delay-handling policies.
+In this paper, we extend PIE to define a framework for solving the lifelong MAPF problem with execution delays.
+We instantiate our framework with different execution and replanning strategies, and experimentally evaluate them.
+Overall, we find that this framework can substantially improve the throughput by up to a factor 3 for lifelong MAPF, compared to approaches that handle delays with simple execution policies.

@@ -1,0 +1,9 @@
+Program text is rendered using impoverished typographic styles. Beyond choice of fonts and syntax-highlighting colors, code editors and related tools utilize very few text decorations. These limited styles are, furthermore, applied in monolithic fashion, regardless of the programs and tasks at hand.
+ 
+
+ 
+We present the notion of _code style sheets_ for styling program text. Motivated by analogy to cascading style sheets (CSS) for styling HTML documents, code style sheets provide mechanisms for defining rules to select elements from an abstract syntax tree (AST) in order to style their corresponding visual representation. Technically, our selector language generalizes essential constructs from CSS to a programming-language setting with algebraic data types (such as ASTs). Practically, code style sheets allow ASTs to be styled granularly, based on semantic information—such as the structure of abstract syntax, static type information, and corresponding run-time values—as well as design choices on the part of authors and readers of a program. Because programs are heavily nested in structure, a key aspect of our design is a layout algorithm that renders nested, multiline text blocks more compactly than in existing box-based layout systems such as HTML.
+ 
+ 
+ 
+In this paper, we design and implement a code style sheets system for a subset of Haskell, using it to illustrate several code presentation and visualization tasks. These examples demonstrate that code style sheets provide a uniform framework for rendering programs in multivarious ways, which could be employed in future designs for text-based as well as structure editors.

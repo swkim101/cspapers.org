@@ -1,0 +1,9 @@
+Formulating a real-world problem under the Reinforcement
+Learning framework involves non-trivial design choices, such
+as selecting a discount factor for the learning objective (dis-
+counted cumulative rewards), which articulates the planning
+horizon of the agent. This work investigates the impact of the
+discount factor on the bias-variance trade-off given structural
+parameters of the underlying Markov Decision Process. Our
+results support the idea that a shorter planning horizon might
+be beneficial, especially under partial observability.

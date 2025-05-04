@@ -1,0 +1,5 @@
+We address an advanced challenge of predicting pedestrian occupancy as an extension of multi-view pedestrian detection in urban traffic.
+To support this, we have created a new synthetic dataset called MVP-Occ, designed for dense pedestrian scenarios in large-scale scenes.
+Our dataset provides detailed representations of pedestrians using voxel structures, accompanied by rich semantic scene understanding labels, facilitating visual navigation and insights into pedestrian spatial information.
+Furthermore, we present a robust baseline model, termed OmniOcc, capable of predicting both the voxel occupancy state and panoptic labels for the entire scene from multi-view images.
+Through in-depth analysis, we identify and evaluate the key elements of our proposed model, highlighting their specific contributions and importance.

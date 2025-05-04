@@ -1,0 +1,7 @@
+The recent Segment Anything Model (SAM) has emerged as a new paradigmatic vision foundation model, showcasing potent zero-shot generalization and flexible prompting. Despite SAM finding applications and adaptations in various domains, its primary limitation lies in the inability to grasp object semantics. 
+In this paper, we present Sambor to seamlessly integrate SAM with the open-vocabulary object detector in an end-to-end framework. While retaining all the remarkable capabilities inherent to SAM, we boost it to detect arbitrary objects from human inputs like category names or reference expressions. 
+Building upon the SAM image encoder, we introduce a novel SideFormer module designed to acquire SAM features adept at perceiving objects and inject comprehensive semantic information for recognition.
+In addition, we devise an Open-set RPN that leverages SAM proposals to assist in finding potential objects.
+Consequently, Sambor enables the open-vocabulary detector to equally focus on generalizing both localization and classification sub-tasks.
+Our approach demonstrates superior zero-shot performance across benchmarks, including COCO and LVIS, proving highly competitive against previous state-of-the-art methods.
+We aspire for this work to serve as a meaningful endeavor in endowing SAM to recognize diverse object categories and advancing open-vocabulary learning with the support of vision foundation models.

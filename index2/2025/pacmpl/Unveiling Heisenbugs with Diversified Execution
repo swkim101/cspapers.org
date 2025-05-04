@@ -1,0 +1,17 @@
+Heisenbugs, notorious for their ability to change behavior and elude reproducibility under observation, are among the toughest challenges in debugging programs. They often evade static detection tools, making them especially prevalent in cyber-physical edge systems characterized by complex dynamics and unpredictable interactions with physical environments. Although dynamic detection tools work much better, most still struggle to meet low enough jitter and overhead performance requirements, impeding their adoption. More importantly however, dynamic tools currently lack metrics to determine an observed bug's "difficulty" or "heisen-ness" undermining their ability to make any claims regarding their effectiveness against heisenbugs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper proposes a methodology for detecting and identifying heisenbugs with low overheads at scale, actualized through the lens of dynamic data-race detection. In particular, we establish the critical impact of execution diversity across both instrumentation density and hardware platforms for detecting heisenbugs; the benefits of which outweigh any reduction in efficiency from limited instrumentation or weaker devices. We develop an experimental WebAssembly-backed dynamic data-race detection framework, Beanstalk, which exploits this diversity to show superior bug detection capability compared to any homogeneous instrumentation strategy on a fixed compute budget. Beanstalk's approach also gains power with scale, making it suitable for low-overhead deployments across numerous compute nodes. Finally, based on a rigorous statistical treatment of bugs observed by Beanstalk, we propose a novel metric, the heisen factor, that similar detectors can utilize to categorize heisenbugs and measure effectiveness. We reflect on our analysis of Beanstalk to provide insight on effective debugging strategies for both in-house and in deployment settings.
