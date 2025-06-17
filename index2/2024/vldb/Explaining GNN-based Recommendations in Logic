@@ -1,0 +1,40 @@
+
+ This paper proposes Makex (MAKE senSE), a logic approach to explaining why a GNN-based model
+ M
+ (
+ x, y
+ ) recommends item
+ y
+ to user
+ x.
+ It proposes a class of Rules for ExPlanations, denoted as REPs and defined with a graph pattern
+ Q
+ and dependency X →
+ M
+ (
+ x, y
+ ), where
+ X
+ is a collection of predicates, and the model
+ M
+ (
+ x, y
+ ) is treated as the consequence of the rule. Intuitively, given
+ M
+ (
+ x, y
+ ), we discover pattern
+ Q
+ to identify relevant topology, and precondition
+ X
+ to disclose correlations, interactions and dependencies of vertex features; together they provide rationals behind prediction
+ M
+ (
+ x, y
+ ), identifying what features are decisive for
+ M
+ to make predictions and under what conditions the decision can be made. We (a) define REPs with 1-WL test, on which most GNN models for recommendation are based; (b) develop an algorithm for discovering REPs for
+ M
+ as global explanations, and (c) provide a top-
+ k
+ algorithm to compute top-ranked local explanations. Using real-life graphs, we empirically verify that Makex outperforms previous explanation methods in terms of fidelity, sparsity and efficiency.

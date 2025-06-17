@@ -1,0 +1,5 @@
+We study the problem of dynamically maintaining the connected components of an undirected graph subject to edge insertions and deletions. We give the first parallel algorithm for the problem that is work-efficient, supports batches of updates, runs in polylogarithmic depth, and uses only linear total space. The existing algorithms for the problem either use super-linear space, do not come with strong theoretical bounds, or are not parallel.
+ 
+ On the empirical side, we provide the first implementation of the
+ cluster forest algorithm
+ , the first linear-space and polylogarithmic update time algorithm for dynamic connectivity. Experimentally, we find that our algorithm uses up to 19.7× less space and is up to 6.2× faster than the level-set algorithm of Holm, de Lichten-berg, and Thorup, arguably the most widely-implemented dynamic connectivity algorithm with strong theoretical guarantees.

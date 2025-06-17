@@ -1,0 +1,7 @@
+Graph contrastive learning (GCL) has been widely used as an effective self-supervised learning method for graph representation learning.
+However, how to apply adequate and stable graph augmentation to generating proper views for contrastive learning remains an essential problem. Dropping edges is a primary augmentation in GCL while adding edges is not a common method due to its unstable performance.
+To our best knowledge, there is no theoretical analysis to study why dropping edges usually outperforms adding edges.
+To answer this question, we introduce a new metric, namely Error Passing Rate (EPR), to quantify how a graph fits the network.
+Inspired by the theoretical conclusions and the idea of positive-incentive noise, we propose a novel GCL algorithm, Error-PAssing-based Graph Contrastive Learning (EPAGCL), which uses both edge adding and edge dropping as its augmentations.
+To be specific, we generate views by adding and dropping edges based on the weights derived from EPR.
+Extensive experiments on various real-world datasets are conducted to validate the correctness of our theoretical analysis and the effectiveness of our proposed algorithm.

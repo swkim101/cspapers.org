@@ -1,0 +1,1 @@
+In this paper, we present a new mechanism for estimating the data sending rates of BBR congestion control algorithm using machine learning. Results show that machine learning can estimate the data sending rates of BBR with high accuracy.

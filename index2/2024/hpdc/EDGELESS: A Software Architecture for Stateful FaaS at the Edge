@@ -1,0 +1,1 @@
+EDGELESS is a serverless platform targeting edge computing that supports widely distributed deployments using heterogeneous devices. We present its components, architecture, and programming model. Our working prototype of EDGELESS enables executing lightweight functions and is already available as open-source.

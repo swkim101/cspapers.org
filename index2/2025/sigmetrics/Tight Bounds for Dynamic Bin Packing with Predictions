@@ -1,0 +1,1 @@
+A variant of the Dynamic Bin Packing (DBP) problem known as MinUsageTime DBP seeks to minimize the accumulated length of time for which bins are used in packing a sequence of items. This paper studies MinUsageTime DBP with predictions about item durations and establishes tight competitiveness bounds over the entire spectrum of prediction errors.

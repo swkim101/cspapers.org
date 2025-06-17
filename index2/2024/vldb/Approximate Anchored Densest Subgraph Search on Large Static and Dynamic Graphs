@@ -1,0 +1,36 @@
+
+ Densest subgraph search, aiming to identify a subgraph with maximum edge density, faces limitations as the edge density inadequately reflects biases towards a given vertex set
+ R.
+ To address this, the
+ R
+ -subgraph density was introduced, refining the doubled edge density by penalizing vertices in a subgraph but not in
+ R
+ , using the degree as a penalty factor. This advancement leads to the Anchored Densest Subgraph (ADS) search problem, which finds the subgraph Š with the highest
+ R
+ -subgraph density for a given set
+ R.
+ Nonetheless, current algorithms for ADS search face significant inefficiencies in handling large-scale graphs or the sizable
+ R
+ set. Furthermore, these algorithms require re-computing the ADS whenever the graph is updated, complicating the efficient maintenance within dynamic graphs. To tackle these challenges, we propose the concept of integer
+ R
+ -subgraph density and study the problem of finding a subgraph
+ S
+ * ⊆
+ V
+ with the highest integer
+ R
+ -subgraph density. We reveal that the
+ R
+ -subgraph density of
+ S*
+ provides an additive approximation to that of ADS with a difference of less than 1, and hence
+ S
+ * is termed the Approximate Anchored Densest Subgraph (AADS). For searching the AADS, we present an efficient global algorithm incorporating the re-orientation network flow technique and binary search, operating in a time polynomial to the graph's size. Additionally, we propose a novel local algorithm using shortest-path-based methods for the max-flow computation from
+ s
+ to
+ t
+ around
+ R
+ , markedly boosting performance in scenarios with larger
+ R
+ sets. For dynamic graphs, both basic and improved algorithms are developed to efficiently maintain the AADS when an edge is updated. Extensive experiments and a case study demonstrate the efficiency, scalability, and effectiveness of our solutions.

@@ -1,0 +1,6 @@
+
+ In this paper, we study the problem of cardinality estimation for similarity search on high-dimensional data (CE4HD). We aim to perform CE4HD with high
+ data robustness
+ (i.e., robust to different datasets),
+ query robustness
+ (i.e., robust to large cardinality variance and scale) and efficiency. We propose to leverage the cardinality estimation of selected objects (called reference objects) in the database to achieve the above. Specifically, we propose two techniques that adopt different strategies to select and leverage reference objects, as well as strategies to support efficient computation in dynamic databases. Extensive experiments on datasets from diverse domains show that our methods achieve up to ~10x speed-up and up to ~136x smaller mean Q-error compared to existing studies.

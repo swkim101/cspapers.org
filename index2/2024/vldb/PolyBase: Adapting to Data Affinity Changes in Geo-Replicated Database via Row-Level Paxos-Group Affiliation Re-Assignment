@@ -1,0 +1,9 @@
+Transaction performance in geo-replicated databases heavily relies on the request location: when not issued by the primary region, transactions are forced to involve costly wide-area communication. While existing systems distribute primary roles across regions, such assignment typically occurs at the shard level, making it difficult to align with geographically dispersed access to individual records.
+ 
+ This paper introduces PolyBase, a pioneering architecture to address such misalignment, leveraging the widely adopted Paxos-based log replication mechanisms. It enables flexible
+ row-level consensus group affiliation
+ , which runs on an
+ unchanged Paxos protocol
+ , but
+ dynamically re-assigns
+ database rows between Paxos log replication groups, whose leaders become the primary region, enjoying faster writes and up-to-date versions for reads. With carefully designed data structures and protocols, PolyBase significantly reduces wide-area RTTs without compromising transaction or log replication consistency or reliability guarantees. We implemented PolyBase with optimized re-assignment policies and integrated it into two popular databases (RocksDB and MySQL). Our evaluation on AWS, using a production e-commerce workload and microbench-marks confirms that PolyBase offers significantly higher transaction throughput and lower average/tail latency compared to baselines.

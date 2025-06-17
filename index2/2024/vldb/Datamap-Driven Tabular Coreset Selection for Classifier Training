@@ -1,0 +1,4 @@
+
+ In the era of data-driven decision-making, efficient machine learning model training is crucial. We present a novel algorithm for constructing
+ tabular data
+ coresets using datamaps created for Gradient Boosting Decision Trees models. The resulting coresets, computed within minutes, consistently outperform other baselines and match or exceed the performance of models trained on the entire dataset. Additionally, a training enhancement method leveraging datamap insights during the inference phase improves performance with mathematical guarantees, given a defined property holds. An explainability layer and tools for coreset size optimization further enhance the efficiency of training tabular machine learning models.

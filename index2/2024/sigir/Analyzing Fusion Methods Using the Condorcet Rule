@@ -1,0 +1,1 @@
+The fusion task is to merge document lists retrieved from a corpus for a query. We use the Condorcet voting rule to theoretically and empirically analyze fusion methods. We also demonstrate the merits of a novel fusion method based on a different voting rule: Copeland.

@@ -1,0 +1,6 @@
+Existing knowledge distillation (KD) methods have demonstrated their ability to achieve student network performance on par with their teachers. However, the knowledge gap between the teacher and student remains significant and may hinder the effectiveness of the distillation process. In this work, we introduce the
+structure of Neural Collapse (NC) into the KD framework. NC typically occurs in the
+final phase of training, resulting in a graceful geometric structure where the last-layer features form a simplex equiangular tight frame. 
+We hypothesize that NC can alleviate the knowledge gap in distillation, thereby enhancing student performance. This paper begins with an empirical analysis to bridge the connection between KD and NC. Through this analysis, we establish that transferring the teacher's NC structure to the student benefits the distillation process. Therefore, instead of merely transferring instance-level logits or features, as done by existing distillation methods, we encourage students to learn the teacher's NC structure. We propose the 
+new distillation paradigm termed Neural Collapse-inspired Knowledge Distillation (NCKD). Comprehensive experiments demonstrate that NCKD is simple yet effective, 
+improving the generalization of all distilled student models and achieving state-of-the-art accuracy performance.

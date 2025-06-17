@@ -1,0 +1,15 @@
+
+ Frequent subgraph mining is an important and well-studied problem with numerous applications such as the prediction of protein functionalities and graph indexing. Many studies use the minimum-image-based support (MNI) to measure the frequency of subgraphs in single graph mining. Given a graph
+ G
+ and an integer
+ k
+ , top-
+ k
+ frequent subgraph mining is to find top-
+ k
+ frequent subgraphs in the graph
+ G
+ based on MNI. However, there are two main challenges in top-
+ k
+ frequent subgraph mining. (1) Computing MNI is time-consuming. (2) The number of subgraphs for which MNI should be computed is large. In this paper, we propose a novel algorithm Minting to address these challenges. We propose a method to significantly reduce the number of subgraphs for which MNI computation is required by using a tight upper bound of the MNI value. We also improve the computation of MNI itself by utilizing both a lower bound and an upper bound of the MNI value. Experiments shows that our algorithm outperforms the state-of-the-art algorithms by up to three orders of magnitude in terms of the elapsed time. Our algorithm is also a feasible solution for this challenging problem, even for large
+ k.

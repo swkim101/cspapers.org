@@ -1,0 +1,48 @@
+
+ Oblivious map (OMAP) is an important component in encrypted databases, utilized to prevent the server inferring sensitive information about client's encrypted databases based on
+ access patterns.
+ Despite its widespread usage and importance, existing OMAP solutions face practical challenges, including the need for a large number of interaction rounds between the client and server, as well as substantial communication bandwidth. For example, the SOTA protocol OMIX++ in VLDB 2024 still requires
+ O
+ (log
+ n
+ ) interaction rounds and
+ O
+ (log
+ 2
+ n
+ ) communication bandwidth per access, where
+ n
+ denotes the total number of key-value pairs stored. In this work, we introduce more practical and efficient OMAP constructions. Consistent with all prior OMAPs, our constructions also adapt only the
+ tree-based Oblivious RAM (ORAM)
+ and
+ oblivious data structures
+ (ODS) to achieve OMAP for enhanced practicality. In complexity, our approach needs
+ O
+ (log
+ n
+ /log log
+ n
+ )+
+ O
+ (log
+ λ
+ ) interaction rounds and
+ O
+ (log
+ 2
+ n
+ /log log
+ n
+ ) +
+ O
+ (log
+ λ
+ log
+ n
+ ) communication bandwidth per data access where
+ λ
+ is the security parameter. This new complexity results from our two main contributions. First, unlike prior works relying solely on
+ search trees
+ , we design a novel framework for OMAP that combines
+ hash table
+ with search trees. Second, we propose a more efficient tree-based ORAM named DAORAM, which is of significant independent interest. This new ORAM accelerates our constructions as it supports obliviously accessing hash tables more efficiently. We implement both our proposed constructions and prior methods to experimentally demonstrate that our constructions substantially outperform prior methods in terms of efficiency.

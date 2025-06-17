@@ -1,0 +1,19 @@
+
+ Datalog is a popular logic programming language for deductive reasoning tasks in a wide array of applications, including business analytics, program analysis, and ontological reasoning. However, Datalog's restriction to flat facts over atomic constants leads to challenges in working with tree-structured data, such as derivation trees or abstract syntax trees. To ameliorate Datalog's restrictions, popular extensions of Datalog support features such as existential quantification in rule heads (Datalog*, Datalog
+ ∃
+ ) or algebraic data types (Soufflé). Unfortunately, these are imperfect solutions for reasoning over structured and recursive data types, with general existentials leading to complex implementations requiring unification, and ADTs unable to trigger rule evaluation and failing to support efficient indexing.
+ 
+ 
+ We present
+ D
+ L
+ ∃!
+ , a Datalog with first-class facts, wherein every fact is identified with a Skolem term unique to the fact. We show that this restriction offers an attractive price point for Datalogbased reasoning over tree-shaped data, demonstrating its application to databases, artificial intelligence, and programming languages. We implemented
+ D
+ L
+ ∃!
+ as a system Slog, which leverages the uniqueness restriction of
+ D
+ L
+ ∃!
+ to enable a communication-avoiding, massively-parallel implementation built on MPI. We show that Slog outperforms leading systems (Nemo, Vlog, RDFox, and Soufflé) on a variety of benchmarks, with the potential to scale to thousands of threads.

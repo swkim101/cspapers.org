@@ -1,0 +1,1 @@
+Secure data deletion is of critical importance for complying with retention regulations and safeguarding user privacy. In this work, we have proposed the first full-stack secure deletion design addressing both external storage and internal memory for secure deletion. Preliminary experimental results are provided to justify feasibility of the proposed design.
