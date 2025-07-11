@@ -1,0 +1,1 @@
+We prove that hashing n balls into n bins via random 2-linear maps yields expected maximum load O(logn / loglogn), resolving an open question of Alon, Dietzfelbinger, Miltersen, Petrank, and Tardos (STOC ’97, JACM ’99). More generally, we show that the maximum load exceeds r· logn/loglogn with probability at most O(1/r2). Our proof uses potential functions to detect heavy bins.

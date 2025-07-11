@@ -1,0 +1,1 @@
+We prove a conjecture of Arunachalam & Dutt on the existence of a tolerant stabilizer testing algorithm, and achieve an exponential improvement in the parameters of the tester. Key to our argument is a generalized uncertainty relation for sets of Pauli operators, based on the Lovász theta function.
