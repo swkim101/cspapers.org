@@ -57,7 +57,7 @@ function App() {
     if (err.message === 'timeout') {
       setTimeoutError(true)
     }
-    if (!err || query === "") {
+    if (!err) {
       setData(res.data || [])
       setTotal(res.total)
       setDuration(res.duration)
@@ -109,12 +109,6 @@ function App() {
 
 
   useEffect(() => {
-    if (query === "") {
-      setData([])
-      setDuration(0)
-      setTotal(0)
-      return
-    }
     search()
   }, [query,
     yearFrom,
