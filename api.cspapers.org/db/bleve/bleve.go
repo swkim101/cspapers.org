@@ -79,7 +79,6 @@ func escape(str string) string {
 }
 
 func search(req *types.SearchRequest) *types.SearchResponse {
-	/* 2014 - 2024 */
 	yearFrom := bleve.NewQueryStringQuery(fmt.Sprintf("year:>=%v", req.YearFrom))
 	yearTo := bleve.NewQueryStringQuery(fmt.Sprintf("year:<=%v", req.YearTo))
 	year := bleve.NewConjunctionQuery(yearFrom, yearTo)
@@ -101,10 +100,6 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	keywordQuery := []query.Query{}
 	req.Query = strings.TrimSpace(req.Query)
 	words := strings.Fields(req.Query)
-	if len(words) == 0 {
-		// no word to search
-		return &types.SearchResponse{}
-	}
 	isSentence := len(words) > 7
 	for idx, word := range words {
 		words[idx] = escape(word)
@@ -152,7 +147,10 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	}
 
 	keyword := bleve.NewDisjunctionQuery(keywordQuery...)
-	query := bleve.NewConjunctionQuery(year, venue, keyword)
+	query := bleve.NewConjunctionQuery(year, venue)
+	if req.Query != "" {
+		query = bleve.NewConjunctionQuery(query, keyword)
+	}
 
 	if len(req.Must) != 0 {
 		for _, word := range req.Must {
