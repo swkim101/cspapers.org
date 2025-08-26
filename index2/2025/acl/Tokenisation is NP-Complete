@@ -1,0 +1,1 @@
+In this work, we prove the NP-completeness of two variants of tokenisation, defined as the problem of compressing a dataset to at most $\delta$ symbols by either finding a vocabulary directly (direct tokenisation), or selecting a sequence of merge operations (bottom-up tokenisation).
