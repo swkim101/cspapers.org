@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/swkim101/cspapers.org/main/{index}
 
 If you need any help, feel free to contact me at iam@sungwoo-kim.  
 
-* [USENIX'25] [SoK: Towards Effective Automated Vulnerability Repair](https://arxiv.org/pdf/2501.18820)
+* [USENIX'25] [SoK: Towards Effective Automated Vulnerability Repair](https://www.usenix.org/system/files/usenixsecurity25-li-ying.pdf)
 
 ## Acknowlegement
 
