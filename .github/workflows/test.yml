@@ -1,4 +1,6 @@
 name: Test api.cspapers.org
+permissions:
+  contents: read
 on:
   push:
     paths:
