@@ -1,0 +1,15 @@
+Network quantization has proven to be a powerful approach to reduce the memory and computational demands of deep learning models for deployment on resource-constrained devices.
+
+However, traditional quantization methods often rely on access to training data, which is impractical in many real-world scenarios due to privacy, security, or regulatory constraints.
+
+Zero-shot Quantization (ZSQ) emerges as a promising solution, achieving quantization without requiring any real data.
+
+In this paper, we provide a comprehensive overview of ZSQ methods and their recent advancements.
+
+First, we provide a formal definition of the ZSQ problem and highlight the key challenges.
+
+Then, we categorize the existing ZSQ methods into classes based on data generation strategies, and analyze their motivations, core ideas, and key takeaways.
+
+Lastly, we suggest future research directions to address the remaining limitations and advance the field of ZSQ.
+
+To the best of our knowledge, this paper is the first in-depth survey on ZSQ.

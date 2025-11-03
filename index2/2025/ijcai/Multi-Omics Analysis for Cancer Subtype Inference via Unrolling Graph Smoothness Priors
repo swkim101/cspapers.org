@@ -1,0 +1,17 @@
+Integrating multi-omics datasets through data-driven analysis offers a comprehensive understanding of the complex biological processes underlying various diseases, particularly cancer.
+
+Graph Neural Networks (GNNs) have recently demonstrated remarkable ability to exploit relational structures in biological data, enabling advances in multi-omics integration for cancer subtype classification. 
+
+Existing approaches often neglect the intricate coupling between heterogeneous omics, limiting their capacity to resolve subtle cancer subtype heterogeneity critical for precision oncology.
+
+To address these limitations, we propose a framework named Graph Transformer for Multi-omics Cancer Subtype Classification (GTMancer).
+
+This framework builds upon the GNN optimization problem and extends its application to complex multi-omics data.
+
+Specifically, our method leverages contrastive learning to embed multi-omics data into a unified semantic space.
+
+We unroll the multiplex graph optimization problem in that unified space and introduce dual sets of attention coefficients to capture structural graph priors both within and among multi-omics data.
+
+This approach enables global omics information to guide the refining of the representations of individual omics.
+
+Empirical experiments on seven real-world cancer datasets demonstrate that GTMancer outperforms existing state-of-the-art algorithms.

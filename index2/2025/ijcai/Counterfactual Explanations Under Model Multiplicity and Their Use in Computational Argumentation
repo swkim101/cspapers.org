@@ -1,0 +1,11 @@
+Counterfactual explanations (CXs) are widely recognised as an essential technique for providing recourse recommendations for AI models. 
+
+However, it is not obvious how to determine CXs in model multiplicity scenarios, where equally performing but different models can be obtained for the same task. 
+
+In this paper, we propose novel qualitative and quantitative definitions of CXs based on explicit, nested quantification over (groups) of model decisions. 
+
+We also study properties of these notions and identify decision problems of interest therefor. 
+
+While our CXs are broadly applicable, in this paper we instantiate them within computational argumentation where model multiplicity naturally emerges, e.g. with incomplete and case-based argumentation frameworks. 
+
+We then illustrate the suitability of our CXs for model multiplicity in legal and healthcare contexts, before analysing the complexity of the associated decision problems.

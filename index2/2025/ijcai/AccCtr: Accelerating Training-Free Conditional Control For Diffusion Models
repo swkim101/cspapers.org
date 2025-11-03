@@ -1,0 +1,5 @@
+In current training-free Conditional Diffusion Models (CDM), the sampling process is steered by the gradient, which measures the discrepancy between the guidance and the condition extracted by a pre-trained condition extraction network. These methods necessitate small guidance steps, resulting in longer sampling times.
+
+To address the issue of slow sampling, we introduce AccCtr, a method that simplifies the conditional sampling algorithm by maximizing the sum of two objectives. The local maximum set of one objective is contained within the local maximum set of the other. Leveraging this relationship, we decompose the joint optimization into two parts, alternately maximizing each objective. By analyzing the steps involved in optimizing these objectives, we identify the most time-consuming steps and recommend retraining condition extraction network—a relatively simple task—to reduce its computational cost.
+
+Integrating AccCtr into current CDMs is a seamless task that does not impose a significant computational burden. Extensive testing has demonstrated that AccCtr offers superior sample quality and faster generation times.

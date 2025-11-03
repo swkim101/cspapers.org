@@ -1,0 +1,9 @@
+This paper describes an approach to algorithmic music composition that takes narrative structures as input, allowing composers to create music directly from narrative elements.
+
+Creating narrative development in music remains a challenging task in algorithmic composition.
+
+Our system addresses this by combining leitmotifs to represent characters, generative grammars for harmonic coherence, and evolutionary algorithms to align musical tension with narrative progression.
+
+The system operates at different scales, from overall plot structure to individual motifs, enabling both autonomous composition and co-creation with varying degrees of user control.
+
+Evaluation with compositions based on tales demonstrated the system's ability to compose music that supports narrative listening and aligns with its source narratives, while being perceived as familiar and enjoyable.

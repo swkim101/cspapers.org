@@ -1,0 +1,9 @@
+Graph learning models have been empirically proven to be vulnerable to backdoor threats, wherein adversaries submit trigger-embedded inputs to manipulate the model predictions. 
+
+Current graph backdoor defenses manifest several limitations: 1) dependence on model-related details, 2) necessitation of additional fine-tuning, and 3) reliance on extra explainability tools, all of which are infeasible under stringent privacy policies. 
+
+To address those limitations, we propose GraphProt, a certified black-box defense method to suppress backdoor attacks on GNN-based graph classifiers. Our GraphProt operates in a model-agnostic manner and solely leverages graph input.
+
+Specifically, GraphProt first introduces designed topology-feature-filtration to mitigate graph anomalies. Subsequently, subgraphs are sampled via a formulated strategy integrating topology and features, followed by a robust model inference through a majority vote-based subgraph prediction ensemble.
+
+Our results across benchmark attacks and datasets show GraphProt effectively reduces attack success rates while preserving regular graph classification accuracy.

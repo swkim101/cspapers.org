@@ -1,0 +1,9 @@
+Correlated equilibria are a standard solution concept in game theory and generalize Nash equilibria. In a 2-player non-cooperative game in which player i has action set A_i, a correlated equilibrium is a self-enforcing probability distribution σ over A_1 * A_2. Specifically, when a strategy profile (s_1, s_2) in A_1 * A_2 is sampled according to σ, each player i can observe their own component s_i, but not the other player's component. Knowing s_i and σ, player i cannot increase their expected payoff by defecting and playing a strategy s'_i different from s_i. Correlated equilibria are ubiquitous and crucial in mechanism design, including in the design of blockchain-based protocols which aim to incentivize honest behavior. 
+
+ 
+
+A correlated equilibrium depends on a centralized and impartial oracle, often called the ''external signal'' in game theory literature, to sample a strategy profile and disclose each player's component to them, while keeping the other player's component secret. However, there is currently no trustless method to achieve this on the blockchain without centralization or relying on trusted third-parties.
+
+ 
+
+In this work, we address this challenge and provide two novel protocols, one based on oblivious transfer and the other based on zkSNARKs to replace the public signal with a smart contract. We prove that our approaches are secure and provide the desired privacy properties of a correlated equilibrium, while also being efficient in terms of gas usage and thus affordable in practice.

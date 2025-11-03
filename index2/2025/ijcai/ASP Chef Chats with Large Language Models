@@ -1,0 +1,7 @@
+ASP Chef enriches Answer Set Programming (ASP) with the notion of recipe, that is, a sequence of operations on answer sets.
+
+Recipes are designed and executed in modern browsers, and further improve the fast prototyping capabilities of ASP.
+
+This paper introduces new operations designed to integrate Large Language Models (LLMs) in recipe, with the aim of combining the reasoning strength of ASP with the natural language capabilities of LLMs, to enable more interactive and adaptive problem-solving workflows.
+
+In a nutshell, answer sets in input are transformed into prompts for LLMs, whose responses are processed to extract facts for subsequent operations within the recipe.

@@ -1,0 +1,5 @@
+Ensuring fairness is essential for ethical decision-making in various domains. Informally, a neural network is considered fair if and only if it treats similar individuals similarly in a given task.
+
+We introduce FaVeR (Fairness Verification and Repair), a framework for efficiently verifying and repairing pre-trained neural networks with respect to individual fairness properties. 
+
+FaVeR ensures fairness via iterative search of high-sensitivity neurons and backward adjustment of their weights, guided by counterexamples generated from fairness verification using satisfiability modulo convex programming. By addressing fairness at the neuron level, FaVeR minimizes the impact of neural network repair on the overall performance. Experimental evaluations on common fairness datasets show that FaVeR achieves a 100% fairness repair rate across all models, with accuracy reduction of less than 2.27%. Moreover, its significantly lower average runtime makes it suitable for practical applications.

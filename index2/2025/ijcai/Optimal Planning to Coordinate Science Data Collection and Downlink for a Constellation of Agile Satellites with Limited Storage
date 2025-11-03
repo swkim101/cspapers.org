@@ -1,0 +1,5 @@
+We present a novel Mixed Integer Linear Program formulation that produces optimal plans for a constellation of remote sensing satellites. The generalized formulation is applied to an operational NASA constellation to improve wildfire danger prediction. The planner generates integrated data collection and downlink plans for multiple agile satellites with limited storage capacity, minimum energy requirements, and temporal constraints. Observation targets and modes are associated with science rewards. The planner maximizes the aggregate rewards collected for all observations on all satellites. 
+
+ 
+
+Our generalized model for integrated data collection and downlink uses a novel interval-based abstraction called Data Cycles, without time-indexed variables. Data cycles organize the multitude of observation and downlink opportunities from 1 second granularity into sequences of data collection and downlink intervals. Experiments using large-scale real-world data yield optimal 24-hr plans for an eight satellite constellation, which capture 99% of the ~23,000 available targets and 99.9% of available science rewards.

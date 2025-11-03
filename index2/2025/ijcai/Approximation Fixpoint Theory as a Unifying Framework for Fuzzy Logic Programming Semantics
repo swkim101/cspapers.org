@@ -1,0 +1,5 @@
+Fuzzy logic programming is an established approach for reasoning under uncertainty. Several semantics from classical, two-valued logic programming have been generalized to the case of fuzzy logic programs. In this paper, we show that two of the most prominent classical semantics, namely the stable model and the well-founded semantics, can be reconstructed within the general framework of approximation fixpoint theory (AFT).
+
+
+
+This not only widens the scope of AFT from two- to many-valued logics, but allows a wide range of existing AFT results to be applied to fuzzy logic programming. As first examples of such applications, we clarify the formal relationship between existing semantics, generalize the notion of stratification from classical to fuzzy logic programs, and devise “more precise” variants of the semantics.

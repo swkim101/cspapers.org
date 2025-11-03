@@ -1,0 +1,19 @@
+Multimodal hashing projects multimodal data into compact binary codes, enabling rapid and storage-efficient retrieval of large-scale multimedia content. 
+
+In practical scenarios, the issue of missing modality frequently arises when dealing with multimodal data.
+
+Existing incomplete multimodal hashing techniques directly recover missing modalities by neural networks, resulting in a disjointed representation space between the recovered and true data. 
+
+In this paper, we present a novel recovery paradigm, namely Prototype-based Modality Completion Hashing (PMCH). 
+
+Instead of directly synthesizing it from available modalities, PMCH adaptively aggregates associated within-modality prototypes to recover missing modality data.
+
+Specifically, PMCH introduces an within-modality prototype learning module to optimize representative prototypes for each modality. 
+
+These prototypes act as recovery anchors and reside within the same representation space as their corresponding modality data. 
+
+Subsequently, PMCH adaptively aggregates the associated within-modality prototypes with coefficients derived from the modality-specific Weight-Net.
+
+By utilizing prototypes from the same modality, the semantic disparity between the reconstructed and authentic data can be substantially diminished.
+
+Extensive experiments on three widely used benchmark datasets demonstrate that PMCH can effectively recover the missing modality, and attain state-of-the-art performance in both complete and incomplete multimodal retrieval scenarios. Code is available at https://github.com/Sasa77777779/PMCH.git.

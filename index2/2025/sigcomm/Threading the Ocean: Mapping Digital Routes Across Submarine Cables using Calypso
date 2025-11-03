@@ -1,0 +1,1 @@
+The Internet's connectivity relies on a fragile submarine cable network (SCN), yet existing tools fall short in assessing its criticality. We introduce Calypso, a new framework that leverages traceroute data to map traffic to submarine cables. Validated through real-world case studies, Calypso reveals hidden risks and offers new insights to enhancing SCN resilience.

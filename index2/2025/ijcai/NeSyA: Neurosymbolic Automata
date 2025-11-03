@@ -1,0 +1,25 @@
+Neurosymbolic (NeSy) AI has emerged as a promising direction to integrate
+
+neural and symbolic reasoning. Unfortunately, little effort has been given 
+
+to developing NeSy systems tailored to sequential/temporal problems. We identify
+
+symbolic automata (which combine the power of automata for temporal reasoning
+
+with that of propositional logic for static reasoning) as a suitable formalism for 
+
+expressing knowledge in temporal domains. Focusing on the task of sequence classification
+
+and tagging we show that symbolic automata can be integrated with neural-based
+
+perception, under probabilistic semantics towards an end-to-end differentiable model. 
+
+Our proposed hybrid model, termed NeSyA (Neuro Symbolic 
+
+Automata) is shown to either scale or perform more accurately than previous
+
+NeSy systems in a synthetic benchmark and to provide benefits in terms of generalization
+
+compared to purely neural systems in a real-world event recognition task.
+
+Code is available at: https://github.com/nmanginas/nesya

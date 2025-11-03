@@ -1,0 +1,13 @@
+Deep neural networks (DNNs) face substantial challenges in Long-Tail Visual Recognition (LTVR) due to the inherent class imbalances in real-world data distributions. 
+
+The Mixture of Experts (MoE) framework has emerged as a promising approach to addressing these issues.
+
+However, in MoE systems, experts are typically trained to optimize a collective objective, often neglecting the individual optimality of each expert. This individual optimality usually contributes to the overall performance, as the goals of different experts are not mutually exclusive.
+
+We propose the Independent and Collaborative Learning (ICL) framework to optimize each expert independently while ensuring global optimality. 
+
+First, Diverse Optimization Learning (DOL) is introduced to enhance expert diversity and individual performance. 
+
+Then, we conceptualize experts as parallel circuit branches and introduce Competition and Collaboration Learning (CoL). Competition Learning amplifies the gradients of better-performing experts to preserve individual optimality, and Collaboration Learning encourages collaboration through mutual distillation to enhance optimal knowledge sharing.
+
+ICL achieves state-of-the-art accuracy in experiments on CIFAR-100/10-LT, ImageNet-LT, and iNaturalist 2018, respectively. Our code is available at https://github.com/PolarisLight/ICL.

@@ -1,0 +1,3 @@
+Verification of strategic ability under imperfect information is challenging, with complexity ranging from NP-complete to undecidable. This is partly because traditional fixpoint equivalences fail in this setting. Some years ago, an interesting idea of fixpoint approximation was proposed for model checking of ATL_ir, i.e., the logic of strategic ability for agents with imperfect information and imperfect recall.
+
+In this paper, we propose a new variant of the approximation, that uses the agent's local model rather than the global model of the system. We prove correctness of the construction, and demonstrate its effectiveness through experimental results on scalable models of voting.

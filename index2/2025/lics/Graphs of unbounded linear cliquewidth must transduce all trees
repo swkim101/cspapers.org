@@ -1,0 +1,1 @@
+The Pathwidth Theorem states that if a class of graphs has unbounded pathwidth, then it contains all trees as graph minors. We prove a similar result for dense graphs: if a class of graphs has unbounded linear cliquewidth, then it can produce all trees via some fixed MSO transduction.

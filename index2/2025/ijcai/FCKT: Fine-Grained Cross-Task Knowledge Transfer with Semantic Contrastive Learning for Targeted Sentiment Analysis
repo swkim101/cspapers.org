@@ -1,0 +1,9 @@
+In this paper, we address the task of targeted sentiment analysis , which involves two sub-tasks, i.e., identifying specific aspects from reviews and determining their corresponding senti-ments. Aspect extraction forms the foundation for sentiment prediction, highlighting the critical dependency between these two tasks for effective cross-task knowledge transfer.
+
+ While most existing studies adopt a multi-task learning paradigm to align task-specific features in the latent space, they predominantly rely on coarse-grained knowledge transfer. Such approaches lack fine-grained control over aspect-sentiment relationships, often assuming uniform sentiment polarity within related aspects. This oversimplification neglects contextual cues that differentiate sentiments, leading to negative transfer.
+
+ To overcome these limitations, we propose FCKT, a fine-grained cross-task knowledge transfer framework tailored for TSA. By explicitly incorporating aspect-level information into sentiment prediction, our framework achieves fine-grained knowledge transfer, effectively mitigating negative transfer and enhancing task performance.
+
+ Extensive experiments on three real-world datasets, including comparisons with various baselines and large language models (LLMs), demonstrate the effectiveness of FCKT. The source code
+
+is available on https://github.com/cwei01/FCKT.

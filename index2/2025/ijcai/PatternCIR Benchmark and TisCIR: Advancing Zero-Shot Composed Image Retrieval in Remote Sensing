@@ -1,0 +1,59 @@
+Remote sensing composed image retrieval
+
+(RSCIR) is a new vision-language task that takes
+
+a composed query of an image and text, aiming to
+
+search for a target remote sensing image satisfying
+
+two conditions from intricate remote sensing
+
+imagery. However, the existing attribute-based
+
+benchmark Patterncom in RSCIR has significant
+
+flaws, including the lack of query text sentences
+
+and paired triplets, thus making it unable to evaluate the latest methods. To address this, we propose
+
+the Zero-Shot Query Text Generator (ZS-QTG)
+
+that can generate full query text sentences based on
+
+attributes, and then, by capitalizing on ZS-QTG,
+
+we develop the PatternCIR benchmark. Pattern CIR rectifies Patterncom’s deficiencies and enables
+
+the evaluation of existing methods. Additionally,
+
+we explore zero-shot composed image retrieval
+
+methods that do not rely on massive pre-collected
+
+triplets for training. Existing methods use only
+
+the text during retrieval, performing poorly in
+
+RSCIR. To improve this, we propose Text-image
+
+Sequential Training of Composed Image Retrieval
+
+(TisCIR). TisCIR undergoes sequential training of
+
+multiple self-masking projection and fine-grained
+
+image attention modules, which endows it with
+
+the capacity to filter out conflicting information
+
+between the image and text, enhancing the retrieval
+
+by utilizing both modalities in harmony. TisCIR
+
+outperforms existing methods by 12.40% to
+
+62.03% on PatternCIR, achieving state-of-the-art
+
+performance in RSCIR. The data and code are
+
+available here.

@@ -1,0 +1,7 @@
+Real‐world datasets usually contain multiple attributes, making it essential to ensure fairness across all of them simultaneously. However, different attributes may vary in difficulty, and no existing approaches have effectively addressed this issue. Consequently, an attribute‐adaptive strategy is needed to achieve fairness for all attributes. 
+
+Multi‐task Learning (MTL) leverages shared information to optimize multiple tasks concurrently, while Sparsely‐Gated Mixture‐of‐Experts (SMoE) can dynamically allocate computational resources to the most needed tasks. In this work, we formulate multi‐attribute fairness issue as an MTL problem and employ SMoE to achieve desirable performance across all attributes simultaneously.
+
+
+
+We first analyze the feasibility and find the potentiality by formalizing multi-attribute fairness problem into a MTL problem and mitigating it by using SMoE. However, vanilla SMoE could lead to over-utilization problem which causes sub-optimal performance. We then proposed an innovative SMoE framework for multi-attribute fair image classification, which further improves multi-attribute fairness by redesigning the MoE layer and routing policy with fairness consideration. Extensive experiments demonstrated the effectiveness. Taking a DeiT-Small as the backbone, we achieve 77.25% and 86.01% accuracy on the ISIC2019 and CelebA dataset respectively with Multi-attribute Predictive Quality Disparity (PQD) score of 0.801 and 0.787, beating current state-of-the-art methods Muffin, InfoFair and MultiFair.

@@ -1,0 +1,15 @@
+We study the problem of computing an approximate Nash equilibrium of a game whose strategy space is continuous without access to gradients of the utility function.
+
+Lack of access to gradients is common in reinforcement learning settings, where the environment is treated as a black box, as well as equilibrium finding in mechanisms such as auctions, where the mechanism's payoffs are discontinuous in the players' actions.
+
+To tackle this problem, we turn to zeroth-order optimization techniques that combine pseudo-gradients with equilibrium-finding dynamics.
+
+Specifically, we introduce a new technique that requires a number of utility function evaluations per iteration that is constant rather than linear in the number of players.
+
+It achieves this by performing a single joint perturbation on all players' strategies, rather than perturbing each one individually.
+
+This is very important for many-player games, especially when the utility function is expensive to compute in terms of wall time, memory, money, or other resources.
+
+We evaluate our approach on various games, including auctions, which have important real-world applications.
+
+Our approach yields a dramatic improvement in performance in terms of the wall time required to reach an approximate Nash equilibrium.

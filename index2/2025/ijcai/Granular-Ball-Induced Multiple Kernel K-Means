@@ -1,0 +1,9 @@
+Most existing multi-kernel clustering algorithms, such as multi-kernel K-means, often struggle with computational efficiency and robustness when faced with complex data distributions. These challenges stem from their dependence on point-to-point relationships for optimization, which can lead to difficulty in accurately capturing data sets' inherent structure and diversity. Additionally, the intricate interplay between multiple kernels in such algorithms can further exacerbate these issues, effectively impacting their ability to cluster data points in high-dimensional spaces. In this paper, we leverage granular-ball computing to improve the multi-kernel clustering framework.
+
+The core of granular-ball computing is to adaptively fit data distribution by balls from coarse to acceptable levels. 
+
+Each ball can enclose data points based on a density consistency measurement. 
+
+Such ball-based data description thus improves the computational efficiency and the robustness to unknown noises. Specifically, based on granular-ball representations, we introduce the granular-ball kernel (GBK) and its corresponding granular-ball multi-kernel K-means framework (GB-MKKM) for efficient clustering. 
+
+Using granular-ball relationships in multiple kernel spaces, the proposed GB-MKKM framework shows its superiority in efficiency and clustering performance in the empirical evaluation of various clustering tasks.

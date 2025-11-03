@@ -1,0 +1,5 @@
+Constraint Logic Programming (CLP) is a logic programming formalism used to solve problems requiring the consideration of constraints, like resource allocation and automated planning and scheduling.
+
+It has previously been extended in various directions, for example to support fuzzy constraint satisfaction, uncertainty, or negation, with different notions of semiring being used as a unifying abstraction for these generalisations. None of these extensions have studied clauses with negation allowed in the body. 
+
+We investigate an extension of CLP which unifies many of these extensions and allows negation in the body. We provide semantics for such programs, using the framework of approximation fixpoint theory, and give a detailed overview of the impacts of properties of the semirings on the resulting semantics. As such, we provide a unifying framework that captures existing approaches and allows to extend them with a more expressive language.

@@ -1,0 +1,5 @@
+Agents operating in the real world must cope with the fact that time passes while they plan. 
+
+In some cases, such as under tight deadlines, the only way for such an agent to achieve its goal is to execute an action before a complete plan has been found. This problem is called Concurrent Planning and Execution (CoPE). Previous work on CoPE relied on a value function that assumes search will finish before actions are executed, causing the agent to be overly pessimistic in many situations.
+
+In this paper, we define a new value function that takes into account the agent's ability to dispatch actions incrementally. This allows us to devise a much simpler algorithm for concurrent planning and execution. An experimental evaluation on problems with time pressure shows that the new method significantly outperforms the previous state-of-the-art.

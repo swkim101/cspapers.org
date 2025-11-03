@@ -1,0 +1,9 @@
+Most Probable Explanation (MPE) is a fundamental problem in statistical relational artificial intelligence.
+
+In the context of Probabilistic Answer Set Programming (PASP), solving MPE is still an open research problem.
+
+In this paper, we present three novel approaches for solving the MPE task in PASP that are based on: i) Algebraic Model Counting, ii) Answer Set Programming (ASP), and iii) ASP with quantifiers (ASP(Q)).
+
+These approaches are implemented and evaluated against existing solvers across different datasets and configurations.
+
+Empirical results demonstrate that the novel solutions consistently outperform existing alternatives for non-stratified programs.

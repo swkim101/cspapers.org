@@ -1,0 +1,7 @@
+Fine-tuning large language models (LLMs) is difficult due to their huge model size. Recent Fourier domain-based methods show potential for reducing fine-tuning costs. 
+
+We propose a block circulant matrix-based fine-tuning method with a stable training heuristic to leverage the properties of circulant matrices and one-dimensional Fourier transforms to reduce storage and computation costs.
+
+Experiments show that our method uses 14× less number of parameters than VeRA, 16× smaller than LoRA and 32× less FLOPs than FourierFT, while maintaining close or better task performance.
+
+Our approach presents a promising way in frequency domain to fine-tune large models on downstream tasks.

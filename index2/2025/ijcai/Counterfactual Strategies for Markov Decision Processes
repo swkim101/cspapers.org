@@ -1,0 +1,13 @@
+Counterfactuals are widely used in AI to explain how minimal changes to a model’s input can lead to a different output. 
+
+However, established methods for computing counterfactuals typically focus on one-step decision-making, and are not directly applicable to sequential decision-making tasks. 
+
+This paper fills this gap by introducing counterfactual strategies for Markov Decision Processes (MDPs). 
+
+During MDP execution, a strategy decides which of the enabled actions (with known probabilistic effects) to execute next. 
+
+Given an initial strategy that reaches an undesired outcome with a probability above some limit, we identify minimal changes to the initial strategy to reduce that probability below the limit. 
+
+We encode such counterfactual strategies as solutions to non-linear optimization problems, and further extend our encoding to synthesize diverse counterfactual strategies. 
+
+We evaluate our approach on four real-world datasets and demonstrate its practical viability in sophisticated sequential decision-making tasks.

@@ -1,0 +1,7 @@
+One-to-many negotiations are widely applied in various domains, contributing to efficient resource allocation and effective decision making. This wide variety of applications also brings a wide variety of implemented protocols, terminology and utility functions, which makes it hard to compare and improve strategies using existing solutions. 
+
+ We introduce a meta-model of negotiations, which characterizes almost all one-to-many negotiation research, bringing a unified description of the negotiations. This meta-model allows us to identify different classes of interdependency based on utility functions.
+
+ We show how existing one-to-many negotiations are related to each other, finding new insights and identifying knowledge gaps. 
+
+ We suggest that a general utility function framework and benchmark scenarios for one-to-many negotiations could accommodate future advancement in this field.

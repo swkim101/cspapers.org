@@ -1,0 +1,11 @@
+Class-agnostic counting enables enumerating arbitrary object classes beyond those seen during training. Recent studies attempted to exploit the potential of visual foundation models such as GroundingDINO. Despite the considerable progress, we observe certain shortcomings, including the limited diversity of visual prompts and suboptimal training regimen. 
+
+To address these issues, we introduce VQCounter, which incorporates a visual prompt queue mechanism designed to enrich the diversity of visual prompts. 
+
+A random modality switching strategy is proposed during training to strengthen both textual and visual modalities. 
+
+Besides, in light of weak point supervision, a Voronoi diagram-based cost (VoronoiCost) is designed to improve Hungarian matching, leading to more stable and faster convergence. 
+
+Building upon the Voronoi diagram, we also propose a novel set of more stringent evaluation metrics, which take point localization into account. 
+
+Extensive experiments on the FSC-147 and CARPK datasets demonstrate that VQCounter achieves state-of-the-art performance in both zero-shot and few-shot settings, significantly outperforming existing methods across nearly all evaluations.

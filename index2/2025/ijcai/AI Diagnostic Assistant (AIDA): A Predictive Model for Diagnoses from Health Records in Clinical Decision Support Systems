@@ -1,0 +1,5 @@
+Clinical Decision Support Systems (CDSS) play an increasingly important role in medical diagnostics. We present AI Diagnostic Assistant (AIDA), a real-time predictive model designed to assist doctors in interpreting patient conditions. AIDA analyzes electronic health records (EHR), including medical history, laboratory results, and complaints, to suggest potential diagnoses from 95 common conditions before the doctor makes the final decision. The model acts as a verification and backup tool, ensuring that no critical details are overlooked. Trained on 1.5 million patient records and validated on a dataset curated by a panel of experts, AIDA proves trustworthy as a diagnosis-making assistant (87.7% accuracy compared to 91.7% accuracy among doctors).
+
+
+
+Integrated into a megapolis-wide CDSS, AIDA has assisted doctors in over 3 million real-world diagnoses to date.

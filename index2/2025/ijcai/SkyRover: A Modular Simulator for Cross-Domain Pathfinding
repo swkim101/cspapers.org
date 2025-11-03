@@ -1,0 +1,15 @@
+Unmanned Aerial Vehicles (UAVs) and Automated Guided Vehicles (AGVs) increasingly collaborate in logistics, surveillance, inspection tasks and etc. 
+
+However, existing simulators often focus on a single domain, limiting cross-domain study. 
+
+This paper presents the SkyRover, a modular simulator for UAV-AGV multi-agent pathfinding (MAPF). 
+
+SkyRover supports realistic agent dynamics, configurable 3D environments, and convenient APIs for external solvers and learning methods. 
+
+By unifying ground and aerial operations, it facilitates cross-domain algorithm design, testing, and benchmarking. 
+
+Experiments highlight SkyRover’s capacity for efficient pathfinding and high-fidelity simulations in UAV-AGV coordination.
+
+We believe the SkyRover fills a key gap in MAPF research. 
+
+Project is available at https://sites.google.com/view/mapf3d/home.

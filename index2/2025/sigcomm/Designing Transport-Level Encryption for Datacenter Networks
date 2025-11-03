@@ -1,0 +1,1 @@
+This paper presents SDP, a protocol design for emerging datacenter transports, such as NDP and Homa, to integrate data encryption. It supports NIC offloading designed for TLS over TCP, native protocol number alongside TCP and UDP, and message-based abstraction that enables low latency RPCs with fine-grained parallelism.

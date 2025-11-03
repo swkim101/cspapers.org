@@ -1,0 +1,17 @@
+The Kunming-Montreal Global Biodiversity Framework aims to protect 30% of terrestrial, inland water, marine, and coastal ecosystems worldwide, and ensuring that at least 30% of these areas are under effective restoration by 2030.
+
+Maintaining and restoring ecological connectivity between natural habitats and protected areas is a key feature of this target.
+
+Achieving it will require effective and inclusive spatial planning supported by appropriate decision-support tools.
+
+Most spatial planning models address budget as an objective and connectivity as a constraint, formulating problems with Steiner trees.
+
+In many real-world cases, such as landscape-scale restoration planning, this formulation is inappropriate when environmental managers seek to optimise connectivity under a budget constraint.
+
+This problem was previously addressed with Constraint Programming (CP) and graph variables, but the current approach is severely limited in terms of spatial resolution.
+
+In this article, we formalise this problem as the budget-constrained graph connectivity optimisation problem. Based on a real case study: the restoration of forest connectivity in New Caledonia, we illustrate why ``naive'' CP approaches are inefficient.
+
+In response, we provide a preprocessing method based on Hanan grids which preserves the existence of at least one optimal solution.
+
+Finally, we assess the efficiency of our approach in the New Caledonian case study.

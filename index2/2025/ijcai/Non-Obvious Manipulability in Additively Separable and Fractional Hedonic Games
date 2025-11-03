@@ -1,0 +1,11 @@
+In this work, we consider the design of Non-Obviously Manipulable (NOM) mechanisms, mechanisms that bounded rational agents may fail to recognize as manipulable, for two relevant classes of succinctly representable Hedonic Games: Additively Separable and Fractional Hedonic Games. In these classes, agents have cardinal scores towards other agents, and their preferences over coalitions are determined by aggregating such scores. 
+
+This aggregation results in a utility function for each agent, which enables the evaluation of outcomes via the utilitarian social welfare.
+
+We first prove that, when scores can be arbitrary, every optimal mechanism is NOM; moreover, when scores are limited in a continuous interval, an optimal mechanism that is NOM exists.
+
+Given the hardness of computing optimal outcomes in these settings, we turn our attention to efficient and NOM mechanisms. To this aim, we first prove a characterization of NOM mechanisms that simplifies the class of mechanisms of interest. Then, we design a NOM mechanism returning approximations that asymptotically match the best-known approximation achievable in polynomial time.
+
+Finally, we focus on discrete scores, where the compatibility of NOM with optimality depends on the specific values. 
+
+Therefore, we initiate a systematic analysis to identify which discrete values support this compatibility and which do not.

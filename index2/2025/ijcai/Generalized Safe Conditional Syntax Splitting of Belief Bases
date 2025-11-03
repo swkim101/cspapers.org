@@ -1,0 +1,21 @@
+Splitting techniques in knowledge representation
+
+help focus on relevant parts of a belief base and
+
+reduce the complexity of reasoning generally. In
+
+this paper, we propose a generalization of safe conditional syntax splittings that broadens the applicability of splitting postulates for inductive inference from belief bases. In contrast to safe conditional syntax splitting, our generalized notion supports syntax splittings of a belief base ∆ where the
+
+subbases of ∆ may share atoms and nontrivial conditionals. We illustrate how this new notion overcomes limitations of previous splitting concepts,
+
+and we identify genuine splittings, separating them
+
+from simple splittings that do not provide benefits
+
+for inductive inference from ∆. We introduce adjusted inference postulates based on our generalization of conditional syntax splitting. We evaluate
+
+several inductive inference operators with respect
+
+to these postulates, and show that generalized safe
+
+conditional syntax splitting is a strictly stronger requirement for inductive inference operators, covering more syntax splitting applications.

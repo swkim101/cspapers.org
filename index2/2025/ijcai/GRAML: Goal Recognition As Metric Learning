@@ -1,0 +1,13 @@
+Goal Recognition (GR) is the problem of recognizing an agent's objectives based on observed actions. 
+
+Recent data-driven approaches for GR alleviate the need for costly, manually crafted domain models. 
+
+However, these approaches can only reason about a pre-defined set of goals, and time-consuming training is needed for new emerging goals. 
+
+To keep this model-learning automated while enabling quick adaptation to new goals, this paper introduces GRAML: Goal Recognition As Metric Learning. 
+
+GRAML frames GR as a deep metric learning problem, using a Siamese network composed of recurrent units to learn an embedding space where traces leading to the same goal are close, and those leading to different goals are distant.
+
+This metric is particularly effective for adapting to new goals, even when only a single example trace is available per goal.
+
+Evaluated on a versatile set of environments, GRAML shows speed, flexibility, and runtime improvements over the state-of-the-art GR while maintaining accurate recognition.

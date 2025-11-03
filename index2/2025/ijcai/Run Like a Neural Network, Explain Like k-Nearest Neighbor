@@ -1,0 +1,5 @@
+Deep neural networks have achieved remarkable performance across a variety of applications. However, their decision-making processes are opaque. In contrast, k-nearest neighbor (k-NN) provides interpretable predictions by relying on similar cases, but it lacks important capabilities of neural networks.
+
+The neural network k-nearest neighbor (NN-kNN) model is designed to bridge this gap, combining the benefits of neural networks with the instance-based interpretability of k-NN. However, the initial formulation of NN-kNN had limitations including scalability issues, reliance on surface-level features, and an excessive number of parameters. This paper improves NN-kNN by enhancing its scalability, parameter efficiency, ease of integration with feature extractors, and training simplicity.
+
+An evaluation of the revised architecture for image and language classification tasks illustrates its promise as a flexible and interpretable method.

@@ -1,0 +1,1 @@
+This work presents an attack to undermine MAC address randomization using a dual-layer approach combining PHY and MAC-layer analysis. By passively collecting CSI features along with MAC-layer behavioral patterns, our system applies an XGBoost classifier to distinguish devices enabling MAC randomization in dense networks, achieving up to 100% precision and 86% recall.

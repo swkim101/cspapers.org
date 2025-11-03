@@ -1,0 +1,5 @@
+Automated negotiation aims at finding agreements between agents with conflicting goals. Existing utility-based approaches guarantee agents satisfaction with negotiation outcomes, especially in multi-issue negotiations 
+
+where concession mechanisms lead to win-win results. However, they lack explainability and do not consider agents’ beliefs. On the other hand, argument-based approaches provide reasons for accepting or rejecting offers but do not include utility modeling for offers or enable concession mechanisms in multi-issue settings. We propose a novel hybrid approach combining both types of approaches.
+
+The utility-based component enables agents to make concessions on complex negotiation objects to achieve win-win outcomes, while the argumentation component ensures that accepted offers align with the agents' personal argumentation theories. These theories represent their beliefs, encoding various profiles, ethical considerations, social norms, or legal principles.

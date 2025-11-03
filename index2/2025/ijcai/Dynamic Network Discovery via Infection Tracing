@@ -1,0 +1,17 @@
+Researchers, policy makers, and engineers need to make sense of data from spreading processes as diverse as 
+
+rumor spreading in social networks, viral infections, and water contamination.
+
+Classical questions include predicting infection behavior in a given network or deducing the network structure from infection data.
+
+Most of the research on network infections studies static graphs, that is, the connections in the network are assumed to not change. 
+
+More recently, temporal graphs, in which connections change over time, have been used to more accurately represent real-world infections, which rarely occur in unchanging networks.
+
+We propose a model for temporal graph discovery that is consistent with previous work on static graphs and embraces the greater expressiveness of temporal graphs.
+
+For this model, we give algorithms and lower bounds which are often tight. We analyze different variations of the problem, which make our results widely applicable and it also clarifies which aspects of temporal infections make graph discovery easier or harder. 
+
+We round off our analysis with an experimental evaluation of our algorithm on real-world interaction data from the Stanford Network Analysis Project and on temporal Erdős-Renyi graphs.
+
+On Erdős-Renyi graphs, we uncover a threshold behavior, which can be explained by a novel connectivity parameter that we introduce during our theoretical analysis.

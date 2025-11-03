@@ -1,0 +1,11 @@
+Program performance optimization is essential for achieving high execution efficiency, yet it remains a challenging task that requires expertise in both software and hardware.
+
+Large Language Models (LLMs), trained on high-quality code from platforms like GitHub and other open-source sources, have shown promise in generating optimized code for simple snippets. However, current LLM-based solutions often fall short when tackling project-level programs due to the complexity of call graphs and the intricate interactions among functions. In this paper, we emulate the process a human expert might follow when optimizing project-level programs and introduce a three-phase framework POLO (PrOject-Level Optimizer) to address this limitation. 
+
+First, we profile the program to identify performance bottlenecks using an iterative weighting algorithm. 
+
+Next, we conduct structural analysis by scanning the project and generating a graph that represents the program's structure. 
+
+Finally, two LLM agents collaborate in iterative cycles to rewrite and optimize the code at these hotspots, gradually improving performance. 
+
+We conduct experiments on open-source and proprietary projects. The results demonstrate that POLO accurately identifies performance bottlenecks and successfully applies optimizations. Under the O3 compilation flag, the optimized programs achieved speedups ranging from 1.34x to 21.5x.

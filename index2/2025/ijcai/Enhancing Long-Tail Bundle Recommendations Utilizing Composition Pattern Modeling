@@ -1,0 +1,11 @@
+Bundle recommendation aims to provide users with a one-stop service by offering a collection of related items. However, these systems face a significant challenge, where a small portion of bundles accumulate most interactions while the long-tail bundles receive few interactions.This imbalance leads to poor performance for long-tail bundles despite their potential to satisfy diverse user needs. 
+
+Existing long-tail item recommendation methods fail to effectively address this problem, as long-tail bundle recommendation requires not only capturing the user-bundle interactions but also the item compositions in different bundles. 
+
+Therefore, in this paper, we propose Composition-Aware Long-tail Bundle Recommendation (CALBRec), which leverages the inherent composition patterns shared across different bundles as valuable signals for further representation augmentation and recommendation enhancement. 
+
+Specifically, to solve the complexity of modeling shared composition patterns due to the exponential explosion caused by the growing number of items and bundle sizes, we first introduce a composition-aware tail adapter to capture the shared composition patterns and then adaptively integrate them into individual bundle representations.
+
+Moreover, to mitigate the impact of noise in user-bundle interaction data, we propose to map the bundle representations into a set of learnable prototypes, and we further propose a prototype learning module to combine the composition patterns with interaction signals for tail bundles.
+
+Extensive experiments on three public datasets demonstrate that our method can improve the performance on bundle recommendation significantly, especially on the long-tail bundles.

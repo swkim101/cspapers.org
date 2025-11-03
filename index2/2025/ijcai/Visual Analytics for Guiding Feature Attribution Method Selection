@@ -1,0 +1,1 @@
+Feature attribution methods explain model predictions by assigning importance to input features. Choosing the most suitable method is difficult due to inconsistencies and a lack of universal solutions. Our research focuses on proposing tools and methodologies for evaluating, comparing, and selecting these methods.

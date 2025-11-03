@@ -1,0 +1,5 @@
+Checking the reliability of machine-learning models is a crucial, but challenging task. Nomos is an existing, automated framework for testing general, user-provided functional properties of models, including so-called hyperproperties expressed over more than one model execution. Nomos aims to find model inputs that expose ``bugs'', that is, property violations. However, performing thousands of model invocations during testing is costly both in terms of time and money (for metered APIs, such as OpenAI's).
+
+
+
+We present LaZ (pronounced ``lazy''), an extension of Nomos that automatically minimizes the number of model invocations to boost the test throughput and thereby find bugs more efficiently. During test execution, LaZ automatically identifies redundant invocations---invocations where the model output does not affect the final test outcome---and skips them, much like lazy evaluation in certain programming languages. This optimization enables a second one that dynamically reorders model invocations to skip the more expensive ones. As a result, LaZ finds the same number of bugs as Nomos, but does so median 33% and up to 60% faster.

@@ -1,0 +1,9 @@
+Strategic mining attacks, such as selfish mining, exploit blockchain consensus protocols by deviating from honest behavior to maximize rewards. Markov Decision Process (MDP) analysis faces scalability challenges in modern digital economics, including blockchain. To address these limitations, reinforcement learning (RL) provides a scalable alternative, enabling adaptive strategy optimization in complex dynamic environments.
+
+
+
+In this survey, we examine RL’s role in strategic mining analysis, comparing it to MDP-based approaches. We begin by reviewing foundational MDP models and their limitations, before exploring RL frameworks that can learn near-optimal strategies across various protocols. Building on this analysis, we compare RL techniques and their effectiveness in deriving security thresholds, such as the minimum attacker power required for profitable attacks. Expanding the discussion further, we classify consensus protocols and propose open challenges, such as multi-agent dynamics and real-world validation.
+
+
+
+This survey highlights the potential of reinforcement learning to address the challenges of selfish mining, including protocol design, threat detection, and security analysis, while offering a strategic roadmap for researchers in decentralized systems and AI-driven analytics.

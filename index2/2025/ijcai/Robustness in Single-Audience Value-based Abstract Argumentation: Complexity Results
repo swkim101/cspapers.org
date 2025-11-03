@@ -1,0 +1,19 @@
+We address the context of Single-Audience Value-Based Abstract Argumentation Framework (AVAF),
+
+where the arguments are labeled with the social values that they promote and 
+
+the activation/deactivation of the attacks depends on the audience profile
+
+(expressed as a set of preferences between the social values).
+
+Herein, we introduce a new notion of robustness for measuring the sensitivity of the outcome of the reasoning to the extent of changes in the audience profile. 
+
+In particular, for a set of arguments S or a single argument a, we define the robustness degree
+
+of the status of S or a as the maximum number k* of deletions/insertions of preferences 
+
+from/into the audience profile that are tolerable, in the sense that S remains an extension 
+
+(or a non-extension) or a accepted (or unaccepted) after performing at most k* deletions/insertions.
+
+We introduce the decision problems related to the computation of the robustness degree and focus on thoroughly investigating their computational complexity.

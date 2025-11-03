@@ -1,0 +1,5 @@
+We study fair division of indivisible goods under the maximin share (MMS) fairness criterion in settings where agents are grouped into a small number of types, with agents within each type having identical valuations. For the special case of a single type, an exact MMS allocation is always guaranteed to exist. However, for two or more distinct agent types, exact MMS allocations do not always exist, shifting the focus to establishing the existence of approximate-MMS allocations. A series of works over the last decade has resulted in the best-known approximation guarantee of 3/4 + 3/3836. 
+
+
+
+In this paper, we improve the approximation guarantees for settings where agents are grouped into two or three types, a scenario that arises in many practical settings. Specifically, we present novel algorithms that guarantee a 4/5-MMS allocation for two agent types and a 16/21-MMS allocation for three agent types. Our approach leverages the MMS partition of the majority type and adapts it to provide improved fairness guarantees for all types.

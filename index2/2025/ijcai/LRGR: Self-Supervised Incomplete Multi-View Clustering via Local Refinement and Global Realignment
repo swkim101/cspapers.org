@@ -1,0 +1,11 @@
+Incomplete Multi-View Clustering (IMVC) aims to explore comprehensive representations from multiple views with missing samples. 
+
+Recent studies have revealed that IMVC methods benefit from Graph Convolutional Network (GCN) in achieving robust feature imputation and effective representation learning. Despite these notable improvements, GCN imputation methods often cause a distribution shift between the imputed and original representations, particularly when the neighbors of the imputed nodes are assigned to different groups. Moreover, GCN learning methods tend to produce homogeneous imputed representations, which blur cluster boundaries and hinder effective discriminative clustering.
+
+To remedy these challenges, the Local Refinement and Global Realignment (LRGR) Self-supervised model is proposed for incomplete multi-view clustering, which includes two stages. 
+
+In the first stage, a local imputed refinement module is designed to enhance the versatility of imputed representations through cross-view contrastive learning guided by view-specific prototypes.
+
+In the second stage, a global realignment module is introduced to achieve semantic consistency across views, alleviating distribution shifts by leveraging pseudo-labels and their corresponding confidence scores as guidance.
+
+Experiments on five widely used multi-view datasets demonstrate the competitiveness and superiority of our method compared to state-of-the-art approaches.

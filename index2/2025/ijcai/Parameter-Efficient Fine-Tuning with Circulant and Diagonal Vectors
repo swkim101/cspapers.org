@@ -1,0 +1,11 @@
+Foundation models have achieved tremendous success in different domains.
+
+However, their huge computation and storage complexity make these models difficult to fine-tune and also less applicable in practice. 
+
+Recent study shows training in Fourier domain can be an effective fine-tuning method in terms of both model performance and number of training parameters. 
+
+In this work, we propose to further reduce the complexity by the factorization through the product of interleaved circulant and diagonal matrices. In addition, we address the case of non-square fine-tuning weights by partitioning the circulant matrix into blocks.
+
+Our method avoids the construction of weight change matrix and utilizes 1D fast Fourier transform (FFT) instead of 2D FFT. 
+
+Experimental results show that our method achieves similar or better performance across various tasks with much less floating-point operations (FLOPs) and the number of trainable parameters.

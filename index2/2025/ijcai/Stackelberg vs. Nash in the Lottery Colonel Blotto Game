@@ -1,0 +1,11 @@
+Resource competition problems are often modeled using Colonel Blotto games, where players take simultaneous actions. However, many real-world scenarios involve sequential decision-making rather than simultaneous moves.
+
+
+
+To model these dynamics, we represent the Lottery Colonel Blotto game as a Stackelberg game, in which one player, the leader, commits to a strategy first, and the other player, the follower, responds. We derive the Stackelberg equilibrium for this game, formulating the leader's strategy as a bi-level optimization problem.
+
+
+
+To solve this, we develop a constructive method based on iterative game reductions, which allows us to efficiently compute the leader’s optimal commitment strategy in polynomial time. Additionally, we identify the conditions under which the Stackelberg equilibrium coincides with the Nash equilibrium. Specifically, this occurs when the budget ratio between the leader and the follower equals a certain threshold, which we can calculate in closed form. In some instances, we observe that when the leader’s budget exceeds this threshold, both players achieve higher utilities in the Stackelberg equilibrium compared to the Nash equilibrium.
+
+Lastly, we show that, in the best case, the leader can achieve an infinite utility improvement by making an optimal first move compared to the Nash equilibrium.

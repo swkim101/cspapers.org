@@ -1,0 +1,15 @@
+Motion capture using sparse inertial sensors has shown great promise due to its portability and lack of occlusion issues compared to camera-based tracking. 
+
+Existing approaches typically assume that IMU sensors are tightly attached to the human body. 
+
+However, this assumption often does not hold in real-world scenarios. 
+
+In this paper, we present a new task of full-body human pose estimation using sparse, loosely attached IMU sensors.
+
+To solve this task, we simulate IMU recordings from an existing garment-aware human motion dataset.
+
+We developed transformer-based diffusion models to synthesize loose IMU data and estimate human poses based on this challenging loose IMU data.
+
+In addition, we show that incorporating garment-related parameters while training the model on simulated loose data effectively maintains expressiveness and enhances the ability to capture variations introduced by looser or tighter garments. 
+
+Experiments show that our proposed diffusion methods trained on simulated and synthetic data outperformed the state-of-the-art methods quantitatively and qualitatively, opening up a promising direction for future research.

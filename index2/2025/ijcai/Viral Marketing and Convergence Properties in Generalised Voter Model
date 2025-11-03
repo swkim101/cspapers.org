@@ -1,0 +1,9 @@
+Consider a social network where each node (user) is blue or red, corresponding to positive or negative opinion on a topic. In the voter model, in discrete time rounds, each node picks a neighbour uniformly at random and adopts its colour. Despite its significant popularity, this model does not capture some fundamental real-world characteristics such as the difference in the strengths of connections, individuals with no initial opinion, and users who are reluctant to update. To address these issues, we introduce a generalisation of the voter model. 
+
+
+
+We study the problem of selecting a set of seed blue nodes to maximise the expected number of blue nodes after some rounds. We prove that the problem is NP-hard and provide a polynomial time approximation algorithm with the best possible approximation guarantee. Our experiments on real-world and synthetic graph data demonstrate that the proposed algorithm outperforms other algorithms.
+
+
+
+We also prove that the process could take an exponential number of rounds to converge. However, if we limit ourselves to strongly connected graphs, the convergence time is polynomial and the convergence period (size of the stationary configuration) is bounded by the highest common divisor of cycle lengths in the network.

@@ -1,0 +1,5 @@
+Imitation learning often assumes that demonstrations are close to optimal according to some fixed, but unknown, cost function.
+
+However, according to satisficing theory, humans often choose acceptable behavior based on their personal (and potentially dynamic) levels of aspiration, rather than achieving (near-) optimality. For example, a lunar lander demonstration that successfully lands without crashing might be acceptable to a novice despite being slow or jerky.
+
+Using a margin-based objective to guide deep reinforcement learning, our focused satisficing approach to imitation learning seeks a policy that surpasses the demonstrator's aspiration levels---defined over trajectories or portions of trajectories---on unseen demonstrations without explicitly learning those aspirations. We show experimentally that this focuses the policy to imitate the highest quality (portions of) demonstrations better than existing imitation learning methods, providing much higher rates of guaranteed acceptability to the demonstrator, and competitive true returns on a range of environments.

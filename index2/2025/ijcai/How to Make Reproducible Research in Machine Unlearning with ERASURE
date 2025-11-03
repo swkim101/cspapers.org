@@ -1,0 +1,3 @@
+Machine unlearning, the process of removing specific data influences from Machine Learning models, is critical for complying with regulations like the GDPR's right to be forgotten and addressing copyright disputes in large models. Despite its rising importance, the field still lacks standardized tools, hindering reproducibility and evaluation. Here, we present, in an extensive way, ERASURE, a unified framework enabling reproducibility by implementing common unlearning techniques, evaluation metrics, and dedicated datasets.
+
+ERASURE advances research, ensures solution comparability, and facilitates reproducibility, addressing future legal and ethical challenges in data management.

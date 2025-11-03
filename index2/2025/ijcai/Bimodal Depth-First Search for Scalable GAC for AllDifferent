@@ -1,0 +1,5 @@
+We propose a version of DFS designed for Constraint Programming, called bimodal DFS, that scales to both sparse and dense graphs. It runs in O(n + ~m) time, where ~m is the sum, for each vertex v, of the minimum between the numbers of successors and non-successors of v.
+
+Integrating it into Régin’s GAC algorithm for the AllDifferent constraint results in faster performance as the problem size increases, outperforming a GPU-accelerated version.
+
+In the vast majority of our tests, GAC now performs similarly to BC in terms of speed, but is able to solve more problems.

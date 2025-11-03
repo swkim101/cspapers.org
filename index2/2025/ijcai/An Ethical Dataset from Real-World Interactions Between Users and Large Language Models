@@ -1,0 +1,13 @@
+Recent studies have demonstrated that Large Language Models (LLMs) have ethical-related problems such as social biases, lack of moral reasoning, and generation of offensive content.
+
+ The existing evaluation metrics and methods to address these ethical challenges use datasets intentionally created by instructing humans to create instances including ethical problems.
+
+ Therefore, the data does not sufficiently include comprehensive prompts that users actually provide when using LLM services in everyday contexts and outputs that LLMs generate.
+
+ There may be different tendencies between unethical instances intentionally created by humans and actual user interactions with LLM services, which could result in a lack of comprehensive evaluation.
+
+ To investigate the difference, we create Eagle datasets extracted from actual interactions between ChatGPT and users that exhibit social biases, opinion biases, toxicity, and immoral problems.
+
+ Our experiments show that Eagle captures complementary aspects, not covered by existing datasets proposed for evaluation and mitigation.
+
+ We argue that using both existing and proposed datasets leads to a more comprehensive assessment of the ethics.

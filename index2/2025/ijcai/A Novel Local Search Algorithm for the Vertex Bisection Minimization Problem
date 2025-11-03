@@ -1,0 +1,5 @@
+The vertex bisection minimization problem (VBMP) is a fundamental graph partitioning problem with numerous real-world applications. In this study, we propose a (k, l, S)-cluster guided local search algorithm to address this challenge.
+
+First, we propose a novel (k,l,S)-cluster enumeration procedure, which is based on two key concepts: the (k, l, S)-cluster and the local cluster core. The (k, l, S)-cluster limits both the connectivity and distinct boundaries of a given vertex set, and the local cluster core represents the most cohesive substructure within a (k, l, S)-cluster. Building up on the above (k, l, S)-cluster enumeration procedure, we present a novel (k, l, S)-cluster guided perturbation mechanism designed to escape from local optima. 
+
+Next, we propose a two-manner local search procedure that employs two distinct search models to explore the neighboring search space efficiently. Experimental results demonstrate that the proposed algorithm performs best on nearly all instances.

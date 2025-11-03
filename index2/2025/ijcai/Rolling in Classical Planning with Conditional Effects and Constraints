@@ -1,0 +1,5 @@
+In classical planning, conditional effects (CEs) allow modelling non-idempotent actions, where the resulting state may depend on how many times each action is consecutively repeated. 
+
+ Though CEs have been widely studied in the literature, no one has ever studied how to exploit rolling, i.e., how to effectively model the consecutive repetition of an action.
+
+ In this paper, we fill this void by (i) showing that planning with CEs remains PSPACE-complete even in the limit case of problems with a single action, (ii) presenting a correct and complete planning as satisfiability encoding exploiting rolling while effectively dealing with constraints imposed on the set of reachable states, and (iii) theoretically and empirically showing its substantial benefits.

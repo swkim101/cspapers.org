@@ -1,0 +1,5 @@
+Dung's Argumentation Framework (AF) has been extended in several directions to make knowledge representation and reasoning tasks more intuitive and/or expressive. We present a novel extension of AF called Featured AF (FAF), where each argument has associated a set of features expressed by means of unary and binary facts. 
+
+In such a context, a query is expressed by means of a conjunctive relational calculus formula which is evaluated over the extensions of the FAF. 
+
+Then, this framework is further expanded into the so-called Extended FAF (EFAF), where a first-order logic formula (FOL) is used for reasoning over `feasible' subframeworks that satisfy the FOL formula and minimally differ from the original framework. We investigate the computational complexity of verification and acceptance problems under several semantics and show that incomplete AF (iAF) frameworks, including correlated iAF and constrained iAF, are special cases of EFAF.

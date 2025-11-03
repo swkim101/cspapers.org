@@ -1,0 +1,19 @@
+Anomalies often occur in real-world information networks/graphs, such as malevolent users, malicious comments, banned users, and fake news in social graphs. 
+
+The latest graph anomaly detection methods use a novel mechanism called truncated affinity maximization (TAM) to detect anomaly nodes without using any label information and achieve impressive results.
+
+TAM maximizes the affinities among the normal nodes while truncating the affinities of the anomalous nodes to identify the anomalies.
+
+However, existing TAM-based methods truncate suspicious nodes according to a rigid threshold that ignores the specificity and high-order affinities of different nodes.
+
+This inevitably causes inefficient truncations from both normal and anomalous nodes, limiting the effectiveness of anomaly detection. 
+
+To this end, this paper proposes a novel truncation model combining contextual and global affinity to truncate the anomalous nodes.
+
+The core idea of the work is to use contextual truncation to decrease the affinity of anomalous nodes, while global truncation increases the affinity of normal nodes.
+
+Extensive experiments on massive real-world datasets show that our method surpasses peer methods in most graph anomaly detection tasks.
+
+In highlights, compared with previous state-of-the-art methods, the proposed method has +15% ~ +20% improvements in two famous real-world datasets, Amazon and YelpChi. 
+
+Notably, our method works well in large datasets, Amazin-all and YelpChi-all, and achieves the best results, while most previous models cannot complete the tasks.

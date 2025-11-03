@@ -1,0 +1,7 @@
+Text-to-music (TTM) generation, which converts textual descriptions into audio, opens up innovative avenues for multimedia creation.
+
+Achieving high quality and diversity in this process demands extensive, high-quality data, which are often scarce in available datasets. Most open-source datasets frequently suffer from issues like low-quality waveforms and low text-audio consistency, hindering the advancement of music generation models.
+
+To address these challenges, we propose a novel quality-aware training paradigm for generating high-quality, high-musicality music from large-scale, quality-imbalanced datasets. Additionally, by leveraging unique properties in the latent space of musical signals, we adapt and implement a masked diffusion transformer (MDT) model for the TTM task, showcasing its capacity for quality control and enhanced musicality. Furthermore, we introduce a three-stage caption refinement approach to address low-quality captions' issue. Experiments show state-of-the-art (SOTA) performance on benchmark datasets including MusicCaps and the Song-Describer Dataset with both objective and subjective metrics.
+
+Demo audio samples are available at https://qa-mdt.github.io/, code and pretrained checkpoints are open-sourced at https://github.com/ivcylc/OpenMusic.

@@ -1,0 +1,9 @@
+Knowledge graphs (KGs) are powerful tools for modelling complex, multi-relational data and supporting hypothesis generation, particularly in applications like drug repurposing. However, for predictive methods to gain acceptance as credible scientific tools, they must ensure not only accuracy but also the capacity to offer meaningful scientific explanations.
+
+
+
+This paper presents a novel approach REx, for generating scientific explanations based in link prediction in knowledge graphs. It employs reward and policy mechanisms that consider desirable properties of scientific explanation to guide a reinforcement learning agent in the identification of explanatory paths within a KG. The approach further enriches explanatory paths with domain-specific ontologies, ensuring that the explanations are both insightful and grounded in established biomedical knowledge. 
+
+
+
+We evaluate our approach in drug repurposing using three popular knowledge graph benchmarks. The results clearly demonstrate its ability to generate explanations that validate predictive insights against biomedical knowledge and that outperform the state-of-the-art approaches in predictive performance, establishing REx as a relevant contribution to advance AI-driven scientific discovery.

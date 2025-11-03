@@ -1,0 +1,9 @@
+Multi-agent systems (MAS) often include multiple layers of uncertainty. One source comes from agents' limited ability to observe their environment, while another arises from the unpredictability of natural events and the actions of other agents, which, though uncertain, can be estimated through experiments or past experiences.
+
+A central focus in MAS is the agents' ability to achieve their goals.For intelligent agents, these goals are often epistemic,
+
+involving the acquisition of partial or complete knowledge about a crucial fact A. Many such properties can be expressed using PATLK, an extension of probabilistic alternating-time temporal logic (PATL) with knowledge operators, or PATLC that extends PATL with probabilistic beliefs.
+
+
+
+In many scenarios, however, the goal of the players is not to achieve high confidence about A being true, but rather to reduce their uncertainty about A (be it true or false). Similarly, in scenarios where the goal is to keep A secret, the outsiders' uncertainty about A should be maintained above a certain threshold. To capture such properties, we introduce PATLH, a logic extending PATL with information-theoretic modalities based on Shannon entropy.The logic enables the specification of agents' capabilities concerning the uncertainty of a player about a given set of facts. We define it over multi-agent systems with stochastic transitions and probabilistic imperfect information, capturing two key uncertainties: the agents' partial observability of their environment and the stochastic nature of state transitions. As technical results, we compare the epistemic and information-theoretic extensions of PATL with respect to their expressiveness, succinctness, and complexity of model checking.

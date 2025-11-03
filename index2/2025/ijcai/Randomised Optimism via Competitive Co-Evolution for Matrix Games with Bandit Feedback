@@ -1,0 +1,9 @@
+Learning in games is a fundamental problem in machine learning and artificial intelligence, with numerous applications. This work investigates two-player zero-sum matrix games with an unknown payoff matrix and bandit feedback, where each player observes their actions and the corresponding noisy payoff. Prior studies have proposed algorithms for this setting, demonstrating the effectiveness of deterministic optimism (e.g., UCB for matrix games) in achieving sublinear regret. However, the potential of randomised optimism in matrix games remains theoretically unexplored.
+
+
+
+We propose Competitive Co-evolutionary Bandit Learning (CoEBL), a novel algorithm that integrates evolutionary algorithms (EAs) into the bandit framework to implement randomised optimism through EA variation operators. We prove that CoEBL achieves sublinear regret, matching the performance of deterministic optimism-based methods. To the best of our knowledge, this is the first theoretical regret analysis of an evolutionary bandit learning algorithm in matrix games.
+
+
+
+Empirical evaluations on diverse matrix game benchmarks demonstrate that CoEBL not only achieves sublinear regret but also consistently outperforms classical bandit algorithms, including EXP3, the variant EXP3-IX, and UCB. These results highlight the potential of evolutionary bandit learning, particularly the efficacy of randomised optimism via evolutionary algorithms in game-theoretic settings.

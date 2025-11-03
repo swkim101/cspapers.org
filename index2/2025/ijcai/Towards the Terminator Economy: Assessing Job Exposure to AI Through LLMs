@@ -1,0 +1,17 @@
+AI and related technologies are reshaping jobs and tasks, either by automating or augmenting human skills in the workplace. Many researchers have been working on estimating if and to what extent jobs and tasks are exposed to the risk of being automatized by AI-related technologies. Our work tackles this issue through a data-driven approach by:
+
+(i) developing a reproducible framework that uses cutting-edge open-source large language models to assess the current capabilities of AI and robotics in performing job-related tasks;
+
+(ii) formalizing and computing a measure of AI exposure by occupation, the Task Exposure to AI (TEAI) index, and a measure of Task Replacement by AI (TRAI) index, both validated through a human user evaluation and compared with the state-of-the-art.
+
+
+
+Our results show that the TEAI index is positively correlated with cognitive, problem-solving, and management skills, while it is negatively correlated with social skills. Results also suggest that about one-third of U.S. employment is highly exposed to AI, primarily in high-skill jobs requiring a graduate or postgraduate level of education. We also find that AI exposure is positively associated with employment and wage growth from 2003 to 2023, suggesting that AI has had an overall positive effect on productivity.
+
+
+
+Considering specifically the TRAI index, we find that even in high-skill occupations, AI exhibits high variability in task substitution, suggesting that AI and humans complement each other within the same occupation, while the allocation of tasks within occupations is likely to change.
+
+
+
+All results, models, and code are freely available online to allow the community to reproduce our results, compare outcomes, and use our work as a benchmark to monitor AI’s progress over time.

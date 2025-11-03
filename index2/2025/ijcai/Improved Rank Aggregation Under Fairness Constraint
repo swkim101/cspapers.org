@@ -1,0 +1,9 @@
+Aggregating multiple input rankings into a consensus ranking is essential in various fields such as social choice theory, hiring, college admissions, web search, and databases. A major challenge is that the optimal consensus ranking might be biased against individual candidates or groups, especially those from marginalized communities. This concern has led to recent studies focusing on fairness in rank aggregation. The goal is to ensure that candidates from different groups are fairly represented in the top-k positions of the aggregated ranking.
+
+
+
+We study this fair rank aggregation problem by considering the Kendall tau as the underlying metric. While we know of a polynomial-time approximation scheme (PTAS) for the classical rank aggregation problem, the corresponding fair variant only possesses a quite straightforward 3-approximation algorithm due to Wei et al., SIGMOD'22, and Chakraborty et al., NeurIPS'22, which finds closest fair ranking for each input ranking and then simply outputs the best one. 
+
+
+
+In this paper, we first provide a novel algorithm that achieves (2+ε)-approximation (for any ε > 0), significantly improving over the 3-approximation bound. Next, we provide a 2.881-approximation fair rank aggregation algorithm that works irrespective of the fairness notion, given one can find a closest fair ranking, beating the 3-approximation bound. We complement our theoretical guarantee by performing extensive experiments on various real-world datasets to establish the effectiveness of our algorithm further by comparing it with the performance of state-of-the-art algorithms.

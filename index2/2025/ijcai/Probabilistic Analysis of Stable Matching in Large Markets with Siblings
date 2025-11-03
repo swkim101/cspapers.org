@@ -1,0 +1,11 @@
+We study a practical centralized matching problem which assigns children to daycare centers.
+
+The collective preferences of siblings from the same family introduce complementarities, which can lead to the absence of stable matchings, as observed in the hospital-doctor matching problems involving couples. Intriguingly, stable matchings are consistently observed in real-world daycare markets, despite the prevalence of sibling applicants.
+
+
+
+We conduct a probabilistic analysis of large random markets to examine the existence of stable matchings in such markets. Specifically, we focus on scenarios where daycare centers have similar priorities over children, a common characteristic in real-world markets. Our analysis reveals that as the market size approaches infinity, the likelihood of stable matchings existing converges to 1.
+
+
+
+To facilitate our exploration, we refine an existing heuristic algorithm to address a more rigorous stability concept, as the original one may fail to meet this criterion. Through extensive experiments on both real-world and synthetic datasets, we demonstrate the effectiveness of our revised algorithm in identifying stable matchings, particularly when daycare priorities exhibit high similarity.

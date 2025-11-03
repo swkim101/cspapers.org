@@ -1,0 +1,11 @@
+Time-of-Flight (ToF) imaging systems are susceptible to various noise and degradation, which can severely affect image quality. Traditional sequential imaging pipelines often suffer from error accumulation due to separate multi-stage processing. Existing end-to-end methods typically rely on noisy-clean depth image pairs for supervised learning.
+
+However, acquiring ground-truth is challenging in real-world scenarios due to factors such as Multi-Path Interference (MPI), phase wrapping, and complex noise patterns.
+
+In this paper, we propose a self-supervised learning framework for end-to-end ToF imaging, which does not require any noisy-clean pairs yet generalizes well across various off-the-shelf cameras.
+
+Our framework leverages the cross-modal dependencies between RGB and depth data as implicit supervision to effectively suppress noise and maintain image fidelity. Additionally, the loss function integrates the statistical characteristics of raw measurement data, enhancing robustness against noise and artifacts.
+
+Extensive experiments on both synthetic and real-world data demonstrate that our approach achieves performance comparable to supervised methods, without requiring paired noisy-clean data for training. 
+
+Furthermore, our method consistently delivers strong performance across all evaluated cameras, highlighting its generalization capabilities. The code is available at https://github.com/WeihangWANG/RGBD_imaging.

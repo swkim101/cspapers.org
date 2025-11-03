@@ -1,0 +1,17 @@
+Argumentation is a central subarea of Artificial Intelligence (AI) for modeling and reasoning about arguments. 
+
+The semantics of abstract argumentation frameworks (AFs) is given by sets of arguments (extensions) and conditions on the relationship between arguments, such as stable or admissible.
+
+Today's solvers implement tasks such as finding extensions, deciding credulously or skeptically acceptance, counting, or enumerating extensions.
+
+While these tasks are well charted, the area between decision and counting/enumeration and fine-grained reasoning requires expensive reasoning so far.
+
+We introduce a novel concept (facets) for reasoning between decision and enumeration. 
+
+Facets are arguments that belong to some extensions (credulous) but not to all extensions (skeptical).
+
+They are most natural when a user aims to navigate, filter, or comprehend specific arguments, according to their needs. 
+
+We study the complexity and show that tasks involving facets are much easier than counting extensions.
+
+Finally, we provide an implementation, and conduct experiments to demonstrate feasibility.

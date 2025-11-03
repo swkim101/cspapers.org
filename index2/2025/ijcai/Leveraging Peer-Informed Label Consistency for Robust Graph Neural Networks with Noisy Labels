@@ -1,0 +1,11 @@
+Graph Neural Networks (GNNs) excel in many applications but struggle when trained with noisy labels, especially as noise can propagate through the graph structure.
+
+Despite recent progress in developing robust GNNs, few methods exploit the intrinsic properties of graph data to filter out noise.
+
+In this paper, we introduce ProCon, a novel framework that identifies mislabeled nodes by measuring label consistency among semantically similar peers, which are determined by feature similarity and graph adjacency.
+
+Mislabeled nodes typically exhibit lower consistency with these peers, a signal we measure using pseudo-labels derived from representational prototypes.
+
+A Gaussian Mixture Model is fitted to the consistency distribution to identify clean samples, which refine prototype quality in an iterative feedback loop.
+
+Experiments on multiple datasets demonstrate that ProCon significantly outperforms state-of-the-art methods, effectively mitigating label noise and enhancing GNN robustness.

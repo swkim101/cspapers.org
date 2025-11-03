@@ -1,0 +1,3 @@
+In this paper, we investigate verification of quantized Graph Neural Networks (GNNs), where some fixed-width arithmetic is used to represent numbers.
+
+We introduce the linear-constrained validity (LVP) problem for verifying GNNs properties, and provide an efficient translation from LVP instances into a logical language. We show that LVP is in PSPACE, for any reasonable activation functions. We provide a proof system. We also prove PSPACE-hardness, indicating that while reasoning about quantized GNNs is feasible, it remains generally computationally challenging.

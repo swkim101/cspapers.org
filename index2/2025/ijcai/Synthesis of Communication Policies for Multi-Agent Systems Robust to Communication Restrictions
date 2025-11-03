@@ -1,0 +1,5 @@
+We study stochastic multi-agent systems in which agents must cooperate to maximize the probability of achieving a common reach-avoid objective. 
+
+In many applications, during the execution of the system, the communication between the agents can be constrained by restrictions on the bandwidth currently available for exchanging local-state information between the agents. 
+
+In this paper, we propose a method for computing joint action and communication policies for the group of agents that aim to satisfy the communication restrictions as much as possible while achieving the optimal reach-avoid probability when communication is unconstrained. Our method synthesizes a pair of action and communication policies robust to restrictions on the number of agents allowed to communicate. To this end, we introduce a novel cost function that measures the amount of information exchanged beyond what the communication policy allows. We evaluate our approach experimentally on a range of benchmarks and demonstrate that it is capable of computing pairs of action and communication policies that satisfy the communication restrictions, if such exist.

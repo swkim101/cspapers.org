@@ -1,0 +1,11 @@
+The Clique Interdiction Problem (CIP) aims to minimize the size of the largest clique in a given graph by removing a given number of vertices. 
+
+ The CIP models a special Stackelberg game and has important applications in fields such as pandemic control and terrorist identification. 
+
+ However, the CIP is a bilevel graph optimization problem, making it very challenging to solve. Recently, data reduction techniques have been successfully applied in many (single-level) graph optimization problems like vertex cover. 
+
+ Motivated by this, we investigate a set of novel reduction rules and design a reduction-based algorithm, RECIP, for practically solving the CIP. 
+
+ RECIP enjoys an effective preprocessing procedure that systematically reduces the input graph, making the problem much easier to solve. 
+
+ Extensive experiments on 124 large real-world networks demonstrate the superior performance of RECIP and validate the effectiveness of the proposed reduction rules.

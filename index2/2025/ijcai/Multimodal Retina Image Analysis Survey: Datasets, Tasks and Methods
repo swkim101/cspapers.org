@@ -1,0 +1,13 @@
+Retina images provide a noninvasive view of the central nervous system and microvasculature, making it essential for clinical applications. 
+
+Changes in the retina often indicate both ophthalmic and systemic diseases, aiding in diagnosis and early intervention.
+
+While deep learning algorithms have advanced retina image analysis, a comprehensive review of related datasets, tasks, and benchmarking is still lacking. 
+
+In this survey, we systematically categorize existing retina image datasets based on their available data modalities, and review the tasks these datasets support in multimodal retina image analysis. 
+
+We also explain key evaluation metrics used in various retina image analysis benchmarks.
+
+By thoroughly examining current datasets and methods, we highlight the challenges and limitations in existing benchmarks and discuss potential research topics in the field.
+
+We hope this work will guide future retina analysis methods and promote the shared use of existing data across different tasks.

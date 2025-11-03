@@ -1,0 +1,7 @@
+The bulk of the literature on opinion optimization in social networks adopts the Friedkin–Johnsen (FJ) opinion dynamics model, in which the innate opinions of all nodes are known: this is an unrealistic assumption.
+
+In this paper, we study opinion optimization under the FJ model without the full knowledge of innate opinions. Specifically, we borrow from the literature a series of objective functions, aimed at minimizing polarization and/or disagreement, and we tackle the budgeted optimization problem, where we can query the innate opinions of only a limited number of nodes.
+
+Given the complexity of our problem, we propose a framework based on three steps: (1) select the limited number of nodes we query, (2) reconstruct the innate opinions of all nodes based on those queried, and (3) optimize the objective function with the reconstructed opinions. For each step of the framework, we present and systematically evaluate several effective strategies. A key contribution of our work is a rigorous error propagation analysis that quantifies how reconstruction errors in innate opinions impact the quality of the final solutions.
+
+Our experiments on various synthetic and real-world datasets show that we can effectively minimize polarization and disagreement even if we have quite limited information about innate opinions.
