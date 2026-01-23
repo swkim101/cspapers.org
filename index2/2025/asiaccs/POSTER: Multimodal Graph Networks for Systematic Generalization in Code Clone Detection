@@ -1,0 +1,1 @@
+Code clone detection is vital for software security and plagiarism detection. Traditional syntactic methods struggle with semantic clones. A method is proposed that leverages Graph Isomorphism Network (GIN) and Graph Attention Network (GAT) to analyze Program Dependence Graphs (PDGs), achieving 96% accuracy on a 1-million-sample BigCloneBench subset.

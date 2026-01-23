@@ -1,0 +1,8 @@
+
+ Distributed data management systems employ data sharding techniques to achieve scalability. Traditional sharding approaches typically operate under the assumption of a trusted environment, where nodes may crash,but do not act adversarially. In untrustworthy environments, however, this assumption is no longer valid. This paper presents M
+ arlin,
+ an adaptive scalable data management system specifically designed for untrustworthy environments. M
+ arlin
+ leverages data sharding to enhance scalability while dynamically redistributing data across clusters to adapt to dynamic workloads. We propose two architectures: a centralized architecture serving as a baseline, which employs hypergraph partitioning within a trusted administrative domain, and a decentralized architecture that eliminates the need for such a trusted domain by managing shards across nodes in a decentralized manner. Both architectures utilize real-time monitoring and adaptive algorithms to dynamically adjust sharding in response to workload characteristics and adversarial conditions. Experimental results show that M
+ arlin
+ maintain consistent performance under diverse dynamic scenarios in untrustworthy environments by continuously optimizing shard distributions.

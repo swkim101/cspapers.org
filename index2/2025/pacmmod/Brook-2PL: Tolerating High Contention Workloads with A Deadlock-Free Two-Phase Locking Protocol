@@ -1,0 +1,16 @@
+
+ The problem of hotspots remains a critical challenge in high-contention workloads for concurrency control (CC) protocols. Traditional concurrency control approaches encounter significant difficulties under high contention, resulting in excessive transaction aborts and deadlocks. In this paper, we propose
+ Brook-2PL
+ , a novel two-phase locking (2PL) protocol that (1) introduces
+ SLW-Graph
+ for deadlock-free transaction execution, and (2) proposes
+ partial transaction chopping
+ for early lock release. Previous methods suffer from transaction aborts that lead to wasted work and can further burden the system due to their cascading effects. Brook-2PL addresses this limitation by statically analyzing a new graph-based dependency structure called
+ SLW-Graph
+ , enabling deadlock-free two-phase locking through predetermined lock acquisition.
+ Brook-2PL
+ also reduces contention by enabling early lock release using partial transaction chopping and static transaction analysis. We overcome the inherent limitations of traditional transaction chopping by providing a more flexible chopping method. Evaluation using both our synthetic online game store workload and the TPC-C benchmark shows that
+ Brook-2PL
+ significantly outperforms state-of-the-art CC protocols.
+ Brook-2PL
+ achieves an average speed-up of (2.86x) while reducing tail latency (p95) by (48%) in the TPC-C benchmark.

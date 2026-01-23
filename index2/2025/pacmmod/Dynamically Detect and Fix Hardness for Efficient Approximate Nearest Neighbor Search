@@ -1,0 +1,17 @@
+Approximate Nearest Neighbor Search (ANNS) has become a fundamental component in many real-world applications. Among various ANNS algorithms, graph-based methods are state-of-the-art. However, ANNS often suffers from a significant drop in accuracy for certain queries, especially in Out-of-Distribution (OOD) scenarios. To address this issue, a recent approach named RoarGraph constructs a bipartite graph between the base data and historical queries to bridge the gap between two different distributions. However, it suffers from some limitations: (1) Building a bipartite graph between two distributions lacks theoretical support, resulting in the query distribution not being effectively utilized by the graph index. (2) Requires a sufficient number of historical queries before graph construction and suffers from high construction times. (3) When the query workload changes, it requires reconstruction to maintain high search accuracy.
+ 
+ In this paper, we first propose Escape Hardness, a metric to evaluate the quality of the graph structure around the query. Then we divide the graph search into two stages and dynamically identify and fix defective graph regions in each stage based on Escape Hardness. (1)
+ From the entry point to the vicinity of the query.
+ We propose
+ R
+ eachability
+ Fix
+ ing (RFix), which enhances the navigability of some key nodes. (2)
+ Searching within the vicinity of the query.
+ We propose
+ N
+ eighboring
+ G
+ raph Defects
+ Fix
+ ing (NGFix) to improve graph connectivity in regions where queries are densely distributed. The results of extensive experiments show that our method outperforms other state-of-the-art methods on real-world datasets, achieving up to 2.25× faster search speed for OOD queries at 99% recall compared with RoarGraph and 6.88× faster speed compared with HNSW. It also accelerates index construction by 2.35-9.02× compared to RoarGraph.

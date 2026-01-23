@@ -1,0 +1,12 @@
+
+ Prescriptive analytics seeks to identify optimal interventions for achieving desired outcomes, with causal inference playing a pivotal role in assessing intervention impacts on complex systems. However, existing approaches frequently neglect critical data privacy considerations and provide no means to verify the integrity of their recommendations. These limitations hinder its adoption in high-stakes domains such as healthcare and finance. In this paper, we introduce,
+ zkCLEAR,
+ a zero-knowledge proof (ZKP)-based
+ C
+ ausal Inference (
+ LEA
+ rning and
+ R
+ easoning) framework for privacy-preserving and verifiable prescriptive analytics. Our solution allows data owners or service providers to cryptographically prove the validity of prescriptive conclusions derived from causal analysis without disclosing sensitive source data or proprietary causal models. We develop a suite of ZKP-friendly causal operators to build efficient causal modules, including structure learning, parameter learning, probabilistic inference, and counterfactual reasoning. To optimize performance, we also introduce a workflow decomposition strategy to facilitate efficient proof generation for complex workloads. We demonstrate the utility of
+ zkCLEAR
+ through three real-world applications. The framework faithfully follows the behavior of non-ZKP counterparts, with moderate overheads for privacy and verifiability. Additionally, we evaluate its efficiency and scalability using real-world datasets. It shows up to a 35.1× speedup in proof generation time and a 214.5× reduction in proof size compared to current general-purpose ZKP systems.

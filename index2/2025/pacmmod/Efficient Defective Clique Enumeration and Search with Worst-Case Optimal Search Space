@@ -1,0 +1,40 @@
+
+ A
+ k
+ -defective clique is a relaxation of the traditional clique definition, allowing up to
+ k
+ missing edges. This relaxation is crucial in various real-world applications such as link prediction, community detection, and social network analysis. Although the problems of enumerating maximal
+ k
+ -defective cliques and searching a maximum
+ k
+ -defective clique have been extensively studied, existing algorithms suffer from limitations such as the combinatorial explosion of small partial solutions and sub-optimal search spaces. To address these limitations, we propose a novel clique-first branch-and-bound framework that first generates cliques and then adds missing edges. Furthermore, we introduce a new pivoting technique that achieves a search space size of
+ O
+ (3
+ n/3
+ • n
+ k
+ ), where
+ n
+ is the number of vertices in the input graph. We prove that the worst-case number of maximal
+ k
+ -defective cliques is Ω(3
+ n/3
+ • n
+ k
+ ) when
+ k
+ is a constant, establishing that our algorithm's search space is
+ worst-case optimal.
+ Leveraging the diameter-two property of defective cliques, we further reduce the search space size to
+ O
+ (n • 3
+ δ/3
+ • (δ Δ)
+ k
+ ), where δ is the degeneracy and Δ is the maximum degree of the input graph. We also propose an efficient framework for maximum
+ k
+ -defective clique search based on our branch-and-bound, together with practical techniques to reduce the search space. Experiments on real-world benchmark datasets with more than 1 million edges demonstrate that each of our proposed algorithms for maximal
+ k
+ -defective clique enumeration and maximum
+ k
+ -defective clique search outperforms the respective state-of-the-art algorithms by up to four orders of magnitude in terms of processing time.

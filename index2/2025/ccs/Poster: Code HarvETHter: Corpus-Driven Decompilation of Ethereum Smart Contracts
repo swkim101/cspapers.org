@@ -1,0 +1,1 @@
+This poster introduces HarvETHter, a smart contract decompiler for EVM-based platforms such as Ethereum, Binance, and Polygon. We present the corpus completeness hypothesis, which we investigate through HarvETHter. Relying on our hypothesis, HarvETHter sources knowledge of the Ethereum blockchain and leverages it to decompile smart contracts to Solidity source code.

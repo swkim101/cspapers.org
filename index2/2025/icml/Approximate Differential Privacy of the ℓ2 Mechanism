@@ -1,0 +1,1 @@
+We study the $\ell_2$ mechanism for computing a $d$-dimensional statistic with bounded $\ell_2$ sensitivity under approximate differential privacy. Across a range of privacy parameters, we find that the $\ell_2$ mechanism obtains lower error than the Laplace and Gaussian mechanisms, matching the former at $d=1$ and approaching the latter as $d \to \infty$.

@@ -1,0 +1,18 @@
+
+ In many real-world applications such as social network analysis, knowledge graph discovery, biological network analytics, and so on, graph data management has become increasingly important and has drawn much attention from the database community. While many graphs (e.g., Twitter, Wikipedia, etc.) are usually evolving over time, it is of great importance to study the
+ continuous subgraph matching
+ (CSM) problem, a fundamental, yet challenging, graph operator, which continuously monitors subgraph matching results over dynamic graphs with a stream of edge updates. To efficiently tackle the CSM problem, we carefully design a general CSM processing framework, based on novel
+ DynamIc Vertex DomINance Embedding
+ (DIVINE), which maps vertex neighborhoods into an embedding space to enable efficient subgraph matching and incremental maintenance under dynamic updates. Inspired by low pruning power for high-degree vertices, we propose a new
+ degree grouping
+ technique to decompose high-degree star patterns into groups of lower-degree star substructures, and devise
+ degree-aware star substructure synopses
+ (DAS
+ 3
+ ) over embeddings of star substructure groups. We develop efficient algorithms to incrementally maintain dynamic graphs and answer CSM queries by traversing DAS
+ 3
+ synopses and applying our designed
+ vertex dominance
+ and
+ range pruning strategies.
+ Through extensive experiments, we confirm the efficiency of our proposed DIVINE approach over both real and synthetic graphs.

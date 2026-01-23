@@ -1,0 +1,10 @@
+
+ Given a directed graph
+ G
+ , the directed densest subgraph (DDS) problem refers to finding a subgraph from
+ G
+ , whose density is the highest among all subgraphs of
+ G
+ . The DDS problem is fundamental to a wide range of applications, such as fake follower detection and community mining. However, existing DDS solutions often incur significant redundant computations and have weaker theoretical guarantees. To tackle these issues, we present both practically and theoretically efficient DDS discovery algorithms (including both approximation and exact methods) in this paper. Specifically, we first introduce a novel graph reduction technique that locates the DDS into a highly smaller subgraph, with non-trivial theoretical guarantees. We further develop an efficient approximation algorithm by employing
+ gradient projection
+ and theoretically prove that it requires fewer iterations to achieve the same solution accuracy compared to state-of-the-art approximation DDS algorithms. Finally, we propose an efficient exact algorithm based on this novel approximation algorithm. We have performed an extensive empirical evaluation of our approaches on 15 real and 8 synthetic large datasets. The results show that our proposed algorithms are up to two orders of magnitude faster than the state-of-the-art.

@@ -1,0 +1,13 @@
+Previous learning-based parameter query optimization (PQO) methods excel in static workloads by precisely selecting optimal plans in a cache with a fixed set of representative plans. However, these methods struggle in dynamic workloads because they cannot predict over dynamically changed plan caches. These queries that fall outside the previously observed query parameter distribution have the risk of reusing suboptimal plans.
+ 
+ Unlike traditional PQO methods that learn mappings from parametric query parameters to a fixed set of execution plans, our adaptive PQO framework (
+ APQO
+ ) takes both query parameters and the plans themselves as model inputs, thereby handling variable numbers of plans in dynamic workloads. By embedding plan representations through representation learning, we pre-train a foundation model offline, enabling
+ APQO
+ to acquire a generalizable plan performance prediction model. Leveraging the foundation model's predictive capability along with a hybrid data augmentation strategy, we train an online calibration model with minimal training data for distribution-shifted new queries, rapidly adapting knowledge for reusing new plans.
+ 
+ 
+ APQO
+ is natively designed to handle the characteristics of dynamic workloads. Experimental results show that
+ APQO
+ outperforms existing PQO methods in dynamic workloads, achieving a higher cache hit ratio and significantly reducing query latency.

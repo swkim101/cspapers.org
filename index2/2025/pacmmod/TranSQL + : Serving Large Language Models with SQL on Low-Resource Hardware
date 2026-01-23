@@ -1,0 +1,13 @@
+
+ Deploying Large Language Models (LLMs) on resource-constrained devices remains challenging due to limited memory, lack of GPUs, and the complexity of existing runtimes. In this paper, we introduce
+ 
+ TranSQL
+ +
+ 
+ , a template-based code generator that translates LLM computation graphs into pure SQL queries for execution in relational databases. Without relying on external libraries, TranSQL
+ +
+ , leverages mature database features-such as vectorized execution and out-of-core processing-for efficient inference. We further propose a row-to-column (ROW2COL) optimization that improves join efficiency in matrix operations. Evaluated on Llama3-8B and DeepSeekMoE models, TranSQL
+ +
+ achieves up to 20× lower prefill latency and 4× higher decoding speed compared to DeepSpeed Inference and
+ Llama.cpp
+ in low-memory and CPU-only configurations. Our results highlight relational databases as a practical environment for LLMs on low-resource hardware.

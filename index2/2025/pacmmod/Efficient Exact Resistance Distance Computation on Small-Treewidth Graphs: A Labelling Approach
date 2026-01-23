@@ -1,0 +1,23 @@
+
+ Resistance distance computation is a fundamental problem in graph analysis, yet existing random walk-based methods are limited to approximate solutions and suffer from poor efficiency on small-treewidth graphs (e.g., road networks). In contrast, shortest-path distance computation achieves remarkable efficiency on such graphs by leveraging cut properties and tree decompositions. Motivated by this disparity, we first analyze the cut property of resistance distance. While a direct generalization proves impractical due to costly matrix operations, we overcome this limitation by integrating tree decompositions, revealing that the resistance distance r(s,t) depends only on labels along the paths from
+ s
+ and
+ t
+ to the root of the decomposition. This insight enables compact labelling structures. Based on this, we propose TreeIndex, a novel index method that constructs a resistance distance labelling of size O(n • h
+ G
+ ) in O(n • h
+ G
+ 2
+ • d
+ max
+ ) time, where h
+ G
+ (tree height) and d
+ max
+ (maximum degree) behave as small constants in many real-world small-treewidth graphs (e.g., road networks). Our labelling supports exact single-pair queries in O(h
+ G
+ ) time and single-source queries in O(n • h
+ G
+ ) time. Extensive experiments show that TreeIndex substantially outperforms state-of-the-art approaches. For instance, on the full USA road network, it constructs a 405 GB labelling in 7 hours (single-threaded) and answers exact single-pair queries in 10
+ -3
+ seconds and single-source queries in 190 seconds-the first exact method scalable to such large graphs.

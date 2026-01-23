@@ -1,0 +1,8 @@
+
+ Modern large-scale graph processing faces a critical challenge: conventional adjacency lists incur excessive L3 cache misses due to irregular memory access. We introduce GraphTwin, a hybrid graph representation system combining: (1) Cache-optimized
+ k
+ -bit vectors (termed GT-vectors, 64 bits per vertex), where each bit indicates vertex membership in a precomputed independent set; and (2) Memory-resident adjacency lists for exact verification of queries unresolved by GT-vectors. This dual-component design enables 95% of negative edge queries, which are dominant in sparse graphs, to be resolved in 1 CPU cycle via in-cache bitwise-AND operations, reducing latency from 54ns (adjacency list) to 18ns per query. Unresolved queries delegate to adjacency lists, guaranteeing zero false positives/negatives. Crucially, GT-vectors scales linearly with vertex count ( k|V| bits ), decoupling the space overhead from edge density and minimizing cache dependency. For example, GT-vectors for a graph with |V|=10
+ 7
+ vertices occupy 80MB, fitting entirely within modern CPU caches (e.g., AMD Ryzen 7 9800X3D's 96MB L3).
+ 
+ We formalize the GT-vectors construction as an NP-hard and submodular optimization problem and introduce GTWICE, a linear-time heuristic algorithm that iteratively extracts diversified maximal independent sets to maximize non-edge coverage. Experiments on 15 graphs show that GraphTwin reduces L3 cache misses by 63% on average, achieves 6.2× speedup for edge queries and accelerates triangle counting and set inclusion by 1.7× and 5.4×, respectively. By optimizing cache residency and accelerating foundational primitives, GraphTwin addresses cache inefficiencies in graph processing, enabling fast graph queries without sacrificing exactness.

@@ -1,0 +1,15 @@
+
+ Multi-relational graphs (MRGs) are an expressive data structure for modeling diverse interactions/relations among real objects (i.e., nodes), which pervade extensive applications and scenarios. Given an MRG
+ G
+ with
+ N
+ nodes, partitioning the node set therein into
+ K
+ disjoint clusters (referred to as MRGC) is a fundamental task in analyzing MRGs, which has garnered considerable attention. However, the majority of existing solutions towards MRGC either yield severely compromised result quality by ineffective fusion of heterogeneous graph structures and attributes, or struggle to cope with sizable MRGs with millions of nodes and billions of edges due to the adoption of sophisticated and costly deep learning models.
+ 
+ 
+ In this paper, we present DEMM and DEMM+, two effective MRGC approaches to address the aforementioned limitations. Specifically, our algorithms are built on novel two-stage optimization objectives, where the former seeks to derive high-caliber node feature vectors by optimizing the
+ multi-relational Dirichlet energy
+ specialized for MRGs, while the latter minimizes the
+ Dirichlet energy
+ of clustering results over the node affinity graph. In particular, DEMM+ achieves significantly higher scalability and efficiency over our based method DEMM through a suite of well-thought-out optimizations. Key technical contributions include (i) a highly efficient approximation solver for constructing node feature vectors, and (ii) a judicious and theoretically-grounded problem transformation together with carefully-crafted techniques that enable the linear-time clustering without explicitly materializing the N x N dense affinity matrix. Further, we extend DEMM to handle attribute-less MRGs through non-trivial adaptations. Extensive experiments, comparing DEMM+ against 20 baselines over 11 real MRGs, exhibit that DEMM+ is consistently superior in terms of clustering quality measured against ground-truth labels, while often being remarkably faster.

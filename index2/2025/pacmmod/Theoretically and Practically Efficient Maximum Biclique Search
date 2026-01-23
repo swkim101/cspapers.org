@@ -1,0 +1,18 @@
+
+ Identifying the maximum edge biclique in bipartite graphs, a complete bipartite subgraph with the largest number of edges, plays a crucial role in uncovering densely-connected communities and has significant applications in domains such as recommendation systems and biological network analysis. However, this problem is NP-hard, and existing methods face inefficiencies both in practice and theory. In this paper, we propose two novel algorithms with distinct branching strategies and provable time guarantees for solving the maximum edge biclique search problem. The first is a refined pivot-based branching algorithm that systematically exploits vertex adjacency relationships to bound the search for the maximum edge biclique, achieving a time complexity of
+ O
+ (
+ m
+ 1.348
+ 
+ n
+ 
+ ). The second is a cover-based algorithm that uncovers a novel duality between maximal bicliques and minimal vertex covers in bipartite graphs, attaining a complexity of
+ O
+ (
+ m
+ 1.381
+ 
+ n
+ 
+ ). To the best of our knowledge, these two algorithms achieve the best-known worst-case time complexities for this problem. Notably, while the cover-based algorithm has a marginally higher theoretical complexity, it typically provides superior practical performance on dense graphs due to its inherent pruning efficiency. To further enhance performance, we introduce advanced pruning techniques, including polynomial-time solvable graph cases, neighbor and non-neighbor constraint-based upper bounds, vertex cover constraint-driven upper bounds, heuristic prioritization, and an improved progressive bounding approach. Additionally, we propose a hybrid framework that deploys the pivot-based approach for sparse graph regions and the cover-based approach for dense regions, balancing efficiency across varying graph structures. Extensive experiments on 12 real-world bipartite graphs demonstrate that our hybrid framework outperforms the state-of-the-art baseline by up to four orders of magnitude and achieves speedups of several times to orders of magnitude over the pivot-based approach on dense graphs.

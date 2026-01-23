@@ -1,0 +1,23 @@
+Manually conducting real-world data analyses is labor-intensive and inefficient. Despite numerous attempts to automate data science workflows, none of the existing paradigms or systems fully demonstrate all three key capabilities required to support them effectively: (1) open-domain data collection, (2) structured data transformation, and (3) analytic reasoning.
+ 
+ To overcome these limitations, we propose
+ Drama
+ , an end-to-end paradigm that answers users' analytic queries in natural language on large-scale open-domain data.
+ Drama
+ unifies data collection, transformation, and analysis as a single pipeline. To quantitatively evaluate system performance on tasks representative of
+ Drama
+ , we construct a benchmark,
+ DramaBench
+ , consisting of two categories of tasks: claim verification and question answering, each comprising 100 instances. These tasks are derived from real-world applications that have gained significant public attention and require the retrieval and analysis of open-domain data. We develop
+ DramaBot
+ , a multi-agent system designed following
+ Drama
+ . It comprises a data retriever that collects and transforms data by coordinating the execution of sub-agents, and a data analyzer that performs structured reasoning over the retrieved data. We evaluate
+ DramaBot
+ on
+ DramaBench
+ together with five state-of-the-art baseline agents.
+ DramaBot
+ achieves 86.5% task accuracy at a cost of $0.05, outperforming all baselines with up to 6.9 times the accuracy and less than 1/6 of the cost.
+ Drama
+ is publicly available at https://github.com/uiuc-kang-lab/drama.

@@ -1,0 +1,14 @@
+
+ Our ability to collect data is rapidly surpassing our ability to store it. As a result, organizations are faced with difficult decisions about which data to retain and which to dispose of. Data forgetting, frames this reduction task as a subset selection exercise. Given a relational dataset
+ D
+ , a query log
+ Q
+ , and a budget
+ B
+ , the goal is to find a subset D^* ⊆ D with at most
+ B
+ tuples such that it is still possible to compute, based solely on D^*, approximate answers to the expected query workload. Existing data forgetting routines have substantial limitations. They either offer strong theoretical guarantees but lack scalability due to function evaluation (submodular-based), or achieve scalability by avoiding function evaluation but lack theoretical guarantees (amnesia-based). To bridge the gap between the limitations of submodular and amnesia based methods, we propose
+ IndepDF
+ and
+ DepDF
+ : two data forgetting routines that offer scalability by avoiding function evaluation while maintaining strong theoretical guarantees. Our extensive experimental evaluation on real and synthetic datasets demonstrates that our algorithms are capable of matching the performance of the state-of-the-art submodular-based routines while exhibiting a runtime comparable to that of amnesia-based algorithms. In essence, combining the best traits of both.

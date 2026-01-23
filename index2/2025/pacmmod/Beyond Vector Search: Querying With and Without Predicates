@@ -1,0 +1,31 @@
+
+ k
+ -ANN search has been extensively studied to find
+ k
+ approximate nearest neighbors for a given query vector in a high-dimensional dataset, where a data item is represented as a vector. As there are many new emerging real-world applications that have categorical/numerical attributes associated with vectors, it is highly needed to support
+ k
+ -ANN search with additional predicates on such attributes. In this paper, we study
+ k
+ -ANN queries, q = (v
+ q
+ , c
+ q
+ ), where v
+ q
+ is a query vector and c
+ q
+ is a predicate on categorical/numerical attributes. Note that the conventional
+ k
+ -ANN search is a
+ k
+ -ANN query when c
+ q
+ = ∅. In the literature, some can support the cases when c
+ q
+ = ∅, some can support the cases when c
+ q
+ is on categorical attributes, and some can support the cases when c
+ q
+ is on numerical attributes. But none of them can support all cases efficiently. In this paper, we propose an all-in-one approach. Our approach supports conventional
+ k
+ -ANN search in the same way as the state-of-the-art approaches, and supports the predicates in a similar or even better way compared to the approaches that are tailored to support either categorical attributes or numerical attributes. We conduct extensive performance studies and confirm the accuracy and the efficiency of our approach in comparison with the state-of-the-art approaches.

@@ -1,0 +1,12 @@
+
+ HTAP systems aim to unify operational and analytical workloads, yet real-time analytics remains constrained by the overhead of extract-transform-load (ETL) operations. Existing solutions often rely on dual-system architectures, incurring substantial resource costs and delays from data reformatting and relocation. We present
+ TracerETL
+ , a progressive ETL framework that enables real-time analytics in standalone DBMSs through instant tuple location discovery during transformation. At its core is
+ Tracer
+ , a counting-based tuple tracking mechanism that constructs a
+ tuple trace vector
+ using per-partition counters. This trace vector deterministically encodes each tuple's future relocation path with arrival order across transformation levels, enabling precise data access at any stage-without auxiliary indexes. We implement
+ TracerETL
+ in PostgreSQL and evaluate it against OLAP- and OLTP-optimized DBMSs. Experimental results show that PostgreSQL with
+ TracerETL
+ accelerates real-time HTAP queries by up to 127×, while efficiently handling progressive data conversion in a standalone DBMS.

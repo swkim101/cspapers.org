@@ -1,0 +1,10 @@
+
+ Database knob tuning is essential for optimizing the performance of modern database management systems, which often expose hundreds of knobs with continuous or categorical values. However, the large number of knobs and the vast configuration space make it difficult to identify optimal settings efficiently. Although learning-based tuning has shown promise, existing approaches either ignore domain knowledge by relying solely on benchmark feedback or struggle to explore the high-dimensional knob space, resulting in high tuning costs and suboptimal performance. To address these challenges, we propose
+ MCTuner
+ , an adaptive knob tuning framework that minimizes exploration in ineffective regions of the configuration space.
+ MCTuner
+ employs a Mixture-of-Experts mechanism with specialized LLMs to identify performance-critical knobs. In further,
+ MCTuner
+ introduces the first spatial decomposition algorithm that recursively partitions the space into hierarchical subspaces, on which Bayesian Optimization is performed to efficiently search for near-optimal configurations. Evaluated on different benchmarks (OLAP, OLTP, and HTAP),
+ MCTuner
+ achieves up to 19.2% performance gains and 1.4x faster configuration discovery per iteration compared to state-of-the-art methods.

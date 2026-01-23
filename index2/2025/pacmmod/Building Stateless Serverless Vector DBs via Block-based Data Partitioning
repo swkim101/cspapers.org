@@ -1,0 +1,15 @@
+
+ Retrieval-Augmented Generation (RAG) and other AI/ML workloads rely on vector databases (DBs) for efficient analysis of unstructured data. However, cluster (or
+ serverful
+ ) vector DB architectures, such as Milvus, lack the elasticity to handle high workload fluctuations, sparsity, and burstiness. Serverless vector DBs--
+ i.e.,
+ vector DBs built on top of cloud functions--have emerged as a promising alternative architecture, but they are still in their infancy.
+ 
+ 
+ This paper presents the first experimental study comparing data partitioning strategies in vector DBs built atop stateless Function-as-a-Service (FaaS). Through extensive benchmarks, we reveal key limitations of clustering-based data partitioning when applied to dynamic datasets (
+ e.g.
+ , complexity, load balancing). We then evaluate a block-based alternative that addresses such limitations (
+ e.g.
+ , up to 5.8× faster data partitioning, up to 63% lower costs, similar querying times). Moreover, our results show that a stateless serverless vector DB using block-based data partitioning achieves competitive performance with Milvus in several aspects (
+ e.g.
+ , up to 65.6× faster data partitioning, similar recall), while reducing costs for sparse workloads (up to 99%). Our empirical insights aim to guide the design of next-generation serverless vector DBs.

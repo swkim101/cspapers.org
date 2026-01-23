@@ -1,0 +1,10 @@
+
+ Community search in heterogeneous graphs is fundamental to applications such as expert team formation and scholarly collaboration. Many existing studies leverage meta-paths, which are sequences of node and edge types, to capture semantic relationships in heterogeneous graphs. However, most of them only consider the existence of meta-path instances, overlooking their frequency and thus failing to capture relationship strength. This limitation can result in communities that include nodes with numerous but weak relations. To capture the strength of relationships in heterogeneous graphs, we define the
+ Strong Community
+ (StrCom) model, which evaluates the strength between users based on the number of connecting meta-path instances. Building upon this model, we further propose the
+ Budgeted Strong Community
+ (BSC) problem by incorporating a size constraint. We provide theoretical analyses showing that the BSC problem is
+ NP-hard
+ and
+ not in APX.
+ To address this problem, we design three strategies-Shrink, Expand, and Hybrid-along with several optimization techniques to improve efficiency. Extensive experiments on large real-world datasets (e.g., DBLP, YAGO, DBpedia) demonstrate the effectiveness and efficiency of our approach. Specifically, our method achieves 3.49-107.09× higher PathSim scores for StrCom and two to five orders of magnitude higher scores for BSC compared to state-of-the-art baselines, demonstrating that the identified communities are both semantically coherent and structurally compact.

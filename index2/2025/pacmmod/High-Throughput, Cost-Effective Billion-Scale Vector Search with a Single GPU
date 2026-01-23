@@ -1,0 +1,6 @@
+
+ Approximate nearest neighbor search (ANNS) is broadly adopted in numerous scenarios. Real-world applications seek efficient ways to search billion-scale vectors in high throughput. On-SSD graph-based ANNS systems have the opportunity to achieve this goal, but the limited CPU computing power becomes a bottleneck. In this paper, we propose a GPU-centric, CPU-assisted ANNS architecture and design
+ GustANN,
+ a billion-scale graph-based vector search system for high throughput and cost-effectiveness. We achieve these goals with three techniques: (1) memory-efficient GPU kernels optimized to minimize the GPU memory usage in the graph search, which allows higher concurrency for GPU and SSD; (2) CPU-assisted transfer to address the PCIe bandwidth bottleneck on the GPU-side; (3) pivot search for inter-SSD load balancing. Compared to existing ANNS systems,
+ GustANN
+ achieves at least 2.50× higher throughput, and is 2.62× more cost-effective (measured in /QPS).

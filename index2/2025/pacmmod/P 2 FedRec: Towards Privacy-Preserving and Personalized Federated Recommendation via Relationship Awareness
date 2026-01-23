@@ -1,0 +1,20 @@
+
+ Personalized federated recommendation systems can not only extract common prior knowledge from extensive decentralized data but also provide personalized models for different users to achieve independent and customized services. Incorporating user relationship graphs to enhance personalized modeling is highly promising in federated recommendation. However, it is challenging to construct such graphs and further capture personalized user information while guaranteeing multi-level (i.e., data-level and edge-level) privacy in reality. To this end, in this paper, we propose
+ 
+ P
+ 2
+ FedRec,
+ 
+ a relationship-aware
+ P
+ rivacy-preserving and
+ P
+ ersonalized
+ Fed
+ erated
+ Rec
+ ommendation scheme, which can achieve multi-level privacy protection with personalized modeling guarantees. Specifically, we first develop a user-server collaborative mechanism for relationship graph generation and user-specific preferences capture in a privacy-preserving manner. Then, we design an embedding-shared local graph construction module and a noisy global graph-guided aggregation module to safeguard the data-level and edge-level privacy, respectively. Moreover, we introduce a personalized model training module that enables users to learn tailored local models. Theoretical analysis demonstrates that P
+ 2
+ FedRec achieves both data-level and edge-level privacy preservation on the user and server sides. Extensive experiments conducted on five real-world datasets highlight the outstanding performance of P
+ 2
+ FedRec.

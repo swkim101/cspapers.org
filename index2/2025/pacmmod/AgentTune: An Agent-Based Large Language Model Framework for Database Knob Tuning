@@ -1,0 +1,12 @@
+
+ Database knob tuning is a long-standing challenge in the database community, aimed at enhancing the performance of database management systems (DBMSs) by minimizing latency and maximizing throughput. Manual tuning, which relies heavily on human expertise, is often inefficient and impractical for large-scale or dynamic deployments. Recent work has explored automating this process using machine learning (ML) and large language models (LLMs). However, existing methods typically require hundreds of workload replays or rely on extensive training data, leading to low tuning efficiency or high preparation costs. Moreover, they also risk generating invalid configurations that can degrade performance or even crash the database. To address these limitations, we introduce
+ AgentTune,
+ the first agent-based knob tuning framework powered by LLMs, designed for efficiency, adaptability, and reliability. AgentTune decomposes the tuning process into four specialized agents:
+ Workload Analyzer,
+ Knob Selector,
+ Range Pruner,
+ and
+ Configuration Recommender,
+ each responsible for a distinct subtask. These agents collaborate through structured prompt chaining. AgentTune first analyzes the input workload to identify impactful knobs and reconstructs their valid ranges to reduce the search space. It then employs a tree-based search strategy to efficiently explore the configuration space and identify suitable knob values.
+ 
+ We conduct extensive evaluations across diverse workloads (public benchmarks and real-world workloads), metrics (latency and throughput), DBMSs (PostgreSQL, MySQL, and TiDB), hardware environments, and database scales. Experimental results demonstrate that, compared to existing baselines, AgentTune is able to identify superior configurations using significantly fewer workload replays. Furthermore, AgentTune rarely generates invalid configurations during the tuning process, ensuring reliability and suitability for real-world deployments.

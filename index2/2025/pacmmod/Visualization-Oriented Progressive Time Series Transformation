@@ -1,0 +1,6 @@
+
+ Visual analysis of large time-series data often requires transformations over multivariate time series. Existing methods struggle to meet interactive response time requirements, relying on full transformations that incur high computation costs. We propose a visualization-oriented transformation system PIVOT that incrementally generates accurate visualizations by selectively transforming only essential data samples. At its core is a
+ transformation-aware query mechanism
+ that efficiently computes point-wise transformations by leveraging cached hierarchical data on the server. To support responsive interaction, we introduce a
+ pixel-based error-bound guarantee
+ that estimates the accuracy of intermediate visualizations without requiring a reference, enabling a balance between latency and visual fidelity. Experiments show that PIVOT achieves highly accurate visualizations with interactive response times, outperforming existing error-free methods by up to an order of magnitude on billion-scale datasets.

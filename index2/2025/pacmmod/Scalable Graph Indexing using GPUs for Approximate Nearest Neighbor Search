@@ -1,0 +1,13 @@
+Approximate nearest neighbor search (ANNS) in high-dimensional vector spaces has a wide range of real-world applications. Numerous methods have been proposed to handle ANNS efficiently, while graph-based indexes have gained prominence due to their high accuracy and efficiency. However, the indexing overhead of graph-based indexes remains substantial. With exponential growth in data volume and increasing demands for dynamic index adjustments, this overhead continues to escalate, posing a critical challenge.
+ 
+ In this paper, we introduce Tagore, a fas
+ T
+ library
+ a
+ ccelerated by
+ G
+ PUs f
+ or
+ graph ind
+ e
+ xing, which has powerful capabilities of constructing refinement-based graph indexes such as NSG and Vamana. We first introduce GNN-Descent, a GPU-specific algorithm for efficient k-Nearest Neighbor (k-NN) graph initialization. GNN-Descent speeds up the similarity comparison by a two-phase descent procedure and enables highly parallelized neighbor updates. Next, aiming to support various k-NN graph pruning strategies, we formulate a universal pruning procedure termed CFS and devise two generalized GPU kernels for parallel processing complex dependencies in neighbor relationships. For large-scale datasets exceeding GPU memory capacity, we propose an asynchronous GPU-CPU-disk indexing framework with a cluster-aware caching mechanism to minimize the I/O pressure on the disk. Extensive experiments on 7 real-world datasets exhibit that Tagore achieves 1.32x to 112.79x speedup while maintaining the index quality.

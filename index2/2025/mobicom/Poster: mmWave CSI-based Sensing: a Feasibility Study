@@ -1,0 +1,1 @@
+Channel state information (CSI) is widely used for joint communication and sensing in sub-6 GHz wireless networks, but its application at mmWave frequencies remains under-explored. This work applies a quantized amplitude-based CSI similarity metric to data from a 28 GHz indoor testbed, showing the feasibility of CSI-based ambient sensing in next-generation wireless networks.

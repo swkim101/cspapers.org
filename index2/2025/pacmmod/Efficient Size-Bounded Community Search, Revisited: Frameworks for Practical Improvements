@@ -1,0 +1,8 @@
+
+ Community search has widespread applications in areas such as advertising, friend recommendation, and protein complex identification. In this paper, we revisit the Size-bounded Community Search (SCS) problem, which aims to identify a connected subgraph containing a query vertex
+ q
+ and between
+ l
+ and
+ h
+ vertices, while maximizing the minimum degree of the subgraph. Existing state-of-the-art exact solutions for SCS face challenges in practical efficiency due to ineffective strategies for searching candidate solutions and suboptimal method for finding optimal solution. To address these challenges, we propose a novel branch-and-bound algorithm that efficiently locating a subset of candidate solutions with favorable structural properties, forming the basis for three progressively refined frameworks to determine the optimal solution. Furthermore, we enhance practical performance through a new heuristic, two reduction rules, and a query decomposition technique. Extensive experiments on 12 large real-world graphs demonstrate that our most efficient framework significantly outperforms state-of-the-art methods, achieving an average speedup of two orders of magnitude while consistently identifying communities with higher cohesion.
