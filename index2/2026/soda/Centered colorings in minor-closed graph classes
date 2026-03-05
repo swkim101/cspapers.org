@@ -1,0 +1,1 @@
+A vertex coloring $\varphi$ of a graph $G$ is $p$-centered if for every connected subgraph $H$ of $G$, either $\varphi$ uses more than $p$ colors on $H$, or there is a color that appears exactly once on $H$. We prove that for every fixed positive integer $t$, every $K_t$-minor-free graph admits a $p$-centered coloring using $\mathcal{O}(p^{t-1})$ colors.

@@ -1,0 +1,1 @@
+We show that the determinization problem for min-plus (tropical) weighted automata is decidable, thus resolving this long-standing open problem. In doing so, we develop a new toolbox for analyzing and reasoning about the run-structure of nondeterministic automata.
