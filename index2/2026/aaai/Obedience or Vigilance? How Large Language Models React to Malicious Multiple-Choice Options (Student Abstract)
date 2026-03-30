@@ -1,0 +1,23 @@
+When evaluating large language models (LLMs) for question
+answering tasks, a common protocol is multiple-choice
+question-answering (MCQA), where the model selects from a
+fixed set of choices.
+In contemporary robustness testing, researchers typically
+perturb instructions or introduce confusion into factual
+statements; however, model behavior also hinges on choice
+compliance: whether models remain within the canonical set
+A-D.
+We formalize this setting by asking whether the model
+continues to respect the interface's rules when the problem
+presents a tempting alternative.
+Our approach is interface-preserving: we append a single
+selectable option E while keeping the question and A-D
+unchanged.
+Then, we introduce three types of malicious option
+injection to assess LLMs' robustness.
+Experimental results highlight the vulnerability of LLMs on
+contradict type content of the additional option E.
+Our evaluation framework can effectively serve as a
+low-cost audit of rule adherence on existing datasets and
+black-box models, surfaces off-policy items, and supports
+interpretable model comparison for deployment.

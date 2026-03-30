@@ -1,0 +1,6 @@
+Formal verification has emerged as a promising method to ensure the safety and reliability of neural networks.
+However, many relevant properties, such as fairness or global robustness, pertain to the entire input space. If one applies verification techniques naively, the neural network is checked even on inputs that do not occur in the real world and have no meaning.
+To tackle this shortcoming, we propose the VeriFlow architecture as a flow-based density model tailored to allow any verification approach to restrict its search to some data distribution of interest.
+We argue that our architecture is particularly well suited for this purpose because of two major properties. 
+First, we show that the transformation that is defined by our model is piecewise affine. Therefore, the model allows the usage of verifiers based on constraint solving with linear arithmetic.
+Second, upper density level sets (UDL) of the data distribution are definable via linear constraints in the latent space. As a consequence, representations of UDLs specified by a given probability are effectively computable in the latent space. This property allows for effective verification with a fine-grained, probabilistically interpretable control of how (a-)typical the inputs subject to verification are.

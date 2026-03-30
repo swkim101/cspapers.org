@@ -1,0 +1,5 @@
+Manic episodes in bipolar disorder are characterized by acute behavioral escalation requiring early intervention.
+This research proposes a multimodal digital phenotyping framework integrating keystroke dynamics with circadian rhythm features to forecast manic episodes 3-7 days prior to clinical onset. 
+The system leverages a hybrid architecture of temporal convolutional and recurrent neural networks with personalized adaptation.
+ It generates risk predictions and clinically actionable alerts while ensuring user privacy through strict on-device processing and data encapsulation.
+This framework addresses a critical gap in mental health-care: providing passive, unobtrusive monitoring to detect pre-onset behavioral signatures within a clinically actionable window.

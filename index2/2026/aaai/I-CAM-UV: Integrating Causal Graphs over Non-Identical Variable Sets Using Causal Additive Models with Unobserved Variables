@@ -1,0 +1,8 @@
+Causal discovery from observational data is a fundamental tool in various fields of science.
+While existing approaches are typically designed for a single dataset, we often need to handle multiple datasets with non-identical variable sets in practice.
+One straightforward approach is to estimate a causal graph from each dataset and construct a single causal graph by overlapping.
+However, this approach identifies limited causal relationships because unobserved variables in each dataset can be confounders, and some variable pairs may be unobserved in any dataset.
+To address this issue, we leverage Causal Additive Models with Unobserved Variables (CAM-UV) that provide causal graphs having information related to unobserved variables.
+We show that the ground truth causal graph has structural consistency with the information of CAM-UV on each dataset.
+As a result, we propose an approach named I-CAM-UV to integrate CAM-UV results by enumerating all consistent causal graphs.
+We also provide an efficient combinatorial search algorithm and demonstrate the usefulness of I-CAM-UV against existing methods.

@@ -1,0 +1,8 @@
+Embedding-as-a-Service (EaaS) is an effective and convenient deployment solution for addressing various NLP tasks.
+Nevertheless, recent research has shown that EaaS is vulnerable to model extraction attacks, which could lead to significant economic losses for model providers.
+For copyright protection, existing methods inject watermark embeddings into text embeddings and use them to detect copyright infringement.
+However, current watermarking methods often resist only a subset of attacks and fail to provide comprehensive protection.
+To this end, we present the region-triggered semantic watermarking framework called RegionMarker, which defines trigger regions within a low-dimensional space and injects watermarks into text embeddings associated with these regions.
+By utilizing a secret dimensionality reduction matrix to project onto this subspace and randomly selecting trigger regions, RegionMarker makes it difficult for watermark removal attacks to evade detection.
+Furthermore, by embedding watermarks across the entire trigger region and using the text embedding as the watermark, RegionMarker is resilient to both paraphrasing and dimension-perturbation attacks.
+Extensive experiments on various datasets show that RegionMarker is effective in resisting different attack methods, thereby protecting the copyright of EaaS.

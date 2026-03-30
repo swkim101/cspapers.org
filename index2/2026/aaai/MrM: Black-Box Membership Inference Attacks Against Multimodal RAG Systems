@@ -1,0 +1,10 @@
+Multimodal retrieval-augmented generation (RAG) systems enhance large vision-language models by integrating cross-modal knowledge, enabling their increasing adoption across real-world multimodal tasks.
+These knowledge databases may contain sensitive information that requires privacy protection.
+However, multimodal RAG systems inherently grant external users indirect access to such data, making them potentially vulnerable to privacy attacks, particularly membership inference attacks (MIAs).
+Existing MIA methods targeting RAG systems predominantly focus on the textual modality, while the visual modality remains relatively underexplored.
+To bridge this gap, we propose MrM, the first black-box MIA framework targeted at multimodal RAG systems.
+It utilizes a multi-object data perturbation framework constrained by counterfactual attacks, which can concurrently induce the RAG systems to retrieve the target data and generate information that leaks the membership information.
+Our method first employs an object-aware data perturbation method to constrain the perturbation to key semantics and ensure successful retrieval.
+Building on this, we design a counterfact-informed mask selection strategy to prioritize the most informative masked regions, aiming to eliminate the interference of model self-knowledge and amplify attack efficacy.
+Finally, we perform statistical membership inference by modeling query trials to extract features that reflect the reconstruction of masked semantics from response patterns.
+Experiments on two visual datasets and eight mainstream commercial visual-language models (e.g., GPT-4o, Gemini-2) demonstrate that MrM achieves consistently strong performance across both sample-level and set-level evaluations, and remains robust under adaptive defenses.

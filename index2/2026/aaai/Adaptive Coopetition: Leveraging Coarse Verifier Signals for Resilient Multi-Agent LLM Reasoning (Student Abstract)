@@ -1,0 +1,17 @@
+Large language models (LLMs) demonstrate strong reasoning
+capabilities, yet the inference-time performance of
+existing solutions remains limited by self-biases,
+coordination inefficiencies, lack of robust error
+detection, and dependency on high-quality verifiers. To
+address these challenges, we propose Adaptive Coopetition
+(AdCo), a lightweight, multi-agent multi-round
+inference-time framework that enhances collective reasoning
+through adaptive decision-making guided by coarse verifier
+signals. Without relying on high-performance verifiers,
+AdCo achieves a 20% relative accuracy improvement on math
+reasoning benchmarks, with consistent performance on
+different sample sizes and agent configurations. This
+adaptive, signal-guided ‘coopetition’ framework enhances reasoning robustness by leveraging
+diverse model knowledge and reasoning traces, while also
+promoting uncertainty-driven exploration, especially when
+participants have comparable capabilities.

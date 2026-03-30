@@ -1,0 +1,12 @@
+Pre-trained Vision-Language Models (VLMs), e.g. CLIP, have become essential tools in multimodal transfer learning. 
+However, fine-tuning VLMs in few-shot scenarios poses significant challenges in balancing task-specific adaptation and generalization in the obtained model.
+Meanwhile, current researches have predominantly focused on prompt-based adaptation methods, leaving adapter-based approaches underexplored and revealing notable performance gaps. 
+To address these challenges, we introduce a novel Reconstruction-based Multimodal Adapter (RMAdapter), which leverages a dual-branch architecture. 
+Unlike conventional single-branch adapters, RMAdapter consists of: 
+(1) an adaptation branch that injects task-specific knowledge through parameter-efficient fine-tuning, and 
+(2) a reconstruction branch that preserves general knowledge by reconstructing latent space features back into the original feature space. 
+This design facilitates a dynamic balance between general and task-specific knowledge.
+Importantly, although RMAdapter introduces an additional reconstruction branch, it is carefully optimized to remain lightweight. By computing reconstruction loss locally at each layer and sharing projection modules, the overall computational overhead is kept minimal.
+A consistency constraint is also incorporated to better regulate the trade-off between discriminability and generalization.
+We comprehensively evaluate the effectiveness of RMAdapter on three representative tasks: generalization to new categories, generalization to new target datasets, and domain generalization. 
+Without relying on data augmentation or duplicate prompt designs, our RMAdapter consistently outperforms state-of-the-art approaches across all evaluation metrics.

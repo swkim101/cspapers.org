@@ -1,0 +1,7 @@
+Anomaly detection platforms in real-world environments require continuous interaction between automated systems and domain experts, as anomalies evolve dynamically and their definitions vary across contexts.
+Therefore, an effective platform must collaborate with experts and incorporate their feedback to update the system.
+This paper introduces AEGIS, an anomaly detection platform that aims to support interaction between domain experts and data-driven agents through three core capabilities:
+(1) data-driven insights through real-time monitoring, explanations, and distribution shift detection, which invoke customized tools to generate appropriate responses,
+(2) an expert feedback interface for labeling and direct updates via chat-based interaction, and
+(3) autonomous model construction that leverages expert-labeled data with LLM-driven hyperparameter optimization.
+Through this design, AEGIS fosters continuous interaction in which the platform provides insights while experts guide model improvement, ensuring user intent is reflected and robustness is maintained under evolving data distributions.

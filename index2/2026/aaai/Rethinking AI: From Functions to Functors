@@ -1,0 +1,4 @@
+We propose a new theoretical foundation for artificial intelligence (AI) and machine learning (ML), building on ideas in pure mathematics relating to categories and functors. 
+This paper builds on our AAAI 2025 tutorial Thinking with Functors: Category Theory for A(G)I, which provides background material. 
+In addition, our recent papers on intuitionistic j-do calculus in Topos Causal Models} and GAIA: Categorical Foundations of Generative AI, illustrate how to generalize well-known formalisms in AI, 
+such as causal inference and deep learning, to a category-theoretic setting.

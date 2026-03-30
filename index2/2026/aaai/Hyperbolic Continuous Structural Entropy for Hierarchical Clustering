@@ -1,0 +1,9 @@
+Hierarchical clustering is a fundamental machine-learning technique for grouping data points into dendrograms.
+However, existing hierarchical clustering methods encounter two primary challenges: 1) Most methods specify dendrograms without a global objective.
+2) Graph-based methods often neglect the significance of graph structure, optimizing objectives on complete or static predefined graphs.
+In this work, we propose Hyperbolic Continuous Structural Entropy neural networks, namely HypCSE, for structure-enhanced continuous hierarchical clustering.
+Our key idea is to map data points in the hyperbolic space and minimize the relaxed continuous structural entropy (SE) on structure-enhanced graphs. 
+Specifically, we encode graph vertices in hyperbolic space using hyperbolic graph neural networks and minimize approximate SE defined on graph embeddings.
+To make the SE objective differentiable for optimization, we reformulate it into a function using the lowest common ancestor (LCA) on trees and then relax it into continuous SE (CSE) by the analogy of hyperbolic graph embeddings and partitioning trees.
+To ensure a graph structure that effectively captures the hierarchy of data points for CSE calculation, we employ a graph structure learning (GSL) strategy that updates the graph structure during training.
+Extensive experiments on seven datasets demonstrate the superior performance of HypCSE.

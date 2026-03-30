@@ -1,0 +1,36 @@
+Spatiotemporal forecasting has seen remarkable progress
+with the advent of deep learning, particularly with
+Spatiotemporal Graph Neural Networks (STGNNs). These models
+excel at answering the what question: predicting future
+numerical values with high accuracy. However, they fail to
+answer the crucial why question. In high-stakes domains
+such as meteorology, urban planning, and public health,
+this opacity creates a critical bottleneck for adoption. A
+model that predicts a severe pollution event without
+explaining its atmospheric drivers is a black box, limiting
+its trustworthiness and utility for decision-makers who
+need actionable, causal insights.
+
+To address this critical gap, I propose a long-term
+research project to develop Causal-LLM, a new class of
+foundation models for spatiotemporal data that are both
+predictively powerful and causally interpretable. My
+central thesis is that genuine interpretability cannot be
+an afterthought; it must be designed into the model's core
+learning process. By adapting the powerful Time-LLM
+reprogramming framework and introducing a novel training
+methodology I term causal data synthesis, Causal-LLM will
+learn to not only forecast future states but also to
+articulate the human-understandable causal narratives
+behind them.
+
+This research will make two primary contributions: (1) a
+novel hybrid architecture that synergizes the perceptual
+power of GNNs with the reasoning capabilities of LLMs for
+complex physical systems, and (2) a new training paradigm
+that explicitly teaches this mapping. A successful project
+would provide a blueprint for a new class of trustworthy
+foundation models for science, enabling applications such
+as a climate model that not only predicts a flood but also
+explains the atmospheric river causing it, empowering
+authorities to make more informed and trusted decisions.

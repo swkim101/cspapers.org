@@ -1,0 +1,22 @@
+The rapid advancement of generative models has created
+new opportunities for addressing core challenges in computer
+vision, including data scarcity, image quality, and efficient
+personalization. My research develops principled, resource-
+aware methods that enable models to generalize effectively
+from limited supervision, adapt efficiently to new concepts,
+and generate high-fidelity visual content. I first address
+few-shot learning through augmentation-driven uncertainty-
+guided mixup, improving robustness in data-constrained
+regimes. Building on this, I propose caption-guided multi-modal augmentation techniques that enrich visual diversity
+while mitigating real-to-synthetic domain gaps. To enhance
+the quality and realism of generated images, I introduce diffusion models grounded in natural image statistics, yielding
+perceptually aligned outputs suitable for downstream tasks.
+To advance personalization, I develop parameter-efficient
+mechanisms for combining low-rank adapters, enabling fine-grained control over content and style without retraining. I
+further extend personalization to a zero-shot setting through a
+training-free textual-inversion-based method that customizes
+arbitrary objects directly within the diffusion process. Finally, I present a frequency-guided multi-LoRA fusion framework that leverages wavelet-domain cues and timestep-aware
+weighting for accurate, training-free concept composition.
+Collectively, these contributions move toward a unified vision
+of generative models that are efficient, adaptive, and capable
+of high-quality, customizable image synthesis.

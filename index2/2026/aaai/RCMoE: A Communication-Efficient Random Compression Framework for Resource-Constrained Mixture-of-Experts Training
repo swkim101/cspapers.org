@@ -1,0 +1,8 @@
+Mixture-of-Experts (MoE) architecture with experts parallelism scales LLMs efficiently by activating only a subset of experts per input, avoiding proportional training costs. However, the intensive and heterogeneous communication substantially hinders the efficiency and scalability of MoE training in the resource-constrained scenario. 
+Existing communication compression techniques fall short in MoE training due to: (i) Intensive training amplifies compression overhead, compromising training efficiency; (ii) Accumulated compression errors propagate through the network, degrading training quality. 
+In this paper, we propose RCMoE, a communication-efficient Random Compression framework for MoE training with two core modules:
+(1) Local-Stochastic Quantization compresses the all-to-all communication by stochastically quantizing each row of the expert's intermediate computing results in parallel, effectively improving the compression efficiency and reducing compression error; 
+(2) Probabilistic Thresholding Sparsification compresses the all-reduce communication by probabilistically sampling large gradients at high probability, thereby reducing the computational complexity and maintaining the convergence efficiency. 
+Experiments on four typical MoE training tasks prove that
+RCMoE achieves higher 5.9x-8.1x total communication compression ratios and 1.3x-10.1x training speedup compared with the state-of-the-art compression techniques while maintaining the
+MoE training accuracy.

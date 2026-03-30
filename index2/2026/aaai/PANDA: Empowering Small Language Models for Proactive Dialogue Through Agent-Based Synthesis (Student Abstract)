@@ -1,0 +1,26 @@
+Proactive dialogue systems, which are designed to guide
+conversations toward predetermined goals. However,
+contemporary LLMs predominantly function as passive
+assistants, mechanically executing human instructions. A
+key challenge contributing to this limitation is the
+inherent difficulty in acquiring and annotating
+high-quality training data for proactive dialogue.
+Consequently, the scarcity of such data results in a
+notable deficiency in the proactive conversational
+capabilities of current LLMs.In this paper, we introduce
+PANDA (Proactive Agent-based Negotiation Dialogue
+Augmentation), a method designed to generate accurate,
+complex, and diverse proactive dialogue data for a
+challenging task—financial dispute mediation—where a LLM
+acts as the mediator. PANDA leverages a novel self-evolving
+synthesis process to manage a pool of user profiles and
+generate dialogues through structured interactions between
+multiple LLM-driven agents. To ensure data fidelity, we
+propose a comprehensive evaluation framework and build a
+two-level validation system combining automated and expert
+human verification. Our experiments demonstrate that an
+8B-parameter model, trained on our synthesized dataset,
+achieves state-of-the-art results in the task's evaluation
+framework. Its performance rivals top closed-source models
+guided by heavily engineered prompts, even when provided
+with only essential information.

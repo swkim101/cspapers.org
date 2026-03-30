@@ -1,0 +1,8 @@
+Partially observable Markov decision processes (POMDPs) present significant challenges for reinforcement learning, as agents must learn optimal policies while maintaining belief states over unobserved environment states based on partial observations. 
+We observe a compelling analogy: large language models (LLMs) autoregressively generate token probability distributions based on preceding context, mirroring how belief states are maintained and updated in POMDPs. 
+This insight motivates leveraging the rich prior knowledge embedded in pre-trained LLMs for latent states estimation from observation-action histories. 
+However, two critical challenges emerge: on the one hand, modality misalignment prevents LLMs from directly encoding visual observations and discrete actions; on the other hand, semantic misalignment exists between observation-action sequences and token sequences. 
+To address these challenges, we introduce a novel framework ELSLLM that employs a Johnson-Lindenstrauss projection (JLP) module to transform input dimensions while preserving state similarity with theoretical guarantees, and utilizes modern Hopfield networks (MHN) to store all word embeddings from pre-trained LLMs as a knowledge repository. 
+Through retrieval and querying mechanisms, ELSLLM achieves token-level knowledge alignment without requiring fine-tuning of the pre-trained LLMs. 
+Extensive experiments on partially observable environments demonstrate that ELSLLM achieves state-of-the-art performance, significantly outperforming baseline methods with and without LSTM memory mechanisms. 
+Our work opens new avenues for integrating pre-trained LLMs with reinforcement learning in partially observable settings.

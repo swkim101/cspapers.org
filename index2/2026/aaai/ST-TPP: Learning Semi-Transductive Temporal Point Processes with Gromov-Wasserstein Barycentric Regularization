@@ -1,0 +1,8 @@
+The generative mechanisms behind real-world event sequences are often heterogeneous, leading to data that possesses inherent clustering structures.
+However, most existing temporal point processes (TPPs) treat different event sequences independently, without leveraging the clustering structures when predicting events.
+In this study, we design and learn a novel semi-transductive temporal point process (ST-TPP), which explicitly improves prediction performance by co-training sequence clusters. 
+In particular, given a set of event sequences, our method learns a neural TPP together with cluster centers of the sequences.
+Besides maximizing the likelihood of the event sequences, we leverage a data-based kernel matrix and prior knowledge to regularize the sequence embeddings, leading to a Gromov-Wasserstein barycentric (GWB) regularizer.
+Based on the optimal transport plans associated with the GWB regularizer, we derive the cluster centers by the push-forward of the sequence embeddings.
+When a new sequence comes, the learned model first assigns a cluster center to the sequence and then jointly encodes the sequence and the cluster center to predict future events, leading to a semi-transductive prediction scheme.
+Experiments demonstrate that ST-TPP achieves competitive sequence clustering results and strong prediction performance.

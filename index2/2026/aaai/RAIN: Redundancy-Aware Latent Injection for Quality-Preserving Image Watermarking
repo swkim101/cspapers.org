@@ -1,0 +1,13 @@
+Diffusion models 
+ have gained widespread adoption due to their ability to generate highly realistic images, 
+ yet their rapid proliferation also raises security and traceability concerns. 
+To address issues of 
+ ownership verification and accountability, 
+ current watermarking techniques primarily focus on embedding information into the internal mechanisms of generative pipelines. 
+Nevertheless, 
+ many existing methods inject watermarks directly into latent representations without adequately exploiting inherent redundancies or perceptual properties in latent space, leading to degraded image quality.
+In this work, 
+ we conduct a systematic analysis aimed at quantifying differentiated redundancies present within latent space, and further propose a novel Redundancy-Aware Latent Injection framework RAIN based on the above analysis. 
+Specifically, a redundancy‑aware adaptive watermark fusion method is introduced to preserve image quality, which utilizes the differentiated redundancy distribution to guide adaptive watermark allocation in different perception tolerance regions.
+Moreover, a distribution alignment initialization strategy is designed to align the watermark’s initial distribution to the latent prior, reducing initialization bias and improving convergence efficiency.
+Comprehensive experimental evaluations demonstrate that RAIN achieves state-of-the-art performance by delivering superior perceptual quality under high-capacity watermarking scenarios.

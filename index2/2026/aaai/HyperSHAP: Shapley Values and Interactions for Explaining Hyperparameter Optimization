@@ -1,0 +1,7 @@
+Hyperparameter optimization (HPO) is a crucial step in achieving strong predictive performance.
+Yet, the impact of individual hyperparameters on model generalization is highly context-dependent, prohibiting a one-size-fits-all solution and requiring opaque HPO methods to find optimal configurations.
+However, the black-box nature of most HPO methods undermines user trust and discourages adoption. 
+To address this, we propose a game-theoretic explainability framework for HPO based on Shapley values and interactions.
+Our approach provides an additive decomposition of a performance measure across hyperparameters, enabling local and global explanations of hyperparameters' contributions and their interactions. 
+The framework, named HyperSHAP, offers insights into ablation studies, the tunability of learning algorithms, and optimizer behavior across different hyperparameter spaces.
+We demonstrate HyperSHAP's capabilities on various HPO benchmarks to analyze the interaction structure of the corresponding HPO problems, demonstrating its broad applicability and actionable insights for improving HPO.

@@ -1,0 +1,13 @@
+Estimating causal effects under network interference is
+challenging especially when edges are heterogeneous and
+nodes share latent dependencies. We study this realistic
+setting and propose MVDR, a targeted maximum likelihood
+(TMLE) framework that learns multi-view representations of
+covariates and exposure on heterogeneous networks while
+achieving double robustness: consistency holds if either
+the outcome model or the exposure density is correctly
+specified. MVDR supports multiple network interventions
+using only the observed network structure. On three
+semi-synthetic datasets, MVDR reduces intervention-level
+prediction error against baselines, and remains stable
+under misspecification.

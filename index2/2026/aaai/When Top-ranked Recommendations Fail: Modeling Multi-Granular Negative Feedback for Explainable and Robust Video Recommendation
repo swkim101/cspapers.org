@@ -1,0 +1,10 @@
+Existing video recommendation systems, relying mainly on ID-based embedding mapping and collaborative filtering, often fail to capture in-depth video content semantics. Moreover, most struggle to address biased user behaviors (e.g., accidental clicks, fast skips), leading to inaccurate interest modeling and frequent negative feedback in top recommendations with unclear causes.
+To tackle this issue, we collect real-world user video-watching sequences, annotate the reasons for users' dislikes, and construct a benchmark dataset for personalized explanations. 
+We then introduce the Agentic Explainable Negative Feedback (ENF) framework, which integrates three core components: 
+(1) the Profile Agent, extracting behavioral cues from users' historical data to derive psychological and personality profiles; 
+(2) the Video Agent, performing comprehensive multimodal video analysis; 
+and (3) the Reason Agent, synthesizing information from the other two agents to predict user engagement and generate explanations.
+Additionally, we propose the S-GRPO algorithm, enabling the model to progressively address complex tasks during reinforcement fine-tuning. 
+Experimental results on the collected dataset show that our method significantly outperforms state-of-the-art baselines in negative feedback prediction and reason explanation.
+Notably, it achieves an 8.6% improvement over GPT-4o in reason classification.
+Deployment on the business platform further validates its benefits: increasing average user watch time by 6.2%, reducing the fast-skip rate by 9.4% , and significantly enhancing user satisfaction.

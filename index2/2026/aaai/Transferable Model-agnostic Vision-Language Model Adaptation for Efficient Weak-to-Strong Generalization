@@ -1,0 +1,9 @@
+Vision-Language Models (VLMs) have been widely used in various visual recognition tasks due to their remarkable generalization capabilities. 
+As these models grow in size and complexity, fine-tuning becomes costly, emphasizing the need to reuse adaptation knowledge from 'weaker' models to efficiently enhance 'stronger' ones.
+However, existing adaptation transfer methods exhibit limited transferability across models due to their model-specific design and high computational demands.
+To tackle this, we propose Transferable Model-agnostic adapter (TransMiter), a light-weight adapter that improves vision-language models 'without backpropagation'.
+TransMiter captures the knowledge gap between pre-trained and fine-tuned VLMs, in an 'unsupervised' manner.
+Once trained, this knowledge can be seamlessly transferred across different models without the need for backpropagation.
+Moreover, TransMiter consists of only a few layers, inducing a negligible additional inference cost.
+Notably, supplementing the process with a few labeled data further yields additional performance gain, often surpassing a fine-tuned stronger model, with a marginal training cost.
+Experimental results and analyses demonstrate that TransMiter effectively and efficiently transfers adaptation knowledge while preserving generalization abilities across VLMs of different sizes and architectures in visual recognition tasks.

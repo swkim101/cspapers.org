@@ -1,0 +1,22 @@
+Teaching machine learning (ML) workflows to non-programmers
+remains a challenge in introductory AI courses.
+Traditionally, educators have turned to no-code tools such
+as KNIME to lower barriers. With the rise of generative AI
+(GenAI), students can now construct ML pipelines through
+natural language prompts, potentially offering a new
+“no-code” pathway. In a polytechnic-wide elective in
+Singapore, students were given the choice of using either
+KNIME or a GenAI chatbot for practical exercises and their
+semester project. Survey responses, informal interviews,
+and classroom observations revealed that both tools
+supported conceptual learning, but students’ experiences
+diverged: KNIME provided predictability and structured
+guidance, while GenAI offered speed and flexibility yet
+posed setup challenges and required coding familiarity.
+Students valued having a choice, though this complicated
+teaching logistics. Our experience suggests that GenAI can
+complement—but not yet replace—traditional no-code
+platforms, and that the design of introductory activities
+is critical for adoption. We share lessons learned for
+educators considering GenAI as an alternative in
+workflow-based ML education.

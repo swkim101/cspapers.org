@@ -1,0 +1,22 @@
+Federated Graph Learning enables multiple clients to
+collaboratively train graph models while protecting local
+private data. However, most studies have assumed that all
+clients contribute data voluntarily and actively. Without
+reasonable incentives, clients are often reluctant to
+contribute personal data for model training. Furthermore,
+the budget for incentives is limited, and if clients with
+low-quality graph data are incentivized to participate in
+training, it will negatively impact the training
+performance of all parties in the system. To address this,
+we propose AEFGL, a Reverse Auction and Value
+Evaluation-Based Incentive Mechanism for Federated Graph
+Learning. First, we design a reverse auction mechanism
+combining graph structural attribute motifs with client
+production value. Then, we propose a method for evaluating
+client production value based on the comparison of the
+client's expected reward and actual value. This mechanism
+can incentivize clients with high-quality graph data to
+participate in training within budget constraints, thereby
+improving the model quality. Experimental results validate
+the superiority of the AEFGL mechanism and the economic
+properties it satisfies.

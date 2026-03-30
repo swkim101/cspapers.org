@@ -1,0 +1,19 @@
+This report explores the evolution and current state of
+neuro-
+symbolic artificial intelligence, an approach that
+integrates
+neural network capabilities with symbolic reasoning. We
+trace the historical context from early AI aspirations to
+modern implementations and successes, highlighting key
+paradigms, and other logical and semantical considerations.
+We argue against the “scaling is all you need” hypothesis,
+and point to persistent challenges in reliable symbolic
+reasoning with deep and large models. We conclude by
+suggesting
+that despite numerous implementation choices and the ”broad
+church” nature of neuro-symbolic AI, these approaches offer
+the most promising path towards AI systems that combine
+pattern recognition with robust reasoning, particularly for
+applications requiring structured knowledge,
+explainability, and
+trustworthiness.

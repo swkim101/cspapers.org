@@ -1,0 +1,30 @@
+Large multimodal models (LMMs) have revolutionized AI by
+demonstrating remarkable capabilities in vision, language,
+audio, and other domains, particularly in understanding and
+generalization tasks. Yet, moving beyond passive
+understanding to active interaction requires embodied
+agents, such as robots, that can harness the capabilities
+of AI models to act within the physical world. My core
+research aims to build embodied agents that reason about
+and interact with the physical world with human-like
+commonsense. Specifically, I design algorithms and
+representations that enable robots to perceive their
+environment, reason about physical properties, and plan
+long-horizon actions for both manipulation and locomotion.
+These advances are grounded in the integration of
+large-scale AI models with embodied control.
+
+I organize this agenda into three stages: (1) injecting
+actions into LMMs to form vision–language–action (VLA)
+models; (2) learning from human motion and contact to
+enrich physical reasoning; and (3) advancing whole-body
+robot loco-manipulation guided by LMMs toward embodied
+artificial general intelligence (AGI). The talk details
+recent advances in leveraging LMMs for robot learning,
+emphasizing the promise of robust generalization across
+diverse environments, tasks, and modalities. I will
+highlight contributions at the intersection of perception,
+reasoning, and control, and outline open challenges and
+future opportunities toward enabling humanoid robots that
+can robustly understand, interact, and collaborate with
+humans in complex real-world settings.

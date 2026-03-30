@@ -1,0 +1,6 @@
+We study a Stackelberg variant of the classical Most Vital Links problem, modeled as a one-round adversarial game between an attacker and a defender. The attacker strategically removes up to k edges from a flow network to maximally disrupt flow between a source s and a sink t, after which the defender optimally reroutes the remaining flow.
+To capture this attacker–defender interaction, we introduce a new mathematical model of
+discounted cuts, in which the cost of a cut is evaluated by excluding its k most expensive edges. This model generalizes the Most Vital Links problem and uncovers novel algorithmic and complexity-theoretic properties.
+
+We develop a unified algorithmic framework for analyzing various forms of discounted cut problems, including minimizing or maximizing the cost of a cut under discount mechanisms that exclude either the k most expensive or the k cheapest edges. While most variants are NP-complete on general graphs, our main result establishes polynomial-time solvability for all discounted cut problems in our framework when the input is restricted to bounded-genus graphs, a relevant class that includes many real-world networks such as transportation and infrastructure networks.
+With this work, we aim to open collaborative bridges between artificial intelligence, algorithmic game theory, and operations research.

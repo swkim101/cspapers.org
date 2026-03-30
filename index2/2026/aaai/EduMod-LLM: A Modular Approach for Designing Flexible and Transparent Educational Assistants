@@ -1,0 +1,8 @@
+With the growing use of Large Language Model (LLM)-based Question-Answering (QA) systems in education, it
+is critical to evaluate their performance across individual
+pipeline components. In this work, we introduce EduMod-LLM, a modular function-calling LLM pipeline, and present
+a comprehensive evaluation along three key axes: function calling strategies, retrieval methods, and generative language models. Our framework enables fine-grained analysis by isolating and assessing each component. We benchmark function-calling performance across LLMs, compare
+our novel structure-aware retrieval method to vector-based
+and LLM-scoring baselines, and evaluate various LLMs for
+response synthesis. This modular approach reveals specific
+failure modes and performance patterns, supporting the development of interpretable and effective educational QA systems. Our findings demonstrate the value of modular function calling in improving system transparency and pedagogical alignment.

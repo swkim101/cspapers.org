@@ -1,0 +1,22 @@
+The rise of generative AI presents a profound duality. On
+one hand, it offers a powerful solution to data scarcity
+and privacy challenges in biometrics. On the other, it is
+weaponized to create deepfakes that threaten digital
+integrity. Existing detectors for these deepfakes are
+brittle, failing against real-world transformations and
+novel generative models. This dissertation confronts this
+duality head-on. First, I establish the viability of
+synthetic data for building fair and private biometric
+systems. Second, to counter the malicious use of this
+technology, this dissertation develops deepfake detectors
+designed to be robust, generalizable, and efficient by
+construction. My work introduces novel, lightweight feature
+sets on different cues (e.g., colour cue-based Relative
+Chrominance Difference, Gradient features, Depth cues,
+etc.) that are inherently resilient to OSN transformations
+and improve generalisation to unseen forgeries. Whereas,
+accomplished results confirm state-of-the-art performance,
+achieving high accuracy in challenging real-world scenarios
+with a significant reduction in model complexity, my
+current and future work focuses on achieving superior
+generalisation while being OSN manipulation resistant.

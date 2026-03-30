@@ -1,0 +1,7 @@
+Multimodal Large Language Models (MLLMs) integrate text and images for complex reasoning tasks, but efficiently utilizing image remains a challenge due to redundancy and noise. 
+Traditional methods take the entire image features as visual prompt into the MLLMs, leading to excessive visual tokens that disrupt textual information expression. Thus, recent studies treat image features as visual knowledge, storing them in the feed-forward network for retrieval when needed. These methods, completely removing images from the input, may hinder the activation of image-related knowledge.
+Besides, current visual knowledge focuses on fine-grained details but overlooks the hierarchical process of visual perception. As described in feature integration theory, global structure is first processed before details are integrated.
+Ignoring this process may lead to a fragmented visual understanding, making it difficult to capture high-level semantic relationships.
+To overcome these issues, we propose a novel image utilization mechanism in MLLMs. We leverage a compression-based attention mechanism to generate the compressed visual prompt, which not only mitigates the interference of excessively long visual prompts but also preserves crucial visual information necessary for activating knowledge in the MLLM.
+Furthermore, we extract hierarchical visual features as visual knowledge using wavelet transforms, allowing the model to capture both global structures and fine-grained details. 
+Experiments show that our method achieves state-of-the-art performance.

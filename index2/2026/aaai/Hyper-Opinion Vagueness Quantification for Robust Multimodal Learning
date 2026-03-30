@@ -1,0 +1,9 @@
+Robust Multimodal Learning (RML) aims to address the issues of unreliable predictions of multimodal models.
+Nevertheless, previous RML works often struggle to distinguish between different categories that rely on identical intra-modal cues, making ambiguous predictions.
+We defined this degree of ``uncertain'' in extracting discriminative features of a multimodal model as vagueness.
+Neglecting such vagueness, as previous RML works commonly do, will undermine the ability to extract unique semantics of each category in multimodal models, further resulting in worse robustness under disturbances that affect semantic representations.
+Additionally, this vagueness will lead the parameter updating processes towards unreliable fusion, thus diverting the learning processes of the multimodal model from learning unique features of each category.
+Based on the above insight, we propose a novel robust multimodal learning approach, termed Hyper-Opinion Quantifying Vagueness (HOQV).
+Specifically, we first introduce hyper-opinion to capture and quantify the vagueness of multimodal learning in discriminating representations of different categories.
+Moreover, to mitigate the interference in parameter updating of unreliable representations with high vagueness, we also design the Hyper-Opinion Gradient Modulation to guide the optimization processes. 
+We evaluate our HOQV on six datasets with different disturbances, including noise and adversarial attack, and demonstrate that our proposed method achieves state-of-the-art performance consistently.

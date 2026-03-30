@@ -1,0 +1,9 @@
+As valuable digital assets, deep neural networks necessitate robust ownership protection, positioning neural network watermarking (NNW) as a promising solution. 
+Among various NNW approaches, weight-based methods are favored for their simplicity and practicality; however, they remain generally vulnerable to forging and overwriting attacks.
+To address those challenges, we propose *NeuralMark*, a robust method built around a *hashed watermark filter*. 
+Specifically, we utilize a hash function to generate an irreversible binary watermark from a secret key, which is then used as a filter to select the model parameters for embedding. 
+This design cleverly intertwines the embedding parameters with the hashed watermark, providing a robust defense against both forging and overwriting attacks.
+Average pooling is also incorporated to resist fine-tuning and pruning attacks.
+Furthermore, it can be seamlessly integrated into various neural network architectures, ensuring broad applicability.
+We theoretically analyze its security boundary and highlight the necessity of using a hashed watermark as a filtering mechanism.
+Empirically, we demonstrate its effectiveness and robustness across 13 distinct Convolutional and Transformer architectures, covering five image classification tasks and one text generation task.

@@ -1,0 +1,15 @@
+Vision-Language Models (VLMs) encode images into lengthy
+sequences of visual tokens, leading to excessive
+computational overhead and limited inference efficiency. In
+this paper, we study the hierarchical attention pattern in
+vision encoders and propose HiPrune, a training-free and
+model-agnostic token Pruning framework for VLMs. We
+identify that middle layers in the vision encoder attend to
+object-centric regions, while deep layers capture global
+contextual features. Based on this observation, HiPrune
+selects tokens based on the attention score from the middle
+and deep layers. Our method requires no retraining and
+integrates seamlessly with any ViT-based VLM. Experiments
+demonstrate that HiPrune achieves outstanding pruning
+performance, maintaining a balance between efficiency and
+efficacy.

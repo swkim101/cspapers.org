@@ -1,0 +1,9 @@
+With the rapid advancement of large language models (LLMs), aligning them with human values for safety and ethics has become a critical challenge.
+This problem is especially challenging when multiple, potentially conflicting human values must be considered and balanced.
+Although several variants of existing alignment methods (such as Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO)) have been proposed to address multi-value alignment, they suffer from notable limitations: 1) they are often unstable and inefficient in multi-value optimization; and 2) they fail to effectively handle value conflicts. 
+As a result, these approaches typically struggle to achieve optimal trade-offs when aligning multiple values.
+
+To address this challenge, we propose a novel framework called Multi-Value Alignment (MVA).
+It mitigates alignment degradation caused by parameter interference among diverse human values by minimizing their mutual information.
+Furthermore, we propose a value extrapolation strategy to efficiently explore the Pareto frontier, thereby constructing a set of LLMs with diverse value preferences.
+Extensive experiments demonstrate that MVA consistently outperforms existing baselines in aligning LLMs with multiple human values.

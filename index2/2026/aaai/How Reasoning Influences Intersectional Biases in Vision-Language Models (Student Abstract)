@@ -1,0 +1,17 @@
+Vision-Language Models (VLMs) are increasingly deployed
+across downstream tasks, yet their training data often
+encode social biases that surface in outputs. Unlike
+humans, who interpret images through contextual and social
+cues, VLMs process them through statistical associations,
+often leading to reasoning that diverges from human
+reasoning. By analyzing how a VLM reasons, we can
+understand how inherent biases are perpetuated and can
+adversely affect downstream performance. To examine this
+gap, we systematically analyze social biases in five
+open-source VLMs for an occupation prediction task, on the
+FairFace dataset. Across 32 occupations and three different
+prompting styles, we elicit both predictions and reasoning.
+Our findings show that the biased reasoning patterns
+systematically underlie intersectional disparities,
+highlighting the need to align VLM reasoning with human
+values before downstream deployment.

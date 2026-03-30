@@ -1,0 +1,9 @@
+Open knowledge bases (e.g., websites) are widely adopted in Retrieval-Augmented Generation (RAG) systems to provide supplementary knowledge (e.g., latest information). 
+However, such sources inevitably contain biased or harmful content, and incorporating these untrusted contents into the RAG process introduces significant safety risks, including the degradation of LLM performance and the potential generation of harmful outputs.
+Recent studies have shown that this vulnerability can be further amplified by adversarial poisoning attacks specifically targeting the knowledge sources.
+Most existing methods primarily emphasize improving the accuracy and efficiency of RAG systems, usually overlooking these critical safety concerns.
+In this paper, we propose a safety-aware retrieval framework (ShieldRAG) designed to augment language model generation by jointly optimizing for both relevance and safety in the retrieved knowledge content.
+The core idea of ShieldRAG is to transfer the safety knowledge implicitly encoded in powerful LLMs into the retriever model through an adversarial knowledge alignment mechanism.
+This can empower the retriever with the safety awareness, and adapt to the diverse and unknown distribution of unsafe content encountered in practical scenarios.
+We evaluate ShieldRAG on seven real-world datasets using five widely-used LLMs and two state-of-the-art poisoning attack strategies. 
+Experimental results show that our method substantially improves the robustness of RAG systems against unsafe knowledge sources, while maintaining competitive performance in terms of generation accuracy and efficiency.

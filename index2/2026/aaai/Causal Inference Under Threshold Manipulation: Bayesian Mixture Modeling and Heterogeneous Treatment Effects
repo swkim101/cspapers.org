@@ -1,0 +1,9 @@
+Many marketing applications, including credit card incentive programs, offer rewards to customers who exceed specific spending thresholds to encourage increased consumption. 
+Quantifying the causal effect of these thresholds on customers is crucial for effective marketing strategy design. 
+Although regression discontinuity design is a standard method for such causal inference tasks, its assumptions can be violated when customers, aware of the thresholds, strategically manipulate their spending to qualify for the rewards.
+To address this issue, we propose a novel framework for estimating the causal effect under threshold manipulation.
+The main idea is to model the observed spending distribution as a mixture of two distributions: one representing customers strategically affected by the threshold, and the other representing those unaffected. 
+To fit the mixture model, we adopt a two-step Bayesian approach consisting of modeling non-bunching customers and fitting a mixture model to a sample around the threshold. 
+We show posterior contraction of the resulting posterior distribution of the causal effect under large samples. 
+Furthermore, we extend this framework to a hierarchical Bayesian setting to estimate heterogeneous causal effects across customer subgroups, allowing for stable inference even with small subgroup sample sizes. 
+We demonstrate the effectiveness of our proposed methods through simulation studies and illustrate their practical implications using a real-world marketing dataset.

@@ -1,0 +1,15 @@
+The Pickup-and-Delivery Problem with Time Windows (PDPTW)
+is a time-constrained variant of the vehicle-routing
+problem (VRP). Complex time constraints make it difficult
+to solve using existing NCO methods. In this paper, we
+present the Feasibility-Aware Masked Transformer
+(FAM-Trans) specialized for PDPTW. FAM-Trans integrates a
+lightweight side encoder with a context-aware embedding
+scheme that effectively captures temporal dependencies. A
+dynamic key-value module continuously updates node
+embeddings as the route progresses. During inference, a
+feasibility-guided post-inference filtering strategy
+suppresses constraint violations without post-hoc repair.
+Experiments on standard PDPTW benchmarks show that
+FAM-Trans outperforms NCO baselines by 20~35% in solution
+quality and constraint satisfaction.

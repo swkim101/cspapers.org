@@ -1,0 +1,11 @@
+We evaluate how well large language model embeddings
+represent continuous numerical values across different
+precisions and ranges. Using linear models and principal
+component analysis on models from major providers, we show
+that while embeddings can reconstruct numbers with high
+fidelity (R2 ≥ 0.95), they introduce substantial noise,
+with principal components explaining less than 40% of
+embedding variance. Performance degrades with increasing
+decimal precision and mixed-sign values, revealing
+fundamental limitations in how these models encode
+numerical information.

@@ -1,0 +1,7 @@
+Backdoor attacks pose a significant threat to Large Language Models (LLMs), where adversaries can embed hidden triggers to manipulate LLM's outputs. 
+Most existing defense methods, primarily designed for classification tasks, are ineffective against the autoregressive nature and vast output space of LLMs, thereby suffering from poor performance and high latency. 
+To address these limitations, we investigate the behavioral discrepancies between benign and backdoored LLMs in output space.
+We identify a critical phenomenon which we term sequence lock: a backdoored model generates the target sequence with abnormally high and consistent confidence compared to benign generation. 
+Building on this insight, we propose ConfGuard, a lightweight and effective detection method that monitors a sliding window of token confidences to identify sequence lock. 
+Extensive experiments demonstrate ConfGuard achieves a near 100% true positive rate (TPR) and a negligible false positive rate (FPR) in the vast majority of cases.
+Crucially, the ConfGuard enables real-time detection almost without additional latency, making it a practical backdoor defense for real-world LLM deployments.

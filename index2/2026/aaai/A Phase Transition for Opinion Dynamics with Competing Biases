@@ -1,0 +1,9 @@
+We study the nonlinear evolution of binary opinions in a population of agents connected by a directed network, influenced by two competing forces. 
+On the one hand agents are stubborn, i.e., have a tendency for one of the two opinions; on the other hand there is a disruptive bias that drives the agents toward the opposite opinion.
+The disruptive bias models external factors such as market innovations or social controllers aiming to challenge the status quo, while stubbornness reinforces the initial opinion making it harder for the external bias to drive the process toward change.
+Each agent updates its opinion according to a nonlinear rule that takes into account the opinions of its neighbors and the strength of the disruptive bias. 
+We focus on random directed graphs with prescribed in- and out-degree sequences and prove that the dynamics exhibits a phase transition. 
+When the disruptive bias is stronger than a certain critical threshold, the entire population rapidly converges to a consensus on the disruptive opinion. When the bias is weaker than this threshold, the system enters a metastable state in which only a fraction of the population adopts the new opinion, and this partial adoption persists for a long time.
+We explicitly characterize both the critical threshold and the long-term adoption fraction, showing that they depend only on few simple statistics of the degree sequences. 
+Our analysis relies on a dual system of coalescing, branching, and dying particles, whose behavior is equivalent and allows a rigorous characterization of the system's dynamics.
+Our results characterize the interplay between the degree of the agents, their stubbornness, and the external bias, shedding light on the tipping points of opinion dynamics in networks.

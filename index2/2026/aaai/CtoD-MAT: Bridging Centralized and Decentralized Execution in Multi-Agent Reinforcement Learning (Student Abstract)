@@ -1,0 +1,19 @@
+Although centralized training with centralized execution
+(CTCE) excels at multi-agent coordination, its reliance on
+global information limits its use in the real world.
+Conversely, the practical decentralized execution (CTDE)
+paradigm often struggles with complex coordination. This
+paper bridges this critical gap by introducing the
+Centralized-to-Decentralized (CtoD) learning concept: a
+novel framework for transferring the knowledge of a
+powerful centralized policy into a robust, practical
+decentralized policy. Our method, CtoD-MAT, realizes this
+transition through a curriculum that gradually shifts
+agents from centralized to decentralized control. A key
+innovation is our dynamic scheduling mechanism, featuring a
+mediator module, which ensures a robust and effective
+knowledge transfer. Using challenging SMAC benchmarks, we
+demonstrate that CtoD-MAT successfully produces competitive
+decentralized policies, notably solving complex
+coordination tasks that are difficult for standard CTDE
+methods.

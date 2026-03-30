@@ -1,0 +1,17 @@
+Offline Zero-Shot Reinforcement Learning requires an agent
+to solve unseen tasks using only a fixed offline dataset
+without explicit rewards. A central challenge is learning
+representations that capture both high-level long-term
+planning and low-level physical dynamics. We propose a
+novel framework, Dynamics-Aware Planning Representation
+(DAPR), which disentangles these two aspects via
+complementary contrastive objectives. Specifically, DAPR
+learns goal-oriented planning directions and local
+dynamics-consistent directions in the latent space. By
+jointly enforcing these constraints, DAPR yields
+representations that balance “where to go” with “how to
+move.” Experiments on standard locomotion benchmarks
+(Walker, Cheetah, Quadruped) demonstrate that DAPR
+consistently improves performance and generalization over
+strong baselines, achieving substantial gains on precision
+demanding tasks.

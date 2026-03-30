@@ -1,0 +1,7 @@
+Despite their widespread use in quantum computing and physics, the relative strengths and weaknesses of Matrix Product States (MPS), Decision Diagrams (DDs), and Restricted Boltzmann Machines (RBMs) remains poorly understood. 
+We analytically compare the succinctness of these quantum state representations and analyze the complexity of key operations on them. 
+To overcome shortcomings of the tractability measure, we introduce `rapidity' conditions that identify when non-canonical representations efficiently simulate each other.
+Our results reveal that:
+ 1. Most DD variants are redundant with respect to MPS in a strong sense; MPS is more rapid.
+ 2. Only one DD variant, called LIMDD, and RBM have succinctness incomparable to MPS.
+ 3. LIMDD and RBM seem to achieve this by sacrificing tractability of counting queries, as shown by a metatheorem on the conditional hardness of these queries.

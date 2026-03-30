@@ -1,0 +1,1 @@
+The multi-agent path finding (MAPF) problem is a combinatorial search problem that aims at finding paths for multiple agents in an environment without collisions, subject to constraints on the lengths of paths. The real-world applications of MAPF require flexible, lifelong, robust and explainable solutions. In this study, these challenges are being addressed.

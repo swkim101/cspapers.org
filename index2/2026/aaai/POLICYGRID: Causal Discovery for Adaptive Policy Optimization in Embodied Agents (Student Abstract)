@@ -1,0 +1,16 @@
+Embodied agents must reason causally, as correlation-based
+models fail under intervention and distribution shift. This
+challenge arises in domains like robotics and cyber-physical
+systems, where agents balance efficiency and comfort under
+uncertainty. We introduce POLICYGRID, unifying causal
+discovery and control by treating each action as both
+decision
+and experiment. Leveraging constraint-based search, neural
+causal models, and language model priors with interventional
+validation, POLICYGRID yields adaptive, interpretable
+policies. Across synthetic, real-world, and live
+deployments, it
+achieves superior causal recovery (F1 = 0.89) and 2.8×
+better multi-objective performance than correlation-based
+baselines, demonstrating safe, generalizable
+decision-making.

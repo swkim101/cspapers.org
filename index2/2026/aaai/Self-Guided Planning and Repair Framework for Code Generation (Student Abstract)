@@ -1,0 +1,16 @@
+Large Language Models (LLMs) demonstrate strong
+capabilities in code generation but often lack adaptability
+in planning and refinement. We propose Self-PR, a framework
+that integrates adaptive plan selection and iterative
+repair to improve correctness and generalization. Self-PR
+constructs a reusable plan database via task clustering and
+trains a selector to choose task-specific strategies.
+Incorrect outputs are refined through multi-round feedback
+until correctness. Trained only on HumanEval, Self-PR
+generalizes well to out-of-distribution tasks (MBPP),
+improving pass@1 by +4.9% on HumanEval and +5.5% on MBPP
+compared to Modularization-of-Thought prompting.
+Experiments across Llama-3 (8B, 70B) and GPT-4o-mini
+confirm robustness and scalability. These findings suggest
+that adaptive planning and feedback-driven repair are
+essential for reliable LLM-based code generation.

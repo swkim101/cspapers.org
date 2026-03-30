@@ -1,0 +1,6 @@
+The ASP(Q) language extends Answer Set Programming (ASP) with Quantifiers that operate over answer sets.
+Thus, ASP(Q) facilitates a more natural encoding of problems whose complexity exceeds NP within the ASP framework.
+In this paper we focus on ASP(Q) programs with two quantifiers, i.e., 2-ASP(Q) programs, which can be used to model problems in the second level of the Polynomial Hierarchy. 
+In particular, we propose an approach for evaluating 2-ASP(Q) programs that is inspired by Counterexample Guided Abstraction Refinement (CEGAR).
+Unlike existing state-of-the-art ASP(Q) solvers, which are typically based on QBF solvers, our new approach leverages ASP solvers, and suffers no overhead due to the effects of translating ASP(Q) in QBF.
+Experimental results demonstrate that our technique consistently outperforms state-of-the-art ASP(Q) solvers, across benchmark problems located at the second level of the polynomial hierarchy.

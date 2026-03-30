@@ -1,0 +1,7 @@
+Critical thinking is essential for building robust AI systems, preventing them from blindly accepting flawed data or biased reasoning.
+However, prior work has primarily focused on passive critical thinking, where models simply reject problematic queries without taking constructive steps to address user requests.
+In this work, we introduce proactive critical thinking, a paradigm where models actively seek missing or clarifying information from users to resolve their queries better.
+To evaluate this capability, we present GSM-MC and GSM-MCE, two novel benchmarks based on GSM8K for assessing mathematical reasoning under incomplete or misleading conditions.
+Experiments on Qwen3 and Llama series models show that, while these models excel in traditional reasoning tasks, they struggle with proactive critical thinking, especially smaller ones.
+However, we demonstrate that reinforcement learning (RL) can significantly improve this ability. By incorporating heuristic information into the reward function, we achieve substantial gains, boosting the Qwen3-1.7B's accuracy from 0.15% to 73.98% on GSM-MC.
+We hope this work advances models that collaborate more effectively with users in problem-solving through proactive critical thinking.

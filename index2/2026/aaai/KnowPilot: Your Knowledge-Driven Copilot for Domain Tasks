@@ -1,0 +1,4 @@
+Despite the rapid advancement of generative agents, their deployment in real world industry scenarios often encounters challenges due to a lack of domain-specific knowledge. 
+To address this gap, we present KnowPilot: a Domain-Specific Knowledge Augmented Agent System. 
+KnowPilot is an open-source framework that integrates task-specific priors, explicit knowledge, and experiential knowledge to enhance agent performance in specialized applications. 
+It combines knowledge retrieval from structured repositories with a memory system capable of capturing expert experience through human–AI interaction.

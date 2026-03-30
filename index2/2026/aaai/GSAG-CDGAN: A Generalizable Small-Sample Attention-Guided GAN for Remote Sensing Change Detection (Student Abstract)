@@ -1,0 +1,15 @@
+Remote sensing change detection (RSCD) is crucial for ur-
+ban monitoring, environmental protection, and disaster as-
+sessment, but small-sample scenarios often lead to overfitting
+and inaccurate predictions on unseen data. To address this, we
+propose GSAG-CDGAN, an end-to-end framework integrat-
+ing Selective Noise Augmentation (SNA) to mitigate overfit-
+ting, an Attention-Guided Adversarial Network (AGAN) to
+enhance structural consistency, and a Perceptual Loss Mod-
+ule (PLM) to preserve semantic consistency. Experiments on
+CDData-50 show that GSAG-CDGAN improves F1-Score
+from 0.6954 to 0.8851, with notable gains in Recall and IoU,
+demonstrating enhanced robustness under small-sample con-
+ditions. Further evaluation on the WHU-CD dataset yields an
+F1-Score of 0.9502, confirming strong cross-dataset general-
+ization and the method’s effectiveness in diverse scenarios.

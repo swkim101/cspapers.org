@@ -1,0 +1,17 @@
+The dependency of stock prices on a multitude of factors
+makes the task of prediction exceedingly challenging. Given
+the volatile nature of stock data, it is imperative to
+integrate multiple sources of information to accurately
+encompass the various factors that influence market trends.
+To capture these complex dynamics, several multimodal
+methodologies have been proposed, integrating market data,
+technical indicators, and textual information. However, it
+is claimed that these coarse-grained information sources do
+not offer a holistic view of the market. Furthermore, these
+sources are stock-specific and do not elucidate the
+interconnections between various stocks. To address this
+deficiency, we propose a multimodal approach that
+incorporates this relational aspect alongside fine-grained
+information sources. The applicability of our framework is
+underscored by empirical results, which demonstrate the
+superiority of our approach.

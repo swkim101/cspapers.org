@@ -1,0 +1,1 @@
+We introduce DreamLand, an interactive 4D visualization framework that integrates WebGL with Supersplat rendering. It transforms static images and text into coherent 4D scenes through four core modules and employs a foveated rendering strategy for efficient, real-time multi-modal interaction. This framework enables adaptive, user-driven exploration of complex 4D environments.

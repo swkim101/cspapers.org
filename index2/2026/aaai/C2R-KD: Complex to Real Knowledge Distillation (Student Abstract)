@@ -1,0 +1,9 @@
+In this work, C2R-KD is proposed, applying a
+Complex-to-Real projection to map complex domain features
+into the real domain. C2R-KD mitigates complex-real domain
+mismatch to strengthen the representational capacity of the
+student model and further improves the knowledge
+distillation model performance through the hybrid
+distillation of features and logits simultaneously.
+Experimental result demonstrates higher accuracy than the
+conventional KD across all test environments.

@@ -1,0 +1,9 @@
+The dynamic nature of cloud spending and pricing structures
+pose challenges for practitioners in IT Financial Operations
+(FinOps). Recent advances in agentic systems enables them
+to instead rely on agents for complex FinOps tasks such as
+drawing insights from their data through natural language
+queries. In this work, we present an IT FinOps Data Insights
+Agent, that implements “chat with your data” approach to
+support practitioners in their daily tasks. Our agent achieves
+up to 90% accuracy across ITBench FinOps scenarios.

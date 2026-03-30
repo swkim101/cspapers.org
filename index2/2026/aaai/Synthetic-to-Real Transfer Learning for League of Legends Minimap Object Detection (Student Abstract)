@@ -1,0 +1,20 @@
+Esports is growing rapidly, yet the data available to
+researchers is limited due to the game company policies.
+Consequently, vision-based approaches utilizing game
+screens are gaining attention as a practical alternative.
+We focus on the League of Legends minimap and address the
+challenges of champion detection when extracting champion
+information from the minimap. The challenges in this domain
+include small objects, rapid movement, and frequent
+occlusions.
+We propose a transfer-learning-based object detection
+pipeline that combines synthetic data with a subset of replay
+data. Synthetic data enables the rapid generation of
+diverse scenarios and improves training scalability, while
+replay data reduces the data distribution gap. This approach
+achieves 0.588 mean average precision, improving over
+replay-only by 0.261 and synthetic-only by 0.312, with 6.4 ms
+latency. Furthermore, we constructed a dataset
+encompassing all champions, enabling comparative analysis
+of detection models and supporting reproducible
+benchmarking for various application studies.

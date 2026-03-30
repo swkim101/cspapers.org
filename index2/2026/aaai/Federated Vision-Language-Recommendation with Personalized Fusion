@@ -1,0 +1,8 @@
+Applying large pre-trained Vision-Language Models to recommendation is a burgeoning field, a direction we term Vision-Language-Recommendation (VLR). 
+Bringing VLR to user-oriented on-device intelligence within a federated learning framework is a crucial step for enhancing user privacy and delivering personalized experiences.
+This paper introduces FedVLR, a federated VLR framework specially designed for user-specific personalized fusion of vision-language representations.
+At its core is a novel bi-level fusion mechanism:
+The server-side multi-view fusion module first generates a diverse set of pre-fused multimodal views. 
+Subsequently, each client employs a user-specific mixture-of-expert mechanism to adaptively integrate these views based on individual user interaction history.
+This designed lightweight personalized fusion module provides an efficient solution to implement a federated VLR system. 
+The effectiveness of our proposed FedVLR has been validated on seven benchmark datasets.

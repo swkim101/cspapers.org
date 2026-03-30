@@ -1,0 +1,10 @@
+Bias in Large Language Models (LLMs) is increasingly
+addressed through fairness-oriented techniques. However, in
+some cases, these approaches may inadvertently remove
+genuine cultural differences between groups, leading to
+“over-normalization” or models losing important
+socio-cultural distinctions. In this work, we introduce
+OverNormEval, a benchmark designed to detect when an LLM
+exhibits such over-normalization. We further explore the
+use of Direct Preference Optimization (DPO) to mitigate
+over-normalization.

@@ -1,0 +1,7 @@
+Safe reinforcement learning (RL) has emerged as a key
+paradigm for deploying AI in high-stakes domains such as
+autonomous driving, robotics, healthcare, and recommender
+systems. By embedding constraints into the learning process,
+safe RL enables agents to optimize performance while satisfying critical requirements, including collision avoidance, resource limits, and system reliability. Such guarantees are indispensable for real-world AI, where failures can cause physical harm, economic loss, or loss of trust. At the same time, demand for trustworthy AI continues to grow as machine learning is increasingly deployed in human-centered applications.
+This makes it essential to design RL algorithms that are not
+only efficient but also reliable, robust, and aligned with societal needs.

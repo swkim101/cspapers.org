@@ -1,0 +1,13 @@
+n the agricultural domain, the deployment of large language
+models (LLMs) is hindered by the lack of training data and
+evaluation benchmarks. To mitigate this issue, we propose
+AgriEval, the first comprehensive Chinese agricultural benchmark with three main characteristics: (1) Comprehensive Capability Evaluation. AgriEval covers six major agriculture
+categories and 29 subcategories within agriculture, addressing four core cognitive scenarios—memorization, understanding, inference, and generation. (2) High-Quality Data.
+The dataset is curated from university-level examinations
+and assignments, providing a natural and robust benchmark
+for assessing the capacity of LLMs to apply knowledge and
+make expert-like decisions. (3) Diverse Formats and Extensive Scale. AgriEval comprises 14,697 multiple-choice questions and 2,167 open-ended question-and-answer questions,
+establishing it as the most extensive agricultural benchmark
+available to date. We also present comprehensive experimental results over 51 open-source and commercial LLMs. The
+experimental results reveal that most existing LLMs struggle to achieve 60 percent accuracy, underscoring the developmental potential in agricultural LLMs. Additionally, we conduct extensive experiments to investigate factors influencing
+model performance and propose strategies for enhancement.

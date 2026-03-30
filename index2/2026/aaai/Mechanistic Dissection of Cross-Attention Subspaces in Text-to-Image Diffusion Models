@@ -1,0 +1,7 @@
+Text-to-image diffusion models utilize cross-attention to integrate textual information into the visual latent space, yet the transformation from text embeddings to latent features remains largely unexplored.
+We provide a mechanistic analysis of the output-value (OV) circuits within cross-attention layers through spectral analysis via singular value decomposition.
+Our analysis reveals that semantic concepts are encoded in low-dimensional subspaces spanned by singular vectors in OV circuits across cross-attention heads.
+To verify this, we intervene on concept-related components in the diffusion process, demonstrating that intervention on identified spectral components affects conceptual changes.
+We further validate these findings by examining visual outputs of isolated subspaces and their alignment with text embedding space.
+Through this mechanistic understanding, we demonstrate that only nullifying these spectral components can achieve targeted concept removal with performance comparable to existing methods while providing interpretability.
+Our work reveals how cross-attention layers encode semantic concepts in spectral subspaces of OV circuits, providing mechanistic insights and enabling precise concept manipulation without retraining.

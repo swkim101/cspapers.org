@@ -1,0 +1,13 @@
+Machine Learning (ML) models have significant potential
+across research and industry to enable data-driven insights
+and decision-making. Their performance relies on input data
+quality, but real-world datasets often contain
+imperfections, making data preprocessing essential yet
+time-consuming. Our research proposes a proof-of-concept
+model using Generative Artificial Intelligence (GenAI) to
+analyze and transform data for supervised ML
+classification. The results from the GenAI models will be
+compared with traditionally preprocessed data to evaluate
+effectiveness. Preliminary results indicate that
+incorporating GenAI models into the preprocessing pipeline
+show potential in improving ML's classification performance.

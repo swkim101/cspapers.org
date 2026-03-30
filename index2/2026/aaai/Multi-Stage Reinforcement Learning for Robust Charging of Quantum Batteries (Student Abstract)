@@ -1,0 +1,25 @@
+Quantum batteries have emerged as a next-generation energy
+storage solution, leveraging quantum phenomena such as
+superabsorption to overcome the limitations of conventional
+energy technologies.
+However, noise arising from interactions with the external
+environment degrades the charging efficiency and stability
+of the battery by disrupting the system's quantum coherence.
+To address this challenge, this study proposes a robust
+charging framework for a single-qubit quantum battery based
+on the Jaynes-Cummings (JC) model.
+The proposed framework combines the Proximal Policy
+Optimization (PPO) algorithm with a multi-stage
+reinforcement learning structure.
+The agent first learns fundamental control principles in a
+noise-free, ideal environment and subsequently performs
+robust learning in progressively noisier and more complex
+settings.
+Simulation results demonstrate that the trained agent
+navigates a stable charging trajectory on the Bloch sphere,
+thereby achieving high ergotropy even in the presence of
+noise.
+These findings suggest that multi-stage reinforcement
+learning is an effective solution for control problems in
+noisy quantum systems and provides a theoretical foundation
+for designing charging protocols for multi-qubit systems.

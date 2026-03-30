@@ -1,0 +1,7 @@
+Current video understanding models struggle with temporal
+reasoning and efficient processing while balancing detail
+preservation with computational efficiency. We propose a
+hierarchical memory system that segments videos into action
+and scene units, combined with question-aware agentic
+keyframe selection. Our method achieves 70.3% overall
+accuracy on VideoMME short video benchmarks.

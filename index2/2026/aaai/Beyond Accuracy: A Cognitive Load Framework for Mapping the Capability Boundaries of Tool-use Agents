@@ -1,0 +1,21 @@
+The ability of Large Language Models (LLMs) to use ex
+ternal tools unlocks powerful real-world interactions, mak
+ing rigorous evaluation essential. However, current bench
+marks primarily report final accuracy, revealing what mod
+els can do but obscuring the cognitive bottlenecks that define
+ their true capability boundaries. To move from simple per
+formance scoring to a diagnostic tool, we introduce a frame
+workgroundedinCognitive LoadTheory.Ourframeworkde
+constructs task complexity into two quantifiable components:
+ Intrinsic Load, the inherent structural complexity of the solu
+tion path, formalized with a novel Tool Interaction Graph; and
+ Extraneous Load, the difficulty arising from ambiguous task
+ presentation. To enable controlled experiments, we construct
+ ToolLoad-Bench, the first benchmark with parametrically ad
+justable cognitive load. Our evaluation reveals distinct per
+formance cliffs as cognitive load increases, allowing us to
+ precisely map each model’s capability boundary. We validate
+ that our framework’s predictions are highly calibrated with
+ empirical results, establishing a principled methodology for
+ understanding an agent’s limits and a practical foundation for
+ building more efficient systems.

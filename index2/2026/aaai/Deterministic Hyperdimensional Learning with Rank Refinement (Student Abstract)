@@ -1,0 +1,20 @@
+Hyperdimensional Computing (HDC) represents data as
+high-dimensional
+hypervectors that are robust and efficient for learning.
+Existing methods often rely on pseudo-random hypervector
+generation, which can suffer from poor orthogonality and
+high variance across runs, ultimately slowing convergence.
+These approaches typically require numerous iterations (20–
+100) to achieve acceptable accuracy. We propose a method
+that utilizes deterministic Sobol-based linear projections
+and
+rank-based retraining to construct more stable and
+discriminative
+hypervectors, thereby reducing class confusion. Unlike
+pseudo-random initialization, our projections guarantee
+reproducibility
+and better coverage of the feature space. As a result,
+our approach achieves up to 97% accuracy in only 5
+iterations.
+This makes our model up to 20× faster while simultaneously
+improving accuracy.

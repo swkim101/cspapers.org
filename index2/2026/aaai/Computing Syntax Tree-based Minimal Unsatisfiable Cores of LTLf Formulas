@@ -1,0 +1,4 @@
+Linear Temporal Logic on Finite Traces (LTLf) is a popular logic to express declarative specifications in Artificial Intelligence (AI). 
+The recent call for explainable AI tools has made relevant the problem of computing efficiently minimal unsatisfiable cores (MUCs) and minimal correction sets (MCSes) of LTLf formulas.
+Recent work has focused on the extraction of MUCs on formulas in conjunctive form.
+In this paper, we present a method that operates on arbitrary formulas and computes a more refined notion of MUCs, as introduced by Schuppan, along with the corresponding notion of MCSes. Experiments show that our system, based on Answer Set Programming, outperforms available tools.

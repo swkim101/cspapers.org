@@ -1,0 +1,11 @@
+Pre-trained gaze models learn to identify useful patterns commonly found across users, but subtle user-specific variations (i.e., eyelid shape or facial structure) can degrade model performance.
+Test-time personalization (TTP) adapts pre-trained models to these user-specific domain shifts using only a few unlabeled samples.
+Efficient fine-tuning is critical in performing this domain adaptation: data and computation resources can be limited-especially for on-device customization.
+While popular parameter-efficient fine-tuning (PEFT) methods address adaptation costs by updating only a small set of weights, they may not be taking full advantage of structures encoded in pre-trained filters.
+To more effectively leverage existing structures learned during pre-training, we reframe personalization as a process to reweight existing features rather than learning entirely new ones.
+
+We present Attentive Low-Rank Filter Adaptation (Alfa) to adapt gaze models by reweighting semantic patterns in pre-trained filters.
+With Alfa, singular value decomposition (SVD) extracts dominant spatial components that capture eye and facial characteristics across users.
+Via an attention mechanism, we need only a few unlabeled samples to adjust and reweight pre-trained structures, selectively amplifying those relevant to a target user.
+Alfa achieves the lowest average gaze errors across four cross-dataset gaze benchmarks, outperforming existing TTP methods and low-rank adaptation (LoRA)-based variants.
+We also show that Alfa's attentive low-rank methods can be applied to applications beyond vision, such as diffusion-based language models.

@@ -1,0 +1,6 @@
+Economic decision‑making depends not only on structured signals—such as prices and taxes—but also on unstructured language, including peer dialogue and media narratives. While multi‑agent reinforcement learning (MARL) has shown promise in optimizing economic decisions, it struggles with the semantic ambiguity and contextual richness of language. We propose LAMP (Language‑Augmented Multi‑Agent Policy), the first framework to integrate language into economic decision‑making, narrowing the gap to real‑world settings.
+LAMP follows a Think–Speak–Decide pipeline:
+(1) Think interprets numerical observations to extract short‑term shocks and long‑term trends, caching high‑value reasoning trajectories.
+(2) Speak crafts and exchanges strategic messages based on the reasoning, updating beliefs by parsing peer communications.
+(3) Decide fuses numerical data, reasoning, and reflections into a MARL policy to optimize language‑augmented decision‑making.
+Experiments in economic simulation show that LAMP outperforms both MARL and LLM‑only baselines in cumulative return (+63.5%, +34.0%), robustness (+18.8%, +59.4%), and interpretability. These results demonstrate the potential of language‑augmented policies to deliver more effective and robust economic strategies.

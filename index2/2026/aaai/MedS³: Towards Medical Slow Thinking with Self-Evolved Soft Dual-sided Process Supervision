@@ -1,0 +1,8 @@
+Medical language models face critical barriers to real-world clinical reasoning applications. 
+However, mainstream efforts, which fall short in task coverage, lack fine-grained supervision for intermediate reasoning steps, and rely on proprietary systems, are still far from a versatile, credible and efficient language model for clinical reasoning usage.
+To this end, we propose MedS3, a self-evolving framework that imparts robust reasoning capabilities to small, deployable models. 
+Starting with 8,000 curated instances sampled via a curriculum strategy across five medical domains and 16 datasets, we use a small base policy model to conduct Monte Carlo Tree Search (MCTS) for constructing rule-verifiable reasoning trajectories. 
+Self-explored reasoning trajectories ranked by node values are used to bootstrap the policy model via reinforcement fine-tuning and preference learning. 
+Moreover, we introduce a soft dual process reward model that incorporates value dynamics: steps that degrade node value are penalized, enabling fine-grained identification of reasoning errors even when the final answer is correct.
+Experiments on eleven benchmarks show that MedS3 outperforms the previous state-of-the-art medical model by +6.45 accuracy points and surpasses 32B-scale general-purpose reasoning models by +8.57 points.
+Additional empirical analysis further demonstrates that MedS3 achieves robust and faithful reasoning behavior.

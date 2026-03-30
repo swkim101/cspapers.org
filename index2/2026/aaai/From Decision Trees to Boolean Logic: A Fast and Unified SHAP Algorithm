@@ -1,0 +1,9 @@
+SHapley Additive exPlanations (SHAP) is a key tool for interpreting decision tree ensembles by assigning contribution values to features. It is widely used in finance, advertising, medicine, and other domains. Two main approaches to SHAP calculation exist: Path-Dependent SHAP, which leverages the tree structure for efficiency, and Background SHAP, which uses a background dataset to estimate feature distributions.
+
+We introduce Woodelf, a SHAP algorithm that integrates decision trees, game theory, and Boolean logic into a unified framework. 
+For each consumer, Woodelf constructs a pseudo-Boolean formula that captures their feature values, the structure of the decision tree ensemble, and the entire background dataset. It
+then leverages this representation to compute Background SHAP in linear time. Woodelf can also compute Path-Dependent SHAP, Shapley interaction values, Banzhaf values, and Banzhaf interaction values.
+
+Woodelf is designed to run efficiently on CPU and GPU hardware alike. Available via the Python package woodelf, it is implemented using NumPy, SciPy, and CuPy without relying on custom C++ or CUDA code. This design enables fast performance and seamless integration into existing frameworks, supporting large-scale computation of SHAP and other game-theoretic values in practice.
+
+For example, on a dataset with 3,000,000 rows, 5,000,000 background samples, and 127 features, Woodelf computed all Background Shapley values in 162 seconds on CPU and 16 seconds on GPU—compared to 44 minutes required by the best method on any hardware platform, representing 16x and 165x speedups, respectively.

@@ -1,0 +1,7 @@
+With the rise of vertical segmentation in real-world data, federated graph-level clustering has gained significant attention in recent years.
+However, the inherent missing attributes in graph datasets held by certain clients lead to suboptimal local parameter updates and misaligned global parameter consensus. This results in knowledge shifts during negotiation to ultimately impair overall clustering performance. 
+This issue remains largely underexplored in the current advanced research.
+To bridge this gap, we propose a novel deep learning network called Federated Graph-level Clustering Network with Attribute Inference (FedAI), which utilizes high-confidence prior knowledge from each domain and multi-party collaborative optimization to achieve efficient reasoning of unknown features. 
+Specifically, on the client, high-confidence graph samples are projected into a latent space. We then extract and upload irreversible path digest information and attribute-oriented inference signals from them.
+On the server, we first identify affinity relationships hierarchically via the improved graph kernel method. We then infer the features of clients lacking node attributes through a prior structure-guide recovery operator, facilitating inter-client knowledge transfer for better clustering.
+Experimental results on 15 cross-dataset and cross-domain non-IID graph datasets demonstrate that FedAI consistently outperforms existing methods.

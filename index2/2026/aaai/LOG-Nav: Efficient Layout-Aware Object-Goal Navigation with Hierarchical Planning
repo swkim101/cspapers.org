@@ -1,0 +1,4 @@
+We introduce LOG-Nav, an efficient layout-aware object-goal navigation approach designed for complex multi-room indoor environments. 
+By planning hierarchically leveraging a global topologigal map with layout information and local imperative approach with detailed scene representation memory, LOG-Nav achieves both efficient and effective navigation.
+The process is managed by an LLM-powered agent, ensuring seamless effective planning and navigation, without the need for human interaction, complex rewards, or costly training.
+Our experimental results on the MP3D benchmark achieves 85% object navigation success rate (SR) and 79% success rate weighted by path length (SPL) (over 40% point improvement in SR and 60% improvement in SPL compared to exsisting methods). Furthermore, we validate the robustness of our approach through virtual agent and real-world robotic deployment, showcasing its capability in practical scenarios.

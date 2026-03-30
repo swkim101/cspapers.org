@@ -1,0 +1,6 @@
+We revisit the problem of generating synthetic data under differential privacy.
+To address the core limitations of marginal-based methods, we propose the Private Adaptive Generative Adversarial Network with Bayes Network Structure (PrAda-GAN), which integrates the strengths of both GAN-based and marginal-based approaches.
+Our method adopts a sequential generator architecture to capture complex dependencies among variables, while adaptively regularizing the learned structure to promote sparsity in the underlying Bayes network.
+Theoretically, we establish diminishing bounds on the parameter distance, variable selection error, and Wasserstein distance.
+Our analysis shows that leveraging dependency sparsity leads to significant improvements in convergence rates.
+Empirically, experiments on both synthetic and real-world datasets demonstrate that PrAda-GAN outperforms existing tabular data synthesis methods in terms of the privacy–utility trade-off.

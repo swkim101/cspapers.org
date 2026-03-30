@@ -1,0 +1,5 @@
+Linear Temporal Logic over finite traces (LTLf) is a widely used formalism with applications in AI, process mining, model checking, and more. 
+The primary reasoning task for LTLf is satisfiability checking; yet, the recent focus on explainable AI has increased interest in analyzing inconsistent formulae, making the enumeration of minimal explanations for unsatisfiability a relevant task also for LTLf. 
+We introduce a novel technique for enumerating minimal unsatisfiable cores (MUCs) of an LTLf specification. 
+The main idea is to encode an LTLf formula into an Answer Set Programming (ASP) specification, such that the minimal unsatisfiable subsets (MUSes) of the ASP program directly correspond to the MUCs of the original LTLf specification.
+Leveraging recent advancements in ASP solving yields an MUC enumerator achieving good performance in experiments conducted on established benchmarks from the literature.

@@ -1,0 +1,11 @@
+Large language models (LLMs) may generate harmful outputs on malicious inputs.
+Existing safety methods, including prompt engineering and model editing, rely on hand-crafted templates or target-driven parameter modifications, limiting their generalizability in unseen harmful scenarios.
+Post-training aims to ensure LLM safety in general domains via supervised fine-tuning (SFT) or reinforcement learning (RL) on diverse malicious inputs.
+SFT needs annotated refusal samples while RL learns to refuse risk by exploring diverse harmful inputs. However, these methods tend to harshly refuse over any possible risks, sacrificing potentially useful information and degrading model utility.
+We argue that realistic malicious inputs often mix both harmful and helpful semantics (i.e., entities and relations), and LLMs should identify and remove only harmful relations while preserving useful ones. Thus, the original malicious user inputs can shift into safe queries, to which LLMs can respond safely and helpfully.
+In this paper, we propose WALKSAFE, a graph-based risk-aware training framework that enables LLMs to identify potential risks of key semantics (entities and relations) in user inputs via graph structure.
+By filtering harmful relations, LLMs can respond to safe input queries and then generate their corresponding safe and helpful responses.
+First, we model all entities and relations in the inputs with a graph structure. Second, we adopt a risk-aware random walk on the graph to quantify potential risk under multiple entities and relations.
+Then, we reconstruct safe queries by filtering harmful relations to promote the LLM to answer safely and helpfully rather than with direct refusals. 
+Finally, we propose Bi-GRPO to post-train LLMs. As vanilla GRPO conducts only the intra-group comparison, Bi-GRPO performs both intra-group and inter-group comparisons between different response groups. The extra inter-group rewards encourage the model to distinguish harmful and safe semantics, and thus prefer safe and helpful responses.
+Experiments on three LLMs show that our models obtain SOTA results.

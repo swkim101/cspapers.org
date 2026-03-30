@@ -1,0 +1,11 @@
+Facial Emotion Analysis (FEA) extends traditional facial emotion recognition by incorporating explainable, fine-grained reasoning. 
+The task integrates three subtasks—emotion recognition, facial Action Unit (AU) recognition, and AU-based emotion reasoning—to jointly model affective states. 
+While recent approaches leverage Vision-Language Models (VLMs) and achieve promising results, they face two critical limitations: 
+(1) hallucinated reasoning, where VLMs generate plausible but inaccurate explanations due to insufficient emotion-specific knowledge; 
+and (2) misalignment between emotion reasoning and recognition, caused by fragmented connections between observed facial features and final labels.
+We propose Facial-R1, a three-stage alignment framework that effectively addresses both challenges with minimal supervision. 
+First, we employ instruction fine-tuning to establish basic emotional reasoning capability for reducing hallucinations. 
+Second, we introduce reinforcement training guided by emotion and AU labels as reward signals, which explicitly aligns the generated reasoning process with the predicted emotion. 
+Third, we design a data synthesis pipeline that iteratively leverages the prior stages to expand the training dataset, enabling scalable self-improvement of the model.
+Built upon this framework, we introduce FEA-20K, a benchmark dataset comprising 17,737 training and 1,688 test samples with fine-grained emotion analysis annotations. 
+Extensive experiments across eight standard benchmarks demonstrate that Facial-R1 achieves state-of-the-art performance in FEA, with strong generalization and robust interpretability.

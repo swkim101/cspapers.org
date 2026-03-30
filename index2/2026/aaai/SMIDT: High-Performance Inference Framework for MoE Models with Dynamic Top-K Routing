@@ -1,0 +1,8 @@
+To accelerate Mixture-of-Experts (MoE) inference, the hybrid parallelism paradigm is first applying pipeline parallelism (PP) to vertically divide the model into stages, with each stage further divided horizontally using tensor or expert parallelism. On the algorithm side, dynamic Top-K routing reduces computation by activating fewer experts per token on average. 
+In this paper, we explore the application of dynamic Top-K routing to PP-enabled MoE inference, aiming to fully unleash their combined potential. We identify key performance bottlenecks arising from Top-K value variation across layers, which conflicts with PP's typically uniform stage partitioning, as well as opportunities to optimize memory usage through their integration.
+
+To address these challenges, we present SMIDT, an efficient MoE inference framework tailored for dynamic Top-K routing. 
+SMIDT features: (1) an adaptive, module-level uneven partitioning strategy to balance computation across PP stages, (2) a memory-aware expert replication scheme (DPMoE) that reduces communication overhead, and (3) a lightweight search algorithm combining binary search and dynamic programming to generate efficient parallelism plans. 
+We implement SMIDT on SGLang, a state-of-the-art LLM inference framework, evaluate it on 32 A40 GPUs and 16 A100 GPUs, and compare with manually tuned parallelism strategies. 
+Experimental results show that, when co-locating prefill and decoding phases, SMIDT achieves 1.20–3.13x throughput improvements for prefill-only tasks and 1.05–1.89x for prefill-decoding tasks. 
+When disaggregating prefill and decoding tasks, SMIDT improves average and P99 time-to-first-token (TTFT) by 1.10–1.17x and 1.21–1.26x, respectively.

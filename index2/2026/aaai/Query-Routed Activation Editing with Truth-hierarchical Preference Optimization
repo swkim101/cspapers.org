@@ -1,0 +1,9 @@
+Hallucination has emerged as a pivotal challenge of 
+Large Language Models (LLMs) that generate plausible yet non‑factual content, significantly impeding the trustworthy AI applications in real-world scenarios like medical diagnosis and autonomous driving.
+Editing the internal activations of LLMs during inference has shown promising effectiveness in mitigating hallucinations with minimal cost. 
+However, previous editing approaches neglect the query‑specific inference pathways that require tailored truthful steering vectors, resulting in suboptimal hallucination mitigation. 
+To address these issues, we propose the Query-Routed Activation Editing (QRAE) framework, which comprises Divergence-sensitive Head Routing (DHR) and Truth-hierarchical Preference Steering (TPS), to fully leverage query-specific semantics for adaptive activation editing. 
+Specifically, DHR is proposed to establish a query-aware head selection criterion, thereby dynamically routing to truth-critical attention heads.
+Subsequently, TPS introduces a query-specific steering vector calibration policy with the guidance of progressive truth-preferred optimization, enabling precise and adaptive editing for each distinct query. 
+Extensive experiments on the widely recognized TruthfulQA benchmark demonstrate that QRAE outperforms SOTA methods by up to 13.2% in MC1. 
+Meanwhile, QRAE demonstrates strong generalization to out-of-distribution TriviaQA and Natural Questions benchmarks.

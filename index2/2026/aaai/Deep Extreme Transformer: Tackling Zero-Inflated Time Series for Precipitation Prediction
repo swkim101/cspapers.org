@@ -1,0 +1,16 @@
+Rainfall forecasting presents a dual challenge: extreme zero
+inflation, where dry days dominate and obscure meaningful precipitation patterns, and pronounced nonstationarity,
+where climate dynamics evolve across time and regimes. We
+propose the Deep Extreme Transformer (DET), a principled architecture that integrates statistical distribution mod-
+eling with neural sequence learning to address both issues simultaneously. DET augments the Transformer with
+a Tweedie distribution output head that unifies discrete zeros and continuous intensities, a fixed shared-weight mech-
+anism that emphasizes rare but critical events in both attention and loss computation, and a Gaussian perturbation strat-
+egy that enhances learning stability without violating physical
+constraints. DET further incorporates nonstationary attention
+to adapt to evolving rainfall regimes. Extensive experiments
+on multi-decadal South Australian climate data demonstrate
+that DET consistently outperforms existing deep learning and
+statistical models across forecasting horizons. Our method
+provides an effective and generalizable framework for zero-
+inflated, shift-prone time series, bridging statistical rigor with
+deep temporal modeling in a unified and scalable design.

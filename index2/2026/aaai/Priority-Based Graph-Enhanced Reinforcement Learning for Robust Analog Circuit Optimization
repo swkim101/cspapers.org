@@ -1,0 +1,7 @@
+A primary motivation for analog integrated circuit (IC) design automation is the inefficiency of manual design in meeting increasingly stringent specifications, which often involve over 10 objectives. 
+Recent advances in reinforcement learning (RL) emerge as a promising method, yet gaps remain when considering full design specifications, especially under process-voltage-temperature (PVT) variations.
+Excessive objectives lead to diminished reward signals, while varying PVT conditions result in conflicting gradients, both of which result in inefficient exploration.
+To address these, we propose a priority-based graph-enhanced RL framework.
+Specifically, using fuzzy logic converts quantitative rewards into qualitative priority signals, mitigating reward deterioration and enhancing exploration via entropy regularization. 
+Furthermore, a graph-based representation compresses high-dimensional objective spaces under PVT variations into low-dimensional manifolds, enabling dynamic resource allocation to variation-sensitive regions and resolving gradient conflicts. 
+Empirical results on various real-world analog ICs demonstrate that our method significantly outperforms existing RL algorithms, achieving superior solution quality and reducing simulation overhead.

@@ -1,0 +1,6 @@
+Despite significant advancements in general AI, its effectiveness in the medical domain is limited by the lack of specialized medical knowledge. 
+To address this, we formulate GMAI-VL-5.5M, a multimodal medical dataset created by converting hundreds of specialized medical datasets with various annotations into high-quality image-text pairs. 
+This dataset offers comprehensive task coverage, diverse modalities, and rich image-text data. 
+Building upon this dataset, we develop GMAI-VL, a 7B-parameter general medical vision-language model, with a three-stage training strategy that enhances the integration of visual and textual information. 
+This approach significantly improves the model's ability to process multimodal data, supporting accurate diagnoses and clinical decision-making. 
+Experiments show that GMAI-VL achieves state-of-the-art performance across various multimodal medical tasks, including visual question answering and medical image diagnosis.

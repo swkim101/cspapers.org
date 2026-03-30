@@ -1,0 +1,15 @@
+Real-world AI systems are tackling increasingly complex
+problems, often through interactions among Large Language
+Model (LLM) agents. When these agents develop inconsistent
+conventions, coordination can break down. Applications such
+as collaborative coding and distributed planning therefore
+require reliable, consistent communication, and scalability
+is a central concern as systems grow. We introduce
+Schema-Induced Games for Naming (SIGN), a naming game that
+examines how lightweight structure can steer convention
+formation. We compare schema-induced communication to
+unconstrained natural language and find faster convergence
+with up to 5.8× higher agreement. These results suggest
+that minimal structure can act as a simple control knob for
+efficient multi-agent coordination, pointing toward broader
+applications beyond the naming game.

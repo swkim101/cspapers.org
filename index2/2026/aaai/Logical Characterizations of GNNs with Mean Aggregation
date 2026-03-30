@@ -1,0 +1,18 @@
+We study the expressive power of graph neural networks 
+(GNNs) with mean as the aggregation function, with the 
+following results. In the non-uniform setting, such GNNs have 
+exactly the same expressive power as ratio modal logic, which 
+has modal operators expressing that at least a certain ratio 
+of the successors of a vertex satisfies a specified property. In 
+the uniform setting, the expressive power relative to MSO is 
+exactly that of modal logic, and thus identical to the (absolute) 
+expressive power of GNNs with max aggregation. The proof, 
+however, depends on constructions that are not satisfactory 
+from a practical perspective. This leads us to making the 
+natural assumptions that combination functions are continuous
+and classification functions are thresholds. The resulting class 
+of GNNs with mean aggregation turns out to be much less 
+expressive: relative to MSO and in the uniform setting, it has the 
+same expressive power as alternation-free modal logic. This 
+is in contrast to the expressive power of GNNs with max and 
+sum aggregation, which is not affected by these assumptions.

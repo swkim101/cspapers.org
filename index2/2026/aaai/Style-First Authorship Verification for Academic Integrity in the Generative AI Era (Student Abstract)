@@ -1,0 +1,25 @@
+With the rise of generative artificial intelligence
+(GenAI), academic dishonesty in classrooms has skyrocketed,
+yet the existing solutions for detecting such dishonesty
+often fall short. Standard "AI detectors" merely analyze
+one text at a time, failing to account for students'
+previous writings, which risks erroneous predictions.
+Meanwhile, existing token-based authorship verification
+(AV) models fail to analyze the nuances in writing styles
+that truly distinguish authorship. To fill this existing
+gap, we propose a novel AV framework that combines
+token-level stylometric features (e.g., POS tag patterns)
+with handcrafted stylistic features (e.g., sentence
+structure variation) to construct a comprehensive feature
+set. Using both benchmark corpora and real-world high
+school student essays, we trained multiple machine learning
+classifiers using the proposed feature set. Our initial
+experiments show that our approach outperforms the standard
+token-only baselines by over 25%, while offering
+interpretable, style-based insights. These preliminary
+results highlight the importance of nuanced stylistic
+features and suggest that a holistic AV system can provide
+educators with more reliable and transparent detection
+tools. Looking ahead, we plan to extend this work with
+large language models and multi-agent approaches to further
+enhance robustness and adaptability.

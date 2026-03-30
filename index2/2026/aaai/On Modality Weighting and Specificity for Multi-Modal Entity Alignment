@@ -1,0 +1,10 @@
+Multi-modal entity alignment aims to identify equivalent entities across different multi-modal knowledge graphs (MMKGs). 
+While prior work has achieved notable progress through improved multi-modal encoding and cross-modal fusion techniques, two critical challenges remain unresolved. 
+First, due to the heterogeneous and often inconsistent sources from which MMKGs are constructed, the quality and informativeness of modalities vary significantly across entities, leading to the modality weighting problem. 
+Second, existing cross-modal fusion mechanisms predominantly emphasize modality-shared information, often at the expense of modality-specific signals that are also essential for precise alignment.
+To address these issues, we propose HUMEA, a novel framework that integrates hierarchical Mixture-of-Experts (MoE) with unimodal distillation. 
+HUMEA consists of: 
+(1) A hierarchical MoE module comprising intra-modal and inter-modal experts, which adaptively modulates modality contributions by capturing entity representations at fine-to-coarse semantic granularities. 
+In addition, we introduce a contrastive mutual information loss to enhance expert diversity and reduce redundancy. 
+(2) A unimodal distillation strategy that preserves modality-specific information in the fused representations through single-modality alignment and distillation, achieving a balanced integration of shared and unique modality features.
+Extensive experiments on two benchmark datasets, FB15K-DB15K and FB15K-YAGO15K, demonstrate state-of-the-art performance, validating the effectiveness of our approach.

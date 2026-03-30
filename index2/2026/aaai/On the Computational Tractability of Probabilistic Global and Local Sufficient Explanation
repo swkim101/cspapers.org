@@ -1,0 +1,8 @@
+Explainable AI (XAI) seeks to answer the question: which features of the data led a model to make its decision?
+Sufficient reasons are an important concept for understanding the behaviour of machine learning models,
+as they identify the key characteristics responsible for the prediction of an individual instance.
+Recent work introduced probabilistic global sufficient reasons, extending sufficient reasons from the single-instance level
+to all instances in the feature domain, thereby providing a global understanding of the classifier.
+However, prior work on this notion has been purely theoretical, without empirical evaluation.
+In this paper, we aim to fill this gap by developing practical methods for computing probabilistic global sufficient reasons
+and evaluating them on decision trees and circuit-based models.

@@ -1,0 +1,29 @@
+Robust medical image classification under input corruption
+and bag-level annotation remains a critical challenge in clinical
+AI applications. We propose QAPNet, a Quantum-
+Attentive Patchwise Network that integrates quantum neural
+encoding, additive attention-based instance reweighting, and
+prototype-contrastive regularization for reliable diagnosis
+from degraded inputs. Our framework uses a sliding-window
+strategy to divide each MRI medical Image into overlapping
+patches, where each is encoded via an 8-qubit quantum circuit
+using RY -based noise-sensitive layers for yielding expressive
+low-dimensional representations without relying on
+classical CNNs. A lightweight additive attention mechanism
+computes instance-wise importance weights that enable interpretable
+and noise-aware bag-level aggregation. To enhance
+robustness, we apply a contrastive loss that aligns clean and
+noisy embeddings and enforce prototype-guided clustering
+via class-wise centroids. We evaluate QAPNet across seven
+benchmark medical imaging datasets under three levels of
+additive Gaussian noise (σ ∈ {5%, 10%, 30%}). QAPNet
+consistently outperforms eight strong baselines and achieves
+up to +20.8% higher accuracy in OASIS (with 30% noise),
++17.7% in PathMNIST, and maintains stable performance
+(< 4% degradation) in all settings. Ablation studies confirm
+the critical role of quantum encoding, attention-based aggregation,
+and prototype contrastive learning. These results suggest
+that QAPNet offers a scalable and interpretable architecture
+for noisy medical imaging tasks in the real world to
+bridge the quantum representation learning with robust clinical
+prediction.

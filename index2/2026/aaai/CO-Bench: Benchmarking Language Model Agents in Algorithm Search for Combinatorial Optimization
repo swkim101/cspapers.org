@@ -1,0 +1,5 @@
+Although LLM-based agents have attracted significant attention in domains such as software engineering and machine learning research, their role in advancing combinatorial optimization (CO) remains relatively underexplored. 
+This gap underscores the need for a deeper understanding of their potential in tackling structured, constraint-intensive problems---a pursuit currently limited by the absence of comprehensive benchmarks for systematic investigation. 
+To address this, we introduce CO-Bench, a benchmark suite featuring 36 real-world CO problems drawn from a broad range of domains and complexity levels. 
+CO-Bench includes structured problem formulations and curated data to support rigorous investigation of LLM agents. 
+We evaluate multiple agentic frameworks against established human-designed algorithms, revealing the strengths and limitations of existing LLM agents and identifying promising directions for future research.

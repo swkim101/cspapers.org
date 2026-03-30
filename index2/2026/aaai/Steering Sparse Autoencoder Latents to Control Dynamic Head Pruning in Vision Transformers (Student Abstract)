@@ -1,0 +1,17 @@
+Dynamic head pruning in Vision Transformers (ViTs) improves
+efficiency by removing redundant attention heads, but
+existing pruning policies are often difficult to interpret
+and control. In this work, we propose a novel framework by
+integrating Sparse Autoencoders (SAEs) with dynamic
+pruning, leveraging their ability to disentangle dense
+embeddings into interpretable and controllable sparse
+latents. Specifically, we train an SAE on the final-layer
+residual embedding of the ViT and amplify the sparse
+latents with different strategies to alter pruning
+decisions. Among them, per-class steering reveals compact,
+class-specific head subsets that preserve accuracy. For
+example, bowl improves accuracy (76%→82%) while reducing
+head usage (0.72→0.33) via heads h2 and h5. These results
+show that sparse latent features enable class-specific
+control of dynamic pruning, effectively bridging pruning
+efficiency and mechanistic interpretability in ViTs.

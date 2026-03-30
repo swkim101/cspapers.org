@@ -1,0 +1,7 @@
+Accurate medical diagnosis often relies on both textual self-reported symptoms and structured medical examination results of patients. However, these examinations vary significantly in cost—measured in time, money, or patient discomfort---creating a challenging trade-off between diagnostic accuracy and resource efficiency.
+To address this issue, we propose a dynamic diagnostic framework that incrementally selects medical examinations based on individual characteristics of each patient. Starting with textual self-reported symptoms and basic demographic, the system determines follow-up examinations step-by-step, improving accuracy while minimizing additional costs.
+Specifically, we introduce Dynamic feature selection with Instance-Specific Cost sensitivity (DISC). 
+DISC treats each examination as a feature and learns to acquire them sequentially to optimize predictive performance under personalized cost constraints.
+To support richer clinical understanding, we further develop a multimodal framework that integrates unstructured self-reported symptom text with structured medical examination data.
+We conduct experiments on 680,000 patients with 43 million medical examination records, demonstrating that DISC high diagnostic accuracy even when accounting for examination costs.
+Our work provides substantial momentum for the advancement of AI in healthcare, offering both methodological and practical foundations that can significantly accelerate the deployment of intelligent, cost-aware diagnostic systems in real-world clinical settings.

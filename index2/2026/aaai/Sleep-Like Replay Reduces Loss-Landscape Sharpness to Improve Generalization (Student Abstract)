@@ -1,0 +1,16 @@
+One of the central challenges in deep learning is that
+models trained on new tasks often overfit and lose the
+ability to generalize. This issue arises because gradient
+descent often converges to solutions in regions of the loss
+landscape that are sharp near their minima. High sharpness
+leads to rapid performance loss when test data are
+perturbed or statistically shifted. Although sharpness has
+been linked to generalization, few methods directly target
+it to improve generalization. Here we demonstrate that an
+unsupervised, sleep-like replay algorithm identifies low
+loss regions with lower sharpness leading to improvement in
+generalization to distortions, including Gaussian and
+salt-and-pepper noise. Our study identifies loss-function
+sharpness as a unifying measure for generalizable learning
+and robustness, and points to new principles for designing
+resilient AI systems.

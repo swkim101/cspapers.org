@@ -1,0 +1,9 @@
+Multimedia technologies leverage multi-source to alleviate real-world data incompleteness, providing a versatile platform for multi-view learning.
+Among existing research, graph-based multi-view learning has achieved notable success.
+However, prior studies always immerse in comprehensive collaboration across all views and nodes to pursue consistency and complementary, which ignore the negative contribution of nodes from low-quality views.
+To overcome the above limitation, we explore node behavior selection in multi-view dynamic modeling and propose a knowledge-aware multi-view state space model.
+Specifically, nodes autonomously select either activation sequences or static sequences according to their current knowledge.
+In the former, we design the mask-based attention mechanism to capture the dynamics of node behaviors. 
+In the latter, we construct a history pool and simulate synaptic signals to regulate the behavioral distribution of nodes. 
+Moreover, the proposed model provides a directional inter-view diffusion equation that selectively propagates information to alleviate interference from low-quality nodes across views.
+Extensive experiments demonstrate that the proposed model outperforms baselines on multiple benchmarks and achieves significant performance improvement.

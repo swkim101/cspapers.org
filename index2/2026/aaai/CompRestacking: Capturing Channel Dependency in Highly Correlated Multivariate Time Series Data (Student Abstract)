@@ -1,0 +1,14 @@
+The consideration of channel correlation is crucial for
+improving the performance of multivariate time series
+forecasting. However, existing models fail to capture it in
+homogeneous and highly correlated channels. In this work,
+we introduce CompRestacking (Compression Restacking), a
+strikingly intuitive and effective method to address this
+problem. The approach consists of three main components:
+(1) PCC-Restacking for correlation-aware channel ordering,
+(2) Temporal embedding for time encoding, and (3)
+Aggregation compression for compact token generation.
+CompRestacking consistently outperforms in experiment
+results. The results demonstrate that CompRestacking
+leverages strong channel correlations for improved
+performance.

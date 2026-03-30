@@ -1,0 +1,16 @@
+Large language models (LLMs) often perform better when
+prompted to explain their reasoning, but it remains unclear
+how well such gains persist as reasoning depth increases.
+In this work, we propose a depth-aware evaluation framework
+alongside the performance results on two structured
+datasets: CLUTRR (kinship reasoning) and ProofWriter
+(logical entailment), comparing direct vs. reasoning
+(reasoning depth = number of inference steps required)
+prompts across five models. Reasoning gave small gains at
+shallow depths but quickly weakened and often reversed as
+tasks grew more complex. In ProofWriter, GPT-5 reached 90%
+accuracy at depth four in direct model, yet its reasoning
+accuracy fell below baseline after depth two. Smaller
+open-source models showed only unstable or negligible
+gains, underscoring that reasoning in LLMs remains brittle
+with increased depth.

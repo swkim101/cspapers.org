@@ -1,0 +1,15 @@
+Public health and clinical decisions are intertwined. Public
+health crises place a high burden on healthcare facilities, forcing them to make decisions such as maintaining quality verses
+treating more people. Meanwhile, sub-optimal clinical decisions also cause downstream effects on communities. For ex-
+ample, discharging patients too early may increase disease
+spread. Motivated by this, we bring a data-centric perspective
+to bridge clinical decisions within the context of infectious
+diseases for public health. This work addresses multiple challenges arising from effectively utilizing rich clinical datasets
+and issues stemming from the complexity of disease spread
+dynamics in healthcare facilities. We will cover methods
+developed to address these challenges with better designed
+models to optimize disease surveillance and control policies
+and new techniques for end-to-end learning with mechanistic
+models. We will conclude by discussing emerging challenges
+and opportunities at the intersection of machine learning, scientific modeling, and clinical decision-making for computer
+scientists, epidemiologists, and computational biologists.

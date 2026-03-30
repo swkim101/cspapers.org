@@ -1,0 +1,19 @@
+Visual Autoregressive (VAR) models adopt a next-scale prediction paradigm, offering high-quality content generation
+with substantially fewer decoding steps. However, existing
+VAR models suffer from significant attention complexity and
+severe memory overhead due to the accumulation of key-value (KV) caches across scales. In this paper, we tackle
+this challenge by introducing KV cache compression into the
+next-scale generation paradigm. We begin with a crucial observation: attention heads in VAR models can be divided into
+two functionally distinct categories: Contextual Heads focus
+on maintaining semantic consistency, while Structural Heads
+are responsible for preserving spatial coherence. This structural divergence causes existing one-size-fits-all compression
+methods to perform poorly on VAR models. To address this,
+we propose HACK, a training-free Head-Aware KV cache
+Compression frameworK. HACK utilizes an offline classification scheme to separate head types, enabling it to apply pattern-specific compression strategies with asymmetric
+cache budgets for each category. By doing so, HACK effectively constrains the average KV cache length within a
+fixed budget B, reducing the theoretical attention complexity
+from O(n4) to O(Bn2). Extensive experiments on multiple
+VAR models across text-to-image and class-conditional tasks
+validate the effectiveness and generalizability of HACK. It
+achieves up to 70% KV cache compression without degrading output quality, resulting in memory savings and faster in-
+ference. For example, HACK provides a 1.75× memory reduction and a 1.57× speedup on Infinity-8B.

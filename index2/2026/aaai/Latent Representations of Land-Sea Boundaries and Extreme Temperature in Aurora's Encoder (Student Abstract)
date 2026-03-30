@@ -1,0 +1,25 @@
+Deep learning models are emerging as strong alternatives to numerical weather prediction, yet their
+internal
+representations remain poorly understood. We analyze the
+latent
+space of Microsoft’s Aurora model to test whether its embed-
+dings align with known physical processes. First, we show
+that
+land–sea distinctions are strongly captured, with errors
+mainly
+at coastlines. Second, we examine extreme surface
+temperatures
+using percentile-based thresholds, finding that embeddings
+reveal
+a gradient from moderate to severe events, though recall
+degrades
+at the rarest percentiles. These results suggest that
+Aurora’s
+encoder encodes physically consistent features but
+underestimates
+rare extremes. Our study combines deep learning forecasting,
+interpretable representation learning, and classical ML
+probing,
+illustrating how cross-disciplinary AI methods can yield
+insight
+into foundation models

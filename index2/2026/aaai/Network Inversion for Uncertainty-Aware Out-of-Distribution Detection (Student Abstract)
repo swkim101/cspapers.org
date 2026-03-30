@@ -1,0 +1,21 @@
+Out-of-distribution (OOD) detection and uncertainty
+estimation (UE) are critical components for building safe
+machine learning systems. In this work, we propose a novel
+framework that combines network inversion with classifier
+training to simultaneously address both OOD detection and
+uncertainty estimation. We extend a standard n-class
+classifier by adding an (n+1)-th "garbage" class to capture
+outliers, initially populated with random Gaussian noise.
+After each training epoch, we use network inversion to
+reconstruct inputs for all classes; incoherent
+reconstructions are assigned to the garbage class for
+retraining. This iterative cycle of training, inversion,
+and exclusion continues until inverted samples resemble
+in-distribution data and uncertainty drops, indicating
+learned decision boundaries and cleaner class manifolds. At
+inference, the model detects OOD inputs by classifying them
+as garbage, with confidence scores estimating uncertainty.
+Unlike prior methods, this approach requires no external
+OOD data or post-hoc calibration, providing a simple,
+unified solution for robust classification, OOD detection,
+and uncertainty estimation.

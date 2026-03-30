@@ -1,0 +1,21 @@
+Dataset distillation methods learn a representative summary
+of the full dataset such that training on the distilled
+data is
+more efficient in terms of time and space. The current
+state-of-the-art methods exploit the correspondence between
+infinitely wide neural networks (NNs) and kernel ridge
+regression to design distillation methods that result in
+high-quality summaries of the data. In this work, we
+leverage the correspondence between infinitely wide
+networks and Gaussian Processes(GPs) for learning a
+distilled dataset. We investigate the feasibility of using
+the inducing points method for Gaussian Processes, as a
+data distillation method. While most of the existing
+dataset distillation methods are based on loss or gradient
+matching, our method looks at the function space
+approximation, facilitated by the NN-GP correspondence.
+Additionally, using recent theoretical results on GP
+regression and neural tangent kernels(NTKs), we also
+provide an upper bound on the size of the distilled data.
+We demonstrate the utility of inducing points as distilled
+data on a set of datasets empirically.

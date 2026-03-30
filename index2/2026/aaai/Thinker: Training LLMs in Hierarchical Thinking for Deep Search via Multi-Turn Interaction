@@ -1,0 +1,8 @@
+Efficient retrieval of external knowledge bases and web pages is crucial for enhancing the reasoning abilities of LLMs.
+Previous works on training LLMs to leverage external retrievers for solving complex problems have predominantly employed end-to-end reinforcement learning. However, these approaches neglect supervision over the reasoning process, making it difficult to guarantee logical coherence and rigor.
+To address these limitations, we propose Thinker, a hierarchical thinking model for deep search through multi-turn interaction, making the reasoning process supervisable and verifiable.
+It decomposes complex problems into independently solvable sub-problems, each dually represented in both natural language and an equivalent logical function to support knowledge base and web searches. 
+Concurrently, dependencies between sub-problems are passed as parameters via these logical functions, enhancing the logical coherence of the problem-solving process. 
+To avoid unnecessary external searches, we perform knowledge boundary determination to check if a sub-problem is within the LLM's intrinsic knowledge, allowing it to answer directly.
+Experimental results indicate that with as few as several hundred training samples, the performance of Thinker is competitive with established baselines. 
+Furthermore, when scaled to the full training set, Thinker significantly outperforms these methods across various datasets and model sizes.

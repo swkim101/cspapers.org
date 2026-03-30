@@ -1,0 +1,10 @@
+Pretrained vision-language models (VLMs), especially CLIP, excel at adapting to downstream tasks through fine-tuning with sufficient high-quality labeled data. 
+However, real-world training data often contains noisy labels, leading to significant performance degradation when models are naively fine-tuned on them. 
+Existing noisy label learning methods for VLMs typically leverage the model's own pretrained knowledge, either via zero-shot predictions or vanilla self-training based on them, to identify and handle noisy samples. 
+Crucially, these approaches blindly trust the VLM's pretrained knowledge, which can introduce endogenous confirmation bias: erroneous pretrained priors lead to incorrect noise detection, further amplifying the bias and corrupting the model.
+To overcome this limitation, we propose the Debiased Knowledge Adaptation Framework (DKAF), which empowers the model to challenge and correct potentially flawed zero-shot predictions. 
+DKAF operates in three progressive phases:
+(1) Clean Sample Selection. We introduce a cross-modal collaborative pseudo-labeling to train a robust noisy label detector, explicitly mitigating confirmation bias by aggregating diverse signals beyond the model's initial zero-shot view.
+(2) Noisy Label Refinement. For samples identified as noisy, we apply a dual-modal consistency strategy to selectively correct their labels, leveraging alignment between dominant and fused modalities to guide refinement while minimizing reliance on potentially biased internal knowledge.
+(3) Model Adaptation. The model is progressively fine-tuned using the jointly curated dataset of selected clean samples and corrected noisy samples, promoting robust adaptation to the target task.
+Extensive experiments on nine benchmark datasets (both synthetic and real-world noise) demonstrate that DKAF consistently outperforms state-of-the-art multimodal noisy label learning methods. Notably, under high-noise conditions, DKAF achieves average accuracy improvements of 3.08%.

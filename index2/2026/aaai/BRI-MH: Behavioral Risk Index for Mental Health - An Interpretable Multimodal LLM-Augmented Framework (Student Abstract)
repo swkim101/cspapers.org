@@ -1,0 +1,9 @@
+Mental health monitoring faces challenges from fragmented
+data and opaque risk scores. We present BRI-MH, an in-
+terpretable multimodal framework combining behavioral sig-
+nals with cognitive features from large language models to
+produce a weekly Behavioral Risk Index. Unlike prior work
+with isolated or black-box scores, BRI-MH offers transpar-
+ent, actionable insights and links continuous monitoring to
+adaptive feedback and therapeutic support, bridging digital
+phenotyping and clinical care.

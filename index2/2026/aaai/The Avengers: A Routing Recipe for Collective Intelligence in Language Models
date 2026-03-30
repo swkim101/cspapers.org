@@ -1,0 +1,8 @@
+Proprietary models are increasingly dominating the race for ever-larger language models. Can open-source, smaller models remain competitive across a broad range of tasks? 
+In this paper, we present the Avengers---a lightweight framework that leverages the collective intelligence of these smaller models. The Avengers builds upon four lightweight operations: (i) embedding: encode queries using a text embedding model;
+(ii) clustering: group queries based on their semantic similarity;
+(iii) scoring: scores each model's performance within each cluster;
+and (iv) voting: improve outputs via repeated sampling and voting.
+At inference time, each query is embedded and assigned to its nearest cluster. The top-performing model(s) within that cluster are selected to generate the response with repeated sampling.
+Remarkably, with 10 open-source models (~7B parameters each), the Avengers surpasses GPT-4o, 4.1, and 4.5 in average performance across 15 diverse datasets spanning mathematics, coding, logical reasoning, general knowledge, and affective tasks. In particular, it surpasses GPT-4.1 on mathematics tasks by 18.21% and on code tasks by 7.46%. 
+Furthermore, the Avengers delivers superior out-of-distribution generalization, and remains robust across various embedding models, clustering algorithms, ensemble strategies, data efficiency, and values of its sole parameter---the number of clusters.

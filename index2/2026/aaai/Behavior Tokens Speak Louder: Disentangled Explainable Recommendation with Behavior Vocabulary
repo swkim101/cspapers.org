@@ -1,0 +1,9 @@
+Recent advances in explainable recommendation have explored the integration of language models to analyze natural language rationales for user–item interactions.
+Despite their potential, existing methods often rely on ID-based representations that obscure semantic meaning and impose structural constraints on language models, thereby limiting their applicability in open-ended scenarios.
+These challenges are intensified by the complex nature of real-world interactions, where diverse user intents are entangled and collaborative signals rarely align with linguistic semantics.
+To overcome these limitations, we propose BEAT, a unified and transferable framework that tokenizes user and item behaviors into discrete, interpretable sequences. 
+We construct a behavior vocabulary via a vector-quantized autoencoding process that disentangles macro-level interests and micro-level intentions from graph-based representations. 
+We then introduce multi-level semantic supervision to bridge the gap between behavioral signals and language space.
+A semantic alignment regularization mechanism is designed to embed behavior tokens directly into the input space of frozen language models.
+Experiments on three public datasets show that BEAT improves zero-shot recommendation performance while generating coherent and informative explanations.
+Further analysis demonstrates that our behavior tokens capture fine-grained semantics and offer a plug-and-play interface for integrating complex behavior patterns into large language models.

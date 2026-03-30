@@ -1,0 +1,9 @@
+Retrieval-augmented generation (RAG) has proven to be effective in mitigating hallucinations in large language models, yet its effectiveness remains limited in complex, multi-step reasoning scenarios.
+Recent efforts have incorporated search-based interactions into RAG, enabling iterative reasoning with real-time retrieval. 
+Most approaches rely on outcome-based supervision, offering no explicit guidance for intermediate steps. 
+This often leads to reward hacking and degraded response quality. 
+We propose Bi-RAR, a novel retrieval-augmented reasoning framework that evaluates each intermediate step jointly in both forward and backward directions.
+To assess the information completeness of each step, we introduce a bidirectional information distance grounded in Kolmogorov complexity, approximated via language model generation probabilities. 
+This quantification measures both how far the current reasoning is from the answer and how well it addresses the question. 
+To optimize reasoning under these bidirectional signals, we adopt a multi-objective reinforcement learning framework with a cascading reward structure that emphasizes early trajectory alignment.
+Empirical results on seven question answering benchmarks demonstrate that Bi-RAR surpasses previous methods and enables efficient interaction and reasoning with the search engine during training and inference.

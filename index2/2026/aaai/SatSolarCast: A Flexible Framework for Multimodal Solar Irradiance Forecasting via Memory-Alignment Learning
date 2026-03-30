@@ -1,0 +1,7 @@
+Solar irradiance forecast aims to accurately estimate future solar irradiance based on historical data, playing a vital role in energy production and grid management. 
+While ground-based station measurements provide local accuracy, geostationary satellites offer much broader environmental contexts, such as cloud coverage, which serves as a key factor for accurate forecasting. 
+However, effectively integrating these multimodal observations remains a challenge, with existing methods suffering from inflexibility and high computational costs.
+To address this problem, we propose SatSolarCast, a flexible and efficient multimodal framework that introduces a memory alignment learning mechanism to integrate geostationary satellite data and historical irradiance observations. 
+By preserving and recalling long-term spatiotemporal patterns from a specialized satellite memory bank, SatSolarCast enables effective guidance for both short- and long-term prediction.
+Additionally, SatSolarCast offers plug-and-play compatibility and can be incorporated into various forecasting architectures. 
+Extensive experiments across four ground stations demonstrate that SatSolarCast substantially improves forecasting performance compared to prior methods with much lower computational costs.

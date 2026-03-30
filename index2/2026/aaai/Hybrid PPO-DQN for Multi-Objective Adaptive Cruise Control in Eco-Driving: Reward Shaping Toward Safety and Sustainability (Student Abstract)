@@ -1,0 +1,8 @@
+In adaptive cruise control (ACC), balancing safety,
+comfort, and sustainability still remains challenging.
+Accordingly, we propose a hybrid reinforcement learning
+framework combining proximal policy optimization (PPO) and
+deep Q-network (DQN) with a multi-objective reward for
+autonomous carbon-neutral eco-driving. Experimental results
+revealed the contrasts between eco and non-eco modes,
+underscoring how reward design shapes driving behaviors.

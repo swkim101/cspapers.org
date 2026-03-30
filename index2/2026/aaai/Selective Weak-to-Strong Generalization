@@ -1,0 +1,8 @@
+Future superhuman models will surpass the ability of humans and humans will only be able to \textit{weakly} supervise superhuman models.
+To alleviate the issue of lacking high-quality data for model alignment, some works on weak-to-strong generalization (W2SG) finetune a strong pretrained model with a weak supervisor so that it can generalize beyond weak supervision.
+However, the invariable use of weak supervision in existing methods exposes issues in robustness, with a proportion of weak labels proving harmful to models.
+In this paper, we propose a selective W2SG framework to avoid using weak supervision when unnecessary.
+We train a binary classifier P(IK) to identify questions that a strong model can answer and use its self-generated labels for alignment.
+We further refine weak labels with a graph smoothing method.
+Extensive experiments on three benchmarks show that our method consistently outperforms competitive baselines.
+Further analyses show that P(IK) can generalize across tasks and difficulties, which indicates selective W2SG can help superalignment.

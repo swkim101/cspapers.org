@@ -1,0 +1,8 @@
+Table images present unique challenges for effective and efficient understanding due to the need for question-specific focus and the presence of redundant background regions.
+Existing Multimodal Large Language Model (MLLM) approaches often overlook these characteristics, resulting in uninformative and redundant visual representations.
+To address these issues, we aim to generate visual features that are both informative and compact for improved table understanding.
+We first propose progressive question conditioning, which injects the question into Vision Transformer layers with gradually increasing frequency, considering each layer’s capacity to handle additional information, to generate question-aware visual features.
+To reduce redundancy, we introduce a pruning strategy that discards background tokens, thereby improving efficiency.
+To mitigate information loss from pruning, we further propose token focusing, a training strategy that encourages the model to concentrate essential information in the retained tokens.
+By combining these approaches, we present TabFlash, an efficient and effective MLLM for table understanding.
+TabFlash achieves state-of-the-art performance, outperforming both open-source and proprietary MLLMs, while requiring 27% less FLOPs and 30% less memory usage compared to the second-best MLLM.

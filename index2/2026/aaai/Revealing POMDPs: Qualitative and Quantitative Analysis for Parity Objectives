@@ -1,0 +1,8 @@
+Partially observable Markov decision processes (POMDPs) are a central model for uncertainty in sequential decision making. 
+The most basic objective is the reachability objective, where a target set must be eventually visited, and the more general parity objectives can model all omega-regular specifications.
+For such objectives, the computational analysis problems are the following: 
+(a) qualitative analysis that asks whether the objective can be satisfied with probability 1 (almost-sure winning) or probability arbitrarily close to 1 (limit-sure winning);
+and (b) quantitative analysis that asks for the approximation of the optimal probability of satisfying the objective.
+For general POMDPs, almost-sure analysis for reachability objectives is EXPTIME-complete, but limit-sure and quantitative analyses for reachability objectives are undecidable; almost-sure, limit-sure, and quantitative analyses for parity objectives are all undecidable.
+A special class of POMDPs, called revealing POMDPs, has been studied recently in several works, and for this subclass the almost-sure analysis for parity objectives was shown to be EXPTIME-complete.
+In this work, we show that for revealing POMDPs the limit-sure analysis for parity objectives is EXPTIME-complete, and even the quantitative analysis for parity objectives can be achieved in EXPTIME.

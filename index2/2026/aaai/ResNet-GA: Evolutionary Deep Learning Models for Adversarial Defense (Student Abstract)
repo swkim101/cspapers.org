@@ -1,0 +1,18 @@
+Adversarial attacks remain a major challenge for deep
+learning models, as they can undermine both performance and
+reliability in practical applications such as image
+recognition. Although evolutionary algorithms (EAs) have
+proven effective in optimizing complex systems, their use
+for directly enhancing model robustness for adversarial
+defense has been limited. In this study, we introduce
+ResNet-GA, a method that applies evolutionary deep learning
+(EDL) to develop ResNet-like networks specifically designed
+to resist different forms of adversarial perturbations. The
+approach evolves network architectures with a genetic
+algorithm (GA), adapting the Residual Blocks at every stage
+in ResNet according to the needs of each dataset and attack
+type. Experimental results show that ResNet-GA strengthens
+model robustness beyond standard baselines, highlighting
+the value of iterative evolutionary design for building
+more dependable deep learning systems under various
+adversarial conditions.

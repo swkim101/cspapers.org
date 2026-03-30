@@ -1,0 +1,20 @@
+Tabular data is a fundamental form of information in
+real-world applications, ranging from finance and
+healthcare to scientific research. Unlike traditional views
+that treat tables as isolated structured data, tables are
+often inherently multimodal—appearing as images, embedded
+in documents, or coexisting with text and other modalities.
+My research explores multimodal tabular data learning,
+aiming to bridge structured tabular knowledge with diverse
+input forms and tasks. To this end, our work investigates
+leveraging tabular data as expert knowledge to provide
+guidance for visual modalities and enable cross-modal
+transfer learning. We also study more common scenarios
+where tables appear as images, conducting comprehensive
+investigations from evaluation to method development for
+table-based question answering and reasoning. Beyond these
+works, we extend tabular learning to more general
+scenarios, developing unified models capable of handling
+diverse table tasks within a single framework, and further
+expanding from tables to broader document-level parsing and
+understanding.

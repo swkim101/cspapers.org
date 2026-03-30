@@ -1,0 +1,14 @@
+Scenario-based testing is an important approach for the
+development and validation of autonomous driving systems,
+as it enables evaluation across different driving
+situations. Safety-critical scenarios are especially
+relevant, but they occur rarely in real-world data, which
+creates the need for generation methods. In this paper, we
+present a scalable AI-based approach based on a variational
+autoencoder that unifies the generation of different types
+of critical scenarios while introducing controllability
+through a structured latent space. The integration of
+unified generation and latent space control advances
+AI-based scenario generation towards practical use, thereby
+supporting the requirements of industrial validation
+pipelines.

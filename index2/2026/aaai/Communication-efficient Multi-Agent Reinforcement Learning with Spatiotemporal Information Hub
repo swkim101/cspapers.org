@@ -1,0 +1,8 @@
+Centralized training with decentralized execution (CTDE) is a framework for MARL with wide applications.
+In the CTDE paradigm, agents leverage global state information during training to mitigate the non-stationarity of the MARL environment, but must rely solely on partial observations during execution. 
+Recent work has highlighted the growing importance of inter-agent communication for more effective learning and coordination. 
+However, most existing methods overlook the fact that real-world communication channels are often bandwidth-constrained and imperfectly reliable.
+Toward more communication-efficient and robust MARL, we extend the conventional CTDE framework with an information hub.
+The hub collects local observations from the agents to restore the global state, which is then delivered to the agents on demand.
+To this end, technical mechanisms are designed to enable effective global reconstruction with incomplete observations, as well as agent-specific attention to the reconstructed global information.
+Experiments on multiple cooperative MARL benchmarks demonstrate that our method achieves state-of-the-art performance compared to popular MARL algorithms while substantially reducing communication overhead and exhibiting strong robustness under imperfect communication channels.

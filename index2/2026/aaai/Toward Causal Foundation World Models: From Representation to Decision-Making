@@ -1,0 +1,15 @@
+My research lies at the intersection of causality,
+reinforcement learning, world models, and multi-agent
+systems. I aim to develop causal foundation world models
+that enable agents to interpret the past, reason about the
+future, and act reliably in dynamic, non-stationary, and
+open-ended environments. My work spans causal
+representation learning (e.g., CausalVAE), causal reasoning
+in large language models, and causality-driven exploration
+in open-ended worlds. These contributions have appeared in
+leading venues such as NeurIPS, ICML, ICLR, CVPR, and KDD,
+and have been recognized through over 770 citations and the
+Rising Star in AI award (2024). Looking forward, my agenda
+focuses on scalable, trustworthy causal world models for
+healthcare, robotics, scientific discovery, and digital
+systems.

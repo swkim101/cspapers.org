@@ -1,0 +1,23 @@
+Retrieval-augmented generation (RAG) is the backbone of
+knowledge-intensive NLP, yet its progress is hindered by a
+long-standing asymmetry: Generators are refined while
+retrievers remain static, and full end-to-end optimization
+is prohibitively unstable. We present BPO-RAG, a bi-level
+preference-learning framework that redefines the training
+paradigm by jointly optimizing retrieval and generation
+with a single supervision signal, pairwise preferences.
+Stage~1 (Retrieval Preference Optimization) learns to
+select superior evidence sets, while Stage~2 (Generation
+Preference Optimization) aligns answer generation with the
+same evidence, closing the gap between what to read and
+what to write. This recipe without label requires no reward
+model or online RL, integrates seamlessly with standard RAG
+pipelines, and transforms preferences into a unifying
+training currency. Across open-domain QA benchmarks,
+BPO-RAG consistently advances retrieval quality and yields
+more accurate, faithful answers, surpassing strong RAG
+baselines with remarkable stability. By coupling retrieval
+and generation under a unified preference framework,
+BPO-RAG establishes a practical and principled path toward
+the next generation of reliable, modular, and trustworthy
+knowledge-intensive language models.

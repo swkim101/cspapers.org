@@ -1,0 +1,27 @@
+Best arm identification (BAI) aims to identify the highest-
+performance arm among a set of K arms by collecting
+stochastic samples from each arm. In real-world problems,
+the best arm needs to satisfy additional feasibility constraints.
+While there is limited prior work on BAI with feasibility
+constraints, they typically assume the performance and con-
+straints are observed simultaneously on each pull of an arm.
+However, this assumption does not reflect most practical use
+cases, e.g., in drug discovery, we wish to find the most potent
+drug whose toxicity and solubility are below certain safety
+thresholds. These safety experiments can be conducted separately from the potency measurement. Thus, this requires de-
+signing BAI algorithms that not only decide which arm to pull
+but also decide whether to test for the arm’s performance or
+feasibility. In this work, we study feasible BAI which allows
+a decision-maker to choose a tuple (i, ℓ), where i ∈ [K] de-
+notes an arm and ℓ denotes whether she wishes to test for its
+performance (ℓ = 0) or any of its N feasibility constraints
+(ℓ ∈ [N ]). We focus on the fixed confidence setting, which
+is to identify the feasible arm with the highest performance,
+with a probability of at least 1 − δ. We propose an efficient
+algorithm and upper-bound its sample complexity, showing
+our algorithm can naturally adapt to the problem’s difficulty
+and eliminate arms by worse performance or infeasibility,
+whichever is easier. We complement this upper bound with
+a lower bound showing that our algorithm is asymptotically
+(δ → 0) optimal. Finally, we empirically show that our algorithm outperforms other state-of-the-art BAI algorithms in
+both synthetic and real-world datasets.

@@ -1,0 +1,7 @@
+Pixel-level feature attributions are an important tool in eXplainable AI for Computer Vision (XCV), providing visual insights into how image features influence model predictions. The Owen formula for hierarchical Shapley values has been widely used to interpret machine learning (ML) models and their learned representations. However, existing hierarchical Shapley approaches do not exploit the multiscale structure of image data, leading to slow convergence and weak alignment with the actual morphological features. Moreover, no prior Shapley method has leveraged data-aware hierarchies for Computer Vision tasks, leaving a gap in model interpretability of structured visual data.
+
+To address this, this paper introduces ShapBPT, a novel data-aware XCV method based on the hierarchical Shapley formula. 
+ShapBPT assigns Shapley coefficients to a multiscale hierarchical structure tailored for images, the Binary Partition Tree (BPT). 
+By using this data-aware hierarchical partitioning, ShapBPT ensures that feature attributions align with intrinsic image morphology, effectively prioritizing relevant regions while reducing computational overhead.
+This advancement connects hierarchical Shapley methods with image data, providing a more efficient and semantically meaningful approach to visual interpretability. 
+Experimental results confirm ShapBPT’s effectiveness, demonstrating superior alignment with image structures and improved efficiency over existing XCV methods, and a 20-subject user study confirming that ShapBPT explanations are preferred by humans.

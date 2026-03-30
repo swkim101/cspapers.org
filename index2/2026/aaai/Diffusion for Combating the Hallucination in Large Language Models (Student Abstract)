@@ -1,0 +1,21 @@
+Large language models (LLMs) often generate
+hallucinations—fluent yet factually incorrect
+responses—that undermine reliability in knowledge-intensive
+tasks.
+Existing approaches for hallucination mitigation typically
+rely on external retrieval modules or probability
+heuristics, which either require additional resources or
+lack interpretability. In this work, we propose a
+diffusion-based hallucination detection framework (DHDF)
+that leverages U-Net denoising to reconstruct consensus
+answers from multiple LLM outputs. If the diffusion process
+exhibits spurious convergence away from factual ground
+truth, it provides a clear signal of hallucination. To
+quantify factual correctness, we incorporate TruthfulQA
+scores as a fact-grounded evaluation metric, distinguishing
+well-aligned models (high scores) from hallucination-prone
+models (low scores). Experimental results demonstrate that
+convergence dynamics under diffusion, combined with
+fact-grounded QA evaluation, offer an effective and
+interpretable pathway for hallucination detection without
+relying on external knowledge bases.

@@ -1,0 +1,19 @@
+We present a context-aware diffusion model for multivariate
+time series generation in dynamic and partially observed
+environments, with applications to data-center computing
+node's telemetry and beyond. The model integrates
+pretrained textual embeddings to represent feature
+semantics, enabling flexible, context-guided generation and
+improved adaptability to unseen or re-ordered input
+features. Built on a transformer architecture, it employs
+both time-wise and feature-wise masking to support missing
+data during training and inference. We show that the model
+is robust to permutations with respect to the feature
+dimension, mantaining stable performance in settings where
+input configurations vary. Empirical evaluations on HPC
+sensor data illustrate the model’s versatility across
+generation and imputation tasks. This work introduces a
+modular and generalizable framework for time series
+modeling in complex, high-dimensional systems which can
+serve as a digital-twin for data-center's compute node
+telemetry.

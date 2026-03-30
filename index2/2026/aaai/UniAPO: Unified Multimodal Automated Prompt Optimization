@@ -1,0 +1,7 @@
+Prompting is fundamental to unlocking the full potential of large language models. To automate and enhance this process, automatic prompt optimization (APO) has been developed, demonstrating effectiveness primarily in text-only input scenarios. However, extending existing APO methods to multimodal tasks—such as video-language generation—introduces two core challenges:
+(i) visual token inflation, where long visual-token sequences restrict context capacity and result in insufficient feedback signals; 
+(ii) a lack of process-level supervision, as existing methods focus on outcome-level supervision and overlook intermediate supervision, limiting prompt optimization.
+We present UniAPO: Unified Multimodal Automated Prompt Optimization, the first framework tailored for multimodal APO. 
+UniAPO adopts an EM-inspired optimization process that decouples feedback modeling and prompt refinement, making the optimization more stable and goal-driven. 
+To further address the aforementioned challenges, we introduce a short-long term memory mechanism: historical feedback mitigates context limitations, while historical prompts provide directional guidance for effective prompt optimization.
+UniAPO achieves consistent gains across text, image, and video benchmarks, establishing a unified framework for efficient and transferable prompt optimization.

@@ -1,0 +1,17 @@
+Due to their ability of follow natural language
+instructions,
+vision-language-action (VLA) models are increasingly preva-
+lent in the embodied AI arena, following the widespread suc-
+cess of their precursors—LLMs and VLMs. In this paper,
+we discuss 10 principal milestones in the ongoing develop-
+ment of VLA models—multimodality, reasoning, data, eval-
+uation, cross-robkot action generalization, efficiency,
+whole-
+body coordination, safety, agents, and coordination with hu-
+mans. Furthermore, we discuss the emerging trends of us-
+ing spatial understanding, modeling world dynamics, post
+training, and data synthesis—all aiming to reach these mile-
+stones. Through these discussions, we hope to bring
+attention
+to the research avenues that may accelerate the development
+of VLA models into wider acceptability.

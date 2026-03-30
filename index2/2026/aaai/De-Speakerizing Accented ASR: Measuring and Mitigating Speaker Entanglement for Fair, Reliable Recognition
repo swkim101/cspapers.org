@@ -1,0 +1,13 @@
+This research statement proposes to measure and mitigate
+speaker entanglement, where accent features inadvertently
+encode who is speaking in accented automatic speech
+recognition (ASR). We argue that entanglement inflates
+scores under lenient split for the same speaker and worsens
+fairness gaps across accents, and we outline a
+parameter-efficient mitigation that combines adversarial
+de-speakerization with safe conditioning. The plan is
+grounded in established results in accented ASR,
+domain-adversarial learning, and parameter-efficient
+fine-tuning; it is feasible with public datasets and a
+frozen Whisper backbone, and can potentially guide
+low-resource data collection.

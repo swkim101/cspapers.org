@@ -1,0 +1,8 @@
+We introduce DSCodeBench, a new benchmark designed to evaluate large language models (LLMs) on complicated and realistic data science code generation tasks.
+DSCodeBench consists of 1,000 carefully constructed problems sourced from realistic problems from GitHub across ten widely used Python data science libraries.
+DSCodeBench offers a more challenging and representative testbed, more complex code solutions, more comprehensive data science libraries, clearer and better structured problem descriptions, and stronger test suites.
+To construct the DSCodeBench, we develop a robust pipeline that combines task scope selection, code construction, test case generation, and problem description synthesis.
+The process is paired with rigorous manual editing to ensure alignment and enhance the reliability of the evaluation.
+Experimental result shows that DSCodeBench exhibits robust scaling behavior, where larger models systematically outperform smaller ones, validating its ability to distinguish model capabilities.
+The best LLM we test, GPT-4o, has a pass@1 of 0.392, indicating that LLMs still have a large room to improve for realistic data science code generation tasks. 
+We believe DSCodeBench will serve as a rigorous and trustworthy foundation for advancing LLM-based data science programming.

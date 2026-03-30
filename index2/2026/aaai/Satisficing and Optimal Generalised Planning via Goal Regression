@@ -1,0 +1,5 @@
+Generalised planning (GP) refers to the task of synthesising programs that solve families of related planning problems.
+We introduce a novel, yet simple method for GP: given a set of training problems, for each problem, compute an optimal plan for each goal atom in some order, perform goal regression on the resulting plans, and lift the corresponding outputs to obtain a set of first-order Condition → Actions rules.
+The rules collectively constitute a generalised plan that can be executed as is or alternatively be used to prune the planning search space.
+We formalise and prove the conditions under which our method is guaranteed to learn valid generalised plans and state space pruning axioms for search.
+Experiments demonstrate significant improvements over state-of-the-art (generalised) planners with respect to the 3 metrics of synthesis cost, planning coverage, and solution quality on various classical and numeric planning domains.

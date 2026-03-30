@@ -1,0 +1,14 @@
+We consider the problem of risk-sensitive control in a reinforcement learning (RL) framework. In particular, we aim
+to find a risk-optimal policy by maximizing the distortion
+riskmetric (DRM) of the discounted reward in a finite-horizon Markov decision process (MDP). DRMs are a rich class
+of risk measures that include several well-known risk measures as special cases. We derive a policy Hessian theorem
+for the DRM objective using the likelihood ratio method. Using this result, we propose a natural DRM Hessian estimator from sample trajectories of the underlying MDP. Next,
+we present a cubic-regularized policy Newton algorithm for
+solving this problem in an on-policy RL setting using estimates of the DRM gradient and Hessian. Our proposed algorithm is shown to converge to an ϵ-second-order stationary
+point (ϵ-SOSP) of the DRM objective, and this guarantee ensures the escaping of saddle points. The sample complexity
+of our algorithms to find an ϵ-SOSP is O(ϵ−3.5). Our experiments validate the theoretical findings. To the best of our
+knowledge, our is the first work to present convergence to an
+ϵ-SOSP of a risk-sensitive objective, while existing works in
+the literature have either shown convergence to a first-order
+stationary point of a risk-sensitive objective, or a SOSP of a
+risk-neutral one.

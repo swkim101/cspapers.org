@@ -1,0 +1,65 @@
+This talk surveys my research journey toward building
+reliable machine learning systems that behave safely and
+predictably in the open world. While modern machine
+learning models—including foundation models (FMs)—have
+demonstrated unprecedented capabilities, they often suffer
+from reliability failures under distribution shift, leading
+to overconfident mispredictions, hallucinated generations,
+or susceptibility to adversarial prompts. My research
+rethinks reliability not as an afterthought, but as a
+first-class algorithmic principle, to be optimized
+alongside accuracy with minimal human supervision.
+
+
+The talk is organized around three key threads. To respect
+the allotted 20-30 minutes, the first and second parts
+will be briefly discussed.
+
+
+1. Unknown-Aware Learning via Outlier Synthesis.
+I introduce a class of learning algorithms that synthesize
+“virtual outliers” in representation or pixel space to
+explicitly teach models what they don’t know. This includes
+the VOS, NPOS, and Dream-OOD frameworks, which shape the
+energy landscape around in-distribution data to avoid
+overconfidence on OOD.
+
+
+
+2. Learning in the Wild with Unlabeled Data.
+I present theoretical insights and practical algorithms for
+leveraging unlabeled in-the-wild data to improve
+reliability. This includes SAL framework, which uses a
+gradient-based spectral method to separate potential
+outliers, and SCONE, which handles semantic and covariate
+shifts via constrained optimization. These results turn
+unlabeled data contamination into a learning signal.
+
+
+
+3. Reliable Foundation Models.
+I explore reliability failures in LLMs and multimodal
+systems. I introduce HaloScope for hallucination detection
+via subspace separation on LLM representations, and TSV
+that performs LLM latent steering for improved
+hallucination detection. I will also briefly cover the LLM
+security and alignment, which includes VLMGuard for
+detecting malicious prompts in vision-language models and a
+data-centric paradigm for AI alignment through source-aware
+feedback cleaning.
+
+Throughout the talk, I highlight how representation
+learning, data generation, and theoretical guarantees
+intersect to produce scalable, label-efficient reliability
+methods. I will also reflect on my broader vision:
+designing proactive and collaborative AI systems that
+anticipate uncertainty and support rich human-AI
+interaction—especially for underrepresented communities and
+emerging scientific domains.
+
+
+
+This talk will be accessible to a broad AAAI audience,
+combining foundational algorithmic insights with real-world
+applications and forward-looking perspectives on the future
+of responsible AI.

@@ -1,0 +1,8 @@
+Probabilistic decoding in Large Language Models (LLMs) often yields inconsistent outputs, particularly on complex or long-form questions. Self-Consistency (SC) mitigates this for short-form QA by majority voting over exact strings, whereas Universal Self-Consistency (USC) and Weighted Unigram Consistency Score (WUCS) extend to long-form responses but lose accuracy on short-form benchmarks. 
+
+We introduce Latent Self-Consistency (LSC), which selects the most semantically consistent response using learnable token embeddings.
+LSC's lightweight forward processing of summary tokens only introduces negligible runtime overhead (at most 0.9%) on top of standard decoding of 
+the base LLM, and requires no changes to the model architecture.
+
+Across 6 short-form and 5 long-form reasoning benchmarks (e.g., MATH, MMLU, TruthfulQA), LSC surpasses SC, USC, and WUCS on both short-form and long-form on average performance, while adding negligible computational overhead on vanilla inference. These results position LSC as a reliable consistency-selection method that works effectively across various answer formats.
+Additionally, LSC provides well-calibrated confidence estimates, maintaining low expected calibration error across both answer formats.

@@ -1,0 +1,9 @@
+In this talk, we discuss efficient model specialization
+algorithm to adapt the pretrained model towards downstream
+tasks while improving its efficiency, efficiently
+generalizing to multiple tasks via dynamic architectures,
+and improving inference-time efficiency utilizing the
+diversity within model block functionalities. These
+research directions serve as the foundation towards
+co-designing models, tasks, systems, and hardware for a
+reconfigurable efficient intelligence future.

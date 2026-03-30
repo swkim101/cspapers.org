@@ -1,0 +1,7 @@
+As Large Language Models (LLMs) are increasingly popularized in the multilingual world, ensuring hallucination-free factuality becomes markedly crucial. 
+However, existing benchmarks for evaluating the reliability of Multimodal Large Language Models (MLLMs) predominantly focus on textual or visual modalities with a primary emphasis on English, which creates a gap in evaluation when processing multilingual input, especially in speech.
+To bridge this gap, we propose a novel Cross-lingual and Cross-modal Factuality benchmark (CCFQA). 
+Specifically, the CCFQA benchmark contains parallel speech-text factual questions across 8 languages, designed to systematically evaluate MLLMs' cross-lingual and cross-modal factuality capabilities. 
+Our experimental results demonstrate that current MLLMs still face substantial challenges on the CCFQA benchmark. 
+Furthermore, we propose a few-shot transfer learning strategy that effectively transfers the Question Answering (QA) capabilities of LLMs in English to multilingual Spoken Question Answering (SQA) tasks, achieving competitive performance with GPT-4o-mini-Audio using just 5-shot training.
+We release CCFQA as a foundational research resource to promote the development of MLLMs with more robust and reliable speech understanding capabilities.

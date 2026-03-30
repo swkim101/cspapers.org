@@ -1,0 +1,17 @@
+Logit Knowledge Distillation has gained substantial
+research interest in recent years due to its simplicity and
+lack of requirement for intermediate feature alignment;
+however, it suffers from limited interpretability in its
+decision-making process. To address this, we propose
+implicit Clustering Distillation (iCD): a simple and
+effective method that mines and transfers interpretable
+structural knowledge from logits, without requiring
+ground-truth labels or feature-space alignment. iCD
+leverages Gram matrices over decoupled local logit
+representations to enable student models to learn latent
+semantic structural patterns. Extensive experiments on
+benchmark datasets demonstrate the effectiveness of iCD
+across diverse teacher-student architectures, with
+particularly strong performance in fine-grained
+classification tasks---achieving a peak improvement of
++5.08% over the baseline.

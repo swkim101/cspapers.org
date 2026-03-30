@@ -1,0 +1,8 @@
+Aggregated time series are widely used in business and economics, where top-level sequences (e.g., category sales) aggregated from underlying sequences (e.g., individual items) often exhibit clearer trends and are therefore typically the primary focus of forecasting tasks.
+However, treating top-level sequences as ordinary multivariate time series is inappropriate in the presence of coupled aggregation constraints.
+The core challenge arises in coupled aggregation structures, where a single underlying sequence contributes to multiple top-level sequences, as simple nonnegativity constraints of underlying sequences induce highly complex constraints among top-level sequences.
+Existing methods fail to achieve high accuracy while satisfying these constraints.
+To address this, we propose ProCAST, a projection-based framework that adjusts forecasts from any multivariate base model to satisfy coupled aggregation constraints.
+By introducing virtual underlying sequences and leveraging orthogonal and oblique projection, our method ensures that the top-level forecasts are feasible without explicitly deriving complex constraints.
+Theoretically, we prove that the proposed method guarantees improved accuracy under distance-based loss functions.
+Experiments on real-world datasets show that our method completely eliminates constraint violations while achieving higher accuracy than current state-of-the-art approaches.

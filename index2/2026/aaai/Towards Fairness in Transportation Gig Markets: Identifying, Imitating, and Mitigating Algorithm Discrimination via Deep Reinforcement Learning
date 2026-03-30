@@ -1,0 +1,20 @@
+Recently, deep Reinforcement Learning (RL) methods have
+been widely used in labor management within transportation
+gig markets, such as ride-hailing, food delivery, and
+express delivery. Compared to traditional rule-based and
+optimization-based methods, RL can capture more information
+about long-term uncertainty and environmental dynamics,
+leading to better and non-myopic strategies. However, deep
+learning methods have long been criticized for their low
+interpretability, raising concerns about algorithmic
+discrimination in gig markets. Currently, most works focus
+on this issue from the perspective of statistical analysis
+and surveys. However, the underlying reasons related to the
+algorithms remain unclear, as most companies do not
+disclose their algorithms. This lack of transparency can
+hinder governments from designing efficient management
+policies to address these problems. To fill this research
+gap, this thesis proposal aims to develop appropriate RL
+methods to mimic the labor management behavior of
+transportation gig platforms and to propose effective
+policies that protect the rights of gig workers.

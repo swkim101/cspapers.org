@@ -1,0 +1,7 @@
+Navigating unseen environments based on natural language instructions remains difficult for egocentric agents in Vision-and-Language Navigation (VLN). 
+Intuitively, humans inherently ground concrete semantic knowledge within spatial layouts during indoor navigation. 
+Although previous studies have introduced diverse environmental representations to enhance reasoning, other co-occurrence modalities are often naively concatenated with RGB features, resulting in suboptimal utilization of each modality's distinct contribution. 
+Inspired by this, we propose a hierarchical Semantic Understanding and Spatial Awareness (SUSA) architecture to enable agents to perceive and ground environments at diverse scales. 
+Specifically, the Textual Semantic Understanding (TSU) module supports local action prediction by generating view-level descriptions, thereby capturing fine-grained environmental semantics and narrowing the modality gap between instructions and environments. 
+Complementarily, the Depth-enhanced Spatial Perception (DSP) module incrementally constructs a trajectory-level depth exploration map, providing the agent with a coarse-grained comprehension of the global spatial layout.
+Extensive experiments demonstrate that SUSA's hierarchical representation enrichment not only boosts the navigation performance of the baseline on discrete VLN benchmarks (REVERIE, R2R, and SOON), but also exhibits superior generalization to the continuous R2R-CE.

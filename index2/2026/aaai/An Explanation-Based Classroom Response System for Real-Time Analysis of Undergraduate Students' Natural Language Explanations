@@ -1,0 +1,31 @@
+Effective classroom teaching requires instructors to be
+responsive to their students, such as by pivoting their
+lectures in real-time to address common misconceptions that
+their students may have developed. Classroom response
+systems such as multiple-choice "clicker" systems are one
+method by which instructors can gauge their students’
+understanding during classroom lectures, but open-ended
+questions that prompt students to engage in
+self-explanation are better suited to promoting critical
+thinking. Additionally, analyzing students’ natural
+language responses typically requires time-consuming manual
+analysis, which makes it challenging to implement in a
+classroom setting. To address this challenge, we present an
+LLM-driven method for automatically assessing students'
+responses and generating an aggregated summary of LLM-based
+evaluations for their self-explanations during
+undergraduate classroom lectures. Our approach extracts
+relevant knowledge components for a given question, tags
+students’ responses according to whether they correctly
+address each knowledge component, and generates class-level
+summaries that highlight common misconceptions and gaps in
+knowledge to support instructors in pivoting their lectures
+in real time. We evaluate the system’s effectiveness at
+these tagging and summarization tasks on data from an
+undergraduate computer science course, using quantitative
+and qualitative metrics such as relevance, sufficiency,
+hallucination rate, and alignment with instructional goals
+and desired feedback format gathered through instructor
+interviews. Results suggest that the explanation-based
+classroom response system can accurately analyze students’
+natural language explanations.

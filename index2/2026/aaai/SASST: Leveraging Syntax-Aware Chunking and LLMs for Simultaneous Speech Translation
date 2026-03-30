@@ -1,0 +1,5 @@
+This work proposes a grammar-based chunking strategy that segments input streams into semantically complete units by parsing dependency relations (e.g., noun phrase boundaries, verb-object structures) and punctuation features. The method ensures chunk coherence and minimizes semantic fragmentation.
+
+Building on this mechanism, we present SASST (Syntax-Aware Simultaneous Translation), an end-to-end framework integrating frozen Whisper encoder and decoder-only LLM. The unified architecture dynamically outputs translation tokens or symbols to jointly optimize translation timing and content, with target-side reordering addressing word-order divergence.
+
+Experiments on CoVoST2 multilingual corpus (En to De/Zh/Ja) demonstrate significant translation quality improvements across languages, validating the effectiveness of syntactic structures in LLM-driven SimulST systems.

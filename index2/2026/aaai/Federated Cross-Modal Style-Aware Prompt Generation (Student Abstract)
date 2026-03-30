@@ -1,0 +1,18 @@
+Existing federated prompt learning methods for
+vision-language models like CLIP rely solely on text-based
+prompts and final-layer visual features, missing crucial
+multiscale visual details and client-specific style
+variations. This limits generalization across non-IID
+distributions and novel classes. We introduce FedCSAP
+(Federated Cross-Modal Style-Aware Prompt Generation),
+which harnesses multiscale features from CLIP's vision
+encoder alongside domain-aware style statistics from client
+data. By fusing these visual representations with textual
+context, FedCSAP generates adaptive, context-aware prompts
+that enhance robustness across seen and unseen classes. Our
+privacy-preserving approach operates through local training
+and global aggregation, effectively handling heterogeneous
+client distributions. Experiments on multiple image
+classification datasets demonstrate that FedCSAP
+significantly outperforms existing federated prompt
+learning methods in both accuracy and generalization.

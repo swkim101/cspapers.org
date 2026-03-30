@@ -1,0 +1,7 @@
+Scene graphs have emerged as a structured and serializable environment representation for grounded spatial reasoning with Large Language Models (LLMs).
+ In this work, we propose SG2, an iterative Schema-Guided Scene-Graph reasoning framework based on multi-agent LLMs.
+ The agents are grouped into two modules: a (1) Reasoner module for abstract task planning and graph information queries generation, and a (2) Retriever module for extracting corresponding graph information based on code-writing following the queries.
+ Two modules collaborate iteratively, enabling sequential reasoning and adaptive attention to graph information.
+ The scene graph schema, prompted to both modules, serves to not only streamline both reasoning and retrieval process, but also guide the cooperation between two modules.
+ This eliminates the need to prompt LLMs with full graph data, reducing the chance of hallucination due to irrelevant information.
+ Through experiments in multiple simulation environments, we show that our framework surpasses existing LLM-based approaches and baseline single-agent, tool-based Reason-while-Retrieve strategy in numerical Q&A and planning tasks.

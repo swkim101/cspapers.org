@@ -1,0 +1,15 @@
+We propose an extension of Description Logics (DLs) with generic concepts
+and conditional axioms. Inspired by object-oriented languages, generic
+concepts allow a compact definition of concepts with similar structures.
+For example, one can define a generic concept Owner[X] to describe objects
+that own another object from X, and later use a specific replacement of the
+parameter X, such as Owner[Pet] representing pet owners. Conditional axioms
+can be used to set bounds on the values that replace the generic parameters.
+For example, we could restrict replacements of X in a concept Keeper[X] to
+only subconcepts of Pet. As the set of possible parameter replacements can
+be infinite and even uncountable, the generic extensions are, in general,
+undecidable. To identify decidable generic DLs, we focus on the case of
+terminologies, requiring that variables are only used in definitions of
+generic concepts. We formulate restrictions that allow a reduction
+of generic entailment to classical entailment and further conditions that
+ensure decidability.

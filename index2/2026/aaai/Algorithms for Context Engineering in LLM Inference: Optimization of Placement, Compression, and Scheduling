@@ -1,0 +1,18 @@
+Scaling long-context and agentic LLMs is increasingly
+limited by memory capacity and bandwidth rather than FLOPs.
+I propose an algorithmic framework for context engineering
+that models placement, compression, and scheduling as
+coupled optimization problems with explicit
+accuracy-efficiency trade-offs. Concretely, I aim to develop
+(1) salience-aware retention/eviction policies with
+provable approximation guarantees relative to an ideal
+oracle; (2) tier-dependent compression schemes that bound
+error propagation across memory levels; and (3)
+probabilistic prefetch/scheduling that controls tail
+latency. I will evaluate on long-context language modeling
+and reasoning benchmarks, isolating each component via
+ablations and comparing against heuristic baselines under
+controlled bandwidth/capacity regimes. Results target
+improved throughput and energy metrics at near-baseline
+quality, advancing principled, hardware-aware inference
+without requiring custom hardware.

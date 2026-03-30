@@ -1,0 +1,28 @@
+Many AI-based code assistants, particularly those powered
+by Large Language Models (LLMs), provide complete
+solutions, which can reduce active problem solving and
+limit incidental learning, the acquisition of knowledge as
+a byproduct of task engagement. Such learning requires
+active participation rather than passive acceptance of
+AI-generated answers, which might be incorrect. This study
+examines how incidental learning can be supported through
+guided interaction. We present LeetCoach, an LLM-assisted
+coding platform that applies a cognitive forcing strategy,
+prompting learners to reflect and take incremental steps
+instead of receiving full solutions. Using LeetCode-style
+questions, we conducted a pilot study with novice and
+advanced college programmers who completed tasks under
+assisted and unassisted conditions. Novices showed
+substantial post-test gains despite receiving AI guidance
+only during the intervention, suggesting that incidental
+exposure improved later performance. Advanced learners
+showed smaller gains. Across both groups, participants
+required fewer debugging attempts in the post-test compared
+to earlier stages, indicating improved debugging efficiency
+and algorithmic understanding. These findings provide early
+evidence that LLMs can be designed to promote indirect
+learning while shaping problem-solving strategies. This
+work offers a proof of concept for cognitively informed
+tutoring systems in computer science education and
+discusses implications for integrating LLMs to enhance both
+immediate outcomes and lasting skill development.

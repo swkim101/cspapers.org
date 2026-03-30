@@ -1,0 +1,16 @@
+In this paper, we study the adversarial robustness of deep
+neural networks (DNN) for classification against optimal
+classifiers. We look at the smallest magnitude of possible
+additive perturbations that can change a classifier's
+output. We provide a matrix-theoretic explanation of the
+adversarial fragility of DNNs for classification. In
+particular, our theoretical results show that the
+adversarial robustness of a neural network can degrade as
+the input dimension d increases. Analytically, we show
+that the adversarial robustness of neural networks can be
+only 1/√d of the best possible adversarial
+robustness of optimal classifiers. Our theories match
+remarkably well with empirical results. The
+matrix-theoretic explanation aligns with an earlier
+information-theoretic feature-compression-based explanation
+for the adversarial fragility of neural networks.

@@ -1,0 +1,1 @@
+We present AutoTuneX, a system architecture design and implementation for users to interactively fine-tune large language models (LLMs) based on automated hyperparameter optimization particularly built around Bandit Limited Discrepancy Search. Next to a classical Graphical User Interface (GUI) our system features an agentic runtime to facilitate automated fine-tuning via chat.

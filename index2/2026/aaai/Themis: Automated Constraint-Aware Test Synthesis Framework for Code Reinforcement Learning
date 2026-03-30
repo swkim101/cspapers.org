@@ -1,0 +1,10 @@
+Reinforcement learning (RL) has shown promise for enhancing code generation capabilities in large language models (LLMs), yet its effectiveness critically depends on high-quality test suites for reliable reward signals.
+Current approaches suffer from inadequate test case quantity and quality, leading to false positives (incorrect solutions passing verification) and slow positives (valid but suboptimal implementations), which corrupt RL training dynamics.
+We address these challenges through three key contributions:
+(1) We systematically analyze how low-quality test suites degrade Code RL performance via reward misalignment;
+(2) We propose Themis, an automated framework that transforms test case generation into code synthesis—first extracting problem constraints via template-guided parsing, then generating executable test generators through LLM-powered code synthesis, and finally validating tests through constraint-aware filtering;
+(3) We develop an error-guided test case reduction method that preserves error detection efficacy while reducing test set cardinality, thereby enhancing reinforcement learning training efficiency. 
+Evaluated on programming competition datasets, Themis achieves 95 percent error detection rates, outperforming original test suites in most of the cases.
+When integrated into RL pipelines, models trained with Themis-generated tests demonstrate consistent 3-5 percent improvements across HumanEval, MBPP, and LiveCodeBench compared to the baseline, matching performance levels achieved with manually curated test suites.
+Our constraint-aware test synthesis framework ensures full automation while preserving semantic validity—critical for scaling RL training to complex code generation tasks.
+The framework's modular design also enables seamless integration with existing code data synthesis frameworks.

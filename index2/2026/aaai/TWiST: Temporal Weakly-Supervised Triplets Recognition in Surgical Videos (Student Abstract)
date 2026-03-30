@@ -1,0 +1,13 @@
+Deep learning is increasingly applied to intraoperative and
+surgical video analysis to enable real-time workflow
+recognition, and decision support for improved surgical
+precision. A key direction is modeling surgical activity as
+triplets of instrument, action, and target, which provide a
+richer representation of procedures. However, existing
+approaches often depend on bounding-box annotations or lack
+temporal context. We propose TWiST (Temporal Weakly
+Supervised Triplet detection), a framework that combines
+weakly supervised instrument localization, temporal
+attention for triplet prediction, and grounding of triplets
+with detected instruments. Our experiments show that TWiST
+outperforms prior weakly supervised baselines.

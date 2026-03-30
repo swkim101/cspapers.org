@@ -1,0 +1,18 @@
+Jigsaw puzzle solving remains difficult because models must
+reconcile local fragment cues with global structure. Most
+prior work leans solely on visual signals (edge or texture
+coherence) and rarely exploits natural-language
+descriptions, which are especially helpful for puzzles with
+eroded gaps. We introduce a vision–language framework that
+uses textual context to guide assembly. At its core, the
+Vision–Language Hierarchical Semantic Alignment (VLHSA)
+module aligns image patches with text via multi-level
+matching—from local tokens to global summaries—within a
+multimodal design that couples dual visual encoders with
+language features for cross-modal reasoning. Across
+multiple datasets, the method surpasses the state of the
+art, including a 14.2 percentage point gain in piece
+accuracy; ablations identify VLHSA as the principal source
+of improvement. These results suggest a practical shift for
+jigsaw solving: augmenting vision with language to resolve
+ambiguous placements

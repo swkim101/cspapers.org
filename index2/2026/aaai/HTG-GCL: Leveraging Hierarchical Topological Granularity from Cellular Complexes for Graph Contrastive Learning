@@ -1,0 +1,5 @@
+Graph contrastive learning (GCL) aims to learn discriminative semantic invariance by contrasting different views of the same graph that share critical topological patterns.
+However, existing GCL approaches with structural augmentations often struggle to identify task-relevant topological structures, let alone adapt to the varying coarse-to-fine topological granularities required across different downstream tasks.
+To remedy this issue, we introduce Hierarchical Topological Granularity Graph Contrastive Learning (HTG-GCL), a novel framework that leverages transformations of the same graph to generate multi-scale ring-based cellular complexes, embodying the concept of topological granularity, thereby generating diverse topological views.
+Recognizing that a certain granularity may contain misleading semantics, we propose a multi-granularity decoupled contrast and apply a granularity-specific weighting mechanism based on uncertainty estimation.
+Comprehensive experiments on various benchmarks demonstrate the effectiveness of HTG-GCL, highlighting its superior performance in capturing meaningful graph representations through hierarchical topological information.

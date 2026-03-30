@@ -1,0 +1,22 @@
+Deep learning models offer state-of-the-art performance but
+their inherent opacity is a major barrier to adoption in
+high-stakes domains. In contrast, Takagi-Sugeno-Kang (TSK)
+fuzzy systems provide rule-based transparency but often
+lack the predictive power of deep networks. My PhD research
+addresses this critical trade-off by developing the
+Fuzzy-Modulated Linear Consequents (FMLC) framework, a
+novel hybrid architecture that synergizes these two
+paradigms. The core of FMLC is a deep neural network that
+processes fuzzified input features to generate
+context-dependent "modulators". These modulators
+dynamically parameterize a TSK-style linear consequent
+layer, creating a model that is both highly performant and
+inherently interpretable. My latest work, Learnable-FMLC
+(L-FMLC), advances this by introducing a regularized,
+adaptive fuzzification layer that autonomously learns the
+optimal fuzzy partitions from data, and a two-stage rule
+distillation framework to ensure interpretability remains
+scalable in high-dimensional problems. This research
+delivers a validated, theoretically-grounded, and scalable
+framework, contributing a significant step towards
+transparent and trustworthy AI.

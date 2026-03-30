@@ -1,0 +1,15 @@
+External incentive mechanisms have been studied as a method
+to promote cooperation in sequential social dilemmas
+involving multiple autonomous agents. Mutual Acknowledgment
+Token Exchange (MATE) is one such approach: by enabling
+agents to exchange acknowledgment tokens, it induces
+cooperation without additional training. However, MATE’s
+use of fixed, manually tuned token values limits
+adaptability to nonstationary environments and can
+constrain performance. To enable a dynamically adapted
+token, we introduce Social Influence-based MATE (SI-MATE),
+which allows agents to share their individual improvement
+signals and to self-punishment in response to inequality.
+Experiments in a four-agent environment show that SI-MATE
+outperforms MATE across multiple metrics, including
+learning speed.

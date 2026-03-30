@@ -1,0 +1,9 @@
+This proposal aims to investigate epistemic uncertainty -
+uncertainty about knowledge or truth, often conveyed by
+modals like might or probably in Large Language Models
+(LLMs). By probing how such cues affect reasoning, we seek
+to achieve controllable epistemic sensitivity: enabling mod-
+els to interpret and adapt to uncertainty. Using activation-
+level analyses and multilingual benchmarks, this work ad-
+vances transparent, context-aware, and trustworthy reasoning
+in uncertainty-critical domains.

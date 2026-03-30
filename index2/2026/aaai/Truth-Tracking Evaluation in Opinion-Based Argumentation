@@ -1,0 +1,5 @@
+Truth-tracking in collective reasoning systems is a core challenge in domains such as e-democracy, online deliberation, and citizen opinion polling. 
+Our prior work introduced Opinion-Based Argumentation (OBA), a framework modeling both voting and argumentation, along with collective opinion semantics (COS) designed to select sets of arguments that are mutually coherent and aligned with agents' votes.
+In this paper, we first formally define the truth-tracking problem within OBA.
+We then introduce VAST, a comprehensive evaluation framework to systematically assess the epistemic adequacy of COS.
+Our empirical analysis, conducted using VAST, demonstrates substantial variation in their truth-tracking performance across diverse deliberative conditions.

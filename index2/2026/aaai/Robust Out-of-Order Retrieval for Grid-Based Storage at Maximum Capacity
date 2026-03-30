@@ -1,0 +1,8 @@
+This paper proposes a framework for improving the operational efficiency of automated storage systems under uncertainty.
+It considers a 2D grid-based storage for uniform-sized loads (e.g., containers, pallets, or totes), which are moved by a robot (or other manipulator) along a collision-free path in the grid. The loads are labeled (i.e., unique) and must be stored in a given sequence, and later be retrieved in a different sequence---an operational pattern that arises in logistics applications, such as last-mile distribution centers and shipyards. The objective is to minimize the load relocations to ensure efficient retrieval. A previous result guarantees a zero-relocation solution for known storage and retrieval sequences, even for storage at full capacity, provided that the side of the grid through which loads are stored/retrieved is at least 3 cells wide. However, in practice, the retrieval sequence can change after the storage phase.
+To address such uncertainty, this work investigates k-bounded perturbations during retrieval, under which any two loads may depart out of order if they are originally at most k positions apart.
+We prove that a Theta(k) grid width is necessary and sufficient for eliminating relocations at maximum capacity.
+We also provide an efficient solver for computing a storage arrangement that is robust to such perturbations.
+To address the higher-uncertainty case where perturbations exceed k, a strategy is introduced to effectively minimize relocations.
+Extensive experiments show that, for k up to half the grid width, the proposed storage-retrieval framework essentially eliminates relocations.
+For k values up to the full grid width, relocations are reduced by 50%+.

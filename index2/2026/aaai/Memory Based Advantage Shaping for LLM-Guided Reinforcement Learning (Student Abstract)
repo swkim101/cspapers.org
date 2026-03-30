@@ -1,0 +1,21 @@
+In environments with sparse or delayed rewards,
+reinforcement learning (RL) incurs high sample complexity
+due to the large number of interactions needed for
+learning. This limitation has motivated the use of large
+language models (LLMs) for subgoal discovery and trajectory
+guidance. While LLMs can support exploration, frequent
+reliance on LLM calls raises concerns about scalability and
+reliability. We address these challenges by constructing a
+memory graph that encodes subgoals and trajectories from
+both LLM guidance and the agent’s own successful rollouts.
+From this graph, we derive a utility function that
+evaluates how closely the agent’s trajectories align with
+prior successful strategies. This utility shapes the
+advantage function, providing the critic with additional
+guidance without altering the reward. Our method relies
+primarily on offline input and only occasional online
+queries, avoiding dependence on continuous LLM supervision.
+Preliminary experiments in benchmark environments show
+improved sample efficiency and faster early learning
+compared to baseline RL methods, with final returns
+comparable to methods that require frequent LLM interaction.

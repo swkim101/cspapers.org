@@ -1,0 +1,3 @@
+The rising demand for Trusted AI (TAI) underscores the need for interpretable and robust models, yet existing tools rarely support graph-structured data or integrate interpretability with security. At the same time, Graph Neural Networks (GNNs) deliver state-of-the-art performance on numerous graph tasks.
+
+We present GNN-AID (Graph Neural Network Analysis, Interpretation, and Defense), an open-source Python framework for analyzing, interpreting, and defending GNNs, addressing this critical gap. Built on PyTorch-Geometric, GNN-AID offers preloaded datasets, model libraries, flexible APIs, and a web interface for visualization and no-code model design. MLOps features further support reproducibility and experiment tracking.

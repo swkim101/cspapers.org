@@ -1,0 +1,8 @@
+Ensuring consistently high-quality training data is essential for developing reliable machine learning systems. Recent research demonstrates that incorporating human supervision into training set debugging effectively improves model performance, especially for text classification tasks.
+However, such methods often prove inapplicable to image understanding tasks, where inherently unstructured pixel data presents challenges in understanding and correcting biases.
+Inspired by human-AI alignment, we introduce AACA (Attribution Analysis-based Concept Alignment), a human-in-the-loop framework that mitigates bias in the training set by aligning the concepts used by humans and AI during the decision-making process. 
+Specifically, AACA comprises two primary stages: interpretable data bug discovery and targeted data augmentation.
+During the data bug discovery stage, AACA identifies confounded and valid concepts to explain why prediction failure occurs and what concept the model should focus, using interpretability methods and human annotation. 
+In the stage of targeted data augmentation, AACA adopts these concept-level attributions as clues to synthesize debugging instances via text-to-image generative model. 
+The initial model is then retrained on the augmented set to correct prediction failures. 
+Comparative experiments conducted on crowdsourced annotations and real-world datasets demonstrate that AACA can accurately identifies data bugs and effectively repairs prediction failures, thereby significantly improving prediction performance.

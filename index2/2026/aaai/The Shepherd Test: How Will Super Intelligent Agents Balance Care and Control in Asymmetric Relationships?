@@ -1,0 +1,23 @@
+This paper introduces the Shepherd Test, a new conceptual
+test for assessing the moral and relational dimensions of
+superintelligent artificial agents. The test is inspired by
+human interactions with animals, where ethical
+considerations about care, manipulation, and consumption
+arise in contexts of asymmetric power and
+self-preservation. We argue that AI crosses an important,
+and potentially dangerous, threshold of intelligence when
+it exhibits the ability to manipulate, nurture, and
+instrumentally use less intelligent agents, while also
+managing its own survival and expansion goals. This
+includes the ability to weigh moral trade-offs between
+self-interest and the well-being of subordinate agents. The
+Shepherd Test thus challenges traditional AI evaluation
+paradigms by emphasizing moral agency, hierarchical
+behavior, and complex decision-making under existential
+stakes. We argue that this shift is critical for advancing
+AI governance, particularly as AI systems become
+increasingly integrated into multi-agent environments. We
+conclude by identifying key research directions, including
+the development of simulation environments for testing
+moral behavior in AI, and the formalization of ethical
+manipulation within multi-agent systems.

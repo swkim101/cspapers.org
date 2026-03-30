@@ -1,0 +1,6 @@
+Barrier certificates play an important role in verifying the safety of continuous-time systems, including autonomous driving, robotic manipulators and other critical applications. Recently, 
+ReLU neural barrier certificates---barrier certificates represented by the ReLU neural networks---have attracted significant attention in the safe control community due to their promising performance.
+However, because of the approximate nature of neural networks, rigorous verification methods are required to ensure the correctness of these certificates. This paper presents a necessary and sufficient condition for verifying the correctness of ReLU
+neural barrier certificates. The proposed condition can be encoded as either an Satisfiability Modulo Theories (SMT) or optimization problem, enabling both verification and falsification. To the best of our knowledge, this is the first approach
+capable of falsifying ReLU neural barrier certificates. Numerical experiments demonstrate the validity and 
+effectiveness of the proposed method in both verifying and falsifying such certificates.

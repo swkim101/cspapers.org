@@ -1,0 +1,14 @@
+This paper considers the development of an AI-based
+provably-correct mathematical proof tutor. While Large
+Language Models (LLMs) allow seamless communication in
+natural language, they are error prone. Theorem provers
+such as Lean allow for provable-correctness, but these are
+hard for students to learn. We present a proof-of-concept
+system (LeanTutor) by combining the complementary strengths
+of LLMs and theorem provers. LeanTutor is composed of three
+modules: (i) an autoformalizer/proof-checker, (ii) a
+next-step generator, and (iii) a natural language feedback
+generator. To evaluate the system, we introduce PeanoBench,
+a dataset of 371 Peano Arithmetic proofs in human-written
+natural language and formal language, derived from the
+Natural Numbers Game.

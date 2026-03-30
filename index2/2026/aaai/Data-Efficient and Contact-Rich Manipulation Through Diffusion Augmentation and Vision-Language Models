@@ -1,0 +1,14 @@
+Recent progress in robot learning has produced impressive
+results, yet many systems still require learning from large
+datasets of demonstrations and are less effective in clutter
+or with highly deformable objects. This talk presents work
+on data-efficient manipulation using (i) diffusion-based
+augmentation that synthesizes geometrically consistent
+images and action labels to reduce demonstration requirements and
+(ii) Vision-Language Models (VLMs) that inject high-level
+semantics for contact-rich motion planning in clutter. We
+will also introduce ManipBench, which evaluates VLMs’ abilities
+for low-level manipulation. Together, we show how to move
+the community towards achieving robot manipulators that can
+learn and operate with reduced demonstration requirements
+across cluttered and real-world environments.

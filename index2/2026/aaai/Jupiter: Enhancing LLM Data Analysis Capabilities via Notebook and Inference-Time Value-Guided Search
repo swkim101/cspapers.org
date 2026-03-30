@@ -1,0 +1,6 @@
+Large language models (LLMs) have shown great promise in automating data science workflows. However, existing models still struggle with multi-step reasoning and tool use, limiting their effectiveness on complex data analysis tasks.
+To address this limitation, we propose a scalable pipeline that extracts high-quality, tool-based data analysis tasks and their executable multi-step solutions from real-world Jupyter notebooks and associated data files.
+Using this pipeline, we introduce NbQA, a large-scale dataset of standardized task–solution pairs that reflect authentic tool-use patterns in practical data science scenarios.
+To further enhance the multi-step reasoning capabilities, we present Jupiter, a framework that formulates data analysis as a search problem and applies Monte Carlo Tree Search (MCTS) to generate diverse solution trajectories for value model learning.
+During inference, Jupiter combines the value model and node visit counts to efficiently collect executable multi-step plans with minimal search steps.
+Experimental results show that Qwen2.5-7B and 14B-Instruct models on NbQA solve 77.82% and 86.38% of tasks on InfiAgent-DABench, respectively—matching or surpassing GPT-4o and advanced agent frameworks. Further evaluations demonstrate improved generalization and stronger tool-use reasoning across diverse multi-step reasoning tasks.

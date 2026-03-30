@@ -1,0 +1,7 @@
+Neural Radiance Fields (NeRF)-based Visual Simultaneous Localization and Mapping (SLAM) achieve superior scene geometric modeling and robust camera tracking by leveraging neural representations. 
+Existing methods typically relied on multi-resolution hash encoding with truncated signed distance fields (TSDF) to achieve high frame rates. However, unavoidable hash collisions can lead to artifacts, and multi-view color inconsistencies in indoor scenes can result in shape-radiance ambiguity, adversely affecting geometric quality and tracking accuracy.
+To address these issues, we propose a novel Multi-scale Hybrid Encoding-based Decoupled SLAM (MHED-SLAM). 
+First, to mitigate the adverse effects of hash collisions and reduce the number of learnable parameters, we innovatively fuse a coarse-scale hash tri-plane with a fine-scale hash grid within a single latent volume. 
+Second, to enable precise geometric reconstruction and camera tracking, we decouple the reconstruction and rendering processes, independently learning a TSDF field for reconstruction and a density field for rendering.
+Third, we devise a Symmetric Kullback-Leibler (SKL) strategy based on ray termination distributions to align the probability distributions derived from the TSDF and density fields for their synchronous convergence. 
+Extensive experimental evaluations demonstrate that our approach surpasses the state-of-the-art (SOTA) methods by utilizing a faster frame rate of 20 Hz and fewer parameters, while achieving higher tracking and reconstruction accuracy.

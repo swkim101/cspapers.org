@@ -1,0 +1,16 @@
+Quantum machine learning (QML) has attracted growing
+interest for their ability to achieve superior performance
+with significantly fewer parameters.
+However, the high cost and scarcity of current hardware
+push inference to cloud-hosted quantum devices, creating a
+tension between verifiability and confidentiality.
+This work proposes a novel framework that converts quantum
+neural network operations into classical arithmetic
+circuits that faithfully approximate genuine quantum
+computations. By encrypting these circuits with
+zero-knowledge proofs, it ensures computational validity
+while concealing internal parameters. Experimental results
+show that our classical circuits achieve fidelity above
+0.9996 and total variation distance below 1% compared to
+actual quantum computations, verifying the practicality of
+trustworthy and privacy-preserving quantum inference.

@@ -1,0 +1,21 @@
+Finding the optimal configuration of Sparse Mixture-of-
+Experts (SMoE) that maximizes semantic differentiation
+among experts is essential for exploiting the full potential
+of MoE architectures. However, existing SMoE frameworks
+either heavily rely on hyperparameter tuning or overlook the
+importance of diversifying semantic roles across experts when
+adapting the expert pool size. We propose Mixture-of-Experts
+for Adaptive Semantic Specialization (MASS), a semantic-aware MoE framework for adaptive expert expansion and
+dynamic routing. MASS introduces two key advancements:
+(i) a gradient-based semantic drift detector that prompts targeted expert expansion when the existing expert pool lacks
+capacity to capture the full semantic diversity of the data, and
+(ii) an integration of adaptive routing strategy that dynamically
+adjusts expert usage based on token-level routing confidence
+mass. We first demonstrate that MASS reliably converges
+to the point of optimal balance between cost-performance
+trade-off with notably improved sematic specialization in a
+highly controlled synthetic setup. Further empirical results on
+real-world datasets across language and vision domains show
+that MASS consistently outperforms a range of strong MoE
+baselines, demonstrating its domain robustness and enhanced
+expert specialization.

@@ -1,0 +1,22 @@
+In safe reinforcement learning (SRL), there exists an
+inherent conflict between maximizing reward and minimizing
+cost. We propose a novel approach that effectively resolve
+the conflict between maximizing reward and minimizing cost
+in joint optimization.When the cost exceeds the threshold,
+we perform cost-reducing updates. Otherwise, we compute
+policy gradients that maximize expected rewards, while
+using second-order Taylor approximation to evaluate whether
+these reward-maximizing gradients would violate the cost
+constraint. If constraint violation is detected, we adjust
+the gradient direction to maintain safety compliance;
+otherwise, we execute standard reward-increasing policy
+updates. This approach helps ensure that reward-seeking
+updates do not inadvertently increase costs, thereby
+reducing the likelihood of constraint violations. Empirical
+tests show our framework successfully manages reward-cost
+trade-offs through reward augmentation and cost shaping,
+improving both performance and safety without switching
+optimization strategies. Results demonstrate that
+concurrent treatment of both objectives in one policy
+gradient update is viable for improving safe reinforcement
+learning methods.

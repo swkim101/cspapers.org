@@ -1,0 +1,24 @@
+Adversarial training is an effective technique for
+enhancing the robustness of deep neural networks (DNNs).
+Prior research shows that misclassified examples influence
+final adversarial robustness much more than correctly
+classified examples. Ignoring this difference during
+training can hurt model performance. In crowdsourcing,
+varying annotator expertise causes noisy, inconsistent
+labels. As a result, it is hard to distinguish
+misclassified and correctly classified examples using only
+provided annotations. Thus, how to use the reliability and
+discrepancy between these example types to improve
+robustness within adversarial learning remains a critical
+but underexplored issue.
+In this work, we first explore how misclassified and
+correctly classified examples affect learning from crowds
+(LFC) in adversarial environments. Then, we formulate the
+problem of misclassification-aware robust learning from
+multiple human labelers as a bilevel min-max problem. After
+that, we introduce MALC, a new approach to make classifiers
+more robust to adversarial examples via iterative
+adversarial example generation and parameter estimation. We
+conduct an extensive evaluation of the proposed MALC,
+showing that MALC can outperform the state-of-the-art LFC
+methods in both white-box and black-box settings.

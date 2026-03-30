@@ -1,0 +1,7 @@
+In this paper we address the problem of discovering causal relationships from observational event sequence data.
+Existing methods typically assume that events are instantaneous point events, however in many real-world settings, events have duration.
+For example, in healthcare, a patient's symptoms may persist over a time interval and influence clinical actions while ongoing.
+To address this, we introduce a causal model for interval-based event sequences that captures rich causal structures, including interactions between events and causal mechanisms that depend on whether other events are ongoing.
+We prove that our model is identifiable in the limit and present a practical causal discovery algorithm, Niagara, grounded in the algorithmic Markov condition.
+To select among candidate models, we employ a minimum description length (MDL) criterion, enabling robust inference even with limited data.
+We validate our approach on synthetic and real data and demonstrate its utility on a real-world medical case study, where it uncovers meaningful causal relationships from noisy, interval-based event data.

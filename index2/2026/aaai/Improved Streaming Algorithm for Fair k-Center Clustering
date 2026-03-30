@@ -1,0 +1,7 @@
+Many real-world applications call for incorporating fairness constraints into the k-center clustering problem, where the dataset is partitioned into m demographic groups, each with a specified upper bound on the number of centers to ensure fairness. Focusing on big data scenarios, this paper addresses the problem in a streaming setting, where data points arrive
+sequentially in a continuous stream. Leveraging a structure called the λ-independent center set, we propose a one-pass streaming algorithm that first computes a reserved set of points
+during the streaming process. In the post-streaming process, we then select centers from the reserved point set by analyzing three possible cases and transforming the most complex
+one into a specially constrained vertex-cover problem on an auxiliary graph. Our algorithm achieves an approximation ratio of 5 + ? and memory complexity O(k log ?), where ? is the aspect ratio and ? > 0 is any small constant. Furthermore, we extend our approach to semi-structured data streams, where data points arrive in groups. In this setting, we present
+a (3 + ?)-approximation algorithm for m = 2, which can be readily adapted to solve the offline fair k-center problem, achieving an approximation ratio of 3 that matches the current
+state of the art. Lastly, we conduct extensive experiments to evaluate the performance of our approaches, demonstrating that they outperform existing baselines in both clustering cost
+and runtime efficiency.

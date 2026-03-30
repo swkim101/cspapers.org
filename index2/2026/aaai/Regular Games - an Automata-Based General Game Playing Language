@@ -1,0 +1,9 @@
+We propose a new General Game Playing (GGP) system called Regular Games (RG).
+The main goal of RG is to be both computationally efficient and convenient for game design.
+The system consists of several languages.
+The core component is a low-level language that defines the rules by a finite automaton.
+It is minimal with only a few mechanisms, which makes it easy for automatic processing (by agents, analysis, optimization, etc.).
+The language is universal for the class of all finite turn-based games with imperfect information.
+Higher-level languages are introduced for game design (by humans or Procedural Content Generation), which are eventually translated to a low-level language.
+RG generates faster forward models than the current state of the art, beating other GGP systems (Regular Boardgames, Ludii) in terms of efficiency.
+Additionally, RG's ecosystem includes an editor with LSP, automaton visualization, benchmarking tools, and a debugger of game description transformations.

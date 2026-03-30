@@ -1,0 +1,11 @@
+The rise of large language models (LLMs) has sparked interest in coding assistants.
+While general-purpose programming languages are well supported, generating code for domain-specific languages remains a challenging problem for LLMs.
+In this paper, we focus on the LLM-based generation of code for Answer Set Programming (ASP), a particularly effective approach for finding solutions to combinatorial search problems.
+The effectiveness of LLMs in ASP code generation is currently hindered by the limited number of examples seen during their initial pre-training phase.
+
+In this paper, we introduce a novel ASP-solver-in-the-loop approach for solver-guided instruction-tuning of LLMs to addressing the highly complex semantic parsing task inherent in ASP code generation.
+Our method only requires problem specifications in natural language and their solutions.
+Specifically, we sample ASP statements for program continuations from LLMs for unriddling logic puzzles.
+Leveraging the special property of declarative ASP programming that partial encodings increasingly narrow down the solution space, we categorize them into chosen and rejected instances based on solver feedback.
+We then apply supervised fine-tuning to train LLMs on the curated data and further improve robustness using a solver-guided search that includes best-of-N sampling.
+Our experiments demonstrate consistent improvements in two distinct prompting settings on two datasets.

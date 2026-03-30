@@ -1,0 +1,29 @@
+Shortcut learning, where machine learning models exploit
+spurious correlations in data instead of capturing
+meaningful features, poses a significant challenge to
+building generalizable models. Vision classifiers based on
+Convolutional Neural Networks (CNNs), Multi-Layer
+Perceptrons (MLPs), and Vision Transformers (ViTs) leverage
+distinct architectural principles to process spatial and
+structural information, making them differently susceptible
+to shortcut learning. In this study, we systematically
+evaluate these architectures by introducing deliberate
+shortcuts into the dataset that are correlated with class
+labels both positionally and via intensity, creating a
+controlled setup to assess whether models rely on these
+artificial cues or learn actual distinguishing features. We
+perform both quantitative evaluation by training on the
+shortcut-modified dataset and testing on two different test
+sets—one containing the same shortcuts and another without
+them—to determine the extent of reliance on shortcuts.
+Additionally, qualitative evaluation is performed using
+network inversion-based reconstruction techniques to
+analyze what the models internalize in their weights,
+aiming to reconstruct the training data as perceived by the
+classifiers. Further, we evaluate susceptibility to
+shortcut learning across different learning rates. Our
+analysis reveals that CNNs at lower learning rates tend to
+be more reserved against entirely picking up shortcut
+features, while ViTs, particularly those without positional
+encodings, almost entirely ignore the distinctive image
+features in the presence of shortcuts.

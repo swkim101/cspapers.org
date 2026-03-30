@@ -1,0 +1,15 @@
+Hand-craft reward engineering requires domain knowledge
+with numerous trials and errors, while Preference-based
+Reinforcement Learning (PbRL) avoids manual reward design
+but often suffers from limited interpretability and
+unstable training. To address these issues, we propose a
+novel preference alignment framework. Our approach
+leverages large language models to generate sub-reward
+functions informed by prior knowledge and further align
+human preferences by optimizing the weights combining these
+sub-rewards. For policy learning, we introduce Policy
+Optimization via Pareto Regularization (POPR) which
+regularizes updates along Pareto-optimal directions.
+Experiments show that our framework improves reward quality
+and policy stability, achieving superior performance to
+expert-designed rewards across most tasks.

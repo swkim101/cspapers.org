@@ -1,0 +1,10 @@
+Structured Electronic Health Record (EHR) data stores patient information in relational tables and plays a central role in clinical decision-making. 
+Recent advances have explored the use of large language models (LLMs) to process such data, showing promise across various clinical tasks.
+However, the absence of standardized evaluation frameworks and clearly defined tasks makes it difficult to systematically assess and compare LLM performance on structured EHR data.
+To address these evaluation challenges, we introduce EHRStruct, a benchmark specifically designed to evaluate LLMs on structured EHR tasks.
+EHRStruct defines 11 representative tasks spanning diverse clinical needs and includes 2,200 task-specific evaluation samples derived from two widely used EHR datasets.
+We use EHRStruct to evaluate 20 advanced and representative LLMs, covering both general and medical models.
+We further analyze key factors influencing model performance, including input formats, few-shot generalisation, and finetuning strategies, and compare results with 11 state-of-the-art LLM-based enhancement
+methods for structured data reasoning. 
+Our results indicate that many structured EHR tasks place high demands on the understanding and reasoning capabilities of LLMs.
+In response, we propose SEMaster, a code-augmented method that achieves state-of-the-art performance and offers practical insights to guide future research.

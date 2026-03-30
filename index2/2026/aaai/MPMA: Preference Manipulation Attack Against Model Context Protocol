@@ -1,0 +1,11 @@
+Model Context Protocol (MCP) standardizes interface mapping for large language models (LLMs) to access external data and tools, which revolutionizes the paradigm of tool selection and facilitates the rapid expansion of the LLM agent tool ecosystem.
+However, as the MCP is increasingly adopted, third-party customized versions of the MCP server expose potential security vulnerabilities.
+In this paper, we first introduce a novel security threat, which we term the MCP Preference Manipulation Attack (MPMA).
+An attacker deploys a customized MCP server to manipulate LLMs, causing them to prioritize it over other competing MCP servers.
+This can result in economic benefits for attackers, such as revenue from paid MCP services or advertising income generated from free servers.
+To achieve MPMA, we first design a Direct Preference Manipulation Attack (DPMA) that achieves significant effectiveness by inserting the manipulative word and phrases into the tool name and description. 
+However, such a direct modification is obvious to users and lacks stealthiness.
+To address these limitations, we further propose Genetic-based Advertising Preference Manipulation Attack (GAPMA). 
+GAPMA employs four commonly used strategies to initialize descriptions and integrates a Genetic Algorithm (GA) to enhance stealthiness.
+The experiment results demonstrate that GAPMA balances high effectiveness and stealthiness.
+Our study reveals a critical vulnerability of the MCP in open ecosystems, highlighting an urgent need for robust defense mechanisms to ensure the fairness of the MCP ecosystem.

@@ -1,0 +1,8 @@
+Cross-lingual, cross-task transfer is challenged by task-specific data scarcity, which becomes more severe as language support grows and is further amplified in vision-language models (VLMs).
+We investigate multilingual generalization in encoder-decoder transformer VLMs to enable zero-shot image captioning in languages encountered only in the translation task.
+In this setting, the encoder must learn to generate generalizable, task-aware latent vision representations to instruct the decoder via inserted cross-attention layers.
+To analyze scaling behavior, we train Florence-2 based and Gemma-2 based models (0.4B to 11.2B parameters) on a synthetic dataset using varying compute budgets.
+While all languages in the dataset have image-aligned translations, only a subset of them include image captions.
+Notably, we show that captioning can emerge using a language prefix, even when this language only appears in the translation task.
+We find that indirect learning of unseen task-language pairs adheres to scaling laws that are governed by the multilinguality of the model, model size, and seen training samples.
+Finally, we demonstrate that the scaling laws extend to downstream tasks, achieving competitive performance through fine-tuning in multimodal machine translation (Multi30K, CoMMuTE), lexical disambiguation (CoMMuTE), and image captioning (Multi30K, XM3600, COCO Karpathy).

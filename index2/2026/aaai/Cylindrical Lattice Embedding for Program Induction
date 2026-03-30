@@ -1,0 +1,7 @@
+This study is grounded in prior work on program induction framework with a structured latent program space, called Program Lattice Auto Encoder(PLAE). 
+It preserves compositional structure by training an encoder where programs and their compositions correspond to integer linear combinations
+of program bases, forming a discrete program lattice that captures the geometric structure of compositional reasoning.
+Based on it, this paper proposes a novel extension of the PLAE aimed at improving generalization and efficiency by choosing a cylindrical lattice latent space instead of plane,
+which can represent invariant programs. The core hypothesis is that only isometric transformations conserve compositional
+properties of lattice structure and therefore developable surfaces such as a cylinder or cone are permissible as embedding space. 
+Moreover, through demonstrating a contradiction of lattice on conical manifolds, it conclude that only cylinder is a possible embedding manifold for lattice structure.

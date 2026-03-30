@@ -1,0 +1,23 @@
+Generative AI has moved from pilots to everyday practice,
+delivering gains in productivity and accessibility while
+surfacing present-day risks—hallucinations and reliability
+failures, bias and unfairness, prompt-injection attacks,
+and so on. These trends make AI safety education a core
+competency. In this paper, we survey global AI safety
+curricula and, in the Japanese context, observe strong
+policy momentum but relatively few courses that explicitly
+combine capability instruction with systematic safety
+evaluation. In response, we developed a 7-week,
+graduate-level intensive at a private science and
+engineering university in Japan, with enrollment open to
+international exchange students at both the undergraduate
+and graduate levels. The curriculum progresses from
+machine-learning foundations to generative models and
+alignment, with introductory agent topics included to
+support risk reasoning. Delivery combines weekly lectures,
+invited talks from academia and industry, structured group
+discussions, and a final presentation plus a paper-style
+final project focused on risk evaluation and mitigation
+planning. An end-of-course survey indicates high perceived
+learning and positive experience and one student project
+later resulted in a peer-reviewed workshop paper at ICLR 2025.

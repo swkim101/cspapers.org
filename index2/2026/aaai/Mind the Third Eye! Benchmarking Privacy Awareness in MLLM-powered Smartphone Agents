@@ -1,0 +1,10 @@
+Smartphones bring significant convenience to users but also enable devices to extensively record various types of personal information.
+Existing smartphone agents powered by Multimodal Large Language Models (MLLMs) have achieved remarkable performance in automating different tasks.
+However, as the cost, these agents are granted substantial access to sensitive users' personal information during this operation. 
+To gain a thorough understanding of the privacy awareness of these agents, we present the first large-scale benchmark encompassing 7,138 scenarios to the best of our knowledge.
+In addition, for privacy context in scenarios, we annotate its type (e.g., Account Credentials), sensitivity level, and location.
+We then carefully benchmark seven available mainstream smartphone agents. 
+Our results demonstrate that almost all benchmarked agents show unsatisfying privacy awareness (RA), with performance remaining below 60% even with explicit hints. 
+Overall, closed-source agents show better privacy ability than open-source ones, and Gemini 2.0-flash achieves the best, achieving an RA of 67%.
+We also find that the agents’ privacy detection capability is highly related to scenario sensitivity level, i.e., the scenario with a higher sensitivity level is typically more identifiable. 
+We hope the findings enlighten the research community to rethink the unbalanced utility-privacy tradeoff about smartphone agents.

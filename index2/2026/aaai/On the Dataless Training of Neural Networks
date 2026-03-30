@@ -1,0 +1,28 @@
+This paper surveys studies on the use of neural networks
+for optimization in the training-data-free setting.
+Specifically, we examine the dataless application of neural
+network architectures in optimization by re-parameterizing
+problems using fully connected (or MLP), convolutional,
+graph, and quadratic neural networks. Although MLPs have
+been used to solve linear programs a few decades ago, this
+approach has recently gained increasing attention due to
+its promising results across diverse applications,
+including those based on combinatorial optimization,
+inverse problems, and partial differential equations. The
+motivation for this setting stems from two key (possibly
+over-lapping) factors: (i) data-driven learning
+approaches are still underdeveloped and have yet to
+demonstrate strong results, as seen in combinatorial
+optimization, and (ii) the availability of
+training data is inherently limited, such as in medical
+image reconstruction and other scientific applications. In
+this paper, we define the dataless setting and categorize
+it into two variants based on how a problem
+instance—defined by a single datum—is encoded onto the
+neural network: (i) architecture-agnostic methods
+and (ii) architecture-specific methods.
+Additionally, we discuss similarities and clarify
+distinctions between the dataless neural network (dNN)
+settings and related concepts such as zero-shot learning,
+one-shot learning, lifting in optimization, and
+over-parameterization.
