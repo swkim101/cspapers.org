@@ -13,13 +13,13 @@
     "dev": "vite",
     "build": "vite build && cp .github/CNAME ./docs",
     "preview": "vite preview",
-    "crawl": "node ./data_crawler/crawler.js",
+    "crawl": "node --max-old-space-size=8192 ./data_crawler/crawler.js",
     "test:dupcheck": "node ./test/title_dup_check.js"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.4",
     "js-levenshtein": "^1.1.6",
     "jsdom": "^24.1.1",
-    "vite": "^7.1.9"
+    "vite": "^7.1.11"
   }
 }
