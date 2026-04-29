@@ -1,0 +1,8 @@
+Accurate segmentation of aortic vascular structures is critical for diagnosing and treating cardiovascular diseases. Traditional Transformer-based models have shown promise in this domain by capturing long-range dependencies between vascular features. 
+However, their reliance on fixed-size rectangular patches often influences the integrity of complex vascular structures, leading to suboptimal segmentation accuracy. 
+To address this challenge, we propose the adaptive Morph-Patch Transformer (MPT), a novel architecture specifically designed for aortic vascular segmentation. 
+Specifically, MPT introduces an adaptive patch partitioning strategy that dynamically generates morphology-aware patches aligned with complex vascular structures.
+This strategy can preserve semantic integrity of complex vascular structures within individual patches.
+Moreover, a Semantic Clustering Attention (SCA) method is proposed to dynamically aggregate features from various patches with similar semantic characteristics.
+This method enhances the model's capability to segment vessels of varying sizes, preserving the integrity of vascular structures.
+Extensive experiments on three open-source datasets (AVT, AortaSeg24 and TBAD) demonstrate that MPT achieves state-of-the-art performance, with improvements in segmenting intricate vascular structures.

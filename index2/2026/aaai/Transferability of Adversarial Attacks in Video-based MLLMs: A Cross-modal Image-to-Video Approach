@@ -1,0 +1,9 @@
+Video-based multimodal large language models (V-MLLMs) have shown vulnerability to adversarial examples in video-text multimodal tasks.
+However, the transferability of adversarial videos to unseen models—a common and practical real-world scenario—remains unexplored. 
+In this paper, we pioneer an investigation into the transferability of adversarial video samples across V-MLLMs.
+We find that existing adversarial attack methods face significant limitations when applied in black-box settings for V-MLLMs, which we attribute to the following shortcomings: (1) lacking generalization in perturbing video features, (2) focusing only on sparse key-frames, and (3) failing to integrate multimodal information.
+To address these limitations and deepen the understanding of V-MLLM vulnerabilities in black-box scenarios, we introduce the Image-to-Video MLLM (I2V-MLLM) attack.
+In I2V-MLLM, we utilize an image-based multimodal large language model (I-MLLM) as a surrogate model to craft adversarial video samples.
+Multimodal interactions and spatiotemporal information are integrated to disrupt video representations within the latent space, improving adversarial transferability.
+Additionally, a perturbation propagation technique is introduced to handle different unknown frame sampling strategies.
+Experimental results demonstrate that our method can generate adversarial examples that exhibit strong transferability across different V-MLLMs on multiple video-text multimodal tasks. Compared to white-box attacks on these models, our black-box attacks (using BLIP-2 as a surrogate model) achieve competitive performance, with average attack success rate (AASR) of 57.98% on MSVD-QA and 58.26% on MSRVTT-QA for Zero-Shot VideoQA tasks, respectively.

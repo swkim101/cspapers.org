@@ -1,0 +1,8 @@
+The increasing demand for AR/VR applications has highlighted the need for high-quality content, such as 360° live wallpapers. 
+However, generating high-quality 360° panoramic contents remains a challenging task due to the severe distortions introduced by equirectangular projection (ERP).
+Existing approaches either fine-tune pretrained diffusion models on limited ERP datasets or adopt tuning-free methods that still rely on ERP latent representations, often resulting in distracting distortions near the poles.
+In this paper, we introduce SphereDiff, a novel approach for synthesizing 360° static and live wallpaper with state-of-the-art diffusion models without additional tuning. 
+We define a spherical latent representation that ensures consistent quality across all perspectives, including near the poles.
+Then, we extend MultiDiffusion to spherical latent representation and propose a dynamic spherical latent sampling method to enable direct use of pretrained diffusion models.
+Moreover, we introduce distortion-aware weighted averaging to further improve the generation quality.
+Our method outperforms existing approaches in generating 360° static and live wallpaper, making it a robust solution for immersive AR/VR applications.

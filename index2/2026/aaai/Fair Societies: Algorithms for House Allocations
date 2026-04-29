@@ -1,0 +1,6 @@
+House allocations concern with matchings involving one-sided preferences, where houses serve as a proxy encoding valuable indivisible resources (e.g. organs, course seats, subsidized public housing units) to be allocated among the agents. Every agent must receive exactly one resource. 
+We study algorithmic approaches towards ensuring fairness in such settings. Minimizing the number of envious agents is known to be computationally hard. We present two tractable approaches to deal with the hardness. 
+When the agents are presented with an initial allocation of houses, we aim to refine this allocation by reallocating a bounded number of houses to reduce the number of envious agents. We show an efficient algorithm when the agents express preference for a bounded number of houses and houses are accepted by a bounded number of agents. Next, we consider single peaked preference domain and present a polynomial time algorithm for finding an allocation that minimize the number of envious agents. We further extend it to satisfy Pareto efficiency. Our former algorithm works for other measures of envy such as total envy, or maximum envy, with
+suitable modifications. Finally, we present
+an empirical analysis recording the fairness-welfare trade-off
+of our algorithms.

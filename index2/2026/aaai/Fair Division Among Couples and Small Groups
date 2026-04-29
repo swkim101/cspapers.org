@@ -1,0 +1,8 @@
+We study the fair allocation of indivisible goods across groups of agents, where each agent fully enjoys all goods allocated to their group.
+We focus on groups of two (couples) and other groups of small size.
+For two couples, an EF1 allocation — one in which all agents find their group's bundle no worse than the other group's, up to one good — always exists and can be found efficiently.
+For three or more couples, EF1 allocations need not exist.
+
+Turning to proportionality, we show that, whenever groups have size at most k, a PROPk allocation exists and can be found efficiently.
+In fact, our algorithm additionally guarantees (fractional) Pareto optimality and PROP1 to the first agent in each group, PROP2 to the second, and so on, for an arbitrary agent ordering.
+In special cases, we show that there are PROP1 allocations for any number of couples.

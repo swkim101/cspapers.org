@@ -1,0 +1,9 @@
+With the rapid advancement of image generation, visual text editing using natural language instructions has received increasing attention. 
+The main challenge of this task is to fully understand the instruction and reference image, and thus generate visual text that is style-consistent with the image. 
+Previous methods often involve complex steps of specifying the text content and attributes, such as font size, color, and layout, without considering the stylistic consistency with the reference image.
+To address this, we propose UM-Text, a unified multimodal model for context understanding and visual text editing by natural language instructions. 
+Specifically, we introduce a Visual Language Model (VLM) to process the instruction and reference image, so that the text content and layout can be elaborately designed according to the context information.
+To generate an accurate and harmonious visual text image, we further propose the UM Encoder to combine the embeddings of various condition information, where the combination is automatically configured by VLM according to the input instruction.
+During training, we propose a regional consistency loss to offer more effective supervision for glyph generation on both latent and RGB space, and design a tailored three-stage training strategy to further enhance model performance. 
+In addition, we contribute the UM-DATA-200K, a large-scale visual text image dataset on diverse scenes for model training.
+Extensive qualitative and quantitative results on multiple public benchmarks demonstrate that our method achieves state-of-the-art performance.

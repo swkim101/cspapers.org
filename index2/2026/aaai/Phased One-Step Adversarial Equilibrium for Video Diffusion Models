@@ -1,0 +1,8 @@
+Video diffusion generation suffers from critical sampling efficiency bottlenecks, particularly for large-scale models and long contexts.
+Existing video acceleration methods, adapted from image-based techniques, lack a single-step distillation ability for large-scale video models and task generalization for conditional downstream tasks.
+To bridge this gap, we propose the Video Phased Adversarial Equilibrium (V-PAE), a distillation framework that enables high-quality, single-step video generation from large-scale video models. Our approach employs a two-phase process.
+(i) Stability priming is a warm-up process to align the distributions of real and generated videos. It improves the stability of single-step adversarial distillation in the following process.
+(ii) Unified adversarial equilibrium is a flexible self-adversarial process that reuses generator parameters for the discriminator backbone. It achieves a co-evolutionary adversarial equilibrium in the Gaussian noise space.
+For the conditional tasks, we primarily preserve video-image subject consistency, which is caused by semantic degradation and conditional frame collapse during the distillation training in image-to-video (I2V) generation.
+Comprehensive experiments on VBench-I2V demonstrate that V-PAE outperforms existing acceleration methods by an average of 5.8% in the overall quality score, including semantic alignment, temporal coherence, and frame quality.
+In addition, our approach reduces the diffusion latency of the large-scale video model (e.g., Wan2.1-I2V-14B) by 100 times, while preserving competitive performance.

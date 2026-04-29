@@ -1,0 +1,7 @@
+The proliferation of generative image models has revolutionized AIGC creation while amplifying concerns over content provenance and manipulation forensics.
+Existing methods are typically either unable to localize tampering or restricted to specific generative settings, limiting their practical utility.
+We propose GenPTW, a General watermarking framework that unifies Provenance tracing and Tamper localization in latent space.
+It supports both in-generation and post-generation embedding without altering the generative process, and is plug-and-play compatible with latent diffusion models (LDMs) and visual autoregressive (VAR) models.
+To achieve precise provenance tracing and tamper localization, we embed the watermark using two complementary mechanisms: cross-attention fusion aligned with latent semantics and spatial fusion providing explicit spatial guidance for edit sensitivity.
+A tamper-aware extractor jointly conducts provenance tracing and tamper localization by leveraging watermark features together with high-frequency features.
+Experiments show that GenPTW maintains high visual fidelity and strong robustness against diverse AIGC-editing.

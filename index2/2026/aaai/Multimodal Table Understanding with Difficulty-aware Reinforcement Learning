@@ -1,0 +1,9 @@
+Multimodal table understanding, which aims for a comprehensive grasp of table content by integrating cellular text, tabular structure, and visual presentation, remains a core yet challenging area of research.
+We identify that the structural complexity of a table, quantifiable by intrinsic properties such as the ratio of merged cells and the total number of cells, presents a significant obstacle for existing models. 
+Our empirical analysis reveals that the performance of leading Multimodal Large Language Models (MLLMs) deteriorates markedly as table complexity increases, exposing a critical vulnerability in their ability to perceive and reason over intricate tabular data.
+To address this challenge, we propose MM-Table-R1, a model enhanced through difficulty-aware reinforcement learning (RL) post-training strategy. 
+Specifically, we introduce both task-level and data-level curriculum learning. 
+The task-level curriculum is designed to establish a capability ladder, where the model first learns basic perceptual and semantic alignment of table data, and then progresses to acquiring multi-step reasoning capabilities.
+The data-level curriculum ensures that the model is not exposed to difficult samples prematurely, facilitating a more gradual and effective learning process.
+Furthermore, we invest considerable effort in constructing a high-quality, large-scale training corpus by curating and processing data from diverse open-source table datasets, ensuring that each instance is paired with an objectively verifiable reward signal.
+Demonstrating exceptional parameter efficiency, our 3B-parameter model sets a new benchmark by surpassing both established 3B and 7B models, including those specifically designed for table reasoning.

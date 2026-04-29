@@ -1,0 +1,9 @@
+Despite extensive theoretical research on proportionality in
+approval-based multiwinner voting, its impact on which committees and candidates can be selected in practice remains
+poorly understood. We address this gap by (i) analyzing the
+computational complexity of several natural problems related
+to the behavior of proportionality axioms, and (ii) conducting an extensive experimental study on both real-world and
+synthetic elections. Our findings reveal substantial variation
+in the restrictiveness of proportionality across instances, including previously unobserved high levels of restrictiveness
+in some real-world cases. We also introduce and evaluate new
+measures for quantifying a candidate’s importance for achieving proportional outcomes, which differ clearly from assessing candidate strength by approval score.

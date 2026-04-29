@@ -1,0 +1,6 @@
+Binary networked public goods games model situations in which players can choose whether to participate in an action at some cost which benefits players in their immediate vicinity within some typically social or infrastructural network.
+An important underlying assumption for this model is that participation in an action impacts the entire vicinity of participating players.
+However, there are numerous natural settings in which participation influences only a subset of the neighbors and is in fact more "interaction-specific''.
+In this work, we introduce a type of game that is more appropriate in such settings. 
+We initiate the investigation of these games, by studying the complexity of deciding existence of their Nash equilibria in general and with respect to well-motivated structural restrictions on the network.
+The outcome is a comprehensive understanding of the complexity of computing Nash equilibria with respect to any combination of three natural properties of the network structure.

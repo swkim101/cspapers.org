@@ -1,0 +1,10 @@
+Conformal prediction (CP) is a general framework to quantify the predictive uncertainty of machine learning models that uses a set prediction to include the true label with a valid probability.
+To align the uncertainty measured by CP, conformal training methods minimize the size of the prediction sets.
+A typical way is to use a surrogate indicator function, usually Sigmoid or Gaussian error function.
+However, these surrogate functions do not have a uniform error bound to the indicator function, leading to uncontrollable learning bounds.
+In this paper, we propose a simple cost-sensitive conformal training algorithm that does not rely on the indicator approximation mechanism.
+Specifically, we theoretically show that minimizing the expected size of prediction sets is upper bounded by the expected rank of true labels.
+To this end, we develop an importance weighting strategy that assigns the weight using the rank of true label on each data.
+Our analysis provably demonstrates the tightness between the proposed weighted objective and the expected size of conformal prediction sets.
+Extensive experiments verify the validity of our theoretical insights, 
+and superior empirical performance over other conformal training in terms of predictive efficiency with 21.38% reduction for average prediction set size.

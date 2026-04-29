@@ -1,0 +1,10 @@
+Modeling dynamic scenes through 4D Gaussians offers high visual fidelity and fast rendering speeds, but comes with significant storage overhead.
+Recent approaches mitigate this cost by aggressively reducing the number of Gaussians.
+However, this inevitably removes Gaussians essential for high-quality rendering, leading to severe degradation in dynamic regions.
+In this paper, we introduce a novel 4D anchor-based framework that tackles the storage cost in different perspective.
+Rather than reducing the number of Gaussians, our method retains a sufficient quantity to accurately model dynamic contents, while compressing them into compact, grid-aligned 4D anchor features.
+Each anchor is processed by an MLP to spawn a set of neural 4D Gaussians, which represent a local spatiotemporal region.
+We design these neural 4D Gaussians to capture temporal changes with minimal parameters, making them well-suited for the MLP-based spawning.
+Moreover, we introduce a dynamic-aware anchor growing strategy to effectively assign additional anchors to under-reconstructed dynamic regions.
+Our method adjusts the accumulated gradients with Gaussians' temporal coverage, significantly improving reconstruction quality in dynamic regions.
+Experimental results highlight that our method achieves state-of-the-art visual quality in dynamic regions, outperforming all baselines by a large margin with practical storage costs.

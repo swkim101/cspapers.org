@@ -1,0 +1,6 @@
+Few-shot detection-based counters estimate the number of instances in the image specified only by a few test-time exemplars. 
+A common approach to localize objects across multiple sizes is to merge backbone features of different resolutions.
+Furthermore, to enable small object detection in densely populated regions, the input image is commonly upsampled and tiling is applied to cope with the increased computational and memory requirements. Because of these ad-hoc solutions, existing counters struggle with images containing diverse-sized objects and densely populated regions of small objects.
+We propose GeCo2, an end-to-end few-shot counting and detection method that explicitly addresses the object scale issues. 
+A new dense query representation gradually aggregates exemplar-specific feature information across scales that leads to high-resolution dense queries that enable detection of large as well as small objects.
+GeCo2 surpasses state-of-the-art few-shot counters in counting as well as detection accuracy by ~10% while running ~3x faster at smaller GPU memory footprint.

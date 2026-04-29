@@ -1,0 +1,8 @@
+A safe Pareto improvement (SPI) is a modification of a game that leaves all players better off with certainty. 
+SPIs are typically proven under qualitative assumptions about the way different games are played. 
+For example, we assume that strictly dominated strategies can be iteratively removed and that isomorphic games are played isomorphically.
+In this work, we study SPIs achieved through three types of \textit{ex post} verifiable commitments -- promises about player behavior from which deviations can be detected by observing the game. 
+First, we consider disarmament -- commitments not to play certain actions. 
+Next, we consider SPIs based on \textit{token games}. A token game is a game played by simply announcing an action (via cheap talk). As such, its outcome is intrinsically meaningless. However, we assume the players commit in advance to play specific (pure or correlated) strategy profiles in the original game as a function of the token game outcome. Under such commitments, the token game becomes a new, meaningful normal-form game.
+Finally, we consider default-conditional commitment: SPIs in settings where the players' default ways of playing the original game can be credibly revealed and hence the players can commit to act as a function of this default. 
+We characterize the complexity of deciding whether SPIs exist in all three settings, giving a mixture of characterizations and efficient algorithms and \NP- and \textsc{Graph Isomorphism}-hardness

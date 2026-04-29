@@ -1,0 +1,8 @@
+Controllable image synthesis, which enables fine-grained control over generated outputs, has emerged as a key focus in visual generative modeling.
+However, controllable generation remains challenging for Visual Autoregressive (VAR) models due to their hierarchical, next-scale prediction style.
+Existing VAR-based methods often suffer from inefficient control encoding and disruptive injection mechanisms that compromise both fidelity and efficiency. 
+In this work, we present SCALAR, a controllable generation method based on VAR, incorporating a Scale-wise Conditional Decoding mechanism. 
+SCALAR leverages a pretrained image encoder to extract semantic control signal encodings, which are projected into scale-specific representations and injected into the corresponding layers of the VAR backbone. 
+This design provides persistent and structurally aligned guidance throughout the generation process.
+Building on SCALAR, we develop SCALAR-Uni, a unified extension that aligns multiple control modalities into a shared latent space, supporting flexible multi-conditional guidance in a single model.
+Extensive experiments show that SCALAR achieves superior generation quality and control precision across various tasks.

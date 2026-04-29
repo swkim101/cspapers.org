@@ -1,0 +1,9 @@
+How can we accurately quantize a pre-trained Vision Transformer model?
+Quantization algorithms compress Vision Transformers (ViTs) into low-bit formats, reducing memory and computation demands with minimal accuracy degradation.
+However, existing methods rely on uniform precision, ignoring the diverse sensitivity of ViT components to quantization.
+Metric-based Mixed Precision Quantization (MPQ) is a promising alternative, but previous MPQ methods for ViTs suffer from three major limitations: 1) coarse granularity, 2) mismatch in metric scale across component types, and 3) quantization-unaware bit allocation.
+In this paper, we propose LampQ (Layer-wise Mixed Precision Quantization for Vision Transformers), an accurate
+metric-based MPQ method for ViTs to overcome these limitations.
+LampQ performs layer-wise quantization to achieve both fine-grained control and efficient acceleration, incorporating a type-aware Fisher-based metric to measure sensitivity.
+Then, LampQ assigns bit-widths optimally through integer linear programming and further updates them iteratively.
+Extensive experiments show that LampQ provides the state-of-the-art performance in quantizing ViTs pre-trained on various tasks such as image classification, object detection, and zero-shot quantization.

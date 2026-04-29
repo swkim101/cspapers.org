@@ -1,0 +1,8 @@
+Generative modeling has transformed many fields, such as language and visual modeling, while its application in financial markets remains under-explored.
+As the minimal unit within a financial market is an order, order-flow modeling represents a fundamental generative financial task.
+However, current approaches often yield unsatisfactory fidelity in generating order flow, and their generation lacks controllability, thereby limiting their practical applications.
+In this paper, we formulate the challenge of controllable
+financial market generation, and propose a Diffusion Guided Meta Agent (DigMA) model
+to address it. Specifically, we employ a conditional diffusion model to capture the dynamics of the market state represented by time-evolving distribution parameters of the mid-price return rate and the order arrival rate, and we define a meta agent with financial economic priors to generate orders from the corresponding distributions. 
+Extensive experimental results show that DigMA achieves superior controllability and generation fidelity. 
+Moreover, we validate its effectiveness as a generative environment for downstream high-frequency trading tasks and its computational efficiency.

@@ -1,0 +1,8 @@
+Despite recent advances in text-to-image (T2I) generation, models still struggle to accurately render prompt-specified text with correct spatial layout—especially in multi-span, structured settings. 
+This challenge is driven not only by the lack of datasets that align prompts with the exact text and layout expected in the image, but also by the absence of effective metrics for evaluating layout quality.
+To address these issues, we introduce TextGround4M, a large-scale dataset of over 4 million prompt-image pairs, each annotated with span-level text grounded in the prompt and corresponding bounding boxes.
+This enables fine-grained supervision for layout-aware, prompt-grounded text rendering.
+Building on this, we propose a lightweight training strategy for autoregressive T2I models that appends layout-aware span tokens during training, without altering model architecture or inference behavior.
+We further construct a benchmark with stratified layout complexity to evaluate both open-source and proprietary models in a zero-shot setting. 
+In addition, we introduce two layout-aware metrics to address the long-standing lack of spatial evaluation in text rendering.
+Our results show that models trained on TextGround4M outperform strong baselines in text fidelity, spatial accuracy, and prompt consistency, highlighting the importance of fine-grained layout supervision for grounded T2I generation.

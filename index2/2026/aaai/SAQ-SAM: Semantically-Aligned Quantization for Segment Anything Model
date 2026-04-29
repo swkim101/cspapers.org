@@ -1,0 +1,9 @@
+Segment Anything Model (SAM) exhibits remarkable zero-shot segmentation capability; however, its prohibitive computational costs make edge deployment challenging. Although post-training quantization (PTQ) offers a promising compression solution, existing methods yield unsatisfactory results when applied to SAM, owing to its specialized model components and promptable workflow: 
+(i) The mask decoder's attention exhibits extreme activation outliers, and we find that aggressive clipping (even 100x), without smoothing or isolation, is effective in suppressing outliers while maintaining performance. Unfortunately, traditional distribution-based metrics (e.g., MSE) fail to provide such large-scale clipping. 
+(ii) Existing quantization reconstruction methods neglect semantic interactivity of SAM, leading to misalignment between image feature and prompt intention.
+To address the above issues, we propose SAQ-SAM in this paper, which boosts PTQ for SAM from the perspective of semantic alignment.
+Specifically, we propose Perceptual-Consistency Clipping, which exploits attention focus overlap to promote aggressive clipping while preserving semantic capabilities. 
+Furthermore, we propose Prompt-Aware Reconstruction, which incorporates image-prompt interactions by leveraging cross-attention in mask decoder, thus facilitating alignment in both distribution and semantic. 
+Moreover, to ensure the interaction efficiency, we design a layer-skipping strategy for image tokens in encoder.
+Extensive experiments are conducted on various SAM sizes and tasks, including instance segmentation, oriented object detection, and semantic segmentation, and the results show that our method consistently exhibits advantages.
+For example, when quantizing SAM-B to 4-bit, SAQ-SAM achieves 11.7% higher mAP than the baseline in instance segmentation task.

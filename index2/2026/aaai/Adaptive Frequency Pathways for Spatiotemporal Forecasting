@@ -1,0 +1,28 @@
+Spatiotemporal forecasting is a fundamental task in areas
+such as traffic flow prediction, environmental sensing, and
+urban planning. Recent advances have shown that decomposing
+temporal signals into multiple frequencies and modeling
+them jointly with spatial structures can significantly
+enhance forecasting performance. However, existing multifrequency
+forecasting models still face two critical limitations.
+First, the importance of different temporal frequencies
+evolves over time, yet most models assume fixed or static frequency
+contributions. Second, spatial dependencies are inherently
+frequency-sensitive. For instance, low-frequency components
+often align with global spatial patterns, while highfrequency
+components tend to correspond to localized interactions.
+However, current approaches typically use a shared
+spatial information across all frequencies, introducing spatiotemporal
+inconsistency. To address these challenges, we
+propose a novel Adaptive Frequency Pathways (AdaFre) for
+spatiotemporal forecasting, which adaptively captures both
+dynamic frequency relevance and frequency-aligned spatial
+structures. AdaFre employs a multi-frequency routing mechanism
+to dynamically select and aggregate the most informative
+temporal frequency components, while associating each
+with its corresponding spatial representation derived from
+frequency-aware embeddings. Spatiotemporal backbones are
+then used to model each path independently before final
+aggregation. Extensive experiments on several real-world
+datasets demonstrate that AdaFre significantly outperforms
+state-of-the-art baselines.

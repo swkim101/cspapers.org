@@ -1,0 +1,8 @@
+Recent generative unlearning models synthesize high quality samples while protecting private information by unlearning the identity.
+However, existing generative identity unlearning methods face two challenges in multi-identity unlearning: 1) identity conflicts, which cause conflicts of model parameters in the continuous erasure of multiple identities; 2) fragile unlearning, where the model's unlearning ability deteriorates or fails under malicious attacks.
+In this paper, we introduce a critical yet under-explored task called robust multi-identity unlearning, with the goals of resolving identity conflicts to achieve interference-free unlearning and protecting against malicious attacks to achieve robust unlearning.
+To satisfy these goals, we propose a novel framework, RObust generatiVE continual identity unlearning against Relearning attacks (ROVER).
+By filtering unlearning requests with latent similarity, our method effectively isolates benign unlearning from malicious attacks to preserve identity removal integrity.
+Meanwhile, residual orthogonal resonator resolves identity conflicts in the continuous erasure of multiple identities, preserving stability in benign continual unlearning.
+Moreover, we introduce the phantom guard network to block malicious attacks by absorbing adversarial gradients, ensuring irreversible identity unlearning.
+The extensive experiments demonstrate that our proposed method achieves state-of-the-art performance on the task of robust multi-identity unlearning against relearning attacks.

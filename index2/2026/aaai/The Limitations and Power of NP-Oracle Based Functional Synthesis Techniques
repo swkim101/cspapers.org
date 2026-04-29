@@ -1,0 +1,16 @@
+Given a Boolean relational specification between inputs and outputs, the 
+problem of functional synthesis is to construct a function that maps each 
+assignment of the input to an assignment of the output such that each tuple 
+of input and output assignments meets the specification. The past decade has 
+ witnessed significant improvement in the scalability of 
+ functional synthesis tools, allowing them to handle problems with tens 
+ of thousands of variables. A common ingredient in these approaches is their 
+ reliance on SAT solvers, thereby exploiting the breakthrough advances in SAT 
+ solving over the past three decades. While the recent techniques have been 
+ shown to perform well in practice, there is little theoretical understanding 
+ of the limitations and power of these approaches. 
+
+The primary contribution of this work is to initiate a systematic theoretical investigation into the power of functional synthesis approaches that rely on NP oracles. We first show that even when small Skolem functions exist, naive bit-by-bit learning approaches fail 
+due to the relational nature of specifications. We establish fundamental limitations of interpolation-based 
+ approaches proving that even when small Skolem functions exist, resolution-based interpolation must produce 
+ exponential-size circuits. We prove that access to an NP oracle is inherently necessary for efficient synthesis. Our main technical result shows that it is possible to use NP oracles to synthesize small Skolem functions in time polynomial in the size of the specification and the size of the smallest sufficient set of witnesses, establishing positive results for a broad class of relational specifications.

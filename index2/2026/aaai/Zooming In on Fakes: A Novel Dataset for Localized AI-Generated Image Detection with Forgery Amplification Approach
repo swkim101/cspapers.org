@@ -1,0 +1,8 @@
+The rise of AI-generated image tools has made localized forgeries increasingly realistic, posing challenges for visual content integrity.
+Although recent efforts have explored localized AIGC detection, existing datasets predominantly focus on object-level forgeries while overlooking broader scene edits in regions such as sky or ground.
+To address these limitations, we introduce BR-Gen, a large-scale dataset of 150,000 locally forged images with diverse scene-aware annotations, which are based on semantic calibration to ensure high-quality samples. 
+BR-Gen is constructed through a fully automated ``Perception-Creation-Evaluation'' pipeline to ensure semantic coherence and visual realism.
+In addition, we further propose NFA-ViT, a Noise-guided Forgery Amplification Vision Transformer that enhances the detection of localized forgeries by amplifying subtle forgery-related features across the entire image. 
+NFA-ViT mines heterogeneous regions in images, i.e., potential edited areas, by noise fingerprints. Subsequently, attention mechanism is introduced to compel the interaction between normal and abnormal features, thereby propagating the traces throughout the entire image, allowing subtle forgeries to influence a broader context and improving overall detection robustness.
+Extensive experiments demonstrate that BR-Gen constructs entirely new scenarios that are not covered by existing methods.
+Take a step further, NFA-ViT outperforms existing methods on BR-Gen and generalizes well across current benchmarks.

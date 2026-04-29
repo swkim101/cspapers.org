@@ -1,0 +1,4 @@
+Several proof systems for model counting have been introduced in recent years, mainly in an attempt to model #SAT solving and to allow proof logging of solvers. We reexamine these different approaches and show that: 
+(i) with moderate adaptations, the conceptually quite different proof models of the dynamic system MICE and the static system of annotated Decision-DNNFs are equivalent and 
+(ii) they tightly characterise state-of-the-art #SAT solving. 
+Thus, these proof systems provide a precise and robust proof-theoretic underpinning of current model counting. We also propose new strengthenings of these proof systems that might lead to stronger model counters.

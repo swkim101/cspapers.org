@@ -1,0 +1,11 @@
+Although approximate notions of envy-freeness—such as envy-freeness up to one good (EF1)—have been extensively studied for indivisible goods, the seemingly simpler fairness concept of proportionality up to one good (PROP1) has received far less attention. For additive valuations, every EF1 allocation is PROP1, and well-known algorithms such as round-robin and envy-cycle elimination compute such allocations in polynomial time. PROP1 is also compatible with Pareto efficiency, as maximum Nash welfare allocations are EF1 and hence PROP1.
+
+We ask whether these favorable properties extend to non-additive valuations. We study a broad class of allocation instances with satiating goods, where agents have non-negative valuation functions that need not be monotone, allowing for negative marginal values. We present the following results:
+
+--EF1 implies PROP1 for submodular valuations over satiating goods, ensuring existence and efficient computation via envy-cycle elimination for monotone submodular valuations;
+
+--Round-robin computes a partial PROP1 allocation after the second-to-last round for satiating submodular goods and a complete PROP1 for submodular monotone valuations;
+
+--PROP1 allocations for satiating subadditive goods can be computed in polynomial-time;
+
+--Maximum Nash welfare allocations are PROP1 for monotone submodular goods, revealing yet another facet of their ``unreasonable fairness.''

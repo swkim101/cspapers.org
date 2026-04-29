@@ -1,0 +1,10 @@
+We study the computational complexity of explaining preference data through Boolean attribute models (BAMs), motivated by extensive research involving attribute models and their promise in understanding preference structure and enabling more efficient decision-making processes.
+ In a BAM, each alternative possesses a subset of binary attributes, each voter cares about a subset of attributes, and voters prefer alternatives with more of their desired attributes.
+ In the BAM problem, we are given a preference profile and want to know whether there is a k-attribute model explaining the profile.
+
+ We establish a complexity dichotomy for the number of attributes k: BAM is linear-time solvable for k≤2 but NP-complete for k≥3.
+ The problem remains hard even when preference orders have length two.
+ On the positive side, BAM becomes fixed-parameter tractable when parameterized by the number of alternatives m.
+ For the special case of two voters, we provide a linear-time algorithm.
+
+ We also analyze variants where partial information is given: When voter preferences over attributes are known (BAM With Cares) or when alternative attributes are specified (BAM With Has), showing that for most parameters BAM With Cares is more difficult whereas BAM With Has is more tractable except for being NP-hard even for one voter.

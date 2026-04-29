@@ -1,0 +1,7 @@
+Reconstructing dynamic objects from monocular RGB-D video is critical for advancing 3D vision applications and enhancing user experience. 
+However, monocular RGB-D video provides limited 3D observations, making the reconstruction of unobserved regions highly under-constrained. 
+Despite recent advances that combine neural implicit surfaces with diffusion models, the inherent limitations of implicit representations and the lack of effective guidance in diffusion priors lead to blurry appearance and inaccurate geometry in dynamic object reconstruction.
+To address the issue, we present MGD, which leverages scene-adaptive diffusion priors and Mesh-guided Gaussians for realistic rendering and geometrically accurate reconstruction of dynamic objects, including unobserved regions.
+The dynamic 3D objects reconstructed by MGD are represented using our proposed Mesh-guided Gaussians, which leverage global and local Gaussians to capture large-scale deformations and fine-grained appearance details, respectively.
+Additionally, in order to utilize depth information, we integrate a depth ControlNet into the diffusion model and conduct scene-adaptive fine-tuning. We design a self-generated image-pair strategy to produce image pairs used for fine-tuning. 
+Extensive experiments demonstrate that MGD achieves state-of-the-art performance in both high-fidelity reconstruction and structural completeness, while maintaining real-time efficiency during training and rendering.

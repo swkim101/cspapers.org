@@ -1,0 +1,5 @@
+The Aperiodic Tiling Complements Problem (ATCP) involves finding the full set of (normalized) aperiodic complements of a given pattern.
+This has become a classic problem in music theory, with some recent attempts to model it using Integer Linear Programming (ILP) and Boolean Satisfiability (SAT) frameworks.
+In this paper, we develop and compare different models of ATCP encoded with Constraint Programming (CP).
+The most effective approach admits two phases: a first one that allows us to merge (join) several subsets of linear constraints under the form of tables with large arity, and a second one that advantageously exploits the generated tables to discard periodic tiling complements.
+Our experimental results show that our approach significantly outperforms the state-of-the-art, solving every instance of a classical benchmark (standard Vuza rhythms for canons with periods set up to 900) in a time between 5 seconds and 2 minutes (except the largest instance being solved in 18 minutes).

@@ -1,0 +1,8 @@
+Learnable sparse retrieval (LSR) models encode texts into high-dimensional sparse representations, supporting token-level expansion beyond the original text and addressing the vocabulary mismatch problem in traditional bag-of-words retrieval.
+However, in the absence of representation-level supervision, these representations usually overemphasize irrelevant tokens while neglecting truly relevant ones.
+We term this phenomenon the Representation Hallucination problem in LSR models, a critical bottleneck impeding accurate retrieval.
+To address this challenge, we introduce SiRe, a self-improving training framework for sparse retrieval that integrates two core strategies: Heuristic Representation Refinement and Representation-Focused Learning.
+Specifically, SiRe first identifies and corrects representation hallucinations in the outputs of the current LSR model using heuristic methods.
+The resulting representations serve as the primary supervision signals, guiding a pretrained language model (e.g., BERT) to mitigate the problem directly at the representation level.
+This process can be iterated, enabling progressive model improvement.
+Extensive experiments on both in-domain and out-domain benchmarks show that SiRe produces higher-quality sparse representations, significantly enhancing retrieval performance over strong baselines.

@@ -1,0 +1,7 @@
+Sparse query-based detectors have emerged as the dominant paradigm in camera-only 3D object detection, owing to their exceptional performance and computational efficiency. 
+A central component of these approaches is the use of reference points, which serve as learnable spatial anchors to guide queries in localizing target objects. 
+However, existing methods typically employ a unified set of reference points across all scenes, a design we find suboptimal for handling complex scenarios with highly imbalanced object distributions, such as road intersections or occluded environments.
+In this paper, we investigate the adaptability of reference points and propose Refine3D, an adaptive refinement mechanism that achieves scene-level alignment between the distribution of reference points and ground-truth objects. 
+In particular, we introduce a novel Reference Point Distribution Loss (RPD-Loss) to ensure reference points converge globally toward object positions, and a Scene-Adaptive Refinement head (SAR-Head) that predicts dynamic offsets for each reference point. 
+Both components can be seamlessly integrated into mainstream sparse detectors. 
+Extensive experiments on two challenging autonomous driving datasets demonstrate that Refine3D outperforms the state-of-the-art with improved detection accuracy and robustness.

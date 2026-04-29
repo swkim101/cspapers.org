@@ -1,0 +1,6 @@
+Modeling stochastic dynamics from discrete observations is a key interdisciplinary challenge. 
+Existing methods often fail to estimate the continuous evolution of probability densities from trajectories or face the curse of dimensionality. 
+To address these limitations, we presents a novel paradigm: modeling dynamics directly in the weight space of a neural network by projecting the evolving probability distribution.
+We first theoretically establish the connection between dynamic optimal transport in measure space and an equivalent energy functional in weight space. 
+Subsequently, we design WeightFlow, which constructs the neural network weights into a graph and learns its evolution via a graph controlled differential equation.
+Experiments on interdisciplinary datasets show that WeightFlow improves performance by an average of 43.02\% over state-of-the-art methods, providing an effective and scalable solution for modeling high-dimensional stochastic dynamics.

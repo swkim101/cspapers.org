@@ -1,0 +1,9 @@
+Recent diffusion-based models have significantly improved inpainting quality.
+However, existing methods struggle with multi-task inpainting due to conflicting optimization objectives, and current datasets are typically limited to task-specific scenarios, hindering joint training.
+To address these challenges, we propose MagicPaint, a unified diffusion-based inpainting model that supports object addition, removal, and unconditional inpainting across both text and image modalities.
+MagicPaint semantically decouples operation types and target content by learnable tokens in MMToken Module, effectively reconciling conflicting optimization objectives and enabling robust multi-task, multi-modal inpainting.
+Besides, a novel inpainting paradigm named MagicMask, encodes operating intent directly into the mask and applies a mask loss for spatially precise supervision.
+In addition, existing inpainting datasets are insufficient for multi-task and multi-modal scenarios, limiting the capability of inpainting models. Thus, we further introduce
+a new dataset comprising 2.1M image tuples. It is dedicatedly designed to support diverse inpainting scenarios and significantly improves upon existing datasets, particularly in object removal. 
+Through efforts from both model and data perspectives, MagicPaint enables users to operate anything—add, remove or inpaint content which is specified through either text or image modalities in a seamless and unified manner.
+Extensive experiments demonstrate that MagicPaint achieves state-of-the-art performance across three key tasks (i.e., text-guided addition, image-guided addition, and object removal) and produces outputs with superior visual consistency and contextual fidelity compared to existing methods.

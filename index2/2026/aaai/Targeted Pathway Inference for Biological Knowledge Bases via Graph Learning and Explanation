@@ -1,0 +1,8 @@
+Retrieving targeted pathways in biological knowledge bases, particularly when incorporating wet-lab experimental data, remains a challenging task and often requires downstream analyses and specialized expertise.
+In this paper, we frame this challenge as a solvable graph learning and explaining task and propose a novel subgraph inference framework, ExPath, that explicitly integrates experimental data to classify various graphs (bio-networks) in biological databases.
+The links (representing pathways) that contribute more to classification can be considered as targeted pathways.
+Our framework can seamlessly integrate biological foundation models to encode the experimental molecular data.
+We propose ML-oriented biological evaluations and a new metric.
+The experiments involving 301 bio-networks evaluations demonstrate that pathways inferred by ExPath are biologically meaningful, achieving up to 4.5× higher Fidelity+ 
+(necessity) and 14× lower Fidelity- 
+(sufficiency) than explainer baselines, while preserving signaling chains up to 4× longer.

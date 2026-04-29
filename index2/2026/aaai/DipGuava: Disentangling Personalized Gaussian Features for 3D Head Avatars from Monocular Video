@@ -1,0 +1,7 @@
+While recent 3D head avatar creation methods attempt to animate facial dynamics, they often fail to capture personalized details, limiting realism and expressiveness.
+To fill this gap, we present DipGuava (Disentangled and Personalized Gaussian UV Avatar), a novel 3D Gaussian head avatar creation method that successfully generates avatars with personalized attributes from monocular video.
+DipGuava is the first method to explicitly disentangle facial appearance into two complementary components, trained in a structured two-stage pipeline that significantly reduces learning ambiguity and enhances reconstruction fidelity.
+In the first stage, we learn a stable geometry-driven base appearance that captures global facial structure and coarse expression-dependent variations.
+In the second stage, the personalized residual details not captured in the first stage are predicted, including high-frequency components and nonlinearly varying features such as wrinkles and subtle skin deformations.
+These components are fused via dynamic appearance fusion that integrates residual details after deformation, ensuring spatial and semantic alignment.
+This disentangled design enables DipGuava to generate photorealistic, identity-preserving avatars, consistently outperforming prior methods in both visual quality and quantitative performance, as demonstrated in extensive experiments.

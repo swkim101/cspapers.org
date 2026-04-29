@@ -1,0 +1,11 @@
+With the advancement of vision-language models, image captioning has made significant progress, leading to the generation of more accurate and detailed descriptions.
+Current image captioning primarily focuses on describing the apparent visual characteristics, which are easily observed by most humans, but less helpful in real-world scenarios.
+When users seek a deeper understanding of visual content, they may be concerned with fine-grained categories, function properties, and other background knowledge, rather than merely appearances.
+Additionally, as users' interests vary, there is a growing demand for customizable content generation.
+To address these challenges, we propose the task of image narrative generation, which aims to produce knowledge-rich natural language responses for input images, customized to the user preference.
+Furthermore, we propose T^4, an image narrative generation model progressing through cascade steps: Tailor, reTrieve, Think, and Tell.
+Specifically, it takes the image and various types of prompts as input, and first refines or predicts potentially interesting queries that are tailored to the user expertise level.
+Subsequently, the model enriches contextual knowledge through retrieval-augmentation and employs chain-of-thoughts to decompose the generation process step by step, thereby telling an accurate and logically coherent image narrative.
+In addition, we construct the ImgNarr-23K dataset to support task training and evaluation.
+Experimental results demonstrate that the proposed approach generates image narratives that better satisfy user requirements, and achieves state-of-the-art performance in knowledge-based VQA tasks without additional finetuning.
+T^4 presents a promising solution for customized content generation in specialized domains.

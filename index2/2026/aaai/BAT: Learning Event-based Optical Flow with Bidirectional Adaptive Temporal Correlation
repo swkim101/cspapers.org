@@ -1,0 +1,6 @@
+Event cameras deliver visual information characterized by a high dynamic range and high temporal resolution, offering significant advantages in estimating optical flow for complex lighting conditions and fast-moving objects. Current advanced optical flow methods for event cameras largely adopt established image-based frameworks. However, the spatial sparsity of event data limits their performance. In this paper, we present BAT, an innovative framework that estimates event-based optical flow using bidirectional adaptive temporal correlation. BAT includes three novel designs: 1) a bidirectional temporal correlation that transforms bidirectional temporally dense motion cues into spatially dense ones, enabling accurate and spatially dense optical flow estimation; 2) an adaptive temporal sampling strategy for maintaining temporal consistency in correlation; 3) spatially adaptive temporal motion aggregation to efficiently and adaptively aggregate consistent target motion features into adjacent motion features while suppressing inconsistent ones. Our BAT achieves
+state-of-the-art performance on the DSEC-Flow benchmark,
+outperforming existing methods by a large margin while also
+exhibiting sharp edges and high-quality details. Our BAT can
+accurately predict future optical flow using only past events,
+significantly outperforming E-RAFT’s warm-start approach.

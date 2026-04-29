@@ -1,0 +1,7 @@
+Deep learning methods have achieved remarkable success in image compressed sensing (CS) task, namely reconstructing a high-fidelity image from its compressed measurement.
+However, existing methods are deficient in incoherent compressed measurement at sensing phase and implicit measurement representations at reconstruction phase, limiting the overall performance.
+In this work, we answer two questions: (i) how to improve the measurement incoherence for decreasing the ill-posedness; (ii) how to learn informative representations from measurements.
+To this end, we propose a novel asymmetric Kronecker CS (AKCS) model and theoretically present its better incoherence than previous Kronecker CS with minimal increase of complexity.
+Moreover, apart from the explicit measurement representations in gradient descent projection in unfolding networks, we further propose a measurement-aware cross attention (MACA) mechanism to learn implicit measurement representations.
+We integrate AKCS and MACA into a widely-used unfolding architecture to get a measurement-enhanced unfolding network (MEUNet).
+Extensive experiments demonstrate that the proposed MEUNet achieves state-of-the-art (SOTA) performance in reconstruction accuracy with high efficiency.

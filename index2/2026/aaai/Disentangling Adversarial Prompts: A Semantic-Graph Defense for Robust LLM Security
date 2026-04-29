@@ -1,0 +1,16 @@
+Large Language Models (LLMs) are increasingly vulnerable to adversarial prompts that exploit semantic ambiguities
+to bypass safety mechanisms, resulting in harmful or inappropriate outputs. Such attacks, including jailbreaking and
+prompt injection, pose significant risks to the integrity and
+availability of LLMs in security-critical applications. This paper proposes the Adversarial Prompt Disentanglement (APD)
+framework, a novel defense mechanism that proactively identifies and neutralizes malicious components in input prompts
+before they are processed by the LLM. The APD framework
+integrates three key innovations: (1) a mutual information-
+based semantic decomposition method to isolate adversarial and benign prompt components, ensuring statistical in-
+dependence; (2) a graph-based intent classification approach
+that leverages spectral analysis to detect malicious patterns
+in prompt semantics; and (3) a lightweight transformer-based
+classifier trained on real-world datasets of toxic and jailbreaking prompts, enabling efficient and accurate adversarial intent detection. Evaluated on diverse datasets containing adversarial prompts, APD demonstrates superior robustness, reducing harmful output generation by over 85% while maintaining negligible impact on model performance. The framework’s computational efficiency supports real-time deploy-
+ment, making it a practical solution for securing LLMs. Our
+work addresses critical challenges in machine learning security on novel attacks and integrity methods for ML systems,
+and offers a scalable, ethically grounded defense against
+prompt-based adversarial threats.

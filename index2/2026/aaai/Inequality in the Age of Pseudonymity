@@ -1,0 +1,8 @@
+Inequality measures such as the Gini coefficient are used to inform and motivate policymaking, and are increasingly applied to digital platforms.
+We analyze how measures fare in pseudonymous settings that are common in the digital age.
+One key challenge of such environments is the ability of actors to create fake identities under fictitious false names, also known as ``Sybils.''
+While some actors may do so to preserve their privacy, we show that this can hamper inequality measurements: it is impossible for measures satisfying the literature's canonical set of desired properties to assess the inequality of an economy that may harbor Sybils.
+We characterize the class of all Sybil-proof measures, and prove that they must satisfy relaxed version of the aforementioned properties.
+Furthermore, we show that the structure imposed restricts the ability to assess inequality at a fine-grained level.
+We then apply our results to prove that popular measures are not Sybil-proof, with the famous Gini coefficient being but one example out of many.
+Finally, we examine dynamics leading to the creation of Sybils in digital and traditional settings.

@@ -1,0 +1,10 @@
+With the advancement of meteorological instruments, abundant data has become available. 
+However, due to instruments’ intrinsic limitations such as environmental sensitivity and orbital constraints, raw data often suffer from temporal or spatial gaps, making it urgent to leverage data synthesis techniques to fill in missing information. 
+Current approaches are typically focus on single-variable, single-region tasks and primarily rely on deterministic modeling. 
+This limits unified synthesis across variables and regions, overlooks cross-variable complementarity and often leads to over-smoothed results. 
+To address above challenges, we introduce SynWeather, the first dataset designed for Unified Multi-region and Multi-variable Weather Observation Data Synthesis. 
+SynWeather covers four representative regions: the Continental United States, Europe, East Asia, and Tropical Cyclone regions, as well as provides high-resolution observations of key weather variables, including Composite Radar Reflectivity, Hourly Precipitation, Visible Light, and Microwave Brightness Temperature. 
+In addition, we introduce SynWeatherDiff, a general and probabilistic weather synthesis model built upon the Diffusion Transformer framework to address the over-smoothed problem. 
+Experiments on the SynWeather dataset demonstrate the effectiveness of our network compared with both task-specific and general models. 
+Moreover, SynWeatherDiff is able to generate results that are both fine-grained and accurate in high-value regions.
+Through the dataset and baseline model, we aim to advance meteorological downstream tasks and promote the development of general models for weather variable synthesis.

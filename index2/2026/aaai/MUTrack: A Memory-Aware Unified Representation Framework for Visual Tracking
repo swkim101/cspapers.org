@@ -1,0 +1,7 @@
+Building a unified target representation that simultaneously achieves short-term adaptability and long-term stability is crucial for robust visual tracking. 
+However, existing trackers typically face an inherent trade-off. Methods primarily relying on short-term appearance and motion cues achieve rapid adaptation, but they often struggle with long-term identity consistency. Conversely, trackers that emphasize extensive temporal context provide strong robustness, yet this approach can compromise their short-term adaptability.
+To bridge this gap, we propose a novel tracker, MUTrack, which comprehensively integrates both long-term and short-term memories into a unified target representation for more robust tracking. 
+Specifically, we design a unified memory bank that stores and manages long-term memory for maintaining long-term identity consistency, and short-term memory for adapting to instantaneous appearance changes. 
+To fully leverage the complementary nature of both long-term and short-term temporal information, we introduce a perception interaction module that dynamically fuses these memory types through deep and bidirectional interactions, enabling mutual refinement where one guides the other.
+This ultimately generates a highly adaptive target representation, which effectively balances adaptability to instantaneous changes with robustness against long-term identity drift.
+Extensive experiments on GOT10k, TrackingNet, LaSOT, LaSOT_ext, NfS, and OTB100 consistently demonstrate that MUTrack achieves SOTA performance.

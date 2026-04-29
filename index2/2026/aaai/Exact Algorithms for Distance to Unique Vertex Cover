@@ -1,0 +1,6 @@
+In their AAAI 2024 paper, Horiyama et al. studied the problem of generating graph instances that possess a unique minimum vertex cover under specific conditions. Their approach involved pre-assigning certain vertices to be part of the solution or excluding them from it. Notably, for the Vertex Cover problem, pre-assigning a vertex is equivalent to removing it from the graph. Horiyama et al. focused on maintaining the size of the minimum vertex cover after these modifications. In this work, we extend their study by relaxing this constraint: 
+our goal is to ensure a unique minimum vertex cover, even if the removal of a vertex may not incur a decrease on the size of said cover.
+
+Surprisingly, our relaxation introduces significant theoretical challenges.
+We observe that the problem is Σ²_P-complete, and remains so even for planar graphs of maximum degree 5.
+Nevertheless, we provide a linear time algorithm for trees, which is then further leveraged to show that MU-VC is in FPT when parameterized by the combination of treewidth and maximum degree. Finally, we show that MU-VC is in XP when parameterized by clique-width while it is fixed-parameter tractable (FPT) if we add the size of the solution as part of the parameter.

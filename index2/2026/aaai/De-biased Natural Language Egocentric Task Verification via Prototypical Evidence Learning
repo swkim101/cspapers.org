@@ -1,0 +1,11 @@
+Natural Language-based Egocentric Task Verification (NLETV) aims to verify the alignment between action sequences in egocentric videos and their corresponding textual descriptions. 
+However, existing NLETV approaches are still facing two critical challenges: 
+(1) These methods are designed for simulating environments, ignoring the domain gap between synthetic and realistic data. 
+(2) The matching processes are regarded as a simple binary classification problem, which undermines model reliability due to evaluation bias and uncalibrated decision settings. 
+To address these challenges, we propose a novel method termed Prototypical Evidential Learning (PEL), which can be adapted to existing NLETV approaches and boost the model generalization and mitigate prediction bias. 
+Our method leverages prototypes to guide cross-domain alignment and evidence collection. 
+Specifically, PEL consists of two key components: 
+(1) Prototypical Domain Adaptation module enabling cross-domain feature alignment and intra-domain prototype preservation between synthetic and realistic domains; 
+(2) Matching Evidence Collector module, which quantifies prediction uncertainty on the prototypical representations through evidential deep learning. 
+It enforces the model to collect the vision-text consistency and discrepancy evidence, thus addressing the issues of biased decisions in binary classification. 
+Extensive experiments on two public datasets demonstrate that our PEL method outperforms existing state-of-the-art NLETV methods and shows remarkable generalizability.

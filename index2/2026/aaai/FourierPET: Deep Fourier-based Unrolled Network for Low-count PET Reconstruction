@@ -1,0 +1,13 @@
+Low-count positron emission tomography (PET) reconstruction is a challenging inverse problem due to severe degradations arising from Poisson noise, photon scarcity, and attenuation correction errors. Existing deep learning methods
+typically address these in the spatial domain with an undifferentiated optimization objective, making it difficult to disentangle overlapping artifacts and limiting correction effectiveness. In this work, we perform a Fourier-domain analysis and reveal that these degradations are spectrally separable: Poisson noise and photon scarcity cause high-frequency
+phase perturbations, while attenuation errors suppress low-frequency amplitude components. Leveraging this insight, we
+propose FourierPET, a Fourier-based unrolled reconstruction
+framework grounded in the Alternating Direction Method of
+Multipliers. It consists of three tailored modules: a spectral
+consistency module that enforces global frequency alignment
+to maintain data fidelity, an amplitude–phase correction module that decouples and compensates for high-frequency phase
+distortions and low-frequency amplitude suppression, and a
+dual adjustment module that accelerates convergence during
+iterative reconstruction. Extensive experiments demonstrate
+that FourierPET achieves state-of-the-art performance with
+significantly fewer parameters, while offering enhanced interpretability through frequency-aware correction.

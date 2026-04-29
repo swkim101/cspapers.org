@@ -1,0 +1,9 @@
+In recent years, RF fingerprinting (RFF) has emerged as a promising technology for wireless device authentication. 
+However, temporal variations in device load and temperature, along with channel effects, lead to inconsistencies in RFF distributions between training and testing phases. 
+As a result, deep learning (DL)-based recognition models often suffer from degraded performance. 
+To address this problem, we propose the first test-time-adaptation (TTA) approach to improve the domain generalization ability of RFF recognition models. 
+We first analyze the causes of time-varying RFF distribution shifts, such as carrier frequency offset (CFO), and develop a physical impairment-based data augmentation strategy.
+Based on this, we further propose a physically information-aware prototype to guide the model for TTA.
+Our method requires no model retraining or labeled test samples, and is a lightweight, nonparametric solution.
+Finally, our approach is extensively evaluated using mobile phones with the IEEE 802.11 orthogonal frequency division multiplexing (OFDM) system, which demonstrates that our scheme can effectively
+improve RFF average recognition performance by about 7.8%.

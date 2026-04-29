@@ -1,0 +1,5 @@
+Online Action Detection (OAD) requires real-time prediction of ongoing actions without access to future frames, posing challenges in balancing computational efficiency and long-term dependencies modeling.Existing methods either suffer from slow training and limited temporal receptive fields, or face high computational costs and delayed inference, lacking the capability to tackle extra-long video inputs.
+Thus, we present a novel Mamba-based OAD framework (MOAD) that efficiently and effectively performs OAD.The hierarchical memory mechanism is introduced to intelligently store high-value scene and action frames based on motion-aware similarity metrics, preserving essential historical knowledge in an online manner.
+To further reduce storage space, we design a memory quantization method to compress the stored historical features.
+Additionally, the temporal soft pruning strategy built upon the memory bank is proposed to dynamically remove redundant features, reducing temporal redundancy while maintaining temporal coherence.
+Sufficient experiments on four challenging benchmarks prove our method significantly outperforms existing methods.

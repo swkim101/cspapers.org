@@ -1,0 +1,8 @@
+Retrieval Augmented Generation enhances the response accuracy of Large Language Models (LLMs) by integrating retrieval and generation modules with external knowledge, demonstrating particular strength in real-time queries and Visual Question Answering tasks. 
+However, the effectiveness of RAG is frequently hindered by the precision of the retriever: many retrieved samples fed into the generation phase are irrelevant or misleading, posing a critical bottleneck to LLMs’ performance.
+To address this challenge, we introduce \textbf{VaccineRAG}, a novel Chain-of-Thought-based retrieval-augmented generation dataset. 
+On one hand, VaccineRAG employs a benchmark to evaluate models using data with varying positive/negative sample ratios, systematically exposing inherent weaknesses in current LLMs. 
+On the other hand, it enhances models’ sample-discrimination capabilities by prompting LLMs to generate explicit Chain-of-Thought (CoT) analysis for each sample before producing final answers.
+Furthermore, to enhance the model’s ability to learn long-sequence complex CoT content, we propose \textbf{Partial-GRPO}. 
+By modeling the outputs of LLMs as multiple components rather than a single whole, our model can make more informed preference selections for complex sequences, thereby enhancing its capacity to learn complex CoT.
+Comprehensive evaluations and ablation studies on VaccineRAG validate the effectiveness of the proposed scheme.

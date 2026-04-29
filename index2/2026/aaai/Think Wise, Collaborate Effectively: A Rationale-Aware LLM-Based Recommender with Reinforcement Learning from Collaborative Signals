@@ -1,0 +1,11 @@
+Large Language Models (LLMs) have recently emerged as powerful reasoning engines in recommender systems, generating natural-language explanations that foster user engagement.
+However, their recommendation performance remains limited, as they lack exposure to collaborative user-item interaction patterns.
+In contrast, collaborative filtering (CF) models achieve strong performance by learning from these behavioral patterns at scale.
+To unify the strengths of both paradigms, we propose TWiCE-Rec (Think Wise, Collaborate Effectively), a rationale-aware LLM-based recommender that incorporates collaborative user-item interactions.
+In the first stage, we construct a rationale dataset by applying in-context learning with self-annotated curation. 
+A state-of-the-art LLM is guided to generate persuasive rationales that explain the causal relationship between the user’s interaction sequence and the ground-truth next item, resulting in a curated post-hoc training dataset.
+In the second stage, we perform multi-task instruction-tuned adaptation—based on the rationale-augmented training dataset—comprising item description generation and both non-reasoning and reasoning-based sequential recommendation, to equip the LLM with the ability to generate rationales that reflect how user preferences align with item characteristics.
+Finally, we aim to enhance the LLM’s recommendation performance by incorporating user-item interaction patterns derived from the CF-Rec model.
+To achieve this, we propose a confidence-weighted reinforcement learning strategy that adjusts rewards in proportion to both the LLM’s prediction alignment with the ground-truth and the confidence from the pretrained CF-Rec model.
+Our method outperforms both CF- and LLM-Rec models on Amazon datasets in terms of recommendation performance and rationale quality. 
+In an online A/B test, it achieved about 8% higher click-through rate than existing models, demonstrating practical value.

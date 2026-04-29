@@ -1,0 +1,9 @@
+In this paper, we propose AMS-IO-Agent, a domain-specialized LLM-based agent for structure-aware input/output (I/O) subsystem generation in analog and mixed-signal (AMS) integrated circuits (ICs). 
+The central contribution of this work is a framework that connects natural language design intent with industrial-level AMS IC design deliverables.
+AMS-IO-Agent integrates two key capabilities: 
+(1) a structured domain knowledge base that captures reusable constraints and design conventions; 
+(2) design intent structuring, which converts ambiguous user intent into verifiable logic steps using JSON and Python as intermediate formats.
+We further introduce AMS-IO-Bench, a benchmark for wirebond-packaged AMS I/O ring automation. 
+On this benchmark, AMS-IO-Agent achieves over 70% DRC+LVS pass rate and reduces design turnaround time from hours to minutes, outperforming the baseline LLM. 
+Furthermore, an agent-generated I/O ring was fabricated and validated in a 28 nm CMOS tape-out, demonstrating the practical effectiveness of the approach in real AMS IC design flows.
+To our knowledge, this is the first reported human-agent collaborative AMS IC design in which an LLM-based agent completes a nontrivial subtask with outputs directly used in silicon.

@@ -1,0 +1,8 @@
+In the field of multi-spectral object re-identification (ReID), 
+multi-modal knowledge and modal-specific knowledge exhibit complementary advantages when handling hard samples, but existing methods rarely integrate this collaborative information.
+Knowledge distillation is a direct approach for transferring information, however, heterogeneity in model architectures and variations in sample hardness can undermine the stability and controllability of knowledge transfer.
+To alleviate these limitations, we propose the novel Progressive Multi-modal Knowledge Distillation (PMKD) framework that enables multi-stage knowledge transfer guided by hard sample awareness. 
+In the multi-modal knowledge transfer stage, the source model (pre-trained on multi-modal data) disseminates its learned multi-modal collaborative knowledge to multiple independently modal-specific target models, guiding their adaptation to hard samples within training batches. 
+In the modal-specific knowledge retention stage, the independent models enriched with multi-modal knowledge guide the training phase. The architectural consistency between source-target models ensures more lossless knowledge transfer, effectively mitigating the risk of capability drift, and preserving inherent competence.
+Moreover, the entire progressive multi-modal knowledge distillation is regulated by the proposed hardness-aware distillation loss, which automatically adapts distillation intensity through hard sample mining, thereby ensuring stable transfer of hard sample handling capabilities.
+Extensive experiments on benchmark multi-spectral ReID datasets validate the effectiveness and superior performance of the proposed method.

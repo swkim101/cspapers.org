@@ -1,0 +1,8 @@
+Recent advances in vision-language-action (VLA) models
+have demonstrated impressive generalization for robotic manipulation.
+However, these models often operate by directly mapping visual and linguistic inputs to subsequent actions, lacking intermediate task planning, along with failure detection and recovery ability.
+These limitations prevent them from effectively decomposing complex tasks, recognizing problems, and correcting erroneous actions, ultimately resulting in complete task failure. This significantly hinders their ability to perform long-horizon tasks and generalization ability.
+To this end, we introduce TCoT: Trajectory Chain-of-Thought, a unified VLA framework that enhances this direct mapping with trajectory planning as well as failure detection and recovery.
+TCoT leverages hierarchy trajectories as a precise and compact representation of CoT reasoning for manipulation: global planning provides a high-level, goal-oriented trajectory to guide the robot toward its task objective, while local planning focuses on real-time adjustments to address dynamic changes.
+Moreover, we designed the Global-Local Switching Recovery algorithm that detects and effectively recovers from failures. 
+Experimental results reveal that TCoT surpasses the state-of-the-art methods across both real and simulated scenarios and exhibits superior generalization capabilities.

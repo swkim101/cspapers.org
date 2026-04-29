@@ -1,0 +1,10 @@
+3D object detection is critical for autonomous driving, yet it remains fundamentally challenging to simultaneously maximize computational
+efficiency and capture long-range spatial dependencies.We observed that Mamba-based models, with their linear state-space design,
+capture long-range dependencies at lower cost, offering a promising balance between efficiency and accuracy.However, existing methods
+rely on axis-aligned scanning within a fixed window, inevitably discarding spatial information. To address this problem, we propose
+WinMamba, a novel Mamba-based 3D feature-encoding backbone composed of stacked WinMamba blocks. To enhance the backbone with
+robust multi-scale representation, the WinMamba block incorporates a window-scale-adaptive module that compensates voxel features
+across varying resolutions during sampling. Meanwhile, to obtain rich contextual cues within the linear state space, we equip the WinMamba
+layer with a learnable positional encoding and a window-shift strategy.Extensive experiments on the KITTI and Waymo datasets demonstrate
+that WinMamba significantly outperforms the baseline. Ablation studies further validate the individual contributions of the WSF and AWF
+modules in improving detection accuracy. The code will be made publicly available.

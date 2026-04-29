@@ -1,0 +1,10 @@
+We study the problem of (approximate) maximin share
+(MMS) allocation of indivisible items among a set of agents.
+We focus on the graphical valuation model, in which the 
+input is given by a graph where edges correspond to items, 
+and vertices correspond to agents. An edge may have 
+non-zero marginal value only for its incident vertices. We 
+study additive, XOS and subadditive valuations and we 
+present positive and negative results for (approximate) 
+MMS fairness, and also for (approximate) pair-wise 
+maximin share (PMMS) fairness.

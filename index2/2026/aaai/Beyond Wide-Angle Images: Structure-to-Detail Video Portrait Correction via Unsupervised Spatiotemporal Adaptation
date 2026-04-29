@@ -1,0 +1,7 @@
+Wide-angle cameras, despite their popularity for content creation, suffer from distortion-induced facial stretching—especially at the edge of the lens—which degrades visual appeal.
+To address this issue, we propose a structure-to-detail portrait correction model named ImagePC.
+It integrates the long-range awareness of the transformer and multi-step denoising of diffusion models into a unified framework, achieving global structural robustness and local detail refinement.
+Besides, considering the high cost of obtaining video labels, we then repurpose ImagePC for unlabeled wide-angle videos (termed VideoPC), by spatiotemporal diffusion adaption with spatial consistency and temporal smoothness constraints. For the former, we encourage the denoised image to approximate pseudo labels following the wide-angle distortion distribution pattern, while for the latter, we derive rectification trajectories with backward optical flows and smooth them. 
+Compared with ImagePC, VideoPC maintains high-quality facial corrections in space and mitigates the potential temporal shakes sequentially in blind scenarios.
+Finally, to establish an evaluation benchmark and train the framework, we establish a video portrait dataset with a large diversity in the number of people, lighting conditions, and background.
+Experiments demonstrate that the proposed methods outperform existing solutions quantitatively and qualitatively, contributing to high-fidelity wide-angle videos with stable and natural portraits.

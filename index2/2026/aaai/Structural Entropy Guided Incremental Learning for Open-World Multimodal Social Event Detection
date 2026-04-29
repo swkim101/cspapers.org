@@ -1,0 +1,12 @@
+With the explosive growth of multimodal data streams on social media, the timely detection of emerging social events has become increasingly important. 
+As a result, Multimodal Social Event Detection in open-world settings is receiving growing attention.
+However, most existing methods face two major limitations:
+(1) They overlook the dynamic nature of open-world social media data and fail to design dedicated incremental learning frameworks.
+(2) They ignore the impact of noise in streaming data, leading to performance degradation over long-term detection.
+To overcome these limitations, we propose SeInEvent (**S**tructural **E**ntropy Guided **In**cremental Learning for Open-World Multimodal Social **Event** Detection).
+Our innovations are as follows:
+**First**, considering data dynamics, we design a self-supervised alternating incremental contrastive learning mechanism.
+Through knowledge distillation, historical event clusters were reviewed and consolidated, and contrastive learning was combined to absorb knowledge of unknown events, ultimately achieving incremental learning without labels.
+**Second**, addressing the impact of noise, we propose a Pointwise Structural Entropy-based noise filter, which quantifies each sample’s informational contribution to the event clustering structure. 
+It enables automatic removal of noisy data and supports robust long-term detection.
+Extensive experiments on two public datasets demonstrate that SeInEvent achieves superior performance.

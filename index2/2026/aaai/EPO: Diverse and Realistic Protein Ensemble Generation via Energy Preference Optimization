@@ -1,0 +1,6 @@
+Accurate exploration of protein conformational ensembles is essential for uncovering function but remains hard because molecular-dynamics (MD) simulations suffer from high computational costs and energy-barrier trapping.
+This paper presents Energy Preference Optimization (EPO), an online refinement algorithm that turns a pretrained protein ensemble generator into an energy-aware sampler without extra MD trajectories.
+Specifically, EPO leverages stochastic differential equation sampling to explore the conformational landscape and incorporates a novel energy-ranking mechanism based on list-wise preference optimization.
+Crucially, EPO introduces a practical upper bound to efficiently approximate the intractable probability of long sampling trajectories in continuous-time generative models, making it easily adaptable to existing pretrained generators.
+On Tetrapeptides, ATLAS, and Fast-Folding benchmarks, EPO successfully generates diverse and physically realistic ensembles, establishing a new state-of-the-art in nine evaluation metrics.
+These results demonstrate that energy-only preference signals can efficiently steer generative models toward thermodynamically consistent conformational ensembles, providing an alternative to long MD simulations and widening the applicability of learned potentials in structural biology and drug discovery.

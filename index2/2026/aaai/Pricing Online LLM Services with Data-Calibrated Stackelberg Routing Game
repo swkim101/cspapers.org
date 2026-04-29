@@ -1,0 +1,8 @@
+The proliferation of Large Language Models (LLMs) has established LLM routing as a standard service delivery mechanism, where users select models based on cost, Quality of Service (QoS), among other things.
+However, optimal pricing in LLM routing platforms requires precise modeling for dynamic service markets, and solving this problem in real time at scale is computationally intractable.
+In this paper, we propose PriLLM, a novel practical and scalable solution for real-time dynamic pricing in competitive LLM routing.
+PriLLM models the service market as a Stackelberg game, where providers set prices and users select services based on multiple criteria.
+To capture real-world market dynamics, we incorporate both objective factors (eg cost, QoS) and subjective user preferences into the model.
+For scalability, we employ a deep aggregation network to learn provider abstraction that preserve user-side equilibrium behavior across pricing strategies.
+Moreover, PriLLM offers interpretability by explaining its pricing decisions.
+Empirical evaluation on real-world data shows that PriLLM achieves over 95% of the optimal profit while only requiring less than 5% of the optimal solution's computation time.

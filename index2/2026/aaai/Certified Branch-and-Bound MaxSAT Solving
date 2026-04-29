@@ -1,0 +1,9 @@
+Over the past few decades, combinatorial solvers have seen remarkable performance improvements, enabling their practical use in real-world applications.
+In some of these applications, ensuring the correctness of the solver's output is critical.
+However, the complexity of modern solvers makes them susceptible to bugs in their source code.
+In the domain of satisfiability checking (SAT), this issue has been addressed through proof logging, where the solver generates a formal proof of the correctness of its answer.
+For more expressive problems like MaxSAT, the optimization variant of SAT, proof logging had not seen a comparable breakthrough until recently. 
+
+In this paper, we show how to achieve proof logging for state-of-the-art techniques in Branch-and-Bound MaxSAT solving. 
+This includes certifying look-ahead methods used in such algorithms as well as advanced clausal encodings of pseudo-Boolean constraints based on so-called Multi-Valued Decision Diagrams (MDDs).
+We implement these ideas in MaxCDCL, the dominant branch-and-bound solver, and experimentally demonstrate that proof logging is feasible with limited overhead, while proof checking remains a challenge.

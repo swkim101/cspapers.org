@@ -1,0 +1,8 @@
+Despite the rapid progress of Vision Language Models (VLMs), existing benchmarks still concentrate on coarse-grained object recognition or simple relational reasoning, leaving the fine-grained and higher-order reasoning abilities of these systems largely unexamined. 
+To bridge this critical evaluation gap, we introduce EmojiGrid, a novel diagnostic benchmark specifically designed to probe these fine-grained and higher-order skills. 
+Leveraging the universal and semantically rich nature of emojis, we synthesize a grid‑based visual dataset paired with 29,000+ QA pairs.
+Each pair is explicitly anchored in a three-level cognitive taxonomy comprising (i) Perception and Information Extraction, (ii) Relational and Structural Reasoning, and (iii) Abstraction and Advanced Cognition.
+These dimensions further decompose into nine categories covering a broad range of cognitive skills, including counting, spatial relations, compositional logic, semantic sentiment, and related higher-order reasoning tasks.
+Our extensive evaluation of 25 state-of-the-art open-source and proprietary VLMs reveals a significant performance gap between foundational perceptual tasks and higher-level cognitive abilities, particularly in abstraction and advanced emotional reasoning.
+Notably, all models struggle with compositional logic, spatial consistency, and especially emotional and semantic understanding. 
+EmojiGrid provides a quantifiable, fine-grained benchmark to diagnose VLM limitations and guides future progress toward models that can truly perceive, reason about, and interpret complex, symbol-rich visual scenes.

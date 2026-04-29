@@ -1,0 +1,9 @@
+Spiking Neural Networks (SNNs) become popular due to excellent energy efficiency, yet facing challenges for effective model training.
+Recent works improve this by introducing knowledge distillation (KD) techniques, with the pre-trained artificial neural networks (ANNs) used as teachers and the target SNNs as students.
+This is commonly accomplished through a straightforward element-wise alignment of intermediate features and prediction logits from ANNs and SNNs, often neglecting the intrinsic differences between their architectures. 
+Specifically, ANN's outputs exhibit a continuous distribution, whereas SNN's outputs are characterized by sparsity and discreteness.
+To mitigate this issue, we introduce two innovative KD strategies. 
+Firstly, we propose the Saliency-scaled Activation Map Distillation (SAMD), which aligns the spike activation map of the student SNN with the class-aware activation map of the teacher ANN. Rather than performing KD directly on the raw
+features of ANN and SNN, our SAMD directs the student to learn from saliency activation maps that exhibit greater semantic and distribution consistency.
+Additionally, we propose a Noise-smoothed Logits Distillation (NLD), which utilizes Gaussian noise to smooth the sparse logits of student SNN, facilitating the alignment with continuous logits from teacher ANN.
+Extensive experiments on multiple datasets demonstrate the effectiveness of our methods.

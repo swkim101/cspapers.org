@@ -1,0 +1,5 @@
+In an online fair allocation problem, a sequence of indivisible items arrives online and needs to be allocated to offline agents immediately and irrevocably.
+In our paper, we study the online allocation of either goods or chores. 
+We employ popular fairness notions, including envy-freeness up to one item (EF1) and maximin share fairness (MMS) to capture fairness, and utilitarian social welfare (USW) to measure efficiency. 
+For both settings of items, we present a series of positive results regarding the existence of fair and efficient allocations with widely studied classes of additive binary and personalized bi-valued valuation/cost functions. 
+Furthermore, we complement our results by constructing counterexamples to establish our results as among the best guarantees possible.

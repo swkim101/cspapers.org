@@ -1,0 +1,7 @@
+We study the fair allocation of indivisible items to groups of agents from the perspectives of both the agents and a centralized allocator.
+In our setting, the centralized allocator aims to ensure that the allocation is fair both among the groups and between individual agents. This setting applies to many real-world scenarios, such as when a school administrator allocates resources (e.g., office spaces and supplies) to staff members within departments or when a city council allocates limited housing units to families in need across different communities.
+To ensure fairness between agents, we consider the classical notion of envy-freeness (EF).
+To ensure fairness among groups, we introduce the notion of centralized group equitability (CGEQ), which captures fairness for groups from the centralized allocator’s perspective.
+Because an EF or CGEQ allocation does not always exist in general, we consider their natural relaxations: envy-freeness to one item (EF1) and centralized group equitability up to one item (CGEQ1). 
+For different classes of valuation functions of the agents and the centralized allocator, we show that allocations satisfying both EF1 and CGEQ1 always exist, and we design efficient algorithms to compute such allocations.
+We also consider the centralized group maximin share (CGMMS) from the centralized allocator's perspective as a group-level fairness objective with EF1 for agents, and present several results.

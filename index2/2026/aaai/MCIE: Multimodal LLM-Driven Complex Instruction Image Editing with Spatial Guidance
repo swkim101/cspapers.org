@@ -1,0 +1,14 @@
+Recent advances in instruction-based image editing have
+shown remarkable progress. However, existing methods remain limited to relatively simple editing operations, hindering real-world applications that require complex and compositional instructions. In this work, we address these limitations from the perspectives of architectural design, data,
+and evaluation protocols. Specifically, we identify two key
+challenges in current models: insufficient instruction compliance and background inconsistency. To this end, we propose
+MCIE-E1, a Multimodal Large Language Model–Driven
+Complex Instruction Image Editing method that integrates
+two key modules: a spatial-aware cross-attention module and
+a background-consistent cross-attention module. The former
+enhances instruction-following capability by explicitly aligning semantic instructions with spatial regions through spatial guidance during the denoising process, while the latter preserves features in unedited regions to maintain background consistency. To enable effective training, we construct a dedicated data pipeline to mitigate the scarcity of
+complex instruction-based image editing datasets, combining fine-grained automatic filtering via a powerful MLLM
+with rigorous human validation. Finally, to comprehensively
+evaluate complex instruction-based image editing, we introduce CIE-Bench, a new benchmark with two new evaluation metrics. Experimental results on CIE-Bench demonstrate
+that MCIE-E1 consistently outperforms previous state-of-theart methods in both quantitative and qualitative assessments,
+achieving a 23.96% improvement in instruction compliance.

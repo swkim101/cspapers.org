@@ -1,0 +1,9 @@
+List coloring extends graph coloring by assigning each vertex a list of allowed colors.
+A graph is k-choosable if it can be properly colored for any choice of lists with k colors each.
+Deciding k-choosability is π²ₚ-complete, bipartite graphs have unbounded list chromatic number, and planar graphs (famously 4-colorable) are all 5-choosable but not all 4-choosable.
+
+To search for graphs of given choosability, we extend SAT Modulo Symmetries (SMS) with custom propagators
+for list coloring pruning techniques and propose a quantified Boolean (QBF) encoding for choosability.
+We employ a hybrid approach: pen-and-paper reasoning to optimize our formulas followed by automated case distinction by QBF solvers and SMS.
+
+Our methods yield two significant results: (1) a 27-vertex planar graph that is 4-choosable yet cannot be proven so using the combinatorial Nullstellensatz widely applied in previous work (we show this is a smallest graph with that property), and (2) the smallest graph exhibiting a gap between chromatic and list chromatic numbers for chromatic number 3.

@@ -1,0 +1,6 @@
+Rectification flow Transformers (RFTs) have shown promising performance in diffusion-based image synthesis but are typically confined to lower-resolution scenarios, limiting their ability to generate high-resolution images. 
+Existing resolution extrapolation approaches often suffer from excessive computational overhead, resulting in prolonged inference times. 
+We propose LookFlow, a training-free high-resolution synthesis framework that accelerates inference while preserving visual quality.
+Building on pretrained text-to-image RFTs, LookFlow employs a dynamic lookahead guidance flow mechanism to refine high-resolution velocity predictions by leveraging multi-timestep lookahead information extracted from a low-resolution flow. 
+Additionally, reusing temporally similar features across consecutive timesteps drastically reduces computation and significantly decreases inference time overhead.
+Extensive experiments on COCO demonstrate that LookFlow robustly scales resolutions from 4× to 25×, achieving up to a maximum speedup of 2.01× while maintaining competitive visual fidelity.

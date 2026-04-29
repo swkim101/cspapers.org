@@ -1,0 +1,6 @@
+Diffusion-based generative models have demonstrated remarkable capabilities in image synthesis, yet realistic hand generation remains a persistent challenge due to complex articulations, self-occlusion, and the lack of explicit structural guidance. 
+To address these issues, we present SGMHand, a novel structure-guided hand inpainting framework that explicitly injects topological priors to enhance structural fidelity and spatial precision. 
+Specifically, we present a structure-guided modulation (SGM) module that synergistically combines structure spatial attention with global feature calibration, enabling fine-grained geometric control over the generative process. 
+Then, we devise a keypoint-aware (KA) loss that enforces topological coherence by aligning attention activations with structures, thereby bridging the gap between high-level semantics and low-level geometry. 
+By jointly optimizing over structural constraints in both representation and learning objectives, SGMHand achieves semantically consistent and geometrically plausible hand synthesis, even under severe occlusion. 
+Extensive experiments demonstrate the effectiveness and strong generalization ability of SGMHand across various foundation models, significantly enhancing the quality and realism of human image synthesis in diverse scenarios.

@@ -1,0 +1,10 @@
+Cellular reprogramming, the artificial transformation of one cell type into another, has been attracting increasing research attention due to its therapeutic potential for complex diseases. However, identifying effective reprogramming strategies through classical wet-lab experiments is hindered by long time commitments and high costs. 
+
+
+Although computational methods have been proposed to address this challenge, exact state-of-the-art techniques suffer from limited scalability owing to the notorious state space explosion problem. To overcome this limitation, we explore deep reinforcement learning (DRL) for controlling holistic Boolean network models of complex biological systems, such as gene regulatory and signalling pathway networks. We formulate a novel control problem for Boolean network models operating under the asynchronous update mode, specifically tailored to the context of cellular reprogramming. To solve it, we devise GATTACA - a DRL-based computational framework explicitly designed for scalability, capable of handling large and complex network models where exact methods fail.
+
+
+To facilitate scalability of our framework, we consider our previously introduced concept of a pseudo-attractor and improve the procedure for effective identification of pseudo-attractor states. We incorporate graph neural networks with graph convolution operations into the artificial neural network approximator of the DRL agent's action-value function. The new architecture allows us to leverage the available knowledge on the structure of a biological system and to indirectly, yet effectively, encode the system's dynamics into a latent representation.
+
+
+Experiments on several large-scale, real-world biological networks from the literature demonstrate the scalability and effectiveness of our approach.

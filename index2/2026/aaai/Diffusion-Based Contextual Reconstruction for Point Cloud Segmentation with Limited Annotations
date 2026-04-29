@@ -1,0 +1,9 @@
+Point cloud semantic segmentation is fundamental to 3D scene understanding, but dense annotation requirements limit scalability. 
+Although recent label propagation and contrastive learning methods enhance local consistency, the incomplete object coverage caused by sparse annotations hinders global context modeling, ultimately limiting overall performance.
+To this end, we propose a diffusion-based contextual reconstruction framework for point cloud semantic segmentation with limited annotations. 
+At its core, our framework guides denoising with semantic predictions, using better context reconstruction to enhance the conditional model for better segmentation.
+Specifically, our contributions include:
+(1) Diffusion-based segmentation framework: reconstructs contextual semantics from noise under conditional guidance, sharing the decoder with the segmentation module for robust contextual semantic learning.
+(2) Dynamically aggregates local context from segmentation features and guides denoising with global spatial structure, significantly enhancing denoising quality and contextual awareness. 
+Notably, we pioneer diffusion models for 3D semantic segmentation with limited annotations, enabling efficient single-step inference.
+Experiments show robustness across varying annotation ratios and state-of-the-art performance on benchmarks.

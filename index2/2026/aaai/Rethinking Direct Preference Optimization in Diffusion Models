@@ -1,0 +1,8 @@
+Aligning text-to-image (T2I) diffusion models with human preferences has emerged as a critical research challenge.
+While Direct Preference Optimization (DPO) has established a foundation for preference learning in large language models
+(LLMs), its extension to diffusion models remains limited in alignment performance. In this work, we propose an enhanced
+version of Diffusion-DPO by introducing a stable reference model update strategy. This strategy facilitates the exploration
+of better alignment solutions while maintaining training stability. Moreover, we design a timestep-aware optimization
+strategy that further boosts performance by addressing preference learning imbalance across timesteps. 
+Through the synergistic combination of our exploration and timestep-aware optimization, our method significantly improves the alignment
+performance of Diffusion-DPO on human preference evaluation benchmarks, achieving state-of-the-art results.

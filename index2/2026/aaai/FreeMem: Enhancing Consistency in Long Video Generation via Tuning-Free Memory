@@ -1,0 +1,10 @@
+Text-to-Video (T2V) generation has advanced greatly, yet maintaining consistency remains challenging, especially for tuning-free long video generation. 
+We attribute the consistency problem to cumulative deviations for long video generation at three levels: 
+the random noise lacking correlation results initial deviation between frames; 
+discrepancy in semantic feature tokens between denoising network blocks gradually accumulates as the frame count grows, leading to greater deviations;
+attention mechanisms struggle to capture global relationships across distant frames in long videos. 
+To address these, we propose FreeMem, a tuning-free framework leveraging hierarchical memory update and injection: 
+the noise memory stabilizes consistency by manipulating low and high frequency components in the initial noise space; 
+the token memory combats inconsistency through adaptive fusion of historical and current semantic feature tokens between denoising network blocks; 
+and the attention memory establishes persistent cache to model long-range relationships within self attention layers. 
+Evaluated on VBench, FreeMem improves subject and background consistency matrics across various methods, offering a practical solution for low-cost, high-consistency long video generation.

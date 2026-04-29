@@ -1,0 +1,10 @@
+The deployment of large, black-box foundation models for medical image classification is often hindered by the high
+cost of acquiring large, task-specific labeled datasets for fine-tuning. While active learning (AL) presents a promising solution, many state-of-the-art AL methods are computationally
+expensive or require full access to internal model parameters. We present VALIANT (Visual Adaptation and Learning
+Integration for Active learNing Tasks), a new active learning framework designed to efficiently adapt black-box foundation models by overcoming these limitations. VALIANT
+introduces a lightweight Visual Prompt Decoder (VIPD), trained via unsupervised Zero-Order Optimization (ZOO), to
+generate task-specific visual prompts without internal model access. Our core contribution is a perturbation-based ranking strategy that leverages this VIPD to formulate a computationally efficient, gradient-aware informativeness metric. This metric, which we term prompt instability, identifies the most impactful samples for the labeling budget. VALIANT
+further enhances this process by incorporating anatomical information from unsupervised segmentation maps to generate
+more discriminative visual prompts. Extensive evaluations on multiple medical datasets demonstrate VALIANT’s superior
+performance and significant reduction in labeling costs compared to a range of existing active learning techniques, positioning it as a scalable and practical solution for medical
+image analysis.

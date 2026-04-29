@@ -1,0 +1,6 @@
+With the wide adoption of online education platforms, adaptive learning systems have become increasingly important. Learning Path Recommendation (LPR) aims to dynamically adjust learning content to optimize learning efficiency based on individual student needs.
+However, current LPR methods suffer from sparse reward for precise assessment and only focus on anonymous sessions that overlook more personalized and effective paths.
+To address these challenges, we propose UNO, UNified Offline Training Paradigm for Learning Path Recommendation.
+This approach introduces an offline training paradigm in RL-based LPR to provide dense process rewards by a personalized advantage based on a reward model, which can estimate the students' internal knowledge levels on the learning targets.
+Additionally, we propose UniLPR model, a personalized recommendation system that unifies modeling the implicit relationships between students' long-term accumulation and evolving requirements for questions, and refines through Group Relative Policy Optimization(GRPO).
+Finally, we design learning tasks that encompass historical reviewing, recent learning, and long-term exploratory learning to simulate the comprehensive and diverse learning needs of students. Our UNO achieves state-of-the-art performance across all tasks, demonstrating its effectiveness.

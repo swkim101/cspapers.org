@@ -1,0 +1,5 @@
+Audit games are an important variant of the Stackelberg security game, a widely studied game-theoretic model over the past years. It has been acknowledged that a pre-audit phase can notably enhance the audit's efficiency by informing and directing the following audit procedures.
+
+In this paper, we model the above process with a two-stage audit game. The game encompasses two stages: an investigation stage where the auditor gathers information about potential policy breaches, and an audit stage where the auditor allocates the audit resources based on the investigation results.
+
+We formulate the problem as a set of mathematical programs. Due to the non-convexity of the programs, we consider a restricted strategy space and show that the optimal strategy in the restricted space can be determined by solving a polynomial number of convex optimization problems. Finally, we conduct extensive experiments to evaluate the effect of introducing the initial investigation stage and our algorithm. Our experiments show that even a small budget for the initial investigations can significantly enhance the defender's utility.
