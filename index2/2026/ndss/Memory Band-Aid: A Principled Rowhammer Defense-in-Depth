@@ -1,0 +1,1 @@
+we find t hat a f ull i mplementation i ncluding minor hardware changes would have a low overhead of 0 % to 9 . 4 % on a collection of realistic Phoronix macro-benchmarks. In a micro-benchmark to cause DRAM pressure, we observe a slowdown by a factor of 1 to 5 . 1 . Both overheads only apply to
