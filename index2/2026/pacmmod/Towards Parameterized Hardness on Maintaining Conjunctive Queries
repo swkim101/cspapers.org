@@ -1,0 +1,58 @@
+
+ We investigate the fine-grained complexity of dynamically maintaining the result of fixed self-join free conjunctive queries under single-tuple updates. Prior work shows that free-connex queries can be maintained in update time
+ O
+ (|
+ D
+ |δ) for some δ ∈ [0.5, 1], where |
+ D
+ | is the size of the current database. However, a gap remains between the best known upper bound of
+ O
+ (|
+ D
+ |) and lower bounds of Ω(|
+ D
+ |
+ 0.5-∈
+ ) for any ∈ >> 0.
+ 
+ 
+ We narrow this gap by introducing two structural parameters to quantify the dynamic complexity of a conjunctive query: the height
+ k
+ and the dimension
+ d
+ . We establish new fine-grained lower bounds showing that any algorithm maintaining a query with these parameters must incur update time Ω(|
+ D
+ |1-1/max(
+ k,d
+ )-∈), unless widely believed conjectures fail. These yield the first super-√|
+ D
+ | lower bounds for maintaining free-connex queries, and suggest the tightness of current algorithms when considering arbitrarily large
+ k
+ and
+ d
+ .
+ 
+ 
+ Complementing our lower bounds, we identify a data-dependent parameter, the generalized
+ H
+ -index
+ h
+ (
+ D
+ ), which is upper bounded by |
+ D
+ |1/
+ d
+ , and design an efficient algorithm for maintaining star queries, a common class of height 2 free-connex queries. The algorithm achieves an instance-specific update time
+ O
+ (
+ h
+ (
+ D
+ )
+ d
+ -1) with linear space
+ O
+ (|
+ D
+ |). This matches our parameterized lower bound and provides instance-specific performance in favorable cases.

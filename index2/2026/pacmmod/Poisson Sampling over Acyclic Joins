@@ -1,0 +1,8 @@
+
+ We introduce the problem of Poisson sampling over joins: compute a sample of the result of a join query by conceptually performing a Bernoulli trial for each join tuple, using a non-uniform and tuple-specific probability. We propose an algorithm for Poisson sampling over acyclic joins that is nearly instance-optimal, running in time 𝑄 (|db| + k łog |db|) where |db| is the size of the input database, and
+ k
+ is the size of the resulting sample. Our algorithm hinges on two building blocks: (1) The construction of a random-access index that allows, given a number
+ i
+ , to randomly access the
+ i
+ -th join tuple without fully materializing the (possibly large) join result; (2) The probing of this index to construct the result sample. We study the engineering trade-offs required to make both components practical, focusing on their implementation in column stores, and identify best-performing alternatives for both. Our experiments show that this pair of alternatives significantly outperforms the repeated-Bernoulli-trial algorithm for Poisson sampling while also demonstrating that the random-access index by itself can be used to competively implement Yannakakis' acyclic join processing algorithm when no sampling is required. This shows that, as far a query engine design is concerned, it is possible to adopt a common basis for both classical acyclic join processing and Poisson sampling, both without regret compared to classical join and sampling algorithms.

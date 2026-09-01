@@ -1,0 +1,1 @@
+We show that for any constant c>0, any (two-sided error) adaptive algorithm for testing monotonicity of Boolean functions must have query complexity Ω(n1/2−c). This improves the Ω(n1/3) lower bound of Chen, Waingarten, and Xie (2017) and almost matches the Õ(√n) upper bound of Khot, Minzer and Safra (2018).

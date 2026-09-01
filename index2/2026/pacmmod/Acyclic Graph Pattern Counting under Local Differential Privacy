@@ -1,0 +1,20 @@
+
+ Graph pattern counting serves as a cornerstone of network analysis with extensive real-world applications. Its integration with local differential privacy (LDP) has gained growing attention for protecting sensitive graph information in decentralized settings. However, existing LDP frameworks are largely ad hoc, offering solutions only for specific patterns such as triangles and stars. A general mechanism for counting arbitrary graph patterns, even for the subclass of acyclic patterns, has remained an open problem. To fill this gap, we present the first general solution for counting arbitrary acyclic patterns under LDP. We identify and tackle two fundamental challenges: generalizing pattern construction from distributed data and eliminating node duplication during the construction. To address the first challenge, we propose an LDP-tailored recursive subpattern counting framework that incrementally builds patterns across multiple communication rounds. For the second challenge, we apply a random marking technique that restricts each node to a unique position in the pattern during computation. Our mechanism achieves strong utility guarantees: for any acyclic graph pattern with
+ k
+ edges, we achieve an additive error of Õ (√
+ Nd
+ (
+ G
+ )
+ 
+ k
+ 
+ ), where
+ N
+ is the number of nodes and
+ d
+ (
+ G
+ ) is the maximum degree of the input graph
+ G
+ . Experiments on real-world graph datasets across multiple types of acyclic patterns demonstrate that our mechanisms achieve up to 46-2600× improvement in utility and 300-650× reduction in communication cost compared to the baseline methods.

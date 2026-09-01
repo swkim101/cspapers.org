@@ -1,0 +1,1 @@
+We give an algorithm that learns arbitrary Boolean functions of k arbitrary halfspaces over Rn, in the challenging distribution-free Probably Approximately Correct (PAC) learning model, running in time 2√n · (logn)O(k). This is the first algorithm that can PAC learn even intersections of two halfspaces in time 2o(n).

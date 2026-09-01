@@ -1,0 +1,12 @@
+
+ Join
+ is a fundamental operation in relational database management systems (RDBMSs), as it embodies core relational expressiveness of SQL, enabling users to query and analyze data across multiple tables. While approaches have been proposed specifically to find join bugs in RDBMSs, they are affected by scalability limitations. In this paper, we propose a novel, general, and effective technique for finding join logic bugs across all common join types, under arbitrary join predicates, and on join-supported RDBMSs, called
+ Join Implication Reasoning
+ (JIR). Our core insight is that the execution results of one or more join types allow us to infer the oracle of a semantic-related target join type. As an illustration, the execution results of
+ Inner Join
+ and
+ Anti Join
+ can be combined to infer the expected result of
+ Left Join
+ performed over the same left-hand side and right-hand side under the same join predicate. JIR validates joins by exploiting the join semantics of each individual DBMS itself for reasoning, and finds join logic bugs if the execution result of the target join fails to match the inferred oracle. We realized our approach and evaluated it on 11 extensively tested DBMSs: SQLite, MySQL, CockroachDB, ClickHouse, DuckDB, TiDB, MonetDB, Umbra, Dolt, CrateDB and PostgreSQL. Overall, JIR found 100 unique, previously unknown join bugs, of which 91 were fixed and 9 were verified by DBMS vendors, with 69 being join logic bugs. We expect that the generality and practicality of our approach will make it widely adoptable for understanding and testing
+ Join.

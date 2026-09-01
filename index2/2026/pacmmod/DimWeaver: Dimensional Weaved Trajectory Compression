@@ -1,0 +1,12 @@
+
+ High-resolution trajectory data form the basis for numerous applications involving marine and air traffic, drone and robotic navigation, and the study of human mobility in unconstrained environments. These applications often generate challenging 2D/3D movement data that span vast, freely navigable geographic areas. In this work, we introduce DimWeaver, a new trajectory simplification scheme which removes redundancies in trajectory representations by combining three novel techniques: i)
+ decoupling
+ of trajectories to constituent 1D components to exploit kinematic linearities per individual dimension, ii)
+ weaving
+ error allocation, allowing a constituent dimension to momentarily absorb more error, thus simplifying localized, complex movements more effectively, and iii)
+ grouping
+ 1D movements with similar velocity scalar values
+ within
+ and
+ across
+ dimensions, into the fewest possible groups, to enhance space-efficiency. Our experiments on eight datasets from diverse domains show that DimWeaver consistently outperforms existing baselines in terms of compression ratio. Moreover, for equivalent compression ratios, DimWeaver reconstructs the original trajectories more accurately, achieving significantly lower Root Mean Squared Error.

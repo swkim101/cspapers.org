@@ -1,0 +1,10 @@
+
+ Inverted indexes (a.k.a. posting lists) are core data structures in search engines and database systems, where compression is crucial to reduce memory footprint and accelerate query processing. The key challenge lies in encoding a sorted list of integer identifiers in a compact, lossless form while supporting fast decoding. Motivated by recent studies on learned data structures, this work presents
+ LICO,
+ a novel
+ L
+ earned
+ I
+ nverted index
+ CO
+ mpression framework that encodes sorted integers with error-bounded machine learning models and auxiliary residual arrays for lossless reconstruction. Compared to classical schemes such as P4Delta and Elias-Fano, and recent learning-based approaches such as LA-vector and LeCo, LICO offers three key advantages: (1) a succinct data structure explicitly designed for leveraging parallelism offered by modern hardware; (2) fully automatic adaptation to data distributions without hand-tuned hyperparameters; and (3) rigorous theoretical guarantees on compression ratios. Extensive experiments on web-scale datasets and query workloads show that LICO achieves Pareto-optimal trade-offs between index size and query latency. All code and artifacts are available at: https://github.com/xianyuzhuruc/LICO.

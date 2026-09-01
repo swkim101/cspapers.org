@@ -1,0 +1,1 @@
+Memory traces capturing GPU operations over modern scale-up fabrics (e.g., load/store accesses, ordering events, synchronization, and communication behavior) enable a broad set of research directions for next-generation AI infrastructure.

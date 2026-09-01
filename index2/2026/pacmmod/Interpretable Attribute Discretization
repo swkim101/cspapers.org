@@ -1,0 +1,18 @@
+
+ Data discretization, the conversion of numeric attributes into categorical bins, underpins many data-driven tasks, from visualization and causal analysis to symbolic learning.
+ Interpretable partitions
+ make results easier to communicate and act upon. Yet, a fundamental tension underlies this discretization process: partitions that are interpretable to humans often differ from those that maximize utility performance (e.g., causal analysis). Despite the abundance of discretization techniques, reconciling this utility-semantics trade-off remains an open challenge.
+ 
+ 
+ In this work, we formally define the interpretable attribute discretization problem and introduce a reinforcement-learning-based framework that jointly optimizes utility and semantic fidelity. Our approach
+ learns a partition selection policy
+ that can navigate a vast space of candidates and accurately estimate the optimal partitions by strategically sampling only 200 candidates out of millions.
+ 
+ 
+ We measure success by the average Hausdorff distance between the estimated and true
+ Pareto frontier
+ of the utility–semantics trade-off. On seven datasets across four tasks (visualization, modeling, imputation, causal analysis) and multiple semantic measures, our method achieves the lowest overall error, typically
+ 2–4
+ ×
+ smaller
+ than strong alternatives, yielding a more accurate Pareto frontier that reveals the complete utility–semantics trade-off.

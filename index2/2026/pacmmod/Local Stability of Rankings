@@ -1,0 +1,10 @@
+
+ Rankings play a crucial role in decision-making. However, if minor changes to items significantly alter their rankings, the quality of the decisions being made can be compromised. The stability of ranking is a measure used to assess how modifications to the ranking algorithm or data affect results. While previous work has focused on stability of the ranking under changes to the algorithm, we introduce a novel measure we refer to as
+ local stability
+ . Local stability indicates the effect of minor changes to the values of an item in the ranking on its rank. Our proposed definition furthermore takes into account the presence of multiple items with similar qualities in the ranking, called
+ dense regions,
+ permitting minor modifications to swap the positions of items within the region. We show that computing this measure in general is hard, and in turn propose a relaxation of the definition to admit approximation. We present
+ (i)
+ LStability, a sampling-based algorithm for approximating local stability, on which we make probably-approximately-correct-type guarantees through the use of concentration inequalities, and
+ (ii)
+ Detect-Dense-Region, an algorithm based on this approach to detect the dense region an item lies in, if it exists. We introduce a number of optimizations to our algorithms to improve their scalability and efficiency. We validate our proposed framework through an extensive suite of experiments, including case studies highlighting the utility of our definitions.

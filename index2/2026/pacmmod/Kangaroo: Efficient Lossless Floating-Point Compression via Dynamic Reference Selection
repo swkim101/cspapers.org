@@ -1,0 +1,10 @@
+
+ To address the dual challenges of data transmission and storage in Internet of Things (IoT) systems, the development of efficient streaming lossless compression algorithms for floating-point data has become a critical research focus. Existing XOR-based floating-point compression algorithms adopt a fixed reference selection strategy by using the immediate predecessor value as the reference. Usually, this choice is not the best, as earlier values in the data stream often provide more similar and effective references. Based on this observation, we propose dynamically searching previous values to identify the reference value that yields the best compression results for the current value. To this end, we present
+ Kangaroo,
+ an efficient lossless compression algorithm for floating-point time series that implements a dynamic reference selection. Our approach begins by establishing optimal reference selection criteria aimed at minimizing the number of encoded bits, introducing a pruning-based encoding strategy to reduce encoding overhead. We further propose a dynamic search strategy that selects reference values from an extended historical window, skipping historical data that generates suboptimal XOR results. This strategy enables precise identification of the suitable reference value while improving search efficiency. Additionally, we design a bit-flip-based erasure strategy to maximize trailing zeros, thereby comprehensively enhancing compression performance. Extensive experiments on 26 datasets demonstrate that
+ Kangaroo
+ outperforms all baseline methods across all evaluation metrics. Most notably, compared to state-of-the-art streaming compression algorithms, our algorithm achieves a
+ 23.2%
+ average improvement (peaking at
+ 98.0%
+ ) in compression ratio, with compression and decompression speeds averaging 2.13× and 2.21× (reaching up to 11.75× and 5.24×) of the baseline, respectively. This novel solution establishes comprehensive performance leadership in floating-point time-series compression, and has been applied to the Lindorm database on Alibaba Cloud since 2024, managing tens of petabytes of Internet of Vehicles (IoV) data.

@@ -1,0 +1,14 @@
+
+ Learned Compression achieves strong CPU performance but lacks a GPU-native format, limiting its use in GPU analytics. We present L3, a GPU-native Learned Lossless Lightweight Compression format that enables end-to-end on-device processing with efficient compression, high-throughput decompression, and fast random access on GPU. On NVIDIA GPUs, a warp is a group of 32 threads; we refer to each thread as a
+ lane
+ (lane id 0–31), and call a layout
+ lane-major
+ when each lane's words are stored contiguously. L3 introduces three tightly coupled components built around the SLAP Vertical layout. First, the
+ L3 Storage Layout (SLAP)
+ stores bit-packed residual streams in a
+ lane-major
+ organization, i.e., residual words are laid out lane by lane so each warp lane consumes a contiguous word sequence in memory, exploiting the GPU L1 sector cache for implicit prefetching and high reuse during unpacking. Second, the
+ Warp-Cooperative Learned Decompression Module
+ maps each partition to one thread block and decodes warp tiles using per-lane bit readers, branchless bit extraction, and a bit-exact no-FMA FP64 finite-difference predictor. Third, the
+ GPU-Native Learned Compression Pipeline
+ builds adaptive partitions via bulk delta-bits analysis, scan/compaction, and an odd-even GPU merge loop, then packs residuals directly into the final SLAP Vertical layout on the device. L3 achieves high performance on modern GPUs. It encodes 3–6× faster than Tile and FastLanes-GPU and sustains 1.08–1.90 TB/s decompression throughput, comparable to the fastest lightweight GPU codecs. On correlated datasets, L3 reaches up to 77× compression while remaining competitive on weakly correlated inputs. For random access, L3 maintains 1.2–2.6 Billion queries/s and outperforms Tile-DFOR/Tile-RFOR by 5–10×. On SSB with unified query plans, L3 achieves the lowest average latency (1.14 ms), matching or outperforming state-of-the-art GPU baselines.

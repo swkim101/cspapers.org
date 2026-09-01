@@ -1,0 +1,42 @@
+
+ We propose a novel framework for statistical estimation on noisy datasets. Within this framework, we focus on the frequency moments (
+ 
+ F
+ p
+ 
+ ) problem and demonstrate that it is possible to approximate
+ 
+ F
+ p
+ 
+ of the unknown ground-truth dataset using sublinear space in the data stream model and sublinear communication in the coordinator model, provided that the approximation ratio is parameterized by a data-dependent quantity, which we call the
+ 
+ F
+ p
+ 
+ -mismatch-ambiguity. We also establish a set of lower bounds, which are tight in terms of the input size. Our results yield several interesting insights:
+
+-In the data stream model, the
+ 
+ F
+ p
+ 
+ problem is inherently more difficult in the noisy setting than in the noiseless one. In particular, while
+ F
+ 2
+ can be approximated in logarithmic space in terms of the input size in the noiseless setting, any algorithm for
+ F
+ 2
+ in the noisy setting requires polynomial space. 
+
+-In the coordinator model, in sharp contrast to the noiseless case, achieving polylogarithmic communication in the input size is generally impossible for
+ 
+ F
+ p
+ 
+ under noise. However, when the
+ 
+ F
+ p
+ 
+ mismatch ambiguity falls below a certain threshold, it becomes possible to achieve communication that is entirely independent of the input size.

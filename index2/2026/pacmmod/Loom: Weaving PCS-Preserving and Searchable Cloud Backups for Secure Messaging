@@ -1,0 +1,9 @@
+Post-compromise security (PCS) ensures that exposure of the current secret state does not permanently compromise future security. Modern secure messaging protocols such as IETF Messaging Layer Security provide mature realizations of PCS through continuous key updates, ensuring that compromise of the current secret state does not endanger future communications. However, extending this protection to cloud backups often breaks PCS if data are encrypted under static key. While Dodis et al.'s Compact Key Storage (CKS) preserves PCS for encrypted backups, it supports only all-or-nothing retrieval, rendering keyword-based selective retrieval impractical.
+ 
+ We present Loom, the first searchable encrypted cloud backup system that preserves PCS while supporting efficient multi-keyword conjunctive search. Loom embeds data keys into the secure searchable index, eliminating the need for separate key storage and ensuring that
+ ''searchable-implies-decryptable''.
+ For group scenarios, we introduce LoomRelay, which avoids redundant uploads and ensures consistent access control under dynamic group membership. Implemented on
+ mlspp,
+ an open-source IETF MLS reference, Loom and LoomRelay outperform prior schemes. Single-message backup completes in 3-15 ms across variable cipher suites, while searching 10
+ 4
+ encrypted messages takes 9.06-28.97 s (RTT 10-100 ms, bandwidth 10-50 Mbps). Compared to CKS, which requires downloading the entire backup, Loom achieves 25×-87× faster keyword-based retrieval, with substantially lower communication and storage overhead.

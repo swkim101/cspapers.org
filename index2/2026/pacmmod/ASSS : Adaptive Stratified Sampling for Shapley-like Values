@@ -1,0 +1,25 @@
+
+ The Shapley-like values, rooted in cooperative game theory, have gained significant recognition in data valuation and query answering. Due to the exponential complexity of their exact computation, many sampling-based approaches have been developed for Shapley-like value estimation. One widely used approach is stratified sampling, where samples are stratified into
+ n
+ strata and
+ n
+ is the number of players. However, while stratified sampling offers variance reduction, its unbiasedness is contingent upon full stratum coverage, necessitating an onerous Ω(
+ n
+ 2
+ log
+ n
+ ) samples. This dependency renders static
+ n
+ -stratified sampling vulnerable under limited budgets, resulting in biased or unstable estimates. To tackle the problem, we introduce novel adaptive stratification strategies for Shapley-like values to retain unbiasedness for stratified sampling with fewer samples. Based on the intuition ''the fewer samples, the fewer strata'', we develop ASSS (
+ A
+ daptive
+ S
+ tratified
+ S
+ ampling for
+ S
+ hapley-like values). Two types of approaches ASSS-A (stratify
+ A
+ fter sample) and ASSS-B (stratify
+ B
+ efore sample) are proposed to offer flexible trade-offs between sample efficiency and memory usage. Experimental results on real and synthetic datasets exhibit the effectiveness and efficiency of ASSS-A and ASSS-B.

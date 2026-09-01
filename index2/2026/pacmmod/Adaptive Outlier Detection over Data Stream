@@ -1,0 +1,22 @@
+
+ Continuous distance-based outlier detection in streaming data poses significant challenges and has a wide range of practical applications. Traditional threshold-based methods perform well under stable streaming conditions, where fixed parameters remain effective. However, they often struggle with dynamic data distributions and high stream speeds, leading to suboptimal performance, limited control over the number of returned outliers, and failure to meet real-time detection requirements. To address these issues, this paper introduces a novel
+ R
+ ecall and
+ P
+ roportion-
+ A
+ ware
+ O
+ utlier
+ D
+ etection (RPA-OD) query. In RPA-OD, ρ defines a distance relaxation that enables real-time outlier detection. Specifically, objects with fewer than
+ k
+ neighbors within the distance threshold
+ r'
+ ∈ (
+ r
+ , (1+ρ) ⋅
+ r
+ ]
+ might
+ be classified as ρ-inliers. This relaxation introduces a trade-off between recall and efficiency, allowing the system to adapt under varying streaming conditions. We propose efficient algorithms to support RPA-OD in data streams, leveraging several novel data structures developed as part of this study. Extensive experiments on five real-world datasets show that RPA-OD significantly improves data throughput, provides precise control over the number of outliers detected, and consistently ensures real-time processing performance.

@@ -1,0 +1,12 @@
+
+ Graph Neural Architecture Search (GNAS), a subdomain of Automated Machine Learning (AutoML), aims to automate the design of graph neural network (GNN) architectures. However, GNAS is an inherently data-intensive process, as it calls for the training and evaluation of numerous candidate GNN architectures, leading to massive data access redundancy. Existing multi-GPU GNAS frameworks typically use data parallelism, which incurs high synchronization costs, or architecture parallelism, which struggles to scale to large datasets. We propose
+ FastGNAS,
+ a fast and scalable multi-GPU framework designed to tackle the data management challenges underlying GNAS.First,
+ FastGNAS
+ introduces a hybrid parallel framework that combines data and architecture parallelism, enabled by a novel ring-based model migration. Specifically, it offers an efficient data flow that exploits scalable data parallelism and isolated architecture parallelism to enable synchronization-free processing. Next, to address data redundancy,
+ FastGNAS
+ offers a specialized caching layer for intermediate data products, implemented through advanced batch management strategies including incremental storage and a probabilistic reuse policy. Finally,
+ FastGNAS
+ employs fine-grained load balancing and scheduling via exploratory task generation and predictive workload estimation, enabling purposeful resource allocation across candidate architectures. Extensive experiments show that
+ FastGNAS
+ can accelerate state-of-the-art baselines by an average of 3.14× (up to 6.18×) on diverse benchmarks, while achieving competitive accuracy.

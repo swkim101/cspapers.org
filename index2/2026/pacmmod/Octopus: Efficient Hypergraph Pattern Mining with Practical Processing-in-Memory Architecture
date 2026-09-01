@@ -1,0 +1,8 @@
+
+ \noindent
+ Hypergraph pattern mining
+ (HPM) is a key analytical primitive for discovering higher-order relationships in complex data. Despite decades of algorithmic progress, existing systems remain far from saturating available compute resources, as the memory-bound and irregular nature of hypergraph workloads severely constrains sustained throughput. Our empirical characterization shows that even
+ state-of-the-art
+ (SOTA) HPM systems achieve only a small fraction of their theoretical peak performance on real workloads. In this paper, we propose Octopus, the first full-stack hardware-software co-designed system for accelerating HPM on practical
+ processing-in-memory
+ (PIM) hardware. Octopus targets UPMEM, an emerging commercially available PIM platform that integrates thousands of lightweight in-memory compute units within standard DRAM modules. To fully exploit UPMEM's massive parallelism and bandwidth potential while addressing its stringent architectural constraints, Octopus introduces two tightly integrated components: (i) an inter-DPU coordination framework that orchestrates compact data partitioning and balanced workload distribution across thousands of DPUs, and (ii) an intra-DPU mining engine that enables efficient hyperedge-level candidate generation and asynchronous multithreaded execution. We evaluate Octopus on a real UPMEM platform using diverse real-world hypergraph workloads. Experimental results demonstrate up to 55.37×, 19.80×, 1033.89×, and 795.08× speedups over SOTA solutions HGMatch, OHMiner, Pangolin, and PimPam, respectively.

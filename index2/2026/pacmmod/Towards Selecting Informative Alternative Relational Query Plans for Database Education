@@ -1,0 +1,32 @@
+
+ Off-the-shelf
+ RDBMS
+ typically expose only the query execution plan (
+ QEP
+ ) of an
+ SQL
+ query, without presenting information about representative
+ alternative query plans
+ (
+ AQP
+ s) considered during plan selection in a
+ user-friendly
+ manner. Providing easy access to representative
+ AQP
+ s is valuable in database education, as it helps learners understand the plan choices made by a query optimizer, one of the several important components related to the topic of relational query processing. In this paper, we present a novel problem called
+ informative plan selection problem
+ (
+ tips
+ ) which aims to discover a set of
+ k
+ informative
+ AQP
+ s from the underlying plan space so that the
+ plan informativeness
+ of the set is maximized. Specifically, we explore two variants of the problem,
+ batch
+ TIPS
+ and
+ incremental
+ TIPS
+ , to cater to diverse learners. Due to the computational hardness of the problem, we present an approximation algorithm to address it efficiently while providing theoretical guarantees for the results. An extensive experimental study, including feedback from real-world learners and a three-year in-class evaluation of academic outcomes, demonstrates the effectiveness of our solutions for database education.

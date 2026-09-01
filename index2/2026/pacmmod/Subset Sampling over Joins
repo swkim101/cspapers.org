@@ -1,0 +1,10 @@
+
+ Subset sampling (also known as Poisson sampling), where the decision to include any specific element in the sample is made independently of all others, is a fundamental primitive in data analytics, enabling efficient approximation by processing representative subsets rather than massive datasets. While sampling from explicit lists is well-understood, modern applications-such as machine learning over relational data--often require sampling from a set defined implicitly by a relational join. In this paper, we study the problem of
+ subset sampling over joins
+ : drawing a random subset from the join results, where each join result is included independently with some probability. We address the general setting where the probability is derived from input tuple weights via decomposable functions (e.g., product, sum, min, max). Since the join size can be exponentially larger than the input, the naive approach of materializing all join results to perform subset sampling is computationally infeasible. We propose the first efficient algorithms for subset sampling over acyclic joins: (1) a
+ static index
+ for generating multiple (independent) subset samples over joins; (2) a
+ one-shot
+ algorithm for generating a single subset sample over joins; (3) a
+ dynamic index
+ that can support tuple insertions, while maintaining a one-shot sample or generating multiple (independent) samples. Our techniques achieve near-optimal time and space complexity with respect to the input size and the expected sample size.

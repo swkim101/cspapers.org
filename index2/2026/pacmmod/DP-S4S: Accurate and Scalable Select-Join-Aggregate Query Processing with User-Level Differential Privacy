@@ -1,0 +1,14 @@
+Answering Select-Join-Aggregate (SJA) queries with differential privacy (DP) is a fundamental problem with important applications in various domains. The current state-of-the-art methods ensure user-level DP (i.e., the adversary cannot infer the presence or absence of any given individual user with high confidence) and achieve instance-optimal accuracy on the query results. However, these solutions involve solving expensive optimization programs, which may incur prohibitive computational overhead for large databases.
+ 
+ One promising direction to achieve scalability is through sampling, which provides a tunable trade-off between result utility and computational costs. However, applying sampling to differentially private SJA processing is a challenge for two reasons. First, it is unclear
+ what to sample
+ , in order to achieve the best accuracy within a given computational budget. Second, prior solutions were not designed with sampling in mind, and their mathematical tool chains are not sampling-friendly. To our knowledge, the only known solution that applies sampling to private SJA processing is S&E, a recent proposal that (i) samples users and (ii) combines sampling directly with existing solutions to enforce DP. We show that both are suboptimal designs; consequently, even with a relatively high sample rate, the error incurred by S&E can be 10x higher than the underlying DP mechanism without sampling.
+ 
+ 
+ Motivated by this, we propose
+ Differentially Private Sampling for Scale
+ (DP-S4S), a novel mechanism that addresses the above challenges by (i) sampling
+ aggregation units
+ instead of users, and (ii) laying the mathematical foundation for SJA processing under
+ Rényi-DP
+ , which composes more easily with sampling. Further, DP-S4S can answer both scalar (e.g., COUNT, SUM, etc.) and vector (with GROUP BY predicts) SJA queries. Extensive experiments on real data demonstrate that DP-S4S enables scalable SJA processing on large datasets under user-level DP, while maintaining high result utility.

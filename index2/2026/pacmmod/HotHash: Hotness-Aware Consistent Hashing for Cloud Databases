@@ -1,0 +1,12 @@
+
+ Cloud databases often use
+ consistent hashing
+ to schedule queries because of its data locality guarantee -- scheduling the queries accessing the same data segment to the same node. This makes optimizations such as
+ caching
+ effective in reducing data I/O costs. However, consistent hashing causes load imbalance when handling skewed workloads and can lead to large query latencies. In this paper, to address this limitation, we propose HotHash, a technique that offers strong data locality and load balancing guarantees, while still preserving the key properties of consistent hashing, e.g., robustness to node changes. HotHash achieves these objectives with two key ideas: (1) range hashing that takes data hotness into consideration and (2) virtual hash ring that introduces randomness into query scheduling. More specifically, rather than mapping one data segment to one single node,
+ range hashing
+ maps it to a range of the hash ring where its length is proportional to the hotness of this data item; and it achieves so with
+ one single hash.
+ Furthermore, HotHash uses a
+ virtual hash ring
+ where the locations of nodes in the hash ring are randomized for each data segment, which randomizes nodes caching each data segment while preserving data locality for a given item. We show that HotHash is robust to node changes in that it still uses the same principles of consistent hashing to map data to the nodes. Our experimental evaluation on various workloads shows that HotHash is 1.4× to 150× faster than the state-of-the-art in average execution time and tail latency.

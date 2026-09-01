@@ -1,0 +1,11 @@
+Database Management Systems (DBMSs) serve as the backbone for efficient data access and modification through the Structured Query Language (SQL). Bugs in DBMS implementations may prevent otherwise valid statements from executing or even cause statements to return incorrect results. Prior research has primarily focused on detecting bugs in ordinary SQL statements. In contrast, prepared statements—a language feature widely used in production environments to improve the performance of repeated queries and to guard against SQL injection—have received far less attention, and the potential bugs within them remain insufficiently explored.
+ 
+ In this paper, we present a general black-box approach, termed
+ E
+ quivalent
+ P
+ repared
+ S
+ tatement
+ C
+ onstruction (EPSC), to detect logic bugs in both ordinary and prepared SQL statements. The key insight of EPSC is that Data Manipulation Language (DML) and Query Definition Language (QDL) statements can be executed in two equivalent forms—ordinary statements and prepared statements— which should exhibit consistent behavior and produce identical results. For instance, a SELECT statement can be transformed into its prepared statement form by extracting literal values as bound parameters; both forms are expected to yield the same output. Any inconsistency between them indicates the presence of a bug in the target DBMS. To evaluate the effectiveness of EPSC, we applied it to seven mature DBMSs: MySQL, MariaDB, TiDB, PostgreSQL, CockroachDB, SQLite3, and DuckDB. In total, EPSC uncovered 49 unique bugs, of which 31 have been confirmed and 10 have already been fixed. Moreover, our experimental results demonstrate that EPSC effectively detects logic bugs that existing approaches fail to identify. We believe that the simplicity and broad applicability of EPSC can significantly enhance the reliability of DBMS implementations.

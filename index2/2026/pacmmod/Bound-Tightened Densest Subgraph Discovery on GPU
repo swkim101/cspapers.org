@@ -1,0 +1,24 @@
+
+ The densest subgraph discovery (DSD) problem is a fundamental task in graph mining with applications in social networks, bioinformatics, graph databases, and systems engineering. Given a graph
+ G
+ = (
+ V, E
+ ) and an integer
+ k
+ ? 2, the goal is to find a vertex subset
+ D
+ ?
+ V
+ whose induced subgraph
+ G
+ (
+ D
+ ) maximizes the
+ k
+ -clique density, defined as the number of
+ k
+ -cliques per vertex. Larger values of
+ k
+ capture higher-order connectivity patterns beyond edges, enabling the discovery of more cohesive structures. We present a GPU-accelerated framework that integrates a warp-level
+ k
+ -clique enumeration algorithm along with clique-core–based pruning and edge pruning techniques to reduce the search space, followed by parallel connected component decomposition to split the pruned graph into independent smaller subproblems. The exact solution is then obtained by formulating DSD on each connected component as a maximum flow problem and solving it using a highly parallel vertex-centric push–relabel algorithm, enhanced with tight upper and lower density bounds and compact, GPU-friendly data structures. Experiments on a diverse set of real-world and synthetic graphs show substantial speedups over the state-of-the-art CPU implementation, while producing identical solutions.

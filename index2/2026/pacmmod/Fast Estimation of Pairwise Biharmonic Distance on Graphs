@@ -1,0 +1,19 @@
+
+ Biharmonic distance
+ (BD) is a fundamental metric that measures the dissimilarity of a node pair
+ s, t
+ in a graph, encapsulating rich local and global structural information. It has found applications across various fields, including network science, graph machine learning, and computational graphics. Existing algorithms for pairwise BD queries, including the state-of-the-art (SOTA) solution that relies on sampling a significant number of long random walks, are often computationally infeasible on large graphs. In this work, we propose two novel formulations of BD based on a pivot node, derived through novel proof techniques. These formulations enhance our theoretical understanding of BD and enable efficient approximation algorithms. Our first algorithm, B
+ ac
+ kP
+ ush
+ , is a deterministic method based on a newly established local
+ pushback
+ operation designed for BD. The second algorithm, F
+ ast
+ W
+ alk
+ , is a randomized approach that estimates BD using ℓ-truncated absorbing random walks and counting their collisions. Lastly, we introduce F
+ ast
+ T
+ ree
+ , an algorithm inspired by a novel connection between BD and spanning trees. These algorithms, tailored to leverage more prior structural knowledge (particularly the relative connectivity to the pivot node), significantly improve efficiency and versatility compared to existing methods. Extensive empirical evaluations on benchmark networks with hundreds of millions of edges demonstrate that our algorithms can produce more accurate solutions than the SOTA methods over 100 times faster.

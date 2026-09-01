@@ -1,0 +1,8 @@
+
+ Minimal perfect hashing (MPH) is a class of algorithms that maps a set of
+ N
+ keys to the range {0, 1, …,
+ N
+ -1} without collisions. MPH is widely employed in modern large-scale applications including distributed storage indexes, network packet classification, genomic encoding in Bioinformatics,
+ etc.
+ In practice, these systems are often augmented with alien-key filters to ensure robustness against unexpected inputs. This paper introduces Meep hashing, a novel minimal perfect hashing algorithm designed for ultrafast lookup with an integrated alien-key filtering mechanism. Among existing lookup systems, Meep achieves the lowest on-average and tail lookup latency while maintaining a memory footprint comparable to the most compact perfect hashing data structures. It supports configurable target false positive rates for alien-key filtering, enabling flexible trade-offs between accuracy and efficiency. The performance advantages of Meep are realized through a hybrid orchestration of Cuckoo-based and probing-based hashing techniques, combined with a collision resolution strategy that handles four distinct collision types with minimal or zero additional overhead. We implement Meep and evaluate its efficacy in lookup speed, memory footprint, and construction time using microbenchmarks. Experimental results show that Meep hashing is consistently 50% to 200% faster than the other MPHs and 100% faster than the other MHTs. Meep achieves more than 7 billion queries per second under Zipfian query key distribution on a single machine with 20 parallel lookup threads.

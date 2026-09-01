@@ -1,0 +1,28 @@
+
+ We study the problem of continually releasing statistics of an evolving dataset under differential privacy. In the event-level setting, we show the first
+ polynomial
+ lower bounds on the additive error for
+ insertions-only
+ graph problems such as maximum matching, degree histogram and
+ k
+ -core number computation. These results represent an exponential improvement on the polylogarithmic lower bounds of Fichtenberger, Henzinger and Ost [ESA 2021] for the former two problems, and are the first lower bounds in the continual release setting for the latter problem. Our results run counter to the intuition that the difference between insertions-only vs fully dynamic updates causes the gap between polylogarithmic and polynomial additive error. Indeed, we show that for estimating the size of the maximum matching or
+ k
+ -core number of a vertex, allowing small multiplicative approximations is what brings the additive error down to polylogarithmic. We complement these results with improved upper bounds on the additive error when no multiplicative approximation is allowed.
+ 
+ 
+ Beyond graphs, our techniques also show that polynomial additive error is unavoidable for the Simultaneous Norm Estimation problem in the insertions-only setting. When multiplicative approximations are allowed, we circumvent this lower bound by giving the first continual mechanism with polylogarithmic additive error under (1 + ζ) multiplicative approximations, for any ζ > 0, for estimating
+ all
+ monotone symmetric norms simultaneously.
+ 
+ 
+ In the item-level setting, we show
+ polynomial
+ lower bounds on the product of the multiplicative and the additive error of continual mechanisms for a large range of graph problems. To the best of our knowledge, these are the first lower bounds shown for any differentially private mechanism under continual release with multiplicative error. To obtain these results, we prove a new lower bound on the product of multiplicative and additive error for the 1-W
+ ay
+ -M
+ arginals
+ problem, and give reductions from 1-W
+ ay
+ -M
+ arginals
+ to our desired graph problems. This generalizes the prior results of Hardt and Talwar [STOC 2010] and Bun, Ullman and Vadhan [STOC 2014, SIAM J. Comput. 2018], who gave lower bounds on the additive error for the special case of mechanisms with no multiplicative error.

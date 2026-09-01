@@ -1,0 +1,16 @@
+
+ Efficiently managing and querying large bipartite graphs necessitates powerful indexing structures. A fundamental challenge lies in supporting (α,β)-component (bi-component) search, a task that encompasses retrieving all bi-components (bi-core search) or identifying the specific bi-component containing a query vertex (bi-community search). Existing index-based solutions face a time-space trade-off: single-dimensional approaches incur significant storage redundancy, while holistic approaches suffer from repeated vertex retrievals, hindering their scalability. To overcome these limitations, in this paper, we address this trade-off by introducing a novel, finer-grained cohesive unit, the (α,β,γ)-
+ cluster
+ (
+ bi-cluster
+ ). This unit inherently captures the
+ nested
+ and
+ overlapping
+ relationships among bi-components, enabling vertex deduplication at the index level. Building on this, we propose the
+ SGL
+ (
+ Summary Graph + Location
+ ) index, which achieves
+ zero-redundancy
+ in vertex retrieval during query processing. It organizes bi-components into a compact Summary Graph (SG) of interconnected SNodes. This structure, coupled with a precise Location mapping, allows our search algorithm to retrieve results without redundant vertex accesses, effectively decoupling query cost from the graph's global scale. Furthermore, we provide efficient construction and maintenance algorithms for dynamic bipartite graphs. Extensive experiments on ten real and synthetic large bipartite graphs demonstrate that our method outperforms the state-of-the-art by up to two orders of magnitude in query speed for bi-component search, while maintaining low storage, thus bridging the gap between fast but space-inefficient and compact but slower existing approaches.

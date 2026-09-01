@@ -1,0 +1,22 @@
+
+ Shuffling is a powerful way to amplify privacy of a local randomizer in private distributed data analysis. Most existing analyses of how shuffling amplifies privacy are based on the pure local differential privacy (DP) parameter ε
+ 0
+ . This paper raises the question of whether ε
+ 0
+ adequately captures the privacy amplification. For example, since the Gaussian mechanism does not satisfy pure local DP for any finite ε
+ 0
+ , does it follow that shuffling yields weak amplification? To solve this problem, we revisit the privacy blanket bound of Balle et al. (the
+ blanket divergence
+ ) and develop a direct asymptotic analysis that bypasses ε
+ 0
+ . Our key finding is that, asymptotically, the blanket divergence depends on the local mechanism only through a single scalar parameter χ and that this dependence is monotonic. Therefore, this parameter serves as a proxy for shuffling efficiency, which we call the
+ shuffle index.
+ By applying this analysis to both upper and lower bounds of the shuffled mechanism's privacy profile, we obtain a band for its privacy guarantee through shuffle indices. Furthermore, we derive a simple structural, necessary and sufficient condition on the local randomizer under which this band collapses asymptotically.
+ k
+ -RR families with
+ k
+ ≥3 satisfy this condition, while for generalized Gaussian mechanisms the condition may not hold but the resulting band remains tight. Finally, we complement the asymptotic theory with an FFT-based algorithm for computing the blanket divergence at finite
+ n
+ , which offers rigorously controlled relative error and near-linear running time in
+ n
+ , providing a practical numerical analysis for shuffle DP.

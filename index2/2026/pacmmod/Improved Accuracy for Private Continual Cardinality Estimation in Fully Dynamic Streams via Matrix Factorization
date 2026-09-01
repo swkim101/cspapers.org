@@ -1,0 +1,19 @@
+
+ We study differentially-private statistics in the
+ fully dynamic continual observation
+ model, where many updates can arrive at each time step and updates to a stream can involve both insertions and deletions of an item. Earlier work (e.g., Jain et al., NeurIPS 2023 for counting distinct elements; Raskhodnikova & Steiner, PODS 2025 for triangle counting with edge updates) reduced the respective cardinality estimation problem to continual counting on the
+ difference stream
+ associated with the true function values on the input stream. In such reductions, a change in the original stream can induce many changes in the difference stream. This poses a challenge for applying private continual counting algorithms to obtain optimal error bounds. We improve the accuracy of several such reductions by studying the associated ℓ
+ 
+ p
+ 
+ sensitivity vectors of the resulting difference streams and isolating their properties.
+ 
+ 
+ We demonstrate that our framework gives improved bounds for counting distinct elements, estimating degree histograms, and estimating triangle counts (under a slightly relaxed privacy model), thus offering a general approach to private continual cardinality estimation in streaming settings. Our improved accuracy stems from tight analysis of known factorization mechanisms for the counting matrix in this setting; the key technical challenge is arguing that one can use state-of-the-art factorizations for sensitivity vector sets with the properties we isolate. In particular, we show that for approximate DP, the celebrated square-root factorization of the counting matrix (Henzinger et al., SODA 2023; Fichtenberger et al., ICML 2023) can be employed to give concrete improvements in accuracy over past work based on the binary tree mechanism. We also give a tight analysis of
+ b
+ -ary tree mechanisms with subtraction under these sensitivity patterns, including a polytime routine for computing the ℓ
+ 
+ p
+ 
+ sensitivity, yielding time and space efficient algorithms for both pure and approximate DP. Empirically and analytically, we demonstrate that our improved error bounds offer a substantial improvement in accuracy for cardinality estimation problems over a large range of parameters.

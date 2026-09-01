@@ -1,0 +1,10 @@
+
+ We investigate the fine-grained complexity of direct access to Conjunctive Query (CQ) answers according to their position, ordered by the minimum (or maximum) value between attributes. We further use the tools we develop to explore a wealth of related tasks. We consider the task of ranked enumeration under min/max orders, as well as tasks concerning a CQ with a predicate of the form
+ x
+ ≤ min
+ X
+ , where
+ X
+ is a set of variables and
+ x
+ is a single variable: counting, enumeration, direct access, and predicate elimination (i.e., transforming the pair of query and database to an equivalent pair without min-predicates). For each task, we establish a complete dichotomy for self-join-free CQs, precisely identifying the cases that are solvable in near-ideal time, i.e., (quasi)linear preprocessing time followed by constant or logarithmic time per output.

@@ -1,0 +1,16 @@
+
+ Single-node HTAP increasingly co-locates a row-store OLTP engine with a vectorized OLAP engine over the same logical database. In practice, however, systems either share a monolithic buffer cache, often incurring contention, cache pollution, and unpredictable interference, or decouple engines via log shipping and materialization pipelines, trading freshness for operational isolation. We present V
+ ista,
+ a DB–OS co-designed buffer virtualization framework that explores a middle ground via segment-granular sharing.
+ Vista
+ organizes buffer memory into huge-page-backed virtual segments: OLTP executes over
+ active
+ segments, which are periodically
+ sealed
+ into immutable regions and remapped read-only into the OLAP process. This design enforces physical isolation between ongoing OLTP writes and OLAP scans while exposing recent updates with
+ bounded and tunable
+ visibility lag determined by the sealing policy. A user-level library exports snapshot metadata at sealing boundaries and bridges the row/page–tto–tvector mismatch via on-the-fly translation with an opportunistic format cache. We implement V
+ ista
+ in PostgreSQL and integrate it with DuckDB. We quantify isolation–tfreshness tradeoffs under HTAP and show that
+ Vista
+ reduces the interference and improves query latency, achieving up to 12.8× speedup over state-of-the-art baselines.

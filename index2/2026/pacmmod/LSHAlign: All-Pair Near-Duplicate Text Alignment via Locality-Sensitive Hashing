@@ -1,0 +1,37 @@
+
+ The all-pair near-duplicate text alignment problem aims to identify all pairs of similar subsequences (i.e., contiguous token spans) between two long texts. This problem is central to many applications, including large-scale text deduplication, plagiarism detection, and bioinformatics. Given two input texts T and S, each represented as a sequence of tokens, the naive approach that compares every pair of subsequences between T and S is computationally infeasible, requiring
+ O
+ (|T|
+ 2
+ |S|
+ 2
+ k
+ ) time even when estimating Jaccard similarity via min-hash with
+ k
+ independent hash functions. To overcome this limitation, we propose an efficient framework based on Locality-Sensitive Hashing (LSH), which employs
+ m
+ ×
+ L
+ independent hash functions organized into
+ L
+ hash tables of
+ m
+ hash functions each. Our key observation is that many subsequences in a text share identical LSH values, allowing us to group them by their LSH values. We prove that the expected number of such groups for a text of length
+ n
+ is
+ O
+ (
+ nmL
+ ). We further design a data structure to represent each group in
+ O
+ (1) space. As a result, we develop an algorithm that reduces the expected time and space complexities of all-pair near-duplicate text alignment to
+ O
+ ((|T|+|S|)
+ mL
+ ), excluding the cost of outputting the pairs. This is significantly lower than the naive approach using the same number
+ k
+ =
+ m
+ ×
+ L
+ of hash functions. Experiments on large real-world datasets show an order of magnitude speedups over state-of-the-art baselines while maintaining comparable alignment accuracy.

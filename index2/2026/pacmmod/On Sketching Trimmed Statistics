@@ -1,0 +1,43 @@
+
+ We study sketching trimmed statistics of a frequency vector, including the
+ 
+ F
+ p
+ 
+ moment of the top-
+ k
+ coordinates and of the trimmed-
+ k
+ vector. Despite their natural role in robust analytics, this is the first time these problems have been studied in any sublinear space setting. For
+ p
+ ? [0,2], we obtain poly(log
+ n
+ /?)-space algorithms for both tasks when
+ k
+ is moderately large, and for general
+ k
+ we identify a sharp structural threshold that characterizes exactly when sublinear space is possible: in particular, it is actually determined by the ratio between
+ a
+ 2
+ k
+ and ?
+ x
+ 
+ -
+ k
+ 
+ ?
+ 2
+ 2
+ /
+ k
+ . We extend these results to
+ p
+ > 2 and present several applications including algorithms for thresholded
+ 
+ F
+ p
+ 
+ estimation and generalized impact indices. Notably, we improve the space bounds of Govindan, Monemizadeh, and Muthukrishnan (PODS '17) for computing the
+ h
+ -index.

@@ -1,0 +1,28 @@
+
+ Nucleus decomposition provides a unified framework for discovering hierarchically cohesive substructures in graphs by generalizing the notions of
+ k
+ -core and
+ k
+ -truss to higher-order (
+ r,s
+ )-nucleus. Existing algorithms suffer from a fundamental bottleneck: they rely on explicit enumeration of all
+ s
+ -cliques, whose number grows combinatorially with
+ s
+ . In this paper, we revisit the existing nucleus decomposition framework and present the first
+ counting-based
+ approach that eliminates explicit
+ s
+ -clique enumeration. We propose the
+ Clique Path Index,
+ a compact auxiliary structure that encodes the
+ s
+ -clique search space as concise paths, enabling direct computation, efficient dynamic updates, and connectivity maintenance during nucleus decomposition. Extensive experiments on real-world datasets demonstrate that our approach achieves an average speedup of
+ one order of magnitude
+ and up to
+ two orders of magnitude
+ for both nucleus decomposition and hierarchy construction. More importantly, while existing algorithms often time out even for small values of
+ s
+ , our method scales efficiently to larger
+ s
+ and denser graphs.

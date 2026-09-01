@@ -1,0 +1,40 @@
+
+ Intervals are ubiquitous in many applications, including temporal and uncertain databases. Range search, which retrieves all intervals that overlap a given query interval, is a key operation in such applications. As data sizes grow, range search results can become large, overwhelming users and resulting in long search times. Obtaining random samples from a large search result is a promising approach that alleviates the above issues. While for some applications, sampling range query results is adequate, others may require the complete query result. Hence, a challenging question arises: can we design a framework that efficiently handles both range search and range sampling? This work provides a positive answer. We propose FIRAS, a framework that supports range search and sampling in
+ O
+ (log
+ n
+ +
+ k
+ ) time and
+ O
+ (log
+ 2
+ n
+ +
+ s
+ ) time, respectively, with
+ O
+ (
+ n
+ ) space, where
+ k
+ (
+ s
+ ) is the range search result (sample) size, and
+ n
+ is the data size. FIRAS can also be used to know the result size
+ k
+ of a range query in
+ O
+ (log
+ 2
+ n
+ ) time; subsequently, the issuer can decide whether to retrieve all results or random samples thereof in
+ O
+ (
+ k
+ ) or
+ O
+ (
+ s
+ ) time, respectively. Finally, we extend FIRAS to apply to evolving interval data, where queries interleave with updates and both have to be supported efficiently. Our extensive experiments on real-world datasets demonstrate the efficiency of FIRAS.

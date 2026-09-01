@@ -1,0 +1,12 @@
+
+ Major Database Management Systems (DBMSs) like MySQL field a high volume of bug reports daily. Yet, reproducing database bugs from natural language reports demands substantial developer effort due to manual interpretation and trial-and-error reconstruction. Database bugs are particularly challenging because they involve reconstructing multi-dimensional states that encompass configurations, schemas, data, queries, and validation oracles, while coping with natural language ambiguity. Existing automated bug reproduction techniques, designed for stateless functional testing, cannot address the stateful, multi-dimensional nature of database bugs. We present
+ DBugScribe,
+ the first framework specifically designed to automatically synthesize validated, executable, and structured reproduction scenarios for database bugs directly from users' natural language bug reports. At its core,
+ DBugScribe
+ introduces a domain-specific language (DSL) with formal semantics to represent bug scenarios as composable specifications. A novel hybrid synthesis approach integrates LLM-based information extraction with rule-based validation and self-refinement. Evaluated on 218 confirmed bug reports from eight recent DBMS testing tools covering MySQL, TiDB, and MariaDB,
+ DBugScribe
+ achieves 72.9% reproduction success. In our setup,
+ DBugScribe
+ can synthesize and execute a reproduction scenario within minutes per report. Beyond immediate reproduction,
+ DBugScribe
+ aggregates validated scenarios into a structured knowledge base that enables systematic bug analysis and cross-DBMS bug detection. This work transforms database bug reproduction from a manual, ad-hoc process into an automated and principled discipline, advancing both software engineering practice and database reliability research.

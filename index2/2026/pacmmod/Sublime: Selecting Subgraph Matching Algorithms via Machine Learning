@@ -1,0 +1,10 @@
+
+ Subgraph matching is a fundamental problem in graph analysis that seeks all instances (or
+ embeddings)
+ of a query subgraph within a larger
+ data graph.
+ Numerous subgraph matching algorithms have been developed for efficient processing. However, the best-performing algorithm differs across query and data graphs. A previous study proposed manually designed rule-based models for selecting the algorithm to use depending on query and data characteristics. However, this rule-based model is often ineffective even on in-distribution data, let alone on graphs having the same distribution. In this paper, we propose SUBLIME, a machine-learning-based framework that selects a subgraph matching algorithm to use for the sake of efficiency, based on the query and the data. SUBLIME learns from observations of the performance of subgraph matching algorithms on different data. It comprises two key components: a
+ labeling strategy,
+ which adds labels to experimental results, and a
+ featurizer,
+ which extracts handcrafted features from datasets and queries. Our experiments in subgraph matching and subgraph coverage problems show that SUBLIME selects high-performing algorithms and improves embeddings per second by up to 36.0% and coverage by up to 46.3% over baselines.

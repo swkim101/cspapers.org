@@ -1,0 +1,23 @@
+
+ PANDA is a powerful generic algorithm for answering conjunctive queries and disjunctive datalog rules given input degree constraints. In the special case of Boolean queries with only cardinality constraints, PANDA runs in O~ (
+ N
+ subw
+ )-time, where
+ N
+ is the input size, and subw is the submodular width of the query, a notion introduced by Daniel Marx (JACM 2013) in the context of constraint satisfaction problems. When specialized to certain classes of sub-graph pattern finding problems, the O~ (
+ N
+ subw
+ ) runtime matches the optimal runtime possible, modulo some conjectures in fine-grained complexity (Bringmann and Gorbachev (STOC 25)). The PANDA framework is much more general, as it handles arbitrary input degree constraints, which capture common statistics and integrity constraints used in relational database management systems, it works for queries with free variables, and for both conjunctive queries and disjunctive datalog rules.
+ 
+ 
+ The key weakness of PANDA is the large polylog(
+ N
+ )-factor hidden in the O~ (·) notation, making it completely impractical, and falling short of what is achievable with specialized algorithms. This paper resolves this weakness with two novel ideas. First, we prove a new probabilistic inequality that upper-bounds the output size of disjunctive datalog rules under arbitrary degree constraints. Second, the proof of this inequality directly leads to a new algorithm named PANDAExpress that is both
+ simpler
+ and
+ faster
+ than PANDA. A novel feature of PANDAExpress is a new partitioning scheme that uses arbitrary hyperplane cuts instead of axisparallel hyperplanes used in PANDA. These hyperplanes are dynamically constructed based on data-skewness statistics carefully tracked throughout the algorithm's execution. As a result, PANDAExpress removes the polylog(
+ N
+ )-factor from the runtime of PANDA, matching the runtimes of intricate specialized algorithms, while retaining all its generality and power. As a bonus, we also show how PANDAExpress can handle ℓ
+ p
+ -norm constraints, which generalize degree constraints.

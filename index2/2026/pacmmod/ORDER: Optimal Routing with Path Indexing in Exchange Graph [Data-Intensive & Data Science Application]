@@ -1,0 +1,20 @@
+
+ We study the problem of optimal routing on financial exchange graphs. Given a directed graph
+ G
+ = (
+ V
+ ,
+ E
+ ) where vertices represent assets and edges encode tradable pairs with effective exchange rates and capacities, the goal is to find a sequence of routes from a source asset to a target asset that maximizes the delivered output. This problem is data-intensive and time-critical, requiring real-time decisions under fragmented liquidity, size-dependent prices, heterogeneous fees, and tight capacity limits. To address the challenges, we present ORDER:
+ O
+ ptimal
+ R
+ outing with path in
+ D
+ exing in
+ E
+ xchange g
+ R
+ aphs, a high-efficiency routing solution for fast, iterative execution in financial exchange graphs. ORDER introduces a hierarchical bucket path index that localizes maintenance to impacted candidates and eliminates expensive global rescans. It further incorporates lazy computation and an adaptive controller for active-bucket sizing to stabilize update cost under discrete tier shifts and heterogeneous market depths. On real-world DeFi datasets, ORDER achieves up to
+ 114×
+ speedup over state-of-the-art routers while preserving execution quality.We also demonstrate robustness across market regimes and token pairs, enabling timely, high-quality routing.

@@ -1,0 +1,7 @@
+
+ D-core decomposition (DCD)
+ identifies groups of nodes with strong cohesion \dmsat different levels of granularity, supporting e.g. clustering and community detection in
+ directed graphs.
+ Given the inefficiency of computing DCD, the computational power of GPUs is an attractive target. However, existing algorithms are ill-suited due to their restrictive programming model, as well as memory constraints in the widely available consumer-level GPUs. In particular, we show that any trivial adaptation of peeling algorithms, state-of-the-art for DCD, suffers from workload imbalance, redundant operations, and repeated atomic operations. To address these challenges, we propose a novel dynamic strategy to balance the computation on nodes with varying vertex degree and an enumeration-based lightweight memory footprint with greatly reduced thread contention. We conduct extensive experiments on 12 datasets showing that
+ Geld
+ achieves an average speedup of 31× over GPU peeling DCD, 6× over GPU H-Index DCD, 22× over the best existing parallel DCD algorithm with 33% memory efficiency, and 3 orders of magnitude over the best serial DCD algorithm.

@@ -1,0 +1,77 @@
+<jats:p>
+                    An oblivious subspace embedding (OSE), characterized by parameters
+                    <jats:italic toggle="yes">m,n,d</jats:italic>
+                    ,∈,δ, is a random matrix ∏∈ ℝ
+                    <jats:italic toggle="yes">m</jats:italic>
+                    x
+                    <jats:italic toggle="yes">n</jats:italic>
+                    such that for any
+                    <jats:italic toggle="yes">d</jats:italic>
+                    -dimensional subspace
+                    <jats:italic toggle="yes">T</jats:italic>
+                    ⊆ ⊏
+                    <jats:sub>
+                      <jats:italic toggle="yes">n</jats:italic>
+                    </jats:sub>
+                    , Pr
+                    <jats:sub>∏[</jats:sub>
+                    [∀
+                    <jats:italic toggle="yes">x</jats:italic>
+                    ∈
+                    <jats:italic toggle="yes">T</jats:italic>
+                    , (1-∈)||
+                    <jats:italic toggle="yes">x</jats:italic>
+                    ||
+                    <jats:sub>2</jats:sub>
+                    ≤(1+∈)||
+                    <jats:italic toggle="yes">x</jats:italic>
+                    ||
+                    <jats:sub>2</jats:sub>
+                    ] ≥(1-δ). When an OSE has
+                    <jats:italic toggle="yes">s</jats:italic>
+                    ≤ 1/2.001≬ nonzero entries in each column, we show it must hold that
+                    <jats:italic toggle="yes">m</jats:italic>
+                    = Ω(
+                    <jats:italic toggle="yes">d</jats:italic>
+                    <jats:sup>2</jats:sup>
+                    /(∈
+                    <jats:sup>2</jats:sup>
+                    <jats:italic toggle="yes">s</jats:italic>
+                    <jats:sup>1+O(δ</jats:sup>
+                    )), which is the first lower bound with multiplicative factors of
+                    <jats:italic toggle="yes">d</jats:italic>
+                    <jats:sup>2</jats:sup>
+                    and 1/∈, improving on the previous Ω(
+                    <jats:italic toggle="yes">d</jats:italic>
+                    <jats:sup>2</jats:sup>
+                    /
+                    <jats:italic toggle="yes">s</jats:italic>
+                    <jats:sup>O(δ)</jats:sup>
+                    ) lower bound due to Li and Liu (PODS 2022). When an OSE has
+                    <jats:italic toggle="yes">s</jats:italic>
+                    =Ω(log(1/∈)/∈) nonzero entries in each column, we show it must hold that
+                    <jats:italic toggle="yes">m</jats:italic>
+                    = Ω((
+                    <jats:italic toggle="yes">d</jats:italic>
+                    /∈)1+1/4.001∈
+                    <jats:italic toggle="yes">s</jats:italic>
+                    /
+                    <jats:italic toggle="yes">s</jats:italic>
+                    <jats:sup>O(δ)</jats:sup>
+                    ), which is the first lower bound with multiplicative factors of
+                    <jats:italic toggle="yes">d</jats:italic>
+                    and 1/𘆘, improving on the previous Ω (
+                    <jats:italic toggle="yes">d</jats:italic>
+                    <jats:sup>
+                      1+1/(16∈
+                      <jats:italic toggle="yes">s</jats:italic>
+                      +4)
+                    </jats:sup>
+                    ) lower bound due to Nelson and Nguyên (ICALP 2014). This second result is a special case of a more general trade-off among
+                    <jats:italic toggle="yes">d</jats:italic>
+                    ,∈,
+                    <jats:italic toggle="yes">s</jats:italic>
+                    ,δ and
+                    <jats:italic toggle="yes">m</jats:italic>
+                    .
+                  </jats:p>

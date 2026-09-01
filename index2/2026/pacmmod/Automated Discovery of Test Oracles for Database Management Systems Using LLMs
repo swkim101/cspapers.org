@@ -1,0 +1,9 @@
+
+ Since 2020, automated testing for Database Management Systems (DBMSs) has flourished, uncovering hundreds of bugs in widely-used systems. A cornerstone of these techniques is
+ test oracle
+ , which typically implements a mechanism to generate equivalent query pairs, and subsequently runs the pair and identifies bugs by checking the consistency of their results. While running these oracles can be automated, designing the mechanism to generate equivalent queries remains a fundamentally manual endeavor. This paper explores the use of large language models (LLMs) to automate the discovery of equivalent queries in the design of test oracles, addressing a long-standing bottleneck towards fully automated DBMS testing.
+ 
+ 
+ Although LLMs demonstrate impressive creativity, they are prone to hallucinations that can produce numerous false positive bug reports. Furthermore, their high monetary cost and latency mean that LLM invocations should be limited to ensure that bug detection is efficient and economical. To this end, we introduce Argus, a novel framework built upon the core concept of the
+ Constrained Abstract Query
+ —a SQL skeleton containing placeholders and their associated instantiation conditions, e.g., the placeholder must be filled by a Boolean column. Argus uses LLMs to generate pairs of these skeletons, with their equivalence formally proven using a SQL equivalence solver to ensure soundness. After that, the placeholders in the verified skeletons are instantiated with concrete, reusable SQL snippets that are also synthesized by LLMs to produce complex test cases. We have implemented Argus and evaluated it on five extensively tested DBMSs, discovering 41 previously unknown bugs, 36 of which are logic bugs, with 36 confirmed and 27 already fixed by the developers. The artifacts for Argus are available at https://github.com/joyemang33/Argus

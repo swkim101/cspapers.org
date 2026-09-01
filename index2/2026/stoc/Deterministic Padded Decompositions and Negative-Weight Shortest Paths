@@ -1,0 +1,1 @@
+We obtain the first near-linear time deterministic algorithm for negative-weight single-source shortest paths on integer-weighted graphs. Our main ingredient is a deterministic construction of a padded decomposition on directed graphs, which may be of independent interest.

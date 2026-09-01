@@ -1,0 +1,33 @@
+
+ Representative sampling, which extracts a small subset of representative instances from massive, high-dimensional vector data, is useful for many applications, such as visualization, model prototyping, and data exploration. Existing methods often suffer from either
+ over-representing dense regions while neglecting sparse ones
+ or
+ failing to capture fine-grained data distributions
+ . To address these challenges, we study representative sampling with two objectives:
+ global coverage
+ and
+ local fidelity
+ . Specifically, given a dataset
+ D
+ and a sampling ratio ρ ∈ (0, 1], we seek a subset
+ S
+ ⊆
+ D
+ with |
+ S
+ |=ρ|
+ D
+ | that minimizes the local-fidelity cost subject to a global-coverage constraint. Here, the global coverage of
+ S
+ measures the average distance from data points to their nearest samples in
+ S
+ . We define local fidelity by comparing local intrinsic dimensionality (LID) estimates computed on
+ S
+ and on the full dataset
+ D
+ at a matched evaluation scale, which measures how well fine-grained local distributions are preserved. Unfortunately, efficiently computing an optimal solution is challenging; we prove that the representative sampling problem is NP-hard.
+ 
+ 
+ To address this challenge, we first propose LASS-Lite, a heuristic that improves global coverage by selecting widely separated initial samples across diverse LID levels and then enhances local fidelity by adding their nearby neighbors. Since LASS-Lite selects neighbors for each sample independently, we further propose LASS-NA, which employs a more effective joint selection strategy by prioritizing points that can serve as shared neighbors for multiple samples. This approach better utilizes the sampling budget to improve overall local fidelity. We formulate this strategy as a submodular maximization problem, yielding an efficient greedy algorithm with a provable (1-1/
+ e
+ )-approximation guarantee. To validate the effectiveness of our methods, we conduct extensive experiments on four large-scale, real-world vector datasets. In terms of local fidelity, our algorithms use only 5.0% of the data and reduce the local fidelity cost by 58.6%-62.7% compared to three state-of-the-art competitors at similar levels of global coverage. In addition, we demonstrate the practical utility of our representative sampling in data visualization, self-supervised model prototyping, graph-based approximate nearest neighbor search (ANNS) and label-efficient model selection. Our source code is available at https://github.com/i11ume/LASS.

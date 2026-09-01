@@ -1,0 +1,42 @@
+
+ In recent years, the problem of computing the frequencies of the induced
+ k
+ -vertex subgraphs of a graph, or
+ k-graphlets,
+ has become central. One approach for this problem is to sample
+ k
+ -graphlets randomly. Classic algorithms for
+ k
+ -graphlet sampling require loading the entire graph into main memory, making them impractical for massive graphs. To bypass this limitation, Bourreau et al. (NeurIPS 2024) introduced a
+ streaming
+ algorithm that through nontrivial techniques makes only
+ O
+ (log
+ n
+ ) passes using
+ O
+ (
+ n
+ log
+ n
+ ) memory. In this work we break their
+ O
+ (log
+ n
+ )-pass bound by giving an algorithm that, for any fixed
+ c
+ > 0, makes
+ O
+ (1/
+ c
+ ) passes using Õ(
+ n
+ 
+ 1+
+ c
+ 
+ ) memory. As a consequence of their lower bound, our algorithm is optimal up to a factor of Õ (n
+ c
+ ) in the memory usage. We use this sampling algorithm to obtain an efficient method of approximating
+ k
+ -graphlet distributions. Experiments on real-world and synthetic graphs show that our algorithm is always at least as good as the one of Bourreau et al., and outperforms it by orders of magnitude on mildly dense graphs.

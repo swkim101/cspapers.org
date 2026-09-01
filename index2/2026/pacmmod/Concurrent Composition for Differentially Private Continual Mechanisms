@@ -1,0 +1,19 @@
+
+ Many intended uses of differential privacy involve a
+ continual mechanism
+ that is set up to run continuously over a long period of time, making more statistical releases as either queries come in or the dataset is updated. In this paper, we give the first general treatment of privacy against
+ adaptive
+ adversaries for mechanisms that support dataset updates and a variety of queries, all arbitrarily interleaved. It also models a very general notion of neighboring, that includes both event-level and user-level privacy. We prove several
+ concurrent
+ composition theorems for continual mechanisms, which ensure privacy even when an adversary can interleave its queries and dataset updates to the different composed mechanisms. Previous concurrent composition theorems for differential privacy were only for the case when the dataset is static, with no adaptive updates. We also give the first interactive and continual generalizations of the ''parallel composition theorem'' for noninteractive differential privacy. Specifically, we show that the analogue of the noninteractive parallel composition theorem holds if either there are no adaptive dataset updates or each of the composed mechanisms satisfies pure differential privacy, but it fails to hold for composing approximately differentially private mechanisms with dataset updates. Thus, we prove a tight new composition theorem for this case. In addition, we prove concurrent filter compositions theorems for the scenarios in which the privacy parameters are adaptively chosen. We extend these results to other measures of differential privacy, including Rényi DP and ƒ-DP.
+ 
+ 
+ We then formalize a set of general conditions on a continual mechanism
+ 
+ M
+ 
+ that runs multiple continual sub-mechanisms such that the privacy guarantees of
+ 
+ M
+ 
+ follow directly using the above concurrent composition theorems on the sub-mechanisms, without further privacy loss. This enables us to give a simpler and modular privacy analysis of a recent continual histogram mechanism of Henzinger, Sricharan, and Steiner. In the case of approximate DP, ours is the first proof that shows that its privacy holds against adaptive adversaries. We also provide a framework that simplifies the analysis of local differential privacy when the protocol includes multi-round server-user interactions. Using this result, we simplify the privacy analysis of the core decomposition protocol of Dhulipala, Henzinger, Li, Liu, Sricharan, and Zhu.

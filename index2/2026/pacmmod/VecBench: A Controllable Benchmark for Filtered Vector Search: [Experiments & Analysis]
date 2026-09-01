@@ -1,0 +1,11 @@
+
+ As vector databases become increasingly critical to supporting large language models (LLMs), efficient and effective vector data retrieval has become imperative.
+ Filtered vector search
+ , which retrieves relevant vectors under scalar filter constraints, has recently attracted significant attention. However, existing benchmarks for evaluating filtered vector search have three major limitations. First, they rely on simple, low-dimensional datasets that fail to reflect real-world scenarios involving thousands of dimensions and millions of records. Second, they use random filter values, resulting in trivial query plans that do not adequately challenge modern vector database optimizers. Third, they lack a unified evaluation metric to comprehensively quantify end-to-end performance.
+ 
+ 
+ In this work, we propose VecBench, a controllable benchmark for holistic evaluation of filtered vector search. Designing such a benchmark poses three key challenges: (1) generating high-dimensional and large-scale vector data while preserving the original similarity distribution, (2) constructing representative benchmark queries that capture diverse filtered search strategies, and (3) developing a unified metric that enables fair and comprehensive comparisons under both static and dynamic scenarios. VecBench addresses these challenges through
+ controllable data generation, adjustable query synthesis,
+ and
+ end-to-end holistic benchmarking.
+ First, it can generate massive vector data with flexible dimensionality and scale while preserving the original distribution with a provable error bound. Second, it supports fine-grained workload control by varying selectivity and filter correlation, enabling systematic stress testing of different filtered search strategies. Third, it introduces a unified evaluation framework covering six phases, including concurrent query processing and dynamic update scenarios. To demonstrate the effectiveness of VecBench and to shed light on the strengths and weaknesses of different filtered vector search methods, we conduct extensive experiments on ten representative approaches across four popular vector databases.

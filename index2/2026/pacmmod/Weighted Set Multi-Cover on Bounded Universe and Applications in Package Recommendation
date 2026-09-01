@@ -1,0 +1,43 @@
+
+ The weighted set multi-cover problem is a fundamental generalization of set cover that arises in data-driven applications where one must select a small, low-cost subset from a large collection of candidates under coverage constraints. In data management settings, such problems arise naturally either as expressive database queries or as post-processing steps over query results, for example, when selecting representative or diverse subsets from large relations returned by database queries for decision support, recommendation, fairness-aware data selection, or crowd-sourcing. While the general weighted set multi-cover problem is NP-complete, many practical workloads involve a
+ bounded universe
+ of attributes or items that must be covered, leading to the Weighted Set Multi-Cover with Bounded Universe (WSMC-BU) problem, where the universe size is constant. Despite its relevance in large-scale data processing pipelines, little is known about efficient algorithms for this special case. In this paper, we develop exact and approximation algorithms for WSMC-BU. We first discuss a dynamic programming algorithm that solves WSMC-BU exactly in
+ O
+ (
+ n
+ ℓ+1
+ ) time, where
+ n
+ is the number of input sets and ℓ=O(1) is the universe size. We then present a 2-approximation algorithm based on linear programming and rounding, running in
+ O
+ (
+ 
+ ℒ
+ 
+ (
+ n
+ )) time, where
+ 
+ ℒ
+ 
+ (
+ n
+ ) denotes the complexity of solving a linear program with
+ O
+ (
+ n
+ ) variables. To further improve efficiency for large datasets, we propose a faster (2+ε)-approximation algorithm with running time
+ O
+ (
+ n
+ log
+ n
+ +
+ 
+ ℒ
+ 
+ (log
+ W
+ )), where
+ W
+ is the ratio of the total weight to the minimum weight, and ε is an arbitrary constant specified by the user. Our results provide the first practical constant-factor approximation algorithms for WSMC-BU, with approximation guarantees independent of the universe size. Extensive experiments on real and synthetic datasets demonstrate that our methods consistently outperform greedy and standard LP-rounding baselines in both solution quality and runtime, making them suitable for data-intensive selection tasks over large query outputs.

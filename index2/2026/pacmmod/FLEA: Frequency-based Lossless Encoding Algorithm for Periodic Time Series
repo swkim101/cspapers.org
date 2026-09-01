@@ -1,0 +1,9 @@
+
+ Existing lossless time series compressors surprisingly ignore the strong periodic pattern, a common characteristic that limits their effectiveness on real-world data. To address this, we design
+ FLEA
+ (Frequency-based Lossless Encoding Algorithm),
+ a novel lossless encoding scheme that exploits the frequency domain for periodic time series. While directly storing the extremely high precision frequency coefficients is obviously not an option to lossless compression, we propose to quantize the frequency coefficients and capture the corresponding low precision residuals in time domain. The core challenge is thus to optimize the trade-off between the encoding costs of the
+ quantized frequency component
+ and its
+ time-domain residual.
+ We address this by modeling it as a rate-optimal search problem, made tractable by an energy-based cost model that guides the global search for the optimal parameter. Moreover, FLEA introduces two adaptive encoders that (1) horizontally partition the frequency component for skewed and sparse coefficients, and (2) vertically partition the residual bit-width for the long-tailed distribution. Extensive experiments on a diverse suite of real-world datasets show that FLEA establishes a new state-of-the-art in compression ratio, particularly on its target periodic data, with an average improvement of 12.9% over the runner-up. Crucially, this is achieved with highly competitive throughput; its efficient decoding, more than twice as fast as its encoding, makes FLEA a powerful and practical solution for read-intensive database workloads, leading to its native implementation in Apache TsFile.

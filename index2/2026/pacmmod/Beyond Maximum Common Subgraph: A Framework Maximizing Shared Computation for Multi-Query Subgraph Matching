@@ -1,0 +1,16 @@
+
+ Subgraph matching, a fundamental operation in graph analytics, delivers all occurrences of a query pattern within a large data graph. Graph systems often require processing large batches of such queries simultaneously. The existing multi-query approaches typically aim to optimize this process by exploiting the maximum common subgraph (MCS) among query graphs. However, identifying MCS is computationally prohibitive and does not necessarily maximize computational reuse, leading to substantial redundancy and limited scalability. In this paper, we propose MASC, a novel framework for subgraph matching with
+ M
+ ulti-query
+ A
+ cceleration via
+ S
+ hared
+ C
+ omputation. We introduce
+ signature-based joint filtering
+ that enables shared computation in the filtering phase, significantly improving filtering efficiency across queries. Building on this, we propose the
+ visit-once paradigm
+ that leverages shared candidates rather than just shared structure size, ensuring each shared candidate in the data graph is processed only once and further maximizing computation sharing. To further enhance sharing, we develop the
+ shared block reuse
+ that exploits multiple overlapping substructures among queries. Compared to existing methods that leverage only a single overlap, the shared computations are further substantially increased. We conducted extensive experiments on real-world datasets across various domains. The results demonstrate that MASC achieves significant improvements, achieving substantial speedup over state-of-the-art methods, with up to two orders of magnitude improvement.

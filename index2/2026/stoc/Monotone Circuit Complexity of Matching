@@ -1,0 +1,1 @@
+We show that the perfect matching function on n-vertex graphs requires monotone circuits of size 2nΩ(1). This improves on the nΩ(logn) lower bound of Razborov (1985). Our proof uses the standard approximation method together with a new sunflower lemma for matchings.

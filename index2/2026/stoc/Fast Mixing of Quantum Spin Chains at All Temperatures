@@ -1,0 +1,1 @@
+It is shown that every one-dimensional Hamiltonian with short-range interactions admits a quantum Gibbs sampler [CKG23] with a system-size independent spectral gap at all finite temperatures. Consequently, their Gibbs states can be prepared in polylogarithmic depth, and satisfy exponential clustering of correlations, generalizing [Ara69].

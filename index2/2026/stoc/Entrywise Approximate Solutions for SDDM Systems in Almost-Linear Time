@@ -1,0 +1,1 @@
+We present an algorithm that given any invertible symmetric diagonally dominant M-matrix (SDDM), i.e., a principal submatrix of a graph Laplacian, L and a nonnegative vector b, computes an entrywise approximation to the solution of L x = b in Õ(m no(1)) time with high probability, where m is the number of nonzero entries and n is the dimension of the system.

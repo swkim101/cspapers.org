@@ -1,0 +1,16 @@
+
+ Supporting long-context LLMs is challenging due to the substantial memory demands of the key–value (KV) cache. Existing offloading systems store the full cache in host memory and selectively fetch critical entries during decoding, but this strategy quickly hits a ceiling: sparsity cannot be pushed further without degrading accuracy. As a result, when context length and batch size grow, the volume of KV transfers rises sharply and becomes the dominant source of decoding latency. We present KVD
+ rive,
+ a holistic multi-tier KV cache management system spanning GPU memory, host DRAM, and SSD. Unlike prior work that pursues greater sparsity through algorithmic refinements, KVD
+ rive
+ tackles the problem from a systems perspective—jointly orchestrating cache placement, pipeline scheduling, and cross-tier coordination to sustain high-throughput inference under tight GPU budgets. KVD
+ rive
+ advances three fundamental capabilities: it
+ adapts cache management to attention behavior
+ to maximize reuse and minimize redundant data movement; it
+ restructures the decoding pipeline
+ to overlap I/O- and CPU/GPU compute-bound stages, eliminating stalls across heterogeneous resources; and it
+ harmonizes data movement across memory tiers
+ to unlock scalable long-context inference far beyond GPU and DRAM limits. We have implemented a fully functional prototype of KVD
+ rive
+ and evaluated it on long-context benchmarks with popular LLMs. The system achieves up to 1.74× higher throughput compared to state-of-the-art works while preserving accuracy.

@@ -1,0 +1,52 @@
+
+ Log-Structured Merge-tree-based Key-Value Stores (LSM-KVS) have been optimized and redesigned for disaggregated storage via techniques such as compaction offloading to reduce the network I/Os between compute and storage. However, the constrained memory space and slow flush at the compute node severely limit the overall write throughput of existing optimizations. In this paper, we propose
+ 
+ O
+ 3
+ -LSM,
+ 
+ a fundamental new LSM-KVS architecture, that leverages the shared Disaggregated Memory (DM) to support a
+ three-layer
+ offloading, i.e., memtable
+ O
+ ffloading, flush
+ O
+ ffloading, and the existing compaction
+ O
+ ffloading. Compared to the existing disaggregated LSM-KVS with compaction offloading only, O3-LSM maximizes the write performance by addressing the above issues.
+ 
+ 
+ O3-LSM first leverages a novel
+ DM-Optimized Memtable
+ to achieve
+ dynamic memtable offloading,
+ which extends the write buffer while enabling fast, asynchronous, and parallel memtable transmission. Second, we propose
+ Collaborative Flush Offloading
+ that decouples the flush control plane from execution and supports memtable flush offloading at any node with dedicated scheduling and global optimizations. Third, O
+ 3
+ -LSM is further improved with the
+ Shard-Level Optimization,
+ which partitions the memtable into shards based on disjoint key-ranges that can be transferred and flushed independently, unlocking parallelism across shards. Besides, to mitigate slow lookups in the disaggregated setting, O
+ 3
+ -LSM also employs an adaptive
+ Cache-Enhanced Read Delegation
+ mechanism to combine a compact local cache with DM-assisted memtable delegated read. Our evaluation shows that O
+ 3
+ -LSM achieves up to
+ 
+ 4.5
+ X
+ 
+ write,
+ 
+ 5.2X
+ X
+ 
+ range query, and
+ 
+ 1.8
+ X
+ 
+ point lookup throughput improvement, and up to
+ 76%
+ P99 latency reduction compared with Disaggregated-RocksDB, CaaS-LSM, and Nova-LSM.

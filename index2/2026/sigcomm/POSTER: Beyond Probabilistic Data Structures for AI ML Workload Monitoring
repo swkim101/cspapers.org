@@ -1,0 +1,1 @@
+The rapid growth of AI models is placing unprecedented pressure on switch ASIC memory allocated for telemetry and flow monitoring. In this poster, we argue that the predictability of AI/ML traffic patterns can be exploited by perfect hashing techniques for accurate flow- and packet-tracking with minimal memory overhead.

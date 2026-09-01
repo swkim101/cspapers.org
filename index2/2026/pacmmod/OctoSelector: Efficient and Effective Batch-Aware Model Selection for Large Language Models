@@ -1,0 +1,22 @@
+
+ Large Language Models (LLMs) vary significantly in metrics such as accuracy, latency, and cost, making it challenging for users and applications to decide which model to invoke for each query. This paper presents O
+ cto
+ S
+ elector
+ , a framework for LLM selection that satisfies user-defined objectives and constraints across multiple metrics. In the pre-processing phase, O
+ cto
+ S
+ elector
+ learns difficulty-aware representations of queries based on both input and output complexity, clustering them into similar difficulty groups to enable efficient performance estimation across multiple LLMs. During inference, O
+ cto
+ S
+ elector
+ supports LLM selection for batched workload, formulating it as an Integer Linear Programming (ILP) problem that optimizes a user-defined objective (e.g., minimizing cost or latency, or maximizing accuracy) while enforcing constraints on other metrics. We evaluate O
+ cto
+ S
+ elector
+ on two types of tasks: NL2SQL using the Spider and BIRD benchmarks, and sentiment analysis using the IMDb benchmark. When optimizing for cost under accuracy and latency constraints, O
+ cto
+ S
+ elector
+ achieves up to a 67.7% cost reduction on NL2SQL tasks for batched workloads compared to state-of-the-art approaches.

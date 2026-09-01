@@ -1,0 +1,24 @@
+
+ Approximate Nearest Neighbor Search (ANNS) in high-dimensional Euclidean spaces is a fundamental problem with broad applications.
+ Subspace Collision
+ is a newly proposed ANNS framework that provides a novel paradigm for similarity search and achieves superior indexing and query performance. However, the subspace collision framework remains data-agnostic and query-oblivious, resulting in imbalanced index construction and wasted query overhead. In this paper, we address these limitations from two aspects: first, we design a subspace-oriented data transformation mechanism by averaging the entropies computed over each subspace of the transformed data, which ensures balanced subspace partitioning (in an information theoretical sense) and enables
+ data-adaptive
+ subspace collision; second, we present
+ query-aware
+ and scalable query strategies that dynamically allocate overhead for each query and accelerate collision probing within subspaces. Building on these ideas, we propose a novel data-adap
+ 
+ t
+ 
+ ive and query-
+ 
+ a
+ 
+ ware subspa
+ 
+ c
+ 
+ e c
+ 
+ o
+ 
+ llision method, abbreviated as TaCo, which achieves efficient and accurate ANN search while maintaining an excellent balance between indexing and query performance. Extensive experiments on real-world datasets demonstrate that, when compared to state-of-the-art subspace collision methods, TaCo achieves up to 8× speedup in indexing and reduces to 0.6× memory footprint, while achieving over 1.5× query throughput. Moreover, TaCo achieves state-of-the-art indexing performance and provides an effective balance between indexing and query efficiency, even when compared with advanced methods beyond the subspace-collision paradigm.

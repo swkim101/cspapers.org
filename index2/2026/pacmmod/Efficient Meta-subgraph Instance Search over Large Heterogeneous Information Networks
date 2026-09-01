@@ -1,0 +1,80 @@
+
+ A meta-subgraph (
+ 
+ M
+ 
+ ), defined as an edge-unfolded subgraph consisting of a set of connected edge types in the schema of a heterogeneous information network (HIN), generalises the classical meta-path. Although prior studies have leveraged instances of special shapes defined on the schema for tasks such as cohesive subgraph discovery, similarity measurement and recommendation, no existing work has formally defined the
+ 
+ M
+ 
+ -instance search problem and developed efficient algorithms dedicated to it. In this paper, we first generalise
+ 
+ M
+ 
+ queries and then systematically explore efficient algorithms dedicated to
+ 
+ M
+ 
+ instance search. For a given query
+ 
+ M
+ 
+ , the vertex/edge correspondences are fixed by the schema. Thus, we do not search for embeddings; instead, we directly retrieve the corresponding instance subgraphs. This avoids generating embedding permutations, although the decision version remains NP-complete. We propose two baselines adapted from backtracking and degeneracy-ordering strategies, which scale only to small HINs. We then derive a new upper bound on the number of
+ 
+ M
+ 
+ instances, |
+ Ans
+ |
+ *
+ 
+ edge
+ 
+ , a specialisation of the AGM bound, which exploits edge-type adjacency in
+ 
+ M
+ 
+ and typed edge lists. Guided by the idea of the bound, we enhance backtracking with effective pruning, achieving complexity
+ 
+ O
+ 
+ *
+ (|
+ Ans
+ |
+ *
+ 
+ edge
+ 
+ ). Extending and generalising this analysis to subgraphs of
+ 
+ M
+ 
+ adjacency and instances of subgraphs of
+ 
+ M
+ 
+ yields |
+ Ans
+ |
+ *
+ bag
+ . By fully considering the trade-off over: 1) the cost of deriving optimum subqueries, 2) the accuracy and cost of estimating the number of instances of subqueries, and 3) the cost of materialising instances of subqueries, we propose to utilise star shape subgraphs of
+ 
+ M
+ 
+ to search
+ 
+ M
+ 
+ instances, which runs in
+ 
+ O
+ 
+ *
+ (|
+ Ans
+ |
+ *
+ star
+ ) and is practically much faster due to cross-star based pruning. Experiments on large real-world HINs demonstrate that our best algorithm runs up to two orders of magnitude faster than the baselines and direct AGM-based approaches.

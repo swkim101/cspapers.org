@@ -1,0 +1,42 @@
+
+ We study ℓ
+ p
+ sampling and frequency moment estimation in a single-pass insertion-only data stream. For
+ p
+ ε (0, 2), we present a nearly space-optimal approximate ℓ
+ p
+ sampler that uses Õ (log
+ n
+ log(1/δ)) bits of space and for
+ p
+ = 2, we present a sampler with space complexity Õ (log
+ 2
+ n
+ log(1/δ)). This space complexity is optimal for
+ h
+ ε (0, 2) and improves upon prior work by a log
+ n
+ factor. We further extend our construction to a continuous ℓ
+ p
+ sampler, which outputs a valid sample index at every point during the stream.
+ 
+ 
+ Leveraging these samplers, we design nearly unbiased estimators for
+ 
+ F
+ p
+ 
+ in data streams that include forget operations, which reset individual element frequencies and introduce significant non-linear challenges. As a result, we obtain near-optimal algorithms for estimating F
+ p
+ for all
+ p
+ in this model, originally proposed by Pavan, Chakraborty, Vinodchandran, and Meel [PODS'24], resolving all three open problems they posed.
+ 
+ 
+ Furthermore, we generalize this model to what we call the suffix-prefix deletion model, and extend our techniques to estimate entropy as a corollary of our moment estimation algorithms. Finally, we show how to handle arbitrary coordinate-wise functions during the stream, for any
+ g
+ ε
+ G
+ , where
+ G
+ includes all (linear or non-linear) contraction functions.

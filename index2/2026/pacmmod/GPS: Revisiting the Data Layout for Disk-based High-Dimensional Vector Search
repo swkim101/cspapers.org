@@ -1,0 +1,10 @@
+
+ Similarity-based vector search underpins many important applications, but a key challenge is processing massive vector datasets (e.g., in TBs). To reduce costs, some systems utilize SSDs as the primary data storage. They employ a
+ proximity graph,
+ which connects similar vectors to form a graph and is the state-of-the-art index for vector search. However, these systems are hindered by sub-optimal data layouts that fail to effectively utilize valuable memory space to reduce disk access and suffer from poor locality for accessing disk-resident data. Through extensive profiling and analysis, we found that
+ the structure of the proximity graph
+ index is accessed more frequently than the
+ vectors
+ themselves, yet existing systems do not distinguish between the two. To address this problem, we design the
+ GPS
+ system with the principle of prioritizing graph structure over vectors. Specifically, GPS features a memory cache that keeps the adjacency lists of graph nodes to improve cache hits and a disk block format that explicitly stores neighbor's adjacency lists along with a vector to enhance data locality. Experimental results show that GPS consistently outperforms three state-of-the-art disk-based systems for vector search, boosting average query throughput by 52% and reducing query latency by 32% over the best baseline PipeANN.

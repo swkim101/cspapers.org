@@ -1,0 +1,41 @@
+Enumerating all matches of a regular expression with capture variables (variable regex, for short) to a document is a fundamental task in textual information extraction, e.g., in connection to document spanners. State-of-the-art results [Amarilli et al., ACM TODS 2021] show how the matches of a variable regex, representable by a sequential variable-set automaton, to a document can be enumerated with delay constant in the size of the document and polynomial in the size of the query, after a preprocessing requiring time linear in the size of the document and polynomial in the size of the query. However, the polynomial dependency on the size of the query in both the delay and the preprocessing is actually quite high: at least quadratic.
+ 
+ We consider here the matching problem for regular expressions with capture variables which can be represented as regular patterns:
+ w
+ 0
+ x
+ 0
+ w
+ 1
+ x
+ 1
+ #8230;s w
+ k
+ x
+ k
+ w
+ k
+ +1, where, for
+ i
+ ∈ {0, …
+ k
+ +1}, w
+ i
+ is a string of terminal letters and, for
+ i
+ in {0,…,
+ k
+ }, x
+ i
+ is a variable. This problem naturally lies in the intersection of information extraction and stringology, as it can also be seen as computing all the ways in which
+ k
+ +1 given strings
+ w
+ 0
+ ,…,w
+ k
+ +1 occur, in this order and without overlaps, in a given text
+ T
+ . We provide an optimal enumeration algorithm for this problem. After a preprocessing requiring linear time in the size of the document
+ T
+ and the size of the query pattern α, we can enumerate all matches with worst-case constant delay (in combined complexity, i.e., both in the document- and the query-size).

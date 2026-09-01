@@ -1,0 +1,51 @@
+
+ The maximal biclique enumeration problem in bipartite graphs is fundamental and has numerous applications in E-commerce and transaction networks, particularly in areas such as fraud detection and anomaly behavior identification. Most existing studies adopt a branch-and-bound framework, which recursively expands a partial biclique with a vertex until no further vertices can be added. Equipped with a basic pivot selection strategy, all state-of-the-art methods have a worst-case time complexity no better than
+ O
+ (
+ m
+ •(√2)
+ 
+ n
+ 
+ ), where
+ m
+ and
+ n
+ are the number of edges and vertices in the graph, respectively. In this paper, we introduce a new branch-and-bound (BB) algorithm
+ IPS.
+ In
+ IPS,
+ we relax the strict stopping criterion of existing methods by allowing termination when all maximal bicliques within the current branch can be outputted in the time proportional to the number of maximal bicliques inside, reducing the total number of branches required. Second, to fully unleash the power of the new termination condition, we propose an improved pivot selection strategy, which well aligns with the new termination condition to achieve better theoretical and practical performance. Formally,
+ IPS
+ improves the worst-case time complexity to
+ O
+ (
+ m
+ • α
+ 
+ n
+ 
+ +
+ n
+ • β), where α (≈ 1.3954) is the largest positive root of
+ x
+ 4
+ -2
+ x
+ -1=0 and β represents the number of maximal bicliques in the graph, respectively. This result surpasses that of all existing algorithms given that α is strictly smaller than √2 and β is at most (√2)
+ 
+ n
+ 
+ -2 theoretically. Furthermore, we apply an inclusion-exclusion-based framework to boost the performance of
+ IPS,
+ improving the worst-case time complexity to
+ O
+ (
+ n
+ • γ•
+ 2
+ •α
+ γ
+ + γ•β) for large sparse graphs (γ is a parameter satisfying γ «
+ n
+ for sparse graphs). Finally, we conduct extensive experiments on 15 real datasets and the results demonstrate that our algorithms can run several times faster than the state-of-the-art algorithms on real datasets.

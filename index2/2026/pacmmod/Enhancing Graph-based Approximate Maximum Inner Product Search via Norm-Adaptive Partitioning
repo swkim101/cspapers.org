@@ -1,0 +1,24 @@
+
+ The rapid development of vector databases and large language models has significantly increased the importance of the
+ Approximate Maximum Inner Product Search (AMIPS)
+ problem. Over the past decade, various approaches have been proposed to efficiently address AMIPS problems. Compared to other methods, such as those based on Locality Sensitive Hashing (LSH), proximity graph-based methods have shown superior query performance on AMIPS. However, the performance of graph-based methods for AMIPS is still not fully optimized due to the norm bias issue, while graph-based methods have demonstrated strong effectiveness for ANNS. In this paper, we theoretically analyze norm bias in MIPS and identify a
+ norm domination
+ phenomenon: results are consistently dominated by a handful of large-norm vectors, with negligible contributions from small-norm ones. Building on this observation, we propose the Norm-Adaptive Partitioning (NAP) scheme, which splits the vectors in a dataset into H
+ ead
+ , B
+ ody
+ , and T
+ ail
+ based on vector norms. The H
+ ead
+ contains a small number of large-norm vectors for exhaustive search; the T
+ ail
+ includes small-norm vectors that can be safely pruned under accuracy bounds; and the B
+ ody
+ , characterized by concentrated norms, is well-suited for conventional proximity graphs. The main challenge of the NAP strategy is balancing query accuracy and the extra cost introduced by NAP by efficiently determining the sizes of
+ ail
+ , H
+ ead
+ , and B
+ ody
+ . To address this, we further design a practical NAP algorithm that minimizes search cost while ensuring bounded accuracy. To demonstrate NAP, we introduce a hybrid index combining a lightweight structure (for example, a hash table) for the head and a proximity graph for the body. Experimental results show that NAP reduces the index size of existing proximity graphs by over 50%, and the NAP-based hybrid index enables more than 2x speedup over state-of-the-art graph-based AMIPS methods at the same recall level.

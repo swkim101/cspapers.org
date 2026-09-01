@@ -1,0 +1,11 @@
+
+ We present the first fixed-parameter tractable (FPT) algorithms for exact computation of generalized hypertree width (ghw) and fractional hypertree width (fhw). Our algorithms are parameterized by the target width, the rank, and the maximum degree of the input hypergraph. More generally, we show that testing
+ f
+ -width is in FPT for a broad class of width functions that we call
+ manageable.
+ This class contains the edge cover number ρ and its fractional relaxation ρ
+ *
+ , and thus covers both generalized and fractional hypertree width. We additionally extend our framework to also obtain an fpt algorithm for computing a discretized version of adaptive width. Our approach extends a recent algorithm for treewidth (Bojańcyk #38; Pilipczuk, LMCS 2022) that utilises monadic second-order transductions.
+ 
+ To extend this idea beyond treewidth we develop new combinatorial machinery around elimination forests in hypergraphs, culminating in a structural normal form for optimal witnesses that makes transduction-based optimisation applicable in the much more general context of manageable width functions.
+ This yields the first exact FPT algorithms for these measures under any nontrivial parameterisation and provides structural tools that may enable more direct optimisation algorithms.

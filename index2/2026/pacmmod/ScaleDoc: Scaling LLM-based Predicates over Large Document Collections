@@ -1,0 +1,10 @@
+
+ Predicates are foundational components in data analysis systems. However, modern workloads increasingly involve unstructured documents, which demands semantic understanding, beyond traditional value-based predicates. Given enormous documents and ad hoc queries, while Large Language Models (LLMs) demonstrate powerful zero-shot capabilities, their high inference cost leads to unacceptable overhead. Therefore, we introduce
+ ScaleDoc,
+ a novel system that addresses this by decoupling predicate execution into an offline representation phase and an optimized online phase. In the offline phase,
+ ScaleDoc
+ leverages a LLM to generate semantic representations for each document. Online, for each query, it adaptively trains a lightweight proxy model on these representations to filter the majority of documents, forwarding only the ambiguous cases to the LLM for final decision. Furthermore,
+ ScaleDoc
+ proposes two core innovations to achieve significant efficiency: (1) a contrastive-learning-based framework that trains the proxy model to generate reliable predicating decision scores; (2) an adaptive cascade mechanism that determines the effective filtering policy while meeting specific accuracy targets. Our evaluations across three datasets demonstrate that
+ ScaleDoc
+ achieves over a 2× end-to-end speedup and reduces expensive LLM invocations by up to 85%, making large-scale semantic analysis practical and efficient.

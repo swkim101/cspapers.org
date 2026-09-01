@@ -1,0 +1,49 @@
+
+ With the advancement of geo-positioning technologies, the terrain surface has become more and more popular and has drawn a lot of attention from academia and industry. In this paper, we propose a fundamental problem, namely
+ 
+ C
+ onstrained Shortest
+ P
+ ath Finding on
+ T
+ errain
+ S
+ urfaces (CPTS).
+ 
+ Given a source point
+ s
+ , a destination point
+ t
+ , and a set
+ P
+ of point-of-interests on the terrain surface, the goal is to find the shortest
+ s
+ -
+ t
+ path passing through all points in
+ P
+ on the terrain surface. This problem finds a plethora of applications in map services, military vehicle path planning, scientific studies, etc.
+ 
+ 
+ We prove that CPTS is an NP-hard problem. Due to its hardness, we then develop an approximation algorithm for the problem. Let
+ N
+ and
+ k
+ denote the number of vertices on the terrain surface and the number of points in
+ P
+ , respectively. The running time and space overhead of our algorithm are
+ O
+ (
+ k-N
+ log
+ 2
+ N
+ over ∈
+ 2β
+ ) and
+ O
+ (
+ k
+ over ∈
+ 2β
+ ), where ∈ is a real-valued user-specified parameter in the range of [0,1] and β is a small constant in the range of [1.5, 2]. The approximation ratio of our algorithm is 2 ⋅ (1+∈). Our theoretical analysis and empirical study both demonstrate that our algorithm significantly outperforms all baselines in terms of running time and space overhead, with a nearly identical or better approximation ratio.

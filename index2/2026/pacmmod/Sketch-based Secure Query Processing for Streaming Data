@@ -1,0 +1,6 @@
+
+ Sketching is an effective approach to dealing with high-volume streaming plaintext data with bounded memory and computing cost, while providing provable guarantees on the query accuracy. In this paper, we present a sketching framework under the model of outsourced secure multi-party computation (MPC), where data is uploaded to the computing parties in a secret-shared form. We show how our framework supports a variety of sketches, including the Count-Min Sketch, HyperLogLog, SpaceSaving, and the Greenwald-Khanna Sketch, which allow the secure evaluation of group-by aggregation queries, frequency estimation, top-
+ k
+ queries, distinct count, and rank/quantile queries. Our framework can maintain these sketches with
+ Õ
+ (1) cost per update amortized, while using a bounded amount of memory that can be configured based on the user's budget and query accuracy requirements. Experimental results show that our framework can process each stream update with an amortized cost of less than 1 ms, significantly outperforming prior work.

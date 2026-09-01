@@ -1,0 +1,10 @@
+
+ Graph-based approximate nearest neighbor search (ANNS) delivers state-of-the-art accuracy latency tradeoffs, yet index construction remains the bottleneck: fusing dense distance evaluation with irregular traversal or pruning collapses GPU throughput, and limited device memory forces costly data movement at scale. To address these problems, in this paper, we present CMANNS, a GPU-accelerated graph index construction framework that preserves the algorithmic rules of target graph (e.g., NSG and HNSW) and its query procedure. The core idea is
+ compute–memory (CM) disaggregation
+ : distance evaluation is reformulated as high–arithmetic-intensity GEMMs on Tensor Core accelerators with fused epilogues, while memory-intensive phases employ hot-set–aware on-chip locality (e.g., shared-memory staging, warp-cooperative gathers and scatters) to maximize effective bandwidth. To scale beyond the HBM capacity, we stream device-sized shards through a double-buffered pipeline and write back only compact adjacency. Data transfers and kernel execution overlap, so each shard completes in roughly the time of the slower step, keeping the GPU highly utilized even with irregular access. Across seven benchmarks, CMANNS reduces end-to-end index build time by up to
+ 13.05x
+ (vs. FAISS) and
+ 2.20x
+ (vs. FLASH), increases the cache hit rate by up to
+ 58.7%
+ , and preserves vector query latency and recall.

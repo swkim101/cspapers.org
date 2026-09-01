@@ -1,0 +1,1 @@
+We present d-HNSW, an RDMA-based vector search engine for disaggregated memory that overcomes network bottlenecks and layout fragmentation through hardware-algorithm co-designed representative index caching, RDMA-friendly remote storage layout, query-aware loading, and pipelined execution.

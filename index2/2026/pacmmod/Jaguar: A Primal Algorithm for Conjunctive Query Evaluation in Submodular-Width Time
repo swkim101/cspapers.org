@@ -1,0 +1,51 @@
+
+ The
+ submodular width
+ is a complexity measure of conjunctive queries, which assigns a nonnegative real number, subw(
+ Q
+ ), to each conjunctive query
+ Q
+ . An existing algorithm, the PANDA algorithm, performs conjunctive query evaluation in polynomial time where the exponent is essentially subw(
+ Q
+ ). Formally, for every Boolean conjunctive query
+ Q
+ , the PANDA algorithm performs conjunctive query evaluation for
+ Q
+ in time
+ O
+ (
+ N
+ 
+ subw(
+ Q
+ )
+ 
+ #8901,; polylog(
+ N
+ )), where
+ N
+ denotes the input size; moreover, there is complexity-theoretic evidence that, for a number of Boolean conjunctive queries, no exponent strictly below subw(
+ Q
+ ) can be achieved by combinatorial algorithms. On a high level, the submodular width of a conjunctive query
+ Q
+ can be described as the maximum over all polymatroids, which are set functions on the variables of
+ Q
+ that satisfy Shannon inequalities. The PANDA algorithm in a sense works in the dual space of this maximization problem, makes use of information theory, and transforms a conjunctive query into a set of disjunctive datalog programs which are individually solved.
+ 
+ 
+ In this article, we introduce a new algorithm for conjunctive query evaluation which achieves, for each Boolean conjunctive query
+ Q
+ and for all ε > 0, a running time of
+ O
+ (
+ N
+ 
+ subw(
+ Q
+ )+ ε)
+ 
+ . This new algorithm's description and analysis are, in our view, significantly simpler than those of PANDA. We refer to it as a
+ primal
+ algorithm as it operates in the primal space of the described maximization problem, by throughout maintaining a feasible primal solution, namely, a polymatroid. Indeed, this algorithm deals directly with the input conjunctive query and adaptively computes a sequence of joins, in a guided fashion, so that the cost of these join computations is bounded. Additionally, this algorithm can achieve the stated runtime for the generalization of the submodular width incorporating degree constraints. We dub our algorithm
+ Jaguar
+ , as it is a join-adaptive guided algorithm.

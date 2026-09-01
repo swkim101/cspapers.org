@@ -1,0 +1,8 @@
+
+ In this paper, we study periodic community search in temporal graphs. First, motivated by the limitations of existing arithmetic sequence-based periodicity determination method, we propose a novel
+ ??-core time series-based approach
+ for periodicity determination, which leverages time series similarity to discover periodic patterns. Based on it, we formally define the local periodic community (LPC) search problem, which aims to identify a periodic community with the highest occurrence frequency of its periodic pattern. A naive solution to LPC search is to enumerate all vertex subsets for examination, which is computationally infeasible. To this end, we develop efficient
+ time-deletion-based
+ (TD) algorithm and
+ vertex-deletion-based
+ (VD) algorithm. Specifically, the TD algorithm leverages novel temporal monotonicity and incremental generation strategies to produce high quality candidate vertex subsets to reduce the search space and devises TP-Core index to facilitate the candidate generation. The VD algorithm avoids the vertex subset enumeration by iteratively deleting vertices that cannot contribute to the final results, thereby enhancing efficiency. Extensive experiments validate the effectiveness, efficiency, and scalability of our proposed algorithms.

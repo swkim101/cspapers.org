@@ -1,0 +1,23 @@
+
+ We present an algorithm that releases a pure differentially private (under the replacement neighboring relation) sparse histogram for
+ n
+ participants over a domain of size
+ d
+ >>
+ n
+ . Our method achieves the optimal ℓ
+ ∞
+ -estimation error and runs in strictly
+ O
+ (
+ n
+ ) time in the Word-RAM model, improving upon the previous best deterministic-time bound of
+ Õ
+ (
+ n
+ 2
+ ) and resolving the open problem of breaking this quadratic barrier (Balcer and Balcer 2019). Moreover, the algorithm admits an efficient circuit implementation, enabling the first near-linear communication and computation cost pure DP histogram MPC protocol with optimal ℓ
+ ∞
+ -estimation error. Central to our algorithm is a novel
+ private item blanket
+ technique with target-length padding, which hides differences in the supports of neighboring histograms while remaining efficiently implementable.

@@ -1,0 +1,80 @@
+
+ The Single Source Personalized PageRank (SSPPR) query is a fundamental problem in graph OLAP, and has been extensively studied across various data-driven applications. For a source node s in a graph G, SSPPR measures the PPR score π (s, t ) for every node t ∈ G, where π(s, t ) is the probability that an α-decay random walk starting from s terminates at t . Despite decades of research, a significant gap remains between the known. Under two standard accuracy guarantees—absolute error (SSPPR-A), requiring |π̂(s, t ) - π (s, t ) | ≤ ε for all t, and relative error (SSPPR-R), requiring |π̂ (s, t ) ? π (s, t ) | ≤ c · π (s, t ) for all t with π (s, t ) ≥ δ-the best-known upper bounds by [6, 39, 43] collectively yield O ( min(log(1/ε )/ε
+ 2
+ , √
+ m
+ log
+ n
+ /ε,
+ m
+ log(1/ε ) ) ) for SSPPR-A and O ( min ( log(1/
+ n
+ )/δ, √
+ m
+ log(
+ n
+ /δ ),
+ m
+ log( log(
+ n
+ )/
+ m
+ δ ) )) for SSPPR-R (
+ n
+ ,
+ m
+ denote the number of nodes and edges). Meanwhile, only trivial lower bounds are known—Ω(min(
+ n
+ , 1/ε ) ) [42] and Ω(min(
+ n
+ , 1/δ ) )—leaving a substantial theoretical gap yet to be closed. This work narrows or even closes this gap. On the upper bound side, we tighten the computational complexities of the SSPPR-A and SSPPR-R queries to O(1/ε
+ 2
+ ) and O ( min ( log(1/δ )/δ,
+ m
+ +
+ n
+ log(
+ n
+ ) log( log(
+ n
+ )/
+ m
+ δ ) )) , respectively. These results improve upon the best-known bounds by factors of log(1/ε) and log( log(
+ n
+ )
+ m
+ δ ). On the lower bound side, under the standard arc-centric model,we establish sig nificantly stronger results: Ω(min(
+ m
+ , 1/ε
+ 2
+ ) ) for SSPPR-A (improving by
+ m
+ /
+ n
+ or 1/ε) and Ω(min(
+ m
+ , log(1/δ )/δ ) ) for SSPPR-R (improving by
+ m
+ /
+ n
+ or log(1/δ)). These findings substantially strengthen the theoretical foundations of PPR computation: For SSPPR-R, our new upper and lower bounds coincide for graphs with
+ m
+ ∈ Ω(
+ n
+ log
+ 2
+ (
+ n
+ )) and any threshold δ, 1/δ ∈ O(poly(
+ n
+ )), indicating that we have achieved theoretical optimality under most graph regimes; the SSPPR-A query attains partial optimality under rough absolute error requirements (i.e., larger ε), where the upper bound simplifies to O(1/ε
+ 2
+ ). This also matches our new lower bound result. To the best of our knowledge, this is the first work to establish an optimal algorithmic result for SSPPR queries. Further, our proposed techniques and results are generalizable to other relevant topics. Our lower-bound framework naturally extends to the Single-Target Personalized PageRank (STPPR) query, improving its lower bound from Ω(min(
+ n
+ , 1/δ ) ) to Ω(min(
+ m
+ ,
+ n
+ /δ · log
+ n
+ ) ) under standard arc-centric model. This new result also matches the upper bound established in [36], revealing the optimality and underscoring its theoretical versatility.

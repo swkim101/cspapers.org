@@ -1,0 +1,11 @@
+Multi-domain graph pre-training has emerged as a pivotal technique in developing graph foundation models. 
+While it greatly improves the generalization of graph neural networks, its privacy risks under membership inference attacks (MIAs), which aim to identify whether a specific instance was used in training (member), remain largely unexplored.
+However, effectively conducting MIAs against multi-domain graph pre-trained models is a significant challenge due to:
+(i) Enhanced Generalization Capability: Multi-domain pre-training reduces the overfitting characteristics commonly exploited by MIAs.
+(ii) Unrepresentative Shadow Datasets: Diverse training graphs hinder the obtaining of reliable shadow graphs.
+(iii) Weakened Membership Signals: Embedding-based outputs offer less informative cues than logits for MIAs.
+To tackle these challenges, we propose MGP-MIA, a novel framework for Membership Inference Attacks against Multi-domain Graph Pre-trained models.
+Specifically, we first propose a membership signal amplification mechanism that amplifies the overfitting characteristics of target models via machine unlearning. 
+We then design an incremental shadow model construction mechanism that builds a reliable shadow model with limited shadow graphs via incremental learning.
+Finally, we introduce a similarity-based inference mechanism that identifies members based on their similarity to positive and negative samples.
+Extensive experiments demonstrate the effectiveness of our proposed MGP-MIA and reveal the privacy risks of multi-domain graph pre-training.

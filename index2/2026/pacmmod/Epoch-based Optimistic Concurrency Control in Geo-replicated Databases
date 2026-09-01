@@ -1,0 +1,12 @@
+
+ Achieving high-performance transaction processing in geo-replicated OLTP databases is challenging due to the extensive over-coordination in distributed atomic commitment, concurrency control, and fault-tolerant replication protocols. To address this issue, we introduce
+ Minerva,
+ a unified distributed concurrency control protocol designed for highly scalable
+ multi-leader
+ replication.
+ Minerva
+ employs a novel epoch-based asynchronous replication protocol that decouples data propagation from the commitment process, enabling continuous transaction replication. Optimistic concurrency control is used to allow replicas to execute transactions concurrently and to commit without coordination. For conflict detection during validation, we construct a conflict graph and use a maximum weight independent set search algorithm to select the optimal subset of non-conflicting transactions for commitment, minimizing the number of invalid transactions. Finally, we
+ deterministically re-execute
+ conflicting transactions, ensuring serializability while eliminating aborts. Our evaluation demonstrates that
+ Minerva
+ outperforms state-of-the-art replicated databases, achieving over 3x higher throughput in scalability experiments and 2.8x higher throughput in a high-latency network simulation with the TPC-C benchmark.
