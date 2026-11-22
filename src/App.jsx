@@ -185,8 +185,8 @@ function App() {
           </div>
           <div className={(data.length === 0 && query !== "") ? undefined : "none"}>no result</div>
           {
-            data.map((e, idx) =>
-              <Paper key={`${e.title}-${e.score}-${idx}`}
+            data.map(e =>
+              <Paper key={e.index}
                 {...e} highlight={doubleQuotes(query)}
               />)
           }

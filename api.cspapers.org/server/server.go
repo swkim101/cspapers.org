@@ -1,11 +1,14 @@
 package main
 
 import (
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"flag"
 	"fmt"
 	"net/http"
 	"net/url"
+	"path"
 	"slices"
 	"strconv"
 	"strings"
@@ -42,6 +45,7 @@ func runServer(cfg *serverConfig) {
 	port := fmt.Sprintf(":%v", cfg.Port)
 
 	http.HandleFunc("/robots.txt", robots)
+	http.HandleFunc(path.Join(prefix, "abstracts/{paperId}"), handleAbstract(cfg))
 	http.HandleFunc(prefix, handle(cfg))
 	log.Printf("running on %v:%v%v", cfg.Host, cfg.Port, prefix)
 	err = http.ListenAndServe(port, nil)
@@ -70,6 +74,42 @@ func handle(cfg *serverConfig) func(http.ResponseWriter, *http.Request) {
 		log.Debugf("%#v", req)
 		res := cfg.dbimpl.Search(req)
 		json.NewEncoder(w).Encode(res)
+	}
+}
+
+func handleAbstract(cfg *serverConfig) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		if r.Method != http.MethodGet && r.Method != http.MethodHead {
+			w.Header().Set("Allow", "GET, HEAD")
+			http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+			return
+		}
+
+		id := r.PathValue("paperId")
+		if len(id) != sha256.Size*2 {
+			http.Error(w, "invalid paper ID", http.StatusBadRequest)
+			return
+		}
+		if _, err := hex.DecodeString(id); err != nil {
+			http.Error(w, "invalid paper ID", http.StatusBadRequest)
+			return
+		}
+
+		abstract, found, err := cfg.dbimpl.Abstract(id)
+		switch {
+		case err != nil:
+			log.Printf("read abstract for %s: %v", id, err)
+			http.Error(w, "could not read abstract", http.StatusInternalServerError)
+		case !found:
+			http.NotFound(w, r)
+		case abstract == "":
+			w.WriteHeader(http.StatusNoContent)
+		default:
+			w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+			w.Header().Set("X-Content-Type-Options", "nosniff")
+			fmt.Fprint(w, abstract)
+		}
 	}
 }
 

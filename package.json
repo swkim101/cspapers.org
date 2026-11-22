@@ -12,9 +12,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp .github/CNAME ./docs",
-    "preview": "vite preview",
-    "crawl": "node --max-old-space-size=8192 ./data_crawler/crawler.js",
-    "test:dupcheck": "node ./test/title_dup_check.js"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.4",

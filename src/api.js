@@ -1,4 +1,4 @@
-import { ABSTRACT_URL, API_HOST } from "./const";
+import { API_HOST } from "./const";
 
 /**
  * See api.cspapers.org/types/types.go
@@ -94,24 +94,17 @@ const marshal = (req) => {
 
 /**
  * 
- * @param {number} year
- * @param {string} venue 
- * @param {string} title 
- * @returns {[string, Error | null ]} abstract
+ * @param {string} paperId
+ * @returns {Promise<string>}
  */
-const getAbstract = async (idx) => {
-  try {
-    const res = await fetch(`${ABSTRACT_URL}/${idx}`)
-    if (res.status === 404) {
-      return ["", null]
-    } else if (!res.ok) {
-      return ["", new Error(`${res.status} ${res.statusText}`)]
-    }
-    const text = await res.text()
-    return [text, null]
-  } catch (err) {
-    return ["", err]
+const getAbstract = async (paperId) => {
+  const res = await fetch(`${API_HOST}/abstracts/${encodeURIComponent(paperId)}`, {
+    signal: AbortSignal.timeout(5_000),
+  })
+  if (!res.ok) {
+    throw new Error(`Response status: ${res.status}`)
   }
+  return res.text()
 }
 
 export {

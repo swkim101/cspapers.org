@@ -2,152 +2,215 @@ package main
 
 import (
 	"bufio"
+	"compress/gzip"
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
-	"io/fs"
 	"os"
-	"path"
 	"path/filepath"
 	"strings"
-	"sync"
 
+	"github.com/blevesearch/bleve/v2"
+	paperdb "github.com/swkim101/cspapers.org/api.cspapers.org/db/bleve"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/log"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/types"
 )
 
-var (
-	flagDebug  = flag.Bool("debug", false, "dump all logs to stdout")
-	flagConfig = flag.String("config", "conf.json", "configuration file")
+const batchSize = 1000
 
-	wg sync.WaitGroup
-)
+type buildStats struct {
+	lines       int
+	indexed     int
+	missingYear int
+	duplicates  int
+	sharedDOI   int
+}
+
+type indexedPaper struct {
+	metadataID     [sha256.Size]byte
+	abstractLength int
+}
+
+type sourcePaper struct {
+	Title    string `json:"title"`
+	Year     uint32 `json:"year"`
+	Venue    string `json:"venue_label"`
+	DOI      string `json:"doi"`
+	Abstract string `json:"abstract"`
+}
 
 func main() {
+	configPath := flag.String("config", "conf.json", "configuration file")
+	debug := flag.Bool("debug", false, "enable debug logging")
 	flag.Parse()
-	log.SetDebugFlag(*flagDebug)
-	cfg, err := LoadConfig(*flagConfig)
-	log.Debugf("%v", cfg.dbimpl)
-	if err != nil {
-		log.Fatalf("%v", err)
+	log.SetDebugFlag(*debug)
+
+	if err := run(*configPath); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
 	}
-	runIndex(cfg)
 }
 
-func runIndex(cfg *indexConfig) {
-	err := cfg.dbimpl.Ctor(cfg.ConnectionString, *flagDebug)
+func run(configPath string) error {
+	cfg, err := loadConfig(configPath)
 	if err != nil {
-		panic(err)
+		return err
 	}
-	defer cfg.dbimpl.Dtor()
-
-	root := cfg.IndexDir2
-
-	/* save crawled data first */
-	filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
-		if d.IsDir() {
-			log.Debugf("add %v", path)
-			return nil
-		}
-		index := strings.TrimPrefix(path, cfg.IndexDir2+string(os.PathSeparator))
-		year, venue, title, err := types.Decompose(index)
-		if err != nil {
-			log.Printf("parse error %v %v %v", year, err, path)
-			return err
-		}
-		/* we use semantic scholar data before 2018 */
-		if year < 2018 {
-			return nil
-		}
-		blob, err := os.ReadFile(path)
-		if err != nil {
-			log.Printf("failed to read file %v %v", path, err)
-			return err
-		}
-
-		cfg.dbimpl.Insert(&types.InsertRequest{
-			Paper: types.Paper{
-				Year:  year,
-				Venue: venue,
-				Title: title,
-			},
-			Index:    fmt.Sprintf("%v/%v", cfg.IndexDir2, index),
-			Abstract: string(blob),
-		})
-		return nil
-	})
-
-	/* save semantic schoalr data */
-	reqChan := make(chan *types.InsertRequest)
-	done := make(chan bool)
-	go indexAbs(reqChan, cfg.dbimpl.Insert, done)
-	for _, filename := range cfg.Datafiles {
-		wg.Add(1)
-		go indexTitle(filename, reqChan)
+	stats, err := buildIndex(cfg.Input, cfg.ConnectionString)
+	if err != nil {
+		return err
 	}
-	wg.Wait()
-	close(reqChan)
-	<-done
+	log.Printf("indexed %d papers from %d lines (%d missing year, %d duplicate; %d additional papers sharing a DOI) into %s",
+		stats.indexed, stats.lines, stats.missingYear, stats.duplicates, stats.sharedDOI, cfg.ConnectionString)
+	return nil
 }
 
-func indexAbs(reqChan chan *types.InsertRequest, insertFunc func(req *types.InsertRequest) error, done chan bool) {
-	for req := range reqChan {
-		absfile := path.Join("index", req.Index)
-		blob, err := os.ReadFile(absfile)
-		if err == nil {
-			req.Abstract = string(blob)
-		}
-		insertFunc(req)
-	}
-	done <- true
-}
-
-func indexTitle(filename string, reqChan chan *types.InsertRequest) {
-	file, err := os.Open(filename)
+func indexPapers(input string, index bleve.Index) (buildStats, error) {
+	var stats buildStats
+	file, err := os.Open(input)
 	if err != nil {
-		log.Fatalf("%v", err)
+		return stats, err
 	}
 	defer file.Close()
-	defer wg.Done()
-	scanner := bufio.NewScanner(file)
-	buf := make([]byte, 100000)
-	scanner.Buffer(buf, 100000)
-	var line struct {
-		CorpusId int    `json:"corpusid"`
-		Year     int    `json:"year"`
-		VenueId  string `json:"publicationvenueid"`
-		Title    string `json:"title"`
+
+	reader, err := gzip.NewReader(file)
+	if err != nil {
+		return stats, fmt.Errorf("open gzip %s: %w", input, err)
 	}
+	defer reader.Close()
+
+	seen := make(map[[sha256.Size]byte]indexedPaper)
+	batch := index.NewBatch()
+	scanner := bufio.NewScanner(reader)
+	scanner.Buffer(make([]byte, 64*1024), 4*1024*1024)
 	for scanner.Scan() {
-		dat := scanner.Bytes()
-		err := json.Unmarshal(dat, &line)
-		if err != nil {
-			panic(err)
+		stats.lines++
+		var row sourcePaper
+		if err := json.Unmarshal(scanner.Bytes(), &row); err != nil {
+			return stats, fmt.Errorf("%s:%d: %w", input, stats.lines, err)
 		}
-		/* we use cralwed data after 2018 */
-		if 2018 <= line.Year {
+		if strings.TrimSpace(row.Title) == "" || strings.TrimSpace(row.Venue) == "" {
+			return stats, fmt.Errorf("%s:%d: title and venue_label are required", input, stats.lines)
+		}
+		if row.Year == 0 {
+			stats.missingYear++
 			continue
 		}
-		id := line.CorpusId
-		dir := fmt.Sprintf("index/%v/%v/%v", int((id / 10000 / 1000)), int((id%10000)/1000), id)
-		venue, ok := idToVenue[line.VenueId]
-		if !ok {
-			log.Fatalf("unknown venue id %v in %v", line.VenueId, string(dat))
-		}
-		if alias, ok := venueAlias[venue]; ok {
-			venue = alias
-		}
-		reqChan <- &types.InsertRequest{
+
+		paper := types.InsertRequest{
 			Paper: types.Paper{
-				Title: line.Title,
-				Year:  uint32(line.Year),
-				Venue: venue,
+				Title: row.Title,
+				Year:  row.Year,
+				Venue: strings.ToLower(strings.TrimSpace(row.Venue)),
 			},
-			Index:    dir,
-			Abstract: "",
+			Abstract: row.Abstract,
+		}
+		metadataID := metadataPaperID(paper.Paper)
+		id := metadataID
+		if doi := normalizeDOI(row.DOI); doi != "" {
+			id = sha256.Sum256([]byte("doi:" + doi))
+		}
+		previous, exists := seen[id]
+		sharesDOI := exists && previous.metadataID != metadataID
+		if sharesDOI {
+			// Keep both papers when a DOI was assigned to different metadata.
+			key := "shared-doi:" + hex.EncodeToString(id[:]) + ":" + hex.EncodeToString(metadataID[:])
+			id = sha256.Sum256([]byte(key))
+			previous, exists = seen[id]
+		}
+		if exists {
+			stats.duplicates++
+			if len(paper.Abstract) <= previous.abstractLength {
+				continue
+			}
+		} else {
+			stats.indexed++
+			if sharesDOI {
+				stats.sharedDOI++
+			}
+		}
+		seen[id] = indexedPaper{metadataID: metadataID, abstractLength: len(paper.Abstract)}
+		if err := batch.Index(hex.EncodeToString(id[:]), paper); err != nil {
+			return stats, fmt.Errorf("index %s:%d: %w", input, stats.lines, err)
+		}
+		if batch.Size() >= batchSize {
+			if err := index.Batch(batch); err != nil {
+				return stats, fmt.Errorf("save Bleve batch at line %d: %w", stats.lines, err)
+			}
+			batch.Reset()
+			log.Debugf("processed %d lines (%d papers indexed)", stats.lines, stats.indexed)
 		}
 	}
 	if err := scanner.Err(); err != nil {
-		log.Fatalf("%v", err)
+		return stats, fmt.Errorf("read %s after line %d: %w", input, stats.lines, err)
 	}
+	if stats.indexed == 0 {
+		return stats, fmt.Errorf("%s: no indexable papers in %d lines", input, stats.lines)
+	}
+	if batch.Size() > 0 {
+		if err := index.Batch(batch); err != nil {
+			return stats, fmt.Errorf("save final Bleve batch: %w", err)
+		}
+	}
+	count, err := index.DocCount()
+	if err != nil {
+		return stats, fmt.Errorf("count Bleve documents: %w", err)
+	}
+	if count != uint64(stats.indexed) {
+		return stats, fmt.Errorf("expected %d Bleve documents, found %d", stats.indexed, count)
+	}
+	return stats, nil
+}
+
+func normalizeDOI(doi string) string {
+	doi = strings.ToLower(strings.TrimSpace(doi))
+	for _, prefix := range []string{"https://doi.org/", "http://doi.org/", "https://dx.doi.org/", "http://dx.doi.org/", "doi:"} {
+		if trimmed, found := strings.CutPrefix(doi, prefix); found {
+			doi = strings.TrimSpace(trimmed)
+			break
+		}
+	}
+
+	return doi
+}
+
+func metadataPaperID(paper types.Paper) [sha256.Size]byte {
+	fields, _ := json.Marshal([]any{paper.Venue, paper.Year, paper.Title})
+	return sha256.Sum256([]byte("paper:" + string(fields)))
+}
+
+func buildIndex(input, output string) (buildStats, error) {
+	var stats buildStats
+	if _, err := os.Lstat(output); err == nil {
+		return stats, fmt.Errorf("output already exists: %s", output)
+	} else if !errors.Is(err, os.ErrNotExist) {
+		return stats, err
+	}
+
+	parent := filepath.Dir(output)
+	if err := os.MkdirAll(parent, 0755); err != nil {
+		return stats, err
+	}
+	buildDir, err := os.MkdirTemp(parent, ".bleve-build-")
+	if err != nil {
+		return stats, err
+	}
+	defer os.RemoveAll(buildDir)
+
+	indexPath := filepath.Join(buildDir, "index")
+	index, err := paperdb.NewPaperIndex(indexPath)
+	if err != nil {
+		return stats, err
+	}
+	stats, err = indexPapers(input, index)
+	if err := errors.Join(err, index.Close()); err != nil {
+		return stats, err
+	}
+	if err := os.Rename(indexPath, output); err != nil {
+		return stats, fmt.Errorf("publish Bleve index: %w", err)
+	}
+	return stats, nil
 }

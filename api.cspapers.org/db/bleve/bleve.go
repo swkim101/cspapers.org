@@ -8,6 +8,7 @@ import (
 
 	"github.com/blevesearch/bleve/v2"
 	"github.com/blevesearch/bleve/v2/search/query"
+	bleveindex "github.com/blevesearch/bleve_index_api"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/db/dbimpl"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/log"
 	"github.com/swkim101/cspapers.org/api.cspapers.org/types"
@@ -15,7 +16,7 @@ import (
 )
 
 func init() {
-	dbimpl.Register("bleve", ctor, dtor, search, insert)
+	dbimpl.Register("bleve", ctor, dtor, search, insert, getAbstract)
 }
 
 var (
@@ -25,6 +26,24 @@ var (
 	batchDone chan bool
 )
 
+// NewPaperIndex creates an index with searchable and stored paper fields.
+func NewPaperIndex(path string) (bleve.Index, error) {
+	abstract := bleve.NewTextFieldMapping()
+	abstract.Analyzer = "standard"
+	title := bleve.NewTextFieldMapping()
+	title.Analyzer = "standard"
+
+	paper := bleve.NewDocumentMapping()
+	paper.AddFieldMappingsAt("abstract", abstract)
+	paper.AddFieldMappingsAt("title", title)
+	paper.AddFieldMappingsAt("year", bleve.NewNumericFieldMapping())
+	paper.AddFieldMappingsAt("venue", bleve.NewKeywordFieldMapping())
+
+	mapping := bleve.NewIndexMapping()
+	mapping.DefaultMapping = paper
+	return bleve.New(path, mapping)
+}
+
 func ctor(connStr string, debug bool) (err error) {
 	err = nil
 	flagDebug = debug
@@ -33,22 +52,7 @@ func ctor(connStr string, debug bool) (err error) {
 		index, err = bleve.Open(connStr)
 	} else if errors.Is(err, os.ErrNotExist) {
 		/* if not exist */
-		abstractFieldMapping := bleve.NewTextFieldMapping()
-		abstractFieldMapping.Analyzer = "standard"
-		titleFieldMapping := bleve.NewTextFieldMapping()
-		titleFieldMapping.Analyzer = "standard"
-		yearMapping := bleve.NewNumericFieldMapping()
-		venueMapping := bleve.NewKeywordFieldMapping()
-
-		documentMapping := bleve.NewDocumentMapping()
-		documentMapping.AddFieldMappingsAt("abstract", abstractFieldMapping)
-		documentMapping.AddFieldMappingsAt("title", titleFieldMapping)
-		documentMapping.AddFieldMappingsAt("year", yearMapping)
-		documentMapping.AddFieldMappingsAt("venue", venueMapping)
-
-		mapping := bleve.NewIndexMapping()
-		mapping.AddDocumentMapping("paper", documentMapping)
-		index, err = bleve.New(connStr, mapping)
+		index, err = NewPaperIndex(connStr)
 	}
 	if flagDebug {
 		b, err := index.Stats().MarshalJSON()
@@ -68,6 +72,20 @@ func dtor() error {
 	close(reqChan)
 	<-batchDone
 	return nil
+}
+
+func getAbstract(id string) (string, bool, error) {
+	doc, err := index.Document(id)
+	if err != nil || doc == nil {
+		return "", false, err
+	}
+	var abstract string
+	doc.VisitFields(func(field bleveindex.Field) {
+		if field.Name() == "abstract" {
+			abstract = string(field.Value())
+		}
+	})
+	return abstract, true, nil
 }
 
 func escape(str string) string {

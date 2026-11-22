@@ -1,6 +1,7 @@
 lemmas:
 	go run ./lemmas
 
+.PHONY: index
 index:
 	go run ./api.cspapers.org/index -config default.index.config
 
