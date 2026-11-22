@@ -88,12 +88,13 @@ func getAbstract(id string) (string, bool, error) {
 	return abstract, true, nil
 }
 
-func escape(str string) string {
-	target := "\\+-=&|><!(){}[]^\"~*?:/ "
-	for _, c := range target {
-		str = strings.ReplaceAll(str, string(c), "\\"+string(c))
-	}
-	return str
+func wordQueries(word string) []query.Query {
+	title := bleve.NewMatchQuery(word)
+	title.SetField("title")
+	title.SetBoost(2)
+	abstract := bleve.NewMatchQuery(word)
+	abstract.SetField("abstract")
+	return []query.Query{title, abstract}
 }
 
 func search(req *types.SearchRequest) *types.SearchResponse {
@@ -119,16 +120,17 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	req.Query = strings.TrimSpace(req.Query)
 	words := strings.Fields(req.Query)
 	isSentence := len(words) > 7
-	for idx, word := range words {
-		words[idx] = escape(word)
-	}
 
-	qs := fmt.Sprintf("title:\"%v\"^3", strings.Join(words, ""))
-	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
-	qs = fmt.Sprintf("title:\"%v\"^2", strings.Join(words, " "))
-	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
-	qs = fmt.Sprintf("abstract:\"%v\"", strings.Join(words, " "))
-	keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qs))
+	phrase := strings.Join(words, " ")
+	joinedTitle := bleve.NewMatchPhraseQuery(strings.Join(words, ""))
+	joinedTitle.SetField("title")
+	joinedTitle.SetBoost(3)
+	titlePhrase := bleve.NewMatchPhraseQuery(phrase)
+	titlePhrase.SetField("title")
+	titlePhrase.SetBoost(2)
+	abstractPhrase := bleve.NewMatchPhraseQuery(phrase)
+	abstractPhrase.SetField("abstract")
+	keywordQuery = append(keywordQuery, joinedTitle, titlePhrase, abstractPhrase)
 
 	/* Word-by-word query is expensive. So, a heuristic is here: A user may
 	 * want papers containing a specific sentence, which does not need expensive
@@ -137,14 +139,10 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 	 * query. This shows 30x faster results.
 	 */
 	if isSentence {
-		rq := fmt.Sprintf("%v", strings.Join(words, " "))
-		keywordQuery = append(keywordQuery, bleve.NewMatchQuery(rq))
+		keywordQuery = append(keywordQuery, bleve.NewMatchQuery(phrase))
 	} else {
 		for _, word := range words {
-			qsTitle := fmt.Sprintf("title:%v^2", word)
-			qsAbs := fmt.Sprintf("abstract:%v", word)
-			keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
-			keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
+			keywordQuery = append(keywordQuery, wordQueries(word)...)
 
 			/* Do not apply fuzziness for short words. Short words could be abbreviations. */
 			if 4 < len(word) {
@@ -155,10 +153,7 @@ func search(req *types.SearchRequest) *types.SearchResponse {
 			/* try different word forms */
 			if 3 < len(word) {
 				for _, wf := range wordforms.GetWordForms(word) {
-					qsTitle := fmt.Sprintf("title:%v^2", wf)
-					qsAbs := fmt.Sprintf("abstract:%v", wf)
-					keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsTitle))
-					keywordQuery = append(keywordQuery, bleve.NewQueryStringQuery(qsAbs))
+					keywordQuery = append(keywordQuery, wordQueries(wf)...)
 				}
 			}
 		}

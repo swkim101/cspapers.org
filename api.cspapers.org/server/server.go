@@ -46,6 +46,7 @@ func runServer(cfg *serverConfig) {
 
 	http.HandleFunc("/robots.txt", robots)
 	http.HandleFunc(path.Join(prefix, "abstracts/{paperId}"), handleAbstract(cfg))
+	http.Handle("/mcp", newMCPHandler(cfg.dbimpl))
 	http.HandleFunc(prefix, handle(cfg))
 	log.Printf("running on %v:%v%v", cfg.Host, cfg.Port, prefix)
 	err = http.ListenAndServe(port, nil)
@@ -87,11 +88,7 @@ func handleAbstract(cfg *serverConfig) http.HandlerFunc {
 		}
 
 		id := r.PathValue("paperId")
-		if len(id) != sha256.Size*2 {
-			http.Error(w, "invalid paper ID", http.StatusBadRequest)
-			return
-		}
-		if _, err := hex.DecodeString(id); err != nil {
+		if !isValidPaperID(id) {
 			http.Error(w, "invalid paper ID", http.StatusBadRequest)
 			return
 		}
@@ -111,6 +108,14 @@ func handleAbstract(cfg *serverConfig) http.HandlerFunc {
 			fmt.Fprint(w, abstract)
 		}
 	}
+}
+
+func isValidPaperID(id string) bool {
+	if len(id) != sha256.Size*2 {
+		return false
+	}
+	_, err := hex.DecodeString(id)
+	return err == nil
 }
 
 func unmarshal(query url.Values) (*types.SearchRequest, error) {
